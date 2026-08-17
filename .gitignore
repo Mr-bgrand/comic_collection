@@ -6,3 +6,9 @@ dist/
 Thumbs.db
 
 .cache/
+
+# Secrets. This repository is public — anything here would be published and
+# indexed. .env.example is the committed template and holds no real values.
+.env
+.env.*
+!.env.example
