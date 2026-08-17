@@ -8,6 +8,7 @@
     "lookup": "node src/scrape.js",
     "repair": "node src/rerepair.js",
     "build": "node src/build.js",
+    "print": "node src/print.js",
     "verify:print": "node src/verify-print.js"
   },
   "dependencies": {

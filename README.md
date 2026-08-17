@@ -61,16 +61,25 @@ books up again.
 ## Printing
 
 ```bash
-npm run build
+npm run print
 ```
 
-Then open and print:
+Writes ready-to-print files to [`print/`](print/), which is committed to the repo:
 
-- `dist/bin/01/label.html` — print at **4×6**, scale 100%, no headers/footers
-- `dist/bin/01/sheet.html` — print on **letter, double-sided**, scale 100%
+| File | Print as |
+| --- | --- |
+| `print/bin-01-label.pdf` | **4×6**, one page |
+| `print/bin-01-sheet.pdf` | **letter, double-sided**, two sides |
 
-Set the browser's print scaling to 100% and turn off "fit to page". The pages
-carry their own `@page` sizes, so at 100% they come out exact.
+Print the **PDFs**, not the HTML. A PDF carries its own page size, so 4×6 comes
+out 4×6; printing HTML invites the browser to silently scale it to "fit". If your
+print dialog offers scaling, set it to 100% / "actual size".
+
+The matching `.html` files are written alongside for tweaking and re-printing.
+
+`npm run build` produces the same pages under `dist/`, but `dist/` is build output
+— gitignored and wiped on every build — so use `print/` for anything you want to
+keep.
 
 ## Local preview
 
