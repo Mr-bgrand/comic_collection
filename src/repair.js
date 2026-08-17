@@ -23,7 +23,7 @@ const FFFD = '�';
  */
 export const KNOWN_NAMES = [
   // Confirmed damaged in live CGC data
-  'Grønbekk', 'Ramón', 'Yasmín', 'Montañez',
+  'Grønbekk', 'Ramón', 'Yasmín', 'Montañez', 'Moisés',
   // Frequent comics credits with non-ASCII characters
   'Pérez', 'Rodríguez', 'Gómez', 'Hernández', 'Sánchez', 'Fernández',
   'Martínez', 'Ramírez', 'Álvarez', 'Díaz', 'Núñez', 'Jiménez',

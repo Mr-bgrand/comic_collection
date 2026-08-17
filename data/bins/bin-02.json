@@ -1,0 +1,813 @@
+{
+  "bin": "02",
+  "title": "Bin 02",
+  "location": "",
+  "comics": [
+    {
+      "cert": "4381117006",
+      "title": "w0rldtr33",
+      "issue": "4",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "Image Comics",
+      "variant": "No Masss Comics Edition",
+      "grade": "9.9",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-02-09",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nFernando Blanco art\nOshred cover",
+      "keyComments": "\"The Silence of the Lambs\"\nmovie poster cover homage.\n\"Virgin\" cover.",
+      "population": {
+        "atGrade": 1,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4381117006_OBV.jpg",
+        "back": "4381117006_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T05:35:01.997Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-17T05:38:19.912Z"
+      }
+    },
+    {
+      "cert": "4381117010",
+      "title": "Something is Killing the Children",
+      "issue": "31",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "Boom! Studios",
+      "variant": "Tiny Onion Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-02-09",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nWerther Dell'Edera art\nMartin Simmonds cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 10,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4381117010_OBV.jpg",
+        "back": "4381117010_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T05:35:05.840Z",
+      "fmv": {
+        "value": null,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/something-is-killing-the-children-31-tiny-onion-edition",
+        "status": "no-sales",
+        "fetchedAt": "2026-08-17T05:38:27.246Z"
+      }
+    },
+    {
+      "cert": "4381117002",
+      "title": "G'nort's Swimsuit Edition",
+      "issue": "1",
+      "issueDate": "10/23",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "KRS Comics Edition B",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-02-09",
+      "labelCategory": "Universal",
+      "artComments": "Julie & Shawna Benson story\nMeghan Hetrick art\nWill Jack cover",
+      "population": {
+        "atGrade": 105,
+        "higher": 1,
+        "topPop": false
+      },
+      "images": {
+        "front": "4381117002_OBV.jpg",
+        "back": "4381117002_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T05:35:09.350Z",
+      "fmv": {
+        "value": 70,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": 46,
+        "avg365": 73,
+        "sold365": 8,
+        "url": "https://gocollect.com/app/comic/gnorts-illustrated-swimsuit-edition-1-krs-comics-edition-b",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T05:38:34.541Z"
+      }
+    },
+    {
+      "cert": "4381117003",
+      "title": "w0rldtr33",
+      "issue": "5",
+      "issueDate": "8/23",
+      "issueYear": "2023",
+      "publisher": "Image Comics",
+      "variant": "The Comic Corner Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-02-09",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nFernando Blanco art\nAnna Marcano cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 8,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4381117003_OBV.jpg",
+        "back": "4381117003_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T05:35:12.651Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-17T05:38:41.214Z"
+      }
+    },
+    {
+      "cert": "4381117012",
+      "title": "w0rldtr33",
+      "issue": "5",
+      "issueDate": "8/23",
+      "issueYear": "2023",
+      "publisher": "Image Comics",
+      "variant": "Near Mint Comics Edition",
+      "grade": "8.0",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-02-09",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nFernando Blanco art\nTehani Farr cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 1,
+        "higher": 9,
+        "topPop": false
+      },
+      "images": {
+        "front": "4381117012_OBV.jpg",
+        "back": "4381117012_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T05:35:16.390Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-17T05:38:48.295Z"
+      }
+    },
+    {
+      "cert": "4381117001",
+      "title": "Star Wars: Visions - Peach Momoko",
+      "issue": "1",
+      "issueDate": "1/24",
+      "issueYear": "2024",
+      "publisher": "Marvel Comics",
+      "variant": "Trinity Comics Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-02-09",
+      "labelCategory": "Universal",
+      "artComments": "Peach Momoko story, cover & art",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 28,
+        "higher": 2,
+        "topPop": false
+      },
+      "images": {
+        "front": "4381117001_OBV.jpg",
+        "back": "4381117001_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T05:35:20.472Z",
+      "fmv": {
+        "value": 70,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 55,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/star-wars-visions-peach-momoko-1-trinity-comics-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T05:38:55.428Z"
+      }
+    },
+    {
+      "cert": "4381117011",
+      "title": "w0rldtr33",
+      "issue": "5",
+      "issueDate": "8/23",
+      "issueYear": "2023",
+      "publisher": "Image Comics",
+      "variant": "Near Mint Comics Edition",
+      "grade": "9.4",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-02-09",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nFernando Blanco art\nTehani Farr cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 1,
+        "higher": 7,
+        "topPop": false
+      },
+      "images": {
+        "front": "4381117011_OBV.jpg",
+        "back": "4381117011_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T05:35:23.713Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-17T05:39:02.728Z"
+      }
+    },
+    {
+      "cert": "4381117008",
+      "title": "Death of the Venomverse",
+      "issue": "1",
+      "issueDate": "10/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Li \"Virgin\" Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-02-09",
+      "labelCategory": "Universal",
+      "artComments": "Cullen Bunn story\nGerardo Sandoval art\nLeirix cover",
+      "population": {
+        "atGrade": 26,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4381117008_OBV.jpg",
+        "back": "4381117008_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T05:35:26.980Z",
+      "fmv": {
+        "value": 75,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 78,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/death-of-venomverse-1-of-5-100-copy-incv-leirix-vir-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T05:39:10.190Z"
+      }
+    },
+    {
+      "cert": "4381117005",
+      "title": "w0rldtr33",
+      "issue": "1",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "Image Comics",
+      "variant": "Third Printing/No Masss Comics Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-02-09",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nFernando Blanco art\nS. Red Amparo cover",
+      "population": {
+        "atGrade": 15,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4381117005_OBV.jpg",
+        "back": "4381117005_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T05:35:30.155Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-17T05:39:16.692Z"
+      }
+    },
+    {
+      "cert": "4381117004",
+      "title": "w0rldtr33",
+      "issue": "1",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "Image Comics",
+      "variant": "Third Printing/No Masss Comics Edition",
+      "grade": "9.6",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-02-09",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nFernando Blanco art\nS. Red Amparo cover",
+      "population": {
+        "atGrade": 3,
+        "higher": 15,
+        "topPop": false
+      },
+      "images": {
+        "front": "4381117004_OBV.jpg",
+        "back": "4381117004_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T05:35:33.428Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-17T05:39:23.252Z"
+      }
+    },
+    {
+      "cert": "4386585005",
+      "title": "The Addiction",
+      "issue": "1",
+      "issueDate": "10/23",
+      "issueYear": "2023",
+      "publisher": "ZQ Studios",
+      "variant": "NYCC Lau \"Virgin\" Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-02-20",
+      "labelCategory": "Universal",
+      "artComments": "David Quinn & Vincent Zurzolo story\nClaudia Balboni art\nStanley \"Artgerm\" Lau cover",
+      "keyComments": "Origin & 1st appearance of\nThe Addiction (Niki Tino).\n1st appearance of Enzo & Pelotas.",
+      "population": {
+        "atGrade": 8,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4386585005_OBV.jpg",
+        "back": "4386585005_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T05:35:36.659Z",
+      "fmv": {
+        "value": null,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/the-addiction-1-nycc-lau-virgin-edition",
+        "status": "no-sales",
+        "fetchedAt": "2026-08-17T05:39:30.165Z"
+      }
+    },
+    {
+      "cert": "4386585001",
+      "title": "The Cull",
+      "issue": "1",
+      "issueDate": "8/23",
+      "issueYear": "2023",
+      "publisher": "Image Comics",
+      "variant": "Shrike Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-02-20",
+      "labelCategory": "Universal",
+      "artComments": "Kelly Thompson story\nMattia De Iulis art\nWil Shrike cover",
+      "keyComments": "Hive Comics & Bird City Comics\nexclusive. \"Virgin\" cover.",
+      "population": {
+        "atGrade": 10,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4386585001_OBV.jpg",
+        "back": "4386585001_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T05:35:39.781Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-17T05:39:37.078Z"
+      }
+    },
+    {
+      "cert": "4386585002",
+      "title": "G'nort's Swimsuit Edition",
+      "issue": "1",
+      "issueDate": "10/23",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "KRS Comics Edition A",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-02-20",
+      "labelCategory": "Universal",
+      "artComments": "Julie & Shawna Benson story\nMeghan Hetrick art\nWill Jack cover",
+      "population": {
+        "atGrade": 54,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4386585002_OBV.jpg",
+        "back": "4386585002_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T05:35:42.907Z",
+      "fmv": {
+        "value": 55,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 80,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/gnorts-illustrated-swimsuit-edition-1-krs-comics-edition-a",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T05:39:44.763Z"
+      }
+    },
+    {
+      "cert": "4386585004",
+      "title": "The Addiction",
+      "issue": "1",
+      "issueDate": "10/23",
+      "issueYear": "2023",
+      "publisher": "ZQ Studios",
+      "variant": "NYCC Mack \"Virgin\" Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-02-20",
+      "labelCategory": "Universal",
+      "artComments": "David Quinn & Vincent Zurzolo story\nClaudia Balboni art\nDavid Mack cover",
+      "keyComments": "Origin & 1st appearance of\nThe Addiction (Niki Tino).\n1st appearance of Enzo & Pelotas.",
+      "population": {
+        "atGrade": 1,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4386585004_OBV.jpg",
+        "back": "4386585004_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T05:35:46.095Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-17T05:39:51.336Z"
+      }
+    },
+    {
+      "cert": "4401613002",
+      "title": "Poison Ivy",
+      "issue": "10",
+      "issueDate": "5/23",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "Frison Foil Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-03-26",
+      "labelCategory": "Universal",
+      "artComments": "G. Willow Wilson story\nMarcio Takara art\nJenny Frison cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 42,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4401613002_OBV.jpg",
+        "back": "4401613002_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T05:35:49.783Z",
+      "fmv": {
+        "value": 70,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/poison-ivy-10",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T05:39:58.574Z"
+      }
+    },
+    {
+      "cert": "4300437002",
+      "title": "She-Hulk",
+      "issue": "12",
+      "issueDate": "6/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Variant Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-08-03",
+      "labelCategory": "Universal",
+      "artComments": "Rainbow Rowell story\nAndrés Genolet & Joe Quinones art\nJeehyung Lee cover",
+      "keyComments": "She-Hulk #175",
+      "population": {
+        "atGrade": 145,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4300437002_OBV.jpg",
+        "back": "4300437002_REV.jpg"
+      },
+      "repairs": [
+        [
+          "Andr�s",
+          "Andrés"
+        ]
+      ],
+      "fetchedAt": "2026-08-17T05:35:53.442Z",
+      "fmv": {
+        "value": 55,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 55,
+        "sold365": 3,
+        "url": "https://gocollect.com/app/comic/she-hulk-12-jeehyung-lee-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T05:40:05.664Z"
+      }
+    },
+    {
+      "cert": "4203411005",
+      "title": "Whatnot Publishing Sampler",
+      "issue": "1",
+      "issueDate": "7/22",
+      "issueYear": "2022",
+      "publisher": "Whatnot Publishing",
+      "variant": "Kickstradomis Red Lava Edition",
+      "grade": "10",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-02-14",
+      "labelCategory": "Universal",
+      "artComments": "Kickstradomis cover",
+      "keyComments": "Previews Alpha Betas, Ninja Funk,\nQuested & The Exiled.\nLava foil cover.",
+      "population": {
+        "atGrade": 6,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-17T05:35:56.664Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-17T05:40:12.628Z"
+      }
+    },
+    {
+      "cert": "4381117007",
+      "title": "Vengeance of the Moon Knight",
+      "issue": "1",
+      "issueDate": "3/24",
+      "issueYear": "2024",
+      "publisher": "Marvel Comics",
+      "variant": "Gist Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-02-09",
+      "labelCategory": "Universal",
+      "artComments": "Jed MacKay story\nAlessandro Cappuccio art\nE.M. Gist cover",
+      "population": {
+        "atGrade": 14,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4381117007_OBV.jpg",
+        "back": "4381117007_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T05:35:59.557Z",
+      "fmv": {
+        "value": 26,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/vengeance-of-the-moon-knight-1-em-gist-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T05:40:20.022Z"
+      }
+    },
+    {
+      "cert": "4381117009",
+      "title": "Power Rangers Unlimited: The Coinless",
+      "issue": "1",
+      "issueDate": "6/23",
+      "issueYear": "2023",
+      "publisher": "Boom! Studios",
+      "variant": "Frison Foil Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-02-09",
+      "labelCategory": "Universal",
+      "artComments": "Adam Cesare story\nMoisés Hidalgo art\nJenny Frison cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 12,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4381117009_OBV.jpg",
+        "back": "4381117009_REV.jpg"
+      },
+      "repairs": [
+        [
+          "Mois�s",
+          "Moisés"
+        ]
+      ],
+      "fetchedAt": "2026-08-17T05:36:02.982Z",
+      "fmv": {
+        "value": null,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/power-rangers-unlimited-the-coinless-1-frison-foil-edition",
+        "status": "no-sales",
+        "fetchedAt": "2026-08-17T05:40:26.917Z"
+      }
+    },
+    {
+      "cert": "4357017007",
+      "title": "Transformers",
+      "issue": "1",
+      "issueDate": "10/23",
+      "issueYear": "2023",
+      "publisher": "Image/Skybound",
+      "variant": "Manapul Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-12-15",
+      "labelCategory": "Universal",
+      "artComments": "Daniel Warren Johnson story & art\nFrancis Manapul cover",
+      "population": {
+        "atGrade": 143,
+        "higher": 1,
+        "topPop": false
+      },
+      "images": {
+        "front": "4357017007_OBV.jpg",
+        "back": "4357017007_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T05:36:06.166Z",
+      "fmv": {
+        "value": 65,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": 75,
+        "avg365": 74,
+        "sold365": 4,
+        "url": "https://gocollect.com/app/comic/transformers-1-cvr-g-inc-1-50-francis-manapul-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T05:40:33.852Z"
+      }
+    },
+    {
+      "cert": "4357017006",
+      "title": "Transformers",
+      "issue": "1",
+      "issueDate": "10/23",
+      "issueYear": "2023",
+      "publisher": "Image/Skybound",
+      "variant": "Chiang Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-12-15",
+      "labelCategory": "Universal",
+      "artComments": "Daniel Warren Johnson story & art\nCliff Chiang cover",
+      "population": {
+        "atGrade": 132,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4357017006_OBV.jpg",
+        "back": "4357017006_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T05:36:09.347Z",
+      "fmv": {
+        "value": 46,
+        "currency": "USD",
+        "avg30": 95,
+        "avg90": 72,
+        "avg365": 54,
+        "sold365": 6,
+        "url": "https://gocollect.com/app/comic/transformers-1-cvr-f-inc-1-25-cliff-chiang-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T05:40:40.913Z"
+      }
+    },
+    {
+      "cert": "4386585003",
+      "title": "Batman: Facsimile Edition",
+      "issue": "655",
+      "issueDate": "2023",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "Whatnot Special Edition C",
+      "grade": "9.9",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-02-20",
+      "labelCategory": "Universal",
+      "artComments": "Tyler Kirkham cover",
+      "keyComments": "Reprints Batman #655 (9/06)\nMellow Fellow Trading & SMZ Comics\nexclusive. \"Virgin\" foil cover.",
+      "population": {
+        "atGrade": 1,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4386585003_OBV.jpg",
+        "back": "4386585003_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T05:36:12.575Z",
+      "fmv": {
+        "value": null,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/batman-655-4",
+        "status": "no-sales",
+        "fetchedAt": "2026-08-17T05:40:48.954Z"
+      }
+    },
+    {
+      "cert": "4275571016",
+      "title": "Something is Killing the Children",
+      "issue": "25",
+      "issueDate": "7/22",
+      "issueYear": "2022",
+      "publisher": "Boom! Studios",
+      "variant": "ComicTom101 Edition B",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-06-21",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nWerther Dell'Edera art\nDavid Mack cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 28,
+        "higher": 13,
+        "topPop": false
+      },
+      "images": {
+        "front": "4275571016_OBV.jpg",
+        "back": "4275571016_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T05:36:15.724Z",
+      "fmv": {
+        "value": 24,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/something-is-killing-the-children-25-12",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T05:40:56.046Z"
+      }
+    }
+  ],
+  "updated": "2026-08-17"
+}
