@@ -149,6 +149,13 @@ a.cert:hover { color: var(--accent); text-decoration-color: currentColor; }
 @media (max-width: 30rem) {
   .comic { grid-template-columns: 6.4rem 1fr; gap: 0.7rem; }
   .scans { flex-direction: row; gap: 0.25rem; }
+
+  /*
+   * Each scan takes half the column. Without this they keep width:100% from the
+   * stacked layout, so two of them claim 200% of the container and spill across
+   * the text.
+   */
+  .scans img { flex: 1 1 0; min-width: 0; width: auto; }
 }
 `;
 
