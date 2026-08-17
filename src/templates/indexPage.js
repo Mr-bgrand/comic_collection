@@ -133,10 +133,24 @@ h2.section {
 `;
 
 const script = `
-const data = await fetch('search.json').then((r) => r.json());
 const box = document.getElementById('q');
 const hits = document.getElementById('hits');
 const count = document.getElementById('count');
+
+let data = [];
+try {
+  const res = await fetch('search.json');
+  if (!res.ok) throw new Error('HTTP ' + res.status);
+  data = await res.json();
+} catch (err) {
+  // Most often this is the page being opened as a local file, where fetch is
+  // blocked. Say so instead of leaving the box disabled saying "Loading...".
+  box.placeholder = 'Search unavailable';
+  count.textContent = location.protocol === 'file:'
+    ? 'Search needs this page served over http:// — try: npx serve dist'
+    : 'Could not load the search index (' + err.message + ').';
+  throw err;
+}
 
 function render(query) {
   const q = query.trim().toLowerCase();

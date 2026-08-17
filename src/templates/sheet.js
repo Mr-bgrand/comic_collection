@@ -50,9 +50,9 @@ body {
 
 .entry {
   display: grid;
-  grid-template-columns: 0.45in 1fr;
+  grid-template-columns: 0.43in 1fr;
   column-gap: 0.12in;
-  height: 0.73in;
+  height: 0.7in;
   padding: 0.01in 0;
   border-bottom: 0.3pt solid #e4e4e8;
   overflow: hidden;
@@ -62,16 +62,16 @@ body {
 .entry:last-child { border-bottom: 0; }
 
 .cover {
-  width: 0.45in;
-  height: 0.71in;
+  width: 0.43in;
+  height: 0.68in;
   object-fit: cover;
   border: 0.3pt solid #c8c8d0;
   background: #f4f4f6;
 }
 
 .cover-none {
-  width: 0.45in;
-  height: 0.71in;
+  width: 0.43in;
+  height: 0.68in;
   border: 0.3pt dashed #c8c8d0;
 }
 

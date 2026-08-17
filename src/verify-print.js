@@ -11,14 +11,24 @@
  *   npm run verify:print
  */
 
-import { writeFile, mkdir, readFile } from 'node:fs/promises';
+import { writeFile, mkdir, readFile, readdir } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import QRCode from 'qrcode';
 
 import { binUrl } from './model.js';
 import { renderLabel } from './templates/label.js';
-import { renderSheet } from './templates/sheet.js';
+import { renderSheet, PER_SIDE } from './templates/sheet.js';
+
+async function loadRealBins() {
+  const dir = path.resolve('data', 'bins');
+  if (!existsSync(dir)) return [];
+  const files = (await readdir(dir)).filter((f) => f.endsWith('.json')).sort();
+  return Promise.all(
+    files.map(async (f) => JSON.parse(await readFile(path.join(dir, f), 'utf8'))),
+  );
+}
 
 const OUT_DIR = path.resolve('dist', 'verify');
 const IMAGE_DIR = path.resolve('data', 'images');
@@ -109,23 +119,61 @@ export async function verifyPrint({ size = 25 } = {}) {
   try {
     // How much of the label is actually used, and did any title get clipped?
     await page.goto(pathToFileURL(labelHtml).href);
+    // Measure the body, not documentElement — documentElement.scrollHeight
+    // reports the viewport height and silently hid the real overflow.
+    await page.emulateMedia({ media: 'print' });
     const fit = await page.evaluate(() => ({
       rows: document.querySelectorAll('li').length,
       clipped: [...document.querySelectorAll('.t')].filter(
         (el) => el.scrollWidth > el.clientWidth + 1,
       ).length,
-      contentIn: Number((document.documentElement.scrollHeight / 96).toFixed(2)),
+      contentIn: Number((document.body.scrollHeight / 96).toFixed(3)),
     }));
     console.log(
       `label: ${fit.rows} rows, content ${fit.contentIn}in of 5.64in usable, ` +
         `${fit.clipped} title(s) ellipsised`,
     );
+    if (fit.contentIn > 5.64) {
+      failures.push(`label content ${fit.contentIn}in exceeds 5.64in usable`);
+    }
     if (fit.rows !== size) failures.push(`label rendered ${fit.rows} rows, expected ${size}`);
 
     const checks = [
-      { html: labelHtml, pdf: 'label.pdf', w: 4, h: 6, pages: 1, name: '4x6 label' },
-      { html: sheetHtml, pdf: 'sheet.pdf', w: 8.5, h: 11, pages: 2, name: 'letter sheet' },
+      { html: labelHtml, pdf: 'label.pdf', w: 4, h: 6, pages: 1, name: 'worst-case 4x6 label' },
+      { html: sheetHtml, pdf: 'sheet.pdf', w: 8.5, h: 11, pages: 2, name: 'worst-case letter sheet' },
     ];
+
+    // Also check the bins that actually exist — a synthetic worst case is a
+    // guarantee, but the real data is what gets printed.
+    for (const real of await loadRealBins()) {
+      const n = (real.comics ?? []).length;
+      if (!n) continue;
+      const realUrl = binUrl(config.baseUrl, real.bin);
+      const realQr = await QRCode.toString(realUrl, {
+        type: 'svg',
+        margin: 0,
+        errorCorrectionLevel: 'M',
+      });
+      const lHtml = path.join(OUT_DIR, `bin-${real.bin}-label.html`);
+      const sHtml = path.join(OUT_DIR, `bin-${real.bin}-sheet.html`);
+      await writeFile(lHtml, renderLabel({ bin: real, qrSvg: realQr, url: realUrl, config }), 'utf8');
+      await writeFile(
+        sHtml,
+        renderSheet({ bin: real, url: realUrl, imagePrefix: `${pathToFileURL(IMAGE_DIR).href}/` }),
+        'utf8',
+      );
+      checks.push(
+        { html: lHtml, pdf: `bin-${real.bin}-label.pdf`, w: 4, h: 6, pages: 1, name: `bin ${real.bin} label (${n} comics)` },
+        {
+          html: sHtml,
+          pdf: `bin-${real.bin}-sheet.pdf`,
+          w: 8.5,
+          h: 11,
+          pages: Math.ceil(n / PER_SIDE),
+          name: `bin ${real.bin} sheet (${n} comics)`,
+        },
+      );
+    }
 
     for (const check of checks) {
       await page.goto(pathToFileURL(check.html).href);

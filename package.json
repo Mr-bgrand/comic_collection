@@ -6,6 +6,7 @@
   "scripts": {
     "test": "node --test \"src/**/*.test.js\"",
     "lookup": "node src/scrape.js",
+    "repair": "node src/rerepair.js",
     "build": "node src/build.js",
     "verify:print": "node src/verify-print.js"
   },

@@ -189,6 +189,25 @@ test('compactDetailLines joins art credits onto one line', () => {
   assert.ok(!credits.includes('\n'));
 });
 
+test('detailLines drops CGC date placeholders instead of printing them as fact', () => {
+  const undated = { ...VENOM, issueDate: 'No Date', issueYear: '1900' };
+  const all = detailLines(undated).join(' | ');
+  assert.ok(!all.includes('No Date'), 'placeholder date not printed');
+  assert.ok(!all.includes('1900'), 'placeholder year not printed');
+  assert.ok(all.includes('Marvel Comics'), 'real fields still printed');
+  assert.ok(!/·\s*·/.test(all), 'no doubled separators where placeholders were');
+});
+
+test('compactDetailLines drops the same placeholders', () => {
+  const all = compactDetailLines({ ...VENOM, issueDate: 'No Date', issueYear: '1900' }).join(' | ');
+  assert.ok(!all.includes('1900'));
+  assert.ok(!all.includes('No Date'));
+});
+
+test('a real issue year is never mistaken for a placeholder', () => {
+  assert.ok(detailLines({ ...VENOM, issueYear: '1963' }).join(' ').includes('1963'));
+});
+
 test('compactDetailLines omits absent fields without leaving separators', () => {
   const all = compactDetailLines({ cert: '1', title: 'Spawn', issue: '1', grade: '9.6' }).join(' | ');
   assert.ok(!all.includes('undefined'));

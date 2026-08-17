@@ -150,6 +150,15 @@ async function lookupOne(page, cert) {
     throw new Error(`cert ${cert}: no record found (bad cert number?)`);
   });
 
+  // The population block renders after the record fields, so extracting as soon
+  // as the <dt>s exist loses it. Wait for it, but do not require it — some books
+  // genuinely have no population reported.
+  await page
+    .waitForFunction(() => document.body.innerText.includes('Total Graded by CGC'), {
+      timeout: 12_000,
+    })
+    .catch(() => {});
+
   const raw = await page.evaluate(extractInPage);
   const record = normalizeRecord(raw);
   record.fetchedAt = new Date().toISOString();

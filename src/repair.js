@@ -23,7 +23,7 @@ const FFFD = '�';
  */
 export const KNOWN_NAMES = [
   // Confirmed damaged in live CGC data
-  'Grønbekk', 'Ramón',
+  'Grønbekk', 'Ramón', 'Yasmín', 'Montañez',
   // Frequent comics credits with non-ASCII characters
   'Pérez', 'Rodríguez', 'Gómez', 'Hernández', 'Sánchez', 'Fernández',
   'Martínez', 'Ramírez', 'Álvarez', 'Díaz', 'Núñez', 'Jiménez',
@@ -33,6 +33,8 @@ export const KNOWN_NAMES = [
   'Frédéric', 'Jérôme', 'André', 'Noël', 'Loïc', 'Zoé',
   'Müller', 'Schäfer', 'Jürgen', 'Björn', 'Söderberg',
   'Bjørn', 'Søren', 'Håkan', 'Åsa', 'Niccolò',
+  // Full names, for cases the first name alone cannot settle.
+  'Björn Barends',
 ];
 
 const damagedForm = (s) => s.replace(/[^\x00-\x7F]/g, FFFD);
@@ -52,7 +54,14 @@ function buildTable(names) {
     else table.set(damaged, name);
   }
   for (const d of ambiguous) table.delete(d);
-  return table;
+
+  // Longest pattern first, so surrounding context can settle a name that is
+  // ambiguous on its own. "Bj?rn" could be Björn or Bjørn and stays unresolved,
+  // but "Bj?rn Barends" is only ever Björn Barends and is matched before the
+  // bare first name is ever considered.
+  return new Map(
+    [...table.entries()].sort((a, b) => b[0].length - a[0].length),
+  );
 }
 
 const TABLE = buildTable(KNOWN_NAMES);

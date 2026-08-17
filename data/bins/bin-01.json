@@ -1,0 +1,622 @@
+{
+  "bin": "01",
+  "title": "Bin 01",
+  "location": "",
+  "updated": "2026-08-17",
+  "comics": [
+    {
+      "cert": "4395549004",
+      "title": "Venom",
+      "issue": "23",
+      "issueDate": "9/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Black Saber Comics \"Virgin\" Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-03-26",
+      "labelCategory": "Universal",
+      "artComments": "Torunn Grønbekk story\nKen Lashley & Ramón F. Bachs art\nIvan Tao cover",
+      "keyComments": "Venom #223",
+      "population": {
+        "atGrade": 83,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4395549004_OBV.jpg",
+        "back": "4395549004_REV.jpg"
+      },
+      "repairs": [
+        [
+          "Gr�nbekk",
+          "Grønbekk"
+        ],
+        [
+          "Ram�n",
+          "Ramón"
+        ]
+      ],
+      "fetchedAt": "2026-08-17T00:13:41.480Z"
+    },
+    {
+      "cert": "4395549005",
+      "title": "Moon Man",
+      "issue": "1",
+      "issueDate": "1/24",
+      "issueYear": "2024",
+      "publisher": "Image/Mad Solar",
+      "variant": "Tao Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-03-26",
+      "labelCategory": "Universal",
+      "artComments": "Scott Mescudi & Kyle Higgins story\nMarco Locati & Igor Monti art\nIvan Tao cover",
+      "keyComments": "Bird City Comics & Rabbit Comics\nexclusive.\n\"Virgin\" cover.",
+      "population": {
+        "atGrade": 64,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4395549005_OBV.jpg",
+        "back": "4395549005_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T00:13:38.572Z"
+    },
+    {
+      "cert": "4395549002",
+      "title": "Action Comics",
+      "issue": "1056",
+      "issueDate": "8/23",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "KRS Comics Foil Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-03-26",
+      "labelCategory": "Universal",
+      "artComments": "Phillip Kennedy Johnson, Dan Jurgens &\nDorado Quick stories, Rafa Sandoval,\nLee Weeks & Yasmín Flores Montañez art",
+      "keyComments": "InHyuk Lee cover",
+      "population": {
+        "atGrade": 31,
+        "higher": 2,
+        "topPop": false
+      },
+      "images": {
+        "front": "4395549002_OBV.jpg",
+        "back": "4395549002_REV.jpg"
+      },
+      "repairs": [
+        [
+          "Monta�ez",
+          "Montañez"
+        ],
+        [
+          "Yasm�n",
+          "Yasmín"
+        ]
+      ],
+      "fetchedAt": "2026-08-17T00:13:44.445Z"
+    },
+    {
+      "cert": "4395549003",
+      "title": "Killer Kare Bears",
+      "issue": "nn",
+      "issueDate": "2023",
+      "issueYear": "2023",
+      "publisher": "Best Comics",
+      "variant": "420 Foil Edition B",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-03-26",
+      "labelCategory": "Universal",
+      "artComments": "Terry Sala & Robert Wood story\nSean Forney art\nMarat Mychaels cover",
+      "keyComments": "Care Bears #1 (11/85) cover homage.\nMultiple foil variants exist.\n\"Virgin\" cover.",
+      "population": {
+        "atGrade": 1,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4395549003_OBV.jpg",
+        "back": "4395549003_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T00:13:47.344Z"
+    },
+    {
+      "cert": "4395549001",
+      "title": "Batman",
+      "issue": "108",
+      "issueDate": "7/21",
+      "issueYear": "2021",
+      "publisher": "DC Comics",
+      "variant": "Comic Mint Edition C",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-03-26",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nJorge Jimenez art\nTiago Da Silva cover",
+      "keyComments": "1st full appearance of Miracle Molly.",
+      "population": {
+        "atGrade": 40,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4395549001_OBV.jpg",
+        "back": "4395549001_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T00:13:50.273Z"
+    },
+    {
+      "cert": "4418876010",
+      "title": "Marvel Previews",
+      "issue": "26",
+      "issueDate": "12/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "grade": "8.0",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-04-29",
+      "labelCategory": "Universal",
+      "artComments": "Marco Checchetto cover",
+      "population": {
+        "atGrade": 1,
+        "higher": 11,
+        "topPop": false
+      },
+      "images": {
+        "front": "4418876010_OBV.jpg",
+        "back": "4418876010_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T00:13:53.312Z"
+    },
+    {
+      "cert": "4418876008",
+      "title": "Ghost-Spider",
+      "issue": "2",
+      "issueDate": "2/24",
+      "issueYear": "2024",
+      "publisher": "Panini Mexico",
+      "variant": "Mexican Edition/El Quinto Mundo Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-04-29",
+      "labelCategory": "Universal",
+      "artComments": "Seanan McGuire story\nTakeshi Miyazawa art\nPeach Momoko cover",
+      "keyComments": "Foil cover.",
+      "population": {
+        "atGrade": 135,
+        "higher": 3,
+        "topPop": false
+      },
+      "images": {
+        "front": "4418876008_OBV.jpg",
+        "back": "4418876008_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T00:13:56.273Z"
+    },
+    {
+      "cert": "4418876011",
+      "title": "Amazing Spider-Man",
+      "issue": "29",
+      "issueDate": "9/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Paratore \"Virgin\" Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-04-29",
+      "labelCategory": "Universal",
+      "artComments": "Zeb Wells story\nEd McGuinness & Mark Farmer art\nDavide Paratore cover",
+      "keyComments": "Amazing Spider-Man #923\nComicTom101 & Davis Rider exclusive.",
+      "population": {
+        "atGrade": 26,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4418876011_OBV.jpg",
+        "back": "4418876011_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T00:13:59.252Z"
+    },
+    {
+      "cert": "4418876007",
+      "title": "Spider-Boy",
+      "issue": "1",
+      "issueDate": "1/24",
+      "issueYear": "2024",
+      "publisher": "Marvel Comics",
+      "variant": "Andrews Foil Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-04-29",
+      "labelCategory": "Universal",
+      "artComments": "Dan Slott story\nPaco Medina & Ty Templeton art\nKaare Andrews cover",
+      "population": {
+        "atGrade": 434,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4418876007_OBV.jpg",
+        "back": "4418876007_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T00:14:02.807Z"
+    },
+    {
+      "cert": "4418876002",
+      "title": "Female Force: Taylor Swift",
+      "issue": "nn",
+      "issueDate": "No Date",
+      "issueYear": "1900",
+      "publisher": "TidalWave Comics",
+      "variant": "Unknown Comics Foil Edition B",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-04-29",
+      "labelCategory": "Universal",
+      "artComments": "Eric M. Esquivel story\nRamon Salas art\nSteven Defendini cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 13,
+        "higher": 2,
+        "topPop": false
+      },
+      "images": {
+        "front": "4418876002_OBV.jpg",
+        "back": "4418876002_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T00:14:07.366Z"
+    },
+    {
+      "cert": "4418876004",
+      "title": "Female Force: Taylor Swift",
+      "issue": "nn",
+      "issueDate": "No Date",
+      "issueYear": "1900",
+      "publisher": "TidalWave Comics",
+      "variant": "Unknown Comics Metal Edition A",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-04-29",
+      "labelCategory": "Universal",
+      "artComments": "Eric M. Esquivel story\nRamon Salas art\nSteven Defendini cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 16,
+        "higher": 5,
+        "topPop": false
+      },
+      "images": {
+        "front": "4418876004_OBV.jpg",
+        "back": "4418876004_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T00:14:10.268Z"
+    },
+    {
+      "cert": "4418876003",
+      "title": "Female Force: Taylor Swift",
+      "issue": "nn",
+      "issueDate": "No Date",
+      "issueYear": "1900",
+      "publisher": "TidalWave Comics",
+      "variant": "Unknown Comics Metal Edition B",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-04-29",
+      "labelCategory": "Universal",
+      "artComments": "Eric M. Esquivel story\nRamon Salas art\nSteven Defendini cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 17,
+        "higher": 4,
+        "topPop": false
+      },
+      "images": {
+        "front": "4418876003_OBV.jpg",
+        "back": "4418876003_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T00:14:13.197Z"
+    },
+    {
+      "cert": "4418876012",
+      "title": "Incredible Hulk",
+      "issue": "1",
+      "issueDate": "8/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Gleason \"Virgin\" Edition C",
+      "grade": "9.6",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-04-29",
+      "labelCategory": "Universal",
+      "artComments": "Phillip Kennedy Johnson story\nNic Klein art\nPatrick Gleason cover",
+      "keyComments": "Incredible Hulk #782",
+      "population": {
+        "atGrade": 2,
+        "higher": 36,
+        "topPop": false
+      },
+      "images": {
+        "front": "4418876012_OBV.jpg",
+        "back": "4418876012_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T00:14:16.197Z"
+    },
+    {
+      "cert": "4418876013",
+      "title": "Amazing Spider-Man",
+      "issue": "23",
+      "issueDate": "6/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Pastrovicchio Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-04-29",
+      "labelCategory": "Universal",
+      "artComments": "Zeb Wells story\nJohn Romita Jr. & Scott Hanna art\nLorenzo Pastrovicchio cover",
+      "keyComments": "Amazing Spider-Man #917\n\"Disney 100\" variant cover.\nInfinity Gauntlet #1 cover homage.",
+      "population": {
+        "atGrade": 798,
+        "higher": 7,
+        "topPop": false
+      },
+      "images": {
+        "front": "4418876013_OBV.jpg",
+        "back": "4418876013_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T00:14:19.123Z"
+    },
+    {
+      "cert": "4418876014",
+      "title": "Spider-Boy",
+      "issue": "5",
+      "issueDate": "5/24",
+      "issueYear": "2024",
+      "publisher": "Marvel Comics",
+      "variant": "Variant Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-04-29",
+      "labelCategory": "Universal",
+      "artComments": "Dan Slott story\nPaco Medina & Julian Shaw art\nRose Besch cover",
+      "population": {
+        "atGrade": 17,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4418876014_OBV.jpg",
+        "back": "4418876014_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T00:14:22.058Z"
+    },
+    {
+      "cert": "4401613006",
+      "title": "Moon Man",
+      "issue": "1",
+      "issueDate": "1/24",
+      "issueYear": "2024",
+      "publisher": "Image/Mad Solar",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-03-26",
+      "labelCategory": "Universal",
+      "artComments": "Scott Mescudi & Kyle Higgins story\nMarco Locati & Igor Monti cover & art",
+      "population": {
+        "atGrade": 63,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4401613006_OBV.jpg",
+        "back": "4401613006_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T00:14:24.950Z"
+    },
+    {
+      "cert": "4418876009",
+      "title": "Spawn",
+      "issue": "350",
+      "issueDate": "2/24",
+      "issueYear": "2024",
+      "publisher": "Image Comics",
+      "variant": "Variant Cover F",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-04-29",
+      "labelCategory": "Universal",
+      "artComments": "Rory McConville & Todd McFarlane story\nBrett Booth, Carlo Barberi &\nAdelso Corona art, Todd McFarlane cover",
+      "keyComments": "\"Virgin\" sketch cover.",
+      "population": {
+        "atGrade": 144,
+        "higher": 1,
+        "topPop": false
+      },
+      "images": {
+        "front": "4418876009_OBV.jpg",
+        "back": "4418876009_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T00:14:27.885Z"
+    },
+    {
+      "cert": "4493150003",
+      "title": "w0rldtr33",
+      "issue": "11",
+      "issueDate": "6/24",
+      "issueYear": "2024",
+      "publisher": "Image Comics",
+      "variant": "Barends Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-10-15",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nFernando Blanco art\nBjörn Barends cover",
+      "keyComments": "Captured Collectibles &\nNo Masss Comics exclusive.\n\"Virgin\" cover.",
+      "population": {
+        "atGrade": 9,
+        "higher": 1,
+        "topPop": false
+      },
+      "images": {
+        "front": "4493150003_OBV.jpg",
+        "back": "4493150003_REV.jpg"
+      },
+      "repairs": [
+        [
+          "Bj�rn Barends",
+          "Björn Barends"
+        ]
+      ],
+      "fetchedAt": "2026-08-17T00:14:30.810Z"
+    },
+    {
+      "cert": "4493150001",
+      "title": "NYX",
+      "issue": "1",
+      "issueDate": "9/24",
+      "issueYear": "2024",
+      "publisher": "Marvel Comics",
+      "variant": "Lau \"Virgin\" Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-10-15",
+      "labelCategory": "Universal",
+      "artComments": "Jackson Lanzing & Collin Kelly story\nFrancesco Mortarino art\nStanley \"Artgerm\" Lau cover",
+      "population": {
+        "atGrade": 91,
+        "higher": 7,
+        "topPop": false
+      },
+      "images": {
+        "front": "4493150001_OBV.jpg",
+        "back": "4493150001_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T00:14:33.751Z"
+    },
+    {
+      "cert": "4401613008",
+      "title": "Moon Man",
+      "issue": "1",
+      "issueDate": "1/24",
+      "issueYear": "2024",
+      "publisher": "Image/Mad Solar",
+      "variant": "Variant Cover B",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-03-26",
+      "labelCategory": "Universal",
+      "artComments": "Scott Mescudi & Kyle Higgins story\nMarco Locati & Igor Monti art\nErica D'Urso cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 20,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4401613008_OBV.jpg",
+        "back": "4401613008_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T00:14:36.671Z"
+    },
+    {
+      "cert": "4401613005",
+      "title": "Moon Man",
+      "issue": "1",
+      "issueDate": "1/24",
+      "issueYear": "2024",
+      "publisher": "Image/Mad Solar",
+      "variant": "Variant Cover C",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-03-26",
+      "labelCategory": "Universal",
+      "artComments": "Scott Mescudi & Kyle Higgins story\nMarco Locati & Igor Monti art\nRod Reis cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 33,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4401613005_OBV.jpg",
+        "back": "4401613005_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T00:14:39.940Z"
+    },
+    {
+      "cert": "4401613009",
+      "title": "Moon Man",
+      "issue": "1",
+      "issueDate": "1/24",
+      "issueYear": "2024",
+      "publisher": "Image/Mad Solar",
+      "variant": "Spectral Comics Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-03-26",
+      "labelCategory": "Universal",
+      "artComments": "Scott Mescudi & Kyle Higgins story\nMarco Locati & Igor Monti art\nHuy Dinh cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 31,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4401613009_OBV.jpg",
+        "back": "4401613009_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T00:14:42.860Z"
+    },
+    {
+      "cert": "4401613004",
+      "title": "Moon Man",
+      "issue": "1",
+      "issueDate": "1/24",
+      "issueYear": "2024",
+      "publisher": "Image/Mad Solar",
+      "variant": "Variant Cover D",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-03-26",
+      "labelCategory": "Universal",
+      "artComments": "Scott Mescudi & Kyle Higgins story\nMarco Locati & Igor Monti art\nSanford Greene cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 11,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4401613004_OBV.jpg",
+        "back": "4401613004_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-17T00:14:45.795Z"
+    }
+  ]
+}

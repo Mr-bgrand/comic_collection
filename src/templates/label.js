@@ -96,7 +96,7 @@ li:last-child { border-bottom: 0; }
 
 footer {
   height: ${FOOTER_IN}in;
-  margin-top: 0.04in;
+  /* No margin here — the height budget in labelMetrics counts this box only. */
   padding-top: 0.04in;
   border-top: 0.75pt solid ${INK};
   font-size: 6pt;

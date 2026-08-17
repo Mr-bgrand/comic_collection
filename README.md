@@ -18,18 +18,45 @@ Design doc: [`docs/superpowers/specs/2026-08-16-comic-inventory-labels-design.md
 ## Adding comics to a bin
 
 ```bash
-npm run lookup -- --bin 01 4395549004 4395549005 4395549006
+node src/scrape.js --bin 01 4395549004 4395549005 4395549006
 ```
 
-A browser window opens, clears Cloudflare's challenge once, then walks every cert
+A Chrome window opens, clears Cloudflare's challenge once, then walks every cert
 in the batch. Results land in `data/bins/bin-01.json`; cover scans land in
-`data/images/`. Re-running a cert that's already stored overwrites it in place.
+`data/images/`. Re-running a cert that's already stored overwrites it in place,
+and a cert listed twice is looked up once.
 
 Certs in a file, one per line, work too:
 
 ```bash
-npm run lookup -- --bin 01 --file certs.txt
+node src/scrape.js --bin 01 --file certs.txt
 ```
+
+**Requires Google Chrome or Edge installed.** Cloudflare flags Playwright's
+bundled Chromium and never clears the challenge for it. The browser profile is
+kept in `.cache/chrome-profile`, so the clearance cookie survives between runs and
+only the first lookup of a session waits.
+
+Call `node src/scrape.js` directly rather than `npm run lookup --` — npm eats the
+`--bin` flag.
+
+### When a name can't be repaired
+
+CGC serves damaged bytes for non-ASCII characters, and the lookup will say so:
+
+```
+[3/23] 4395549002 ... Action Comics #1056 9.8
+  ! unrepairable text: Yasm?n, Monta?ez
+```
+
+Add the correct spelling to `KNOWN_NAMES` in [`src/repair.js`](src/repair.js), then:
+
+```bash
+npm run repair
+```
+
+That re-applies repairs to everything already stored — no need to look those
+books up again.
 
 ## Printing
 

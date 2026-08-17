@@ -39,21 +39,39 @@ export function formatPageQuality(quality) {
 }
 
 /**
- * Every remaining CGC field, as lines for the sheet and the bin page.
- * Absent fields are dropped rather than printed as blanks or separators.
+ * CGC fills unknown dates with placeholders rather than leaving them empty, so
+ * undated books come back as "No Date" and year 1900. Printing those as if they
+ * were real data is worse than printing nothing. (No comic book is from 1900 —
+ * the format dates to the 1930s — so the year is safe to treat as a placeholder.)
  */
-export function detailLines(comic) {
-  const lines = [];
+const PLACEHOLDERS = new Set(['no date', 'n/a', 'none', 'unknown', '1900', '0']);
 
-  const meta = [
+function meaningful(value) {
+  const text = (value ?? '').toString().trim();
+  return text && !PLACEHOLDERS.has(text.toLowerCase()) ? text : '';
+}
+
+/** Publisher / date / year / label category / page quality, placeholders removed. */
+function metaParts(comic) {
+  return [
     comic.publisher,
     comic.issueDate,
     comic.issueYear,
     comic.labelCategory,
     formatPageQuality(comic.pageQuality),
   ]
-    .map((v) => (v ?? '').toString().trim())
+    .map(meaningful)
     .filter(Boolean);
+}
+
+/**
+ * Every remaining CGC field, as lines for the sheet and the bin page.
+ * Absent fields are dropped rather than printed as blanks or separators.
+ */
+export function detailLines(comic) {
+  const lines = [];
+
+  const meta = metaParts(comic);
   if (meta.length) lines.push(meta.join(' · '));
 
   if (comic.artComments) {
@@ -110,15 +128,7 @@ export function fitFontSize(text, maxWidthIn, { maxPt = 9.5, minPt = 6.5 } = {})
 export function compactDetailLines(comic) {
   const lines = [];
 
-  const meta = [
-    comic.publisher,
-    comic.issueDate,
-    comic.issueYear,
-    comic.labelCategory,
-    formatPageQuality(comic.pageQuality),
-  ]
-    .map((v) => (v ?? '').toString().trim())
-    .filter(Boolean);
+  const meta = metaParts(comic);
   if (meta.length) lines.push(meta.join(' · '));
 
   if (comic.artComments) {
@@ -162,8 +172,11 @@ export function labelMetrics(count, {
   maxPt = 9.5,
   minPt = 5,
   lineRatio = 1.22,
+  // Printers and PDF engines round; landing exactly on the page height pushes a
+  // second page. Keep a little back.
+  safetyIn = 0.05,
 } = {}) {
-  const availableIn = usableHeightIn - headerIn - footerIn - gapIn;
+  const availableIn = usableHeightIn - headerIn - footerIn - gapIn - safetyIn;
   const rowHeightIn = count > 0 ? availableIn / count : availableIn;
   const raw = (rowHeightIn * 72) / lineRatio;
   const titlePt = Math.max(minPt, Math.min(maxPt, Math.floor(raw * 10) / 10));

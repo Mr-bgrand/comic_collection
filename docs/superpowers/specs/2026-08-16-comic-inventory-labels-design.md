@@ -228,7 +228,41 @@ still matches reality.
 Print output is verified by generating a PDF and confirming page dimensions are
 exactly 4×6in and letter, and that 25 rows fit the label without overflow.
 
-## 11. Open items
+## 11. Corrections found during implementation
+
+The design was right about structure and wrong about several numbers. Recorded
+here so the spec is not read as more authoritative than the code.
+
+**Sheet thumbnails are 0.43in, not 0.7in.** §6.2 specified 0.7in-wide covers at 13
+per side. Comic scans are 500x787, so a 0.7in-wide cover is 1.1in tall and 13 of
+them need 14.3in of a 10in page. Holding the "one double-sided sheet" goal forces
+the thumbnail down to 0.43in.
+
+**Sheet entries are four lines, not six.** Art comments arrive as three separate
+lines, which made entries 1.19in tall and produced four pages. `compactDetailLines`
+folds credits onto one line and merges population into the tail. No field is
+dropped, only folded.
+
+**Label row height is computed, not fixed.** The first implementation used
+hand-tuned CSS and overflowed a 4x6 page by 1.9in. `labelMetrics` now divides the
+space actually remaining by the comic count, so any bin size fits one page. Two
+bugs hid in the original arithmetic: an uncounted `margin-top` on the footer, and
+a verification script measuring `documentElement.scrollHeight` — the viewport
+height — instead of the body.
+
+**Population data loads asynchronously.** Extracting as soon as the record fields
+exist lost population for 14 of the first 23 books. The scraper now waits for the
+population block, but does not require it.
+
+**CGC uses date placeholders.** Undated books come back as issue date "No Date"
+and issue year "1900". These are filtered at display time rather than stored,
+so the JSON stays a faithful copy of what CGC served.
+
+**Lookups need real Chrome.** Cloudflare clears for installed Chrome or Edge but
+never for Playwright's bundled Chromium. The browser profile persists in
+`.cache/chrome-profile`, so the clearance cookie survives between runs.
+
+## 12. Open items
 
 - Bin capacity is fixed at 25 by the physical bins; the code treats it as a
   configurable maximum, not a hard assumption.
