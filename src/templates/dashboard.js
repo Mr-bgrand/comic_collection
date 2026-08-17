@@ -228,11 +228,21 @@ tbody tr:hover { background: var(--surface); }
 .cert { font-family: ${FONT_MONO}; font-size: 0.82rem; color: var(--muted); }
 .star { color: var(--data); }
 .dim { color: var(--faint); }
-
 .t-title { font-weight: 600; }
-.t-links { white-space: nowrap; font-size: 0.8rem; }
-.t-links a { color: var(--muted); text-decoration: none; }
-.t-links a:hover { color: var(--data); text-decoration: underline; }
+
+/* Cert -> CGC verification, FMV -> the book's GoCollect page. */
+td.cert a,
+td.fmv a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--line);
+  text-underline-offset: 2px;
+}
+
+td.fmv a { color: var(--data); font-weight: 600; }
+
+td.cert a:hover,
+td.fmv a:hover { color: var(--data); text-decoration-color: currentColor; }
 
 @media (max-width: 40rem) {
   .hide-sm { display: none; }
@@ -306,22 +316,32 @@ export function renderDashboard({ bins, config }) {
   const rows = comics
     .map(({ comic, bin }) => {
       const value = fmvValue(comic);
-      const gocollect = comic.fmv?.url
-        ? ` &middot; <a href="${escapeHtml(comic.fmv.url)}" target="_blank" rel="noopener">GoCollect</a>`
+      const cert = comic.cert ?? '';
+
+      // The cert number and the price are themselves the links — a separate
+      // "links" column repeated the same two destinations on every row.
+      const certCell = cert
+        ? `<a href="https://www.cgccomics.com/certlookup/${escapeHtml(
+            cert,
+          )}/" target="_blank" rel="noopener">${escapeHtml(cert)}</a>`
         : '';
+
+      let fmvCell = '<span class="dim">—</span>';
+      if (value !== null) {
+        const money = escapeHtml(formatMoney(value));
+        fmvCell = comic.fmv?.url
+          ? `<a href="${escapeHtml(comic.fmv.url)}" target="_blank" rel="noopener">${money}</a>`
+          : money;
+      }
+
       return `        <tr>
           <td class="t-title">${escapeHtml(displayTitle(comic))}</td>
           <td class="num" data-sort="${escapeHtml(comic.grade ?? '')}">${escapeHtml(
             comic.grade ?? '',
           )}${isTopPop(comic) ? ' <span class="star">★</span>' : ''}</td>
-          <td class="num hide-sm" data-sort="${value ?? -1}">${
-            value === null ? '<span class="dim">—</span>' : escapeHtml(formatMoney(value))
-          }</td>
+          <td class="num fmv" data-sort="${value ?? -1}">${fmvCell}</td>
           <td class="num">${escapeHtml(bin)}</td>
-          <td class="cert hide-sm">${escapeHtml(comic.cert ?? '')}</td>
-          <td class="t-links hide-sm"><a href="https://www.cgccomics.com/certlookup/${escapeHtml(
-            comic.cert ?? '',
-          )}/" target="_blank" rel="noopener">CGC</a>${gocollect}</td>
+          <td class="cert hide-sm">${certCell}</td>
         </tr>`;
     })
     .join('\n');
@@ -405,10 +425,9 @@ ${barChart(
           <tr>
             <th>Title<span class="arrow"></span></th>
             <th class="num" data-type="number">Grade<span class="arrow"></span></th>
-            <th class="num hide-sm" data-type="number">FMV<span class="arrow"></span></th>
+            <th class="num" data-type="number">FMV<span class="arrow"></span></th>
             <th class="num" data-type="number">Bin<span class="arrow"></span></th>
             <th class="hide-sm">Cert<span class="arrow"></span></th>
-            <th class="hide-sm">Links</th>
           </tr>
         </thead>
         <tbody>

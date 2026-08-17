@@ -5,7 +5,7 @@
  * for a phone held in one hand while the other hand holds the bin.
  */
 
-import { displayTitle, detailLines, isTopPop } from '../model.js';
+import { displayTitle, detailLines, isTopPop, formatMoney } from '../model.js';
 import { escapeHtml, page, FONT_SANS, FONT_MONO } from './shared.js';
 
 const css = `
@@ -111,7 +111,27 @@ header.bin .sub { margin-top: 0.3rem; color: var(--muted); font-size: 0.92rem; }
 
 .detail { margin-top: 0.45rem; font-size: 0.88rem; color: var(--muted); }
 .detail div + div { margin-top: 0.12rem; }
-.cert { font-family: ${FONT_MONO}; font-size: 0.82rem; }
+
+a.cert {
+  font-family: ${FONT_MONO};
+  font-size: 0.82rem;
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--line);
+  text-underline-offset: 2px;
+}
+
+a.cert:hover { color: var(--accent); text-decoration-color: currentColor; }
+
+.fmv { margin-top: 0.5rem; font-size: 0.95rem; font-weight: 700; }
+
+.fmv a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.fmv-meta { font-weight: 400; font-size: 0.8rem; color: var(--muted); }
 
 .pop { color: var(--star); font-weight: 600; }
 
@@ -121,9 +141,14 @@ header.bin .sub { margin-top: 0.3rem; color: var(--muted); font-size: 0.92rem; }
   color: var(--accent);
 }
 
+/*
+ * On a phone the two scans sit side by side rather than stacked. They used to be
+ * hidden below 30rem, which meant the back scan — where the CGC label and most
+ * defects are — was unavailable on exactly the device the QR code opens on.
+ */
 @media (max-width: 30rem) {
-  .comic { grid-template-columns: 4.2rem 1fr; gap: 0.8rem; }
-  .scans img:nth-child(2) { display: none; }
+  .comic { grid-template-columns: 6.4rem 1fr; gap: 0.7rem; }
+  .scans { flex-direction: row; gap: 0.25rem; }
 }
 `;
 
@@ -141,13 +166,28 @@ function renderComic(comic, imagePrefix) {
   const detail = detailLines(comic)
     .map((line) => {
       const cls = /^★ Top Pop/.test(line) ? 'pop' : '';
+      // The cert number links straight to its CGC verification page.
       const html = escapeHtml(line).replace(
         /(Cert )(\d+)/,
-        '$1<span class="cert">$2</span>',
+        '$1<a class="cert" href="https://www.cgccomics.com/certlookup/$2/" target="_blank" rel="noopener">$2</a>',
       );
       return `        <div class="${cls}">${html}</div>`;
     })
     .join('\n');
+
+  // FMV links to the book's GoCollect page, and always states its date — an
+  // undated price is worse than no price.
+  const fmv = comic.fmv?.value
+    ? `      <div class="fmv">${
+        comic.fmv.url
+          ? `<a href="${escapeHtml(comic.fmv.url)}" target="_blank" rel="noopener">${escapeHtml(
+              formatMoney(comic.fmv.value),
+            )}</a>`
+          : escapeHtml(formatMoney(comic.fmv.value))
+      } <span class="fmv-meta">GoCollect FMV${
+        comic.fmv.fetchedAt ? ` &middot; as of ${escapeHtml(comic.fmv.fetchedAt.slice(0, 10))}` : ''
+      }</span></div>`
+    : '';
 
   const warning = comic.unresolved?.length
     ? `      <div class="warn">Unverified characters in CGC source text: ${escapeHtml(
@@ -169,6 +209,7 @@ function renderComic(comic, imagePrefix) {
         <div class="detail">
 ${detail}
         </div>
+${fmv}
 ${warning}
       </div>
     </article>`;
