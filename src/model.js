@@ -101,8 +101,11 @@ export function detailLines(comic) {
  * stack. Empirical and deliberately slightly generous — overestimating width
  * shrinks a line that would have fit, which is harmless; underestimating lets a
  * title collide with the grade column, which is not.
+ *
+ * Sized for the bold weight the label rows are set in; bold glyphs run wider than
+ * regular, so this is above the ~0.5 a regular face would need.
  */
-const AVG_GLYPH_RATIO = 0.5;
+const AVG_GLYPH_RATIO = 0.53;
 
 /**
  * Pick a font size that keeps a title on one line inside `maxWidthIn`.
@@ -201,6 +204,84 @@ export function paginate(items, perPage) {
 /** The QR destination for a bin. */
 export function binUrl(baseUrl, bin) {
   return `${String(baseUrl).replace(/\/+$/, '')}/bin/${bin}/`;
+}
+
+/** GoCollect fair market value, or null when the book has not been priced yet. */
+export function fmvValue(comic) {
+  const v = comic?.fmv?.value;
+  return typeof v === 'number' && Number.isFinite(v) ? v : null;
+}
+
+/**
+ * Headline numbers for the dashboard.
+ *
+ * `priced` is reported separately from `comics` on purpose: a total is misleading
+ * if you cannot see how much of the collection it actually covers.
+ */
+export function collectionStats(bins) {
+  let comics = 0;
+  let priced = 0;
+  let totalValue = 0;
+  let topPop = 0;
+  let oldestFmv = null;
+
+  for (const bin of bins) {
+    for (const comic of bin.comics ?? []) {
+      comics += 1;
+      if (isTopPop(comic)) topPop += 1;
+      const value = fmvValue(comic);
+      if (value !== null) {
+        priced += 1;
+        totalValue += value;
+      }
+      const at = comic.fmv?.fetchedAt;
+      if (at && (!oldestFmv || at < oldestFmv)) oldestFmv = at;
+    }
+  }
+
+  return {
+    bins: bins.length,
+    comics,
+    priced,
+    unpriced: comics - priced,
+    totalValue,
+    topPop,
+    oldestFmv,
+  };
+}
+
+/** Counts by grade, highest grade first. Grades are ordinal, so order is fixed. */
+export function gradeDistribution(bins) {
+  const counts = new Map();
+  for (const bin of bins) {
+    for (const comic of bin.comics ?? []) {
+      const grade = (comic.grade ?? '').toString().trim();
+      if (!grade) continue;
+      counts.set(grade, (counts.get(grade) ?? 0) + 1);
+    }
+  }
+  return [...counts.entries()]
+    .map(([grade, count]) => ({ grade, count }))
+    .sort((a, b) => Number(b.grade) - Number(a.grade));
+}
+
+/** Comic count and total value per bin, for comparing bins against each other. */
+export function valueByBin(bins) {
+  return bins.map((bin) => {
+    const comics = bin.comics ?? [];
+    return {
+      bin: bin.bin,
+      count: comics.length,
+      value: comics.reduce((sum, c) => sum + (fmvValue(c) ?? 0), 0),
+      priced: comics.filter((c) => fmvValue(c) !== null).length,
+    };
+  });
+}
+
+/** US dollars, no cents — FMV is never precise enough for cents to mean anything. */
+export function formatMoney(value) {
+  if (typeof value !== 'number' || !Number.isFinite(value)) return '—';
+  return `$${Math.round(value).toLocaleString('en-US')}`;
 }
 
 /**

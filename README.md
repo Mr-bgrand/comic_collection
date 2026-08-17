@@ -81,6 +81,37 @@ The matching `.html` files are written alongside for tweaking and re-printing.
 — gitignored and wiped on every build — so use `print/` for anything you want to
 keep.
 
+## Fair market values (GoCollect)
+
+Grades never change, so certs are looked up once. **Market values move**, so FMV is
+timestamped and re-runnable, and the dashboard shows an "as of" date.
+
+GoCollect needs a login. This never asks for your password — instead you sign in
+by hand, once, in the automation browser profile:
+
+```bash
+npm run login    # opens GoCollect; sign in, then close the window
+npm run fmv      # prices every book using that saved session
+npm run fmv -- --force   # refresh values that already exist
+```
+
+Each priced book stores its value, the 30/90/365-day averages, the sold count, and
+a link to its GoCollect page:
+
+```json
+"fmv": {
+  "value": 60,
+  "avg30": null, "avg90": null, "avg365": 60, "sold365": 1,
+  "url": "https://gocollect.com/app/comic/action-comics-1056-krs-comics-foil-edition",
+  "fetchedAt": "2026-08-17T12:00:00Z"
+}
+```
+
+## Dashboard
+
+`dist/dashboard/` — total value, grade spread, top-pop count, and a sortable table
+of every book with links out to both CGC and GoCollect. Linked from the site index.
+
 ## Local preview
 
 ```bash

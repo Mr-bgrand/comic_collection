@@ -12,6 +12,11 @@ import {
   fitFontSize,
   labelMetrics,
   compactDetailLines,
+  fmvValue,
+  collectionStats,
+  gradeDistribution,
+  valueByBin,
+  formatMoney,
 } from './model.js';
 
 const VENOM = {
@@ -223,6 +228,64 @@ test('binUrl builds the QR destination without doubling slashes', () => {
     binUrl('https://mr-bgrand.github.io/comic_collection/', '01'),
     'https://mr-bgrand.github.io/comic_collection/bin/01/',
   );
+});
+
+const PRICED = { ...VENOM, cert: '1', fmv: { value: 60, fetchedAt: '2026-08-17T00:00:00Z' } };
+const UNPRICED = { ...VENOM, cert: '2', grade: '9.6', population: { atGrade: 5, higher: 3 } };
+
+test('fmvValue reads a price and refuses anything that is not a real number', () => {
+  assert.equal(fmvValue(PRICED), 60);
+  assert.equal(fmvValue(UNPRICED), null);
+  assert.equal(fmvValue({ fmv: { value: null } }), null);
+  assert.equal(fmvValue({ fmv: { value: 'sixty' } }), null);
+  assert.equal(fmvValue({}), null);
+});
+
+test('collectionStats totals only priced books and says how many that was', () => {
+  const s = collectionStats([{ bin: '01', comics: [PRICED, UNPRICED] }]);
+  assert.equal(s.comics, 2);
+  assert.equal(s.priced, 1);
+  assert.equal(s.unpriced, 1);
+  assert.equal(s.totalValue, 60);
+  assert.equal(s.topPop, 1);
+  assert.equal(s.bins, 1);
+});
+
+test('collectionStats reports the oldest FMV date, so staleness is visible', () => {
+  const older = { ...PRICED, cert: '3', fmv: { value: 10, fetchedAt: '2026-01-01T00:00:00Z' } };
+  const s = collectionStats([{ bin: '01', comics: [PRICED, older] }]);
+  assert.equal(s.oldestFmv, '2026-01-01T00:00:00Z');
+});
+
+test('collectionStats handles an empty collection', () => {
+  const s = collectionStats([]);
+  assert.equal(s.comics, 0);
+  assert.equal(s.totalValue, 0);
+  assert.equal(s.oldestFmv, null);
+});
+
+test('gradeDistribution counts by grade, highest first', () => {
+  const dist = gradeDistribution([
+    { bin: '01', comics: [{ grade: '9.6' }, { grade: '9.8' }, { grade: '9.8' }, { grade: '8.0' }] },
+  ]);
+  assert.deepEqual(dist, [
+    { grade: '9.8', count: 2 },
+    { grade: '9.6', count: 1 },
+    { grade: '8.0', count: 1 },
+  ]);
+});
+
+test('valueByBin sums each bin and counts how many are priced', () => {
+  const rows = valueByBin([{ bin: '01', comics: [PRICED, UNPRICED] }]);
+  assert.deepEqual(rows, [{ bin: '01', count: 2, value: 60, priced: 1 }]);
+});
+
+test('formatMoney rounds to whole dollars and groups thousands', () => {
+  assert.equal(formatMoney(60), '$60');
+  assert.equal(formatMoney(1234.56), '$1,235');
+  assert.equal(formatMoney(0), '$0');
+  assert.equal(formatMoney(null), '—');
+  assert.equal(formatMoney(undefined), '—');
 });
 
 test('collectSearchIndex makes every comic findable by cert and by title', () => {

@@ -52,6 +52,7 @@ export async function makePrintables() {
   const browser = await chromium.launch();
   const page = await browser.newPage();
   const written = [];
+  const locked = [];
 
   try {
     for (const bin of bins) {
@@ -93,14 +94,24 @@ export async function makePrintables() {
 
         await page.goto(pathToFileURL(path.resolve(tmp)).href);
         await page.waitForLoadState('networkidle');
-        await page.pdf({ path: pdfPath, preferCSSPageSize: true, printBackground: true });
+
+        try {
+          await page.pdf({ path: pdfPath, preferCSSPageSize: true, printBackground: true });
+          written.push(pdfPath);
+          console.log(`  ${pdfPath}`);
+          console.log(`  ${htmlPath}`);
+        } catch (err) {
+          // On Windows an open PDF viewer holds a lock on the file.
+          if (['EBUSY', 'EPERM', 'EACCES'].includes(err.code)) {
+            locked.push(pdfPath);
+            console.warn(`  ! ${pdfPath} is open in another program — close it and re-run`);
+          } else {
+            throw err;
+          }
+        }
 
         const { rm } = await import('node:fs/promises');
         await rm(tmp, { force: true });
-
-        written.push(pdfPath);
-        console.log(`  ${pdfPath}`);
-        console.log(`  ${htmlPath}`);
       }
       console.log(`bin ${bin.bin}: ${count} comics\n`);
     }
@@ -109,12 +120,21 @@ export async function makePrintables() {
   }
 
   console.log(`Wrote ${written.length} PDF(s) to ${PRINT_DIR}/`);
-  return { files: written };
+  if (locked.length) {
+    console.warn(
+      `\n${locked.length} file(s) could not be written because they are open:\n` +
+        locked.map((f) => `  ${f}`).join('\n') +
+        '\nClose them and run `npm run print` again.',
+    );
+  }
+  return { files: written, locked };
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
-  makePrintables().catch((err) => {
-    console.error(err);
-    process.exit(1);
-  });
+  makePrintables()
+    .then((r) => process.exit(r.locked?.length ? 1 : 0))
+    .catch((err) => {
+      console.error(err);
+      process.exit(1);
+    });
 }

@@ -81,6 +81,7 @@ li:last-child { border-bottom: 0; }
   overflow: hidden;
   text-overflow: ellipsis;
   line-height: 1.15;
+  font-weight: 700;
 }
 
 .g {

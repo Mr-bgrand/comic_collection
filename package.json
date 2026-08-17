@@ -7,6 +7,8 @@
     "test": "node --test \"src/**/*.test.js\"",
     "lookup": "node src/scrape.js",
     "repair": "node src/rerepair.js",
+    "login": "node src/gocollect.js --login",
+    "fmv": "node src/gocollect.js",
     "build": "node src/build.js",
     "print": "node src/print.js",
     "verify:print": "node src/verify-print.js"

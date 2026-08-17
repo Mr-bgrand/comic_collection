@@ -52,6 +52,9 @@ h1 {
 
 .tagline { margin-top: 0.35rem; color: var(--muted); }
 
+.dash-link { color: var(--accent); text-decoration: none; font-weight: 600; }
+.dash-link:hover { text-decoration: underline; }
+
 .search { margin: 1.8rem 0 1rem; }
 
 input[type="search"] {
@@ -204,6 +207,7 @@ export function renderIndexPage({ bins, config, totalComics, totalTopPops }) {
   <p class="tagline">${totalComics} CGC-graded comics across ${bins.length} bin${
     bins.length === 1 ? '' : 's'
   }${totalTopPops ? ` &middot; <span class="star">★ ${totalTopPops} top pop</span>` : ''}</p>
+  <p class="tagline"><a class="dash-link" href="dashboard/">View dashboard &rarr;</a></p>
 
   <div class="search">
     <label for="q" class="visually-hidden" hidden>Search the collection</label>

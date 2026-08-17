@@ -16,6 +16,7 @@ import { renderLabel } from './templates/label.js';
 import { renderSheet } from './templates/sheet.js';
 import { renderBinPage } from './templates/binPage.js';
 import { renderIndexPage } from './templates/indexPage.js';
+import { renderDashboard } from './templates/dashboard.js';
 
 const DATA_DIR = 'data';
 const DIST_DIR = 'dist';
@@ -115,6 +116,13 @@ export async function build() {
   await writeFile(
     path.join(DIST_DIR, 'index.html'),
     renderIndexPage({ bins, config, totalComics, totalTopPops }),
+    'utf8',
+  );
+
+  await mkdir(path.join(DIST_DIR, 'dashboard'), { recursive: true });
+  await writeFile(
+    path.join(DIST_DIR, 'dashboard', 'index.html'),
+    renderDashboard({ bins, config }),
     'utf8',
   );
 
