@@ -224,16 +224,27 @@ export function collectionStats(bins) {
   let totalValue = 0;
   let topPop = 0;
   let oldestFmv = null;
+  let noSales = 0;
+  let notListed = 0;
+  let unfetched = 0;
 
   for (const bin of bins) {
     for (const comic of bin.comics ?? []) {
       comics += 1;
       if (isTopPop(comic)) topPop += 1;
+
       const value = fmvValue(comic);
       if (value !== null) {
         priced += 1;
         totalValue += value;
+      } else if (!comic.fmv) {
+        unfetched += 1; // never looked up — running the fetch would help
+      } else if (comic.fmv.status === 'no-sales') {
+        noSales += 1; // listed on GoCollect, nothing has sold
+      } else {
+        notListed += 1; // GoCollect does not carry this book
       }
+
       const at = comic.fmv?.fetchedAt;
       if (at && (!oldestFmv || at < oldestFmv)) oldestFmv = at;
     }
@@ -244,6 +255,9 @@ export function collectionStats(bins) {
     comics,
     priced,
     unpriced: comics - priced,
+    noSales,
+    notListed,
+    unfetched,
     totalValue,
     topPop,
     oldestFmv,

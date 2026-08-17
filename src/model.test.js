@@ -251,6 +251,18 @@ test('collectionStats totals only priced books and says how many that was', () =
   assert.equal(s.bins, 1);
 });
 
+test('collectionStats separates the three reasons a book has no price', () => {
+  const noSales = { cert: '4', fmv: { value: null, status: 'no-sales', url: 'https://x' } };
+  const notListed = { cert: '5', fmv: { value: null, status: 'not-listed', url: null } };
+  const never = { cert: '6' };
+  const s = collectionStats([{ bin: '01', comics: [PRICED, noSales, notListed, never] }]);
+  assert.equal(s.priced, 1);
+  assert.equal(s.noSales, 1);
+  assert.equal(s.notListed, 1);
+  assert.equal(s.unfetched, 1, 'only a book never looked up counts as unfetched');
+  assert.equal(s.unpriced, 3);
+});
+
 test('collectionStats reports the oldest FMV date, so staleness is visible', () => {
   const older = { ...PRICED, cert: '3', fmv: { value: 10, fetchedAt: '2026-01-01T00:00:00Z' } };
   const s = collectionStats([{ bin: '01', comics: [PRICED, older] }]);

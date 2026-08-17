@@ -369,12 +369,23 @@ ${barChart(
   </section>`
       : '';
 
-  const pricedNotice =
-    stats.priced === 0
-      ? `<p class="notice">No fair market values yet. Sign in once with <code>npm run login</code>, then run <code>npm run fmv</code> to pull values from GoCollect.</p>`
-      : stats.unpriced > 0
-        ? `<p class="notice">${stats.unpriced} of ${stats.comics} books have no fair market value yet — run <code>npm run fmv</code> to fill them in.</p>`
-        : '';
+  // Only suggest re-running the fetch for books it would actually help. A book
+  // GoCollect does not carry, or carries with no sales, will never get a price
+  // from another run, and saying otherwise sends you round a pointless loop.
+  let pricedNotice = '';
+  if (stats.unfetched === stats.comics && stats.comics > 0) {
+    pricedNotice = `<p class="notice">No fair market values yet. Sign in once with <code>npm run login</code>, then run <code>npm run fmv</code> to pull values from GoCollect.</p>`;
+  } else {
+    const parts = [];
+    if (stats.unfetched) parts.push(`${stats.unfetched} not yet looked up`);
+    if (stats.noSales) parts.push(`${stats.noSales} listed with no recorded sales`);
+    if (stats.notListed) parts.push(`${stats.notListed} not carried by GoCollect`);
+    if (parts.length) {
+      pricedNotice = `<p class="notice">${escapeHtml(
+        `${stats.priced} of ${stats.comics} books priced — ${parts.join(', ')}.`,
+      )}${stats.unfetched ? ' Run <code>npm run fmv</code> to fetch the rest.' : ''}</p>`;
+    }
+  }
 
   const body = `<div class="wrap">
   <a class="crumb" href="./">&larr; ${escapeHtml(config.collectionName ?? 'Collection')}</a>
