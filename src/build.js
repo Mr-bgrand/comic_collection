@@ -91,7 +91,11 @@ export async function build() {
       renderLabel({ bin, qrSvg, url, config }),
       'utf8',
     );
-    await writeFile(path.join(outDir, 'sheet.html'), renderSheet({ bin, url }), 'utf8');
+    await writeFile(
+      path.join(outDir, 'sheet.html'),
+      renderSheet({ bin, url, qrSvg }),
+      'utf8',
+    );
 
     const count = (bin.comics ?? []).length;
     const over = count > (config.binCapacity ?? Infinity);

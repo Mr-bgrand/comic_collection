@@ -74,7 +74,7 @@ export async function makePrintables() {
         },
         {
           name: `bin-${bin.bin}-sheet`,
-          html: renderSheet({ bin, url, imagePrefix: '../data/images/' }),
+          html: renderSheet({ bin, url, qrSvg, imagePrefix: '../data/images/' }),
         },
       ];
 

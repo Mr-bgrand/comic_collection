@@ -143,17 +143,23 @@ export function compactDetailLines(comic) {
     if (credits) lines.push(credits);
   }
 
+  /*
+   * Ordered most-valuable first, because this line is clipped rather than
+   * wrapped on the printed sheet. Population came last once, and a book that was
+   * the only 9.8 in existence had exactly that fact cut off the page. Key
+   * comments are the longest and most variable, so they absorb the truncation.
+   */
   const tail = [];
-  if (comic.keyComments) tail.push(`Key: ${comic.keyComments}`);
-  if (comic.gradeDate) tail.push(`Graded ${comic.gradeDate}`);
-  if (comic.cert) tail.push(`Cert ${comic.cert}`);
-
   const pop = comic.population;
   if (isTopPop(comic)) {
     tail.push(`★ Top Pop — ${pop.atGrade} in ${comic.grade}, none higher`);
   } else if (pop && typeof pop.higher === 'number') {
     tail.push(`${pop.atGrade} in ${comic.grade} · ${pop.higher} higher`);
   }
+  if (comic.cert) tail.push(`Cert ${comic.cert}`);
+  if (comic.gradeDate) tail.push(`Graded ${comic.gradeDate}`);
+  if (comic.keyComments) tail.push(`Key: ${comic.keyComments}`);
+
   if (tail.length) lines.push(tail.join(' · '));
 
   return lines;

@@ -108,7 +108,7 @@ export async function verifyPrint({ size = 25 } = {}) {
   await writeFile(labelHtml, renderLabel({ bin, qrSvg, url, config }), 'utf8');
   await writeFile(
     sheetHtml,
-    renderSheet({ bin, url, imagePrefix: `${pathToFileURL(IMAGE_DIR).href}/` }),
+    renderSheet({ bin, url, qrSvg, imagePrefix: `${pathToFileURL(IMAGE_DIR).href}/` }),
     'utf8',
   );
 
@@ -159,7 +159,12 @@ export async function verifyPrint({ size = 25 } = {}) {
       await writeFile(lHtml, renderLabel({ bin: real, qrSvg: realQr, url: realUrl, config }), 'utf8');
       await writeFile(
         sHtml,
-        renderSheet({ bin: real, url: realUrl, imagePrefix: `${pathToFileURL(IMAGE_DIR).href}/` }),
+        renderSheet({
+          bin: real,
+          url: realUrl,
+          qrSvg: realQr,
+          imagePrefix: `${pathToFileURL(IMAGE_DIR).href}/`,
+        }),
         'utf8',
       );
       checks.push(

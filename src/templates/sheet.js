@@ -38,22 +38,36 @@ body {
 
 .masthead {
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;
   justify-content: space-between;
+  gap: 0.15in;
   padding-bottom: 0.04in;
   margin-bottom: 0.05in;
   border-bottom: 2pt solid ${INK};
 }
 
 .masthead h1 { font-size: 14pt; font-weight: 800; letter-spacing: -0.025em; }
-.masthead .sub { font-size: 7.5pt; color: #55555e; }
+.masthead .sub { margin-top: 0.02in; font-size: 7.5pt; color: #55555e; }
+
+/*
+ * The QR repeats on every side, because each side is a standalone page — whoever
+ * is holding side 2 should not have to go find side 1 to scan through.
+ */
+/*
+ * 0.85in, not smaller. The bin URL needs a ~33-module QR, so at 0.68in each
+ * module falls to ~0.5mm — under the ~0.6mm that scans reliably off paper at
+ * arm's length. The extra height is paid for by the entry rows.
+ */
+.mast-qr { flex: none; width: 0.8in; text-align: center; }
+.mast-qr svg { width: 0.8in; height: 0.8in; display: block; }
+.mast-qr .cap { margin-top: 0.01in; font-size: 5.5pt; line-height: 1.1; color: #55555e; }
 
 .entry {
   display: grid;
-  grid-template-columns: 0.43in 1fr;
+  grid-template-columns: 0.40in 1fr;
   column-gap: 0.12in;
-  height: 0.7in;
-  padding: 0.01in 0;
+  height: 0.655in;
+  padding: 0.008in 0;
   border-bottom: 0.3pt solid #e4e4e8;
   overflow: hidden;
   break-inside: avoid;
@@ -62,16 +76,16 @@ body {
 .entry:last-child { border-bottom: 0; }
 
 .cover {
-  width: 0.43in;
-  height: 0.68in;
+  width: 0.40in;
+  height: 0.635in;
   object-fit: cover;
   border: 0.3pt solid #c8c8d0;
   background: #f4f4f6;
 }
 
 .cover-none {
-  width: 0.43in;
-  height: 0.68in;
+  width: 0.40in;
+  height: 0.635in;
   border: 0.3pt dashed #c8c8d0;
 }
 
@@ -153,19 +167,26 @@ ${lines}
     </div>`;
 }
 
-export function renderSheet({ bin, url, imagePrefix = '../../images/' }) {
+export function renderSheet({ bin, url, qrSvg = '', imagePrefix = '../../images/' }) {
   const comics = bin.comics ?? [];
   const sides = paginate(comics, PER_SIDE);
+
+  const qrBlock = qrSvg
+    ? `    <div class="mast-qr">${qrSvg}<div class="cap">Scan for cover scans</div></div>`
+    : '';
 
   const body = sides
     .map((side, i) => {
       const entries = side.map((c) => renderEntry(c, imagePrefix)).join('\n');
       return `<section class="side">
   <div class="masthead">
-    <h1>Bin ${escapeHtml(bin.bin)}</h1>
-    <div class="sub">${comics.length} CGC-graded comics${
-      bin.location ? ` &middot; ${escapeHtml(bin.location)}` : ''
-    } &middot; updated ${escapeHtml(bin.updated ?? '')}</div>
+    <div>
+      <h1>Bin ${escapeHtml(bin.bin)}</h1>
+      <div class="sub">${comics.length} CGC-graded comics${
+        bin.location ? ` &middot; ${escapeHtml(bin.location)}` : ''
+      } &middot; updated ${escapeHtml(bin.updated ?? '')}</div>
+    </div>
+${qrBlock}
   </div>
 ${entries}
   <div class="pagefoot">

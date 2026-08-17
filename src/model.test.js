@@ -187,6 +187,14 @@ test('compactDetailLines keeps every field the long form has', () => {
   }
 });
 
+test('compactDetailLines puts population before the long key comments', () => {
+  // The sheet clips this line instead of wrapping it, so the order decides what
+  // survives. A top-pop note must never be the part that falls off the page.
+  const line = compactDetailLines(VENOM).find((l) => l.includes('Cert'));
+  assert.ok(line.indexOf('Top Pop') < line.indexOf('Cert'), 'population precedes cert');
+  assert.ok(line.indexOf('Cert') < line.indexOf('Key:'), 'cert precedes key comments');
+});
+
 test('compactDetailLines joins art credits onto one line', () => {
   const lines = compactDetailLines(VENOM);
   const credits = lines.find((l) => l.includes('Grønbekk'));
