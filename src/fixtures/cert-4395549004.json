@@ -1,0 +1,23 @@
+{
+  "_note": "Raw extraction captured from the live CGC page for cert 4395549004 on 2026-08-16. The \\ufffd sequences in Art Comments are the encoding damage CGC itself serves; they are intentional and must not be 'fixed' in this file.",
+  "pairs": [
+    ["CGC Cert #", "4395549004"],
+    ["Title", "Venom"],
+    ["Issue", "23"],
+    ["Issue Date", "9/23"],
+    ["Issue Year", "2023"],
+    ["Publisher", "Marvel Comics"],
+    ["Variant", "Black Saber Comics \"Virgin\" Edition"],
+    ["Grade", "9.8"],
+    ["Page Quality", "WHITE"],
+    ["Grade Date", "2024-03-26"],
+    ["Label Category", "Universal"],
+    ["Art Comments", "Torunn Gr�nbekk story\nKen Lashley & Ram�n F. Bachs art\nIvan Tao cover"],
+    ["Key Comments", "Venom #223"]
+  ],
+  "images": [
+    "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/df56c719-63e1-4b42-aa77-d4e433a80bfa/CGC4395549-004_OBV@500x787.jpg",
+    "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/df56c719-63e1-4b42-aa77-d4e433a80bfa/CGC4395549-004_REV@500x787.jpg"
+  ],
+  "populationText": "Total Graded by CGC\nIn 9.8: 83\nIn Higher Grades: 0\nTop Pop"
+}

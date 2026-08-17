@@ -1,0 +1,22 @@
+{
+  "name": "comic-collection",
+  "version": "1.0.0",
+  "description": "CGC-graded comic bin inventory: cert lookup, print labels, and a QR-linked catalog",
+  "type": "module",
+  "scripts": {
+    "test": "node --test \"src/**/*.test.js\"",
+    "lookup": "node src/scrape.js",
+    "build": "node src/build.js",
+    "verify:print": "node src/verify-print.js"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "playwright": "^1.49.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
