@@ -21,6 +21,7 @@ import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 
 const DASHBOARD_URL = 'https://gocollect.com/app/dashboard';
+const LOGIN_URL = 'https://gocollect.com/login';
 const PROFILE_DIR = path.join('.cache', 'chrome-profile');
 const BIN_DIR = path.join('data', 'bins');
 const BETWEEN_LOOKUPS_MS = 3_000;
@@ -84,6 +85,64 @@ function extractFmvInPage() {
     url: link ?? '',
     signedOut: /sign in|log in to continue/i.test(text) && !/GoCollect FMV/.test(text),
   };
+}
+
+/**
+ * Load .env if present. Credentials are entirely optional — the saved browser
+ * session is the primary path and needs no password stored anywhere. These exist
+ * only so an unattended refresh can re-authenticate when the session lapses.
+ */
+function loadEnv() {
+  if (existsSync('.env')) {
+    try {
+      process.loadEnvFile('.env');
+    } catch {
+      /* malformed .env is not worth failing the run over */
+    }
+  }
+  const email = process.env.GOCOLLECT_EMAIL?.trim();
+  const password = process.env.GOCOLLECT_PASSWORD?.trim();
+  return email && password ? { email, password } : null;
+}
+
+/** True when the page is showing a sign-in prompt rather than the app. */
+async function isSignedOut(page) {
+  return page.evaluate(() => {
+    const text = document.body.innerText;
+    return (
+      /sign in|log in/i.test(text) &&
+      !/GoCollect FMV|Cert Lookup|Dashboard/i.test(text)
+    );
+  });
+}
+
+/**
+ * Sign in with stored credentials if the saved session has lapsed. Returns true
+ * when a sign-in was performed.
+ */
+async function signInIfNeeded(page, creds) {
+  if (!(await isSignedOut(page))) return false;
+
+  if (!creds) {
+    throw new Error(
+      'session expired and no credentials in .env — run `npm run login` to sign in by hand',
+    );
+  }
+
+  console.log('  session lapsed; signing in with stored credentials');
+  await page.goto(LOGIN_URL, { waitUntil: 'domcontentloaded' });
+
+  await page.locator('input[type="email"], input[name="email"]').first()
+    .fill(creds.email, { timeout: 20_000 });
+  await page.locator('input[type="password"], input[name="password"]').first()
+    .fill(creds.password, { timeout: 20_000 });
+  await page.getByRole('button', { name: /sign in|log in|submit/i }).first().click();
+
+  await page.waitForURL(/\/app\//, { timeout: 30_000 }).catch(() => {});
+  if (await isSignedOut(page)) throw new Error('sign-in failed — check GOCOLLECT_PASSWORD in .env');
+
+  console.log('  signed in');
+  return true;
 }
 
 async function launchProfile({ headless }) {
@@ -159,12 +218,16 @@ export async function fetchAllFmv({ force = false } = {}) {
     return { priced: 0, failed: [] };
   }
 
+  const creds = loadEnv();
   const context = await launchProfile({ headless: false });
   const page = context.pages()[0] ?? (await context.newPage());
   const failed = [];
   let priced = 0;
 
   try {
+    await page.goto(DASHBOARD_URL, { waitUntil: 'domcontentloaded' });
+    await signInIfNeeded(page, creds);
+
     for (const { file, data } of bins) {
       const todo = (data.comics ?? []).filter((c) => force || !c.fmv);
       if (!todo.length) {
