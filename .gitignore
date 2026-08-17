@@ -12,3 +12,7 @@ Thumbs.db
 .env
 .env.*
 !.env.example
+
+# Generated image derivatives (rebuilt from data/images)
+data/thumbs/
+data/medium/

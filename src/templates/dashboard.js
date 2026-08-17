@@ -18,6 +18,7 @@ import {
   displayTitle,
   isTopPop,
   fmvValue,
+  manualValue,
   formatMoney,
   collectionStats,
   gradeDistribution,
@@ -230,6 +231,76 @@ tbody tr:hover { background: var(--surface); }
 .dim { color: var(--faint); }
 .t-title { font-weight: 600; }
 
+.titlecell { display: flex; align-items: center; gap: 0.6rem; }
+
+/* Row thumbnail. The enlarged preview is a child so hover/focus reveals it. */
+.thumb {
+  position: relative;
+  flex: none;
+  width: 1.6rem;
+  display: block;
+  cursor: zoom-in;
+}
+
+.thumb > img {
+  width: 1.6rem;
+  aspect-ratio: 500 / 787;
+  object-fit: cover;
+  display: block;
+  border-radius: 2px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+}
+
+.thumb-none {
+  width: 1.6rem;
+  aspect-ratio: 500 / 787;
+  border: 1px dashed var(--line);
+  border-radius: 2px;
+}
+
+.pop {
+  position: absolute;
+  z-index: 20;
+  top: 50%;
+  left: calc(100% + 0.5rem);
+  transform: translateY(-50%) scale(0.96);
+  width: 15rem;
+  padding: 0.3rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.22);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.12s ease, transform 0.12s ease;
+  pointer-events: none;
+}
+
+.pop img { width: 100%; display: block; border-radius: 4px; }
+
+.thumb:hover .pop,
+.thumb:focus-visible .pop,
+.thumb.open .pop {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-50%) scale(1);
+}
+
+/* Rows near the bottom would push the preview off-screen, so flip it upward. */
+.thumb.flip-up .pop { top: auto; bottom: -0.5rem; transform: none; }
+.thumb.flip-up:hover .pop,
+.thumb.flip-up:focus-visible .pop,
+.thumb.flip-up.open .pop { transform: none; }
+
+@media (max-width: 44rem) {
+  .pop { width: 11rem; left: calc(100% + 0.3rem); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pop { transition: none; }
+}
+
 /* Cert -> CGC verification, FMV -> the book's GoCollect page. */
 td.cert a,
 td.fmv a {
@@ -242,6 +313,18 @@ td.fmv a {
 td.fmv a { color: var(--data); font-weight: 600; }
 td.fmv a.nosale { color: var(--faint); font-weight: 400; font-size: 0.82rem; }
 
+/* Estimates read as estimates — different weight, and an explicit marker. */
+td.fmv .est { color: var(--muted); font-weight: 500; }
+
+.est-mark {
+  margin-left: 0.25rem;
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--faint);
+  vertical-align: 0.1em;
+}
+
 td.cert a:hover,
 td.fmv a:hover { color: var(--data); text-decoration-color: currentColor; }
 
@@ -251,6 +334,44 @@ td.fmv a:hover { color: var(--data); text-decoration-color: currentColor; }
 `;
 
 const script = `
+/*
+ * Cover previews. The full-size scan is ~370KB, so it is fetched on first
+ * hover/tap rather than with the page, and only once per book. Touch devices have
+ * no hover, so a tap toggles it.
+ */
+document.querySelectorAll('.thumb[data-full]').forEach((thumb) => {
+  const img = thumb.querySelector('.pop img');
+
+  const load = () => {
+    if (!img.getAttribute('src')) img.src = thumb.dataset.full;
+    // Flip upward when there is not room below.
+    const r = thumb.getBoundingClientRect();
+    thumb.classList.toggle('flip-up', r.bottom + 180 > window.innerHeight);
+  };
+
+  thumb.addEventListener('pointerenter', load);
+  thumb.addEventListener('focus', load);
+
+  thumb.addEventListener('click', (e) => {
+    e.preventDefault();
+    load();
+    const open = thumb.classList.contains('open');
+    document.querySelectorAll('.thumb.open').forEach((t) => t.classList.remove('open'));
+    if (!open) thumb.classList.add('open');
+  });
+
+  thumb.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); thumb.click(); }
+    if (e.key === 'Escape') thumb.classList.remove('open');
+  });
+});
+
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.thumb')) {
+    document.querySelectorAll('.thumb.open').forEach((t) => t.classList.remove('open'));
+  }
+});
+
 const table = document.getElementById('inventory');
 if (table) {
   const tbody = table.tBodies[0];
@@ -335,18 +456,36 @@ export function renderDashboard({ bins, config }) {
         fmvCell = comic.fmv?.url
           ? `<a href="${escapeHtml(comic.fmv.url)}" target="_blank" rel="noopener">${money}</a>`
           : money;
+      } else if (manualValue(comic) !== null) {
+        // Marked as an estimate wherever it appears, never dressed as market data.
+        const note = comic.manual?.note ? ` — ${comic.manual.note}` : '';
+        fmvCell = `<span class="est" title="${escapeHtml(
+          `Your estimate${note}`,
+        )}">${escapeHtml(formatMoney(manualValue(comic)))}<span class="est-mark">est</span></span>`;
       } else if (comic.fmv?.url) {
         fmvCell = `<a class="nosale" href="${escapeHtml(
           comic.fmv.url,
         )}" target="_blank" rel="noopener" title="Listed on GoCollect, no recorded sales">no sales</a>`;
       }
 
+      // Thumbnail loads eagerly-but-lazily at ~10KB; the full scan is only
+      // fetched the first time you hover or tap, via data-full.
+      const front = comic.images?.front;
+      const thumb = front
+        ? `<span class="thumb" tabindex="0" data-full="../medium/${escapeHtml(front)}">
+              <img src="../thumbs/${escapeHtml(front)}" alt="" loading="lazy" decoding="async">
+              <span class="pop"><img alt="${escapeHtml(displayTitle(comic))}"></span>
+            </span>`
+        : '<span class="thumb thumb-none"></span>';
+
       return `        <tr>
-          <td class="t-title">${escapeHtml(displayTitle(comic))}</td>
+          <td class="t-title"><span class="titlecell">${thumb}<span>${escapeHtml(
+            displayTitle(comic),
+          )}</span></span></td>
           <td class="num" data-sort="${escapeHtml(comic.grade ?? '')}">${escapeHtml(
             comic.grade ?? '',
           )}${isTopPop(comic) ? ' <span class="star">★</span>' : ''}</td>
-          <td class="num fmv" data-sort="${value ?? -1}">${fmvCell}</td>
+          <td class="num fmv" data-sort="${value ?? manualValue(comic) ?? -1}">${fmvCell}</td>
           <td class="num">${escapeHtml(bin)}</td>
           <td class="cert hide-sm">${certCell}</td>
         </tr>`;

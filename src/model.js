@@ -219,10 +219,36 @@ export function fmvValue(comic) {
 }
 
 /**
+ * A value entered by hand, for books no market source carries.
+ *
+ * 13 of 46 books are retailer exclusives GoCollect does not track, and eBay
+ * cannot reliably identify them either. A manual figure is the honest fallback —
+ * but it is a different kind of fact from a sales-derived one, so it is stored
+ * separately and never merged into a market figure without saying so.
+ */
+export function manualValue(comic) {
+  const v = comic?.manual?.value;
+  return typeof v === 'number' && Number.isFinite(v) ? v : null;
+}
+
+/** Market value if there is one, otherwise the hand-entered estimate. */
+export function effectiveValue(comic) {
+  return fmvValue(comic) ?? manualValue(comic);
+}
+
+/** Where a book's value came from — so the UI can always say which. */
+export function valueSource(comic) {
+  if (fmvValue(comic) !== null) return 'market';
+  if (manualValue(comic) !== null) return 'manual';
+  return null;
+}
+
+/**
  * Headline numbers for the dashboard.
  *
  * `priced` is reported separately from `comics` on purpose: a total is misleading
- * if you cannot see how much of the collection it actually covers.
+ * if you cannot see how much of the collection it actually covers. Market and
+ * manual money are also kept apart, for the same reason.
  */
 export function collectionStats(bins) {
   let comics = 0;
@@ -233,11 +259,19 @@ export function collectionStats(bins) {
   let noSales = 0;
   let notListed = 0;
   let unfetched = 0;
+  let manualCount = 0;
+  let manualTotal = 0;
 
   for (const bin of bins) {
     for (const comic of bin.comics ?? []) {
       comics += 1;
       if (isTopPop(comic)) topPop += 1;
+
+      const manual = manualValue(comic);
+      if (manual !== null && fmvValue(comic) === null) {
+        manualCount += 1;
+        manualTotal += manual;
+      }
 
       const value = fmvValue(comic);
       if (value !== null) {
@@ -264,7 +298,14 @@ export function collectionStats(bins) {
     noSales,
     notListed,
     unfetched,
+    // Market money and hand-entered money, kept apart. `combinedValue` exists for
+    // when a single figure is genuinely wanted, and the UI must label it as
+    // including estimates whenever manualTotal is non-zero.
     totalValue,
+    manualCount,
+    manualTotal,
+    combinedValue: totalValue + manualTotal,
+    valued: priced + manualCount,
     topPop,
     oldestFmv,
   };

@@ -17,6 +17,7 @@ import { renderSheet } from './templates/sheet.js';
 import { renderBinPage } from './templates/binPage.js';
 import { renderIndexPage } from './templates/indexPage.js';
 import { renderDashboard } from './templates/dashboard.js';
+import { ensureThumbs, THUMB_DIR, MEDIUM_DIR } from './thumbs.js';
 
 const DATA_DIR = 'data';
 const DIST_DIR = 'dist';
@@ -72,6 +73,13 @@ export async function build() {
   const imageSrc = path.join(DATA_DIR, 'images');
   if (existsSync(imageSrc)) {
     await cp(imageSrc, path.join(DIST_DIR, 'images'), { recursive: true });
+  }
+
+  // Sized derivatives for the table and its hover preview; the bin pages keep
+  // using the full scans.
+  await ensureThumbs();
+  for (const [dir, name] of [[THUMB_DIR, 'thumbs'], [MEDIUM_DIR, 'medium']]) {
+    if (existsSync(dir)) await cp(dir, path.join(DIST_DIR, name), { recursive: true });
   }
 
   for (const bin of bins) {

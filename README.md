@@ -107,10 +107,44 @@ a link to its GoCollect page:
 }
 ```
 
+## Values you enter yourself
+
+Some books no market source carries — retailer exclusives GoCollect doesn't track
+and eBay can't reliably identify. For those:
+
+```bash
+npm run edit     # http://127.0.0.1:4173
+```
+
+Local only, and deliberately so: the published dashboard is a static public page
+with no backend, and anyone who scans a bin QR can open it. An editable public
+page would be both impossible and wrong. This runs on your machine and writes
+straight to `data/bins/*.json`; then `npm run build` and commit.
+
+Your figures are stored under `manual`, never merged into `fmv`, and are labelled
+as estimates everywhere they appear. A total that silently blends sales data with
+guesswork is how an appraisal document becomes misleading.
+
+A blank value *clears* an estimate rather than storing zero — a book worth nothing
+and a book you haven't valued are different facts.
+
 ## Dashboard
 
 `dist/dashboard/` — total value, grade spread, top-pop count, and a sortable table
 of every book with links out to both CGC and GoCollect. Linked from the site index.
+
+Each row carries a cover thumbnail; hover, tap, or keyboard-focus it for a large
+preview. Image sizes are generated from `data/images` by [`src/thumbs.js`](src/thumbs.js)
+rather than committed:
+
+| Size | Used by | Weight |
+| --- | --- | --- |
+| 120px | table rows, and print at 300dpi | ~7 KB |
+| 480px | the hover preview, fetched on demand | ~70 KB |
+| 500px original | bin pages | ~370 KB |
+
+That keeps the dashboard's initial load at ~358 KB instead of the ~17 MB it would
+be with full scans, and took the manifest PDF from 8 MB to 258 KB.
 
 ## Local preview
 

@@ -21,10 +21,11 @@ import QRCode from 'qrcode';
 import { binUrl } from './model.js';
 import { renderLabel } from './templates/label.js';
 import { renderSheet } from './templates/sheet.js';
+import { ensureThumbs } from './thumbs.js';
 
 const PRINT_DIR = 'print';
 const BIN_DIR = path.join('data', 'bins');
-const IMAGE_DIR = path.resolve('data', 'images');
+const THUMB_ABS = path.resolve('data', 'thumbs');
 
 async function loadConfig() {
   return JSON.parse(await readFile(path.join('data', 'config.json'), 'utf8'));
@@ -47,6 +48,7 @@ export async function makePrintables() {
   }
 
   await mkdir(PRINT_DIR, { recursive: true });
+  await ensureThumbs({ quiet: true });
 
   const { chromium } = await import('playwright');
   const browser = await chromium.launch();
@@ -74,7 +76,9 @@ export async function makePrintables() {
         },
         {
           name: `bin-${bin.bin}-sheet`,
-          html: renderSheet({ bin, url, qrSvg, imagePrefix: '../data/images/' }),
+          // 120px thumbnails, not the full scans: at 0.40in wide that is exactly
+          // 300dpi, and it takes the sheet PDF from 8MB to a few hundred KB.
+          html: renderSheet({ bin, url, qrSvg, imagePrefix: '../data/thumbs/' }),
         },
       ];
 
@@ -86,8 +90,8 @@ export async function makePrintables() {
         // Render the PDF from a copy that points at absolute image paths, so the
         // committed HTML keeps working relative paths either way.
         const absolute = doc.html.replaceAll(
-          '../data/images/',
-          `${pathToFileURL(IMAGE_DIR).href}/`,
+          '../data/thumbs/',
+          `${pathToFileURL(THUMB_ABS).href}/`,
         );
         const tmp = path.join(PRINT_DIR, `.${doc.name}.tmp.html`);
         await writeFile(tmp, absolute, 'utf8');
