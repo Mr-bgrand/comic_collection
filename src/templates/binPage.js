@@ -132,6 +132,7 @@ a.cert:hover { color: var(--accent); text-decoration-color: currentColor; }
 }
 
 .fmv-meta { font-weight: 400; font-size: 0.8rem; color: var(--muted); }
+.fmv a.nosale { color: var(--muted); font-weight: 500; }
 
 .pop { color: var(--star); font-weight: 600; }
 
@@ -184,17 +185,24 @@ function renderComic(comic, imagePrefix) {
 
   // FMV links to the book's GoCollect page, and always states its date — an
   // undated price is worse than no price.
-  const fmv = comic.fmv?.value
-    ? `      <div class="fmv">${
-        comic.fmv.url
-          ? `<a href="${escapeHtml(comic.fmv.url)}" target="_blank" rel="noopener">${escapeHtml(
-              formatMoney(comic.fmv.value),
-            )}</a>`
-          : escapeHtml(formatMoney(comic.fmv.value))
-      } <span class="fmv-meta">GoCollect FMV${
-        comic.fmv.fetchedAt ? ` &middot; as of ${escapeHtml(comic.fmv.fetchedAt.slice(0, 10))}` : ''
-      }</span></div>`
+  const asOf = comic.fmv?.fetchedAt
+    ? ` &middot; as of ${escapeHtml(comic.fmv.fetchedAt.slice(0, 10))}`
     : '';
+
+  let fmv = '';
+  if (comic.fmv?.value) {
+    const money = escapeHtml(formatMoney(comic.fmv.value));
+    fmv = `      <div class="fmv">${
+      comic.fmv.url
+        ? `<a href="${escapeHtml(comic.fmv.url)}" target="_blank" rel="noopener">${money}</a>`
+        : money
+    } <span class="fmv-meta">GoCollect FMV${asOf}</span></div>`;
+  } else if (comic.fmv?.url) {
+    // Listed on GoCollect but never sold — the page is still worth linking.
+    fmv = `      <div class="fmv"><a class="nosale" href="${escapeHtml(
+      comic.fmv.url,
+    )}" target="_blank" rel="noopener">No recorded sales</a> <span class="fmv-meta">on GoCollect${asOf}</span></div>`;
+  }
 
   const warning = comic.unresolved?.length
     ? `      <div class="warn">Unverified characters in CGC source text: ${escapeHtml(

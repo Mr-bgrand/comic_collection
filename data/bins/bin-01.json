@@ -37,7 +37,18 @@
           "Ramón"
         ]
       ],
-      "fetchedAt": "2026-08-17T00:13:41.480Z"
+      "fetchedAt": "2026-08-17T00:13:41.480Z",
+      "fmv": {
+        "value": 85,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 83,
+        "sold365": 2,
+        "url": "https://gocollect.com/app/comic/venom-23-black-saber-comics-virgin-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T04:18:15.702Z"
+      }
     },
     {
       "cert": "4395549005",
@@ -63,7 +74,18 @@
         "back": "4395549005_REV.jpg"
       },
       "repairs": [],
-      "fetchedAt": "2026-08-17T00:13:38.572Z"
+      "fetchedAt": "2026-08-17T00:13:38.572Z",
+      "fmv": {
+        "value": 85,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 100,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/moon-man-1-tao-variant-cover",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T04:18:22.991Z"
+      }
     },
     {
       "cert": "4395549002",
@@ -98,7 +120,18 @@
           "Yasmín"
         ]
       ],
-      "fetchedAt": "2026-08-17T00:13:44.445Z"
+      "fetchedAt": "2026-08-17T00:13:44.445Z",
+      "fmv": {
+        "value": 60,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 60,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/action-comics-1056-krs-comics-foil-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T04:18:30.252Z"
+      }
     },
     {
       "cert": "4395549003",
@@ -124,7 +157,13 @@
         "back": "4395549003_REV.jpg"
       },
       "repairs": [],
-      "fetchedAt": "2026-08-17T00:13:47.344Z"
+      "fetchedAt": "2026-08-17T00:13:47.344Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-17T04:18:36.989Z"
+      }
     },
     {
       "cert": "4395549001",
@@ -150,7 +189,18 @@
         "back": "4395549001_REV.jpg"
       },
       "repairs": [],
-      "fetchedAt": "2026-08-17T00:13:50.273Z"
+      "fetchedAt": "2026-08-17T00:13:50.273Z",
+      "fmv": {
+        "value": 30,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 40,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/batman-108-comic-mint-edition-c",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T04:18:44.362Z"
+      }
     },
     {
       "cert": "4418876010",
@@ -174,7 +224,13 @@
         "back": "4418876010_REV.jpg"
       },
       "repairs": [],
-      "fetchedAt": "2026-08-17T00:13:53.312Z"
+      "fetchedAt": "2026-08-17T00:13:53.312Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-17T04:18:50.994Z"
+      }
     },
     {
       "cert": "4418876008",
@@ -200,7 +256,18 @@
         "back": "4418876008_REV.jpg"
       },
       "repairs": [],
-      "fetchedAt": "2026-08-17T00:13:56.273Z"
+      "fetchedAt": "2026-08-17T00:13:56.273Z",
+      "fmv": {
+        "value": 85,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 115,
+        "sold365": 4,
+        "url": "https://gocollect.com/app/comic/ghost-spider-2-mexican-editionel-quinto-mundo-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T04:18:58.012Z"
+      }
     },
     {
       "cert": "4418876011",
@@ -226,7 +293,18 @@
         "back": "4418876011_REV.jpg"
       },
       "repairs": [],
-      "fetchedAt": "2026-08-17T00:13:59.252Z"
+      "fetchedAt": "2026-08-17T00:13:59.252Z",
+      "fmv": {
+        "value": 75,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 76,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/amazing-spider-man-29-paratore-virgin-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T04:19:04.978Z"
+      }
     },
     {
       "cert": "4418876007",
@@ -251,7 +329,18 @@
         "back": "4418876007_REV.jpg"
       },
       "repairs": [],
-      "fetchedAt": "2026-08-17T00:14:02.807Z"
+      "fetchedAt": "2026-08-17T00:14:02.807Z",
+      "fmv": {
+        "value": 48,
+        "currency": "USD",
+        "avg30": 25,
+        "avg90": 25,
+        "avg365": 43,
+        "sold365": 6,
+        "url": "https://gocollect.com/app/comic/spider-boy-1-kaare-andrews-foil-var-net",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T04:19:11.929Z"
+      }
     },
     {
       "cert": "4418876002",
@@ -277,7 +366,13 @@
         "back": "4418876002_REV.jpg"
       },
       "repairs": [],
-      "fetchedAt": "2026-08-17T00:14:07.366Z"
+      "fetchedAt": "2026-08-17T00:14:07.366Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-17T04:19:18.748Z"
+      }
     },
     {
       "cert": "4418876004",
@@ -303,7 +398,18 @@
         "back": "4418876004_REV.jpg"
       },
       "repairs": [],
-      "fetchedAt": "2026-08-17T00:14:10.268Z"
+      "fetchedAt": "2026-08-17T00:14:10.268Z",
+      "fmv": {
+        "value": 130,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": 100,
+        "avg365": 116,
+        "sold365": 2,
+        "url": "https://gocollect.com/app/comic/female-force-taylor-swift-nn-unknown-comics-metal-edition-a",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T04:19:26.309Z"
+      }
     },
     {
       "cert": "4418876003",
@@ -329,7 +435,13 @@
         "back": "4418876003_REV.jpg"
       },
       "repairs": [],
-      "fetchedAt": "2026-08-17T00:14:13.197Z"
+      "fetchedAt": "2026-08-17T00:14:13.197Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-17T04:19:33.434Z"
+      }
     },
     {
       "cert": "4418876012",
@@ -355,7 +467,18 @@
         "back": "4418876012_REV.jpg"
       },
       "repairs": [],
-      "fetchedAt": "2026-08-17T00:14:16.197Z"
+      "fetchedAt": "2026-08-17T00:14:16.197Z",
+      "fmv": {
+        "value": null,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/incredible-hulk-1-gleason-virgin-edition",
+        "status": "no-sales",
+        "fetchedAt": "2026-08-17T04:19:40.234Z"
+      }
     },
     {
       "cert": "4418876013",
@@ -381,7 +504,18 @@
         "back": "4418876013_REV.jpg"
       },
       "repairs": [],
-      "fetchedAt": "2026-08-17T00:14:19.123Z"
+      "fetchedAt": "2026-08-17T00:14:19.123Z",
+      "fmv": {
+        "value": 40,
+        "currency": "USD",
+        "avg30": 40,
+        "avg90": 41,
+        "avg365": 45,
+        "sold365": 22,
+        "url": "https://gocollect.com/app/comic/amazing-spider-man-23-disney100-infinity-gauntlet-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T04:19:47.392Z"
+      }
     },
     {
       "cert": "4418876014",
@@ -406,7 +540,18 @@
         "back": "4418876014_REV.jpg"
       },
       "repairs": [],
-      "fetchedAt": "2026-08-17T00:14:22.058Z"
+      "fetchedAt": "2026-08-17T00:14:22.058Z",
+      "fmv": {
+        "value": 28,
+        "currency": "USD",
+        "avg30": 20,
+        "avg90": 20,
+        "avg365": 24,
+        "sold365": 2,
+        "url": "https://gocollect.com/app/comic/spider-boy-5-rose-besch-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T04:19:54.220Z"
+      }
     },
     {
       "cert": "4401613006",
@@ -430,7 +575,18 @@
         "back": "4401613006_REV.jpg"
       },
       "repairs": [],
-      "fetchedAt": "2026-08-17T00:14:24.950Z"
+      "fetchedAt": "2026-08-17T00:14:24.950Z",
+      "fmv": {
+        "value": 36,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": 20,
+        "avg365": 37,
+        "sold365": 6,
+        "url": "https://gocollect.com/app/comic/moon-man-1-cvr-a-marco-locati",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T04:20:01.030Z"
+      }
     },
     {
       "cert": "4418876009",
@@ -456,7 +612,18 @@
         "back": "4418876009_REV.jpg"
       },
       "repairs": [],
-      "fetchedAt": "2026-08-17T00:14:27.885Z"
+      "fetchedAt": "2026-08-17T00:14:27.885Z",
+      "fmv": {
+        "value": 55,
+        "currency": "USD",
+        "avg30": 51,
+        "avg90": 51,
+        "avg365": 50,
+        "sold365": 7,
+        "url": "https://gocollect.com/app/comic/spawn-350-cvr-f-todd-mcfarlane-b-w-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T04:20:08.217Z"
+      }
     },
     {
       "cert": "4493150003",
@@ -487,7 +654,18 @@
           "Björn Barends"
         ]
       ],
-      "fetchedAt": "2026-08-17T00:14:30.810Z"
+      "fetchedAt": "2026-08-17T00:14:30.810Z",
+      "fmv": {
+        "value": 75,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/w0rldtr33-11-barends-variant-cover",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T04:20:15.281Z"
+      }
     },
     {
       "cert": "4493150001",
@@ -512,7 +690,18 @@
         "back": "4493150001_REV.jpg"
       },
       "repairs": [],
-      "fetchedAt": "2026-08-17T00:14:33.751Z"
+      "fetchedAt": "2026-08-17T00:14:33.751Z",
+      "fmv": {
+        "value": 75,
+        "currency": "USD",
+        "avg30": 50,
+        "avg90": 71,
+        "avg365": 97,
+        "sold365": 17,
+        "url": "https://gocollect.com/app/comic/nyx-1-lau-virgin-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T04:20:24.665Z"
+      }
     },
     {
       "cert": "4401613008",
@@ -538,7 +727,18 @@
         "back": "4401613008_REV.jpg"
       },
       "repairs": [],
-      "fetchedAt": "2026-08-17T00:14:36.671Z"
+      "fetchedAt": "2026-08-17T00:14:36.671Z",
+      "fmv": {
+        "value": 28,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": 29,
+        "avg365": 29,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/moon-man-1-cvr-b-erica-d-urso-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T04:20:31.502Z"
+      }
     },
     {
       "cert": "4401613005",
@@ -564,7 +764,18 @@
         "back": "4401613005_REV.jpg"
       },
       "repairs": [],
-      "fetchedAt": "2026-08-17T00:14:39.940Z"
+      "fetchedAt": "2026-08-17T00:14:39.940Z",
+      "fmv": {
+        "value": 38,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": 19,
+        "avg365": 19,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/moon-man-1-cvr-c-rod-reis-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T04:20:38.460Z"
+      }
     },
     {
       "cert": "4401613009",
@@ -590,7 +801,18 @@
         "back": "4401613009_REV.jpg"
       },
       "repairs": [],
-      "fetchedAt": "2026-08-17T00:14:42.860Z"
+      "fetchedAt": "2026-08-17T00:14:42.860Z",
+      "fmv": {
+        "value": 55,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 40,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/moon-man-1-spectral-comics-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T04:20:45.193Z"
+      }
     },
     {
       "cert": "4401613004",
@@ -616,7 +838,18 @@
         "back": "4401613004_REV.jpg"
       },
       "repairs": [],
-      "fetchedAt": "2026-08-17T00:14:45.795Z"
+      "fetchedAt": "2026-08-17T00:14:45.795Z",
+      "fmv": {
+        "value": 55,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/moon-man-1-cvr-d-inc-1-20-sanford-greene-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-17T04:20:52.028Z"
+      }
     }
   ]
 }

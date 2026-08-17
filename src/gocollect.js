@@ -22,6 +22,7 @@ import { pathToFileURL } from 'node:url';
 
 const DASHBOARD_URL = 'https://gocollect.com/app/dashboard';
 const LOGIN_URL = 'https://gocollect.com/login';
+const CERT_LOOKUP_URL = 'https://gocollect.com/app/comics/cert-lookup';
 const PROFILE_DIR = path.join('.cache', 'chrome-profile');
 const BIN_DIR = path.join('data', 'bins');
 const BETWEEN_LOOKUPS_MS = 3_000;
@@ -43,10 +44,24 @@ export function parseSold(text) {
 /**
  * Build an FMV record from the values scraped off the result card.
  * Pure, so the shape is testable without a login.
+ *
+ * A missing price is not a failure, and there are two distinct reasons for one:
+ *
+ *   priced      GoCollect has sales data and quotes a value.
+ *   no-sales    The book is in their database — there is a page to link to —
+ *               but nothing has sold, so every average reads "--".
+ *   not-listed  The book is not in their database at all; no page exists.
+ *
+ * The middle case still has a URL worth keeping, which is why a record is
+ * returned rather than null.
  */
 export function buildFmv(raw, now) {
   const value = parseMoney(raw.fmvText ?? '');
-  if (value === null) return null;
+  const url = raw.url || null;
+  if (value === null && !url) {
+    return { value: null, url: null, status: 'not-listed', fetchedAt: now };
+  }
+
   return {
     value,
     currency: 'USD',
@@ -54,37 +69,60 @@ export function buildFmv(raw, now) {
     avg90: parseMoney(raw.avg90 ?? ''),
     avg365: parseMoney(raw.avg365 ?? ''),
     sold365: parseSold(raw.sold365 ?? ''),
-    url: raw.url || null,
+    url,
+    status: value === null ? 'no-sales' : 'priced',
     fetchedAt: now,
   };
 }
 
-/** Extraction that runs in the page. Text-anchored, since class names churn. */
+/**
+ * The page hands back raw text and the comic link; all parsing happens in Node so
+ * it can be tested against a captured card without a browser or a login.
+ */
 function extractFmvInPage() {
-  const text = document.body.innerText;
-
-  const after = (label, window = 60) => {
-    const i = text.indexOf(label);
-    return i < 0 ? '' : text.slice(i + label.length, i + label.length + window);
-  };
-
-  // The comic's own page — this is the "Complete Census & Value" destination.
-  const link = [...document.querySelectorAll('a')]
-    .map((a) => a.href)
-    .find((h) => /\/app\/comic\//.test(h));
-
-  // Averages appear as a labelled row: 30 Day Avg | 90 Day Avg | 365 Day Avg
-  const block = after('GoCollect FMV', 400);
-
   return {
-    fmvText: block,
-    avg30: after('30 Day Avg', 40),
-    avg90: after('90 Day Avg', 40),
-    avg365: after('365 Day Avg', 40),
-    sold365: after('365 Day Avg', 80),
-    url: link ?? '',
-    signedOut: /sign in|log in to continue/i.test(text) && !/GoCollect FMV/.test(text),
+    text: document.body.innerText,
+    url:
+      [...document.querySelectorAll('a')]
+        .map((a) => a.href)
+        .find((h) => /\/app\/comic\//.test(h)) ?? '',
   };
+}
+
+/**
+ * Parse a GoCollect result card.
+ *
+ * The card renders each label immediately above its value:
+ *
+ *   GoCollect FMV / $60 / 30 Day Avg / -- / 90 Day Avg / -- / 365 Day Avg / $60 / (1 Sold)
+ *
+ * so each value must be read *between* its own label and the next one. Reading a
+ * fixed character window instead overshoots the "--" placeholders and picks up
+ * the following figure — which reported a 30-day average of $60 for a book with
+ * no 30-day sales at all.
+ */
+export function parseFmvCard(text, url, now) {
+  const between = (start, end) => {
+    const i = text.indexOf(start);
+    if (i < 0) return '';
+    const from = i + start.length;
+    const j = end ? text.indexOf(end, from) : -1;
+    return text.slice(from, j >= 0 ? j : from + 60);
+  };
+
+  const tail = between('365 Day Avg', null);
+
+  return buildFmv(
+    {
+      fmvText: between('GoCollect FMV', '30 Day Avg'),
+      avg30: between('30 Day Avg', '90 Day Avg'),
+      avg90: between('90 Day Avg', '365 Day Avg'),
+      avg365: tail,
+      sold365: tail,
+      url,
+    },
+    now,
+  );
 }
 
 /**
@@ -178,26 +216,34 @@ export async function login() {
 }
 
 async function lookupOne(page, cert) {
-  await page.goto(DASHBOARD_URL, { waitUntil: 'domcontentloaded' });
+  // Straight to the comics cert-lookup page. Clicking "Cert Lookup" in the nav
+  // is unreliable — there is one per collectible type and they are not always
+  // visible — and the page has its own URL anyway.
+  await page.goto(CERT_LOOKUP_URL, { waitUntil: 'domcontentloaded' });
 
-  const certLookup = page.getByRole('link', { name: /cert lookup/i }).first();
-  await certLookup.click({ timeout: 20_000 });
-
-  const input = page.getByPlaceholder(/cert/i).first();
-  await input.fill(String(cert), { timeout: 20_000 });
+  // Target the cert field by id. The site-wide search box precedes it in the
+  // DOM, so a positional selector fills the wrong input and the lookup returns
+  // "Provide a Certification Number".
+  const input = page.locator('#cert_number_input');
+  await input.waitFor({ state: 'visible', timeout: 25_000 });
+  await input.fill(String(cert));
   await page.getByRole('button', { name: /^\s*lookup\s*$/i }).first().click();
 
+  // Wait for the cert card, which always renders. Waiting on "GoCollect FMV"
+  // instead timed out for every book with no sales — the label is simply absent
+  // when there is nothing to quote, which is a real answer, not a failure.
   await page.waitForFunction(
-    (c) => document.body.innerText.includes(`#${c}`) ||
-      /GoCollect FMV/.test(document.body.innerText),
+    (c) => document.body.innerText.includes(`CGC Cert #${c}`),
     String(cert),
     { timeout: 30_000 },
   );
-  await page.waitForTimeout(800); // let the value card settle
+  await page.waitForTimeout(2_000); // let the value card settle
 
   const raw = await page.evaluate(extractFmvInPage);
-  if (raw.signedOut) throw new Error('not signed in — run `npm run login` first');
-  return buildFmv(raw, new Date().toISOString());
+  if (/sign in|log in to continue/i.test(raw.text) && !/GoCollect FMV/.test(raw.text)) {
+    throw new Error('not signed in — run `npm run login` first');
+  }
+  return parseFmvCard(raw.text, raw.url, new Date().toISOString());
 }
 
 async function loadBins() {
@@ -239,13 +285,14 @@ export async function fetchAllFmv({ force = false } = {}) {
         process.stdout.write(`[${i + 1}/${todo.length}] ${comic.cert} ... `);
         try {
           const fmv = await lookupOne(page, comic.cert);
-          if (fmv) {
-            comic.fmv = fmv;
+          comic.fmv = fmv;
+          if (fmv.status === 'priced') {
             priced += 1;
-            console.log(`$${fmv.value}${fmv.url ? '' : '  (no comic link found)'}`);
+            console.log(`$${fmv.value}`);
+          } else if (fmv.status === 'no-sales') {
+            console.log('no sales yet (page linked)');
           } else {
-            console.log('no FMV listed');
-            failed.push(comic.cert);
+            console.log('not in GoCollect');
           }
         } catch (err) {
           console.log('FAILED');

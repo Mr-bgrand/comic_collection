@@ -240,6 +240,7 @@ td.fmv a {
 }
 
 td.fmv a { color: var(--data); font-weight: 600; }
+td.fmv a.nosale { color: var(--faint); font-weight: 400; font-size: 0.82rem; }
 
 td.cert a:hover,
 td.fmv a:hover { color: var(--data); text-decoration-color: currentColor; }
@@ -326,12 +327,18 @@ export function renderDashboard({ bins, config }) {
           )}/" target="_blank" rel="noopener">${escapeHtml(cert)}</a>`
         : '';
 
+      // Three states, not two: priced, listed-but-unsold (still worth a link),
+      // and not carried by GoCollect at all.
       let fmvCell = '<span class="dim">—</span>';
       if (value !== null) {
         const money = escapeHtml(formatMoney(value));
         fmvCell = comic.fmv?.url
           ? `<a href="${escapeHtml(comic.fmv.url)}" target="_blank" rel="noopener">${money}</a>`
           : money;
+      } else if (comic.fmv?.url) {
+        fmvCell = `<a class="nosale" href="${escapeHtml(
+          comic.fmv.url,
+        )}" target="_blank" rel="noopener" title="Listed on GoCollect, no recorded sales">no sales</a>`;
       }
 
       return `        <tr>
