@@ -19,6 +19,7 @@ import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 
 import { renderEditorPage } from './templates/editorPage.js';
+import { applyEdit } from '../editor/lib/apply.js';
 
 const HOST = '127.0.0.1';
 const PORT = 4173;
@@ -35,33 +36,9 @@ async function loadBins() {
   );
 }
 
-/**
- * Apply one edit. Returns what changed, or throws if the cert is unknown.
- *
- * A blank or non-numeric value clears the estimate rather than storing zero — a
- * book worth nothing and a book you have not valued are different facts.
- */
-export function applyEdit(bins, { cert, value, note }) {
-  for (const { file, data } of bins) {
-    const comic = (data.comics ?? []).find((c) => c.cert === String(cert));
-    if (!comic) continue;
-
-    const parsed = typeof value === 'number' ? value : Number.parseFloat(String(value ?? ''));
-    const clear = value === '' || value === null || !Number.isFinite(parsed);
-
-    if (clear && !String(note ?? '').trim()) {
-      delete comic.manual;
-    } else {
-      comic.manual = {
-        ...(clear ? {} : { value: parsed }),
-        ...(String(note ?? '').trim() ? { note: String(note).trim() } : {}),
-        setAt: new Date().toISOString(),
-      };
-    }
-    return { file, data, comic };
-  }
-  throw new Error(`unknown cert ${cert}`);
-}
+// One implementation, shared with the hosted editor, so the rules about when an
+// estimate is stored or cleared cannot drift between the two.
+export { applyEdit } from '../editor/lib/apply.js';
 
 function json(res, code, body) {
   const text = JSON.stringify(body);

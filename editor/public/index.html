@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Value editor</title>
+<style>
+:root {
+  --bg:#fbfbfa; --surface:#fff; --ink:#16161a; --muted:#5f5f6b; --faint:#8b8b98;
+  --line:#e4e4e8; --hairline:#eeeef1; --data:#a1601a; --ok:#2f6b3f; --bad:#b4392f;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:#121215; --surface:#1b1b20; --ink:#ececf0; --muted:#9d9daa; --faint:#7a7a88;
+    --line:#2c2c34; --hairline:#24242b; --data:#e0a75e; --ok:#7fc08f; --bad:#e0796d;
+  }
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  background:var(--bg);color:var(--ink);line-height:1.5;-webkit-text-size-adjust:100%;
+}
+.wrap{max-width:60rem;margin:0 auto;padding:1.6rem 1rem 5rem}
+h1{font-size:1.8rem;font-weight:800;letter-spacing:-0.03em}
+.lede{margin-top:0.3rem;color:var(--muted);font-size:0.9rem}
+.bar{display:flex;align-items:center;gap:0.7rem;justify-content:space-between;flex-wrap:wrap}
+.who{display:flex;align-items:center;gap:0.5rem;font-size:0.85rem;color:var(--muted)}
+.who img{width:1.6rem;height:1.6rem;border-radius:50%}
+a.btn,button.btn{
+  display:inline-block;padding:0.5rem 0.9rem;font:inherit;font-size:0.88rem;font-weight:600;
+  color:#fff;background:var(--data);border:0;border-radius:7px;text-decoration:none;cursor:pointer;
+}
+a.btn.ghost,button.btn.ghost{background:transparent;color:var(--muted);border:1px solid var(--line);font-weight:400}
+h2{margin-top:2rem;padding-bottom:0.35rem;border-bottom:2px solid var(--ink);
+   font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em}
+h2 .n{color:var(--muted);text-transform:none;letter-spacing:0}
+table{width:100%;border-collapse:collapse;font-size:0.87rem;margin-top:0.4rem}
+th{padding:0.4rem 0.5rem 0.4rem 0;text-align:left;font-size:0.68rem;text-transform:uppercase;
+   letter-spacing:0.06em;color:var(--muted);border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:0.45rem 0.5rem 0.45rem 0;border-bottom:1px solid var(--hairline);vertical-align:middle}
+.bookcell{display:flex;gap:0.6rem;align-items:center}
+.bookcell img{width:2rem;aspect-ratio:500/787;object-fit:cover;border-radius:2px;border:1px solid var(--line);flex:none}
+.title{font-weight:600}
+.sub{font-size:0.76rem;color:var(--faint);font-family:ui-monospace,Menlo,Consolas,monospace}
+.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.market{color:var(--data);font-weight:600}
+.none{color:var(--faint)}
+.star{color:var(--data)}
+input{font:inherit;font-size:0.86rem;color:var(--ink);background:var(--surface);
+      border:1px solid var(--line);border-radius:6px;padding:0.3rem 0.45rem}
+input:focus{outline:2px solid var(--data);outline-offset:1px;border-color:transparent}
+input.val{width:5.5rem;text-align:right;font-variant-numeric:tabular-nums}
+input.note{width:100%;min-width:8rem}
+tr.saved{background:color-mix(in oklab,var(--ok) 12%,transparent)}
+.status{font-size:0.76rem;color:var(--ok);display:inline-block;min-width:3.5rem}
+.status.err{color:var(--bad)}
+.signin{margin-top:3rem;text-align:center}
+.signin p{color:var(--muted);margin:0.6rem 0 1.2rem}
+.hide{display:none}
+.err-box{margin-top:1rem;padding:0.7rem 0.9rem;border:1px solid var(--bad);border-radius:6px;
+         color:var(--bad);font-size:0.88rem}
+@media (max-width:36rem){ .hide-sm{display:none} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div id="signin" class="signin hide">
+    <h1>Value editor</h1>
+    <p>Sign in with GitHub to edit your collection's values.</p>
+    <a class="btn" href="/api/auth/login">Sign in with GitHub</a>
+  </div>
+
+  <div id="app" class="hide">
+    <div class="bar">
+      <div>
+        <h1>Value editor</h1>
+        <p class="lede">
+          Each change is committed straight to the repository and redeploys the site.
+          Your figures stay separate from GoCollect's and are labelled as estimates.
+        </p>
+      </div>
+      <div class="who">
+        <img id="avatar" alt="" width="26" height="26">
+        <span id="login"></span>
+        <a class="btn ghost" href="/api/auth/logout">Sign out</a>
+      </div>
+    </div>
+    <div id="error" class="err-box hide"></div>
+    <div id="content"></div>
+  </div>
+
+</div>
+
+<script type="module">
+const $ = (id) => document.getElementById(id);
+const SITE = 'https://mr-bgrand.github.io/comic_collection';
+
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) =>
+  ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+const money = (n) => (typeof n === 'number' ? '$' + Math.round(n).toLocaleString('en-US') : '—');
+const titleOf = (c) => `${c.title} #${c.issue}` + (c.variant ? ` : ${c.variant}` : '');
+const marketOf = (c) => (typeof c.fmv?.value === 'number' ? c.fmv.value : null);
+
+function showError(msg) {
+  $('error').textContent = msg;
+  $('error').classList.remove('hide');
+}
+
+function row(c, bin) {
+  const market = marketOf(c);
+  const thumb = c.images?.front
+    ? `<img src="${SITE}/thumbs/${esc(c.images.front)}" alt="" loading="lazy">`
+    : '';
+  const state = c.fmv?.status === 'no-sales' ? 'no sales' : 'not listed';
+  return `<tr data-cert="${esc(c.cert)}">
+    <td>
+      <div class="bookcell">${thumb}
+        <div>
+          <div class="title">${esc(titleOf(c))}${c.population?.higher === 0 ? ' <span class="star">★</span>' : ''}</div>
+          <div class="sub">${esc(c.cert)} · bin ${esc(bin)} · ${esc(c.grade ?? '')}</div>
+        </div>
+      </div>
+    </td>
+    <td class="num">${market === null ? `<span class="none">${state}</span>` : `<span class="market">${money(market)}</span>`}</td>
+    <td class="num"><input class="val" type="text" inputmode="decimal" value="${c.manual?.value ?? ''}" placeholder="$" aria-label="Your value"></td>
+    <td class="hide-sm"><input class="note" type="text" value="${esc(c.manual?.note ?? '')}" placeholder="how you arrived at it" aria-label="Note"></td>
+    <td><span class="status"></span></td>
+  </tr>`;
+}
+
+const table = (rows) => rows.length
+  ? `<table><thead><tr>
+       <th>Book</th><th class="num">GoCollect</th><th class="num">Your value</th>
+       <th class="hide-sm">Note</th><th></th>
+     </tr></thead><tbody>${rows.join('')}</tbody></table>`
+  : '<p class="lede">Nothing here.</p>';
+
+async function save(tr) {
+  const status = tr.querySelector('.status');
+  status.textContent = 'saving…';
+  status.classList.remove('err');
+  try {
+    const res = await fetch('/api/value', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        cert: tr.dataset.cert,
+        value: tr.querySelector('.val').value.trim(),
+        note: tr.querySelector('.note')?.value.trim() ?? '',
+      }),
+    });
+    const body = await res.json();
+    if (!res.ok) throw new Error(body.error || res.status);
+    status.textContent = body.manual?.value != null ? 'committed' : 'cleared';
+    tr.classList.add('saved');
+    setTimeout(() => tr.classList.remove('saved'), 1200);
+  } catch (err) {
+    status.textContent = 'failed';
+    status.classList.add('err');
+    showError(err.message);
+  }
+}
+
+function wire() {
+  document.querySelectorAll('tr[data-cert]').forEach((tr) => {
+    tr.querySelectorAll('input').forEach((input) => {
+      input.addEventListener('change', () => save(tr));
+      input.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') { e.preventDefault(); input.blur(); }
+      });
+    });
+  });
+}
+
+async function main() {
+  const me = await fetch('/api/me').then((r) => r.json());
+  if (!me.signedIn) return $('signin').classList.remove('hide');
+
+  $('app').classList.remove('hide');
+  $('login').textContent = me.login;
+  $('avatar').src = me.avatar;
+
+  const res = await fetch('/api/bins');
+  if (!res.ok) return showError((await res.json()).error ?? 'Could not load bins');
+  const { bins } = await res.json();
+
+  const all = bins.flatMap((b) => (b.comics ?? []).map((c) => ({ c, bin: b.bin })));
+  const gap = all.filter(({ c }) => marketOf(c) === null);
+  const covered = all.filter(({ c }) => marketOf(c) !== null);
+
+  $('content').innerHTML =
+    `<h2>No market value <span class="n">— ${gap.length}</span></h2>` +
+    table(gap.map(({ c, bin }) => row(c, bin))) +
+    `<h2>Priced by GoCollect <span class="n">— ${covered.length}, override if you disagree</span></h2>` +
+    table(covered.map(({ c, bin }) => row(c, bin)));
+
+  wire();
+}
+
+main().catch((err) => showError(err.message));
+</script>
+</body>
+</html>

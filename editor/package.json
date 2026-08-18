@@ -1,0 +1,10 @@
+{
+  "name": "comic-collection-editor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Hosted value editor for the comic collection, behind GitHub OAuth",
+  "engines": {
+    "node": ">=20"
+  }
+}
