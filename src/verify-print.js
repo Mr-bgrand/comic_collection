@@ -31,7 +31,7 @@ async function loadRealBins() {
 }
 
 const OUT_DIR = path.resolve('dist', 'verify');
-const IMAGE_DIR = path.resolve('data', 'images');
+const IMAGE_DIR = path.resolve('data', 'medium');
 
 /** Long, awkward records — if these fit, real ones will. */
 const SAMPLES = [

@@ -25,7 +25,9 @@ import { ensureThumbs } from './thumbs.js';
 
 const PRINT_DIR = 'print';
 const BIN_DIR = path.join('data', 'bins');
-const THUMB_ABS = path.resolve('data', 'thumbs');
+// 480px covers printed at 0.76in wide is ~630dpi — comfortably past what any
+// printer resolves, and still a fraction of the 500px originals' weight.
+const PRINT_IMG_ABS = path.resolve('data', 'medium');
 
 async function loadConfig() {
   return JSON.parse(await readFile(path.join('data', 'config.json'), 'utf8'));
@@ -76,9 +78,7 @@ export async function makePrintables() {
         },
         {
           name: `bin-${bin.bin}-sheet`,
-          // 120px thumbnails, not the full scans: at 0.40in wide that is exactly
-          // 300dpi, and it takes the sheet PDF from 8MB to a few hundred KB.
-          html: renderSheet({ bin, url, qrSvg, imagePrefix: '../data/thumbs/' }),
+          html: renderSheet({ bin, url, qrSvg, imagePrefix: '../data/medium/' }),
         },
       ];
 
@@ -90,8 +90,8 @@ export async function makePrintables() {
         // Render the PDF from a copy that points at absolute image paths, so the
         // committed HTML keeps working relative paths either way.
         const absolute = doc.html.replaceAll(
-          '../data/thumbs/',
-          `${pathToFileURL(THUMB_ABS).href}/`,
+          '../data/medium/',
+          `${pathToFileURL(PRINT_IMG_ABS).href}/`,
         );
         const tmp = path.join(PRINT_DIR, `.${doc.name}.tmp.html`);
         await writeFile(tmp, absolute, 'utf8');

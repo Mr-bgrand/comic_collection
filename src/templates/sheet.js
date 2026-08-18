@@ -1,22 +1,27 @@
 /**
  * The 8.5x11 manifest sheet that lives inside the bin — the appraisal document.
+ * Printed double-sided and laminated back to back, so it must stay at two sides.
  *
- * Printed double-sided: 13 entries per side puts a 25-comic bin on one sheet.
+ * Two columns, seven entries each: 14 per side, 28 across a sheet, which covers a
+ * full 25-comic bin.
  *
- * Height budget, measured rather than assumed. A letter page with 0.5in margins
- * leaves 10in. Masthead and footer take ~0.5in, so 13 entries get 0.73in each.
- * That is four lines of text, which is why entries use `compactDetailLines`
- * (art credits folded onto one line) instead of the six-line long form. The first
- * cut used the long form and produced four pages instead of two.
+ * Why two columns. Cover height is capped by row height, and width follows from
+ * the 500x787 scan aspect. In a single column of 13 rows the row is ~0.68in, so
+ * the cover can never exceed ~0.43in wide however much horizontal space is going
+ * spare — and a lot was, since the detail text only used about a third of a 7in
+ * column. Halving the column width and taking seven rows instead of thirteen buys
+ * back the height: rows go to ~1.25in and covers to 0.76in, nearly double.
  *
- * Comic scans are 500x787, so a 0.45in-wide thumbnail is 0.71in tall and sits
- * exactly inside one entry.
+ * The cost is real and deliberate: the narrower text column clips long detail
+ * lines sooner. `compactDetailLines` already orders them most-valuable-first for
+ * exactly this reason, and nothing is lost — the QR opens the full record.
  */
 
 import { displayTitle, compactDetailLines, isTopPop, paginate } from '../model.js';
 import { escapeHtml, page, FONT_SANS, FONT_MONO, INK } from './shared.js';
 
-export const PER_SIDE = 13;
+export const PER_COLUMN = 7;
+export const PER_SIDE = PER_COLUMN * 2;
 
 const css = `
 @page { size: letter; margin: 0.5in; }
@@ -27,8 +32,8 @@ body {
   font-family: ${FONT_SANS};
   color: ${INK};
   background: #fff;
-  font-size: 8.2pt;
-  line-height: 1.28;
+  font-size: 7.6pt;
+  line-height: 1.26;
   -webkit-print-color-adjust: exact;
   print-color-adjust: exact;
 }
@@ -42,7 +47,7 @@ body {
   justify-content: space-between;
   gap: 0.15in;
   padding-bottom: 0.04in;
-  margin-bottom: 0.05in;
+  margin-bottom: 0.06in;
   border-bottom: 2pt solid ${INK};
 }
 
@@ -53,39 +58,38 @@ body {
  * The QR repeats on every side, because each side is a standalone page — whoever
  * is holding side 2 should not have to go find side 1 to scan through.
  */
-/*
- * 0.85in, not smaller. The bin URL needs a ~33-module QR, so at 0.68in each
- * module falls to ~0.5mm — under the ~0.6mm that scans reliably off paper at
- * arm's length. The extra height is paid for by the entry rows.
- */
 .mast-qr { flex: none; width: 0.8in; text-align: center; }
 .mast-qr svg { width: 0.8in; height: 0.8in; display: block; }
 .mast-qr .cap { margin-top: 0.01in; font-size: 5.5pt; line-height: 1.1; color: #55555e; }
 
+.cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0.24in;
+}
+
 .entry {
   display: grid;
-  grid-template-columns: 0.40in 1fr;
-  column-gap: 0.12in;
-  height: 0.655in;
-  padding: 0.008in 0;
+  grid-template-columns: 0.76in 1fr;
+  column-gap: 0.1in;
+  height: 1.25in;
+  padding: 0.02in 0;
   border-bottom: 0.3pt solid #e4e4e8;
   overflow: hidden;
   break-inside: avoid;
 }
 
-.entry:last-child { border-bottom: 0; }
-
 .cover {
-  width: 0.40in;
-  height: 0.635in;
+  width: 0.76in;
+  height: 1.2in;
   object-fit: cover;
   border: 0.3pt solid #c8c8d0;
   background: #f4f4f6;
 }
 
 .cover-none {
-  width: 0.40in;
-  height: 0.635in;
+  width: 0.76in;
+  height: 1.2in;
   border: 0.3pt dashed #c8c8d0;
 }
 
@@ -93,40 +97,45 @@ body {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  gap: 0.1in;
+  gap: 0.06in;
 }
 
 .name {
   font-weight: 700;
-  font-size: 9pt;
+  font-size: 8.2pt;
   letter-spacing: -0.01em;
-  white-space: nowrap;
+  line-height: 1.2;
+  /* Two lines for the title; variant strings rarely fit one at this width. */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .grade {
   font-weight: 800;
-  font-size: 10pt;
+  font-size: 9.5pt;
   white-space: nowrap;
   font-variant-numeric: tabular-nums;
 }
 
 /*
- * Entries are a fixed height so the page count is deterministic. A very long
- * credit line ellipsises here; the complete text is always on the bin page the
- * QR code opens, and in the JSON.
+ * Detail lines wrap up to two lines each and then clip. Entries are a fixed
+ * height so the page count stays deterministic; compactDetailLines puts the
+ * appraisal-critical figures first so the clipping falls on the prose.
  */
 .meta {
+  margin-top: 0.015in;
   color: #2a2a31;
   font-weight: 500;
-  white-space: nowrap;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   overflow: hidden;
-  text-overflow: ellipsis;
 }
 
-.meta .cert { font-family: ${FONT_MONO}; font-size: 7.5pt; }
-.pop { font-weight: 600; color: #7a5410; }
+.meta .cert { font-family: ${FONT_MONO}; font-size: 7pt; }
+.pop { font-weight: 700; color: #7a5410; }
 
 .pagefoot {
   margin-top: 0.06in;
@@ -149,22 +158,22 @@ function renderEntry(comic, imagePrefix) {
       const html = escapeHtml(line)
         .replace(/(Cert )(\d+)/, '$1<span class="cert">$2</span>')
         .replace(/(★ Top Pop[^·]*)/, '<span class="pop">$1</span>');
-      return `      <div class="meta">${html}</div>`;
+      return `        <div class="meta">${html}</div>`;
     })
     .join('\n');
 
-  return `    <div class="entry">
-      ${cover}
-      <div>
-        <div class="head">
-          <span class="name">${escapeHtml(displayTitle(comic))}</span>
-          <span class="grade">${escapeHtml(comic.grade ?? '')}${
-            isTopPop(comic) ? ' ★' : ''
-          }</span>
-        </div>
+  return `      <div class="entry">
+        ${cover}
+        <div>
+          <div class="head">
+            <span class="name">${escapeHtml(displayTitle(comic))}</span>
+            <span class="grade">${escapeHtml(comic.grade ?? '')}${
+              isTopPop(comic) ? ' ★' : ''
+            }</span>
+          </div>
 ${lines}
-      </div>
-    </div>`;
+        </div>
+      </div>`;
 }
 
 export function renderSheet({ bin, url, qrSvg = '', imagePrefix = '../../images/' }) {
@@ -177,7 +186,11 @@ export function renderSheet({ bin, url, qrSvg = '', imagePrefix = '../../images/
 
   const body = sides
     .map((side, i) => {
-      const entries = side.map((c) => renderEntry(c, imagePrefix)).join('\n');
+      const columns = paginate(side, PER_COLUMN);
+      const cols = columns
+        .map((col) => `    <div>\n${col.map((c) => renderEntry(c, imagePrefix)).join('\n')}\n    </div>`)
+        .join('\n');
+
       return `<section class="side">
   <div class="masthead">
     <div>
@@ -188,7 +201,9 @@ export function renderSheet({ bin, url, qrSvg = '', imagePrefix = '../../images/
     </div>
 ${qrBlock}
   </div>
-${entries}
+  <div class="cols">
+${cols}
+  </div>
   <div class="pagefoot">
     <span>${escapeHtml(url.replace(/^https?:\/\//, ''))}</span>
     <span>Side ${i + 1} of ${sides.length}</span>
