@@ -57,3 +57,26 @@ test('parseCookies reads multiple cookies', () => {
 test('parseCookies handles a request with no cookies', () => {
   assert.deepEqual(parseCookies({ headers: {} }), {});
 });
+
+test('session lifetime tracks the GitHub token and dies before it', async () => {
+  const { setSession } = await import('../editor/lib/session.js');
+  const res = { headers: {}, setHeader(k, v) { this.headers[k.toLowerCase()] = v; } };
+
+  // GitHub issues 8h tokens when "Expire user access tokens" is on.
+  const maxAge = setSession(res, { token: 't', login: 'Mr-bgrand' }, 28800);
+  assert.ok(maxAge < 28800, 'cookie must expire before the token it carries');
+  assert.equal(maxAge, 28800 - 120);
+  assert.match(res.headers['set-cookie'], new RegExp(`Max-Age=${maxAge}`));
+});
+
+test('session falls back to a sane default when GitHub sends no expiry', async () => {
+  const { setSession } = await import('../editor/lib/session.js');
+  const res = { headers: {}, setHeader(k, v) { this.headers[k.toLowerCase()] = v; } };
+  assert.equal(setSession(res, { token: 't' }, undefined), 60 * 60 * 8);
+});
+
+test('a very short token lifetime still yields a usable session', async () => {
+  const { setSession } = await import('../editor/lib/session.js');
+  const res = { headers: {}, setHeader(k, v) { this.headers[k.toLowerCase()] = v; } };
+  assert.equal(setSession(res, { token: 't' }, 30), 60, 'floored, never zero or negative');
+});

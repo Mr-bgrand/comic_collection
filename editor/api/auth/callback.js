@@ -46,6 +46,11 @@ export default async function handler(req, res) {
       .send(`Signed in as ${user.login}, who is not permitted to edit this collection.`);
   }
 
-  setSession(res, { token: token.access_token, login: user.login, avatar: user.avatar_url });
+  // token.expires_in is present because the OAuth app expires user tokens.
+  setSession(
+    res,
+    { token: token.access_token, login: user.login, avatar: user.avatar_url },
+    token.expires_in,
+  );
   res.redirect(302, '/');
 }

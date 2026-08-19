@@ -11,7 +11,15 @@
 import crypto from 'node:crypto';
 
 const COOKIE = 'cc_session';
-const MAX_AGE = 60 * 60 * 8; // 8 hours — long enough to work, short enough to matter
+/*
+ * Default session lifetime. The OAuth app has "Expire user access tokens" on, so
+ * GitHub's token is itself short-lived; setSession takes the real lifetime from
+ * GitHub's `expires_in` and always lands the cookie a little BEFORE the token
+ * dies. A session outliving its token would look like a mysterious GitHub error
+ * mid-edit rather than an honest "please sign in again".
+ */
+const DEFAULT_MAX_AGE = 60 * 60 * 8;
+const EXPIRY_SAFETY_SECONDS = 120;
 
 function key() {
   const secret = process.env.SESSION_SECRET;
@@ -54,12 +62,18 @@ export function parseCookies(req) {
   return out;
 }
 
-export function setSession(res, payload) {
-  const token = seal({ ...payload, exp: Date.now() + MAX_AGE * 1000 });
+export function setSession(res, payload, tokenLifetimeSeconds) {
+  const lifetime = Number(tokenLifetimeSeconds);
+  const maxAge = Number.isFinite(lifetime) && lifetime > 0
+    ? Math.max(60, Math.min(DEFAULT_MAX_AGE, Math.floor(lifetime) - EXPIRY_SAFETY_SECONDS))
+    : DEFAULT_MAX_AGE;
+
+  const token = seal({ ...payload, exp: Date.now() + maxAge * 1000 });
   res.setHeader(
     'Set-Cookie',
-    `${COOKIE}=${token}; HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age=${MAX_AGE}`,
+    `${COOKIE}=${token}; HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age=${maxAge}`,
   );
+  return maxAge;
 }
 
 export function clearSession(res) {
