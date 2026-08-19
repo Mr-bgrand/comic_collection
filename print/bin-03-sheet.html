@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bin 03 manifest</title>
+<style>
+
+@page { size: letter; margin: 0.5in; }
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #16161a;
+  background: #fff;
+  font-size: 7.6pt;
+  line-height: 1.26;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.side { page-break-after: always; }
+.side:last-child { page-break-after: auto; }
+
+.masthead {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.15in;
+  padding-bottom: 0.04in;
+  margin-bottom: 0.06in;
+  border-bottom: 2pt solid #16161a;
+}
+
+.masthead h1 { font-size: 14pt; font-weight: 800; letter-spacing: -0.025em; }
+.masthead .sub { margin-top: 0.02in; font-size: 7.5pt; color: #55555e; }
+
+/*
+ * The QR repeats on every side, because each side is a standalone page — whoever
+ * is holding side 2 should not have to go find side 1 to scan through.
+ */
+.mast-qr { flex: none; width: 0.8in; text-align: center; }
+.mast-qr svg { width: 0.8in; height: 0.8in; display: block; }
+.mast-qr .cap { margin-top: 0.01in; font-size: 5.5pt; line-height: 1.1; color: #55555e; }
+
+.cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0.24in;
+}
+
+.entry {
+  display: grid;
+  grid-template-columns: 0.76in 1fr;
+  column-gap: 0.1in;
+  height: 1.25in;
+  padding: 0.02in 0;
+  border-bottom: 0.3pt solid #e4e4e8;
+  overflow: hidden;
+  break-inside: avoid;
+}
+
+.cover {
+  width: 0.76in;
+  height: 1.2in;
+  object-fit: cover;
+  border: 0.3pt solid #c8c8d0;
+  background: #f4f4f6;
+}
+
+.cover-none {
+  width: 0.76in;
+  height: 1.2in;
+  border: 0.3pt dashed #c8c8d0;
+}
+
+.head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.06in;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 8.2pt;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  /* Two lines for the title; variant strings rarely fit one at this width. */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.grade {
+  font-weight: 800;
+  font-size: 9.5pt;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/*
+ * Detail lines wrap up to two lines each and then clip. Entries are a fixed
+ * height so the page count stays deterministic; compactDetailLines puts the
+ * appraisal-critical figures first so the clipping falls on the prose.
+ */
+.meta {
+  margin-top: 0.015in;
+  color: #2a2a31;
+  font-weight: 500;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.meta .cert { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 7pt; }
+.pop { font-weight: 700; color: #7a5410; }
+
+.pagefoot {
+  margin-top: 0.06in;
+  padding-top: 0.04in;
+  border-top: 0.75pt solid #c8c8d0;
+  font-size: 6.5pt;
+  color: #55555e;
+  display: flex;
+  justify-content: space-between;
+}
+
+</style>
+</head>
+<body>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Bin 03</h1>
+      <div class="sub">25 CGC-graded comics &middot; updated 2026-08-19</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 33" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h33v33H0z"/><path stroke="#000000" d="M0 0.5h7m3 0h2m1 0h1m2 0h5m1 0h2m2 0h7M0 1.5h1m5 0h1m3 0h1m2 0h5m4 0h1m3 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h2m1 0h3m3 0h2m1 0h4m2 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h3m1 0h3m5 0h1m1 0h1m1 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h2m2 0h2m1 0h1m1 0h2m2 0h1m1 0h2m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h2m2 0h5m1 0h1m1 0h1m3 0h1m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h2m1 0h1m2 0h2m2 0h4m1 0h1M0 8.5h1m1 0h5m4 0h5m1 0h1m1 0h2m1 0h3m1 0h5M4 9.5h2m2 0h4m4 0h1m2 0h3m1 0h1m2 0h2m1 0h3M0 10.5h3m3 0h2m2 0h1m4 0h2m1 0h1m1 0h1m3 0h2m2 0h1m1 0h2M2 11.5h1m1 0h1m3 0h1m2 0h2m1 0h1m1 0h1m4 0h1m1 0h3m2 0h5M0 12.5h1m2 0h2m1 0h1m1 0h1m2 0h1m6 0h2m2 0h1m1 0h2m1 0h3M3 13.5h2m6 0h6m2 0h1m1 0h1m1 0h1m2 0h1m2 0h1m1 0h2M1 14.5h2m2 0h4m2 0h3m6 0h2m3 0h3m1 0h1m1 0h1M1 15.5h1m1 0h1m1 0h1m10 0h1m2 0h1m1 0h3m1 0h2m1 0h3M0 16.5h1m2 0h6m2 0h2m4 0h1m4 0h4m1 0h2m3 0h1M2 17.5h2m4 0h5m4 0h4m2 0h1m2 0h2m1 0h2m1 0h1M0 18.5h1m1 0h6m1 0h1m5 0h3m2 0h2m5 0h2m1 0h2M0 19.5h1m1 0h4m1 0h1m6 0h1m1 0h7m2 0h7M0 20.5h2m1 0h1m1 0h4m3 0h3m1 0h1m3 0h1m1 0h4m1 0h3m2 0h1M0 21.5h5m6 0h1m3 0h1m2 0h2m3 0h1m1 0h2m3 0h1m1 0h1M0 22.5h1m1 0h1m2 0h2m3 0h2m1 0h1m1 0h4m3 0h1m2 0h3m1 0h1m1 0h1M0 23.5h1m2 0h2m3 0h2m2 0h1m2 0h1m2 0h1m2 0h1m2 0h2m2 0h3M0 24.5h1m1 0h2m1 0h2m1 0h1m4 0h1m1 0h1m1 0h2m3 0h7m2 0h1M8 25.5h1m2 0h3m2 0h1m1 0h3m3 0h1m3 0h1m1 0h1m1 0h1M0 26.5h7m5 0h5m1 0h1m3 0h3m1 0h1m1 0h1m1 0h2M0 27.5h1m5 0h1m1 0h3m1 0h4m3 0h3m2 0h1m3 0h4M0 28.5h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h2m4 0h3m3 0h6m1 0h2M0 29.5h1m1 0h3m1 0h1m1 0h1m4 0h5m1 0h1m1 0h1m3 0h1m2 0h2m1 0h2M0 30.5h1m1 0h3m1 0h1m1 0h3m1 0h3m2 0h1m2 0h3m1 0h4m1 0h1M0 31.5h1m5 0h1m2 0h2m1 0h2m2 0h1m1 0h4m3 0h1m2 0h3M0 32.5h7m1 0h1m1 0h2m1 0h1m3 0h1m1 0h1m3 0h2m2 0h1m3 0h1"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Amazing Fantasy #1000</span>
+            <span class="grade">9.0</span>
+          </div>
+        <div class="meta">Marvel Comics · 10/22 · 2022 · Universal · White pages</div>
+        <div class="meta">Falcone, Cho, Slott, Iannucci, Rowell, · Anderson, Busiek, Hickman &amp; Gaiman · stories, John Romita Jr. cover</div>
+        <div class="meta">4 in 9.0 · 81 higher · Cert <span class="cert">4245413012</span> · Graded 2023-05-02 · Key: Cho, Cheung, Stegman, Mayer, Coipel,
+Camuncoli, Janson, T. Dodson, R. Dodson,
+Checchetto &amp; McNiven art</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Amazing Spider-Man #21 : Weaver Variant Cover</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 5/23 · 2023 · Universal · White pages</div>
+        <div class="meta">Zeb Wells story · John Romita Jr. &amp; Scott Hanna art · Dustin Weaver cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 27 in 9.8, none higher </span>· Cert <span class="cert">4245413018</span> · Graded 2023-05-02 · Key: Amazing Spider-Man #915</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Spider-Man #4 : Variant Edition</span>
+            <span class="grade">9.4</span>
+          </div>
+        <div class="meta">Marvel Comics · 3/23 · 2023 · Universal · White pages</div>
+        <div class="meta">Dan Slott story · Mark Bagley, Andrew Hennessy &amp; · John Dell art, John Cassaday cover</div>
+        <div class="meta">1 in 9.4 · 20 higher · Cert <span class="cert">4198680009</span> · Graded 2023-02-08 · Key: Spider-Man #160
+Marvel Team-Up #1 cover homage.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Amazing Spider-Man #21 : Comic Mint Edition</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 5/23 · 2023 · Universal · White pages</div>
+        <div class="meta">Zeb Wells story · John Romita Jr. &amp; Scott Hanna art · Ivan Tao cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 96 in 9.8, none higher </span>· Cert <span class="cert">4245413004</span> · Graded 2023-05-02 · Key: Amazing Spider-Man #915</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Amazing Spider-Man #1 : Hustl. Edition</span>
+            <span class="grade">9.4</span>
+          </div>
+        <div class="meta">Marvel Comics · 6/22 · 2022 · Universal · White pages</div>
+        <div class="meta">Zeb Wells story · John Romita Jr. art · Salvador Larroca cover</div>
+        <div class="meta">230 in 9.4 · 709 higher · Cert <span class="cert">4177707005</span> · Graded 2023-01-09 · Key: Amazing Spider-Man #895
+&quot;Eminem&quot; variant cover.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Amazing Spider-Man #21 : Comic Mint &quot;Virgin&quot; Edition A</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 5/23 · 2023 · Universal · White pages</div>
+        <div class="meta">Zeb Wells story · John Romita Jr. &amp; Scott Hanna art · Ivan Tao cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 105 in 9.8, none higher </span>· Cert <span class="cert">4245413005</span> · Graded 2023-05-02 · Key: Amazing Spider-Man #915</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Amazing Spider-Man #19 : Nakayama Variant Cover</span>
+            <span class="grade">9.8</span>
+          </div>
+        <div class="meta">Marvel Comics · 4/23 · 2023 · Universal · White pages</div>
+        <div class="meta">Joe Kelly story · Terry Dodson &amp; Rachel Dodson art · David Nakayama cover</div>
+        <div class="meta">50 in 9.8 · 1 higher · Cert <span class="cert">4245413006</span> · Graded 2023-05-02 · Key: Amazing Spider-Man #913</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Amazing Fantasy #1000 : Campbell Variant Cover</span>
+            <span class="grade">9.8</span>
+          </div>
+        <div class="meta">Marvel Comics · 10/22 · 2022 · Universal · White pages</div>
+        <div class="meta">Falcone, Cho, Slott, Iannucci, Rowell, · Anderson, Busiek, Hickman &amp; Gaiman · stories, J. Scott Campbell cover</div>
+        <div class="meta">67 in 9.8 · 2 higher · Cert <span class="cert">4198680008</span> · Graded 2023-02-08 · Key: Cho, Cheung, Stegman, Mayer, Coipel,
+Camuncoli, Janson, T. Dodson, R. Dodson,
+Checchetto &amp; McNiven art</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Spider-Verse #6</span>
+            <span class="grade">9.4</span>
+          </div>
+        <div class="meta">Marvel Comics · 5/20 · 2020 · Universal · White pages</div>
+        <div class="meta">Jed MacKay story · Ze Carlos art · Dave Rapoza cover</div>
+        <div class="meta">421 in 9.4 · 157 higher · Cert <span class="cert">4137947003</span> · Graded 2022-11-08</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4273634011_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Amazing Spider-Man #23 : Comic Mint Edition</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 6/23 · 2023 · Universal · White pages</div>
+        <div class="meta">Zeb Wells story · John Romita Jr. &amp; Scott Hanna art · Chris Bachalo cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 40 in 9.8, none higher </span>· Cert <span class="cert">4273634011</span> · Graded 2023-06-16 · Key: Amazing Spider-Man #917
+&quot;Virgin&quot; cover.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4273634001_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Amazing Spider-Man #19 : Perissinotto Variant Cover</span>
+            <span class="grade">9.8</span>
+          </div>
+        <div class="meta">Marvel Comics · 4/23 · 2023 · Universal · White pages</div>
+        <div class="meta">Joe Kelly story · Terry Dodson &amp; Rachel Dodson art · Giada Perissinotto cover</div>
+        <div class="meta">750 in 9.8 · 2 higher · Cert <span class="cert">4273634001</span> · Graded 2023-06-16 · Key: Amazing Spider-Man #913
+&quot;Disney 100&quot; variant cover.
+Fantastic Four #1 cover homage.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4273634002_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Amazing Spider-Man #21 : Mangiatordi Sketch Cover</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 5/23 · 2023 · Universal · White pages</div>
+        <div class="meta">Zeb Wells story · John Romita Jr. &amp; Scott Hanna art · Vitale Mangiatordi cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 204 in 9.8, none higher </span>· Cert <span class="cert">4273634002</span> · Graded 2023-06-16 · Key: Amazing Spider-Man #915
+&quot;Disney 100&quot; variant cover.
+Incredible Hulk #1 cover homage.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4273634003_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Amazing Spider-Man #21 : Mangiatordi Variant Cover</span>
+            <span class="grade">9.2</span>
+          </div>
+        <div class="meta">Marvel Comics · 5/23 · 2023 · Universal · White pages</div>
+        <div class="meta">Zeb Wells story · John Romita Jr. &amp; Scott Hanna art · Vitale Mangiatordi cover</div>
+        <div class="meta">12 in 9.2 · 826 higher · Cert <span class="cert">4273634003</span> · Graded 2023-06-16 · Key: Amazing Spider-Man #915
+&quot;Disney 100&quot; variant cover.
+Incredible Hulk #1 cover homage.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Amazing Spider-Man #20 : Nakayama Variant Cover</span>
+            <span class="grade">9.6</span>
+          </div>
+        <div class="meta">Marvel Comics · 4/23 · 2023 · Universal · White pages</div>
+        <div class="meta">Joe Kelly story · Terry Dodson &amp; Rachel Dodson art · David Nakayama cover</div>
+        <div class="meta">9 in 9.6 · 69 higher · Cert <span class="cert">4245413015</span> · Graded 2023-05-02 · Key: Amazing Spider-Man #914</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/bin/03/</span>
+    <span>Side 1 of 2</span>
+  </div>
+</section>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Bin 03</h1>
+      <div class="sub">25 CGC-graded comics &middot; updated 2026-08-19</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 33" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h33v33H0z"/><path stroke="#000000" d="M0 0.5h7m3 0h2m1 0h1m2 0h5m1 0h2m2 0h7M0 1.5h1m5 0h1m3 0h1m2 0h5m4 0h1m3 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h2m1 0h3m3 0h2m1 0h4m2 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h3m1 0h3m5 0h1m1 0h1m1 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h2m2 0h2m1 0h1m1 0h2m2 0h1m1 0h2m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h2m2 0h5m1 0h1m1 0h1m3 0h1m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h2m1 0h1m2 0h2m2 0h4m1 0h1M0 8.5h1m1 0h5m4 0h5m1 0h1m1 0h2m1 0h3m1 0h5M4 9.5h2m2 0h4m4 0h1m2 0h3m1 0h1m2 0h2m1 0h3M0 10.5h3m3 0h2m2 0h1m4 0h2m1 0h1m1 0h1m3 0h2m2 0h1m1 0h2M2 11.5h1m1 0h1m3 0h1m2 0h2m1 0h1m1 0h1m4 0h1m1 0h3m2 0h5M0 12.5h1m2 0h2m1 0h1m1 0h1m2 0h1m6 0h2m2 0h1m1 0h2m1 0h3M3 13.5h2m6 0h6m2 0h1m1 0h1m1 0h1m2 0h1m2 0h1m1 0h2M1 14.5h2m2 0h4m2 0h3m6 0h2m3 0h3m1 0h1m1 0h1M1 15.5h1m1 0h1m1 0h1m10 0h1m2 0h1m1 0h3m1 0h2m1 0h3M0 16.5h1m2 0h6m2 0h2m4 0h1m4 0h4m1 0h2m3 0h1M2 17.5h2m4 0h5m4 0h4m2 0h1m2 0h2m1 0h2m1 0h1M0 18.5h1m1 0h6m1 0h1m5 0h3m2 0h2m5 0h2m1 0h2M0 19.5h1m1 0h4m1 0h1m6 0h1m1 0h7m2 0h7M0 20.5h2m1 0h1m1 0h4m3 0h3m1 0h1m3 0h1m1 0h4m1 0h3m2 0h1M0 21.5h5m6 0h1m3 0h1m2 0h2m3 0h1m1 0h2m3 0h1m1 0h1M0 22.5h1m1 0h1m2 0h2m3 0h2m1 0h1m1 0h4m3 0h1m2 0h3m1 0h1m1 0h1M0 23.5h1m2 0h2m3 0h2m2 0h1m2 0h1m2 0h1m2 0h1m2 0h2m2 0h3M0 24.5h1m1 0h2m1 0h2m1 0h1m4 0h1m1 0h1m1 0h2m3 0h7m2 0h1M8 25.5h1m2 0h3m2 0h1m1 0h3m3 0h1m3 0h1m1 0h1m1 0h1M0 26.5h7m5 0h5m1 0h1m3 0h3m1 0h1m1 0h1m1 0h2M0 27.5h1m5 0h1m1 0h3m1 0h4m3 0h3m2 0h1m3 0h4M0 28.5h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h2m4 0h3m3 0h6m1 0h2M0 29.5h1m1 0h3m1 0h1m1 0h1m4 0h5m1 0h1m1 0h1m3 0h1m2 0h2m1 0h2M0 30.5h1m1 0h3m1 0h1m1 0h3m1 0h3m2 0h1m2 0h3m1 0h4m1 0h1M0 31.5h1m5 0h1m2 0h2m1 0h2m2 0h1m1 0h4m3 0h1m2 0h3M0 32.5h7m1 0h1m1 0h2m1 0h1m3 0h1m1 0h1m3 0h2m2 0h1m3 0h1"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Ultimate Fallout: Facsimile Edition #4 : Mayhew Variant Cover</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 11/21 · 2021 · Universal · White pages</div>
+        <div class="meta">Mike Mayhew cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 60 in 9.8, none higher </span>· Cert <span class="cert">4012473007</span> · Graded 2022-05-09 · Key: Mike Mayhew Studio, Frankie&#39;s Comics &amp;
+New York Comic Con exclusive.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4300437001_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Amazing Spider-Man #27 : Variant Edition</span>
+            <span class="grade">9.8</span>
+          </div>
+        <div class="meta">Marvel Comics · 8/23 · 2023 · Universal · White pages</div>
+        <div class="meta">Zeb Wells story · Ed McGuinness &amp; Mark Farmer art · Claudio Sciarrone cover</div>
+        <div class="meta">437 in 9.8 · 1 higher · Cert <span class="cert">4300437001</span> · Graded 2023-08-03 · Key: Amazing Spider-Man #921
+&quot;Disney 100&quot; variant cover.
+Iron Man v3 #76 cover homage.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Miles Morales: Spider-Man #39 : Comic Mint Convention Edition</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 8/22 · 2022 · Universal · White pages</div>
+        <div class="meta">Saladin Ahmed story · Alberto Foche art · Ivan Tao cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 117 in 9.8, none higher </span>· Cert <span class="cert">4177707002</span> · Graded 2023-01-09 · Key: Ultimate Spider-Man #279
+New York Comic Con 2022 exclusive.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Ultimate Fallout #4 : Second Printing/Pichelli Variant Cover</span>
+            <span class="grade">9.6</span>
+          </div>
+        <div class="meta">Marvel Comics · 10/11 · 2011 · Universal · White pages</div>
+        <div class="meta">Bendis, Hickman &amp; Spencer story · Pichelli, Larroca &amp; Crain art · Sara Pichelli cover</div>
+        <div class="meta">1070 in 9.6 · 1383 higher · Cert <span class="cert">4151403012</span> · Graded 2022-11-07 · Key: 1st appearance of the new
+Spider-Man (Miles Morales).</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Miles Morales: Spider-Man #2 : Sad Lemons Comics &quot;Virgin&quot; Edition</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 3/23 · 2023 · Universal · White pages</div>
+        <div class="meta">Cody Ziglar story · Federico Vicentini art · Skan Srisuwan cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 47 in 9.8, none higher </span>· Cert <span class="cert">4245548001</span> · Graded 2023-04-28 · Key: Ultimate Spider-Man #284</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Miles Morales: Spider-Man #41 : Comic Mint Edition</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 10/22 · 2022 · Universal · White pages</div>
+        <div class="meta">Saladin Ahmed story · Christopher Allen art · Ivan Tao cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 67 in 9.8, none higher </span>· Cert <span class="cert">4177707001</span> · Graded 2023-01-09 · Key: Ultimate Spider-Man #281</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Miles Morales: Spider-Man #2 : Vicentini Variant Cover</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 3/23 · 2023 · Universal · White pages</div>
+        <div class="meta">Cody Ziglar story · Federico Vicentini cover &amp; art</div>
+        <div class="meta"><span class="pop">★ Top Pop — 30 in 9.8, none higher </span>· Cert <span class="cert">4245413017</span> · Graded 2023-05-02</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Miles Morales: Spider-Man #3 : The Syndicate &quot;Virgin&quot; Edition</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 4/23 · 2023 · Universal · White pages</div>
+        <div class="meta">Cody Ziglar story · Federico Vicentini art · Derrick Chew cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 39 in 9.8, none higher </span>· Cert <span class="cert">4245413016</span> · Graded 2023-05-02 · Key: Ultimate Spider-Man #285</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Miles Morales: Spider-Man #39 : Tao Variant Cover</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 8/22 · 2022 · Universal · White pages</div>
+        <div class="meta">Saladin Ahmed story · Alberto Foche art · Ivan Tao cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 158 in 9.8, none higher </span>· Cert <span class="cert">4149402013</span> · Graded 2022-10-31 · Key: Ultimate Spider-Man #279
+East Side Comics &amp; Sad Lemon Comics
+exclusive.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Miles Morales: Spider-Man #4 : Bachalo Variant Cover</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 5/23 · 2023 · Universal · White pages</div>
+        <div class="meta">Cody Ziglar story · Federico Vicentini art · Chris Bachalo cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 62 in 9.8, none higher </span>· Cert <span class="cert">4245413001</span> · Graded 2023-05-02 · Key: Ultimate Spider-Man #286</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Miles Morales: Spider-Man #42 : KRS Comics &quot;Virgin&quot; Edition</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 11/22 · 2022 · Universal · White pages</div>
+        <div class="meta">Saladin Ahmed story · Carmen Carnero art · Ivan Tao cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 75 in 9.8, none higher </span>· Cert <span class="cert">4177708001</span> · Graded 2023-01-04 · Key: Ultimate Spider-Man #282
+Last issue.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/bin/03/</span>
+    <span>Side 2 of 2</span>
+  </div>
+</section>
+</body>
+</html>

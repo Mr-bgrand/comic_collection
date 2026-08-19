@@ -12,7 +12,9 @@
     "build": "node src/build.js",
     "print": "node src/print.js",
     "edit": "node src/editor.js",
-    "verify:print": "node src/verify-print.js"
+    "verify:print": "node src/verify-print.js",
+    "export": "node src/export-lookup.js",
+    "images": "node src/refetch-images.js"
   },
   "dependencies": {
     "qrcode": "^1.5.4",
