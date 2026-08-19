@@ -202,9 +202,24 @@ export async function lookupCerts(certs, { bin, dataDir = 'data' } = {}) {
   const page = context.pages()[0] ?? (await context.newPage());
   const failures = [];
 
+  /*
+   * Save after every book, not once at the end.
+   *
+   * A 25-cert run takes minutes and drives a visible browser. When that browser
+   * was closed mid-run the whole batch was lost, including four books already
+   * looked up successfully -- work that costs a Cloudflare challenge and an
+   * image download each to redo. Writing as we go makes a crash cost one book.
+   */
+  const save = async () => {
+    existing.updated = new Date().toISOString().slice(0, 10);
+    await writeFile(binFile, JSON.stringify(existing, null, 2) + '\n', 'utf8');
+  };
+
+  let aborted = null;
+
   try {
     for (const [i, cert] of certs.entries()) {
-      process.stdout.write(`[${i + 1}/${certs.length}] ${cert} ... `);
+      process.stdout.write('[' + (i + 1) + '/' + certs.length + '] ' + cert + ' ... ');
       try {
         const record = await lookupOne(page, cert);
         record.images = await downloadImages(page, record, imageDir);
@@ -214,27 +229,50 @@ export async function lookupCerts(certs, { bin, dataDir = 'data' } = {}) {
         if (at >= 0) existing.comics[at] = record;
         else existing.comics.push(record);
 
-        console.log(`${record.title} #${record.issue} ${record.grade}`);
+        await save();
+
+        console.log(record.title + ' #' + record.issue + ' ' + record.grade);
         if (record.unresolved?.length) {
-          console.warn(`  ! unrepairable text: ${record.unresolved.join(', ')}`);
+          console.warn('  ! unrepairable text: ' + record.unresolved.join(', '));
         }
       } catch (err) {
+        // A closed browser cannot be recovered from, and every remaining cert
+        // would fail identically. Stop and say so rather than printing the same
+        // error twenty more times.
+        if (/browser has been closed|Target page|context or browser/i.test(err.message)) {
+          console.log('ABORTED');
+          aborted = cert;
+          break;
+        }
         console.log('FAILED');
-        console.warn(`  ! ${err.message}`);
+        console.warn('  ! ' + err.message);
         failures.push(cert);
       }
-      if (i < certs.length - 1) await page.waitForTimeout(BETWEEN_LOOKUPS_MS);
+      if (i < certs.length - 1) {
+        try {
+          await page.waitForTimeout(BETWEEN_LOOKUPS_MS);
+        } catch {
+          aborted = cert;
+          break;
+        }
+      }
     }
   } finally {
-    await context.close();
+    await context.close().catch(() => {});
   }
 
-  existing.updated = new Date().toISOString().slice(0, 10);
-  await writeFile(binFile, `${JSON.stringify(existing, null, 2)}\n`, 'utf8');
+  await save();
 
-  console.log(`\nWrote ${binFile} (${existing.comics.length} comics)`);
-  if (failures.length) console.warn(`Failed: ${failures.join(', ')}`);
-  return { file: binFile, failures };
+  console.log('\nWrote ' + binFile + ' (' + existing.comics.length + ' comics)');
+  if (aborted) {
+    const done = new Set(existing.comics.map((c) => c.cert));
+    const left = certs.filter((c) => !done.has(String(c)));
+    console.warn('\nBrowser closed during ' + aborted + '. ' + left.length + ' cert(s) not looked up.');
+    console.warn('Everything fetched so far is saved. Re-run the same command to continue;');
+    console.warn('certs already stored are skipped unless you pass --force.');
+  }
+  if (failures.length) console.warn('Failed: ' + failures.join(', '));
+  return { file: binFile, failures, aborted };
 }
 
 async function main() {
@@ -268,7 +306,33 @@ async function main() {
     console.warn(`Skipping ${certs.length - unique.length} duplicate cert(s): ${[...new Set(dupes)].join(', ')}\n`);
   }
 
-  await lookupCerts(unique, { bin });
+
+  /*
+   * Skip certs already stored, so a run interrupted halfway resumes instead of
+   * redoing work. Each redone cert costs a page load and two image downloads,
+   * and a grade never changes — so re-fetching is pure waste unless asked for.
+   */
+  const binFile = path.join('data', 'bins', `bin-${bin}.json`);
+  let todo = unique;
+  if (!argv.includes('--force') && existsSync(binFile)) {
+    const stored = new Set(
+      (JSON.parse(await readFile(binFile, 'utf8')).comics ?? []).map((c) => c.cert),
+    );
+    todo = unique.filter((c) => !stored.has(String(c)));
+    const skipped = unique.length - todo.length;
+    if (skipped) {
+      console.log(`Resuming: ${skipped} cert(s) already stored, ${todo.length} to fetch.`);
+      console.log('Pass --force to re-fetch everything.');
+      console.log('');
+    }
+  }
+
+  if (!todo.length) {
+    console.log('Nothing to do — every cert is already stored. Pass --force to re-fetch.');
+    return;
+  }
+
+  await lookupCerts(todo, { bin });
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {

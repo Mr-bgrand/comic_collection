@@ -142,21 +142,21 @@ a.cert:hover { color: var(--accent); text-decoration-color: currentColor; }
   color: var(--accent);
 }
 
-/*
- * On a phone the two scans sit side by side rather than stacked. They used to be
- * hidden below 30rem, which meant the back scan — where the CGC label and most
- * defects are — was unavailable on exactly the device the QR code opens on.
- */
 @media (max-width: 30rem) {
-  .comic { grid-template-columns: 6.4rem 1fr; gap: 0.7rem; }
-  .scans { flex-direction: row; gap: 0.25rem; }
+  .comic { grid-template-columns: 7.2rem 1fr; gap: 0.75rem; }
 
   /*
-   * Each scan takes half the column. Without this they keep width:100% from the
-   * stacked layout, so two of them claim 200% of the container and spill across
-   * the text.
+   * Front cover full width, back stacked beneath it and smaller.
+   *
+   * These were side by side, which halved the front cover on exactly the device
+   * the QR code is meant for — the front is the image you want when you scan a
+   * bin, and the back is supporting detail. Before that they were hidden
+   * entirely below this width, which was worse. Neither is right: the front
+   * needs the room, the back just needs to be reachable.
    */
-  .scans img { flex: 1 1 0; min-width: 0; width: auto; }
+  .scans { flex-direction: column; gap: 0.35rem; }
+  .scans img { width: 100%; flex: none; }
+  .scans img:nth-child(2) { width: 62%; }
 }
 `;
 
