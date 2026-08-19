@@ -14,7 +14,8 @@
     "edit": "node src/editor.js",
     "verify:print": "node src/verify-print.js",
     "export": "node src/export-lookup.js",
-    "images": "node src/refetch-images.js"
+    "images": "node src/refetch-images.js",
+    "images:import": "node src/import-images.js"
   },
   "dependencies": {
     "qrcode": "^1.5.4",

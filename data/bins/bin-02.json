@@ -582,7 +582,8 @@
         "url": null,
         "status": "not-listed",
         "fetchedAt": "2026-08-17T05:40:12.628Z"
-      }
+      },
+      "noScans": true
     },
     {
       "cert": "4381117007",

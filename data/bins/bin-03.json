@@ -34,7 +34,8 @@
         "url": "https://gocollect.com/app/comic/amazing-fantasy-1000",
         "status": "no-sales",
         "fetchedAt": "2026-08-19T01:19:31.596Z"
-      }
+      },
+      "noScans": true
     },
     {
       "cert": "4245413018",
@@ -68,7 +69,8 @@
         "url": "https://gocollect.com/app/comic/amazing-spider-man-21-10",
         "status": "priced",
         "fetchedAt": "2026-08-19T01:19:38.917Z"
-      }
+      },
+      "noScans": true
     },
     {
       "cert": "4198680009",
@@ -102,7 +104,8 @@
         "url": "https://gocollect.com/app/comic/spider-man-4-cassaday-classic-homage-var",
         "status": "no-sales",
         "fetchedAt": "2026-08-19T01:19:46.212Z"
-      }
+      },
+      "noScans": true
     },
     {
       "cert": "4245413004",
@@ -136,7 +139,8 @@
         "url": "https://gocollect.com/app/comic/amazing-spider-man-21-11",
         "status": "priced",
         "fetchedAt": "2026-08-19T01:19:53.709Z"
-      }
+      },
+      "noScans": true
     },
     {
       "cert": "4177707005",
@@ -170,7 +174,8 @@
         "url": "https://gocollect.com/app/comic/amazing-spider-man-1-48",
         "status": "priced",
         "fetchedAt": "2026-08-19T01:20:01.347Z"
-      }
+      },
+      "noScans": true
     },
     {
       "cert": "4245413005",
@@ -204,7 +209,8 @@
         "url": "https://gocollect.com/app/comic/amazing-spider-man-21-comic-mint-virgin-edition-1",
         "status": "priced",
         "fetchedAt": "2026-08-19T01:20:08.880Z"
-      }
+      },
+      "noScans": true
     },
     {
       "cert": "4245413006",
@@ -238,7 +244,8 @@
         "url": "https://gocollect.com/app/comic/amazing-spider-man-19-nakayama-variant-cover",
         "status": "priced",
         "fetchedAt": "2026-08-19T01:20:16.128Z"
-      }
+      },
+      "noScans": true
     },
     {
       "cert": "4198680008",
@@ -272,7 +279,8 @@
         "url": "https://gocollect.com/app/comic/amazing-fantasy-1000-js-campbell-var",
         "status": "priced",
         "fetchedAt": "2026-08-19T01:20:23.347Z"
-      }
+      },
+      "noScans": true
     },
     {
       "cert": "4137947003",
@@ -304,7 +312,8 @@
         "url": "https://gocollect.com/app/comic/spider-verse-6",
         "status": "priced",
         "fetchedAt": "2026-08-19T01:20:31.412Z"
-      }
+      },
+      "noScans": true
     },
     {
       "cert": "4273634011",
@@ -486,7 +495,8 @@
         "url": "https://gocollect.com/app/comic/amazing-spider-man-20-nakayama-variant-cover",
         "status": "no-sales",
         "fetchedAt": "2026-08-19T01:21:08.515Z"
-      }
+      },
+      "noScans": true
     },
     {
       "cert": "4012473007",
@@ -520,7 +530,8 @@
         "url": "https://gocollect.com/app/comic/ultimate-fallout-4-mayhew-facsimile-edition",
         "status": "priced",
         "fetchedAt": "2026-08-19T01:21:15.798Z"
-      }
+      },
+      "noScans": true
     },
     {
       "cert": "4300437001",
@@ -591,7 +602,8 @@
         "url": "https://gocollect.com/app/comic/miles-morales-spider-man-39-2",
         "status": "priced",
         "fetchedAt": "2026-08-19T01:21:30.537Z"
-      }
+      },
+      "noScans": true
     },
     {
       "cert": "4151403012",
@@ -625,7 +637,8 @@
         "url": "https://gocollect.com/app/comic/ultimate-fallout-4-2nd-printing-2",
         "status": "priced",
         "fetchedAt": "2026-08-19T01:21:38.166Z"
-      }
+      },
+      "noScans": true
     },
     {
       "cert": "4245548001",
@@ -659,7 +672,8 @@
         "url": "https://gocollect.com/app/comic/miles-morales-spider-man-2-5",
         "status": "priced",
         "fetchedAt": "2026-08-19T01:21:45.123Z"
-      }
+      },
+      "noScans": true
     },
     {
       "cert": "4177707001",
@@ -693,7 +707,8 @@
         "url": "https://gocollect.com/app/comic/miles-morales-spider-man-41-2",
         "status": "priced",
         "fetchedAt": "2026-08-19T01:21:52.269Z"
-      }
+      },
+      "noScans": true
     },
     {
       "cert": "4245413017",
@@ -726,7 +741,8 @@
         "url": "https://gocollect.com/app/comic/miles-morales-spider-man-2-vicentini-1-10-design-variant",
         "status": "priced",
         "fetchedAt": "2026-08-19T01:21:59.235Z"
-      }
+      },
+      "noScans": true
     },
     {
       "cert": "4245413016",
@@ -760,7 +776,8 @@
         "url": "https://gocollect.com/app/comic/miles-morales-spider-man-3-the-syndicate-virgin-edition",
         "status": "priced",
         "fetchedAt": "2026-08-19T01:22:06.498Z"
-      }
+      },
+      "noScans": true
     },
     {
       "cert": "4149402013",
@@ -794,7 +811,8 @@
         "url": "https://gocollect.com/app/comic/miles-morales-spider-man-39-tao-variant-cover",
         "status": "priced",
         "fetchedAt": "2026-08-19T01:22:13.811Z"
-      }
+      },
+      "noScans": true
     },
     {
       "cert": "4245413001",
@@ -828,7 +846,8 @@
         "url": "https://gocollect.com/app/comic/miles-morales-spider-man-4-bachalo-var",
         "status": "priced",
         "fetchedAt": "2026-08-19T01:22:21.371Z"
-      }
+      },
+      "noScans": true
     },
     {
       "cert": "4177708001",
@@ -862,7 +881,8 @@
         "url": "https://gocollect.com/app/comic/miles-morales-spider-man-42-3",
         "status": "priced",
         "fetchedAt": "2026-08-19T01:22:28.637Z"
-      }
+      },
+      "noScans": true
     }
   ],
   "updated": "2026-08-19"
