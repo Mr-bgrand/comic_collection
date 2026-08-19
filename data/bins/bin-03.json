@@ -21,7 +21,10 @@
         "higher": 81,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "4245413012_OBV.jpg",
+        "back": "4245413012_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-19T01:17:42.383Z",
       "fmv": {
@@ -35,7 +38,7 @@
         "status": "no-sales",
         "fetchedAt": "2026-08-19T01:19:31.596Z"
       },
-      "noScans": true
+      "imageSource": "owner"
     },
     {
       "cert": "4245413018",
@@ -56,7 +59,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4245413018_OBV.jpg",
+        "back": "4245413018_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-19T01:17:45.342Z",
       "fmv": {
@@ -70,7 +76,7 @@
         "status": "priced",
         "fetchedAt": "2026-08-19T01:19:38.917Z"
       },
-      "noScans": true
+      "imageSource": "owner"
     },
     {
       "cert": "4198680009",

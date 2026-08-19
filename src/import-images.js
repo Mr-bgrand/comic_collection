@@ -25,6 +25,8 @@ import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 
+import { cropToSlab } from './crop.js';
+
 const INCOMING_DIR = path.join('data', 'incoming');
 const IMAGE_DIR = path.join('data', 'images');
 const BIN_DIR = path.join('data', 'bins');
@@ -83,7 +85,6 @@ export async function importImages() {
     for (const comic of data.comics ?? []) byCert.set(comic.cert, { file, data, comic });
   }
 
-  const { default: sharp } = await import('sharp');
   await mkdir(IMAGE_DIR, { recursive: true });
   await mkdir(DONE_DIR, { recursive: true });
 
@@ -108,12 +109,10 @@ export async function importImages() {
     }
 
     const outName = `${parsed.cert}_${parsed.side === 'front' ? 'OBV' : 'REV'}.jpg`;
-    const buf = await sharp(path.join(INCOMING_DIR, name))
-      .rotate() // honour EXIF orientation from a phone camera
-      .resize({ width: MAX_EDGE, height: MAX_EDGE, fit: 'inside', withoutEnlargement: true })
-      .jpeg({ quality: 88, progressive: true })
-      .toBuffer();
-    await writeFile(path.join(IMAGE_DIR, outName), buf);
+    // Same crop as the scanner path: a phone photo of a slab on a desk has the
+    // same problem as a scanner bed, just with a messier background.
+    const { buffer } = await cropToSlab(path.join(INCOMING_DIR, name), { maxEdge: MAX_EDGE });
+    await writeFile(path.join(IMAGE_DIR, outName), buffer);
 
     const { comic, file, data } = entry;
     comic.images = { ...(comic.images ?? {}), [parsed.side]: outName };

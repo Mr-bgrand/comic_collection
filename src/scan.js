@@ -24,6 +24,7 @@ import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 
 import { displayTitle } from './model.js';
+import { cropToSlab } from './crop.js';
 
 const BIN_DIR = path.join('data', 'bins');
 const IMAGE_DIR = path.join('data', 'images');
@@ -46,38 +47,15 @@ function runScan(outPath) {
 }
 
 /**
- * Trim the uniform scanner background and downscale.
+ * Crop the scanner mat away and downscale.
  *
- * A full A3 bed at 300dpi is mostly empty space around one slab; storing that
- * would make every cover thumbnail a small object adrift in a large field.
- * Trimming is best-effort — if it removes everything (a very dark scan on a dark
- * mat) the untrimmed image is kept rather than a blank.
+ * A full A3 bed at 300dpi is mostly empty mat around one slab; a real scan came
+ * back with roughly a third of the frame black. See crop.js for why brightness
+ * rather than sharp's `trim` does this job.
  */
 async function tidy(inputPath) {
-  const { default: sharp } = await import('sharp');
-  const source = sharp(inputPath).rotate();
-
-  let out;
-  try {
-    out = await source
-      .clone()
-      .trim({ threshold: 18 })
-      .resize({ width: MAX_EDGE, height: MAX_EDGE, fit: 'inside', withoutEnlargement: true })
-      .jpeg({ quality: 88, progressive: true })
-      .toBuffer();
-
-    const meta = await sharp(out).metadata();
-    if (!meta.width || !meta.height || meta.width < 200 || meta.height < 200) {
-      throw new Error('trim removed too much');
-    }
-  } catch {
-    out = await sharp(inputPath)
-      .rotate()
-      .resize({ width: MAX_EDGE, height: MAX_EDGE, fit: 'inside', withoutEnlargement: true })
-      .jpeg({ quality: 88, progressive: true })
-      .toBuffer();
-  }
-  return out;
+  const { buffer } = await cropToSlab(inputPath, { maxEdge: MAX_EDGE });
+  return buffer;
 }
 
 async function loadWork() {
