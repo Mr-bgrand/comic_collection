@@ -28,6 +28,7 @@ import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 
 import { displayTitle, fmvValue, manualValue, isTopPop } from './model.js';
+import { buildVariantIndex } from './variants.js';
 
 const BIN_DIR = path.join('data', 'bins');
 const IMAGE_DIR = path.join('data', 'images');
@@ -95,9 +96,13 @@ export const COLUMNS = [
   'pop_at_grade', 'pop_higher', 'top_pop',
   'gocollect_fmv', 'gocollect_url', 'manual_value', 'needs_price',
   'search_query', 'front_image', 'back_image',
+  // What this book must NOT be confused with. Half the collection shares a
+  // title and issue with something else.
+  'variant_group_size', 'match_difficulty', 'exclude_terms', 'confusable_certs',
 ];
 
-export function toRow(comic, bin) {
+export function toRow(comic, bin, variantInfo) {
+  const vi = variantInfo ?? { groupSize: 1, siblingCerts: [], excludeTerms: [], difficulty: 'unique' };
   const market = fmvValue(comic);
   const manual = manualValue(comic);
   return {
@@ -125,6 +130,12 @@ export function toRow(comic, bin) {
     search_query: searchQuery(comic),
     front_image: comic.images?.front ? `${comic.cert}_front.jpg` : '',
     back_image: comic.images?.back ? `${comic.cert}_back.jpg` : '',
+    variant_group_size: vi.groupSize,
+    // unique | text | visual -- 'visual' means no query can separate this book
+    // from its siblings and the cover image is the only discriminator.
+    match_difficulty: vi.difficulty,
+    exclude_terms: vi.excludeTerms.join(' '),
+    confusable_certs: vi.siblingCerts.join(' '),
   };
 }
 
@@ -152,6 +163,17 @@ export async function exportForLookup() {
   await rm(EXPORT_DIR, { recursive: true, force: true });
   await mkdir(EXPORT_DIR, { recursive: true });
 
+  /*
+   * Build the confusable index across the WHOLE collection, not per bin.
+   * Amazing Spider-Man #21 has variants sitting in different bins, and a book
+   * you could mistake for another is no less confusable for being stored
+   * elsewhere.
+   */
+  const everything = bins.flatMap((bin) =>
+    (bin.comics ?? []).map((comic) => ({ comic, bin: bin.bin })),
+  );
+  const variants = buildVariantIndex(everything);
+
   const all = [];
   let missingImages = 0;
 
@@ -159,7 +181,7 @@ export async function exportForLookup() {
     const dir = path.join(EXPORT_DIR, `bin-${bin.bin}`);
     await mkdir(dir, { recursive: true });
 
-    const rows = (bin.comics ?? []).map((c) => toRow(c, bin.bin));
+    const rows = (bin.comics ?? []).map((c) => toRow(c, bin.bin, variants.get(c.cert)));
     all.push(...rows);
 
     for (const comic of bin.comics ?? []) {
@@ -183,6 +205,13 @@ export async function exportForLookup() {
   await writeFile(path.join(EXPORT_DIR, 'all-bins.csv'), toCsv(all), 'utf8');
 
   const needsPrice = all.filter((r) => r.needs_price === 'yes');
+  const visual = all.filter((r) => r.match_difficulty === 'visual');
+  if (visual.length) {
+    console.log(
+      `\n${visual.length} book(s) cannot be told from their variants by text alone —`,
+    );
+    console.log('the cover image is the only discriminator for those.');
+  }
   console.log(`\nWrote ${EXPORT_DIR}/ — ${all.length} comics across ${bins.length} bins`);
   console.log(
     `${needsPrice.length} need a price; ${all.length - needsPrice.length} already have one`,

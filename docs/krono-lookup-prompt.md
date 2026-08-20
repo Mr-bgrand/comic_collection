@@ -41,6 +41,24 @@ and the image filename stem.
 > | `needs_price` | **`yes` = no price from any source. These are the job.** |
 > | `search_query` | A prebuilt marketplace query. Start here, then refine |
 > | `front_image`, `back_image` | Filenames in this folder, or blank |
+> | `variant_group_size` | How many books in this collection share this title and issue. 1 means no ambiguity |
+> | `match_difficulty` | `unique`, `text`, or `visual` — **read this before searching** |
+> | `exclude_terms` | Words belonging to the *other* variants of this issue. Exclude them from the query |
+> | `confusable_certs` | The certs this book could be mistaken for |
+>
+> **`match_difficulty` tells you what will and will not work**
+>
+> - **`unique`** — nothing else in the collection shares this title and issue.
+>   The query alone is safe.
+> - **`text`** — siblings exist, but this book has distinguishing words they
+>   don't. Search normally and add `exclude_terms` as negative keywords.
+> - **`visual`** — **no query can separate this book from its siblings.** Either
+>   it is the base issue, whose search terms are a strict subset of every
+>   variant's, or the only difference is a letter (`Cover B` vs `Cover C`), or the
+>   variant is identical and only the grade differs. Here the cover image is the
+>   discriminator, not the text. Compare `front_image` against the listing photo
+>   and match on the artwork. If you cannot see a listing's photo clearly, return
+>   `match_confidence=none`.
 >
 > **What I want**
 >
@@ -62,16 +80,24 @@ and the image filename stem.
 >
 > **Matching is the hard part, and precision matters more than coverage.**
 >
-> - The `variant` string is the whole game. `Amazing Spider-Man #21` exists in a
->   dozen retailer variants at wildly different prices. A price for the wrong
->   variant is worse than no price, because it looks like an answer.
+> Nearly half this collection shares a title and issue with something else. Moon
+> Man #1 appears six times; Amazing Spider-Man #21 five times. A price for the
+> wrong variant is worse than no price, because it looks like an answer.
+>
+> - **Check `match_difficulty` first.** It tells you whether text can do the job.
+> - **Apply `exclude_terms` as negative keywords.** For a base issue this is the
+>   only thing standing between it and its own variants.
 > - Retailer names often contain generic words — "The Comic Corner",
 >   "Unknown Comics", "No Masss Comics". Match those as phrases, not loose
 >   keywords, or you will match the entire category.
 > - **The grade must match exactly.** Do not average a 9.8 comp into a 9.6 book.
-> - Use the cover images to confirm a candidate listing shows the same artwork.
->   Virgin (textless), foil, sketch, and metal variants of one issue look
->   obviously different side by side, and listing titles frequently mislabel them.
+>   Two rows here are the same variant at different grades and are different books.
+> - **Confirm against the cover image.** Virgin (textless), foil, sketch and metal
+>   variants of one issue look obviously different side by side, and listing
+>   titles frequently mislabel them. The image is evidence; the title is a claim.
+> - The cert number sometimes appears in listing titles or photos. An exact cert
+>   match identifies that specific slab — useful, though it means you have found
+>   this very copy rather than a comparable.
 > - When nothing matches confidently, return `match_confidence=none` and leave the
 >   price columns blank. **Do not substitute a base-issue price for a variant** —
 >   an empty cell is a fact, a wrong number is a liability.
@@ -103,6 +129,39 @@ you no way to tell a real comp from a guess.
 
 ## Feeding results back
 
-Save the returned file and tell me where it is. I will merge it in, keeping
-marketplace figures in their own field rather than overwriting `gocollect_fmv`,
-so every number on the dashboard keeps saying where it came from.
+```bash
+npm run prices -- path/to/returned.csv
+```
+
+Matches on `cert` and stores results under `market`, alongside `fmv` rather than
+on top of it. GoCollect's figure comes from completed sales; a marketplace scrape
+is a different kind of evidence with a different confidence attached. Merging
+them would destroy the ability to say where a number came from, which is the one
+thing an appraisal needs.
+
+Rows are **refused**, not stored, when:
+
+- `match_confidence` is missing or `none` — an unvouched number looks like an
+  answer, which is worse than a blank
+- there is no sold data, only active listings — asking prices are what sellers
+  hope for, not what anything traded at
+
+Anything matched at `low` confidence is listed on import so you can check it by
+eye.
+
+## Why two repositories rather than one
+
+They stay separate and are coupled only by this file format. Different jobs,
+different credentials, different release cadences; the lookup tool also handles
+sports cards and has no business knowing how comic bins are stored. A CSV
+handoff is inspectable when a number looks wrong, which a shared database or a
+common package would not be.
+
+The full loop:
+
+```bash
+npm run export                      # hand off: CSV + cover scans
+#   ... run the lookup tool ...
+npm run prices -- returned.csv      # merge results home
+npm run build && npm run print      # rebuild site and paperwork
+```

@@ -16,7 +16,8 @@
     "export": "node src/export-lookup.js",
     "images": "node src/refetch-images.js",
     "images:import": "node src/import-images.js",
-    "scan": "node src/scan.js"
+    "scan": "node src/scan.js",
+    "prices": "node src/import-prices.js"
   },
   "dependencies": {
     "qrcode": "^1.5.4",
