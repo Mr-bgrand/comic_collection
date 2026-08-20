@@ -89,7 +89,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4245413008_OBV.jpg",
+        "back": "4245413008_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-20T15:09:23.005Z",
       "fmv": {
@@ -102,7 +105,8 @@
         "url": "https://gocollect.com/app/comic/street-fighter-1-spectral-comics-edition-b",
         "status": "priced",
         "fetchedAt": "2026-08-20T15:13:24.685Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4471692006",
@@ -388,7 +392,10 @@
         "higher": 129,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "4137945002_OBV.jpg",
+        "back": "4137945002_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-20T15:09:48.473Z",
       "fmv": {
@@ -401,7 +408,8 @@
         "url": "https://gocollect.com/app/comic/silver-surfer-black-1-ig-comic-store-edition",
         "status": "priced",
         "fetchedAt": "2026-08-20T15:14:42.066Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4137945006",
@@ -421,7 +429,10 @@
         "higher": 1150,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "4137945006_OBV.jpg",
+        "back": "4137945006_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-20T15:09:51.444Z",
       "fmv": {
@@ -434,7 +445,8 @@
         "url": "https://gocollect.com/app/comic/detective-comics-27-facsimile-edition-2022",
         "status": "no-sales",
         "fetchedAt": "2026-08-20T15:14:51.040Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4471692004",

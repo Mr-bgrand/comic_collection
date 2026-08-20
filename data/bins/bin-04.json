@@ -346,7 +346,10 @@
         "higher": 140,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "4000416014_OBV.jpg",
+        "back": "4000416014_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-20T02:31:00.372Z",
       "fmv": {
@@ -359,7 +362,8 @@
         "url": "https://gocollect.com/app/comic/silver-surfer-black-1",
         "status": "priced",
         "fetchedAt": "2026-08-20T02:35:50.089Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4350046016",
@@ -411,7 +415,10 @@
         "higher": 18,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "4137947002_OBV.jpg",
+        "back": "4137947002_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-20T02:35:00.794Z",
       "fmv": {
@@ -424,7 +431,8 @@
         "url": "https://gocollect.com/app/comic/back-to-the-future-1-2nd-printing",
         "status": "no-sales",
         "fetchedAt": "2026-08-20T02:36:04.775Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "21-2EC8B4A-002",
@@ -507,7 +515,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "0203013022_OBV.jpg",
+        "back": "0203013022_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-20T15:08:22.138Z",
       "fmv": {
@@ -520,7 +531,8 @@
         "url": "https://gocollect.com/app/comic/catwoman-13-4",
         "status": "priced",
         "fetchedAt": "2026-08-20T15:12:41.197Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4526002002",
@@ -594,6 +606,161 @@
         "url": "https://gocollect.com/app/comic/wolverine-88-facsimile-ed-foil-var",
         "status": "priced",
         "fetchedAt": "2026-08-20T15:13:01.722Z"
+      }
+    },
+    {
+      "cert": "4350046020",
+      "title": "Do You Pooh?",
+      "issue": "1",
+      "issueDate": "2023",
+      "issueYear": "2023",
+      "publisher": "Counterpoint",
+      "variant": "Magic Pooh vs Air Pooh Foil Edition B",
+      "grade": "9.9",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-29",
+      "labelCategory": "Universal",
+      "artComments": "Terry Sala & Marat Mychaels story\nDietrich Smith & Marat Mychaels art\nMarat Mychaels cover",
+      "keyComments": "Multiple foil variants exist.\n\"Virgin\" cover.",
+      "population": {
+        "atGrade": 1,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4350046020_OBV.jpg",
+        "back": "4350046020_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T23:26:59.792Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-20T23:28:33.910Z"
+      }
+    },
+    {
+      "cert": "4603826010",
+      "title": "Fame: Michael J. Fox",
+      "issue": "nn",
+      "issueDate": "No Date",
+      "issueYear": "1900",
+      "publisher": "TidalWave Comics",
+      "variant": "Official Pix Foil Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2025-06-16",
+      "labelCategory": "Signature Series",
+      "artComments": "Michael Frizell story\nIgor Cicarini art\nMatthew Waite cover",
+      "population": {
+        "atGrade": 184,
+        "higher": 1,
+        "topPop": false
+      },
+      "images": {
+        "front": "4603826010_OBV.jpg",
+        "back": "4603826010_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T23:27:04.210Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-20T23:28:41.155Z"
+      }
+    },
+    {
+      "cert": "4214394001",
+      "title": "Do You Pooh?",
+      "issue": "1",
+      "issueDate": "2021",
+      "issueYear": "2021",
+      "publisher": "Counterpoint",
+      "variant": "SMZ Comics Convention Metal Edition B",
+      "grade": "9.9",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-03-06",
+      "labelCategory": "Universal",
+      "artComments": "Terry Sala & Marat Mychaels story\nDietrich Smith & Marat Mychaels art\nMarat Mychaels cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 2,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-20T23:27:25.152Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-20T23:28:47.873Z"
+      }
+    },
+    {
+      "cert": "4480290001",
+      "title": "Fame: Mike Tyson",
+      "issue": "nn",
+      "issueDate": "No Date",
+      "issueYear": "1900",
+      "publisher": "TidalWave Comics",
+      "variant": "Crush Collectibles Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-09-16",
+      "labelCategory": "Universal",
+      "artComments": "Eric M. Esquivel story\nMartin Gimenez art",
+      "population": {
+        "atGrade": 1,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4480290001_OBV.jpg",
+        "back": "4480290001_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T23:27:28.082Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-20T23:28:54.723Z"
+      }
+    },
+    {
+      "cert": "4493150004",
+      "title": "Fame: Michael Jordan",
+      "issue": "nn",
+      "issueDate": "No Date",
+      "issueYear": "1900",
+      "publisher": "TidalWave Comics",
+      "variant": "Bueckert Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-10-15",
+      "labelCategory": "Universal",
+      "artComments": "Michael Frizell story\nIgor Cicarini art\nSheldon Bueckert cover",
+      "keyComments": "Comic Kingdom Creative &\nComics Elite exclusive.",
+      "population": {
+        "atGrade": 24,
+        "higher": 2,
+        "topPop": false
+      },
+      "images": {
+        "front": "4493150004_OBV.jpg",
+        "back": "4493150004_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T23:27:31.932Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-20T23:29:01.460Z"
       }
     }
   ],
