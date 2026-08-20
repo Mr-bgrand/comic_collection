@@ -449,9 +449,13 @@
           "date": "2021-06-01"
         }
       ],
-      "images": {},
+      "images": {
+        "front": "21-2EC8B4A-002_OBV.jpg",
+        "back": "21-2EC8B4A-002_REV.jpg"
+      },
       "source": "manual",
-      "fetchedAt": "2026-08-20T04:57:25.256Z"
+      "fetchedAt": "2026-08-20T04:57:25.256Z",
+      "imageSource": "owner"
     }
   ],
   "updated": "2026-08-20"
