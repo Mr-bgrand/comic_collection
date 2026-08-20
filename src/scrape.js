@@ -146,9 +146,25 @@ async function lookupOne(page, cert) {
       throw new Error(`cert ${cert}: Cloudflare challenge did not clear`);
     });
 
-  await page.waitForSelector('dt', { timeout: 15_000 }).catch(() => {
-    throw new Error(`cert ${cert}: no record found (bad cert number?)`);
-  });
+  /*
+   * An empty record is almost never a bad cert number.
+   *
+   * The page loads, the title is right, and the record simply does not render —
+   * which is what CGC does when it is throttling. The old message here read
+   * "bad cert number?", and when a whole batch failed it pointed the blame
+   * squarely at the input instead of at the rate limit. The caller counts these
+   * and stops.
+   */
+  const rendered = await page
+    .waitForSelector('dt', { timeout: 15_000 })
+    .then(() => true)
+    .catch(() => false);
+
+  if (!rendered) {
+    const err = new Error(`cert ${cert}: CGC returned an empty record`);
+    err.code = 'EMPTY_RECORD';
+    throw err;
+  }
 
   // The population block renders after the record fields, so extracting as soon
   // as the <dt>s exist loses it. Wait for it, but do not require it — some books
@@ -216,6 +232,10 @@ export async function lookupCerts(certs, { bin, dataDir = 'data' } = {}) {
   };
 
   let aborted = null;
+  // Consecutive empty records mean the service is refusing, not that the input
+  // is wrong. Three is enough to tell one bad cert from a rate limit.
+  const EMPTY_LIMIT = 3;
+  let emptyRun = 0;
 
   try {
     for (const [i, cert] of certs.entries()) {
@@ -230,6 +250,7 @@ export async function lookupCerts(certs, { bin, dataDir = 'data' } = {}) {
         else existing.comics.push(record);
 
         await save();
+        emptyRun = 0;
 
         console.log(record.title + ' #' + record.issue + ' ' + record.grade);
         if (record.unresolved?.length) {
@@ -241,18 +262,32 @@ export async function lookupCerts(certs, { bin, dataDir = 'data' } = {}) {
         // error twenty more times.
         if (/browser has been closed|Target page|context or browser/i.test(err.message)) {
           console.log('ABORTED');
-          aborted = cert;
+          aborted = { cert, reason: 'browser-closed' };
           break;
         }
-        console.log('FAILED');
-        console.warn('  ! ' + err.message);
-        failures.push(cert);
+        if (err.code === 'EMPTY_RECORD') {
+          emptyRun += 1;
+          console.log('empty record');
+          if (emptyRun >= EMPTY_LIMIT) {
+            console.log('');
+            console.warn(`CGC returned ${EMPTY_LIMIT} empty records in a row — it is throttling.`);
+            console.warn('These certs are almost certainly fine; the service is refusing.');
+            console.warn('Stopping. Re-run later and it will resume where it left off.');
+            aborted = { cert, reason: 'throttled' };
+            break;
+          }
+        } else {
+          emptyRun = 0;
+          console.log('FAILED');
+          console.warn('  ! ' + err.message);
+          failures.push(cert);
+        }
       }
       if (i < certs.length - 1) {
         try {
           await page.waitForTimeout(BETWEEN_LOOKUPS_MS);
         } catch {
-          aborted = cert;
+          aborted = { cert, reason: 'browser-closed' };
           break;
         }
       }
@@ -267,7 +302,10 @@ export async function lookupCerts(certs, { bin, dataDir = 'data' } = {}) {
   if (aborted) {
     const done = new Set(existing.comics.map((c) => c.cert));
     const left = certs.filter((c) => !done.has(String(c)));
-    console.warn('\nBrowser closed during ' + aborted + '. ' + left.length + ' cert(s) not looked up.');
+    const why = aborted.reason === 'throttled'
+      ? 'CGC started refusing at ' + aborted.cert
+      : 'Browser closed during ' + aborted.cert;
+    console.warn('\n' + why + '. ' + left.length + ' cert(s) not looked up.');
     console.warn('Everything fetched so far is saved. Re-run the same command to continue;');
     console.warn('certs already stored are skipped unless you pass --force.');
   }
