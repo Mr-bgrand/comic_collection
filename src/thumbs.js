@@ -23,9 +23,17 @@ import { pathToFileURL } from 'node:url';
 const IMAGE_DIR = path.join('data', 'images');
 export const THUMB_DIR = path.join('data', 'thumbs');
 export const MEDIUM_DIR = path.join('data', 'medium');
+/*
+ * The wall shows every cover at once, so all 80 load immediately — lazy loading
+ * buys nothing when everything is on screen by design. At 480px that is 5.6MB;
+ * at 300px it is ~2MB and still sharp on a retina tile. The hovered slab swaps
+ * up to the 480px copy, which is the only one ever seen large.
+ */
+export const WALL_DIR = path.join('data', 'wall');
 
 const SIZES = [
   { dir: THUMB_DIR, width: 120, quality: 80 },
+  { dir: WALL_DIR, width: 300, quality: 76 },
   { dir: MEDIUM_DIR, width: 480, quality: 78 },
 ];
 

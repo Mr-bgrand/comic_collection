@@ -17,7 +17,8 @@ import { renderSheet } from './templates/sheet.js';
 import { renderBinPage } from './templates/binPage.js';
 import { renderIndexPage } from './templates/indexPage.js';
 import { renderDashboard } from './templates/dashboard.js';
-import { ensureThumbs, THUMB_DIR, MEDIUM_DIR } from './thumbs.js';
+import { renderWallPage } from './templates/wallPage.js';
+import { ensureThumbs, THUMB_DIR, MEDIUM_DIR, WALL_DIR } from './thumbs.js';
 
 const DATA_DIR = 'data';
 const DIST_DIR = 'dist';
@@ -78,7 +79,7 @@ export async function build() {
   // Sized derivatives for the table and its hover preview; the bin pages keep
   // using the full scans.
   await ensureThumbs();
-  for (const [dir, name] of [[THUMB_DIR, 'thumbs'], [MEDIUM_DIR, 'medium']]) {
+  for (const [dir, name] of [[THUMB_DIR, 'thumbs'], [WALL_DIR, 'covers'], [MEDIUM_DIR, 'medium']]) {
     if (existsSync(dir)) await cp(dir, path.join(DIST_DIR, name), { recursive: true });
   }
 
@@ -128,6 +129,13 @@ export async function build() {
   await writeFile(
     path.join(DIST_DIR, 'index.html'),
     renderIndexPage({ bins, config, totalComics, totalTopPops }),
+    'utf8',
+  );
+
+  await mkdir(path.join(DIST_DIR, 'wall'), { recursive: true });
+  await writeFile(
+    path.join(DIST_DIR, 'wall', 'index.html'),
+    renderWallPage({ bins, config }),
     'utf8',
   );
 
