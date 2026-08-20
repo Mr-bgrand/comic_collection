@@ -456,6 +456,145 @@
       "source": "manual",
       "fetchedAt": "2026-08-20T04:57:25.256Z",
       "imageSource": "owner"
+    },
+    {
+      "cert": "4471692001",
+      "title": "Fame: Mike Tyson",
+      "issue": "nn",
+      "issueDate": "No Date",
+      "issueYear": "1900",
+      "publisher": "TidalWave Comics",
+      "variant": "Waite Foil Edition B",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-08-14",
+      "labelCategory": "Universal",
+      "artComments": "Eric M. Esquivel story\nMartin Gimenez art\nMatthew Waite cover",
+      "keyComments": "Big Time Collectibles &\nHawkins Collectibles exclusive.",
+      "population": {
+        "atGrade": 8,
+        "higher": 2,
+        "topPop": false
+      },
+      "images": {
+        "front": "4471692001_OBV.jpg",
+        "back": "4471692001_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T15:08:18.336Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-20T15:12:31.200Z"
+      }
+    },
+    {
+      "cert": "0203013022",
+      "title": "Catwoman",
+      "issue": "13",
+      "issueDate": "12/12",
+      "issueYear": "2012",
+      "publisher": "DC Comics",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2012-12-06",
+      "labelCategory": "Universal",
+      "artComments": "Ann Nocenti story\nRafa Sandoval art\nGreg Capullo cover",
+      "keyComments": "Newsstand edition exists without\ndie-cut outer cover.",
+      "population": {
+        "atGrade": 81,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-20T15:08:22.138Z",
+      "fmv": {
+        "value": 30,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 36,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/catwoman-13-4",
+        "status": "priced",
+        "fetchedAt": "2026-08-20T15:12:41.197Z"
+      }
+    },
+    {
+      "cert": "4526002002",
+      "title": "Wolverine",
+      "issue": "1",
+      "issueDate": "11/24",
+      "issueYear": "2024",
+      "publisher": "Marvel Comics",
+      "variant": "Gleason Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-12-27",
+      "labelCategory": "Universal",
+      "artComments": "Saladin Ahmed story\nMartin Coccolo art\nPatrick Gleason cover",
+      "keyComments": "Wolverine #393\nFoil cover.",
+      "population": {
+        "atGrade": 892,
+        "higher": 215,
+        "topPop": false
+      },
+      "images": {
+        "front": "4526002002_OBV.jpg",
+        "back": "4526002002_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T15:08:25.122Z",
+      "fmv": {
+        "value": 60,
+        "currency": "USD",
+        "avg30": 70,
+        "avg90": 70,
+        "avg365": 60,
+        "sold365": 21,
+        "url": "https://gocollect.com/app/comic/wolverine-1-pat-gleason-adamantium-head-foil-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-20T15:12:51.653Z"
+      }
+    },
+    {
+      "cert": "4493150002",
+      "title": "Wolverine: Facsimile Edition",
+      "issue": "88",
+      "issueDate": "9/24",
+      "issueYear": "2024",
+      "publisher": "Marvel Comics",
+      "variant": "Foil Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-10-15",
+      "labelCategory": "Universal",
+      "artComments": "Adam Kubert cover",
+      "keyComments": "Reprints Wolverine #88 (12/94)",
+      "population": {
+        "atGrade": 195,
+        "higher": 2,
+        "topPop": false
+      },
+      "images": {
+        "front": "4493150002_OBV.jpg",
+        "back": "4493150002_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T15:08:28.676Z",
+      "fmv": {
+        "value": 70,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 58,
+        "sold365": 7,
+        "url": "https://gocollect.com/app/comic/wolverine-88-facsimile-ed-foil-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-20T15:13:01.722Z"
+      }
     }
   ],
   "updated": "2026-08-20"

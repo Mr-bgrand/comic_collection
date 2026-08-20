@@ -1,0 +1,901 @@
+{
+  "bin": "05",
+  "title": "Bin 05",
+  "location": "",
+  "comics": [
+    {
+      "cert": "4401613007",
+      "title": "Moon Man",
+      "issue": "1",
+      "issueDate": "1/24",
+      "issueYear": "2024",
+      "publisher": "Image/Mad Solar",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-03-26",
+      "labelCategory": "Universal",
+      "artComments": "Scott Mescudi & Kyle Higgins story\nMarco Locati & Igor Monti cover & art",
+      "population": {
+        "atGrade": 63,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4401613007_OBV.jpg",
+        "back": "4401613007_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T15:09:15.700Z",
+      "fmv": {
+        "value": 36,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": 20,
+        "avg365": 37,
+        "sold365": 6,
+        "url": "https://gocollect.com/app/comic/moon-man-1-cvr-a-marco-locati",
+        "status": "priced",
+        "fetchedAt": "2026-08-20T15:13:08.691Z"
+      }
+    },
+    {
+      "cert": "4526002006",
+      "title": "Do You Pooh?",
+      "issue": "1",
+      "issueDate": "2024",
+      "issueYear": "2024",
+      "publisher": "Counterpoint",
+      "variant": "Brock Poohdy Edition B",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-12-27",
+      "labelCategory": "Universal",
+      "artComments": "Terry Sala & Marat Mychaels story\nDietrich Smith & Marat Mychaels art\nMarat Mychaels cover",
+      "keyComments": "Rabbit Comics exclusive.\n\"Virgin\" cover.",
+      "population": {
+        "atGrade": 1,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4526002006_OBV.jpg",
+        "back": "4526002006_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T15:09:19.822Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-20T15:13:17.742Z"
+      }
+    },
+    {
+      "cert": "4245413008",
+      "title": "Street Fighter Reprint Edition",
+      "issue": "1",
+      "issueDate": "11/22",
+      "issueYear": "2022",
+      "publisher": "Udon Comics",
+      "variant": "Spectral Comics Edition B",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-05-02",
+      "labelCategory": "Universal",
+      "artComments": "Tyler Kirkham cover",
+      "keyComments": "Reprints Street Fighter #1 (9/03)\n\"Virgin\" cover.",
+      "population": {
+        "atGrade": 41,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-20T15:09:23.005Z",
+      "fmv": {
+        "value": 110,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 99,
+        "sold365": 4,
+        "url": "https://gocollect.com/app/comic/street-fighter-1-spectral-comics-edition-b",
+        "status": "priced",
+        "fetchedAt": "2026-08-20T15:13:24.685Z"
+      }
+    },
+    {
+      "cert": "4471692006",
+      "title": "Spider-Man",
+      "issue": "7",
+      "issueDate": "3/24",
+      "issueYear": "2024",
+      "publisher": "Panini Mexico",
+      "variant": "Mexican Edition/El Quinto Mundo Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-08-14",
+      "labelCategory": "Universal",
+      "artComments": "Dan Slott story\nMark Bagley, Andrew Hennessy &\nJohn Dell art, Humberto Ramos cover",
+      "keyComments": "Spider-Man #163\n1st appearance of Spider-Boy.\nFoil cover.",
+      "population": {
+        "atGrade": 21,
+        "higher": 1,
+        "topPop": false
+      },
+      "images": {
+        "front": "4471692006_OBV.jpg",
+        "back": "4471692006_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T15:09:25.959Z",
+      "fmv": {
+        "value": null,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/spider-man-7-mexican-editionel-quinto-mundo-edition",
+        "status": "no-sales",
+        "fetchedAt": "2026-08-20T15:13:35.280Z"
+      }
+    },
+    {
+      "cert": "4471692009",
+      "title": "Spider-Boy",
+      "issue": "5",
+      "issueDate": "5/24",
+      "issueYear": "2024",
+      "publisher": "Marvel Comics",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-08-14",
+      "labelCategory": "Universal",
+      "artComments": "Dan Slott story\nPaco Medina & Julian Shaw art\nHumberto Ramos cover",
+      "population": {
+        "atGrade": 12,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4471692009_OBV.jpg",
+        "back": "4471692009_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T15:09:29.217Z",
+      "fmv": {
+        "value": 50,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 58,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/spider-boy-5",
+        "status": "priced",
+        "fetchedAt": "2026-08-20T15:13:44.207Z"
+      }
+    },
+    {
+      "cert": "4471692005",
+      "title": "Spider-Gwen: The Ghost-Spider",
+      "issue": "1",
+      "issueDate": "7/24",
+      "issueYear": "2024",
+      "publisher": "Marvel Comics",
+      "variant": "Frison Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-08-14",
+      "labelCategory": "Universal",
+      "artComments": "Stephanie Phillips story\nFederica Mancin art\nJenny Frison cover",
+      "keyComments": "Spider-Gwen #61",
+      "population": {
+        "atGrade": 263,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4471692005_OBV.jpg",
+        "back": "4471692005_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T15:09:32.411Z",
+      "fmv": {
+        "value": 46,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 47,
+        "sold365": 7,
+        "url": "https://gocollect.com/app/comic/spider-gwen-the-ghost-spider-1-jenny-frison-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-20T15:13:54.236Z"
+      }
+    },
+    {
+      "cert": "4471692003",
+      "title": "Spider-Gwen Annual",
+      "issue": "1",
+      "issueDate": "11/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "The Comic Corner Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-08-14",
+      "labelCategory": "Universal",
+      "artComments": "Karla Pacheco & Stephanie Phillips story\nRosi Kämpe, Marika Cresta &\nAlberto Foche art, Saowee cover",
+      "population": {
+        "atGrade": 78,
+        "higher": 6,
+        "topPop": false
+      },
+      "images": {
+        "front": "4471692003_OBV.jpg",
+        "back": "4471692003_REV.jpg"
+      },
+      "repairs": [
+        [
+          "K�mpe",
+          "Kämpe"
+        ]
+      ],
+      "fetchedAt": "2026-08-20T15:09:35.585Z",
+      "fmv": {
+        "value": 65,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 72,
+        "sold365": 2,
+        "url": "https://gocollect.com/app/comic/spider-gwen-annual-1-the-comic-corner-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-20T15:14:03.405Z"
+      }
+    },
+    {
+      "cert": "4471692012",
+      "title": "Spider-Gwen Annual",
+      "issue": "1",
+      "issueDate": "11/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Variant Edition",
+      "grade": "9.0",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-08-14",
+      "labelCategory": "Universal",
+      "artComments": "Karla Pacheco & Stephanie Phillips story\nRosi Kämpe, Marika Cresta &\nAlberto Foche art, Jeehyung Lee cover",
+      "population": {
+        "atGrade": 5,
+        "higher": 386,
+        "topPop": false
+      },
+      "images": {
+        "front": "4471692012_OBV.jpg",
+        "back": "4471692012_REV.jpg"
+      },
+      "repairs": [
+        [
+          "K�mpe",
+          "Kämpe"
+        ]
+      ],
+      "fetchedAt": "2026-08-20T15:09:38.786Z",
+      "fmv": {
+        "value": null,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/spider-gwen-annual-1-jeehyung-lee-spider-gwen-var",
+        "status": "no-sales",
+        "fetchedAt": "2026-08-20T15:14:13.928Z"
+      }
+    },
+    {
+      "cert": "4471692007",
+      "title": "X-23",
+      "issue": "1",
+      "issueDate": "5/24",
+      "issueYear": "2024",
+      "publisher": "Panini Mexico",
+      "variant": "Mexican Edition/El Quinto Mundo Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-08-14",
+      "labelCategory": "Universal",
+      "artComments": "Marjorie Liu story\nWill Conrad art\nGabriele Dell'Otto cover",
+      "keyComments": "Foil cover.",
+      "population": {
+        "atGrade": 51,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4471692007_OBV.jpg",
+        "back": "4471692007_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T15:09:41.986Z",
+      "fmv": {
+        "value": 55,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 68,
+        "sold365": 3,
+        "url": "https://gocollect.com/app/comic/x-23-1-mexican-editionel-quinto-mundo-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-20T15:14:23.117Z"
+      }
+    },
+    {
+      "cert": "4471692008",
+      "title": "Spider-Gwen: The Ghost-Spider",
+      "issue": "1",
+      "issueDate": "7/24",
+      "issueYear": "2024",
+      "publisher": "Marvel Comics",
+      "variant": "Momoko \"Virgin\" Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-08-14",
+      "labelCategory": "Universal",
+      "artComments": "Stephanie Phillips story\nFederica Mancin art\nPeach Momoko cover",
+      "keyComments": "Spider-Gwen #61",
+      "population": {
+        "atGrade": 145,
+        "higher": 9,
+        "topPop": false
+      },
+      "images": {
+        "front": "4471692008_OBV.jpg",
+        "back": "4471692008_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T15:09:45.211Z",
+      "fmv": {
+        "value": 80,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 47,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/spider-gwen-the-ghost-spider-1-momoko-virgin-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-20T15:14:32.147Z"
+      }
+    },
+    {
+      "cert": "4137945002",
+      "title": "Silver Surfer: Black",
+      "issue": "1",
+      "issueDate": "8/19",
+      "issueYear": "2019",
+      "publisher": "Marvel Comics",
+      "variant": "IG Comic Store Edition",
+      "grade": "9.6",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-10-11",
+      "labelCategory": "Universal",
+      "artComments": "Donny Cates story\nTradd Moore art\nScott Williams cover",
+      "keyComments": "Knull cameo on last page.",
+      "population": {
+        "atGrade": 18,
+        "higher": 129,
+        "topPop": false
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-20T15:09:48.473Z",
+      "fmv": {
+        "value": 90,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 90,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/silver-surfer-black-1-ig-comic-store-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-20T15:14:42.066Z"
+      }
+    },
+    {
+      "cert": "4137945006",
+      "title": "Detective Comics: Facsimile Edition",
+      "issue": "27",
+      "issueDate": "2022",
+      "issueYear": "2022",
+      "publisher": "DC Comics",
+      "grade": "9.0",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-10-11",
+      "labelCategory": "Universal",
+      "artComments": "Bob Kane cover",
+      "keyComments": "Reprints Detective Comics #27 (5/39)",
+      "population": {
+        "atGrade": 8,
+        "higher": 1150,
+        "topPop": false
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-20T15:09:51.444Z",
+      "fmv": {
+        "value": null,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/detective-comics-27-facsimile-edition-2022",
+        "status": "no-sales",
+        "fetchedAt": "2026-08-20T15:14:51.040Z"
+      }
+    },
+    {
+      "cert": "4471692004",
+      "title": "Avengers: Twilight",
+      "issue": "1",
+      "issueDate": "3/24",
+      "issueYear": "2024",
+      "publisher": "Marvel Comics",
+      "variant": "Trinity Comics Sketch Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-08-14",
+      "labelCategory": "Universal",
+      "artComments": "Chip Zdarsky story\nDaniel Acuña art\nPeach Momoko cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 22,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4471692004_OBV.jpg",
+        "back": "4471692004_REV.jpg"
+      },
+      "repairs": [
+        [
+          "Acu�a",
+          "Acuña"
+        ]
+      ],
+      "fetchedAt": "2026-08-20T15:09:54.516Z",
+      "fmv": {
+        "value": 60,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": 83,
+        "avg365": 83,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/avengers-twilight-1-trinity-comics-sketch-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-20T15:15:00.296Z"
+      }
+    },
+    {
+      "cert": "4401613001",
+      "title": "Do You Pooh?",
+      "issue": "1",
+      "issueDate": "2023",
+      "issueYear": "2023",
+      "publisher": "Counterpoint",
+      "variant": "Dunk Edition B",
+      "grade": "9.6",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-03-26",
+      "labelCategory": "Universal",
+      "artComments": "Terry Sala & Marat Mychaels story\nDietrich Smith & Marat Mychaels art\nMarat Mychaels cover",
+      "keyComments": "SMZ Comics exclusive.\n\"Virgin\" cover.",
+      "population": {
+        "atGrade": 1,
+        "higher": 3,
+        "topPop": false
+      },
+      "images": {
+        "front": "4401613001_OBV.jpg",
+        "back": "4401613001_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T15:09:57.972Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-20T15:15:09.556Z"
+      }
+    },
+    {
+      "cert": "4471692011",
+      "title": "Spider-Boy",
+      "issue": "3",
+      "issueDate": "3/24",
+      "issueYear": "2024",
+      "publisher": "Marvel Comics",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-08-14",
+      "labelCategory": "Universal",
+      "artComments": "Dan Slott story\nPaco Medina & Ty Templeton art\nHumberto Ramos cover",
+      "population": {
+        "atGrade": 19,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4471692011_OBV.jpg",
+        "back": "4471692011_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T15:10:01.401Z",
+      "fmv": {
+        "value": 50,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 27,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/spider-boy-3",
+        "status": "priced",
+        "fetchedAt": "2026-08-20T15:15:19.816Z"
+      }
+    },
+    {
+      "cert": "4471693003",
+      "title": "X-Men",
+      "issue": "1",
+      "issueDate": "10/91",
+      "issueYear": "1991",
+      "publisher": "Marvel Comics",
+      "grade": "9.6",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-08-12",
+      "labelCategory": "Universal",
+      "artComments": "Chris Claremont story\nJim Lee & Scott Williams cover & art",
+      "keyComments": "1st appearance of the Acolytes.\nFour different covers exist\nthat form a single image.",
+      "population": {
+        "atGrade": 4632,
+        "higher": 13214,
+        "topPop": false
+      },
+      "images": {
+        "front": "4471693003_OBV.jpg",
+        "back": "4471693003_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T15:10:04.660Z",
+      "fmv": {
+        "value": 44,
+        "currency": "USD",
+        "avg30": 44,
+        "avg90": 53,
+        "avg365": 47,
+        "sold365": 73,
+        "url": "https://gocollect.com/app/comic/x-men-1-2",
+        "status": "priced",
+        "fetchedAt": "2026-08-20T15:15:29.761Z"
+      }
+    },
+    {
+      "cert": "4471693002",
+      "title": "Kyle Willis Sketch Cover Collection",
+      "issue": "1",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "Cow-Abunga Comics",
+      "variant": "Circle of Madness Foil Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-08-12",
+      "labelCategory": "CGCxJSA",
+      "artComments": "Kyle Willis cover",
+      "keyComments": "San Diego Comic-Con exclusive.",
+      "population": {
+        "atGrade": 2,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4471693002_OBV.jpg",
+        "back": "4471693002_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T15:10:08.104Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-20T15:15:38.841Z"
+      }
+    },
+    {
+      "cert": "4480291001",
+      "title": "Wonder Woman",
+      "issue": "1",
+      "issueDate": "11/23",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "Besch Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-08-26",
+      "labelCategory": "CGCxJSA",
+      "artComments": "Tom King story\nDaniel Sampere art\nRose Besch cover",
+      "keyComments": "Wonder Woman #801\n\"Artist Spotlight\" variant cover.",
+      "population": {
+        "atGrade": 1,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4480291001_OBV.jpg",
+        "back": "4480291001_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T15:10:11.599Z",
+      "fmv": {
+        "value": null,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/wonder-woman-1-cvr-d-rose-besch-creator-card-stock-var",
+        "status": "no-sales",
+        "fetchedAt": "2026-08-20T15:15:48.996Z"
+      }
+    },
+    {
+      "cert": "4471692010",
+      "title": "Spider-Boy",
+      "issue": "4",
+      "issueDate": "4/24",
+      "issueYear": "2024",
+      "publisher": "Marvel Comics",
+      "variant": "Baldari Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-08-14",
+      "labelCategory": "Universal",
+      "artComments": "Dan Slott story\nPaco Medina & Ty Templeton art\nNicoletta Baldari cover",
+      "population": {
+        "atGrade": 12,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4471692010_OBV.jpg",
+        "back": "4471692010_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T15:10:14.785Z",
+      "fmv": {
+        "value": 36,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 16,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/spider-boy-4-nicoletta-baldari-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-20T15:15:58.943Z"
+      }
+    },
+    {
+      "cert": "4526002003",
+      "title": "Wolverine",
+      "issue": "1",
+      "issueDate": "11/24",
+      "issueYear": "2024",
+      "publisher": "Marvel Comics",
+      "variant": "Gleason Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-12-27",
+      "labelCategory": "Universal",
+      "artComments": "Saladin Ahmed story\nMartin Coccolo art\nPatrick Gleason cover",
+      "keyComments": "Wolverine #393\nFoil cover.",
+      "population": {
+        "atGrade": 892,
+        "higher": 215,
+        "topPop": false
+      },
+      "images": {
+        "front": "4526002003_OBV.jpg",
+        "back": "4526002003_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T15:10:17.973Z",
+      "fmv": {
+        "value": 60,
+        "currency": "USD",
+        "avg30": 70,
+        "avg90": 70,
+        "avg365": 60,
+        "sold365": 21,
+        "url": "https://gocollect.com/app/comic/wolverine-1-pat-gleason-adamantium-head-foil-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-20T15:16:08.883Z"
+      }
+    },
+    {
+      "cert": "4471693001",
+      "title": "Supergirl and the Legion of Super-Heroes",
+      "issue": "23",
+      "issueDate": "2023",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "Whatnot Special Foil Edition B",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-08-12",
+      "labelCategory": "CGCxJSA",
+      "artComments": "David Nakayama cover",
+      "keyComments": "Reprints Supergirl and the\nLegion of Super-Heroes #23 (12/06)\n\"Virgin\" cover.",
+      "population": {
+        "atGrade": 1,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4471693001_OBV.jpg",
+        "back": "4471693001_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T15:10:21.336Z",
+      "fmv": {
+        "value": null,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/supergirl-and-the-legion-of-super-heroes-23-whatnot-special-foil-edition-b",
+        "status": "no-sales",
+        "fetchedAt": "2026-08-20T15:16:19.242Z"
+      }
+    },
+    {
+      "cert": "4480290002",
+      "title": "The Disputed",
+      "issue": "1",
+      "issueDate": "2024",
+      "issueYear": "2024",
+      "publisher": "The H Co., LLC",
+      "variant": "ComicTom101 Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-09-16",
+      "labelCategory": "Universal",
+      "artComments": "Michael Hinson story\nLip Wei Chang art\nIvan Tao cover",
+      "population": {
+        "atGrade": 4,
+        "higher": 5,
+        "topPop": false
+      },
+      "images": {
+        "front": "4480290002_OBV.jpg",
+        "back": "4480290002_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T15:10:24.755Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-20T15:16:28.656Z"
+      }
+    },
+    {
+      "cert": "4526002001",
+      "title": "Wolverine",
+      "issue": "1",
+      "issueDate": "11/24",
+      "issueYear": "2024",
+      "publisher": "Marvel Comics",
+      "variant": "Gleason Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-12-27",
+      "labelCategory": "Universal",
+      "artComments": "Saladin Ahmed story\nMartin Coccolo art\nPatrick Gleason cover",
+      "keyComments": "Wolverine #393\nFoil cover.",
+      "population": {
+        "atGrade": 892,
+        "higher": 215,
+        "topPop": false
+      },
+      "images": {
+        "front": "4526002001_OBV.jpg",
+        "back": "4526002001_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T15:10:27.881Z",
+      "fmv": {
+        "value": 60,
+        "currency": "USD",
+        "avg30": 70,
+        "avg90": 70,
+        "avg365": 60,
+        "sold365": 21,
+        "url": "https://gocollect.com/app/comic/wolverine-1-pat-gleason-adamantium-head-foil-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-20T15:16:38.659Z"
+      }
+    },
+    {
+      "cert": "4526002004",
+      "title": "Ultimate Invasion",
+      "issue": "1",
+      "issueDate": "8/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Foil Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-12-27",
+      "labelCategory": "Universal",
+      "artComments": "Jonathan Hickman story\nBryan Hitch cover & art",
+      "population": {
+        "atGrade": 291,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4526002004_OBV.jpg",
+        "back": "4526002004_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T15:10:31.053Z",
+      "fmv": {
+        "value": 36,
+        "currency": "USD",
+        "avg30": 38,
+        "avg90": 37,
+        "avg365": 38,
+        "sold365": 37,
+        "url": "https://gocollect.com/app/comic/ultimate-invasion-1-of-4-bryan-hitch-foil-var-net",
+        "status": "priced",
+        "fetchedAt": "2026-08-20T15:16:48.622Z"
+      }
+    },
+    {
+      "cert": "4526002007",
+      "title": "Tribute: Tupac Shakur",
+      "issue": "nn",
+      "issueDate": "No Date",
+      "issueYear": "1900",
+      "publisher": "TidalWave Comics",
+      "variant": "Cacau \"Virgin\" Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-12-27",
+      "labelCategory": "Universal",
+      "artComments": "Eric M. Esquivel story\nMartin Gimenez art\nCaio Cacau cover",
+      "keyComments": "Comic Kingdom Creative &\nComics Elite exclusive.",
+      "population": {
+        "atGrade": 35,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4526002007_OBV.jpg",
+        "back": "4526002007_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T15:10:34.216Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-20T15:16:58.124Z"
+      }
+    }
+  ],
+  "updated": "2026-08-20"
+}

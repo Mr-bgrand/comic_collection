@@ -275,7 +275,24 @@ export async function fetchAllFmv({ force = false } = {}) {
     await signInIfNeeded(page, creds);
 
     for (const { file, data } of bins) {
-      const todo = (data.comics ?? []).filter((c) => force || !c.fmv);
+      /*
+       * GoCollect's cert lookup takes CGC numbers only, so a CBCS cert can never
+       * resolve there. Skipping is not a gap in coverage — it is declining to
+       * spend a lookup on a question the service cannot answer, and it keeps the
+       * failure list meaningful.
+       */
+      const otherGrader = (data.comics ?? []).filter(
+        (c) => (c.grader ?? 'CGC') !== 'CGC' && (force || !c.fmv),
+      );
+      if (otherGrader.length) {
+        console.log(
+          `bin ${data.bin}: skipping ${otherGrader.length} non-CGC book(s) — GoCollect looks up CGC certs only`,
+        );
+      }
+
+      const todo = (data.comics ?? []).filter(
+        (c) => (c.grader ?? 'CGC') === 'CGC' && (force || !c.fmv),
+      );
       if (!todo.length) {
         console.log(`bin ${data.bin}: already priced (use --force to refresh)`);
         continue;

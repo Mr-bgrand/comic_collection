@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bin 05 manifest</title>
+<style>
+
+@page { size: letter; margin: 0.5in; }
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #16161a;
+  background: #fff;
+  font-size: 7.6pt;
+  line-height: 1.26;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.side { page-break-after: always; }
+.side:last-child { page-break-after: auto; }
+
+.masthead {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.15in;
+  padding-bottom: 0.04in;
+  margin-bottom: 0.06in;
+  border-bottom: 2pt solid #16161a;
+}
+
+.masthead h1 { font-size: 14pt; font-weight: 800; letter-spacing: -0.025em; }
+.masthead .sub { margin-top: 0.02in; font-size: 7.5pt; color: #55555e; }
+
+/*
+ * The QR repeats on every side, because each side is a standalone page — whoever
+ * is holding side 2 should not have to go find side 1 to scan through.
+ */
+.mast-qr { flex: none; width: 0.8in; text-align: center; }
+.mast-qr svg { width: 0.8in; height: 0.8in; display: block; }
+.mast-qr .cap { margin-top: 0.01in; font-size: 5.5pt; line-height: 1.1; color: #55555e; }
+
+.cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0.24in;
+}
+
+.entry {
+  display: grid;
+  grid-template-columns: 0.76in 1fr;
+  column-gap: 0.1in;
+  height: 1.25in;
+  padding: 0.02in 0;
+  border-bottom: 0.3pt solid #e4e4e8;
+  overflow: hidden;
+  break-inside: avoid;
+}
+
+.cover {
+  width: 0.76in;
+  height: 1.2in;
+  object-fit: cover;
+  border: 0.3pt solid #c8c8d0;
+  background: #f4f4f6;
+}
+
+.cover-none {
+  width: 0.76in;
+  height: 1.2in;
+  border: 0.3pt dashed #c8c8d0;
+}
+
+.head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.06in;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 8.2pt;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  /* Two lines for the title; variant strings rarely fit one at this width. */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.grade {
+  font-weight: 800;
+  font-size: 9.5pt;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/*
+ * Detail lines wrap up to two lines each and then clip. Entries are a fixed
+ * height so the page count stays deterministic; compactDetailLines puts the
+ * appraisal-critical figures first so the clipping falls on the prose.
+ */
+.meta {
+  margin-top: 0.015in;
+  color: #2a2a31;
+  font-weight: 500;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.meta .cert { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 7pt; }
+.pop { font-weight: 700; color: #7a5410; }
+
+.pagefoot {
+  margin-top: 0.06in;
+  padding-top: 0.04in;
+  border-top: 0.75pt solid #c8c8d0;
+  font-size: 6.5pt;
+  color: #55555e;
+  display: flex;
+  justify-content: space-between;
+}
+
+</style>
+</head>
+<body>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Bin 05</h1>
+      <div class="sub">25 graded comics &middot; updated 2026-08-20</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 33" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h33v33H0z"/><path stroke="#000000" d="M0 0.5h7m3 0h2m1 0h1m2 0h5m1 0h2m2 0h7M0 1.5h1m5 0h1m2 0h2m2 0h5m4 0h1m3 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h2m1 0h3m3 0h2m1 0h4m2 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h5m1 0h3m5 0h1m1 0h1m1 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h2m1 0h1m1 0h1m1 0h1m1 0h2m2 0h1m1 0h2m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h2m1 0h1m1 0h4m1 0h1m1 0h1m3 0h1m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h2m1 0h1m2 0h2m2 0h4m1 0h1M0 8.5h1m1 0h5m4 0h5m1 0h1m1 0h2m1 0h3m1 0h5M0 9.5h1m3 0h2m2 0h1m1 0h2m4 0h1m2 0h3m1 0h1m2 0h2m1 0h3M0 10.5h1m1 0h1m2 0h3m7 0h2m1 0h1m1 0h1m3 0h2m2 0h1m1 0h2M1 11.5h2m1 0h2m2 0h5m1 0h1m1 0h1m4 0h1m1 0h3m2 0h5M3 12.5h2m1 0h1m1 0h2m1 0h2m5 0h2m2 0h1m1 0h2m1 0h3M1 13.5h1m2 0h2m1 0h2m4 0h4m2 0h1m1 0h1m1 0h1m2 0h1m2 0h1m1 0h2M1 14.5h1m3 0h2m1 0h1m2 0h3m6 0h2m3 0h3m1 0h1m1 0h1M1 15.5h2m2 0h1m1 0h1m3 0h1m4 0h1m3 0h4m1 0h2m1 0h3M0 16.5h1m2 0h4m1 0h1m2 0h2m4 0h1m4 0h4m1 0h2m3 0h1M0 17.5h1m1 0h2m4 0h1m1 0h3m4 0h4m2 0h1m2 0h2m1 0h2m1 0h1M0 18.5h1m1 0h6m1 0h1m5 0h3m2 0h2m5 0h2m1 0h2M1 19.5h3m1 0h1m1 0h1m8 0h7m2 0h7M0 20.5h2m3 0h3m1 0h2m1 0h1m1 0h1m1 0h1m3 0h1m1 0h4m1 0h3m2 0h1M0 21.5h1m2 0h2m3 0h1m1 0h2m3 0h1m2 0h2m3 0h1m1 0h2m3 0h1m1 0h1M0 22.5h1m1 0h2m1 0h3m2 0h1m1 0h2m1 0h4m3 0h1m2 0h3m1 0h1m1 0h1M0 23.5h1m3 0h1m2 0h3m2 0h1m2 0h1m2 0h1m2 0h1m2 0h2m2 0h3M0 24.5h1m1 0h2m1 0h2m1 0h1m2 0h1m1 0h1m1 0h1m1 0h2m3 0h7m2 0h1M8 25.5h1m2 0h2m3 0h1m1 0h3m3 0h1m3 0h1m1 0h1m1 0h1M0 26.5h7m3 0h1m1 0h2m1 0h2m1 0h1m3 0h3m1 0h1m1 0h1m1 0h2M0 27.5h1m5 0h1m1 0h2m2 0h2m1 0h1m3 0h3m2 0h1m3 0h4M0 28.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h2m3 0h3m3 0h6m1 0h2M0 29.5h1m1 0h3m1 0h1m1 0h1m2 0h7m1 0h1m1 0h1m3 0h1m2 0h2m1 0h2M0 30.5h1m1 0h3m1 0h1m1 0h3m1 0h3m2 0h1m2 0h3m1 0h4m1 0h1M0 31.5h1m5 0h1m2 0h2m1 0h2m2 0h1m1 0h4m3 0h1m2 0h3M0 32.5h7m1 0h1m1 0h1m2 0h1m3 0h1m1 0h1m3 0h2m2 0h1m3 0h1"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4401613007_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Moon Man #1</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Image/Mad Solar · 1/24 · 2024 · Universal · White pages</div>
+        <div class="meta">Scott Mescudi &amp; Kyle Higgins story · Marco Locati &amp; Igor Monti cover &amp; art</div>
+        <div class="meta"><span class="pop">★ Top Pop — 63 in 9.8, none higher </span>· CGC cert <span class="cert">4401613007</span> · Graded 2024-03-26</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4526002006_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Do You Pooh? #1 : Brock Poohdy Edition B</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Counterpoint · 2024 · 2024 · Universal · White pages</div>
+        <div class="meta">Terry Sala &amp; Marat Mychaels story · Dietrich Smith &amp; Marat Mychaels art · Marat Mychaels cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 1 in 9.8, none higher </span>· CGC cert <span class="cert">4526002006</span> · Graded 2024-12-27 · Key: Rabbit Comics exclusive.
+&quot;Virgin&quot; cover.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Street Fighter Reprint Edition #1 : Spectral Comics Edition B</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Udon Comics · 11/22 · 2022 · Universal · White pages</div>
+        <div class="meta">Tyler Kirkham cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 41 in 9.8, none higher </span>· CGC cert <span class="cert">4245413008</span> · Graded 2023-05-02 · Key: Reprints Street Fighter #1 (9/03)
+&quot;Virgin&quot; cover.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4471692006_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spider-Man #7 : Mexican Edition/El Quinto Mundo Edition</span>
+            <span class="grade">9.8</span>
+          </div>
+        <div class="meta">Panini Mexico · 3/24 · 2024 · Universal · White pages</div>
+        <div class="meta">Dan Slott story · Mark Bagley, Andrew Hennessy &amp; · John Dell art, Humberto Ramos cover</div>
+        <div class="meta">21 in 9.8 · 1 higher · CGC cert <span class="cert">4471692006</span> · Graded 2024-08-14 · Key: Spider-Man #163
+1st appearance of Spider-Boy.
+Foil cover.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4471692009_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spider-Boy #5</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 5/24 · 2024 · Universal · White pages</div>
+        <div class="meta">Dan Slott story · Paco Medina &amp; Julian Shaw art · Humberto Ramos cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 12 in 9.8, none higher </span>· CGC cert <span class="cert">4471692009</span> · Graded 2024-08-14</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4471692005_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spider-Gwen: The Ghost-Spider #1 : Frison Variant Cover</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 7/24 · 2024 · Universal · White pages</div>
+        <div class="meta">Stephanie Phillips story · Federica Mancin art · Jenny Frison cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 263 in 9.8, none higher </span>· CGC cert <span class="cert">4471692005</span> · Graded 2024-08-14 · Key: Spider-Gwen #61</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4471692003_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spider-Gwen Annual #1 : The Comic Corner Edition</span>
+            <span class="grade">9.8</span>
+          </div>
+        <div class="meta">Marvel Comics · 11/23 · 2023 · Universal · White pages</div>
+        <div class="meta">Karla Pacheco &amp; Stephanie Phillips story · Rosi Kämpe, Marika Cresta &amp; · Alberto Foche art, Saowee cover</div>
+        <div class="meta">78 in 9.8 · 6 higher · CGC cert <span class="cert">4471692003</span> · Graded 2024-08-14</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4471692012_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spider-Gwen Annual #1 : Variant Edition</span>
+            <span class="grade">9.0</span>
+          </div>
+        <div class="meta">Marvel Comics · 11/23 · 2023 · Universal · White pages</div>
+        <div class="meta">Karla Pacheco &amp; Stephanie Phillips story · Rosi Kämpe, Marika Cresta &amp; · Alberto Foche art, Jeehyung Lee cover</div>
+        <div class="meta">5 in 9.0 · 386 higher · CGC cert <span class="cert">4471692012</span> · Graded 2024-08-14</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4471692007_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">X-23 #1 : Mexican Edition/El Quinto Mundo Edition</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Panini Mexico · 5/24 · 2024 · Universal · White pages</div>
+        <div class="meta">Marjorie Liu story · Will Conrad art · Gabriele Dell&#39;Otto cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 51 in 9.8, none higher </span>· CGC cert <span class="cert">4471692007</span> · Graded 2024-08-14 · Key: Foil cover.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4471692008_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spider-Gwen: The Ghost-Spider #1 : Momoko &quot;Virgin&quot; Edition</span>
+            <span class="grade">9.8</span>
+          </div>
+        <div class="meta">Marvel Comics · 7/24 · 2024 · Universal · White pages</div>
+        <div class="meta">Stephanie Phillips story · Federica Mancin art · Peach Momoko cover</div>
+        <div class="meta">145 in 9.8 · 9 higher · CGC cert <span class="cert">4471692008</span> · Graded 2024-08-14 · Key: Spider-Gwen #61</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Silver Surfer: Black #1 : IG Comic Store Edition</span>
+            <span class="grade">9.6</span>
+          </div>
+        <div class="meta">Marvel Comics · 8/19 · 2019 · Universal · White pages</div>
+        <div class="meta">Donny Cates story · Tradd Moore art · Scott Williams cover</div>
+        <div class="meta">18 in 9.6 · 129 higher · CGC cert <span class="cert">4137945002</span> · Graded 2022-10-11 · Key: Knull cameo on last page.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Detective Comics: Facsimile Edition #27</span>
+            <span class="grade">9.0</span>
+          </div>
+        <div class="meta">DC Comics · 2022 · 2022 · Universal · White pages</div>
+        <div class="meta">Bob Kane cover</div>
+        <div class="meta">8 in 9.0 · 1150 higher · CGC cert <span class="cert">4137945006</span> · Graded 2022-10-11 · Key: Reprints Detective Comics #27 (5/39)</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4471692004_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Avengers: Twilight #1 : Trinity Comics Sketch Edition</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 3/24 · 2024 · Universal · White pages</div>
+        <div class="meta">Chip Zdarsky story · Daniel Acuña art · Peach Momoko cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 22 in 9.8, none higher </span>· CGC cert <span class="cert">4471692004</span> · Graded 2024-08-14 · Key: &quot;Virgin&quot; cover.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4401613001_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Do You Pooh? #1 : Dunk Edition B</span>
+            <span class="grade">9.6</span>
+          </div>
+        <div class="meta">Counterpoint · 2023 · 2023 · Universal · White pages</div>
+        <div class="meta">Terry Sala &amp; Marat Mychaels story · Dietrich Smith &amp; Marat Mychaels art · Marat Mychaels cover</div>
+        <div class="meta">1 in 9.6 · 3 higher · CGC cert <span class="cert">4401613001</span> · Graded 2024-03-26 · Key: SMZ Comics exclusive.
+&quot;Virgin&quot; cover.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/bin/05/</span>
+    <span>Side 1 of 2</span>
+  </div>
+</section>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Bin 05</h1>
+      <div class="sub">25 graded comics &middot; updated 2026-08-20</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 33" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h33v33H0z"/><path stroke="#000000" d="M0 0.5h7m3 0h2m1 0h1m2 0h5m1 0h2m2 0h7M0 1.5h1m5 0h1m2 0h2m2 0h5m4 0h1m3 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h2m1 0h3m3 0h2m1 0h4m2 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h5m1 0h3m5 0h1m1 0h1m1 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h2m1 0h1m1 0h1m1 0h1m1 0h2m2 0h1m1 0h2m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h2m1 0h1m1 0h4m1 0h1m1 0h1m3 0h1m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h2m1 0h1m2 0h2m2 0h4m1 0h1M0 8.5h1m1 0h5m4 0h5m1 0h1m1 0h2m1 0h3m1 0h5M0 9.5h1m3 0h2m2 0h1m1 0h2m4 0h1m2 0h3m1 0h1m2 0h2m1 0h3M0 10.5h1m1 0h1m2 0h3m7 0h2m1 0h1m1 0h1m3 0h2m2 0h1m1 0h2M1 11.5h2m1 0h2m2 0h5m1 0h1m1 0h1m4 0h1m1 0h3m2 0h5M3 12.5h2m1 0h1m1 0h2m1 0h2m5 0h2m2 0h1m1 0h2m1 0h3M1 13.5h1m2 0h2m1 0h2m4 0h4m2 0h1m1 0h1m1 0h1m2 0h1m2 0h1m1 0h2M1 14.5h1m3 0h2m1 0h1m2 0h3m6 0h2m3 0h3m1 0h1m1 0h1M1 15.5h2m2 0h1m1 0h1m3 0h1m4 0h1m3 0h4m1 0h2m1 0h3M0 16.5h1m2 0h4m1 0h1m2 0h2m4 0h1m4 0h4m1 0h2m3 0h1M0 17.5h1m1 0h2m4 0h1m1 0h3m4 0h4m2 0h1m2 0h2m1 0h2m1 0h1M0 18.5h1m1 0h6m1 0h1m5 0h3m2 0h2m5 0h2m1 0h2M1 19.5h3m1 0h1m1 0h1m8 0h7m2 0h7M0 20.5h2m3 0h3m1 0h2m1 0h1m1 0h1m1 0h1m3 0h1m1 0h4m1 0h3m2 0h1M0 21.5h1m2 0h2m3 0h1m1 0h2m3 0h1m2 0h2m3 0h1m1 0h2m3 0h1m1 0h1M0 22.5h1m1 0h2m1 0h3m2 0h1m1 0h2m1 0h4m3 0h1m2 0h3m1 0h1m1 0h1M0 23.5h1m3 0h1m2 0h3m2 0h1m2 0h1m2 0h1m2 0h1m2 0h2m2 0h3M0 24.5h1m1 0h2m1 0h2m1 0h1m2 0h1m1 0h1m1 0h1m1 0h2m3 0h7m2 0h1M8 25.5h1m2 0h2m3 0h1m1 0h3m3 0h1m3 0h1m1 0h1m1 0h1M0 26.5h7m3 0h1m1 0h2m1 0h2m1 0h1m3 0h3m1 0h1m1 0h1m1 0h2M0 27.5h1m5 0h1m1 0h2m2 0h2m1 0h1m3 0h3m2 0h1m3 0h4M0 28.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h2m3 0h3m3 0h6m1 0h2M0 29.5h1m1 0h3m1 0h1m1 0h1m2 0h7m1 0h1m1 0h1m3 0h1m2 0h2m1 0h2M0 30.5h1m1 0h3m1 0h1m1 0h3m1 0h3m2 0h1m2 0h3m1 0h4m1 0h1M0 31.5h1m5 0h1m2 0h2m1 0h2m2 0h1m1 0h4m3 0h1m2 0h3M0 32.5h7m1 0h1m1 0h1m2 0h1m3 0h1m1 0h1m3 0h2m2 0h1m3 0h1"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4471692011_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spider-Boy #3</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 3/24 · 2024 · Universal · White pages</div>
+        <div class="meta">Dan Slott story · Paco Medina &amp; Ty Templeton art · Humberto Ramos cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 19 in 9.8, none higher </span>· CGC cert <span class="cert">4471692011</span> · Graded 2024-08-14</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4471693003_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">X-Men #1</span>
+            <span class="grade">9.6</span>
+          </div>
+        <div class="meta">Marvel Comics · 10/91 · 1991 · Universal · White pages</div>
+        <div class="meta">Chris Claremont story · Jim Lee &amp; Scott Williams cover &amp; art</div>
+        <div class="meta">4632 in 9.6 · 13214 higher · CGC cert <span class="cert">4471693003</span> · Graded 2024-08-12 · Key: 1st appearance of the Acolytes.
+Four different covers exist
+that form a single image.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4471693002_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Kyle Willis Sketch Cover Collection #1 : Circle of Madness Foil Edition</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Cow-Abunga Comics · 7/23 · 2023 · CGCxJSA · White pages</div>
+        <div class="meta">Kyle Willis cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 2 in 9.8, none higher </span>· CGC cert <span class="cert">4471693002</span> · Graded 2024-08-12 · Key: San Diego Comic-Con exclusive.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4480291001_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Wonder Woman #1 : Besch Variant Cover</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">DC Comics · 11/23 · 2023 · CGCxJSA · White pages</div>
+        <div class="meta">Tom King story · Daniel Sampere art · Rose Besch cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 1 in 9.8, none higher </span>· CGC cert <span class="cert">4480291001</span> · Graded 2024-08-26 · Key: Wonder Woman #801
+&quot;Artist Spotlight&quot; variant cover.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4471692010_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spider-Boy #4 : Baldari Variant Cover</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 4/24 · 2024 · Universal · White pages</div>
+        <div class="meta">Dan Slott story · Paco Medina &amp; Ty Templeton art · Nicoletta Baldari cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 12 in 9.8, none higher </span>· CGC cert <span class="cert">4471692010</span> · Graded 2024-08-14</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4526002003_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Wolverine #1 : Gleason Variant Cover</span>
+            <span class="grade">9.8</span>
+          </div>
+        <div class="meta">Marvel Comics · 11/24 · 2024 · Universal · White pages</div>
+        <div class="meta">Saladin Ahmed story · Martin Coccolo art · Patrick Gleason cover</div>
+        <div class="meta">892 in 9.8 · 215 higher · CGC cert <span class="cert">4526002003</span> · Graded 2024-12-27 · Key: Wolverine #393
+Foil cover.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4471693001_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Supergirl and the Legion of Super-Heroes #23 : Whatnot Special Foil Edition B</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">DC Comics · 2023 · 2023 · CGCxJSA · White pages</div>
+        <div class="meta">David Nakayama cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 1 in 9.8, none higher </span>· CGC cert <span class="cert">4471693001</span> · Graded 2024-08-12 · Key: Reprints Supergirl and the
+Legion of Super-Heroes #23 (12/06)
+&quot;Virgin&quot; cover.</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4480290002_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">The Disputed #1 : ComicTom101 Edition</span>
+            <span class="grade">9.8</span>
+          </div>
+        <div class="meta">The H Co., LLC · 2024 · 2024 · Universal · White pages</div>
+        <div class="meta">Michael Hinson story · Lip Wei Chang art · Ivan Tao cover</div>
+        <div class="meta">4 in 9.8 · 5 higher · CGC cert <span class="cert">4480290002</span> · Graded 2024-09-16</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4526002001_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Wolverine #1 : Gleason Variant Cover</span>
+            <span class="grade">9.8</span>
+          </div>
+        <div class="meta">Marvel Comics · 11/24 · 2024 · Universal · White pages</div>
+        <div class="meta">Saladin Ahmed story · Martin Coccolo art · Patrick Gleason cover</div>
+        <div class="meta">892 in 9.8 · 215 higher · CGC cert <span class="cert">4526002001</span> · Graded 2024-12-27 · Key: Wolverine #393
+Foil cover.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4526002004_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate Invasion #1 : Foil Edition</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 8/23 · 2023 · Universal · White pages</div>
+        <div class="meta">Jonathan Hickman story · Bryan Hitch cover &amp; art</div>
+        <div class="meta"><span class="pop">★ Top Pop — 291 in 9.8, none higher </span>· CGC cert <span class="cert">4526002004</span> · Graded 2024-12-27</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4526002007_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Tribute: Tupac Shakur #nn : Cacau &quot;Virgin&quot; Edition</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">TidalWave Comics · Universal · White pages</div>
+        <div class="meta">Eric M. Esquivel story · Martin Gimenez art · Caio Cacau cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 35 in 9.8, none higher </span>· CGC cert <span class="cert">4526002007</span> · Graded 2024-12-27 · Key: Comic Kingdom Creative &amp;
+Comics Elite exclusive.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/bin/05/</span>
+    <span>Side 2 of 2</span>
+  </div>
+</section>
+</body>
+</html>
