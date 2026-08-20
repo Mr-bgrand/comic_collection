@@ -15,7 +15,55 @@ export function displayTitle(comic) {
   return variant ? `${base} : ${variant}` : base;
 }
 
-/** True only when CGC reports nothing graded higher. Missing data is not top pop. */
+/**
+ * Who graded a book.
+ *
+ * Everything here began as CGC-only, so an absent grader means CGC and no stored
+ * record has to be rewritten. A grade is only meaningful with its grader
+ * attached: CBCS 9.8 and CGC 9.8 are different products that trade at different
+ * prices, so the grader travels with the number everywhere it is shown.
+ */
+export function graderOf(comic) {
+  return comic?.grader ?? 'CGC';
+}
+
+/** "CGC 9.8" — the form a collector actually reads and searches for. */
+export function gradeLabel(comic) {
+  return `${graderOf(comic)} ${comic?.grade ?? ''}`.trim();
+}
+
+/**
+ * Where a cert can be verified.
+ *
+ * CGC deep-links per certificate. CBCS's public verification is a form, and no
+ * deep link is documented, so a record may carry an explicit `certUrl`; without
+ * one this returns their verification page rather than a guessed URL that would
+ * 404 on an appraisal document.
+ */
+export function certUrl(comic) {
+  if (comic?.certUrl) return comic.certUrl;
+  const cert = comic?.cert;
+  if (!cert) return null;
+  if (graderOf(comic) === 'CGC') return `https://www.cgccomics.com/certlookup/${cert}/`;
+  if (graderOf(comic) === 'CBCS') return 'https://www.cbcscomics.com/verify';
+  return null;
+}
+
+/** Witnessed or verified signatures, as a readable line. */
+export function signatureLine(comic) {
+  const sigs = comic?.signatures ?? [];
+  if (!sigs.length) return '';
+  return sigs
+    .map((s) => {
+      const who = typeof s === 'string' ? s : s.name;
+      const when = typeof s === 'string' ? '' : s.date;
+      const kind = typeof s === 'string' ? '' : s.witnessed ? 'witnessed' : '';
+      return [who, kind, when].filter(Boolean).join(' ');
+    })
+    .join(' · ');
+}
+
+/** True only when the grader reports nothing graded higher. Missing data is not top pop. */
 export function isTopPop(comic) {
   const pop = comic?.population;
   return Boolean(pop) && typeof pop.higher === 'number' && pop.higher === 0;
@@ -83,7 +131,7 @@ export function detailLines(comic) {
   const tail = [];
   if (comic.keyComments) tail.push(`Key: ${comic.keyComments}`);
   if (comic.gradeDate) tail.push(`Graded ${comic.gradeDate}`);
-  if (comic.cert) tail.push(`Cert ${comic.cert}`);
+  if (comic.cert) tail.push(`${graderOf(comic)} cert ${comic.cert}`);
   if (tail.length) lines.push(tail.join(' · '));
 
   const pop = comic.population;
@@ -156,8 +204,12 @@ export function compactDetailLines(comic) {
   } else if (pop && typeof pop.higher === 'number') {
     tail.push(`${pop.atGrade} in ${comic.grade} · ${pop.higher} higher`);
   }
-  if (comic.cert) tail.push(`Cert ${comic.cert}`);
+  // The grader rides with the cert, since a cert number alone does not say who
+  // issued it and the two graders use different formats.
+  if (comic.cert) tail.push(`${graderOf(comic)} cert ${comic.cert}`);
   if (comic.gradeDate) tail.push(`Graded ${comic.gradeDate}`);
+  const sigs = signatureLine(comic);
+  if (sigs) tail.push(`Signed: ${sigs}`);
   if (comic.keyComments) tail.push(`Key: ${comic.keyComments}`);
 
   if (tail.length) lines.push(tail.join(' · '));

@@ -147,6 +147,21 @@ async function lookupOne(page, cert) {
     });
 
   /*
+   * CGC's own words when it rate-limits: "Your search activity has exceeded our
+   * limits." Detecting the message beats inferring from an empty record, because
+   * it distinguishes "the service is refusing" from "this cert does not exist"
+   * with certainty rather than by pattern.
+   */
+  const limited = await page.evaluate(() =>
+    /exceeded our limits|search activity has exceeded/i.test(document.body.innerText),
+  );
+  if (limited) {
+    const err = new Error(`cert ${cert}: CGC says search activity has exceeded its limits`);
+    err.code = 'RATE_LIMITED';
+    throw err;
+  }
+
+  /*
    * An empty record is almost never a bad cert number.
    *
    * The page loads, the title is right, and the record simply does not render —
@@ -263,6 +278,16 @@ export async function lookupCerts(certs, { bin, dataDir = 'data' } = {}) {
         if (/browser has been closed|Target page|context or browser/i.test(err.message)) {
           console.log('ABORTED');
           aborted = { cert, reason: 'browser-closed' };
+          break;
+        }
+        if (err.code === 'RATE_LIMITED') {
+          // No ambiguity here: stop at once rather than confirming it twice more.
+          console.log('rate limited');
+          console.log('');
+          console.warn('CGC says: "Your search activity has exceeded our limits."');
+          console.warn('These certs are fine. Wait for the limit to lift and re-run;');
+          console.warn('already-stored certs are skipped, so it continues where it stopped.');
+          aborted = { cert, reason: 'throttled' };
           break;
         }
         if (err.code === 'EMPTY_RECORD') {

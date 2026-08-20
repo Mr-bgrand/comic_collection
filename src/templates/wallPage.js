@@ -17,7 +17,7 @@
  * under a lamp does. It is the one bold gesture; everything else stays quiet.
  */
 
-import { displayTitle, isTopPop, fmvValue, manualValue, formatMoney } from '../model.js';
+import { displayTitle, isTopPop, fmvValue, manualValue, formatMoney, gradeLabel } from '../model.js';
 import { escapeHtml } from './shared.js';
 
 const FONTS =
@@ -704,7 +704,7 @@ export function renderWallPage({ bins, config }) {
         data-meta="${escapeHtml(meta)}"
         data-census="${escapeHtml(census)}"
         data-money="${value !== null ? escapeHtml(formatMoney(value)) : ''}"
-        aria-label="${escapeHtml(`${displayTitle(comic)}, CGC ${comic.grade}, bin ${bin}`)}">
+        aria-label="${escapeHtml(`${displayTitle(comic)}, ${gradeLabel(comic)}, bin ${bin}`)}">
         ${img}
       </button>`;
     })

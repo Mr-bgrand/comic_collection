@@ -156,7 +156,7 @@ function renderEntry(comic, imagePrefix) {
   const lines = compactDetailLines(comic)
     .map((line) => {
       const html = escapeHtml(line)
-        .replace(/(Cert )(\d+)/, '$1<span class="cert">$2</span>')
+        .replace(/((?:CGC|CBCS) cert )([\w-]+)/, '$1<span class="cert">$2</span>')
         .replace(/(★ Top Pop[^·]*)/, '<span class="pop">$1</span>');
       return `        <div class="meta">${html}</div>`;
     })
@@ -195,7 +195,7 @@ export function renderSheet({ bin, url, qrSvg = '', imagePrefix = '../../images/
   <div class="masthead">
     <div>
       <h1>Bin ${escapeHtml(bin.bin)}</h1>
-      <div class="sub">${comics.length} CGC-graded comics${
+      <div class="sub">${comics.length} graded comics${
         bin.location ? ` &middot; ${escapeHtml(bin.location)}` : ''
       } &middot; updated ${escapeHtml(bin.updated ?? '')}</div>
     </div>

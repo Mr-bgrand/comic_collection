@@ -23,6 +23,8 @@ import {
   collectionStats,
   gradeDistribution,
   valueByBin,
+  certUrl,
+  graderOf,
 } from '../model.js';
 import { escapeHtml, page, FONT_SANS, FONT_MONO } from './shared.js';
 
@@ -442,11 +444,12 @@ export function renderDashboard({ bins, config }) {
 
       // The cert number and the price are themselves the links — a separate
       // "links" column repeated the same two destinations on every row.
-      const certCell = cert
-        ? `<a href="https://www.cgccomics.com/certlookup/${escapeHtml(
-            cert,
-          )}/" target="_blank" rel="noopener">${escapeHtml(cert)}</a>`
-        : '';
+      const verify = certUrl(comic);
+      const certCell = cert && verify
+        ? `<a href="${escapeHtml(verify)}" target="_blank" rel="noopener" title="${escapeHtml(
+            `${graderOf(comic)} ${cert}`,
+          )}">${escapeHtml(cert)}</a>`
+        : escapeHtml(cert);
 
       // Three states, not two: priced, listed-but-unsold (still worth a link),
       // and not carried by GoCollect at all.
@@ -529,7 +532,7 @@ ${barChart(
   const body = `<div class="wrap">
   <a class="crumb" href="./">&larr; ${escapeHtml(config.collectionName ?? 'Collection')}</a>
   <h1>Dashboard</h1>
-  <p class="asof">${stats.comics} CGC-graded comics across ${stats.bins} bin${
+  <p class="asof">${stats.comics} graded comics across ${stats.bins} bin${
     stats.bins === 1 ? '' : 's'
   }${asOf ? ` &middot; values as of ${escapeHtml(asOf)}` : ''}</p>
 

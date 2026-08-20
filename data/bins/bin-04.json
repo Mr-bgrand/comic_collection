@@ -425,6 +425,33 @@
         "status": "no-sales",
         "fetchedAt": "2026-08-20T02:36:04.775Z"
       }
+    },
+    {
+      "cert": "21-2EC8B4A-002",
+      "grader": "CBCS",
+      "title": "Canto II: The Hollow Men",
+      "issue": "1",
+      "variant": "Gotham Central/El Rey Virgin",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "publisher": "IDW Publishing",
+      "issueYear": "2020",
+      "labelCategory": "Authentic",
+      "population": {
+        "atGrade": 7,
+        "higher": 0,
+        "topPop": true
+      },
+      "signatures": [
+        {
+          "name": "Peach Momoko",
+          "witnessed": true,
+          "date": "2021-06-01"
+        }
+      ],
+      "images": {},
+      "source": "manual",
+      "fetchedAt": "2026-08-20T04:57:25.256Z"
     }
   ],
   "updated": "2026-08-20"

@@ -23,7 +23,7 @@ import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 
-import { displayTitle } from './model.js';
+import { displayTitle, gradeLabel } from './model.js';
 import { cropToSlab } from './crop.js';
 
 const BIN_DIR = path.join('data', 'bins');
@@ -97,7 +97,7 @@ export async function guidedScan() {
   try {
     for (const [i, { file, data, comic, bin }] of work.entries()) {
       console.log(`\n[${i + 1}/${work.length}] bin ${bin} · ${displayTitle(comic)}`);
-      console.log(`        cert ${comic.cert} · CGC ${comic.grade}`);
+      console.log(`        cert ${comic.cert} · ${gradeLabel(comic)}`);
 
       let quit = false;
       for (const side of ['front', 'back']) {

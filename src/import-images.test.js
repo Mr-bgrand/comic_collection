@@ -44,3 +44,36 @@ test('rejects a number too short to be a cert', () => {
 test('rejects trailing junk after the side', () => {
   assert.equal(parseImageName('4245413012_front_v2.jpg'), null);
 });
+
+test('matches a CBCS cert whose own dashes look like separators', () => {
+  // 21-2EC8B4A-002 contains the same character used to separate the side, so a
+  // pattern cannot split it. Matching against known certs can.
+  const known = new Set(['21-2EC8B4A-002', '4395549004']);
+  assert.deepEqual(parseImageName('21-2EC8B4A-002_front.jpg', known), {
+    cert: '21-2EC8B4A-002',
+    side: 'front',
+  });
+  assert.deepEqual(parseImageName('21-2EC8B4A-002-back.jpg', known), {
+    cert: '21-2EC8B4A-002',
+    side: 'back',
+  });
+  assert.deepEqual(parseImageName('21-2EC8B4A-002.jpg', known), {
+    cert: '21-2EC8B4A-002',
+    side: 'front',
+  });
+});
+
+test('prefers the longest matching cert', () => {
+  // A short cert that prefixes a longer one must not steal its files.
+  const known = new Set(['4395549', '4395549004']);
+  assert.equal(parseImageName('4395549004_back.jpg', known).cert, '4395549004');
+});
+
+test('rejects a known-cert prefix followed by junk', () => {
+  const known = new Set(['21-2EC8B4A-002']);
+  assert.equal(parseImageName('21-2EC8B4A-002_frontv2.jpg', known), null);
+});
+
+test('still reads plain CGC names with no cert list', () => {
+  assert.deepEqual(parseImageName('4395549004_back.jpg'), { cert: '4395549004', side: 'back' });
+});

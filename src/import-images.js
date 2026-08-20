@@ -35,23 +35,43 @@ const DONE_DIR = path.join('data', 'incoming', 'imported');
 /** Longest edge kept. CGC's own scans are 787px tall; this is comfortably above. */
 const MAX_EDGE = 1200;
 
+const sideFrom = (raw) =>
+  !raw ? 'front' : /^(back|rev|b)$/i.test(raw) ? 'back' : 'front';
+
 /**
  * Read a cert and side out of a filename.
- * Returns null when the name carries no cert, so junk in the folder is reported
- * rather than guessed at.
+ *
+ * When the collection's certs are known, match against them directly. That is
+ * the only reliable way now that not every cert is a plain number: CBCS issues
+ * things like `21-2EC8B4A-002`, whose own dashes are indistinguishable from the
+ * separator before the side. Longest match wins, so one cert being a prefix of
+ * another cannot mis-assign a file.
+ *
+ * Without a cert list it falls back to the CGC shape, which keeps the function
+ * usable on its own.
+ *
+ * Returns null when the name carries no recognisable cert, so junk in the folder
+ * is reported rather than guessed at.
  */
-export function parseImageName(filename) {
-  const base = path.basename(filename, path.extname(filename));
-  const match = base.match(/^\s*(\d{7,12})\s*(?:[_\-\s]+(front|back|obv|rev|f|b))?\s*$/i);
-  if (!match) return null;
+export function parseImageName(filename, knownCerts) {
+  const base = path.basename(filename, path.extname(filename)).trim();
 
-  const [, cert, rawSide] = match;
-  const side = !rawSide
-    ? 'front'
-    : /^(back|rev|b)$/i.test(rawSide)
-      ? 'back'
-      : 'front';
-  return { cert, side };
+  if (knownCerts && knownCerts.size) {
+    const candidates = [...knownCerts]
+      .filter((cert) => base.startsWith(cert))
+      .sort((a, b) => b.length - a.length);
+
+    for (const cert of candidates) {
+      const rest = base.slice(cert.length).trim();
+      if (!rest) return { cert, side: 'front' };
+      const m = rest.match(/^[_\-\s]+(front|back|obv|rev|f|b)$/i);
+      if (m) return { cert, side: sideFrom(m[1]) };
+    }
+  }
+
+  const match = base.match(/^(\d{7,12})\s*(?:[_\-\s]+(front|back|obv|rev|f|b))?$/i);
+  if (!match) return null;
+  return { cert: match[1], side: sideFrom(match[2]) };
 }
 
 async function loadBins() {
@@ -93,8 +113,10 @@ export async function importImages() {
   const unknown = [];
   const touched = new Set();
 
+  const knownCerts = new Set(byCert.keys());
+
   for (const name of entries) {
-    const parsed = parseImageName(name);
+    const parsed = parseImageName(name, knownCerts);
     if (!parsed) {
       unnamed.push(name);
       continue;

@@ -204,7 +204,7 @@ export function renderIndexPage({ bins, config, totalComics, totalTopPops }) {
 
   const body = `<div class="wrap">
   <h1>${escapeHtml(config.collectionName ?? 'Comic Collection')}</h1>
-  <p class="tagline">${totalComics} CGC-graded comics across ${bins.length} bin${
+  <p class="tagline">${totalComics} graded comics across ${bins.length} bin${
     bins.length === 1 ? '' : 's'
   }${totalTopPops ? ` &middot; <span class="star">★ ${totalTopPops} top pop</span>` : ''}</p>
   <p class="tagline"><a class="dash-link" href="wall/">See the wall &rarr;</a> &nbsp;<a class="dash-link" href="dashboard/">Dashboard &rarr;</a></p>

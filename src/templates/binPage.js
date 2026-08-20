@@ -5,7 +5,7 @@
  * for a phone held in one hand while the other hand holds the bin.
  */
 
-import { displayTitle, detailLines, isTopPop, formatMoney } from '../model.js';
+import { displayTitle, detailLines, isTopPop, formatMoney, certUrl } from '../model.js';
 import { escapeHtml, page, FONT_SANS, FONT_MONO } from './shared.js';
 
 const css = `
@@ -174,11 +174,16 @@ function renderComic(comic, imagePrefix) {
   const detail = detailLines(comic)
     .map((line) => {
       const cls = /^★ Top Pop/.test(line) ? 'pop' : '';
-      // The cert number links straight to its CGC verification page.
-      const html = escapeHtml(line).replace(
-        /(Cert )(\d+)/,
-        '$1<a class="cert" href="https://www.cgccomics.com/certlookup/$2/" target="_blank" rel="noopener">$2</a>',
-      );
+      // The cert links to whichever grader issued it. The line already names
+      // them, and CBCS certs contain letters and dashes, so the pattern cannot
+      // assume digits.
+      const url = certUrl(comic);
+      const html = url
+        ? escapeHtml(line).replace(
+            /((?:CGC|CBCS) cert )([\w-]+)/,
+            `$1<a class="cert" href="${escapeHtml(url)}" target="_blank" rel="noopener">$2</a>`,
+          )
+        : escapeHtml(line);
       return `        <div class="${cls}">${html}</div>`;
     })
     .join('\n');
@@ -240,7 +245,7 @@ export function renderBinPage({ bin, imagePrefix = '../../images/', rootPrefix =
   <header class="bin">
     <h1>Bin ${escapeHtml(bin.bin)}</h1>
     <div class="sub">
-      ${comics.length} CGC-graded comics${topPops ? ` &middot; ${topPops} top pop` : ''}${
+      ${comics.length} graded comics${topPops ? ` &middot; ${topPops} top pop` : ''}${
         bin.location ? ` &middot; ${escapeHtml(bin.location)}` : ''
       }<br>Updated ${escapeHtml(bin.updated ?? '')}
     </div>

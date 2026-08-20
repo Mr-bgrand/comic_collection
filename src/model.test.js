@@ -190,9 +190,18 @@ test('compactDetailLines keeps every field the long form has', () => {
 test('compactDetailLines puts population before the long key comments', () => {
   // The sheet clips this line instead of wrapping it, so the order decides what
   // survives. A top-pop note must never be the part that falls off the page.
-  const line = compactDetailLines(VENOM).find((l) => l.includes('Cert'));
-  assert.ok(line.indexOf('Top Pop') < line.indexOf('Cert'), 'population precedes cert');
-  assert.ok(line.indexOf('Cert') < line.indexOf('Key:'), 'cert precedes key comments');
+  const line = compactDetailLines(VENOM).find((l) => l.includes('cert'));
+  assert.ok(line.indexOf('Top Pop') < line.indexOf('cert'), 'population precedes cert');
+  assert.ok(line.indexOf('cert') < line.indexOf('Key:'), 'cert precedes key comments');
+});
+
+test('the cert is always labelled with who graded it', () => {
+  // A bare number does not say which grader issued it, and the two use different
+  // formats entirely.
+  assert.ok(compactDetailLines(VENOM).join(' ').includes('CGC cert 4395549004'));
+
+  const cbcs = { ...VENOM, grader: 'CBCS', cert: '21-2EC8B4A-002' };
+  assert.ok(compactDetailLines(cbcs).join(' ').includes('CBCS cert 21-2EC8B4A-002'));
 });
 
 test('compactDetailLines joins art credits onto one line', () => {

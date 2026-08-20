@@ -29,6 +29,7 @@ import { pathToFileURL } from 'node:url';
 
 import { displayTitle, fmvValue, manualValue, isTopPop } from './model.js';
 import { buildVariantIndex } from './variants.js';
+import { graderOf } from './model.js';
 
 const BIN_DIR = path.join('data', 'bins');
 const IMAGE_DIR = path.join('data', 'images');
@@ -65,7 +66,7 @@ export function searchQuery(comic) {
   variant = variant.replace(/\s+/g, ' ').trim();
 
   const phrase = variant.includes(' ') ? `"${variant}"` : variant;
-  return [comic.title, issue, phrase, 'CGC', comic.grade]
+  return [comic.title, issue, phrase, graderOf(comic), comic.grade]
     .filter(Boolean)
     .join(' ')
     .replace(/\s+/g, ' ')
