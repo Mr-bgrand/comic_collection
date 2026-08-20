@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bin 04 manifest</title>
+<style>
+
+@page { size: letter; margin: 0.5in; }
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #16161a;
+  background: #fff;
+  font-size: 7.6pt;
+  line-height: 1.26;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.side { page-break-after: always; }
+.side:last-child { page-break-after: auto; }
+
+.masthead {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.15in;
+  padding-bottom: 0.04in;
+  margin-bottom: 0.06in;
+  border-bottom: 2pt solid #16161a;
+}
+
+.masthead h1 { font-size: 14pt; font-weight: 800; letter-spacing: -0.025em; }
+.masthead .sub { margin-top: 0.02in; font-size: 7.5pt; color: #55555e; }
+
+/*
+ * The QR repeats on every side, because each side is a standalone page — whoever
+ * is holding side 2 should not have to go find side 1 to scan through.
+ */
+.mast-qr { flex: none; width: 0.8in; text-align: center; }
+.mast-qr svg { width: 0.8in; height: 0.8in; display: block; }
+.mast-qr .cap { margin-top: 0.01in; font-size: 5.5pt; line-height: 1.1; color: #55555e; }
+
+.cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0.24in;
+}
+
+.entry {
+  display: grid;
+  grid-template-columns: 0.76in 1fr;
+  column-gap: 0.1in;
+  height: 1.25in;
+  padding: 0.02in 0;
+  border-bottom: 0.3pt solid #e4e4e8;
+  overflow: hidden;
+  break-inside: avoid;
+}
+
+.cover {
+  width: 0.76in;
+  height: 1.2in;
+  object-fit: cover;
+  border: 0.3pt solid #c8c8d0;
+  background: #f4f4f6;
+}
+
+.cover-none {
+  width: 0.76in;
+  height: 1.2in;
+  border: 0.3pt dashed #c8c8d0;
+}
+
+.head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.06in;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 8.2pt;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  /* Two lines for the title; variant strings rarely fit one at this width. */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.grade {
+  font-weight: 800;
+  font-size: 9.5pt;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/*
+ * Detail lines wrap up to two lines each and then clip. Entries are a fixed
+ * height so the page count stays deterministic; compactDetailLines puts the
+ * appraisal-critical figures first so the clipping falls on the prose.
+ */
+.meta {
+  margin-top: 0.015in;
+  color: #2a2a31;
+  font-weight: 500;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.meta .cert { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 7pt; }
+.pop { font-weight: 700; color: #7a5410; }
+
+.pagefoot {
+  margin-top: 0.06in;
+  padding-top: 0.04in;
+  border-top: 0.75pt solid #c8c8d0;
+  font-size: 6.5pt;
+  color: #55555e;
+  display: flex;
+  justify-content: space-between;
+}
+
+</style>
+</head>
+<body>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Bin 04</h1>
+      <div class="sub">9 CGC-graded comics &middot; updated 2026-08-20</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 33" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h33v33H0z"/><path stroke="#000000" d="M0 0.5h7m3 0h2m1 0h1m2 0h5m1 0h2m2 0h7M0 1.5h1m5 0h1m2 0h2m2 0h5m4 0h1m3 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m2 0h3m3 0h2m1 0h4m2 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m2 0h1m2 0h3m5 0h1m1 0h1m1 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h6m1 0h1m1 0h2m2 0h1m1 0h2m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h2m1 0h1m1 0h4m1 0h1m1 0h1m3 0h1m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h2m1 0h1m2 0h2m2 0h4m1 0h1M0 8.5h1m1 0h5m4 0h5m1 0h1m1 0h2m1 0h3m1 0h5M0 9.5h1m3 0h2m2 0h4m4 0h1m2 0h3m1 0h1m2 0h2m1 0h3M0 10.5h3m1 0h1m1 0h2m2 0h1m4 0h2m1 0h1m1 0h1m3 0h2m2 0h1m1 0h2M0 11.5h1m1 0h1m1 0h2m2 0h2m1 0h2m1 0h1m1 0h1m4 0h1m1 0h3m2 0h5M1 12.5h1m1 0h1m2 0h1m1 0h2m1 0h2m5 0h2m2 0h1m1 0h2m1 0h3M2 13.5h1m1 0h2m7 0h4m2 0h1m1 0h1m1 0h1m2 0h1m2 0h1m1 0h2M1 14.5h1m1 0h1m1 0h2m1 0h1m2 0h3m7 0h1m3 0h3m1 0h1m1 0h1M1 15.5h2m2 0h1m1 0h2m2 0h1m4 0h1m3 0h4m1 0h2m1 0h3M0 16.5h1m2 0h6m3 0h1m4 0h1m4 0h4m1 0h2m3 0h1M2 17.5h3m3 0h5m4 0h4m2 0h1m2 0h2m1 0h2m1 0h1M2 18.5h2m2 0h2m7 0h3m2 0h2m5 0h2m1 0h2M2 19.5h2m3 0h1m2 0h1m5 0h7m2 0h7M0 20.5h1m3 0h1m1 0h5m2 0h1m2 0h1m3 0h1m1 0h4m1 0h3m2 0h1M0 21.5h3m1 0h2m1 0h2m1 0h1m1 0h1m1 0h2m2 0h2m3 0h1m1 0h2m3 0h1m1 0h1M0 22.5h1m1 0h1m2 0h3m2 0h4m1 0h4m3 0h1m2 0h3m1 0h1m1 0h1M0 23.5h1m3 0h1m2 0h3m5 0h1m2 0h1m2 0h1m2 0h2m2 0h3M0 24.5h1m2 0h1m1 0h4m4 0h1m1 0h1m1 0h2m3 0h7m2 0h1M8 25.5h1m2 0h2m3 0h1m1 0h3m3 0h1m3 0h1m1 0h1m1 0h1M0 26.5h7m3 0h1m1 0h1m2 0h2m1 0h1m3 0h3m1 0h1m1 0h1m1 0h2M0 27.5h1m5 0h1m1 0h1m1 0h1m1 0h2m1 0h1m3 0h3m2 0h1m3 0h4M0 28.5h1m1 0h3m1 0h1m1 0h1m1 0h1m7 0h3m3 0h6m1 0h2M0 29.5h1m1 0h3m1 0h1m1 0h1m2 0h7m1 0h1m1 0h1m3 0h1m2 0h2m1 0h2M0 30.5h1m1 0h3m1 0h1m1 0h3m2 0h2m2 0h1m2 0h3m1 0h4m1 0h1M0 31.5h1m5 0h1m2 0h5m2 0h1m1 0h4m3 0h1m2 0h3M0 32.5h7m1 0h1m1 0h2m1 0h1m3 0h1m1 0h1m3 0h2m2 0h1m3 0h1"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4424144004_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate Spider-Man #2 : Third Printing</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 6/24 · 2024 · Universal · White pages</div>
+        <div class="meta">Jonathan Hickman story · Marco Checchetto art · Peach Momoko cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 22 in 9.8, none higher </span>· Cert <span class="cert">4424144004</span> · Graded 2024-05-13</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4424144003_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate X-Men #2 : Momoko Variant Cover A</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 6/24 · 2024 · Universal · White pages</div>
+        <div class="meta">Peach Momoko story, cover &amp; art</div>
+        <div class="meta"><span class="pop">★ Top Pop — 21 in 9.8, none higher </span>· Cert <span class="cert">4424144003</span> · Graded 2024-05-13</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4424144001_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spectacular Spider-Men #1 : Ramos Variant Cover</span>
+            <span class="grade">9.6</span>
+          </div>
+        <div class="meta">Marvel Comics · 5/24 · 2024 · Universal · White pages</div>
+        <div class="meta">Greg Weisman story · Humberto Ramos &amp; Victor Olazaba art · Humberto Ramos cover</div>
+        <div class="meta">2 in 9.6 · 23 higher · Cert <span class="cert">4424144001</span> · Graded 2024-05-13</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4424144005_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spider-Boy #6 : Momoko Variant Cover</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 6/24 · 2024 · Universal · White pages</div>
+        <div class="meta">Dan Slott story · Paco Medina, Walden Wong &amp; · Julian Shaw art, Peach Momoko cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 24 in 9.8, none higher </span>· Cert <span class="cert">4424144005</span> · Graded 2024-05-13</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4424144007_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate X-Men #2 : Choi Variant Cover</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 6/24 · 2024 · Universal · White pages</div>
+        <div class="meta">Peach Momoko story &amp; art · Mike Choi cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 19 in 9.8, none higher </span>· Cert <span class="cert">4424144007</span> · Graded 2024-05-13</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4424144008_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Marvel&#39;s Voices: Spider-Verse #1 : Su &quot;Virgin&quot; Sketch Edition</span>
+            <span class="grade">9.4</span>
+          </div>
+        <div class="meta">Marvel Comics · 6/23 · 2023 · Universal · White pages</div>
+        <div class="meta">Vita Ayala, Jeremy Holt, Saint Bodhi, · J. Holtham, Steve Foxe, Jason Loo, · Cheryl Lynn Eaton &amp; Cody Ziglar stories</div>
+        <div class="meta">1 in 9.4 · 6 higher · Cert <span class="cert">4424144008</span> · Graded 2024-05-13 · Key: Alburquerque, Vecchio, Lindsay, Lashley,
+Koda, Loo, Shaw &amp; ChrisCross art
+Benjamin Su cover</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4424144006_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate X-Men #2</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 6/24 · 2024 · Universal · White pages</div>
+        <div class="meta">Peach Momoko story, cover &amp; art</div>
+        <div class="meta"><span class="pop">★ Top Pop — 62 in 9.8, none higher </span>· Cert <span class="cert">4424144006</span> · Graded 2024-05-13</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4418876005_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">X-Men #27 : Trinity Comics Edition</span>
+            <span class="grade">9.4</span>
+          </div>
+        <div class="meta">Marvel Comics · 12/23 · 2023 · Universal · White pages</div>
+        <div class="meta">Gerry Duggan story · Phil Noto art · Peach Momoko cover</div>
+        <div class="meta">1 in 9.4 · 53 higher · Cert <span class="cert">4418876005</span> · Graded 2024-04-29</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4418876006_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spider-Boy #1 : Vecchio Variant Cover</span>
+            <span class="grade">9.6</span>
+          </div>
+        <div class="meta">Marvel Comics · 1/24 · 2024 · Universal · White pages</div>
+        <div class="meta">Dan Slott story · Paco Medina &amp; Ty Templeton art · Luciano Vecchio cover</div>
+        <div class="meta">8 in 9.6 · 139 higher · Cert <span class="cert">4418876006</span> · Graded 2024-04-29 · Key: Amazing Spider-Man #1 cover homage.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/bin/04/</span>
+    <span>Side 1 of 1</span>
+  </div>
+</section>
+</body>
+</html>

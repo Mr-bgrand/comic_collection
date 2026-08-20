@@ -97,7 +97,10 @@
         "higher": 20,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "4198680009_OBV.jpg",
+        "back": "4198680009_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-19T01:17:48.259Z",
       "fmv": {
@@ -111,7 +114,7 @@
         "status": "no-sales",
         "fetchedAt": "2026-08-19T01:19:46.212Z"
       },
-      "noScans": true
+      "imageSource": "owner"
     },
     {
       "cert": "4245413004",
@@ -132,7 +135,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4245413004_OBV.jpg",
+        "back": "4245413004_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-19T01:17:51.263Z",
       "fmv": {
@@ -146,7 +152,7 @@
         "status": "priced",
         "fetchedAt": "2026-08-19T01:19:53.709Z"
       },
-      "noScans": true
+      "imageSource": "owner"
     },
     {
       "cert": "4177707005",
@@ -167,7 +173,10 @@
         "higher": 709,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "4177707005_OBV.jpg",
+        "back": "4177707005_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-19T01:17:54.156Z",
       "fmv": {
@@ -181,7 +190,7 @@
         "status": "priced",
         "fetchedAt": "2026-08-19T01:20:01.347Z"
       },
-      "noScans": true
+      "imageSource": "owner"
     },
     {
       "cert": "4245413005",
@@ -202,7 +211,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4245413005_OBV.jpg",
+        "back": "4245413005_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-19T01:17:57.057Z",
       "fmv": {
@@ -216,7 +228,7 @@
         "status": "priced",
         "fetchedAt": "2026-08-19T01:20:08.880Z"
       },
-      "noScans": true
+      "imageSource": "owner"
     },
     {
       "cert": "4245413006",
@@ -237,7 +249,10 @@
         "higher": 1,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "4245413006_OBV.jpg",
+        "back": "4245413006_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-19T01:18:00.048Z",
       "fmv": {
@@ -251,7 +266,7 @@
         "status": "priced",
         "fetchedAt": "2026-08-19T01:20:16.128Z"
       },
-      "noScans": true
+      "imageSource": "owner"
     },
     {
       "cert": "4198680008",
@@ -272,7 +287,10 @@
         "higher": 2,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "4198680008_OBV.jpg",
+        "back": "4198680008_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-19T01:18:02.930Z",
       "fmv": {
@@ -286,7 +304,7 @@
         "status": "priced",
         "fetchedAt": "2026-08-19T01:20:23.347Z"
       },
-      "noScans": true
+      "imageSource": "owner"
     },
     {
       "cert": "4137947003",
@@ -305,7 +323,10 @@
         "higher": 157,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "4137947003_OBV.jpg",
+        "back": "4137947003_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-19T01:18:05.897Z",
       "fmv": {
@@ -319,7 +340,7 @@
         "status": "priced",
         "fetchedAt": "2026-08-19T01:20:31.412Z"
       },
-      "noScans": true
+      "imageSource": "owner"
     },
     {
       "cert": "4273634011",
@@ -488,7 +509,10 @@
         "higher": 69,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "4245413015_OBV.jpg",
+        "back": "4245413015_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-19T01:18:22.916Z",
       "fmv": {
@@ -502,7 +526,7 @@
         "status": "no-sales",
         "fetchedAt": "2026-08-19T01:21:08.515Z"
       },
-      "noScans": true
+      "imageSource": "owner"
     },
     {
       "cert": "4012473007",
@@ -523,7 +547,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4012473007_OBV.jpg",
+        "back": "4012473007_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-19T01:18:26.595Z",
       "fmv": {
@@ -537,7 +564,7 @@
         "status": "priced",
         "fetchedAt": "2026-08-19T01:21:15.798Z"
       },
-      "noScans": true
+      "imageSource": "owner"
     },
     {
       "cert": "4300437001",
@@ -595,7 +622,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4177707002_OBV.jpg",
+        "back": "4177707002_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-19T01:18:36.594Z",
       "fmv": {
@@ -609,7 +639,7 @@
         "status": "priced",
         "fetchedAt": "2026-08-19T01:21:30.537Z"
       },
-      "noScans": true
+      "imageSource": "owner"
     },
     {
       "cert": "4151403012",
@@ -630,7 +660,10 @@
         "higher": 1383,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "4151403012_OBV.jpg",
+        "back": "4151403012_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-19T01:18:39.528Z",
       "fmv": {
@@ -644,7 +677,7 @@
         "status": "priced",
         "fetchedAt": "2026-08-19T01:21:38.166Z"
       },
-      "noScans": true
+      "imageSource": "owner"
     },
     {
       "cert": "4245548001",
@@ -665,7 +698,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4245548001_OBV.jpg",
+        "back": "4245548001_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-19T01:18:42.444Z",
       "fmv": {
@@ -679,7 +715,7 @@
         "status": "priced",
         "fetchedAt": "2026-08-19T01:21:45.123Z"
       },
-      "noScans": true
+      "imageSource": "owner"
     },
     {
       "cert": "4177707001",
@@ -700,7 +736,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4177707001_OBV.jpg",
+        "back": "4177707001_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-19T01:18:45.394Z",
       "fmv": {
@@ -714,7 +753,7 @@
         "status": "priced",
         "fetchedAt": "2026-08-19T01:21:52.269Z"
       },
-      "noScans": true
+      "imageSource": "owner"
     },
     {
       "cert": "4245413017",
@@ -734,7 +773,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4245413017_OBV.jpg",
+        "back": "4245413017_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-19T01:18:48.298Z",
       "fmv": {
@@ -748,7 +790,7 @@
         "status": "priced",
         "fetchedAt": "2026-08-19T01:21:59.235Z"
       },
-      "noScans": true
+      "imageSource": "owner"
     },
     {
       "cert": "4245413016",
@@ -769,7 +811,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4245413016_OBV.jpg",
+        "back": "4245413016_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-19T01:18:51.215Z",
       "fmv": {
@@ -783,7 +828,7 @@
         "status": "priced",
         "fetchedAt": "2026-08-19T01:22:06.498Z"
       },
-      "noScans": true
+      "imageSource": "owner"
     },
     {
       "cert": "4149402013",
@@ -804,7 +849,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4149402013_OBV.jpg",
+        "back": "4149402013_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-19T01:18:54.139Z",
       "fmv": {
@@ -818,7 +866,7 @@
         "status": "priced",
         "fetchedAt": "2026-08-19T01:22:13.811Z"
       },
-      "noScans": true
+      "imageSource": "owner"
     },
     {
       "cert": "4245413001",
@@ -839,7 +887,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4245413001_OBV.jpg",
+        "back": "4245413001_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-19T01:18:57.042Z",
       "fmv": {
@@ -853,7 +904,7 @@
         "status": "priced",
         "fetchedAt": "2026-08-19T01:22:21.371Z"
       },
-      "noScans": true
+      "imageSource": "owner"
     },
     {
       "cert": "4177708001",
@@ -874,7 +925,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4177708001_OBV.jpg",
+        "back": "4177708001_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-19T01:19:00.039Z",
       "fmv": {
@@ -888,7 +942,7 @@
         "status": "priced",
         "fetchedAt": "2026-08-19T01:22:28.637Z"
       },
-      "noScans": true
+      "imageSource": "owner"
     }
   ],
   "updated": "2026-08-19"

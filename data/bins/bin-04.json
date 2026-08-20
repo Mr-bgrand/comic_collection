@@ -1,0 +1,333 @@
+{
+  "bin": "04",
+  "title": "Bin 04",
+  "location": "",
+  "comics": [
+    {
+      "cert": "4424144004",
+      "title": "Ultimate Spider-Man",
+      "issue": "2",
+      "issueDate": "6/24",
+      "issueYear": "2024",
+      "publisher": "Marvel Comics",
+      "variant": "Third Printing",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-05-13",
+      "labelCategory": "Universal",
+      "artComments": "Jonathan Hickman story\nMarco Checchetto art\nPeach Momoko cover",
+      "population": {
+        "atGrade": 22,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4424144004_OBV.jpg",
+        "back": "4424144004_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T00:56:44.609Z",
+      "fmv": {
+        "value": 32,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/ultimate-spider-man-2-3rd-printing-peach-momoko-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-20T00:57:37.771Z"
+      }
+    },
+    {
+      "cert": "4424144003",
+      "title": "Ultimate X-Men",
+      "issue": "2",
+      "issueDate": "6/24",
+      "issueYear": "2024",
+      "publisher": "Marvel Comics",
+      "variant": "Momoko Variant Cover A",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-05-13",
+      "labelCategory": "Universal",
+      "artComments": "Peach Momoko story, cover & art",
+      "population": {
+        "atGrade": 21,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4424144003_OBV.jpg",
+        "back": "4424144003_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T00:56:48.310Z",
+      "fmv": {
+        "value": 28,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/ultimate-x-men-2-peach-momoko-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-20T00:57:44.862Z"
+      }
+    },
+    {
+      "cert": "4424144001",
+      "title": "Spectacular Spider-Men",
+      "issue": "1",
+      "issueDate": "5/24",
+      "issueYear": "2024",
+      "publisher": "Marvel Comics",
+      "variant": "Ramos Variant Cover",
+      "grade": "9.6",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-05-13",
+      "labelCategory": "Universal",
+      "artComments": "Greg Weisman story\nHumberto Ramos & Victor Olazaba art\nHumberto Ramos cover",
+      "population": {
+        "atGrade": 2,
+        "higher": 23,
+        "topPop": false
+      },
+      "images": {
+        "front": "4424144001_OBV.jpg",
+        "back": "4424144001_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T00:56:51.534Z",
+      "fmv": {
+        "value": null,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/spectacular-spider-men-1-ramos-variant-cover",
+        "status": "no-sales",
+        "fetchedAt": "2026-08-20T00:57:52.506Z"
+      }
+    },
+    {
+      "cert": "4424144005",
+      "title": "Spider-Boy",
+      "issue": "6",
+      "issueDate": "6/24",
+      "issueYear": "2024",
+      "publisher": "Marvel Comics",
+      "variant": "Momoko Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-05-13",
+      "labelCategory": "Universal",
+      "artComments": "Dan Slott story\nPaco Medina, Walden Wong &\nJulian Shaw art, Peach Momoko cover",
+      "population": {
+        "atGrade": 24,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4424144005_OBV.jpg",
+        "back": "4424144005_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T00:56:55.015Z",
+      "fmv": {
+        "value": 24,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 49,
+        "sold365": 2,
+        "url": "https://gocollect.com/app/comic/spider-boy-6-peach-momoko-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-20T00:57:59.708Z"
+      }
+    },
+    {
+      "cert": "4424144007",
+      "title": "Ultimate X-Men",
+      "issue": "2",
+      "issueDate": "6/24",
+      "issueYear": "2024",
+      "publisher": "Marvel Comics",
+      "variant": "Choi Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-05-13",
+      "labelCategory": "Universal",
+      "artComments": "Peach Momoko story & art\nMike Choi cover",
+      "population": {
+        "atGrade": 19,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4424144007_OBV.jpg",
+        "back": "4424144007_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T00:56:58.302Z",
+      "fmv": {
+        "value": 30,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/ultimate-x-men-2-mike-choi-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-20T00:58:06.578Z"
+      }
+    },
+    {
+      "cert": "4424144008",
+      "title": "Marvel's Voices: Spider-Verse",
+      "issue": "1",
+      "issueDate": "6/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Su \"Virgin\" Sketch Edition",
+      "grade": "9.4",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-05-13",
+      "labelCategory": "Universal",
+      "artComments": "Vita Ayala, Jeremy Holt, Saint Bodhi,\nJ. Holtham, Steve Foxe, Jason Loo,\nCheryl Lynn Eaton & Cody Ziglar stories",
+      "keyComments": "Alburquerque, Vecchio, Lindsay, Lashley,\nKoda, Loo, Shaw & ChrisCross art\nBenjamin Su cover",
+      "population": {
+        "atGrade": 1,
+        "higher": 6,
+        "topPop": false
+      },
+      "images": {
+        "front": "4424144008_OBV.jpg",
+        "back": "4424144008_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T00:57:01.609Z",
+      "fmv": {
+        "value": null,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/marvels-voices-spider-verse-1-su-virgin-sketch-edition",
+        "status": "no-sales",
+        "fetchedAt": "2026-08-20T00:58:13.477Z"
+      }
+    },
+    {
+      "cert": "4424144006",
+      "title": "Ultimate X-Men",
+      "issue": "2",
+      "issueDate": "6/24",
+      "issueYear": "2024",
+      "publisher": "Marvel Comics",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-05-13",
+      "labelCategory": "Universal",
+      "artComments": "Peach Momoko story, cover & art",
+      "population": {
+        "atGrade": 62,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4424144006_OBV.jpg",
+        "back": "4424144006_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T00:57:04.908Z",
+      "fmv": {
+        "value": 32,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 40,
+        "sold365": 5,
+        "url": "https://gocollect.com/app/comic/ultimate-x-men-2-2",
+        "status": "priced",
+        "fetchedAt": "2026-08-20T00:58:21.301Z"
+      }
+    },
+    {
+      "cert": "4418876005",
+      "title": "X-Men",
+      "issue": "27",
+      "issueDate": "12/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Trinity Comics Edition",
+      "grade": "9.4",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-04-29",
+      "labelCategory": "Universal",
+      "artComments": "Gerry Duggan story\nPhil Noto art\nPeach Momoko cover",
+      "population": {
+        "atGrade": 1,
+        "higher": 53,
+        "topPop": false
+      },
+      "images": {
+        "front": "4418876005_OBV.jpg",
+        "back": "4418876005_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T00:57:08.180Z",
+      "fmv": {
+        "value": null,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/x-men-27-trinity-comics-edition",
+        "status": "no-sales",
+        "fetchedAt": "2026-08-20T00:58:28.438Z"
+      }
+    },
+    {
+      "cert": "4418876006",
+      "title": "Spider-Boy",
+      "issue": "1",
+      "issueDate": "1/24",
+      "issueYear": "2024",
+      "publisher": "Marvel Comics",
+      "variant": "Vecchio Variant Cover",
+      "grade": "9.6",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-04-29",
+      "labelCategory": "Universal",
+      "artComments": "Dan Slott story\nPaco Medina & Ty Templeton art\nLuciano Vecchio cover",
+      "keyComments": "Amazing Spider-Man #1 cover homage.",
+      "population": {
+        "atGrade": 8,
+        "higher": 139,
+        "topPop": false
+      },
+      "images": {
+        "front": "4418876006_OBV.jpg",
+        "back": "4418876006_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T00:57:11.536Z",
+      "fmv": {
+        "value": 22,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/spider-boy-1-luciano-vecchio-homage-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-20T00:58:35.338Z"
+      }
+    }
+  ],
+  "updated": "2026-08-20"
+}

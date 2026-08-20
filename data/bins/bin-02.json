@@ -574,7 +574,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4203411005_OBV.jpg",
+        "back": "4203411005_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-17T05:35:56.664Z",
       "fmv": {
@@ -583,7 +586,7 @@
         "status": "not-listed",
         "fetchedAt": "2026-08-17T05:40:12.628Z"
       },
-      "noScans": true
+      "imageSource": "owner"
     },
     {
       "cert": "4381117007",
