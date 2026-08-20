@@ -327,6 +327,104 @@
         "status": "priced",
         "fetchedAt": "2026-08-20T00:58:35.338Z"
       }
+    },
+    {
+      "cert": "4000416014",
+      "title": "Silver Surfer: Black",
+      "issue": "1",
+      "issueDate": "8/19",
+      "issueYear": "2019",
+      "publisher": "Marvel Comics",
+      "grade": "9.6",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-04-28",
+      "labelCategory": "Universal",
+      "artComments": "Donny Cates story\nTradd Moore cover & art",
+      "keyComments": "Knull cameo on last page.",
+      "population": {
+        "atGrade": 98,
+        "higher": 140,
+        "topPop": false
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-20T02:31:00.372Z",
+      "fmv": {
+        "value": 46,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/silver-surfer-black-1",
+        "status": "priced",
+        "fetchedAt": "2026-08-20T02:35:50.089Z"
+      }
+    },
+    {
+      "cert": "4350046016",
+      "title": "Do You Pooh?",
+      "issue": "1",
+      "issueDate": "2023",
+      "issueYear": "2023",
+      "publisher": "Counterpoint",
+      "variant": "Fadeaway \"Virgin\" Edition B",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-29",
+      "labelCategory": "Universal",
+      "artComments": "Terry Sala & Marat Mychaels story\nDietrich Smith & Marat Mychaels art\nMarat Michael cover",
+      "keyComments": "SMZ Comics exclusive.",
+      "population": {
+        "atGrade": 1,
+        "higher": 1,
+        "topPop": false
+      },
+      "images": {
+        "front": "4350046016_OBV.jpg",
+        "back": "4350046016_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-20T02:31:03.291Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-20T02:35:57.623Z"
+      }
+    },
+    {
+      "cert": "4137947002",
+      "title": "Back to the Future",
+      "issue": "1",
+      "issueDate": "11/15",
+      "issueYear": "2015",
+      "publisher": "IDW Publishing",
+      "variant": "Second Printing",
+      "grade": "9.4",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-11-08",
+      "labelCategory": "Universal",
+      "artComments": "Bob Gale, John Barber &\nErik Burnham stories, Brent Schoonover &\nDan Schoening art",
+      "population": {
+        "atGrade": 5,
+        "higher": 18,
+        "topPop": false
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-20T02:35:00.794Z",
+      "fmv": {
+        "value": null,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/back-to-the-future-1-2nd-printing",
+        "status": "no-sales",
+        "fetchedAt": "2026-08-20T02:36:04.775Z"
+      }
     }
   ],
   "updated": "2026-08-20"

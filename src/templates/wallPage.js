@@ -99,9 +99,13 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(clamp(88px, 11vw, 190px), 1fr));
   gap: 0;
   width: 100%;
-  /* Depth for the lift and tilt. Shallow enough that edge tiles do not skew. */
-  perspective: 1600px;
-  perspective-origin: 50% 40%;
+  /*
+   * No container perspective. It sounds right, but a vanishing point fixed to a
+   * 2500px-tall grid shifts every slab vertically by its distance from that
+   * point, so where a raised slab actually lands stops being predictable and the
+   * clamp that keeps it on screen cannot be computed. Each slab carries its own
+   * perspective instead, which pivots about its own centre.
+   */
   /* Clearance so the readout never covers the last row of slabs. */
   padding-bottom: 5.5rem;
 }
@@ -180,18 +184,27 @@ body {
  * wherever you are on it — the gesture of picking one up and angling it at a
  * lamp. The sheen below tracks the same position, so light and tilt agree.
  */
+/*
+ * Big enough to actually read. At a tile's natural ~180px you can see which
+ * comic it is but not the cover; at 1.75x plus the perspective gain it comes up
+ * near 340px, where the art and the label both become legible. The lift is
+ * clamped in JS so it never leaves the viewport at either end.
+ */
 .wall.focused .slab.active {
   /* Slightly hotter than neutral: the one thing standing in the light. */
   filter: brightness(1.12) saturate(1.05);
   transform:
-    translate3d(0, var(--ty, -10px), 130px)
+    perspective(1100px)
+    translate3d(0, var(--ty, -10px), 0)
+    scale(var(--lift, 1.75))
     rotateX(calc(var(--rx, 0) * 1deg))
     rotateY(calc(var(--ry, 0) * 1deg));
   z-index: 20;
-  transition: transform 0.18s ease-out, filter 0.3s;
+  transition: transform 0.22s cubic-bezier(0.2, 0.7, 0.3, 1), filter 0.3s;
   box-shadow:
-    0 2rem 4.5rem rgba(0, 0, 0, 0.85),
-    0 0 0 1px rgba(255, 255, 255, 0.12);
+    0 2.5rem 6rem rgba(0, 0, 0, 0.9),
+    0 0 0 1px rgba(255, 255, 255, 0.14),
+    0 0 6rem rgba(232, 182, 76, 0.07);
 }
 
 .slab.active::after {
@@ -230,11 +243,92 @@ body {
 
 body.lit .torch { opacity: 1; }
 
-/* No hover on touch: a spotlight that never moves is just a dark page. */
-@media (hover: none), (pointer: coarse) {
-  .torch { display: none; }
-  .wall.focused .slab { filter: brightness(0.35) saturate(0.6); }
+/*
+ * The bloom. The torch only removes darkness; this adds light, so the pool reads
+ * as a lamp shining on the wall rather than a hole cut in a black sheet. Screen
+ * blending means it lifts what is already there instead of washing it out.
+ */
+.bloom {
+  position: fixed;
+  inset: 0;
+  z-index: 11;
+  pointer-events: none;
+  opacity: 0;
+  mix-blend-mode: screen;
+  transition: opacity 0.4s ease;
+  background: radial-gradient(
+    circle 300px at var(--mx, 50%) var(--my, 50%),
+    rgba(255, 236, 205, 0.1) 0%,
+    rgba(255, 226, 180, 0.04) 45%,
+    rgba(0, 0, 0, 0) 75%
+  );
 }
+
+body.lit .bloom { opacity: 1; }
+
+/*
+ * Film grain, always on and barely there. Digital scans of glossy plastic read
+ * a little clinical; a fine grain gives the wall a photographed quality. Static
+ * rather than animated — moving noise is a vestibular problem and reads as
+ * cheap.
+ */
+.grain {
+  position: fixed;
+  inset: 0;
+  z-index: 12;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* A permanent vignette: the wall should feel lit from the middle, not flat. */
+.vignette {
+  position: fixed;
+  inset: 0;
+  z-index: 9;
+  pointer-events: none;
+  background: radial-gradient(
+    ellipse 120% 90% at 50% 45%,
+    rgba(0, 0, 0, 0) 55%,
+    rgba(0, 0, 0, 0.45) 100%
+  );
+}
+
+/*
+ * Touch gets a different, cheaper build of the same idea.
+ *
+ * A spotlight that cannot move is just a dark page, so the torch and bloom go.
+ * More importantly the desktop version leans on things that are expensive on
+ * mobile Safari: a CSS filter on every one of eighty slabs, eighty simultaneous
+ * drift animations, and a backdrop-filter on a fixed bar. Together they make the
+ * wall stutter badly on iOS.
+ *
+ * So touch dims with ONE compositor layer — a scrim beneath the raised slab —
+ * instead of eighty filters, and holds the covers still.
+ */
+@media (hover: none), (pointer: coarse) {
+  .torch, .bloom { display: none; }
+  .slab img { animation: none; }
+  .wall.focused .slab { filter: none; }
+  .readout { backdrop-filter: none; background: rgba(8, 8, 10, 0.97); }
+}
+
+.scrim {
+  position: fixed;
+  inset: 0;
+  z-index: 15;
+  pointer-events: none;
+  opacity: 0;
+  background: rgba(6, 6, 8, 0.86);
+  transition: opacity 0.28s ease;
+}
+
+/* Only touch uses it; fine pointers already have the torch. */
+@media (hover: hover) and (pointer: fine) {
+  .scrim { display: none; }
+}
+
+body.lit .scrim { opacity: 1; }
 
 .slab:focus-visible { outline: 2px solid var(--cert); outline-offset: -2px; z-index: 21; }
 
@@ -319,10 +413,31 @@ body.lit .torch { opacity: 1; }
 
 .money .none { color: var(--mute); font-size: 0.78rem; }
 
+/*
+ * Phone chrome.
+ *
+ * At full size the header wrapped to two lines and the four sort buttons spilled
+ * onto a second row, both sitting on top of the covers. The collection summary
+ * is the first thing to go — it is already on the page it links to — and
+ * everything else shrinks to hold one line.
+ */
 @media (max-width: 34rem) {
-  .readout { grid-template-columns: auto 1fr; gap: 0.7rem; padding: 0.6rem 0.8rem; }
+  .bar { padding: 0.5rem 0.6rem; gap: 0.5rem; }
+  .mark { font-size: 0.8rem; }
+  .mark span { display: none; }
+  .sorts { gap: 0.12rem; flex-wrap: nowrap; }
+  .sorts button {
+    font-size: 0.6rem;
+    padding: 0.26rem 0.4rem;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+  }
+
+  .readout { grid-template-columns: auto 1fr; gap: 0.7rem; padding: 0.55rem 0.75rem; }
   .money { display: none; }
-  .wall.focused .slab.active { transform: scale(1.06); }
+  .grade { font-size: 1.45rem; padding-right: 0.7rem; }
+  .who h2 { font-size: 0.88rem; line-height: 1.2; }
+  .who p { font-size: 0.63rem; line-height: 1.35; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -375,12 +490,32 @@ function show(slab) {
    * The readout is fixed to the bottom, so without this the one slab you are
    * looking at is the one partly hidden.
    */
-  const rect = slab.getBoundingClientRect();
-  const overlap = rect.bottom - (window.innerHeight - 96);
+  /*
+   * Position the lift from the slab's UNTRANSFORMED box.
+   *
+   * Reading the rect after the active class lands would measure it mid-
+   * transition and give a different answer every time. offsetTop/offsetHeight
+   * are layout values, unaffected by transforms, so the maths is stable.
+   *
+   * Scaling happens about the centre, so growing by LIFT adds half the extra
+   * height at each end; both ends are then clamped into the viewport.
+   */
+  // Matches scale() in the CSS exactly, now that perspective is per-element and
+  // adds no magnification of its own.
+  const LIFT = 1.75;
+  const top = slab.getBoundingClientRect().top;
+  const h = slab.offsetHeight;
+  const grow = ((LIFT - 1) * h) / 2;
+
+  const lowest = window.innerHeight - 96;   // above the readout
+  const highest = 58;                        // below the top bar
+  let ty = -10;
+  if (top + h + grow + ty > lowest) ty = lowest - (top + h + grow);
+  if (top - grow + ty < highest) ty = highest - (top - grow);
   // Plain concatenation: a backtick here would close the template literal this
   // whole script is embedded in, and the loss is silent — the build still
   // succeeds and only this statement goes missing.
-  slab.style.setProperty('--ty', overlap > 0 ? String(-(10 + overlap)) + 'px' : '-10px');
+  slab.style.setProperty('--ty', String(Math.round(ty)) + 'px');
 
   // Swap in the sharper copy only for the slab actually being looked at.
   const img = slab.querySelector('img');
@@ -408,7 +543,17 @@ function clear() {
  * handler so they can never disagree by a frame — a highlight that lags the
  * tilt reads as a bug rather than as light.
  */
-const fine = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+/*
+ * Start from what the browser claims, then believe what actually happens.
+ *
+ * Media queries are a guess: some devices report a fine pointer while having no
+ * mouse at all, and hybrids have both. The first real touch is proof, so it
+ * switches to the touch behaviour permanently. Handlers therefore read the flag at
+ * call time rather than being bound differently at load.
+ */
+let fine = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+window.addEventListener('touchstart', () => { fine = false; }, { once: true, passive: true });
+
 const still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 let pending = null;
 
@@ -426,26 +571,56 @@ function paint(x, y) {
   active.style.setProperty('--sheen', ((px - 0.5) * 150).toFixed(1));
 }
 
-if (fine) {
-  window.addEventListener('pointermove', (e) => {
-    if (pending) return;
-    pending = requestAnimationFrame(() => {
-      pending = null;
-      paint(e.clientX, e.clientY);
-    });
-  }, { passive: true });
-}
+window.addEventListener('pointermove', (e) => {
+  if (!fine || pending) return;
+  pending = requestAnimationFrame(() => {
+    pending = null;
+    paint(e.clientX, e.clientY);
+  });
+}, { passive: true });
 
+/*
+ * Touch has no hover, so a single tap cannot both reveal and navigate.
+ *
+ * Binding hover-to-show on touch meant the first tap raised the slab and
+ * immediately followed the link — you could never actually look at a cover. So
+ * on touch the first tap raises it and the second opens its bin, which is the
+ * ordinary two-tap idiom and needs no explaining.
+ */
 slabs.forEach((slab) => {
-  slab.addEventListener('pointerenter', () => show(slab));
-  slab.addEventListener('focus', () => show(slab));
-  slab.addEventListener('click', () => { window.location.href = slab.dataset.href; });
+  slab.addEventListener('pointerenter', () => { if (fine) show(slab); });
+
+  /*
+   * Keyboard focus only. Tapping a button also focuses it, so an unconditional
+   * focus handler raised the slab before the click handler ran — which then saw
+   * it as already active and followed the link, defeating two-tap entirely.
+   * :focus-visible is exactly the distinction between "reached by keyboard" and
+   * "just tapped".
+   */
+  slab.addEventListener('focus', () => {
+    if (slab.matches(':focus-visible')) show(slab);
+  });
+
+  slab.addEventListener('click', (e) => {
+    if (!fine && active !== slab) {
+      e.preventDefault();
+      show(slab);
+      return;
+    }
+    window.location.href = slab.dataset.href;
+  });
+
   slab.addEventListener('keydown', (e) => {
     if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); window.location.href = slab.dataset.href; }
   });
 });
 
-wall.addEventListener('pointerleave', clear);
+wall.addEventListener('pointerleave', () => { if (fine) clear(); });
+
+// Tapping the background puts the wall back, the way tapping outside a sheet does.
+document.addEventListener('click', (e) => {
+  if (!fine && !e.target.closest('.slab')) clear();
+});
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { clear(); document.activeElement.blur?.(); } });
 
 /*
@@ -562,7 +737,11 @@ ${css}
   </div>
 </div>
 
+<div class="vignette" aria-hidden="true"></div>
+<div class="scrim" aria-hidden="true"></div>
 <div class="torch" aria-hidden="true"></div>
+<div class="bloom" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
 
 <main class="wall" id="wall">
 ${tiles}
