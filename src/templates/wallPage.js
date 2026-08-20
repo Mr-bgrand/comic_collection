@@ -99,6 +99,11 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(clamp(88px, 11vw, 190px), 1fr));
   gap: 0;
   width: 100%;
+  /* Depth for the lift and tilt. Shallow enough that edge tiles do not skew. */
+  perspective: 1600px;
+  perspective-origin: 50% 40%;
+  /* Clearance so the readout never covers the last row of slabs. */
+  padding-bottom: 5.5rem;
 }
 
 .slab {
@@ -110,16 +115,32 @@ body {
   border: 0;
   padding: 0;
   cursor: pointer;
+  transform-style: preserve-3d;
   /* Sits above its neighbours when lifted, without reordering anything. */
-  transition: transform 0.28s cubic-bezier(0.2, 0.7, 0.3, 1), filter 0.28s, z-index 0s 0.28s;
+  transition: transform 0.34s cubic-bezier(0.2, 0.7, 0.3, 1), filter 0.34s, z-index 0s 0.34s;
 }
 
+/*
+ * Ambient drift, on the image rather than the slab.
+ *
+ * The slab's own transform is spoken for twice over — by the hover tilt and by
+ * the FLIP sort — so a third animation there would fight both. Moving the idle
+ * motion inward keeps the wall breathing without touching the transform that
+ * sorting animates.
+ */
 .slab img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: transform 0.4s cubic-bezier(0.2, 0.7, 0.3, 1);
+  animation: drift 9s ease-in-out infinite;
+  animation-delay: calc(var(--i) * -0.19s);
+  will-change: transform;
+}
+
+@keyframes drift {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1.02); }
+  50% { transform: translate3d(0, -6px, 0) scale(1.02); }
 }
 
 /*
@@ -143,23 +164,76 @@ body {
   pointer-events: none;
 }
 
-/* The whole wall steps back so one slab can come forward. */
-.wall.focused .slab { filter: brightness(0.32) saturate(0.55); }
+/*
+ * The wall steps back, but only a little.
+ *
+ * The torch below is what actually creates the darkness, and the two multiply.
+ * At brightness(0.1) plus the overlay the whole page went black and stopped
+ * reading as a collection at all — you could no longer see what you were moving
+ * across. The filter now only desaturates and softens; distance from the pointer
+ * does the rest.
+ */
+.wall.focused .slab { filter: brightness(0.55) saturate(0.7); }
 
+/*
+ * The lift. --rx/--ry are written by the pointer, so the slab tips toward
+ * wherever you are on it — the gesture of picking one up and angling it at a
+ * lamp. The sheen below tracks the same position, so light and tilt agree.
+ */
 .wall.focused .slab.active {
-  filter: none;
-  transform: scale(1.14);
+  /* Slightly hotter than neutral: the one thing standing in the light. */
+  filter: brightness(1.12) saturate(1.05);
+  transform:
+    translate3d(0, var(--ty, -10px), 130px)
+    rotateX(calc(var(--rx, 0) * 1deg))
+    rotateY(calc(var(--ry, 0) * 1deg));
   z-index: 20;
-  transition: transform 0.28s cubic-bezier(0.2, 0.7, 0.3, 1), filter 0.28s;
-  box-shadow: 0 1.4rem 3rem rgba(0, 0, 0, 0.65);
+  transition: transform 0.18s ease-out, filter 0.3s;
+  box-shadow:
+    0 2rem 4.5rem rgba(0, 0, 0, 0.85),
+    0 0 0 1px rgba(255, 255, 255, 0.12);
 }
 
-.slab.active::after { opacity: 1; animation: sweep 0.85s cubic-bezier(0.3, 0, 0.2, 1); }
-.slab.active img { transform: scale(1.03); }
+.slab.active::after {
+  opacity: 1;
+  /* Sheen sits under the pointer instead of crossing on a fixed path. */
+  transform: translateX(calc(var(--sheen, 0) * 1%));
+  transition: transform 0.12s linear;
+  animation: none;
+}
 
 @keyframes sweep {
   from { transform: translateX(-120%); }
   to { transform: translateX(120%); }
+}
+
+/*
+ * The spotlight: a hole punched in a near-opaque sheet, following the pointer.
+ * Everything outside the pool is genuinely dark rather than dimmed, which is
+ * what makes moving across the wall feel like carrying a light over it.
+ */
+.torch {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  background: radial-gradient(
+    circle var(--r, 460px) at var(--mx, 50%) var(--my, 50%),
+    rgba(8, 8, 10, 0) 0%,
+    rgba(8, 8, 10, 0.15) 30%,
+    rgba(8, 8, 10, 0.72) 70%,
+    rgba(8, 8, 10, 0.93) 100%
+  );
+}
+
+body.lit .torch { opacity: 1; }
+
+/* No hover on touch: a spotlight that never moves is just a dark page. */
+@media (hover: none), (pointer: coarse) {
+  .torch { display: none; }
+  .wall.focused .slab { filter: brightness(0.35) saturate(0.6); }
 }
 
 .slab:focus-visible { outline: 2px solid var(--cert); outline-offset: -2px; z-index: 21; }
@@ -252,9 +326,12 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .slab, .slab img, .readout { transition-duration: 0.01ms; }
-  .slab.active::after { animation: none; opacity: 0.18; transform: none; }
+  .slab, .readout { transition-duration: 0.01ms; }
+  .slab img { animation: none; transform: none; }
+  .slab.active::after { opacity: 0.14; transform: none; transition: none; }
+  /* Keep the emphasis, drop the movement: brightness still says which one. */
   .wall.focused .slab.active { transform: none; }
+  .torch { transition: none; }
 }
 `;
 
@@ -270,6 +347,7 @@ function show(slab) {
   active = slab;
   slab.classList.add('active');
   wall.classList.add('focused');
+  document.body.classList.add('lit');
 
   // textContent throughout: these values come from CGC and contain quotes and
   // punctuation that must never be parsed as markup.
@@ -292,16 +370,70 @@ function show(slab) {
 
   readout.classList.add('on');
 
+  /*
+   * Lift far enough to clear the readout when the slab sits low in the viewport.
+   * The readout is fixed to the bottom, so without this the one slab you are
+   * looking at is the one partly hidden.
+   */
+  const rect = slab.getBoundingClientRect();
+  const overlap = rect.bottom - (window.innerHeight - 96);
+  // Plain concatenation: a backtick here would close the template literal this
+  // whole script is embedded in, and the loss is silent — the build still
+  // succeeds and only this statement goes missing.
+  slab.style.setProperty('--ty', overlap > 0 ? String(-(10 + overlap)) + 'px' : '-10px');
+
   // Swap in the sharper copy only for the slab actually being looked at.
   const img = slab.querySelector('img');
   if (img.dataset.full && img.src !== img.dataset.full) img.src = img.dataset.full;
 }
 
 function clear() {
-  if (active) active.classList.remove('active');
+  if (active) {
+    // Reset the tilt, or the slab keeps whatever angle it was left at.
+    active.style.removeProperty('--rx');
+    active.style.removeProperty('--ry');
+    active.style.removeProperty('--sheen');
+    active.style.removeProperty('--ty');
+    active.classList.remove('active');
+  }
   active = null;
   wall.classList.remove('focused');
+  document.body.classList.remove('lit');
   readout.classList.remove('on');
+}
+
+/*
+ * Pointer drives three things at once: where the torch pool sits, how far the
+ * active slab tips, and where the sheen falls. They share one rAF-throttled
+ * handler so they can never disagree by a frame — a highlight that lags the
+ * tilt reads as a bug rather than as light.
+ */
+const fine = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+const still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+let pending = null;
+
+function paint(x, y) {
+  document.body.style.setProperty('--mx', x + 'px');
+  document.body.style.setProperty('--my', y + 'px');
+
+  if (!active || still) return;
+  const r = active.getBoundingClientRect();
+  const px = (x - r.left) / r.width;   // 0 at left edge, 1 at right
+  const py = (y - r.top) / r.height;
+  // Tip away from the pointer, as a held object does.
+  active.style.setProperty('--ry', ((px - 0.5) * 16).toFixed(2));
+  active.style.setProperty('--rx', ((0.5 - py) * 12).toFixed(2));
+  active.style.setProperty('--sheen', ((px - 0.5) * 150).toFixed(1));
+}
+
+if (fine) {
+  window.addEventListener('pointermove', (e) => {
+    if (pending) return;
+    pending = requestAnimationFrame(() => {
+      pending = null;
+      paint(e.clientX, e.clientY);
+    });
+  }, { passive: true });
 }
 
 slabs.forEach((slab) => {
@@ -386,7 +518,7 @@ export function renderWallPage({ bins, config }) {
         ? `<img src="../covers/${escapeHtml(front)}" data-full="../medium/${escapeHtml(front)}" alt="" loading="eager" decoding="async">`
         : '';
 
-      return `      <button class="slab${top ? ' top' : ''}"
+      return `      <button class="slab${top ? ' top' : ''}" style="--i:${i}"
         data-order="${i}"
         data-grade="${escapeHtml(comic.grade ?? '')}"
         data-value="${value ?? 0}"
@@ -429,6 +561,8 @@ ${css}
     <button data-sort="top" aria-pressed="false">Top pop</button>
   </div>
 </div>
+
+<div class="torch" aria-hidden="true"></div>
 
 <main class="wall" id="wall">
 ${tiles}
