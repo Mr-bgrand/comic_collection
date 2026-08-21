@@ -1,0 +1,924 @@
+{
+  "bin": "06",
+  "title": "Bin 06",
+  "location": "",
+  "comics": [
+    {
+      "cert": "4357017013",
+      "title": "Edge of Spider-Verse",
+      "issue": "3",
+      "issueDate": "8/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Romero Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-12-15",
+      "labelCategory": "Universal",
+      "artComments": "Dan Slott & David Betancourt stories\nHumberto Ramos, Wayne Faucher &\nJulian Shaw art, Leonardo Romero cover",
+      "population": {
+        "atGrade": 17,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4357017013_OBV.jpg",
+        "back": "4357017013_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:04:17.289Z",
+      "fmv": {
+        "value": 36,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/edge-of-spider-verse-3-romero-variant-cover",
+        "status": "priced",
+        "fetchedAt": "2026-08-21T05:06:49.192Z"
+      }
+    },
+    {
+      "cert": "4357017012",
+      "title": "Star Wars: The Mandalorian Season 2",
+      "issue": "1",
+      "issueDate": "8/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Gist \"Virgin\" Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-12-15",
+      "labelCategory": "Universal",
+      "artComments": "Rodney Barnes story\nGeorges Jeanty & Karl Story art\nE.M. Gist cover",
+      "keyComments": "Trinity Comics exclusive.",
+      "population": {
+        "atGrade": 29,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4357017012_OBV.jpg",
+        "back": "4357017012_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:04:21.199Z",
+      "fmv": {
+        "value": 46,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/star-wars-mandalorian-season-2-1-gist-virgin-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-21T05:06:56.144Z"
+      }
+    },
+    {
+      "cert": "4357017010",
+      "title": "w0rldtr33",
+      "issue": "5",
+      "issueDate": "8/23",
+      "issueYear": "2023",
+      "publisher": "Image Comics",
+      "variant": "Rabbit Comics Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-12-15",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nFernando Blanco art\nStan Yak cover",
+      "keyComments": "\"Ghost in the Shell\" movie poster\ncover homage.",
+      "population": {
+        "atGrade": 20,
+        "higher": 2,
+        "topPop": false
+      },
+      "images": {
+        "front": "4357017010_OBV.jpg",
+        "back": "4357017010_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:04:24.454Z",
+      "fmv": {
+        "value": 90,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/w0rldtr33-5-rabbit-comics-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-21T05:07:03.388Z"
+      }
+    },
+    {
+      "cert": "4357017011",
+      "title": "Superior Spider-Man Returns",
+      "issue": "1",
+      "issueDate": "12/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "VeVe Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-12-15",
+      "labelCategory": "Universal",
+      "artComments": "Dan Slott & Christos Gage story\nHumberto Ramos, Giuseppe Camuncoli,\nMark Bagley & Ryan Stegman art",
+      "keyComments": "Mike McKone cover\nOrigin & 1st appearance of\nSupernova (Estrella Lopez).",
+      "population": {
+        "atGrade": 40,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4357017011_OBV.jpg",
+        "back": "4357017011_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:04:28.008Z",
+      "fmv": {
+        "value": 100,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": 100,
+        "avg365": 98,
+        "sold365": 2,
+        "url": "https://gocollect.com/app/comic/superior-spider-man-returns-1-veve-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-21T05:07:10.779Z"
+      }
+    },
+    {
+      "cert": "4357017008",
+      "title": "w0rldtr33",
+      "issue": "5",
+      "issueDate": "8/23",
+      "issueYear": "2023",
+      "publisher": "Image Comics",
+      "variant": "Rabbit Comics \"Virgin\" Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-12-15",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nFernando Blanco art\nStan Yak cover",
+      "keyComments": "\"Ghost in the Shell\" movie poster\ncover homage.",
+      "population": {
+        "atGrade": 25,
+        "higher": 2,
+        "topPop": false
+      },
+      "images": {
+        "front": "4357017008_OBV.jpg",
+        "back": "4357017008_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:04:31.429Z",
+      "fmv": {
+        "value": null,
+        "currency": "USD",
+        "avg30": 76,
+        "avg90": 76,
+        "avg365": 76,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/w0rldtr33-5-rabbit-comics-virgin-edition",
+        "status": "no-sales",
+        "fetchedAt": "2026-08-21T05:07:18.359Z"
+      }
+    },
+    {
+      "cert": "4357017009",
+      "title": "w0rldtr33",
+      "issue": "4",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "Image Comics",
+      "variant": "Rabbit Comics Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-12-15",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nFernando Blanco art\nStan Yak cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 17,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4357017009_OBV.jpg",
+        "back": "4357017009_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:04:34.646Z",
+      "fmv": {
+        "value": 90,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/w0rldtr33-4-rabbit-comics-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-21T05:07:25.391Z"
+      }
+    },
+    {
+      "cert": "4357017001",
+      "title": "X-Men",
+      "issue": "27",
+      "issueDate": "12/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Trinity Comics \"Virgin\" Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-12-15",
+      "labelCategory": "Universal",
+      "artComments": "Gerry Duggan story\nPhil Noto art\nPeach Momoko cover",
+      "population": {
+        "atGrade": 14,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4357017001_OBV.jpg",
+        "back": "4357017001_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:04:38.066Z",
+      "fmv": {
+        "value": 90,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 100,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/x-men-27-trinity-comics-virgin-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-21T05:07:32.448Z"
+      }
+    },
+    {
+      "cert": "4350046023",
+      "title": "Void Rivals",
+      "issue": "1",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "Image/Skybound",
+      "variant": "Convention Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Robert Kirkman story\nLorenzo De Felici art\nDaniel Warren Johnson cover",
+      "keyComments": "Jetfire appearance.",
+      "population": {
+        "atGrade": 80,
+        "higher": 2,
+        "topPop": false
+      },
+      "images": {
+        "front": "4350046023_OBV.jpg",
+        "back": "4350046023_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:04:41.395Z",
+      "fmv": {
+        "value": 140,
+        "currency": "USD",
+        "avg30": 138,
+        "avg90": 138,
+        "avg365": 197,
+        "sold365": 5,
+        "url": "https://gocollect.com/app/comic/void-rivals-1-sdcc-2023-variant",
+        "status": "priced",
+        "fetchedAt": "2026-08-21T05:07:39.581Z"
+      }
+    },
+    {
+      "cert": "4357017003",
+      "title": "Transformers",
+      "issue": "1",
+      "issueDate": "10/23",
+      "issueYear": "2023",
+      "publisher": "Image/Skybound",
+      "variant": "Spectral Comics Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-12-15",
+      "labelCategory": "Universal",
+      "artComments": "Daniel Warren Johnson story & art\nRod Reis cover",
+      "population": {
+        "atGrade": 40,
+        "higher": 2,
+        "topPop": false
+      },
+      "images": {
+        "front": "4357017003_OBV.jpg",
+        "back": "4357017003_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:04:44.749Z",
+      "fmv": {
+        "value": 55,
+        "currency": "USD",
+        "avg30": 31,
+        "avg90": 31,
+        "avg365": 47,
+        "sold365": 3,
+        "url": "https://gocollect.com/app/comic/transformers-1-spectral-comics-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-21T05:07:46.695Z"
+      }
+    },
+    {
+      "cert": "4357017014",
+      "title": "Spider-Boy",
+      "issue": "1",
+      "issueDate": "1/24",
+      "issueYear": "2024",
+      "publisher": "Marvel Comics",
+      "variant": "Young Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-12-15",
+      "labelCategory": "Universal",
+      "artComments": "Dan Slott story\nPaco Medina & Ty Templeton art\nSkottie Young cover",
+      "population": {
+        "atGrade": 290,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4357017014_OBV.jpg",
+        "back": "4357017014_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:04:48.043Z",
+      "fmv": {
+        "value": 36,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": 28,
+        "avg365": 37,
+        "sold365": 11,
+        "url": "https://gocollect.com/app/comic/spider-boy-1-skottie-young-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-21T05:07:54.106Z"
+      }
+    },
+    {
+      "cert": "4350046009",
+      "title": "Star Wars: The Mandalorian Season 2",
+      "issue": "1",
+      "issueDate": "8/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Trinity Comics Sketch Edition A",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Rodney Barnes story\nGeorges Jeanty & Karl Story art\nPeach Momoko cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 32,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4350046009_OBV.jpg",
+        "back": "4350046009_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:04:51.417Z",
+      "fmv": {
+        "value": 70,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": 90,
+        "avg365": 90,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/star-wars-mandalorian-season-2-1-trinity-comics-sketch-edition-a",
+        "status": "priced",
+        "fetchedAt": "2026-08-21T05:08:01.616Z"
+      }
+    },
+    {
+      "cert": "4350046018",
+      "title": "Miles Morales: Spider-Man",
+      "issue": "4",
+      "issueDate": "5/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "The Syndicate \"Virgin\" Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Cody Ziglar story\nFederico Vicentini art\nLucio Parrillo cover",
+      "keyComments": "Ultimate Spider-Man #286",
+      "population": {
+        "atGrade": 9,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4350046018_OBV.jpg",
+        "back": "4350046018_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:04:54.613Z",
+      "fmv": {
+        "value": 42,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/miles-morales-spider-man-4-the-syndicate-virgin-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-21T05:08:08.604Z"
+      }
+    },
+    {
+      "cert": "4350046014",
+      "title": "Batman: Facsimile Edition",
+      "issue": "655",
+      "issueDate": "2023",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "Whatnot Special Edition A",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Andy Kubert cover",
+      "keyComments": "Reprints Batman #655 (9/06)\nMellow Fellow Trading & SMZ Comics\nexclusive. \"Virgin\" foil cover.",
+      "population": {
+        "atGrade": 21,
+        "higher": 1,
+        "topPop": false
+      },
+      "images": {
+        "front": "4350046014_OBV.jpg",
+        "back": "4350046014_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:04:57.832Z",
+      "fmv": {
+        "value": 130,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 25,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/batman-655-3",
+        "status": "priced",
+        "fetchedAt": "2026-08-21T05:08:17.447Z"
+      }
+    },
+    {
+      "cert": "4350046010",
+      "title": "Superman",
+      "issue": "4",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "Whatnot Foil Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Joshua Williamson story\nJamal Campbell & Nick Dragotta art\nTyler Kirkham cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 84,
+        "higher": 7,
+        "topPop": false
+      },
+      "images": {
+        "front": "4350046010_OBV.jpg",
+        "back": "4350046010_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:05:01.045Z",
+      "fmv": {
+        "value": 110,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 110,
+        "sold365": 3,
+        "url": "https://gocollect.com/app/comic/superman-4-whatnot-foil-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-21T05:08:24.909Z"
+      }
+    },
+    {
+      "cert": "4250038007",
+      "title": "Amazing Spider-Man",
+      "issue": "19",
+      "issueDate": "4/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "East Side Comics \"Virgin\" Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-05-05",
+      "labelCategory": "Universal",
+      "artComments": "Joe Kelly story\nTerry Dodson & Rachel Dodson art\nIvan Tao cover",
+      "keyComments": "Amazing Spider-Man #913",
+      "population": {
+        "atGrade": 114,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:05:04.265Z",
+      "fmv": {
+        "value": 80,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": 70,
+        "avg365": 75,
+        "sold365": 2,
+        "url": "https://gocollect.com/app/comic/amazing-spider-man-19-east-side-comics-virgin-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-21T05:08:32.844Z"
+      }
+    },
+    {
+      "cert": "4357017002",
+      "title": "X-Men",
+      "issue": "27",
+      "issueDate": "12/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Trinity Comics Sketch Edition",
+      "grade": "9.6",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-12-15",
+      "labelCategory": "Universal",
+      "artComments": "Gerry Duggan story\nPhil Noto art\nPeach Momoko cover",
+      "population": {
+        "atGrade": 2,
+        "higher": 19,
+        "topPop": false
+      },
+      "images": {
+        "front": "4357017002_OBV.jpg",
+        "back": "4357017002_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:05:07.156Z",
+      "fmv": {
+        "value": null,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/x-men-27-trinity-comics-sketch-edition",
+        "status": "no-sales",
+        "fetchedAt": "2026-08-21T05:08:40.592Z"
+      }
+    },
+    {
+      "cert": "4350046001",
+      "title": "Supergirl and the Legion of Super-Heroes",
+      "issue": "23",
+      "issueDate": "2023",
+      "issueYear": "2023",
+      "publisher": "Editorial Televisa",
+      "variant": "Mexican Edition/El Quinto Mundo Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Adam Hughes cover",
+      "keyComments": "Reprints Superman #51 (6/16) story\nfrom Superman #43 (2017).\nFoil cover.",
+      "population": {
+        "atGrade": 83,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4350046001_OBV.jpg",
+        "back": "4350046001_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:05:10.370Z",
+      "fmv": {
+        "value": 100,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": 31,
+        "avg365": 66,
+        "sold365": 2,
+        "url": "https://gocollect.com/app/comic/supergirl-and-the-legion-of-super-heroes-23-mexican-editionel-quinto-mundo-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-21T05:08:48.148Z"
+      }
+    },
+    {
+      "cert": "4350046011",
+      "title": "Batman",
+      "issue": "136",
+      "issueDate": "8/23",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "Whatnot Foil Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Chip Zdarsky story\nBelén Ortega & Jorge Corona art\nTyler Kirkham cover",
+      "keyComments": "Batman #901\n\"Virgin\" cover.",
+      "population": {
+        "atGrade": 84,
+        "higher": 5,
+        "topPop": false
+      },
+      "images": {
+        "front": "4350046011_OBV.jpg",
+        "back": "4350046011_REV.jpg"
+      },
+      "repairs": [
+        [
+          "Bel�n",
+          "Belén"
+        ]
+      ],
+      "fetchedAt": "2026-08-21T05:05:13.587Z",
+      "fmv": {
+        "value": 120,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 80,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/batman-136-2",
+        "status": "priced",
+        "fetchedAt": "2026-08-21T05:08:56.108Z"
+      }
+    },
+    {
+      "cert": "4350046025",
+      "title": "Do You Pooh?",
+      "issue": "1",
+      "issueDate": "2023",
+      "issueYear": "2023",
+      "publisher": "Counterpoint",
+      "variant": "Donkey Pooh Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-29",
+      "labelCategory": "Universal",
+      "artComments": "Terry Sala & Marat Mychaels story\nDietrich Smith & Marat Mychaels art\nMarat Mychaels cover",
+      "keyComments": "SMZ Comics exclusive.",
+      "population": {
+        "atGrade": 3,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4350046025_OBV.jpg",
+        "back": "4350046025_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:05:16.880Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-21T05:09:02.708Z"
+      }
+    },
+    {
+      "cert": "4350046024",
+      "title": "w0rldtr33",
+      "issue": "1",
+      "issueDate": "5/23",
+      "issueYear": "2023",
+      "publisher": "Image Comics",
+      "variant": "Third Printing/Wanted Comix Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nFernando Blanco art\nJohn Giang cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 23,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4350046024_OBV.jpg",
+        "back": "4350046024_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:05:20.106Z",
+      "fmv": {
+        "value": 100,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/w0rldtr33-1-3rd-printingwanted-comix-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-21T05:09:09.861Z"
+      }
+    },
+    {
+      "cert": "4357017004",
+      "title": "Something is Killing the Children",
+      "issue": "33",
+      "issueDate": "9/23",
+      "issueYear": "2023",
+      "publisher": "Boom! Studios",
+      "variant": "Trinity Comics Convention Edition",
+      "grade": "9.6",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-12-15",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nWerther Dell'Edera art\nZoe Lacchei cover",
+      "keyComments": "New York Comic Con 2023 exclusive.\n\"Virgin\" foil cover.",
+      "population": {
+        "atGrade": 1,
+        "higher": 22,
+        "topPop": false
+      },
+      "images": {
+        "front": "4357017004_OBV.jpg",
+        "back": "4357017004_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:05:23.458Z",
+      "fmv": {
+        "value": null,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/something-is-killing-the-children-33-trinity-comics-convention-edition",
+        "status": "no-sales",
+        "fetchedAt": "2026-08-21T05:09:17.569Z"
+      }
+    },
+    {
+      "cert": "4350046017",
+      "title": "w0rldtr33",
+      "issue": "1",
+      "issueDate": "4/23",
+      "issueYear": "2023",
+      "publisher": "Image Comics",
+      "variant": "Comic Mint Edition",
+      "grade": "9.9",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nFernando Blanco art\nMatt Wilson cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 1,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4350046017_OBV.jpg",
+        "back": "4350046017_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:05:26.712Z",
+      "fmv": {
+        "value": null,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/w0rldtr33-1-comic-mint-edition",
+        "status": "no-sales",
+        "fetchedAt": "2026-08-21T05:09:24.785Z"
+      }
+    },
+    {
+      "cert": "4350046022",
+      "title": "Harley Quinn",
+      "issue": "31",
+      "issueDate": "8/23",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "The Syndicate Foil Edition A",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Tini Howard & Heather Anne Campbell\nstories, Nathan Szerdy cover\nSweeney Boo & Filya Bratukhin art",
+      "population": {
+        "atGrade": 57,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4350046022_OBV.jpg",
+        "back": "4350046022_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:05:30.090Z",
+      "fmv": {
+        "value": 75,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 65,
+        "sold365": 2,
+        "url": "https://gocollect.com/app/comic/harley-quinn-31-5",
+        "status": "priced",
+        "fetchedAt": "2026-08-21T05:09:32.174Z"
+      }
+    },
+    {
+      "cert": "4350046013",
+      "title": "Grim",
+      "issue": "11",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "Boom! Studios",
+      "variant": "Frison Sketch Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Qualified",
+      "artComments": "Stephanie Phillips story\nFlaviano art\nJenny Frison cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 1,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4350046013_OBV.jpg",
+        "back": "4350046013_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:05:33.282Z",
+      "fmv": {
+        "value": null,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/grim-11-frison-sdcc-2023-variant",
+        "status": "no-sales",
+        "fetchedAt": "2026-08-21T05:09:39.436Z"
+      }
+    },
+    {
+      "cert": "4350046021",
+      "title": "Supergirl and the Legion of Super-Heroes",
+      "issue": "23",
+      "issueDate": "2023",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "Whatnot Special Foil Edition B",
+      "grade": "9.4",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "David Nakayama cover",
+      "keyComments": "Reprints Supergirl and the\nLegion of Super-Heroes #23 (12/06)\n\"Virgin\" cover.",
+      "population": {
+        "atGrade": 5,
+        "higher": 15,
+        "topPop": false
+      },
+      "images": {
+        "front": "4350046021_OBV.jpg",
+        "back": "4350046021_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:05:36.584Z",
+      "fmv": {
+        "value": null,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/supergirl-and-the-legion-of-super-heroes-23-whatnot-special-foil-edition-b",
+        "status": "no-sales",
+        "fetchedAt": "2026-08-21T05:09:46.927Z"
+      }
+    }
+  ],
+  "updated": "2026-08-21"
+}

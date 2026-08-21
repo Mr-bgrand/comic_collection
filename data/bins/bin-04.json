@@ -690,7 +690,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4214394001_OBV.jpg",
+        "back": "4214394001_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-20T23:27:25.152Z",
       "fmv": {
@@ -698,7 +701,8 @@
         "url": null,
         "status": "not-listed",
         "fetchedAt": "2026-08-20T23:28:47.873Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4480290001",
@@ -762,7 +766,40 @@
         "status": "not-listed",
         "fetchedAt": "2026-08-20T23:29:01.460Z"
       }
+    },
+    {
+      "cert": "2691440008",
+      "title": "Revolution",
+      "issue": "1",
+      "issueDate": "9/16",
+      "issueYear": "2016",
+      "publisher": "IDW Publishing",
+      "variant": "Sharper Collectibles Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-12-05",
+      "labelCategory": "Signature Series",
+      "artComments": "Cullen Bunn & John Barber story\nFico Ossio art\nMychaels, Nunez, Ramodelli & Shah cover",
+      "population": {
+        "atGrade": 1,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:06:16.598Z",
+      "fmv": {
+        "value": null,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 100,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/revolution-1-blank-sketch-cover",
+        "status": "no-sales",
+        "fetchedAt": "2026-08-21T05:06:44.911Z"
+      }
     }
   ],
-  "updated": "2026-08-20"
+  "updated": "2026-08-21"
 }
