@@ -1,0 +1,110 @@
+{
+  "bin": "07",
+  "title": "Bin 07",
+  "location": "",
+  "comics": [
+    {
+      "cert": "4068902009",
+      "title": "All-New Ghost Rider",
+      "issue": "1",
+      "issueDate": "5/14",
+      "issueYear": "2014",
+      "publisher": "Marvel Comics",
+      "variant": "Young Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-05-24",
+      "labelCategory": "Universal",
+      "artComments": "Felipe Smith story\nTradd Moore art\nSkottie Young cover",
+      "keyComments": "1st appearance of the new\nGhost Rider (Roberto \"Robbie\" Reyes).",
+      "population": {
+        "atGrade": 32,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:17:18.687Z"
+    },
+    {
+      "cert": "4137946001",
+      "title": "All-New Ghost Rider: Engines of Vengeance",
+      "issue": "1",
+      "issueDate": "2016",
+      "issueYear": "2016",
+      "publisher": "Marvel Comics",
+      "variant": "Second Printing",
+      "grade": "9.4",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-10-11",
+      "labelCategory": "Universal",
+      "artComments": "Tradd Moore cover",
+      "keyComments": "Collects All-New Ghost Rider #1-5",
+      "population": {
+        "atGrade": 1,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-21T05:17:21.649Z"
+    },
+    {
+      "cert": "4137946003",
+      "title": "Ghost Rider: Vengeance Forever",
+      "issue": "1",
+      "issueDate": "10/22",
+      "issueYear": "2022",
+      "publisher": "Marvel Comics",
+      "variant": "Kubert Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-10-11",
+      "labelCategory": "Universal",
+      "artComments": "Benjamin Percy story\nJuan José Ryp art\nAdam & Joe Kubert cover",
+      "keyComments": "Sketch cover.",
+      "population": {
+        "atGrade": 19,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [
+        [
+          "Jos�",
+          "José"
+        ]
+      ],
+      "fetchedAt": "2026-08-21T05:17:24.840Z"
+    },
+    {
+      "cert": "4137946002",
+      "title": "Ghost Rider: Vengeance Forever",
+      "issue": "1",
+      "issueDate": "10/22",
+      "issueYear": "2022",
+      "publisher": "Marvel Comics",
+      "variant": "Variant Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-10-11",
+      "labelCategory": "Universal",
+      "artComments": "Benjamin Percy story\nJuan José Ryp art\nPepe Larraz cover",
+      "keyComments": "Ghost Rider v2 #1 cover homage.",
+      "population": {
+        "atGrade": 26,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [
+        [
+          "Jos�",
+          "José"
+        ]
+      ],
+      "fetchedAt": "2026-08-21T05:17:27.997Z"
+    }
+  ],
+  "updated": "2026-08-21"
+}
