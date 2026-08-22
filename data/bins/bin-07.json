@@ -24,7 +24,18 @@
       },
       "images": {},
       "repairs": [],
-      "fetchedAt": "2026-08-21T05:17:18.687Z"
+      "fetchedAt": "2026-08-21T05:17:18.687Z",
+      "fmv": {
+        "value": 140,
+        "currency": "USD",
+        "avg30": 140,
+        "avg90": 140,
+        "avg365": 140,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/all-new-ghost-rider-1-young-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T00:22:21.208Z"
+      }
     },
     {
       "cert": "4137946001",
@@ -47,7 +58,13 @@
       },
       "images": {},
       "repairs": [],
-      "fetchedAt": "2026-08-21T05:17:21.649Z"
+      "fetchedAt": "2026-08-21T05:17:21.649Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-22T00:22:27.380Z"
+      }
     },
     {
       "cert": "4137946003",
@@ -75,7 +92,18 @@
           "José"
         ]
       ],
-      "fetchedAt": "2026-08-21T05:17:24.840Z"
+      "fetchedAt": "2026-08-21T05:17:24.840Z",
+      "fmv": {
+        "value": 42,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/ghost-rider-vengeance-forever-1-kubert-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T00:22:33.873Z"
+      }
     },
     {
       "cert": "4137946002",
@@ -103,8 +131,711 @@
           "José"
         ]
       ],
-      "fetchedAt": "2026-08-21T05:17:27.997Z"
+      "fetchedAt": "2026-08-21T05:17:27.997Z",
+      "fmv": {
+        "value": 42,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/ghost-rider-vengeance-forever-1-larraz-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T00:22:40.391Z"
+      }
+    },
+    {
+      "cert": "4137945007",
+      "title": "Ghost Rider: Vengeance Forever",
+      "issue": "1",
+      "issueDate": "10/22",
+      "issueYear": "2022",
+      "publisher": "Marvel Comics",
+      "grade": "9.4",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-10-11",
+      "labelCategory": "Universal",
+      "artComments": "Benjamin Percy story\nJuan José Ryp art\nBjörn Barends cover",
+      "population": {
+        "atGrade": 5,
+        "higher": 40,
+        "topPop": false
+      },
+      "images": {},
+      "repairs": [
+        [
+          "Bj�rn Barends",
+          "Björn Barends"
+        ],
+        [
+          "Jos�",
+          "José"
+        ]
+      ],
+      "fetchedAt": "2026-08-22T00:20:33.922Z",
+      "fmv": {
+        "value": 16,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/ghost-rider-vengeance-forever-1",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T00:22:47.057Z"
+      }
+    },
+    {
+      "cert": "4093374002",
+      "title": "Incredible Hulk",
+      "issue": "400",
+      "issueDate": "12/92",
+      "issueYear": "1992",
+      "publisher": "Marvel Comics",
+      "grade": "8.5",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-07-18",
+      "labelCategory": "Universal",
+      "artComments": "Peter David story\nJan Duursema, Carlos Bachalo &\nMark Farmer art, Dale Keown cover",
+      "keyComments": "Holo-grafx cover. Pin-ups by\nGary Frank, Mark Farmer, Mark Pacella,\nDan Panosian & Ernie Colón.",
+      "population": {
+        "atGrade": 13,
+        "higher": 579,
+        "topPop": false
+      },
+      "images": {},
+      "repairs": [
+        [
+          "Col�n",
+          "Colón"
+        ]
+      ],
+      "fetchedAt": "2026-08-22T00:20:37.079Z",
+      "fmv": {
+        "value": 18,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 20,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/incredible-hulk-400",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T00:22:53.584Z"
+      }
+    },
+    {
+      "cert": "4063305013",
+      "title": "Incredible Hulk",
+      "issue": "377",
+      "issueDate": "1/91",
+      "issueYear": "1991",
+      "publisher": "Marvel Comics",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-07-07",
+      "labelCategory": "Universal",
+      "artComments": "Peter David story\nDale Keown & Bob McLeod cover & art",
+      "keyComments": "Doc Samson & Ringmaster appearance.",
+      "population": {
+        "atGrade": 847,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T00:20:39.996Z",
+      "fmv": {
+        "value": 110,
+        "currency": "USD",
+        "avg30": 110,
+        "avg90": 103,
+        "avg365": 101,
+        "sold365": 48,
+        "url": "https://gocollect.com/app/comic/incredible-hulk-377",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T00:23:00.729Z"
+      }
+    },
+    {
+      "cert": "3901909009",
+      "title": "Sensational She-Hulk",
+      "issue": "1",
+      "issueDate": "5/89",
+      "issueYear": "1989",
+      "publisher": "Marvel Comics",
+      "grade": "9.6",
+      "pageQuality": "WHITE",
+      "gradeDate": "2021-12-03",
+      "labelCategory": "Universal",
+      "artComments": "John Byrne story & cover\nJohn Byrne & Bob Wiacek art",
+      "keyComments": "Origin of She-Hulk retold.\nRingmaster, Circus of Crime &\nHeadmen appearance.",
+      "population": {
+        "atGrade": 721,
+        "higher": 729,
+        "topPop": false
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T00:20:42.918Z",
+      "fmv": {
+        "value": 65,
+        "currency": "USD",
+        "avg30": 67,
+        "avg90": 56,
+        "avg365": 56,
+        "sold365": 15,
+        "url": "https://gocollect.com/app/comic/the-sensational-she-hulk-1",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T00:23:07.815Z"
+      }
+    },
+    {
+      "cert": "4245413007",
+      "title": "Hulk",
+      "issue": "11",
+      "issueDate": "3/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Nakayama \"Virgin\" Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-05-02",
+      "labelCategory": "Universal",
+      "artComments": "Donny Cates story\nRyan Ottley art\nDavid Nakayama cover",
+      "keyComments": "Incredible Hulk #778",
+      "population": {
+        "atGrade": 97,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T00:20:45.841Z",
+      "fmv": {
+        "value": 60,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 60,
+        "sold365": 3,
+        "url": "https://gocollect.com/app/comic/hulk-11-nakayama-virgin-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T00:23:14.411Z"
+      }
+    },
+    {
+      "cert": "4245413021",
+      "title": "Hulk",
+      "issue": "13",
+      "issueDate": "5/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Momoko Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-05-02",
+      "labelCategory": "Universal",
+      "artComments": "Ryan Ottley story\nRyan Ottley & Cliff Rathburn art\nPeach Momoko cover",
+      "keyComments": "Incredible Hulk #780",
+      "population": {
+        "atGrade": 15,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T00:20:48.740Z",
+      "fmv": {
+        "value": 34,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 38,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/hulk-13-momoko-variant-cover",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T00:23:20.868Z"
+      }
+    },
+    {
+      "cert": "0016722007",
+      "title": "Incredible Hulk",
+      "issue": "330",
+      "issueDate": "4/87",
+      "issueYear": "1987",
+      "publisher": "Marvel Comics",
+      "grade": "9.4",
+      "pageQuality": "WHITE",
+      "gradeDate": "2001-07-06",
+      "labelCategory": "Universal",
+      "artComments": "Al Milgrom story\nTodd McFarlane & Al Milgrom art\nTodd McFarlane & Tom Morgan cover",
+      "keyComments": "Todd McFarlane art begins.\n\"Death\" of Thunderbolt Ross.\nDoc Samson appearance.",
+      "population": {
+        "atGrade": 172,
+        "higher": 514,
+        "topPop": false
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T00:20:51.645Z",
+      "fmv": {
+        "value": 32,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": 30,
+        "avg365": 32,
+        "sold365": 6,
+        "url": "https://gocollect.com/app/comic/incredible-hulk-330",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T00:23:27.406Z"
+      }
+    },
+    {
+      "cert": "4245413022",
+      "title": "Hulk",
+      "issue": "13",
+      "issueDate": "5/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Comic Mint Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-05-02",
+      "labelCategory": "Universal",
+      "artComments": "Ryan Ottley story\nRyan Ottley & Cliff Rathburn art\nSteve McNiven cover",
+      "keyComments": "Incredible Hulk #780\nIncredible Hulk #340 cover homage.\n\"Virgin\" cover.",
+      "population": {
+        "atGrade": 107,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T00:20:54.573Z",
+      "fmv": {
+        "value": 110,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 92,
+        "sold365": 3,
+        "url": "https://gocollect.com/app/comic/hulk-13-comic-mint-virgin-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T00:23:33.975Z"
+      }
+    },
+    {
+      "cert": "4245547001",
+      "title": "Tales to Astonish",
+      "issue": "90",
+      "issueDate": "4/67",
+      "issueYear": "1967",
+      "publisher": "Marvel Comics",
+      "grade": "3.5",
+      "pageQuality": "CREAM TO OFF-WHITE",
+      "gradeDate": "2023-05-18",
+      "labelCategory": "Universal",
+      "artComments": "Stan Lee story\nBill Everett and Gil Kane art\nJack Kirby and Vince Colletta cover",
+      "keyComments": "1st Silver Age appearance of Byrrah.\n1st appearance of the Abomination (Emil\nBlonsky). Letter from Bill Mantlo.",
+      "population": {
+        "atGrade": 23,
+        "higher": 1062,
+        "topPop": false
+      },
+      "images": {
+        "front": "4245547001_OBV.jpg",
+        "back": "4245547001_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-22T00:20:57.503Z",
+      "fmv": {
+        "value": 26,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 90,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/tales-to-astonish-90",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T00:23:40.357Z"
+      }
+    },
+    {
+      "cert": "4245547002",
+      "title": "Tales to Astonish",
+      "issue": "91",
+      "issueDate": "5/67",
+      "issueYear": "1967",
+      "publisher": "Marvel Comics",
+      "grade": "4.5",
+      "pageQuality": "CREAM TO OFF-WHITE",
+      "gradeDate": "2023-05-18",
+      "labelCategory": "Universal",
+      "artComments": "Stan Lee story\nBill Everett and Dan Adkins art\nGil Kane cover and art",
+      "keyComments": "Abomination and Stranger appearance.",
+      "population": {
+        "atGrade": 28,
+        "higher": 776,
+        "topPop": false
+      },
+      "images": {
+        "front": "4245547002_OBV.jpg",
+        "back": "4245547002_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-22T00:21:01.360Z",
+      "fmv": {
+        "value": 55,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": 55,
+        "avg365": 55,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/tales-to-astonish-91",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T00:23:46.980Z"
+      }
+    },
+    {
+      "cert": "4137947001",
+      "title": "Nova",
+      "issue": "1",
+      "issueDate": "4/13",
+      "issueYear": "2013",
+      "publisher": "Marvel Comics",
+      "variant": "Young Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-11-08",
+      "labelCategory": "Universal",
+      "artComments": "Jeph Loeb story\nEd McGuinness & Dexter Vines art\nSkottie Young cover",
+      "population": {
+        "atGrade": 21,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T00:21:04.829Z",
+      "fmv": {
+        "value": 130,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/nova-1-young-cover",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T00:23:54.282Z"
+      }
+    },
+    {
+      "cert": "4197996001",
+      "title": "Tarzan",
+      "issue": "207",
+      "issueDate": "4/72",
+      "issueYear": "1972",
+      "publisher": "DC Comics",
+      "grade": "8.5",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-02-06",
+      "labelCategory": "Universal",
+      "artComments": "Joe Kubert and Marv Wolfman story\nJoe Kubert and Murphy Anderson art\nJoe Kubert cover",
+      "keyComments": "1st DC issue. Origin of Tarzan.\nAdapts Burroughs' \"Tarzan of the Apes\".\nOrigin of John Carter of Mars.",
+      "population": {
+        "atGrade": 31,
+        "higher": 294,
+        "topPop": false
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T00:21:07.750Z",
+      "fmv": {
+        "value": 42,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 50,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/tarzan-207",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T00:24:02.952Z"
+      }
+    },
+    {
+      "cert": "4137945001",
+      "title": "Marauders",
+      "issue": "21",
+      "issueDate": "8/21",
+      "issueYear": "2021",
+      "publisher": "Marvel Comics",
+      "variant": "Dauterman \"Design\" Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-10-11",
+      "labelCategory": "Universal",
+      "artComments": "Gerry Duggan story\nMatteo Lolli art\nRussell Dauterman cover",
+      "population": {
+        "atGrade": 6,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T00:21:10.663Z",
+      "fmv": {
+        "value": 22,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/marauders-21-dauterman-emma-frost-design-variant",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T00:24:11.576Z"
+      }
+    },
+    {
+      "cert": "4137945008",
+      "title": "Spider-Punk",
+      "issue": "1",
+      "issueDate": "6/22",
+      "issueYear": "2022",
+      "publisher": "Marvel Comics",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-10-11",
+      "labelCategory": "Universal",
+      "artComments": "Cody Ziglar story\nJustin Mason art\nOlivier Coipel cover",
+      "population": {
+        "atGrade": 262,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T00:21:13.566Z",
+      "fmv": {
+        "value": 34,
+        "currency": "USD",
+        "avg30": 57,
+        "avg90": 47,
+        "avg365": 46,
+        "sold365": 9,
+        "url": "https://gocollect.com/app/comic/spider-punk-1",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T00:24:21.227Z"
+      }
+    },
+    {
+      "cert": "4245413003",
+      "title": "Spider-Gwen: Shadow Clones",
+      "issue": "1",
+      "issueDate": "5/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Momoko Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-05-02",
+      "labelCategory": "Universal",
+      "artComments": "Emily Kim story\nKei Zama art\nPeach Momoko cover",
+      "keyComments": "\"Design\" variant cover.",
+      "population": {
+        "atGrade": 28,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T00:21:16.455Z",
+      "fmv": {
+        "value": 38,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 55,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/spider-gwen-shadow-clones-1-10-copy-incv-momoko-design-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T00:24:29.951Z"
+      }
+    },
+    {
+      "cert": "4273634009",
+      "title": "Spider-Gwen: Shadow Clones",
+      "issue": "1",
+      "issueDate": "5/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Spectral Comics Edition",
+      "grade": "8.5",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-06-16",
+      "labelCategory": "Universal",
+      "artComments": "Emily Kim story\nKei Zama art\nIvan Tao cover",
+      "population": {
+        "atGrade": 1,
+        "higher": 57,
+        "topPop": false
+      },
+      "images": {
+        "front": "4273634009_OBV.jpg",
+        "back": "4273634009_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-22T00:21:19.437Z",
+      "fmv": {
+        "value": null,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/spider-gwen-shadow-clones-1-spectral-comics-edition",
+        "status": "no-sales",
+        "fetchedAt": "2026-08-22T00:24:38.606Z"
+      }
+    },
+    {
+      "cert": "4273634008",
+      "title": "Spider-Gwen: Shadow Clones",
+      "issue": "1",
+      "issueDate": "5/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Spectral Comics \"Virgin\" Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-06-16",
+      "labelCategory": "Universal",
+      "artComments": "Emily Kim story\nKei Zama art\nIvan Tao cover",
+      "population": {
+        "atGrade": 78,
+        "higher": 1,
+        "topPop": false
+      },
+      "images": {
+        "front": "4273634008_OBV.jpg",
+        "back": "4273634008_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-22T00:21:23.007Z",
+      "fmv": {
+        "value": 150,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": 140,
+        "avg365": 130,
+        "sold365": 2,
+        "url": "https://gocollect.com/app/comic/spider-gwen-shadow-clones-1-spectral-comics-virgin-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T00:24:48.195Z"
+      }
+    },
+    {
+      "cert": "4245548003",
+      "title": "Avengers Forever",
+      "issue": "15",
+      "issueDate": "5/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Ross Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-04-28",
+      "labelCategory": "Universal",
+      "artComments": "Jason Aaron story\nAaron Kuder & Mark Farmer art\nAlex Ross cover",
+      "keyComments": "\"Timeless\" variant cover.\n\"Virgin\" cover.",
+      "population": {
+        "atGrade": 208,
+        "higher": 1,
+        "topPop": false
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T00:21:26.495Z",
+      "fmv": {
+        "value": 28,
+        "currency": "USD",
+        "avg30": 29,
+        "avg90": 30,
+        "avg365": 30,
+        "sold365": 10,
+        "url": "https://gocollect.com/app/comic/avengers-forever-15-alex-ross-timeless-kang-virgin-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T00:24:56.794Z"
+      }
+    },
+    {
+      "cert": "4245548002",
+      "title": "Dark Web",
+      "issue": "1",
+      "issueDate": "2/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "KRS Comics Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-04-28",
+      "labelCategory": "Universal",
+      "artComments": "Zeb Wells story\nAdam Kubert art\nBosslogic cover",
+      "population": {
+        "atGrade": 69,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T00:21:29.472Z",
+      "fmv": {
+        "value": 40,
+        "currency": "USD",
+        "avg30": 60,
+        "avg90": 60,
+        "avg365": 60,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/dark-web-1-3",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T00:25:05.624Z"
+      }
+    },
+    {
+      "cert": "4418876001",
+      "title": "Spider-Boy",
+      "issue": "1",
+      "issueDate": "1/24",
+      "issueYear": "2024",
+      "publisher": "Marvel Comics",
+      "variant": "Young Variant Cover",
+      "grade": "9.6",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-04-29",
+      "labelCategory": "Universal",
+      "artComments": "Dan Slott story\nPaco Medina & Ty Templeton art\nSkottie Young cover",
+      "population": {
+        "atGrade": 9,
+        "higher": 290,
+        "topPop": false
+      },
+      "images": {
+        "front": "4418876001_OBV.jpg",
+        "back": "4418876001_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-22T00:21:32.407Z",
+      "fmv": {
+        "value": 34,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/spider-boy-1-skottie-young-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T00:25:14.389Z"
+      }
     }
   ],
-  "updated": "2026-08-21"
+  "updated": "2026-08-22"
 }
