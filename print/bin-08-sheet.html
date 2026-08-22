@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bin 08 manifest</title>
+<style>
+
+@page { size: letter; margin: 0.5in; }
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #16161a;
+  background: #fff;
+  font-size: 7.6pt;
+  line-height: 1.26;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.side { page-break-after: always; }
+.side:last-child { page-break-after: auto; }
+
+.masthead {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.15in;
+  padding-bottom: 0.04in;
+  margin-bottom: 0.06in;
+  border-bottom: 2pt solid #16161a;
+}
+
+.masthead h1 { font-size: 14pt; font-weight: 800; letter-spacing: -0.025em; }
+.masthead .sub { margin-top: 0.02in; font-size: 7.5pt; color: #55555e; }
+
+/*
+ * The QR repeats on every side, because each side is a standalone page — whoever
+ * is holding side 2 should not have to go find side 1 to scan through.
+ */
+.mast-qr { flex: none; width: 0.8in; text-align: center; }
+.mast-qr svg { width: 0.8in; height: 0.8in; display: block; }
+.mast-qr .cap { margin-top: 0.01in; font-size: 5.5pt; line-height: 1.1; color: #55555e; }
+
+.cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0.24in;
+}
+
+.entry {
+  display: grid;
+  grid-template-columns: 0.76in 1fr;
+  column-gap: 0.1in;
+  height: 1.25in;
+  padding: 0.02in 0;
+  border-bottom: 0.3pt solid #e4e4e8;
+  overflow: hidden;
+  break-inside: avoid;
+}
+
+.cover {
+  width: 0.76in;
+  height: 1.2in;
+  object-fit: cover;
+  border: 0.3pt solid #c8c8d0;
+  background: #f4f4f6;
+}
+
+.cover-none {
+  width: 0.76in;
+  height: 1.2in;
+  border: 0.3pt dashed #c8c8d0;
+}
+
+.head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.06in;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 8.2pt;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  /* Two lines for the title; variant strings rarely fit one at this width. */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.grade {
+  font-weight: 800;
+  font-size: 9.5pt;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/*
+ * Detail lines wrap up to two lines each and then clip. Entries are a fixed
+ * height so the page count stays deterministic; compactDetailLines puts the
+ * appraisal-critical figures first so the clipping falls on the prose.
+ */
+.meta {
+  margin-top: 0.015in;
+  color: #2a2a31;
+  font-weight: 500;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.meta .cert { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 7pt; }
+.pop { font-weight: 700; color: #7a5410; }
+
+.pagefoot {
+  margin-top: 0.06in;
+  padding-top: 0.04in;
+  border-top: 0.75pt solid #c8c8d0;
+  font-size: 6.5pt;
+  color: #55555e;
+  display: flex;
+  justify-content: space-between;
+}
+
+</style>
+</head>
+<body>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Bin 08</h1>
+      <div class="sub">21 graded comics &middot; updated 2026-08-22</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 33" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h33v33H0z"/><path stroke="#000000" d="M0 0.5h7m3 0h2m1 0h1m2 0h5m1 0h2m2 0h7M0 1.5h1m5 0h1m2 0h1m3 0h5m4 0h1m3 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m2 0h3m3 0h2m1 0h4m2 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h2m2 0h3m5 0h1m1 0h1m1 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h4m1 0h1m1 0h1m1 0h2m2 0h1m1 0h2m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h2m2 0h5m1 0h1m1 0h1m3 0h1m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h2m4 0h2m2 0h4m1 0h1M0 8.5h1m1 0h5m4 0h5m1 0h1m1 0h2m1 0h3m1 0h5M5 9.5h1m2 0h1m1 0h2m4 0h1m2 0h3m1 0h1m2 0h2m1 0h3M1 10.5h2m3 0h2m1 0h2m4 0h2m1 0h1m1 0h1m3 0h2m2 0h1m1 0h2M1 11.5h2m1 0h2m2 0h1m2 0h2m1 0h1m1 0h1m4 0h1m1 0h3m2 0h5M0 12.5h2m1 0h2m1 0h1m2 0h1m1 0h2m5 0h2m2 0h1m1 0h2m1 0h3M1 13.5h2m1 0h2m4 0h7m2 0h1m1 0h1m1 0h1m2 0h1m2 0h1m1 0h2M1 14.5h2m2 0h2m1 0h1m3 0h2m7 0h1m3 0h3m1 0h1m1 0h1M1 15.5h3m1 0h1m1 0h1m3 0h2m3 0h1m4 0h3m1 0h2m1 0h3M0 16.5h1m1 0h7m3 0h1m4 0h1m1 0h1m2 0h4m1 0h2m3 0h1M2 17.5h3m3 0h5m4 0h4m2 0h1m2 0h2m1 0h2m1 0h1M0 18.5h1m1 0h2m2 0h2m5 0h1m1 0h3m2 0h2m5 0h2m1 0h2M0 19.5h1m1 0h2m1 0h1m1 0h1m8 0h7m2 0h7M1 20.5h1m2 0h1m1 0h3m1 0h1m1 0h3m1 0h1m3 0h1m1 0h4m1 0h3m2 0h1M0 21.5h1m2 0h3m2 0h1m5 0h2m2 0h2m3 0h1m1 0h2m3 0h1m1 0h1M0 22.5h1m1 0h1m2 0h2m1 0h1m1 0h1m1 0h2m1 0h4m3 0h1m2 0h3m1 0h1m1 0h1M0 23.5h1m1 0h1m1 0h1m2 0h1m1 0h1m1 0h1m3 0h1m2 0h1m2 0h1m2 0h2m2 0h3M0 24.5h1m1 0h2m1 0h4m4 0h1m1 0h1m1 0h2m3 0h7m2 0h1M8 25.5h2m1 0h3m2 0h1m1 0h3m3 0h1m3 0h1m1 0h1m1 0h1M0 26.5h7m2 0h2m1 0h2m1 0h2m1 0h1m3 0h3m1 0h1m1 0h1m1 0h2M0 27.5h1m5 0h1m1 0h1m1 0h1m1 0h4m3 0h3m2 0h1m3 0h4M0 28.5h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m3 0h3m3 0h6m1 0h2M0 29.5h1m1 0h3m1 0h1m1 0h1m3 0h2m1 0h3m1 0h1m1 0h1m3 0h1m2 0h2m1 0h2M0 30.5h1m1 0h3m1 0h1m1 0h3m1 0h3m2 0h1m2 0h3m1 0h4m1 0h1M0 31.5h1m5 0h1m2 0h5m2 0h1m1 0h4m3 0h1m2 0h3M0 32.5h7m1 0h1m1 0h2m1 0h1m3 0h1m1 0h1m3 0h2m2 0h1m3 0h1"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Venom: Lethal Protector II #1 : Ross Variant Cover</span>
+            <span class="grade">9.6</span>
+          </div>
+        <div class="meta">Marvel Comics · 5/23 · 2023 · Universal · White pages</div>
+        <div class="meta">David Michelinie story · Farid Karami art · Alex Ross cover</div>
+        <div class="meta">80 in 9.6 · 749 higher · CGC cert <span class="cert">4245413019</span> · Graded 2023-05-02 · Key: &quot;Timeless&quot; variant cover.
+&quot;Virgin&quot; cover.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Spider-Gwen: Shadow Clones #1 : Variant Edition</span>
+            <span class="grade">9.0</span>
+          </div>
+        <div class="meta">Marvel Comics · 5/23 · 2023 · Universal · White pages</div>
+        <div class="meta">Emily Kim story · Kei Zama art · Brian Stelfreeze cover</div>
+        <div class="meta">1 in 9.0 · 19 higher · CGC cert <span class="cert">4245413002</span> · Graded 2023-05-02</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Strange Academy: Finals #5</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 5/23 · 2023 · Universal · White pages</div>
+        <div class="meta">Skottie Young story · Humberto Ramos cover &amp; art</div>
+        <div class="meta"><span class="pop">★ Top Pop — 12 in 9.8, none higher </span>· CGC cert <span class="cert">4245413020</span> · Graded 2023-05-02 · Key: Strange Academy #23</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Thor: God of Thunder #1</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 1/13 · 2013 · Universal · White pages</div>
+        <div class="meta">Jason Aaron story · Esad Ribic cover &amp; art</div>
+        <div class="meta"><span class="pop">★ Top Pop — 204 in 9.8, none higher </span>· CGC cert <span class="cert">4043081003</span> · Graded 2022-06-09</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Marvel Comics Presents #66</span>
+            <span class="grade">9.4</span>
+          </div>
+        <div class="meta">Marvel Comics · 1990 · 1990 · Universal · White pages</div>
+        <div class="meta">Howard Mackie, Steve Gerber, · Robert Denatale &amp; Sholly Fisch stories · Tom Morgon &amp; Cindy Martin art</div>
+        <div class="meta">6 in 9.4 · 40 higher · CGC cert <span class="cert">4093374001</span> · Graded 2022-07-18 · Key: Jim Valentino wraparound cover.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Marvel Age Annual #4</span>
+            <span class="grade">9.2</span>
+          </div>
+        <div class="meta">Marvel Comics · 1988 · 1988 · Universal · White pages</div>
+        <div class="meta">Arthur Adams cover</div>
+        <div class="meta">5 in 9.2 · 84 higher · CGC cert <span class="cert">4050041016</span> · Graded 2022-06-16</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Deadpool #1 : Hustl. Edition</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Marvel Comics · 1/23 · 2023 · Universal · White pages</div>
+        <div class="meta">Alyssa Wong story · Martin Coccolo art · Ken Lashley cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 395 in 9.8, none higher </span>· CGC cert <span class="cert">4177707004</span> · Graded 2023-01-09 · Key: &quot;Notorious B.I.G.&quot; variant cover.</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Dark Ages #5 : Momoko Variant Cover</span>
+            <span class="grade">9.4</span>
+          </div>
+        <div class="meta">Marvel Comics · 4/22 · 2022 · Universal · White pages</div>
+        <div class="meta">Tom Taylor story · Iban Coello art · Peach Momoko cover</div>
+        <div class="meta">1 in 9.4 · 89 higher · CGC cert <span class="cert">4093374003</span> · Graded 2022-07-18 · Key: &quot;Stormbreakers&quot; variant cover.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Vengeance #1</span>
+            <span class="grade">9.4</span>
+          </div>
+        <div class="meta">Marvel Comics · 9/11 · 2011 · Universal · White pages</div>
+        <div class="meta">Joe Casey story · Nick Dragotta art · Gabriele Dell&#39;Otto cover</div>
+        <div class="meta">360 in 9.4 · 1241 higher · CGC cert <span class="cert">3783476021</span> · Graded 2021-04-05 · Key: 1st app. of Ultimate Nullifier, Mako,
+Radioactive Kid, the new Black Knight &amp;
+the new Miss America (America Chavez).</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Ninja Funk #1 : Kirkham &quot;Virgin&quot; Edition</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Whatnot Publishing · 11/22 · 2022 · Universal · White pages</div>
+        <div class="meta">Steve Schuitt &amp; JPG story · Alex Riegel art · Tyler Kirkham cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 6 in 9.8, none higher </span>· CGC cert <span class="cert">4198680002</span> · Graded 2023-02-08 · Key: Spider-Man #1 (8/90) cover homage.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Ninja Funk #1 : Spectral Comics Convention Edition</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Whatnot Publishing · 11/22 · 2022 · Universal · White pages</div>
+        <div class="meta">Steve Schuitt &amp; JPG story · Alex Riegel art · Tyler Kirkham cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 6 in 9.8, none higher </span>· CGC cert <span class="cert">4198680003</span> · Graded 2023-02-08 · Key: New York Comic Con 2022 exclusive.
+Spider-Man #1 (8/90) cover homage.
+Partial sketch &quot;virgin&quot; cover.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4273634007_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">w0rldtr33 #1 : Spectral Comics Edition</span>
+            <span class="grade">9.8</span>
+          </div>
+        <div class="meta">Image Comics · 4/23 · 2023 · Universal · White pages</div>
+        <div class="meta">James Tynion IV story · Fernando Blanco art · Huy Dinh cover</div>
+        <div class="meta">40 in 9.8 · 2 higher · CGC cert <span class="cert">4273634007</span> · Graded 2023-06-16</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Wretches #1 : Momoko Metal Edition</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Scout Comics · 2022 · 2022 · Universal · White pages</div>
+        <div class="meta">James E. Roche story · Salomon Farias art · Peach Momoko cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 7 in 9.8, none higher </span>· CGC cert <span class="cert">4089841007</span> · Graded 2022-08-08 · Key: ComicTom101 &amp; MillGeek Comics exclusive.
+&quot;Virgin&quot; cover.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Darkwing Duck #1 : Parsons &quot;Virgin&quot; Edition</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Dynamite Entertainment · 2023 · 2023 · Universal · White pages</div>
+        <div class="meta">Amanda Deibert story · Carlo Lauro art · Casey Parsons cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 9 in 9.8, none higher </span>· CGC cert <span class="cert">4245413009</span> · Graded 2023-05-02</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/bin/08/</span>
+    <span>Side 1 of 2</span>
+  </div>
+</section>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Bin 08</h1>
+      <div class="sub">21 graded comics &middot; updated 2026-08-22</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 33" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h33v33H0z"/><path stroke="#000000" d="M0 0.5h7m3 0h2m1 0h1m2 0h5m1 0h2m2 0h7M0 1.5h1m5 0h1m2 0h1m3 0h5m4 0h1m3 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m2 0h3m3 0h2m1 0h4m2 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h2m2 0h3m5 0h1m1 0h1m1 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h4m1 0h1m1 0h1m1 0h2m2 0h1m1 0h2m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h2m2 0h5m1 0h1m1 0h1m3 0h1m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h2m4 0h2m2 0h4m1 0h1M0 8.5h1m1 0h5m4 0h5m1 0h1m1 0h2m1 0h3m1 0h5M5 9.5h1m2 0h1m1 0h2m4 0h1m2 0h3m1 0h1m2 0h2m1 0h3M1 10.5h2m3 0h2m1 0h2m4 0h2m1 0h1m1 0h1m3 0h2m2 0h1m1 0h2M1 11.5h2m1 0h2m2 0h1m2 0h2m1 0h1m1 0h1m4 0h1m1 0h3m2 0h5M0 12.5h2m1 0h2m1 0h1m2 0h1m1 0h2m5 0h2m2 0h1m1 0h2m1 0h3M1 13.5h2m1 0h2m4 0h7m2 0h1m1 0h1m1 0h1m2 0h1m2 0h1m1 0h2M1 14.5h2m2 0h2m1 0h1m3 0h2m7 0h1m3 0h3m1 0h1m1 0h1M1 15.5h3m1 0h1m1 0h1m3 0h2m3 0h1m4 0h3m1 0h2m1 0h3M0 16.5h1m1 0h7m3 0h1m4 0h1m1 0h1m2 0h4m1 0h2m3 0h1M2 17.5h3m3 0h5m4 0h4m2 0h1m2 0h2m1 0h2m1 0h1M0 18.5h1m1 0h2m2 0h2m5 0h1m1 0h3m2 0h2m5 0h2m1 0h2M0 19.5h1m1 0h2m1 0h1m1 0h1m8 0h7m2 0h7M1 20.5h1m2 0h1m1 0h3m1 0h1m1 0h3m1 0h1m3 0h1m1 0h4m1 0h3m2 0h1M0 21.5h1m2 0h3m2 0h1m5 0h2m2 0h2m3 0h1m1 0h2m3 0h1m1 0h1M0 22.5h1m1 0h1m2 0h2m1 0h1m1 0h1m1 0h2m1 0h4m3 0h1m2 0h3m1 0h1m1 0h1M0 23.5h1m1 0h1m1 0h1m2 0h1m1 0h1m1 0h1m3 0h1m2 0h1m2 0h1m2 0h2m2 0h3M0 24.5h1m1 0h2m1 0h4m4 0h1m1 0h1m1 0h2m3 0h7m2 0h1M8 25.5h2m1 0h3m2 0h1m1 0h3m3 0h1m3 0h1m1 0h1m1 0h1M0 26.5h7m2 0h2m1 0h2m1 0h2m1 0h1m3 0h3m1 0h1m1 0h1m1 0h2M0 27.5h1m5 0h1m1 0h1m1 0h1m1 0h4m3 0h3m2 0h1m3 0h4M0 28.5h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m3 0h3m3 0h6m1 0h2M0 29.5h1m1 0h3m1 0h1m1 0h1m3 0h2m1 0h3m1 0h1m1 0h1m3 0h1m2 0h2m1 0h2M0 30.5h1m1 0h3m1 0h1m1 0h3m1 0h3m2 0h1m2 0h3m1 0h4m1 0h1M0 31.5h1m5 0h1m2 0h5m2 0h1m1 0h4m3 0h1m2 0h3M0 32.5h7m1 0h1m1 0h2m1 0h1m3 0h1m1 0h1m3 0h2m2 0h1m3 0h1"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Donatello, Teenage Mutant Ninja Turtle #1</span>
+            <span class="grade">9.2</span>
+          </div>
+        <div class="meta">Mirage Studios · 8/86 · 1986 · Universal · White pages</div>
+        <div class="meta">Kevin Eastman &amp; Peter Laird · story, cover &amp; art</div>
+        <div class="meta">94 in 9.2 · 763 higher · CGC cert <span class="cert">4091181006</span> · Graded 2022-07-14 · Key: Pin-up by Stan Sakai.
+Wraparound cover.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Michaelangelo, Teenage Mutant Ninja Turtle #1</span>
+            <span class="grade">8.0</span>
+          </div>
+        <div class="meta">Mirage Studios · 1986 · 1986 · Universal · White pages</div>
+        <div class="meta">Kevin Eastman &amp; Peter Laird story &amp; art · Kevin Eastman cover</div>
+        <div class="meta">20 in 8.0 · 789 higher · CGC cert <span class="cert">4091181005</span> · Graded 2022-07-14 · Key: Wraparound cover.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Do You Pooh? #1 : Desjardins Green Crystal Edition</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Counterpoint · 2022 · 2022 · Universal · White pages</div>
+        <div class="meta">Terry Sala &amp; Marat Mychaels story · Dietrich Smith &amp; Marat Mychaels art · Johnny Desjardins cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 2 in 9.8, none higher </span>· CGC cert <span class="cert">4177706002</span> · Graded 2022-12-29 · Key: New York Comic Con exclusive.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Do You Pooh? #1 : Whatnot NYCC Foil Edition A</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Counterpoint · 2022 · 2022 · Universal · White pages</div>
+        <div class="meta">Terry Sala &amp; Marat Mychaels story · Dietrich Smith &amp; Marat Mychaels art · Marat Mychaels cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 3 in 9.8, none higher </span>· CGC cert <span class="cert">4177706003</span> · Graded 2022-12-29 · Key: Multiple foil variants exist.</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4424144002_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Tales of the Titans #1 : East Side Comics &quot;Virgin&quot; Edition</span>
+            <span class="grade">9.6</span>
+          </div>
+        <div class="meta">DC Comics · 9/23 · 2023 · Universal · White pages</div>
+        <div class="meta">Shannon Hale &amp; Dean Hale story · Javier Rodríguez art · Will Jack cover</div>
+        <div class="meta">3 in 9.6 · 66 higher · CGC cert <span class="cert">4424144002</span> · Graded 2024-05-13</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="cover-none"></div>
+        <div>
+          <div class="head">
+            <span class="name">Captain America #323</span>
+            <span class="grade">9.6</span>
+          </div>
+        <div class="meta">Marvel Comics · 11/86 · 1986 · Universal · White pages</div>
+        <div class="meta">Mark Gruenwald story · Paul Neary &amp; John Beatty art · Mike Zeck &amp; Joe Rubinstein cover</div>
+        <div class="meta">305 in 9.6 · 282 higher · CGC cert <span class="cert">4053428001</span> · Graded 2022-06-23 · Key: 1st appearance of the new
+Super-Patriot (John Walker) &amp;
+Battlestar (Lemar Hoskins).</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/4273634005_OBV.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Darkwing Duck #1 : Parsons Variant Cover</span>
+            <span class="grade">9.8 ★</span>
+          </div>
+        <div class="meta">Dynamite Entertainment · 2023 · 2023 · Universal · White pages</div>
+        <div class="meta">Amanda Deibert story · Carlo Lauro art · Casey Parsons cover</div>
+        <div class="meta"><span class="pop">★ Top Pop — 7 in 9.8, none higher </span>· CGC cert <span class="cert">4273634005</span> · Graded 2023-06-16</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/bin/08/</span>
+    <span>Side 2 of 2</span>
+  </div>
+</section>
+</body>
+</html>

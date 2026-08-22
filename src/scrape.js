@@ -152,8 +152,10 @@ async function lookupOne(page, cert) {
    * it distinguishes "the service is refusing" from "this cert does not exist"
    * with certainty rather than by pattern.
    */
+  // document.body can still be null this early, and reading innerText off it
+  // threw a TypeError that surfaced as a failed cert rather than as a retry.
   const limited = await page.evaluate(() =>
-    /exceeded our limits|search activity has exceeded/i.test(document.body.innerText),
+    /exceeded our limits|search activity has exceeded/i.test(document.body?.innerText ?? ''),
   );
   if (limited) {
     const err = new Error(`cert ${cert}: CGC says search activity has exceeded its limits`);
@@ -200,18 +202,38 @@ async function lookupOne(page, cert) {
   return record;
 }
 
+/**
+ * Fetch the cover scans.
+ *
+ * A failed image must never cost the record. S3 dropped a connection mid-batch
+ * and the exception unwound the whole comic — a fully scraped record with a
+ * grade, a census and repaired credits was discarded because one picture did not
+ * arrive. Images can be refetched later; a lost record has to be looked up again
+ * against a rate-limited service.
+ */
 async function downloadImages(page, record, imageDir) {
   const saved = {};
   for (const [side, url] of Object.entries(record.images)) {
     if (!url) continue;
     const file = `${record.cert}_${side === 'front' ? 'OBV' : 'REV'}.jpg`;
     const dest = path.join(imageDir, file);
-    if (!existsSync(dest)) {
-      const res = await page.request.get(url);
-      if (res.ok()) await writeFile(dest, Buffer.from(await res.body()));
-      else console.warn(`  ! could not download ${side} scan for ${record.cert}`);
+
+    if (existsSync(dest)) {
+      saved[side] = file;
+      continue;
     }
-    saved[side] = file;
+
+    try {
+      const res = await page.request.get(url);
+      if (res.ok()) {
+        await writeFile(dest, Buffer.from(await res.body()));
+        saved[side] = file;
+      } else {
+        console.warn(`  ! ${side} scan returned ${res.status()} — run \`npm run images\` later`);
+      }
+    } catch (err) {
+      console.warn(`  ! ${side} scan failed (${err.message.slice(0, 40)}) — run \`npm run images\` later`);
+    }
   }
   return saved;
 }

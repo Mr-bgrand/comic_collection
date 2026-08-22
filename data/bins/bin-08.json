@@ -1,0 +1,696 @@
+{
+  "bin": "08",
+  "title": "Bin 08",
+  "location": "",
+  "comics": [
+    {
+      "cert": "4245413019",
+      "title": "Venom: Lethal Protector II",
+      "issue": "1",
+      "issueDate": "5/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Ross Variant Cover",
+      "grade": "9.6",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-05-02",
+      "labelCategory": "Universal",
+      "artComments": "David Michelinie story\nFarid Karami art\nAlex Ross cover",
+      "keyComments": "\"Timeless\" variant cover.\n\"Virgin\" cover.",
+      "population": {
+        "atGrade": 80,
+        "higher": 749,
+        "topPop": false
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T07:20:44.744Z",
+      "fmv": {
+        "value": 32,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": 42,
+        "avg365": 40,
+        "sold365": 5,
+        "url": "https://gocollect.com/app/comic/venom-lethal-protector-ii-1-of-5-ross-timeless-venom-virg",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T07:23:02.980Z"
+      }
+    },
+    {
+      "cert": "4245413002",
+      "title": "Spider-Gwen: Shadow Clones",
+      "issue": "1",
+      "issueDate": "5/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Variant Edition",
+      "grade": "9.0",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-05-02",
+      "labelCategory": "Universal",
+      "artComments": "Emily Kim story\nKei Zama art\nBrian Stelfreeze cover",
+      "population": {
+        "atGrade": 1,
+        "higher": 19,
+        "topPop": false
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T07:20:47.728Z",
+      "fmv": {
+        "value": null,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/spider-gwen-shadow-clones-1-1-25-stelfreeze-variant-cover",
+        "status": "no-sales",
+        "fetchedAt": "2026-08-22T07:23:09.519Z"
+      }
+    },
+    {
+      "cert": "4245413020",
+      "title": "Strange Academy: Finals",
+      "issue": "5",
+      "issueDate": "5/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-05-02",
+      "labelCategory": "Universal",
+      "artComments": "Skottie Young story\nHumberto Ramos cover & art",
+      "keyComments": "Strange Academy #23",
+      "population": {
+        "atGrade": 12,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T07:20:50.630Z",
+      "fmv": {
+        "value": 16,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/strange-academy-finals-5",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T07:23:16.479Z"
+      }
+    },
+    {
+      "cert": "4043081003",
+      "title": "Thor: God of Thunder",
+      "issue": "1",
+      "issueDate": "1/13",
+      "issueYear": "2013",
+      "publisher": "Marvel Comics",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-06-09",
+      "labelCategory": "Universal",
+      "artComments": "Jason Aaron story\nEsad Ribic cover & art",
+      "population": {
+        "atGrade": 204,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T07:20:53.533Z",
+      "fmv": {
+        "value": 55,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": 90,
+        "avg365": 58,
+        "sold365": 5,
+        "url": "https://gocollect.com/app/comic/thor-god-of-thunder-1",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T07:23:23.531Z"
+      }
+    },
+    {
+      "cert": "4093374001",
+      "title": "Marvel Comics Presents",
+      "issue": "66",
+      "issueDate": "1990",
+      "issueYear": "1990",
+      "publisher": "Marvel Comics",
+      "grade": "9.4",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-07-18",
+      "labelCategory": "Universal",
+      "artComments": "Howard Mackie, Steve Gerber,\nRobert Denatale & Sholly Fisch stories\nTom Morgon & Cindy Martin art",
+      "keyComments": "Jim Valentino wraparound cover.",
+      "population": {
+        "atGrade": 6,
+        "higher": 40,
+        "topPop": false
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T07:20:56.440Z",
+      "fmv": {
+        "value": 26,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/marvel-comics-presents-66",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T07:23:30.385Z"
+      }
+    },
+    {
+      "cert": "4050041016",
+      "title": "Marvel Age Annual",
+      "issue": "4",
+      "issueDate": "1988",
+      "issueYear": "1988",
+      "publisher": "Marvel Comics",
+      "grade": "9.2",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-06-16",
+      "labelCategory": "Universal",
+      "artComments": "Arthur Adams cover",
+      "population": {
+        "atGrade": 5,
+        "higher": 84,
+        "topPop": false
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T07:20:59.342Z",
+      "fmv": {
+        "value": 38,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/marvel-age-annual-4",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T07:23:37.549Z"
+      }
+    },
+    {
+      "cert": "4177707004",
+      "title": "Deadpool",
+      "issue": "1",
+      "issueDate": "1/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Hustl. Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-01-09",
+      "labelCategory": "Universal",
+      "artComments": "Alyssa Wong story\nMartin Coccolo art\nKen Lashley cover",
+      "keyComments": "\"Notorious B.I.G.\" variant cover.",
+      "population": {
+        "atGrade": 395,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T07:21:02.242Z",
+      "fmv": {
+        "value": 130,
+        "currency": "USD",
+        "avg30": 91,
+        "avg90": 141,
+        "avg365": 164,
+        "sold365": 4,
+        "url": "https://gocollect.com/app/comic/deadpool-1-13",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T07:23:44.473Z"
+      }
+    },
+    {
+      "cert": "4093374003",
+      "title": "Dark Ages",
+      "issue": "5",
+      "issueDate": "4/22",
+      "issueYear": "2022",
+      "publisher": "Marvel Comics",
+      "variant": "Momoko Variant Cover",
+      "grade": "9.4",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-07-18",
+      "labelCategory": "Universal",
+      "artComments": "Tom Taylor story\nIban Coello art\nPeach Momoko cover",
+      "keyComments": "\"Stormbreakers\" variant cover.",
+      "population": {
+        "atGrade": 1,
+        "higher": 89,
+        "topPop": false
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T07:21:05.151Z",
+      "fmv": {
+        "value": 42,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/dark-ages-5-momoko-stormbreaker-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T07:23:51.728Z"
+      }
+    },
+    {
+      "cert": "3783476021",
+      "title": "Vengeance",
+      "issue": "1",
+      "issueDate": "9/11",
+      "issueYear": "2011",
+      "publisher": "Marvel Comics",
+      "grade": "9.4",
+      "pageQuality": "WHITE",
+      "gradeDate": "2021-04-05",
+      "labelCategory": "Universal",
+      "artComments": "Joe Casey story\nNick Dragotta art\nGabriele Dell'Otto cover",
+      "keyComments": "1st app. of Ultimate Nullifier, Mako,\nRadioactive Kid, the new Black Knight &\nthe new Miss America (America Chavez).",
+      "population": {
+        "atGrade": 360,
+        "higher": 1241,
+        "topPop": false
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T07:21:08.040Z",
+      "fmv": {
+        "value": 75,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": 61,
+        "avg365": 58,
+        "sold365": 7,
+        "url": "https://gocollect.com/app/comic/vengeance-1",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T07:23:59.304Z"
+      }
+    },
+    {
+      "cert": "4198680002",
+      "title": "Ninja Funk",
+      "issue": "1",
+      "issueDate": "11/22",
+      "issueYear": "2022",
+      "publisher": "Whatnot Publishing",
+      "variant": "Kirkham \"Virgin\" Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-02-08",
+      "labelCategory": "Universal",
+      "artComments": "Steve Schuitt & JPG story\nAlex Riegel art\nTyler Kirkham cover",
+      "keyComments": "Spider-Man #1 (8/90) cover homage.",
+      "population": {
+        "atGrade": 6,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T07:21:10.952Z",
+      "fmv": {
+        "value": 80,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/ninja-funk-1-8",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T07:24:05.915Z"
+      }
+    },
+    {
+      "cert": "4198680003",
+      "title": "Ninja Funk",
+      "issue": "1",
+      "issueDate": "11/22",
+      "issueYear": "2022",
+      "publisher": "Whatnot Publishing",
+      "variant": "Spectral Comics Convention Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-02-08",
+      "labelCategory": "Universal",
+      "artComments": "Steve Schuitt & JPG story\nAlex Riegel art\nTyler Kirkham cover",
+      "keyComments": "New York Comic Con 2022 exclusive.\nSpider-Man #1 (8/90) cover homage.\nPartial sketch \"virgin\" cover.",
+      "population": {
+        "atGrade": 6,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T07:21:13.845Z",
+      "fmv": {
+        "value": null,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/ninja-funk-1-5",
+        "status": "no-sales",
+        "fetchedAt": "2026-08-22T07:24:12.204Z"
+      }
+    },
+    {
+      "cert": "4273634007",
+      "title": "w0rldtr33",
+      "issue": "1",
+      "issueDate": "4/23",
+      "issueYear": "2023",
+      "publisher": "Image Comics",
+      "variant": "Spectral Comics Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-06-16",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nFernando Blanco art\nHuy Dinh cover",
+      "population": {
+        "atGrade": 40,
+        "higher": 2,
+        "topPop": false
+      },
+      "images": {
+        "front": "4273634007_OBV.jpg",
+        "back": "4273634007_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-22T07:21:16.755Z",
+      "fmv": {
+        "value": 120,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/w0rldtr33-1",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T07:24:18.601Z"
+      }
+    },
+    {
+      "cert": "4089841007",
+      "title": "Wretches",
+      "issue": "1",
+      "issueDate": "2022",
+      "issueYear": "2022",
+      "publisher": "Scout Comics",
+      "variant": "Momoko Metal Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-08-08",
+      "labelCategory": "Universal",
+      "artComments": "James E. Roche story\nSalomon Farias art\nPeach Momoko cover",
+      "keyComments": "ComicTom101 & MillGeek Comics exclusive.\n\"Virgin\" cover.",
+      "population": {
+        "atGrade": 7,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T07:21:20.344Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-22T07:24:24.798Z"
+      }
+    },
+    {
+      "cert": "4245413009",
+      "title": "Darkwing Duck",
+      "issue": "1",
+      "issueDate": "2023",
+      "issueYear": "2023",
+      "publisher": "Dynamite Entertainment",
+      "variant": "Parsons \"Virgin\" Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-05-02",
+      "labelCategory": "Universal",
+      "artComments": "Amanda Deibert story\nCarlo Lauro art\nCasey Parsons cover",
+      "population": {
+        "atGrade": 9,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T07:21:26.284Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-22T07:24:30.868Z"
+      }
+    },
+    {
+      "cert": "4091181006",
+      "title": "Donatello, Teenage Mutant Ninja Turtle",
+      "issue": "1",
+      "issueDate": "8/86",
+      "issueYear": "1986",
+      "publisher": "Mirage Studios",
+      "grade": "9.2",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-07-14",
+      "labelCategory": "Universal",
+      "artComments": "Kevin Eastman & Peter Laird\nstory, cover & art",
+      "keyComments": "Pin-up by Stan Sakai.\nWraparound cover.",
+      "population": {
+        "atGrade": 94,
+        "higher": 763,
+        "topPop": false
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T07:21:29.198Z",
+      "fmv": {
+        "value": 55,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 65,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/donatello-teenage-mutant-ninja-turtle-1",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T07:24:37.826Z"
+      }
+    },
+    {
+      "cert": "4091181005",
+      "title": "Michaelangelo, Teenage Mutant Ninja Turtle",
+      "issue": "1",
+      "issueDate": "1986",
+      "issueYear": "1986",
+      "publisher": "Mirage Studios",
+      "grade": "8.0",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-07-14",
+      "labelCategory": "Universal",
+      "artComments": "Kevin Eastman & Peter Laird story & art\nKevin Eastman cover",
+      "keyComments": "Wraparound cover.",
+      "population": {
+        "atGrade": 20,
+        "higher": 789,
+        "topPop": false
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T07:21:32.105Z",
+      "fmv": {
+        "value": 40,
+        "currency": "USD",
+        "avg30": 45,
+        "avg90": 45,
+        "avg365": 45,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/michaelangelo-teenage-mutant-ninja-turtle-1",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T07:24:44.827Z"
+      }
+    },
+    {
+      "cert": "4177706002",
+      "title": "Do You Pooh?",
+      "issue": "1",
+      "issueDate": "2022",
+      "issueYear": "2022",
+      "publisher": "Counterpoint",
+      "variant": "Desjardins Green Crystal Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-12-29",
+      "labelCategory": "Universal",
+      "artComments": "Terry Sala & Marat Mychaels story\nDietrich Smith & Marat Mychaels art\nJohnny Desjardins cover",
+      "keyComments": "New York Comic Con exclusive.",
+      "population": {
+        "atGrade": 2,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T07:21:35.005Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-22T07:24:50.986Z"
+      }
+    },
+    {
+      "cert": "4177706003",
+      "title": "Do You Pooh?",
+      "issue": "1",
+      "issueDate": "2022",
+      "issueYear": "2022",
+      "publisher": "Counterpoint",
+      "variant": "Whatnot NYCC Foil Edition A",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-12-29",
+      "labelCategory": "Universal",
+      "artComments": "Terry Sala & Marat Mychaels story\nDietrich Smith & Marat Mychaels art\nMarat Mychaels cover",
+      "keyComments": "Multiple foil variants exist.",
+      "population": {
+        "atGrade": 3,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T07:21:37.882Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-22T07:24:57.116Z"
+      }
+    },
+    {
+      "cert": "4424144002",
+      "title": "Tales of the Titans",
+      "issue": "1",
+      "issueDate": "9/23",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "East Side Comics \"Virgin\" Edition",
+      "grade": "9.6",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-05-13",
+      "labelCategory": "Universal",
+      "artComments": "Shannon Hale & Dean Hale story\nJavier Rodríguez art\nWill Jack cover",
+      "population": {
+        "atGrade": 3,
+        "higher": 66,
+        "topPop": false
+      },
+      "images": {
+        "front": "4424144002_OBV.jpg",
+        "back": "4424144002_REV.jpg"
+      },
+      "repairs": [
+        [
+          "Rodr�guez",
+          "Rodríguez"
+        ]
+      ],
+      "fetchedAt": "2026-08-22T07:21:40.797Z",
+      "fmv": {
+        "value": null,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/tales-of-the-titans-1-east-side-comics-virgin-edition",
+        "status": "no-sales",
+        "fetchedAt": "2026-08-22T07:25:03.595Z"
+      }
+    },
+    {
+      "cert": "4053428001",
+      "title": "Captain America",
+      "issue": "323",
+      "issueDate": "11/86",
+      "issueYear": "1986",
+      "publisher": "Marvel Comics",
+      "grade": "9.6",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-06-23",
+      "labelCategory": "Universal",
+      "artComments": "Mark Gruenwald story\nPaul Neary & John Beatty art\nMike Zeck & Joe Rubinstein cover",
+      "keyComments": "1st appearance of the new\nSuper-Patriot (John Walker) &\nBattlestar (Lemar Hoskins).",
+      "population": {
+        "atGrade": 305,
+        "higher": 282,
+        "topPop": false
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T07:22:41.753Z",
+      "fmv": {
+        "value": 80,
+        "currency": "USD",
+        "avg30": 52,
+        "avg90": 80,
+        "avg365": 66,
+        "sold365": 10,
+        "url": "https://gocollect.com/app/comic/captain-america-323",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T07:25:11.295Z"
+      }
+    },
+    {
+      "cert": "4273634005",
+      "title": "Darkwing Duck",
+      "issue": "1",
+      "issueDate": "2023",
+      "issueYear": "2023",
+      "publisher": "Dynamite Entertainment",
+      "variant": "Parsons Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-06-16",
+      "labelCategory": "Universal",
+      "artComments": "Amanda Deibert story\nCarlo Lauro art\nCasey Parsons cover",
+      "population": {
+        "atGrade": 7,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4273634005_OBV.jpg",
+        "back": "4273634005_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-22T07:22:44.658Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-22T07:25:17.752Z"
+      }
+    }
+  ],
+  "updated": "2026-08-22"
+}
