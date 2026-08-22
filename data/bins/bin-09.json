@@ -1,0 +1,867 @@
+{
+  "bin": "09",
+  "title": "Bin 09",
+  "location": "",
+  "comics": [
+    {
+      "cert": "4245413010",
+      "title": "Batman",
+      "issue": "423",
+      "issueDate": "1/23",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "Fan Expo Special Foil Edition A",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-05-02",
+      "labelCategory": "Universal",
+      "artComments": "Todd McFarlane cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 438,
+        "higher": 11,
+        "topPop": false
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T19:49:48.744Z",
+      "fmv": {
+        "value": 110,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": 109,
+        "avg365": 98,
+        "sold365": 20,
+        "url": "https://gocollect.com/app/comic/batman-423-fan-expo-special-foil-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T19:51:33.320Z"
+      }
+    },
+    {
+      "cert": "4198680005",
+      "title": "Harley Quinn",
+      "issue": "24",
+      "issueDate": "1/23",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "Li Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-02-08",
+      "labelCategory": "Universal",
+      "artComments": "Stephanie Phillips story\nMatteo Lolli art\nLeirix Li cover",
+      "population": {
+        "atGrade": 25,
+        "higher": 1,
+        "topPop": false
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T19:49:51.738Z",
+      "fmv": {
+        "value": 70,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/harley-quinn-24-cvr-d-inc-1-25-lesley-leirix-li-card-stock-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T19:51:39.907Z"
+      }
+    },
+    {
+      "cert": "4245413013",
+      "title": "Harley Quinn",
+      "issue": "24",
+      "issueDate": "1/23",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "KRS Comics Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-05-02",
+      "labelCategory": "Universal",
+      "artComments": "Stephanie Phillips story\nMatteo Lolli art\nWarren Louw cover",
+      "population": {
+        "atGrade": 290,
+        "higher": 23,
+        "topPop": false
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T19:49:54.651Z",
+      "fmv": {
+        "value": 90,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 84,
+        "sold365": 7,
+        "url": "https://gocollect.com/app/comic/harley-quinn-24-5",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T19:51:46.750Z"
+      }
+    },
+    {
+      "cert": "4137945003",
+      "title": "Harley Quinn",
+      "issue": "16",
+      "issueDate": "8/22",
+      "issueYear": "2022",
+      "publisher": "DC Comics",
+      "variant": "Comic Mint Convention Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-10-11",
+      "labelCategory": "Universal",
+      "artComments": "Stephanie Phillips story\nRiley Rossmo art\nSozomaika cover",
+      "keyComments": "\"Virgin\" foil cover.",
+      "population": {
+        "atGrade": 80,
+        "higher": 1,
+        "topPop": false
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T19:49:57.552Z",
+      "fmv": {
+        "value": 55,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 48,
+        "sold365": 3,
+        "url": "https://gocollect.com/app/comic/harley-quinn-16-comic-mint-convention-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T19:51:53.223Z"
+      }
+    },
+    {
+      "cert": "4198680006",
+      "title": "Harley Quinn",
+      "issue": "24",
+      "issueDate": "1/23",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "KRS Comics \"Virgin\" Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-02-08",
+      "labelCategory": "Universal",
+      "artComments": "Stephanie Phillips story\nMatteo Lolli art\nWarren Louw cover",
+      "population": {
+        "atGrade": 291,
+        "higher": 3,
+        "topPop": false
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T19:50:00.585Z",
+      "fmv": {
+        "value": 140,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 131,
+        "sold365": 5,
+        "url": "https://gocollect.com/app/comic/harley-quinn-24-4",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T19:51:59.997Z"
+      }
+    },
+    {
+      "cert": "4273634006",
+      "title": "Batman & the Joker: The Deadly Duo",
+      "issue": "7",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "Jock Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-06-16",
+      "labelCategory": "Universal",
+      "artComments": "Marc Silvestri story & art\nJock cover",
+      "population": {
+        "atGrade": 136,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4273634006_OBV.jpg",
+        "back": "4273634006_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-22T19:50:03.519Z",
+      "fmv": {
+        "value": 48,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": 70,
+        "avg365": 52,
+        "sold365": 3,
+        "url": "https://gocollect.com/app/comic/batman-the-joker-the-deadly-duo-7-of-7-cvr-e-jock-card-stock-var-mr",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T19:52:07.539Z"
+      }
+    },
+    {
+      "cert": "4137945005",
+      "title": "Detective Comics",
+      "issue": "880",
+      "issueDate": "3/19",
+      "issueYear": "2019",
+      "publisher": "Editorial Televisa",
+      "variant": "Mexican Edition",
+      "grade": "9.0",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-10-11",
+      "labelCategory": "Universal",
+      "artComments": "Scott Snyder story\nJock cover & art",
+      "keyComments": "Red foil cover.",
+      "population": {
+        "atGrade": 6,
+        "higher": 21,
+        "topPop": false
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T19:50:07.126Z",
+      "fmv": {
+        "value": 30,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/detective-comics-880-foil-edition-2",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T19:52:13.974Z"
+      }
+    },
+    {
+      "cert": "4177706001",
+      "title": "Batman Beyond",
+      "issue": "1",
+      "issueDate": "11/22",
+      "issueYear": "2022",
+      "publisher": "DC Comics",
+      "variant": "Dell'Otto Convention Foil Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-12-29",
+      "labelCategory": "Universal",
+      "artComments": "Gabriele Dell'Otto cover",
+      "keyComments": "Reprints Batman Beyond #1 (3/99)\nCarnivore Comics, ComicTom101, Whatnot\n& NYCC exclusive. \"Virgin\" cover.",
+      "population": {
+        "atGrade": 104,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T19:50:10.070Z",
+      "fmv": {
+        "value": 55,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 75,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/batman-beyond-1-dellotto-convention-foil-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T19:52:20.443Z"
+      }
+    },
+    {
+      "cert": "4089841001",
+      "title": "Catwoman",
+      "issue": "43",
+      "issueDate": "7/22",
+      "issueYear": "2022",
+      "publisher": "DC Comics",
+      "variant": "Besch Foil Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2022-08-08",
+      "labelCategory": "Universal",
+      "artComments": "Tini Howard story\nBengal art\nRose Besch cover",
+      "keyComments": "1st appearance of Red Claw in DC\nUniverse continuity. Frankie's Comics &\nGolden Apple Comics exclusive.",
+      "population": {
+        "atGrade": 39,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T19:50:12.975Z",
+      "fmv": {
+        "value": 32,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/catwoman-43-3",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T19:52:27.160Z"
+      }
+    },
+    {
+      "cert": "4245413011",
+      "title": "Catwoman",
+      "issue": "52",
+      "issueDate": "4/23",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "KRS Comics Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-05-02",
+      "labelCategory": "Universal",
+      "artComments": "Tini Howard story\nSami Basri & Vicente Cifuentes art\nWill Jack cover",
+      "population": {
+        "atGrade": 67,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T19:50:15.862Z",
+      "fmv": {
+        "value": 65,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": 69,
+        "avg365": 67,
+        "sold365": 2,
+        "url": "https://gocollect.com/app/comic/catwoman-52-krs-comics-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T19:52:33.728Z"
+      }
+    },
+    {
+      "cert": "4245413014",
+      "title": "Superman: Facsimile Edition",
+      "issue": "1",
+      "issueDate": "2022",
+      "issueYear": "2022",
+      "publisher": "DC Comics",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-05-02",
+      "labelCategory": "Universal",
+      "artComments": "Joe Shuster cover",
+      "keyComments": "Reprints Superman #1 (Summer 1939)",
+      "population": {
+        "atGrade": 427,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T19:50:18.771Z",
+      "fmv": {
+        "value": 80,
+        "currency": "USD",
+        "avg30": 99,
+        "avg90": 89,
+        "avg365": 87,
+        "sold365": 29,
+        "url": "https://gocollect.com/app/comic/superman-1-facsimile-edition-2022",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T19:52:40.815Z"
+      }
+    },
+    {
+      "cert": "4245413023",
+      "title": "Flash: Facsimile Edition",
+      "issue": "123",
+      "issueDate": "2022",
+      "issueYear": "2022",
+      "publisher": "DC Comics",
+      "variant": "Comic Mint Convention Edition",
+      "grade": "9.6",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-05-02",
+      "labelCategory": "Universal",
+      "artComments": "Carmine Infantino &\nMurphy Anderson cover",
+      "keyComments": "Reprints Flash #123 (9/61)\nFoil cover.",
+      "population": {
+        "atGrade": 4,
+        "higher": 175,
+        "topPop": false
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T19:50:21.662Z",
+      "fmv": {
+        "value": null,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/the-flash-123-facsimile-edition-comic-mint-convention-edition",
+        "status": "no-sales",
+        "fetchedAt": "2026-08-22T19:52:47.472Z"
+      }
+    },
+    {
+      "cert": "4300437011",
+      "title": "Amazing Spider-Man",
+      "issue": "25",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Soffritti Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-08-03",
+      "labelCategory": "Universal",
+      "artComments": "Zeb Wells & Rainbow Rowell stories\nKaare Andrews, John Romita Jr.,\nScott Hanna & Álvaro López art",
+      "keyComments": "Donald Soffritti cover\nAmazing Spider-Man #919\n\"Disney 100\" variant cover.",
+      "population": {
+        "atGrade": 453,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4300437011_OBV.jpg",
+        "back": "4300437011_REV.jpg"
+      },
+      "repairs": [
+        [
+          "�lvaro",
+          "Álvaro"
+        ],
+        [
+          "L�pez",
+          "López"
+        ]
+      ],
+      "fetchedAt": "2026-08-22T19:50:24.591Z",
+      "fmv": {
+        "value": 44,
+        "currency": "USD",
+        "avg30": 45,
+        "avg90": 40,
+        "avg365": 44,
+        "sold365": 8,
+        "url": "https://gocollect.com/app/comic/amazing-spider-man-25-soffritti-disney100-new-avengers-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T19:52:54.070Z"
+      }
+    },
+    {
+      "cert": "4177707003",
+      "title": "Miles Morales: Spider-Man",
+      "issue": "42",
+      "issueDate": "11/22",
+      "issueYear": "2022",
+      "publisher": "Marvel Comics",
+      "variant": "KRS Comics Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-01-09",
+      "labelCategory": "Universal",
+      "artComments": "Saladin Ahmed story\nCarmen Carnero art\nIvan Tao cover",
+      "keyComments": "Ultimate Spider-Man #282\nLast issue.",
+      "population": {
+        "atGrade": 78,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "repairs": [],
+      "fetchedAt": "2026-08-22T19:50:28.101Z",
+      "fmv": {
+        "value": 55,
+        "currency": "USD",
+        "avg30": 76,
+        "avg90": 78,
+        "avg365": 61,
+        "sold365": 6,
+        "url": "https://gocollect.com/app/comic/miles-morales-spider-man-42-2",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T19:53:00.508Z"
+      }
+    },
+    {
+      "cert": "4300437003",
+      "title": "Batgirls",
+      "issue": "16",
+      "issueDate": "5/23",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-08-03",
+      "labelCategory": "Universal",
+      "artComments": "Becky Cloonan & Michael W. Conrad story\nNeil Googe & Geraldo Borges art\nDavid Marquez cover",
+      "population": {
+        "atGrade": 36,
+        "higher": 3,
+        "topPop": false
+      },
+      "images": {
+        "front": "4300437003_OBV.jpg",
+        "back": "4300437003_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-22T19:50:31.020Z",
+      "fmv": {
+        "value": 44,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/batgirls-16-cvr-b-david-marquez-card-stock-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T19:53:07.833Z"
+      }
+    },
+    {
+      "cert": "4300437012",
+      "title": "Amazing Spider-Man",
+      "issue": "23",
+      "issueDate": "6/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Pastrovicchio Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-08-03",
+      "labelCategory": "Universal",
+      "artComments": "Zeb Wells story\nJohn Romita Jr. & Scott Hanna art\nLorenzo Pastrovicchio cover",
+      "keyComments": "Amazing Spider-Man #917\n\"Disney 100\" variant cover.\nInfinity Gauntlet #1 cover homage.",
+      "population": {
+        "atGrade": 798,
+        "higher": 7,
+        "topPop": false
+      },
+      "images": {
+        "front": "4300437012_OBV.jpg",
+        "back": "4300437012_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-22T19:50:34.222Z",
+      "fmv": {
+        "value": 40,
+        "currency": "USD",
+        "avg30": 40,
+        "avg90": 41,
+        "avg365": 45,
+        "sold365": 23,
+        "url": "https://gocollect.com/app/comic/amazing-spider-man-23-disney100-infinity-gauntlet-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T19:53:14.520Z"
+      }
+    },
+    {
+      "cert": "4300437008",
+      "title": "Power Girl Special",
+      "issue": "1",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-08-03",
+      "labelCategory": "Universal",
+      "artComments": "Leah Williams & Joanne Starer stories\nMarguerite Sauvage & Natacha Bustos art\nStanley \"Artgerm\" Lau cover",
+      "population": {
+        "atGrade": 342,
+        "higher": 1,
+        "topPop": false
+      },
+      "images": {
+        "front": "4300437008_OBV.jpg",
+        "back": "4300437008_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-22T19:50:37.381Z",
+      "fmv": {
+        "value": 55,
+        "currency": "USD",
+        "avg30": 68,
+        "avg90": 62,
+        "avg365": 52,
+        "sold365": 24,
+        "url": "https://gocollect.com/app/comic/power-girl-special-1-one-shot-cvr-b-stanley-artgerm-lau-card-stock-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T19:53:21.284Z"
+      }
+    },
+    {
+      "cert": "4300437009",
+      "title": "Amazing Spider-Man",
+      "issue": "25",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Young Variant Cover",
+      "grade": "9.6",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-08-03",
+      "labelCategory": "Universal",
+      "artComments": "Zeb Wells & Rainbow Rowell stories\nKaare Andrews, John Romita Jr.,\nScott Hanna & Álvaro López art",
+      "keyComments": "Skottie Young cover\nAmazing Spider-Man #919",
+      "population": {
+        "atGrade": 15,
+        "higher": 104,
+        "topPop": false
+      },
+      "images": {
+        "front": "4300437009_OBV.jpg",
+        "back": "4300437009_REV.jpg"
+      },
+      "repairs": [
+        [
+          "�lvaro",
+          "Álvaro"
+        ],
+        [
+          "L�pez",
+          "López"
+        ]
+      ],
+      "fetchedAt": "2026-08-22T19:50:40.522Z",
+      "fmv": {
+        "value": 30,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/amazing-spider-man-25-young-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T19:53:27.836Z"
+      }
+    },
+    {
+      "cert": "4300437010",
+      "title": "Amazing Spider-Man",
+      "issue": "23",
+      "issueDate": "6/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Nakayama \"Virgin\" Edition",
+      "grade": "9.6",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-08-03",
+      "labelCategory": "Universal",
+      "artComments": "Zeb Wells story\nJohn Romita Jr. & Scott Hanna art\nDavid Nakayama cover",
+      "keyComments": "Amazing Spider-Man #917",
+      "population": {
+        "atGrade": 13,
+        "higher": 70,
+        "topPop": false
+      },
+      "images": {
+        "front": "4300437010_OBV.jpg",
+        "back": "4300437010_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-22T19:50:43.680Z",
+      "fmv": {
+        "value": 34,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": null,
+        "sold365": null,
+        "url": "https://gocollect.com/app/comic/amazing-spider-man-23-nakayama-virgin-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T19:53:34.224Z"
+      }
+    },
+    {
+      "cert": "4300437013",
+      "title": "Harley Quinn",
+      "issue": "30",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "East Side Comics Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-08-03",
+      "labelCategory": "Universal",
+      "artComments": "Tini Howard & Nicole Maines stories\nSweeney Boo & Mindy Lee art\nSeb McKinnon cover",
+      "population": {
+        "atGrade": 62,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4300437013_OBV.jpg",
+        "back": "4300437013_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-22T19:50:46.797Z",
+      "fmv": {
+        "value": 55,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 31,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/harley-quinn-30-east-side-comics-edition",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T19:53:40.794Z"
+      }
+    },
+    {
+      "cert": "4300437007",
+      "title": "Wonder Woman",
+      "issue": "799",
+      "issueDate": "6/23",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "Rahzzah Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-08-03",
+      "labelCategory": "Universal",
+      "artComments": "Michael W. Conrad & Becky Cloonan story\nMartinez, Morales, Hetrick, Ferreyra,\nT. Dodson, R. Dodson & Ganucheau art",
+      "keyComments": "Rahzzah cover",
+      "population": {
+        "atGrade": 88,
+        "higher": 1,
+        "topPop": false
+      },
+      "images": {
+        "front": "4300437007_OBV.jpg",
+        "back": "4300437007_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-22T19:50:49.973Z",
+      "fmv": {
+        "value": 40,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 47,
+        "sold365": 2,
+        "url": "https://gocollect.com/app/comic/wonder-woman-799-cvr-b-rahzzah-card-stock-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T19:53:47.661Z"
+      }
+    },
+    {
+      "cert": "4300437006",
+      "title": "Edge of Spider-Verse",
+      "issue": "1",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Young Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-08-03",
+      "labelCategory": "Universal",
+      "artComments": "Karla Pacheco & Zander Cannon stories\nPere Pérez & Guillermo Sanna art\nSkottie Young cover",
+      "population": {
+        "atGrade": 184,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4300437006_OBV.jpg",
+        "back": "4300437006_REV.jpg"
+      },
+      "repairs": [
+        [
+          "P�rez",
+          "Pérez"
+        ]
+      ],
+      "fetchedAt": "2026-08-22T19:50:53.168Z",
+      "fmv": {
+        "value": 32,
+        "currency": "USD",
+        "avg30": 42,
+        "avg90": 42,
+        "avg365": 46,
+        "sold365": 2,
+        "url": "https://gocollect.com/app/comic/edge-of-spider-verse-1-of-4-young-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T19:53:54.150Z"
+      }
+    },
+    {
+      "cert": "4300437005",
+      "title": "Groot",
+      "issue": "1",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Young Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-08-03",
+      "labelCategory": "Universal",
+      "artComments": "Dan Abnett story\nDamian Couceiro art\nSkottie Young cover",
+      "population": {
+        "atGrade": 51,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4300437005_OBV.jpg",
+        "back": "4300437005_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-22T19:50:56.321Z",
+      "fmv": {
+        "value": 36,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": 70,
+        "avg365": 56,
+        "sold365": 2,
+        "url": "https://gocollect.com/app/comic/groot-1-of-4-young-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-22T19:54:01.015Z"
+      }
+    },
+    {
+      "cert": "4300437004",
+      "title": "Silk",
+      "issue": "1",
+      "issueDate": "3/22",
+      "issueYear": "2022",
+      "publisher": "Marvel Comics",
+      "variant": "Vault Comix \"Virgin\" Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-08-03",
+      "labelCategory": "Universal",
+      "artComments": "Emily Kim story\nTakeshi Miyazawa art\nRian Gonzales cover",
+      "keyComments": "Silk #32",
+      "population": {
+        "atGrade": 4,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {
+        "front": "4300437004_OBV.jpg",
+        "back": "4300437004_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-22T19:50:59.431Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-22T19:54:06.943Z"
+      }
+    }
+  ],
+  "updated": "2026-08-22"
+}

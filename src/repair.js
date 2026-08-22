@@ -25,7 +25,7 @@ export const KNOWN_NAMES = [
   // Confirmed damaged in live CGC data
   'Grønbekk', 'Ramón', 'Yasmín', 'Montañez', 'Moisés', 'Kämpe', 'Acuña', 'Belén', 'Colón',
   // Frequent comics credits with non-ASCII characters
-  'Pérez', 'Rodríguez', 'Gómez', 'Hernández', 'Sánchez', 'Fernández',
+  'Pérez', 'Rodríguez', 'Gómez', 'Hernández', 'Sánchez', 'Fernández', 'López', 'Álvaro',
   'Martínez', 'Ramírez', 'Álvarez', 'Díaz', 'Núñez', 'Jiménez',
   'Ibáñez', 'Muñoz', 'Vázquez', 'Domínguez', 'Peña', 'Ríos',
   'José', 'Martín', 'Adrián', 'Andrés', 'Jesús', 'Óscar', 'Rubén',

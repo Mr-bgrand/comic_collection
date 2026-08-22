@@ -785,7 +785,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "2691440008_OBV.jpg",
+        "back": "2691440008_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-21T05:06:16.598Z",
       "fmv": {
@@ -798,7 +801,8 @@
         "url": "https://gocollect.com/app/comic/revolution-1-blank-sketch-cover",
         "status": "no-sales",
         "fetchedAt": "2026-08-21T05:06:44.911Z"
-      }
+      },
+      "imageSource": "owner"
     }
   ],
   "updated": "2026-08-21"

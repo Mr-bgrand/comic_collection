@@ -536,7 +536,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4250038007_OBV.jpg",
+        "back": "4250038007_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-21T05:05:04.265Z",
       "fmv": {
@@ -549,7 +552,8 @@
         "url": "https://gocollect.com/app/comic/amazing-spider-man-19-east-side-comics-virgin-edition",
         "status": "priced",
         "fetchedAt": "2026-08-21T05:08:32.844Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4357017002",
