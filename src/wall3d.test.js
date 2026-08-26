@@ -58,7 +58,7 @@ test('vault paths climb two levels: it lives at wall/3d/', () => {
   );
   assert.equal(payload.comics[0].href, '../../bin/01/');
   assert.ok(html.includes("const COVERS = '../../covers/'"));
-  assert.ok(html.includes("const MEDIUM = '../../medium/'"));
+  assert.ok(html.includes("const FULL = '../../images/'"));
   assert.ok(html.includes('href="../"'), 'links back to the flat wall');
 });
 

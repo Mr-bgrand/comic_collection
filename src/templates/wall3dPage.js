@@ -358,7 +358,7 @@ const DATA = JSON.parse(document.getElementById('wall-data').textContent);
 const comics = DATA.comics;
 
 const COVERS = '../../covers/';
-const MEDIUM = '../../medium/';
+const FULL = '../../images/';
 
 // Real CGC slab: 6.75 x 10.625 x 0.6 inches. Kept to scale, width = 1.
 const SLAB_W = 1;
@@ -450,12 +450,13 @@ function main() {
     group.add(shell);
 
     let coverMat = null;
+    let cover = null;
     if (d.img) {
       coverMat = new THREE.MeshPhysicalMaterial({
         color: 0x000000, roughness: 0.62, metalness: 0,
         clearcoat: 1, clearcoatRoughness: 0.15, envMapIntensity: 0.5,
       });
-      const cover = new THREE.Mesh(coverGeo, coverMat);
+      cover = new THREE.Mesh(coverGeo, coverMat);
       cover.position.z = SLAB_D / 2 + 0.003;
       group.add(cover);
     }
@@ -469,7 +470,7 @@ function main() {
     slabRoot.add(group);
 
     return {
-      d, group, coverMat,
+      d, group, coverMat, cover, flatMat: null,
       fadeStart: -1, sharp: false,
       fromPos: new THREE.Vector3(), fromQuat: new THREE.Quaternion(), fromScale: 1,
       homePos: new THREE.Vector3(), homeQuat: new THREE.Quaternion(), homeScale: 1,
@@ -756,11 +757,28 @@ function main() {
     controls.enabled = false;
     showReadout(s.d);
     readout.classList.add('held');
-    // Only the slab actually in hand earns the 480px scan.
+
+    /*
+     * In hand, the print is shown as itself: unlit, un-tone-mapped, the scan
+     * and nothing else. Room light on a camera-facing plane reads as a haze
+     * over the art — and on touch there is no pointer torch to cut through it,
+     * so the held cover came up looking bleached. The shell around it stays
+     * physical, so it still reads as a slab; only the paper is exempt.
+     */
+    if (s.cover) {
+      if (!s.flatMat) s.flatMat = new THREE.MeshBasicMaterial({ toneMapped: false });
+      s.flatMat.map = s.coverMat.map;
+      s.flatMat.needsUpdate = true;
+      s.cover.material = s.flatMat;
+    }
+
+    // Only the slab actually in hand earns the original full scan.
     if (s.d.img && !s.sharp) {
       s.sharp = true;
-      texLoader.load(MEDIUM + s.d.img, function (tex) {
-        if (s.coverMat) { s.coverMat.map = prepTexture(tex); s.coverMat.needsUpdate = true; }
+      texLoader.load(FULL + s.d.img, function (tex) {
+        prepTexture(tex);
+        if (s.coverMat) { s.coverMat.map = tex; s.coverMat.needsUpdate = true; }
+        if (s.flatMat) { s.flatMat.map = tex; s.flatMat.needsUpdate = true; }
       });
     }
   }
@@ -769,6 +787,8 @@ function main() {
     if (heldIdx < 0) return;
     const s = slabs[heldIdx];
     s.held = false;
+    // Back on the wall, back under the room's light.
+    if (s.cover) s.cover.material = s.coverMat;
     s.fromPos.copy(s.curPos); s.fromQuat.copy(s.curQuat); s.fromScale = s.curScale;
     s.t0 = clock.now; s.dur = still ? 0 : 700;
     heldIdx = -1;
@@ -916,6 +936,12 @@ function main() {
       ndc.set(Math.sin(t * 0.21) * 0.5, Math.sin(t * 0.13) * 0.35);
       raycaster.setFromCamera(ndc, camera);
       torchGoal.copy(raycaster.ray.origin).addScaledVector(raycaster.ray.direction, 7);
+    }
+    // A held slab owns the light: the torch parks just in front of it, so the
+    // plastic edges glint on touch devices too, where no pointer brings it near.
+    if (heldIdx >= 0) {
+      camera.getWorldDirection(tmpV2);
+      torchGoal.copy(slabs[heldIdx].curPos).addScaledVector(tmpV2, -1.2);
     }
     torch.position.lerp(torchGoal, Math.min(1, dt * 8));
 
