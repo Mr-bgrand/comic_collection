@@ -192,6 +192,17 @@ async function lookupOne(page, cert) {
     })
     .catch(() => {});
 
+  // Cover scans load independently of the record fields, so extracting the
+  // moment the <dt>s exist can read zero images off a book that has them. Wait
+  // for one, but never require it: many books genuinely have no scans, and that
+  // is a real answer rather than a failure.
+  await page
+    .waitForFunction(
+      () => [...document.querySelectorAll('img')].some((im) => /_OBV|_REV/i.test(im.src)),
+      { timeout: 8_000 },
+    )
+    .catch(() => {});
+
   const raw = await page.evaluate(extractInPage);
   const record = normalizeRecord(raw);
   record.fetchedAt = new Date().toISOString();

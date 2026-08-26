@@ -22,7 +22,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4068902009_OBV.jpg",
+        "back": "4068902009_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-21T05:17:18.687Z",
       "fmv": {
@@ -35,7 +38,8 @@
         "url": "https://gocollect.com/app/comic/all-new-ghost-rider-1-young-var",
         "status": "priced",
         "fetchedAt": "2026-08-22T00:22:21.208Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4137946001",
@@ -56,7 +60,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4137946001_OBV.jpg",
+        "back": "4137946001_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-21T05:17:21.649Z",
       "fmv": {
@@ -64,7 +71,8 @@
         "url": null,
         "status": "not-listed",
         "fetchedAt": "2026-08-22T00:22:27.380Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4137946003",
@@ -85,7 +93,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4137946003_OBV.jpg",
+        "back": "4137946003_REV.jpg"
+      },
       "repairs": [
         [
           "Jos�",
@@ -103,7 +114,8 @@
         "url": "https://gocollect.com/app/comic/ghost-rider-vengeance-forever-1-kubert-var",
         "status": "priced",
         "fetchedAt": "2026-08-22T00:22:33.873Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4137946002",
@@ -124,7 +136,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4137946002_OBV.jpg",
+        "back": "4137946002_REV.jpg"
+      },
       "repairs": [
         [
           "Jos�",
@@ -142,7 +157,8 @@
         "url": "https://gocollect.com/app/comic/ghost-rider-vengeance-forever-1-larraz-var",
         "status": "priced",
         "fetchedAt": "2026-08-22T00:22:40.391Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4137945007",
@@ -161,7 +177,10 @@
         "higher": 40,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "4137945007_OBV.jpg",
+        "back": "4137945007_REV.jpg"
+      },
       "repairs": [
         [
           "Bj�rn Barends",
@@ -183,7 +202,8 @@
         "url": "https://gocollect.com/app/comic/ghost-rider-vengeance-forever-1",
         "status": "priced",
         "fetchedAt": "2026-08-22T00:22:47.057Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4093374002",
@@ -203,7 +223,10 @@
         "higher": 579,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "4093374002_OBV.jpg",
+        "back": "4093374002_REV.jpg"
+      },
       "repairs": [
         [
           "Col�n",
@@ -221,7 +244,8 @@
         "url": "https://gocollect.com/app/comic/incredible-hulk-400",
         "status": "priced",
         "fetchedAt": "2026-08-22T00:22:53.584Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4063305013",
@@ -241,7 +265,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4063305013_OBV.jpg",
+        "back": "4063305013_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-22T00:20:39.996Z",
       "fmv": {
@@ -254,7 +281,8 @@
         "url": "https://gocollect.com/app/comic/incredible-hulk-377",
         "status": "priced",
         "fetchedAt": "2026-08-22T00:23:00.729Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "3901909009",
@@ -274,7 +302,10 @@
         "higher": 729,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "3901909009_OBV.jpg",
+        "back": "3901909009_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-22T00:20:42.918Z",
       "fmv": {
@@ -287,7 +318,8 @@
         "url": "https://gocollect.com/app/comic/the-sensational-she-hulk-1",
         "status": "priced",
         "fetchedAt": "2026-08-22T00:23:07.815Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4245413007",
@@ -308,7 +340,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4245413007_OBV.jpg",
+        "back": "4245413007_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-22T00:20:45.841Z",
       "fmv": {
@@ -321,7 +356,8 @@
         "url": "https://gocollect.com/app/comic/hulk-11-nakayama-virgin-edition",
         "status": "priced",
         "fetchedAt": "2026-08-22T00:23:14.411Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4245413021",
@@ -342,7 +378,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4245413021_OBV.jpg",
+        "back": "4245413021_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-22T00:20:48.740Z",
       "fmv": {
@@ -355,7 +394,8 @@
         "url": "https://gocollect.com/app/comic/hulk-13-momoko-variant-cover",
         "status": "priced",
         "fetchedAt": "2026-08-22T00:23:20.868Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "0016722007",
@@ -375,7 +415,10 @@
         "higher": 514,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "0016722007_OBV.jpg",
+        "back": "0016722007_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-22T00:20:51.645Z",
       "fmv": {
@@ -388,7 +431,8 @@
         "url": "https://gocollect.com/app/comic/incredible-hulk-330",
         "status": "priced",
         "fetchedAt": "2026-08-22T00:23:27.406Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4245413022",
@@ -409,7 +453,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4245413022_OBV.jpg",
+        "back": "4245413022_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-22T00:20:54.573Z",
       "fmv": {
@@ -422,7 +469,8 @@
         "url": "https://gocollect.com/app/comic/hulk-13-comic-mint-virgin-edition",
         "status": "priced",
         "fetchedAt": "2026-08-22T00:23:33.975Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4245547001",
@@ -514,7 +562,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4137947001_OBV.jpg",
+        "back": "4137947001_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-22T00:21:04.829Z",
       "fmv": {
@@ -527,7 +578,8 @@
         "url": "https://gocollect.com/app/comic/nova-1-young-cover",
         "status": "priced",
         "fetchedAt": "2026-08-22T00:23:54.282Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4197996001",
@@ -547,7 +599,10 @@
         "higher": 294,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "4197996001_OBV.jpg",
+        "back": "4197996001_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-22T00:21:07.750Z",
       "fmv": {
@@ -560,7 +615,8 @@
         "url": "https://gocollect.com/app/comic/tarzan-207",
         "status": "priced",
         "fetchedAt": "2026-08-22T00:24:02.952Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4137945001",
@@ -580,7 +636,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4137945001_OBV.jpg",
+        "back": "4137945001_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-22T00:21:10.663Z",
       "fmv": {
@@ -593,7 +652,8 @@
         "url": "https://gocollect.com/app/comic/marauders-21-dauterman-emma-frost-design-variant",
         "status": "priced",
         "fetchedAt": "2026-08-22T00:24:11.576Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4137945008",
@@ -612,7 +672,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4137945008_OBV.jpg",
+        "back": "4137945008_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-22T00:21:13.566Z",
       "fmv": {
@@ -625,7 +688,8 @@
         "url": "https://gocollect.com/app/comic/spider-punk-1",
         "status": "priced",
         "fetchedAt": "2026-08-22T00:24:21.227Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4245413003",
@@ -646,7 +710,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4245413003_OBV.jpg",
+        "back": "4245413003_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-22T00:21:16.455Z",
       "fmv": {
@@ -659,7 +726,8 @@
         "url": "https://gocollect.com/app/comic/spider-gwen-shadow-clones-1-10-copy-incv-momoko-design-var",
         "status": "priced",
         "fetchedAt": "2026-08-22T00:24:29.951Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4273634009",
@@ -752,7 +820,10 @@
         "higher": 1,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "4245548003_OBV.jpg",
+        "back": "4245548003_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-22T00:21:26.495Z",
       "fmv": {
@@ -765,7 +836,8 @@
         "url": "https://gocollect.com/app/comic/avengers-forever-15-alex-ross-timeless-kang-virgin-var",
         "status": "priced",
         "fetchedAt": "2026-08-22T00:24:56.794Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4245548002",
@@ -785,7 +857,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4245548002_OBV.jpg",
+        "back": "4245548002_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-22T00:21:29.472Z",
       "fmv": {
@@ -798,7 +873,8 @@
         "url": "https://gocollect.com/app/comic/dark-web-1-3",
         "status": "priced",
         "fetchedAt": "2026-08-22T00:25:05.624Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4418876001",

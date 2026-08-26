@@ -79,7 +79,17 @@ export async function refetchImages({ retryKnownMissing = false } = {}) {
 
   await mkdir(IMAGE_DIR, { recursive: true });
   const context = await launch();
-  const page = context.pages()[0] ?? (await context.newPage());
+  let page = context.pages()[0] ?? (await context.newPage());
+
+  /**
+   * Replace a crashed tab. Chrome dropped a renderer mid-batch and every later
+   * lookup then failed against the dead page — one crash cost fifteen books.
+   * A crashed tab never recovers, so it is discarded outright.
+   */
+  const revivePage = async () => {
+    await page.close().catch(() => {});
+    page = await context.newPage();
+  };
   let fetched = 0;
   let permanent = 0;
   let throttleRun = 0;
@@ -90,8 +100,18 @@ export async function refetchImages({ retryKnownMissing = false } = {}) {
   };
 
   try {
-    for (const [i, { file, data, comic }] of work.entries()) {
-      process.stdout.write(`[${i + 1}/${work.length}] ${comic.cert} ... `);
+    // A mutable queue rather than a fixed iterator, so a book lost to a browser
+    // crash can be put back and retried once on a fresh tab.
+    const queue = [...work];
+    const crashRetried = new Set();
+    let done = 0;
+
+    while (queue.length) {
+      const item = queue[0];
+      const { file, data, comic } = item;
+      queue.shift();
+      done += 1;
+      process.stdout.write(`[${done}/${work.length}] ${comic.cert} ... `);
       try {
         await page.goto(`https://www.cgccomics.com/certlookup/${comic.cert}/`, {
           waitUntil: 'domcontentloaded',
@@ -169,6 +189,24 @@ export async function refetchImages({ retryKnownMissing = false } = {}) {
           console.log('ABORTED (browser closed)');
           stoppedEarly = true;
           break;
+        }
+        if (/crash/i.test(err.message)) {
+          try {
+            await revivePage();
+          } catch {
+            console.log('browser crashed and would not restart');
+            stoppedEarly = true;
+            break;
+          }
+          if (!crashRetried.has(comic.cert)) {
+            crashRetried.add(comic.cert);
+            queue.unshift(item);
+            done -= 1;
+            console.log('browser crashed - restarted, retrying');
+            continue;
+          }
+          console.log('browser crashed twice - skipping');
+          continue;
         }
         console.log(`failed: ${err.message.slice(0, 60)}`);
       }
