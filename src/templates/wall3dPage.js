@@ -244,6 +244,40 @@ body {
 
 .money .none { color: var(--mute); font-size: 0.78rem; }
 
+/*
+ * Riffle arrows, shown only while a book is in hand. On a keyboard the arrow
+ * keys do this; on touch these are the only way to flip to the neighbouring
+ * book without putting this one back first.
+ */
+.nav {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 35;
+  width: 3rem;
+  height: 6rem;
+  display: grid;
+  place-items: center;
+  font: 400 2.1rem var(--mono);
+  line-height: 1;
+  color: var(--mute);
+  background: rgba(8, 8, 10, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s, color 0.15s, background 0.15s;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  padding: 0;
+}
+
+body.holding .nav { opacity: 1; pointer-events: auto; }
+.nav:hover { color: var(--pop); background: rgba(8, 8, 10, 0.8); }
+.nav:focus-visible { outline: 2px solid var(--cert); outline-offset: 2px; }
+.nav.prev { left: 0.6rem; }
+.nav.next { right: 0.6rem; }
+
 /* Appears only while a slab is held out; the one clickable thing down here. */
 .go {
   display: none;
@@ -757,6 +791,7 @@ function main() {
     controls.enabled = false;
     showReadout(s.d);
     readout.classList.add('held');
+    document.body.classList.add('holding');
 
     /*
      * In hand, the print is shown as itself: unlit, un-tone-mapped, the scan
@@ -794,12 +829,39 @@ function main() {
     heldIdx = -1;
     controls.enabled = true;
     readout.classList.remove('held');
+    document.body.classList.remove('holding');
     if (hovered < 0) hideReadout();
+  }
+
+  /*
+   * Flip to the neighbouring book without putting this one back: the order is
+   * the current sort, so in the longbox it walks the box front to back and
+   * rolls on into the next bin.
+   */
+  function stepHeld(dir) {
+    if (heldIdx < 0) return;
+    const order = orderedIndices();
+    const at = order.indexOf(heldIdx);
+    const next = order[(at + dir + order.length) % order.length];
+    release();
+    hold(next);
   }
 
   // A click that followed a drag is the end of an orbit, not a choice.
   let downX = 0, downY = 0;
   canvas.addEventListener('pointerdown', function (e) { downX = e.clientX; downY = e.clientY; });
+
+  // While a book is in hand the orbit is off, so a horizontal drag is free to
+  // mean what it does in a photo viewer: swipe left for the next book.
+  canvas.addEventListener('pointerup', function (e) {
+    if (heldIdx < 0) return;
+    const dx = e.clientX - downX;
+    const dy = e.clientY - downY;
+    if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) stepHeld(dx < 0 ? 1 : -1);
+  });
+
+  document.getElementById('nav-prev').addEventListener('click', function () { stepHeld(-1); });
+  document.getElementById('nav-next').addEventListener('click', function () { stepHeld(1); });
   canvas.addEventListener('click', function (e) {
     if (Math.hypot(e.clientX - downX, e.clientY - downY) > 6) return;
     pickAt(e.clientX, e.clientY);
@@ -818,10 +880,14 @@ function main() {
     if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
       e.preventDefault();
       const stepDir = e.key === 'ArrowRight' ? 1 : -1;
-      const at = order.indexOf(heldIdx >= 0 ? heldIdx : hovered);
-      const next = order[(at + stepDir + order.length) % order.length];
-      if (heldIdx >= 0) { release(); hold(next); }
-      else { hovered = next; showReadout(slabs[next].d); }
+      if (heldIdx >= 0) {
+        stepHeld(stepDir);
+      } else {
+        const at = order.indexOf(hovered);
+        const next = order[(at + stepDir + order.length) % order.length];
+        hovered = next;
+        showReadout(slabs[next].d);
+      }
       lastMove = performance.now();
     }
     if (e.key === 'Enter' && document.activeElement === canvas) {
@@ -1120,6 +1186,9 @@ ${css}
 </div>
 
 <div class="hint" id="hint">drag to orbit &middot; scroll to zoom &middot; click a slab to hold it</div>
+
+<button class="nav prev" id="nav-prev" aria-label="Previous comic">&lsaquo;</button>
+<button class="nav next" id="nav-next" aria-label="Next comic">&rsaquo;</button>
 
 <aside class="readout" id="readout" aria-live="polite">
   <div class="grade" id="r-grade"></div>

@@ -83,6 +83,13 @@ test('vault offers the formations and the same sorts as the flat wall', () => {
   }
 });
 
+test('vault offers riffle arrows for flipping between held books on touch', () => {
+  const html = renderWall3dPage({ bins: BINS, config: CONFIG });
+  assert.ok(html.includes('id="nav-prev"'));
+  assert.ok(html.includes('id="nav-next"'));
+  assert.ok(html.includes('body.holding .nav'), 'arrows appear only while holding');
+});
+
 test('vault fails soft: a no-WebGL / no-CDN fallback and a noscript both point home', () => {
   const html = renderWall3dPage({ bins: BINS, config: CONFIG });
   assert.ok(html.includes('id="fallback"'));
