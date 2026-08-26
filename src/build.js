@@ -18,6 +18,7 @@ import { renderBinPage } from './templates/binPage.js';
 import { renderIndexPage } from './templates/indexPage.js';
 import { renderDashboard } from './templates/dashboard.js';
 import { renderWallPage } from './templates/wallPage.js';
+import { renderWall3dPage } from './templates/wall3dPage.js';
 import { ensureThumbs, THUMB_DIR, MEDIUM_DIR, WALL_DIR } from './thumbs.js';
 
 const DATA_DIR = 'data';
@@ -136,6 +137,14 @@ export async function build() {
   await writeFile(
     path.join(DIST_DIR, 'wall', 'index.html'),
     renderWallPage({ bins, config }),
+    'utf8',
+  );
+
+  // The experimental WebGL sibling of the wall lives one directory deeper.
+  await mkdir(path.join(DIST_DIR, 'wall', '3d'), { recursive: true });
+  await writeFile(
+    path.join(DIST_DIR, 'wall', '3d', 'index.html'),
+    renderWall3dPage({ bins, config }),
     'utf8',
   );
 

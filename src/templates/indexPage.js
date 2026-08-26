@@ -207,7 +207,7 @@ export function renderIndexPage({ bins, config, totalComics, totalTopPops }) {
   <p class="tagline">${totalComics} graded comics across ${bins.length} bin${
     bins.length === 1 ? '' : 's'
   }${totalTopPops ? ` &middot; <span class="star">★ ${totalTopPops} top pop</span>` : ''}</p>
-  <p class="tagline"><a class="dash-link" href="wall/">See the wall &rarr;</a> &nbsp;<a class="dash-link" href="dashboard/">Dashboard &rarr;</a></p>
+  <p class="tagline"><a class="dash-link" href="wall/">See the wall &rarr;</a> &nbsp;<a class="dash-link" href="wall/3d/">The vault (3D) &rarr;</a> &nbsp;<a class="dash-link" href="dashboard/">Dashboard &rarr;</a></p>
 
   <div class="search">
     <label for="q" class="visually-hidden" hidden>Search the collection</label>

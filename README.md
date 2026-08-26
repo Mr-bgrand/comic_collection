@@ -146,6 +146,25 @@ rather than committed:
 That keeps the dashboard's initial load at ~358 KB instead of the ~17 MB it would
 be with full scans, and took the manifest PDF from 8 MB to 258 KB.
 
+## The wall
+
+`dist/wall/` — every cover at once, edge to edge, linked from the site index.
+Hovering a slab lifts it into the light; the sort buttons glide the covers into
+bin, grade, value, or top-pop order.
+
+`dist/wall/3d/` — **the vault**, the wall's experimental WebGL sibling, linked
+from the wall's own toolbar. The same 213 slabs become physical objects in a
+dark room: clearcoat plastic under an environment light, with the torch as a
+real lamp riding the pointer. Four formations — the wall, the longboxes the
+books actually live in (sorted by bin, each row *is* that bin), a helix, and an
+orbit — plus the same four sorts. Click a slab to hold it up to the camera (it
+swaps in the sharper scan); click it again, or the gold button, to open its bin.
+
+It is the one page in the site that loads a library at view time: three.js,
+version-pinned, from jsdelivr. No WebGL, a blocked CDN, or no JavaScript all
+degrade to a short note pointing back at the flat wall, which remains the
+canonical page.
+
 ## Local preview
 
 ```bash

@@ -92,6 +92,22 @@ body {
 .sorts button[aria-pressed="true"] { color: var(--void); background: var(--ink); border-color: var(--ink); }
 .sorts button:focus-visible { outline: 2px solid var(--cert); outline-offset: 2px; }
 
+/* The door to the experimental room, gold so it reads as an invitation. */
+.vault {
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--pop);
+  background: rgba(232, 182, 76, 0.09);
+  border: 1px solid rgba(232, 182, 76, 0.4);
+  padding: 0.3rem 0.6rem;
+  text-decoration: none;
+  transition: color 0.15s, background 0.15s;
+}
+
+.vault:hover { color: var(--void); background: var(--pop); }
+.vault:focus-visible { outline: 2px solid var(--cert); outline-offset: 2px; }
+
 /* ---------- the wall ---------- */
 
 .wall {
@@ -426,7 +442,7 @@ body.lit .scrim { opacity: 1; }
   .mark { font-size: 0.8rem; }
   .mark span { display: none; }
   .sorts { gap: 0.12rem; flex-wrap: nowrap; }
-  .sorts button {
+  .sorts button, .vault {
     font-size: 0.6rem;
     padding: 0.26rem 0.4rem;
     letter-spacing: 0.03em;
@@ -735,6 +751,7 @@ ${css}
     <button data-sort="value" aria-pressed="false">Value</button>
     <button data-sort="top" aria-pressed="false">Top pop</button>
   </div>
+  <a class="vault" href="3d/" title="The vault — the wall in 3D">3D</a>
 </div>
 
 <div class="vignette" aria-hidden="true"></div>
