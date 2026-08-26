@@ -90,7 +90,10 @@ GoCollect needs a login. This never asks for your password — instead you sign 
 by hand, once, in the automation browser profile:
 
 ```bash
-npm run login    # opens GoCollect; sign in, then close the window
+npm run login     # opens GoCollect; sign in, then close the window
+npm run login:cgc # opens CGC; same idea. Does NOT reveal extra cover
+                  # scans - verified signed-in, cert lookup shows the
+                  # same images either way - but keeps the session warm.
 npm run fmv      # prices every book using that saved session
 npm run fmv -- --force   # refresh values that already exist
 ```

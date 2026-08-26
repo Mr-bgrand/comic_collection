@@ -8,6 +8,7 @@
     "lookup": "node src/scrape.js",
     "repair": "node src/rerepair.js",
     "login": "node src/gocollect.js --login",
+    "login:cgc": "node src/cgc-login.js",
     "fmv": "node src/gocollect.js",
     "build": "node src/build.js",
     "print": "node src/print.js",
