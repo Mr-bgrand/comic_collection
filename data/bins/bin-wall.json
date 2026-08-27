@@ -1,0 +1,172 @@
+{
+  "bin": "wall",
+  "title": "Display Wall",
+  "location": "On display - not in a storage bin",
+  "comics": [
+    {
+      "cert": "4526002009",
+      "title": "Tribute: Kobe Bryant",
+      "issue": "1",
+      "issueDate": "No Date",
+      "issueYear": "1900",
+      "publisher": "TidalWave Comics",
+      "variant": "Comic Kingdom \"Virgin\" Edition",
+      "grade": "9.6",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-12-27",
+      "labelCategory": "Universal",
+      "artComments": "Michael Frizell story\nPablo Martinena cover & art",
+      "keyComments": "The Black Mamba Returns.",
+      "population": {
+        "atGrade": 2,
+        "higher": 41,
+        "topPop": false
+      },
+      "images": {
+        "front": "4526002009_OBV.jpg",
+        "back": "4526002009_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-27T05:48:29.866Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-27T05:53:16.268Z"
+      }
+    },
+    {
+      "cert": "4480290003",
+      "title": "Fame: Michael Jordan",
+      "issue": "nn",
+      "issueDate": "No Date",
+      "issueYear": "1900",
+      "publisher": "TidalWave Comics",
+      "variant": "Bueckert Variant Cover",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-09-16",
+      "labelCategory": "Universal",
+      "artComments": "Michael Frizell story\nIgor Cicarini art\nSheldon Bueckert cover",
+      "keyComments": "Comic Kingdom Creative &\nComics Elite exclusive.",
+      "population": {
+        "atGrade": 24,
+        "higher": 2,
+        "topPop": false
+      },
+      "images": {
+        "front": "4480290003_OBV.jpg",
+        "back": "4480290003_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-27T05:48:33.334Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-27T05:53:23.083Z"
+      }
+    },
+    {
+      "cert": "4526002008",
+      "title": "Tribute: Tupac Shakur",
+      "issue": "nn",
+      "issueDate": "No Date",
+      "issueYear": "1900",
+      "publisher": "TidalWave Comics",
+      "variant": "Cacau \"Virgin\" Edition",
+      "grade": "9.6",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-12-27",
+      "labelCategory": "Universal",
+      "artComments": "Eric M. Esquivel story\nMartin Gimenez art\nCaio Cacau cover",
+      "keyComments": "Comic Kingdom Creative &\nComics Elite exclusive.",
+      "population": {
+        "atGrade": 3,
+        "higher": 35,
+        "topPop": false
+      },
+      "images": {
+        "front": "4526002008_OBV.jpg",
+        "back": "4526002008_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-27T05:48:36.497Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-27T05:53:29.766Z"
+      }
+    },
+    {
+      "cert": "4526002005",
+      "title": "Spider-Boy",
+      "issue": "2",
+      "issueDate": "2/24",
+      "issueYear": "2024",
+      "publisher": "Marvel Comics",
+      "variant": "Ramos Variant Cover",
+      "grade": "9.6",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-12-27",
+      "labelCategory": "Universal",
+      "artComments": "Dan Slott story\nPaco Medina & Ty Templeton art\nHumberto Ramos cover",
+      "population": {
+        "atGrade": 5,
+        "higher": 48,
+        "topPop": false
+      },
+      "images": {
+        "front": "4526002005_OBV.jpg",
+        "back": "4526002005_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-27T05:48:39.718Z",
+      "fmv": {
+        "value": 16,
+        "currency": "USD",
+        "avg30": null,
+        "avg90": null,
+        "avg365": 16,
+        "sold365": 1,
+        "url": "https://gocollect.com/app/comic/spider-boy-2-humberto-ramos-ski-chalet-var",
+        "status": "priced",
+        "fetchedAt": "2026-08-27T05:53:36.645Z"
+      }
+    },
+    {
+      "cert": "4471692002",
+      "title": "Fame: Mike Tyson",
+      "issue": "nn",
+      "issueDate": "No Date",
+      "issueYear": "1900",
+      "publisher": "TidalWave Comics",
+      "variant": "Waite Foil Edition C",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2024-08-14",
+      "labelCategory": "Universal",
+      "artComments": "Eric M. Esquivel story\nMartin Gimenez art\nMatthew Waite cover",
+      "keyComments": "Big Time Collectibles &\nHawkins Collectibles exclusive.",
+      "population": {
+        "atGrade": 10,
+        "higher": 5,
+        "topPop": false
+      },
+      "images": {
+        "front": "4471692002_OBV.jpg",
+        "back": "4471692002_REV.jpg"
+      },
+      "repairs": [],
+      "fetchedAt": "2026-08-27T05:48:42.888Z",
+      "fmv": {
+        "value": null,
+        "url": null,
+        "status": "not-listed",
+        "fetchedAt": "2026-08-27T05:53:43.345Z"
+      }
+    }
+  ],
+  "updated": "2026-08-27"
+}
