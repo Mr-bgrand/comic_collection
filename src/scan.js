@@ -33,6 +33,10 @@ import {
 const BIN_DIR = path.join('data', 'bins');
 const IMAGE_DIR = path.join('data', 'images');
 const TEMP_DIR = path.join('.cache', 'scans');
+// The untouched bed, kept after cropping. Cropping is a guess about where the
+// slab is, and a wrong guess has twice cost a good scan that then had to be
+// taken again. Keeping the original makes a bad crop a re-crop, not a rescan.
+const RAW_DIR = path.join('.cache', 'raw');
 const PS_SCRIPT = path.join('scripts', 'wia-scan.ps1');
 const DPI = 300;
 const MAX_EDGE = 1400;
@@ -158,6 +162,7 @@ export async function guidedScan({
 
   await mkdir(IMAGE_DIR, { recursive: true });
   await mkdir(TEMP_DIR, { recursive: true });
+  await mkdir(RAW_DIR, { recursive: true });
 
   console.log(`${work.length} book(s) need cover images.\n`);
   // Voice is opt-in and must prove itself before the session commits to it.
@@ -297,6 +302,8 @@ export async function guidedScan({
 
         const image = await tidy(temp);
         await writeFile(dest, image);
+        // Keep the uncropped bed rather than deleting it.
+        await writeFile(path.join(RAW_DIR, name), await readFile(temp));
         await rm(temp, { force: true });
 
         await view?.show(image, {

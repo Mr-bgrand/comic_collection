@@ -16,6 +16,7 @@ const MAT_RING_RATIO = 0.04; // outermost 4% of the frame: always mat
 const MAT_MARGIN = 25; // how far above the mat a pixel must sit to be content
 const MAT_PERCENTILE = 0.25; // robust to a slab occupying part of the ring
 const ROW_HIT_RATIO = 0.02; // a row/column counts as content at 2% bright pixels
+const GAP_RATIO = 0.06; // a dark band this wide does not split one slab in two
 const MARGIN_RATIO = 0.012; // small breathing room so the holder is not clipped
 
 /**
@@ -53,6 +54,42 @@ export function matThreshold(gray, width, height) {
   return Math.min(matLevel + MAT_MARGIN, 200);
 }
 /**
+ * The widest solid run of content in a profile of hit counts.
+ *
+ * Taking the first and last index above the minimum spans everything bright in
+ * the frame, including a patch of lamp spill on the mat several inches from the
+ * slab. The slab is the one large solid block; spill is a smaller block with a
+ * gap before it, so the longest run finds the slab and leaves the spill out.
+ *
+ * Short gaps are bridged: a dark band across a cover - a black panel, a shadow
+ * between the holder and the label - must not split one slab into two runs.
+ */
+function widestRun(hits, min, gapAllowance) {
+  let best = null;
+  let start = -1;
+  let gap = 0;
+
+  for (let i = 0; i < hits.length; i += 1) {
+    if (hits[i] >= min) {
+      if (start < 0) start = i;
+      gap = 0;
+    } else if (start >= 0) {
+      gap += 1;
+      if (gap > gapAllowance) {
+        const end = i - gap;
+        if (!best || end - start > best.end - best.start) best = { start, end };
+        start = -1;
+        gap = 0;
+      }
+    }
+  }
+  if (start >= 0) {
+    const end = hits.length - 1 - gap;
+    if (!best || end - start > best.end - best.start) best = { start, end };
+  }
+  return best;
+}
+/**
  * Find the content box, in fractions of the image (0-1).
  * Returns null when the image is essentially uniform — a blank bed, a lens cap,
  * a scan that failed — because cropping that would produce nonsense.
@@ -74,12 +111,37 @@ export function findContentBox(gray, width, height) {
 
   const rowMin = Math.max(1, Math.floor(width * ROW_HIT_RATIO));
   const colMin = Math.max(1, Math.floor(height * ROW_HIT_RATIO));
+  const gapX = Math.round(width * GAP_RATIO);
+  const gapY = Math.round(height * GAP_RATIO);
 
-  const firstRow = rowHits.findIndex((n) => n >= rowMin);
-  const lastRow = rowHits.length - 1 - [...rowHits].reverse().findIndex((n) => n >= rowMin);
-  const firstCol = colHits.findIndex((n) => n >= colMin);
-  const lastCol = colHits.length - 1 - [...colHits].reverse().findIndex((n) => n >= colMin);
+  // Columns first. Spill usually sits beside the slab, so the horizontal
+  // profile separates them most cleanly.
+  const cols = widestRun(colHits, colMin, gapX);
+  if (!cols) return null;
 
+  // Then rows, counted only inside those columns - so spill above or below the
+  // slab but outside its width cannot lengthen the box.
+  const rowHitsInCols = new Array(height).fill(0);
+  for (let y = 0; y < height; y += 1) {
+    for (let x = cols.start; x <= cols.end; x += 1) {
+      if (bright(x, y)) rowHitsInCols[y] += 1;
+    }
+  }
+  // Rows are taken as the outer extent within those columns, not the widest
+  // run. A dark cover is not uniformly bright - a foil scan has a white label,
+  // a near-black middle and a bright holder edge - so the widest run would
+  // return the label alone and crop the comic off its own scan. Inside the
+  // slab's own columns there is no spill left to guard against.
+  const rowMinInCols = Math.max(1, Math.floor((cols.end - cols.start + 1) * ROW_HIT_RATIO));
+  const firstRowIn = rowHitsInCols.findIndex((n) => n >= rowMinInCols);
+  const lastRowIn = rowHitsInCols.length - 1
+    - [...rowHitsInCols].reverse().findIndex((n) => n >= rowMinInCols);
+  if (firstRowIn < 0 || lastRowIn <= firstRowIn) return null;
+  const rows = { start: firstRowIn, end: lastRowIn };
+  const firstRow = rows.start;
+  const lastRow = rows.end;
+  const firstCol = cols.start;
+  const lastCol = cols.end;
   if (firstRow < 0 || firstCol < 0 || lastRow <= firstRow || lastCol <= firstCol) return null;
 
   const boxW = (lastCol - firstCol + 1) / width;

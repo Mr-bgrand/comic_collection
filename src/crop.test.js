@@ -95,3 +95,44 @@ test('a dark cover on a brightened mat is still found by its holder', () => {
   assert.ok(box, 'no box found');
   assert.ok(box.height > 0.5, `height ${box?.height} - should span the whole holder`);
 });
+
+/*
+ * Light spill.
+ *
+ * External light aimed at a foil cover to defeat its mirror finish also lands
+ * on the mat around the slab. The bounding box of everything bright then
+ * stretches from the slab out to the spill, covers almost the whole bed, and
+ * the crop gives up - a good scan saved as a full 1400x1048 bed.
+ *
+ * The slab is the one large solid block. Spill is a separate patch with a gap
+ * between, so the box is taken from the widest run of content rather than from
+ * the first and last bright pixel anywhere in the frame.
+ */
+
+test('ignores a bright patch of spill beside the slab', () => {
+  const px = field(200, 200, { x: 70, y: 20, w: 90, h: 160 }, { mat: 12, slab: 200 });
+  // A lamp flare in the left margin, well clear of the slab.
+  for (let y = 150; y < 190; y += 1) {
+    for (let x = 4; x < 30; x += 1) px[y * 200 + x] = 190;
+  }
+  const box = findContentBox(px, 200, 200);
+  assert.ok(box, 'no box found');
+  assert.ok(box.left > 0.28, `left ${box?.left?.toFixed(3)} - spill pulled the box out`);
+  assert.ok(box.width < 0.6, `width ${box?.width?.toFixed(3)} - box spans spill and slab`);
+});
+
+test('spill above and below does not stretch the box vertically', () => {
+  const px = field(200, 200, { x: 60, y: 50, w: 90, h: 100 }, { mat: 12, slab: 200 });
+  for (let y = 2; y < 16; y += 1) {
+    for (let x = 2; x < 24; x += 1) px[y * 200 + x] = 190;
+  }
+  const box = findContentBox(px, 200, 200);
+  assert.ok(box, 'no box found');
+  assert.ok(box.top > 0.18, `top ${box?.top?.toFixed(3)} - spill pulled the box up`);
+});
+
+test('still finds a slab that genuinely fills most of the bed', () => {
+  const box = findContentBox(field(200, 200, { x: 12, y: 6, w: 176, h: 188 }), 200, 200);
+  assert.ok(box, 'a large slab must still be found');
+  assert.ok(box.width > 0.8, `width ${box?.width?.toFixed(3)}`);
+});
