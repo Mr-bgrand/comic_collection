@@ -122,6 +122,19 @@ away from the lens and scan black. Say **shiny** (or pass `--bright`) to raise
 the scanner's exposure. It is offered rather than applied: on the three tried,
 it recovered the art on two foil covers and did nothing for a mirror-finish
 metal one, which wants a physical tilt instead.
+A lamp brought in to beat a mirror finish also lights the mat, and a lit mat
+looks like content — so automatic cropping can fail on exactly the scans that
+needed the lamp. Every scan keeps its untouched bed in `.cache/raw/`, so that
+costs a command rather than another trip to the scanner:
+
+```bash
+npm run recrop -- 4177706003_OBV                      # try the automatic crop again
+npm run recrop -- 4177706003_OBV 0.27 0.01 0.72 0.97  # left top right bottom,
+                                                      # as fractions of the bed
+```
+
+It warns when the result is not slab-shaped (a CGC slab is about 1.5 times as
+tall as it is wide), which catches a wrong number before it reaches a sheet.
 ```
 
 In voice mode it reads out the bin, title, variant and grade before each book —

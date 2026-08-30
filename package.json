@@ -11,6 +11,7 @@
     "login:cgc": "node src/cgc-login.js",
     "scan:voice": "node src/scan.js --voice",
     "scan:timed": "node src/scan.js --timed 8",
+    "recrop": "node src/recrop.js",
     "fmv": "node src/gocollect.js",
     "build": "node src/build.js",
     "print": "node src/print.js",
