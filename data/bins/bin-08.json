@@ -708,7 +708,28 @@
         "status": "not-listed",
         "fetchedAt": "2026-08-22T07:25:17.752Z"
       }
+    },
+    {
+      "cert": "21-45DB4BC-045",
+      "grader": "CBCS",
+      "title": "Reflections",
+      "issue": "14",
+      "grade": "9.8",
+      "pageQuality": "White",
+      "publisher": "Marvel/Icon",
+      "issueYear": "2009",
+      "labelCategory": "Certified",
+      "keyComments": "Only graded copy in the CBCS census.",
+      "population": {
+        "atGrade": 1,
+        "higher": 0,
+        "topPop": true
+      },
+      "images": {},
+      "source": "manual",
+      "fetchedAt": "2026-08-30T19:52:44.246Z",
+      "certUrl": "https://www.cbcscomics.com/grading-notes/21-45DB4BC-045"
     }
   ],
-  "updated": "2026-08-22"
+  "updated": "2026-08-30"
 }
