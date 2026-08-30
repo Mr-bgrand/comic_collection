@@ -7,6 +7,12 @@
  * CBCS has no equivalent endpoint here, and there will be raw (ungraded) books
  * later. All three need the same thing: a way to state a record directly.
  *
+ * CBCS cannot be automated even in principle: their grading-notes lookup sits
+ * behind a reCAPTCHA, and requesting the record URL directly answers "Invalid
+ * Comic/Magazine" for a cert that resolves perfectly well for a human. So a
+ * CBCS book is always typed in from the page, and `source: 'manual'` records
+ * that it was.
+ *
  * The file may hold one object or an array. Minimum fields:
  *
  *   { "bin": "04", "grader": "CBCS", "cert": "21-2EC8B4A-002",
