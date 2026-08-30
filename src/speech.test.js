@@ -87,7 +87,8 @@ test('bookAnnouncement includes the variant so near-identical books are told apa
  * not having been said at all.
  */
 
-test('interpretVoice maps the four words to actions', () => {
+test('interpretVoice maps every word to an action', () => {
+  assert.equal(interpretVoice({ text: 'shiny', confidence: 0.9 }), 'shiny');
   assert.equal(interpretVoice({ text: 'next', confidence: 0.9 }), 'scan');
   assert.equal(interpretVoice({ text: 'again', confidence: 0.9 }), 'redo');
   assert.equal(interpretVoice({ text: 'skip', confidence: 0.9 }), 'skip');
@@ -125,7 +126,7 @@ test('the grammar has no word that collides with a scan side', () => {
 });
 
 test('VOICE_WORDS is what the grammar is built from', () => {
-  assert.deepEqual([...VOICE_WORDS].sort(), ['again', 'next', 'skip', 'stop']);
+  assert.deepEqual([...VOICE_WORDS].sort(), ['again', 'next', 'shiny', 'skip', 'stop']);
 });
 
 /*

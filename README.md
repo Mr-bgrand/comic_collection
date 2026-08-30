@@ -122,6 +122,7 @@ listens for one of four words:
 | **again** | the last side came out badly — go back and rescan it |
 | **skip** | skip this side |
 | **stop** | end the session |
+| **shiny** | toggle bright mode for this book — for foil and metal covers |
 
 You do not have to wait for it to finish talking. The microphone is opened once
 at the start of the session and stays open, so a word said over the top of the

@@ -417,3 +417,21 @@ export function collectSearchIndex(bins) {
   }
   return index;
 }
+
+/**
+ * Finishes that defeat an overhead scanner.
+ *
+ * The scanner lights a cover from above and slightly off-axis. A foil or metal
+ * cover reflects that light away from the lens and returns almost no diffuse
+ * light of its own, so it captures as pure black - measured at brightness 22
+ * for a Momoko Metal Edition against 51 or more for every ordinary cover in the
+ * same bin, including the deliberately dark "virgin" ones.
+ *
+ * Matched on whole words: "Metallica" is a band, not a finish.
+ */
+const REFLECTIVE = /\b(metal|metallic|foil|holofoil|holo|holographic|crystal|chrome|prism|prismatic|shimmer|refractor|mirror)\b/i;
+
+export function isReflectiveCover(comic) {
+  const text = `${comic?.variant ?? ''} ${comic?.keyComments ?? ''}`;
+  return REFLECTIVE.test(text);
+}

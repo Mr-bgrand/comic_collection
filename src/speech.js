@@ -30,9 +30,9 @@ const PS_SCRIPT = path.join('scripts', 'speech.ps1');
  * word is ambiguous the one place it would be spoken. "again" says the same
  * thing with nothing to confuse it with.
  */
-export const VOICE_WORDS = ['next', 'again', 'skip', 'stop'];
+export const VOICE_WORDS = ['next', 'again', 'skip', 'stop', 'shiny'];
 
-const ACTIONS = { next: 'scan', again: 'redo', skip: 'skip', stop: 'quit' };
+const ACTIONS = { next: 'scan', again: 'redo', skip: 'skip', stop: 'quit', shiny: 'shiny' };
 
 /**
  * How sure the recogniser must be before a word counts.

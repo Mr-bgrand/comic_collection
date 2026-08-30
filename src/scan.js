@@ -23,7 +23,7 @@ import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 
-import { displayTitle, gradeLabel } from './model.js';
+import { displayTitle, gradeLabel, isReflectiveCover } from './model.js';
 import { cropToSlab } from './crop.js';
 import {
   speakAsync, startListener, interpretVoice, bookAnnouncement, VOICE_WORDS,
@@ -35,12 +35,18 @@ const TEMP_DIR = path.join('.cache', 'scans');
 const PS_SCRIPT = path.join('scripts', 'wia-scan.ps1');
 const DPI = 300;
 const MAX_EDGE = 1400;
+// Foil and metal covers return almost no diffuse light. These lift what little
+// there is; the exact figure is empirical and is meant to be tuned with --shiny.
+const SHINY_BRIGHTNESS = 70;
+const SHINY_CONTRAST = 20;
+const SHINY_QUALITY = 90;
 
-function runScan(outPath) {
+function runScan(outPath, { brightness = 0, contrast = 0, quality = 0 } = {}) {
   return new Promise((resolve) => {
     const ps = spawn(
       'powershell',
-      ['-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', PS_SCRIPT, '-Out', outPath, '-Dpi', String(DPI)],
+      ['-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', PS_SCRIPT, '-Out', outPath, '-Dpi', String(DPI),
+        '-Brightness', String(brightness), '-Contrast', String(contrast), '-Quality', String(quality)],
       { stdio: ['ignore', 'pipe', 'pipe'] },
     );
     let err = '';
@@ -112,7 +118,7 @@ async function requestAction({ rl, side, voice, listener, since }) {
   }
 }
 
-export async function guidedScan({ voice = false, timed = 0 } = {}) {
+export async function guidedScan({ voice = false, timed = 0, shiny = SHINY_BRIGHTNESS } = {}) {
   const work = await loadWork();
   if (!work.length) {
     console.log('Every comic already has a cover image.');
@@ -165,7 +171,16 @@ export async function guidedScan({ voice = false, timed = 0 } = {}) {
       // saying "next" over the top of it counts. Anything heard earlier - while
       // the previous scan was running - is stale and deliberately ignored.
       let since = Date.now();
-      let saying = voice ? speakAsync(bookAnnouncement(comic, { bin })) : null;
+
+      // A known foil or metal cover starts in bright mode rather than wasting a
+      // scan proving it is black; saying "shiny" turns it on for anything else.
+      let bright = isReflectiveCover(comic);
+      if (bright) console.log('        reflective cover - scanning bright');
+
+      const opener = bright
+        ? `${bookAnnouncement(comic, { bin })} Bright mode.`
+        : bookAnnouncement(comic, { bin });
+      let saying = voice ? speakAsync(opener) : null;
 
       const sides = ['front', 'back'];
       let sideIndex = 0;
@@ -193,6 +208,18 @@ export async function guidedScan({ voice = false, timed = 0 } = {}) {
           saying?.cancel();
         }
 
+        if (action === 'shiny') {
+          // A toggle, not a switch. Bright mode guessed wrong blows out an
+          // ordinary cover, and saying the same word again is the fastest way
+          // back - the alternative is walking to the keyboard, which is the
+          // thing this whole mode exists to avoid.
+          bright = !bright;
+          console.log(`    bright mode ${bright ? 'on' : 'off'} for this book`);
+          saying?.cancel();
+          saying = speakAsync(bright ? 'Bright mode.' : 'Normal mode.');
+          since = Date.now();
+          continue;
+        }
         if (action === 'quit') { quit = true; break; }
         if (action === 'skipBook') { skipBook = true; break; }
         if (action === 'skip') { sideIndex += 1; continue; }
@@ -205,7 +232,9 @@ export async function guidedScan({ voice = false, timed = 0 } = {}) {
 
         const temp = path.join(TEMP_DIR, `${comic.cert}_${side}.jpg`);
         process.stdout.write('    scanning... ');
-        const result = await runScan(path.resolve(temp));
+        const result = await runScan(path.resolve(temp), bright
+          ? { brightness: shiny, contrast: SHINY_CONTRAST, quality: SHINY_QUALITY }
+          : {});
 
         if (!result.ok) {
           if (result.code === 2) {
@@ -227,6 +256,8 @@ export async function guidedScan({ voice = false, timed = 0 } = {}) {
 
         comic.images = { ...(comic.images ?? {}), [side]: name };
         comic.imageSource = 'owner';
+        if (bright) comic.scanMode = 'bright';
+        else delete comic.scanMode;
         delete comic.noScans;
         // Save per side: stopping halfway keeps everything already done.
         await writeFile(file, `${JSON.stringify(data, null, 2)}\n`, 'utf8');
@@ -246,7 +277,7 @@ export async function guidedScan({ voice = false, timed = 0 } = {}) {
   }
 
   console.log(`\nScanned ${scanned} image(s).`);
-  const left = (await loadWork()).length;
+  const left = only.length ? 0 : (await loadWork()).length;
   if (left) console.log(`${left} book(s) still without a front cover — re-run to continue.`);
   if (scanned) console.log('\nNext: npm run build && npm run print');
   return { scanned, remaining: left };
@@ -255,9 +286,13 @@ export async function guidedScan({ voice = false, timed = 0 } = {}) {
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const argv = process.argv.slice(2);
   const timedAt = argv.indexOf('--timed');
+  const shinyAt = argv.indexOf('--shiny');
+  const onlyAt = argv.indexOf('--only');
   guidedScan({
     voice: argv.includes('--voice'),
     timed: timedAt >= 0 ? Number(argv[timedAt + 1]) || 8 : 0,
+    shiny: shinyAt >= 0 ? Number(argv[shinyAt + 1]) || SHINY_BRIGHTNESS : SHINY_BRIGHTNESS,
+    only: onlyAt >= 0 ? String(argv[onlyAt + 1] ?? '').split(',').filter(Boolean) : [],
   }).catch((err) => {
     console.error(err);
     process.exit(1);

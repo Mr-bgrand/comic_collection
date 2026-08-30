@@ -1,6 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
+  isReflectiveCover,
   displayTitle,
   isTopPop,
   labelRow,
@@ -325,4 +326,55 @@ test('collectSearchIndex makes every comic findable by cert and by title', () =>
   assert.equal(idx[0].bin, '01');
   assert.ok(idx[0].title.includes('Venom'));
   assert.equal(idx[0].grade, '9.8');
+});
+
+/*
+ * Reflective covers.
+ *
+ * An overhead scanner lights a cover from above and slightly off-axis. A foil
+ * or metal cover throws that light away from the lens and returns almost no
+ * diffuse light, so it scans as pure black - measured at brightness 22 against
+ * 51+ for every ordinary cover in the same bin. Knowing before the scan lets
+ * the session say so, rather than the failure being found a bin later.
+ */
+
+test('isReflectiveCover catches the finishes that scan black', () => {
+  for (const variant of [
+    'Momoko Metal Edition',
+    'Whatnot NYCC Foil Edition A',
+    'Desjardins Green Crystal Edition',
+    'Chrome Variant',
+    'Holofoil Edition',
+    'Prismatic Foil',
+    'Refractor',
+  ]) {
+    assert.equal(isReflectiveCover({ variant }), true, variant);
+  }
+});
+
+test('isReflectiveCover leaves ordinary covers alone', () => {
+  for (const variant of [
+    'Parsons "Virgin" Edition',
+    'Ross Variant Cover',
+    'Spectral Comics Convention Edition',
+    'Hustl. Edition',
+    '',
+  ]) {
+    assert.equal(isReflectiveCover({ variant }), false, variant);
+  }
+});
+
+test('isReflectiveCover reads the key comments too', () => {
+  // CGC often records the finish there rather than in the variant name.
+  assert.equal(isReflectiveCover({ variant: '', keyComments: 'Foil variant cover.' }), true);
+});
+
+test('isReflectiveCover does not fire on a word that merely contains one', () => {
+  assert.equal(isReflectiveCover({ variant: 'Metallica Tribute' }), false);
+  assert.equal(isReflectiveCover({ variant: 'Chromebook Special' }), false);
+});
+
+test('isReflectiveCover handles a missing comic', () => {
+  assert.equal(isReflectiveCover(undefined), false);
+  assert.equal(isReflectiveCover({}), false);
 });

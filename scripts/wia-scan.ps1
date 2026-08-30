@@ -7,6 +7,7 @@
 
     Usage:
       powershell -File scripts/wia-scan.ps1 -Out page.jpg -Dpi 300 -Match SV600
+      powershell -File scripts/wia-scan.ps1 -Out page.jpg -Brightness 70 -Contrast 20
 
     Exits non-zero with a message on stderr if anything fails, so the caller can
     distinguish "no scanner" from "scan failed" from "saved".
@@ -15,7 +16,13 @@
 param(
     [Parameter(Mandatory = $true)][string]$Out,
     [int]$Dpi = 300,
-    [string]$Match = 'SV600'
+    [string]$Match = 'SV600',
+    # Foil and metal covers reflect the lamp away from the lens and scan as
+    # pure black. Lifting brightness pulls up the weak diffuse return that is
+    # left; quality goes up with it so the lifted shadows do not turn to mush.
+    [int]$Brightness = 0,
+    [int]$Contrast = 0,
+    [int]$Quality = 0
 )
 
 $ErrorActionPreference = 'Stop'
@@ -57,6 +64,10 @@ try {
     $scale = $Dpi / 150.0
     Set-WiaProperty $item.Properties 'Horizontal Extent' ([int](2829 * $scale))
     Set-WiaProperty $item.Properties 'Vertical Extent'   ([int](2097 * $scale))
+
+    if ($Brightness -ne 0) { Set-WiaProperty $item.Properties 'Brightness' $Brightness }
+    if ($Contrast   -ne 0) { Set-WiaProperty $item.Properties 'Contrast'   $Contrast }
+    if ($Quality    -ne 0) { Set-WiaProperty $item.Properties 'Ext JPEG Quality' $Quality }
 
     $image = $item.Transfer($JPEG)
 
