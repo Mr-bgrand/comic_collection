@@ -480,7 +480,8 @@
         "status": "not-listed",
         "fetchedAt": "2026-08-22T07:24:24.798Z"
       },
-      "imageSource": "owner"
+      "imageSource": "owner",
+      "scanMode": "bright"
     },
     {
       "cert": "4245413009",
@@ -619,7 +620,8 @@
         "status": "not-listed",
         "fetchedAt": "2026-08-22T07:24:50.986Z"
       },
-      "imageSource": "owner"
+      "imageSource": "owner",
+      "scanMode": "bright"
     },
     {
       "cert": "4177706003",
@@ -652,7 +654,8 @@
         "status": "not-listed",
         "fetchedAt": "2026-08-22T07:24:57.116Z"
       },
-      "imageSource": "owner"
+      "imageSource": "owner",
+      "scanMode": "bright"
     },
     {
       "cert": "4424144002",

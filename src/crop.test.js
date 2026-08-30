@@ -49,3 +49,49 @@ test('handles a slab flush against an edge', () => {
   assert.ok(box);
   assert.ok(box.left < 0.02, `left ${box.left}`);
 });
+
+/*
+ * Exposure independence.
+ *
+ * Bright mode raises the scanner's brightness to pull detail out of a foil
+ * cover, which lifts the mat along with everything else. A fixed threshold of
+ * 55 then saw the whole bed as content, found nothing to crop to, and saved the
+ * full bed - six images came back 1400x1048 landscape instead of a slab.
+ *
+ * The mat's absolute brightness is not knowable in advance, so it must be read
+ * off the image. What is always true is where it is: the outer edge of a
+ * scanner bed is mat, because the slab never reaches the border.
+ */
+
+test('finds the slab when the whole bed is brightened', () => {
+  // The bright-mode case that broke: mat lifted to 80, well above the old 55.
+  const px = field(200, 200, { x: 40, y: 20, w: 80, h: 160 }, { mat: 80, slab: 235 });
+  const box = findContentBox(px, 200, 200);
+  assert.ok(box, 'no box found on a brightened bed');
+  assert.ok(Math.abs(box.left - 0.2) < 0.04, `left ${box?.left}`);
+  assert.ok(Math.abs(box.width - 0.4) < 0.04, `width ${box?.width}`);
+});
+
+test('finds the slab at a very low exposure too', () => {
+  const px = field(200, 200, { x: 40, y: 20, w: 80, h: 160 }, { mat: 4, slab: 60 });
+  const box = findContentBox(px, 200, 200);
+  assert.ok(box, 'no box found on a dark bed');
+  assert.ok(Math.abs(box.left - 0.2) < 0.04, `left ${box?.left}`);
+});
+
+test('a brightened but empty bed is still not croppable', () => {
+  assert.equal(findContentBox(field(200, 200, null, { mat: 80 }), 200, 200), null);
+});
+
+test('a dark cover on a brightened mat is still found by its holder', () => {
+  // The real case: the foil cover itself is near-black, but the slab's white
+  // label and bright edges are what the box is actually found by.
+  const px = field(200, 200, { x: 40, y: 20, w: 80, h: 160 }, { mat: 80, slab: 235 });
+  // Blank out most of the slab interior, leaving a label strip at the top.
+  for (let y = 40; y < 180; y += 1) {
+    for (let x = 44; x < 116; x += 1) px[y * 200 + x] = 12;
+  }
+  const box = findContentBox(px, 200, 200);
+  assert.ok(box, 'no box found');
+  assert.ok(box.height > 0.5, `height ${box?.height} - should span the whole holder`);
+});

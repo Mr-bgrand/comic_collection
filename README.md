@@ -111,6 +111,17 @@ npm run scan:timed    # scans the back 8s after a good front
 node src/scan.js --timed 12    # ...or pick your own gap
 npm run scan -- --redo 4089841007      # rescan named certs, even if they
                                        # already have a cover
+
+A live preview opens with any voice or `--redo` run (or `--preview` on its own):
+a local page that swaps in each scan as it lands, showing the book, the side,
+and the mean brightness. A rescan shows before and after together, because that
+is the only way to answer "did that help?" without walking back to the machine.
+
+Reflective covers — foil, metal, crystal, chrome, holo — can reflect the lamp
+away from the lens and scan black. Say **shiny** (or pass `--bright`) to raise
+the scanner's exposure. It is offered rather than applied: on the three tried,
+it recovered the art on two foil covers and did nothing for a mirror-finish
+metal one, which wants a physical tilt instead.
 ```
 
 In voice mode it reads out the bin, title, variant and grade before each book —

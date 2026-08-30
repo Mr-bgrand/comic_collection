@@ -25,6 +25,7 @@ import { pathToFileURL } from 'node:url';
 
 import { displayTitle, gradeLabel, isReflectiveCover } from './model.js';
 import { cropToSlab } from './crop.js';
+import { startPreview } from './preview.js';
 import {
   speakAsync, startListener, interpretVoice, bookAnnouncement, VOICE_WORDS,
 } from './speech.js';
@@ -139,7 +140,8 @@ async function requestAction({ rl, side, voice, listener, since }) {
 }
 
 export async function guidedScan({
-  voice = false, timed = 0, shiny = SHINY_BRIGHTNESS, only = [],
+  voice = false, timed = 0, shiny = SHINY_BRIGHTNESS, only = [], forceBright = false,
+  preview = false,
 } = {}) {
   const work = await loadWork({ only });
   if (!work.length) {
@@ -161,6 +163,12 @@ export async function guidedScan({
   // Voice is opt-in and must prove itself before the session commits to it.
   // Discovering the microphone is unavailable halfway through a bin, from
   // across the room, is the worst possible moment to find out.
+  // A rescan is always a comparison, so a targeted run previews by default.
+  const wantPreview = preview || voice || only.length > 0;
+  const view = wantPreview ? await startPreview() : null;
+  if (view) console.log(`Preview: ${view.url}`);
+  else if (wantPreview) console.log('Could not open the preview; carrying on.');
+
   let listener = null;
   if (voice) {
     listener = startListener();
@@ -196,10 +204,14 @@ export async function guidedScan({
       // the previous scan was running - is stale and deliberately ignored.
       let since = Date.now();
 
-      // A known foil or metal cover starts in bright mode rather than wasting a
-      // scan proving it is black; saying "shiny" turns it on for anything else.
-      let bright = isReflectiveCover(comic);
-      if (bright) console.log('        reflective cover - scanning bright');
+      // Reflective covers are flagged but not switched automatically. Bright
+      // mode recovered the art on two of the three foil covers tried and did
+      // nothing for the third, a mirror-finish metal cover - worth offering,
+      // not worth deciding for you. Say "shiny", or pass --bright.
+      let bright = forceBright;
+      if (isReflectiveCover(comic)) {
+        console.log('        reflective cover - say "shiny" if it scans black');
+      }
 
       const opener = bright
         ? `${bookAnnouncement(comic, { bin })} Bright mode.`
@@ -275,8 +287,26 @@ export async function guidedScan({
         }
 
         const name = `${comic.cert}_${side === 'front' ? 'OBV' : 'REV'}.jpg`;
-        await writeFile(path.join(IMAGE_DIR, name), await tidy(temp));
+        const dest = path.join(IMAGE_DIR, name);
+
+        // Read the outgoing cover before overwriting it: the comparison is the
+        // whole point of a rescan, and a moment later it is gone.
+        const before = view && existsSync(dest)
+          ? await readFile(dest).catch(() => null)
+          : null;
+
+        const image = await tidy(temp);
+        await writeFile(dest, image);
         await rm(temp, { force: true });
+
+        await view?.show(image, {
+          title: displayTitle(comic),
+          cert: comic.cert,
+          side,
+          bin,
+          mode: bright ? 'bright' : 'normal',
+          before,
+        });
 
         comic.images = { ...(comic.images ?? {}), [side]: name };
         comic.imageSource = 'owner';
@@ -298,6 +328,7 @@ export async function guidedScan({
   } finally {
     rl.close();
     listener?.stop();
+    view?.stop();
   }
 
   console.log(`\nScanned ${scanned} image(s).`);
@@ -316,11 +347,13 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
   // so it survives `npm run scan -- --redo ...`; --only still works when the
   // script is invoked through node directly.
   const onlyAt = Math.max(argv.indexOf('--redo'), argv.indexOf('--only'));
+  const forceBright = argv.includes('--bright');
   guidedScan({
     voice: argv.includes('--voice'),
     timed: timedAt >= 0 ? Number(argv[timedAt + 1]) || 8 : 0,
     shiny: shinyAt >= 0 ? Number(argv[shinyAt + 1]) || SHINY_BRIGHTNESS : SHINY_BRIGHTNESS,
     only: onlyAt >= 0 ? String(argv[onlyAt + 1] ?? '').split(',').filter(Boolean) : [],
+    forceBright,
   }).catch((err) => {
     console.error(err);
     process.exit(1);
