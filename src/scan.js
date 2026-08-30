@@ -67,7 +67,27 @@ async function tidy(inputPath) {
   return buffer;
 }
 
-async function loadWork() {
+/**
+ * Whether a book is part of this run.
+ *
+ * Exported because it was wrong once and nothing noticed: a targeted run
+ * silently scanned the whole backlog instead of the books named. Syntax
+ * checks and the unit tests both passed, because neither reached this.
+ */
+export function shouldScan(comic, wanted) {
+  if (wanted?.size) return wanted.has(String(comic?.cert));
+  return !comic?.images?.front;
+}
+
+/**
+ * The books to scan.
+ *
+ * Normally those with no front cover. Naming certs overrides that and takes
+ * them whether or not they already have one - which is how a cover that came
+ * out badly gets another attempt, since by definition it is not missing.
+ */
+async function loadWork({ only = [] } = {}) {
+  const wanted = new Set(only.map(String));
   if (!existsSync(BIN_DIR)) return [];
   const files = (await readdir(BIN_DIR)).filter((f) => f.endsWith('.json')).sort();
   const work = [];
@@ -75,7 +95,7 @@ async function loadWork() {
     const file = path.join(BIN_DIR, f);
     const data = JSON.parse(await readFile(file, 'utf8'));
     for (const comic of data.comics ?? []) {
-      if (!comic.images?.front) work.push({ file, data, comic, bin: data.bin });
+      if (shouldScan(comic, wanted)) work.push({ file, data, comic, bin: data.bin });
     }
   }
   return work;
@@ -118,10 +138,14 @@ async function requestAction({ rl, side, voice, listener, since }) {
   }
 }
 
-export async function guidedScan({ voice = false, timed = 0, shiny = SHINY_BRIGHTNESS } = {}) {
-  const work = await loadWork();
+export async function guidedScan({
+  voice = false, timed = 0, shiny = SHINY_BRIGHTNESS, only = [],
+} = {}) {
+  const work = await loadWork({ only });
   if (!work.length) {
-    console.log('Every comic already has a cover image.');
+    console.log(only.length
+      ? `No book found for: ${only.join(', ')}`
+      : 'Every comic already has a cover image.');
     return { scanned: 0 };
   }
 
