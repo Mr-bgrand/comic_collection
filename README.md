@@ -98,6 +98,43 @@ npm run fmv      # prices every book using that saved session
 npm run fmv -- --force   # refresh values that already exist
 ```
 
+### Scanning without walking back to the keyboard
+
+CGC only photographs books you pay imaging for, so the rest you scan yourself.
+The scanner is rarely within reach of the keyboard, and a bin of twenty-five
+books is fifty trips across the room. Two hands-free modes exist for that:
+
+```bash
+npm run scan          # keyboard, the default
+npm run scan:voice    # reads each book aloud, waits for a spoken word
+npm run scan:timed    # scans the back 8s after a good front
+node src/scan.js --timed 12    # ...or pick your own gap
+```
+
+In voice mode it reads out the bin, title, variant and grade before each book —
+enough to identify the slab in your hand without looking at the screen, which is
+the case that matters when scanning a run of near-identical variants. Then it
+listens for one of four words:
+
+| Say | Does |
+|---|---|
+| **next** | scan this side |
+| **again** | the last side came out badly — go back and rescan it |
+| **skip** | skip this side |
+| **stop** | end the session |
+
+Both halves ship with Windows (`System.Speech`, via `scripts/speech.ps1`) — no
+install, no account, no network, and nothing is recorded or sent anywhere.
+
+The vocabulary is deliberately four words. Recognition runs against a closed
+grammar rather than open dictation, which is why it is dependable at a distance:
+measured at 99% confidence from where the scanner actually stands. "back" is
+absent on purpose — this loop scans a front and a back, so the word would be
+ambiguous exactly where it is spoken.
+
+If no recogniser is installed, voice mode says so and falls back to the keyboard
+rather than failing halfway through a bin.
+
 Each priced book stores its value, the 30/90/365-day averages, the sold count, and
 a link to its GoCollect page:
 

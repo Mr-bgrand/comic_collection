@@ -25,6 +25,9 @@ import { pathToFileURL } from 'node:url';
 
 import { displayTitle, gradeLabel } from './model.js';
 import { cropToSlab } from './crop.js';
+import {
+  speak, listen, speechAvailable, interpretVoice, bookAnnouncement, VOICE_WORDS,
+} from './speech.js';
 
 const BIN_DIR = path.join('data', 'bins');
 const IMAGE_DIR = path.join('data', 'images');
@@ -72,7 +75,41 @@ async function loadWork() {
   return work;
 }
 
-export async function guidedScan() {
+/**
+ * Ask for the next action, by keyboard or by ear.
+ *
+ * Both paths answer in the same words - scan, redo, skip, skipBook, quit - so
+ * the scanning loop never needs to know which one is driving it.
+ */
+async function requestAction({ rl, side, voice }) {
+  if (!voice) {
+    const answer = (await rl.question(`  ${side.toUpperCase()} - Enter to scan: `))
+      .trim()
+      .toLowerCase();
+    if (answer === 'q') return 'quit';
+    if (answer === 'n') return 'skipBook';
+    if (answer === 's') return 'skip';
+    return 'scan';
+  }
+
+  await speak(side === 'front' ? 'Front. Say next when ready.' : 'Turn it over. Say next.');
+  process.stdout.write(`  ${side.toUpperCase()} - listening... `);
+
+  // Silence is not an answer, so keep waiting rather than guessing. The cap
+  // exists only so a dead microphone ends the session instead of hanging it.
+  for (let attempt = 0; attempt < 10; attempt += 1) {
+    const action = interpretVoice(await listen({ seconds: 30 }));
+    if (action) {
+      console.log(`heard "${action}"`);
+      return action;
+    }
+    if (attempt === 2) await speak('Still listening.');
+  }
+  console.log('no answer');
+  return 'quit';
+}
+
+export async function guidedScan({ voice = false, timed = 0 } = {}) {
   const work = await loadWork();
   if (!work.length) {
     console.log('Every comic already has a cover image.');
@@ -88,8 +125,24 @@ export async function guidedScan() {
   await mkdir(TEMP_DIR, { recursive: true });
 
   console.log(`${work.length} book(s) need cover images.\n`);
-  console.log('For each: place the slab on the scanner, then press Enter.');
-  console.log('  Enter = scan     s = skip this side     n = skip this book     q = quit\n');
+  // Voice is opt-in and must prove itself before the session commits to it.
+  // Discovering the microphone is unavailable halfway through a bin, from
+  // across the room, is the worst possible moment to find out.
+  if (voice && !(await speechAvailable())) {
+    console.log('No speech recogniser available - falling back to the keyboard.');
+    voice = false;
+  }
+
+  if (voice) {
+    console.log('Voice mode. Each book is read aloud; say a word to act.');
+    console.log(`  ${VOICE_WORDS.join('   ')}`);
+    console.log('  next = scan this side    again = rescan it    Ctrl+C also quits.');
+  } else {
+    console.log('For each: place the slab on the scanner, then press Enter.');
+    console.log('  Enter = scan     s = skip this side     n = skip this book     q = quit');
+  }
+  if (timed) console.log(`Timed: the back scans ${timed}s after a good front.`);
+  console.log('');
 
   const rl = createInterface({ input: process.stdin, output: process.stdout });
   let scanned = 0;
@@ -98,15 +151,37 @@ export async function guidedScan() {
     for (const [i, { file, data, comic, bin }] of work.entries()) {
       console.log(`\n[${i + 1}/${work.length}] bin ${bin} · ${displayTitle(comic)}`);
       console.log(`        cert ${comic.cert} · ${gradeLabel(comic)}`);
+      if (voice) await speak(bookAnnouncement(comic, { bin }));
 
+      const sides = ['front', 'back'];
+      let sideIndex = 0;
       let quit = false;
-      for (const side of ['front', 'back']) {
-        const answer = (await rl.question(`  ${side.toUpperCase()} — Enter to scan: `))
-          .trim()
-          .toLowerCase();
-        if (answer === 'q') { quit = true; break; }
-        if (answer === 'n') break;
-        if (answer === 's') continue;
+      let skipBook = false;
+
+      while (sideIndex < sides.length) {
+        const side = sides[sideIndex];
+
+        // In timed mode the back needs no cue: the front succeeding is the cue,
+        // and the countdown is exactly the time it takes to turn the slab over.
+        let action;
+        if (timed && side === 'back' && comic.images?.front) {
+          await speak(`Turn it over. Scanning in ${timed} seconds.`);
+          console.log(`  BACK - scanning in ${timed}s...`);
+          await new Promise((resolve) => setTimeout(resolve, timed * 1000));
+          action = 'scan';
+        } else {
+          action = await requestAction({ rl, side, voice });
+        }
+
+        if (action === 'quit') { quit = true; break; }
+        if (action === 'skipBook') { skipBook = true; break; }
+        if (action === 'skip') { sideIndex += 1; continue; }
+        if (action === 'redo') {
+          // "again" means the side just finished came out badly. Step back to
+          // it; from the front, it simply means rescan the front.
+          sideIndex = Math.max(0, sideIndex - 1);
+          continue;
+        }
 
         const temp = path.join(TEMP_DIR, `${comic.cert}_${side}.jpg`);
         process.stdout.write('    scanning... ');
@@ -116,11 +191,13 @@ export async function guidedScan() {
           if (result.code === 2) {
             console.log('no scanner found');
             console.log('    Is the SV600 connected and powered on?');
+            if (voice) await speak('No scanner found. Stopping.');
             quit = true;
             break;
           }
-          console.log(`failed — ${result.err.slice(0, 90)}`);
-          continue;
+          console.log(`failed - ${result.err.slice(0, 90)}`);
+          if (voice) await speak('That scan failed. Say next to try again.');
+          continue; // stay on this side
         }
 
         const name = `${comic.cert}_${side === 'front' ? 'OBV' : 'REV'}.jpg`;
@@ -135,7 +212,9 @@ export async function guidedScan() {
 
         scanned += 1;
         console.log(`saved ${name}`);
+        sideIndex += 1;
       }
+      if (skipBook && voice) await speak('Skipping.');
       if (quit) break;
     }
   } finally {
@@ -150,7 +229,12 @@ export async function guidedScan() {
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
-  guidedScan().catch((err) => {
+  const argv = process.argv.slice(2);
+  const timedAt = argv.indexOf('--timed');
+  guidedScan({
+    voice: argv.includes('--voice'),
+    timed: timedAt >= 0 ? Number(argv[timedAt + 1]) || 8 : 0,
+  }).catch((err) => {
     console.error(err);
     process.exit(1);
   });
