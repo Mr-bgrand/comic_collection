@@ -123,6 +123,17 @@ listens for one of four words:
 | **skip** | skip this side |
 | **stop** | end the session |
 
+You do not have to wait for it to finish talking. The microphone is opened once
+at the start of the session and stays open, so a word said over the top of the
+announcement lands immediately and cuts the sentence off mid-word. Opening a
+recogniser per prompt instead cost two to three seconds each time, and was deaf
+to anything said before it had finished starting — which is most of what people
+actually say.
+
+A word heard *during a scan* is discarded rather than queued: shouting "next"
+while the scanner works would otherwise fire the moment the front finished and
+scan it again before you had turned the book over.
+
 Both halves ship with Windows (`System.Speech`, via `scripts/speech.ps1`) — no
 install, no account, no network, and nothing is recorded or sent anywhere.
 
