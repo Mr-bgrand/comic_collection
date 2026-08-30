@@ -109,6 +109,8 @@ npm run scan          # keyboard, the default
 npm run scan:voice    # reads each book aloud, waits for a spoken word
 npm run scan:timed    # scans the back 8s after a good front
 node src/scan.js --timed 12    # ...or pick your own gap
+npm run scan -- --redo 4089841007      # rescan named certs, even if they
+                                       # already have a cover
 ```
 
 In voice mode it reads out the bin, title, variant and grade before each book —

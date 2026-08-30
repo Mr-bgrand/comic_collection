@@ -287,7 +287,11 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
   const argv = process.argv.slice(2);
   const timedAt = argv.indexOf('--timed');
   const shinyAt = argv.indexOf('--shiny');
-  const onlyAt = argv.indexOf('--only');
+  // npm treats --only as one of its own config flags and eats it before the
+  // script ever sees it, exactly as it does --bin. --redo is not an npm config,
+  // so it survives `npm run scan -- --redo ...`; --only still works when the
+  // script is invoked through node directly.
+  const onlyAt = Math.max(argv.indexOf('--redo'), argv.indexOf('--only'));
   guidedScan({
     voice: argv.includes('--voice'),
     timed: timedAt >= 0 ? Number(argv[timedAt + 1]) || 8 : 0,

@@ -779,10 +779,14 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "21-45DB4BC-045_OBV.jpg",
+        "back": "21-45DB4BC-045_REV.jpg"
+      },
       "source": "manual",
       "fetchedAt": "2026-08-30T19:52:44.246Z",
-      "certUrl": "https://www.cbcscomics.com/grading-notes/21-45DB4BC-045"
+      "certUrl": "https://www.cbcscomics.com/grading-notes/21-45DB4BC-045",
+      "imageSource": "owner"
     }
   ],
   "updated": "2026-08-30"
