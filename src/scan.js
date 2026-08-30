@@ -26,7 +26,7 @@ import { pathToFileURL } from 'node:url';
 import { displayTitle, gradeLabel } from './model.js';
 import { cropToSlab } from './crop.js';
 import {
-  speak, listen, speechAvailable, interpretVoice, bookAnnouncement, VOICE_WORDS,
+  speakAsync, startListener, interpretVoice, bookAnnouncement, VOICE_WORDS,
 } from './speech.js';
 
 const BIN_DIR = path.join('data', 'bins');
@@ -80,8 +80,13 @@ async function loadWork() {
  *
  * Both paths answer in the same words - scan, redo, skip, skipBook, quit - so
  * the scanning loop never needs to know which one is driving it.
+ *
+ * The voice path does not speak and then listen. The microphone has been open
+ * since the session began, and `since` marks the moment this side started, so
+ * a word said over the top of the announcement counts. Waiting for the sentence
+ * to finish is what made this feel slow - and the sentence is the long part.
  */
-async function requestAction({ rl, side, voice }) {
+async function requestAction({ rl, side, voice, listener, since }) {
   if (!voice) {
     const answer = (await rl.question(`  ${side.toUpperCase()} - Enter to scan: `))
       .trim()
@@ -92,21 +97,19 @@ async function requestAction({ rl, side, voice }) {
     return 'scan';
   }
 
-  await speak(side === 'front' ? 'Front. Say next when ready.' : 'Turn it over. Say next.');
   process.stdout.write(`  ${side.toUpperCase()} - listening... `);
 
-  // Silence is not an answer, so keep waiting rather than guessing. The cap
-  // exists only so a dead microphone ends the session instead of hanging it.
-  for (let attempt = 0; attempt < 10; attempt += 1) {
-    const action = interpretVoice(await listen({ seconds: 30 }));
+  // Silence is not an answer, and neither is a doubtful hearing, so keep
+  // waiting rather than guessing. There is deliberately no timeout: the person
+  // is across the room, and quietly giving up on them is worse than waiting.
+  for (;;) {
+    const heard = await listener.next(since);
+    const action = interpretVoice(heard);
     if (action) {
-      console.log(`heard "${action}"`);
+      console.log(`heard "${heard.text}"`);
       return action;
     }
-    if (attempt === 2) await speak('Still listening.');
   }
-  console.log('no answer');
-  return 'quit';
 }
 
 export async function guidedScan({ voice = false, timed = 0 } = {}) {
@@ -128,9 +131,15 @@ export async function guidedScan({ voice = false, timed = 0 } = {}) {
   // Voice is opt-in and must prove itself before the session commits to it.
   // Discovering the microphone is unavailable halfway through a bin, from
   // across the room, is the worst possible moment to find out.
-  if (voice && !(await speechAvailable())) {
-    console.log('No speech recogniser available - falling back to the keyboard.');
-    voice = false;
+  let listener = null;
+  if (voice) {
+    listener = startListener();
+    if (!(await listener.ready())) {
+      console.log('No speech recogniser available - falling back to the keyboard.');
+      listener.stop();
+      listener = null;
+      voice = false;
+    }
   }
 
   if (voice) {
@@ -151,7 +160,12 @@ export async function guidedScan({ voice = false, timed = 0 } = {}) {
     for (const [i, { file, data, comic, bin }] of work.entries()) {
       console.log(`\n[${i + 1}/${work.length}] bin ${bin} · ${displayTitle(comic)}`);
       console.log(`        cert ${comic.cert} · ${gradeLabel(comic)}`);
-      if (voice) await speak(bookAnnouncement(comic, { bin }));
+
+      // The mark goes down before a word of the announcement is spoken, so
+      // saying "next" over the top of it counts. Anything heard earlier - while
+      // the previous scan was running - is stale and deliberately ignored.
+      let since = Date.now();
+      let saying = voice ? speakAsync(bookAnnouncement(comic, { bin })) : null;
 
       const sides = ['front', 'back'];
       let sideIndex = 0;
@@ -165,12 +179,18 @@ export async function guidedScan({ voice = false, timed = 0 } = {}) {
         // and the countdown is exactly the time it takes to turn the slab over.
         let action;
         if (timed && side === 'back' && comic.images?.front) {
-          await speak(`Turn it over. Scanning in ${timed} seconds.`);
+          saying?.cancel();
+          saying = speakAsync(`Turn it over. Scanning in ${timed} seconds.`);
           console.log(`  BACK - scanning in ${timed}s...`);
           await new Promise((resolve) => setTimeout(resolve, timed * 1000));
           action = 'scan';
         } else {
-          action = await requestAction({ rl, side, voice });
+          if (voice && side === 'back' && !timed) {
+            saying?.cancel();
+            saying = speakAsync('Turn it over.');
+          }
+          action = await requestAction({ rl, side, voice, listener, since });
+          saying?.cancel();
         }
 
         if (action === 'quit') { quit = true; break; }
@@ -191,12 +211,13 @@ export async function guidedScan({ voice = false, timed = 0 } = {}) {
           if (result.code === 2) {
             console.log('no scanner found');
             console.log('    Is the SV600 connected and powered on?');
-            if (voice) await speak('No scanner found. Stopping.');
+            if (voice) speakAsync('No scanner found. Stopping.');
             quit = true;
             break;
           }
           console.log(`failed - ${result.err.slice(0, 90)}`);
-          if (voice) await speak('That scan failed. Say next to try again.');
+          if (voice) { saying?.cancel(); saying = speakAsync('That scan failed.'); }
+          since = Date.now();
           continue; // stay on this side
         }
 
@@ -211,14 +232,17 @@ export async function guidedScan({ voice = false, timed = 0 } = {}) {
         await writeFile(file, `${JSON.stringify(data, null, 2)}\n`, 'utf8');
 
         scanned += 1;
+        since = Date.now();
         console.log(`saved ${name}`);
         sideIndex += 1;
       }
-      if (skipBook && voice) await speak('Skipping.');
+      if (skipBook && voice) { saying?.cancel(); speakAsync('Skipping.'); }
+      saying?.cancel();
       if (quit) break;
     }
   } finally {
     rl.close();
+    listener?.stop();
   }
 
   console.log(`\nScanned ${scanned} image(s).`);

@@ -22,7 +22,10 @@
         "higher": 749,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "4245413019_OBV.jpg",
+        "back": "4245413019_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-22T07:20:44.744Z",
       "fmv": {
@@ -36,7 +39,7 @@
         "status": "priced",
         "fetchedAt": "2026-08-22T07:23:02.980Z"
       },
-      "noScans": true
+      "imageSource": "owner"
     },
     {
       "cert": "4245413002",

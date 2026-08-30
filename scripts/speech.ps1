@@ -16,15 +16,16 @@
 
 .EXAMPLE
   powershell -File scripts/speech.ps1 -Speak "Bin 8. Deadpool number 1."
-  powershell -File scripts/speech.ps1 -Listen -Seconds 20 -Words next,back,skip,stop
+  powershell -File scripts/speech.ps1 -Loop -Words next,again,skip,stop
 #>
 [CmdletBinding()]
 param(
     [string]   $Speak,
     [switch]   $Listen,
+    [switch]   $Loop,
     [switch]   $Check,
     [int]      $Seconds = 20,
-    [string]   $Words = 'next,back,skip,stop'
+    [string]   $Words = 'next,again,skip,stop'
 )
 
 $ErrorActionPreference = 'Stop'
@@ -60,6 +61,42 @@ if ($Check) {
     } catch {
         Write-Output 'NOMIC'
         exit 4
+    }
+}
+
+# --- continuous listen -----------------------------------------------------
+# One process, one open microphone, for the whole session. Spawning a fresh
+# recogniser per prompt cost two to three seconds each time and could not hear
+# anything said before it had started - which is most of what people say.
+if ($Loop) {
+    $engine = $null
+    try {
+        $engine = New-Object System.Speech.Recognition.SpeechRecognitionEngine
+        $choices = New-Object System.Speech.Recognition.Choices
+        $choices.Add([string[]]($Words -split ','))
+        $builder = New-Object System.Speech.Recognition.GrammarBuilder
+        $builder.Append($choices)
+        $engine.LoadGrammar((New-Object System.Speech.Recognition.Grammar $builder))
+        $engine.SetInputToDefaultAudioDevice()
+
+        [Console]::Out.WriteLine('READY')
+        [Console]::Out.Flush()
+
+        # Long windows so the gaps between them are negligible; the engine and
+        # the microphone stay open across the whole loop either way.
+        while ($true) {
+            $result = $engine.Recognize([TimeSpan]::FromSeconds(30))
+            if ($null -ne $result) {
+                [Console]::Out.WriteLine(("HEARD|{0}|{1:N2}" -f $result.Text, $result.Confidence))
+                [Console]::Out.Flush()
+            }
+        }
+    } catch {
+        [Console]::Out.WriteLine('NOMIC')
+        [Console]::Out.Flush()
+        exit 4
+    } finally {
+        if ($null -ne $engine) { $engine.Dispose() }
     }
 }
 

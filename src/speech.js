@@ -103,6 +103,66 @@ export function interpretVoice(heard, { floor = FLOOR, floorQuit = FLOOR_QUIT } 
   return confidence >= needed ? action : null;
 }
 
+/**
+ * The exact sentences spoken during a session.
+ *
+ * Held in one place so a test can prove none of them contains a cue word. The
+ * recogniser listens continuously, including while these are being read, so a
+ * prompt saying "say next" would make the session scan on its own voice.
+ */
+export const SPOKEN_PROMPTS = [
+  'Front.',
+  'Turn it over.',
+  'That scan failed.',
+  'No scanner found. Stopping.',
+  'Skipping.',
+  'Still listening.',
+];
+
+/** Parse one line of the recogniser's output. */
+export function parseHeard(line) {
+  if (typeof line !== 'string' || !line.startsWith('HEARD|')) return null;
+  const [, text, confidence] = line.split('|');
+  if (!text) return null;
+  return { text, confidence: Number(confidence) };
+}
+
+/**
+ * Words heard but not yet acted on.
+ *
+ * The recogniser never stops, so a word can arrive at any moment - including
+ * halfway through the announcement, which is exactly what makes the session
+ * feel immediate rather than turn-based.
+ *
+ * What it must not do is carry a word across a scan. Saying "next" while the
+ * scanner is working would otherwise fire again the instant the front finished,
+ * scanning the front a second time before the book had been turned over. So
+ * every word carries the moment it was heard, and each side only accepts words
+ * spoken after that side began.
+ */
+export function createWordQueue({ max = 8 } = {}) {
+  let words = [];
+  return {
+    push(word) {
+      words.push(word);
+      if (words.length > max) words = words.slice(-max);
+    },
+    takeSince(since) {
+      const i = words.findIndex((w) => w.at >= since);
+      if (i < 0) {
+        words = []; // everything left is stale
+        return null;
+      }
+      const [word] = words.splice(i, 1);
+      words = words.slice(i); // drop anything older than what we just took
+      return word;
+    },
+    size() {
+      return words.length;
+    },
+  };
+}
+
 /** Run the PowerShell speech helper and resolve its single output line. */
 function runSpeech(args) {
   return new Promise((resolve) => {
@@ -141,4 +201,102 @@ export async function listen({ seconds = 20 } = {}) {
 export async function speechAvailable() {
   const out = await runSpeech(['-Check']);
   return out.includes('READY');
+}
+
+/**
+ * Say something without waiting for it to finish.
+ *
+ * The announcement is several seconds of speech, and waiting it out before
+ * listening made the session turn-based: you had to hear the whole title before
+ * you could answer it. Speaking is now interruptible - the moment a word is
+ * heard, the sentence is cut off mid-word and the scan starts.
+ *
+ * @returns {{done: Promise<void>, cancel: () => void}}
+ */
+export function speakAsync(text) {
+  if (!text) return { done: Promise.resolve(), cancel() {} };
+  const ps = spawn(
+    'powershell',
+    ['-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', PS_SCRIPT, '-Speak', String(text)],
+    { stdio: ['ignore', 'ignore', 'ignore'] },
+  );
+  const done = new Promise((resolve) => {
+    ps.on('close', resolve);
+    ps.on('error', resolve);
+  });
+  return { done, cancel() { ps.kill(); } };
+}
+
+/**
+ * Open the microphone once, for the whole session.
+ *
+ * Recognition used to spawn a recogniser per prompt, which cost two to three
+ * seconds of startup each time and, worse, could not hear anything said before
+ * it had finished starting. One long-lived process removes both problems: the
+ * microphone is already open, so a word spoken at any moment - including over
+ * the announcement - lands immediately.
+ */
+export function startListener({ words = VOICE_WORDS } = {}) {
+  const queue = createWordQueue();
+  const waiters = [];
+  let state = 'starting';
+
+  const ps = spawn(
+    'powershell',
+    ['-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', PS_SCRIPT,
+      '-Loop', '-Words', words.join(',')],
+    { stdio: ['ignore', 'pipe', 'ignore'] },
+  );
+
+  // A pending recognition is not enough on its own to keep Node alive, and a
+  // session that quietly exits while waiting for a word - with the person
+  // still across the room - would be baffling. Hold the loop open explicitly.
+  const keepAlive = setInterval(() => {}, 60_000);
+
+  let buffer = '';
+  ps.stdout.on('data', (chunk) => {
+    buffer += chunk.toString();
+    const lines = buffer.split(/\r?\n/);
+    buffer = lines.pop() ?? '';
+
+    for (const raw of lines) {
+      const line = raw.trim();
+      if (line === 'READY') { state = 'ready'; continue; }
+      if (line === 'NOMIC' || line === 'NOSPEECH') { state = 'failed'; continue; }
+
+      const heard = parseHeard(line);
+      if (!heard) continue;
+      queue.push({ ...heard, at: Date.now() });
+
+      // Hand it to whoever is waiting, if it is not stale for them.
+      for (let i = waiters.length - 1; i >= 0; i -= 1) {
+        const word = queue.takeSince(waiters[i].since);
+        if (word) waiters.splice(i, 1)[0].resolve(word);
+      }
+    }
+  });
+  ps.on('error', () => { state = 'failed'; });
+  ps.on('close', () => { if (state !== 'failed') state = 'stopped'; });
+
+  return {
+    state: () => state,
+    /** Resolve once the microphone is actually open. */
+    async ready(timeoutMs = 15_000) {
+      const deadline = Date.now() + timeoutMs;
+      while (state === 'starting' && Date.now() < deadline) {
+        await new Promise((r) => setTimeout(r, 100));
+      }
+      return state === 'ready';
+    },
+    /** The next word heard at or after `since`. Waits indefinitely. */
+    next(since) {
+      const word = queue.takeSince(since);
+      if (word) return Promise.resolve(word);
+      return new Promise((resolve) => waiters.push({ since, resolve }));
+    },
+    stop() {
+      clearInterval(keepAlive);
+      ps.kill();
+    },
+  };
 }
