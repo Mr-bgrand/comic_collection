@@ -19,3 +19,12 @@ data/medium/
 
 # Generated export for the price-lookup tool (rebuild with: npm run export)
 export/
+
+# Temporary design working files and generated concept previews
+.superdesign/tmp/
+docs/prototypes/museum.html
+docs/prototypes/engine.html
+
+# Half-written print files. A locked PDF (one open in a viewer) leaves the
+# temp HTML behind, and it was committed once.
+print/.*.tmp.*
