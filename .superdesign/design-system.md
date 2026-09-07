@@ -1,0 +1,43 @@
+# COLLECTION / LAB — an interactive personal universe
+
+The owner wants an unusual interactive object to manipulate and show off. This supersedes the conventional museum website. Do not use a “Family guide” label. Helping someone locate and understand a copy belongs inside its ordinary record.
+
+## Experience
+
+- Fill the screen with real objects in a Three.js scene. Keep the collection as the main interface.
+- Open holding a real slab. Drag to rotate and turn over to its actual reverse. **Study** presents both original scans with zoom and pan; it replaces the unhelpful decorative explosion.
+- Morph the same copies through **01 Orbit**, **02 Wall**, **03 Longbox**, **04 Spotlight** and **05 Singularity**. Preserve exact-copy identity. Render selection in a separate foreground pass; background slabs must never cover it.
+- Spotlight is a stable wall you can roam: drag/scroll in both directions, pinch or use the zoom controls, and Recenter when needed. Picking preserves position and order; dragging the background or scrolling returns to browsing. Use warm after-hours illumination and an optional paced tour. Pause on manual interaction, search, record opening, motion-off and tab hiding.
+- All five experiences have physical front and back faces using the exact copy's own scans. Back images read correctly and are selectable; picking from behind preserves that side. Missing back images use a labeled placeholder. Never mirror the front as a substitute.
+- Comics and cards share search and arrangements, with All / Comics / Cards filters and card-scale presentation. Keep PSA Vault cards explicitly stored at PSA rather than implying a home location.
+- Preserve certification, grader, storage and value evidence. Missing value is unknown. The CSV supplies no valuation date: never turn import time into appraisal time. Exclude private acquisition costs and notes from the portable design.
+- Find is also a discovery surface: eight top character/name searches and six keyword shortcuts with actual matching-record counts. Use metadata, never infer characters from art. Tap to filter, Clear to explore again. Make accents and common character spellings forgiving. On phones, tapping a shortcut should show results without invoking the keyboard.
+- Find has an **All values / No value yet** filter that combines with text and exact-cert searches. Zero is a known value. A small homepage value instrument opens an interactive history with actual saved totals, comic/card breakdown, valuation coverage and a missing-value shortcut. Keep it subordinate to the physical collection. Use a thin acid-green line, restrained fill, keyboard/touch scrubbing and a readable observation table. State that additions and newly valued copies affect the total; never frame inventory growth as market return. Keep undated PSA estimates visibly undated. The desktop instrument sits above object metadata; the phone ribbon appears in Orbit and Wall without covering the slab label.
+
+## Visual rules
+
+- Ink blue #060d13, ice white #edf4f8, restrained acid green #d8ffa3 and blue gray metadata. Spotlight adds warm gold #f0d6a3. Actual collectible art supplies the color.
+- Small technical controls and restrained titles surround the object. No marketing entrance, sidebar or dashboard tiles.
+- Use depth, fine glass edges, faithful scans and spatial transitions. Never regenerate or recolor collectible art. Darken the wall further in Study so both scans remain the focus.
+- Primary actions have generous touch targets, visible focus and keyboard equivalents. Use native dialogs, motion preferences and a searchable record fallback if WebGL fails. Hidden controls leave the tab order.
+- On phones, place formation and object controls in the lower reach zone. Fit both Study scans at default zoom, then support deliberate zoom and pan. Keep long titles, scan notices and record access usable.
+- Use an atlas, instanced geometry, bounded detail-texture cache, capped pixel density and visibility pause. Avoid hundreds of independent high-resolution animated elements.
+- Accept only official scans linked to the exact cert. Read internal image URLs from rendered pages. PSA similar-sale images and TAG effect/defect images are not plain scans of the owner's copy.
+
+## Editable source and scope
+
+Active UI: `docs/prototypes/build-engine.mjs`, `engine.js`, `engine.css`, `engine-layouts.mjs`. The builder reads comics in `data/bins` and cards in `data/cards`. Importers: `src/import-vault.js`, `src/import-card-images.js`. Source guard: `src/card-images.js`.
+
+Current inventory: 498 objects, comprising 355 comics and 143 cards. Case #12 contains 111 Authority softslabs and all 222 front/reverse scans. Case #2 has 57 TAG cards, the office wall has nine TAG and two PSA cards, and Case #1 has eleven CGC cards and one Arena Club card. Another 49 PSA Vault cards and 14 original TAG cards remain in their existing groups. Five additional CGC cards are queued for security verification and are not counted as imported. Keep exact cert identity, leading zeros, raw/authentic versus numeric grades, actual population dates and source evidence. Preserve CGC current-grade versus physical-label distinctions. Authority soft sleeves have no added rigid casing. All 15 physical containers have persistent names and the existing 4 × 6 labels / Letter masters. Earlier `museum.*` files are superseded history.
+
+Admin opens as a responsive control-room overlay with Bins & locations, Print Studio and Collection backup. Keep the existing 4 × 6 labels and 8.5 × 11 master sheets. Local bin edits persist while IDs/QR destinations stay stable. The local server executes the owner's existing build/print workflow and links the PDFs. Portable drafts must clearly show read-only controls, never fake a successful save. New sources: engine-admin.html/css/mjs and src/lab-admin.js, lab-server.js, lab-jobs.js. The builder also reads data/comics for soft sleeves.
+
+**04 Photos** adds exact-cert photo intake inside Admin. Show the selected copy and front/back choice before the camera actions, then current and proposed photos together. Make the review/save step explicit and preserve previous scan history. Pair a phone with a temporary QR code on the same Wi-Fi; its focused camera page supports searching the next cert. Use the same ink/acid palette, generous touch controls and plain progress/error messages. Camera images are owner photographs, distinct from official grader scans. Sources: photo-intake.html/css/mjs, phone-capture.html/mjs and src/photo-store.js, photo-bridge.js. The phone companion exposes photo intake only; portable canvas drafts cannot perform local saves.
+
+## Immersive scenes — September 7
+
+**03 Inside the Case** isolates one container and unfolds its contents in source order around the held copy. Desktop uses a deep horseshoe; portrait uses a curved vertical ribbon. Drag the background, swipe, scroll, or use arrows to browse the case. Drag the held copy to rotate; Turn over uses its original reverse. Leave case / Escape restores the saved overview orientation and zoom. A fine box outline remains below the ribbon. Keep case name, position, and exit readable over passing art.
+
+**05 Singularity** surrounds an event horizon with thousands of GPU-instanced fragments sampled from the actual atlas. The cover palette drives changing light, with a fading previous palette. An incoming copy folds toward the horizon and the latest arrival reassembles from its own mosaic tiles; a clean scan then holds in the foreground. Scanned copies play in a stable mixed sequence, once per five active seconds, with All / Comics / Cards scope. Manual interaction, opening a dialog or hiding the tab pauses arrivals. Motion off gives a still presentation with manual navigation. Ambient hides and removes controls from keyboard focus, enlarges the art, and leaves an explicit Show controls action; Escape exits Ambient. Link directly with `?view=singularity` or `?view=singularity&ambient=1`. This is a local ambient display, not an installed operating-system screensaver.
+
+New source: engine-immersive.mjs/html/css and engine-singularity.mjs. The homepage value instrument stays out of these immersive scenes. Art scans are not recolored: prism/foil light belongs to the surrounding fragments and transition. Native WebGL 2 is required; the searchable fallback remains available.

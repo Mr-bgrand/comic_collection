@@ -1,0 +1,79 @@
+{
+  "provider": "CGC",
+  "kind": "card",
+  "container": {
+    "id": "case-01",
+    "title": "Case #1",
+    "physical": true,
+    "virtual": false,
+    "location": "Case #1"
+  },
+  "records": [
+    {
+      "cert": "1401019289294",
+      "url": "https://www.cgccards.com/certlookup/1401019289294/9_0/",
+      "status": "imported",
+      "inventoryFile": "data/cards/case-01.json"
+    },
+    {
+      "cert": "1401031230023",
+      "url": "https://www.cgccards.com/certlookup/1401031230023/8_5/",
+      "status": "imported",
+      "inventoryFile": "data/cards/case-01.json"
+    },
+    {
+      "cert": "6016747097",
+      "url": "https://www.cgccards.com/certlookup/6016747097/9_0/",
+      "status": "imported",
+      "inventoryFile": "data/cards/case-01.json"
+    },
+    {
+      "cert": "6001871064",
+      "url": "https://www.cgccards.com/certlookup/6001871064/9_0/",
+      "status": "imported",
+      "inventoryFile": "data/cards/case-01.json"
+    },
+    {
+      "cert": "4135876101",
+      "url": "https://www.cgccards.com/certlookup/4135876101/9_5/",
+      "status": "imported",
+      "inventoryFile": "data/cards/case-01.json"
+    },
+    {
+      "cert": "4093107189",
+      "url": "https://www.cgccards.com/certlookup/4093107189/9_0/",
+      "status": "imported",
+      "inventoryFile": "data/cards/case-01.json"
+    },
+    {
+      "cert": "6021692042",
+      "url": "https://www.cgccards.com/certlookup/6021692042/10_0/",
+      "status": "imported",
+      "inventoryFile": "data/cards/case-01.json"
+    },
+    {
+      "cert": "1401036524258",
+      "url": "https://www.cgccards.com/certlookup/1401036524258/10_0/",
+      "status": "imported",
+      "inventoryFile": "data/cards/case-01.json"
+    },
+    {
+      "cert": "1401037502277",
+      "url": "https://www.cgccards.com/certlookup/1401037502277/8_5/",
+      "status": "imported",
+      "inventoryFile": "data/cards/case-01.json"
+    },
+    {
+      "cert": "1401028405269",
+      "url": "https://www.cgccards.com/certlookup/1401028405269/10_0/",
+      "status": "imported",
+      "inventoryFile": "data/cards/case-01.json"
+    },
+    {
+      "cert": "6032605137",
+      "url": "https://www.cgccards.com/certlookup/6032605137/9_5/",
+      "status": "imported",
+      "inventoryFile": "data/cards/case-01.json"
+    }
+  ]
+}

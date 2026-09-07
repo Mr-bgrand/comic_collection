@@ -1,0 +1,1550 @@
+{
+  "cards": [
+    {
+      "kind": "card",
+      "cert": "Q9937497",
+      "grader": "TAG",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "year": "2025",
+      "brand": "HEAT WAVE ARENA",
+      "series": "POKÉMON SCARLET & VIOLET JAPANESE",
+      "subject": "シロナのロズレイド CYNTHIA'S ROSERADE",
+      "cardNumber": "065/063",
+      "variety": "ART RARE",
+      "language": "Japanese",
+      "category": "Pokémon",
+      "holder": "slab",
+      "certUrl": "https://my.taggrading.com/card/Q9937497",
+      "gradeDate": "2025-06-02",
+      "location": null,
+      "valuation": null,
+      "population": {
+        "atGrade": 103,
+        "total": 324,
+        "higher": null,
+        "asOf": "2026-09-06",
+        "source": "TAG",
+        "url": "https://my.taggrading.com/card/Q9937497"
+      },
+      "tag": {
+        "score": null,
+        "scoreStatus": "not-exposed",
+        "rank": {
+          "asOf": "9/6/2026",
+          "atGrade": "3rd",
+          "atGradeLabel": "HIGHEST MINT (T)",
+          "overall": "219th",
+          "overallLabel": "HIGHEST OVERALL (T)"
+        },
+        "chronology": {
+          "graded": "6/2/2025",
+          "atGrade": "8th",
+          "overall": "44th"
+        },
+        "dings": {
+          "corners": {
+            "front": 0,
+            "back": 0
+          },
+          "edges": {
+            "front": 0,
+            "back": 0
+          },
+          "surface": {
+            "front": 0,
+            "back": 0
+          }
+        },
+        "centering": {
+          "front": "57L/43R 47T/53B",
+          "back": "46L/54R 52T/48B"
+        },
+        "dimensions": {
+          "heightIn": "3.460",
+          "widthIn": "2.478"
+        },
+        "sourceUrl": "https://my.taggrading.com/card/Q9937497",
+        "capturedAt": "2026-09-07T03:36:41.907Z"
+      },
+      "images": {
+        "front": "TAG_Q9937497_FRONT.jpg",
+        "back": "TAG_Q9937497_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/tag-card-captures.json",
+        "importedAt": "2026-09-07T03:44:42.428Z",
+        "capturedAt": "2026-09-07T03:36:41.907Z",
+        "pageUrl": "https://my.taggrading.com/card/Q9937497"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/b15fbe06-52e3-4768-bcfc-710f97002418_FRONT_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/Q9937497",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T03:36:41.907Z",
+          "retrievedAt": "2026-09-07T03:44:44.028Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4386,
+          "originalHeight": 6083,
+          "sha256": "4fede7ccd305fb15334e512baefc2308ea004d5a939fb73fc004293bc081a5df",
+          "originalFile": "data/originals/TAG_Q9937497_FRONT.jpg",
+          "originalSha256": "b8fa6691287d5086e63a274afbcb403bfeaf9e695d5df472859a1ceff4a2621a"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/b15fbe06-52e3-4768-bcfc-710f97002418_BACK_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/Q9937497",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T03:36:41.907Z",
+          "retrievedAt": "2026-09-07T03:44:44.790Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4385,
+          "originalHeight": 6082,
+          "sha256": "c6dd4e55665127b4d7e38570862884d604e112a40524356748c8b09dc3281ca8",
+          "originalFile": "data/originals/TAG_Q9937497_BACK.jpg",
+          "originalSha256": "f8b2b8ac8843f6c173a73101268261c3a6239fb7e3973ab6d1cae8a759ebee09"
+        }
+      },
+      "displaySubject": "CYNTHIA'S ROSERADE"
+    },
+    {
+      "kind": "card",
+      "cert": "R4092198",
+      "grader": "TAG",
+      "grade": "10",
+      "gradeDescription": "GEM MINT",
+      "year": "2023",
+      "brand": "PARADOX RIFT",
+      "series": "POKÉMON SCARLET & VIOLET",
+      "subject": "MAGBY",
+      "cardNumber": "186/182",
+      "variety": "ILLUSTRATION RARE",
+      "language": null,
+      "category": "Pokémon",
+      "holder": "slab",
+      "certUrl": "https://my.taggrading.com/card/R4092198",
+      "gradeDate": "2025-06-02",
+      "location": null,
+      "valuation": null,
+      "population": {
+        "atGrade": 27,
+        "total": 56,
+        "higher": null,
+        "asOf": "2026-09-06",
+        "source": "TAG",
+        "url": "https://my.taggrading.com/card/R4092198"
+      },
+      "tag": {
+        "score": null,
+        "scoreStatus": "not-exposed",
+        "rank": {
+          "asOf": "9/6/2026",
+          "atGrade": "1st",
+          "atGradeLabel": "HIGHEST GEM MINT (T)",
+          "overall": "2nd",
+          "overallLabel": "HIGHEST OVERALL (T)"
+        },
+        "chronology": {
+          "graded": "6/2/2025",
+          "atGrade": "12th",
+          "overall": "22nd"
+        },
+        "dings": {
+          "corners": {
+            "front": 0,
+            "back": 1
+          },
+          "edges": {
+            "front": 0,
+            "back": 0
+          },
+          "surface": {
+            "front": 0,
+            "back": 1
+          }
+        },
+        "centering": {
+          "front": "51L/49R 55T/45B",
+          "back": "49L/51R 49T/51B"
+        },
+        "dimensions": {
+          "heightIn": "3.465",
+          "widthIn": "2.479"
+        },
+        "sourceUrl": "https://my.taggrading.com/card/R4092198",
+        "capturedAt": "2026-09-07T03:37:01.614Z"
+      },
+      "images": {
+        "front": "TAG_R4092198_FRONT.jpg",
+        "back": "TAG_R4092198_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/tag-card-captures.json",
+        "importedAt": "2026-09-07T03:44:42.428Z",
+        "capturedAt": "2026-09-07T03:37:01.614Z",
+        "pageUrl": "https://my.taggrading.com/card/R4092198"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/761ed0bf-ad07-4371-84f2-316f21bebf57_FRONT_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/R4092198",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T03:37:01.614Z",
+          "retrievedAt": "2026-09-07T03:44:45.459Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4387,
+          "originalHeight": 6091,
+          "sha256": "971a0b8a430ccfdecbe0b5fb2911e8da8e2cf238b6310b68f1bbd9d468a759f1",
+          "originalFile": "data/originals/TAG_R4092198_FRONT.jpg",
+          "originalSha256": "6d65f19ee859174f88c7ebc5fb6e5df157b9597ba88ce945f986dc9a2a4ae213"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/761ed0bf-ad07-4371-84f2-316f21bebf57_BACK_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/R4092198",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T03:37:01.614Z",
+          "retrievedAt": "2026-09-07T03:44:46.145Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4387,
+          "originalHeight": 6090,
+          "sha256": "146861b62b75867dec2c58e00416bd3ad56582f05b338ec88bb40313305f7b06",
+          "originalFile": "data/originals/TAG_R4092198_BACK.jpg",
+          "originalSha256": "f9a7a868429c643bd1114405e67069b6016b6f3813fbac29a950cc10e74c29d6"
+        }
+      },
+      "displaySubject": "MAGBY"
+    },
+    {
+      "kind": "card",
+      "cert": "H9812622",
+      "grader": "TAG",
+      "grade": "10",
+      "gradeDescription": "GEM MINT",
+      "year": "2023",
+      "brand": "PARADOX RIFT ELITE TRAINER BOX",
+      "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+      "subject": "SCREAM TAIL",
+      "cardNumber": "065",
+      "variety": "HOLO",
+      "language": null,
+      "category": "Pokémon",
+      "holder": "slab",
+      "certUrl": "https://my.taggrading.com/card/H9812622",
+      "gradeDate": "2025-06-02",
+      "location": null,
+      "valuation": null,
+      "population": {
+        "atGrade": 25,
+        "total": 65,
+        "higher": null,
+        "asOf": "2026-09-06",
+        "source": "TAG",
+        "url": "https://my.taggrading.com/card/H9812622"
+      },
+      "tag": {
+        "score": null,
+        "scoreStatus": "not-exposed",
+        "rank": {
+          "asOf": "9/6/2026",
+          "atGrade": "1st",
+          "atGradeLabel": "HIGHEST GEM MINT (T)",
+          "overall": "1st",
+          "overallLabel": "HIGHEST OVERALL (T)"
+        },
+        "chronology": {
+          "graded": "6/2/2025",
+          "atGrade": "7th",
+          "overall": "23rd"
+        },
+        "dings": {
+          "corners": {
+            "front": 0,
+            "back": 1
+          },
+          "edges": {
+            "front": 0,
+            "back": 0
+          },
+          "surface": {
+            "front": 0,
+            "back": 0
+          }
+        },
+        "centering": {
+          "front": "52L/48R 52T/48B",
+          "back": "46L/54R 53T/47B"
+        },
+        "dimensions": {
+          "heightIn": "3.461",
+          "widthIn": "2.477"
+        },
+        "sourceUrl": "https://my.taggrading.com/card/H9812622",
+        "capturedAt": "2026-09-07T03:37:27.767Z"
+      },
+      "images": {
+        "front": "TAG_H9812622_FRONT.jpg",
+        "back": "TAG_H9812622_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/tag-card-captures.json",
+        "importedAt": "2026-09-07T03:44:42.428Z",
+        "capturedAt": "2026-09-07T03:37:27.767Z",
+        "pageUrl": "https://my.taggrading.com/card/H9812622"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/d2fc5150-fa98-4f91-b472-ce86ef2832b6_FRONT_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/H9812622",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T03:37:27.767Z",
+          "retrievedAt": "2026-09-07T03:44:46.805Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4396,
+          "originalHeight": 6083,
+          "sha256": "8ba98d868e8baa66708eaf6f9db5b385517c3f84fd048f6c39dccabe158f9e1a",
+          "originalFile": "data/originals/TAG_H9812622_FRONT.jpg",
+          "originalSha256": "12256ba79f1450a19e896c0006b6eddd939a7060d6891b66f1cbaae75377d021"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/d2fc5150-fa98-4f91-b472-ce86ef2832b6_BACK_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/H9812622",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T03:37:27.767Z",
+          "retrievedAt": "2026-09-07T03:44:47.449Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4395,
+          "originalHeight": 6083,
+          "sha256": "513e23bf6bc0cce41092910adbad44c963fdd7a7f3e04263de12a15db6b79eb4",
+          "originalFile": "data/originals/TAG_H9812622_BACK.jpg",
+          "originalSha256": "ea08fe5651f67ca73cdbc3566a2986bea9edb9de384d1bf77ce0555ece0e8e81"
+        }
+      },
+      "displaySubject": "SCREAM TAIL"
+    },
+    {
+      "kind": "card",
+      "cert": "F9615045",
+      "grader": "TAG",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "year": "2023",
+      "brand": "OBSIDIAN FLAMES",
+      "series": "POKÉMON SCARLET & VIOLET",
+      "subject": "CLEFFA",
+      "cardNumber": "202/197",
+      "variety": "ILLUSTRATION RARE",
+      "language": null,
+      "category": "Pokémon",
+      "holder": "slab",
+      "certUrl": "https://my.taggrading.com/card/F9615045",
+      "gradeDate": "2025-06-02",
+      "location": null,
+      "valuation": null,
+      "population": {
+        "atGrade": 291,
+        "total": 608,
+        "higher": null,
+        "asOf": "2026-09-06",
+        "source": "TAG",
+        "url": "https://my.taggrading.com/card/F9615045"
+      },
+      "tag": {
+        "score": null,
+        "scoreStatus": "not-exposed",
+        "rank": {
+          "asOf": "9/6/2026",
+          "atGrade": "19th",
+          "atGradeLabel": "HIGHEST MINT (T)",
+          "overall": "131st",
+          "overallLabel": "HIGHEST OVERALL (T)"
+        },
+        "chronology": {
+          "graded": "6/2/2025",
+          "atGrade": "121st",
+          "overall": "256th"
+        },
+        "dings": {
+          "corners": {
+            "front": 0,
+            "back": 1
+          },
+          "edges": {
+            "front": 0,
+            "back": 0
+          },
+          "surface": {
+            "front": 0,
+            "back": 0
+          }
+        },
+        "centering": {
+          "front": "56L/44R 44T/56B",
+          "back": "49L/51R 42T/58B"
+        },
+        "dimensions": {
+          "heightIn": "3.465",
+          "widthIn": "2.486"
+        },
+        "sourceUrl": "https://my.taggrading.com/card/F9615045",
+        "capturedAt": "2026-09-07T03:37:44.766Z"
+      },
+      "images": {
+        "front": "TAG_F9615045_FRONT.jpg",
+        "back": "TAG_F9615045_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/tag-card-captures.json",
+        "importedAt": "2026-09-07T03:44:42.428Z",
+        "capturedAt": "2026-09-07T03:37:44.766Z",
+        "pageUrl": "https://my.taggrading.com/card/F9615045"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/9475b5ce-2b2a-4610-8f82-751817fb2aaa_FRONT_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/F9615045",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T03:37:44.766Z",
+          "retrievedAt": "2026-09-07T03:44:48.160Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4420,
+          "originalHeight": 6089,
+          "sha256": "9b00371272bab614a9e5ddcecae0f79f4feca25df57e3938dffde3fa8fafed27",
+          "originalFile": "data/originals/TAG_F9615045_FRONT.jpg",
+          "originalSha256": "876d3fd00df6299b152d2b50467cc16bffdb2e7b0cacef14a6785d79d39f20ba"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/9475b5ce-2b2a-4610-8f82-751817fb2aaa_BACK_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/F9615045",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T03:37:44.766Z",
+          "retrievedAt": "2026-09-07T03:44:48.813Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4418,
+          "originalHeight": 6090,
+          "sha256": "ef315d63825036327c8bf43d29a90374e92959ba0266a3d580357cccc487c1ad",
+          "originalFile": "data/originals/TAG_F9615045_BACK.jpg",
+          "originalSha256": "078d89e9b980490d26bb59bc70668a1a1bdf90dc31fa3f61a6bf4242cf5c685d"
+        }
+      },
+      "displaySubject": "CLEFFA"
+    },
+    {
+      "kind": "card",
+      "cert": "L6527429",
+      "grader": "TAG",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "year": "2025",
+      "brand": "HEAT WAVE ARENA",
+      "series": "POKÉMON SCARLET & VIOLET JAPANESE",
+      "subject": "ペパーのヨクバリス ARVEN'S GREEDENT",
+      "cardNumber": "075/063",
+      "variety": "ART RARE",
+      "language": "Japanese",
+      "category": "Pokémon",
+      "holder": "slab",
+      "certUrl": "https://my.taggrading.com/card/L6527429",
+      "gradeDate": "2025-06-02",
+      "location": null,
+      "valuation": null,
+      "population": {
+        "atGrade": 67,
+        "total": 224,
+        "higher": null,
+        "asOf": "2026-09-06",
+        "source": "TAG",
+        "url": "https://my.taggrading.com/card/L6527429"
+      },
+      "tag": {
+        "score": null,
+        "scoreStatus": "not-exposed",
+        "rank": {
+          "asOf": "9/6/2026",
+          "atGrade": "1st",
+          "atGradeLabel": "HIGHEST MINT (T)",
+          "overall": "163rd",
+          "overallLabel": "HIGHEST OVERALL (T)"
+        },
+        "chronology": {
+          "graded": "6/2/2025",
+          "atGrade": "4th",
+          "overall": "17th"
+        },
+        "dings": {
+          "corners": {
+            "front": 0,
+            "back": 0
+          },
+          "edges": {
+            "front": 0,
+            "back": 0
+          },
+          "surface": {
+            "front": 0,
+            "back": 0
+          }
+        },
+        "centering": {
+          "front": "56L/44R 47T/53B",
+          "back": "46L/54R 51T/49B"
+        },
+        "dimensions": {
+          "heightIn": "3.460",
+          "widthIn": "2.478"
+        },
+        "sourceUrl": "https://my.taggrading.com/card/L6527429",
+        "capturedAt": "2026-09-07T03:37:58.640Z"
+      },
+      "images": {
+        "front": "TAG_L6527429_FRONT.jpg",
+        "back": "TAG_L6527429_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/tag-card-captures.json",
+        "importedAt": "2026-09-07T03:44:42.428Z",
+        "capturedAt": "2026-09-07T03:37:58.640Z",
+        "pageUrl": "https://my.taggrading.com/card/L6527429"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/9a3c005e-bd61-46f6-8f8c-b16d7de65504_FRONT_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/L6527429",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T03:37:58.640Z",
+          "retrievedAt": "2026-09-07T03:44:49.452Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4385,
+          "originalHeight": 6082,
+          "sha256": "538e718a1e736447272f3749ebcb9782ee6a56cf9284949e5a218c21d7fea061",
+          "originalFile": "data/originals/TAG_L6527429_FRONT.jpg",
+          "originalSha256": "3b3f80e048d09735babf8c3096ea7f1716223b6d3a2519e1eef3287c445fa306"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/9a3c005e-bd61-46f6-8f8c-b16d7de65504_BACK_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/L6527429",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T03:37:58.640Z",
+          "retrievedAt": "2026-09-07T03:44:50.119Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4387,
+          "originalHeight": 6082,
+          "sha256": "8fe8cc5d61b3b4c538ba73d2cbf4b3e83027d6f2573309f7bc0b659c6cfb2db8",
+          "originalFile": "data/originals/TAG_L6527429_BACK.jpg",
+          "originalSha256": "ce74f7cdb8a61e0f99e887b879e1fe03dc94eae3001571cceedf60912519d1a4"
+        }
+      },
+      "displaySubject": "ARVEN'S GREEDENT"
+    },
+    {
+      "kind": "card",
+      "cert": "E1992795",
+      "grader": "TAG",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "year": "2023",
+      "brand": "PARADOX RIFT",
+      "series": "POKÉMON SCARLET & VIOLET",
+      "subject": "GARCHOMP EX",
+      "cardNumber": "245/182",
+      "variety": "SPECIAL ILLUSTRATION RARE",
+      "language": null,
+      "category": "Pokémon",
+      "holder": "slab",
+      "certUrl": "https://my.taggrading.com/card/E1992795",
+      "gradeDate": "2025-06-02",
+      "location": null,
+      "valuation": null,
+      "population": {
+        "atGrade": 91,
+        "total": 172,
+        "higher": null,
+        "asOf": "2026-09-06",
+        "source": "TAG",
+        "url": "https://my.taggrading.com/card/E1992795"
+      },
+      "tag": {
+        "score": null,
+        "scoreStatus": "not-exposed",
+        "rank": {
+          "asOf": "9/6/2026",
+          "atGrade": "7th",
+          "atGradeLabel": "HIGHEST MINT (T)",
+          "overall": "45th",
+          "overallLabel": "HIGHEST OVERALL (T)"
+        },
+        "chronology": {
+          "graded": "6/2/2025",
+          "atGrade": "36th",
+          "overall": "74th"
+        },
+        "dings": {
+          "corners": {
+            "front": 0,
+            "back": 1
+          },
+          "edges": {
+            "front": 0,
+            "back": 0
+          },
+          "surface": {
+            "front": 0,
+            "back": 0
+          }
+        },
+        "centering": {
+          "front": "51L/49R 59T/41B",
+          "back": "48L/52R 55T/45B"
+        },
+        "dimensions": {
+          "heightIn": "3.457",
+          "widthIn": "2.478"
+        },
+        "sourceUrl": "https://my.taggrading.com/card/E1992795",
+        "capturedAt": "2026-09-07T03:38:15.561Z"
+      },
+      "images": {
+        "front": "TAG_E1992795_FRONT.jpg",
+        "back": "TAG_E1992795_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/tag-card-captures.json",
+        "importedAt": "2026-09-07T03:44:42.428Z",
+        "capturedAt": "2026-09-07T03:38:15.561Z",
+        "pageUrl": "https://my.taggrading.com/card/E1992795"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/b9873288-27a9-481b-9af2-5c55a4092a8c_FRONT_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/E1992795",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T03:38:15.561Z",
+          "retrievedAt": "2026-09-07T03:44:51.068Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4386,
+          "originalHeight": 6078,
+          "sha256": "383641a575a8ccc27e11251bd29442f46f97676ede4e06501f17132893b8b104",
+          "originalFile": "data/originals/TAG_E1992795_FRONT.jpg",
+          "originalSha256": "45b15c62d2a76bfe04bb6339c6cadc73e73a1173675fe9e0492f962bc1d53630"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/b9873288-27a9-481b-9af2-5c55a4092a8c_BACK_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/E1992795",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T03:38:15.561Z",
+          "retrievedAt": "2026-09-07T03:44:51.732Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4392,
+          "originalHeight": 6077,
+          "sha256": "3a09dffb0032c356cfd0b677664da288cba57a12c4ddedb02d4020637916f829",
+          "originalFile": "data/originals/TAG_E1992795_BACK.jpg",
+          "originalSha256": "20b97b5a0ab864b6cdc48db440a61245500e86a6f84693a93e7b35f61d9ad4e1"
+        }
+      },
+      "displaySubject": "GARCHOMP EX"
+    },
+    {
+      "kind": "card",
+      "cert": "K8931484",
+      "grader": "TAG",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "year": "2025",
+      "brand": "JOURNEY TOGETHER",
+      "series": "POKÉMON SCARLET & VIOLET",
+      "subject": "WAILORD",
+      "cardNumber": "162/159",
+      "variety": "ILLUSTRATION RARE",
+      "language": null,
+      "category": "Pokémon",
+      "holder": "slab",
+      "certUrl": "https://my.taggrading.com/card/K8931484",
+      "gradeDate": "2025-06-02",
+      "location": null,
+      "valuation": null,
+      "population": {
+        "atGrade": 426,
+        "total": 812,
+        "higher": null,
+        "asOf": "2026-09-06",
+        "source": "TAG",
+        "url": "https://my.taggrading.com/card/K8931484"
+      },
+      "tag": {
+        "score": null,
+        "scoreStatus": "not-exposed",
+        "rank": {
+          "asOf": "9/6/2026",
+          "atGrade": "30th",
+          "atGradeLabel": "HIGHEST MINT (T)",
+          "overall": "339th",
+          "overallLabel": "HIGHEST OVERALL (T)"
+        },
+        "chronology": {
+          "graded": "6/2/2025",
+          "atGrade": "16th",
+          "overall": "28th"
+        },
+        "dings": {
+          "corners": {
+            "front": 0,
+            "back": 2
+          },
+          "edges": {
+            "front": 0,
+            "back": 0
+          },
+          "surface": {
+            "front": 0,
+            "back": 0
+          }
+        },
+        "centering": {
+          "front": "48L/52R 57T/43B",
+          "back": "53L/47R 53T/47B"
+        },
+        "dimensions": {
+          "heightIn": "3.466",
+          "widthIn": "2.478"
+        },
+        "sourceUrl": "https://my.taggrading.com/card/K8931484",
+        "capturedAt": "2026-09-07T03:38:42.649Z"
+      },
+      "images": {
+        "front": "TAG_K8931484_FRONT.jpg",
+        "back": "TAG_K8931484_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/tag-card-captures.json",
+        "importedAt": "2026-09-07T03:44:42.428Z",
+        "capturedAt": "2026-09-07T03:38:42.649Z",
+        "pageUrl": "https://my.taggrading.com/card/K8931484"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/1e79a639-c623-4164-8788-cf37e891697c_FRONT_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/K8931484",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T03:38:42.649Z",
+          "retrievedAt": "2026-09-07T03:44:52.510Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4386,
+          "originalHeight": 6094,
+          "sha256": "92ee2d099fc9a14fc0d9da1b0eb319f165c1743f2f5089be2901e440bc4e8661",
+          "originalFile": "data/originals/TAG_K8931484_FRONT.jpg",
+          "originalSha256": "852063f9e15639fa339b639ee57788af41bdeb08d68574cd616cc2042602b3e9"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/1e79a639-c623-4164-8788-cf37e891697c_BACK_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/K8931484",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T03:38:42.649Z",
+          "retrievedAt": "2026-09-07T03:44:53.143Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4392,
+          "originalHeight": 6092,
+          "sha256": "48825bf1b6b9c37766e663383b304e2ea9fb6a105496504a54bc821cd7e0972b",
+          "originalFile": "data/originals/TAG_K8931484_BACK.jpg",
+          "originalSha256": "33c483de2898287037ff2a5f2bba5edda0bc4d112e966c4859e26ae64f323090"
+        }
+      },
+      "displaySubject": "WAILORD"
+    },
+    {
+      "kind": "card",
+      "cert": "H1870819",
+      "grader": "TAG",
+      "grade": "10",
+      "gradeDescription": "GEM MINT",
+      "year": "2025",
+      "brand": "HEAT WAVE ARENA",
+      "series": "POKÉMON SCARLET & VIOLET JAPANESE",
+      "subject": "シロナのガブリアス CYNTHIA'S GARCHOMP EX",
+      "cardNumber": "091/063",
+      "variety": "ULTRA RARE",
+      "language": "Japanese",
+      "category": "Pokémon",
+      "holder": "slab",
+      "certUrl": "https://my.taggrading.com/card/H1870819",
+      "gradeDate": "2025-06-02",
+      "location": null,
+      "valuation": null,
+      "population": {
+        "atGrade": 46,
+        "total": 55,
+        "higher": null,
+        "asOf": "2026-09-06",
+        "source": "TAG",
+        "url": "https://my.taggrading.com/card/H1870819"
+      },
+      "tag": {
+        "score": null,
+        "scoreStatus": "not-exposed",
+        "rank": {
+          "asOf": "9/6/2026",
+          "atGrade": "1st",
+          "atGradeLabel": "HIGHEST GEM MINT (T)",
+          "overall": "3rd",
+          "overallLabel": "HIGHEST OVERALL (T)"
+        },
+        "chronology": {
+          "graded": "6/2/2025",
+          "atGrade": "3rd",
+          "overall": "4th"
+        },
+        "dings": {
+          "corners": {
+            "front": 0,
+            "back": 0
+          },
+          "edges": {
+            "front": 0,
+            "back": 0
+          },
+          "surface": {
+            "front": 0,
+            "back": 0
+          }
+        },
+        "centering": {
+          "front": "47L/53R 50T/50B",
+          "back": "53L/47R 49T/51B"
+        },
+        "dimensions": {
+          "heightIn": "3.460",
+          "widthIn": "2.478"
+        },
+        "sourceUrl": "https://my.taggrading.com/card/H1870819",
+        "capturedAt": "2026-09-07T03:38:57.069Z"
+      },
+      "images": {
+        "front": "TAG_H1870819_FRONT.jpg",
+        "back": "TAG_H1870819_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/tag-card-captures.json",
+        "importedAt": "2026-09-07T03:44:42.428Z",
+        "capturedAt": "2026-09-07T03:38:57.069Z",
+        "pageUrl": "https://my.taggrading.com/card/H1870819"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/858e918a-af53-4dca-8acc-6f6cacfad24d_FRONT_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/H1870819",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T03:38:57.069Z",
+          "retrievedAt": "2026-09-07T03:44:53.868Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4384,
+          "originalHeight": 6082,
+          "sha256": "d5f029bf75442e4536f4d3d77a3aa6d729d2bf38d9d9dd027f20d2fa2af2a446",
+          "originalFile": "data/originals/TAG_H1870819_FRONT.jpg",
+          "originalSha256": "fa9cc621ae981bfc5cb17a01dd9c76212a0e5d3500f2900298fa788cfbd9678e"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/858e918a-af53-4dca-8acc-6f6cacfad24d_BACK_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/H1870819",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T03:38:57.069Z",
+          "retrievedAt": "2026-09-07T03:44:54.578Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4384,
+          "originalHeight": 6082,
+          "sha256": "2cae0bb9d5769b4f27afc971c600ac6d78dce144efa77ba7cac7717e91385cfe",
+          "originalFile": "data/originals/TAG_H1870819_BACK.jpg",
+          "originalSha256": "05a28444e75f0c6d922741cc875a4c70b9809ea641cf291692d98d090a4f492e"
+        }
+      },
+      "displaySubject": "CYNTHIA'S GARCHOMP EX"
+    },
+    {
+      "kind": "card",
+      "cert": "H7738551",
+      "grader": "TAG",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "year": "2023",
+      "brand": "PARADOX RIFT",
+      "series": "POKÉMON SCARLET & VIOLET",
+      "subject": "RIKA",
+      "cardNumber": "258/182",
+      "variety": "SPECIAL ILLUSTRATION RARE",
+      "language": null,
+      "category": "Pokémon",
+      "holder": "slab",
+      "certUrl": "https://my.taggrading.com/card/H7738551",
+      "gradeDate": "2025-06-02",
+      "location": null,
+      "valuation": null,
+      "population": {
+        "atGrade": 9,
+        "total": 19,
+        "higher": null,
+        "asOf": "2026-09-06",
+        "source": "TAG",
+        "url": "https://my.taggrading.com/card/H7738551"
+      },
+      "tag": {
+        "score": null,
+        "scoreStatus": "not-exposed",
+        "rank": {
+          "asOf": "9/6/2026",
+          "atGrade": "1st",
+          "atGradeLabel": "HIGHEST MINT (T)",
+          "overall": "5th",
+          "overallLabel": "HIGHEST OVERALL (T)"
+        },
+        "chronology": {
+          "graded": "6/2/2025",
+          "atGrade": "8th",
+          "overall": "11th"
+        },
+        "dings": {
+          "corners": {
+            "front": 0,
+            "back": 2
+          },
+          "edges": {
+            "front": 0,
+            "back": 0
+          },
+          "surface": {
+            "front": 0,
+            "back": 0
+          }
+        },
+        "centering": {
+          "front": "52L/48R 49T/51B",
+          "back": "51L/49R 48T/52B"
+        },
+        "dimensions": {
+          "heightIn": "3.462",
+          "widthIn": "2.482"
+        },
+        "sourceUrl": "https://my.taggrading.com/card/H7738551",
+        "capturedAt": "2026-09-07T03:39:22.792Z"
+      },
+      "images": {
+        "front": "TAG_H7738551_FRONT.jpg",
+        "back": "TAG_H7738551_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/tag-card-captures.json",
+        "importedAt": "2026-09-07T03:44:42.428Z",
+        "capturedAt": "2026-09-07T03:39:22.792Z",
+        "pageUrl": "https://my.taggrading.com/card/H7738551"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/9ae10d2c-9c6b-4e56-8a30-3f6e3ba980a6_FRONT_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/H7738551",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T03:39:22.792Z",
+          "retrievedAt": "2026-09-07T03:44:55.425Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4396,
+          "originalHeight": 6087,
+          "sha256": "970d64669bb799b3a24585b9b3af22727bb796c96c1904c5dc9c70318a21d252",
+          "originalFile": "data/originals/TAG_H7738551_FRONT.jpg",
+          "originalSha256": "1a016ed26aac0d79aed6aabd6f60f6f3f5a2752d05938766d71543aeb2afe1f1"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/9ae10d2c-9c6b-4e56-8a30-3f6e3ba980a6_BACK_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/H7738551",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T03:39:22.792Z",
+          "retrievedAt": "2026-09-07T03:44:56.080Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4397,
+          "originalHeight": 6085,
+          "sha256": "ba6199482242e16a5e9167832f80563c217f7582bb48a383f16b7fc043938b6a",
+          "originalFile": "data/originals/TAG_H7738551_BACK.jpg",
+          "originalSha256": "835ea499c49f07de371ab3c2a99215442697d82de2f325b1e2490f348ab9263b"
+        }
+      },
+      "displaySubject": "RIKA"
+    },
+    {
+      "kind": "card",
+      "cert": "T4684141",
+      "grader": "TAG",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "year": "2023",
+      "brand": "PARADOX RIFT",
+      "series": "POKÉMON SCARLET & VIOLET",
+      "subject": "BOMBIRDIER EX",
+      "cardNumber": "234/182",
+      "variety": "ULTRA RARE",
+      "language": null,
+      "category": "Pokémon",
+      "holder": "slab",
+      "certUrl": "https://my.taggrading.com/card/T4684141",
+      "gradeDate": "2025-06-02",
+      "location": null,
+      "valuation": null,
+      "population": {
+        "atGrade": 4,
+        "total": 7,
+        "higher": null,
+        "asOf": "2026-09-06",
+        "source": "TAG",
+        "url": "https://my.taggrading.com/card/T4684141"
+      },
+      "tag": {
+        "score": null,
+        "scoreStatus": "not-exposed",
+        "rank": {
+          "asOf": "9/6/2026",
+          "atGrade": "1st",
+          "atGradeLabel": "HIGHEST MINT (T)",
+          "overall": "4th",
+          "overallLabel": "HIGHEST OVERALL (T)"
+        },
+        "chronology": {
+          "graded": "6/2/2025",
+          "atGrade": "2nd",
+          "overall": "2nd"
+        },
+        "dings": {
+          "corners": {
+            "front": 0,
+            "back": 2
+          },
+          "edges": {
+            "front": 0,
+            "back": 0
+          },
+          "surface": {
+            "front": 0,
+            "back": 0
+          }
+        },
+        "centering": {
+          "front": "45L/55R 48T/52B",
+          "back": "52L/48R 47T/53B"
+        },
+        "dimensions": {
+          "heightIn": "3.465",
+          "widthIn": "2.483"
+        },
+        "sourceUrl": "https://my.taggrading.com/card/T4684141",
+        "capturedAt": "2026-09-07T03:39:38.533Z"
+      },
+      "images": {
+        "front": "TAG_T4684141_FRONT.jpg",
+        "back": "TAG_T4684141_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/tag-card-captures.json",
+        "importedAt": "2026-09-07T03:44:42.428Z",
+        "capturedAt": "2026-09-07T03:39:38.533Z",
+        "pageUrl": "https://my.taggrading.com/card/T4684141"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/15a55ab3-e6c6-4f96-b098-269d1a8c6007_FRONT_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/T4684141",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T03:39:38.533Z",
+          "retrievedAt": "2026-09-07T03:44:57.505Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4391,
+          "originalHeight": 6091,
+          "sha256": "63df2df948ba749ce1d1e101305483784cf74850b01e0f73ca206faccf1947f9",
+          "originalFile": "data/originals/TAG_T4684141_FRONT.jpg",
+          "originalSha256": "e924e7e467082b596212ed937ce3c819b07d73b26cdb8112cb30f219160bd486"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/15a55ab3-e6c6-4f96-b098-269d1a8c6007_BACK_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/T4684141",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T03:39:38.533Z",
+          "retrievedAt": "2026-09-07T03:44:58.725Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4396,
+          "originalHeight": 6090,
+          "sha256": "73f4953e6565646ee2e4b37d77491c06667bde80373f6c636b570fda4ce1eb1b",
+          "originalFile": "data/originals/TAG_T4684141_BACK.jpg",
+          "originalSha256": "d454438ea5ec72fbc342bac40e945ce5b0099c0a87177e676c8947dc1057f561"
+        }
+      },
+      "displaySubject": "BOMBIRDIER EX"
+    },
+    {
+      "kind": "card",
+      "cert": "K3472903",
+      "grader": "TAG",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "year": "2024",
+      "brand": "TEMPORAL FORCES",
+      "series": "POKÉMON SCARLET & VIOLET",
+      "subject": "GENGAR EX",
+      "cardNumber": "104/162",
+      "variety": "DOUBLE RARE",
+      "language": null,
+      "category": "Pokémon",
+      "holder": "slab",
+      "certUrl": "https://my.taggrading.com/card/K3472903",
+      "gradeDate": "2025-06-02",
+      "location": null,
+      "valuation": null,
+      "population": {
+        "atGrade": 65,
+        "total": 126,
+        "higher": null,
+        "asOf": "2026-09-06",
+        "source": "TAG",
+        "url": "https://my.taggrading.com/card/K3472903"
+      },
+      "tag": {
+        "score": null,
+        "scoreStatus": "not-exposed",
+        "rank": {
+          "asOf": "9/6/2026",
+          "atGrade": "1st",
+          "atGradeLabel": "HIGHEST MINT (T)",
+          "overall": "43rd",
+          "overallLabel": "HIGHEST OVERALL (T)"
+        },
+        "chronology": {
+          "graded": "6/2/2025",
+          "atGrade": "21st",
+          "overall": "39th"
+        },
+        "dings": {
+          "corners": {
+            "front": 0,
+            "back": 3
+          },
+          "edges": {
+            "front": 0,
+            "back": 0
+          },
+          "surface": {
+            "front": 0,
+            "back": 0
+          }
+        },
+        "centering": {
+          "front": "51L/49R 51T/49B",
+          "back": "46L/54R 49T/51B"
+        },
+        "dimensions": {
+          "heightIn": "3.462",
+          "widthIn": "2.482"
+        },
+        "sourceUrl": "https://my.taggrading.com/card/K3472903",
+        "capturedAt": "2026-09-07T03:39:52.891Z"
+      },
+      "images": {
+        "front": "TAG_K3472903_FRONT.jpg",
+        "back": "TAG_K3472903_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/tag-card-captures.json",
+        "importedAt": "2026-09-07T03:44:42.428Z",
+        "capturedAt": "2026-09-07T03:39:52.891Z",
+        "pageUrl": "https://my.taggrading.com/card/K3472903"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/ec355be2-1bd2-45c0-98d5-e642a9b0dcf4_FRONT_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/K3472903",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T03:39:52.891Z",
+          "retrievedAt": "2026-09-07T03:44:59.633Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4394,
+          "originalHeight": 6085,
+          "sha256": "19fbf1083ea9676b906fbada8579a1e8c704c6c7f239f9ca85e11386507c951c",
+          "originalFile": "data/originals/TAG_K3472903_FRONT.jpg",
+          "originalSha256": "d3c57af1311c2c34af277375cf106419f25bc6aa34c26407722588ae93c5dee8"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/ec355be2-1bd2-45c0-98d5-e642a9b0dcf4_BACK_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/K3472903",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T03:39:52.891Z",
+          "retrievedAt": "2026-09-07T03:45:00.548Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4393,
+          "originalHeight": 6085,
+          "sha256": "584af48e76db3d6e5f26fd5dd6f0d1491dc40fbe8aa2f4d01840093ccde5df61",
+          "originalFile": "data/originals/TAG_K3472903_BACK.jpg",
+          "originalSha256": "acad3e0e36597274d723f620de75d55992c7e4cd302936d2a5899b71b1763a90"
+        }
+      },
+      "displaySubject": "GENGAR EX"
+    },
+    {
+      "kind": "card",
+      "cert": "D9973845",
+      "grader": "TAG",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "year": "2023",
+      "brand": "OBSIDIAN FLAMES",
+      "series": "POKÉMON SCARLET & VIOLET",
+      "subject": "PIDGEOT EX",
+      "cardNumber": "225/197",
+      "variety": "SPECIAL ILLUSTRATION RARE",
+      "language": null,
+      "category": "Pokémon",
+      "holder": "slab",
+      "certUrl": "https://my.taggrading.com/card/D9973845",
+      "gradeDate": "2025-06-02",
+      "location": null,
+      "valuation": null,
+      "population": {
+        "atGrade": 154,
+        "total": 317,
+        "higher": null,
+        "asOf": "2026-09-06",
+        "source": "TAG",
+        "url": "https://my.taggrading.com/card/D9973845"
+      },
+      "tag": {
+        "score": null,
+        "scoreStatus": "not-exposed",
+        "rank": {
+          "asOf": "9/6/2026",
+          "atGrade": "9th",
+          "atGradeLabel": "HIGHEST MINT (T)",
+          "overall": "66th",
+          "overallLabel": "HIGHEST OVERALL (T)"
+        },
+        "chronology": {
+          "graded": "6/2/2025",
+          "atGrade": "59th",
+          "overall": "125th"
+        },
+        "dings": {
+          "corners": {
+            "front": 0,
+            "back": 0
+          },
+          "edges": {
+            "front": 0,
+            "back": 0
+          },
+          "surface": {
+            "front": 0,
+            "back": 0
+          }
+        },
+        "centering": {
+          "front": "59L/41R 56T/44B",
+          "back": "43L/57R 56T/44B"
+        },
+        "dimensions": {
+          "heightIn": "3.462",
+          "widthIn": "2.475"
+        },
+        "sourceUrl": "https://my.taggrading.com/card/D9973845",
+        "capturedAt": "2026-09-07T03:40:06.108Z"
+      },
+      "images": {
+        "front": "TAG_D9973845_FRONT.jpg",
+        "back": "TAG_D9973845_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/tag-card-captures.json",
+        "importedAt": "2026-09-07T03:44:42.428Z",
+        "capturedAt": "2026-09-07T03:40:06.108Z",
+        "pageUrl": "https://my.taggrading.com/card/D9973845"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/d51b5050-ca12-4711-b3a0-4770624baf12_FRONT_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/D9973845",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T03:40:06.108Z",
+          "retrievedAt": "2026-09-07T03:45:01.203Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4391,
+          "originalHeight": 6085,
+          "sha256": "9484419a161a0718b882916a827125c385ff00166673a672479ac5e7d18120bd",
+          "originalFile": "data/originals/TAG_D9973845_FRONT.jpg",
+          "originalSha256": "af510cd5ccaa50d874f948bff850138f9e43f2e8038f7acd913426d924b58113"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/d51b5050-ca12-4711-b3a0-4770624baf12_BACK_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/D9973845",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T03:40:06.108Z",
+          "retrievedAt": "2026-09-07T03:45:01.950Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4393,
+          "originalHeight": 6085,
+          "sha256": "5227e2e0bc9791ffaf844e8846f9f5777cc899e5a88dd006a395edda82051beb",
+          "originalFile": "data/originals/TAG_D9973845_BACK.jpg",
+          "originalSha256": "a45fc072c609157021ce189d8af9c95bf74481d819680e2c43c2fece3c0452b5"
+        }
+      },
+      "displaySubject": "PIDGEOT EX"
+    },
+    {
+      "kind": "card",
+      "cert": "Y2994116",
+      "grader": "TAG",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "year": "2022",
+      "brand": "ASTRAL RADIANCE",
+      "series": "POKÉMON SWORD & SHIELD",
+      "subject": "ORIGIN FORME DIALGA V",
+      "displaySubject": "ORIGIN FORME DIALGA V",
+      "cardNumber": "177/189",
+      "variety": "FULL ART - ULTRA RARE",
+      "language": null,
+      "category": "Pokémon",
+      "holder": "slab",
+      "certUrl": "https://my.taggrading.com/card/Y2994116",
+      "gradeDate": "2025-06-02",
+      "location": null,
+      "valuation": null,
+      "population": {
+        "atGrade": 83,
+        "total": 186,
+        "higher": null,
+        "asOf": "2026-09-06",
+        "source": "TAG",
+        "url": "https://my.taggrading.com/card/Y2994116"
+      },
+      "tag": {
+        "score": null,
+        "scoreStatus": "not-exposed",
+        "rank": {
+          "asOf": "9/6/2026",
+          "atGrade": "11th",
+          "atGradeLabel": "HIGHEST MINT (T)",
+          "overall": "76th",
+          "overallLabel": "HIGHEST OVERALL (T)"
+        },
+        "chronology": {
+          "graded": "6/2/2025",
+          "atGrade": "31st",
+          "overall": "67th"
+        },
+        "dings": {
+          "corners": {
+            "front": 1,
+            "back": 0
+          },
+          "edges": {
+            "front": 0,
+            "back": 0
+          },
+          "surface": {
+            "front": 0,
+            "back": 0
+          }
+        },
+        "centering": {
+          "front": "48L/52R 45T/55B",
+          "back": "43L/57R 48T/52B"
+        },
+        "dimensions": {
+          "heightIn": "3.481",
+          "widthIn": "2.489"
+        },
+        "sourceUrl": "https://my.taggrading.com/card/Y2994116",
+        "capturedAt": "2026-09-07T04:17:53.616Z"
+      },
+      "images": {
+        "front": "TAG_Y2994116_FRONT.jpg",
+        "back": "TAG_Y2994116_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/tag-card-captures.json",
+        "importedAt": "2026-09-07T04:19:07.455Z",
+        "capturedAt": "2026-09-07T04:17:53.616Z",
+        "pageUrl": "https://my.taggrading.com/card/Y2994116"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/197dee0f-0d4a-41c8-86a0-ea9d31b691db_FRONT_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/Y2994116",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T04:17:53.616Z",
+          "retrievedAt": "2026-09-07T04:19:09.061Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4411,
+          "originalHeight": 6122,
+          "sha256": "1b12df60dd7c52e7d2784da0b397afe3c87acf6624919b26f8eca5d1d058d1f4",
+          "originalFile": "data/originals/TAG_Y2994116_FRONT.jpg",
+          "originalSha256": "e13bd475326c229e4e03152a6f639a342ee2974458945a050fe1c43ae4d0bba9"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/197dee0f-0d4a-41c8-86a0-ea9d31b691db_BACK_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/Y2994116",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T04:17:53.616Z",
+          "retrievedAt": "2026-09-07T04:19:09.691Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4403,
+          "originalHeight": 6118,
+          "sha256": "25fdb61af5fd4f051c3d1dd7aa4f28c48e7f7b7e2e466839fc782a8aa85916ca",
+          "originalFile": "data/originals/TAG_Y2994116_BACK.jpg",
+          "originalSha256": "f672d323eb6bc8b5ae147dcc7276b2d384497d3c3ecd985d2b862e5d6d529cda"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "S2994291",
+      "grader": "TAG",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "year": "2025",
+      "brand": "HEAT WAVE ARENA",
+      "series": "POKÉMON SCARLET & VIOLET JAPANESE",
+      "subject": "ヤンヤンマ YANMA",
+      "displaySubject": "YANMA",
+      "cardNumber": "064/063",
+      "variety": "ART RARE",
+      "language": "Japanese",
+      "category": "Pokémon",
+      "holder": "slab",
+      "certUrl": "https://my.taggrading.com/card/S2994291",
+      "gradeDate": "2025-06-02",
+      "location": null,
+      "valuation": null,
+      "population": {
+        "atGrade": 68,
+        "total": 202,
+        "higher": null,
+        "asOf": "2026-09-06",
+        "source": "TAG",
+        "url": "https://my.taggrading.com/card/S2994291"
+      },
+      "tag": {
+        "score": null,
+        "scoreStatus": "not-exposed",
+        "rank": {
+          "asOf": "9/6/2026",
+          "atGrade": "1st",
+          "atGradeLabel": "HIGHEST MINT (T)",
+          "overall": "142nd",
+          "overallLabel": "HIGHEST OVERALL (T)"
+        },
+        "chronology": {
+          "graded": "6/2/2025",
+          "atGrade": "2nd",
+          "overall": "13th"
+        },
+        "dings": {
+          "corners": {
+            "front": 0,
+            "back": 0
+          },
+          "edges": {
+            "front": 0,
+            "back": 0
+          },
+          "surface": {
+            "front": 1,
+            "back": 0
+          }
+        },
+        "centering": {
+          "front": "52L/48R 48T/52B",
+          "back": "49L/51R 49T/51B"
+        },
+        "dimensions": {
+          "heightIn": "3.460",
+          "widthIn": "2.479"
+        },
+        "sourceUrl": "https://my.taggrading.com/card/S2994291",
+        "capturedAt": "2026-09-07T04:18:18.395Z"
+      },
+      "images": {
+        "front": "TAG_S2994291_FRONT.jpg",
+        "back": "TAG_S2994291_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/tag-card-captures.json",
+        "importedAt": "2026-09-07T04:19:07.455Z",
+        "capturedAt": "2026-09-07T04:18:18.395Z",
+        "pageUrl": "https://my.taggrading.com/card/S2994291"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/5e2cfeaf-8801-4df6-a08b-5c8d67b1c1c9_FRONT_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/S2994291",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T04:18:18.395Z",
+          "retrievedAt": "2026-09-07T04:19:10.310Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4386,
+          "originalHeight": 6083,
+          "sha256": "b7c215f9828003ca121045ce2b57418287e37351d5c1b725ef0a98e73e0fc5c1",
+          "originalFile": "data/originals/TAG_S2994291_FRONT.jpg",
+          "originalSha256": "586de1108a395e198f2373cf442e5ed5d171e8fc2b406894be040fc4ebfada93"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/5e2cfeaf-8801-4df6-a08b-5c8d67b1c1c9_BACK_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/S2994291",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T04:18:18.395Z",
+          "retrievedAt": "2026-09-07T04:19:10.951Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4386,
+          "originalHeight": 6081,
+          "sha256": "f54c6db392ee7cee48d9b65d5bd10bff76856ee178ac2e2599b54dc7cbee94cf",
+          "originalFile": "data/originals/TAG_S2994291_BACK.jpg",
+          "originalSha256": "615970f8bae151642225d37d348e294b6875ac90ff8e61f725934a6badf619bd"
+        }
+      }
+    }
+  ],
+  "id": "tag-collection",
+  "kind": "card",
+  "title": "TAG Collection",
+  "physical": false,
+  "virtual": false,
+  "location": null
+}

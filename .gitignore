@@ -6,6 +6,8 @@ dist/
 Thumbs.db
 
 .cache/
+data/backups/
+tmp/pdfs/
 
 # Secrets. This repository is public — anything here would be published and
 # indexed. .env.example is the committed template and holds no real values.
@@ -16,6 +18,7 @@ Thumbs.db
 # Generated image derivatives (rebuilt from data/images)
 data/thumbs/
 data/medium/
+data/originals/
 
 # Generated export for the price-lookup tool (rebuild with: npm run export)
 export/

@@ -1,0 +1,39 @@
+{
+  "provider": "Authority",
+  "purpose": "Owner-supplied Authority soft-sleeve QR records and import status",
+  "records": [
+    {
+      "providerId": "1700597971",
+      "qrUrl": "https://www.theauthority.com/1700597971",
+      "lookupUrl": "https://www.theauthority.com/Id/1700597971",
+      "kind": "comic",
+      "holder": "soft-sleeve",
+      "holderSource": "owner",
+      "status": "imported",
+      "title": "Deathlok 50th Anniversary Special",
+      "issue": "1",
+      "variant": "Miller Variant",
+      "grading": {
+        "status": "raw",
+        "grader": null,
+        "grade": null
+      },
+      "authentication": {
+        "provider": "Authority",
+        "status": "authentic",
+        "label": "RAW Authentic",
+        "sourceUrl": "https://www.theauthority.com/Id/1700597971",
+        "capturedAt": "2026-09-07T03:04:45.012Z"
+      },
+      "images": {
+        "front": "Authority_1700597971_FRONT.jpg",
+        "back": "Authority_1700597971_BACK.jpg"
+      },
+      "valuation": null,
+      "location": null,
+      "lookupObservation": "Signed-in rendered record verified. Exact front/back viewer scans saved at 450 x 727. RAW Authentic; no numeric grade or value. Location not recorded.",
+      "inventoryFile": "data/comics/soft-sleeves.json",
+      "captureFile": "data/incoming/authority-1700597971.json"
+    }
+  ]
+}

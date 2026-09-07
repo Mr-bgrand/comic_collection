@@ -1,0 +1,130 @@
+{
+  "provider": "Authority",
+  "providerId": "4226238766",
+  "qrUrl": "https://id.theauthority.com/4226238766",
+  "pageUrl": "https://www.theauthority.com/4226238766",
+  "capturedAt": "2026-09-07T07:04:31.379Z",
+  "captureMethod": "Signed-in rendered item detail table and front/back viewer",
+  "fields": [
+    {
+      "label": "Certificate Number",
+      "value": "4226238766"
+    },
+    {
+      "label": "Collectible Type",
+      "value": "Comic Book"
+    },
+    {
+      "label": "Artists",
+      "value": "Paolo Villanelli"
+    },
+    {
+      "label": "Cover Artists",
+      "value": "Rian Gonzales"
+    },
+    {
+      "label": "Detailed Description",
+      "value": "Gwen will be tested in uncomfortable ways, and secrets will be revealed!"
+    },
+    {
+      "label": "Featured Characters",
+      "value": "Ghost-Spider"
+    },
+    {
+      "label": "Item Composition",
+      "value": "32 Pages"
+    },
+    {
+      "label": "Description",
+      "value": "Gonzales Variant"
+    },
+    {
+      "label": "Item Number",
+      "value": "5"
+    },
+    {
+      "label": "Item number",
+      "value": "C"
+    },
+    {
+      "label": "Legacy Number",
+      "value": "65"
+    },
+    {
+      "label": "Manufacturer",
+      "value": "Marvel Comics"
+    },
+    {
+      "label": "Manufacturer Country",
+      "value": "United States"
+    },
+    {
+      "label": "On Sale Date",
+      "value": "9/11/2024"
+    },
+    {
+      "label": "Pictured on Obverse",
+      "value": "Spider-Gwen"
+    },
+    {
+      "label": "Pictured on Reverse",
+      "value": "Alien Romulus #1 Ad"
+    },
+    {
+      "label": "Printed Date",
+      "value": "11/2024"
+    },
+    {
+      "label": "Product Detailed Name",
+      "value": "Spider-Gwen: The Ghost-Spider Volume 2 (2024, Marvel Comics)"
+    },
+    {
+      "label": "Product Simple Name",
+      "value": "Spider-Gwen: The Ghost-Spider"
+    },
+    {
+      "label": "Product Type",
+      "value": "Comic Book"
+    },
+    {
+      "label": "Release Year",
+      "value": "2024"
+    },
+    {
+      "label": "Starting Year",
+      "value": "2024"
+    },
+    {
+      "label": "Set Name",
+      "value": "Issue 5"
+    },
+    {
+      "label": "UPC",
+      "value": "75960620908800531"
+    },
+    {
+      "label": "Volume",
+      "value": "2"
+    },
+    {
+      "label": "Writers",
+      "value": "Stephanie Phillips"
+    }
+  ],
+  "heading": "spider-gwen: the ghost-spider vol. 2 5 c",
+  "scans": [
+    {
+      "height": 744,
+      "side": "front",
+      "url": "https://imga.theauthority.com/i/C4E/7d5308a2-2c59-4aed-9e7a-709d848dc037?Type=Front&w=400",
+      "width": 450
+    },
+    {
+      "height": 741,
+      "side": "back",
+      "url": "https://imga.theauthority.com/i/C4E/7d5308a2-2c59-4aed-9e7a-709d848dc037?Type=Back&w=400",
+      "width": 450
+    }
+  ],
+  "status": "RAW Authentic"
+}

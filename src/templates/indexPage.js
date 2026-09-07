@@ -192,7 +192,7 @@ export function renderIndexPage({ bins, config, totalComics, totalTopPops }) {
       const tops = comics.filter((c) => c.population?.higher === 0).length;
       return `    <a class="bin-link" href="bin/${escapeHtml(bin.bin)}/">
       <span>
-        <span class="bin-name">Bin ${escapeHtml(bin.bin)}</span>
+        <span class="bin-name">${escapeHtml(bin.title || `Bin ${bin.bin}`)}</span>
         ${bin.location ? `<span class="bin-meta"> &middot; ${escapeHtml(bin.location)}</span>` : ''}
       </span>
       <span class="bin-meta">${comics.length} comics${

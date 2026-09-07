@@ -1,0 +1,3467 @@
+{
+  "cards": [
+    {
+      "kind": "card",
+      "cert": "121297951",
+      "grader": "PSA",
+      "grade": "10",
+      "year": "2025",
+      "brand": "POKEMON KOREAN SV8a-TERASTAL FEST ex",
+      "subject": "VAPOREON EX",
+      "cardNumber": "205",
+      "variety": "SPECIAL ART RARE",
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/121297951/psa",
+      "fmv": {
+        "value": 67,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/121297951/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "09/17/2025",
+        "daysVaulted": "347",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_121297951_FRONT.jpg",
+        "back": "PSA_121297951_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771906/hP64keRhJkyL7lIpFgg8DQ.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297951/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:00:55.505Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2591,
+          "originalHeight": 4338,
+          "sha256": "a994b6be6a9648501027fb3a5734c17f336c0acf3e7686619cb6711bb4ce70db"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771906/vJ0T66d5KkSEN1Rm9ZIgWw.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297951/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:00:55.818Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2335,
+          "originalHeight": 3922,
+          "sha256": "fb494b280a71c22d6aa559a6bc1239d7a457ca0d8ccbfeb2194a67c8eb91642b"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "121297939",
+      "grader": "PSA",
+      "grade": "10",
+      "year": "2025",
+      "brand": "TOPPS TAKASHI MURAKAMI + MLB WORLD TOUR TOKYO SERIES",
+      "subject": "SHOHEI OHTANI",
+      "cardNumber": "1",
+      "variety": null,
+      "serial": null,
+      "category": "BASEBALL CARDS",
+      "certUrl": "https://www.psacard.com/cert/121297939/psa",
+      "fmv": {
+        "value": 759,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/121297939/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "09/17/2025",
+        "daysVaulted": "347",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_121297939_FRONT.jpg",
+        "back": "PSA_121297939_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771894/tJbjOGAWrkuAYf_ibXeq-Q.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297939/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:00:56.172Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2596,
+          "originalHeight": 4313,
+          "sha256": "4956a5164c7d33d9c1effed4e20035c5fb774b6eadb04dca3f3051db8135bed4"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771894/hm3FMYumEUa0ayf7cxzNow.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297939/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:00:56.479Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2332,
+          "originalHeight": 3918,
+          "sha256": "c89c0d4c5fa1d4f973f6d46d9be32ff491a5a06c04aaf6de257a594a8c1a6d16"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "121297949",
+      "grader": "PSA",
+      "grade": "10",
+      "year": "2024",
+      "brand": "TOPPS RESURGENCE RESURGENCE ROOKIE SIGNATURES",
+      "subject": "MALIK NABERS",
+      "cardNumber": "RRSMN",
+      "variety": "AQUA SURGE",
+      "serial": "204/249",
+      "category": "FOOTBALL CARDS",
+      "certUrl": "https://www.psacard.com/cert/121297949/psa",
+      "fmv": {
+        "value": 167,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/121297949/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "09/17/2025",
+        "daysVaulted": "347",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_121297949_FRONT.jpg",
+        "back": "PSA_121297949_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771904/PCfk_SJGm0ySjvhG5l9JJw.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297949/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:00:56.770Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2596,
+          "originalHeight": 4316,
+          "sha256": "80cb4c8265eb446b2e698302c97b294af43ae70d9df3829ff9ed3178cea5375e"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771904/EG900dc-_E2_LJBhB-KKwg.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297949/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:00:56.986Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2335,
+          "originalHeight": 3918,
+          "sha256": "d3f8e4d6426afffce78fbc13667f02728126c41377f0e4e4bb919401f1821051"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "121297940",
+      "grader": "PSA",
+      "grade": "10",
+      "year": "2025",
+      "brand": "TOPPS TAKASHI MURAKAMI + MLB WORLD TOUR TOKYO SERIES",
+      "subject": "SHOHEI OHTANI",
+      "cardNumber": "25",
+      "variety": null,
+      "serial": null,
+      "category": "BASEBALL CARDS",
+      "certUrl": "https://www.psacard.com/cert/121297940/psa",
+      "fmv": {
+        "value": 755,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/121297940/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "09/17/2025",
+        "daysVaulted": "347",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_121297940_FRONT.jpg",
+        "back": "PSA_121297940_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771895/IPtoDI0RJEuuBvv3KtiHcQ.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297940/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:00:57.316Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2593,
+          "originalHeight": 4305,
+          "sha256": "b96c796a9fd07a57e12c5c9d8ba621fe15c6cc87816b210bb202b8bcd3be98bc"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771895/lKhus_iFJkycjvoV86a_TA.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297940/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:00:57.526Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2334,
+          "originalHeight": 3922,
+          "sha256": "9cff31889f53e5c7e21985787cdb331709311b965b846867925c85c235d98685"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "121297944",
+      "grader": "PSA",
+      "grade": "10",
+      "year": "2024",
+      "brand": "BOWMAN UNIVERSITY CHROME SAPPHIRE",
+      "subject": "WILL JOHNSON",
+      "cardNumber": "183",
+      "variety": "ORANGE REFRACTOR",
+      "serial": "13/25",
+      "category": "FOOTBALL CARDS",
+      "certUrl": "https://www.psacard.com/cert/121297944/psa",
+      "fmv": {
+        "value": null,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/121297944/psa",
+        "status": "not-provided"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "09/17/2025",
+        "daysVaulted": "347",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_121297944_FRONT.jpg",
+        "back": "PSA_121297944_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771899/Kqhf4u55dEOgiLK-6iYBqQ.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297944/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:00:57.824Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2594,
+          "originalHeight": 4316,
+          "sha256": "8127396bcce8eb808627dfb9e87bc9188cf0ff502e9ae6d13b9b6f2f069502a6"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771899/ikhk1qcKR0Gs77i3gsA8IQ.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297944/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:00:58.071Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2334,
+          "originalHeight": 3924,
+          "sha256": "91d7beb94568fdb2f6c9254ec27077917d8585b33124b9a10f241c56b20dba28"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "121297948",
+      "grader": "PSA",
+      "grade": "10",
+      "year": "2024",
+      "brand": "TOPPS RESURGENCE CONDUCTORS",
+      "subject": "BO NIX",
+      "cardNumber": "C8",
+      "variety": "AQUA SURGE",
+      "serial": "50/249",
+      "category": "FOOTBALL CARDS",
+      "certUrl": "https://www.psacard.com/cert/121297948/psa",
+      "fmv": {
+        "value": 67,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/121297948/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "09/17/2025",
+        "daysVaulted": "347",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_121297948_FRONT.jpg",
+        "back": "PSA_121297948_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771903/fr53s8gtfUSGEPe4mh9eBg.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297948/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:00:58.356Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2594,
+          "originalHeight": 4318,
+          "sha256": "51079b03246d361213b9ef253e230f91d79eb02e8a97b4ec0c92f81a585dad7c"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771903/1zLHgLYSG0W6N76aIV3qhg.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297948/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:00:58.575Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2332,
+          "originalHeight": 3915,
+          "sha256": "5d8b3348573560ed9510732a650895eda0c5f6a325cee3788e67df24be49d3cc"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "121297946",
+      "grader": "PSA",
+      "grade": "10",
+      "year": "2025",
+      "brand": "POKEMON SIMPLIFIED CHINESE CBB1 C-GEM PACK VOL 1",
+      "subject": "CAPTAIN PIKACHU",
+      "cardNumber": "09",
+      "variety": null,
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/121297946/psa",
+      "fmv": {
+        "value": 757,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/121297946/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "09/17/2025",
+        "daysVaulted": "347",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_121297946_FRONT.jpg",
+        "back": "PSA_121297946_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771901/tF_DmTNRskK5oVrYml5AFw.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297946/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:00:58.849Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2589,
+          "originalHeight": 4328,
+          "sha256": "7de3627d81fe03ecdd808b5f577377c80a3714bbcd8548626befa0f95f001772"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771901/hyz8HKt4VkSqsiLQ9Erq0g.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297946/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:00:59.059Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2335,
+          "originalHeight": 3922,
+          "sha256": "f885ed5bf27b7cb794c929bd389eaf48094c0335777b9a290b2afef6af54aa7e"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "121297952",
+      "grader": "PSA",
+      "grade": "10",
+      "year": "2023",
+      "brand": "POKEMON KOREAN SV2a-POKEMON CARD 151",
+      "subject": "JYNX EX",
+      "cardNumber": "193",
+      "variety": "SUPER RARE",
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/121297952/psa",
+      "fmv": {
+        "value": 25,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/121297952/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "09/17/2025",
+        "daysVaulted": "347",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_121297952_FRONT.jpg",
+        "back": "PSA_121297952_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771907/QeGO1N0HSEKLvLYcec9ixg.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297952/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:00:59.335Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2595,
+          "originalHeight": 4320,
+          "sha256": "5bdbfea70b45ecce03b69e93f28a726169abda69092c25b6653557ec17374c99"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771907/41KyRCFC5UaO4mfzomcHhA.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297952/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:00:59.544Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2335,
+          "originalHeight": 3922,
+          "sha256": "65ce4bafad3beeac3c8cc79d4d7b76c5b7145f32b051a1ee1aaf0cc51cb580ed"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "121297950",
+      "grader": "PSA",
+      "grade": "10",
+      "year": "2025",
+      "brand": "TOPPS TAKASHI MURAKAMI + MLB WORLD TOUR TOKYO SERIES",
+      "subject": "YOSHINOBU YAMAMOTO",
+      "cardNumber": "11",
+      "variety": null,
+      "serial": null,
+      "category": "BASEBALL CARDS",
+      "certUrl": "https://www.psacard.com/cert/121297950/psa",
+      "fmv": {
+        "value": 122,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/121297950/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "09/17/2025",
+        "daysVaulted": "347",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_121297950_FRONT.jpg",
+        "back": "PSA_121297950_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771905/avbGtKojp0CSDUnuaTym-A.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297950/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:00:59.865Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2593,
+          "originalHeight": 4311,
+          "sha256": "d2ef509f86440aefc0f39b68e3e4d5c4bb60f3642e735cf03b7fb68af6c29d56"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771905/aPPf_1RUJUKUYut7-LHdtg.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297950/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:00.052Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2335,
+          "originalHeight": 3921,
+          "sha256": "2afc49c5f16d7d705b39efb653a318a22c23adf9b3676b5ce8800045b3a6a9bc"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "121297941",
+      "grader": "PSA",
+      "grade": "10",
+      "year": "2025",
+      "brand": "TOPPS TAKASHI MURAKAMI + MLB WORLD TOUR TOKYO SERIES",
+      "subject": "SHOTA IMANAGA",
+      "cardNumber": "6",
+      "variety": null,
+      "serial": null,
+      "category": "BASEBALL CARDS",
+      "certUrl": "https://www.psacard.com/cert/121297941/psa",
+      "fmv": {
+        "value": 67,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/121297941/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "09/17/2025",
+        "daysVaulted": "347",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_121297941_FRONT.jpg",
+        "back": "PSA_121297941_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771896/jkgIbw8BD0y941bMJCYQTg.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297941/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:00.336Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2593,
+          "originalHeight": 4302,
+          "sha256": "b1af20c14a099aa83bdc14714db191fca946df8e63887f7bcdb8da604a0d74f6"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771896/t5R6AzwM-Eyq1gNik-qkxw.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297941/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:00.531Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2335,
+          "originalHeight": 3921,
+          "sha256": "53a8ecd794a4b53511a80d850a613b81587f17770c1a45a0efbae6c9c83db43e"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "121297942",
+      "grader": "PSA",
+      "grade": "10",
+      "year": "2025",
+      "brand": "TOPPS TAKASHI MURAKAMI + MLB WORLD TOUR TOKYO SERIES",
+      "subject": "MOOKIE BETTS",
+      "cardNumber": "5",
+      "variety": null,
+      "serial": null,
+      "category": "BASEBALL CARDS",
+      "certUrl": "https://www.psacard.com/cert/121297942/psa",
+      "fmv": {
+        "value": 91,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/121297942/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "09/17/2025",
+        "daysVaulted": "347",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_121297942_FRONT.jpg",
+        "back": "PSA_121297942_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771897/bJpYjfEpd0ePFkhXRRsY7g.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297942/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:00.841Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2593,
+          "originalHeight": 4311,
+          "sha256": "99c9090e2aaba3c9304927f05ecdfc0dfec284729ebe2038ff75733429fa00a3"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771897/pTjRoYWJH0WjfRTGmOEbMw.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297942/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:01.110Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2335,
+          "originalHeight": 3921,
+          "sha256": "d8fea479f81f27db97d4e25f202e308ba865095994e15fa758b638cc2caa75c6"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "121297945",
+      "grader": "PSA",
+      "grade": "8",
+      "year": "2023",
+      "brand": "POKEMON MEW EN-151",
+      "subject": "IVYSAUR",
+      "cardNumber": "167",
+      "variety": "ILLUSTRATION RARE",
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/121297945/psa",
+      "fmv": {
+        "value": 44,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/121297945/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "09/17/2025",
+        "daysVaulted": "347",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_121297945_FRONT.jpg",
+        "back": "PSA_121297945_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771900/r0Bt1qmOQUK9c89wwx6geQ.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297945/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:01.415Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2590,
+          "originalHeight": 4321,
+          "sha256": "df34e45c3e28544fa7d402ff5a2bd2ead9b9422933b470d0859d167b1e61a3e0"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771900/_P5o5k18wUGY0sRPHUJxwQ.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297945/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:01.607Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2335,
+          "originalHeight": 3920,
+          "sha256": "7bf785c2923c6ba63c68ede5a336d3ed8ef669712793056c75102017b04560d5"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "121297947",
+      "grader": "PSA",
+      "grade": "6",
+      "year": "2023",
+      "brand": "POKEMON KOREAN SV2a-POKEMON CARD 151",
+      "subject": "PIKACHU",
+      "cardNumber": "173",
+      "variety": "ART RARE",
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/121297947/psa",
+      "fmv": {
+        "value": null,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/121297947/psa",
+        "status": "not-provided"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "09/17/2025",
+        "daysVaulted": "347",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_121297947_FRONT.jpg",
+        "back": "PSA_121297947_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771902/6A8qJuuNnkWNJ36Qq9Pw0Q.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297947/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:01.915Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2593,
+          "originalHeight": 4328,
+          "sha256": "4d4c5726001384345c2a944c48dffcb7b64ba2974141beb2165e492cf54de6a5"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771902/eZFL_nmfCUGH2plpM7GlOA.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297947/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:02.122Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2335,
+          "originalHeight": 3925,
+          "sha256": "68ee82fe5fb5f7aa1407b10029fc7c232c22c4df004974e24699233c57fd4307"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "121297943",
+      "grader": "PSA",
+      "grade": "10",
+      "year": "2025",
+      "brand": "TOPPS TAKASHI MURAKAMI + MLB WORLD TOUR TOKYO SERIES",
+      "subject": "FREDDIE FREEMAN",
+      "cardNumber": "9",
+      "variety": null,
+      "serial": null,
+      "category": "BASEBALL CARDS",
+      "certUrl": "https://www.psacard.com/cert/121297943/psa",
+      "fmv": {
+        "value": 86,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/121297943/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "09/17/2025",
+        "daysVaulted": "347",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_121297943_FRONT.jpg",
+        "back": "PSA_121297943_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771898/CsR3J5_lXES9tu4NVNPKPg.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297943/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:02.379Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2594,
+          "originalHeight": 4317,
+          "sha256": "960740234812ce2c3d8d41957c3d5fbe3a94a1897916b8bd5f12712d8b3e6222"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771898/nsXsqAHyrUaUHm6h6vJbFQ.jpg",
+          "pageUrl": "https://www.psacard.com/cert/121297943/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:02.560Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2334,
+          "originalHeight": 3920,
+          "sha256": "9205384fa9abc262f4c1277d8e7c5f509df54890e866d02dbbd35a1ce837a601"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "126727710",
+      "grader": "PSA",
+      "grade": "8",
+      "year": "2021",
+      "brand": "POKEMON CELEBRATIONS",
+      "subject": "MEW",
+      "cardNumber": "011",
+      "variety": null,
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/126727710/psa",
+      "fmv": {
+        "value": 16,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/126727710/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "11/03/2025",
+        "daysVaulted": "283",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": 25,
+        "date": "11/20/2025",
+        "source": "Power Packs",
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_126727710_FRONT.jpg",
+        "back": "PSA_126727710_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/186874095/I9ozuqU8vUiUqAz54CaOxQ.jpg",
+          "pageUrl": "https://www.psacard.com/cert/126727710/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:02.804Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2428,
+          "originalHeight": 4037,
+          "sha256": "9ad43355fae5a9a9241127047fe7bee237ffecc0848cb58beba07e13294899b4"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/186874095/HXtAkN4NPUWt-rz2IfleNA.jpg",
+          "pageUrl": "https://www.psacard.com/cert/126727710/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:03.057Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2432,
+          "originalHeight": 4089,
+          "sha256": "8ebdee5a76ff26f9d02284d33ab9465a11d95e87255e75095aef53a644c9ede4"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "127889620",
+      "grader": "PSA",
+      "grade": "8",
+      "year": "2023",
+      "brand": "POKEMON SVP EN-SV BLACK STAR PROMO",
+      "subject": "MEW EX",
+      "cardNumber": "053",
+      "variety": "151 ULTRA-PREMIUM COLLECTION",
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/127889620/psa",
+      "fmv": {
+        "value": 70,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/127889620/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "11/11/2025",
+        "daysVaulted": "283",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": 50,
+        "date": "11/20/2025",
+        "source": "Power Packs",
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_127889620_FRONT.jpg",
+        "back": "PSA_127889620_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/187801544/d7Zo4ORv9EWBME25DK1Sww.jpg",
+          "pageUrl": "https://www.psacard.com/cert/127889620/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:03.386Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2427,
+          "originalHeight": 4071,
+          "sha256": "6d5d8d3e766ce400e86dad665d694c601169fadb40382bbc4cb3277504a088b7"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/187801544/IttbmBoC3km1lGaFwhlFkw.jpg",
+          "pageUrl": "https://www.psacard.com/cert/127889620/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:03.620Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2346,
+          "originalHeight": 3954,
+          "sha256": "fde0603ea1a9a6efa59dae5dd6da0c6be789cc5cee1f94399048650131440047"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "71518277",
+      "grader": "PSA",
+      "grade": "10",
+      "year": "2021",
+      "brand": "TOPPS HERITAGE",
+      "subject": "MIKE TROUT",
+      "cardNumber": "169",
+      "variety": "CHROME",
+      "serial": "570/999",
+      "category": "BASEBALL CARDS",
+      "certUrl": "https://www.psacard.com/cert/71518277/psa",
+      "fmv": {
+        "value": 49,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/71518277/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "06/21/2025",
+        "daysVaulted": "282",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": 50,
+        "date": "11/21/2025",
+        "source": "Power Packs",
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_71518277_FRONT.jpg",
+        "back": "PSA_71518277_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/136903380/ibqVOD8cPUqpbTkOXZZhew.jpg",
+          "pageUrl": "https://www.psacard.com/cert/71518277/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:03.758Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1430,
+          "originalHeight": 2400,
+          "sha256": "a5f7993efba78454ac8cc7d8e891851268d8c9db737c5b6d364e3569bd106ade"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/136903380/M_X5JUmnjU-kJ58qckUQpg.jpg",
+          "pageUrl": "https://www.psacard.com/cert/71518277/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:03.871Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1430,
+          "originalHeight": 2400,
+          "sha256": "d17466c6d322e198a56325c5c64931c52345260983160d9f054550348041e64c"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "115507449",
+      "grader": "PSA",
+      "grade": "9",
+      "year": "2023",
+      "brand": "POKEMON JAPANESE SV2D-CLAY BURST",
+      "subject": "FLETCHINDER",
+      "cardNumber": "073",
+      "variety": "ART RARE",
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/115507449/psa",
+      "fmv": {
+        "value": 20,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/115507449/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "10/19/2025",
+        "daysVaulted": "275",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": 50,
+        "date": "11/28/2025",
+        "source": "Power Packs",
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_115507449_FRONT.jpg",
+        "back": "PSA_115507449_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179854565/X0Ylo0og2k6YaIKWc52UNQ.jpg",
+          "pageUrl": "https://www.psacard.com/cert/115507449/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:03.986Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1436,
+          "originalHeight": 2400,
+          "sha256": "f4d23b99c58d792ff377c3425b34a87edfd69e83a76d300fa5e390c33f4a44ed"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179854565/Jqurh35uJE-YvV09skePHQ.jpg",
+          "pageUrl": "https://www.psacard.com/cert/115507449/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:04.114Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1432,
+          "originalHeight": 2400,
+          "sha256": "bb03c0aa20cb0d4b9724e3d446068d8293dea8a778be1233d4b45d718f675844"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "125731386",
+      "grader": "PSA",
+      "grade": "9",
+      "year": "1991",
+      "brand": "FLEER",
+      "subject": "MICHAEL JORDAN",
+      "cardNumber": "211",
+      "variety": null,
+      "serial": null,
+      "category": "BASKETBALL CARDS",
+      "certUrl": "https://www.psacard.com/cert/125731386/psa",
+      "fmv": {
+        "value": 43,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/125731386/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "10/27/2025",
+        "daysVaulted": "275",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": 25,
+        "date": "11/28/2025",
+        "source": "Power Packs",
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_125731386_FRONT.jpg",
+        "back": "PSA_125731386_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/186230501/WUpHF-gusEK8dpvAvmZ7Sg.jpg",
+          "pageUrl": "https://www.psacard.com/cert/125731386/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:04.349Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2424,
+          "originalHeight": 4038,
+          "sha256": "07396e366aae9563fdd01f102412f99204f8355a65a40e3929be2a4af4f12777"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/186230501/HmGF0SM78kyoh2_2bhwJUA.jpg",
+          "pageUrl": "https://www.psacard.com/cert/125731386/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:04.526Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2432,
+          "originalHeight": 4087,
+          "sha256": "502928cd1a1b6737f05fc046fc45bf0a3d050cad053e59fc239e9be6bafcdad0"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "123299104",
+      "grader": "PSA",
+      "grade": "8",
+      "year": "2024",
+      "brand": "TOPPS UPDATE 1989 TOPPS BASEBALL RELICS",
+      "subject": "PAUL SKENES",
+      "cardNumber": "PS",
+      "variety": null,
+      "serial": null,
+      "category": "BASEBALL CARDS",
+      "certUrl": "https://www.psacard.com/cert/123299104/psa",
+      "fmv": {
+        "value": 34,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/123299104/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "10/13/2025",
+        "daysVaulted": "269",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": 25,
+        "date": "12/04/2025",
+        "source": "Power Packs",
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_123299104_FRONT.jpg",
+        "back": "PSA_123299104_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/184966746/2Pmgp3DZc0K3NBb7nseeyQ.jpg",
+          "pageUrl": "https://www.psacard.com/cert/123299104/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:04.783Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2584,
+          "originalHeight": 4337,
+          "sha256": "72efadb3e67998cee8b7d8650ef8bd7c07d76a0ff180d04651bdf2aeaf1fe3f4"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/184966746/bDve_q0Gw0uGlK8YaZgXbw.jpg",
+          "pageUrl": "https://www.psacard.com/cert/123299104/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:04.980Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2333,
+          "originalHeight": 3921,
+          "sha256": "6e88fb7297dc2b723199a59eb37ba51401637a56af24102b8aab5aff5f2ddd44"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "127912180",
+      "grader": "PSA",
+      "grade": "7",
+      "year": "2000",
+      "brand": "POKEMON GAME BASE II",
+      "subject": "CHANSEY-HOLO",
+      "cardNumber": "3",
+      "variety": null,
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/127912180/psa",
+      "fmv": {
+        "value": 30,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/127912180/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "12/01/2025",
+        "daysVaulted": "268",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": 25,
+        "date": "12/05/2025",
+        "source": "Power Packs",
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_127912180_FRONT.jpg",
+        "back": "PSA_127912180_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/187569272/_eByA_RDNEOev8TK-ZzX0g.jpg",
+          "pageUrl": "https://www.psacard.com/cert/127912180/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:05.224Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2428,
+          "originalHeight": 4070,
+          "sha256": "1d485db9a0e8ae1c87f2a7da89b9c6494a2fe93855efe689ae15fb54995a5339"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/187569272/UIJvzGq94km9SvcQlu8NrA.jpg",
+          "pageUrl": "https://www.psacard.com/cert/127912180/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:05.474Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2435,
+          "originalHeight": 4090,
+          "sha256": "09b6e8b5313bdc0bf0704bdb61d4ade7770fea66936cf19c9c87c6131bb071dc"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "128541198",
+      "grader": "PSA",
+      "grade": "9",
+      "year": "2023",
+      "brand": "POKEMON MEW EN-151",
+      "subject": "PSYDUCK",
+      "cardNumber": "175",
+      "variety": "ILLUSTRATION RARE",
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/128541198/psa",
+      "fmv": {
+        "value": 73,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/128541198/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "11/28/2025",
+        "daysVaulted": "255",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": 50,
+        "date": "12/17/2025",
+        "source": "Power Packs",
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_128541198_FRONT.jpg",
+        "back": "PSA_128541198_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/188111205/izXWxkheIEqm5rE_4AFXfA.jpg",
+          "pageUrl": "https://www.psacard.com/cert/128541198/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:05.722Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2594,
+          "originalHeight": 4323,
+          "sha256": "f67de6dae4b0761de3fc216f7028a471fde6e64c4f9cd009db5f46df04ab513e"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/188111205/p2lZvbCl3k27fP8Gs2e6ng.jpg",
+          "pageUrl": "https://www.psacard.com/cert/128541198/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:05.922Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2335,
+          "originalHeight": 3918,
+          "sha256": "f2b80591292f56ea98eaee7d9f34b58c63d7b4c97cffacb835551d82ea595c7c"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "95570278",
+      "grader": "PSA",
+      "grade": "9",
+      "year": "2023",
+      "brand": "PANINI DONRUSS OPTIC",
+      "subject": "PUKA NACUA",
+      "cardNumber": "238",
+      "variety": "PURPLE SHOCK",
+      "serial": null,
+      "category": "FOOTBALL CARDS",
+      "certUrl": "https://www.psacard.com/cert/95570278/psa",
+      "fmv": {
+        "value": 30,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/95570278/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "09/21/2024",
+        "daysVaulted": "250",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": 25,
+        "date": "12/23/2025",
+        "source": "Power Packs",
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_95570278_FRONT.jpg",
+        "back": "PSA_95570278_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/163045080/VNiHd0iBnka1F-k-mImU3Q.jpg",
+          "pageUrl": "https://www.psacard.com/cert/95570278/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:06.184Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2585,
+          "originalHeight": 4328,
+          "sha256": "e84189103ae8e35428623beba32ad71f5f2431e5cc3e5e0b90c49b3ad0ea10c2"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/163045080/6xCm6fDpokyH5n7mPffRQg.jpg",
+          "pageUrl": "https://www.psacard.com/cert/95570278/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:06.385Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2335,
+          "originalHeight": 3926,
+          "sha256": "5beec1c5379374964749bb1a3c230e9894267d9cf161abb2849792e3dbf6fa7c"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "116838544",
+      "grader": "PSA",
+      "grade": "10",
+      "year": "2024",
+      "brand": "PANINI MOSAIC",
+      "subject": "DRAKE MAYE",
+      "cardNumber": "303",
+      "variety": "GREEN",
+      "serial": null,
+      "category": "FOOTBALL CARDS",
+      "certUrl": "https://www.psacard.com/cert/116838544/psa",
+      "fmv": {
+        "value": 127,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/116838544/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "01/07/2026",
+        "daysVaulted": "235",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_116838544_FRONT.jpg",
+        "back": "PSA_116838544_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/180635234/JQss_DTP-0KURhD00mm96g.jpg",
+          "pageUrl": "https://www.psacard.com/cert/116838544/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:06.519Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1424,
+          "originalHeight": 2400,
+          "sha256": "74bef32bdaeba29a99e389a1cc9e7f7cc228d4ba7300aaae343d106c468cc006"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/180635234/SF7kSMQrg0axb1c1hfj3AQ.jpg",
+          "pageUrl": "https://www.psacard.com/cert/116838544/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:06.651Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1426,
+          "originalHeight": 2400,
+          "sha256": "11bea37915ea403e471402e14030ed254edbd985c28b30e6aaa9821e9df274c8"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "128337725",
+      "grader": "PSA",
+      "grade": "9",
+      "year": "2024",
+      "brand": "TOPPS CHROME 1974 TOPPS FOOTBALL",
+      "subject": "DRAKE MAYE",
+      "cardNumber": "74TF3",
+      "variety": "X-FRACTOR",
+      "serial": null,
+      "category": "FOOTBALL CARDS",
+      "certUrl": "https://www.psacard.com/cert/128337725/psa",
+      "fmv": {
+        "value": 45,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/128337725/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "01/07/2026",
+        "daysVaulted": "235",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_128337725_FRONT.jpg",
+        "back": "PSA_128337725_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/187952696/yASPLZ-zuUqw4qGA8Toyhg.jpg",
+          "pageUrl": "https://www.psacard.com/cert/128337725/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:06.815Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1434,
+          "originalHeight": 2400,
+          "sha256": "6370b1b61fdff18ed8a44de97eb0ccddc27274a1d81ceef7518092f6bc3b835f"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/187952696/HebVt1MnI02GT3sy4FZVYA.jpg",
+          "pageUrl": "https://www.psacard.com/cert/128337725/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:06.939Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1431,
+          "originalHeight": 2400,
+          "sha256": "0dfd2932a3b3e14a6e59cd0d6985882fab7da9b877c12fa542355d1bfcd5b98b"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "97752167",
+      "grader": "PSA",
+      "grade": "10",
+      "year": "2024",
+      "brand": "ONE PIECE OP07-500 YEARS IN THE FUTURE",
+      "subject": "MONKEY D. LUFFY",
+      "cardNumber": "109",
+      "variety": "ALTERNATE ART",
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/97752167/psa",
+      "fmv": {
+        "value": 97,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/97752167/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "02/04/2026",
+        "daysVaulted": "207",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_97752167_FRONT.jpg",
+        "back": "PSA_97752167_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/165286541/lxIvKt2DskOlnf0F-fdvXg.jpg",
+          "pageUrl": "https://www.psacard.com/cert/97752167/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:07.083Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1426,
+          "originalHeight": 2400,
+          "sha256": "6d028379fa5375a45f907143b05237398b429871383f63a0c704776ee7f9b2bb"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/165286541/c66pnSUkAUeE2D3YEMKiZQ.jpg",
+          "pageUrl": "https://www.psacard.com/cert/97752167/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:07.216Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1426,
+          "originalHeight": 2400,
+          "sha256": "a23f94a6851dd6dd51a5ec7e31b17a3a2346db2eb100352e0c47a466522aa682"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "70848071",
+      "grader": "PSA",
+      "grade": "10",
+      "year": "2022",
+      "brand": "POKEMON SWORD & SHIELD SILVER TEMPEST",
+      "subject": "FULL ART/GAPEJAW BOG",
+      "cardNumber": "213",
+      "variety": "SECRET",
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/70848071/psa",
+      "fmv": {
+        "value": 34,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/70848071/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "02/06/2026",
+        "daysVaulted": "204",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_70848071_FRONT.jpg",
+        "back": "PSA_70848071_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/136038627/1L4gpDxSDUWJLArFIzHpNA.jpg",
+          "pageUrl": "https://www.psacard.com/cert/70848071/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:07.403Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1424,
+          "originalHeight": 2400,
+          "sha256": "47c92d59b23d1fa7ba2cab7942ba3503d552cab22967f2c7ecb50512cdac9a52"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/136038627/bsmMSmu7k0WS9ASPu-eD5w.jpg",
+          "pageUrl": "https://www.psacard.com/cert/70848071/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:07.538Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1428,
+          "originalHeight": 2400,
+          "sha256": "78e71b60128900ee7eddf05c90ac4ce3688b54c4f9ccedeedd1c3de944b496b8"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "114949362",
+      "grader": "PSA",
+      "grade": "8",
+      "year": "2018",
+      "brand": "PANINI DONRUSS OPTIC",
+      "subject": "LUKA DONCIC",
+      "cardNumber": "177",
+      "variety": "HOLO",
+      "serial": null,
+      "category": "BASKETBALL CARDS",
+      "certUrl": "https://www.psacard.com/cert/114949362/psa",
+      "fmv": {
+        "value": 215,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/114949362/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "02/04/2026",
+        "daysVaulted": "207",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_114949362_FRONT.jpg",
+        "back": "PSA_114949362_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179485194/h2V3c2lYUUqw6cs4lDqzXQ.jpg",
+          "pageUrl": "https://www.psacard.com/cert/114949362/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:07.855Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2584,
+          "originalHeight": 4315,
+          "sha256": "b0cef46aec2c0400e51fd052d5629f173dbb85693a955ef8c0cbf036c01aed06"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179485194/dzHt7XdmYUqedzT-gtUhpA.jpg",
+          "pageUrl": "https://www.psacard.com/cert/114949362/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:08.057Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 2331,
+          "originalHeight": 3911,
+          "sha256": "b58daea7ff8c318bec20c9ce1e07fbacfece872520780861d79ebdecd9face77"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "62837377",
+      "grader": "PSA",
+      "grade": "9",
+      "year": "2019",
+      "brand": "POKEMON SM BLACK STAR PROMO",
+      "subject": "FULL ART/MOLTRES & ZAPDOS & ARTICUNO GX",
+      "cardNumber": "SM210",
+      "variety": "HIDDEN FATES ELITE TRAINER BOX",
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/62837377/psa",
+      "fmv": {
+        "value": 162,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/62837377/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "02/06/2026",
+        "daysVaulted": "204",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {},
+      "scanStatus": "no-scans-on-cert-page",
+      "imageSources": {},
+      "scanCheckedAt": "2026-09-07T01:00:54.271Z"
+    },
+    {
+      "kind": "card",
+      "cert": "160521641",
+      "grader": "PSA",
+      "grade": "9",
+      "year": "2025",
+      "brand": "POKEMON BLK EN-BLACK BOLT",
+      "subject": "ZEKROM EX",
+      "cardNumber": "166",
+      "variety": "SPECIAL ILLUSTRATION RARE",
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/160521641/psa",
+      "fmv": {
+        "value": 230,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/160521641/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "06/28/2026",
+        "daysVaulted": "63",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_160521641_FRONT.jpg",
+        "back": "PSA_160521641_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138831/xoYVsOY1NEubo9r717Xp5A.jpg",
+          "pageUrl": "https://www.psacard.com/cert/160521641/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:08.202Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1428,
+          "originalHeight": 2400,
+          "sha256": "dfcb2840c1118f44c9e15cade0f8ec3081b520633639b8fbfd3c0b1747368a8f"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138831/isPXhBcOxkOQ13yzGZj2ow.jpg",
+          "pageUrl": "https://www.psacard.com/cert/160521641/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:08.326Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1426,
+          "originalHeight": 2400,
+          "sha256": "08803e2277710b6249c1a0709dc949ede52d661ed85308ac843939fbbf220dd8"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "160521636",
+      "grader": "PSA",
+      "grade": "9",
+      "year": "2025",
+      "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+      "subject": "SANDY KOUFAX",
+      "cardNumber": "71",
+      "variety": "SAP GREEN",
+      "serial": "14/75",
+      "category": "BASEBALL CARDS",
+      "certUrl": "https://www.psacard.com/cert/160521636/psa",
+      "fmv": {
+        "value": null,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/160521636/psa",
+        "status": "not-provided"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "06/28/2026",
+        "daysVaulted": "63",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_160521636_FRONT.jpg",
+        "back": "PSA_160521636_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138826/QNsaA7ZfwUeIjv78JhhN6w.jpg",
+          "pageUrl": "https://www.psacard.com/cert/160521636/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:08.448Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1423,
+          "originalHeight": 2400,
+          "sha256": "4d3322073da836a5c7a60b49b8f29e3290814659d53e359539e8ffd169837168"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138826/MSfTUOdi_Uqq-aCm4g9lfA.jpg",
+          "pageUrl": "https://www.psacard.com/cert/160521636/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:08.660Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1426,
+          "originalHeight": 2400,
+          "sha256": "404e485c81efb1f0a593d5720d1c7a967ea43f7778a3068d17971bae92e21bde"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "160521631",
+      "grader": "PSA",
+      "grade": "9",
+      "year": "2025",
+      "brand": "PANINI PHOENIX COLOR BLAST",
+      "subject": "AMON-RA ST. BROWN",
+      "cardNumber": "20",
+      "variety": null,
+      "serial": null,
+      "category": "FOOTBALL CARDS",
+      "certUrl": "https://www.psacard.com/cert/160521631/psa",
+      "fmv": {
+        "value": 218,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/160521631/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "06/28/2026",
+        "daysVaulted": "63",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_160521631_FRONT.jpg",
+        "back": "PSA_160521631_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138821/vqIqBSxehUK5Unn8dNHfjA.jpg",
+          "pageUrl": "https://www.psacard.com/cert/160521631/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:08.904Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1432,
+          "originalHeight": 2400,
+          "sha256": "72d042aace16f5067819b9e1d6b41841f1322dcb1f3d706e67ecd6d63be78e41"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138821/WJlGiOb1rkG28Ler6OxVJQ.jpg",
+          "pageUrl": "https://www.psacard.com/cert/160521631/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:09.021Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1437,
+          "originalHeight": 2400,
+          "sha256": "f3bd6324e55a9e398103a428602b0885c2a17473863b8d3184affb64a9357db1"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "160521632",
+      "grader": "PSA",
+      "grade": "10",
+      "year": "2025",
+      "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+      "subject": "ROKI SASAKI",
+      "cardNumber": "HM-100",
+      "variety": "HAPPY MISTAKES",
+      "serial": null,
+      "category": "BASEBALL CARDS",
+      "certUrl": "https://www.psacard.com/cert/160521632/psa",
+      "fmv": {
+        "value": 401,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/160521632/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "06/28/2026",
+        "daysVaulted": "63",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_160521632_FRONT.jpg",
+        "back": "PSA_160521632_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138822/d_gx9I47mUqTO5ULmXyxrA.jpg",
+          "pageUrl": "https://www.psacard.com/cert/160521632/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:09.164Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1437,
+          "originalHeight": 2400,
+          "sha256": "24acffc621824d05c4f542507b4ec85f9807574e7aa815ef93a64b8649bbfd96"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138822/8DtT1m2jE0eThKh24iffIg.jpg",
+          "pageUrl": "https://www.psacard.com/cert/160521632/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:09.293Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1431,
+          "originalHeight": 2400,
+          "sha256": "80510f995f98623442dfaba1b1e7849e3abe2a974f4ba667f412bae6759fe96e"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "160521637",
+      "grader": "PSA",
+      "grade": "10",
+      "year": "2025",
+      "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+      "subject": "COBY MAYO",
+      "cardNumber": "91G",
+      "variety": "AUTOGRAPH-SAP GREEN",
+      "serial": "33/75",
+      "category": "BASEBALL CARDS",
+      "certUrl": "https://www.psacard.com/cert/160521637/psa",
+      "fmv": {
+        "value": null,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/160521637/psa",
+        "status": "not-provided"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "06/28/2026",
+        "daysVaulted": "63",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_160521637_FRONT.jpg",
+        "back": "PSA_160521637_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138827/yI_QcwDEREGXiwaFxSctFQ.jpg",
+          "pageUrl": "https://www.psacard.com/cert/160521637/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:09.467Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1441,
+          "originalHeight": 2400,
+          "sha256": "456732e179743707103f2d9ed26b404b0dd2f2ecb889345663426376bf510077"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138827/HNqEgqKdTkWdpqkGMT6d5g.jpg",
+          "pageUrl": "https://www.psacard.com/cert/160521637/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:09.580Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1428,
+          "originalHeight": 2400,
+          "sha256": "f83739366d9a6ddf5c660c1d31ad4de19567f8124068c422fd2b160a2a574011"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "160521634",
+      "grader": "PSA",
+      "grade": "9",
+      "year": "2023",
+      "brand": "POKEMON PAL EN-PALDEA EVOLVED",
+      "subject": "CHI-YU EX",
+      "cardNumber": "259",
+      "variety": "SPECIAL ILLUSTRATION RARE",
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/160521634/psa",
+      "fmv": {
+        "value": 56,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/160521634/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "06/28/2026",
+        "daysVaulted": "63",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_160521634_FRONT.jpg",
+        "back": "PSA_160521634_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138824/rM3lMEr67kuQiElq2Rl5PA.jpg",
+          "pageUrl": "https://www.psacard.com/cert/160521634/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:09.740Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1424,
+          "originalHeight": 2400,
+          "sha256": "1a32c157ee7ecc4a21ae16f0257796d34d270d6dc9ca32d5405244419463b255"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138824/W9hJlgyWZUW0qzpFAnfLdQ.jpg",
+          "pageUrl": "https://www.psacard.com/cert/160521634/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:09.959Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1426,
+          "originalHeight": 2400,
+          "sha256": "4159a08ce4416dc0783398d205dbe5cc08574fc7a83470848db52b28bbef29e9"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "160521639",
+      "grader": "PSA",
+      "grade": "9",
+      "year": "2025",
+      "brand": "POKEMON SVP EN-SV BLACK STAR PROMO",
+      "subject": "TEAM ROCKET'S WOBBUFFET",
+      "cardNumber": "203",
+      "variety": "DESTINED RIVALS ELITE TRAINER BOX",
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/160521639/psa",
+      "fmv": {
+        "value": 28,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/160521639/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "06/28/2026",
+        "daysVaulted": "63",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_160521639_FRONT.jpg",
+        "back": "PSA_160521639_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138829/Zp4D1XsJCkSCRbOilOkAUw.jpg",
+          "pageUrl": "https://www.psacard.com/cert/160521639/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:10.095Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1425,
+          "originalHeight": 2400,
+          "sha256": "ab30dc04b03579ea2d82d5051cb682a8915f8341e3c51ab7762ebacd79d32d6b"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138829/LF2lcmyYkUSxrU_NCKtrXg.jpg",
+          "pageUrl": "https://www.psacard.com/cert/160521639/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:10.224Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1424,
+          "originalHeight": 2400,
+          "sha256": "7f0b18e08c71ed9772755e2f813451292ae0ad1bb4ba7d7744876ddffa691c68"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "160521638",
+      "grader": "PSA",
+      "grade": "9",
+      "year": "2023",
+      "brand": "POKEMON PAR EN-PARADOX RIFT",
+      "subject": "GROUDON",
+      "cardNumber": "199",
+      "variety": "ILLUSTRATION RARE",
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/160521638/psa",
+      "fmv": {
+        "value": 116,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/160521638/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "06/28/2026",
+        "daysVaulted": "63",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_160521638_FRONT.jpg",
+        "back": "PSA_160521638_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138828/UUnoO7Pgsk-wwHHd8JlFyQ.jpg",
+          "pageUrl": "https://www.psacard.com/cert/160521638/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:10.363Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1431,
+          "originalHeight": 2400,
+          "sha256": "715c1d5edcfa1294635c98e58e06a2dcf9f06761b70a03906d5c7939a27a25a1"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138828/UPH44egvx0uk4EaLRhGORw.jpg",
+          "pageUrl": "https://www.psacard.com/cert/160521638/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:10.489Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1427,
+          "originalHeight": 2400,
+          "sha256": "870dc65293377e619e0168c74fc0006cb6f088ac9fc63368da6fa2056874dff8"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "160521640",
+      "grader": "PSA",
+      "grade": "8",
+      "year": "2025",
+      "brand": "MAGIC THE GATHERING MARVEL'S SPIDER-MAN",
+      "subject": "AMAZING SPIDER-MAN/PETER PARKER",
+      "cardNumber": "0232",
+      "variety": "CLASSIC COMIC BORDERLESS-FOIL",
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/160521640/psa",
+      "fmv": {
+        "value": 87,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/160521640/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "06/28/2026",
+        "daysVaulted": "63",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_160521640_FRONT.jpg",
+        "back": "PSA_160521640_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138830/4SeWbrrsuE6Q6Jfqz-7VVg.jpg",
+          "pageUrl": "https://www.psacard.com/cert/160521640/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:10.640Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1439,
+          "originalHeight": 2400,
+          "sha256": "aa4f14344e08dfef1409fd1dd6e26fe8ba221d47625e43859500244669682607"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138830/LjEX2VfYl0-lDeVJgJOxaw.jpg",
+          "pageUrl": "https://www.psacard.com/cert/160521640/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:10.774Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1426,
+          "originalHeight": 2400,
+          "sha256": "3981c944a0b1b9839fd3b7370abe417f7b3ed7da247f9e54fcc3454a92c58c32"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "160521635",
+      "grader": "PSA",
+      "grade": "10",
+      "year": "2025",
+      "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+      "subject": "SHOHEI OHTANI",
+      "cardNumber": "41-SP",
+      "variety": "BEAUTY IS EVERYWHERE",
+      "serial": null,
+      "category": "BASEBALL CARDS",
+      "certUrl": "https://www.psacard.com/cert/160521635/psa",
+      "fmv": {
+        "value": 793,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/160521635/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "06/28/2026",
+        "daysVaulted": "63",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_160521635_FRONT.jpg",
+        "back": "PSA_160521635_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138825/93ZjTPGwYE-NPbKFAgZDJg.jpg",
+          "pageUrl": "https://www.psacard.com/cert/160521635/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:10.912Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1427,
+          "originalHeight": 2400,
+          "sha256": "42057afb03ace9a0248168f186ccec477d4178266a1c1688a22d55f00da8567f"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138825/4sNAZj29F0mjsYmLDYdFRw.jpg",
+          "pageUrl": "https://www.psacard.com/cert/160521635/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:11.023Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1427,
+          "originalHeight": 2400,
+          "sha256": "a940b130d1c3706373472677f8def5f8df6f92cb3db8d2f4950073a752432f98"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "160521630",
+      "grader": "PSA",
+      "grade": "8",
+      "year": "2025",
+      "brand": "TOPPS COSMIC CHROME PLANETARY PURSUIT",
+      "subject": "SHOHEI OHTANI",
+      "cardNumber": "2",
+      "variety": "SUN",
+      "serial": null,
+      "category": "BASEBALL CARDS",
+      "certUrl": "https://www.psacard.com/cert/160521630/psa",
+      "fmv": {
+        "value": 372,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/160521630/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "06/28/2026",
+        "daysVaulted": "63",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_160521630_FRONT.jpg",
+        "back": "PSA_160521630_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138820/esgdjuIsvU-CbhZTAxdqVg.jpg",
+          "pageUrl": "https://www.psacard.com/cert/160521630/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:11.153Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1426,
+          "originalHeight": 2400,
+          "sha256": "6035b13d70998964729ae1bd87ace6b68dd88964115368707b1c4f4f517d1a6c"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138820/gE0A61uLn0WfWY1vOjujVQ.jpg",
+          "pageUrl": "https://www.psacard.com/cert/160521630/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:11.276Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1423,
+          "originalHeight": 2400,
+          "sha256": "cb009bc7cb4550562cb9875b7a26bd9fc7f86f6f932106ea47295b08c9d64526"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "160521633",
+      "grader": "PSA",
+      "grade": "10",
+      "year": "2025",
+      "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+      "subject": "JACKSON MERRILL",
+      "cardNumber": "HM-39",
+      "variety": "HAPPY MISTAKES",
+      "serial": null,
+      "category": "BASEBALL CARDS",
+      "certUrl": "https://www.psacard.com/cert/160521633/psa",
+      "fmv": {
+        "value": 274,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/160521633/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "06/28/2026",
+        "daysVaulted": "63",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_160521633_FRONT.jpg",
+        "back": "PSA_160521633_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138823/HIIf2e4CMk2GVXrdh-ilOQ.jpg",
+          "pageUrl": "https://www.psacard.com/cert/160521633/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:11.423Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1427,
+          "originalHeight": 2400,
+          "sha256": "86fde95aa85d73aec57a46dc6e042ac3c0ca70f8b2ca8befc389302e8ddc7323"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138823/6edwDJpCqUeb3hS881qMJg.jpg",
+          "pageUrl": "https://www.psacard.com/cert/160521633/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:11.561Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1428,
+          "originalHeight": 2400,
+          "sha256": "79ab14aea4f32dce0940cb55d84c34b951de95157bacdb3c324bd5d774368e66"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "163003613",
+      "grader": "PSA",
+      "grade": "10",
+      "year": "2026",
+      "brand": "POKEMON MEP EN-ME BLACK STAR PROMO",
+      "subject": "BULBASAUR",
+      "cardNumber": "037",
+      "variety": "FIRST PARTNER ILLUSTRATION COLLECTION SERIES 1",
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/163003613/psa",
+      "fmv": {
+        "value": 119,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/163003613/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "07/13/2026",
+        "daysVaulted": "48",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_163003613_FRONT.jpg",
+        "back": "PSA_163003613_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/211998424/sarOM9knZkqdRtyvfRee3w.jpg",
+          "pageUrl": "https://www.psacard.com/cert/163003613/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:11.792Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1429,
+          "originalHeight": 2400,
+          "sha256": "02f5c7de90aa4065433acca62fab5c72ba3e69ec5ccb424b584e43e4546545cc"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/211998424/i_beZJ6B_kaSEEhgvXlwag.jpg",
+          "pageUrl": "https://www.psacard.com/cert/163003613/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:11.972Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1429,
+          "originalHeight": 2400,
+          "sha256": "c97e57a586714c1b225a456fe1d83089f30b420378d2c942c365c71c064e009b"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "163003614",
+      "grader": "PSA",
+      "grade": "10",
+      "year": "2026",
+      "brand": "POKEMON MEP EN-ME BLACK STAR PROMO",
+      "subject": "SQUIRTLE",
+      "cardNumber": "039",
+      "variety": "FIRST PARTNER ILLUSTRATION COLLECTION SERIES 1",
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/163003614/psa",
+      "fmv": {
+        "value": 124,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/163003614/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "07/13/2026",
+        "daysVaulted": "48",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_163003614_FRONT.jpg",
+        "back": "PSA_163003614_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/211998425/Gcdn7usF9EOCvi5qTVJkxg.jpg",
+          "pageUrl": "https://www.psacard.com/cert/163003614/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:12.109Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1430,
+          "originalHeight": 2400,
+          "sha256": "47066a52e7dd0453691b6316f9bcf84c2b7f16508f3c593574f5075b4776752a"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/211998425/YHEB-IMHSEGlQn1sJhey2g.jpg",
+          "pageUrl": "https://www.psacard.com/cert/163003614/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:12.249Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1431,
+          "originalHeight": 2400,
+          "sha256": "017f5cd66ca429f9e4e21f26a3c33f8bc8b7cc409c6fa6da7b5b13199ee083ed"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "163003612",
+      "grader": "PSA",
+      "grade": "10",
+      "year": "2026",
+      "brand": "POKEMON MEP EN-ME BLACK STAR PROMO",
+      "subject": "CHARMANDER",
+      "cardNumber": "038",
+      "variety": "FIRST PARTNER ILLUSTRATION COLLECTION SERIES 1",
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/163003612/psa",
+      "fmv": {
+        "value": 128,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/163003612/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "07/13/2026",
+        "daysVaulted": "48",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_163003612_FRONT.jpg",
+        "back": "PSA_163003612_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/211998423/SecSxvljdEaNlcFNvvdMxA.jpg",
+          "pageUrl": "https://www.psacard.com/cert/163003612/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:12.390Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1428,
+          "originalHeight": 2400,
+          "sha256": "3980e72c7bf5d99f1346cb2c5e5b4e8921995a04aaa17405e22f8553b0f1fff4"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/211998423/gKoN1TM-DU6EGOVr0AjOIQ.jpg",
+          "pageUrl": "https://www.psacard.com/cert/163003612/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:12.554Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1432,
+          "originalHeight": 2400,
+          "sha256": "7f172b9f291a93d9e7413ccc93d069cd8334dcee72a4afbe85f2c3b9f560d1a5"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "170059297",
+      "grader": "PSA",
+      "grade": "10",
+      "year": "2026",
+      "brand": "POKEMON MEP EN-ME BLACK STAR PROMO",
+      "subject": "LITTEN",
+      "cardNumber": "044",
+      "variety": "FIRST PARTNER ILLUSTRATION COLLECTION SERIES 1",
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/170059297/psa",
+      "fmv": {
+        "value": 47,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/170059297/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "08/14/2026",
+        "daysVaulted": "16",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_170059297_FRONT.jpg",
+        "back": "PSA_170059297_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/218014003/b--PYr4DV0GnDO8XFNcWvA.jpg",
+          "pageUrl": "https://www.psacard.com/cert/170059297/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:12.737Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1443,
+          "originalHeight": 2400,
+          "sha256": "84456d0eb3a3867b8c1a98e8651f97504e3b5477b26b6184b7a5bb05a1fb94f5"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/218014003/H9hiF_9pfEmLotf8eMFtoA.jpg",
+          "pageUrl": "https://www.psacard.com/cert/170059297/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:12.850Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1436,
+          "originalHeight": 2400,
+          "sha256": "cd9b3e592a8445478f6e194af38ae536726d667eaad1b0756b14f692eba306b7"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "170059295",
+      "grader": "PSA",
+      "grade": "10",
+      "year": "2026",
+      "brand": "POKEMON MEP EN-ME BLACK STAR PROMO",
+      "subject": "POPPLIO",
+      "cardNumber": "045",
+      "variety": "FIRST PARTNER ILLUSTRATION COLLECTION SERIES 1",
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/170059295/psa",
+      "fmv": {
+        "value": 49,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/170059295/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "08/14/2026",
+        "daysVaulted": "16",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_170059295_FRONT.jpg",
+        "back": "PSA_170059295_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/218014001/R2m-fZVNSk-fdyLbapQdyA.jpg",
+          "pageUrl": "https://www.psacard.com/cert/170059295/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:12.973Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1442,
+          "originalHeight": 2400,
+          "sha256": "f220604bc88c6ab4844b57d0c7d09b406b8d676041bb9b31df8b1cfbbe6dbb8a"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/218014001/0gseLhOqP0mtJAeEvzM75Q.jpg",
+          "pageUrl": "https://www.psacard.com/cert/170059295/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:13.097Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1438,
+          "originalHeight": 2400,
+          "sha256": "5556293b44b9a96f741c78aa935667e0967dae6f3d39572d08c9bdf27bb0f710"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "170059296",
+      "grader": "PSA",
+      "grade": "9",
+      "year": "2026",
+      "brand": "POKEMON MEP EN-ME BLACK STAR PROMO",
+      "subject": "ROWLET",
+      "cardNumber": "043",
+      "variety": "FIRST PARTNER ILLUSTRATION COLLECTION SERIES 1",
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/170059296/psa",
+      "fmv": {
+        "value": 18,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/170059296/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "08/14/2026",
+        "daysVaulted": "16",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_170059296_FRONT.jpg",
+        "back": "PSA_170059296_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/218014002/ExASVIZ4xEaXv9R-SlHi-Q.jpg",
+          "pageUrl": "https://www.psacard.com/cert/170059296/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:13.232Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1443,
+          "originalHeight": 2400,
+          "sha256": "db9e38c403fe5358d155a58dc854d0cecc44c2e8440f21c6561de57ee8c12db9"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/218014002/iK7MdnmFV0ifdnWnGrjNyw.jpg",
+          "pageUrl": "https://www.psacard.com/cert/170059296/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:13.542Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1439,
+          "originalHeight": 2400,
+          "sha256": "584617fd078cd5c0cda487a83ad4e4eec587f5ddb717aef3314d19c8a80c779f"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "170059294",
+      "grader": "PSA",
+      "grade": "10",
+      "year": "2026",
+      "brand": "POKEMON MEP EN-ME BLACK STAR PROMO",
+      "subject": "SQUIRTLE",
+      "cardNumber": "039",
+      "variety": "FIRST PARTNER ILLUSTRATION COLLECTION SERIES 1",
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/170059294/psa",
+      "fmv": {
+        "value": 124,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/170059294/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "08/14/2026",
+        "daysVaulted": "16",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_170059294_FRONT.jpg",
+        "back": "PSA_170059294_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/218014000/9tHkfDGkMESaEKTnkuAlkg.jpg",
+          "pageUrl": "https://www.psacard.com/cert/170059294/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:13.835Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1442,
+          "originalHeight": 2400,
+          "sha256": "74fcf93b872ad9f09a132c75bec41420712bdce0bfe6ae5c5c92ddb79ce5bce0"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/218014000/Ai-E4UlyyEy93Rsaw65acA.jpg",
+          "pageUrl": "https://www.psacard.com/cert/170059294/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:14.117Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1439,
+          "originalHeight": 2400,
+          "sha256": "a2134e92f174029da1918c8a4701a0e311e58549c6131f1bded4dd4741b242d2"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "170118836",
+      "grader": "PSA",
+      "grade": "9",
+      "year": "2024",
+      "brand": "POKEMON SSP EN-SURGING SPARKS",
+      "subject": "LATIOS",
+      "cardNumber": "203",
+      "variety": "ILLUSTRATION RARE",
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/170118836/psa",
+      "fmv": {
+        "value": 44,
+        "source": "psa-vault-export",
+        "currency": "USD",
+        "asOf": null,
+        "importedAt": "2026-09-07T00:43:23.166Z",
+        "url": "https://www.psacard.com/cert/170118836/psa",
+        "status": "recorded"
+      },
+      "vault": {
+        "itemStatus": "Active",
+        "status": "Vaulted",
+        "vaultedDate": "08/14/2026",
+        "daysVaulted": "16",
+        "inLatestExport": true
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "My Collection CSV - 49.csv",
+        "importedAt": "2026-09-07T00:43:23.166Z"
+      },
+      "images": {
+        "front": "PSA_170118836_FRONT.jpg",
+        "back": "PSA_170118836_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/217974990/3IfkWt91E0qZ5lqYV8_HoQ.jpg",
+          "pageUrl": "https://www.psacard.com/cert/170118836/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:14.518Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1433,
+          "originalHeight": 2400,
+          "sha256": "a8e532fe17a06f5f68005cfe4fafe572d661926f0e7a68122bf589a8199a553d"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/217974990/90e7Cx7QkECqOwsrGKhe1g.jpg",
+          "pageUrl": "https://www.psacard.com/cert/170118836/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T01:00:54.271Z",
+          "retrievedAt": "2026-09-07T01:01:14.830Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 1429,
+          "originalHeight": 2400,
+          "sha256": "17ee1bc11304d376f0179077166aafd0b2fe8bd2a41bbf424e86e59ceafe3508"
+        }
+      }
+    }
+  ],
+  "id": "psa-vault",
+  "kind": "card",
+  "title": "PSA Vault",
+  "virtual": true,
+  "location": "Stored at PSA",
+  "importSource": {
+    "file": "My Collection CSV - 49.csv",
+    "sha256": "d2e725647a6cf83ae7093e57e3a464b901415ac440ef2ec59bc5989f8d150588",
+    "importedAt": "2026-09-07T00:43:23.166Z",
+    "rows": 49
+  }
+}

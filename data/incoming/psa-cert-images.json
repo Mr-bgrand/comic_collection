@@ -1,0 +1,398 @@
+{
+  "discoveredAt": "2026-09-07T01:00:54.271Z",
+  "method": "Rendered PSA cert pages; lazy loading triggered; actual cert image viewer opened. Cert image 1 front, cert image 2 reverse. No similar-item images.",
+  "records": [
+    {
+      "grader": "PSA",
+      "cert": "121297951",
+      "pageUrl": "https://www.psacard.com/cert/121297951/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771906/hP64keRhJkyL7lIpFgg8DQ.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771906/vJ0T66d5KkSEN1Rm9ZIgWw.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "121297939",
+      "pageUrl": "https://www.psacard.com/cert/121297939/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771894/tJbjOGAWrkuAYf_ibXeq-Q.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771894/hm3FMYumEUa0ayf7cxzNow.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "121297949",
+      "pageUrl": "https://www.psacard.com/cert/121297949/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771904/PCfk_SJGm0ySjvhG5l9JJw.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771904/EG900dc-_E2_LJBhB-KKwg.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "121297940",
+      "pageUrl": "https://www.psacard.com/cert/121297940/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771895/IPtoDI0RJEuuBvv3KtiHcQ.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771895/lKhus_iFJkycjvoV86a_TA.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "121297944",
+      "pageUrl": "https://www.psacard.com/cert/121297944/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771899/Kqhf4u55dEOgiLK-6iYBqQ.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771899/ikhk1qcKR0Gs77i3gsA8IQ.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "121297948",
+      "pageUrl": "https://www.psacard.com/cert/121297948/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771903/fr53s8gtfUSGEPe4mh9eBg.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771903/1zLHgLYSG0W6N76aIV3qhg.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "121297946",
+      "pageUrl": "https://www.psacard.com/cert/121297946/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771901/tF_DmTNRskK5oVrYml5AFw.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771901/hyz8HKt4VkSqsiLQ9Erq0g.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "121297952",
+      "pageUrl": "https://www.psacard.com/cert/121297952/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771907/QeGO1N0HSEKLvLYcec9ixg.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771907/41KyRCFC5UaO4mfzomcHhA.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "121297950",
+      "pageUrl": "https://www.psacard.com/cert/121297950/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771905/avbGtKojp0CSDUnuaTym-A.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771905/aPPf_1RUJUKUYut7-LHdtg.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "121297941",
+      "pageUrl": "https://www.psacard.com/cert/121297941/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771896/jkgIbw8BD0y941bMJCYQTg.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771896/t5R6AzwM-Eyq1gNik-qkxw.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "121297942",
+      "pageUrl": "https://www.psacard.com/cert/121297942/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771897/bJpYjfEpd0ePFkhXRRsY7g.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771897/pTjRoYWJH0WjfRTGmOEbMw.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "121297945",
+      "pageUrl": "https://www.psacard.com/cert/121297945/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771900/r0Bt1qmOQUK9c89wwx6geQ.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771900/_P5o5k18wUGY0sRPHUJxwQ.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "121297947",
+      "pageUrl": "https://www.psacard.com/cert/121297947/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771902/6A8qJuuNnkWNJ36Qq9Pw0Q.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771902/eZFL_nmfCUGH2plpM7GlOA.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "121297943",
+      "pageUrl": "https://www.psacard.com/cert/121297943/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771898/CsR3J5_lXES9tu4NVNPKPg.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183771898/nsXsqAHyrUaUHm6h6vJbFQ.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "126727710",
+      "pageUrl": "https://www.psacard.com/cert/126727710/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/186874095/I9ozuqU8vUiUqAz54CaOxQ.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/186874095/HXtAkN4NPUWt-rz2IfleNA.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "127889620",
+      "pageUrl": "https://www.psacard.com/cert/127889620/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/187801544/d7Zo4ORv9EWBME25DK1Sww.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/187801544/IttbmBoC3km1lGaFwhlFkw.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "71518277",
+      "pageUrl": "https://www.psacard.com/cert/71518277/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/136903380/ibqVOD8cPUqpbTkOXZZhew.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/136903380/M_X5JUmnjU-kJ58qckUQpg.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "115507449",
+      "pageUrl": "https://www.psacard.com/cert/115507449/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179854565/X0Ylo0og2k6YaIKWc52UNQ.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179854565/Jqurh35uJE-YvV09skePHQ.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "125731386",
+      "pageUrl": "https://www.psacard.com/cert/125731386/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/186230501/WUpHF-gusEK8dpvAvmZ7Sg.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/186230501/HmGF0SM78kyoh2_2bhwJUA.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "123299104",
+      "pageUrl": "https://www.psacard.com/cert/123299104/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/184966746/2Pmgp3DZc0K3NBb7nseeyQ.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/184966746/bDve_q0Gw0uGlK8YaZgXbw.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "127912180",
+      "pageUrl": "https://www.psacard.com/cert/127912180/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/187569272/_eByA_RDNEOev8TK-ZzX0g.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/187569272/UIJvzGq94km9SvcQlu8NrA.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "128541198",
+      "pageUrl": "https://www.psacard.com/cert/128541198/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/188111205/izXWxkheIEqm5rE_4AFXfA.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/188111205/p2lZvbCl3k27fP8Gs2e6ng.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "95570278",
+      "pageUrl": "https://www.psacard.com/cert/95570278/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/163045080/VNiHd0iBnka1F-k-mImU3Q.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/163045080/6xCm6fDpokyH5n7mPffRQg.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "116838544",
+      "pageUrl": "https://www.psacard.com/cert/116838544/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/180635234/JQss_DTP-0KURhD00mm96g.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/180635234/SF7kSMQrg0axb1c1hfj3AQ.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "128337725",
+      "pageUrl": "https://www.psacard.com/cert/128337725/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/187952696/yASPLZ-zuUqw4qGA8Toyhg.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/187952696/HebVt1MnI02GT3sy4FZVYA.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "97752167",
+      "pageUrl": "https://www.psacard.com/cert/97752167/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/165286541/lxIvKt2DskOlnf0F-fdvXg.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/165286541/c66pnSUkAUeE2D3YEMKiZQ.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "70848071",
+      "pageUrl": "https://www.psacard.com/cert/70848071/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/136038627/1L4gpDxSDUWJLArFIzHpNA.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/136038627/bsmMSmu7k0WS9ASPu-eD5w.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "114949362",
+      "pageUrl": "https://www.psacard.com/cert/114949362/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179485194/h2V3c2lYUUqw6cs4lDqzXQ.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179485194/dzHt7XdmYUqedzT-gtUhpA.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "62837377",
+      "pageUrl": "https://www.psacard.com/cert/62837377/psa",
+      "front": null,
+      "back": null,
+      "status": "no-scans-on-cert-page"
+    },
+    {
+      "grader": "PSA",
+      "cert": "160521641",
+      "pageUrl": "https://www.psacard.com/cert/160521641/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138831/xoYVsOY1NEubo9r717Xp5A.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138831/isPXhBcOxkOQ13yzGZj2ow.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "160521636",
+      "pageUrl": "https://www.psacard.com/cert/160521636/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138826/QNsaA7ZfwUeIjv78JhhN6w.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138826/MSfTUOdi_Uqq-aCm4g9lfA.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "160521631",
+      "pageUrl": "https://www.psacard.com/cert/160521631/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138821/vqIqBSxehUK5Unn8dNHfjA.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138821/WJlGiOb1rkG28Ler6OxVJQ.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "160521632",
+      "pageUrl": "https://www.psacard.com/cert/160521632/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138822/d_gx9I47mUqTO5ULmXyxrA.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138822/8DtT1m2jE0eThKh24iffIg.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "160521637",
+      "pageUrl": "https://www.psacard.com/cert/160521637/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138827/yI_QcwDEREGXiwaFxSctFQ.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138827/HNqEgqKdTkWdpqkGMT6d5g.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "160521634",
+      "pageUrl": "https://www.psacard.com/cert/160521634/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138824/rM3lMEr67kuQiElq2Rl5PA.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138824/W9hJlgyWZUW0qzpFAnfLdQ.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "160521639",
+      "pageUrl": "https://www.psacard.com/cert/160521639/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138829/Zp4D1XsJCkSCRbOilOkAUw.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138829/LF2lcmyYkUSxrU_NCKtrXg.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "160521638",
+      "pageUrl": "https://www.psacard.com/cert/160521638/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138828/UUnoO7Pgsk-wwHHd8JlFyQ.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138828/UPH44egvx0uk4EaLRhGORw.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "160521640",
+      "pageUrl": "https://www.psacard.com/cert/160521640/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138830/4SeWbrrsuE6Q6Jfqz-7VVg.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138830/LjEX2VfYl0-lDeVJgJOxaw.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "160521635",
+      "pageUrl": "https://www.psacard.com/cert/160521635/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138825/93ZjTPGwYE-NPbKFAgZDJg.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138825/4sNAZj29F0mjsYmLDYdFRw.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "160521630",
+      "pageUrl": "https://www.psacard.com/cert/160521630/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138820/esgdjuIsvU-CbhZTAxdqVg.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138820/gE0A61uLn0WfWY1vOjujVQ.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "160521633",
+      "pageUrl": "https://www.psacard.com/cert/160521633/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138823/HIIf2e4CMk2GVXrdh-ilOQ.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/210138823/6edwDJpCqUeb3hS881qMJg.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "163003613",
+      "pageUrl": "https://www.psacard.com/cert/163003613/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/211998424/sarOM9knZkqdRtyvfRee3w.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/211998424/i_beZJ6B_kaSEEhgvXlwag.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "163003614",
+      "pageUrl": "https://www.psacard.com/cert/163003614/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/211998425/Gcdn7usF9EOCvi5qTVJkxg.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/211998425/YHEB-IMHSEGlQn1sJhey2g.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "163003612",
+      "pageUrl": "https://www.psacard.com/cert/163003612/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/211998423/SecSxvljdEaNlcFNvvdMxA.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/211998423/gKoN1TM-DU6EGOVr0AjOIQ.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "170059297",
+      "pageUrl": "https://www.psacard.com/cert/170059297/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/218014003/b--PYr4DV0GnDO8XFNcWvA.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/218014003/H9hiF_9pfEmLotf8eMFtoA.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "170059295",
+      "pageUrl": "https://www.psacard.com/cert/170059295/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/218014001/R2m-fZVNSk-fdyLbapQdyA.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/218014001/0gseLhOqP0mtJAeEvzM75Q.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "170059296",
+      "pageUrl": "https://www.psacard.com/cert/170059296/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/218014002/ExASVIZ4xEaXv9R-SlHi-Q.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/218014002/iK7MdnmFV0ifdnWnGrjNyw.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "170059294",
+      "pageUrl": "https://www.psacard.com/cert/170059294/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/218014000/9tHkfDGkMESaEKTnkuAlkg.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/218014000/Ai-E4UlyyEy93Rsaw65acA.jpg",
+      "status": "discovered"
+    },
+    {
+      "grader": "PSA",
+      "cert": "170118836",
+      "pageUrl": "https://www.psacard.com/cert/170118836/psa",
+      "front": "https://d1htnxwo4o0jhw.cloudfront.net/cert/217974990/3IfkWt91E0qZ5lqYV8_HoQ.jpg",
+      "back": "https://d1htnxwo4o0jhw.cloudfront.net/cert/217974990/90e7Cx7QkECqOwsrGKhe1g.jpg",
+      "status": "discovered"
+    }
+  ]
+}

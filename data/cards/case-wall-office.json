@@ -1,0 +1,1183 @@
+{
+  "id": "case-wall-office",
+  "title": "Case Wall Display (Office)",
+  "location": "Office wall next to desk",
+  "physical": true,
+  "virtual": false,
+  "cards": [
+    {
+      "kind": "card",
+      "grader": "PSA",
+      "cert": "107968908",
+      "certUrl": "https://www.psacard.com/cert/107968908/psa",
+      "subject": "PAUL SKENES",
+      "year": "2024",
+      "brand": "TOPPS CHROME UPDATE 2024 ALL-STAR GAME CHROME",
+      "cardNumber": "29",
+      "variety": null,
+      "category": "BASEBALL CARDS",
+      "grade": "8",
+      "gradeDescription": "NM-MT",
+      "holder": "slab",
+      "location": null,
+      "valuation": null,
+      "fmv": {
+        "value": 15,
+        "source": "psa-cert-page",
+        "currency": "USD",
+        "asOf": "2026-09-07",
+        "url": "https://www.psacard.com/cert/107968908/psa",
+        "status": "recorded"
+      },
+      "population": {
+        "atGrade": 171,
+        "higher": 974,
+        "total": null,
+        "asOf": "2026-09-07",
+        "source": "PSA",
+        "url": "https://www.psacard.com/cert/107968908/psa"
+      },
+      "images": {
+        "front": "PSA_107968908_FRONT.jpg",
+        "back": "PSA_107968908_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/psa-office-wall-captures.json",
+        "pageUrl": "https://www.psacard.com/cert/107968908/psa",
+        "capturedAt": "2026-09-07T07:23:07.300Z",
+        "importedAt": "2026-09-07T07:25:36.542Z"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/174948246/small/UhpAmbHNNE-4LQIaXLX81A.jpg",
+          "pageUrl": "https://www.psacard.com/cert/107968908/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T07:23:07.300Z",
+          "retrievedAt": "2026-09-07T07:25:36.964Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 380,
+          "originalHeight": 635,
+          "sha256": "4f193a0c1b4a31323b16f0a2e74142f9bb9929408e3350a7e4ace1817319f101"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/174948246/small/CaNU3pxz8U-qo2azr9Vmbg.jpg",
+          "pageUrl": "https://www.psacard.com/cert/107968908/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T07:23:07.300Z",
+          "retrievedAt": "2026-09-07T07:25:37.027Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 380,
+          "originalHeight": 637,
+          "sha256": "ea88482c137c8b1876d7744c5b1130ce6a94d8440741eef209bfb43647a1c100"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "grader": "PSA",
+      "cert": "76211263",
+      "certUrl": "https://www.psacard.com/cert/76211263/psa",
+      "subject": "CORBIN CARROLL",
+      "year": "2023",
+      "brand": "TOPPS",
+      "cardNumber": "401",
+      "variety": null,
+      "category": "BASEBALL CARDS",
+      "grade": "10",
+      "gradeDescription": "GEM MT",
+      "holder": "slab",
+      "location": null,
+      "valuation": null,
+      "fmv": {
+        "value": 25,
+        "source": "psa-cert-page",
+        "currency": "USD",
+        "asOf": "2026-09-07",
+        "url": "https://www.psacard.com/cert/76211263/psa",
+        "status": "recorded"
+      },
+      "population": {
+        "atGrade": 2142,
+        "higher": 0,
+        "total": null,
+        "asOf": "2026-09-07",
+        "source": "PSA",
+        "url": "https://www.psacard.com/cert/76211263/psa"
+      },
+      "images": {
+        "front": "PSA_76211263_FRONT.jpg",
+        "back": "PSA_76211263_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/psa-office-wall-captures.json",
+        "pageUrl": "https://www.psacard.com/cert/76211263/psa",
+        "capturedAt": "2026-09-07T07:23:23.927Z",
+        "importedAt": "2026-09-07T07:25:36.542Z"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/142480771/small/CnslHnl2yEOBWkEw6vxYxw.jpg",
+          "pageUrl": "https://www.psacard.com/cert/76211263/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T07:23:23.927Z",
+          "retrievedAt": "2026-09-07T07:25:37.087Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 380,
+          "originalHeight": 638,
+          "sha256": "6c17cab768dd8fa8d30715eb4e631ef8080f07f6e37426e02903cb1b3650bbad"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/142480771/small/Aqpe4f809UaslOOQuiJgjw.jpg",
+          "pageUrl": "https://www.psacard.com/cert/76211263/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T07:23:23.927Z",
+          "retrievedAt": "2026-09-07T07:25:37.128Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 380,
+          "originalHeight": 636,
+          "sha256": "a6de7f3dba18d704f0f7c83c8cae026d120c891e3eaaed0d0feceebbd5e4a6e6"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "M2908131",
+      "grader": "TAG",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "year": "2024",
+      "brand": "SURGING SPARKS ELITE TRAINER BOX",
+      "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+      "subject": "MAGNETON",
+      "displaySubject": "MAGNETON",
+      "cardNumber": "159",
+      "variety": null,
+      "language": null,
+      "category": "Pokémon",
+      "holder": "slab",
+      "certUrl": "https://my.taggrading.com/card/M2908131",
+      "gradeDate": "2025-04-07",
+      "location": null,
+      "valuation": null,
+      "population": {
+        "atGrade": 392,
+        "total": 800,
+        "higher": null,
+        "asOf": "2026-09-07",
+        "source": "TAG",
+        "url": "https://my.taggrading.com/card/M2908131"
+      },
+      "tag": {
+        "score": null,
+        "scoreStatus": "not-exposed",
+        "rank": {
+          "asOf": "9/7/2026",
+          "atGrade": "19th",
+          "atGradeLabel": "HIGHEST MINT (T)",
+          "overall": "339th",
+          "overallLabel": "HIGHEST OVERALL (T)"
+        },
+        "chronology": {
+          "graded": "4/7/2025",
+          "atGrade": "59th",
+          "overall": "141st"
+        },
+        "dings": {
+          "corners": {
+            "front": 0,
+            "back": 2
+          },
+          "edges": {
+            "front": 0,
+            "back": 0
+          },
+          "surface": {
+            "front": 0,
+            "back": 1
+          }
+        },
+        "centering": {
+          "front": "44L/56R 47T/53B",
+          "back": "55L/45R 51T/49B"
+        },
+        "dimensions": {
+          "heightIn": "3.460",
+          "widthIn": "2.481"
+        },
+        "identityLines": [
+          "MAGNETON",
+          "2024 POKÉMON SCARLET & VIOLET BLACK STAR PROMOS #159",
+          "SURGING SPARKS ELITE TRAINER BOX"
+        ],
+        "sourceUrl": "https://my.taggrading.com/card/M2908131",
+        "capturedAt": "2026-09-07T07:20:36.720Z"
+      },
+      "images": {
+        "front": "TAG_M2908131_FRONT.jpg",
+        "back": "TAG_M2908131_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/tag-office-wall-captures.json",
+        "importedAt": "2026-09-07T07:22:44.285Z",
+        "capturedAt": "2026-09-07T07:20:36.720Z",
+        "pageUrl": "https://my.taggrading.com/card/M2908131"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/a9db8c73-dad7-4647-96f1-55bc02780675_FRONT_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/M2908131",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T07:20:36.720Z",
+          "retrievedAt": "2026-09-07T07:22:45.209Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4400,
+          "originalHeight": 6093,
+          "sha256": "1b307bc21250dd68d4456e1932f8c55050ab48dbbd472e593fb3e1122c58407d",
+          "originalFile": "data/originals/TAG_M2908131_FRONT.jpg",
+          "originalSha256": "1d27f9b6517d81cf92edc090b0440d63f39986ee42176257be2bb076cae64094"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/a9db8c73-dad7-4647-96f1-55bc02780675_BACK_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/M2908131",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T07:20:36.720Z",
+          "retrievedAt": "2026-09-07T07:22:45.762Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4403,
+          "originalHeight": 6095,
+          "sha256": "f54a3b87854d63fbe2a6ef0ab23fb93c7f2417d46ff6e59db21fcaa296e209f0",
+          "originalFile": "data/originals/TAG_M2908131_BACK.jpg",
+          "originalSha256": "02cba8ed7a8dc77ecbaa194fa1ae7f81797124c905717b460eeae931ba23b4c1"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "D1216494",
+      "grader": "TAG",
+      "grade": "8",
+      "gradeDescription": "NM MT",
+      "year": "2021",
+      "brand": "BOWMAN DRAFT SAPPHIRE EDITION",
+      "series": "BOWMAN DRAFT SAPPHIRE EDITION",
+      "subject": "JACKSON MERRILL",
+      "displaySubject": "JACKSON MERRILL",
+      "cardNumber": "BDC-119",
+      "variety": null,
+      "language": null,
+      "category": null,
+      "holder": "slab",
+      "certUrl": "https://my.taggrading.com/card/D1216494",
+      "gradeDate": "2025-04-11",
+      "location": null,
+      "valuation": null,
+      "population": {
+        "atGrade": 1,
+        "total": 1,
+        "higher": null,
+        "asOf": "2026-09-07",
+        "source": "TAG",
+        "url": "https://my.taggrading.com/card/D1216494"
+      },
+      "tag": {
+        "score": null,
+        "scoreStatus": "not-exposed",
+        "rank": {
+          "asOf": "9/7/2026",
+          "atGrade": "1st",
+          "atGradeLabel": "HIGHEST NM MT",
+          "overall": "1st",
+          "overallLabel": "HIGHEST OVERALL"
+        },
+        "chronology": {
+          "graded": "4/11/2025",
+          "atGrade": "1st",
+          "overall": "1st"
+        },
+        "dings": {
+          "corners": {
+            "front": 0,
+            "back": 0
+          },
+          "edges": {
+            "front": 0,
+            "back": 0
+          },
+          "surface": {
+            "front": 0,
+            "back": 1
+          }
+        },
+        "centering": {
+          "front": "49L/51R 36T/64B",
+          "back": "55L/45R 57T/43B"
+        },
+        "dimensions": {
+          "heightIn": "3.500",
+          "widthIn": "2.505"
+        },
+        "identityLines": [
+          "JACKSON MERRILL",
+          "2021 BOWMAN DRAFT SAPPHIRE EDITION #BDC-119"
+        ],
+        "sourceUrl": "https://my.taggrading.com/card/D1216494",
+        "capturedAt": "2026-09-07T07:20:37.477Z"
+      },
+      "images": {
+        "front": "TAG_D1216494_FRONT.jpg",
+        "back": "TAG_D1216494_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/tag-office-wall-captures.json",
+        "importedAt": "2026-09-07T07:22:44.285Z",
+        "capturedAt": "2026-09-07T07:20:37.477Z",
+        "pageUrl": "https://my.taggrading.com/card/D1216494"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/7e9f06e2-218c-4193-84d7-52050356e0c0_FRONT_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/D1216494",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T07:20:37.477Z",
+          "retrievedAt": "2026-09-07T07:22:46.314Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4442,
+          "originalHeight": 6153,
+          "sha256": "aa9a3c5f79c26e36c6609f853f87e42e558a52b19a5d3c4625414d543b6a2136",
+          "originalFile": "data/originals/TAG_D1216494_FRONT.jpg",
+          "originalSha256": "531b27e63a94e0dea1bd78260cdc9f3713369215007eb8de870c89ffe44327ff"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/7e9f06e2-218c-4193-84d7-52050356e0c0_BACK_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/D1216494",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T07:20:37.477Z",
+          "retrievedAt": "2026-09-07T07:22:46.850Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4436,
+          "originalHeight": 6157,
+          "sha256": "bf44c5b85aaaa79e2354ba4166ac8abf8bbcc246bf53ba432e33f8ffd3c7fc1c",
+          "originalFile": "data/originals/TAG_D1216494_BACK.jpg",
+          "originalSha256": "7d6921c20a590d8a282a18054e8079ba01181b8980bd7d14e7980e958e9b8329"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "L6270823",
+      "grader": "TAG",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "year": "2024",
+      "brand": "TOPPS UPDATE",
+      "series": "TOPPS UPDATE",
+      "subject": "PAUL SKENES",
+      "displaySubject": "PAUL SKENES",
+      "cardNumber": "89US-46",
+      "variety": "1989 TOPPS BASEBALL",
+      "language": null,
+      "category": null,
+      "holder": "slab",
+      "certUrl": "https://my.taggrading.com/card/L6270823",
+      "gradeDate": "2025-04-11",
+      "location": null,
+      "valuation": null,
+      "population": {
+        "atGrade": 6,
+        "total": 9,
+        "higher": null,
+        "asOf": "2026-09-07",
+        "source": "TAG",
+        "url": "https://my.taggrading.com/card/L6270823"
+      },
+      "tag": {
+        "score": null,
+        "scoreStatus": "not-exposed",
+        "rank": {
+          "asOf": "9/7/2026",
+          "atGrade": "1st",
+          "atGradeLabel": "HIGHEST MINT (T)",
+          "overall": "4th",
+          "overallLabel": "HIGHEST OVERALL (T)"
+        },
+        "chronology": {
+          "graded": "4/11/2025",
+          "atGrade": "2nd",
+          "overall": "2nd"
+        },
+        "dings": {
+          "corners": {
+            "front": 0,
+            "back": 1
+          },
+          "edges": {
+            "front": 0,
+            "back": 0
+          },
+          "surface": {
+            "front": 0,
+            "back": 0
+          }
+        },
+        "centering": {
+          "front": "52L/48R 45T/55B",
+          "back": "45L/55R 46T/54B"
+        },
+        "dimensions": {
+          "heightIn": "3.502",
+          "widthIn": "2.499"
+        },
+        "identityLines": [
+          "PAUL SKENES",
+          "2024 TOPPS UPDATE #89US-46",
+          "1989 TOPPS BASEBALL"
+        ],
+        "sourceUrl": "https://my.taggrading.com/card/L6270823",
+        "capturedAt": "2026-09-07T07:20:48.312Z"
+      },
+      "images": {
+        "front": "TAG_L6270823_FRONT.jpg",
+        "back": "TAG_L6270823_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/tag-office-wall-captures.json",
+        "importedAt": "2026-09-07T07:22:44.285Z",
+        "capturedAt": "2026-09-07T07:20:48.312Z",
+        "pageUrl": "https://my.taggrading.com/card/L6270823"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/954e66a9-4f2c-4f15-a9c6-93c755b4a7d2_FRONT_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/L6270823",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T07:20:48.312Z",
+          "retrievedAt": "2026-09-07T07:22:47.507Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4425,
+          "originalHeight": 6159,
+          "sha256": "c9a3894020ffecbbac62cb9b18e9d7cd8d613932b3f5e38328c191a800c7a823",
+          "originalFile": "data/originals/TAG_L6270823_FRONT.jpg",
+          "originalSha256": "7f73643e098701728334bf0097f3fe6d8a424168c909095db01be0b9b6e29143"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/954e66a9-4f2c-4f15-a9c6-93c755b4a7d2_BACK_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/L6270823",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T07:20:48.312Z",
+          "retrievedAt": "2026-09-07T07:22:48.124Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4428,
+          "originalHeight": 6159,
+          "sha256": "efb55f3eb591b2208b398477bf0799ee40e9df205475c673a8aa764f02a5da99",
+          "originalFile": "data/originals/TAG_L6270823_BACK.jpg",
+          "originalSha256": "0d68a69163013ca15cd191fd50df60555f48b1cdd9114bbe81e157fa335a04b3"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "H7207442",
+      "grader": "TAG",
+      "grade": "10",
+      "gradeDescription": "GEM MINT",
+      "year": "2024",
+      "brand": "BOWMAN",
+      "series": "BOWMAN",
+      "subject": "PAUL SKENES",
+      "displaySubject": "PAUL SKENES",
+      "cardNumber": "BAI-15",
+      "variety": "BOWMAN A.I.",
+      "language": null,
+      "category": null,
+      "holder": "slab",
+      "certUrl": "https://my.taggrading.com/card/H7207442",
+      "gradeDate": "2025-04-11",
+      "location": null,
+      "valuation": null,
+      "population": {
+        "atGrade": 7,
+        "total": 10,
+        "higher": null,
+        "asOf": "2026-09-07",
+        "source": "TAG",
+        "url": "https://my.taggrading.com/card/H7207442"
+      },
+      "tag": {
+        "score": null,
+        "scoreStatus": "not-exposed",
+        "rank": {
+          "asOf": "9/7/2026",
+          "atGrade": "1st",
+          "atGradeLabel": "HIGHEST GEM MINT (T)",
+          "overall": "1st",
+          "overallLabel": "HIGHEST OVERALL (T)"
+        },
+        "chronology": {
+          "graded": "4/11/2025",
+          "atGrade": "7th",
+          "overall": "9th"
+        },
+        "dings": {
+          "corners": {
+            "front": 0,
+            "back": 0
+          },
+          "edges": {
+            "front": 0,
+            "back": 0
+          },
+          "surface": {
+            "front": 1,
+            "back": 0
+          }
+        },
+        "centering": {
+          "front": "47L/53R 51T/49B",
+          "back": "54L/46R 53T/47B"
+        },
+        "dimensions": {
+          "heightIn": "3.501",
+          "widthIn": "2.503"
+        },
+        "identityLines": [
+          "PAUL SKENES",
+          "2024 BOWMAN #BAI-15",
+          "BOWMAN A.I."
+        ],
+        "sourceUrl": "https://my.taggrading.com/card/H7207442",
+        "capturedAt": "2026-09-07T07:20:59.082Z"
+      },
+      "images": {
+        "front": "TAG_H7207442_FRONT.jpg",
+        "back": "TAG_H7207442_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/tag-office-wall-captures.json",
+        "importedAt": "2026-09-07T07:22:44.285Z",
+        "capturedAt": "2026-09-07T07:20:59.082Z",
+        "pageUrl": "https://my.taggrading.com/card/H7207442"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/7e97fd78-ecf8-4a0b-84ef-878082d9aa8f_FRONT_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/H7207442",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T07:20:59.082Z",
+          "retrievedAt": "2026-09-07T07:22:48.725Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4444,
+          "originalHeight": 6152,
+          "sha256": "aa4f62fb80f65dd7da2da18b05da42ec105aa006bbef14fb7e0cefbc8e08ff73",
+          "originalFile": "data/originals/TAG_H7207442_FRONT.jpg",
+          "originalSha256": "115743d009a0e255ad4dc23d2f617de26994e41c193068f55afd33864be54909"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/7e97fd78-ecf8-4a0b-84ef-878082d9aa8f_BACK_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/H7207442",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T07:20:59.082Z",
+          "retrievedAt": "2026-09-07T07:22:49.234Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4439,
+          "originalHeight": 6157,
+          "sha256": "5c2984e1e0ac5892c74178c046d365e95f4014dabd725b84a479d572fb4aa314",
+          "originalFile": "data/originals/TAG_H7207442_BACK.jpg",
+          "originalSha256": "4e6f6fb318a2613c1751e9b183cbb67fb8ce9694859229dd4261cd4cc5fa4cc6"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "H6422814",
+      "grader": "TAG",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "year": "2024",
+      "brand": "TOPPS UPDATE",
+      "series": "TOPPS UPDATE",
+      "subject": "PAUL SKENES",
+      "displaySubject": "PAUL SKENES",
+      "cardNumber": "US100",
+      "variety": "RAINBOW FOIL",
+      "language": null,
+      "category": null,
+      "holder": "slab",
+      "certUrl": "https://my.taggrading.com/card/H6422814",
+      "gradeDate": "2025-04-11",
+      "location": null,
+      "valuation": null,
+      "population": {
+        "atGrade": 1,
+        "total": 4,
+        "higher": null,
+        "asOf": "2026-09-07",
+        "source": "TAG",
+        "url": "https://my.taggrading.com/card/H6422814"
+      },
+      "tag": {
+        "score": null,
+        "scoreStatus": "not-exposed",
+        "rank": {
+          "asOf": "9/7/2026",
+          "atGrade": "1st",
+          "atGradeLabel": "HIGHEST MINT",
+          "overall": "1st",
+          "overallLabel": "HIGHEST OVERALL"
+        },
+        "chronology": {
+          "graded": "4/11/2025",
+          "atGrade": "1st",
+          "overall": "4th"
+        },
+        "dings": {
+          "corners": {
+            "front": 0,
+            "back": 0
+          },
+          "edges": {
+            "front": 0,
+            "back": 0
+          },
+          "surface": {
+            "front": 0,
+            "back": 0
+          }
+        },
+        "centering": {
+          "front": "47L/53R 59T/41B",
+          "back": "48L/52R 60T/40B"
+        },
+        "dimensions": {
+          "heightIn": "3.502",
+          "widthIn": "2.504"
+        },
+        "identityLines": [
+          "PAUL SKENES",
+          "2024 TOPPS UPDATE #US100",
+          "RAINBOW FOIL"
+        ],
+        "sourceUrl": "https://my.taggrading.com/card/H6422814",
+        "capturedAt": "2026-09-07T07:21:40.327Z"
+      },
+      "images": {
+        "front": "TAG_H6422814_FRONT.jpg",
+        "back": "TAG_H6422814_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/tag-office-wall-captures.json",
+        "importedAt": "2026-09-07T07:22:44.285Z",
+        "capturedAt": "2026-09-07T07:21:40.327Z",
+        "pageUrl": "https://my.taggrading.com/card/H6422814"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/0ed3f3d0-02e3-4457-9871-d2a278d95cc6_FRONT_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/H6422814",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T07:21:40.327Z",
+          "retrievedAt": "2026-09-07T07:22:49.782Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4429,
+          "originalHeight": 6158,
+          "sha256": "87d427d932b451e782f8bacb1877814e7dd8f17055a7f5c45fd4f05aef530039",
+          "originalFile": "data/originals/TAG_H6422814_FRONT.jpg",
+          "originalSha256": "cb3f9ed6c0bda87671a6d491e974d344246cb08d61fa0a7d85b45b5e797f3ce4"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/0ed3f3d0-02e3-4457-9871-d2a278d95cc6_BACK_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/H6422814",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T07:21:40.327Z",
+          "retrievedAt": "2026-09-07T07:22:50.355Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4432,
+          "originalHeight": 6158,
+          "sha256": "a8b357aa20b1f9fc5761a38b6e7654bb914986b5ce595fbe5520663195f6fe82",
+          "originalFile": "data/originals/TAG_H6422814_BACK.jpg",
+          "originalSha256": "f914a66224e8593b8b97c3b8e58c7a4697ac5f54c9c45e6822063462022beacc"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "Q3963552",
+      "grader": "TAG",
+      "grade": "10",
+      "gradeDescription": "GEM MINT",
+      "year": "2024",
+      "brand": "BOWMAN MEGA BOX",
+      "series": "BOWMAN MEGA BOX",
+      "subject": "PAUL SKENES",
+      "displaySubject": "PAUL SKENES",
+      "cardNumber": "BCP-125",
+      "variety": "PROSPECTS",
+      "language": null,
+      "category": null,
+      "holder": "slab",
+      "certUrl": "https://my.taggrading.com/card/Q3963552",
+      "gradeDate": "2025-04-11",
+      "location": null,
+      "valuation": null,
+      "population": {
+        "atGrade": 3,
+        "total": 6,
+        "higher": null,
+        "asOf": "2026-09-07",
+        "source": "TAG",
+        "url": "https://my.taggrading.com/card/Q3963552"
+      },
+      "tag": {
+        "score": null,
+        "scoreStatus": "not-exposed",
+        "rank": {
+          "asOf": "9/7/2026",
+          "atGrade": "1st",
+          "atGradeLabel": "HIGHEST GEM MINT (T)",
+          "overall": "1st",
+          "overallLabel": "HIGHEST OVERALL (T)"
+        },
+        "chronology": {
+          "graded": "4/11/2025",
+          "atGrade": "3rd",
+          "overall": "6th"
+        },
+        "dings": {
+          "corners": {
+            "front": 0,
+            "back": 0
+          },
+          "edges": {
+            "front": 0,
+            "back": 0
+          },
+          "surface": {
+            "front": 0,
+            "back": 0
+          }
+        },
+        "centering": {
+          "front": "53L/47R 51T/49B",
+          "back": "52L/48R 50T/50B"
+        },
+        "dimensions": {
+          "heightIn": "3.499",
+          "widthIn": "2.502"
+        },
+        "identityLines": [
+          "PAUL SKENES",
+          "2024 BOWMAN MEGA BOX #BCP-125",
+          "PROSPECTS"
+        ],
+        "sourceUrl": "https://my.taggrading.com/card/Q3963552",
+        "capturedAt": "2026-09-07T07:21:51.041Z"
+      },
+      "images": {
+        "front": "TAG_Q3963552_FRONT.jpg",
+        "back": "TAG_Q3963552_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/tag-office-wall-captures.json",
+        "importedAt": "2026-09-07T07:22:44.285Z",
+        "capturedAt": "2026-09-07T07:21:51.041Z",
+        "pageUrl": "https://my.taggrading.com/card/Q3963552"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/c2c6928b-8a69-4348-b5b9-268109257aa9_FRONT_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/Q3963552",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T07:21:51.041Z",
+          "retrievedAt": "2026-09-07T07:22:50.972Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4433,
+          "originalHeight": 6147,
+          "sha256": "989550c53d3877502dc3d0875cc2705e737f9b9473e4eaf76c0ce07fb350314c",
+          "originalFile": "data/originals/TAG_Q3963552_FRONT.jpg",
+          "originalSha256": "c54028634c384f238dda566d5dc455d2b6392033b568f1fbc16330525d93dc31"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/c2c6928b-8a69-4348-b5b9-268109257aa9_BACK_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/Q3963552",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T07:21:51.041Z",
+          "retrievedAt": "2026-09-07T07:22:51.594Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4439,
+          "originalHeight": 6155,
+          "sha256": "30eaad322fe1c82936992c5483fcc88d610c60b730599cde8b6a3d895616c43e",
+          "originalFile": "data/originals/TAG_Q3963552_BACK.jpg",
+          "originalSha256": "c93fb8148b63fa9c21f67b333526f069362af0b97f711304fd714feca79645f6"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "U5165558",
+      "grader": "TAG",
+      "grade": "8.5",
+      "gradeDescription": "NM MT+",
+      "year": "2024",
+      "brand": "TOPPS CHROME UPDATE",
+      "series": "TOPPS CHROME UPDATE",
+      "subject": "JARED JONES",
+      "displaySubject": "JARED JONES",
+      "cardNumber": "USC43",
+      "variety": "PRISM REFRACTOR",
+      "language": null,
+      "category": null,
+      "holder": "slab",
+      "certUrl": "https://my.taggrading.com/card/U5165558",
+      "gradeDate": "2025-04-22",
+      "location": null,
+      "valuation": null,
+      "population": {
+        "atGrade": 1,
+        "total": 1,
+        "higher": null,
+        "asOf": "2026-09-07",
+        "source": "TAG",
+        "url": "https://my.taggrading.com/card/U5165558"
+      },
+      "tag": {
+        "score": null,
+        "scoreStatus": "not-exposed",
+        "rank": {
+          "asOf": "9/7/2026",
+          "atGrade": "1st",
+          "atGradeLabel": "HIGHEST NM MT+",
+          "overall": "1st",
+          "overallLabel": "HIGHEST OVERALL"
+        },
+        "chronology": {
+          "graded": "4/22/2025",
+          "atGrade": "1st",
+          "overall": "1st"
+        },
+        "dings": {
+          "corners": {
+            "front": 0,
+            "back": 0
+          },
+          "edges": {
+            "front": 0,
+            "back": 0
+          },
+          "surface": {
+            "front": 2,
+            "back": 1
+          }
+        },
+        "centering": {
+          "front": "46L/54R 47T/53B",
+          "back": "48L/52R 49T/51B"
+        },
+        "dimensions": {
+          "heightIn": "3.499",
+          "widthIn": "2.500"
+        },
+        "identityLines": [
+          "JARED JONES",
+          "2024 TOPPS CHROME UPDATE #USC43",
+          "PRISM REFRACTOR"
+        ],
+        "sourceUrl": "https://my.taggrading.com/card/U5165558",
+        "capturedAt": "2026-09-07T07:22:02.600Z"
+      },
+      "images": {
+        "front": "TAG_U5165558_FRONT.jpg",
+        "back": "TAG_U5165558_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/tag-office-wall-captures.json",
+        "importedAt": "2026-09-07T07:22:44.285Z",
+        "capturedAt": "2026-09-07T07:22:02.600Z",
+        "pageUrl": "https://my.taggrading.com/card/U5165558"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/6a259e93-93ef-4118-82cb-975d7ef7d076_FRONT_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/U5165558",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T07:22:02.600Z",
+          "retrievedAt": "2026-09-07T07:22:52.295Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4474,
+          "originalHeight": 6220,
+          "sha256": "3e753dbbd6b5ae1c61295f8b5f72eb89969969dd4f7571b838682d78881f55fd",
+          "originalFile": "data/originals/TAG_U5165558_FRONT.jpg",
+          "originalSha256": "c0c2a4cf1435d0daa5478997c5232cfef4e67da24d893557f4ca1b7f831caac3"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/6a259e93-93ef-4118-82cb-975d7ef7d076_BACK_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/U5165558",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T07:22:02.600Z",
+          "retrievedAt": "2026-09-07T07:22:52.740Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4480,
+          "originalHeight": 6220,
+          "sha256": "bd7bd4efa242ce29a9096e897f831691b3d64dca1da884cb0be4ace63f094515",
+          "originalFile": "data/originals/TAG_U5165558_BACK.jpg",
+          "originalSha256": "a43f17f72086be9be58c889a31e189257a3b0c2819cd378e6267d0e44925d37f"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "G5711598",
+      "grader": "TAG",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "year": "2024",
+      "brand": "TOPPS MUSEUM COLLECTION",
+      "series": "TOPPS MUSEUM COLLECTION",
+      "subject": "PAUL SKENES",
+      "displaySubject": "PAUL SKENES",
+      "cardNumber": "94",
+      "variety": "COPPER",
+      "language": null,
+      "category": null,
+      "holder": "slab",
+      "certUrl": "https://my.taggrading.com/card/G5711598",
+      "gradeDate": "2025-04-11",
+      "location": null,
+      "valuation": null,
+      "population": {
+        "atGrade": 1,
+        "total": 1,
+        "higher": null,
+        "asOf": "2026-09-07",
+        "source": "TAG",
+        "url": "https://my.taggrading.com/card/G5711598"
+      },
+      "tag": {
+        "score": null,
+        "scoreStatus": "not-exposed",
+        "rank": {
+          "asOf": "9/7/2026",
+          "atGrade": "1st",
+          "atGradeLabel": "HIGHEST MINT",
+          "overall": "1st",
+          "overallLabel": "HIGHEST OVERALL"
+        },
+        "chronology": {
+          "graded": "4/11/2025",
+          "atGrade": "1st",
+          "overall": "1st"
+        },
+        "dings": {
+          "corners": {
+            "front": 1,
+            "back": 0
+          },
+          "edges": {
+            "front": 0,
+            "back": 0
+          },
+          "surface": {
+            "front": 1,
+            "back": 0
+          }
+        },
+        "centering": {
+          "front": "51L/49R 54T/46B",
+          "back": "48L/52R 49T/51B"
+        },
+        "dimensions": {
+          "heightIn": "3.504",
+          "widthIn": "2.499"
+        },
+        "identityLines": [
+          "PAUL SKENES",
+          "2024 TOPPS MUSEUM COLLECTION #94",
+          "COPPER"
+        ],
+        "sourceUrl": "https://my.taggrading.com/card/G5711598",
+        "capturedAt": "2026-09-07T07:22:22.830Z"
+      },
+      "images": {
+        "front": "TAG_G5711598_FRONT.jpg",
+        "back": "TAG_G5711598_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/tag-office-wall-captures.json",
+        "importedAt": "2026-09-07T07:22:44.285Z",
+        "capturedAt": "2026-09-07T07:22:22.830Z",
+        "pageUrl": "https://my.taggrading.com/card/G5711598"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/076fc274-576c-4c74-be6f-c143fd6a830a_FRONT_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/G5711598",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T07:22:22.830Z",
+          "retrievedAt": "2026-09-07T07:22:53.377Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4419,
+          "originalHeight": 6158,
+          "sha256": "7cbc257321dcc267d08ce07733abd3e17641c0032e1f6d1589a21d91d201791c",
+          "originalFile": "data/originals/TAG_G5711598_FRONT.jpg",
+          "originalSha256": "a800101a99927218b6f3d25f670d2ebc94467880fa21cc395ccb7221294fe4aa"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/076fc274-576c-4c74-be6f-c143fd6a830a_BACK_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/G5711598",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T07:22:22.830Z",
+          "retrievedAt": "2026-09-07T07:22:54.050Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4430,
+          "originalHeight": 6162,
+          "sha256": "ae39dcede6194fd70d3198cac6175a80393751597cfb713e89a1659662fec98f",
+          "originalFile": "data/originals/TAG_G5711598_BACK.jpg",
+          "originalSha256": "213b05f063c5fa3b09568ecaf301ee9426b5c7d6c1570befc7381700ead49e6f"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "cert": "E4095241",
+      "grader": "TAG",
+      "grade": "7",
+      "gradeDescription": "NEAR MINT",
+      "year": "2021",
+      "brand": "BOWMAN DRAFT SAPPHIRE EDITION",
+      "series": "BOWMAN DRAFT SAPPHIRE EDITION",
+      "subject": "BUBBA CHANDLER",
+      "displaySubject": "BUBBA CHANDLER",
+      "cardNumber": "BDC-41",
+      "variety": null,
+      "language": null,
+      "category": null,
+      "holder": "slab",
+      "certUrl": "https://my.taggrading.com/card/E4095241",
+      "gradeDate": "2025-04-11",
+      "location": null,
+      "valuation": null,
+      "population": {
+        "atGrade": 1,
+        "total": 1,
+        "higher": null,
+        "asOf": "2026-09-07",
+        "source": "TAG",
+        "url": "https://my.taggrading.com/card/E4095241"
+      },
+      "tag": {
+        "score": null,
+        "scoreStatus": "not-exposed",
+        "rank": {
+          "asOf": "9/7/2026",
+          "atGrade": "1st",
+          "atGradeLabel": "HIGHEST NEAR MINT",
+          "overall": "1st",
+          "overallLabel": "HIGHEST OVERALL"
+        },
+        "chronology": {
+          "graded": "4/11/2025",
+          "atGrade": "1st",
+          "overall": "1st"
+        },
+        "dings": {
+          "corners": {
+            "front": 0,
+            "back": 0
+          },
+          "edges": {
+            "front": 0,
+            "back": 0
+          },
+          "surface": {
+            "front": 0,
+            "back": 2
+          }
+        },
+        "centering": {
+          "front": "46L/54R 50T/50B",
+          "back": "56L/44R 59T/41B"
+        },
+        "dimensions": {
+          "heightIn": "3.502",
+          "widthIn": "2.500"
+        },
+        "identityLines": [
+          "BUBBA CHANDLER",
+          "2021 BOWMAN DRAFT SAPPHIRE EDITION #BDC-41"
+        ],
+        "sourceUrl": "https://my.taggrading.com/card/E4095241",
+        "capturedAt": "2026-09-07T07:22:33.555Z"
+      },
+      "images": {
+        "front": "TAG_E4095241_FRONT.jpg",
+        "back": "TAG_E4095241_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/tag-office-wall-captures.json",
+        "importedAt": "2026-09-07T07:22:44.285Z",
+        "capturedAt": "2026-09-07T07:22:33.555Z",
+        "pageUrl": "https://my.taggrading.com/card/E4095241"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/9528a7e7-bb87-4ec2-b829-4d2f3f00b45d_FRONT_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/E4095241",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T07:22:33.555Z",
+          "retrievedAt": "2026-09-07T07:22:54.736Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4437,
+          "originalHeight": 6155,
+          "sha256": "de7540a7721a767d8b025aa27690f5000dd62d78ba96a63bd8b89cf8bf22cdf4",
+          "originalFile": "data/originals/TAG_E4095241_FRONT.jpg",
+          "originalSha256": "54f036675c8136811df51338cd4d8ebd7b72231d5aab23c018e8f79ab3f33c8d"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/9528a7e7-bb87-4ec2-b829-4d2f3f00b45d_BACK_MAIN.jpg",
+          "pageUrl": "https://my.taggrading.com/card/E4095241",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T07:22:33.555Z",
+          "retrievedAt": "2026-09-07T07:22:55.376Z",
+          "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+          "originalWidth": 4428,
+          "originalHeight": 6159,
+          "sha256": "9d865467f4e23d221151041cf6f4384899c60060f290c1424b8b25131cc3d351",
+          "originalFile": "data/originals/TAG_E4095241_BACK.jpg",
+          "originalSha256": "4fd2b9ff0797f289f876982012f8ad2ac060f5f1ceaecdfbf3c00b1817455dd4"
+        }
+      }
+    }
+  ],
+  "kind": "card"
+}

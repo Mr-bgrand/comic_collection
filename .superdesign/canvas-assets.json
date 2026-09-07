@@ -1,0 +1,25 @@
+{
+  "projectId": "7687b5a7-24c5-4f82-b6aa-d5d2e966ee9a",
+  "front": {
+    "url": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/projects/7687b5a7-24c5-4f82-b6aa-d5d2e966ee9a/content-assets/collection-front-atlas/front-atlas.jpg",
+    "storagePath": "projects/7687b5a7-24c5-4f82-b6aa-d5d2e966ee9a/content-assets/collection-front-atlas/front-atlas.jpg",
+    "filename": "front-atlas.jpg",
+    "mimeType": "image/jpeg",
+    "size": 4823079,
+    "purpose": "content",
+    "contentHash": "03ca897e2bd2c594782351a913ca3d9147ef42f8b31ed59bd188c53bf0391c3a"
+  },
+  "back": {
+    "url": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/projects/7687b5a7-24c5-4f82-b6aa-d5d2e966ee9a/content-assets/collection-back-atlas/back-atlas.jpg",
+    "storagePath": "projects/7687b5a7-24c5-4f82-b6aa-d5d2e966ee9a/content-assets/collection-back-atlas/back-atlas.jpg",
+    "filename": "back-atlas.jpg",
+    "mimeType": "image/jpeg",
+    "size": 4113666,
+    "purpose": "content",
+    "contentHash": "d9655b4123d4f4cdf03e6f0cb92edb373229c386e8ca4607f8a94b903866b6a8"
+  },
+  "canvasFile": ".superdesign/tmp/engine-canvas.html",
+  "reviewScanHeight": 480,
+  "reviewScanFormat": "webp",
+  "localScanResolutionUnchanged": true
+}

@@ -15,6 +15,45 @@ Design doc: [`docs/superpowers/specs/2026-08-16-comic-inventory-labels-design.md
 
 ---
 
+## Phone photos in Collection / Lab
+
+Current local inventory: **498 objects — 355 comics and 143 cards**. Case #12
+contains all **111 unique Authority softslabs with front and back scans**. Case
+#2 has 57 TAG cards; the office wall has nine TAG and two PSA cards. The Arena
+Club card is in Case #1. Five additional CGC cards are saved in the intake queue
+pending CGC's security verification; they are not counted as imported.
+
+All 15 physical bins/cases appear in **Admin → Bins & locations / Print Studio**.
+`npm run build` and `npm run print` remain the normal workflow. Large 4×6 labels
+continue across pages; Letter sheets include every copy. Printed case QR links
+use the configured site URL and become available when that build is published.
+
+Find includes **No value yet**. The homepage value display opens recorded
+collection history with valuation coverage; unknown values remain unknown.
+
+Run `npm run build`, then `npm run lab`, and open
+[Collection / Lab](http://localhost:4175/review/). In **Admin → Photos**, search
+an existing copy by cert number or title and choose **Front** or **Back**.
+You can choose an image on this computer, or click **Use phone camera** and scan
+the QR code with your phone on the same Wi-Fi.
+
+On the phone, tap **Take a photo** or **Choose image**, review the preview, rotate
+if needed, and save. Search the next cert directly from the phone to keep going.
+The computer must stay on with `npm run lab` running. A pairing lasts 30 minutes;
+**Disconnect phone** ends it sooner. The QR panel includes connection help.
+
+Saving attaches the photo to that exact grader/cert and side, keeps the previous
+image and its source history, and rebuilds the interactive collection. Refresh
+the desktop collection to see the new scan. The normal build/print commands still
+generate the catalogue, labels and master sheets. Photos do not create new records.
+
+Choose an image under 20 MB. JPG, PNG and WebP are supported; the phone's camera
+picker supplies a browser-readable photo. If an existing HEIC image cannot be
+opened, export it as JPG. Retained originals have orientation corrected and
+location metadata removed. Originals and automatic record backups stay in the
+gitignored `data/originals` and `data/backups/photos` directories; include these
+directories in a complete local backup.
+
 ## Adding comics to a bin
 
 ```bash
@@ -207,6 +246,29 @@ A blank value *clears* an estimate rather than storing zero — a book worth not
 and a book you haven't valued are different facts.
 
 ## Dashboard
+
+Case #2 contains 57 TAG cards in `data/cards/case-02.json`. Their reviewed report
+captures and official scan manifest are `data/incoming/tag-case-02-captures.json`
+and `data/incoming/tag-case-02-images.json`. Refresh with `npm run tag --
+data/incoming/tag-case-02-captures.json`, then `npm run cards:images --
+data/incoming/tag-case-02-images.json data/cards/case-02.json` and rebuild. The capture
+includes its physical container, so the earlier TAG collection stays separate.
+
+The experimental Collection / Lab home also shows the combined recorded value of
+comics and cards, with a small trend chart. Click it to explore dated snapshots,
+see the comic/card breakdown and find copies with no value yet. The same **No
+value yet** filter is available in Find and combines with character or cert searches.
+
+`npm run build` and `npm run review:build` automatically save value observations to
+`data/value-history.json`. Unchanged rebuilds on the same local date are deduplicated;
+changed values or a new day add an observation. Admin's collection backup includes
+this history. `npm run value:history` can capture a snapshot without rebuilding and
+seed an empty history from complete saved Git inventory versions.
+
+These are recorded inventory totals, including added copies and newly entered
+estimates, not a market-return series. Unvalued copies are excluded, explicit $0
+values are counted, and valuation dates remain separate from snapshot dates.
+Rebuilding does not fetch new prices.
 
 `dist/dashboard/` — total value, grade spread, top-pop count, and a sortable table
 of every book with links out to both CGC and GoCollect. Linked from the site index.

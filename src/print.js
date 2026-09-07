@@ -12,7 +12,7 @@
  *   npm run print
  */
 
-import { writeFile, mkdir, readFile, readdir } from 'node:fs/promises';
+import { writeFile, mkdir, readFile, readdir, rename } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
@@ -22,12 +22,20 @@ import { binUrl } from './model.js';
 import { renderLabel } from './templates/label.js';
 import { renderSheet } from './templates/sheet.js';
 import { ensureThumbs } from './thumbs.js';
+import {readCollection} from './lab-admin.js';
+import {physicalContainers,printContainer,containerUrl} from './physical-containers.js';
 
 const PRINT_DIR = 'print';
 const BIN_DIR = path.join('data', 'bins');
 // 480px covers printed at 0.76in wide is ~630dpi — comfortably past what any
 // printer resolves, and still a fraction of the 500px originals' weight.
 const PRINT_IMG_ABS = path.resolve('data', 'medium');
+
+async function replacePrintFile(filename,bytes){
+  const temporary=filename+'.tmp';
+  for(let attempt=0;;attempt++)try{await writeFile(temporary,bytes);await rename(temporary,filename);return;}
+  catch(error){if(attempt>=5||!['EBUSY','EPERM','EACCES','UNKNOWN'].includes(error.code))throw error;await new Promise(resolve=>setTimeout(resolve,150*(attempt+1)));}
+}
 
 async function loadConfig() {
   return JSON.parse(await readFile(path.join('data', 'config.json'), 'utf8'));
@@ -43,7 +51,7 @@ async function loadBins() {
 
 export async function makePrintables() {
   const config = await loadConfig();
-  const bins = await loadBins();
+  const bins = physicalContainers(await readCollection()).map(({data})=>printContainer(data));
   if (!bins.length) {
     console.log('No bins to print.');
     return { files: [] };
@@ -63,7 +71,7 @@ export async function makePrintables() {
       const count = (bin.comics ?? []).length;
       if (!count) continue;
 
-      const url = binUrl(config.baseUrl, bin.bin);
+      const url = containerUrl(config.baseUrl, bin);
       const qrSvg = await QRCode.toString(url, {
         type: 'svg',
         margin: 0,
@@ -85,7 +93,7 @@ export async function makePrintables() {
       for (const doc of docs) {
         const htmlPath = path.join(PRINT_DIR, `${doc.name}.html`);
         const pdfPath = path.join(PRINT_DIR, `${doc.name}.pdf`);
-        await writeFile(htmlPath, doc.html, 'utf8');
+        await replacePrintFile(htmlPath, doc.html);
 
         // Render the PDF from a copy that points at absolute image paths, so the
         // committed HTML keeps working relative paths either way.
@@ -100,13 +108,14 @@ export async function makePrintables() {
         await page.waitForLoadState('networkidle');
 
         try {
-          await page.pdf({ path: pdfPath, preferCSSPageSize: true, printBackground: true });
+          const bytes=await page.pdf({ preferCSSPageSize: true, printBackground: true });
+          await replacePrintFile(pdfPath,bytes);
           written.push(pdfPath);
           console.log(`  ${pdfPath}`);
           console.log(`  ${htmlPath}`);
         } catch (err) {
           // On Windows an open PDF viewer holds a lock on the file.
-          if (['EBUSY', 'EPERM', 'EACCES'].includes(err.code)) {
+          if (['EBUSY', 'EPERM', 'EACCES'].includes(err.code)||(process.platform==='win32'&&err.code==='UNKNOWN'&&['open','rename'].includes(err.syscall))) {
             locked.push(pdfPath);
             console.warn(`  ! ${pdfPath} is open in another program — close it and re-run`);
           } else {

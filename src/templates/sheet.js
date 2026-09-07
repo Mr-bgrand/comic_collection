@@ -194,10 +194,10 @@ export function renderSheet({ bin, url, qrSvg = '', imagePrefix = '../../images/
       return `<section class="side">
   <div class="masthead">
     <div>
-      <h1>Bin ${escapeHtml(bin.bin)}</h1>
-      <div class="sub">${comics.length} graded comics${
+      <h1>${escapeHtml(bin.title || `Bin ${bin.bin}`)}${!bin.isPhysicalCase&&bin.title && bin.title !== `Bin ${bin.bin}` ? ` <span style="font-size:8pt;font-weight:400">/ Bin ${escapeHtml(bin.bin)}</span>` : ''}</h1>
+      <div class="sub">${comics.length} ${bin.isPhysicalCase?'copies':'graded comics'}${
         bin.location ? ` &middot; ${escapeHtml(bin.location)}` : ''
-      } &middot; updated ${escapeHtml(bin.updated ?? '')}</div>
+      } &middot; ${bin.isPhysicalCase?'printed '+new Date().toISOString().slice(0,10):'updated '+escapeHtml(bin.updated ?? '')}</div>
     </div>
 ${qrBlock}
   </div>
@@ -212,5 +212,5 @@ ${cols}
     })
     .join('\n');
 
-  return page({ title: `Bin ${bin.bin} manifest`, css, body });
+  return page({ title: `${bin.isPhysicalCase?bin.title:'Bin '+bin.bin} manifest`, css, body });
 }

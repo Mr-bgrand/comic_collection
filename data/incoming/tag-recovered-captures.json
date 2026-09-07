@@ -1,0 +1,143 @@
+{
+  "provider": "TAG",
+  "records": [
+    {
+      "cert": "Y2994116",
+      "pageUrl": "https://my.taggrading.com/card/Y2994116",
+      "renderedCert": "Y2994116",
+      "capturedAt": "2026-09-07T04:17:53.616Z",
+      "identity": [
+        "ORIGIN FORME DIALGA V",
+        "2022 POKÉMON SWORD & SHIELD #177/189",
+        "ASTRAL RADIANCE",
+        "FULL ART - ULTRA RARE"
+      ],
+      "grade": [
+        "9",
+        "MINT"
+      ],
+      "population": {
+        "asOf": "9/6/2026",
+        "atGrade": 83,
+        "total": 186
+      },
+      "rank": {
+        "asOf": "9/6/2026",
+        "atGrade": "11th",
+        "atGradeLabel": "HIGHEST MINT (T)",
+        "overall": "76th",
+        "overallLabel": "HIGHEST OVERALL (T)"
+      },
+      "chronology": {
+        "graded": "6/2/2025",
+        "atGrade": "31st",
+        "overall": "67th"
+      },
+      "dings": {
+        "corners": {
+          "front": 1,
+          "back": 0
+        },
+        "edges": {
+          "front": 0,
+          "back": 0
+        },
+        "surface": {
+          "front": 0,
+          "back": 0
+        }
+      },
+      "centering": {
+        "front": "48L/52R 45T/55B",
+        "back": "43L/57R 48T/52B"
+      },
+      "dimensions": {
+        "heightIn": "3.481",
+        "widthIn": "2.489"
+      },
+      "scans": [
+        {
+          "side": "front",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/197dee0f-0d4a-41c8-86a0-ea9d31b691db_FRONT_MAIN.jpg",
+          "width": 4411,
+          "height": 6122
+        },
+        {
+          "side": "back",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/197dee0f-0d4a-41c8-86a0-ea9d31b691db_BACK_MAIN.jpg",
+          "width": 4403,
+          "height": 6118
+        }
+      ]
+    },
+    {
+      "cert": "S2994291",
+      "pageUrl": "https://my.taggrading.com/card/S2994291",
+      "renderedCert": "S2994291",
+      "capturedAt": "2026-09-07T04:18:18.395Z",
+      "identity": [
+        "ヤンヤンマ YANMA",
+        "2025 POKÉMON SCARLET & VIOLET JAPANESE #064/063",
+        "HEAT WAVE ARENA",
+        "ART RARE"
+      ],
+      "grade": [
+        "9",
+        "MINT"
+      ],
+      "population": {
+        "asOf": "9/6/2026",
+        "atGrade": 68,
+        "total": 202
+      },
+      "rank": {
+        "asOf": "9/6/2026",
+        "atGrade": "1st",
+        "atGradeLabel": "HIGHEST MINT (T)",
+        "overall": "142nd",
+        "overallLabel": "HIGHEST OVERALL (T)"
+      },
+      "chronology": {
+        "graded": "6/2/2025",
+        "atGrade": "2nd",
+        "overall": "13th"
+      },
+      "dings": {
+        "corners": {
+          "front": 0,
+          "back": 0
+        },
+        "edges": {
+          "front": 0,
+          "back": 0
+        },
+        "surface": {
+          "front": 1,
+          "back": 0
+        }
+      },
+      "centering": {
+        "front": "52L/48R 48T/52B",
+        "back": "49L/51R 49T/51B"
+      },
+      "dimensions": {
+        "heightIn": "3.460",
+        "widthIn": "2.479"
+      },
+      "scans": [
+        {
+          "side": "front",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/5e2cfeaf-8801-4df6-a08b-5c8d67b1c1c9_FRONT_MAIN.jpg",
+          "width": 4386,
+          "height": 6083
+        },
+        {
+          "side": "back",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/5e2cfeaf-8801-4df6-a08b-5c8d67b1c1c9_BACK_MAIN.jpg",
+          "width": 4386,
+          "height": 6081
+        }
+      ]
+    }
+  ]
+}

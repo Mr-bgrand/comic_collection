@@ -1,0 +1,107 @@
+{
+  "provider": "TAG",
+  "records": [
+    {
+      "cert": "Q9937497",
+      "url": "https://my.taggrading.com/card/Q9937497",
+      "status": "imported",
+      "inventoryFile": "data/cards/tag-collection.json"
+    },
+    {
+      "cert": "R4092198",
+      "url": "https://my.taggrading.com/card/R4092198",
+      "status": "imported",
+      "inventoryFile": "data/cards/tag-collection.json"
+    },
+    {
+      "cert": "H9812622",
+      "url": "https://my.taggrading.com/card/H9812622",
+      "status": "imported",
+      "inventoryFile": "data/cards/tag-collection.json"
+    },
+    {
+      "cert": "F9615045",
+      "url": "https://my.taggrading.com/card/F9615045",
+      "status": "imported",
+      "inventoryFile": "data/cards/tag-collection.json"
+    },
+    {
+      "cert": "L6527429",
+      "url": "https://my.taggrading.com/card/L6527429",
+      "status": "imported",
+      "inventoryFile": "data/cards/tag-collection.json"
+    },
+    {
+      "cert": "E1992795",
+      "url": "https://my.taggrading.com/card/E1992795",
+      "status": "imported",
+      "inventoryFile": "data/cards/tag-collection.json"
+    },
+    {
+      "cert": "K8931484",
+      "url": "https://my.taggrading.com/card/K8931484",
+      "status": "imported",
+      "inventoryFile": "data/cards/tag-collection.json"
+    },
+    {
+      "cert": "H1870819",
+      "url": "https://my.taggrading.com/card/H1870819",
+      "status": "imported",
+      "inventoryFile": "data/cards/tag-collection.json"
+    },
+    {
+      "cert": "H7738551",
+      "url": "https://my.taggrading.com/card/H7738551",
+      "status": "imported",
+      "inventoryFile": "data/cards/tag-collection.json"
+    },
+    {
+      "cert": "T4684141",
+      "url": "https://my.taggrading.com/card/T4684141",
+      "status": "imported",
+      "inventoryFile": "data/cards/tag-collection.json"
+    },
+    {
+      "cert": "K3472903",
+      "url": "https://my.taggrading.com/card/K3472903",
+      "status": "imported",
+      "inventoryFile": "data/cards/tag-collection.json"
+    },
+    {
+      "cert": "D9973845",
+      "url": "https://my.taggrading.com/card/D9973845",
+      "status": "imported",
+      "inventoryFile": "data/cards/tag-collection.json"
+    },
+    {
+      "cert": "Y2994116",
+      "url": "https://my.taggrading.com/card/Y2994116",
+      "status": "imported",
+      "lookupHistory": [
+        {
+          "status": "page-not-found",
+          "observedUrl": "https://my.taggrading.com/404",
+          "message": "Oops! nothing was found",
+          "attempts": 2,
+          "checkedAt": "2026-09-07T03:43:05.979Z"
+        }
+      ],
+      "inventoryFile": "data/cards/tag-collection.json"
+    },
+    {
+      "cert": "S2994291",
+      "url": "https://my.taggrading.com/card/S2994291",
+      "status": "imported",
+      "lookupHistory": [
+        {
+          "status": "page-not-found",
+          "observedUrl": "https://my.taggrading.com/404",
+          "message": "Oops! nothing was found",
+          "attempts": 2,
+          "checkedAt": "2026-09-07T03:43:05.979Z"
+        }
+      ],
+      "inventoryFile": "data/cards/tag-collection.json"
+    }
+  ]
+}

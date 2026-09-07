@@ -10,6 +10,10 @@
  *   Venom #23 : Black Saber Comics "Virgin" Edition
  */
 export function displayTitle(comic) {
+  if (comic.kind === 'card') {
+    const base = [comic.year, comic.brand, comic.cardNumber ? `#${comic.cardNumber}` : null, comic.subject].filter(Boolean).join(' ');
+    return comic.variety ? `${base} : ${comic.variety}` : base;
+  }
   const base = `${comic.title ?? ''} #${comic.issue ?? ''}`.trim();
   const variant = (comic.variant ?? '').trim();
   return variant ? `${base} : ${variant}` : base;
@@ -24,12 +28,18 @@ export function displayTitle(comic) {
  * prices, so the grader travels with the number everywhere it is shown.
  */
 export function graderOf(comic) {
+  if (comic?.grading?.status === 'raw') return null;
   return comic?.grader ?? 'CGC';
 }
 
 /** "CGC 9.8" — the form a collector actually reads and searches for. */
 export function gradeLabel(comic) {
+  if (comic?.grading?.status === 'raw') return comic.authentication?.label || 'Raw · ungraded';
   return `${graderOf(comic)} ${comic?.grade ?? ''}`.trim();
+}
+
+function certificateLabel(comic) {
+  return comic?.provider === 'Authority' ? `Authority ID ${comic.providerId}` : `${graderOf(comic) ?? 'Unassigned'} cert ${comic.cert}`;
 }
 
 /**
@@ -44,6 +54,15 @@ export function certUrl(comic) {
   if (comic?.certUrl) return comic.certUrl;
   const cert = comic?.cert;
   if (!cert) return null;
+  if (graderOf(comic) === 'PSA') return `https://www.psacard.com/cert/${encodeURIComponent(cert)}/psa`;
+  if (graderOf(comic) === 'TAG') return `https://my.taggrading.com/card/${encodeURIComponent(cert)}`;
+  if (graderOf(comic) === 'CGC' && comic.kind === 'card') {
+    const grade = Number(comic.grade);
+    // Card lookup has its own domain and includes the grade in its URL.
+    // Missing grades stay unresolved instead of linking to a comic certificate.
+    if (comic.grade == null || !Number.isFinite(grade) || grade < 1 || grade > 10 || grade * 2 % 1) return null;
+    return `https://www.cgccards.com/certlookup/${encodeURIComponent(cert)}/${grade.toFixed(1).replace('.', '_')}/`;
+  }
   if (graderOf(comic) === 'CGC') return `https://www.cgccomics.com/certlookup/${cert}/`;
   if (graderOf(comic) === 'CBCS') return 'https://www.cbcscomics.com/verify';
   return null;
@@ -131,7 +150,7 @@ export function detailLines(comic) {
   const tail = [];
   if (comic.keyComments) tail.push(`Key: ${comic.keyComments}`);
   if (comic.gradeDate) tail.push(`Graded ${comic.gradeDate}`);
-  if (comic.cert) tail.push(`${graderOf(comic)} cert ${comic.cert}`);
+  if (comic.cert) tail.push(certificateLabel(comic));
   if (tail.length) lines.push(tail.join(' · '));
 
   const pop = comic.population;
@@ -206,7 +225,7 @@ export function compactDetailLines(comic) {
   }
   // The grader rides with the cert, since a cert number alone does not say who
   // issued it and the two graders use different formats.
-  if (comic.cert) tail.push(`${graderOf(comic)} cert ${comic.cert}`);
+  if (comic.cert) tail.push(certificateLabel(comic));
   if (comic.gradeDate) tail.push(`Graded ${comic.gradeDate}`);
   const sigs = signatureLine(comic);
   if (sigs) tail.push(`Signed: ${sigs}`);

@@ -1,0 +1,1080 @@
+{
+  "id": "case-01",
+  "kind": "card",
+  "title": "Case #1",
+  "physical": true,
+  "virtual": false,
+  "location": "Case #1",
+  "cards": [
+    {
+      "kind": "card",
+      "grader": "CGC",
+      "cert": "1401019289294",
+      "subject": "Turtwig",
+      "year": "2022",
+      "brand": "VSTAR Universe",
+      "category": "Pokémon",
+      "language": "Japanese",
+      "cardNumber": "206/172",
+      "variety": "Art Rare · Holo",
+      "grade": "9",
+      "gradeDescription": null,
+      "gradeDate": "2024-01-18",
+      "holder": "slab",
+      "certUrl": "https://www.cgccards.com/certlookup/1401019289294/9_0/",
+      "population": {
+        "atGrade": 39,
+        "higher": 267,
+        "asOf": "2026-09-07",
+        "source": "CGC Cards",
+        "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/sword-and-shield/803/vstar-universe-s12a/19367/?populationID=1169743"
+      },
+      "valuation": null,
+      "cgc": {
+        "gradeText": "9",
+        "lookupGrade": "9.0",
+        "gradeChangedFromLookup": false,
+        "fields": {
+          "Cert #": "1401019289294",
+          "Card Name": "Turtwig",
+          "Game": "Pokémon",
+          "Year": "2022",
+          "Language": "Japanese",
+          "Card Set": "VSTAR Universe",
+          "Card Number": "206/172",
+          "Variant 1": "Art Rare",
+          "Variant 2": "Holo",
+          "Grade": "9",
+          "Grade Date": "2024-01-18"
+        },
+        "sourceUrl": "https://www.cgccards.com/certlookup/1401019289294/9_0/",
+        "capturedAt": "2026-09-07T04:15:18.109Z",
+        "scanOrientation": {
+          "reversed": false,
+          "basis": "CGC Cards viewer labels: Obverse / Reverse"
+        }
+      },
+      "images": {
+        "front": "CGC_1401019289294_FRONT.jpg",
+        "back": "CGC_1401019289294_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/cgc-card-captures.json",
+        "importedAt": "2026-09-07T04:17:25.287Z",
+        "capturedAt": "2026-09-07T04:15:18.109Z",
+        "pageUrl": "https://www.cgccards.com/certlookup/1401019289294/9_0/"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/5562729f-bbfa-4496-bd03-262631c8d290/CRD1401019289-294_OBV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/1401019289294/9_0/",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T04:15:18.109Z",
+          "retrievedAt": "2026-09-07T04:17:26.965Z",
+          "sideBasis": "CGC Cards rendered cert viewer: Obverse / Reverse labels and cert-matching OBV / REV files",
+          "originalWidth": 1978,
+          "originalHeight": 3285,
+          "sha256": "47fe32ab880a71790e00924be439419aeeec09033f2b9fd434af412bfd059aa5",
+          "originalFile": "data/originals/CGC_1401019289294_FRONT.jpg",
+          "originalSha256": "c38ebe252e0d0de233300055f8cb565baac67b18f9116ab5e4e609f83a9fb2b5"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/5562729f-bbfa-4496-bd03-262631c8d290/CRD1401019289-294_REV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/1401019289294/9_0/",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T04:15:18.109Z",
+          "retrievedAt": "2026-09-07T04:17:27.413Z",
+          "sideBasis": "CGC Cards rendered cert viewer: Obverse / Reverse labels and cert-matching OBV / REV files",
+          "originalWidth": 1968,
+          "originalHeight": 3275,
+          "sha256": "148c3275f9a3988e59685872808d8d2b68a6553a360841bfe3e823a07014cb79",
+          "originalFile": "data/originals/CGC_1401019289294_BACK.jpg",
+          "originalSha256": "ff0043f780e1a712970982b13afe9287b0ec2e7565ecc8e1a9357fb497ccca31"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "grader": "CGC",
+      "cert": "1401031230023",
+      "subject": "Galarian Moltres",
+      "year": "2023",
+      "brand": "Black Star Promos",
+      "category": "Pokémon",
+      "language": "English",
+      "cardNumber": "SWSH284",
+      "variety": "Crown Zenith Tin",
+      "grade": "8.5",
+      "gradeDescription": null,
+      "gradeDate": "2024-05-06",
+      "holder": "slab",
+      "certUrl": "https://www.cgccards.com/certlookup/1401031230023/8_5/",
+      "population": {
+        "atGrade": 250,
+        "higher": 2047,
+        "asOf": "2026-09-07",
+        "source": "CGC Cards",
+        "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/promotional/839/black-star-promos-sword-and-shield/18313/?populationID=1157803"
+      },
+      "valuation": null,
+      "cgc": {
+        "gradeText": "8.5",
+        "lookupGrade": "8.5",
+        "gradeChangedFromLookup": false,
+        "fields": {
+          "Cert #": "1401031230023",
+          "Card Name": "Galarian Moltres",
+          "Game": "Pokémon",
+          "Year": "2023",
+          "Language": "English",
+          "Card Set": "Black Star Promos",
+          "Card Number": "SWSH284",
+          "Variant 1": "Crown Zenith Tin",
+          "Grade": "8.5",
+          "Grade Date": "2024-05-06"
+        },
+        "sourceUrl": "https://www.cgccards.com/certlookup/1401031230023/8_5/",
+        "capturedAt": "2026-09-07T04:15:36.331Z",
+        "scanOrientation": {
+          "reversed": false,
+          "basis": "CGC Cards viewer labels: Obverse / Reverse"
+        }
+      },
+      "images": {
+        "front": "CGC_1401031230023_FRONT.jpg",
+        "back": "CGC_1401031230023_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/cgc-card-captures.json",
+        "importedAt": "2026-09-07T04:17:25.287Z",
+        "capturedAt": "2026-09-07T04:15:36.331Z",
+        "pageUrl": "https://www.cgccards.com/certlookup/1401031230023/8_5/"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/a090cf86-488c-4f6c-a86c-9b39fc337bca/CRD1401031230-023_OBV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/1401031230023/8_5/",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T04:15:36.331Z",
+          "retrievedAt": "2026-09-07T04:17:27.784Z",
+          "sideBasis": "CGC Cards rendered cert viewer: Obverse / Reverse labels and cert-matching OBV / REV files",
+          "originalWidth": 1978,
+          "originalHeight": 3285,
+          "sha256": "32b2132fdb7450e0232944c770dfb21bf8a895bf037fa69ad6f39a6abe5fb57a",
+          "originalFile": "data/originals/CGC_1401031230023_FRONT.jpg",
+          "originalSha256": "bc9881ad841872bb2e5a9927edd111d209f0549a16de8fd25ceed545097ca900"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/a090cf86-488c-4f6c-a86c-9b39fc337bca/CRD1401031230-023_REV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/1401031230023/8_5/",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T04:15:36.331Z",
+          "retrievedAt": "2026-09-07T04:17:28.131Z",
+          "sideBasis": "CGC Cards rendered cert viewer: Obverse / Reverse labels and cert-matching OBV / REV files",
+          "originalWidth": 1968,
+          "originalHeight": 3275,
+          "sha256": "90d7c701458d9801db3fa0af7ca164eaca4c7c154ff86cdffc6daf0967f2a439",
+          "originalFile": "data/originals/CGC_1401031230023_BACK.jpg",
+          "originalSha256": "6cdc615c9269871b1c2c6f2c8b21d834b59981899cf7b991e0abffd57d78624a"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "grader": "CGC",
+      "cert": "6016747097",
+      "subject": "Persian",
+      "year": "2024",
+      "brand": "Night Wanderer",
+      "category": "Pokémon",
+      "language": "Japanese",
+      "cardNumber": "075/064",
+      "variety": "Art Rare · Holo",
+      "grade": "9",
+      "gradeDescription": null,
+      "gradeDate": "2025-01-07",
+      "holder": "slab",
+      "certUrl": "https://www.cgccards.com/certlookup/6016747097/9_0/",
+      "population": {
+        "atGrade": 687,
+        "higher": 2577,
+        "asOf": "2026-09-07",
+        "source": "CGC Cards",
+        "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/scarlet-and-violet/842/night-wanderer-sv6a/24344/?populationID=1765622"
+      },
+      "valuation": null,
+      "cgc": {
+        "gradeText": "9",
+        "lookupGrade": "9.0",
+        "gradeChangedFromLookup": false,
+        "fields": {
+          "Cert #": "6016747097",
+          "Card Name": "Persian",
+          "Game": "Pokémon",
+          "Year": "2024",
+          "Language": "Japanese",
+          "Card Set": "Night Wanderer",
+          "Card Number": "075/064",
+          "Variant 1": "Art Rare",
+          "Variant 2": "Holo",
+          "Grade": "9",
+          "Grade Date": "2025-01-07"
+        },
+        "sourceUrl": "https://www.cgccards.com/certlookup/6016747097/9_0/",
+        "capturedAt": "2026-09-07T04:17:02.287Z",
+        "scanOrientation": {
+          "reversed": false,
+          "basis": "CGC Cards viewer labels: Obverse / Reverse"
+        }
+      },
+      "images": {
+        "front": "CGC_6016747097_FRONT.jpg",
+        "back": "CGC_6016747097_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/cgc-card-captures.json",
+        "importedAt": "2026-09-07T04:17:25.287Z",
+        "capturedAt": "2026-09-07T04:17:02.287Z",
+        "pageUrl": "https://www.cgccards.com/certlookup/6016747097/9_0/"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17364288-81dd-420a-939a-af28f5cf3ef8/CAR6016747-097_OBV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/6016747097/9_0/",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T04:17:02.287Z",
+          "retrievedAt": "2026-09-07T04:17:28.505Z",
+          "sideBasis": "CGC Cards rendered cert viewer: Obverse / Reverse labels and cert-matching OBV / REV files",
+          "originalWidth": 1978,
+          "originalHeight": 3285,
+          "sha256": "84ad0bf030f6c34e788ba0e960882f22223733ba6753680febbb3a22a33a90c6",
+          "originalFile": "data/originals/CGC_6016747097_FRONT.jpg",
+          "originalSha256": "44243ce9993dc801e2f4e07992672edcf8ad14f2492d25b6e245d0d0fac98609"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17364288-81dd-420a-939a-af28f5cf3ef8/CAR6016747-097_REV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/6016747097/9_0/",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T04:17:02.287Z",
+          "retrievedAt": "2026-09-07T04:17:29.113Z",
+          "sideBasis": "CGC Cards rendered cert viewer: Obverse / Reverse labels and cert-matching OBV / REV files",
+          "originalWidth": 1968,
+          "originalHeight": 3275,
+          "sha256": "7da7693df18a0bfc4ef650fe87f6367746de5e7391cfbdbcfa6d2c5d2b858fd7",
+          "originalFile": "data/originals/CGC_6016747097_BACK.jpg",
+          "originalSha256": "570a7ed0e5fe151a4a927f175426e16178c0c9f6685dda94702aaaf2be7bbad5"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "grader": "CGC",
+      "cert": "6001871064",
+      "subject": "Blaine",
+      "year": "1999",
+      "brand": "Gym 2: Challenge from the Darkness",
+      "category": "Pokémon",
+      "language": "Japanese",
+      "cardNumber": null,
+      "variety": "Non-Holo",
+      "grade": "9",
+      "gradeDescription": null,
+      "gradeDate": "2024-09-23",
+      "holder": "slab",
+      "certUrl": "https://www.cgccards.com/certlookup/6001871064/9_0/",
+      "population": {
+        "atGrade": 33,
+        "higher": 27,
+        "asOf": "2026-09-07",
+        "source": "CGC Cards",
+        "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/original-series/1014/gym-2-challenge-from-the-darkness/30931/?populationID=499493"
+      },
+      "valuation": null,
+      "cgc": {
+        "gradeText": "9",
+        "lookupGrade": "9.0",
+        "gradeChangedFromLookup": false,
+        "fields": {
+          "Cert #": "6001871064",
+          "Card Name": "Blaine",
+          "Game": "Pokémon",
+          "Year": "1999",
+          "Language": "Japanese",
+          "Card Set": "Gym 2: Challenge from the Darkness",
+          "Variant 1": "Non-Holo",
+          "Grade": "9",
+          "Grade Date": "2024-09-23"
+        },
+        "sourceUrl": "https://www.cgccards.com/certlookup/6001871064/9_0/",
+        "capturedAt": "2026-09-07T04:11:04.652Z",
+        "scanOrientation": {
+          "reversed": false,
+          "basis": "CGC Cards viewer labels: Obverse / Reverse"
+        }
+      },
+      "images": {
+        "front": "CGC_6001871064_FRONT.jpg",
+        "back": "CGC_6001871064_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/cgc-card-captures.json",
+        "importedAt": "2026-09-07T04:17:25.287Z",
+        "capturedAt": "2026-09-07T04:11:04.652Z",
+        "pageUrl": "https://www.cgccards.com/certlookup/6001871064/9_0/"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/cbeb65f2-1fe6-4ab3-91f7-ea5f6d2ccdfc/CAR6001871-064_OBV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/6001871064/9_0/",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T04:11:04.652Z",
+          "retrievedAt": "2026-09-07T04:17:29.550Z",
+          "sideBasis": "CGC Cards rendered cert viewer: Obverse / Reverse labels and cert-matching OBV / REV files",
+          "originalWidth": 2148,
+          "originalHeight": 3484,
+          "sha256": "ae25b0809227ed2f04818c0ef82d7d8a5b400432899889fbf700368104abe8b6",
+          "originalFile": "data/originals/CGC_6001871064_FRONT.jpg",
+          "originalSha256": "d8f9a4ef059602204945c960f34cefe522719ef3daf4d197dfb898cab04e1af2"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/cbeb65f2-1fe6-4ab3-91f7-ea5f6d2ccdfc/CAR6001871-064_REV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/6001871064/9_0/",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T04:11:04.652Z",
+          "retrievedAt": "2026-09-07T04:17:30.022Z",
+          "sideBasis": "CGC Cards rendered cert viewer: Obverse / Reverse labels and cert-matching OBV / REV files",
+          "originalWidth": 2148,
+          "originalHeight": 3484,
+          "sha256": "374cccec638929bd2eb333f490438324a91909d951aef742158b8bfa7a776914",
+          "originalFile": "data/originals/CGC_6001871064_BACK.jpg",
+          "originalSha256": "9d36c483fd1e35494db3e72ab013d8dddc7f887db72641f4bc26640ec783e674"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "grader": "CGC",
+      "cert": "4135876101",
+      "subject": "Venusaur V",
+      "year": "2020",
+      "brand": "Venusaur VMAX Starter Set",
+      "category": "Pokémon",
+      "language": "Japanese",
+      "cardNumber": "001/021",
+      "variety": "Holo",
+      "grade": "10",
+      "gradeDescription": "GEM MINT",
+      "gradeDate": "2022-10-11",
+      "holder": "slab",
+      "certUrl": "https://www.cgccards.com/certlookup/4135876101/9_5/",
+      "population": {
+        "atGrade": 745,
+        "higher": 284,
+        "asOf": "2026-09-07",
+        "source": "CGC Cards",
+        "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/starter-decks/934/venusaur-vmax-starter-set-sef/12674/?populationID=600817"
+      },
+      "valuation": null,
+      "cgc": {
+        "gradeText": "GEM MINT 10",
+        "lookupGrade": "9.5",
+        "gradeChangedFromLookup": true,
+        "fields": {
+          "Cert #": "4135876101",
+          "Card Name": "Venusaur V",
+          "Game": "Pokémon",
+          "Year": "2020",
+          "Language": "Japanese",
+          "Card Set": "Venusaur VMAX Starter Set",
+          "Card Number": "001/021",
+          "Variant 1": "Holo",
+          "Grade": "GEM MINT 10",
+          "Grade Date": "2022-10-11"
+        },
+        "sourceUrl": "https://www.cgccards.com/certlookup/4135876101/9_5/",
+        "capturedAt": "2026-09-07T04:11:16.258Z",
+        "scanOrientation": {
+          "reversed": true,
+          "basis": "Visual inspection of both full-size scans: CGC labels the artwork/front as Reverse and the Pokemon/holder back as Obverse.",
+          "reviewedAt": "2026-09-07T04:23:10.918Z"
+        },
+        "slabLabel": {
+          "gradeText": "Gem Mint 9.5",
+          "sourceUrl": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/4cde1fae-16ae-40e8-99ed-bfee31b923f0/CGC4135876-101_REV.jpg",
+          "basis": "Read from the physical slab label in the verified front scan."
+        }
+      },
+      "images": {
+        "front": "CGC_4135876101_FRONT.jpg",
+        "back": "CGC_4135876101_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/cgc-card-captures.json",
+        "importedAt": "2026-09-07T04:17:25.287Z",
+        "capturedAt": "2026-09-07T04:11:16.258Z",
+        "pageUrl": "https://www.cgccards.com/certlookup/4135876101/9_5/"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/4cde1fae-16ae-40e8-99ed-bfee31b923f0/CGC4135876-101_REV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/4135876101/9_5/",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T04:11:16.258Z",
+          "retrievedAt": "2026-09-07T04:23:13.343Z",
+          "sideBasis": "Visual inspection of both full-size scans: CGC labels the artwork/front as Reverse and the Pokemon/holder back as Obverse.",
+          "sourceSide": "Reverse",
+          "visuallyReversed": true,
+          "originalWidth": 2328,
+          "originalHeight": 3465,
+          "sha256": "52b8c4781afc8d4922cd60581d8d0114ca78755518a4e7f0bf416981dd9be35b",
+          "originalFile": "data/originals/CGC_4135876101_FRONT.jpg",
+          "originalSha256": "c1d1d455dd9e44f24a411fd809db9d66470d2d982273f19226067f6974aa4c9d"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/4cde1fae-16ae-40e8-99ed-bfee31b923f0/CGC4135876-101_OBV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/4135876101/9_5/",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T04:11:16.258Z",
+          "retrievedAt": "2026-09-07T04:23:13.794Z",
+          "sideBasis": "Visual inspection of both full-size scans: CGC labels the artwork/front as Reverse and the Pokemon/holder back as Obverse.",
+          "sourceSide": "Obverse",
+          "visuallyReversed": true,
+          "originalWidth": 2328,
+          "originalHeight": 3465,
+          "sha256": "094b28e781e54e2c4cb7024db739313d406390b4b30e71165f14a09cf89f8aa7",
+          "originalFile": "data/originals/CGC_4135876101_BACK.jpg",
+          "originalSha256": "affafa1e374a40a35f9f5ad98cef5021c766e5a4260363ed02d7fb7aaa08a845"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "grader": "CGC",
+      "cert": "4093107189",
+      "subject": "Weepinbell",
+      "year": "1998",
+      "brand": "Vending Series 3",
+      "category": "Pokémon",
+      "language": "Japanese",
+      "cardNumber": null,
+      "variety": null,
+      "grade": "9",
+      "gradeDescription": null,
+      "gradeDate": "2022-07-19",
+      "holder": "slab",
+      "certUrl": "https://www.cgccards.com/certlookup/4093107189/9_0/",
+      "population": {
+        "atGrade": 83,
+        "higher": 70,
+        "asOf": "2026-09-07",
+        "source": "CGC Cards",
+        "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/original-series/1014/vending-series-3-pokeball-symbol.-glossy/13367/?populationID=500555"
+      },
+      "valuation": null,
+      "cgc": {
+        "gradeText": "9",
+        "lookupGrade": "9.0",
+        "gradeChangedFromLookup": false,
+        "fields": {
+          "Cert #": "4093107189",
+          "Card Name": "Weepinbell",
+          "Game": "Pokémon",
+          "Year": "1998",
+          "Language": "Japanese",
+          "Card Set": "Vending Series 3",
+          "Grade": "9",
+          "Grade Date": "2022-07-19"
+        },
+        "sourceUrl": "https://www.cgccards.com/certlookup/4093107189/9_0/",
+        "capturedAt": "2026-09-07T04:12:16.759Z",
+        "scanOrientation": {
+          "reversed": true,
+          "basis": "Visual inspection of both full-size scans: CGC labels the artwork/front as Reverse and the Pokemon/holder back as Obverse.",
+          "reviewedAt": "2026-09-07T04:23:10.919Z"
+        }
+      },
+      "images": {
+        "front": "CGC_4093107189_FRONT.jpg",
+        "back": "CGC_4093107189_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/cgc-card-captures.json",
+        "importedAt": "2026-09-07T04:17:25.287Z",
+        "capturedAt": "2026-09-07T04:12:16.759Z",
+        "pageUrl": "https://www.cgccards.com/certlookup/4093107189/9_0/"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/be49c394-bece-4e7a-a7d2-8fa2c08185c7/CGC4093107-189_REV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/4093107189/9_0/",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T04:12:16.759Z",
+          "retrievedAt": "2026-09-07T04:23:14.083Z",
+          "sideBasis": "Visual inspection of both full-size scans: CGC labels the artwork/front as Reverse and the Pokemon/holder back as Obverse.",
+          "sourceSide": "Reverse",
+          "visuallyReversed": true,
+          "originalWidth": 1079,
+          "originalHeight": 1748,
+          "sha256": "e79ad5fdb96421a3b6f0902eea1dced510b49fae2bcd6a8986d8e57afefbb4d3",
+          "originalFile": "data/originals/CGC_4093107189_FRONT.jpg",
+          "originalSha256": "7fe83dcae13c7ee0004a8d2320cb4f8e9d900fe7bb457003cf4e88e2c65edf8f"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/be49c394-bece-4e7a-a7d2-8fa2c08185c7/CGC4093107-189_OBV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/4093107189/9_0/",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T04:12:16.759Z",
+          "retrievedAt": "2026-09-07T04:23:14.349Z",
+          "sideBasis": "Visual inspection of both full-size scans: CGC labels the artwork/front as Reverse and the Pokemon/holder back as Obverse.",
+          "sourceSide": "Obverse",
+          "visuallyReversed": true,
+          "originalWidth": 1079,
+          "originalHeight": 1748,
+          "sha256": "8e2c24ba05aa7826da25df024fc6b4a16c4825cc28e025a53488bad09fb5cf2c",
+          "originalFile": "data/originals/CGC_4093107189_BACK.jpg",
+          "originalSha256": "37a745cab5a569fe3e916ca4e22a58584e691979b4108670a39eedbc042bdc17"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "grader": "CGC",
+      "cert": "6021692042",
+      "subject": "Pikachu in a Batik Shirt",
+      "year": "2024",
+      "brand": "Scarlet & Violet Promos",
+      "category": "Pokémon",
+      "language": "Indonesian",
+      "cardNumber": "154/SV-P",
+      "variety": "Pikachu's Indonesia Journey",
+      "grade": "10",
+      "gradeDescription": "GEM MINT",
+      "gradeDate": "2025-01-10",
+      "holder": "slab",
+      "certUrl": "https://www.cgccards.com/certlookup/6021692042/10_0/",
+      "population": {
+        "atGrade": 421,
+        "higher": 180,
+        "asOf": "2026-09-07",
+        "source": "CGC Cards",
+        "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/promotional/839/scarlet-and-violet-promos-sv-p/26560/?populationID=1769458"
+      },
+      "valuation": null,
+      "cgc": {
+        "gradeText": "GEM MINT 10",
+        "lookupGrade": "10.0",
+        "gradeChangedFromLookup": false,
+        "fields": {
+          "Cert #": "6021692042",
+          "Card Name": "Pikachu in a Batik Shirt",
+          "Game": "Pokémon",
+          "Year": "2024",
+          "Language": "Indonesian",
+          "Card Set": "Scarlet & Violet Promos",
+          "Card Number": "154/SV-P",
+          "Variant 1": "Pikachu's Indonesia Journey",
+          "Grade": "GEM MINT 10",
+          "Grade Date": "2025-01-10"
+        },
+        "sourceUrl": "https://www.cgccards.com/certlookup/6021692042/10_0/",
+        "capturedAt": "2026-09-07T04:13:27.355Z",
+        "scanOrientation": {
+          "reversed": false,
+          "basis": "CGC Cards viewer labels: Obverse / Reverse"
+        }
+      },
+      "images": {
+        "front": "CGC_6021692042_FRONT.jpg",
+        "back": "CGC_6021692042_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/cgc-card-captures.json",
+        "importedAt": "2026-09-07T04:17:25.287Z",
+        "capturedAt": "2026-09-07T04:13:27.355Z",
+        "pageUrl": "https://www.cgccards.com/certlookup/6021692042/10_0/"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17365444-37ac-42d8-9788-d60553586534/CAR6021692-042_OBV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/6021692042/10_0/",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T04:13:27.355Z",
+          "retrievedAt": "2026-09-07T04:17:32.232Z",
+          "sideBasis": "CGC Cards rendered cert viewer: Obverse / Reverse labels and cert-matching OBV / REV files",
+          "originalWidth": 1476,
+          "originalHeight": 2546,
+          "sha256": "cb1bd4b5495ce33c6b2cbb9cc2cdd1a4acfc969fda16d67438678c06762ab18f",
+          "originalFile": "data/originals/CGC_6021692042_FRONT.jpg",
+          "originalSha256": "16e9ca94984cab674b70e020f2943212a36102b80ee4a97e65b3a90299bddc56"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17365444-37ac-42d8-9788-d60553586534/CAR6021692-042_REV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/6021692042/10_0/",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T04:13:27.355Z",
+          "retrievedAt": "2026-09-07T04:17:32.601Z",
+          "sideBasis": "CGC Cards rendered cert viewer: Obverse / Reverse labels and cert-matching OBV / REV files",
+          "originalWidth": 1476,
+          "originalHeight": 2546,
+          "sha256": "9541fbbb75948b394730f387714918b689f89910df610a84885181e4acd27de7",
+          "originalFile": "data/originals/CGC_6021692042_BACK.jpg",
+          "originalSha256": "498047eb4f01a4c75744578f52641fa4f73589e5b672b1ccd0aa62197c26ac50"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "grader": "CGC",
+      "cert": "1401036524258",
+      "subject": "Deoxys VSTAR",
+      "year": "2022",
+      "brand": "High-Class Decks",
+      "category": "Pokémon",
+      "language": "Japanese",
+      "cardNumber": "007/020",
+      "variety": "Deoxys VSTAR & VMAX Deck",
+      "grade": "10",
+      "gradeDescription": "GEM MINT",
+      "gradeDate": "2024-07-08",
+      "holder": "slab",
+      "certUrl": "https://www.cgccards.com/certlookup/1401036524258/10_0/",
+      "population": {
+        "atGrade": 238,
+        "higher": 178,
+        "asOf": "2026-09-07",
+        "source": "CGC Cards",
+        "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/starter-decks/934/high-class-decks/17439/?populationID=1195367"
+      },
+      "valuation": null,
+      "cgc": {
+        "gradeText": "GEM MINT 10",
+        "lookupGrade": "10.0",
+        "gradeChangedFromLookup": false,
+        "fields": {
+          "Cert #": "1401036524258",
+          "Card Name": "Deoxys VSTAR",
+          "Game": "Pokémon",
+          "Year": "2022",
+          "Language": "Japanese",
+          "Card Set": "High-Class Decks",
+          "Card Number": "007/020",
+          "Variant 1": "Deoxys VSTAR & VMAX Deck",
+          "Grade": "GEM MINT 10",
+          "Grade Date": "2024-07-08"
+        },
+        "sourceUrl": "https://www.cgccards.com/certlookup/1401036524258/10_0/",
+        "capturedAt": "2026-09-07T04:13:45.802Z",
+        "scanOrientation": {
+          "reversed": false,
+          "basis": "CGC Cards viewer labels: Obverse / Reverse"
+        }
+      },
+      "images": {
+        "front": "CGC_1401036524258_FRONT.jpg",
+        "back": "CGC_1401036524258_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/cgc-card-captures.json",
+        "importedAt": "2026-09-07T04:17:25.287Z",
+        "capturedAt": "2026-09-07T04:13:45.802Z",
+        "pageUrl": "https://www.cgccards.com/certlookup/1401036524258/10_0/"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-csg-cards-production.s3.amazonaws.com/a1d54f3e-a432-4f21-804e-13a573573bef/CSG1401036524-258_OBV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/1401036524258/10_0/",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T04:13:45.802Z",
+          "retrievedAt": "2026-09-07T04:17:33.448Z",
+          "sideBasis": "CGC Cards rendered cert viewer: Obverse / Reverse labels and cert-matching OBV / REV files",
+          "originalWidth": 1997,
+          "originalHeight": 3360,
+          "sha256": "e7f816e9b45e2d564ce7c0a4ce734f6d1c8514288b38ac322da37aea383b3284",
+          "originalFile": "data/originals/CGC_1401036524258_FRONT.jpg",
+          "originalSha256": "3714bafb94dc77ab09cb1955fab87677050de4213809b841622dec0bfc02a3e1"
+        },
+        "back": {
+          "url": "https://ccg-imaging-csg-cards-production.s3.amazonaws.com/a1d54f3e-a432-4f21-804e-13a573573bef/CSG1401036524-258_REV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/1401036524258/10_0/",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T04:13:45.802Z",
+          "retrievedAt": "2026-09-07T04:17:33.892Z",
+          "sideBasis": "CGC Cards rendered cert viewer: Obverse / Reverse labels and cert-matching OBV / REV files",
+          "originalWidth": 1997,
+          "originalHeight": 3360,
+          "sha256": "c78de6d5cf526db8556de39720493be639225b0a4ad2d4d15cab6fd99bea7e2f",
+          "originalFile": "data/originals/CGC_1401036524258_BACK.jpg",
+          "originalSha256": "aa0c891533c6feabfb700ac702c3805f805218f8d290a8d4b2a8dab3e6d72779"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "grader": "CGC",
+      "cert": "1401037502277",
+      "subject": "Victreebel",
+      "year": "1999",
+      "brand": "Jungle",
+      "category": "Pokémon",
+      "language": "English",
+      "cardNumber": "14/64",
+      "variety": "Holo",
+      "grade": "8.5",
+      "gradeDescription": null,
+      "gradeDate": "2024-07-09",
+      "holder": "slab",
+      "certUrl": "https://www.cgccards.com/certlookup/1401037502277/8_5/",
+      "population": {
+        "atGrade": 313,
+        "higher": 278,
+        "asOf": "2026-09-07",
+        "source": "CGC Cards",
+        "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/original-series/1014/jungle-unlimited/12930/?populationID=470922"
+      },
+      "valuation": null,
+      "cgc": {
+        "gradeText": "8.5",
+        "lookupGrade": "8.5",
+        "gradeChangedFromLookup": false,
+        "fields": {
+          "Cert #": "1401037502277",
+          "Card Name": "Victreebel",
+          "Game": "Pokémon",
+          "Year": "1999",
+          "Language": "English",
+          "Card Set": "Jungle",
+          "Card Number": "14/64",
+          "Variant 1": "Holo",
+          "Grade": "8.5",
+          "Grade Date": "2024-07-09"
+        },
+        "sourceUrl": "https://www.cgccards.com/certlookup/1401037502277/8_5/",
+        "capturedAt": "2026-09-07T04:14:14.718Z",
+        "scanOrientation": {
+          "reversed": false,
+          "basis": "CGC Cards viewer labels: Obverse / Reverse"
+        }
+      },
+      "images": {
+        "front": "CGC_1401037502277_FRONT.jpg",
+        "back": "CGC_1401037502277_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/cgc-card-captures.json",
+        "importedAt": "2026-09-07T04:17:25.287Z",
+        "capturedAt": "2026-09-07T04:14:14.718Z",
+        "pageUrl": "https://www.cgccards.com/certlookup/1401037502277/8_5/"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/2a84f889-acbf-4fd3-a4ad-8ff54e3e47e0/CGC1401037502-277_OBV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/1401037502277/8_5/",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T04:14:14.718Z",
+          "retrievedAt": "2026-09-07T04:17:34.246Z",
+          "sideBasis": "CGC Cards rendered cert viewer: Obverse / Reverse labels and cert-matching OBV / REV files",
+          "originalWidth": 1987,
+          "originalHeight": 3266,
+          "sha256": "e2ea99e5100c1a6c33d1eb4e4894422d9c4f701b0e98cb9c14de4226016d1a6c",
+          "originalFile": "data/originals/CGC_1401037502277_FRONT.jpg",
+          "originalSha256": "88ef4cdc1b37cd8d710fc4444cf93d136b171d9a93145c07b4c41344e1f4175f"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/2a84f889-acbf-4fd3-a4ad-8ff54e3e47e0/CGC1401037502-277_REV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/1401037502277/8_5/",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T04:14:14.718Z",
+          "retrievedAt": "2026-09-07T04:17:34.694Z",
+          "sideBasis": "CGC Cards rendered cert viewer: Obverse / Reverse labels and cert-matching OBV / REV files",
+          "originalWidth": 1987,
+          "originalHeight": 3285,
+          "sha256": "5754ac67b419702b2bd873f77a9803873adcc19fa26c60f4313ef7145610d939",
+          "originalFile": "data/originals/CGC_1401037502277_BACK.jpg",
+          "originalSha256": "e58f805db145336abb0c8b2683c1e8190cdcc728386f4e8cec38fad7d18562e0"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "grader": "CGC",
+      "cert": "1401028405269",
+      "subject": "Pineco",
+      "year": "2003",
+      "brand": "EX Dragon",
+      "category": "Pokémon",
+      "language": "English",
+      "cardNumber": "71/97",
+      "variety": null,
+      "grade": "10",
+      "gradeDescription": "GEM MINT",
+      "gradeDate": "2024-04-12",
+      "holder": "slab",
+      "certUrl": "https://www.cgccards.com/certlookup/1401028405269/10_0/",
+      "population": {
+        "atGrade": 42,
+        "higher": 4,
+        "asOf": "2026-09-07",
+        "source": "CGC Cards",
+        "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/ex/850/ex-dragon-2003-copyright-w-e-symbol/15792/?populationID=474364"
+      },
+      "valuation": null,
+      "cgc": {
+        "gradeText": "GEM MINT 10",
+        "lookupGrade": "10.0",
+        "gradeChangedFromLookup": false,
+        "fields": {
+          "Cert #": "1401028405269",
+          "Card Name": "Pineco",
+          "Game": "Pokémon",
+          "Year": "2003",
+          "Language": "English",
+          "Card Set": "EX Dragon",
+          "Card Number": "71/97",
+          "Grade": "GEM MINT 10",
+          "Grade Date": "2024-04-12"
+        },
+        "sourceUrl": "https://www.cgccards.com/certlookup/1401028405269/10_0/",
+        "capturedAt": "2026-09-07T04:14:46.033Z",
+        "scanOrientation": {
+          "reversed": false,
+          "basis": "CGC Cards viewer labels: Obverse / Reverse"
+        }
+      },
+      "images": {
+        "front": "CGC_1401028405269_FRONT.jpg",
+        "back": "CGC_1401028405269_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/cgc-card-captures.json",
+        "importedAt": "2026-09-07T04:17:25.287Z",
+        "capturedAt": "2026-09-07T04:14:46.033Z",
+        "pageUrl": "https://www.cgccards.com/certlookup/1401028405269/10_0/"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/5f6aadb7-6aa5-463b-9d32-30734cf1fc94/CRD1401028405-269_OBV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/1401028405269/10_0/",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T04:14:46.033Z",
+          "retrievedAt": "2026-09-07T04:17:36.190Z",
+          "sideBasis": "CGC Cards rendered cert viewer: Obverse / Reverse labels and cert-matching OBV / REV files",
+          "originalWidth": 1978,
+          "originalHeight": 3285,
+          "sha256": "da3349854f0f0da4b9f5dfe71bf8dad433de5ca27ac8d13f3721ad5c665b9a99",
+          "originalFile": "data/originals/CGC_1401028405269_FRONT.jpg",
+          "originalSha256": "790f9a7a22d12d6e97fa1cb7eae7dffb67840799f3742f6ace1df6a4ed64d5a0"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/5f6aadb7-6aa5-463b-9d32-30734cf1fc94/CRD1401028405-269_REV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/1401028405269/10_0/",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T04:14:46.033Z",
+          "retrievedAt": "2026-09-07T04:17:36.571Z",
+          "sideBasis": "CGC Cards rendered cert viewer: Obverse / Reverse labels and cert-matching OBV / REV files",
+          "originalWidth": 1968,
+          "originalHeight": 3304,
+          "sha256": "c46b1e12ad99871c2837e4e9903a51de17c9c1fd9236ea6c00a736aaecbb80c7",
+          "originalFile": "data/originals/CGC_1401028405269_BACK.jpg",
+          "originalSha256": "212cd45dcf83c28122f1b3f2da4f52047e73056ee9e704087294d2ce15694846"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "grader": "CGC",
+      "cert": "6032605137",
+      "subject": "Jolteon",
+      "year": "2025",
+      "brand": "Prismatic Evolutions",
+      "category": "Pokémon",
+      "language": "English",
+      "cardNumber": "029/131",
+      "variety": "Holo",
+      "grade": "9.5",
+      "gradeDescription": "MINT+",
+      "gradeDate": "2025-03-28",
+      "holder": "slab",
+      "certUrl": "https://www.cgccards.com/certlookup/6032605137/9_5/",
+      "population": {
+        "atGrade": 49,
+        "higher": 142,
+        "asOf": "2026-09-07",
+        "source": "CGC Cards",
+        "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/scarlet-and-violet/842/prismatic-evolutions-pre-en/31210/?populationID=2042207"
+      },
+      "valuation": null,
+      "cgc": {
+        "gradeText": "MINT+ 9.5",
+        "lookupGrade": "9.5",
+        "gradeChangedFromLookup": false,
+        "fields": {
+          "Cert #": "6032605137",
+          "Card Name": "Jolteon",
+          "Game": "Pokémon",
+          "Year": "2025",
+          "Language": "English",
+          "Card Set": "Prismatic Evolutions",
+          "Card Number": "029/131",
+          "Variant 1": "Holo",
+          "Grade": "MINT+ 9.5",
+          "Grade Date": "2025-03-28"
+        },
+        "sourceUrl": "https://www.cgccards.com/certlookup/6032605137/9_5/",
+        "capturedAt": "2026-09-07T04:14:57.091Z",
+        "scanOrientation": {
+          "reversed": false,
+          "basis": "CGC Cards viewer labels: Obverse / Reverse"
+        }
+      },
+      "images": {
+        "front": "CGC_6032605137_FRONT.jpg",
+        "back": "CGC_6032605137_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/cgc-card-captures.json",
+        "importedAt": "2026-09-07T04:17:25.287Z",
+        "capturedAt": "2026-09-07T04:14:57.091Z",
+        "pageUrl": "https://www.cgccards.com/certlookup/6032605137/9_5/"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17447225-93d8-4635-8a7c-b1125398c88f/CAR6032605-137_OBV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/6032605137/9_5/",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T04:14:57.091Z",
+          "retrievedAt": "2026-09-07T04:17:36.990Z",
+          "sideBasis": "CGC Cards rendered cert viewer: Obverse / Reverse labels and cert-matching OBV / REV files",
+          "originalWidth": 1978,
+          "originalHeight": 3285,
+          "sha256": "19be0ffde5e724f5cc2747187442a946df836a1039898cca052d2a2a8c216168",
+          "originalFile": "data/originals/CGC_6032605137_FRONT.jpg",
+          "originalSha256": "f421e6d4e18a2dfbec0928b4e3cf895af827dc7a199a44f3a640d26777e636d0"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17447225-93d8-4635-8a7c-b1125398c88f/CAR6032605-137_REV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/6032605137/9_5/",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T04:14:57.091Z",
+          "retrievedAt": "2026-09-07T04:17:37.396Z",
+          "sideBasis": "CGC Cards rendered cert viewer: Obverse / Reverse labels and cert-matching OBV / REV files",
+          "originalWidth": 1968,
+          "originalHeight": 3275,
+          "sha256": "83f9736c33d705d1a5a51562f8a8bdf58a3e895e2ea877a64499456e5fa38f4a",
+          "originalFile": "data/originals/CGC_6032605137_BACK.jpg",
+          "originalSha256": "e56adff80ef5ba3a48344cc17b8d3dd78c70c6adbba2e3a84040c81f5002b8e0"
+        }
+      }
+    },
+    {
+      "id": "ArenaClub:8AC002362928",
+      "kind": "card",
+      "provider": "ArenaClub",
+      "grader": "Arena Club",
+      "cert": "8AC002362928",
+      "certUrl": "https://arenaclub.com/cards/pokemon-2023-pokemon-sv-professor-turo-s-scenario-8AC002362928",
+      "subject": "Professor Turo's Scenario",
+      "year": "2023",
+      "brand": "Paradox Rift",
+      "series": "Pokemon SV",
+      "cardNumber": "257",
+      "variety": "Base · Secret Rare",
+      "grade": "9.5",
+      "gradeDescription": "MINT+",
+      "gradeDate": null,
+      "holder": "slab",
+      "population": null,
+      "valuation": null,
+      "images": {
+        "front": "ArenaClub_8AC002362928_FRONT.jpg",
+        "back": "ArenaClub_8AC002362928_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "arenaClub": {
+        "subgrades": {
+          "centering": 9.5,
+          "edges": 9.5,
+          "corners": 9,
+          "surface": 10
+        },
+        "centering": {
+          "left": 45,
+          "right": 55,
+          "top": 45,
+          "bottom": 55
+        },
+        "populationUrl": "https://arenaclub.com/pop-report/item/card_2943b7d8-795e-4395-a2a9-144ee71dd50c",
+        "sourceUrl": "https://arenaclub.com/cards/pokemon-2023-pokemon-sv-professor-turo-s-scenario-8AC002362928",
+        "capturedAt": "2026-09-07T07:02:00.210Z"
+      },
+      "importSource": {
+        "file": "data/incoming/arena-club-8AC002362928.json",
+        "pageUrl": "https://arenaclub.com/cards/pokemon-2023-pokemon-sv-professor-turo-s-scenario-8AC002362928",
+        "capturedAt": "2026-09-07T07:02:00.210Z",
+        "importedAt": "2026-09-07T07:02:00.210Z"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://assets.arenaclub.com/items/card_2943b7d8-795e-4395-a2a9-144ee71dd50c/slab_front.png?fit=scale&w=600",
+          "pageUrl": "https://arenaclub.com/cards/pokemon-2023-pokemon-sv-professor-turo-s-scenario-8AC002362928",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T07:12:16.202Z",
+          "retrievedAt": "2026-09-07T07:12:16.966Z",
+          "sideBasis": "Arena Club rendered card viewer: Front and Back controls and matching slab_front/slab_back files",
+          "originalWidth": 600,
+          "originalHeight": 969,
+          "sha256": "8c6c5aa58dbc454711c94c204ef97f9e708b3556de11c3ab88291ca045f77adf",
+          "originalFile": "data/originals/ArenaClub_8AC002362928_FRONT.jpg",
+          "originalSha256": "4ff73ab63aea103eff0f665409500603a230500a9ef9498b5e112f3f3aa00ff3"
+        },
+        "back": {
+          "url": "https://assets.arenaclub.com/items/card_2943b7d8-795e-4395-a2a9-144ee71dd50c/slab_back.png?fit=scale&w=600",
+          "pageUrl": "https://arenaclub.com/cards/pokemon-2023-pokemon-sv-professor-turo-s-scenario-8AC002362928",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-07T07:12:16.202Z",
+          "retrievedAt": "2026-09-07T07:12:17.290Z",
+          "sideBasis": "Arena Club rendered card viewer: Front and Back controls and matching slab_front/slab_back files",
+          "originalWidth": 600,
+          "originalHeight": 969,
+          "sha256": "21857b4c61b1af3a5711128ef8552e9531de07f90b40962df6e5e5a2bbc48966",
+          "originalFile": "data/originals/ArenaClub_8AC002362928_BACK.jpg",
+          "originalSha256": "85c0a2961990d5069cd9347f2bd7efa304661101db87f447d8a44c3cfcbe8500"
+        }
+      }
+    }
+  ]
+}

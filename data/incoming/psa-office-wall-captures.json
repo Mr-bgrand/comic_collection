@@ -1,0 +1,18 @@
+{
+  "provider":"PSA",
+  "container":{"id":"case-wall-office","title":"Case Wall Display (Office)","location":"Office wall next to desk","physical":true,"virtual":false},
+  "records":[
+    {
+      "cert":"107968908","pageUrl":"https://www.psacard.com/cert/107968908/psa","capturedAt":"2026-09-07T07:23:07.300Z",
+      "fields":{"Cert Number":"107968908","Item Grade":"NM-MT 8","Label Type":"W/ FUGITIVE INK TECHNOLOGY","Reverse Cert/Barcode":"YES","Year":"2024","Brand/Title":"TOPPS CHROME UPDATE 2024 ALL-STAR GAME CHROME","Subject":"PAUL SKENES","Card Number":"29","Category":"BASEBALL CARDS"},
+      "estimate":{"label":"PSA ESTIMATE","value":15,"currency":"USD"},"population":{"atGrade":171,"higher":974},
+      "scans":[{"side":"front","alt":"Cert image 1","url":"https://d1htnxwo4o0jhw.cloudfront.net/cert/174948246/small/UhpAmbHNNE-4LQIaXLX81A.jpg","width":380,"height":635},{"side":"back","alt":"Cert image 2","url":"https://d1htnxwo4o0jhw.cloudfront.net/cert/174948246/small/CaNU3pxz8U-qo2azr9Vmbg.jpg","width":380,"height":637}]
+    },
+    {
+      "cert":"76211263","pageUrl":"https://www.psacard.com/cert/76211263/psa","capturedAt":"2026-09-07T07:23:23.927Z",
+      "fields":{"Cert Number":"76211263","Item Grade":"GEM MT 10","Label Type":"W/ FUGITIVE INK TECHNOLOGY","Reverse Cert/Barcode":"YES","Year":"2023","Brand/Title":"TOPPS","Subject":"CORBIN CARROLL","Card Number":"401","Category":"BASEBALL CARDS"},
+      "estimate":{"label":"PSA ESTIMATE","value":25,"currency":"USD"},"population":{"atGrade":2142,"higher":0},
+      "scans":[{"side":"front","alt":"Cert image 1","url":"https://d1htnxwo4o0jhw.cloudfront.net/cert/142480771/small/CnslHnl2yEOBWkEw6vxYxw.jpg","width":380,"height":638},{"side":"back","alt":"Cert image 2","url":"https://d1htnxwo4o0jhw.cloudfront.net/cert/142480771/small/Aqpe4f809UaslOOQuiJgjw.jpg","width":380,"height":636}]
+    }
+  ]
+}

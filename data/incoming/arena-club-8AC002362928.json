@@ -1,0 +1,23 @@
+{
+  "provider":"ArenaClub",
+  "cert":"8AC002362928",
+  "pageUrl":"https://arenaclub.com/cards/pokemon-2023-pokemon-sv-professor-turo-s-scenario-8AC002362928",
+  "captureMethod":"Rendered Arena Club card detail, Front/Back controls and Grading Report",
+  "subject":"Professor Turo's Scenario",
+  "year":"2023",
+  "series":"Pokemon SV",
+  "set":"Paradox Rift",
+  "parallel":"Base",
+  "rarity":"Secret Rare",
+  "cardNumber":"257",
+  "grade":"9.5",
+  "gradeDescription":"MINT+",
+  "subgrades":{"centering":9.5,"edges":9.5,"corners":9,"surface":10},
+  "centering":{"left":45,"right":55,"top":45,"bottom":55},
+  "populationUrl":"https://arenaclub.com/pop-report/item/card_2943b7d8-795e-4395-a2a9-144ee71dd50c",
+  "scans":[
+    {"side":"front","url":"https://assets.arenaclub.com/items/card_2943b7d8-795e-4395-a2a9-144ee71dd50c/slab_front.png?fit=scale&w=600","width":600,"height":969},
+    {"side":"back","url":"https://assets.arenaclub.com/items/card_2943b7d8-795e-4395-a2a9-144ee71dd50c/slab_back.png?fit=scale&w=600","width":600,"height":969}
+  ],
+  "container":{"id":"case-01","title":"Case #1","location":"Case #1","physical":true,"virtual":false}
+}

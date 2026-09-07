@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Case Wall Display (Office) label</title>
+<style>
+
+@page { size: 4in 6in; margin: 0.18in; }
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  width: 3.64in;
+  font-family: "Helvetica Neue Condensed", "Arial Narrow", "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #16161a;
+  background: #fff;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.1in;
+  height: 1.16in;
+  padding-bottom: 0.06in;
+  border-bottom: 1.5pt solid #16161a;
+  overflow: hidden;
+}
+
+.bin-no {
+  font-size: 24pt;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 0.92;
+}
+
+.bin-meta {
+  margin-top: 0.04in;
+  font-size: 7pt;
+  line-height: 1.3;
+  color: #55555e;
+}
+
+.bin-meta strong { color: #16161a; font-weight: 700; }
+.bin-title { font-size: 7pt; font-weight: 700; margin-top: .04in; line-height: 1.15; overflow-wrap: anywhere; }
+
+.qr { width: 1.0in; height: 1.0in; flex: none; }
+.qr svg { width: 100%; height: 100%; display: block; }
+
+ol { list-style: none; margin-top: 0.06in; }
+
+li {
+  display: grid;
+  grid-template-columns: 2.8in 1fr;
+  align-items: center;
+  column-gap: 0.05in;
+  height: 0.3791in;
+  border-bottom: 0.3pt solid #e4e4e8;
+  overflow: hidden;
+}
+
+li:last-child { border-bottom: 0; }
+
+.t {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+.g {
+  font-size: 10pt;
+  font-weight: 700;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  line-height: 1.15;
+}
+
+.star { font-size: 8.5pt; }
+
+footer {
+  height: 0.2in;
+  /* No margin here — the height budget in labelMetrics counts this box only. */
+  padding-top: 0.04in;
+  border-top: 0.75pt solid #16161a;
+  font-size: 6pt;
+  color: #55555e;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <div class="bin-no" style="font-size:19pt;line-height:1.05">Case Wall Display (Office)</div>
+
+    <div class="bin-meta">
+      <strong>11</strong> copies &middot; Office wall next to desk<br>
+      ★ 1 top pop<br>Printed 2026-09-07
+    </div>
+  </div>
+  <div class="qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h37v37H0z"/><path stroke="#000000" d="M0 0.5h7m2 0h2m1 0h1m1 0h1m2 0h1m5 0h3m2 0h1m1 0h7M0 1.5h1m5 0h1m8 0h1m1 0h1m2 0h1m1 0h1m1 0h5m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m2 0h5m5 0h1m5 0h2m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h1m3 0h1m2 0h1m2 0h1m1 0h5m3 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h1m2 0h4m2 0h2m1 0h1m2 0h2m3 0h1m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h3m1 0h2m2 0h2m2 0h3m1 0h2m1 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h1m1 0h1m1 0h2m2 0h4m1 0h4m1 0h2M0 8.5h1m1 0h5m2 0h1m1 0h3m1 0h2m5 0h1m1 0h5m1 0h5M0 9.5h1m1 0h1m5 0h2m2 0h4m2 0h1m1 0h1m2 0h1m10 0h2M0 10.5h1m4 0h2m2 0h1m1 0h1m1 0h1m1 0h5m1 0h1m2 0h1m1 0h4m1 0h2m1 0h3M0 11.5h1m1 0h4m1 0h1m2 0h2m1 0h1m1 0h1m3 0h4m4 0h5m4 0h1M1 12.5h2m2 0h5m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m2 0h4m1 0h1m1 0h2m1 0h1m1 0h3M1 13.5h1m2 0h2m6 0h1m3 0h1m1 0h3m2 0h1m4 0h2m1 0h1M0 14.5h2m3 0h3m5 0h3m2 0h1m1 0h1m1 0h1m4 0h1m1 0h1m1 0h3m2 0h1M0 15.5h1m2 0h1m3 0h1m2 0h1m1 0h1m2 0h2m4 0h2m3 0h1m2 0h1m1 0h2M0 16.5h2m2 0h3m1 0h1m5 0h2m2 0h2m2 0h1m1 0h4m2 0h3m1 0h2M0 17.5h2m1 0h3m2 0h3m2 0h1m1 0h3m5 0h1m1 0h2m1 0h2m1 0h1m1 0h1m1 0h1M0 18.5h2m3 0h2m1 0h1m1 0h1m3 0h1m2 0h1m2 0h1m1 0h1m2 0h4m1 0h2m1 0h4M0 19.5h2m1 0h1m1 0h1m5 0h2m1 0h1m1 0h1m3 0h3m1 0h1m6 0h1m4 0h1M0 20.5h4m2 0h1m1 0h1m3 0h3m1 0h2m7 0h4m1 0h1m1 0h3M1 21.5h1m1 0h3m3 0h6m1 0h6m1 0h1m4 0h1m4 0h1M0 22.5h1m2 0h2m1 0h1m1 0h2m4 0h4m2 0h1m1 0h1m1 0h2m1 0h3m1 0h3m1 0h2M0 23.5h1m2 0h1m3 0h1m5 0h1m3 0h2m1 0h2m2 0h1m1 0h1m1 0h2m1 0h2m2 0h1M3 24.5h4m1 0h1m4 0h1m1 0h2m2 0h1m2 0h9m1 0h1m1 0h2M0 25.5h1m1 0h1m1 0h1m6 0h1m1 0h3m1 0h4m2 0h1m4 0h1m2 0h1M0 26.5h1m2 0h2m1 0h3m3 0h2m1 0h2m3 0h1m1 0h1m2 0h5m1 0h1m3 0h2M0 27.5h1m2 0h1m3 0h2m2 0h1m1 0h3m2 0h2m1 0h3m2 0h2m1 0h2m1 0h1M0 28.5h1m1 0h1m3 0h1m1 0h3m2 0h3m1 0h1m4 0h1m1 0h9m1 0h1M8 29.5h2m1 0h2m1 0h1m1 0h1m1 0h4m1 0h1m3 0h2m3 0h2M0 30.5h7m2 0h1m1 0h1m1 0h1m1 0h2m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m1 0h2m2 0h5m2 0h3m4 0h1m1 0h1m3 0h2m1 0h2M0 32.5h1m1 0h3m1 0h1m1 0h1m1 0h1m3 0h2m2 0h2m2 0h1m2 0h1m1 0h6m1 0h1M0 33.5h1m1 0h3m1 0h1m1 0h3m2 0h5m1 0h3m1 0h1m1 0h1m1 0h4m1 0h1m3 0h1M0 34.5h1m1 0h3m1 0h1m1 0h4m2 0h1m5 0h1m6 0h1m5 0h4M0 35.5h1m5 0h1m3 0h1m1 0h1m1 0h1m1 0h1m1 0h1m2 0h2m3 0h3m1 0h1m1 0h1m3 0h1M0 36.5h7m1 0h1m2 0h1m2 0h1m2 0h1m1 0h1m2 0h2m1 0h2m2 0h1m2 0h5"/></svg>
+</div>
+</header>
+
+<ol>
+      <li><span class="t" style="font-size:6.5pt">2024 TOPPS CHROME UPDATE 2024 ALL-STAR GAME CHROME #29 PAUL SKENES</span><span class="g">8</span></li>
+      <li><span class="t" style="font-size:9.5pt">2023 TOPPS #401 CORBIN CARROLL</span><span class="g">10<span class="star"> ★</span></span></li>
+      <li><span class="t" style="font-size:7.5pt">2024 SURGING SPARKS ELITE TRAINER BOX #159 MAGNETON</span><span class="g">9</span></li>
+      <li><span class="t" style="font-size:6.5pt">2021 BOWMAN DRAFT SAPPHIRE EDITION #BDC-119 JACKSON MERRILL</span><span class="g">8</span></li>
+      <li><span class="t" style="font-size:6.5pt">2024 TOPPS UPDATE #89US-46 PAUL SKENES : 1989 TOPPS BASEBALL</span><span class="g">9</span></li>
+      <li><span class="t" style="font-size:8.5pt">2024 BOWMAN #BAI-15 PAUL SKENES : BOWMAN A.I.</span><span class="g">10</span></li>
+      <li><span class="t" style="font-size:7.5pt">2024 TOPPS UPDATE #US100 PAUL SKENES : RAINBOW FOIL</span><span class="g">9</span></li>
+      <li><span class="t" style="font-size:7.2pt">2024 BOWMAN MEGA BOX #BCP-125 PAUL SKENES : PROSPECTS</span><span class="g">10</span></li>
+      <li><span class="t" style="font-size:6.5pt">2024 TOPPS CHROME UPDATE #USC43 JARED JONES : PRISM REFRACTOR</span><span class="g">8.5</span></li>
+      <li><span class="t" style="font-size:7.2pt">2024 TOPPS MUSEUM COLLECTION #94 PAUL SKENES : COPPER</span><span class="g">9</span></li>
+      <li><span class="t" style="font-size:6.7pt">2021 BOWMAN DRAFT SAPPHIRE EDITION #BDC-41 BUBBA CHANDLER</span><span class="g">7</span></li>
+</ol>
+
+<footer>
+  <span>Scan for full records &amp; cover scans</span>
+  <span>mr-bgrand.github.io/comic_collection/review/?case=case-wall-office</span>
+</footer>
+</body>
+</html>

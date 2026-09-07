@@ -1,0 +1,973 @@
+{
+  "provider": "TAG",
+  "captureMethod": "Rendered TAG card pages: identity, grade, population, rank, chronology and DIG summary; image elements filtered to explicit FRONT_MAIN / BACK_MAIN. Numeric 1000-point grade score not exposed by the checked View Score control.",
+  "records": [
+    {
+      "cert": "Q9937497",
+      "pageUrl": "https://my.taggrading.com/card/Q9937497",
+      "renderedCert": "Q9937497",
+      "capturedAt": "2026-09-07T03:36:41.907Z",
+      "identity": [
+        "シロナのロズレイド CYNTHIA'S ROSERADE",
+        "2025 POKÉMON SCARLET & VIOLET JAPANESE #065/063",
+        "HEAT WAVE ARENA",
+        "ART RARE"
+      ],
+      "grade": [
+        "9",
+        "MINT"
+      ],
+      "population": {
+        "asOf": "9/6/2026",
+        "atGrade": 103,
+        "total": 324
+      },
+      "rank": {
+        "asOf": "9/6/2026",
+        "atGrade": "3rd",
+        "atGradeLabel": "HIGHEST MINT (T)",
+        "overall": "219th",
+        "overallLabel": "HIGHEST OVERALL (T)"
+      },
+      "chronology": {
+        "graded": "6/2/2025",
+        "atGrade": "8th",
+        "overall": "44th"
+      },
+      "dings": {
+        "corners": {
+          "front": 0,
+          "back": 0
+        },
+        "edges": {
+          "front": 0,
+          "back": 0
+        },
+        "surface": {
+          "front": 0,
+          "back": 0
+        }
+      },
+      "centering": {
+        "front": "57L/43R 47T/53B",
+        "back": "46L/54R 52T/48B"
+      },
+      "dimensions": {
+        "heightIn": "3.460",
+        "widthIn": "2.478"
+      },
+      "scans": [
+        {
+          "side": "front",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/b15fbe06-52e3-4768-bcfc-710f97002418_FRONT_MAIN.jpg",
+          "width": 4386,
+          "height": 6083
+        },
+        {
+          "side": "back",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/b15fbe06-52e3-4768-bcfc-710f97002418_BACK_MAIN.jpg",
+          "width": 4385,
+          "height": 6082
+        }
+      ]
+    },
+    {
+      "cert": "R4092198",
+      "pageUrl": "https://my.taggrading.com/card/R4092198",
+      "renderedCert": "R4092198",
+      "capturedAt": "2026-09-07T03:37:01.614Z",
+      "identity": [
+        "MAGBY",
+        "2023 POKÉMON SCARLET & VIOLET #186/182",
+        "PARADOX RIFT",
+        "ILLUSTRATION RARE"
+      ],
+      "grade": [
+        "10",
+        "GEM MINT"
+      ],
+      "population": {
+        "asOf": "9/6/2026",
+        "atGrade": 27,
+        "total": 56
+      },
+      "rank": {
+        "asOf": "9/6/2026",
+        "atGrade": "1st",
+        "atGradeLabel": "HIGHEST GEM MINT (T)",
+        "overall": "2nd",
+        "overallLabel": "HIGHEST OVERALL (T)"
+      },
+      "chronology": {
+        "graded": "6/2/2025",
+        "atGrade": "12th",
+        "overall": "22nd"
+      },
+      "dings": {
+        "corners": {
+          "front": 0,
+          "back": 1
+        },
+        "edges": {
+          "front": 0,
+          "back": 0
+        },
+        "surface": {
+          "front": 0,
+          "back": 1
+        }
+      },
+      "centering": {
+        "front": "51L/49R 55T/45B",
+        "back": "49L/51R 49T/51B"
+      },
+      "dimensions": {
+        "heightIn": "3.465",
+        "widthIn": "2.479"
+      },
+      "scans": [
+        {
+          "side": "front",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/761ed0bf-ad07-4371-84f2-316f21bebf57_FRONT_MAIN.jpg",
+          "width": 4387,
+          "height": 6091
+        },
+        {
+          "side": "back",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/761ed0bf-ad07-4371-84f2-316f21bebf57_BACK_MAIN.jpg",
+          "width": 4387,
+          "height": 6090
+        }
+      ]
+    },
+    {
+      "cert": "H9812622",
+      "pageUrl": "https://my.taggrading.com/card/H9812622",
+      "renderedCert": "H9812622",
+      "capturedAt": "2026-09-07T03:37:27.767Z",
+      "identity": [
+        "SCREAM TAIL",
+        "2023 POKÉMON SCARLET & VIOLET BLACK STAR PROMOS #065",
+        "PARADOX RIFT ELITE TRAINER BOX",
+        "HOLO"
+      ],
+      "grade": [
+        "10",
+        "GEM MINT"
+      ],
+      "population": {
+        "asOf": "9/6/2026",
+        "atGrade": 25,
+        "total": 65
+      },
+      "rank": {
+        "asOf": "9/6/2026",
+        "atGrade": "1st",
+        "atGradeLabel": "HIGHEST GEM MINT (T)",
+        "overall": "1st",
+        "overallLabel": "HIGHEST OVERALL (T)"
+      },
+      "chronology": {
+        "graded": "6/2/2025",
+        "atGrade": "7th",
+        "overall": "23rd"
+      },
+      "dings": {
+        "corners": {
+          "front": 0,
+          "back": 1
+        },
+        "edges": {
+          "front": 0,
+          "back": 0
+        },
+        "surface": {
+          "front": 0,
+          "back": 0
+        }
+      },
+      "centering": {
+        "front": "52L/48R 52T/48B",
+        "back": "46L/54R 53T/47B"
+      },
+      "dimensions": {
+        "heightIn": "3.461",
+        "widthIn": "2.477"
+      },
+      "scans": [
+        {
+          "side": "front",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/d2fc5150-fa98-4f91-b472-ce86ef2832b6_FRONT_MAIN.jpg",
+          "width": 4396,
+          "height": 6083
+        },
+        {
+          "side": "back",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/d2fc5150-fa98-4f91-b472-ce86ef2832b6_BACK_MAIN.jpg",
+          "width": 4395,
+          "height": 6083
+        }
+      ]
+    },
+    {
+      "cert": "F9615045",
+      "pageUrl": "https://my.taggrading.com/card/F9615045",
+      "renderedCert": "F9615045",
+      "capturedAt": "2026-09-07T03:37:44.766Z",
+      "identity": [
+        "CLEFFA",
+        "2023 POKÉMON SCARLET & VIOLET #202/197",
+        "OBSIDIAN FLAMES",
+        "ILLUSTRATION RARE"
+      ],
+      "grade": [
+        "9",
+        "MINT"
+      ],
+      "population": {
+        "asOf": "9/6/2026",
+        "atGrade": 291,
+        "total": 608
+      },
+      "rank": {
+        "asOf": "9/6/2026",
+        "atGrade": "19th",
+        "atGradeLabel": "HIGHEST MINT (T)",
+        "overall": "131st",
+        "overallLabel": "HIGHEST OVERALL (T)"
+      },
+      "chronology": {
+        "graded": "6/2/2025",
+        "atGrade": "121st",
+        "overall": "256th"
+      },
+      "dings": {
+        "corners": {
+          "front": 0,
+          "back": 1
+        },
+        "edges": {
+          "front": 0,
+          "back": 0
+        },
+        "surface": {
+          "front": 0,
+          "back": 0
+        }
+      },
+      "centering": {
+        "front": "56L/44R 44T/56B",
+        "back": "49L/51R 42T/58B"
+      },
+      "dimensions": {
+        "heightIn": "3.465",
+        "widthIn": "2.486"
+      },
+      "scans": [
+        {
+          "side": "front",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/9475b5ce-2b2a-4610-8f82-751817fb2aaa_FRONT_MAIN.jpg",
+          "width": 4420,
+          "height": 6089
+        },
+        {
+          "side": "back",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/9475b5ce-2b2a-4610-8f82-751817fb2aaa_BACK_MAIN.jpg",
+          "width": 4418,
+          "height": 6090
+        }
+      ]
+    },
+    {
+      "cert": "L6527429",
+      "pageUrl": "https://my.taggrading.com/card/L6527429",
+      "renderedCert": "L6527429",
+      "capturedAt": "2026-09-07T03:37:58.640Z",
+      "identity": [
+        "ペパーのヨクバリス ARVEN'S GREEDENT",
+        "2025 POKÉMON SCARLET & VIOLET JAPANESE #075/063",
+        "HEAT WAVE ARENA",
+        "ART RARE"
+      ],
+      "grade": [
+        "9",
+        "MINT"
+      ],
+      "population": {
+        "asOf": "9/6/2026",
+        "atGrade": 67,
+        "total": 224
+      },
+      "rank": {
+        "asOf": "9/6/2026",
+        "atGrade": "1st",
+        "atGradeLabel": "HIGHEST MINT (T)",
+        "overall": "163rd",
+        "overallLabel": "HIGHEST OVERALL (T)"
+      },
+      "chronology": {
+        "graded": "6/2/2025",
+        "atGrade": "4th",
+        "overall": "17th"
+      },
+      "dings": {
+        "corners": {
+          "front": 0,
+          "back": 0
+        },
+        "edges": {
+          "front": 0,
+          "back": 0
+        },
+        "surface": {
+          "front": 0,
+          "back": 0
+        }
+      },
+      "centering": {
+        "front": "56L/44R 47T/53B",
+        "back": "46L/54R 51T/49B"
+      },
+      "dimensions": {
+        "heightIn": "3.460",
+        "widthIn": "2.478"
+      },
+      "scans": [
+        {
+          "side": "front",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/9a3c005e-bd61-46f6-8f8c-b16d7de65504_FRONT_MAIN.jpg",
+          "width": 4385,
+          "height": 6082
+        },
+        {
+          "side": "back",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/9a3c005e-bd61-46f6-8f8c-b16d7de65504_BACK_MAIN.jpg",
+          "width": 4387,
+          "height": 6082
+        }
+      ]
+    },
+    {
+      "cert": "E1992795",
+      "pageUrl": "https://my.taggrading.com/card/E1992795",
+      "renderedCert": "E1992795",
+      "capturedAt": "2026-09-07T03:38:15.561Z",
+      "identity": [
+        "GARCHOMP EX",
+        "2023 POKÉMON SCARLET & VIOLET #245/182",
+        "PARADOX RIFT",
+        "SPECIAL ILLUSTRATION RARE"
+      ],
+      "grade": [
+        "9",
+        "MINT"
+      ],
+      "population": {
+        "asOf": "9/6/2026",
+        "atGrade": 91,
+        "total": 172
+      },
+      "rank": {
+        "asOf": "9/6/2026",
+        "atGrade": "7th",
+        "atGradeLabel": "HIGHEST MINT (T)",
+        "overall": "45th",
+        "overallLabel": "HIGHEST OVERALL (T)"
+      },
+      "chronology": {
+        "graded": "6/2/2025",
+        "atGrade": "36th",
+        "overall": "74th"
+      },
+      "dings": {
+        "corners": {
+          "front": 0,
+          "back": 1
+        },
+        "edges": {
+          "front": 0,
+          "back": 0
+        },
+        "surface": {
+          "front": 0,
+          "back": 0
+        }
+      },
+      "centering": {
+        "front": "51L/49R 59T/41B",
+        "back": "48L/52R 55T/45B"
+      },
+      "dimensions": {
+        "heightIn": "3.457",
+        "widthIn": "2.478"
+      },
+      "scans": [
+        {
+          "side": "front",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/b9873288-27a9-481b-9af2-5c55a4092a8c_FRONT_MAIN.jpg",
+          "width": 4386,
+          "height": 6078
+        },
+        {
+          "side": "back",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/b9873288-27a9-481b-9af2-5c55a4092a8c_BACK_MAIN.jpg",
+          "width": 4392,
+          "height": 6077
+        }
+      ]
+    },
+    {
+      "cert": "K8931484",
+      "pageUrl": "https://my.taggrading.com/card/K8931484",
+      "renderedCert": "K8931484",
+      "capturedAt": "2026-09-07T03:38:42.649Z",
+      "identity": [
+        "WAILORD",
+        "2025 POKÉMON SCARLET & VIOLET #162/159",
+        "JOURNEY TOGETHER",
+        "ILLUSTRATION RARE"
+      ],
+      "grade": [
+        "9",
+        "MINT"
+      ],
+      "population": {
+        "asOf": "9/6/2026",
+        "atGrade": 426,
+        "total": 812
+      },
+      "rank": {
+        "asOf": "9/6/2026",
+        "atGrade": "30th",
+        "atGradeLabel": "HIGHEST MINT (T)",
+        "overall": "339th",
+        "overallLabel": "HIGHEST OVERALL (T)"
+      },
+      "chronology": {
+        "graded": "6/2/2025",
+        "atGrade": "16th",
+        "overall": "28th"
+      },
+      "dings": {
+        "corners": {
+          "front": 0,
+          "back": 2
+        },
+        "edges": {
+          "front": 0,
+          "back": 0
+        },
+        "surface": {
+          "front": 0,
+          "back": 0
+        }
+      },
+      "centering": {
+        "front": "48L/52R 57T/43B",
+        "back": "53L/47R 53T/47B"
+      },
+      "dimensions": {
+        "heightIn": "3.466",
+        "widthIn": "2.478"
+      },
+      "scans": [
+        {
+          "side": "front",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/1e79a639-c623-4164-8788-cf37e891697c_FRONT_MAIN.jpg",
+          "width": 4386,
+          "height": 6094
+        },
+        {
+          "side": "back",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/1e79a639-c623-4164-8788-cf37e891697c_BACK_MAIN.jpg",
+          "width": 4392,
+          "height": 6092
+        }
+      ]
+    },
+    {
+      "cert": "H1870819",
+      "pageUrl": "https://my.taggrading.com/card/H1870819",
+      "renderedCert": "H1870819",
+      "capturedAt": "2026-09-07T03:38:57.069Z",
+      "identity": [
+        "シロナのガブリアス CYNTHIA'S GARCHOMP EX",
+        "2025 POKÉMON SCARLET & VIOLET JAPANESE #091/063",
+        "HEAT WAVE ARENA",
+        "ULTRA RARE"
+      ],
+      "grade": [
+        "10",
+        "GEM MINT"
+      ],
+      "population": {
+        "asOf": "9/6/2026",
+        "atGrade": 46,
+        "total": 55
+      },
+      "rank": {
+        "asOf": "9/6/2026",
+        "atGrade": "1st",
+        "atGradeLabel": "HIGHEST GEM MINT (T)",
+        "overall": "3rd",
+        "overallLabel": "HIGHEST OVERALL (T)"
+      },
+      "chronology": {
+        "graded": "6/2/2025",
+        "atGrade": "3rd",
+        "overall": "4th"
+      },
+      "dings": {
+        "corners": {
+          "front": 0,
+          "back": 0
+        },
+        "edges": {
+          "front": 0,
+          "back": 0
+        },
+        "surface": {
+          "front": 0,
+          "back": 0
+        }
+      },
+      "centering": {
+        "front": "47L/53R 50T/50B",
+        "back": "53L/47R 49T/51B"
+      },
+      "dimensions": {
+        "heightIn": "3.460",
+        "widthIn": "2.478"
+      },
+      "scans": [
+        {
+          "side": "front",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/858e918a-af53-4dca-8acc-6f6cacfad24d_FRONT_MAIN.jpg",
+          "width": 4384,
+          "height": 6082
+        },
+        {
+          "side": "back",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/858e918a-af53-4dca-8acc-6f6cacfad24d_BACK_MAIN.jpg",
+          "width": 4384,
+          "height": 6082
+        }
+      ]
+    },
+    {
+      "cert": "H7738551",
+      "pageUrl": "https://my.taggrading.com/card/H7738551",
+      "renderedCert": "H7738551",
+      "capturedAt": "2026-09-07T03:39:22.792Z",
+      "identity": [
+        "RIKA",
+        "2023 POKÉMON SCARLET & VIOLET #258/182",
+        "PARADOX RIFT",
+        "SPECIAL ILLUSTRATION RARE"
+      ],
+      "grade": [
+        "9",
+        "MINT"
+      ],
+      "population": {
+        "asOf": "9/6/2026",
+        "atGrade": 9,
+        "total": 19
+      },
+      "rank": {
+        "asOf": "9/6/2026",
+        "atGrade": "1st",
+        "atGradeLabel": "HIGHEST MINT (T)",
+        "overall": "5th",
+        "overallLabel": "HIGHEST OVERALL (T)"
+      },
+      "chronology": {
+        "graded": "6/2/2025",
+        "atGrade": "8th",
+        "overall": "11th"
+      },
+      "dings": {
+        "corners": {
+          "front": 0,
+          "back": 2
+        },
+        "edges": {
+          "front": 0,
+          "back": 0
+        },
+        "surface": {
+          "front": 0,
+          "back": 0
+        }
+      },
+      "centering": {
+        "front": "52L/48R 49T/51B",
+        "back": "51L/49R 48T/52B"
+      },
+      "dimensions": {
+        "heightIn": "3.462",
+        "widthIn": "2.482"
+      },
+      "scans": [
+        {
+          "side": "front",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/9ae10d2c-9c6b-4e56-8a30-3f6e3ba980a6_FRONT_MAIN.jpg",
+          "width": 4396,
+          "height": 6087
+        },
+        {
+          "side": "back",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/9ae10d2c-9c6b-4e56-8a30-3f6e3ba980a6_BACK_MAIN.jpg",
+          "width": 4397,
+          "height": 6085
+        }
+      ]
+    },
+    {
+      "cert": "T4684141",
+      "pageUrl": "https://my.taggrading.com/card/T4684141",
+      "renderedCert": "T4684141",
+      "capturedAt": "2026-09-07T03:39:38.533Z",
+      "identity": [
+        "BOMBIRDIER EX",
+        "2023 POKÉMON SCARLET & VIOLET #234/182",
+        "PARADOX RIFT",
+        "ULTRA RARE"
+      ],
+      "grade": [
+        "9",
+        "MINT"
+      ],
+      "population": {
+        "asOf": "9/6/2026",
+        "atGrade": 4,
+        "total": 7
+      },
+      "rank": {
+        "asOf": "9/6/2026",
+        "atGrade": "1st",
+        "atGradeLabel": "HIGHEST MINT (T)",
+        "overall": "4th",
+        "overallLabel": "HIGHEST OVERALL (T)"
+      },
+      "chronology": {
+        "graded": "6/2/2025",
+        "atGrade": "2nd",
+        "overall": "2nd"
+      },
+      "dings": {
+        "corners": {
+          "front": 0,
+          "back": 2
+        },
+        "edges": {
+          "front": 0,
+          "back": 0
+        },
+        "surface": {
+          "front": 0,
+          "back": 0
+        }
+      },
+      "centering": {
+        "front": "45L/55R 48T/52B",
+        "back": "52L/48R 47T/53B"
+      },
+      "dimensions": {
+        "heightIn": "3.465",
+        "widthIn": "2.483"
+      },
+      "scans": [
+        {
+          "side": "front",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/15a55ab3-e6c6-4f96-b098-269d1a8c6007_FRONT_MAIN.jpg",
+          "width": 4391,
+          "height": 6091
+        },
+        {
+          "side": "back",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/15a55ab3-e6c6-4f96-b098-269d1a8c6007_BACK_MAIN.jpg",
+          "width": 4396,
+          "height": 6090
+        }
+      ]
+    },
+    {
+      "cert": "K3472903",
+      "pageUrl": "https://my.taggrading.com/card/K3472903",
+      "renderedCert": "K3472903",
+      "capturedAt": "2026-09-07T03:39:52.891Z",
+      "identity": [
+        "GENGAR EX",
+        "2024 POKÉMON SCARLET & VIOLET #104/162",
+        "TEMPORAL FORCES",
+        "DOUBLE RARE"
+      ],
+      "grade": [
+        "9",
+        "MINT"
+      ],
+      "population": {
+        "asOf": "9/6/2026",
+        "atGrade": 65,
+        "total": 126
+      },
+      "rank": {
+        "asOf": "9/6/2026",
+        "atGrade": "1st",
+        "atGradeLabel": "HIGHEST MINT (T)",
+        "overall": "43rd",
+        "overallLabel": "HIGHEST OVERALL (T)"
+      },
+      "chronology": {
+        "graded": "6/2/2025",
+        "atGrade": "21st",
+        "overall": "39th"
+      },
+      "dings": {
+        "corners": {
+          "front": 0,
+          "back": 3
+        },
+        "edges": {
+          "front": 0,
+          "back": 0
+        },
+        "surface": {
+          "front": 0,
+          "back": 0
+        }
+      },
+      "centering": {
+        "front": "51L/49R 51T/49B",
+        "back": "46L/54R 49T/51B"
+      },
+      "dimensions": {
+        "heightIn": "3.462",
+        "widthIn": "2.482"
+      },
+      "scans": [
+        {
+          "side": "front",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/ec355be2-1bd2-45c0-98d5-e642a9b0dcf4_FRONT_MAIN.jpg",
+          "width": 4394,
+          "height": 6085
+        },
+        {
+          "side": "back",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/ec355be2-1bd2-45c0-98d5-e642a9b0dcf4_BACK_MAIN.jpg",
+          "width": 4393,
+          "height": 6085
+        }
+      ]
+    },
+    {
+      "cert": "D9973845",
+      "pageUrl": "https://my.taggrading.com/card/D9973845",
+      "renderedCert": "D9973845",
+      "capturedAt": "2026-09-07T03:40:06.108Z",
+      "identity": [
+        "PIDGEOT EX",
+        "2023 POKÉMON SCARLET & VIOLET #225/197",
+        "OBSIDIAN FLAMES",
+        "SPECIAL ILLUSTRATION RARE"
+      ],
+      "grade": [
+        "9",
+        "MINT"
+      ],
+      "population": {
+        "asOf": "9/6/2026",
+        "atGrade": 154,
+        "total": 317
+      },
+      "rank": {
+        "asOf": "9/6/2026",
+        "atGrade": "9th",
+        "atGradeLabel": "HIGHEST MINT (T)",
+        "overall": "66th",
+        "overallLabel": "HIGHEST OVERALL (T)"
+      },
+      "chronology": {
+        "graded": "6/2/2025",
+        "atGrade": "59th",
+        "overall": "125th"
+      },
+      "dings": {
+        "corners": {
+          "front": 0,
+          "back": 0
+        },
+        "edges": {
+          "front": 0,
+          "back": 0
+        },
+        "surface": {
+          "front": 0,
+          "back": 0
+        }
+      },
+      "centering": {
+        "front": "59L/41R 56T/44B",
+        "back": "43L/57R 56T/44B"
+      },
+      "dimensions": {
+        "heightIn": "3.462",
+        "widthIn": "2.475"
+      },
+      "scans": [
+        {
+          "side": "front",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/d51b5050-ca12-4711-b3a0-4770624baf12_FRONT_MAIN.jpg",
+          "width": 4391,
+          "height": 6085
+        },
+        {
+          "side": "back",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/d51b5050-ca12-4711-b3a0-4770624baf12_BACK_MAIN.jpg",
+          "width": 4393,
+          "height": 6085
+        }
+      ]
+    },
+    {
+      "cert": "Y2994116",
+      "pageUrl": "https://my.taggrading.com/card/Y2994116",
+      "renderedCert": "Y2994116",
+      "capturedAt": "2026-09-07T04:17:53.616Z",
+      "identity": [
+        "ORIGIN FORME DIALGA V",
+        "2022 POKÉMON SWORD & SHIELD #177/189",
+        "ASTRAL RADIANCE",
+        "FULL ART - ULTRA RARE"
+      ],
+      "grade": [
+        "9",
+        "MINT"
+      ],
+      "population": {
+        "asOf": "9/6/2026",
+        "atGrade": 83,
+        "total": 186
+      },
+      "rank": {
+        "asOf": "9/6/2026",
+        "atGrade": "11th",
+        "atGradeLabel": "HIGHEST MINT (T)",
+        "overall": "76th",
+        "overallLabel": "HIGHEST OVERALL (T)"
+      },
+      "chronology": {
+        "graded": "6/2/2025",
+        "atGrade": "31st",
+        "overall": "67th"
+      },
+      "dings": {
+        "corners": {
+          "front": 1,
+          "back": 0
+        },
+        "edges": {
+          "front": 0,
+          "back": 0
+        },
+        "surface": {
+          "front": 0,
+          "back": 0
+        }
+      },
+      "centering": {
+        "front": "48L/52R 45T/55B",
+        "back": "43L/57R 48T/52B"
+      },
+      "dimensions": {
+        "heightIn": "3.481",
+        "widthIn": "2.489"
+      },
+      "scans": [
+        {
+          "side": "front",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/197dee0f-0d4a-41c8-86a0-ea9d31b691db_FRONT_MAIN.jpg",
+          "width": 4411,
+          "height": 6122
+        },
+        {
+          "side": "back",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/197dee0f-0d4a-41c8-86a0-ea9d31b691db_BACK_MAIN.jpg",
+          "width": 4403,
+          "height": 6118
+        }
+      ]
+    },
+    {
+      "cert": "S2994291",
+      "pageUrl": "https://my.taggrading.com/card/S2994291",
+      "renderedCert": "S2994291",
+      "capturedAt": "2026-09-07T04:18:18.395Z",
+      "identity": [
+        "ヤンヤンマ YANMA",
+        "2025 POKÉMON SCARLET & VIOLET JAPANESE #064/063",
+        "HEAT WAVE ARENA",
+        "ART RARE"
+      ],
+      "grade": [
+        "9",
+        "MINT"
+      ],
+      "population": {
+        "asOf": "9/6/2026",
+        "atGrade": 68,
+        "total": 202
+      },
+      "rank": {
+        "asOf": "9/6/2026",
+        "atGrade": "1st",
+        "atGradeLabel": "HIGHEST MINT (T)",
+        "overall": "142nd",
+        "overallLabel": "HIGHEST OVERALL (T)"
+      },
+      "chronology": {
+        "graded": "6/2/2025",
+        "atGrade": "2nd",
+        "overall": "13th"
+      },
+      "dings": {
+        "corners": {
+          "front": 0,
+          "back": 0
+        },
+        "edges": {
+          "front": 0,
+          "back": 0
+        },
+        "surface": {
+          "front": 1,
+          "back": 0
+        }
+      },
+      "centering": {
+        "front": "52L/48R 48T/52B",
+        "back": "49L/51R 49T/51B"
+      },
+      "dimensions": {
+        "heightIn": "3.460",
+        "widthIn": "2.479"
+      },
+      "scans": [
+        {
+          "side": "front",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/5e2cfeaf-8801-4df6-a08b-5c8d67b1c1c9_FRONT_MAIN.jpg",
+          "width": 4386,
+          "height": 6083
+        },
+        {
+          "side": "back",
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/5e2cfeaf-8801-4df6-a08b-5c8d67b1c1c9_BACK_MAIN.jpg",
+          "width": 4386,
+          "height": 6081
+        }
+      ]
+    }
+  ],
+  "pending": []
+}

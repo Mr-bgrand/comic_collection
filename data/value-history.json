@@ -1,0 +1,375 @@
+{
+  "schemaVersion": 1,
+  "currency": "USD",
+  "timeZone": "America/Phoenix",
+  "snapshots": [
+    {
+      "observedAt": "2026-08-17T05:42:59.000Z",
+      "source": "saved-inventory",
+      "revision": "84817061b02c58906a469c6052a9c9faedccfe5c",
+      "fingerprint": "1299096080c676a607969df934e638ab6d5827ef14607495ece6442c0aeff4c6",
+      "total": 1639,
+      "count": 46,
+      "valued": 28,
+      "unvalued": 18,
+      "marketTotal": 1639,
+      "ownerTotal": 0,
+      "undated": 0,
+      "comics": {
+        "total": 1639,
+        "count": 46,
+        "valued": 28,
+        "unvalued": 18,
+        "marketTotal": 1639,
+        "ownerTotal": 0,
+        "undated": 0
+      },
+      "cards": {
+        "total": 0,
+        "count": 0,
+        "valued": 0,
+        "unvalued": 0,
+        "marketTotal": 0,
+        "ownerTotal": 0,
+        "undated": 0
+      }
+    },
+    {
+      "observedAt": "2026-08-19T06:39:46.000Z",
+      "source": "saved-inventory",
+      "revision": "64520d0e8d78225c26f26ddf53e5d30d68cb1c27",
+      "fingerprint": "fe535654ba2dcbe98f6536485e53aa6fe2451484677800242979e6df4bf1cae5",
+      "total": 3179,
+      "count": 71,
+      "valued": 49,
+      "unvalued": 22,
+      "marketTotal": 3179,
+      "ownerTotal": 0,
+      "undated": 0,
+      "comics": {
+        "total": 3179,
+        "count": 71,
+        "valued": 49,
+        "unvalued": 22,
+        "marketTotal": 3179,
+        "ownerTotal": 0,
+        "undated": 0
+      },
+      "cards": {
+        "total": 0,
+        "count": 0,
+        "valued": 0,
+        "unvalued": 0,
+        "marketTotal": 0,
+        "ownerTotal": 0,
+        "undated": 0
+      }
+    },
+    {
+      "observedAt": "2026-08-20T05:51:40.000Z",
+      "source": "saved-inventory",
+      "revision": "21a989e6f4e08a5cad69ed89df79e322189574aa",
+      "fingerprint": "f0263691b455c3908f5f9f3706b2d5f050918dfd4947e6798f806560cef162c8",
+      "total": 3393,
+      "count": 84,
+      "valued": 56,
+      "unvalued": 28,
+      "marketTotal": 3393,
+      "ownerTotal": 0,
+      "undated": 0,
+      "comics": {
+        "total": 3393,
+        "count": 84,
+        "valued": 56,
+        "unvalued": 28,
+        "marketTotal": 3393,
+        "ownerTotal": 0,
+        "undated": 0
+      },
+      "cards": {
+        "total": 0,
+        "count": 0,
+        "valued": 0,
+        "unvalued": 0,
+        "marketTotal": 0,
+        "ownerTotal": 0,
+        "undated": 0
+      }
+    },
+    {
+      "observedAt": "2026-08-21T05:18:30.000Z",
+      "source": "saved-inventory",
+      "revision": "23032219f2a39257f21a125bc78faf3293246c54",
+      "fingerprint": "dfe3f864ca390ad4d0cae5f20a7df3df199fe2560c7fae5e63dd5668e00776ca",
+      "total": 5941,
+      "count": 148,
+      "valued": 92,
+      "unvalued": 56,
+      "marketTotal": 5941,
+      "ownerTotal": 0,
+      "undated": 0,
+      "comics": {
+        "total": 5941,
+        "count": 148,
+        "valued": 92,
+        "unvalued": 56,
+        "marketTotal": 5941,
+        "ownerTotal": 0,
+        "undated": 0
+      },
+      "cards": {
+        "total": 0,
+        "count": 0,
+        "valued": 0,
+        "unvalued": 0,
+        "marketTotal": 0,
+        "ownerTotal": 0,
+        "undated": 0
+      }
+    },
+    {
+      "observedAt": "2026-08-22T00:26:25.000Z",
+      "source": "saved-inventory",
+      "revision": "109bdde285bab6e6e6816c0b615ed4dfa727a966",
+      "fingerprint": "caa5d625ba2ed5ea277d26e636abd793c4f6a734a79877510486d41327f3759d",
+      "total": 7209,
+      "count": 168,
+      "valued": 114,
+      "unvalued": 54,
+      "marketTotal": 7209,
+      "ownerTotal": 0,
+      "undated": 0,
+      "comics": {
+        "total": 7209,
+        "count": 168,
+        "valued": 114,
+        "unvalued": 54,
+        "marketTotal": 7209,
+        "ownerTotal": 0,
+        "undated": 0
+      },
+      "cards": {
+        "total": 0,
+        "count": 0,
+        "valued": 0,
+        "unvalued": 0,
+        "marketTotal": 0,
+        "ownerTotal": 0,
+        "undated": 0
+      }
+    },
+    {
+      "observedAt": "2026-08-22T19:55:22.000Z",
+      "source": "saved-inventory",
+      "revision": "db7e9e5d0e3cff44eb9410ee73383acda31c300a",
+      "fingerprint": "a0d70ff1805a2b2c0d6c25dc4b24807ac5fffaed54d14a53cf7c3cf6b2592d63",
+      "total": 9238,
+      "count": 213,
+      "valued": 149,
+      "unvalued": 64,
+      "marketTotal": 9238,
+      "ownerTotal": 0,
+      "undated": 0,
+      "comics": {
+        "total": 9238,
+        "count": 213,
+        "valued": 149,
+        "unvalued": 64,
+        "marketTotal": 9238,
+        "ownerTotal": 0,
+        "undated": 0
+      },
+      "cards": {
+        "total": 0,
+        "count": 0,
+        "valued": 0,
+        "unvalued": 0,
+        "marketTotal": 0,
+        "ownerTotal": 0,
+        "undated": 0
+      }
+    },
+    {
+      "observedAt": "2026-08-27T05:55:01.000Z",
+      "source": "saved-inventory",
+      "revision": "3a59e86a07d10471ce9e302da7b0579dc5bd67a6",
+      "fingerprint": "821f764b1693f68066a80476f0934031ca01c2d7b920b4dccde24ea578fe75ed",
+      "total": 11483,
+      "count": 243,
+      "valued": 163,
+      "unvalued": 80,
+      "marketTotal": 11483,
+      "ownerTotal": 0,
+      "undated": 0,
+      "comics": {
+        "total": 11483,
+        "count": 243,
+        "valued": 163,
+        "unvalued": 80,
+        "marketTotal": 11483,
+        "ownerTotal": 0,
+        "undated": 0
+      },
+      "cards": {
+        "total": 0,
+        "count": 0,
+        "valued": 0,
+        "unvalued": 0,
+        "marketTotal": 0,
+        "ownerTotal": 0,
+        "undated": 0
+      }
+    },
+    {
+      "observedAt": "2026-08-30T23:20:36.000Z",
+      "source": "saved-inventory",
+      "revision": "1eb422a78545baa0b9a81b2f35d1499d8c771b5a",
+      "fingerprint": "daf46ef768bed0c03c37d3b15697a80d126111b8d9d274d89ef617511cf80d59",
+      "total": 11483,
+      "count": 244,
+      "valued": 163,
+      "unvalued": 81,
+      "marketTotal": 11483,
+      "ownerTotal": 0,
+      "undated": 0,
+      "comics": {
+        "total": 11483,
+        "count": 244,
+        "valued": 163,
+        "unvalued": 81,
+        "marketTotal": 11483,
+        "ownerTotal": 0,
+        "undated": 0
+      },
+      "cards": {
+        "total": 0,
+        "count": 0,
+        "valued": 0,
+        "unvalued": 0,
+        "marketTotal": 0,
+        "ownerTotal": 0,
+        "undated": 0
+      }
+    },
+    {
+      "observedAt": "2026-09-07T05:22:07.946Z",
+      "source": "build",
+      "fingerprint": "ba426e99f13e26542e2208388c37c85b7be2cb8e6c3e0b982696473ab30ff59e",
+      "total": 18763,
+      "count": 319,
+      "valued": 208,
+      "unvalued": 111,
+      "marketTotal": 18763,
+      "ownerTotal": 0,
+      "undated": 45,
+      "comics": {
+        "total": 11483,
+        "count": 245,
+        "valued": 163,
+        "unvalued": 82,
+        "marketTotal": 11483,
+        "ownerTotal": 0,
+        "undated": 0
+      },
+      "cards": {
+        "total": 7280,
+        "count": 74,
+        "valued": 45,
+        "unvalued": 29,
+        "marketTotal": 7280,
+        "ownerTotal": 0,
+        "undated": 45
+      }
+    },
+    {
+      "observedAt": "2026-09-07T06:17:35.209Z",
+      "source": "build",
+      "fingerprint": "ba5f6cf293ad723d5c9f0b2b884997401b3ea5851d173fca4120fc667cc61475",
+      "total": 18763,
+      "count": 334,
+      "valued": 208,
+      "unvalued": 126,
+      "marketTotal": 18763,
+      "ownerTotal": 0,
+      "undated": 45,
+      "comics": {
+        "total": 11483,
+        "count": 245,
+        "valued": 163,
+        "unvalued": 82,
+        "marketTotal": 11483,
+        "ownerTotal": 0,
+        "undated": 0
+      },
+      "cards": {
+        "total": 7280,
+        "count": 89,
+        "valued": 45,
+        "unvalued": 44,
+        "marketTotal": 7280,
+        "ownerTotal": 0,
+        "undated": 45
+      }
+    },
+    {
+      "observedAt": "2026-09-07T06:51:49.908Z",
+      "source": "build",
+      "fingerprint": "3acc362181c28b3c1e80e168f8821a76530cdcc364467ba03754d293908ef015",
+      "total": 18763,
+      "count": 376,
+      "valued": 208,
+      "unvalued": 168,
+      "marketTotal": 18763,
+      "ownerTotal": 0,
+      "undated": 45,
+      "comics": {
+        "total": 11483,
+        "count": 245,
+        "valued": 163,
+        "unvalued": 82,
+        "marketTotal": 11483,
+        "ownerTotal": 0,
+        "undated": 0
+      },
+      "cards": {
+        "total": 7280,
+        "count": 131,
+        "valued": 45,
+        "unvalued": 86,
+        "marketTotal": 7280,
+        "ownerTotal": 0,
+        "undated": 45
+      }
+    },
+    {
+      "observedAt": "2026-09-07T07:26:35.217Z",
+      "source": "build",
+      "fingerprint": "446794456ceef625842772ea172483923072f5a763dd149f0915a649a24e42fe",
+      "total": 18803,
+      "count": 498,
+      "valued": 210,
+      "unvalued": 288,
+      "marketTotal": 18803,
+      "ownerTotal": 0,
+      "undated": 45,
+      "comics": {
+        "total": 11483,
+        "count": 355,
+        "valued": 163,
+        "unvalued": 192,
+        "marketTotal": 11483,
+        "ownerTotal": 0,
+        "undated": 0
+      },
+      "cards": {
+        "total": 7320,
+        "count": 143,
+        "valued": 47,
+        "unvalued": 96,
+        "marketTotal": 7320,
+        "ownerTotal": 0,
+        "undated": 45
+      }
+    }
+  ]
+}

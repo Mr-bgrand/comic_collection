@@ -58,6 +58,7 @@ header {
 }
 
 .bin-meta strong { color: ${INK}; font-weight: 700; }
+.bin-title { font-size: 7pt; font-weight: 700; margin-top: .04in; line-height: 1.15; overflow-wrap: anywhere; }
 
 .qr { width: 1.0in; height: 1.0in; flex: none; }
 .qr svg { width: 100%; height: 100%; display: block; }
@@ -110,6 +111,12 @@ footer {
 
 export function renderLabel({ bin, qrSvg, url, config }) {
   const comics = bin.comics ?? [];
+  if(bin.isPhysicalCase&&comics.length>28){
+    const documents=[];
+    for(let start=0;start<comics.length;start+=28)documents.push(renderLabel({bin:{...bin,comics:comics.slice(start,start+28),labelRange:`${start+1}–${Math.min(start+28,comics.length)} of ${comics.length}`},qrSvg,url,config}));
+    const body=documents.map(html=>`<section class="label-page">${html.match(/<body>([\s\S]*)<\/body>/)[1]}</section>`).join('');
+    return documents[0].replace('</head>','<style>.label-page{break-after:page}.label-page:last-child{break-after:auto}</style></head>').replace(/<body>[\s\S]*<\/body>/,`<body>${body}</body>`);
+  }
   const metrics = labelMetrics(comics.length, {
     headerIn: HEADER_IN,
     footerIn: FOOTER_IN,
@@ -133,12 +140,13 @@ export function renderLabel({ bin, qrSvg, url, config }) {
 
   const body = `<header>
   <div>
-    <div class="bin-no">BIN ${escapeHtml(bin.bin)}</div>
+    <div class="bin-no"${bin.isPhysicalCase?' style="font-size:19pt;line-height:1.05"':''}>${escapeHtml(bin.isPhysicalCase?bin.title:'BIN '+bin.bin)}</div>
+${!bin.isPhysicalCase&&bin.title && bin.title !== `Bin ${bin.bin}` ? `    <div class="bin-title">${escapeHtml(bin.title)}</div>` : ''}
     <div class="bin-meta">
-      <strong>${comics.length}</strong> CGC graded${
+      <strong>${escapeHtml(bin.labelRange||comics.length)}</strong> ${bin.isPhysicalCase?'copies':'CGC graded'}${
         bin.location ? ` &middot; ${escapeHtml(bin.location)}` : ''
       }<br>
-      ${topPops ? `★ ${topPops} top pop<br>` : ''}Updated ${escapeHtml(bin.updated ?? '')}
+      ${topPops ? `★ ${topPops} top pop<br>` : ''}${bin.isPhysicalCase?'Printed '+new Date().toISOString().slice(0,10):'Updated '+escapeHtml(bin.updated ?? '')}
     </div>
   </div>
   <div class="qr">${qrSvg}</div>
@@ -153,5 +161,5 @@ ${rows}
   <span>${escapeHtml(url.replace(/^https?:\/\//, ''))}</span>
 </footer>`;
 
-  return page({ title: `Bin ${bin.bin} label`, css: styles(metrics), body });
+  return page({ title: `${bin.isPhysicalCase?bin.title:'Bin '+bin.bin} label`, css: styles(metrics), body });
 }

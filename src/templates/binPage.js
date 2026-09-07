@@ -243,7 +243,7 @@ export function renderBinPage({ bin, imagePrefix = '../../images/', rootPrefix =
   <a class="back" href="${rootPrefix}">&larr; All bins</a>
 
   <header class="bin">
-    <h1>Bin ${escapeHtml(bin.bin)}</h1>
+    <h1>${escapeHtml(bin.title || `Bin ${bin.bin}`)}</h1>
     <div class="sub">
       ${comics.length} graded comics${topPops ? ` &middot; ${topPops} top pop` : ''}${
         bin.location ? ` &middot; ${escapeHtml(bin.location)}` : ''
@@ -254,5 +254,5 @@ export function renderBinPage({ bin, imagePrefix = '../../images/', rootPrefix =
 ${comics.map((c) => renderComic(c, imagePrefix)).join('\n')}
 </div>`;
 
-  return page({ title: `Bin ${bin.bin}`, css, body });
+  return page({ title: bin.title || `Bin ${bin.bin}`, css, body });
 }

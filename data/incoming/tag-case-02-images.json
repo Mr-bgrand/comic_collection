@@ -1,0 +1,462 @@
+{
+  "provider": "TAG",
+  "discoveredAt": "2026-09-07T06:50:34.001Z",
+  "records": [
+    {
+      "grader": "TAG",
+      "cert": "H5738313",
+      "pageUrl": "https://my.taggrading.com/card/H5738313",
+      "discoveredAt": "2026-09-07T06:10:34.588Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/e2a2e54a-fd03-44ef-8ef8-5d1a73a2896c_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/e2a2e54a-fd03-44ef-8ef8-5d1a73a2896c_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "D4344079",
+      "pageUrl": "https://my.taggrading.com/card/D4344079",
+      "discoveredAt": "2026-09-07T06:11:27.235Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/9715d0fe-7bd6-4932-8443-e6b108c76120_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/9715d0fe-7bd6-4932-8443-e6b108c76120_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "D6943986",
+      "pageUrl": "https://my.taggrading.com/card/D6943986",
+      "discoveredAt": "2026-09-07T06:11:27.249Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/8a1773d5-a120-462d-99eb-e7a054c46571_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/8a1773d5-a120-462d-99eb-e7a054c46571_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "E1563870",
+      "pageUrl": "https://my.taggrading.com/card/E1563870",
+      "discoveredAt": "2026-09-07T06:11:27.263Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/7915c0ec-245f-41ff-9cec-527d6d3ad825_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/7915c0ec-245f-41ff-9cec-527d6d3ad825_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "X5786663",
+      "pageUrl": "https://my.taggrading.com/card/X5786663",
+      "discoveredAt": "2026-09-07T06:12:20.400Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/84eb5dfb-4501-4fb7-a242-381ba3315bea_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/84eb5dfb-4501-4fb7-a242-381ba3315bea_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "N2689700",
+      "pageUrl": "https://my.taggrading.com/card/N2689700",
+      "discoveredAt": "2026-09-07T06:12:20.413Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/3076c10e-d0b0-4b06-9290-b80fe5bfd55d_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/3076c10e-d0b0-4b06-9290-b80fe5bfd55d_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "S7276401",
+      "pageUrl": "https://my.taggrading.com/card/S7276401",
+      "discoveredAt": "2026-09-07T06:12:20.426Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/4b22a51f-0678-40cf-a593-04e3d2ce9331_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/4b22a51f-0678-40cf-a593-04e3d2ce9331_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "L3302729",
+      "pageUrl": "https://my.taggrading.com/card/L3302729",
+      "discoveredAt": "2026-09-07T06:13:17.168Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/1a49c0c7-16ce-470e-9a6f-6afd3aca6292_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/1a49c0c7-16ce-470e-9a6f-6afd3aca6292_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "W6420124",
+      "pageUrl": "https://my.taggrading.com/card/W6420124",
+      "discoveredAt": "2026-09-07T06:13:17.182Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/a99d7b1d-fac3-4032-b823-02d5c030d954_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/a99d7b1d-fac3-4032-b823-02d5c030d954_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "H1116328",
+      "pageUrl": "https://my.taggrading.com/card/H1116328",
+      "discoveredAt": "2026-09-07T06:13:17.194Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/b0e770a3-f004-4cc7-80f4-6445059c375f_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/b0e770a3-f004-4cc7-80f4-6445059c375f_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "K7814397",
+      "pageUrl": "https://my.taggrading.com/card/K7814397",
+      "discoveredAt": "2026-09-07T06:13:38.145Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/91304911-ea0e-491c-8caa-650da82210e3_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/91304911-ea0e-491c-8caa-650da82210e3_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "V3539115",
+      "pageUrl": "https://my.taggrading.com/card/V3539115",
+      "discoveredAt": "2026-09-07T06:13:38.159Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/04d006a5-e097-4746-87c8-68480d3833ff_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/04d006a5-e097-4746-87c8-68480d3833ff_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "D4669879",
+      "pageUrl": "https://my.taggrading.com/card/D4669879",
+      "discoveredAt": "2026-09-07T06:13:38.173Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/590ae019-836c-45f1-aa44-e484d5d8e2fd_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/590ae019-836c-45f1-aa44-e484d5d8e2fd_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "H4372254",
+      "pageUrl": "https://my.taggrading.com/card/H4372254",
+      "discoveredAt": "2026-09-07T06:14:05.584Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/ecd30313-6e39-4df7-9a60-de76f90a887c_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/ecd30313-6e39-4df7-9a60-de76f90a887c_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "J3594287",
+      "pageUrl": "https://my.taggrading.com/card/J3594287",
+      "discoveredAt": "2026-09-07T06:14:05.597Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/a4a1a444-dca5-4957-951d-a556d1c4793f_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/a4a1a444-dca5-4957-951d-a556d1c4793f_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "W8299572",
+      "pageUrl": "https://my.taggrading.com/card/W8299572",
+      "discoveredAt": "2026-09-07T06:22:52.052Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/92252645-61ce-4a3d-8bf5-f48c2caeeecd_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/92252645-61ce-4a3d-8bf5-f48c2caeeecd_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "L4878840",
+      "pageUrl": "https://my.taggrading.com/card/L4878840",
+      "discoveredAt": "2026-09-07T06:24:00.545Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/14db5c1d-796e-4680-94f8-1cf086c9d07d_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/14db5c1d-796e-4680-94f8-1cf086c9d07d_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "V8723321",
+      "pageUrl": "https://my.taggrading.com/card/V8723321",
+      "discoveredAt": "2026-09-07T06:24:18.945Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/2f18d3c8-8504-47e1-abc4-35dc4817c85c_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/2f18d3c8-8504-47e1-abc4-35dc4817c85c_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "G2899282",
+      "pageUrl": "https://my.taggrading.com/card/G2899282",
+      "discoveredAt": "2026-09-07T06:24:37.276Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/5cf88f35-6ee5-49e4-8e08-e1b25ff58e25_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/5cf88f35-6ee5-49e4-8e08-e1b25ff58e25_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "Y5902940",
+      "pageUrl": "https://my.taggrading.com/card/Y5902940",
+      "discoveredAt": "2026-09-07T06:26:21.061Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/5fcdec34-f356-4f90-a6f9-a95605e2ca35_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/5fcdec34-f356-4f90-a6f9-a95605e2ca35_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "Z4751716",
+      "pageUrl": "https://my.taggrading.com/card/Z4751716",
+      "discoveredAt": "2026-09-07T06:26:39.478Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/38bbea2a-3bea-4403-81ec-24eb266fa709_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/38bbea2a-3bea-4403-81ec-24eb266fa709_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "W9236358",
+      "pageUrl": "https://my.taggrading.com/card/W9236358",
+      "discoveredAt": "2026-09-07T06:26:57.873Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/6bbc1c88-56ad-4848-9466-da5fca1069d7_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/6bbc1c88-56ad-4848-9466-da5fca1069d7_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "U4172963",
+      "pageUrl": "https://my.taggrading.com/card/U4172963",
+      "discoveredAt": "2026-09-07T06:28:06.373Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/ceac1e6a-4d51-445f-b3d6-d127c5084bc2_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/ceac1e6a-4d51-445f-b3d6-d127c5084bc2_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "Y6882653",
+      "pageUrl": "https://my.taggrading.com/card/Y6882653",
+      "discoveredAt": "2026-09-07T06:28:24.635Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/26b8c328-a92c-4dd6-8184-85dc1c9adb8f_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/26b8c328-a92c-4dd6-8184-85dc1c9adb8f_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "R1562007",
+      "pageUrl": "https://my.taggrading.com/card/R1562007",
+      "discoveredAt": "2026-09-07T06:28:42.982Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/51acfc9b-a44e-43ed-8ba4-632b32525f05_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/51acfc9b-a44e-43ed-8ba4-632b32525f05_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "Q6595392",
+      "pageUrl": "https://my.taggrading.com/card/Q6595392",
+      "discoveredAt": "2026-09-07T06:29:46.935Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/00a3ce83-aaec-4e4b-a749-d833471432fa_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/00a3ce83-aaec-4e4b-a749-d833471432fa_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "R8010173",
+      "pageUrl": "https://my.taggrading.com/card/R8010173",
+      "discoveredAt": "2026-09-07T06:30:05.319Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/5356c42a-6e65-4de0-ad21-1ad7d72d1e0e_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/5356c42a-6e65-4de0-ad21-1ad7d72d1e0e_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "S7361300",
+      "pageUrl": "https://my.taggrading.com/card/S7361300",
+      "discoveredAt": "2026-09-07T06:30:23.641Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/92643827-f3cb-45ed-bbad-aaeec6606a7e_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/92643827-f3cb-45ed-bbad-aaeec6606a7e_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "T2163854",
+      "pageUrl": "https://my.taggrading.com/card/T2163854",
+      "discoveredAt": "2026-09-07T06:30:50.653Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/f84d8772-3199-4984-9c7a-013b2d69c647_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/f84d8772-3199-4984-9c7a-013b2d69c647_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "E3511461",
+      "pageUrl": "https://my.taggrading.com/card/E3511461",
+      "discoveredAt": "2026-09-07T06:31:09.052Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/cde662a5-c264-4c1b-a50a-36237861ca26_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/cde662a5-c264-4c1b-a50a-36237861ca26_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "N3448560",
+      "pageUrl": "https://my.taggrading.com/card/N3448560",
+      "discoveredAt": "2026-09-07T06:31:27.411Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/1b34a23f-3cf0-4113-a12b-e5dd412c11bd_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/1b34a23f-3cf0-4113-a12b-e5dd412c11bd_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "E3314397",
+      "pageUrl": "https://my.taggrading.com/card/E3314397",
+      "discoveredAt": "2026-09-07T06:32:21.209Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/5ad4ffb0-fedd-465b-9aca-a5d37e2686d7_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/5ad4ffb0-fedd-465b-9aca-a5d37e2686d7_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "Y3695911",
+      "pageUrl": "https://my.taggrading.com/card/Y3695911",
+      "discoveredAt": "2026-09-07T06:32:39.628Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/37280999-9794-4d69-9dc7-6ad4431c52b3_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/37280999-9794-4d69-9dc7-6ad4431c52b3_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "H9545478",
+      "pageUrl": "https://my.taggrading.com/card/H9545478",
+      "discoveredAt": "2026-09-07T06:49:47.499Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/fb8caa9e-cae6-41f2-a7d9-4375d8e9195d_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/fb8caa9e-cae6-41f2-a7d9-4375d8e9195d_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "D5403529",
+      "pageUrl": "https://my.taggrading.com/card/D5403529",
+      "discoveredAt": "2026-09-07T06:34:25.672Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/d4eacb6b-7bd7-4156-a75d-3adfc9b4eab4_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/d4eacb6b-7bd7-4156-a75d-3adfc9b4eab4_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "G7325430",
+      "pageUrl": "https://my.taggrading.com/card/G7325430",
+      "discoveredAt": "2026-09-07T06:34:51.586Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/25d53af7-e214-43f1-93e9-4659f2486af6_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/25d53af7-e214-43f1-93e9-4659f2486af6_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "C5407435",
+      "pageUrl": "https://my.taggrading.com/card/C5407435",
+      "discoveredAt": "2026-09-07T06:35:09.961Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/988a934e-a869-46a0-ad88-0b14574cd815_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/988a934e-a869-46a0-ad88-0b14574cd815_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "Q7881130",
+      "pageUrl": "https://my.taggrading.com/card/Q7881130",
+      "discoveredAt": "2026-09-07T06:36:41.949Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/1c8d5574-556b-4994-b7f7-09dc232475e7_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/1c8d5574-556b-4994-b7f7-09dc232475e7_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "R1997289",
+      "pageUrl": "https://my.taggrading.com/card/R1997289",
+      "discoveredAt": "2026-09-07T06:37:00.309Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/84c35493-0238-4984-835c-d17209e05c54_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/84c35493-0238-4984-835c-d17209e05c54_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "L1594257",
+      "pageUrl": "https://my.taggrading.com/card/L1594257",
+      "discoveredAt": "2026-09-07T06:37:29.194Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/edb4f8d6-5016-42ce-a548-9ae74878dd79_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/edb4f8d6-5016-42ce-a548-9ae74878dd79_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "T3906312",
+      "pageUrl": "https://my.taggrading.com/card/T3906312",
+      "discoveredAt": "2026-09-07T06:37:47.521Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/8d4b8bb7-ced4-4f37-8ab4-4e9fecbfccbc_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/8d4b8bb7-ced4-4f37-8ab4-4e9fecbfccbc_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "Z5553675",
+      "pageUrl": "https://my.taggrading.com/card/Z5553675",
+      "discoveredAt": "2026-09-07T06:38:05.819Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/080cb186-b3e0-4384-b657-ef6ee667e75d_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/080cb186-b3e0-4384-b657-ef6ee667e75d_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "M9505930",
+      "pageUrl": "https://my.taggrading.com/card/M9505930",
+      "discoveredAt": "2026-09-07T06:38:52.854Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/3ede82bc-2f2f-4695-8d7f-746c2ea2e16e_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/3ede82bc-2f2f-4695-8d7f-746c2ea2e16e_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "Z6685887",
+      "pageUrl": "https://my.taggrading.com/card/Z6685887",
+      "discoveredAt": "2026-09-07T06:39:11.231Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/7f4cb4f3-c8e8-48c8-a9f3-d40706af5f25_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/7f4cb4f3-c8e8-48c8-a9f3-d40706af5f25_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "X7892704",
+      "pageUrl": "https://my.taggrading.com/card/X7892704",
+      "discoveredAt": "2026-09-07T06:39:44.409Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/47a77f50-c17b-4817-87e2-a668ca17cc26_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/47a77f50-c17b-4817-87e2-a668ca17cc26_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "K3758473",
+      "pageUrl": "https://my.taggrading.com/card/K3758473",
+      "discoveredAt": "2026-09-07T06:47:13.456Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/6b47c5b2-3837-4bef-b131-93171ed1f2f5_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/6b47c5b2-3837-4bef-b131-93171ed1f2f5_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "T3147187",
+      "pageUrl": "https://my.taggrading.com/card/T3147187",
+      "discoveredAt": "2026-09-07T06:50:06.283Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/25c40c1e-e8e8-4043-9c8d-ca8c48690cf8_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/25c40c1e-e8e8-4043-9c8d-ca8c48690cf8_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "W3676548",
+      "pageUrl": "https://my.taggrading.com/card/W3676548",
+      "discoveredAt": "2026-09-07T06:41:13.937Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/7a08f5ed-cdf0-4f83-b399-9dae68d87120_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/7a08f5ed-cdf0-4f83-b399-9dae68d87120_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "L4078317",
+      "pageUrl": "https://my.taggrading.com/card/L4078317",
+      "discoveredAt": "2026-09-07T06:48:12.024Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/acbe581c-9532-4cf2-a3c3-5368952b9826_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/acbe581c-9532-4cf2-a3c3-5368952b9826_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "P5515986",
+      "pageUrl": "https://my.taggrading.com/card/P5515986",
+      "discoveredAt": "2026-09-07T06:42:41.086Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/fbb9ab5f-16f4-44fe-b6a9-f73fc23d5d8c_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/fbb9ab5f-16f4-44fe-b6a9-f73fc23d5d8c_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "M1530937",
+      "pageUrl": "https://my.taggrading.com/card/M1530937",
+      "discoveredAt": "2026-09-07T06:42:59.502Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/6e8bc0b7-65d1-4038-afb9-8bb76de820e7_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/6e8bc0b7-65d1-4038-afb9-8bb76de820e7_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "N9962443",
+      "pageUrl": "https://my.taggrading.com/card/N9962443",
+      "discoveredAt": "2026-09-07T06:43:17.810Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/e440f149-6af9-4ad4-95fd-f22ebfea75c7_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/e440f149-6af9-4ad4-95fd-f22ebfea75c7_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "H5133767",
+      "pageUrl": "https://my.taggrading.com/card/H5133767",
+      "discoveredAt": "2026-09-07T06:48:30.606Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/8ecf51b9-f1c3-48a9-98eb-b7d70b0b5849_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/8ecf51b9-f1c3-48a9-98eb-b7d70b0b5849_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "T4865125",
+      "pageUrl": "https://my.taggrading.com/card/T4865125",
+      "discoveredAt": "2026-09-07T06:48:59.925Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/2b58dfbe-48cf-4556-882f-b09442afe2a1_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/2b58dfbe-48cf-4556-882f-b09442afe2a1_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "K7745092",
+      "pageUrl": "https://my.taggrading.com/card/K7745092",
+      "discoveredAt": "2026-09-07T06:49:18.474Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/52b7bd36-b134-4caa-ad31-3c6fe9adf635_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/52b7bd36-b134-4caa-ad31-3c6fe9adf635_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "J3913496",
+      "pageUrl": "https://my.taggrading.com/card/J3913496",
+      "discoveredAt": "2026-09-07T06:45:17.263Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/0211cc66-f9d5-4992-960c-ea96e340f63d_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/0211cc66-f9d5-4992-960c-ea96e340f63d_BACK_MAIN.jpg"
+    },
+    {
+      "grader": "TAG",
+      "cert": "V7329173",
+      "pageUrl": "https://my.taggrading.com/card/V7329173",
+      "discoveredAt": "2026-09-07T06:45:35.920Z",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/7fff773f-b008-472b-bcdb-d89d581423bf_FRONT_MAIN.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/7fff773f-b008-472b-bcdb-d89d581423bf_BACK_MAIN.jpg"
+    }
+  ]
+}
