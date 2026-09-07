@@ -88,7 +88,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4089841006_OBV.jpg",
+        "back": "4089841006_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-27T05:37:12.715Z",
       "fmv": {
@@ -101,7 +104,8 @@
         "url": "https://gocollect.com/app/comic/amazing-spider-man-1-21",
         "status": "priced",
         "fetchedAt": "2026-08-27T05:50:28.430Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4357017005",
@@ -157,7 +161,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4089841002_OBV.jpg",
+        "back": "4089841002_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-27T05:37:49.654Z",
       "fmv": {
@@ -170,7 +177,8 @@
         "url": "https://gocollect.com/app/comic/star-wars-obi-wan-kenobi-1-12",
         "status": "priced",
         "fetchedAt": "2026-08-27T05:50:42.436Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "3905543009",
@@ -190,7 +198,10 @@
         "higher": 922,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "3905543009_OBV.jpg",
+        "back": "3905543009_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-27T05:38:22.643Z",
       "fmv": {
@@ -203,7 +214,8 @@
         "url": "https://gocollect.com/app/comic/star-wars-2",
         "status": "priced",
         "fetchedAt": "2026-08-27T05:50:49.940Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "3929808007",
@@ -223,7 +235,10 @@
         "higher": 6606,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "3929808007_OBV.jpg",
+        "back": "3929808007_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-27T05:38:55.648Z",
       "fmv": {
@@ -236,7 +251,8 @@
         "url": "https://gocollect.com/app/comic/star-wars-1",
         "status": "priced",
         "fetchedAt": "2026-08-27T05:50:57.523Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4089841005",
@@ -256,7 +272,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4089841005_OBV.jpg",
+        "back": "4089841005_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-27T05:39:28.711Z",
       "fmv": {
@@ -269,7 +288,8 @@
         "url": "https://gocollect.com/app/comic/star-wars-obi-wan-kenobi-1-2",
         "status": "priced",
         "fetchedAt": "2026-08-27T05:51:05.869Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4089841003",
@@ -290,7 +310,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4089841003_OBV.jpg",
+        "back": "4089841003_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-27T05:40:01.724Z",
       "fmv": {
@@ -303,7 +326,8 @@
         "url": "https://gocollect.com/app/comic/star-wars-obi-wan-kenobi-1",
         "status": "priced",
         "fetchedAt": "2026-08-27T05:51:13.288Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4089841004",
@@ -322,7 +346,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4089841004_OBV.jpg",
+        "back": "4089841004_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-27T05:40:34.727Z",
       "fmv": {
@@ -335,7 +362,8 @@
         "url": "https://gocollect.com/app/comic/star-wars-obi-wan-kenobi-1-of-5",
         "status": "priced",
         "fetchedAt": "2026-08-27T05:51:20.372Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4198680007",
@@ -355,7 +383,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4198680007_OBV.jpg",
+        "back": "4198680007_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-27T05:41:07.710Z",
       "fmv": {
@@ -368,7 +399,8 @@
         "url": "https://gocollect.com/app/comic/star-wars-yoda-1-9",
         "status": "priced",
         "fetchedAt": "2026-08-27T05:51:27.374Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4198680010",
@@ -389,7 +421,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4198680010_OBV.jpg",
+        "back": "4198680010_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-27T05:41:40.736Z",
       "fmv": {
@@ -402,7 +437,8 @@
         "url": "https://gocollect.com/app/comic/star-wars-mandalorian-1-jimenez-pride-var",
         "status": "priced",
         "fetchedAt": "2026-08-27T05:51:35.881Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4198680004",
@@ -423,7 +459,10 @@
         "higher": 106,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "4198680004_OBV.jpg",
+        "back": "4198680004_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-27T05:42:13.721Z",
       "fmv": {
@@ -436,7 +475,8 @@
         "url": "https://gocollect.com/app/comic/star-wars-darth-vader-29-2",
         "status": "no-sales",
         "fetchedAt": "2026-08-27T05:51:42.804Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4273634004",
@@ -491,7 +531,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "4137945004_OBV.jpg",
+        "back": "4137945004_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-27T05:42:50.408Z",
       "fmv": {
@@ -504,7 +547,8 @@
         "url": "https://gocollect.com/app/comic/star-wars-mandalorian-2",
         "status": "priced",
         "fetchedAt": "2026-08-27T05:51:57.502Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "3712332004",
@@ -524,7 +568,10 @@
         "higher": 270,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "3712332004_OBV.jpg",
+        "back": "3712332004_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-27T05:43:23.504Z",
       "fmv": {
@@ -537,7 +584,8 @@
         "url": "https://gocollect.com/app/comic/fear-19",
         "status": "priced",
         "fetchedAt": "2026-08-27T05:52:04.762Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4214394003",
@@ -587,7 +635,10 @@
         "higher": 0,
         "topPop": true
       },
-      "images": {},
+      "images": {
+        "front": "2733544003_OBV.jpg",
+        "back": "2733544003_REV.jpg"
+      },
       "repairs": [
         [
           "Germ�n",
@@ -605,7 +656,8 @@
         "url": "https://gocollect.com/app/comic/strange-academy-1-young-variant",
         "status": "no-sales",
         "fetchedAt": "2026-08-27T05:52:19.321Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "2757895001",
@@ -660,7 +712,10 @@
         "higher": 79,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "4245549001_OBV.jpg",
+        "back": "4245549001_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-27T05:45:36.449Z",
       "fmv": {
@@ -673,7 +728,8 @@
         "url": "https://gocollect.com/app/comic/back-to-the-future-1-10-copy-cover",
         "status": "no-sales",
         "fetchedAt": "2026-08-27T05:52:33.609Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4273634010",
@@ -730,7 +786,10 @@
         "higher": 19,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "1430525018_OBV.jpg",
+        "back": "1430525018_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-27T05:46:13.316Z",
       "fmv": {
@@ -743,7 +802,8 @@
         "url": "https://gocollect.com/app/comic/back-to-the-future-1-jj-s-comics-art-virgin-variant",
         "status": "no-sales",
         "fetchedAt": "2026-08-27T05:52:50.108Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "3866773006",
@@ -764,7 +824,10 @@
         "higher": 1,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "3866773006_OBV.jpg",
+        "back": "3866773006_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-27T05:46:46.298Z",
       "fmv": {
@@ -777,7 +840,8 @@
         "url": "https://gocollect.com/app/comic/back-to-the-future-1-jscottcampbell-com-variant",
         "status": "priced",
         "fetchedAt": "2026-08-27T05:52:57.389Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4198680001",
@@ -798,7 +862,10 @@
         "higher": 3,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "4198680001_OBV.jpg",
+        "back": "4198680001_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-27T05:47:19.260Z",
       "fmv": {
@@ -811,7 +878,8 @@
         "url": "https://gocollect.com/app/comic/back-to-the-future-1-local-comic-shop-day-variant",
         "status": "no-sales",
         "fetchedAt": "2026-08-27T05:53:04.892Z"
-      }
+      },
+      "imageSource": "owner"
     },
     {
       "cert": "4090689001",
@@ -831,7 +899,10 @@
         "higher": 98,
         "topPop": false
       },
-      "images": {},
+      "images": {
+        "front": "4090689001_OBV.jpg",
+        "back": "4090689001_REV.jpg"
+      },
       "repairs": [],
       "fetchedAt": "2026-08-27T05:47:52.232Z",
       "fmv": {
@@ -844,7 +915,8 @@
         "url": "https://gocollect.com/app/comic/back-to-the-future-1-zbox-retailer-exclusive-variant",
         "status": "priced",
         "fetchedAt": "2026-08-27T05:53:12.713Z"
-      }
+      },
+      "imageSource": "owner"
     }
   ],
   "updated": "2026-08-27"
