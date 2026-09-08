@@ -1,9 +1,9 @@
 /**
  * Scan raw comics, two at a time.
  *
- *   npm run scan:raw -- --bin 15            keyboard
- *   npm run scan:raw -- --bin 15 --voice    hands-free, with the live preview
- *   npm run scan:raw -- --bin 15 --from .cache/raw/raw-15-scan-004.jpg
+ *   npm run scan:raw -- 15                  keyboard (npm strips --bin; a bare 15 works)
+ *   npm run scan:raw -- 15 --voice          hands-free, with the live preview
+ *   npm run scan:raw -- 15 --from .cache/raw/raw-15-scan-004.jpg
  *                                           process a kept bed without the scanner
  *
  * Raw books are bagged and boarded - the back is covered - so this scans fronts
@@ -149,7 +149,7 @@ async function requestAction({ rl, voice, listener, since }) {
 }
 
 export async function scanRaw({ bin, voice = false, preview = false, from = null } = {}) {
-  if (!bin) throw new Error('--bin is required, e.g. --bin 15');
+  if (!bin) throw new Error('a bin is required: npm run scan:raw -- 15   (or node src/scan-raw.js --bin 15)');
   const { file, data, created } = await loadRawBin(bin);
   if (created) console.log(`Creating ${file}`);
   console.log(`${data.title}: ${data.comics.length} book(s) so far.`);
@@ -253,15 +253,29 @@ export async function scanRaw({ bin, voice = false, preview = false, from = null
   return { scanned };
 }
 
-if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
-  const argv = process.argv.slice(2);
-  const arg = (flag) => { const i = argv.indexOf(flag); return i >= 0 ? argv[i + 1] : null; };
-  scanRaw({
-    bin: arg('--bin'),
+/**
+ * Read the command line.
+ *
+ * npm treats --bin as one of its own config keys and strips it before the
+ * script runs, forwarding only the value: `npm run scan:raw -- --bin 15`
+ * arrives as `15`, exactly as --only and the original --bin did. So the bin
+ * is also accepted as a plain argument, which survives npm; --bin still works
+ * when node is invoked directly.
+ */
+export function parseRawArgs(argv) {
+  const takesValue = new Set(['--bin', '--from']);
+  const arg = (flag) => { const i = argv.indexOf(flag); return i >= 0 ? argv[i + 1] ?? null : null; };
+  const positional = argv.filter((a, i) => !a.startsWith('--') && !takesValue.has(argv[i - 1]));
+  return {
+    bin: arg('--bin') ?? positional[0] ?? null,
     voice: argv.includes('--voice'),
     preview: argv.includes('--preview'),
     from: arg('--from'),
-  }).catch((err) => {
+  };
+}
+
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  scanRaw(parseRawArgs(process.argv.slice(2))).catch((err) => {
     console.error(err.message ?? err);
     process.exit(1);
   });

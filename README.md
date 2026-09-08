@@ -182,9 +182,9 @@ Raw books are bagged and boarded, so only the front is visible - and the bed is
 wide enough for two side by side with mat to spare. One press scans both:
 
 ```bash
-npm run scan:raw -- --bin 15            # keyboard: Enter = scan, a = again, s = shiny, q = quit
-npm run scan:raw -- --bin 15 --voice    # hands-free, with the live preview
-npm run scan:raw -- --bin 15 --from .cache/raw/raw-15-scan-004.jpg   # re-process a kept bed
+npm run scan:raw -- 15                  # keyboard: Enter = scan, a = again, s = shiny, q = quit
+npm run scan:raw -- 15 --voice          # hands-free, with the live preview
+npm run scan:raw -- 15 --from .cache/raw/raw-15-scan-004.jpg   # re-process a kept bed
 ```
 
 Each bed is split into its books, each book is cropped and saved, and each gets

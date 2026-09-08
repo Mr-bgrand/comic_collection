@@ -88,3 +88,31 @@ test('recordsFromBed finds the records a bed produced, so "again" can replace th
   assert.deepEqual(recordsFromBed(comics, 'raw-15-scan-001').map((c) => c.id), ['raw:15-001', 'raw:15-002']);
   assert.deepEqual(recordsFromBed(comics, 'raw-15-scan-009'), []);
 });
+
+/*
+ * Argument parsing. npm treats --bin as one of its own config keys and strips
+ * it before the script runs, forwarding only the value: `npm run scan:raw --
+ * --bin 15` arrives as `15`. So the bin is accepted as a plain argument, which
+ * survives npm, and --bin still works when node is invoked directly.
+ */
+
+import { parseRawArgs } from './scan-raw.js';
+
+test('the bin survives npm stripping --bin', () => {
+  assert.equal(parseRawArgs(['15']).bin, '15');
+});
+
+test('--bin still works when node is run directly', () => {
+  assert.equal(parseRawArgs(['--bin', '15']).bin, '15');
+});
+
+test('a bare bin is not confused with a --from path', () => {
+  const a = parseRawArgs(['15', '--from', '.cache/raw/raw-15-scan-004.jpg', '--voice']);
+  assert.equal(a.bin, '15');
+  assert.equal(a.from, '.cache/raw/raw-15-scan-004.jpg');
+  assert.equal(a.voice, true);
+});
+
+test('no bin at all is reported, not guessed', () => {
+  assert.equal(parseRawArgs(['--voice']).bin, null);
+});
