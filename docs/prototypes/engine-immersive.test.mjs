@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {caseMembers,stepWithin,caseFormation,arrivalFrame,advanceArrival,arrivalSequence,ARRIVAL_REST,ARRIVAL_DURATION} from './engine-immersive.mjs';
+import {refreshFlightCopies} from './engine-singularity.mjs';
 const records=[{bin:'case1',kind:'card'},...Array.from({length:111},()=>({bin:'case12',kind:'comic'})),{bin:'case1',kind:'card'}];
 test('case browsing retains source order and wraps without entering another container',()=>{
   const ids=caseMembers(records,1);assert.equal(ids.length,111);assert.equal(stepWithin(ids,111,1),1);assert.equal(stepWithin(ids,1,-1),111);
@@ -18,21 +19,38 @@ test('arrival pauses for motion preference, manual pause, other modes and open d
   assert.deepEqual(advanceArrival(ARRIVAL_DURATION-.02,.05,flags),{elapsed:0,advance:true});
   assert.deepEqual(advanceArrival(2,50,flags),{elapsed:2.1,advance:false});
 });
-test('Event Horizon travels and reveals before giving the intact scan five full seconds',()=>{
-  assert.equal(arrivalFrame(0).stage,'flight');assert.equal(arrivalFrame(3.5).stage,'crossing');
-  assert.equal(arrivalFrame(4.3).stage,'reveal');
+test('each arrival reveals, gives the intact scan five full seconds, then departs',()=>{
+  assert.equal(arrivalFrame(0).stage,'reveal');assert.equal(arrivalFrame(0).assemble,0);
+  assert.equal(arrivalFrame(ARRIVAL_REST-.01).stage,'reveal');
   for(const t of [ARRIVAL_REST,ARRIVAL_REST+2.5,ARRIVAL_REST+4.99]){
     const f=arrivalFrame(t);assert.equal(f.stage,'hold');assert.equal(f.assemble,1);assert.equal(f.departure,0);assert.equal(f.fov,42);
   }
   assert.equal(arrivalFrame(ARRIVAL_REST+5.01).stage,'departure');
   assert.equal(arrivalFrame(50).phase,1);assert.equal(arrivalFrame(-20).phase,0);
 });
-test('flight accelerates toward the horizon and has continuous finite camera poses',()=>{
-  assert.ok(arrivalFrame(3).speed>arrivalFrame(1).speed);
-  let previous=0;for(let t=0;t<=ARRIVAL_DURATION;t+=.01){const frame=arrivalFrame(t);
+test('flight maintains the same positive speed and field of view throughout and between arrivals',()=>{
+  const initial=arrivalFrame(0);assert.ok(initial.speed>0);
+  for(let t=0;t<=ARRIVAL_DURATION+.01;t+=.01){const frame=arrivalFrame(t);
     for(const value of Object.values(frame))if(typeof value==='number')assert.ok(Number.isFinite(value));
-    assert.ok(frame.distance>=previous);assert.ok(frame.distance-previous<1);previous=frame.distance;
+    assert.equal(frame.speed,initial.speed);assert.equal(frame.fov,initial.fov);
+    assert.ok(['reveal','hold','departure'].includes(frame.stage));
   }
+});
+test('background copies keep their scans until their own slot wraps into the distant fade',()=>{
+  const cells=new Float32Array(6),cycles=new Float64Array(3).fill(NaN);
+  const seeds=new Float32Array([0,0,0,0, 0,0,.1,0, 0,0,.2,0]);
+  const queue=[1,4,7,9,11],columns=4,rows=3;
+  let cursor=refreshFlightCopies(cells,cycles,seeds,queue,0,0,columns,rows);
+  assert.equal(cursor,3);assert.deepEqual([...cells],[1,2,0,1,3,1]);
+  const before=[...cells];
+  cursor=refreshFlightCopies(cells,cycles,seeds,queue,10,cursor,columns,rows);
+  assert.equal(cursor,3);assert.deepEqual([...cells],before);
+  // Slot zero reaches the camera after 120/.84 flow units. The others are still visible.
+  cursor=refreshFlightCopies(cells,cycles,seeds,queue,143,cursor,columns,rows);
+  assert.equal(cursor,4);assert.deepEqual([...cells],[1,0,...before.slice(2)]);
+  cursor=refreshFlightCopies(cells,cycles,seeds,queue,166,cursor,columns,rows);
+  assert.equal(cursor,5);assert.deepEqual([...cells],[1,0,3,0,...before.slice(4)]);
+  assert.equal(refreshFlightCopies(cells,cycles,seeds,[],1000,cursor,columns,rows),cursor);
 });
 test('arrival queue visits each scanned copy once, mixes inventory order and respects scope',()=>{
   const items=Array.from({length:50},(_,i)=>({id:'cert'+i,hasScan:i!==3,kind:i%2?'comic':'card'}));

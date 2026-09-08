@@ -29,14 +29,14 @@ const visibleIndices=()=>records.map((c,i)=>({c,i})).filter(({c})=>scope==='all'
 const sourceText=c=>c.source?c.source+' · '+(c.date||'valuation date not provided'):'No value recorded';
 function updateScope(){document.querySelectorAll('[data-scope]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.scope===scope)));}
 function stopTour(){tourOn=false;$('tour').setAttribute('aria-pressed','false');text('tour','Play tour ▷');if(arrivalPlaying){arrivalPlaying=false;arrivalElapsed=ARRIVAL_REST;syncArrival();}}
-function syncArrival(){text('arrival-play',arrivalPlaying?'Pause Ⅱ':'Resume ▷');$('arrival-play').setAttribute('aria-pressed',String(arrivalPlaying));text('arrival-state',quiet?'STILL / MOTION OFF':arrivalPlaying?'FLIGHT + 5 SECOND HOLD':'PAUSED / YOUR MOMENT');}
+function syncArrival(){text('arrival-play',arrivalPlaying?'Pause Ⅱ':'Resume ▷');$('arrival-play').setAttribute('aria-pressed',String(arrivalPlaying));text('arrival-state',quiet?'STILL / MOTION OFF':arrivalPlaying?'CONTINUOUS FLIGHT':'PAUSED / YOUR MOMENT');}
 function setAmbient(value){ambient=value;app.classList.toggle('ambient',ambient);for(const el of document.querySelectorAll('.topline,.scope-switch,.scene-footer,.focus-panel,.object-tools,#singularity-tools'))el.inert=ambient;updateFocus();if(ambient)$('ambient-exit').focus({preventScroll:true});}
-function leaveInspection(){stopTour();if(mode==='singularity'){setAmbient(!ambient);return;}insideCase=false;inspecting=false;exploded=false;updateFocus();graphics?.arrange();}
+function leaveInspection(){if(mode==='singularity'){setAmbient(!ambient);return;}stopTour();insideCase=false;inspecting=false;exploded=false;updateFocus();graphics?.arrange();}
 function nextObject(delta){choose(stepWithin(browseIndices(),selected,delta));}
 function updateFocus() {
   const c=records[selected];
   text('item-index',String(selected+1).padStart(3,'0'));
-  text('focus-label',mode==='singularity'?'THROUGH THE HORIZON':'IN FOCUS');
+  text('focus-label','IN FOCUS');
   text('item-title',c.short);text('item-variant',c.variant);text('item-grade',c.grade);text('item-bin',c.container+(c.virtual?' · '+(c.storage||'External storage'):''));text('item-value',money(c.value));
   text('item-source',sourceText(c));$('scan-notice').hidden=c.hasScan;text('scan-notice',c.scanStatus==='no-scans-on-cert-page'?'No scans on PSA cert page':'Scan pending · record imported');
   const indices=browseIndices();text('object-count',indices.includes(selected)?String(indices.indexOf(selected)+1).padStart(3,'0')+' / '+indices.length:'UNSCANNED');
@@ -54,13 +54,13 @@ function updateFocus() {
   $('case-session').hidden=!insideCase||mode!=='longbox';$('case-entry').hidden=mode!=='longbox'||insideCase;
   text('case-title',c.container);text('case-position',String(indices.indexOf(selected)+1).padStart(3,'0')+' / '+indices.length+' IN THIS CASE');
   text('case-enter','Enter '+c.container+' ↗');
-  $('singularity-tools').hidden=mode!=='singularity';$('singularity-caption').hidden=mode!=='singularity';$('ambient-exit').hidden=!ambient;
+  $('singularity-tools').hidden=mode!=='singularity';$('ambient-exit').hidden=!ambient;
   $('explode').hidden=mode==='singularity';
   text('inspect-toggle',mode==='singularity'?'Hide controls ↗':insideCase?'Leave this case ↗':inspecting?'Return to collection ↗':'Inspect selected object ↗');
   text('hint',mode==='spotlight'&&!exploded?(inspecting?'DRAG COPY TO TURN · SCROLL TO ROAM':'DRAG / SCROLL TO ROAM · PINCH TO ZOOM'):inspecting?(exploded?'DRAG TO PAN · ZOOM INTO THE SCANS':'DRAG TO TURN · X TO STUDY'):'DRAG TO ORBIT · PINCH / SCROLL TO ZOOM');
   if(insideCase)text('hint','SWIPE THE RIBBON · DRAG COPY TO TURN · ESC TO LEAVE');
   if(mode==='singularity')text('hint','TOUCH TO PAUSE · DRAG COPY TO TURN · H TO HIDE CONTROLS');
-  $('universe').setAttribute('aria-label',mode==='singularity'?'Event Horizon collection flight. Touch to pause. Drag the selected copy to turn. Arrow keys select another copy. Space pauses or resumes. H hides controls.':'Interactive collection. Drag to rotate. Arrow keys change the selected object. X opens the front and back study. Space returns to the collection.');
+  $('universe').setAttribute('aria-label',mode==='singularity'?'Continuous collection flight. Touch to pause. Drag the selected copy to turn. Arrow keys select another copy. Space pauses or resumes. H hides controls without pausing.':'Interactive collection. Drag to rotate. Arrow keys change the selected object. X opens the front and back study. Space returns to the collection.');
 }
 function choose(i) {
   if(mode==='longbox'&&!insideCase){graphics?.saveOverview();insideCase=true;}
@@ -71,7 +71,7 @@ function choose(i) {
 function arrange(next) {
   stopTour();insideCase=false;setAmbient(false);mode=next;inspecting=next==='singularity';exploded=false;flipped=false;
   document.querySelectorAll('[data-formation]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.formation===mode)));
-  text('scene-name',({orbit:'01 — ORBITAL ARRAY',wall:'02 — CHROMATIC WALL',longbox:'03 — INSIDE THE CASE',spotlight:'04 — SPOTLIGHT / AFTER HOURS',singularity:'05 — SINGULARITY / EVENT HORIZON'})[mode]);
+  text('scene-name',({orbit:'01 — ORBITAL ARRAY',wall:'02 — CHROMATIC WALL',longbox:'03 — INSIDE THE CASE',spotlight:'04 — SPOTLIGHT / AFTER HOURS',singularity:'05 — SINGULARITY'})[mode]);
   if(mode==='singularity'){const queue=arrivalQueues[scope];if(!records[selected].hasScan&&queue.length)selected=queue[0];arrivalPlaying=!quiet&&queue.length>0;arrivalElapsed=arrivalPlaying?0:ARRIVAL_REST;syncArrival();}
   updateFocus();graphics?.arrange(true);
   if(mode==='singularity')graphics?.select();
@@ -344,11 +344,8 @@ async function start() {
     if(isSingularity){
       $('arrival-progress').style.transform='scaleX('+arrival.phase+')';
       const stage=quiet||!arrivalPlaying?'hold':arrival.stage;
-      if(app.dataset.arrivalStage!==stage){app.dataset.arrivalStage=stage;
-        $('focus-panel').inert=ambient||stage==='flight'||stage==='crossing';
-        text('flight-stage',({flight:'01 / APPROACH',crossing:'02 / EVENT HORIZON',reveal:'03 / ARRIVAL',hold:'03 / IN YOUR HANDS',departure:'04 / NEXT JOURNEY'})[stage]);
-      }
-      const readout=quiet?'MOTION OFF':!arrivalPlaying?'TIME IS YOURS':arrival.stage==='hold'?String(arrival.holdRemaining).padStart(2,'0')+' SECONDS TO EXPLORE':arrival.stage==='flight'?'ENTERING THE COLLECTION':arrival.stage==='crossing'?'CROSSING THE HORIZON':arrival.stage==='reveal'?'A NEW ARRIVAL':'UNTIL THE NEXT ARRIVAL';
+      if(app.dataset.arrivalStage!==stage){app.dataset.arrivalStage=stage;$('focus-panel').inert=ambient;}
+      const readout=quiet?'MOTION OFF':!arrivalPlaying?'TIME IS YOURS':arrival.stage==='hold'?String(arrival.holdRemaining).padStart(2,'0')+' SECONDS TO EXPLORE':arrival.stage==='reveal'?'A NEW ARRIVAL':'UNTIL THE NEXT ARRIVAL';
       if($('flight-readout').textContent!==readout)text('flight-readout',readout);
     }
     const distance=(insideCase?(mobile?14.5:15):isSingularity?(mobile?21:17):cameraDistance(mode,aspect,visibleIndices().length))*(mode==='spotlight'?wallView.zoom:inspecting?1:zoom);
@@ -358,9 +355,9 @@ async function start() {
     camera.position.x+=((mode==='spotlight'?wallView.x:0)-camera.position.x)*alpha;
     camera.position.y+=(camY-camera.position.y)*alpha;
     if(isSingularity){
-      camera.position.set(Math.sin(arrival.flight*Math.PI*2)*.9*(1-arrival.crossing),Math.sin(arrival.flight*Math.PI)*.6*(1-arrival.crossing),15-arrival.distance);
+      camera.position.set(Math.sin(arrivalTime*.08)*.35,Math.sin(arrivalTime*.06)*.18,15);
       camera.fov=arrival.fov;camera.updateProjectionMatrix();camera.lookAt(0,0,camera.position.z-120);
-      camera.rotation.z=Math.sin(arrival.flight*Math.PI*2)*.065*(1-arrival.crossing);
+      camera.rotation.z=Math.sin(arrivalTime*.055)*.018;
     }else{if(camera.fov!==42){camera.fov=42;camera.updateProjectionMatrix();}camera.lookAt(mode==='spotlight'?camera.position.x:0,mode==='spotlight'?camera.position.y:mode==='longbox'&&!insideCase?(mobile?-4.5:-1.8):0,-3);}
     field.rotation.x+=((insideCase?0:fieldRX)-field.rotation.x)*alpha;field.rotation.y+=((insideCase?0:fieldRY)-field.rotation.y)*alpha;
     field.rotation.z=quiet||mode==='spotlight'||mode==='longbox'?0:Math.sin(now*.00004)*.016;
@@ -404,7 +401,7 @@ async function start() {
     renderer.clear();renderer.render(scene,camera);renderer.clearDepth();renderer.render(foreground,heroCamera);
   }
   await loadFocus();renderer.setAnimationLoop(animate);
-  document.addEventListener('visibilitychange',()=>{if(document.hidden){stopTour();renderer.setAnimationLoop(null);}else{last=0;renderer.setAnimationLoop(animate);}});
+  document.addEventListener('visibilitychange',()=>{if(document.hidden){if(mode!=='singularity')stopTour();renderer.setAnimationLoop(null);}else{last=0;renderer.setAnimationLoop(animate);}});
   document.documentElement.dataset.engineReady='true';$('boot').classList.add('gone');setTimeout(()=>{$('boot').hidden=true;},700);$('fallback').hidden=true;
   const entry=new URLSearchParams(location.search),entryView=entry.get('view');
   if(['orbit','wall','longbox','spotlight','singularity'].includes(entryView)){arrange(entryView);if(entryView==='singularity'&&entry.get('ambient')==='1'&&!document.querySelector('dialog[open]'))setAmbient(true);}

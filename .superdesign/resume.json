@@ -37,12 +37,12 @@
         "docs/prototypes/engine-singularity.mjs"
       ],
       "fingerprints": {
-        ".superdesign/design-system.md": "68e9d7e72d62fdfa85c79f4f0313a082021346162e9a75f9eae160246b0a883d",
-        "docs/prototypes/build-engine.mjs": "c6844fb0e7db113ad191238a4ba095c719aa05a2b801f0f689ee21d17250a3f4",
-        "docs/prototypes/engine.js": "4777653547fc620559a16e10331ad94f915389855392c700bcea69e2e42c8b4a",
+        ".superdesign/design-system.md": "7f3412fc8f54764eb2d768c50fdcb44030039bbfc4273f496960152d9014ecd1",
+        "docs/prototypes/build-engine.mjs": "3e08744582bb1d4fa2409f505f5a04bec1a36eff1ac6f68bcb4691b6c2904219",
+        "docs/prototypes/engine.js": "eb37381364483d28591152315fa0ed92987b07a46a09de49e53eec08d1c620d2",
         "docs/prototypes/engine.css": "499b1e37887f12122567e1fe839b99e5bf3b3006f0fb01da1044a1797afda616",
         "docs/prototypes/engine-layouts.mjs": "f7929451f97b826da27fa4a48189e6151be7911cb3a259ad1a53667e16a934e6",
-        "src/model.js": "bd5ebda1d9528a96b46b420f5b3f73af7a33b46cb6f25dd759cb373327f668a1",
+        "src/model.js": "4200f08b73f26cd27d11c3f6d6950637a466fce96d8b978192767491919bfc33",
         "src/import-vault.js": "986fa79c844c10748a8f7b0dd6b62c1fba7bb8c4f7ac9a5eaf7c85f0c1515d14",
         "src/import-card-images.js": "cb254cfbee7a84d9ab8af4407d64c9942b1b55750b518d39c3700805436742b5",
         "src/card-images.js": "ce995bad9a24abdc4852e6e621749e36c54dd0d8d5587af9ae2544fe6d7e8b1f",
@@ -59,11 +59,11 @@
         "docs/prototypes/engine-value.html": "bd6d19142e3c1ca3900a0da467fd06802d4815e7c2596753d306f99597627644",
         "docs/prototypes/engine-value.css": "66988958246a4e2dfdd12515b8cf397e02bd8af000daa68c45ff2405bc8cd05a",
         "docs/prototypes/engine-value.mjs": "d0c35e7cdd18f0e5443982e1a5ae5252d812a8bafc50443e4af5a41d278f6523",
-        "src/value-history.js": "e55c0f581f6bfd7a126ae4aa7f15c4e1205b1d4cb2ae9d0521718bb15141c066",
-        "docs/prototypes/engine-immersive.mjs": "630712506cd433452b614510e2ea408c471f0e58f5a6c1481193b2129c79532e",
-        "docs/prototypes/engine-immersive.html": "f17bf4cae1394b94e72300f36d236acb22176d8a3389a25a797e94a3ba822f91",
-        "docs/prototypes/engine-immersive.css": "9da4f2a5d8fd54a3897fbc654563289735baa3e4bc1d082b7345f9fa4895a795",
-        "docs/prototypes/engine-singularity.mjs": "78d54c352a2eec18cee1839f91498627acc1398d73e1cbbc2bba647351beaf8e"
+        "src/value-history.js": "6d121242a61d542676fb17fd56c6ef42496912f5af70fb370f7b4318d22b8734",
+        "docs/prototypes/engine-immersive.mjs": "fa22b2b481b1a3131c5896f623f6eeae5ccfe006bce736a81054e12704ae2527",
+        "docs/prototypes/engine-immersive.html": "4b44f8b7fe38607a24472c6a6f6a3a34fc4b0356f34ade53d4a3696db2a925b2",
+        "docs/prototypes/engine-immersive.css": "6208caeaad7f3725c07caaa502b526dae1420b9cb854c7989007981ca5b4022d",
+        "docs/prototypes/engine-singularity.mjs": "265b05fc161d773a8ffabe04bf220f7b49fc3be4cb2d6ce68e13e9b078be8ef5"
       },
       "components": [],
       "referenceIds": [],
@@ -75,11 +75,11 @@
         },
         "8ba17025-90c5-4301-a38b-2a2ad6d1b2d1": {
           "title": "The Collection - personal museum concept",
-          "visualDirection": "Collection / Lab: 498 exact copies in five experiences. 05 Event Horizon replaces the stationary Singularity mosaic with a deep flight of real two-sided scans, accelerating ice-blue streaks, camera travel and a continuous diagonal Milky Way with fine stars, irregular dust lanes and soft pearl light. An 11.2-second cycle includes five full seconds of clear scan viewing. Replay, pause-to-inspect, reduced motion and Ambient remain explicit. Desktop, portrait and compact landscape layouts. Orbit, Wall, Inside the Case, Spotlight, Find, value history, Admin and photo intake are preserved. Local app uses detail scans; canvas uses verified hosted atlases and compressed review scans.",
-          "currentVersion": 17
+          "visualDirection": "Collection / Lab: five experiences with exact-copy front and back scans. 05 Singularity continuously cruises through a Milky Way field. Steady speed and field of view, five-second holds, gently brighter background copies with stable scan identity, no repeating Event Horizon headline or crossing flash. Hide/show controls preserves playback or deliberate pause. Backgrounded tabs suspend time and retain playback intent. Desktop, portrait and compact landscape layouts; other formations, Find, value history, Admin and photo intake preserved. Canvas retains its 498-copy reference payload; local collection builds from current records.",
+          "currentVersion": 18
         }
       },
-      "updatedAt": "2026-09-08T04:32:22.150Z"
+      "updatedAt": "2026-09-08T06:49:42.795Z"
     }
   }
 }

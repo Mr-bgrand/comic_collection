@@ -5,19 +5,17 @@
 #case-entry{position:absolute;left:6%;top:175px;pointer-events:none}#case-entry p{font-size:35px;letter-spacing:-1.3px;line-height:1.12;margin:14px 0 20px}#case-entry button{pointer-events:auto;font:11px Consolas,monospace;border-bottom:1px solid #9de6d35c;min-height:44px;padding:9px 0;color:#b1e9dc}
 #case-session{position:absolute;left:34px;right:34px;top:151px;display:flex;align-items:center;gap:25px;pointer-events:none}#case-leave{pointer-events:auto;min-height:44px;padding:12px 16px;background:#0c2029ce;border:1px solid #79b2bb59;border-radius:30px;font:11px Consolas,monospace;color:#c0f1e7}#case-session h2{font-size:19px;font-weight:400;letter-spacing:-.35px;margin:6px 0}#case-session .eyebrow{font-size:8px;color:#87c1bd}#case-position{font:9px Consolas,monospace;color:#88a6b0;letter-spacing:1px}.case-gesture{margin-left:auto;text-align:right;font:10px/1.7 Consolas,monospace;color:#8ba6b0}.inside-case .reticle{display:none}.inside-case .left-axis{opacity:.3}.inside-case .formations button[aria-pressed=true]{background:#b7e8dc}.inside-case .focus-panel{right:3%;width:190px}.inside-case .object-tools{left:45%}.inside-case .atmosphere{background:radial-gradient(ellipse at 43% 42%,transparent 34%,#02090bb0 100%)}
 [data-formation=singularity]{--scene-foil:#bba8ff}[data-formation=singularity] .reticle,[data-formation=singularity] .left-axis,[data-formation=singularity] .value-instrument{display:none}[data-formation=singularity] .atmosphere{background:linear-gradient(0deg,#030610a6,transparent 25%,transparent 80%,#03061066)}[data-formation=singularity] .formations button[aria-pressed=true]{background:#d1c5ff;color:#111025}[data-formation=singularity] .scope-switch button[aria-pressed=true] span,[data-formation=singularity] .focus-panel .eyebrow{color:#d1c5ff}[data-formation=singularity] .focus-panel{right:4%;width:215px}[data-formation=singularity] .focus-panel::before{background:radial-gradient(ellipse,#050a17dc,transparent 74%)}[data-formation=singularity] .object-tools{left:39%;bottom:141px}[data-formation=singularity] .object-tools .tool-divider{margin-right:8px}
-#singularity-caption{position:absolute;left:5.8%;top:156px;pointer-events:none;color:#ad9ece}#singularity-caption>span{font:8px Consolas,monospace;letter-spacing:3px}#singularity-caption strong{display:block;font-size:clamp(32px,4.5vw,68px);line-height:1.1;font-weight:400;letter-spacing:-2.6px;margin:10px 0 12px;color:#e0d9f0}#singularity-caption p{font:11px/1.7 Consolas,monospace;color:#a799b5}
 #singularity-tools{position:absolute;right:4.3%;bottom:175px;width:213px;color:#bda9ed}.arrival-label{display:flex;align-items:center;gap:8px;font:8px Consolas,monospace;letter-spacing:1px}.arrival-dot{display:block;width:4px;height:4px;background:#c9b2ff;border-radius:50%;box-shadow:0 0 12px #b098ff}.arrival-meter{height:1px;background:#8e72c833;margin:15px 0 8px;overflow:hidden}.arrival-meter i{height:100%;display:block;background:linear-gradient(90deg,#90cfeb,#ddaeff);transform-origin:left;box-shadow:0 0 10px #b098ff}.arrival-actions{display:flex;justify-content:space-between;gap:10px}.arrival-actions button{font:10px Consolas,monospace;min-height:44px;padding:7px 0}.arrival-actions button:first-child{color:#e0d3ff}
-#ambient-exit{position:absolute;z-index:5;right:24px;bottom:22px;min-height:44px;padding:10px 18px;border:1px solid #ac9ac54d;border-radius:30px;color:#d2c7e3;background:#07101a91;font:10px Consolas,monospace;opacity:.55}#ambient-exit:hover,#ambient-exit:focus-visible{opacity:1}.ambient .topline,.ambient .scope-switch,.ambient .scene-footer,.ambient .focus-panel,.ambient .object-tools,.ambient #singularity-tools,.ambient .status-line,.ambient #singularity-caption{opacity:0;pointer-events:none;transition:opacity .8s}.ambient .atmosphere{opacity:.3}
-@media(min-width:651px) and (max-width:1100px){.scene-footer{gap:10px;left:24px;right:24px}.formations button{min-width:70px;font-size:10px;padding:12px 10px}.interaction-hint,.inspect-toggle{width:140px}#singularity-caption{left:4%;top:160px}#singularity-caption strong{font-size:38px}[data-formation=singularity] .focus-panel{width:168px}#singularity-tools{width:168px}.arrival-actions{gap:8px}.arrival-actions button{font-size:9px}}
+#ambient-exit{position:absolute;z-index:5;right:24px;bottom:22px;min-height:44px;padding:10px 18px;border:1px solid #ac9ac54d;border-radius:30px;color:#d2c7e3;background:#07101a91;font:10px Consolas,monospace;opacity:.55}#ambient-exit:hover,#ambient-exit:focus-visible{opacity:1}.ambient .topline,.ambient .scope-switch,.ambient .scene-footer,.ambient .focus-panel,.ambient .object-tools,.ambient #singularity-tools,.ambient .status-line{opacity:0;pointer-events:none;transition:opacity .8s}.ambient .atmosphere{opacity:.3}
+@media(min-width:651px) and (max-width:1100px){.scene-footer{gap:10px;left:24px;right:24px}.formations button{min-width:70px;font-size:10px;padding:12px 10px}.interaction-hint,.inspect-toggle{width:140px}[data-formation=singularity] .focus-panel{width:168px}#singularity-tools{width:168px}.arrival-actions{gap:8px}.arrival-actions button{font-size:9px}}
 @media(max-width:650px){.formations button{padding:6px 3px;font-size:9px;min-width:0;min-height:48px}.formations button span{display:block;font-size:7px;margin:0 0 5px}.scene-footer .formations{gap:2px}.scene-footer{bottom:61px}.interaction-hint{max-width:52%;font-size:6px}.inspect-toggle{max-width:45%;width:auto;font-size:7px}#case-entry{left:24px;top:151px}#case-entry p{font-size:27px}#case-entry .eyebrow{font-size:7px}#case-entry button{max-width:280px;text-align:left}#case-session{left:20px;right:20px;top:139px;gap:15px;align-items:flex-start}#case-leave{font-size:9px;padding:9px 12px;white-space:nowrap}#case-session h2{font-size:14px;max-width:190px;line-height:1.3;margin:4px 0}#case-session .eyebrow{font-size:6px}#case-position{font-size:7px}.case-gesture{display:none}.inside-case .focus-panel{right:23px;width:auto}.inside-case .object-tools{left:50%}
-  #singularity-caption{top:146px;left:23px}#singularity-caption>span{font-size:6px;letter-spacing:1.8px}#singularity-caption strong{font-size:30px;letter-spacing:-1.3px;margin:5px 0}#singularity-caption p{display:none}
   [data-formation=singularity] .focus-panel{left:23px;right:23px;width:auto;bottom:277px}[data-formation=singularity] .focus-panel h2{font-size:18px}[data-formation=singularity] .object-tools{left:50%;bottom:212px;width:auto;min-width:290px;padding:3px 10px}[data-formation=singularity] .object-tools #flip{padding-left:12px;padding-right:12px}
-  #singularity-tools{left:23px;right:23px;bottom:120px;width:auto}.arrival-label{font-size:7px}.arrival-meter{margin:9px 0 0}.arrival-actions button{font-size:10px;min-height:40px}.arrival-actions{gap:20px}#ambient-exit{bottom:23px;right:20px}.ambient #singularity-caption{display:none}
+  #singularity-tools{left:23px;right:23px;bottom:120px;width:auto}.arrival-label{font-size:7px}.arrival-meter{margin:9px 0 0}.arrival-actions button{font-size:10px;min-height:40px}.arrival-actions{gap:20px}#ambient-exit{bottom:23px;right:20px}
   .inside-case .focus-panel::before{content:'';position:absolute;inset:-15px -23px;z-index:-1;pointer-events:none;background:linear-gradient(transparent,#060d13e6 20%,#060d13e6 80%,transparent)}
 }
-@media(max-height:650px) and (min-width:651px){#singularity-caption{top:148px}#singularity-caption strong{font-size:36px}#singularity-caption p{display:none}#case-session{top:142px}#singularity-tools{bottom:115px}[data-formation=singularity] .object-tools{bottom:112px}}
+@media(max-height:650px) and (min-width:651px){#case-session{top:142px}#singularity-tools{bottom:115px}[data-formation=singularity] .object-tools{bottom:112px}}
 
-/* Event Horizon instruments: the full scene travels, then yields to the scan. */
+/* Continuous flight instruments; the controls never interrupt the scene. */
 [data-formation=singularity]{--scene-foil:#b4ddff}
 [data-formation=singularity] .formations button[aria-pressed=true]{background:#c5e6ff}
 [data-formation=singularity] .scope-switch button[aria-pressed=true] span,[data-formation=singularity] .focus-panel .eyebrow{color:#b6dcf8}
@@ -25,42 +23,27 @@
 [data-formation=singularity] .focus-panel{right:5%;width:220px;transition:opacity .55s,transform .55s}
 [data-formation=singularity] .focus-panel::before{background:radial-gradient(ellipse,#020813d9,transparent 74%)}
 [data-formation=singularity] .object-tools{left:46%;bottom:139px}
-#singularity-caption{left:6%;top:25%;color:#b0d4ec;transition:opacity .6s,transform .8s}
-#singularity-caption>span{letter-spacing:2.3px;font-size:9px}
-#singularity-caption strong{font-size:clamp(44px,6.5vw,100px);font-weight:400;line-height:.93;letter-spacing:-5px;margin:22px 0;color:#edf5ff}
-#singularity-caption strong span{color:#e9b783}
-#singularity-caption p{font:11px/1.8 Consolas,monospace;color:#a9bbd0}
 #singularity-tools{right:5%;bottom:158px;width:260px;color:#b4cfe9}
 #flight-readout{display:block;margin-bottom:17px;font:9px Consolas,monospace;letter-spacing:1.1px;color:#e0efff;min-height:12px}
 .arrival-dot{background:#aadaff;box-shadow:0 0 12px #78c7ff}
 .arrival-meter i{background:linear-gradient(90deg,#629dcc,#cceaff,#e6b68f)}
 .arrival-actions button:first-child{color:#def1ff}
 .arrival-actions button{white-space:nowrap}
-[data-formation=singularity][data-arrival-stage=flight] .focus-panel,[data-formation=singularity][data-arrival-stage=crossing] .focus-panel{opacity:0;pointer-events:none;transform:translateY(-40%)}
-[data-formation=singularity][data-arrival-stage=crossing] #singularity-caption{opacity:0;transform:translateY(-15px)}
-[data-formation=singularity][data-arrival-stage=reveal] #singularity-caption,[data-formation=singularity][data-arrival-stage=hold] #singularity-caption,[data-formation=singularity][data-arrival-stage=departure] #singularity-caption{opacity:0;transform:translateY(-15px)}
-[data-formation=singularity][data-arrival-stage=flight] .object-tools,[data-formation=singularity][data-arrival-stage=crossing] .object-tools{opacity:.3}
 [data-formation=singularity].ambient .object-tools,[data-formation=singularity].ambient .focus-panel{opacity:0}
 @media(min-width:651px) and (max-width:1100px){
-  #singularity-caption{left:4%;top:28%}#singularity-caption strong{font-size:56px;letter-spacing:-3px}
   [data-formation=singularity] .focus-panel{right:3%;width:165px}
   #singularity-tools{right:3%;width:220px;bottom:145px}.arrival-actions button{font-size:9px}
   [data-formation=singularity] .object-tools{left:40%;bottom:139px}
 }
 @media(max-width:650px){
-  #singularity-caption{top:24%;left:25px}#singularity-caption>span{font-size:7px}
-  #singularity-caption strong{font-size:55px;letter-spacing:-3px;margin:16px 0}
-  #singularity-caption p{display:block;font-size:9px}
   [data-formation=singularity] .focus-panel{left:23px;right:23px;width:auto;bottom:286px}
   [data-formation=singularity] .focus-panel h2{font-size:18px}
   [data-formation=singularity] .object-tools{left:50%;bottom:226px;min-width:290px}
   #singularity-tools{left:23px;right:23px;bottom:122px;width:auto}
   #flight-readout{font-size:7px;margin-bottom:10px}.arrival-label{font-size:6px}
   .arrival-actions button{font-size:9px;min-height:44px}
-  [data-formation=singularity][data-arrival-stage=flight] .focus-panel,[data-formation=singularity][data-arrival-stage=crossing] .focus-panel{transform:none}
 }
 @media(max-height:650px) and (min-width:651px){
-  #singularity-caption{top:32%}#singularity-caption strong{font-size:48px;letter-spacing:-2px}#singularity-caption p{display:none}
   #singularity-tools{bottom:122px}#flight-readout{margin-bottom:8px}
   [data-formation=singularity] .object-tools{bottom:112px}
 }
@@ -81,6 +64,9 @@
   #singularity-tools{right:24px;left:auto;bottom:18px;width:200px}
   #singularity-tools .arrival-actions{gap:8px}#singularity-tools .arrival-actions button{font-size:8px}
   #singularity-tools .arrival-label,#flight-readout{font-size:6px}
-  #singularity-caption{left:24px;top:35%}#singularity-caption strong{font-size:44px}
-  [data-formation=singularity][data-arrival-stage=flight] .focus-panel,[data-formation=singularity][data-arrival-stage=crossing] .focus-panel{transform:none}
+}
+
+/* Keep the record link above playback, including on shorter desktop windows. */
+@media(min-width:651px) and (min-height:501px){
+  [data-formation=singularity] .focus-panel{top:auto;bottom:290px;max-height:calc(100dvh - 400px);overflow-y:auto;overflow-x:hidden;transform:none;scrollbar-width:thin}
 }

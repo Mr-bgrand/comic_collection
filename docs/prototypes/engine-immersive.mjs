@@ -26,20 +26,16 @@ export function caseFormation(records, selected, aspect, scope='all') {
   });
 }
 
-// Travel is additional to the five seconds spent looking at the intact scan.
+// The field cruises continuously; each copy arrives, stays readable, then departs.
 // A paused/hidden tab never catches up by skipping unseen collection records.
-export const ARRIVAL_REST=5.4;
-export const ARRIVAL_DURATION=11.2;
+export const ARRIVAL_REST=1.2;
+export const ARRIVAL_DURATION=7.4;
 export function arrivalFrame(elapsed) {
   const t=Math.max(0,Math.min(ARRIVAL_DURATION,elapsed));
-  const clamp=v=>Math.max(0,Math.min(1,v)),ease=v=>v*v*(3-2*v);
-  const flight=clamp(t/3.4),crossing=clamp((t-3.4)/.8),assemble=clamp((t-4.2)/1.2),departure=clamp((t-10.4)/.8);
-  const stage=t<3.4?'flight':t<4.2?'crossing':t<5.4?'reveal':t<10.4?'hold':'departure';
-  return {phase:t/ARRIVAL_DURATION,stage,flight,crossing,assemble,departure,
-    speed:stage==='flight'?.14+.86*flight*flight:stage==='crossing'?1-.8*ease(crossing):.025+.18*departure,
-    distance:132*flight*flight+28*ease(crossing),
-    fov:t>=4.4?42:42+34*Math.sin(Math.PI*clamp(t/4.4)),
-    holdRemaining:stage==='hold'?Math.ceil(10.4-t):0};
+  const clamp=v=>Math.max(0,Math.min(1,v)),holdEnd=ARRIVAL_REST+5;
+  const stage=t<ARRIVAL_REST?'reveal':t<holdEnd?'hold':'departure';
+  return {phase:t/ARRIVAL_DURATION,stage,assemble:clamp(t/ARRIVAL_REST),departure:clamp((t-holdEnd)/(ARRIVAL_DURATION-holdEnd)),
+    speed:.24,fov:42,holdRemaining:stage==='hold'?Math.ceil(holdEnd-t):0};
 }
 export function advanceArrival(elapsed, dt, {active,playing,quiet,blocked}, duration=ARRIVAL_DURATION) {
   if(!active||!playing||quiet||blocked)return {elapsed,advance:false};

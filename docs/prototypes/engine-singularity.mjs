@@ -1,11 +1,22 @@
 // Galactic passage: real, two-sided copies and one streak batch over a stellar sky.
 // Shaders animate geometry in depth; no per-copy textures or frame-loop allocation.
+// Change a background scan only after its slot wraps into the distant fade.
+export function refreshFlightCopies(cells,cycles,seeds,indices,flow,cursor,columns,rows) {
+  if(!indices.length)return cursor;
+  for(let i=0;i<cycles.length;i++){
+    const cycle=Math.floor((seeds[i*4+2]*190-flow*.84+10000)/190);
+    if(cycles[i]===cycle)continue;
+    cycles[i]=cycle;const id=indices[cursor++%indices.length];
+    cells[i*2]=id%columns;cells[i*2+1]=rows-1-Math.floor(id/columns);
+  }
+  return cursor;
+}
 export function createSingularity(THREE,{scene,atlas,backAtlas,columns,rows,records,mobile}) {
   const group=new THREE.Group();scene.add(group);group.visible=false;
   const uniforms={
     uTime:{value:0},uFlow:{value:0},uSpeed:{value:0},uField:{value:1},
     uColor:{value:new THREE.Color('#73cfff')},uEcho:{value:new THREE.Color('#e69b63')},
-    uCross:{value:0},uReveal:{value:0},uAspect:{value:1}
+    uAspect:{value:1}
   };
   const materials=[],geometries=[];
   function material(options){const m=new THREE.ShaderMaterial({uniforms:{...uniforms},transparent:true,depthWrite:false,toneMapped:false,...options});materials.push(m);return m;}
@@ -21,7 +32,7 @@ export function createSingularity(THREE,{scene,atlas,backAtlas,columns,rows,reco
   // Screen-space keeps the sky behind every copy without an opaque central object.
   const sky=new THREE.Mesh(plane,material({depthTest:false,
     vertexShader:`varying vec2 vUv;void main(){vUv=uv;gl_Position=vec4(position.xy*2.,.999,1.);}`,
-    fragmentShader:`varying vec2 vUv;uniform float uTime,uAspect,uSpeed,uCross,uReveal;
+    fragmentShader:`varying vec2 vUv;uniform float uTime,uAspect,uSpeed;
       float hash(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}
       float noise(vec2 p){vec2 i=floor(p),f=fract(p);f=f*f*(3.-2.*f);return mix(mix(hash(i),hash(i+vec2(1.,0.)),f.x),mix(hash(i+vec2(0.,1.)),hash(i+1.),f.x),f.y);}
       float fbm(vec2 p){float n=0.,amp=.5;for(int i=0;i<5;i++){n+=amp*noise(p);p=mat2(.8,-.6,.6,.8)*p*2.03+vec2(7.1,3.7);amp*=.5;}return n;}
@@ -49,8 +60,7 @@ export function createSingularity(THREE,{scene,atlas,backAtlas,columns,rows,reco
         color+=vec3(.60,.72,1.)*starLayer(p,95.,.955)*.56;
         color+=vec3(.90,.88,.81)*starLayer(p+17.,210.,mix(.992,.69,band*extinction))*.64;
         color+=vec3(.56,.65,.85)*starLayer(p-8.,390.,mix(.998,.78,band*extinction))*.38;
-        float crossing=sin(uCross*3.14159)*(1.-uReveal);
-        color*=1.-crossing*.65;gl_FragColor=vec4(color,1.);}`
+        gl_FragColor=vec4(color,1.);}`
   }));sky.frustumCulled=false;sky.renderOrder=-10;group.add(sky);
 
   const tunnel=new THREE.Group();group.add(tunnel);
@@ -100,34 +110,22 @@ export function createSingularity(THREE,{scene,atlas,backAtlas,columns,rows,reco
         gl_FragColor=vec4(art*(.68+.32*uField)+uColor*edge*.55,vFade*uField);}`
   }));copies.frustumCulled=false;copies.renderOrder=1;tunnel.add(copies);
 
-  // A soft chromatic shock front masks the crossing without a white-screen flash.
-  const shock=new THREE.Mesh(plane,material({depthTest:false,blending:THREE.AdditiveBlending,
-    vertexShader:`varying vec2 vUv;void main(){vUv=uv;gl_Position=vec4(position.xy*2.,0.,1.);}`,
-    fragmentShader:`varying vec2 vUv;uniform float uCross,uAspect,uReveal;uniform vec3 uColor;
-      void main(){vec2 p=(vUv-.5)*vec2(uAspect,1.);float r=length(p);
-        float wave=exp(-abs(r-uCross*2.)*16.)*sin(uCross*3.14159);
-        float rim=pow(smoothstep(.15,1.,r),3.)*(1.-uReveal)*sin(uCross*3.14159);
-        gl_FragColor=vec4(mix(uColor,vec3(.5,.8,1.),.55),wave*.48+rim*.13);}`
-  }));shock.frustumCulled=false;shock.renderOrder=5;group.add(shock);
-
   const tint=new THREE.Color(),restPosition=new THREE.Vector3(),restScale=new THREE.Vector3();
-  let previous=-1,queueIndex=-1,queueReference=null,flow=0;
+  const copyCycles=new Float64Array(copyCount);copyCycles.fill(NaN);
+  let previous=-1,queueReference=null,copyCursor=0,flow=0;
   return {
     update({active,time,dt,frame,index,indices,quiet,playing,hero,camera,aspect,ambient}){
       group.visible=active;if(!active)return;
       uniforms.uTime.value=time;uniforms.uAspect.value=aspect;
       uniforms.uSpeed.value=quiet?0:frame.speed;
-      uniforms.uCross.value=frame.crossing;uniforms.uReveal.value=frame.assemble;
-      uniforms.uField.value=quiet?.12:frame.stage==='flight'?1:frame.stage==='crossing'?1-frame.crossing*.9:.12+frame.departure*.5;
+      uniforms.uField.value=quiet?.28:.42;
       if(playing&&!quiet)flow+=dt*(3+frame.speed*100);
       uniforms.uFlow.value=flow;tunnel.position.copy(camera.position);
       if(previous!==index){uniforms.uEcho.value.copy(uniforms.uColor.value);previous=index;}
       tint.set(records[index].palette||'#73cfff');uniforms.uColor.value.lerp(tint,quiet?1:Math.min(1,dt*1.5));
-      if(index!==queueIndex||indices!==queueReference){
-        queueIndex=index;queueReference=indices;const at=Math.max(0,indices.indexOf(index));
-        for(let i=0;i<copyCount;i++){const id=indices.length?indices[(at+i+1)%indices.length]:index;cells.set([id%columns,rows-1-Math.floor(id/columns)],i*2);}
-        copyGeo.attributes.aCell.needsUpdate=true;
-      }
+      if(indices!==queueReference){queueReference=indices;copyCursor=Math.max(0,indices.indexOf(index))+1;copyCycles.fill(NaN);}
+      const nextCursor=refreshFlightCopies(cells,copyCycles,copyGeo.attributes.aSeed.array,indices,flow,copyCursor,columns,rows);
+      if(nextCursor!==copyCursor){copyCursor=nextCursor;copyGeo.attributes.aCell.needsUpdate=true;}
       // Capture the caller's steady pose, then author the approach/reveal in depth.
       restPosition.copy(hero.position);restScale.copy(hero.scale);
       hero.visible=quiet||frame.stage==='reveal'||frame.stage==='hold'||frame.stage==='departure';
@@ -142,7 +140,6 @@ export function createSingularity(THREE,{scene,atlas,backAtlas,columns,rows,reco
         hero.position.z=-65*p*p;hero.rotation.z-=p*.22;
         hero.scale.multiplyScalar(1-p*.85);
       }
-      if(ambient&&frame.stage==='hold')copies.visible=false;else copies.visible=true;
     },
     resize(isMobile){copyGeo.instanceCount=Math.min(copyCount,isMobile?44:96);starGeo.instanceCount=Math.min(starCount,isMobile?650:1500);copyUniforms.uNarrow.value=isMobile?1:0;},
     dispose(){scene.remove(group);for(const g of geometries)g.dispose();for(const m of materials)m.dispose();}

@@ -138,3 +138,25 @@ Validation: review build and all eight existing immersive tests pass; desktop
 and a 390 × 844 portrait preview render the flight and held-copy phases. The main
 scene reports no WebGL console errors. The existing Superdesign draft is version
 17; its fetched source matches the local galaxy implementation exactly.
+
+## Continuous Singularity playback — September 7
+
+The owner wants uninterrupted flight while hiding the controls. This supersedes
+the earlier 11.2-second approach/crossing sequence and explicit restart after tab
+hiding. Hide controls, Ambient, Show controls and Escape from Ambient now preserve
+playback intent. A deliberately paused scene stays paused. A backgrounded browser
+tab freezes rendering and elapsed time, then resumes its previous state without
+skipping copies.
+
+The scene cruises at steady speed and field of view with continuous camera drift.
+Each foreground copy reveals for 1.2 seconds, holds for five full seconds, and
+departs for 1.2 seconds. There is no recurring Event Horizon headline or crossing
+flash. Background scans remain visible during close-ups and Ambient; each scan
+changes only when its individual slot recycles into the distant fade. Real front
+and back images, manual pause, reduced motion and the other formations remain.
+
+Validation: 332 tests pass, including timing, pause gates, constant flight speed
+and background scan recycling. Local browser checks confirm automatic arrivals
+continue with controls hidden and deliberate pause survives hide/show. A 390 × 844
+portrait preview keeps the complete held scan in frame with visible background
+copies. Physical iPhone GPU and touch testing remain unverified.
