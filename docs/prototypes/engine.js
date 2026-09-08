@@ -12,7 +12,7 @@ const records=payload.records, $=id=>document.getElementById(id), app=$('engine'
 const money=v=>v===null?'Not yet valued':'$'+v.toLocaleString('en-US');
 const reduced=matchMedia('(prefers-reduced-motion: reduce)');
 let quiet=reduced.matches, selected=0, mode='orbit', inspecting=true, exploded=false, separation=1, flipped=false, graphics=null,scope='all',tourOn=false;
-let rendererFailed=false,unvaluedOnly=false,caseFilter=null;
+let rendererFailed=false,unvaluedOnly=false,caseFilter=null,lastResultsScroll=0;
 let insideCase=false,arrivalPlaying=false,arrivalElapsed=0,arrivalTime=0,ambient=false;
 let musicStorage;try{musicStorage=localStorage;}catch{}
 const soundtrack=createSoundtrack({audio:$('singularity-audio'),button:$('music-toggle'),source:payload.soundtrack?.src,storage:musicStorage});
@@ -128,7 +128,7 @@ for(const [group,id] of [['names','search-names'],['keywords','search-keywords']
     button.setAttribute('aria-label',`Find ${item.label}, ${item.count} ${item.count===1?'object':'objects'}`);
     const label=document.createElement('span');label.textContent=item.label;
     const count=document.createElement('small');count.textContent=item.count;count.setAttribute('aria-hidden','true');
-    button.append(label,count);button.onclick=()=>{$('query').value=item.label;search();$('results').focus({preventScroll:true});};$(id).append(button);
+    button.append(label,count);button.onclick=()=>{$('query').value=item.label;lastResultsScroll=0;search();$('results').focus({preventScroll:true});};$(id).append(button);
   }
   $(id).parentElement.hidden=!shortcuts[group].length;
 }
@@ -148,11 +148,19 @@ function search() {
   if(!matches.length){const p=document.createElement('p');p.textContent='No matching objects. Try a title or certification number.';$('results').append(p);}
 }
 function focusSearch(){(innerWidth<=650?$('search-title'):$('query')).focus({preventScroll:true});}
-function clearSearch(){ $('query').value='';unvaluedOnly=false;caseFilter=null;search();focusSearch(); }
-function openSearch({unvalued=false}={}){stopTour();$('query').value='';unvaluedOnly=unvalued;caseFilter=null;search();$('search-dialog').showModal();focusSearch();}
+function clearSearch(){ $('query').value='';unvaluedOnly=false;caseFilter=null;lastResultsScroll=0;search();focusSearch(); }
+/*
+ * Opening a result closes this dialog to go look at the object, so reopening
+ * must resume the same filtered list — query, value filter and scroll intact —
+ * or browsing "all of them" costs a retype per object. Only an explicit
+ * shortcut (the unvalued view) starts a fresh search; Clear search is the way
+ * a person starts over.
+ */
+function openSearch({unvalued=null}={}){stopTour();if(unvalued!==null){$('query').value='';unvaluedOnly=unvalued;caseFilter=null;lastResultsScroll=0;}search();$('search-dialog').showModal();$('results').scrollTop=lastResultsScroll;focusSearch();}
 $('search-reset').onclick=clearSearch;
-$('search-unvalued').onclick=()=>{unvaluedOnly=true;search();};$('search-all-values').onclick=()=>{unvaluedOnly=false;search();};
-$('search').onclick=$('fallback-search').onclick=openSearch;$('query').oninput=()=>{caseFilter=null;search();};
+$('results').onscroll=()=>{lastResultsScroll=$('results').scrollTop;};
+$('search-unvalued').onclick=()=>{unvaluedOnly=true;lastResultsScroll=0;search();};$('search-all-values').onclick=()=>{unvaluedOnly=false;lastResultsScroll=0;search();};
+$('search').onclick=$('fallback-search').onclick=openSearch;$('query').oninput=()=>{caseFilter=null;lastResultsScroll=0;search();};
 document.addEventListener('keydown',e=>{
   if(e.key==='Escape'&&ambient){e.preventDefault();setAmbient(false);return;}
   if(document.querySelector('dialog[open]')||['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName))return;
