@@ -150,3 +150,41 @@ test('with nothing freed it is just the next sequence', () => {
   const take = makeSequenceAllocator('15', [{ id: 'raw:15-009' }], []);
   assert.deepEqual([take(), take()], [10, 11]);
 });
+
+/*
+ * Saving without clobbering.
+ *
+ * The scanner held the bin in memory and rewrote the whole file on every
+ * scan. Forty proposed identifications written to that file by another
+ * process vanished on the next press. A save must start from the file.
+ */
+
+import { mergeBedRecords } from './raw.js';
+
+test('records edited on disk by someone else survive a save', () => {
+  const onDisk = [
+    { id: 'raw:15-001', imageSources: { front: { bed: 'raw-15-scan-001' } },
+      identification: { status: 'proposed', candidates: [{ title: 'NYX' }] } },
+    { id: 'Authority:1', imageSources: {} },
+  ];
+  const fresh = [{ id: 'raw:15-002', imageSources: { front: { bed: 'raw-15-scan-002' } } }];
+  const out = mergeBedRecords(onDisk, 'raw-15-scan-002', fresh);
+  assert.equal(out.length, 3);
+  assert.equal(out[0].identification.status, 'proposed', 'the proposal on disk must be kept');
+});
+
+test('a rescan replaces only the records its own bed produced', () => {
+  const onDisk = [
+    { id: 'raw:15-001', imageSources: { front: { bed: 'raw-15-scan-001' } } },
+    { id: 'raw:15-002', imageSources: { front: { bed: 'raw-15-scan-001' } } },
+    { id: 'raw:15-003', imageSources: { front: { bed: 'raw-15-scan-002' } } },
+  ];
+  const fresh = [{ id: 'raw:15-001', imageSources: { front: { bed: 'raw-15-scan-001' } } }];
+  const out = mergeBedRecords(onDisk, 'raw-15-scan-001', fresh);
+  assert.deepEqual(out.map((c) => c.id), ['raw:15-003', 'raw:15-001']);
+});
+
+test('a bin that does not exist yet merges from nothing', () => {
+  const fresh = [{ id: 'raw:15-001', imageSources: { front: { bed: 'raw-15-scan-001' } } }];
+  assert.deepEqual(mergeBedRecords(undefined, 'raw-15-scan-001', fresh), fresh);
+});

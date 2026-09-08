@@ -32,6 +32,7 @@ import { startPreview } from './preview.js';
 import { speakAsync, startListener, interpretVoice } from './speech.js';
 import {
   rawRecord, rawImageName, emptyRawBin, makeSequenceAllocator, bedId, lastScanNumber, recordsFromBed,
+  mergeBedRecords,
 } from './raw.js';
 
 const COMICS_DIR = path.join('data', 'comics');
@@ -53,9 +54,20 @@ export async function loadRawBin(bin) {
   return { file, data, created: false };
 }
 
-async function saveBin(file, data) {
+/**
+ * Save one bed's outcome without clobbering anything else in the file.
+ *
+ * The bin is re-read from disk at save time and only this bed's records are
+ * replaced. The in-memory copy is then refreshed from what was written, so
+ * sequence numbers and "again" keep working against the true state.
+ */
+async function saveBed(file, data, bed, fresh) {
   await mkdir(path.dirname(file), { recursive: true });
-  await writeFile(file, `${JSON.stringify(data, null, 2)}\n`, 'utf8');
+  const onDisk = existsSync(file) ? JSON.parse(await readFile(file, 'utf8')) : { ...data, comics: [] };
+  onDisk.comics = mergeBedRecords(onDisk.comics, bed, fresh);
+  await writeFile(file, `${JSON.stringify(onDisk, null, 2)}\n`, 'utf8');
+  data.comics = onDisk.comics;
+  return onDisk;
 }
 
 /**
@@ -88,6 +100,8 @@ export async function processBed(bedPath, { bin, data, scanNumber, replace = fal
   }
   const takeSequence = makeSequenceAllocator(bin, data.comics, freed);
 
+  // Allocate against what is on disk, not what this process remembers: the
+  // file may have been edited since the session began.
   const source = await readFile(bedPath);
   const crops = await cropToSlabs(source, { max: 2, maxEdge: MAX_EDGE });
   const found = crops.filter((c) => c.box);
@@ -110,7 +124,6 @@ export async function processBed(bedPath, { bin, data, scanNumber, replace = fal
       width: meta.width, height: meta.height, sha256: sha256(buffer), now,
     });
     await writeFile(path.join(IMAGE_DIR, rawImageName(record.id, 'front')), buffer);
-    data.comics.push(record);
     records.push(record);
     figures.push({ buffer, label: `${position} · ${record.id}` });
   }
@@ -158,7 +171,7 @@ export async function scanRaw({ bin, voice = false, preview = false, from = null
       || lastScanNumber(bin, data.comics) + 1;
     const replace = recordsFromBed(data.comics, bedId(bin, scanNumber)).length > 0;
     const r = await processBed(from, { bin, data, scanNumber, replace });
-    await saveBin(file, data);
+    await saveBed(file, data, r.bed, r.records);
     console.log(`${r.bed}: ${r.found} book(s) -> ${r.records.map((x) => x.id).join(', ') || 'none'}`);
     return { scanned: r.found };
   }
@@ -228,7 +241,7 @@ export async function scanRaw({ bin, voice = false, preview = false, from = null
 
       const r = await processBed(temp, { bin, data, scanNumber: thisScan, replace, view });
       await rm(temp, { force: true });
-      await saveBin(file, data);
+      await saveBed(file, data, r.bed, r.records);
 
       if (!replace) scanNumber = thisScan;
       lastBed = thisScan;

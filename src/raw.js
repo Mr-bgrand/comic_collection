@@ -138,3 +138,18 @@ export function rawRecord({ bin, sequence, bed, position, width, height, sha256,
     importSource: { provider: 'owner-scan', importedAt: now },
   };
 }
+
+/**
+ * Fold one bed's records into the bin as it is on disk right now.
+ *
+ * The scanner used to hold the bin in memory and write the whole file after
+ * every scan. Anything written to that file by anyone else in the meantime -
+ * a proposed identification, a relabel in the Lab - was silently replaced by
+ * the scanner's stale copy on the next press. So a save starts from the file,
+ * not from memory: keep every record that is on disk, drop only the ones this
+ * bed produced before (a rescan replaces its own books), and append the new.
+ */
+export function mergeBedRecords(onDisk, bed, fresh) {
+  const kept = (onDisk ?? []).filter((c) => c?.imageSources?.front?.bed !== bed);
+  return [...kept, ...fresh];
+}
