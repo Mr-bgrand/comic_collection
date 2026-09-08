@@ -17,6 +17,9 @@ const MAT_MARGIN = 25; // how far above the mat a pixel must sit to be content
 const MAT_PERCENTILE = 0.25; // robust to a slab occupying part of the ring
 const ROW_HIT_RATIO = 0.02; // a row/column counts as content at 2% bright pixels
 const GAP_RATIO = 0.06; // a dark band this wide does not split one slab in two
+// A comic is about 1.5 times as tall as it is wide. One box squarer than this
+// is two books touching - the first real two-up bed came back as one 1400x1182.
+const SEAM_MAX_RATIO = 1.15; // a dark band this wide does not split one slab in two
 const MARGIN_RATIO = 0.012; // small breathing room so the holder is not clipped
 
 /**
@@ -124,12 +127,11 @@ export function findContentBoxes(gray, width, height, { max = 1 } = {}) {
     .slice(0, max)
     .sort((a, b) => a.start - b.start);
 
-  const out = [];
-  for (const cols of runs) {
-    // Rows are the outer extent within this run's columns, not the widest run:
-    // a dark cover is not uniformly bright - a foil scan is a white label, a
-    // near-black middle and a bright holder edge - and the widest run would
-    // return the label alone. Inside the book's own columns there is no spill.
+  // The outer row extent within a run of columns, not the widest run: a dark
+  // cover is not uniformly bright - a foil scan is a white label, a near-black
+  // middle and a bright holder edge - and the widest run would return the
+  // label alone. Inside the book's own columns there is no spill to guard against.
+  const rowExtent = (cols) => {
     const rowHits = new Array(height).fill(0);
     for (let y = 0; y < height; y += 1) {
       for (let x = cols.start; x <= cols.end; x += 1) {
@@ -139,8 +141,38 @@ export function findContentBoxes(gray, width, height, { max = 1 } = {}) {
     const rowMin = Math.max(1, Math.floor((cols.end - cols.start + 1) * ROW_HIT_RATIO));
     const firstRow = rowHits.findIndex((n) => n >= rowMin);
     const lastRow = rowHits.length - 1 - [...rowHits].reverse().findIndex((n) => n >= rowMin);
-    if (firstRow < 0 || lastRow <= firstRow) continue;
+    return firstRow < 0 || lastRow <= firstRow ? null : { start: firstRow, end: lastRow };
+  };
 
+  // Two books placed edge to edge give one run, not two. A run whose box is
+  // squarer than a comic is two books; the seam between two bags is the weakest
+  // column across the middle of the run, and if no column stands out, the
+  // middle is the honest guess. Only when two were asked for.
+  if (max >= 2 && runs.length === 1) {
+    const cols = runs[0];
+    const rows = rowExtent(cols);
+    const ratio = rows ? (rows.end - rows.start + 1) / (cols.end - cols.start + 1) : Infinity;
+    if (ratio < SEAM_MAX_RATIO) {
+      const a = cols.start + Math.round((cols.end - cols.start) * 0.3);
+      const b = cols.start + Math.round((cols.end - cols.start) * 0.7);
+      let seam = -1;
+      let low = Infinity;
+      for (let x = a; x <= b; x += 1) {
+        if (colHits[x] < low) { low = colHits[x]; seam = x; }
+      }
+      const sorted = colHits.slice(cols.start, cols.end + 1).sort((p, q) => p - q);
+      const typical = sorted[Math.floor(sorted.length / 2)];
+      if (!(low < typical * 0.7)) seam = Math.round((cols.start + cols.end) / 2);
+      runs.splice(0, 1, { start: cols.start, end: seam - 1 }, { start: seam + 1, end: cols.end });
+    }
+  }
+
+  const out = [];
+  for (const cols of runs) {
+    const rows = rowExtent(cols);
+    if (!rows) continue;
+    const firstRow = rows.start;
+    const lastRow = rows.end;
     const boxW = (cols.end - cols.start + 1) / width;
     const boxH = (lastRow - firstRow + 1) / height;
     // A box covering nearly everything means nothing was found worth cropping to.

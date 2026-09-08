@@ -116,3 +116,37 @@ test('a bare bin is not confused with a --from path', () => {
 test('no bin at all is reported, not guessed', () => {
   assert.equal(parseRawArgs(['--voice']).bin, null);
 });
+
+/*
+ * Sequence allocation on a rescan.
+ *
+ * "again" frees the ids the old bed produced and reuses them first. The first
+ * real rescan found two books where the first pass had merged them into one:
+ * the freed id was reused, then the sequence restarted from a bin that no
+ * longer held it, and both books became raw:15-001 with one overwriting the
+ * other's image. The sequence must continue past everything freed.
+ */
+
+import { makeSequenceAllocator } from './raw.js';
+
+test('a rescan that finds more books than before does not repeat an id', () => {
+  const comics = [{ id: 'Authority:1' }]; // the freed record is already removed
+  const take = makeSequenceAllocator('15', comics, [1]);
+  assert.deepEqual([take(), take()], [1, 2]);
+});
+
+test('freed ids are reused in order, then the sequence continues', () => {
+  const comics = [{ id: 'raw:15-001' }, { id: 'raw:15-002' }, { id: 'raw:15-005' }];
+  const take = makeSequenceAllocator('15', comics, [4, 3]);
+  assert.deepEqual([take(), take(), take()], [3, 4, 6]);
+});
+
+test('duplicate freed ids - from records that were already duplicated - count once', () => {
+  const take = makeSequenceAllocator('15', [], [1, 1]);
+  assert.deepEqual([take(), take(), take()], [1, 2, 3]);
+});
+
+test('with nothing freed it is just the next sequence', () => {
+  const take = makeSequenceAllocator('15', [{ id: 'raw:15-009' }], []);
+  assert.deepEqual([take(), take()], [10, 11]);
+});

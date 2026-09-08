@@ -31,7 +31,7 @@ import { cropToSlabs } from './crop.js';
 import { startPreview } from './preview.js';
 import { speakAsync, startListener, interpretVoice } from './speech.js';
 import {
-  rawRecord, rawImageName, emptyRawBin, nextRawSequence, bedId, lastScanNumber, recordsFromBed,
+  rawRecord, rawImageName, emptyRawBin, makeSequenceAllocator, bedId, lastScanNumber, recordsFromBed,
 } from './raw.js';
 
 const COMICS_DIR = path.join('data', 'comics');
@@ -85,10 +85,8 @@ export async function processBed(bedPath, { bin, data, scanNumber, replace = fal
       }
     }
     data.comics = data.comics.filter((c) => c?.imageSources?.front?.bed !== bed);
-    freed.sort((a, b) => a - b);
   }
-  let next = nextRawSequence(bin, data.comics);
-  const takeSequence = () => (freed.length ? freed.shift() : next++);
+  const takeSequence = makeSequenceAllocator(bin, data.comics, freed);
 
   const source = await readFile(bedPath);
   const crops = await cropToSlabs(source, { max: 2, maxEdge: MAX_EDGE });

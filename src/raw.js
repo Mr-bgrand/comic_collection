@@ -41,6 +41,18 @@ export function nextRawSequence(bin, comics) {
   return highest + 1;
 }
 
+/**
+ * Hand out sequence numbers for one bed: the ids a rescan freed first, in
+ * order, then onward from past everything - freed or stored. Computing "next"
+ * from the bin alone, after the freed records were removed, restarted the
+ * sequence underneath the id being reused, and two books became one.
+ */
+export function makeSequenceAllocator(bin, comics, freed = []) {
+  const queue = [...new Set(freed)].sort((a, b) => a - b);
+  let next = Math.max(nextRawSequence(bin, comics), (queue[queue.length - 1] ?? 0) + 1);
+  return () => (queue.length ? queue.shift() : next++);
+}
+
 /** `raw-15-scan-007` - names the bed, not a book, so a bed can be re-cropped. */
 export function bedId(bin, scanNumber) {
   return `raw-${bin}-scan-${pad(scanNumber, 3)}`;

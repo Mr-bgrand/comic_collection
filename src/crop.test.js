@@ -200,3 +200,49 @@ test('findContentBox is unchanged: the single widest box', () => {
   const one = findContentBox(px, 300, 200);
   assert.ok(Math.abs(one.width - 120 / 300) < 0.03, 'the wider of the two');
 });
+
+/*
+ * Two books touching.
+ *
+ * The first real two-up bed had the books placed edge to edge, so the column
+ * profile was one continuous run and both came out as a single 1400x1182
+ * crop. A comic is about 1.5 times as tall as it is wide; one box that comes
+ * out landscape is two books, and the seam between two bagged books is a dip
+ * in the profile. If there is no dip at all, the middle is the honest guess.
+ */
+
+test('two books touching, with a seam, are split at the seam', () => {
+  // Two 100-wide books, 2 dark columns between them at x=120..121.
+  const px = twoUp(300, 200, { x: 20, y: 20, w: 100, h: 160 }, { x: 122, y: 20, w: 100, h: 160 });
+  const boxes = findContentBoxes(px, 300, 200, { max: 2 });
+  assert.equal(boxes.length, 2, 'touching books must still become two boxes');
+  const seam = boxes[0].left + boxes[0].width;
+  assert.ok(Math.abs(seam - 121 / 300) < 0.03, `split at ${seam.toFixed(3)}, seam is at 0.403`);
+});
+
+test('two books touching with no visible seam are split in the middle', () => {
+  // One continuous 200-wide, 160-tall rectangle: landscape, so two books.
+  const px = field(300, 200, { x: 20, y: 20, w: 200, h: 160 });
+  const boxes = findContentBoxes(px, 300, 200, { max: 2 });
+  assert.equal(boxes.length, 2);
+  assert.ok(Math.abs(boxes[0].width - boxes[1].width) < 0.03, 'halves of equal width');
+  assert.ok(Math.abs((boxes[0].left + boxes[0].width) - 120 / 300) < 0.03, 'split at the middle');
+});
+
+test('a single portrait book is never split', () => {
+  const px = field(300, 200, { x: 100, y: 10, w: 100, h: 180 });
+  assert.equal(findContentBoxes(px, 300, 200, { max: 2 }).length, 1);
+});
+
+test('the seam split only applies when two were asked for', () => {
+  const px = field(300, 200, { x: 20, y: 20, w: 200, h: 160 });
+  assert.equal(findContentBoxes(px, 300, 200, { max: 1 }).length, 1);
+});
+
+test('the halves keep their own heights when the books differ', () => {
+  // Left book taller than the right, touching, with a seam.
+  const px = twoUp(300, 200, { x: 20, y: 10, w: 100, h: 180 }, { x: 122, y: 40, w: 100, h: 120 });
+  const boxes = findContentBoxes(px, 300, 200, { max: 2 });
+  assert.equal(boxes.length, 2);
+  assert.ok(boxes[0].height > boxes[1].height + 0.1, `left ${boxes[0].height.toFixed(2)} right ${boxes[1].height.toFixed(2)}`);
+});
