@@ -18,6 +18,31 @@ export function acceptedCardImage(grader,source,side,cert,reversed=false) {
   return false;
 }
 
+/**
+ * TAG also photographs the encapsulated card — the GRADED IMAGES section of the
+ * card page — and those photos, not the bare MAIN scans, are what the slab
+ * actually looks like. Same covenant as everything else: the URL must be
+ * discovered on the rendered page. The filename scheme for these photos is not
+ * assumed; what is enforced is TAG's own asset host and path, that a MAIN scan
+ * cannot masquerade as a slab photo, and that when the filename does carry a
+ * FRONT/BACK marker it agrees with the side the capture recorded from the
+ * page's labels.
+ */
+export function acceptedTagSlabPhoto(source,side) {
+  if(!['front','back'].includes(side))return false;
+  try {
+    const url=new URL(source);
+    if(url.protocol!=='https:'||url.username||url.password||url.port||url.hash||url.search)return false;
+    if(url.hostname!=='d39lwrz0lm7c9r.cloudfront.net')return false;
+    if(!/^\/card-images\/[^/]+\.(jpg|jpeg|png|webp)$/i.test(url.pathname))return false;
+    if(/_(FRONT|BACK)_MAIN\.[a-z]+$/i.test(url.pathname))return false;
+    const marker=url.pathname.match(/_(FRONT|BACK)[_.]/i);
+    if(marker&&marker[1].toLowerCase()!==side)return false;
+    return true;
+  }catch{}
+  return false;
+}
+
 export function acceptedCardCertPage(grader,source,cert) {
   try {
     const url=new URL(source);

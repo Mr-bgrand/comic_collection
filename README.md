@@ -293,6 +293,14 @@ data/incoming/tag-case-02-captures.json`, then `npm run cards:images --
 data/incoming/tag-case-02-images.json data/cards/case-02.json` and rebuild. The capture
 includes its physical container, so the earlier TAG collection stays separate.
 
+TAG's card pages also photograph the encapsulated card — the **GRADED IMAGES**
+section. Capture those two URLs into the image manifest as `slabFront` /
+`slabBack` (same rules: taken from the rendered page, never constructed) and
+re-run `npm run cards:images`. The slab photograph becomes the card's display
+image everywhere — the copy as it physically exists, matching the CGC slabs —
+while the razor-sharp MAIN scans stay on the record as `images.scanFront` /
+`images.scanBack`, without being downloaded again.
+
 The experimental Collection / Lab home also shows the combined recorded value of
 comics and cards, with a small trend chart. Click it to explore dated snapshots,
 see the comic/card breakdown and find copies with no value yet. The same **No

@@ -236,6 +236,18 @@ list supplied in the conversation or a file already in this workspace.
   `/card-images/`, and `_FRONT_MAIN` / `_BACK_MAIN` filenames. Keep `_SFX`
   and defect close-ups as separately labeled supporting assets, never as
   replacements for plain scans. Do not depend on the encrypted score API.
+- The TAG page also photographs the encapsulated card — the GRADED IMAGES
+  section, front and back of the slab itself, with high-resolution downloads
+  beneath. When those URLs are captured from the rendered page, record them
+  as `slabFront` / `slabBack` in the image manifest. The importer then makes
+  the slab photograph the display image (`images.front` / `images.back`) —
+  the copy as it physically exists, consistent with every CGC comic on the
+  wall — and keeps the MAIN scans first-class as `images.scanFront` /
+  `images.scanBack` without re-downloading. Slab-photo URLs obey the same
+  covenant: discovered on the page, same host and `/card-images/` path,
+  never constructed; a `_MAIN` scan is not accepted as a slab photo, and a
+  FRONT/BACK marker in the filename must agree with the side recorded from
+  the page's labels.
 - Do not construct image URLs from a certification number: internal image IDs
   and UUIDs must come from the page. Retain the discovered source URL for
   each asset, its side/type, the cert-page URL, and the retrieval timestamp
