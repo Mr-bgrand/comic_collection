@@ -2,6 +2,7 @@
  * Presentation logic shared by the label, the sheet, and the web pages.
  * Pure functions only — no I/O, no templates.
  */
+import { marketValuation } from './card-valuation.js';
 
 /**
  * The title as printed on the CGC slab, variant and all, so a book can be
@@ -290,9 +291,9 @@ export function binUrl(baseUrl, bin) {
   return `${String(baseUrl).replace(/\/+$/, '')}/bin/${bin}/`;
 }
 
-/** GoCollect fair market value, or null when the book has not been priced yet. */
+/** Recorded market value, including the owner's same-grade PSA fallback for TAG. */
 export function fmvValue(comic) {
-  const v = comic?.fmv?.value;
+  const v = marketValuation(comic)?.value;
   return typeof v === 'number' && Number.isFinite(v) ? v : null;
 }
 

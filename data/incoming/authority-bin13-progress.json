@@ -1,0 +1,47 @@
+{
+  "container": "comic-bin-13",
+  "requested": 98,
+  "imported": 98,
+  "scans": 196,
+  "added": 98,
+  "remaining": [],
+  "failed": [],
+  "updatedAt": "2026-09-07T23:36:57.962Z",
+  "verifiedAt": "2026-09-07T23:45:55.546Z",
+  "verification": {
+    "sourceMetadataMatches": true,
+    "originalScanHashesMatch": true,
+    "frontBackScansVisuallyReviewed": 196,
+    "unicodeReplacementCharacters": 0,
+    "leadingZeroIds": [
+      "0131115123",
+      "0684669238",
+      "0398408255",
+      "0722910234",
+      "0699277782"
+    ],
+    "findResults": 98,
+    "testsPassed": 8,
+    "build": "passed",
+    "print": "passed",
+    "pdf": {
+      "label": {
+        "pages": 4,
+        "sizeInches": [
+          4,
+          6
+        ],
+        "unicodeClean": true
+      },
+      "sheet": {
+        "pages": 7,
+        "sizeInches": [
+          8.5,
+          11
+        ],
+        "unicodeClean": true,
+        "certificateIds": 98
+      }
+    }
+  }
+}

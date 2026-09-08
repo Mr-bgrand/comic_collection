@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:34:36.698Z",
+  "cert": "91215560",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 83
+  },
+  "fields": {
+    "Brand/Title": "POKEMON SWORD & SHIELD VIVID VOLTAGE",
+    "Card Number": "174",
+    "Category": "TCG Cards",
+    "Cert Number": "91215560",
+    "Item Grade": "GEM MT 10",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "FA/GLRN.SIRFETCH'D V",
+    "Variety/Pedigree": "VIVID VOLTAGE",
+    "Year": "2020"
+  },
+  "pageUrl": "https://www.psacard.com/cert/91215560/psa",
+  "population": {
+    "atGrade": 614,
+    "higher": 0
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 0,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/157264303/small/0Nvn589gzUmXR3NEy7udBg.jpg",
+      "width": 0
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 0,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/157264303/small/ezqLz0lz3Euy9g8cYeXktw.jpg",
+      "width": 0
+    }
+  ]
+}

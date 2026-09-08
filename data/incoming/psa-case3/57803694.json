@@ -1,0 +1,33 @@
+{
+  "capturedAt": "2026-09-08T04:00:36.786Z",
+  "cert": "57803694",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 168
+  },
+  "fields": {
+    "Brand/Title": "POKEMON JAPANESE VENDING",
+    "Card Number": "40",
+    "Category": "TCG Cards",
+    "Cert Number": "57803694",
+    "Item Grade": "MINT 9",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "WIGGLYTUFF",
+    "Variety/Pedigree": "SERIES 1",
+    "Year": "1998"
+  },
+  "pageUrl": "https://www.psacard.com/cert/57803694/psa",
+  "population": {
+    "atGrade": 115,
+    "higher": 123
+  },
+  "scans": [],
+  "scanStatus": "no-scans-on-cert-page",
+  "scanReview": {
+    "scrolled": true,
+    "rechecked": true,
+    "basis": "Rendered cert metadata and gallery reviewed again after scrolling; no cert image 1 or 2 from PSA scan host."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:36:35.060Z",
+  "cert": "117446096",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 104
+  },
+  "fields": {
+    "Brand/Title": "POKEMON EX HOLON PHANTOMS",
+    "Card Number": "79",
+    "Category": "TCG Cards",
+    "Cert Number": "117446096",
+    "Item Grade": "MINT 9",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "PIKACHU",
+    "Variety/Pedigree": "HOLON PHANTOMS",
+    "Year": "2006"
+  },
+  "pageUrl": "https://www.psacard.com/cert/117446096/psa",
+  "population": {
+    "atGrade": 159,
+    "higher": 73
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 637,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/181001977/small/bRHP99dbwEm7f9uOHZTKaQ.jpg",
+      "width": 380
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 638,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/181001977/small/54zn3K04ZE6iBJAOaGAcNA.jpg",
+      "width": 380
+    }
+  ]
+}

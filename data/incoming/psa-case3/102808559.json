@@ -1,0 +1,41 @@
+{
+  "capturedAt": "2026-09-08T03:56:33.649Z",
+  "cert": "102808559",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 62
+  },
+  "fields": {
+    "Brand/Title": "POKEMON JAPANESE SV8-SUPER ELECTRIC BREAKER",
+    "Card Number": "033",
+    "Category": "TCG Cards",
+    "Cert Number": "102808559",
+    "Item Grade": "GEM MT 10",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "PIKACHU ex",
+    "Year": "2024"
+  },
+  "pageUrl": "https://www.psacard.com/cert/102808559/psa",
+  "population": {
+    "atGrade": 6984,
+    "higher": 0
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 634,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/171022446/small/ytTnvNP8FUOO7WaHoBaRaA.jpg",
+      "width": 380
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 640,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/171022446/small/fIRMIsNWx02TzdSpPMUjnw.jpg",
+      "width": 380
+    }
+  ]
+}

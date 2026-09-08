@@ -9,15 +9,17 @@ export function parsePsaCert(c,{sourceFile,now=new Date().toISOString()}={}){
  if(!acceptedCardCertPage('PSA',c.pageUrl,c.cert)||f['Cert Number']!==c.cert)throw Error('PSA certificate mismatch');
  if(!grade||!/^\d{4}$/.test(f.Year)||!f.Subject||!f['Brand/Title'])throw Error('Incomplete PSA identity');
  if(!c.capturedAt||!Number.isFinite(Date.parse(c.capturedAt)))throw Error('Missing PSA capture date');
- if(c.scans?.length!==2||new Set(c.scans.map(s=>s.side)).size!==2||c.scans.some(s=>!acceptedCardImage('PSA',s.url,s.side)||s.alt!==`Cert image ${s.side==='front'?1:2}`))throw Error('Unverified PSA cert scans');
- if(new Set(c.scans.map(s=>new URL(s.url).pathname.split('/')[2])).size!==1)throw Error('PSA scans belong to different internal IDs');
+ const noScans=c.scans?.length===0&&c.scanStatus==='no-scans-on-cert-page'&&c.scanReview?.scrolled===true&&c.scanReview?.rechecked===true;
+ const pendingScans=c.scans?.length===0&&c.reviewStatus==='pending-scan-recheck'&&!c.scanStatus;
+ if(!noScans&&!pendingScans&&(c.scans?.length!==2||new Set(c.scans.map(s=>s.side)).size!==2||c.scans.some(s=>!acceptedCardImage('PSA',s.url,s.side)||s.alt!==`Cert image ${s.side==='front'?1:2}`)))throw Error('Unverified PSA cert scans');
+ if(!noScans&&!pendingScans&&new Set(c.scans.map(s=>new URL(s.url).pathname.split('/')[2])).size!==1)throw Error('PSA scans belong to different internal IDs');
  if(c.estimate&&(c.estimate.label!=='PSA ESTIMATE'||c.estimate.currency!=='USD'||!Number.isFinite(c.estimate.value)||c.estimate.value<0))throw Error('Unverified PSA estimate');
  if(c.population&&['atGrade','higher'].some(k=>!Number.isInteger(c.population[k])||c.population[k]<0))throw Error('Invalid PSA population');
  const asOf=c.capturedAt.slice(0,10);
- return {kind:'card',grader:'PSA',cert:c.cert,certUrl:c.pageUrl,subject:f.Subject,year:f.Year,brand:f['Brand/Title'],cardNumber:f['Card Number']||null,variety:f.Variety||null,category:f.Category||null,grade:grade[2],gradeDescription:grade[1],holder:'slab',location:null,valuation:null,
+ return {kind:'card',grader:'PSA',cert:c.cert,certUrl:c.pageUrl,subject:f.Subject,year:f.Year,brand:f['Brand/Title'],cardNumber:f['Card Number']||null,variety:f.Variety||f['Variety/Pedigree']||null,category:f.Category||null,grade:grade[2],gradeDescription:grade[1],holder:'slab',location:null,valuation:null,
   fmv:c.estimate?{value:c.estimate.value,source:'psa-cert-page',currency:'USD',asOf,url:c.pageUrl,status:'recorded'}:null,
   population:c.population?{...c.population,total:null,asOf,source:'PSA',url:c.pageUrl}:null,
-  images:{},scanStatus:'not-fetched',importSource:{file:sourceFile,pageUrl:c.pageUrl,capturedAt:c.capturedAt,importedAt:now}};
+  images:{},scanStatus:noScans?'no-scans-on-cert-page':'not-fetched',...(noScans?{scanCheckedAt:c.scanReview.checkedAt||c.capturedAt,scanReview:c.scanReview}:{}),importSource:{file:sourceFile,pageUrl:c.pageUrl,capturedAt:c.capturedAt,importedAt:now}};
 }
 export async function importPsaCert(file,{directory='data/cards',now=new Date().toISOString()}={}){
  const capture=JSON.parse(await fs.readFile(file,'utf8')),container=capture.container;

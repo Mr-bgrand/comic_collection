@@ -1,0 +1,41 @@
+{
+  "capturedAt": "2026-09-08T03:34:51.406Z",
+  "cert": "91650800",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 364
+  },
+  "fields": {
+    "Brand/Title": "POKEMON JAPANESE NEO 2",
+    "Card Number": "197",
+    "Category": "TCG Cards",
+    "Cert Number": "91650800",
+    "Item Grade": "NM 7",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "UMBREON-HOLO",
+    "Year": "2000"
+  },
+  "pageUrl": "https://www.psacard.com/cert/91650800/psa",
+  "population": {
+    "atGrade": 928,
+    "higher": 6723
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 0,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/158073068/small/9vpDMoUh50uD-qvS0qlMcg.jpg",
+      "width": 0
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 0,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/158073068/small/_Rsxd7LjiUmtGhiFvywF1w.jpg",
+      "width": 0
+    }
+  ]
+}

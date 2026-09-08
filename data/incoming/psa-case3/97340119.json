@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:38:12.491Z",
+  "cert": "97340119",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 62
+  },
+  "fields": {
+    "Brand/Title": "PANINI DONRUSS",
+    "Card Number": "131",
+    "Category": "BASEBALL CARDS",
+    "Cert Number": "97340119",
+    "Item Grade": "MINT 9",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "PAUL SKENES",
+    "Variety/Pedigree": "RED",
+    "Year": "2024"
+  },
+  "pageUrl": "https://www.psacard.com/cert/97340119/psa",
+  "population": {
+    "atGrade": 24,
+    "higher": 6
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 0,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/164709994/small/OnLWGDDtFU-Y4yOGfokg1w.jpg",
+      "width": 0
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 0,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/164709994/small/vC-EefoHTEWlg8OAPzPoZQ.jpg",
+      "width": 0
+    }
+  ]
+}

@@ -26,13 +26,22 @@ export function caseFormation(records, selected, aspect, scope='all') {
   });
 }
 
-// A visible arrival rests for most of its five-second cycle. It is never advanced
-// by wall-clock catch-up after a hidden tab, pause, or a reduced-motion session.
-export function arrivalFrame(elapsed, duration=5) {
-  const phase=Math.max(0,Math.min(1,elapsed/duration));
-  return {phase,assemble:Math.min(1,elapsed/1.15),capture:Math.max(0,Math.min(1,(elapsed-3.65)/1.35))};
+// Travel is additional to the five seconds spent looking at the intact scan.
+// A paused/hidden tab never catches up by skipping unseen collection records.
+export const ARRIVAL_REST=5.4;
+export const ARRIVAL_DURATION=11.2;
+export function arrivalFrame(elapsed) {
+  const t=Math.max(0,Math.min(ARRIVAL_DURATION,elapsed));
+  const clamp=v=>Math.max(0,Math.min(1,v)),ease=v=>v*v*(3-2*v);
+  const flight=clamp(t/3.4),crossing=clamp((t-3.4)/.8),assemble=clamp((t-4.2)/1.2),departure=clamp((t-10.4)/.8);
+  const stage=t<3.4?'flight':t<4.2?'crossing':t<5.4?'reveal':t<10.4?'hold':'departure';
+  return {phase:t/ARRIVAL_DURATION,stage,flight,crossing,assemble,departure,
+    speed:stage==='flight'?.14+.86*flight*flight:stage==='crossing'?1-.8*ease(crossing):.025+.18*departure,
+    distance:132*flight*flight+28*ease(crossing),
+    fov:t>=4.4?42:42+34*Math.sin(Math.PI*clamp(t/4.4)),
+    holdRemaining:stage==='hold'?Math.ceil(10.4-t):0};
 }
-export function advanceArrival(elapsed, dt, {active,playing,quiet,blocked}, duration=5) {
+export function advanceArrival(elapsed, dt, {active,playing,quiet,blocked}, duration=ARRIVAL_DURATION) {
   if(!active||!playing||quiet||blocked)return {elapsed,advance:false};
   const next=elapsed+Math.max(0,Math.min(dt,.1));
   return next>=duration?{elapsed:0,advance:true}:{elapsed:next,advance:false};

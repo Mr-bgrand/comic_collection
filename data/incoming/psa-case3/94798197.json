@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:37:00.876Z",
+  "cert": "94798197",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 228
+  },
+  "fields": {
+    "Brand/Title": "POKEMON FRENCH",
+    "Card Number": "68",
+    "Category": "TCG Cards",
+    "Cert Number": "94798197",
+    "Item Grade": "GEM MT 10",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "GOUPIX",
+    "Variety/Pedigree": "1ST EDITION",
+    "Year": "1999"
+  },
+  "pageUrl": "https://www.psacard.com/cert/94798197/psa",
+  "population": {
+    "atGrade": 94,
+    "higher": 0
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 640,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/162082553/small/BBG5Ei_FAEymiLwE9QxOmQ.jpg",
+      "width": 380
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 639,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/162082553/small/VU0L1EdQM0aIhWSQj3zGng.jpg",
+      "width": 380
+    }
+  ]
+}

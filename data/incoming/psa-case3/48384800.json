@@ -1,0 +1,34 @@
+{
+  "capturedAt": "2026-09-08T03:38:39.791Z",
+  "cert": "48384800",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 10
+  },
+  "fields": {
+    "Brand/Title": "PANINI PRIZM",
+    "Card Number": "256",
+    "Category": "BASKETBALL CARDS",
+    "Cert Number": "48384800",
+    "Item Grade": "MINT 9",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "CAM REDDISH",
+    "Variety/Pedigree": "HYPER PRIZM",
+    "Year": "2019"
+  },
+  "pageUrl": "https://www.psacard.com/cert/48384800/psa",
+  "population": {
+    "atGrade": 97,
+    "higher": 23
+  },
+  "scans": [],
+  "scanStatus": "no-scans-on-cert-page",
+  "scanReview": {
+    "scrolled": true,
+    "rechecked": true,
+    "checkedAt": "2026-09-08T04:05:07.191Z",
+    "basis": "Cert number matched in rendered Item Information; no Cert image 1 or Cert image 2 in full accessibility tree after scrolling down and back up."
+  }
+}

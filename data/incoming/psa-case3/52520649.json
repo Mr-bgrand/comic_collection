@@ -1,0 +1,33 @@
+{
+  "capturedAt": "2026-09-08T04:00:33.019Z",
+  "cert": "52520649",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 140
+  },
+  "fields": {
+    "Brand/Title": "POKEMON SM BLACK STAR PROMO",
+    "Card Number": "SM82",
+    "Category": "TCG Cards",
+    "Cert Number": "52520649",
+    "Item Grade": "NM-MT 8",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "SHINING LUGIA-HOLO",
+    "Variety/Pedigree": "PROMO-S.L. SPR.PREM.COLL.",
+    "Year": "2017"
+  },
+  "pageUrl": "https://www.psacard.com/cert/52520649/psa",
+  "population": {
+    "atGrade": 2281,
+    "higher": 3969
+  },
+  "scans": [],
+  "scanStatus": "no-scans-on-cert-page",
+  "scanReview": {
+    "scrolled": true,
+    "rechecked": true,
+    "basis": "Rendered cert metadata and gallery reviewed again after scrolling; no cert image 1 or 2 from PSA scan host."
+  }
+}

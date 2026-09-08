@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:36:26.080Z",
+  "cert": "88747380",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 302
+  },
+  "fields": {
+    "Brand/Title": "POKEMON JAPANESE VS",
+    "Card Number": "082",
+    "Category": "TCG Cards",
+    "Cert Number": "88747380",
+    "Item Grade": "GEM MT 10",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "BRUNO'S HITMONLEE",
+    "Variety/Pedigree": "1ST EDITION",
+    "Year": "2001"
+  },
+  "pageUrl": "https://www.psacard.com/cert/88747380/psa",
+  "population": {
+    "atGrade": 117,
+    "higher": 0
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 640,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/155822014/small/w6dMhdWu-EmKdt8Qeu_RDQ.jpg",
+      "width": 380
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 0,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/155822014/small/Md46_9kdaEOiMBVwdg8Ucg.jpg",
+      "width": 0
+    }
+  ]
+}

@@ -1,6 +1,99 @@
 # Authority soft-sleeve comics
 
-Status: all 111 unique owner-supplied Case #12 QR records imported, with 222 verified scans (September 7, 2026).
+Status: all 333 unique owner-supplied Authority records imported across Case #12 and Bins #13–15, with 666 verified scans (September 7, 2026, Arizona).
+
+## Bin #15 checkpoint
+
+The owner supplied 28 links containing 27 unique certificates. `6877341863`
+(Absolute Batman #4) appeared twice and is stored once. All 27 unique IDs were
+new to the inventory. They are in `data/comics/comic-bin-15.json` as the physical
+**Comic Bin #15 (Softslabs)** at **Comic Bin #15**, retaining input order and all
+four leading-zero IDs. Repeated issue/variant names with different certificates
+remain separate copies.
+
+The complete input, including the repeated link, is preserved in
+`data/incoming/2026-09-07-authority-bin15.json`. All 27 reviewed DOM captures are in
+`data/incoming/authority-bin15/`; completion and verification are recorded in
+`data/incoming/authority-bin15-progress.json`. Every record reports RAW Authentic,
+with no numeric grade or invented value. Normalized fields match the original
+UTF-8 captures. All 54 front/back scans were checked against the captured viewer
+URLs, dimensions and SHA-256, and visually reviewed. There are no missing scans
+or identical image files within this batch.
+
+The whole collection now totals 720 objects: 577 comics and 143 cards. Find at
+`/review/?case=comic-bin-15` shows 27 results and 27 unvalued records, with one
+result for the duplicate certificate. Leading-zero certificate search, both
+record images, Admin bin fields and Print Studio links passed browser checks.
+The existing build and print commands passed. Bin #15 has one 4×6 label page and
+two 8.5×11 master-sheet pages; every certificate appears exactly once on the
+master sheet. All three PDF pages were rendered and visually reviewed. The
+printed date follows existing UTC behavior (September 8); the owner-local import
+date is September 7 in Arizona. Printed QR links retain the configured public
+base URL; the updated collection has only been built locally.
+
+## Bin #14 checkpoint
+
+The owner supplied 98 links containing 97 unique certificates. `4212643688`
+(Avengers: Twilight #5) appeared twice and was imported once. All 97 unique IDs
+were new to the collection. The physical container is
+`data/comics/comic-bin-14.json`, **Comic Bin #14 (Softslabs)**, at **Comic Bin #14**.
+Input order and all 11 leading-zero IDs are preserved. Other repeated issue/variant
+names have distinct certificates and remain separate physical copies.
+
+The complete input, including the repeated link, is preserved in
+`data/incoming/2026-09-07-authority-bin14.json`. There are 97 reviewed DOM captures
+in `data/incoming/authority-bin14/`; the completion and verification manifest is
+`data/incoming/authority-bin14-progress.json`. Two slow viewers loaded on revisit.
+All records report RAW Authentic; values and numeric grades remain unset.
+
+All normalized metadata fields were checked against their source captures, with
+UTF-8 text preserved. Each of the 194 original front/back JPEGs was checked against
+its captured viewer URL, dimensions and SHA-256, then visually reviewed in contact
+sheets. No image files are identical within this batch. Detective Comics #400,
+`7633260283`, is explicitly a Blank Facsimile Edition: its nearly blank front and
+reverse are the supplied scans, not loading placeholders.
+
+The collection now totals 693 objects: 550 comics and 143 cards. The stable link
+`/review/?case=comic-bin-14` returns 97 Find results and 97 unvalued records, with
+one result for the duplicated certificate. Leading-zero search, both record
+images, Admin bin editing fields and Print Studio links were verified in the app.
+The build and print commands passed. The 4×6 label PDF has four pages and the
+8.5×11 master sheet has seven pages; each certificate appears exactly once in
+the master sheet. All 11 PDF pages were rendered and visually checked. Printed
+dates follow the existing UTC behavior (September 8); this import was completed
+September 7 in Arizona. Printed QR links retain the configured public base URL;
+the updated collection has only been built locally.
+
+## Bin #13 checkpoint
+
+The owner supplied 98 unique QR links, all new to the inventory. They are stored
+in `data/comics/comic-bin-13.json` as **Comic Bin #13 (Softslabs)**, with physical
+location **Comic Bin #13**. Input order and all five leading-zero IDs are preserved.
+Different certificates for the same issue/variant remain separate physical copies.
+The whole collection now has 596 objects: 453 comics and 143 cards.
+
+The original request is `data/incoming/2026-09-07-authority-bin13.json`; all 98
+rendered captures are in `data/incoming/authority-bin13/`. The completion manifest
+is `data/incoming/authority-bin13-progress.json`, with no remaining or failed IDs.
+Each page's certificate number, RAW Authentic status, metadata and explicit
+front/back viewer URLs were checked. All 196 original JPEGs were downloaded,
+hashed, matched to their capture URLs and visually reviewed in contact sheets.
+There were no identical image files. Three delayed viewers loaded on revisit.
+
+Capture staging must use UTF-8 for both the page and form submission. A staging
+encoding issue was detected in PDF review and repaired from the intact original
+browser captures. Every normalized metadata field was then compared with its
+source capture; no Unicode replacement characters remain in this batch. Preserve
+the provider's accented names, punctuation and separate `Item Number`/`Item number`
+fields. No numeric grades or values were invented.
+
+The stable local deep link is `/review/?case=comic-bin-13`. Find returns all 98
+copies, the no-value filter counts all 98, and leading-zero certificate search and
+front/back record images were checked in the browser. Admin exposes the physical
+bin for renaming and printing. The 4×6 label PDF has four pages; the 8.5×11 master
+sheet has seven pages and includes all 98 certificate IDs. Build and print use the
+existing commands. Printed QR links use the configured public base URL; this import
+has only been built locally.
 
 ## Case #12 checkpoint
 

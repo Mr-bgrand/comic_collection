@@ -3934,6 +3934,22 @@
           "originalFile": "data/originals/TAG_H9545478_BACK.jpg",
           "originalSha256": "3976cbe2d5a3d1056a6ce023b792a9155817f3a04f2e1e47b1e5dee9a1173c4b"
         }
+      },
+      "psaComparison": {
+        "value": 148,
+        "currency": "USD",
+        "source": "psa-grade-comparison",
+        "status": "recorded",
+        "asOf": "2026-09-08",
+        "url": "https://www.psacard.com/cert/101450005/psa",
+        "comparison": {
+          "grader": "PSA",
+          "cert": "101450005",
+          "grade": "10",
+          "identityKey": "[\"2023\",\"POKEMON\",\"ENGLISH\",\"OBSIDIAN FLAMES\",\"BELLIBOLT\",\"201\",\"ILLUSTRATION RARE\",\"\"]",
+          "tagCert": "H9545478",
+          "source": "psa-cert-page"
+        }
       }
     },
     {

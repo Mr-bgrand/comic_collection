@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:33:46.226Z",
+  "cert": "93872731",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 207
+  },
+  "fields": {
+    "Brand/Title": "POKEMON LEGENDARY COLLECTION",
+    "Card Number": "14",
+    "Category": "TCG Cards",
+    "Cert Number": "93872731",
+    "Item Grade": "MINT 9",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "JOLTEON-HOLO",
+    "Variety/Pedigree": "LEGENDARY COLLECTION",
+    "Year": "2002"
+  },
+  "pageUrl": "https://www.psacard.com/cert/93872731/psa",
+  "population": {
+    "atGrade": 218,
+    "higher": 22
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 629,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/160356419/small/AY4WPtifiEGGUZyxnShxjA.jpg",
+      "width": 380
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 636,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/160356419/small/G74HPAB1f02bLkmsHxXUWg.jpg",
+      "width": 380
+    }
+  ]
+}

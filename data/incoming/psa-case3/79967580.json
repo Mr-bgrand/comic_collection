@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:33:46.985Z",
+  "cert": "79967580",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 399
+  },
+  "fields": {
+    "Brand/Title": "ONE PIECE PROMOS",
+    "Card Number": "008",
+    "Category": "TCG Cards",
+    "Cert Number": "79967580",
+    "Item Grade": "GEM MT 10",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "YAMATO",
+    "Variety/Pedigree": "WINNER PACK VOL.1",
+    "Year": "2022"
+  },
+  "pageUrl": "https://www.psacard.com/cert/79967580/psa",
+  "population": {
+    "atGrade": 221,
+    "higher": 0
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 631,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/146697487/small/DgQKcZf_rUSKZjmI8SYvTg.jpg",
+      "width": 380
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 639,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/146697487/small/7_wCeQ2Kz0ClKEplc6XR6Q.jpg",
+      "width": 380
+    }
+  ]
+}

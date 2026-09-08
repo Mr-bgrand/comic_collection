@@ -1,0 +1,34 @@
+{
+  "capturedAt": "2026-09-08T03:38:48.968Z",
+  "cert": "59798176",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 55
+  },
+  "fields": {
+    "Brand/Title": "POKEMON SWORD & SHIELD VIVID VOLTAGE",
+    "Card Number": "199",
+    "Category": "TCG Cards",
+    "Cert Number": "59798176",
+    "Item Grade": "GEM MT 10",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "FA/ORANGURU",
+    "Variety/Pedigree": "VIVID VOLTAGE-SECRET",
+    "Year": "2020"
+  },
+  "pageUrl": "https://www.psacard.com/cert/59798176/psa",
+  "population": {
+    "atGrade": 638,
+    "higher": 0
+  },
+  "scans": [],
+  "scanStatus": "no-scans-on-cert-page",
+  "scanReview": {
+    "scrolled": true,
+    "rechecked": true,
+    "checkedAt": "2026-09-08T04:05:08.097Z",
+    "basis": "Cert number matched in rendered Item Information; no Cert image 1 or Cert image 2 in full accessibility tree after scrolling down and back up."
+  }
+}

@@ -1,0 +1,3751 @@
+{
+  "provider": "PSA",
+  "container": {
+    "id": "case-03",
+    "title": "Graded PSA Case #3",
+    "location": "Case #3",
+    "physical": true,
+    "virtual": false
+  },
+  "records": [
+    {
+      "capturedAt": "2026-09-08T03:33:06.732Z",
+      "cert": "86892198",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 41
+      },
+      "fields": {
+        "Brand/Title": "POKEMON SWORD AND SHIELD CROWN ZENITH",
+        "Card Number": "153",
+        "Category": "TCG Cards",
+        "Cert Number": "86892198",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "FIRE ENERGY",
+        "Variety/Pedigree": "CROWN ZENITH",
+        "Year": "2023"
+      },
+      "pageUrl": "https://www.psacard.com/cert/86892198/psa",
+      "population": {
+        "atGrade": 91,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 632,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/153415672/small/j9inCsM14UOE6y4LQWdeKg.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 635,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/153415672/small/-EWR221R0E-g_ybRgugTZQ.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:33:42.226Z",
+      "cert": "103734201",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 33
+      },
+      "fields": {
+        "Brand/Title": "POKEMON JAPANESE SV-P PROMO",
+        "Card Number": "232",
+        "Category": "TCG Cards",
+        "Cert Number": "103734201",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "IONO'S WATTREL",
+        "Variety/Pedigree": "SV9 BOX PURCHASE CAMPAIGN",
+        "Year": "2025"
+      },
+      "pageUrl": "https://www.psacard.com/cert/103734201/psa",
+      "population": {
+        "atGrade": 62058,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 630,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/172178957/small/Kfu-CRd1-EODIiKH4KPrng.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 633,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/172178957/small/ZOwniYbtu0avNYzZrdOs8Q.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T04:00:31.006Z",
+      "cert": "53822070",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 42
+      },
+      "fields": {
+        "Brand/Title": "POKEMON SUN & MOON",
+        "Card Number": "89",
+        "Category": "TCG Cards",
+        "Cert Number": "53822070",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "SOLGALEO GX",
+        "Year": "2017"
+      },
+      "pageUrl": "https://www.psacard.com/cert/53822070/psa",
+      "population": {
+        "atGrade": 159,
+        "higher": 0
+      },
+      "scans": [],
+      "scanStatus": "no-scans-on-cert-page",
+      "scanReview": {
+        "scrolled": true,
+        "rechecked": true,
+        "basis": "Rendered cert metadata and gallery reviewed again after scrolling; no cert image 1 or 2 from PSA scan host."
+      }
+    },
+    {
+      "capturedAt": "2026-09-08T03:33:43.909Z",
+      "cert": "99696797",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 97
+      },
+      "fields": {
+        "Brand/Title": "POKEMON JAPANESE SV2a-POKEMON CARD 151",
+        "Card Number": "170",
+        "Category": "TCG Cards",
+        "Cert Number": "99696797",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "SQUIRTLE",
+        "Variety/Pedigree": "ART RARE",
+        "Year": "2023"
+      },
+      "pageUrl": "https://www.psacard.com/cert/99696797/psa",
+      "population": {
+        "atGrade": 24298,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 641,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/167860541/small/5VlChKq0VUyd1AkpVSjDDw.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 636,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/167860541/small/8fRFuTjJNkS2_foZTCK1YQ.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:33:44.589Z",
+      "cert": "86879740",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 55
+      },
+      "fields": {
+        "Brand/Title": "POKEMON SUN & MOON UNIFIED MINDS",
+        "Card Number": "54",
+        "Category": "TCG Cards",
+        "Cert Number": "86879740",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "RAICHU/ALN.RAICHU GX",
+        "Variety/Pedigree": "UNIFIED MINDS",
+        "Year": "2019"
+      },
+      "pageUrl": "https://www.psacard.com/cert/86879740/psa",
+      "population": {
+        "atGrade": 2691,
+        "higher": 2462
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 637,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/153428137/small/j8-mVsTo0kW_ZnlYVUlPPQ.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 640,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/153428137/small/uEn8Zc_Dv0uiZaG809xpSQ.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:33:45.228Z",
+      "cert": "71227072",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 17
+      },
+      "fields": {
+        "Brand/Title": "POKEMON SWORD & SHIELD ASTRAL RADIANCE",
+        "Card Number": "212",
+        "Category": "TCG Cards",
+        "Cert Number": "71227072",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "FA/JUBILIFE VILLAGE",
+        "Variety/Pedigree": "ASTRAL RADIANCE-SECRET",
+        "Year": "2022"
+      },
+      "pageUrl": "https://www.psacard.com/cert/71227072/psa",
+      "population": {
+        "atGrade": 80,
+        "higher": 137
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 640,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/135946585/small/RTuAZDZid0ydSIvVlAVLtA.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/135946585/small/0eqWbwTVakGFb6hqpD7ZKA.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:33:46.226Z",
+      "cert": "93872731",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 207
+      },
+      "fields": {
+        "Brand/Title": "POKEMON LEGENDARY COLLECTION",
+        "Card Number": "14",
+        "Category": "TCG Cards",
+        "Cert Number": "93872731",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "JOLTEON-HOLO",
+        "Variety/Pedigree": "LEGENDARY COLLECTION",
+        "Year": "2002"
+      },
+      "pageUrl": "https://www.psacard.com/cert/93872731/psa",
+      "population": {
+        "atGrade": 218,
+        "higher": 22
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 629,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/160356419/small/AY4WPtifiEGGUZyxnShxjA.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 636,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/160356419/small/G74HPAB1f02bLkmsHxXUWg.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:33:46.985Z",
+      "cert": "79967580",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 399
+      },
+      "fields": {
+        "Brand/Title": "ONE PIECE PROMOS",
+        "Card Number": "008",
+        "Category": "TCG Cards",
+        "Cert Number": "79967580",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "YAMATO",
+        "Variety/Pedigree": "WINNER PACK VOL.1",
+        "Year": "2022"
+      },
+      "pageUrl": "https://www.psacard.com/cert/79967580/psa",
+      "population": {
+        "atGrade": 221,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 631,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/146697487/small/DgQKcZf_rUSKZjmI8SYvTg.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 639,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/146697487/small/7_wCeQ2Kz0ClKEplc6XR6Q.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:33:47.615Z",
+      "cert": "117684753",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 192
+      },
+      "fields": {
+        "Brand/Title": "UPPER DECK MJ RARE AIR",
+        "Card Number": "57",
+        "Category": "BASKETBALL CARDS",
+        "Cert Number": "117684753",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "MICHAEL JORDAN",
+        "Variety/Pedigree": "RARE AIR",
+        "Year": "1994"
+      },
+      "pageUrl": "https://www.psacard.com/cert/117684753/psa",
+      "population": {
+        "atGrade": 69,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 635,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/181340461/small/KovQ3CS340-hSWGwi8Srag.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/181340461/small/jNINH38LoUqIEj0rz02dGw.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:34:36.698Z",
+      "cert": "91215560",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 83
+      },
+      "fields": {
+        "Brand/Title": "POKEMON SWORD & SHIELD VIVID VOLTAGE",
+        "Card Number": "174",
+        "Category": "TCG Cards",
+        "Cert Number": "91215560",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "FA/GLRN.SIRFETCH'D V",
+        "Variety/Pedigree": "VIVID VOLTAGE",
+        "Year": "2020"
+      },
+      "pageUrl": "https://www.psacard.com/cert/91215560/psa",
+      "population": {
+        "atGrade": 614,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/157264303/small/0Nvn589gzUmXR3NEy7udBg.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/157264303/small/ezqLz0lz3Euy9g8cYeXktw.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:34:37.196Z",
+      "cert": "104790269",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 104
+      },
+      "fields": {
+        "Brand/Title": "POKEMON MEW EN-151",
+        "Card Number": "170",
+        "Category": "TCG Cards",
+        "Cert Number": "104790269",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "SQUIRTLE",
+        "Variety/Pedigree": "ILLUSTRATION RARE",
+        "Year": "2023"
+      },
+      "pageUrl": "https://www.psacard.com/cert/104790269/psa",
+      "population": {
+        "atGrade": 19650,
+        "higher": 9153
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/173066665/small/iDdF-1boHEOO3LMdeB_Hcw.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/173066665/small/OJF2vF7M8k6Ad3jgTlB1Ug.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:34:38.005Z",
+      "cert": "104870209",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 137
+      },
+      "fields": {
+        "Brand/Title": "POKEMON TWM EN-TWILIGHT MASQUERADE",
+        "Card Number": "210",
+        "Category": "TCG Cards",
+        "Cert Number": "104870209",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "SINISTCHA ex",
+        "Variety/Pedigree": "SPECIAL ILLUSTRATION RARE",
+        "Year": "2024"
+      },
+      "pageUrl": "https://www.psacard.com/cert/104870209/psa",
+      "population": {
+        "atGrade": 708,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/173056363/small/HSLn8g06aUCRPC929RqjRw.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/173056363/small/Qqnn-CEVR0ej1SXX21K8HA.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:34:38.520Z",
+      "cert": "114218226",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 290
+      },
+      "fields": {
+        "Brand/Title": "BOWMAN DRAFT CHROME PROSPECT AUTOGRAPHS",
+        "Card Number": "CPAMS",
+        "Category": "BASEBALL CARDS",
+        "Cert Number": "114218226",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "MIKE SIROTA",
+        "Year": "2024"
+      },
+      "pageUrl": "https://www.psacard.com/cert/114218226/psa",
+      "population": {
+        "atGrade": 107,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179066761/small/Nvu_9dIkYU2Fl7NZZq6sXA.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179066761/small/c1Dpd_Woa02mMwjW9UfVuA.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:34:39.787Z",
+      "cert": "103221652",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 85
+      },
+      "fields": {
+        "Brand/Title": "POKEMON JAPANESE SUN & MOON TAG BOLT",
+        "Card Number": "109",
+        "Category": "TCG Cards",
+        "Cert Number": "103221652",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "SABRINA'S SUGGESTION",
+        "Variety/Pedigree": "TAG BOLT-FA",
+        "Year": "2018"
+      },
+      "pageUrl": "https://www.psacard.com/cert/103221652/psa",
+      "population": {
+        "atGrade": 1293,
+        "higher": 2986
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 636,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/171673475/small/JHYqHlFE6ku5XjxAuGWo-w.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 639,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/171673475/small/uGvCj_zuLkeE2WLhxzbvFA.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:34:40.385Z",
+      "cert": "89208137",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 441
+      },
+      "fields": {
+        "Brand/Title": "POKEMON SWORD & SHIELD LOST ORIGIN",
+        "Card Number": "TG16",
+        "Category": "TCG Cards",
+        "Cert Number": "89208137",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "FA/PIKACHU V",
+        "Variety/Pedigree": "LOST ORIGIN",
+        "Year": "2022"
+      },
+      "pageUrl": "https://www.psacard.com/cert/89208137/psa",
+      "population": {
+        "atGrade": 8324,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 636,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/156461947/small/fkBy8m_Wb0KywGqUdpBcxw.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 638,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/156461947/small/sz1UD203pUKSf5GId_wD5g.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:34:40.917Z",
+      "cert": "103755295",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 49
+      },
+      "fields": {
+        "Brand/Title": "POKEMON SSP EN-SURGING SPARKS",
+        "Card Number": "226",
+        "Category": "TCG Cards",
+        "Cert Number": "103755295",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "TATSUGIRI ex",
+        "Variety/Pedigree": "ULTRA RARE",
+        "Year": "2024"
+      },
+      "pageUrl": "https://www.psacard.com/cert/103755295/psa",
+      "population": {
+        "atGrade": 469,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/172239256/small/YnV8psiPK0mEi6TZAM_PWQ.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/172239256/small/nGuLlVT9y0WYgPKFb29PzA.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:34:41.777Z",
+      "cert": "93236999",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 112
+      },
+      "fields": {
+        "Brand/Title": "POKEMON SUN & MOON FORBIDDEN LIGHT",
+        "Card Number": "128",
+        "Category": "TCG Cards",
+        "Cert Number": "93236999",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "FA/BONNIE",
+        "Variety/Pedigree": "FORBIDDEN LIGHT",
+        "Year": "2018"
+      },
+      "pageUrl": "https://www.psacard.com/cert/93236999/psa",
+      "population": {
+        "atGrade": 222,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 639,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/160163596/small/dM2FtbTHBE-X5Sfp5_eR_A.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/160163596/small/0k2u5hhi1kaUghYZLL4mgA.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:34:42.867Z",
+      "cert": "114218230",
+      "estimate": null,
+      "fields": {
+        "Brand/Title": "TOPPS CHROME SAPPHIRE ROOKIE AUTOGRAPHS",
+        "Card Number": "RAMSM",
+        "Category": "FOOTBALL CARDS",
+        "Cert Number": "114218230",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "MAASON SMITH",
+        "Variety/Pedigree": "ROOKIE AUTOGRAPH-RED",
+        "Year": "2024"
+      },
+      "pageUrl": "https://www.psacard.com/cert/114218230/psa",
+      "population": {
+        "atGrade": 1,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179066765/small/HVMNxTzolkyNAEOKvMmUbg.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179066765/small/pkDQj2RPTUa0iC4LIZQ8aQ.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:34:43.615Z",
+      "cert": "108941889",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 49
+      },
+      "fields": {
+        "Brand/Title": "POKEMON SVP EN-SV BLACK STAR PROMO",
+        "Card Number": "052",
+        "Category": "TCG Cards",
+        "Cert Number": "108941889",
+        "Item Grade": "NM-MT 8",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "MEWTWO",
+        "Variety/Pedigree": "151 ULTRA-PREMIUM COLL",
+        "Year": "2023"
+      },
+      "pageUrl": "https://www.psacard.com/cert/108941889/psa",
+      "population": {
+        "atGrade": 8580,
+        "higher": 27261
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/175567560/small/RuzCBpym70SGNWUo9xhd6g.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/175567560/small/wIG3Fym-zkeX8gqS2FuSWQ.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:34:45.075Z",
+      "cert": "101880366",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 62
+      },
+      "fields": {
+        "Brand/Title": "POKEMON JAPANESE NEO 2",
+        "Card Number": "248",
+        "Category": "TCG Cards",
+        "Cert Number": "101880366",
+        "Item Grade": "EX-MT 6",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "TYRANITAR-HOLO",
+        "Year": "2000"
+      },
+      "pageUrl": "https://www.psacard.com/cert/101880366/psa",
+      "population": {
+        "atGrade": 214,
+        "higher": 3535
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/170225116/small/-AR3Q2165kaxXReqdPQyxw.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/170225116/small/q9CwuFVzKUG3sDh7mDnkIA.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:34:46.117Z",
+      "cert": "101374044",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 58
+      },
+      "fields": {
+        "Brand/Title": "POKEMON INDONESIAN S PROMO",
+        "Card Number": "016",
+        "Category": "TCG Cards",
+        "Cert Number": "101374044",
+        "Item Grade": "EX 5",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "FA/PIKACHU",
+        "Variety/Pedigree": "KFC CHAKI KIDS MEAL",
+        "Year": "2021"
+      },
+      "pageUrl": "https://www.psacard.com/cert/101374044/psa",
+      "population": {
+        "atGrade": 348,
+        "higher": 2181
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/169610906/small/NvwZcP9skUu4RR9f7ed5gg.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/169610906/small/JKFyjjs1Z06PJyn7m31w9A.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:34:47.110Z",
+      "cert": "104020411",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 30
+      },
+      "fields": {
+        "Brand/Title": "POKEMON GAME",
+        "Card Number": "7",
+        "Category": "TCG Cards",
+        "Cert Number": "104020411",
+        "Item Grade": "EX-MT 6",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "HITMONCHAN-HOLO",
+        "Year": "1999"
+      },
+      "pageUrl": "https://www.psacard.com/cert/104020411/psa",
+      "population": {
+        "atGrade": 2871,
+        "higher": 10453
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/172447918/small/9eEfYrX-L0KLpdUlHuWmBQ.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/172447918/small/igU-g6oUhU6hYzZTY38LSw.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T04:00:32.079Z",
+      "cert": "55583101",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 254
+      },
+      "fields": {
+        "Brand/Title": "POKEMON SWSH BLACK STAR PROMO",
+        "Card Number": "066",
+        "Category": "TCG Cards",
+        "Cert Number": "55583101",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "CHARIZARD-HOLO",
+        "Variety/Pedigree": "PRERELEASE",
+        "Year": "2020"
+      },
+      "pageUrl": "https://www.psacard.com/cert/55583101/psa",
+      "population": {
+        "atGrade": 4983,
+        "higher": 0
+      },
+      "scans": [],
+      "scanStatus": "no-scans-on-cert-page",
+      "scanReview": {
+        "scrolled": true,
+        "rechecked": true,
+        "basis": "Rendered cert metadata and gallery reviewed again after scrolling; no cert image 1 or 2 from PSA scan host."
+      }
+    },
+    {
+      "capturedAt": "2026-09-08T03:34:51.406Z",
+      "cert": "91650800",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 364
+      },
+      "fields": {
+        "Brand/Title": "POKEMON JAPANESE NEO 2",
+        "Card Number": "197",
+        "Category": "TCG Cards",
+        "Cert Number": "91650800",
+        "Item Grade": "NM 7",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "UMBREON-HOLO",
+        "Year": "2000"
+      },
+      "pageUrl": "https://www.psacard.com/cert/91650800/psa",
+      "population": {
+        "atGrade": 928,
+        "higher": 6723
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/158073068/small/9vpDMoUh50uD-qvS0qlMcg.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/158073068/small/_Rsxd7LjiUmtGhiFvywF1w.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:34:52.337Z",
+      "cert": "103954947",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 315
+      },
+      "fields": {
+        "Brand/Title": "POKEMON SWORD AND SHIELD CROWN ZENITH",
+        "Card Number": "GG12",
+        "Category": "TCG Cards",
+        "Cert Number": "103954947",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "FA/DEOXYS",
+        "Variety/Pedigree": "CROWN ZENITH",
+        "Year": "2023"
+      },
+      "pageUrl": "https://www.psacard.com/cert/103954947/psa",
+      "population": {
+        "atGrade": 1523,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 638,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/172276242/small/HBj-zpPnTEaTkwWUVHIBaA.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 637,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/172276242/small/534pxI4CGE2jriVI1KsjNg.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:36:20.651Z",
+      "cert": "102587041",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 42
+      },
+      "fields": {
+        "Brand/Title": "POKEMON XY EVOLUTIONS",
+        "Card Number": "35",
+        "Category": "TCG Cards",
+        "Cert Number": "102587041",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "PIKACHU-REV.FOIL",
+        "Variety/Pedigree": "EVOLUTIONS",
+        "Year": "2016"
+      },
+      "pageUrl": "https://www.psacard.com/cert/102587041/psa",
+      "population": {
+        "atGrade": 3517,
+        "higher": 969
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 638,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/171429202/small/G7bXewb9YU-gTQIEjg5ZRg.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 638,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/171429202/small/nJhjJnC3UEqan0oleVaEzw.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:36:21.184Z",
+      "cert": "100858889",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 26
+      },
+      "fields": {
+        "Brand/Title": "POKEMON SVI EN-SCARLET & VIOLET",
+        "Card Number": "045",
+        "Category": "TCG Cards",
+        "Cert Number": "100858889",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "GYARADOS ex",
+        "Year": "2023"
+      },
+      "pageUrl": "https://www.psacard.com/cert/100858889/psa",
+      "population": {
+        "atGrade": 698,
+        "higher": 661
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/168907565/small/FM_CxaArmUWvwY7forvX_Q.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 640,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/168907565/small/teC7uj-eBUuHeqdkWWNIXQ.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:36:21.747Z",
+      "cert": "104891604",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 22
+      },
+      "fields": {
+        "Brand/Title": "TOPPS CHROME UPDATE",
+        "Card Number": "USC88",
+        "Category": "BASEBALL CARDS",
+        "Cert Number": "104891604",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "PAUL SKENES",
+        "Year": "2024"
+      },
+      "pageUrl": "https://www.psacard.com/cert/104891604/psa",
+      "population": {
+        "atGrade": 1420,
+        "higher": 1464
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/173135620/small/p2Iqw0qzI06NCXX5z5pHuw.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/173135620/small/ugSkSeb0ekS4dc9gGPZPIw.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:36:22.480Z",
+      "cert": "100128845",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 161
+      },
+      "fields": {
+        "Brand/Title": "POKEMON JAPANESE SV-P PROMO",
+        "Card Number": "069",
+        "Category": "TCG Cards",
+        "Cert Number": "100128845",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "GLACEON",
+        "Variety/Pedigree": "YU NAGABA X PCG CAMPAIGN",
+        "Year": "2023"
+      },
+      "pageUrl": "https://www.psacard.com/cert/100128845/psa",
+      "population": {
+        "atGrade": 21859,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 636,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/168127496/small/QxEoEvQUC0u5D3Ogxk9rTQ.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/168127496/small/RwxThB6jY0CJLrxUAvz52Q.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:36:23.127Z",
+      "cert": "102172104",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 94
+      },
+      "fields": {
+        "Brand/Title": "POKEMON MEW EN-151",
+        "Card Number": "206",
+        "Category": "TCG Cards",
+        "Cert Number": "102172104",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "SWITCH",
+        "Variety/Pedigree": "HYPER RARE",
+        "Year": "2023"
+      },
+      "pageUrl": "https://www.psacard.com/cert/102172104/psa",
+      "population": {
+        "atGrade": 556,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 633,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/170720807/small/U4gNldual0q6453bytIGtQ.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 637,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/170720807/small/RxcJ197-P0KJ38SPqqymMA.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:36:23.699Z",
+      "cert": "101450005",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 148
+      },
+      "fields": {
+        "Brand/Title": "POKEMON OBF EN-OBSIDIAN FLAMES",
+        "Card Number": "201",
+        "Category": "TCG Cards",
+        "Cert Number": "101450005",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "BELLIBOLT",
+        "Variety/Pedigree": "ILLUSTRATION RARE",
+        "Year": "2023"
+      },
+      "pageUrl": "https://www.psacard.com/cert/101450005/psa",
+      "population": {
+        "atGrade": 383,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/169453535/small/CRc11cV4fk-JnLGPj5m62Q.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/169453535/small/WBlNL-d5m0mBaK_BPO0erQ.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T04:00:33.019Z",
+      "cert": "52520649",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 140
+      },
+      "fields": {
+        "Brand/Title": "POKEMON SM BLACK STAR PROMO",
+        "Card Number": "SM82",
+        "Category": "TCG Cards",
+        "Cert Number": "52520649",
+        "Item Grade": "NM-MT 8",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "SHINING LUGIA-HOLO",
+        "Variety/Pedigree": "PROMO-S.L. SPR.PREM.COLL.",
+        "Year": "2017"
+      },
+      "pageUrl": "https://www.psacard.com/cert/52520649/psa",
+      "population": {
+        "atGrade": 2281,
+        "higher": 3969
+      },
+      "scans": [],
+      "scanStatus": "no-scans-on-cert-page",
+      "scanReview": {
+        "scrolled": true,
+        "rechecked": true,
+        "basis": "Rendered cert metadata and gallery reviewed again after scrolling; no cert image 1 or 2 from PSA scan host."
+      }
+    },
+    {
+      "capturedAt": "2026-09-08T04:00:36.786Z",
+      "cert": "57803694",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 168
+      },
+      "fields": {
+        "Brand/Title": "POKEMON JAPANESE VENDING",
+        "Card Number": "40",
+        "Category": "TCG Cards",
+        "Cert Number": "57803694",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "WIGGLYTUFF",
+        "Variety/Pedigree": "SERIES 1",
+        "Year": "1998"
+      },
+      "pageUrl": "https://www.psacard.com/cert/57803694/psa",
+      "population": {
+        "atGrade": 115,
+        "higher": 123
+      },
+      "scans": [],
+      "scanStatus": "no-scans-on-cert-page",
+      "scanReview": {
+        "scrolled": true,
+        "rechecked": true,
+        "basis": "Rendered cert metadata and gallery reviewed again after scrolling; no cert image 1 or 2 from PSA scan host."
+      }
+    },
+    {
+      "capturedAt": "2026-09-08T03:36:26.080Z",
+      "cert": "88747380",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 302
+      },
+      "fields": {
+        "Brand/Title": "POKEMON JAPANESE VS",
+        "Card Number": "082",
+        "Category": "TCG Cards",
+        "Cert Number": "88747380",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "BRUNO'S HITMONLEE",
+        "Variety/Pedigree": "1ST EDITION",
+        "Year": "2001"
+      },
+      "pageUrl": "https://www.psacard.com/cert/88747380/psa",
+      "population": {
+        "atGrade": 117,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 640,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/155822014/small/w6dMhdWu-EmKdt8Qeu_RDQ.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/155822014/small/Md46_9kdaEOiMBVwdg8Ucg.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:50:39.896Z",
+      "cert": "55700008",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 35
+      },
+      "fields": {
+        "Brand/Title": "POKEMON GAME",
+        "Card Number": "9",
+        "Category": "TCG Cards",
+        "Cert Number": "55700008",
+        "Item Grade": "EX-MT 6",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "MAGNETON-HOLO",
+        "Year": "1999"
+      },
+      "pageUrl": "https://www.psacard.com/cert/55700008/psa",
+      "population": {
+        "atGrade": 1957,
+        "higher": 8950
+      },
+      "scans": [],
+      "scanStatus": "no-scans-on-cert-page",
+      "scanReview": {
+        "scrolled": true,
+        "rechecked": true,
+        "checkedAt": "2026-09-08T04:06:14.382Z",
+        "basis": "Cert number matched in rendered Item Information; no Cert image 1 or Cert image 2 in full accessibility tree after scrolling down and back up."
+      }
+    },
+    {
+      "capturedAt": "2026-09-08T03:36:31.251Z",
+      "cert": "113196767",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 75
+      },
+      "fields": {
+        "Brand/Title": "ONE PIECE OP01-ROMANCE DAWN",
+        "Card Number": "024",
+        "Category": "TCG Cards",
+        "Cert Number": "113196767",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "MONKEY D. LUFFY",
+        "Year": "2022"
+      },
+      "pageUrl": "https://www.psacard.com/cert/113196767/psa",
+      "population": {
+        "atGrade": 1239,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/178670513/small/-Ij63VbIhU-aDWwkGHDVtQ.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/178670513/small/N28l0VhvlECVmdCSi4cAGA.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:36:32.173Z",
+      "cert": "113096364",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 189
+      },
+      "fields": {
+        "Brand/Title": "POKEMON PAR EN-PARADOX RIFT",
+        "Card Number": "189",
+        "Category": "TCG Cards",
+        "Cert Number": "113096364",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "MANTYKE",
+        "Variety/Pedigree": "ILLUSTRATION RARE",
+        "Year": "2023"
+      },
+      "pageUrl": "https://www.psacard.com/cert/113096364/psa",
+      "population": {
+        "atGrade": 990,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/178650330/small/URLByuDryECHAuUOazNODQ.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/178650330/small/QKj_GCfw_0mrGkmuQU0m5A.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:36:32.801Z",
+      "cert": "109124472",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 84
+      },
+      "fields": {
+        "Brand/Title": "UPPER DECK",
+        "Card Number": "23",
+        "Category": "BASKETBALL CARDS",
+        "Cert Number": "109124472",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "MICHAEL JORDAN",
+        "Year": "1992"
+      },
+      "pageUrl": "https://www.psacard.com/cert/109124472/psa",
+      "population": {
+        "atGrade": 5649,
+        "higher": 1851
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/175806841/small/P_0zfzzRxEaBNjUwuz4_Xw.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/175806841/small/s9WWfcYaPUy-6eKbWv4psw.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:36:33.814Z",
+      "cert": "105824097",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 78
+      },
+      "fields": {
+        "Brand/Title": "ONE PIECE OP08-TWO LEGENDS",
+        "Card Number": "106",
+        "Category": "TCG Cards",
+        "Cert Number": "105824097",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "NAMI",
+        "Variety/Pedigree": "ALTERNATE ART",
+        "Year": "2024"
+      },
+      "pageUrl": "https://www.psacard.com/cert/105824097/psa",
+      "population": {
+        "atGrade": 1332,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 635,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/173527894/small/-dup-YhqDkWkGOEmi3X3AQ.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/173527894/small/UIWO9jdcDUaArcSPcIN9zQ.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:36:35.060Z",
+      "cert": "117446096",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 104
+      },
+      "fields": {
+        "Brand/Title": "POKEMON EX HOLON PHANTOMS",
+        "Card Number": "79",
+        "Category": "TCG Cards",
+        "Cert Number": "117446096",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "PIKACHU",
+        "Variety/Pedigree": "HOLON PHANTOMS",
+        "Year": "2006"
+      },
+      "pageUrl": "https://www.psacard.com/cert/117446096/psa",
+      "population": {
+        "atGrade": 159,
+        "higher": 73
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 637,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/181001977/small/bRHP99dbwEm7f9uOHZTKaQ.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 638,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/181001977/small/54zn3K04ZE6iBJAOaGAcNA.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:36:35.624Z",
+      "cert": "100783808",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 29
+      },
+      "fields": {
+        "Brand/Title": "POKEMON JAPANESE GYM",
+        "Card Number": "117",
+        "Category": "TCG Cards",
+        "Cert Number": "100783808",
+        "Item Grade": "NM 7",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "MISTY'S SEADRA-HOLO",
+        "Year": "1998"
+      },
+      "pageUrl": "https://www.psacard.com/cert/100783808/psa",
+      "population": {
+        "atGrade": 195,
+        "higher": 1595
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 635,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/169052528/small/13r01JvTKkmuYKnnQizXbg.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/169052528/small/XfDlT_tS6kegSxbQ_0OGNw.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T04:00:37.531Z",
+      "cert": "55209358",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 29
+      },
+      "fields": {
+        "Brand/Title": "POKEMON SUN & MOON DRAGON MAJESTY",
+        "Card Number": "3",
+        "Category": "TCG Cards",
+        "Cert Number": "55209358",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "CHARIZARD",
+        "Variety/Pedigree": "DRM-LET'S PLAY EEVEE!",
+        "Year": "2018"
+      },
+      "pageUrl": "https://www.psacard.com/cert/55209358/psa",
+      "population": {
+        "atGrade": 540,
+        "higher": 586
+      },
+      "scans": [],
+      "scanStatus": "no-scans-on-cert-page",
+      "scanReview": {
+        "scrolled": true,
+        "rechecked": true,
+        "basis": "Rendered cert metadata and gallery reviewed again after scrolling; no cert image 1 or 2 from PSA scan host."
+      }
+    },
+    {
+      "capturedAt": "2026-09-08T03:36:49.361Z",
+      "cert": "98128643",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 392
+      },
+      "fields": {
+        "Brand/Title": "POKEMON BLACK & WHITE NEXT DESTINIES",
+        "Card Number": "98",
+        "Category": "TCG Cards",
+        "Cert Number": "98128643",
+        "Item Grade": "NM 7",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "FA/MEWTWO EX",
+        "Variety/Pedigree": "NEXT DESTINIES",
+        "Year": "2012"
+      },
+      "pageUrl": "https://www.psacard.com/cert/98128643/psa",
+      "population": {
+        "atGrade": 145,
+        "higher": 330
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 636,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/165718640/small/OthZRzocrU-K8lIuPKaALA.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 638,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/165718640/small/HgvuAkKv-U6DLK4q63UQhA.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:36:50.086Z",
+      "cert": "54310261",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 111
+      },
+      "fields": {
+        "Brand/Title": "POKEMON XY STEAM SIEGE",
+        "Card Number": "113",
+        "Category": "TCG Cards",
+        "Cert Number": "54310261",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "FA/POKEMON RANGER",
+        "Variety/Pedigree": "STEAM SIEGE",
+        "Year": "2016"
+      },
+      "pageUrl": "https://www.psacard.com/cert/54310261/psa",
+      "population": {
+        "atGrade": 306,
+        "higher": 0
+      },
+      "scans": [],
+      "scanStatus": "no-scans-on-cert-page",
+      "scanReview": {
+        "scrolled": true,
+        "rechecked": true,
+        "checkedAt": "2026-09-08T04:03:25.414Z",
+        "basis": "Cert number matched in rendered Item Information; no Cert image 1 or Cert image 2 in full accessibility tree after scrolling down and back up."
+      }
+    },
+    {
+      "capturedAt": "2026-09-08T03:36:50.728Z",
+      "cert": "59984067",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 296
+      },
+      "fields": {
+        "Brand/Title": "POKEMON PROMO BLACK STAR",
+        "Card Number": "27",
+        "Category": "TCG Cards",
+        "Cert Number": "59984067",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "PIKACHU",
+        "Variety/Pedigree": "BLACK STAR",
+        "Year": "2000"
+      },
+      "pageUrl": "https://www.psacard.com/cert/59984067/psa",
+      "population": {
+        "atGrade": 5792,
+        "higher": 0
+      },
+      "scans": [],
+      "scanStatus": "no-scans-on-cert-page",
+      "scanReview": {
+        "scrolled": true,
+        "rechecked": true,
+        "checkedAt": "2026-09-08T04:03:26.303Z",
+        "basis": "Cert number matched in rendered Item Information; no Cert image 1 or Cert image 2 in full accessibility tree after scrolling down and back up."
+      }
+    },
+    {
+      "capturedAt": "2026-09-08T03:50:41.106Z",
+      "cert": "52109910",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 91
+      },
+      "fields": {
+        "Brand/Title": "POKEMON NEO GENESIS",
+        "Card Number": "6",
+        "Category": "TCG Cards",
+        "Cert Number": "52109910",
+        "Item Grade": "NM-MT 8",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "HERACROSS-HOLO",
+        "Year": "2000"
+      },
+      "pageUrl": "https://www.psacard.com/cert/52109910/psa",
+      "population": {
+        "atGrade": 543,
+        "higher": 237
+      },
+      "scans": [],
+      "scanStatus": "no-scans-on-cert-page",
+      "scanReview": {
+        "scrolled": true,
+        "rechecked": true,
+        "checkedAt": "2026-09-08T04:06:15.086Z",
+        "basis": "Cert number matched in rendered Item Information; no Cert image 1 or Cert image 2 in full accessibility tree after scrolling down and back up."
+      }
+    },
+    {
+      "capturedAt": "2026-09-08T03:36:56.864Z",
+      "cert": "100119005",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 94
+      },
+      "fields": {
+        "Brand/Title": "POKEMON SWSH BLACK STAR PROMO",
+        "Card Number": "179",
+        "Category": "TCG Cards",
+        "Cert Number": "100119005",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "FA/FLAREON V",
+        "Variety/Pedigree": "FLAREON VMAX PREM.COLL.",
+        "Year": "2021"
+      },
+      "pageUrl": "https://www.psacard.com/cert/100119005/psa",
+      "population": {
+        "atGrade": 5860,
+        "higher": 1515
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 637,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/168078570/small/zkTjp3O1HUmHcPuiD4bBpA.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 640,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/168078570/small/KIy4baWyBUejXD9EbAMAPQ.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:36:58.093Z",
+      "cert": "101074833",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 66
+      },
+      "fields": {
+        "Brand/Title": "POKEMON ROCKET",
+        "Card Number": "6",
+        "Category": "TCG Cards",
+        "Cert Number": "101074833",
+        "Item Grade": "NM-MT 8",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "DARK DUGTRIO-HOLO",
+        "Year": "2000"
+      },
+      "pageUrl": "https://www.psacard.com/cert/101074833/psa",
+      "population": {
+        "atGrade": 940,
+        "higher": 499
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/169584790/small/Vot_JrSHIUWQasD2zIMBRg.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/169584790/small/jgZHLJcDPUuB4v7MIWJF1w.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:36:58.831Z",
+      "cert": "98814750",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 71
+      },
+      "fields": {
+        "Brand/Title": "POKEMON GAME",
+        "Card Number": "9",
+        "Category": "TCG Cards",
+        "Cert Number": "98814750",
+        "Item Grade": "NM-MT 8",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "MAGNETON-HOLO",
+        "Year": "1999"
+      },
+      "pageUrl": "https://www.psacard.com/cert/98814750/psa",
+      "population": {
+        "atGrade": 3706,
+        "higher": 2412
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 634,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/166227467/small/V_v9PwcEEki7E_3Ly4_3Tg.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 641,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/166227467/small/MM46kzMQNk-4mCJ3hTRnZA.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:37:00.050Z",
+      "cert": "99916824",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 117
+      },
+      "fields": {
+        "Brand/Title": "POKEMON JAPANESE SWORD & SHIELD EEVEE HEROES",
+        "Card Number": "094",
+        "Category": "TCG Cards",
+        "Cert Number": "99916824",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "FA/UMBREON VMAX",
+        "Variety/Pedigree": "EEVEE HEROES-HYPER",
+        "Year": "2021"
+      },
+      "pageUrl": "https://www.psacard.com/cert/99916824/psa",
+      "population": {
+        "atGrade": 2554,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/167860952/small/bPhNMKNPFEiF3NOdFpKd7Q.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 639,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/167860952/small/UsVatf07hEqXDze5trm3KQ.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:37:00.876Z",
+      "cert": "94798197",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 228
+      },
+      "fields": {
+        "Brand/Title": "POKEMON FRENCH",
+        "Card Number": "68",
+        "Category": "TCG Cards",
+        "Cert Number": "94798197",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "GOUPIX",
+        "Variety/Pedigree": "1ST EDITION",
+        "Year": "1999"
+      },
+      "pageUrl": "https://www.psacard.com/cert/94798197/psa",
+      "population": {
+        "atGrade": 94,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 640,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/162082553/small/BBG5Ei_FAEymiLwE9QxOmQ.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 639,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/162082553/small/VU0L1EdQM0aIhWSQj3zGng.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:37:01.430Z",
+      "cert": "86022489",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 60
+      },
+      "fields": {
+        "Brand/Title": "TOPPS NOW OFFSEASON",
+        "Card Number": "OS26",
+        "Category": "BASEBALL CARDS",
+        "Cert Number": "86022489",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "YAMAMOTO/OHTANI",
+        "Year": "2023"
+      },
+      "pageUrl": "https://www.psacard.com/cert/86022489/psa",
+      "population": {
+        "atGrade": 3928,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 639,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/153030645/small/-yGY_2S2oUqQwAa-MhczfQ.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 636,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/153030645/small/-ONl51lzWkujTkMVcPer5A.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:37:02.624Z",
+      "cert": "75408148",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 18
+      },
+      "fields": {
+        "Brand/Title": "PANINI DONRUSS",
+        "Card Number": "308",
+        "Category": "FOOTBALL CARDS",
+        "Cert Number": "75408148",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "JAMESON WILLIAMS",
+        "Variety/Pedigree": "PRESS PROOF PREMIUM",
+        "Year": "2022"
+      },
+      "pageUrl": "https://www.psacard.com/cert/75408148/psa",
+      "population": {
+        "atGrade": 92,
+        "higher": 122
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 643,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/140765900/small/UIu9HyAO9E6uo1KfdoHGFw.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 640,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/140765900/small/I8WwARH3LEC-9RJsJXDm3g.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:37:03.757Z",
+      "cert": "79452841",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 71
+      },
+      "fields": {
+        "Brand/Title": "PANINI CHRONICLES PRIZM BLACK",
+        "Card Number": "PB16",
+        "Category": "FOOTBALL CARDS",
+        "Cert Number": "79452841",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "AIDAN HUTCHINSON",
+        "Variety/Pedigree": "PRIZM BLACK-SILVER",
+        "Year": "2022"
+      },
+      "pageUrl": "https://www.psacard.com/cert/79452841/psa",
+      "population": {
+        "atGrade": 146,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 644,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/145995399/small/NmjBF0TjeEanuIwTBpajQg.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 640,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/145995399/small/Bxi2d2-gaUmVz5kqekjwQw.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:37:04.597Z",
+      "cert": "95855747",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 70
+      },
+      "fields": {
+        "Brand/Title": "POKEMON PAR EN-PARADOX RIFT",
+        "Card Number": "202",
+        "Category": "TCG Cards",
+        "Cert Number": "95855747",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "GARGANACL",
+        "Variety/Pedigree": "ILLUSTRATION RARE",
+        "Year": "2023"
+      },
+      "pageUrl": "https://www.psacard.com/cert/95855747/psa",
+      "population": {
+        "atGrade": 231,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 640,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/163033821/small/bus9GwoDxE2j-XXD4ELoSA.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/163033821/small/_YIDfXv2mE-sJhAvejYd1A.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:37:05.134Z",
+      "cert": "73920831",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 262
+      },
+      "fields": {
+        "Brand/Title": "POKEMON EX DRAGON FRONTIERS",
+        "Card Number": "41",
+        "Category": "TCG Cards",
+        "Cert Number": "73920831",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "TOGEPI-REV.FOIL",
+        "Variety/Pedigree": "DRAGON FRONTIERS",
+        "Year": "2006"
+      },
+      "pageUrl": "https://www.psacard.com/cert/73920831/psa",
+      "population": {
+        "atGrade": 66,
+        "higher": 10
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/140133981/small/UtLPg5QPskq7IZNA1I6JLQ.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/140133981/small/zmJJXRLw902PleFr6YlCgA.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:37:05.844Z",
+      "cert": "60550164",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 110
+      },
+      "fields": {
+        "Brand/Title": "POKEMON XY ROARING SKIES",
+        "Card Number": "99",
+        "Category": "TCG Cards",
+        "Cert Number": "60550164",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "FA/GALLADE EX",
+        "Variety/Pedigree": "ROARING SKIES",
+        "Year": "2015"
+      },
+      "pageUrl": "https://www.psacard.com/cert/60550164/psa",
+      "population": {
+        "atGrade": 105,
+        "higher": 18
+      },
+      "scans": [],
+      "scanStatus": "no-scans-on-cert-page",
+      "scanReview": {
+        "scrolled": true,
+        "rechecked": true,
+        "checkedAt": "2026-09-08T04:03:26.984Z",
+        "basis": "Cert number matched in rendered Item Information; no Cert image 1 or Cert image 2 in full accessibility tree after scrolling down and back up."
+      }
+    },
+    {
+      "capturedAt": "2026-09-08T03:37:06.572Z",
+      "cert": "61336961",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 39
+      },
+      "fields": {
+        "Brand/Title": "POKEMON PROMO BLACK STAR",
+        "Card Number": "16",
+        "Category": "TCG Cards",
+        "Cert Number": "61336961",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "COMPUTER ERROR",
+        "Variety/Pedigree": "PROMO-POKEMON LEAGUE",
+        "Year": "2000"
+      },
+      "pageUrl": "https://www.psacard.com/cert/61336961/psa",
+      "population": {
+        "atGrade": 845,
+        "higher": 761
+      },
+      "scans": [],
+      "scanStatus": "no-scans-on-cert-page",
+      "scanReview": {
+        "scrolled": true,
+        "rechecked": true,
+        "checkedAt": "2026-09-08T04:03:27.951Z",
+        "basis": "Cert number matched in rendered Item Information; no Cert image 1 or Cert image 2 in full accessibility tree after scrolling down and back up."
+      }
+    },
+    {
+      "capturedAt": "2026-09-08T03:37:07.268Z",
+      "cert": "96517513",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 23
+      },
+      "fields": {
+        "Brand/Title": "POKEMON SWORD & SHIELD BATTLE STYLES",
+        "Card Number": "161",
+        "Category": "TCG Cards",
+        "Cert Number": "96517513",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "FA/PHOEBE",
+        "Variety/Pedigree": "BATTLE STYLES",
+        "Year": "2021"
+      },
+      "pageUrl": "https://www.psacard.com/cert/96517513/psa",
+      "population": {
+        "atGrade": 551,
+        "higher": 696
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 635,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/163902136/small/WpWSw5ao-0uxzj8_-IdP4w_56e6f.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 639,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/163902136/small/eLDUM2zenUGJKT1GdBH44A_9dc3e.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:37:51.862Z",
+      "cert": "96813253",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 100
+      },
+      "fields": {
+        "Brand/Title": "POKEMON JAPANESE SV4M-FUTURE FLASH",
+        "Card Number": "090",
+        "Category": "TCG Cards",
+        "Cert Number": "96813253",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "ALTARIA ex",
+        "Variety/Pedigree": "SPECIAL ART RARE",
+        "Year": "2023"
+      },
+      "pageUrl": "https://www.psacard.com/cert/96813253/psa",
+      "population": {
+        "atGrade": 2900,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 637,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/163954309/small/laQlWa2k20CBnFA-AfNZOQ.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 634,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/163954309/small/nkFlEliNlkSNoG40osIX-g.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:37:52.668Z",
+      "cert": "108031205",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 62
+      },
+      "fields": {
+        "Brand/Title": "POKEMON SWORD AND SHIELD CROWN ZENITH",
+        "Card Number": "GG40",
+        "Category": "TCG Cards",
+        "Cert Number": "108031205",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "FA/GLACEON VSTAR",
+        "Variety/Pedigree": "CROWN ZENITH",
+        "Year": "2023"
+      },
+      "pageUrl": "https://www.psacard.com/cert/108031205/psa",
+      "population": {
+        "atGrade": 8260,
+        "higher": 13521
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/175088730/small/Ld6RQ9CkCkKlOvTpTJVRcw.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/175088730/small/FGVBriL_wEOQNcThs1kIpg.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:37:53.424Z",
+      "cert": "83380677",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 40
+      },
+      "fields": {
+        "Brand/Title": "POKEMON SVP EN-SV BLACK STAR PROMO",
+        "Card Number": "051",
+        "Category": "TCG Cards",
+        "Cert Number": "83380677",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "SNORLAX",
+        "Variety/Pedigree": "151 ELITE TRAINER BOX",
+        "Year": "2023"
+      },
+      "pageUrl": "https://www.psacard.com/cert/83380677/psa",
+      "population": {
+        "atGrade": 21290,
+        "higher": 11555
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/148772459/small/gVYRWgRJx06Qp7qwinq8aw.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/148772459/small/GunVihtRQk2eCArta2UkBg.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:56:33.649Z",
+      "cert": "102808559",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 62
+      },
+      "fields": {
+        "Brand/Title": "POKEMON JAPANESE SV8-SUPER ELECTRIC BREAKER",
+        "Card Number": "033",
+        "Category": "TCG Cards",
+        "Cert Number": "102808559",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "PIKACHU ex",
+        "Year": "2024"
+      },
+      "pageUrl": "https://www.psacard.com/cert/102808559/psa",
+      "population": {
+        "atGrade": 6984,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 634,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/171022446/small/ytTnvNP8FUOO7WaHoBaRaA.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 640,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/171022446/small/fIRMIsNWx02TzdSpPMUjnw.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:56:34.360Z",
+      "cert": "103495225",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 82
+      },
+      "fields": {
+        "Brand/Title": "PANINI PRIZM",
+        "Card Number": "309",
+        "Category": "FOOTBALL CARDS",
+        "Cert Number": "103495225",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "BO NIX",
+        "Year": "2024"
+      },
+      "pageUrl": "https://www.psacard.com/cert/103495225/psa",
+      "population": {
+        "atGrade": 1717,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/172080793/small/hRzB8BZeA0uKPdvP47JtkA.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 637,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/172080793/small/CaDwa0wP5kCCtyESIKsGpQ.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:38:05.705Z",
+      "cert": "65336829",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 44
+      },
+      "fields": {
+        "Brand/Title": "POKEMON SWORD & SHIELD EVOLVING SKIES",
+        "Card Number": "231",
+        "Category": "TCG Cards",
+        "Cert Number": "65336829",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "FA/FULL FACE GUARD",
+        "Variety/Pedigree": "EVOLVING SKIES-SECRET",
+        "Year": "2021"
+      },
+      "pageUrl": "https://www.psacard.com/cert/65336829/psa",
+      "population": {
+        "atGrade": 94,
+        "higher": 0
+      },
+      "scans": [],
+      "scanStatus": "no-scans-on-cert-page",
+      "scanReview": {
+        "scrolled": true,
+        "rechecked": true,
+        "checkedAt": "2026-09-08T04:03:59.614Z",
+        "basis": "Cert number matched in rendered Item Information; no Cert image 1 or Cert image 2 in full accessibility tree after scrolling down and back up."
+      }
+    },
+    {
+      "capturedAt": "2026-09-08T03:56:35.058Z",
+      "cert": "100285399",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 96
+      },
+      "fields": {
+        "Brand/Title": "TOPPS UPDATE",
+        "Card Number": "US123",
+        "Category": "BASEBALL CARDS",
+        "Cert Number": "100285399",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "SHOHEI OHTANI",
+        "Year": "2024"
+      },
+      "pageUrl": "https://www.psacard.com/cert/100285399/psa",
+      "population": {
+        "atGrade": 243,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 636,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/168450742/small/oDljrxGsA0eXYnMQzpj_6w.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 639,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/168450742/small/zhjdPE6ImUaSAvNTthN5Fw.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:56:35.954Z",
+      "cert": "60354886",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 17
+      },
+      "fields": {
+        "Brand/Title": "TOPPS",
+        "Card Number": "596",
+        "Category": "BASEBALL CARDS",
+        "Cert Number": "60354886",
+        "Item Grade": "NM-MT 8",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "RYNE SANDBERG",
+        "Year": "1984"
+      },
+      "pageUrl": "https://www.psacard.com/cert/60354886/psa",
+      "population": {
+        "atGrade": 778,
+        "higher": 960
+      },
+      "scans": [],
+      "scanStatus": "no-scans-on-cert-page",
+      "scanReview": {
+        "scrolled": true,
+        "rechecked": true,
+        "checkedAt": "2026-09-08T04:06:58.875Z",
+        "basis": "Cert number matched in rendered Item Information; no Cert image 1 or Cert image 2 in full accessibility tree after scrolling down and back up."
+      }
+    },
+    {
+      "capturedAt": "2026-09-08T03:38:11.013Z",
+      "cert": "73375485",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 69
+      },
+      "fields": {
+        "Brand/Title": "POKEMON JAPANESE SV1V-VIOLET ex",
+        "Card Number": "092",
+        "Category": "TCG Cards",
+        "Cert Number": "73375485",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "ARCANINE ex",
+        "Variety/Pedigree": "SUPER RARE",
+        "Year": "2023"
+      },
+      "pageUrl": "https://www.psacard.com/cert/73375485/psa",
+      "population": {
+        "atGrade": 3139,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/138625404/small/22j1R7h5-Uus72EYwSmS9g.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/138625404/small/gFRgPoXqAUCbuKqMLhXqXw.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:38:11.821Z",
+      "cert": "127120384",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 173
+      },
+      "fields": {
+        "Brand/Title": "PANINI PRIZM WNBA FRACTAL",
+        "Card Number": "1",
+        "Category": "BASKETBALL CARDS",
+        "Cert Number": "127120384",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "CAITLIN CLARK",
+        "Year": "2024"
+      },
+      "pageUrl": "https://www.psacard.com/cert/127120384/psa",
+      "population": {
+        "atGrade": 1103,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/187171312/small/nO1wfcbHcEquE0cw0KNQaw.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 639,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/187171312/small/cVElrhfLr0y_UwxxsAyj1w.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:38:12.491Z",
+      "cert": "97340119",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 62
+      },
+      "fields": {
+        "Brand/Title": "PANINI DONRUSS",
+        "Card Number": "131",
+        "Category": "BASEBALL CARDS",
+        "Cert Number": "97340119",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "PAUL SKENES",
+        "Variety/Pedigree": "RED",
+        "Year": "2024"
+      },
+      "pageUrl": "https://www.psacard.com/cert/97340119/psa",
+      "population": {
+        "atGrade": 24,
+        "higher": 6
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/164709994/small/OnLWGDDtFU-Y4yOGfokg1w.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/164709994/small/vC-EefoHTEWlg8OAPzPoZQ.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:38:13.759Z",
+      "cert": "97340117",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 29
+      },
+      "fields": {
+        "Brand/Title": "TOPPS MUSEUM COLLECTION",
+        "Card Number": "94",
+        "Category": "BASEBALL CARDS",
+        "Cert Number": "97340117",
+        "Item Grade": "NM-MT 8",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "PAUL SKENES",
+        "Variety/Pedigree": "SAPPHIRE",
+        "Year": "2024"
+      },
+      "pageUrl": "https://www.psacard.com/cert/97340117/psa",
+      "population": {
+        "atGrade": 15,
+        "higher": 2
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 638,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/164709992/small/tHioFK-baUmZoJBZWXHW1A.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/164709992/small/0yBMhq6wskWk5OeLJOzqgQ.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:38:14.383Z",
+      "cert": "96298547",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 112
+      },
+      "fields": {
+        "Brand/Title": "BOWMAN DRAFT TRANSFORMATIVE TALENT",
+        "Card Number": "TT20",
+        "Category": "BASEBALL CARDS",
+        "Cert Number": "96298547",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "PAUL SKENES",
+        "Year": "2023"
+      },
+      "pageUrl": "https://www.psacard.com/cert/96298547/psa",
+      "population": {
+        "atGrade": 427,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/163822790/small/N_QR0G_TcEKgTIRsxoapUQ.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/163822790/small/lmA2E0aenEetw2GMB8vvJg.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:38:15.126Z",
+      "cert": "55498220",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 74
+      },
+      "fields": {
+        "Brand/Title": "POKEMON BEST OF GAME PROMO",
+        "Card Number": "3",
+        "Category": "TCG Cards",
+        "Cert Number": "55498220",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "PROF.ELM-REVERSE FOIL",
+        "Variety/Pedigree": "PROMO",
+        "Year": "2003"
+      },
+      "pageUrl": "https://www.psacard.com/cert/55498220/psa",
+      "population": {
+        "atGrade": 279,
+        "higher": 13
+      },
+      "scans": [],
+      "scanStatus": "no-scans-on-cert-page",
+      "scanReview": {
+        "scrolled": true,
+        "rechecked": true,
+        "checkedAt": "2026-09-08T04:04:00.576Z",
+        "basis": "Cert number matched in rendered Item Information; no Cert image 1 or Cert image 2 in full accessibility tree after scrolling down and back up."
+      }
+    },
+    {
+      "capturedAt": "2026-09-08T03:38:16.600Z",
+      "cert": "58545061",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 143
+      },
+      "fields": {
+        "Brand/Title": "POKEMON XY EVOLUTIONS",
+        "Card Number": "2",
+        "Category": "TCG Cards",
+        "Cert Number": "58545061",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "M VENUSAUR EX",
+        "Variety/Pedigree": "EVOLUTIONS",
+        "Year": "2016"
+      },
+      "pageUrl": "https://www.psacard.com/cert/58545061/psa",
+      "population": {
+        "atGrade": 2643,
+        "higher": 0
+      },
+      "scans": [],
+      "scanStatus": "no-scans-on-cert-page",
+      "scanReview": {
+        "scrolled": true,
+        "rechecked": true,
+        "checkedAt": "2026-09-08T04:04:01.139Z",
+        "basis": "Cert number matched in rendered Item Information; no Cert image 1 or Cert image 2 in full accessibility tree after scrolling down and back up."
+      }
+    },
+    {
+      "capturedAt": "2026-09-08T03:38:18.183Z",
+      "cert": "121629672",
+      "estimate": null,
+      "fields": {
+        "Brand/Title": "PANINI PHOTOGENIC ROOKIE PIX",
+        "Card Number": "6",
+        "Category": "FOOTBALL CARDS",
+        "Cert Number": "121629672",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "MARVIN HARRISON JR.",
+        "Variety/Pedigree": "ROOKIE PIX-RED",
+        "Year": "2024"
+      },
+      "pageUrl": "https://www.psacard.com/cert/121629672/psa",
+      "population": {
+        "atGrade": 2,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 634,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183876406/small/MLl7bn5HdkOIGNXx8Ti8Rw_9021b.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 636,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/183876406/small/-sjHrrx6cU2SjxxMMK-4HQ.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:56:36.629Z",
+      "cert": "74020724",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 94
+      },
+      "fields": {
+        "Brand/Title": "POKEMON SWORD & SHIELD LOST ORIGIN",
+        "Card Number": "TG19",
+        "Category": "TCG Cards",
+        "Cert Number": "74020724",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "FA/GALLADE V",
+        "Variety/Pedigree": "LOST ORIGIN",
+        "Year": "2022"
+      },
+      "pageUrl": "https://www.psacard.com/cert/74020724/psa",
+      "population": {
+        "atGrade": 543,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 639,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/139540898/small/RlPqKL9AfEORlX3kreG_Mg.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 638,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/139540898/small/wuPHCchG3kGE5uoXJbyLmg.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:38:22.327Z",
+      "cert": "102235550",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 70
+      },
+      "fields": {
+        "Brand/Title": "POKEMON SWORD & SHIELD SILVER TEMPEST",
+        "Card Number": "TG19",
+        "Category": "TCG Cards",
+        "Cert Number": "102235550",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "FA/CORVIKNIGHT VMAX",
+        "Variety/Pedigree": "SILVER TEMPEST",
+        "Year": "2022"
+      },
+      "pageUrl": "https://www.psacard.com/cert/102235550/psa",
+      "population": {
+        "atGrade": 1294,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/170557939/small/0q76b1lPykmTDVONiMbsfA.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 636,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/170557939/small/grCV2M0hFU-aD7SSNBx2OA.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:38:37.655Z",
+      "cert": "65234866",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 176
+      },
+      "fields": {
+        "Brand/Title": "POKEMON JAPANESE VS",
+        "Card Number": "065",
+        "Category": "TCG Cards",
+        "Cert Number": "65234866",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "JANINE'S ARIADOS",
+        "Variety/Pedigree": "1ST EDITION",
+        "Year": "2001"
+      },
+      "pageUrl": "https://www.psacard.com/cert/65234866/psa",
+      "population": {
+        "atGrade": 91,
+        "higher": 0
+      },
+      "scans": [],
+      "scanStatus": "no-scans-on-cert-page",
+      "scanReview": {
+        "scrolled": true,
+        "rechecked": true,
+        "checkedAt": "2026-09-08T04:05:06.398Z",
+        "basis": "Cert number matched in rendered Item Information; no Cert image 1 or Cert image 2 in full accessibility tree after scrolling down and back up."
+      }
+    },
+    {
+      "capturedAt": "2026-09-08T03:38:38.301Z",
+      "cert": "64974643",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 90
+      },
+      "fields": {
+        "Brand/Title": "POKEMON SWORD & SHIELD BRILLIANT STARS",
+        "Card Number": "183",
+        "Category": "TCG Cards",
+        "Cert Number": "64974643",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "FA/GALARIAN MOLTRES V",
+        "Variety/Pedigree": "BRILLIANT STARS-SECRET",
+        "Year": "2022"
+      },
+      "pageUrl": "https://www.psacard.com/cert/64974643/psa",
+      "population": {
+        "atGrade": 1911,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/127912553/small/bSEOyIcMvUespBfy7kCHYg.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/127912553/small/drZ6g9cB2UGEkctQOUuQ3g.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:38:39.120Z",
+      "cert": "63641922",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 20
+      },
+      "fields": {
+        "Brand/Title": "BOWMAN'S BEST BEST OF 2020 AUTOGRAPHS",
+        "Card Number": "B20LR",
+        "Category": "BASEBALL CARDS",
+        "Cert Number": "63641922",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "LUIS ROBERT",
+        "Variety/Pedigree": "BEST/2020 AUTO-REF.",
+        "Year": "2020"
+      },
+      "pageUrl": "https://www.psacard.com/cert/63641922/psa",
+      "population": {
+        "atGrade": 81,
+        "higher": 40
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/126723654/small/356683423.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/126723654/small/356683402.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:38:39.791Z",
+      "cert": "48384800",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 10
+      },
+      "fields": {
+        "Brand/Title": "PANINI PRIZM",
+        "Card Number": "256",
+        "Category": "BASKETBALL CARDS",
+        "Cert Number": "48384800",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "CAM REDDISH",
+        "Variety/Pedigree": "HYPER PRIZM",
+        "Year": "2019"
+      },
+      "pageUrl": "https://www.psacard.com/cert/48384800/psa",
+      "population": {
+        "atGrade": 97,
+        "higher": 23
+      },
+      "scans": [],
+      "scanStatus": "no-scans-on-cert-page",
+      "scanReview": {
+        "scrolled": true,
+        "rechecked": true,
+        "checkedAt": "2026-09-08T04:05:07.191Z",
+        "basis": "Cert number matched in rendered Item Information; no Cert image 1 or Cert image 2 in full accessibility tree after scrolling down and back up."
+      }
+    },
+    {
+      "capturedAt": "2026-09-08T03:38:40.535Z",
+      "cert": "114218228",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 139
+      },
+      "fields": {
+        "Brand/Title": "PANINI OBSIDIAN BLACK COLOR BLAST",
+        "Card Number": "15",
+        "Category": "FOOTBALL CARDS",
+        "Cert Number": "114218228",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "TREY BENSON",
+        "Year": "2024"
+      },
+      "pageUrl": "https://www.psacard.com/cert/114218228/psa",
+      "population": {
+        "atGrade": 23,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 639,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179066763/small/CXQdsCiF_02upQrdZAvMow.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 640,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179066763/small/yem8ws36B0uWSfk0O2irkw.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:38:41.298Z",
+      "cert": "114218224",
+      "estimate": null,
+      "fields": {
+        "Brand/Title": "PANINI OBSIDIAN ECLIPSING LEGENDS",
+        "Card Number": "9",
+        "Category": "FOOTBALL CARDS",
+        "Cert Number": "114218224",
+        "Item Grade": "NM-MT 8",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "WARNER/MURRAY",
+        "Year": "2024"
+      },
+      "pageUrl": "https://www.psacard.com/cert/114218224/psa",
+      "population": {
+        "atGrade": 1,
+        "higher": 1
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 638,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179066759/small/ZqGCGShTt0euEPQvkXuE5g.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179066759/small/wc6WylCL1E-rQIUnR12bkA.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T04:00:03.880Z",
+      "cert": "87052596",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 15
+      },
+      "fields": {
+        "Brand/Title": "PANINI SELECT",
+        "Card Number": "47",
+        "Category": "FOOTBALL CARDS",
+        "Cert Number": "87052596",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "Ja'MARR CHASE",
+        "Year": "2021"
+      },
+      "pageUrl": "https://www.psacard.com/cert/87052596/psa",
+      "population": {
+        "atGrade": 283,
+        "higher": 430
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 639,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/153815669/small/Ur0TmELlnEK3yoLQBD-C1g.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 638,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/153815669/small/rovTimNxx0SiZXKKw0_qAQ.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:38:45.593Z",
+      "cert": "88289743",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 34
+      },
+      "fields": {
+        "Brand/Title": "PANINI CHRONICLES",
+        "Card Number": "41",
+        "Category": "FOOTBALL CARDS",
+        "Cert Number": "88289743",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "BROCK PURDY",
+        "Year": "2022"
+      },
+      "pageUrl": "https://www.psacard.com/cert/88289743/psa",
+      "population": {
+        "atGrade": 1511,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/155194307/small/EZ3dpFomPUCGAE0bJ6hhuw_1deff.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/155194307/small/XLrk7t9vTke6O3suCLp4bg.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:38:46.249Z",
+      "cert": "97340118",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 249
+      },
+      "fields": {
+        "Brand/Title": "BOWMAN CHROME PROSPECT AUTOGRAPHS",
+        "Card Number": "CPAPS",
+        "Category": "BASEBALL CARDS",
+        "Cert Number": "97340118",
+        "Item Grade": "NM-MT 8",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "PAUL SKENES",
+        "Year": "2024"
+      },
+      "pageUrl": "https://www.psacard.com/cert/97340118/psa",
+      "population": {
+        "atGrade": 34,
+        "higher": 419
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 637,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/164709993/small/J2kNUZkraUer11592zaYKQ.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 636,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/164709993/small/xtAYguFcUEaJSiruznkpYA.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:38:47.085Z",
+      "cert": "99557890",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 94
+      },
+      "fields": {
+        "Brand/Title": "PANINI MOSAIC",
+        "Card Number": "331",
+        "Category": "FOOTBALL CARDS",
+        "Cert Number": "99557890",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "TREY MCBRIDE",
+        "Variety/Pedigree": "VARIATION-SILVER",
+        "Year": "2022"
+      },
+      "pageUrl": "https://www.psacard.com/cert/99557890/psa",
+      "population": {
+        "atGrade": 4,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 638,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/167604274/small/r-wcR7uQRkGsz-818z5sXg.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 636,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/167604274/small/hyRQE5IxnUOjfz7zFDMtkQ.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:38:47.741Z",
+      "cert": "114218227",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 22
+      },
+      "fields": {
+        "Brand/Title": "PANINI OBSIDIAN NUCLEUS",
+        "Card Number": "6",
+        "Category": "FOOTBALL CARDS",
+        "Cert Number": "114218227",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "MURRAY/HARRISON/CNNR",
+        "Year": "2024"
+      },
+      "pageUrl": "https://www.psacard.com/cert/114218227/psa",
+      "population": {
+        "atGrade": 4,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 0,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179066762/small/kvCBD8Bb5UeekGR8B9FjVQ.jpg",
+          "width": 0
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 0,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179066762/small/cJKBklWS80mfpp9VJuLffA.jpg",
+          "width": 0
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:38:48.228Z",
+      "cert": "99039773",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 22
+      },
+      "fields": {
+        "Brand/Title": "POKEMON JAPANESE SV2a-POKEMON CARD 151",
+        "Card Number": "084",
+        "Category": "TCG Cards",
+        "Cert Number": "99039773",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "DODUO",
+        "Variety/Pedigree": "MASTER BALL REVERSE HOLO",
+        "Year": "2023"
+      },
+      "pageUrl": "https://www.psacard.com/cert/99039773/psa",
+      "population": {
+        "atGrade": 126,
+        "higher": 931
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 636,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/166913276/small/GEsbxZWafkiaGqnUqxLftg.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 637,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/166913276/small/BUgFf9Wls0WdHflqZgLtjg.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:38:48.968Z",
+      "cert": "59798176",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 55
+      },
+      "fields": {
+        "Brand/Title": "POKEMON SWORD & SHIELD VIVID VOLTAGE",
+        "Card Number": "199",
+        "Category": "TCG Cards",
+        "Cert Number": "59798176",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "FA/ORANGURU",
+        "Variety/Pedigree": "VIVID VOLTAGE-SECRET",
+        "Year": "2020"
+      },
+      "pageUrl": "https://www.psacard.com/cert/59798176/psa",
+      "population": {
+        "atGrade": 638,
+        "higher": 0
+      },
+      "scans": [],
+      "scanStatus": "no-scans-on-cert-page",
+      "scanReview": {
+        "scrolled": true,
+        "rechecked": true,
+        "checkedAt": "2026-09-08T04:05:08.097Z",
+        "basis": "Cert number matched in rendered Item Information; no Cert image 1 or Cert image 2 in full accessibility tree after scrolling down and back up."
+      }
+    },
+    {
+      "capturedAt": "2026-09-08T04:00:04.880Z",
+      "cert": "54467228",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 18
+      },
+      "fields": {
+        "Brand/Title": "PANINI MOSAIC ROOKIE AUTOGRAPHS MOSAIC",
+        "Card Number": "RA51",
+        "Category": "FOOTBALL CARDS",
+        "Cert Number": "54467228",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "KENNETH MURRAY",
+        "Variety/Pedigree": "ROOKIE AUTOGRAPHS MOSAIC",
+        "Year": "2020"
+      },
+      "pageUrl": "https://www.psacard.com/cert/54467228/psa",
+      "population": {
+        "atGrade": 11,
+        "higher": 0
+      },
+      "scans": [],
+      "scanStatus": "no-scans-on-cert-page",
+      "scanReview": {
+        "scrolled": true,
+        "rechecked": true,
+        "checkedAt": "2026-09-08T04:06:59.661Z",
+        "basis": "Cert number matched in rendered Item Information; no Cert image 1 or Cert image 2 in full accessibility tree after scrolling down and back up."
+      }
+    },
+    {
+      "capturedAt": "2026-09-08T04:00:05.919Z",
+      "cert": "114218225",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 37
+      },
+      "fields": {
+        "Brand/Title": "PANINI OBSIDIAN",
+        "Card Number": "2",
+        "Category": "FOOTBALL CARDS",
+        "Cert Number": "114218225",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "KYLER MURRAY",
+        "Variety/Pedigree": "RED",
+        "Year": "2024"
+      },
+      "pageUrl": "https://www.psacard.com/cert/114218225/psa",
+      "population": {
+        "atGrade": 3,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 635,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179066760/small/l_Og0TMKtEiMhaIkTOexWg.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 639,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179066760/small/-2Nm7ltOSUGwWfUgEzwnhg.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T04:00:06.650Z",
+      "cert": "114218231",
+      "estimate": null,
+      "fields": {
+        "Brand/Title": "PANINI OBSIDIAN ROOKIE MATERIALS INK",
+        "Card Number": "RMITBN",
+        "Category": "FOOTBALL CARDS",
+        "Cert Number": "114218231",
+        "Item Grade": "MINT 9",
+        "Label Type": "w/ Fugitive Ink Technology",
+        "Reverse Cert/Barcode": "Yes",
+        "Subject": "TREY BENSON",
+        "Year": "2024"
+      },
+      "pageUrl": "https://www.psacard.com/cert/114218231/psa",
+      "population": {
+        "atGrade": 1,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "alt": "Cert image 1",
+          "height": 635,
+          "side": "front",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179066766/small/iDnLMpeQmESA58ZChUrMvQ.jpg",
+          "width": 380
+        },
+        {
+          "alt": "Cert image 2",
+          "height": 634,
+          "side": "back",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179066766/small/d5Ww85drZUyRb4iRwYkZgg.jpg",
+          "width": 380
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-09-08T03:50:38.789Z",
+      "cert": "24709368",
+      "estimate": {
+        "currency": "USD",
+        "label": "PSA ESTIMATE",
+        "value": 36
+      },
+      "fields": {
+        "Brand/Title": "POKEMON NEO DESTINY",
+        "Card Number": "17",
+        "Category": "TCG Cards",
+        "Cert Number": "24709368",
+        "Item Grade": "MINT 9",
+        "Label Type": "Hologram",
+        "Reverse Cert/Barcode": "No",
+        "Subject": "DARK ARIADOS",
+        "Variety/Pedigree": "1ST EDITION",
+        "Year": "2002"
+      },
+      "pageUrl": "https://www.psacard.com/cert/24709368/psa",
+      "population": {
+        "atGrade": 67,
+        "higher": 63
+      },
+      "scans": [],
+      "scanStatus": "no-scans-on-cert-page",
+      "scanReview": {
+        "scrolled": true,
+        "rechecked": true,
+        "checkedAt": "2026-09-08T04:06:13.473Z",
+        "basis": "Cert number matched in rendered Item Information; no Cert image 1 or Cert image 2 in full accessibility tree after scrolling down and back up."
+      }
+    }
+  ]
+}

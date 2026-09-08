@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:38:13.759Z",
+  "cert": "97340117",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 29
+  },
+  "fields": {
+    "Brand/Title": "TOPPS MUSEUM COLLECTION",
+    "Card Number": "94",
+    "Category": "BASEBALL CARDS",
+    "Cert Number": "97340117",
+    "Item Grade": "NM-MT 8",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "PAUL SKENES",
+    "Variety/Pedigree": "SAPPHIRE",
+    "Year": "2024"
+  },
+  "pageUrl": "https://www.psacard.com/cert/97340117/psa",
+  "population": {
+    "atGrade": 15,
+    "higher": 2
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 638,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/164709992/small/tHioFK-baUmZoJBZWXHW1A.jpg",
+      "width": 380
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 0,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/164709992/small/0yBMhq6wskWk5OeLJOzqgQ.jpg",
+      "width": 0
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:37:05.134Z",
+  "cert": "73920831",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 262
+  },
+  "fields": {
+    "Brand/Title": "POKEMON EX DRAGON FRONTIERS",
+    "Card Number": "41",
+    "Category": "TCG Cards",
+    "Cert Number": "73920831",
+    "Item Grade": "MINT 9",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "TOGEPI-REV.FOIL",
+    "Variety/Pedigree": "DRAGON FRONTIERS",
+    "Year": "2006"
+  },
+  "pageUrl": "https://www.psacard.com/cert/73920831/psa",
+  "population": {
+    "atGrade": 66,
+    "higher": 10
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 0,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/140133981/small/UtLPg5QPskq7IZNA1I6JLQ.jpg",
+      "width": 0
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 0,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/140133981/small/zmJJXRLw902PleFr6YlCgA.jpg",
+      "width": 0
+    }
+  ]
+}

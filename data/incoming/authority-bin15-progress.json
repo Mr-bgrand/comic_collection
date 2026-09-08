@@ -1,0 +1,57 @@
+{
+  "container": "comic-bin-15",
+  "requested": 27,
+  "imported": 27,
+  "scans": 54,
+  "added": 27,
+  "remaining": [],
+  "failed": [],
+  "updatedAt": "2026-09-08T00:08:38.601Z",
+  "submittedLinks": 28,
+  "duplicateIds": [
+    "6877341863"
+  ],
+  "verifiedAt": "2026-09-08T00:13:24.586Z",
+  "verification": {
+    "sourceMetadataMatches": true,
+    "originalScanHashesMatch": true,
+    "frontBackScansVisuallyReviewed": 54,
+    "unicodeReplacementCharacters": 0,
+    "leadingZeroIds": [
+      "0312731497",
+      "0212744415",
+      "0451862070",
+      "0745715728"
+    ],
+    "findResults": 27,
+    "duplicateCertificateResults": 1,
+    "build": "passed",
+    "print": "passed",
+    "pdf": {
+      "label": {
+        "pages": 1,
+        "sizeInches": [
+          4,
+          6
+        ],
+        "unicodeClean": true
+      },
+      "sheet": {
+        "pages": 2,
+        "sizeInches": [
+          8.5,
+          11
+        ],
+        "unicodeClean": true,
+        "certificateIds": 27
+      }
+    },
+    "collection": {
+      "total": 720,
+      "comics": 577,
+      "cards": 143,
+      "missingScans": 6,
+      "unassigned": 14
+    }
+  }
+}

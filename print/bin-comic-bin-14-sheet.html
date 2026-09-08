@@ -1,0 +1,1440 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Comic Bin #14 (Softslabs) manifest</title>
+<style>
+
+@page { size: letter; margin: 0.5in; }
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #16161a;
+  background: #fff;
+  font-size: 7.6pt;
+  line-height: 1.26;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.side { page-break-after: always; }
+.side:last-child { page-break-after: auto; }
+
+.masthead {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.15in;
+  padding-bottom: 0.04in;
+  margin-bottom: 0.06in;
+  border-bottom: 2pt solid #16161a;
+}
+
+.masthead h1 { font-size: 14pt; font-weight: 800; letter-spacing: -0.025em; }
+.masthead .sub { margin-top: 0.02in; font-size: 7.5pt; color: #55555e; }
+
+/*
+ * The QR repeats on every side, because each side is a standalone page — whoever
+ * is holding side 2 should not have to go find side 1 to scan through.
+ */
+.mast-qr { flex: none; width: 0.8in; text-align: center; }
+.mast-qr svg { width: 0.8in; height: 0.8in; display: block; }
+.mast-qr .cap { margin-top: 0.01in; font-size: 5.5pt; line-height: 1.1; color: #55555e; }
+
+.cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0.24in;
+}
+
+.entry {
+  display: grid;
+  grid-template-columns: 0.76in 1fr;
+  column-gap: 0.1in;
+  height: 1.25in;
+  padding: 0.02in 0;
+  border-bottom: 0.3pt solid #e4e4e8;
+  overflow: hidden;
+  break-inside: avoid;
+}
+
+.cover {
+  width: 0.76in;
+  height: 1.2in;
+  object-fit: cover;
+  border: 0.3pt solid #c8c8d0;
+  background: #f4f4f6;
+}
+
+.cover-none {
+  width: 0.76in;
+  height: 1.2in;
+  border: 0.3pt dashed #c8c8d0;
+}
+
+.head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.06in;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 8.2pt;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  /* Two lines for the title; variant strings rarely fit one at this width. */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.grade {
+  font-weight: 800;
+  font-size: 9.5pt;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/*
+ * Detail lines wrap up to two lines each and then clip. Entries are a fixed
+ * height so the page count stays deterministic; compactDetailLines puts the
+ * appraisal-critical figures first so the clipping falls on the prose.
+ */
+.meta {
+  margin-top: 0.015in;
+  color: #2a2a31;
+  font-weight: 500;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.meta .cert { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 7pt; }
+.pop { font-weight: 700; color: #7a5410; }
+
+.pagefoot {
+  margin-top: 0.06in;
+  padding-top: 0.04in;
+  border-top: 0.75pt solid #c8c8d0;
+  font-size: 6.5pt;
+  color: #55555e;
+  display: flex;
+  justify-content: space-between;
+}
+
+</style>
+</head>
+<body>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Comic Bin #14 (Softslabs)</h1>
+      <div class="sub">97 copies &middot; Comic Bin #14 &middot; printed 2026-09-08</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h37v37H0z"/><path stroke="#000000" d="M0 0.5h7m4 0h3m1 0h3m5 0h3m2 0h1m1 0h7M0 1.5h1m5 0h1m2 0h1m1 0h1m2 0h1m1 0h2m2 0h1m1 0h1m1 0h5m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h2m1 0h1m4 0h1m1 0h1m3 0h2m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h2m1 0h1m2 0h2m2 0h1m1 0h5m3 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h1m1 0h4m1 0h1m1 0h2m1 0h1m2 0h2m3 0h1m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h1m1 0h1m1 0h1m3 0h2m2 0h3m1 0h2m1 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h1m1 0h1m4 0h5m1 0h4m1 0h2M0 8.5h1m1 0h5m2 0h2m3 0h3m7 0h5m1 0h5M0 9.5h1m1 0h1m2 0h1m1 0h4m3 0h2m2 0h1m1 0h1m1 0h2m10 0h2M2 10.5h2m2 0h1m2 0h1m1 0h1m3 0h5m1 0h1m4 0h4m1 0h2m1 0h3M1 11.5h2m2 0h1m1 0h1m1 0h1m3 0h3m3 0h4m1 0h1m2 0h5m4 0h1M0 12.5h1m1 0h2m1 0h2m1 0h3m1 0h1m2 0h1m1 0h1m1 0h1m2 0h4m1 0h1m1 0h2m1 0h1m1 0h3M5 13.5h1m2 0h2m1 0h1m4 0h1m1 0h4m1 0h1m1 0h1m2 0h2m1 0h1M5 14.5h3m2 0h4m1 0h1m2 0h1m1 0h2m3 0h3m1 0h1m1 0h3m2 0h1M1 15.5h2m1 0h2m1 0h1m5 0h1m1 0h2m4 0h2m3 0h1m2 0h1m1 0h2M0 16.5h3m1 0h5m2 0h1m2 0h2m2 0h3m3 0h4m2 0h3m1 0h2M0 17.5h3m1 0h1m2 0h2m1 0h8m4 0h2m1 0h1m2 0h2m1 0h1m1 0h1m1 0h1M1 18.5h1m1 0h1m2 0h1m2 0h2m1 0h3m2 0h1m2 0h1m1 0h1m1 0h5m1 0h2m1 0h4M0 19.5h1m3 0h2m3 0h1m1 0h2m3 0h1m4 0h4m6 0h1m4 0h1M0 20.5h3m2 0h5m1 0h1m4 0h2m7 0h4m1 0h1m1 0h3M2 21.5h1m1 0h1m2 0h2m1 0h2m1 0h1m2 0h6m1 0h1m1 0h1m2 0h1m4 0h1M1 22.5h6m2 0h1m1 0h1m1 0h1m1 0h3m2 0h3m1 0h1m1 0h4m1 0h3m1 0h2M0 23.5h2m1 0h1m6 0h1m6 0h2m1 0h2m2 0h1m1 0h1m1 0h2m1 0h2m2 0h1M0 24.5h2m2 0h4m1 0h1m1 0h2m1 0h3m2 0h1m1 0h1m1 0h8m1 0h1m1 0h2M0 25.5h4m6 0h1m2 0h3m1 0h2m1 0h1m2 0h1m4 0h1m2 0h1M0 26.5h1m1 0h1m2 0h3m5 0h1m1 0h2m2 0h1m2 0h1m2 0h5m1 0h1m3 0h2M0 27.5h1m6 0h4m2 0h3m2 0h5m3 0h2m1 0h2m1 0h1M0 28.5h1m4 0h3m1 0h1m2 0h1m1 0h2m1 0h1m1 0h1m2 0h11m1 0h3M8 29.5h1m3 0h2m2 0h1m1 0h3m2 0h1m1 0h1m1 0h2m3 0h2M0 30.5h7m3 0h1m2 0h1m1 0h2m1 0h1m1 0h1m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m1 0h1m2 0h6m2 0h2m5 0h1m1 0h1m3 0h2m1 0h2M0 32.5h1m1 0h3m1 0h1m1 0h1m2 0h1m2 0h2m2 0h5m1 0h9m1 0h1M0 33.5h1m1 0h3m1 0h1m1 0h4m2 0h4m3 0h1m1 0h3m1 0h4m1 0h1m3 0h1M0 34.5h1m1 0h3m1 0h1m1 0h4m1 0h2m5 0h1m6 0h1m5 0h4M0 35.5h1m5 0h1m3 0h1m1 0h1m3 0h1m1 0h1m2 0h4m1 0h3m1 0h1m1 0h1m3 0h1M0 36.5h7m1 0h3m6 0h1m4 0h1m2 0h2m2 0h1m2 0h5"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_0477570673_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Catwoman #68 : Besch Card Stock Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Tini Howard · Art: Carmine Di Giandomenico · Cover: Rose Besch</div>
+        <div class="meta">Authority ID 0477570673 · Key: Finale to Tini Howard&#39;s Run</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_4090239380_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Detective Comics #1089</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Ram V., Dan Watters · Art: Guillem March, Christopher Mitten · Cover: Evan Cagle</div>
+        <div class="meta">Authority ID 4090239380 · Key: Features Two Stories</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_9449464338_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Deathlok 50th Anniversary Special #1 : Miller Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Justina Ireland, Christopher Priest · Art: Dale Eaglesham, Denys Cowan, Matthew Waite, Luke Ross · Cover: Frank Miller</div>
+        <div class="meta">Authority ID 9449464338 · Key: One-Shot · Features Two Stories</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_5136110762_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate X-Men #11 : Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 3/2025 · 2025</div>
+        <div class="meta">Story: Peach Momoko · Art: Peach Momoko · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 5136110762 · Key: Debut of Ultimate X-Men Costumes</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_6518665500_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">What If…? Galactus Transformed Spider-Gwen? #1</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 3/2025 · 2025</div>
+        <div class="meta">Story: Kalinda Vazquez · Art: Daniel Picciotto · Cover: Ron Lim</div>
+        <div class="meta">Authority ID 6518665500</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_0302344965_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Wonder Woman #17</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 3/2025 · 2025</div>
+        <div class="meta">Story: Tom King · Art: Daniel Sampere · Cover: Daniel Sampere</div>
+        <div class="meta">Authority ID 0302344965 · Key: 4pg Atom Project preview · Aquaman promo · Green Lantern Fractured Spectrum ad</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_1719753034_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Fantastic Four #28 : Marvel Rivals Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 3/2025 · 2025</div>
+        <div class="meta">Story: Ryan North · Art: Steven Cummings · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 1719753034 · Key: One World Under Doom Prologue</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_2191262622_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Power Girl #12 : Hill Card Stock Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 10/2024 · 2024</div>
+        <div class="meta">Story: Leah Williams · Art: Travis Moore · Cover: Chuma Hill</div>
+        <div class="meta">Authority ID 2191262622</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_1251463037_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Wolverine: Revenge #2</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Jonathan Hickman · Art: Greg Capullo · Cover: Greg Capullo</div>
+        <div class="meta">Authority ID 1251463037 · Key: Parental Advisory</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_5475543212_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">X-Men #4 : Campbell Emma Frost Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Jed MacKay · Art: Ryan Stegman · Cover: J. Scott Campbell</div>
+        <div class="meta">Authority ID 5475543212</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_0471278720_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Catwoman #68 : Besch Card Stock Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Tini Howard · Art: Carmine Di Giandomenico · Cover: Rose Besch</div>
+        <div class="meta">Authority ID 0471278720 · Key: Finale to Tini Howard&#39;s Run</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_9234163169_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Wolverine: Revenge #2 : Besch Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Jonathan Hickman · Art: Greg Capullo · Cover: Rose Besch</div>
+        <div class="meta">Authority ID 9234163169 · Key: Parental Advisory</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_4742106011_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate Wolverine #1</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 3/2025 · 2025</div>
+        <div class="meta">Story: Chris Condon · Art: Alessandro Cappuccio · Cover: Alessandro Cappuccio</div>
+        <div class="meta">Authority ID 4742106011</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_2435781019_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate Spider-Man #13</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 3/2025 · 2025</div>
+        <div class="meta">Story: Jonathan Hickman · Art: Marco Checchetto · Cover: Marco Checchetto</div>
+        <div class="meta">Authority ID 2435781019</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/review/?case=comic-bin-14</span>
+    <span>Side 1 of 7</span>
+  </div>
+</section>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Comic Bin #14 (Softslabs)</h1>
+      <div class="sub">97 copies &middot; Comic Bin #14 &middot; printed 2026-09-08</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h37v37H0z"/><path stroke="#000000" d="M0 0.5h7m4 0h3m1 0h3m5 0h3m2 0h1m1 0h7M0 1.5h1m5 0h1m2 0h1m1 0h1m2 0h1m1 0h2m2 0h1m1 0h1m1 0h5m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h2m1 0h1m4 0h1m1 0h1m3 0h2m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h2m1 0h1m2 0h2m2 0h1m1 0h5m3 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h1m1 0h4m1 0h1m1 0h2m1 0h1m2 0h2m3 0h1m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h1m1 0h1m1 0h1m3 0h2m2 0h3m1 0h2m1 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h1m1 0h1m4 0h5m1 0h4m1 0h2M0 8.5h1m1 0h5m2 0h2m3 0h3m7 0h5m1 0h5M0 9.5h1m1 0h1m2 0h1m1 0h4m3 0h2m2 0h1m1 0h1m1 0h2m10 0h2M2 10.5h2m2 0h1m2 0h1m1 0h1m3 0h5m1 0h1m4 0h4m1 0h2m1 0h3M1 11.5h2m2 0h1m1 0h1m1 0h1m3 0h3m3 0h4m1 0h1m2 0h5m4 0h1M0 12.5h1m1 0h2m1 0h2m1 0h3m1 0h1m2 0h1m1 0h1m1 0h1m2 0h4m1 0h1m1 0h2m1 0h1m1 0h3M5 13.5h1m2 0h2m1 0h1m4 0h1m1 0h4m1 0h1m1 0h1m2 0h2m1 0h1M5 14.5h3m2 0h4m1 0h1m2 0h1m1 0h2m3 0h3m1 0h1m1 0h3m2 0h1M1 15.5h2m1 0h2m1 0h1m5 0h1m1 0h2m4 0h2m3 0h1m2 0h1m1 0h2M0 16.5h3m1 0h5m2 0h1m2 0h2m2 0h3m3 0h4m2 0h3m1 0h2M0 17.5h3m1 0h1m2 0h2m1 0h8m4 0h2m1 0h1m2 0h2m1 0h1m1 0h1m1 0h1M1 18.5h1m1 0h1m2 0h1m2 0h2m1 0h3m2 0h1m2 0h1m1 0h1m1 0h5m1 0h2m1 0h4M0 19.5h1m3 0h2m3 0h1m1 0h2m3 0h1m4 0h4m6 0h1m4 0h1M0 20.5h3m2 0h5m1 0h1m4 0h2m7 0h4m1 0h1m1 0h3M2 21.5h1m1 0h1m2 0h2m1 0h2m1 0h1m2 0h6m1 0h1m1 0h1m2 0h1m4 0h1M1 22.5h6m2 0h1m1 0h1m1 0h1m1 0h3m2 0h3m1 0h1m1 0h4m1 0h3m1 0h2M0 23.5h2m1 0h1m6 0h1m6 0h2m1 0h2m2 0h1m1 0h1m1 0h2m1 0h2m2 0h1M0 24.5h2m2 0h4m1 0h1m1 0h2m1 0h3m2 0h1m1 0h1m1 0h8m1 0h1m1 0h2M0 25.5h4m6 0h1m2 0h3m1 0h2m1 0h1m2 0h1m4 0h1m2 0h1M0 26.5h1m1 0h1m2 0h3m5 0h1m1 0h2m2 0h1m2 0h1m2 0h5m1 0h1m3 0h2M0 27.5h1m6 0h4m2 0h3m2 0h5m3 0h2m1 0h2m1 0h1M0 28.5h1m4 0h3m1 0h1m2 0h1m1 0h2m1 0h1m1 0h1m2 0h11m1 0h3M8 29.5h1m3 0h2m2 0h1m1 0h3m2 0h1m1 0h1m1 0h2m3 0h2M0 30.5h7m3 0h1m2 0h1m1 0h2m1 0h1m1 0h1m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m1 0h1m2 0h6m2 0h2m5 0h1m1 0h1m3 0h2m1 0h2M0 32.5h1m1 0h3m1 0h1m1 0h1m2 0h1m2 0h2m2 0h5m1 0h9m1 0h1M0 33.5h1m1 0h3m1 0h1m1 0h4m2 0h4m3 0h1m1 0h3m1 0h4m1 0h1m3 0h1M0 34.5h1m1 0h3m1 0h1m1 0h4m1 0h2m5 0h1m6 0h1m5 0h4M0 35.5h1m5 0h1m3 0h1m1 0h1m3 0h1m1 0h1m2 0h4m1 0h3m1 0h1m1 0h1m3 0h1M0 36.5h7m1 0h3m6 0h1m4 0h1m2 0h2m2 0h1m2 0h5"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_6299079290_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Strange Academy: Moon Knight #1</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 2023-11-01 · 2023</div>
+        <div class="meta">Story: Carlos Hernandez · Art: Julian Shaw · Cover: Nick Bradshaw</div>
+        <div class="meta">Authority ID 6299079290</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_1602965563_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Guardians of the Galaxy #6 : Peach Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 11/2023 · 2023</div>
+        <div class="meta">Story: Jackson Lanzing, Collin Kelly · Art: Kev Walker · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 1602965563</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_4703281641_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Guardians of the Galaxy #6 : Peach Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 11/2023 · 2023</div>
+        <div class="meta">Story: Jackson Lanzing, Collin Kelly · Art: Kev Walker · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 4703281641</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_9248188403_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Venom War #2 : Young Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Al Ewing · Art: Iban Coello · Cover: Skottie Young</div>
+        <div class="meta">Authority ID 9248188403 · Key: Venom War Tie-In</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7633260283_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Detective Comics #400 : Blank Facsimile Edition</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Frank Robbins, Dennis O&#39;Neil · Art: Neal Adams, Gil Kane</div>
+        <div class="meta">Authority ID 7633260283 · Key: Originally Released Apr 30th, 1970 · Features Two Stories</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_1612926433_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Trinity Special: World&#39;s Finest #1 : Ortega Card Stock Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Tom King · Art: Belen Ortega · Cover: Belen Ortega</div>
+        <div class="meta">Authority ID 1612926433 · Key: Features Six Stories · One-Shot</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_6140552943_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Batman #152 : Jones Card Stock Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Chip Zdarsky, Kelly Thompson · Art: Mike Hawthorne, Adriano Di Benedetto, Mattia De Iulis · Cover: Joelle Jones</div>
+        <div class="meta">Authority ID 6140552943 · Key: Absolute Power Tie-In · Features Two Stories</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_6520007258_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Venom War #2 : Young Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Al Ewing · Art: Iban Coello · Cover: Skottie Young</div>
+        <div class="meta">Authority ID 6520007258 · Key: Venom War Tie-In</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_2906721269_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Venom War #2 : Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Al Ewing · Art: Iban Coello · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 2906721269 · Key: Venom War Tie-In</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_0845428595_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Marvel &amp; Disney: What If…? Donald Duck Became Thor #1 : Young Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Steve Behling, Riccardo Secchi · Art: Lorenzo Pastrovicchio · Cover: Skottie Young</div>
+        <div class="meta">Authority ID 0845428595</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7215898203_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Marvel &amp; Disney: What If…? Donald Duck Became Thor #1 : Noto Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Steve Behling, Riccardo Secchi · Art: Lorenzo Pastrovicchio · Cover: Phil Noto</div>
+        <div class="meta">Authority ID 7215898203</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_0287251619_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spider-Boy #11 : Ferry Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Dan Slott · Art: Paco Medina · Cover: Pasqual Ferry</div>
+        <div class="meta">Authority ID 0287251619</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_4725989543_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spider-Boy #11</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Dan Slott · Art: Paco Medina · Cover: Paco Medina</div>
+        <div class="meta">Authority ID 4725989543</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_3225778945_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Kid Venom #2 : Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: TAIGAMI · Art: TAIGAMI · Cover: Salvador Larroca</div>
+        <div class="meta">Authority ID 3225778945</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/review/?case=comic-bin-14</span>
+    <span>Side 2 of 7</span>
+  </div>
+</section>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Comic Bin #14 (Softslabs)</h1>
+      <div class="sub">97 copies &middot; Comic Bin #14 &middot; printed 2026-09-08</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h37v37H0z"/><path stroke="#000000" d="M0 0.5h7m4 0h3m1 0h3m5 0h3m2 0h1m1 0h7M0 1.5h1m5 0h1m2 0h1m1 0h1m2 0h1m1 0h2m2 0h1m1 0h1m1 0h5m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h2m1 0h1m4 0h1m1 0h1m3 0h2m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h2m1 0h1m2 0h2m2 0h1m1 0h5m3 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h1m1 0h4m1 0h1m1 0h2m1 0h1m2 0h2m3 0h1m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h1m1 0h1m1 0h1m3 0h2m2 0h3m1 0h2m1 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h1m1 0h1m4 0h5m1 0h4m1 0h2M0 8.5h1m1 0h5m2 0h2m3 0h3m7 0h5m1 0h5M0 9.5h1m1 0h1m2 0h1m1 0h4m3 0h2m2 0h1m1 0h1m1 0h2m10 0h2M2 10.5h2m2 0h1m2 0h1m1 0h1m3 0h5m1 0h1m4 0h4m1 0h2m1 0h3M1 11.5h2m2 0h1m1 0h1m1 0h1m3 0h3m3 0h4m1 0h1m2 0h5m4 0h1M0 12.5h1m1 0h2m1 0h2m1 0h3m1 0h1m2 0h1m1 0h1m1 0h1m2 0h4m1 0h1m1 0h2m1 0h1m1 0h3M5 13.5h1m2 0h2m1 0h1m4 0h1m1 0h4m1 0h1m1 0h1m2 0h2m1 0h1M5 14.5h3m2 0h4m1 0h1m2 0h1m1 0h2m3 0h3m1 0h1m1 0h3m2 0h1M1 15.5h2m1 0h2m1 0h1m5 0h1m1 0h2m4 0h2m3 0h1m2 0h1m1 0h2M0 16.5h3m1 0h5m2 0h1m2 0h2m2 0h3m3 0h4m2 0h3m1 0h2M0 17.5h3m1 0h1m2 0h2m1 0h8m4 0h2m1 0h1m2 0h2m1 0h1m1 0h1m1 0h1M1 18.5h1m1 0h1m2 0h1m2 0h2m1 0h3m2 0h1m2 0h1m1 0h1m1 0h5m1 0h2m1 0h4M0 19.5h1m3 0h2m3 0h1m1 0h2m3 0h1m4 0h4m6 0h1m4 0h1M0 20.5h3m2 0h5m1 0h1m4 0h2m7 0h4m1 0h1m1 0h3M2 21.5h1m1 0h1m2 0h2m1 0h2m1 0h1m2 0h6m1 0h1m1 0h1m2 0h1m4 0h1M1 22.5h6m2 0h1m1 0h1m1 0h1m1 0h3m2 0h3m1 0h1m1 0h4m1 0h3m1 0h2M0 23.5h2m1 0h1m6 0h1m6 0h2m1 0h2m2 0h1m1 0h1m1 0h2m1 0h2m2 0h1M0 24.5h2m2 0h4m1 0h1m1 0h2m1 0h3m2 0h1m1 0h1m1 0h8m1 0h1m1 0h2M0 25.5h4m6 0h1m2 0h3m1 0h2m1 0h1m2 0h1m4 0h1m2 0h1M0 26.5h1m1 0h1m2 0h3m5 0h1m1 0h2m2 0h1m2 0h1m2 0h5m1 0h1m3 0h2M0 27.5h1m6 0h4m2 0h3m2 0h5m3 0h2m1 0h2m1 0h1M0 28.5h1m4 0h3m1 0h1m2 0h1m1 0h2m1 0h1m1 0h1m2 0h11m1 0h3M8 29.5h1m3 0h2m2 0h1m1 0h3m2 0h1m1 0h1m1 0h2m3 0h2M0 30.5h7m3 0h1m2 0h1m1 0h2m1 0h1m1 0h1m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m1 0h1m2 0h6m2 0h2m5 0h1m1 0h1m3 0h2m1 0h2M0 32.5h1m1 0h3m1 0h1m1 0h1m2 0h1m2 0h2m2 0h5m1 0h9m1 0h1M0 33.5h1m1 0h3m1 0h1m1 0h4m2 0h4m3 0h1m1 0h3m1 0h4m1 0h1m3 0h1M0 34.5h1m1 0h3m1 0h1m1 0h4m1 0h2m5 0h1m6 0h1m5 0h4M0 35.5h1m5 0h1m3 0h1m1 0h1m3 0h1m1 0h1m2 0h4m1 0h3m1 0h1m1 0h1m3 0h1M0 36.5h7m1 0h3m6 0h1m4 0h1m2 0h2m2 0h1m2 0h5"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_4845360792_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">The Immortal Thor #15 : Villalobos Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Al Ewing · Art: Jan Bazaldua · Cover: Pablo Villalobos</div>
+        <div class="meta">Authority ID 4845360792</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_2556429102_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Power Girl #12 : Segovia Card Stock Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 10/2024 · 2024</div>
+        <div class="meta">Story: Leah Williams · Art: Travis Moore · Cover: Stephen Segovia</div>
+        <div class="meta">Authority ID 2556429102</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_1787185948_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">NYX #1 : Artgerm Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 09/2024 · 2024</div>
+        <div class="meta">Story: Collin Kelly · Art: Francesco Mortarino · Cover: Stanley Lau</div>
+        <div class="meta">Authority ID 1787185948</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_4036518340_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Batman #152 : March Card Stock Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Chip Zdarsky, Kelly Thompson · Art: Mike Hawthorne, Adriano Di Benedetto, Mattia De Iulis · Cover: Guillem March</div>
+        <div class="meta">Authority ID 4036518340 · Key: Absolute Power Tie-In · Features Two Stories</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_4841253705_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Wolverine #1 : Adamantium Head &quot;V&quot; Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Saladin Ahmed · Art: Martin Coccolo · Cover: Patrick Gleason</div>
+        <div class="meta">Authority ID 4841253705 · Key: Parental Advisory</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_5020777607_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Wolverine #1 : Adamantium Head Foil Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Saladin Ahmed · Art: Martin Coccolo · Cover: Patrick Gleason</div>
+        <div class="meta">Authority ID 5020777607 · Key: Parental Advisory</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_0034476645_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Wolverine #1 : Adamantium Head Foil Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Saladin Ahmed · Art: Martin Coccolo · Cover: Patrick Gleason</div>
+        <div class="meta">Authority ID 0034476645 · Key: Parental Advisory</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_8641480131_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">The Amazing Spider-Man #47 : Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 6/2024 · 2022</div>
+        <div class="meta">Story: Zeb Wells · Art: Todd Nauck · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 8641480131</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_1658094494_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spider-Gwen: The Ghost-Spider #2 : Villalobos Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 8/1/2024</div>
+        <div class="meta">Story: Stephanie Phillips · Art: Federica Mancin · Cover: Pablo Villalobos</div>
+        <div class="meta">Authority ID 1658094494</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7968227093_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ms. Marvel: Mutant Menace #3 : Peach Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 07/2024 · 2024</div>
+        <div class="meta">Story: Iman Vellani, Sabir Pirzada · Art: Scott Godlewski · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 7968227093</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_5638527647_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate X-Men #3 : Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 7/2024 · 2024</div>
+        <div class="meta">Story: Peach Momoko · Art: Peach Momoko · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 5638527647 · Key: Origin of Maystorm</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_1026812613_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate X-Men #3</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 7/2024 · 2024</div>
+        <div class="meta">Story: Peach Momoko · Art: Peach Momoko · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 1026812613 · Key: Origin of Maystorm</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_8231851673_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">The Amazing Spider-Man #49</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 7/2024 · 2022</div>
+        <div class="meta">Story: Zeb Wells · Art: John Romita Jr. · Cover: John Romita Jr.</div>
+        <div class="meta">Authority ID 8231851673 · Key: Blood Hunt Tie-In</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7600118770_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ms. Marvel: Mutant Menace #2 : Peach Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 06/2024 · 2024</div>
+        <div class="meta">Story: Iman Vellani, Sabir Pirzada · Art: Scott Godlewski · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 7600118770</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/review/?case=comic-bin-14</span>
+    <span>Side 3 of 7</span>
+  </div>
+</section>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Comic Bin #14 (Softslabs)</h1>
+      <div class="sub">97 copies &middot; Comic Bin #14 &middot; printed 2026-09-08</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h37v37H0z"/><path stroke="#000000" d="M0 0.5h7m4 0h3m1 0h3m5 0h3m2 0h1m1 0h7M0 1.5h1m5 0h1m2 0h1m1 0h1m2 0h1m1 0h2m2 0h1m1 0h1m1 0h5m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h2m1 0h1m4 0h1m1 0h1m3 0h2m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h2m1 0h1m2 0h2m2 0h1m1 0h5m3 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h1m1 0h4m1 0h1m1 0h2m1 0h1m2 0h2m3 0h1m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h1m1 0h1m1 0h1m3 0h2m2 0h3m1 0h2m1 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h1m1 0h1m4 0h5m1 0h4m1 0h2M0 8.5h1m1 0h5m2 0h2m3 0h3m7 0h5m1 0h5M0 9.5h1m1 0h1m2 0h1m1 0h4m3 0h2m2 0h1m1 0h1m1 0h2m10 0h2M2 10.5h2m2 0h1m2 0h1m1 0h1m3 0h5m1 0h1m4 0h4m1 0h2m1 0h3M1 11.5h2m2 0h1m1 0h1m1 0h1m3 0h3m3 0h4m1 0h1m2 0h5m4 0h1M0 12.5h1m1 0h2m1 0h2m1 0h3m1 0h1m2 0h1m1 0h1m1 0h1m2 0h4m1 0h1m1 0h2m1 0h1m1 0h3M5 13.5h1m2 0h2m1 0h1m4 0h1m1 0h4m1 0h1m1 0h1m2 0h2m1 0h1M5 14.5h3m2 0h4m1 0h1m2 0h1m1 0h2m3 0h3m1 0h1m1 0h3m2 0h1M1 15.5h2m1 0h2m1 0h1m5 0h1m1 0h2m4 0h2m3 0h1m2 0h1m1 0h2M0 16.5h3m1 0h5m2 0h1m2 0h2m2 0h3m3 0h4m2 0h3m1 0h2M0 17.5h3m1 0h1m2 0h2m1 0h8m4 0h2m1 0h1m2 0h2m1 0h1m1 0h1m1 0h1M1 18.5h1m1 0h1m2 0h1m2 0h2m1 0h3m2 0h1m2 0h1m1 0h1m1 0h5m1 0h2m1 0h4M0 19.5h1m3 0h2m3 0h1m1 0h2m3 0h1m4 0h4m6 0h1m4 0h1M0 20.5h3m2 0h5m1 0h1m4 0h2m7 0h4m1 0h1m1 0h3M2 21.5h1m1 0h1m2 0h2m1 0h2m1 0h1m2 0h6m1 0h1m1 0h1m2 0h1m4 0h1M1 22.5h6m2 0h1m1 0h1m1 0h1m1 0h3m2 0h3m1 0h1m1 0h4m1 0h3m1 0h2M0 23.5h2m1 0h1m6 0h1m6 0h2m1 0h2m2 0h1m1 0h1m1 0h2m1 0h2m2 0h1M0 24.5h2m2 0h4m1 0h1m1 0h2m1 0h3m2 0h1m1 0h1m1 0h8m1 0h1m1 0h2M0 25.5h4m6 0h1m2 0h3m1 0h2m1 0h1m2 0h1m4 0h1m2 0h1M0 26.5h1m1 0h1m2 0h3m5 0h1m1 0h2m2 0h1m2 0h1m2 0h5m1 0h1m3 0h2M0 27.5h1m6 0h4m2 0h3m2 0h5m3 0h2m1 0h2m1 0h1M0 28.5h1m4 0h3m1 0h1m2 0h1m1 0h2m1 0h1m1 0h1m2 0h11m1 0h3M8 29.5h1m3 0h2m2 0h1m1 0h3m2 0h1m1 0h1m1 0h2m3 0h2M0 30.5h7m3 0h1m2 0h1m1 0h2m1 0h1m1 0h1m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m1 0h1m2 0h6m2 0h2m5 0h1m1 0h1m3 0h2m1 0h2M0 32.5h1m1 0h3m1 0h1m1 0h1m2 0h1m2 0h2m2 0h5m1 0h9m1 0h1M0 33.5h1m1 0h3m1 0h1m1 0h4m2 0h4m3 0h1m1 0h3m1 0h4m1 0h1m3 0h1M0 34.5h1m1 0h3m1 0h1m1 0h4m1 0h2m5 0h1m6 0h1m5 0h4M0 35.5h1m5 0h1m3 0h1m1 0h1m3 0h1m1 0h1m2 0h4m1 0h3m1 0h1m1 0h1m3 0h1M0 36.5h7m1 0h3m6 0h1m4 0h1m2 0h2m2 0h1m2 0h5"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_6729153984_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spider-Woman #7 : Peach Momoko Black Costume Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 07/2024 · 2024</div>
+        <div class="meta">Story: Steve Foxe · Art: Stephanie Hans · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 6729153984</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_1886089226_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spider-Woman #7 : Peach Momoko Black Costume Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 07/2024 · 2024</div>
+        <div class="meta">Story: Steve Foxe · Art: Stephanie Hans · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 1886089226</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_0636835348_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate X-Men #2 : Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 6/2024 · 2024</div>
+        <div class="meta">Story: Peach Momoko · Art: Peach Momoko · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 0636835348</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7048492185_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate X-Men #2 : Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 6/2024 · 2024</div>
+        <div class="meta">Story: Peach Momoko · Art: Peach Momoko · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 7048492185</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_9132445350_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">The Amazing Spider-Man #48 : Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 6/2024 · 2022</div>
+        <div class="meta">Story: Zeb Wells · Art: Todd Nauck · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 9132445350</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_1472563751_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Miles Morales: Spider-Man #19 : Luciano Vecchio Vampire Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 06/2024 · 2024</div>
+        <div class="meta">Story: Cody Ziglar · Art: Federico Vicentini · Cover: Luciano Vecchio</div>
+        <div class="meta">Authority ID 1472563751</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_9132587804_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">What If...?: Venom #3 : Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 6/2024 · 2024</div>
+        <div class="meta">Story: Jeremy Holt · Art: Manuel Garcia · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 9132587804</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_3726557838_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spider-Boy #6 : Peach Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 06/2024 · 2024</div>
+        <div class="meta">Story: Dan Slott · Art: Various · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 3726557838</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_4212643688_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Avengers: Twilight #5 : Alex Ross Cover</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 6/2024 · 2024</div>
+        <div class="meta">Story: Chip Zdarsky · Art: Daniel Acuna · Cover: Alex Ross</div>
+        <div class="meta">Authority ID 4212643688</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_6993197539_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Fall of the House of X #4 : Gist Emma Frost Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 6/2024 · 2024</div>
+        <div class="meta">Story: Gerry Duggan · Art: Lucas Werneck · Cover: E.M. Gist</div>
+        <div class="meta">Authority ID 6993197539 · Key: Fall of the House of X Tie-In</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_4678037807_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spider-Punk: Arms Race #3 : Dan Hipp Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 06/2024 · 2024</div>
+        <div class="meta">Story: Cody Ziglar · Art: Justin Mason · Cover: Dan Hipp</div>
+        <div class="meta">Authority ID 4678037807</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_2005465849_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Venom #32 : Besch Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 6/2024 · 2024</div>
+        <div class="meta">Story: Torunn Gronbekk · Art: Ken Lashley · Cover: Rose Besch</div>
+        <div class="meta">Authority ID 2005465849</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7512994570_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Miles Morales: Spider-Man #18 : David Marquez Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 05/2024 · 2024</div>
+        <div class="meta">Story: Cody Ziglar · Art: Various · Cover: David Marquez</div>
+        <div class="meta">Authority ID 7512994570</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7073308967_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Blood Hunt #1 : Peach Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 07/2024 · 2024</div>
+        <div class="meta">Story: Jed MacKay · Art: Pepe Larraz · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 7073308967</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/review/?case=comic-bin-14</span>
+    <span>Side 4 of 7</span>
+  </div>
+</section>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Comic Bin #14 (Softslabs)</h1>
+      <div class="sub">97 copies &middot; Comic Bin #14 &middot; printed 2026-09-08</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h37v37H0z"/><path stroke="#000000" d="M0 0.5h7m4 0h3m1 0h3m5 0h3m2 0h1m1 0h7M0 1.5h1m5 0h1m2 0h1m1 0h1m2 0h1m1 0h2m2 0h1m1 0h1m1 0h5m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h2m1 0h1m4 0h1m1 0h1m3 0h2m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h2m1 0h1m2 0h2m2 0h1m1 0h5m3 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h1m1 0h4m1 0h1m1 0h2m1 0h1m2 0h2m3 0h1m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h1m1 0h1m1 0h1m3 0h2m2 0h3m1 0h2m1 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h1m1 0h1m4 0h5m1 0h4m1 0h2M0 8.5h1m1 0h5m2 0h2m3 0h3m7 0h5m1 0h5M0 9.5h1m1 0h1m2 0h1m1 0h4m3 0h2m2 0h1m1 0h1m1 0h2m10 0h2M2 10.5h2m2 0h1m2 0h1m1 0h1m3 0h5m1 0h1m4 0h4m1 0h2m1 0h3M1 11.5h2m2 0h1m1 0h1m1 0h1m3 0h3m3 0h4m1 0h1m2 0h5m4 0h1M0 12.5h1m1 0h2m1 0h2m1 0h3m1 0h1m2 0h1m1 0h1m1 0h1m2 0h4m1 0h1m1 0h2m1 0h1m1 0h3M5 13.5h1m2 0h2m1 0h1m4 0h1m1 0h4m1 0h1m1 0h1m2 0h2m1 0h1M5 14.5h3m2 0h4m1 0h1m2 0h1m1 0h2m3 0h3m1 0h1m1 0h3m2 0h1M1 15.5h2m1 0h2m1 0h1m5 0h1m1 0h2m4 0h2m3 0h1m2 0h1m1 0h2M0 16.5h3m1 0h5m2 0h1m2 0h2m2 0h3m3 0h4m2 0h3m1 0h2M0 17.5h3m1 0h1m2 0h2m1 0h8m4 0h2m1 0h1m2 0h2m1 0h1m1 0h1m1 0h1M1 18.5h1m1 0h1m2 0h1m2 0h2m1 0h3m2 0h1m2 0h1m1 0h1m1 0h5m1 0h2m1 0h4M0 19.5h1m3 0h2m3 0h1m1 0h2m3 0h1m4 0h4m6 0h1m4 0h1M0 20.5h3m2 0h5m1 0h1m4 0h2m7 0h4m1 0h1m1 0h3M2 21.5h1m1 0h1m2 0h2m1 0h2m1 0h1m2 0h6m1 0h1m1 0h1m2 0h1m4 0h1M1 22.5h6m2 0h1m1 0h1m1 0h1m1 0h3m2 0h3m1 0h1m1 0h4m1 0h3m1 0h2M0 23.5h2m1 0h1m6 0h1m6 0h2m1 0h2m2 0h1m1 0h1m1 0h2m1 0h2m2 0h1M0 24.5h2m2 0h4m1 0h1m1 0h2m1 0h3m2 0h1m1 0h1m1 0h8m1 0h1m1 0h2M0 25.5h4m6 0h1m2 0h3m1 0h2m1 0h1m2 0h1m4 0h1m2 0h1M0 26.5h1m1 0h1m2 0h3m5 0h1m1 0h2m2 0h1m2 0h1m2 0h5m1 0h1m3 0h2M0 27.5h1m6 0h4m2 0h3m2 0h5m3 0h2m1 0h2m1 0h1M0 28.5h1m4 0h3m1 0h1m2 0h1m1 0h2m1 0h1m1 0h1m2 0h11m1 0h3M8 29.5h1m3 0h2m2 0h1m1 0h3m2 0h1m1 0h1m1 0h2m3 0h2M0 30.5h7m3 0h1m2 0h1m1 0h2m1 0h1m1 0h1m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m1 0h1m2 0h6m2 0h2m5 0h1m1 0h1m3 0h2m1 0h2M0 32.5h1m1 0h3m1 0h1m1 0h1m2 0h1m2 0h2m2 0h5m1 0h9m1 0h1M0 33.5h1m1 0h3m1 0h1m1 0h4m2 0h4m3 0h1m1 0h3m1 0h4m1 0h1m3 0h1M0 34.5h1m1 0h3m1 0h1m1 0h4m1 0h2m5 0h1m6 0h1m5 0h4M0 35.5h1m5 0h1m3 0h1m1 0h1m3 0h1m1 0h1m2 0h4m1 0h3m1 0h1m1 0h1m3 0h1M0 36.5h7m1 0h3m6 0h1m4 0h1m2 0h2m2 0h1m2 0h5"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_8796605910_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">From The DC Vault: The Sandman #19 : Remastered Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 6/2024 · 2024</div>
+        <div class="meta">Story: Neil Gaiman · Art: Charles Vess · Cover: Charles Vess</div>
+        <div class="meta">Authority ID 8796605910 · Key: Mature Rating</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_3627194745_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate X-Men #3 : Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 7/2024 · 2024</div>
+        <div class="meta">Story: Peach Momoko · Art: Peach Momoko · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 3627194745 · Key: Origin of Maystorm</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_6949322017_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Edge of Spider-Verse #3 : Chad Hardin Cover</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 6/2024 · 2024</div>
+        <div class="meta">Story: Justina Ireland, Steve Foxe · Art: Kei Zama, Pete Woods · Cover: Chad Hardin</div>
+        <div class="meta">Authority ID 6949322017</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_2378585436_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ms. Marvel: Mutant Menace #3 : Peach Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 07/2024 · 2024</div>
+        <div class="meta">Story: Iman Vellani, Sabir Pirzada · Art: Scott Godlewski · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 2378585436</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_5133388234_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spider-Gwen: The Ghost-Spider #2</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 8/1/2024</div>
+        <div class="meta">Story: Stephanie Phillips · Art: Federica Mancin · Cover: Mark Brooks</div>
+        <div class="meta">Authority ID 5133388234</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_5131586049_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spider-Gwen: The Ghost-Spider #2 : Hetrick Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 8/1/2024</div>
+        <div class="meta">Story: Stephanie Phillips · Art: Federica Mancin · Cover: Meghan Hetrick</div>
+        <div class="meta">Authority ID 5131586049</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_6727328581_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Deadpool #1 : Facsimile Edition</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 9/2024 · 2024</div>
+        <div class="meta">Story: Joe Kelly · Art: Ed McGuinness · Cover: Ed McGuinness</div>
+        <div class="meta">Authority ID 6727328581 · Key: Originally Released Nov 27th, 1996 · Wraparound Cover</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_8157740009_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spider-Gwen: The Ghost-Spider #2 : Black Costume Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 8/1/2024</div>
+        <div class="meta">Story: Stephanie Phillips · Art: Federica Mancin · Cover: Stephanie Hans</div>
+        <div class="meta">Authority ID 8157740009</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_4243472249_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Edge of Spider-Verse #3 : Peach Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 6/2024 · 2024</div>
+        <div class="meta">Story: Justina Ireland, Steve Foxe · Art: Kei Zama, Pete Woods · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 4243472249</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_9678305299_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate Universe/Spider-Man #1 : 2024 Free Comic Book Day</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 6/2024 · 2024</div>
+        <div class="meta">Story: Deniz Camp · Art: JuanFrigeri · Cover: Ryan Stegman</div>
+        <div class="meta">Authority ID 9678305299 · Key: Features Three Stories</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_6417946130_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">The Amazing Spider-Man #50 : Ed McGuinness Cover</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 07/2024 · 2024</div>
+        <div class="meta">Story: Various · Art: Various · Cover: Ed McGuinness</div>
+        <div class="meta">Authority ID 6417946130 · Key: Next issue cover preview · Bonus Digital Code · Letter column</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_2845328237_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">The Avengers Annual #10 : Facsimile Edition 2024</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 7/2024</div>
+        <div class="meta">Story: Chris Claremont · Art: Michael Golden · Cover: Al Milgrom</div>
+        <div class="meta">Authority ID 2845328237 · Key: Originally Released Jul 14th, 1981</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_6159409171_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Hellverine #1 : Skottie Young Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 07/2024 · 2024</div>
+        <div class="meta">Story: Benjamin Percy · Art: Julius Ohta · Cover: Skottie Young</div>
+        <div class="meta">Authority ID 6159409171</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_4548896419_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Power Girl #9 : David Talaski Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 07/2024 · 2024</div>
+        <div class="meta">Story: Leah Williams · Art: Eduardo Pansica · Cover: David Talaski</div>
+        <div class="meta">Authority ID 4548896419</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/review/?case=comic-bin-14</span>
+    <span>Side 5 of 7</span>
+  </div>
+</section>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Comic Bin #14 (Softslabs)</h1>
+      <div class="sub">97 copies &middot; Comic Bin #14 &middot; printed 2026-09-08</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h37v37H0z"/><path stroke="#000000" d="M0 0.5h7m4 0h3m1 0h3m5 0h3m2 0h1m1 0h7M0 1.5h1m5 0h1m2 0h1m1 0h1m2 0h1m1 0h2m2 0h1m1 0h1m1 0h5m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h2m1 0h1m4 0h1m1 0h1m3 0h2m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h2m1 0h1m2 0h2m2 0h1m1 0h5m3 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h1m1 0h4m1 0h1m1 0h2m1 0h1m2 0h2m3 0h1m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h1m1 0h1m1 0h1m3 0h2m2 0h3m1 0h2m1 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h1m1 0h1m4 0h5m1 0h4m1 0h2M0 8.5h1m1 0h5m2 0h2m3 0h3m7 0h5m1 0h5M0 9.5h1m1 0h1m2 0h1m1 0h4m3 0h2m2 0h1m1 0h1m1 0h2m10 0h2M2 10.5h2m2 0h1m2 0h1m1 0h1m3 0h5m1 0h1m4 0h4m1 0h2m1 0h3M1 11.5h2m2 0h1m1 0h1m1 0h1m3 0h3m3 0h4m1 0h1m2 0h5m4 0h1M0 12.5h1m1 0h2m1 0h2m1 0h3m1 0h1m2 0h1m1 0h1m1 0h1m2 0h4m1 0h1m1 0h2m1 0h1m1 0h3M5 13.5h1m2 0h2m1 0h1m4 0h1m1 0h4m1 0h1m1 0h1m2 0h2m1 0h1M5 14.5h3m2 0h4m1 0h1m2 0h1m1 0h2m3 0h3m1 0h1m1 0h3m2 0h1M1 15.5h2m1 0h2m1 0h1m5 0h1m1 0h2m4 0h2m3 0h1m2 0h1m1 0h2M0 16.5h3m1 0h5m2 0h1m2 0h2m2 0h3m3 0h4m2 0h3m1 0h2M0 17.5h3m1 0h1m2 0h2m1 0h8m4 0h2m1 0h1m2 0h2m1 0h1m1 0h1m1 0h1M1 18.5h1m1 0h1m2 0h1m2 0h2m1 0h3m2 0h1m2 0h1m1 0h1m1 0h5m1 0h2m1 0h4M0 19.5h1m3 0h2m3 0h1m1 0h2m3 0h1m4 0h4m6 0h1m4 0h1M0 20.5h3m2 0h5m1 0h1m4 0h2m7 0h4m1 0h1m1 0h3M2 21.5h1m1 0h1m2 0h2m1 0h2m1 0h1m2 0h6m1 0h1m1 0h1m2 0h1m4 0h1M1 22.5h6m2 0h1m1 0h1m1 0h1m1 0h3m2 0h3m1 0h1m1 0h4m1 0h3m1 0h2M0 23.5h2m1 0h1m6 0h1m6 0h2m1 0h2m2 0h1m1 0h1m1 0h2m1 0h2m2 0h1M0 24.5h2m2 0h4m1 0h1m1 0h2m1 0h3m2 0h1m1 0h1m1 0h8m1 0h1m1 0h2M0 25.5h4m6 0h1m2 0h3m1 0h2m1 0h1m2 0h1m4 0h1m2 0h1M0 26.5h1m1 0h1m2 0h3m5 0h1m1 0h2m2 0h1m2 0h1m2 0h5m1 0h1m3 0h2M0 27.5h1m6 0h4m2 0h3m2 0h5m3 0h2m1 0h2m1 0h1M0 28.5h1m4 0h3m1 0h1m2 0h1m1 0h2m1 0h1m1 0h1m2 0h11m1 0h3M8 29.5h1m3 0h2m2 0h1m1 0h3m2 0h1m1 0h1m1 0h2m3 0h2M0 30.5h7m3 0h1m2 0h1m1 0h2m1 0h1m1 0h1m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m1 0h1m2 0h6m2 0h2m5 0h1m1 0h1m3 0h2m1 0h2M0 32.5h1m1 0h3m1 0h1m1 0h1m2 0h1m2 0h2m2 0h5m1 0h9m1 0h1M0 33.5h1m1 0h3m1 0h1m1 0h4m2 0h4m3 0h1m1 0h3m1 0h4m1 0h1m3 0h1M0 34.5h1m1 0h3m1 0h1m1 0h4m1 0h2m5 0h1m6 0h1m5 0h4M0 35.5h1m5 0h1m3 0h1m1 0h1m3 0h1m1 0h1m2 0h4m1 0h3m1 0h1m1 0h1m3 0h1M0 36.5h7m1 0h3m6 0h1m4 0h1m2 0h2m2 0h1m2 0h5"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_2676719519_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">X-Men &#39;97 #3 : Marvel Masterpieces III &quot;V&quot; Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 7/2024</div>
+        <div class="meta">Story: Steve Foxe · Art: Salva Espin · Cover: Greg Hildebrandt, Tim Hildebrandt</div>
+        <div class="meta">Authority ID 2676719519</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7962755161_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spider-Boy #7 : Rahzzah Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 07/2024 · 2024</div>
+        <div class="meta">Story: Dan Slott · Art: Paco Medina · Cover: Rahzzah</div>
+        <div class="meta">Authority ID 7962755161</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_8320705949_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate Spider-Man #5 : Romero Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 7/2024 · 2024</div>
+        <div class="meta">Story: Jonathan Hickman · Art: Marco Checchetto · Cover: Leonardo Romero</div>
+        <div class="meta">Authority ID 8320705949</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_0392376426_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Batman and Robin #10 : Gleb Melnikov Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 8/2024 · 2024</div>
+        <div class="meta">Story: Joshua Williamson · Art: Simone Di Meo · Cover: Gleb Melnikov</div>
+        <div class="meta">Authority ID 0392376426</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_4349869229_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Uncle Scrooge and the Infinity Dime #1</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 8/2024 · 2024</div>
+        <div class="meta">Story: Jason Aaron · Art: Paolo Mottura · Cover: Alex Ross</div>
+        <div class="meta">Authority ID 4349869229 · Key: Features Six Stories</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_1447642178_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate X-Men #4</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 8/2024 · 2024</div>
+        <div class="meta">Story: Peach Momoko · Art: Peach Momoko · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 1447642178</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_8601857068_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Uncle Scrooge and the Infinity Dime #1 : Miller Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 8/2024</div>
+        <div class="meta">Story: Jason Aaron · Art: Giada Perissinotto · Cover: Frank Miller</div>
+        <div class="meta">Authority ID 8601857068 · Key: Features Six Stories</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_9582191741_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Blood Hunt #3 : Gabriele Dell&#39;Otto Connecting Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 08/2024 · 2024</div>
+        <div class="meta">Story: Jed MacKay · Art: Pepe Larraz · Cover: Gabriele Dell&#39;Otto</div>
+        <div class="meta">Authority ID 9582191741</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_1585442390_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Power Girl #9 : David Talaski Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 07/2024 · 2024</div>
+        <div class="meta">Story: Leah Williams · Art: Eduardo Pansica · Cover: David Talaski</div>
+        <div class="meta">Authority ID 1585442390</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_3286879755_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Blood Hunt #2 : Gabriele Dell&#39;Otto Connecting Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 07/2024 · 2024</div>
+        <div class="meta">Story: Jed MacKay · Art: Pepe Larraz · Cover: Gabriele Dell&#39;Otto</div>
+        <div class="meta">Authority ID 3286879755</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_0985015717_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate Spider-Man #6 : Marquez Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 8/2024 · 2024</div>
+        <div class="meta">Story: Jonathan Hickman · Art: Marco Checchetto · Cover: David Marquez</div>
+        <div class="meta">Authority ID 0985015717</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_6979536235_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate Spider-Man #6</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 8/2024 · 2024</div>
+        <div class="meta">Story: Jonathan Hickman · Art: Marco Checchetto · Cover: Marco Checchetto</div>
+        <div class="meta">Authority ID 6979536235</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_5355290373_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Uncle Scrooge and the Infinity Dime #1 : Young Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 8/2024</div>
+        <div class="meta">Story: Jason Aaron · Art: Giada Perissinotto · Cover: Skottie Young</div>
+        <div class="meta">Authority ID 5355290373 · Key: Intro of the Scrooge Above All</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_5503132028_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Uncle Scrooge and the Infinity Dime #1 : Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 8/2024 · 2024</div>
+        <div class="meta">Story: Jason Aaron · Art: Carl Barks · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 5503132028 · Key: Features Six Stories</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/review/?case=comic-bin-14</span>
+    <span>Side 6 of 7</span>
+  </div>
+</section>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Comic Bin #14 (Softslabs)</h1>
+      <div class="sub">97 copies &middot; Comic Bin #14 &middot; printed 2026-09-08</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h37v37H0z"/><path stroke="#000000" d="M0 0.5h7m4 0h3m1 0h3m5 0h3m2 0h1m1 0h7M0 1.5h1m5 0h1m2 0h1m1 0h1m2 0h1m1 0h2m2 0h1m1 0h1m1 0h5m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h2m1 0h1m4 0h1m1 0h1m3 0h2m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h2m1 0h1m2 0h2m2 0h1m1 0h5m3 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h1m1 0h4m1 0h1m1 0h2m1 0h1m2 0h2m3 0h1m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h1m1 0h1m1 0h1m3 0h2m2 0h3m1 0h2m1 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h1m1 0h1m4 0h5m1 0h4m1 0h2M0 8.5h1m1 0h5m2 0h2m3 0h3m7 0h5m1 0h5M0 9.5h1m1 0h1m2 0h1m1 0h4m3 0h2m2 0h1m1 0h1m1 0h2m10 0h2M2 10.5h2m2 0h1m2 0h1m1 0h1m3 0h5m1 0h1m4 0h4m1 0h2m1 0h3M1 11.5h2m2 0h1m1 0h1m1 0h1m3 0h3m3 0h4m1 0h1m2 0h5m4 0h1M0 12.5h1m1 0h2m1 0h2m1 0h3m1 0h1m2 0h1m1 0h1m1 0h1m2 0h4m1 0h1m1 0h2m1 0h1m1 0h3M5 13.5h1m2 0h2m1 0h1m4 0h1m1 0h4m1 0h1m1 0h1m2 0h2m1 0h1M5 14.5h3m2 0h4m1 0h1m2 0h1m1 0h2m3 0h3m1 0h1m1 0h3m2 0h1M1 15.5h2m1 0h2m1 0h1m5 0h1m1 0h2m4 0h2m3 0h1m2 0h1m1 0h2M0 16.5h3m1 0h5m2 0h1m2 0h2m2 0h3m3 0h4m2 0h3m1 0h2M0 17.5h3m1 0h1m2 0h2m1 0h8m4 0h2m1 0h1m2 0h2m1 0h1m1 0h1m1 0h1M1 18.5h1m1 0h1m2 0h1m2 0h2m1 0h3m2 0h1m2 0h1m1 0h1m1 0h5m1 0h2m1 0h4M0 19.5h1m3 0h2m3 0h1m1 0h2m3 0h1m4 0h4m6 0h1m4 0h1M0 20.5h3m2 0h5m1 0h1m4 0h2m7 0h4m1 0h1m1 0h3M2 21.5h1m1 0h1m2 0h2m1 0h2m1 0h1m2 0h6m1 0h1m1 0h1m2 0h1m4 0h1M1 22.5h6m2 0h1m1 0h1m1 0h1m1 0h3m2 0h3m1 0h1m1 0h4m1 0h3m1 0h2M0 23.5h2m1 0h1m6 0h1m6 0h2m1 0h2m2 0h1m1 0h1m1 0h2m1 0h2m2 0h1M0 24.5h2m2 0h4m1 0h1m1 0h2m1 0h3m2 0h1m1 0h1m1 0h8m1 0h1m1 0h2M0 25.5h4m6 0h1m2 0h3m1 0h2m1 0h1m2 0h1m4 0h1m2 0h1M0 26.5h1m1 0h1m2 0h3m5 0h1m1 0h2m2 0h1m2 0h1m2 0h5m1 0h1m3 0h2M0 27.5h1m6 0h4m2 0h3m2 0h5m3 0h2m1 0h2m1 0h1M0 28.5h1m4 0h3m1 0h1m2 0h1m1 0h2m1 0h1m1 0h1m2 0h11m1 0h3M8 29.5h1m3 0h2m2 0h1m1 0h3m2 0h1m1 0h1m1 0h2m3 0h2M0 30.5h7m3 0h1m2 0h1m1 0h2m1 0h1m1 0h1m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m1 0h1m2 0h6m2 0h2m5 0h1m1 0h1m3 0h2m1 0h2M0 32.5h1m1 0h3m1 0h1m1 0h1m2 0h1m2 0h2m2 0h5m1 0h9m1 0h1M0 33.5h1m1 0h3m1 0h1m1 0h4m2 0h4m3 0h1m1 0h3m1 0h4m1 0h1m3 0h1M0 34.5h1m1 0h3m1 0h1m1 0h4m1 0h2m5 0h1m6 0h1m5 0h4M0 35.5h1m5 0h1m3 0h1m1 0h1m3 0h1m1 0h1m2 0h4m1 0h3m1 0h1m1 0h1m3 0h1M0 36.5h7m1 0h3m6 0h1m4 0h1m2 0h2m2 0h1m2 0h5"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_2828519294_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">NYX #1 : Yagawa Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 09/2024 · 2024</div>
+        <div class="meta">Story: Collin Kelly · Art: Francesco Mortarino · Cover: Rickie Yagawa</div>
+        <div class="meta">Authority ID 2828519294</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_8487041626_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate X-Men #5</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 09/2024 · 2024</div>
+        <div class="meta">Story: Peach Momoko · Art: Peach Momoko · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 8487041626</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_4762415178_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spider-Gwen: The Ghost-Spider #3</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 9/2024 · 2024</div>
+        <div class="meta">Story: Stephanie Phillips · Art: Federica Mancin · Cover: Mark Brooks</div>
+        <div class="meta">Authority ID 4762415178 · Key: Features Two Stories</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7504279545_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">NYX #1 : Villalobos Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 09/2024 · 2024</div>
+        <div class="meta">Story: Collin Kelly · Art: Francesco Mortarino · Cover: Pablo Villalobos</div>
+        <div class="meta">Authority ID 7504279545</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_0872865980_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">NYX #1</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 09/2024 · 2024</div>
+        <div class="meta">Story: Collin Kelly · Art: Francesco Mortarino · Cover: Sara Pichelli</div>
+        <div class="meta">Authority ID 0872865980</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7271473346_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">NYX #1 : Antônio Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 09/2024 · 2024</div>
+        <div class="meta">Story: Collin Kelly · Art: Francesco Mortarino · Cover: Rogê Antônio</div>
+        <div class="meta">Authority ID 7271473346</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_6205705382_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">NYX #1 : Antônio Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 09/2024 · 2024</div>
+        <div class="meta">Story: Collin Kelly · Art: Francesco Mortarino · Cover: Rogê Antônio</div>
+        <div class="meta">Authority ID 6205705382</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_2720816121_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate X-Men #5 : Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 09/2024 · 2024</div>
+        <div class="meta">Story: Peach Momoko · Art: Peach Momoko · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 2720816121</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_5906267782_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Icon vs. Hardware #1 : Rahzzah Cover</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 04/2023 · 2023</div>
+        <div class="meta">Story: Reginald Hudlin, Leon Chills · Art: Yasmin Flores Montanez, Denys Cowan · Cover: Rahzzah</div>
+        <div class="meta">Authority ID 5906267782</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_1330144913_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spider-Boy #2 : Humberto Ramos Ski Chalet Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 02/2024 · 2023</div>
+        <div class="meta">Story: Dan Slott · Art: Paco Medina, Ty Templeton · Cover: Humberto Ramos</div>
+        <div class="meta">Authority ID 1330144913</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_4003077415_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">G.O.D.S. #1 : Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 2023-12-01 · 2023</div>
+        <div class="meta">Story: Jonathan Hickman · Art: Valerio Schiti · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 4003077415</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_5798918434_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Wonder Woman #17 : Mike Del Mundo Card Stock  Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 3/2025 · 2025</div>
+        <div class="meta">Story: Tom King · Art: Daniel Sampere · Cover: Mike Del Mundo</div>
+        <div class="meta">Authority ID 5798918434 · Key: 4pg Atom Project preview · Aquaman promo · Green Lantern Fractured Spectrum ad</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_0156273372_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Absolute Batman #4 : Harren Card Stock Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 3/2025 · 2025</div>
+        <div class="meta">Story: Scott Snyder · Art: Gabriel Walta · Cover: James Harren</div>
+        <div class="meta">Authority ID 0156273372 · Key: DC All In</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/review/?case=comic-bin-14</span>
+    <span>Side 7 of 7</span>
+  </div>
+</section>
+</body>
+</html>

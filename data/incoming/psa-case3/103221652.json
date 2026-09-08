@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:34:39.787Z",
+  "cert": "103221652",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 85
+  },
+  "fields": {
+    "Brand/Title": "POKEMON JAPANESE SUN & MOON TAG BOLT",
+    "Card Number": "109",
+    "Category": "TCG Cards",
+    "Cert Number": "103221652",
+    "Item Grade": "MINT 9",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "SABRINA'S SUGGESTION",
+    "Variety/Pedigree": "TAG BOLT-FA",
+    "Year": "2018"
+  },
+  "pageUrl": "https://www.psacard.com/cert/103221652/psa",
+  "population": {
+    "atGrade": 1293,
+    "higher": 2986
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 636,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/171673475/small/JHYqHlFE6ku5XjxAuGWo-w.jpg",
+      "width": 380
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 639,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/171673475/small/uGvCj_zuLkeE2WLhxzbvFA.jpg",
+      "width": 380
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "capturedAt": "2026-09-08T03:36:21.747Z",
+  "cert": "104891604",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 22
+  },
+  "fields": {
+    "Brand/Title": "TOPPS CHROME UPDATE",
+    "Card Number": "USC88",
+    "Category": "BASEBALL CARDS",
+    "Cert Number": "104891604",
+    "Item Grade": "MINT 9",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "PAUL SKENES",
+    "Year": "2024"
+  },
+  "pageUrl": "https://www.psacard.com/cert/104891604/psa",
+  "population": {
+    "atGrade": 1420,
+    "higher": 1464
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 0,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/173135620/small/p2Iqw0qzI06NCXX5z5pHuw.jpg",
+      "width": 0
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 0,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/173135620/small/ugSkSeb0ekS4dc9gGPZPIw.jpg",
+      "width": 0
+    }
+  ]
+}

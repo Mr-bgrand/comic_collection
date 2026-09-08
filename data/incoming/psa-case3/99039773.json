@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:38:48.228Z",
+  "cert": "99039773",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 22
+  },
+  "fields": {
+    "Brand/Title": "POKEMON JAPANESE SV2a-POKEMON CARD 151",
+    "Card Number": "084",
+    "Category": "TCG Cards",
+    "Cert Number": "99039773",
+    "Item Grade": "MINT 9",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "DODUO",
+    "Variety/Pedigree": "MASTER BALL REVERSE HOLO",
+    "Year": "2023"
+  },
+  "pageUrl": "https://www.psacard.com/cert/99039773/psa",
+  "population": {
+    "atGrade": 126,
+    "higher": 931
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 636,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/166913276/small/GEsbxZWafkiaGqnUqxLftg.jpg",
+      "width": 380
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 637,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/166913276/small/BUgFf9Wls0WdHflqZgLtjg.jpg",
+      "width": 380
+    }
+  ]
+}

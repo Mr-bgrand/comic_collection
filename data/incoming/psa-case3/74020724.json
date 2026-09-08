@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:56:36.629Z",
+  "cert": "74020724",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 94
+  },
+  "fields": {
+    "Brand/Title": "POKEMON SWORD & SHIELD LOST ORIGIN",
+    "Card Number": "TG19",
+    "Category": "TCG Cards",
+    "Cert Number": "74020724",
+    "Item Grade": "GEM MT 10",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "FA/GALLADE V",
+    "Variety/Pedigree": "LOST ORIGIN",
+    "Year": "2022"
+  },
+  "pageUrl": "https://www.psacard.com/cert/74020724/psa",
+  "population": {
+    "atGrade": 543,
+    "higher": 0
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 639,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/139540898/small/RlPqKL9AfEORlX3kreG_Mg.jpg",
+      "width": 380
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 638,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/139540898/small/wuPHCchG3kGE5uoXJbyLmg.jpg",
+      "width": 380
+    }
+  ]
+}

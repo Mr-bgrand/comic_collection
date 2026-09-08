@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:34:38.005Z",
+  "cert": "104870209",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 137
+  },
+  "fields": {
+    "Brand/Title": "POKEMON TWM EN-TWILIGHT MASQUERADE",
+    "Card Number": "210",
+    "Category": "TCG Cards",
+    "Cert Number": "104870209",
+    "Item Grade": "GEM MT 10",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "SINISTCHA ex",
+    "Variety/Pedigree": "SPECIAL ILLUSTRATION RARE",
+    "Year": "2024"
+  },
+  "pageUrl": "https://www.psacard.com/cert/104870209/psa",
+  "population": {
+    "atGrade": 708,
+    "higher": 0
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 0,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/173056363/small/HSLn8g06aUCRPC929RqjRw.jpg",
+      "width": 0
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 0,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/173056363/small/Qqnn-CEVR0ej1SXX21K8HA.jpg",
+      "width": 0
+    }
+  ]
+}

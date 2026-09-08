@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:36:49.361Z",
+  "cert": "98128643",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 392
+  },
+  "fields": {
+    "Brand/Title": "POKEMON BLACK & WHITE NEXT DESTINIES",
+    "Card Number": "98",
+    "Category": "TCG Cards",
+    "Cert Number": "98128643",
+    "Item Grade": "NM 7",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "FA/MEWTWO EX",
+    "Variety/Pedigree": "NEXT DESTINIES",
+    "Year": "2012"
+  },
+  "pageUrl": "https://www.psacard.com/cert/98128643/psa",
+  "population": {
+    "atGrade": 145,
+    "higher": 330
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 636,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/165718640/small/OthZRzocrU-K8lIuPKaALA.jpg",
+      "width": 380
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 638,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/165718640/small/HgvuAkKv-U6DLK4q63UQhA.jpg",
+      "width": 380
+    }
+  ]
+}

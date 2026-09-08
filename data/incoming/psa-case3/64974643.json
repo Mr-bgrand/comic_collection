@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:38:38.301Z",
+  "cert": "64974643",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 90
+  },
+  "fields": {
+    "Brand/Title": "POKEMON SWORD & SHIELD BRILLIANT STARS",
+    "Card Number": "183",
+    "Category": "TCG Cards",
+    "Cert Number": "64974643",
+    "Item Grade": "GEM MT 10",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "FA/GALARIAN MOLTRES V",
+    "Variety/Pedigree": "BRILLIANT STARS-SECRET",
+    "Year": "2022"
+  },
+  "pageUrl": "https://www.psacard.com/cert/64974643/psa",
+  "population": {
+    "atGrade": 1911,
+    "higher": 0
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 0,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/127912553/small/bSEOyIcMvUespBfy7kCHYg.jpg",
+      "width": 0
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 0,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/127912553/small/drZ6g9cB2UGEkctQOUuQ3g.jpg",
+      "width": 0
+    }
+  ]
+}

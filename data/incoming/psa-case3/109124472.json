@@ -1,0 +1,41 @@
+{
+  "capturedAt": "2026-09-08T03:36:32.801Z",
+  "cert": "109124472",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 84
+  },
+  "fields": {
+    "Brand/Title": "UPPER DECK",
+    "Card Number": "23",
+    "Category": "BASKETBALL CARDS",
+    "Cert Number": "109124472",
+    "Item Grade": "MINT 9",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "MICHAEL JORDAN",
+    "Year": "1992"
+  },
+  "pageUrl": "https://www.psacard.com/cert/109124472/psa",
+  "population": {
+    "atGrade": 5649,
+    "higher": 1851
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 0,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/175806841/small/P_0zfzzRxEaBNjUwuz4_Xw.jpg",
+      "width": 0
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 0,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/175806841/small/s9WWfcYaPUy-6eKbWv4psw.jpg",
+      "width": 0
+    }
+  ]
+}

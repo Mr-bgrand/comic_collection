@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:36:56.864Z",
+  "cert": "100119005",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 94
+  },
+  "fields": {
+    "Brand/Title": "POKEMON SWSH BLACK STAR PROMO",
+    "Card Number": "179",
+    "Category": "TCG Cards",
+    "Cert Number": "100119005",
+    "Item Grade": "MINT 9",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "FA/FLAREON V",
+    "Variety/Pedigree": "FLAREON VMAX PREM.COLL.",
+    "Year": "2021"
+  },
+  "pageUrl": "https://www.psacard.com/cert/100119005/psa",
+  "population": {
+    "atGrade": 5860,
+    "higher": 1515
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 637,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/168078570/small/zkTjp3O1HUmHcPuiD4bBpA.jpg",
+      "width": 380
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 640,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/168078570/small/KIy4baWyBUejXD9EbAMAPQ.jpg",
+      "width": 380
+    }
+  ]
+}

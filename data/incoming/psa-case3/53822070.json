@@ -1,0 +1,32 @@
+{
+  "capturedAt": "2026-09-08T04:00:31.006Z",
+  "cert": "53822070",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 42
+  },
+  "fields": {
+    "Brand/Title": "POKEMON SUN & MOON",
+    "Card Number": "89",
+    "Category": "TCG Cards",
+    "Cert Number": "53822070",
+    "Item Grade": "GEM MT 10",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "SOLGALEO GX",
+    "Year": "2017"
+  },
+  "pageUrl": "https://www.psacard.com/cert/53822070/psa",
+  "population": {
+    "atGrade": 159,
+    "higher": 0
+  },
+  "scans": [],
+  "scanStatus": "no-scans-on-cert-page",
+  "scanReview": {
+    "scrolled": true,
+    "rechecked": true,
+    "basis": "Rendered cert metadata and gallery reviewed again after scrolling; no cert image 1 or 2 from PSA scan host."
+  }
+}

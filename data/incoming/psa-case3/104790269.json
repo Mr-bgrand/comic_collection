@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:34:37.196Z",
+  "cert": "104790269",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 104
+  },
+  "fields": {
+    "Brand/Title": "POKEMON MEW EN-151",
+    "Card Number": "170",
+    "Category": "TCG Cards",
+    "Cert Number": "104790269",
+    "Item Grade": "MINT 9",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "SQUIRTLE",
+    "Variety/Pedigree": "ILLUSTRATION RARE",
+    "Year": "2023"
+  },
+  "pageUrl": "https://www.psacard.com/cert/104790269/psa",
+  "population": {
+    "atGrade": 19650,
+    "higher": 9153
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 0,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/173066665/small/iDdF-1boHEOO3LMdeB_Hcw.jpg",
+      "width": 0
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 0,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/173066665/small/OJF2vF7M8k6Ad3jgTlB1Ug.jpg",
+      "width": 0
+    }
+  ]
+}

@@ -386,3 +386,70 @@ The template lint tests pick up the new template automatically.
    wall does.
 2. **Whether to enrich the vault at all.** The CSV gives grade and value
    without a single request. Population and images cost 49 lookups.
+
+## 11. PSA Case #3 import checkpoint - September 7, 2026 (Arizona)
+
+The owner supplied 94 unique PSA certifications, including bare IDs 108031205,
+114218231, and 24709368. All 94 were verified on PSA's rendered certificate
+pages and imported into `data/cards/case-03.json`, titled **Graded PSA Case #3**,
+with location **Case #3**. None overlapped an existing card in another container.
+The original input and ordering are retained in
+`data/incoming/2026-09-07-psa-case3.json`.
+
+- 74 cards have both scans: 148 images from the actual PSA certificate viewer.
+  Every image URL was read from the page, restricted to
+  `d1htnxwo4o0jhw.cloudfront.net/cert/`, paired by internal image ID, downloaded,
+  hashed, and visually reviewed. eBay and Fanatics comparison photos were excluded.
+- 20 older certificates have no scans after another review with scrolling.
+  Their verified identities remain in the inventory with
+  `scanStatus: "no-scans-on-cert-page"`; Admin > Photos can accept owner photos.
+- 90 records have dated PSA estimates totaling **USD 9,707**. Four have no
+  estimate. The figures retain the PSA page as their source and are not owner
+  appraisals or purchase costs. Owner valuation remains unset.
+- Each record retains its cert URL, captured fields, population, capture time,
+  and image provenance. `Variety/Pedigree` is now retained by the importer.
+  Captures use actual UTC dates (September 8); the owner request was September 7
+  in Arizona.
+- Per-cert evidence is under `data/incoming/psa-case3/`; aggregate captures,
+  image manifest, and resumable progress are the adjacent `psa-case3-*.json` files.
+  There are no outstanding cert lookups or scan reviews.
+
+The owner's later approval of existing 4x6 labels and 8.5x11 sheets supersedes
+the earlier card-label proposal in sections 3 and 6. Case #3 uses the existing
+physical-container print flow: four 4x6 label pages and seven Letter master-sheet
+pages, with each of the 94 certifications appearing exactly once on the master
+sheet. Find deep link: `/review/?case=case-03`. All existing collection scenes,
+Admin location editing, photo capture, and Print Studio use this same container.
+
+## 12. TAG valuation policy — September 7, 2026 (Arizona)
+
+Owner direction: when TAG does not report a value, use the same card at the same
+numeric PSA grade. TAG 10 maps to PSA 10, TAG 9 to PSA 9, and TAG 8.5 to PSA 8.5;
+never round a grade or use TAG's 1–1000 score as the grade.
+
+`src/card-valuation.js` requires matching year, set, subject, card number, variety,
+language and qualifiers. Normalization is conservative; similar names or matching
+card numbers alone are insufficient. The newest matching dated PSA observation
+wins; conflicting prices with equal dates require review. Unknown comparisons
+stay unvalued. This is the owner's comparison policy, not a claim that the graders
+have identical market prices.
+
+Store the result separately under `psaComparison`, with PSA cert, grade, identity,
+source URL, original value date and currency. Preserve the TAG identity, images,
+grader-reported value and owner estimate. A direct grader value takes precedence;
+an owner estimate also outranks the comparison. Display **PSA [grade] comparison ·
+TAG fallback** in the scene, record and collection master list. Collection totals,
+Find's missing-value filter and history include this disclosed estimate.
+
+Both build entry points refresh comparisons against the imported PSA records.
+`npm run tag:values` also writes an explicit pending report to
+`data/incoming/tag-value-comparison-report.json`. The first pass matched TAG
+H9545478 (2023 Obsidian Flames Bellibolt #201, grade 10) to PSA 101450005 at
+USD 148. The other 79 TAG copies need verified same-card/same-grade PSA evidence;
+no values were invented or borrowed from other editions. A broader PSA price
+lookup remains separate from this matching rule.
+
+Validation: all 331 tests pass, both build outputs complete, and 38 existing-size
+print PDFs regenerate. Live Find, the selected TAG record and Admin's collection
+master show the comparison with its PSA evidence; the collection total is now
+USD 28,658 across 301 valued objects out of 910.

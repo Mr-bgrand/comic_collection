@@ -1,0 +1,33 @@
+{
+  "capturedAt": "2026-09-08T03:56:35.954Z",
+  "cert": "60354886",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 17
+  },
+  "fields": {
+    "Brand/Title": "TOPPS",
+    "Card Number": "596",
+    "Category": "BASEBALL CARDS",
+    "Cert Number": "60354886",
+    "Item Grade": "NM-MT 8",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "RYNE SANDBERG",
+    "Year": "1984"
+  },
+  "pageUrl": "https://www.psacard.com/cert/60354886/psa",
+  "population": {
+    "atGrade": 778,
+    "higher": 960
+  },
+  "scans": [],
+  "scanStatus": "no-scans-on-cert-page",
+  "scanReview": {
+    "scrolled": true,
+    "rechecked": true,
+    "checkedAt": "2026-09-08T04:06:58.875Z",
+    "basis": "Cert number matched in rendered Item Information; no Cert image 1 or Cert image 2 in full accessibility tree after scrolling down and back up."
+  }
+}

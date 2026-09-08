@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:36:20.651Z",
+  "cert": "102587041",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 42
+  },
+  "fields": {
+    "Brand/Title": "POKEMON XY EVOLUTIONS",
+    "Card Number": "35",
+    "Category": "TCG Cards",
+    "Cert Number": "102587041",
+    "Item Grade": "MINT 9",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "PIKACHU-REV.FOIL",
+    "Variety/Pedigree": "EVOLUTIONS",
+    "Year": "2016"
+  },
+  "pageUrl": "https://www.psacard.com/cert/102587041/psa",
+  "population": {
+    "atGrade": 3517,
+    "higher": 969
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 638,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/171429202/small/G7bXewb9YU-gTQIEjg5ZRg.jpg",
+      "width": 380
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 638,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/171429202/small/nJhjJnC3UEqan0oleVaEzw.jpg",
+      "width": 380
+    }
+  ]
+}

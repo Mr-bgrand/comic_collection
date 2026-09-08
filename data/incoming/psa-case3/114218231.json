@@ -1,0 +1,37 @@
+{
+  "capturedAt": "2026-09-08T04:00:06.650Z",
+  "cert": "114218231",
+  "estimate": null,
+  "fields": {
+    "Brand/Title": "PANINI OBSIDIAN ROOKIE MATERIALS INK",
+    "Card Number": "RMITBN",
+    "Category": "FOOTBALL CARDS",
+    "Cert Number": "114218231",
+    "Item Grade": "MINT 9",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "TREY BENSON",
+    "Year": "2024"
+  },
+  "pageUrl": "https://www.psacard.com/cert/114218231/psa",
+  "population": {
+    "atGrade": 1,
+    "higher": 0
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 635,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179066766/small/iDnLMpeQmESA58ZChUrMvQ.jpg",
+      "width": 380
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 634,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179066766/small/d5Ww85drZUyRb4iRwYkZgg.jpg",
+      "width": 380
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "capturedAt": "2026-09-08T03:36:21.184Z",
+  "cert": "100858889",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 26
+  },
+  "fields": {
+    "Brand/Title": "POKEMON SVI EN-SCARLET & VIOLET",
+    "Card Number": "045",
+    "Category": "TCG Cards",
+    "Cert Number": "100858889",
+    "Item Grade": "MINT 9",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "GYARADOS ex",
+    "Year": "2023"
+  },
+  "pageUrl": "https://www.psacard.com/cert/100858889/psa",
+  "population": {
+    "atGrade": 698,
+    "higher": 661
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 0,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/168907565/small/FM_CxaArmUWvwY7forvX_Q.jpg",
+      "width": 0
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 640,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/168907565/small/teC7uj-eBUuHeqdkWWNIXQ.jpg",
+      "width": 380
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "capturedAt": "2026-09-08T03:50:39.896Z",
+  "cert": "55700008",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 35
+  },
+  "fields": {
+    "Brand/Title": "POKEMON GAME",
+    "Card Number": "9",
+    "Category": "TCG Cards",
+    "Cert Number": "55700008",
+    "Item Grade": "EX-MT 6",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "MAGNETON-HOLO",
+    "Year": "1999"
+  },
+  "pageUrl": "https://www.psacard.com/cert/55700008/psa",
+  "population": {
+    "atGrade": 1957,
+    "higher": 8950
+  },
+  "scans": [],
+  "scanStatus": "no-scans-on-cert-page",
+  "scanReview": {
+    "scrolled": true,
+    "rechecked": true,
+    "checkedAt": "2026-09-08T04:06:14.382Z",
+    "basis": "Cert number matched in rendered Item Information; no Cert image 1 or Cert image 2 in full accessibility tree after scrolling down and back up."
+  }
+}

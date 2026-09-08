@@ -1,0 +1,33 @@
+{
+  "capturedAt": "2026-09-08T03:50:41.106Z",
+  "cert": "52109910",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 91
+  },
+  "fields": {
+    "Brand/Title": "POKEMON NEO GENESIS",
+    "Card Number": "6",
+    "Category": "TCG Cards",
+    "Cert Number": "52109910",
+    "Item Grade": "NM-MT 8",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "HERACROSS-HOLO",
+    "Year": "2000"
+  },
+  "pageUrl": "https://www.psacard.com/cert/52109910/psa",
+  "population": {
+    "atGrade": 543,
+    "higher": 237
+  },
+  "scans": [],
+  "scanStatus": "no-scans-on-cert-page",
+  "scanReview": {
+    "scrolled": true,
+    "rechecked": true,
+    "checkedAt": "2026-09-08T04:06:15.086Z",
+    "basis": "Cert number matched in rendered Item Information; no Cert image 1 or Cert image 2 in full accessibility tree after scrolling down and back up."
+  }
+}

@@ -37,12 +37,12 @@
         "docs/prototypes/engine-singularity.mjs"
       ],
       "fingerprints": {
-        ".superdesign/design-system.md": "3eb9edc50b4c5e4f8fb79c27969ac039d8e7882cb93d05e121d289f6c6cdb7b8",
-        "docs/prototypes/build-engine.mjs": "50700f1b6c1e4df9b1a85b25a495b32d5fed5a9f130114f3f9a5b161ff954cf9",
-        "docs/prototypes/engine.js": "ec73260edb3db9891c19dce332b8386a27e4fda53d5651afe91db2fbea5ceae3",
+        ".superdesign/design-system.md": "68e9d7e72d62fdfa85c79f4f0313a082021346162e9a75f9eae160246b0a883d",
+        "docs/prototypes/build-engine.mjs": "c6844fb0e7db113ad191238a4ba095c719aa05a2b801f0f689ee21d17250a3f4",
+        "docs/prototypes/engine.js": "4777653547fc620559a16e10331ad94f915389855392c700bcea69e2e42c8b4a",
         "docs/prototypes/engine.css": "499b1e37887f12122567e1fe839b99e5bf3b3006f0fb01da1044a1797afda616",
         "docs/prototypes/engine-layouts.mjs": "f7929451f97b826da27fa4a48189e6151be7911cb3a259ad1a53667e16a934e6",
-        "src/model.js": "10a36fe15b1b8db5101fa0506fb0d106bd8f09667407d08376ddeeb102625d50",
+        "src/model.js": "bd5ebda1d9528a96b46b420f5b3f73af7a33b46cb6f25dd759cb373327f668a1",
         "src/import-vault.js": "986fa79c844c10748a8f7b0dd6b62c1fba7bb8c4f7ac9a5eaf7c85f0c1515d14",
         "src/import-card-images.js": "cb254cfbee7a84d9ab8af4407d64c9942b1b55750b518d39c3700805436742b5",
         "src/card-images.js": "ce995bad9a24abdc4852e6e621749e36c54dd0d8d5587af9ae2544fe6d7e8b1f",
@@ -60,10 +60,10 @@
         "docs/prototypes/engine-value.css": "66988958246a4e2dfdd12515b8cf397e02bd8af000daa68c45ff2405bc8cd05a",
         "docs/prototypes/engine-value.mjs": "d0c35e7cdd18f0e5443982e1a5ae5252d812a8bafc50443e4af5a41d278f6523",
         "src/value-history.js": "e55c0f581f6bfd7a126ae4aa7f15c4e1205b1d4cb2ae9d0521718bb15141c066",
-        "docs/prototypes/engine-immersive.mjs": "02d6da7a7bf4fc30f4a952043f21b5d4f7642174944a43858ea99cb81d13cc72",
-        "docs/prototypes/engine-immersive.html": "0cd01c86fd23a4ce16f2887df8adf7a62c6ef49a505caadc61bdb917fce499c0",
-        "docs/prototypes/engine-immersive.css": "b57ae2dcc5f707ac1a1d5b4c60eb2c96230620fc3fcf3682c181ca87bd082f89",
-        "docs/prototypes/engine-singularity.mjs": "58e0520ebb548b25f0790e1d07fbcb94839538bbe4c6ff72c33d584d0cabbd06"
+        "docs/prototypes/engine-immersive.mjs": "630712506cd433452b614510e2ea408c471f0e58f5a6c1481193b2129c79532e",
+        "docs/prototypes/engine-immersive.html": "f17bf4cae1394b94e72300f36d236acb22176d8a3389a25a797e94a3ba822f91",
+        "docs/prototypes/engine-immersive.css": "9da4f2a5d8fd54a3897fbc654563289735baa3e4bc1d082b7345f9fa4895a795",
+        "docs/prototypes/engine-singularity.mjs": "78d54c352a2eec18cee1839f91498627acc1398d73e1cbbc2bba647351beaf8e"
       },
       "components": [],
       "referenceIds": [],
@@ -75,11 +75,11 @@
         },
         "8ba17025-90c5-4301-a38b-2a2ad6d1b2d1": {
           "title": "The Collection - personal museum concept",
-          "visualDirection": "Collection / Lab: 498 exact copies in five experiences. Longbox enters a physical case with a surrounding ribbon, case-only order, real backs and saved overview return. Singularity uses real-cover mosaic fragments, prismatic event horizon, five-second mixed arrivals, pause and Ambient mode. Phone layouts preserve art and reachable controls. Existing Orbit, Wall, free-roaming Spotlight, Find, value history, Admin and photo intake remain. Local app retains detail scans; canvas uses hosted atlases and compressed 480px review scans with read-only admin.",
-          "currentVersion": 15
+          "visualDirection": "Collection / Lab: 498 exact copies in five experiences. 05 Event Horizon replaces the stationary Singularity mosaic with a deep flight of real two-sided scans, accelerating ice-blue streaks, camera travel and a continuous diagonal Milky Way with fine stars, irregular dust lanes and soft pearl light. An 11.2-second cycle includes five full seconds of clear scan viewing. Replay, pause-to-inspect, reduced motion and Ambient remain explicit. Desktop, portrait and compact landscape layouts. Orbit, Wall, Inside the Case, Spotlight, Find, value history, Admin and photo intake are preserved. Local app uses detail scans; canvas uses verified hosted atlases and compressed review scans.",
+          "currentVersion": 17
         }
       },
-      "updatedAt": "2026-09-07T18:04:27.515Z"
+      "updatedAt": "2026-09-08T04:32:22.150Z"
     }
   }
 }

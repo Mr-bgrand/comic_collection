@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:37:03.757Z",
+  "cert": "79452841",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 71
+  },
+  "fields": {
+    "Brand/Title": "PANINI CHRONICLES PRIZM BLACK",
+    "Card Number": "PB16",
+    "Category": "FOOTBALL CARDS",
+    "Cert Number": "79452841",
+    "Item Grade": "GEM MT 10",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "AIDAN HUTCHINSON",
+    "Variety/Pedigree": "PRIZM BLACK-SILVER",
+    "Year": "2022"
+  },
+  "pageUrl": "https://www.psacard.com/cert/79452841/psa",
+  "population": {
+    "atGrade": 146,
+    "higher": 0
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 644,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/145995399/small/NmjBF0TjeEanuIwTBpajQg.jpg",
+      "width": 380
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 640,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/145995399/small/Bxi2d2-gaUmVz5kqekjwQw.jpg",
+      "width": 380
+    }
+  ]
+}

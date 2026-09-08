@@ -1,0 +1,1600 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Comic Bin #15 (Softslabs) manifest</title>
+<style>
+
+@page { size: letter; margin: 0.5in; }
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #16161a;
+  background: #fff;
+  font-size: 7.6pt;
+  line-height: 1.26;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.side { page-break-after: always; }
+.side:last-child { page-break-after: auto; }
+
+.masthead {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.15in;
+  padding-bottom: 0.04in;
+  margin-bottom: 0.06in;
+  border-bottom: 2pt solid #16161a;
+}
+
+.masthead h1 { font-size: 14pt; font-weight: 800; letter-spacing: -0.025em; }
+.masthead .sub { margin-top: 0.02in; font-size: 7.5pt; color: #55555e; }
+
+/*
+ * The QR repeats on every side, because each side is a standalone page — whoever
+ * is holding side 2 should not have to go find side 1 to scan through.
+ */
+.mast-qr { flex: none; width: 0.8in; text-align: center; }
+.mast-qr svg { width: 0.8in; height: 0.8in; display: block; }
+.mast-qr .cap { margin-top: 0.01in; font-size: 5.5pt; line-height: 1.1; color: #55555e; }
+
+.cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0.24in;
+}
+
+.entry {
+  display: grid;
+  grid-template-columns: 0.76in 1fr;
+  column-gap: 0.1in;
+  height: 1.25in;
+  padding: 0.02in 0;
+  border-bottom: 0.3pt solid #e4e4e8;
+  overflow: hidden;
+  break-inside: avoid;
+}
+
+.cover {
+  width: 0.76in;
+  height: 1.2in;
+  object-fit: cover;
+  border: 0.3pt solid #c8c8d0;
+  background: #f4f4f6;
+}
+
+.cover-none {
+  width: 0.76in;
+  height: 1.2in;
+  border: 0.3pt dashed #c8c8d0;
+}
+
+.head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.06in;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 8.2pt;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  /* Two lines for the title; variant strings rarely fit one at this width. */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.grade {
+  font-weight: 800;
+  font-size: 9.5pt;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/*
+ * Detail lines wrap up to two lines each and then clip. Entries are a fixed
+ * height so the page count stays deterministic; compactDetailLines puts the
+ * appraisal-critical figures first so the clipping falls on the prose.
+ */
+.meta {
+  margin-top: 0.015in;
+  color: #2a2a31;
+  font-weight: 500;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.meta .cert { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 7pt; }
+.pop { font-weight: 700; color: #7a5410; }
+
+.pagefoot {
+  margin-top: 0.06in;
+  padding-top: 0.04in;
+  border-top: 0.75pt solid #c8c8d0;
+  font-size: 6.5pt;
+  color: #55555e;
+  display: flex;
+  justify-content: space-between;
+}
+
+</style>
+</head>
+<body>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Comic Bin #15 (Softslabs)</h1>
+      <div class="sub">123 copies &middot; Comic Bin #15 &middot; printed 2026-09-08</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h37v37H0z"/><path stroke="#000000" d="M0 0.5h7m6 0h1m3 0h1m5 0h3m2 0h1m1 0h7M0 1.5h1m5 0h1m2 0h1m1 0h2m1 0h4m2 0h1m1 0h1m1 0h5m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h2m1 0h1m4 0h1m1 0h1m3 0h2m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h1m2 0h2m2 0h1m1 0h5m3 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h1m1 0h4m1 0h1m1 0h2m1 0h1m2 0h2m3 0h1m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h1m3 0h1m3 0h2m2 0h3m1 0h2m1 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h3m3 0h6m1 0h4m1 0h2M0 8.5h1m1 0h5m5 0h1m1 0h3m7 0h5m1 0h5M0 9.5h2m5 0h3m1 0h2m1 0h2m2 0h1m1 0h1m1 0h2m10 0h2M3 10.5h1m2 0h1m2 0h1m5 0h5m1 0h1m4 0h4m1 0h2m1 0h3M1 11.5h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h5m3 0h4m1 0h1m2 0h5m4 0h1M0 12.5h1m1 0h2m1 0h6m1 0h1m2 0h1m1 0h1m1 0h1m2 0h4m1 0h1m1 0h2m1 0h1m1 0h3M0 13.5h1m3 0h2m2 0h1m2 0h1m1 0h1m2 0h1m1 0h4m1 0h1m1 0h1m2 0h2m1 0h1M6 14.5h2m3 0h3m1 0h1m2 0h1m1 0h2m3 0h3m1 0h1m1 0h3m2 0h1M0 15.5h3m1 0h2m1 0h1m2 0h1m2 0h1m1 0h2m4 0h2m3 0h1m2 0h1m1 0h2M1 16.5h4m1 0h4m1 0h3m1 0h1m2 0h3m3 0h4m2 0h3m1 0h2M0 17.5h2m1 0h2m2 0h1m2 0h1m2 0h1m1 0h3m4 0h2m1 0h1m2 0h2m1 0h1m1 0h1m1 0h1M1 18.5h1m4 0h1m1 0h7m2 0h1m2 0h1m1 0h1m1 0h5m1 0h2m1 0h4M0 19.5h1m1 0h4m1 0h1m1 0h1m2 0h1m3 0h1m4 0h4m6 0h1m4 0h1M0 20.5h3m2 0h2m1 0h2m1 0h1m4 0h2m7 0h4m1 0h1m1 0h3M2 21.5h1m1 0h1m2 0h5m1 0h1m2 0h6m1 0h1m1 0h1m2 0h1m4 0h1M0 22.5h4m2 0h1m2 0h1m1 0h1m1 0h1m1 0h3m2 0h3m1 0h1m1 0h4m1 0h3m1 0h2M1 23.5h1m1 0h3m8 0h1m2 0h2m1 0h3m1 0h1m1 0h1m1 0h2m1 0h2m2 0h1M5 24.5h5m1 0h2m2 0h2m2 0h1m1 0h1m1 0h8m1 0h1m1 0h2M0 25.5h1m1 0h2m1 0h1m5 0h3m1 0h1m1 0h2m1 0h1m2 0h1m4 0h1m2 0h1M0 26.5h1m2 0h1m1 0h2m4 0h3m1 0h2m2 0h1m2 0h1m2 0h5m1 0h1m3 0h2M0 27.5h1m1 0h2m5 0h2m2 0h3m2 0h5m3 0h2m1 0h2m1 0h1M0 28.5h1m1 0h1m2 0h3m1 0h1m2 0h1m1 0h2m1 0h1m1 0h1m2 0h11m1 0h3M8 29.5h2m2 0h1m3 0h1m1 0h3m2 0h1m1 0h1m1 0h2m3 0h2M0 30.5h7m2 0h1m4 0h3m1 0h1m1 0h1m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m1 0h2m1 0h2m1 0h3m2 0h2m5 0h1m1 0h1m3 0h2m1 0h2M0 32.5h1m1 0h3m1 0h1m1 0h2m1 0h1m1 0h3m2 0h5m1 0h9m1 0h1M0 33.5h1m1 0h3m1 0h1m1 0h2m5 0h3m3 0h1m1 0h3m1 0h4m1 0h1m3 0h1M0 34.5h1m1 0h3m1 0h1m1 0h3m1 0h3m5 0h1m6 0h1m5 0h4M0 35.5h1m5 0h1m3 0h2m4 0h1m1 0h1m2 0h4m1 0h3m1 0h1m1 0h1m3 0h1M0 36.5h7m1 0h4m5 0h1m4 0h1m2 0h2m2 0h1m2 0h5"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_5307103194_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Absolute Superman #5 : Rafa Sandoval Cover</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 5/2025 · 2025</div>
+        <div class="meta">Story: Jason Aaron · Art: Rafa Sandoval · Cover: Rafa Sandoval</div>
+        <div class="meta">Authority ID 5307103194 · Key: Batman Hush 2 ad · Absolute Martian Manhunter · DC Studios Showcase Podcast</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7313916959_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">NYX #9 : Kimono Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 3/2025 · 2025</div>
+        <div class="meta">Story: Collin Kelly · Art: Francesco Mortarino · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 7313916959 · Key: X-Manhunt Part 2 · Bonus Digital Code · Predator v Spider-Man ad</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_0312731497_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate X-Men #11</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 3/2025 · 2025</div>
+        <div class="meta">Story: Peach Momoko · Art: Peach Momoko · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 0312731497 · Key: Debut of Ultimate X-Men Costumes</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_6877341863_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Absolute Batman #4</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 3/2025 · 2025</div>
+        <div class="meta">Story: Scott Snyder · Art: Gabriel Walta · Cover: Nick Dragotta</div>
+        <div class="meta">Authority ID 6877341863 · Key: DC All In</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_9624715205_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate Spider-Man #6 : Samnee Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 8/2024 · 2024</div>
+        <div class="meta">Story: Jonathan Hickman · Art: Marco Checchetto · Cover: Chris Samnee</div>
+        <div class="meta">Authority ID 9624715205</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7855866689_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">NYX #3 : Forbes Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Collin Kelly, Jackson Lanzing · Art: Francesco Mortarino · Cover: W. Scott Forbes</div>
+        <div class="meta">Authority ID 7855866689</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_0212744415_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">NYX #3 : Forbes Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Collin Kelly, Jackson Lanzing · Art: Francesco Mortarino · Cover: W. Scott Forbes</div>
+        <div class="meta">Authority ID 0212744415</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_0451862070_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">The Amazing Spider-Man #58</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Zeb Wells · Art: John Romita Jr. · Cover: John Romita Jr.</div>
+        <div class="meta">Authority ID 0451862070</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_3906406986_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate X-Men #11</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 3/2025 · 2025</div>
+        <div class="meta">Story: Peach Momoko · Art: Peach Momoko · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 3906406986 · Key: Debut of Ultimate X-Men Costumes</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_0745715728_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate X-Men #7 : Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Peach Momoko · Art: Peach Momoko · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 0745715728</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7477915408_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Teenage Mutant Ninja Turtles #6</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">IDW Publishing · 1/2025 · 2025</div>
+        <div class="meta">Story: Jason Aaron · Art: Juan Ferreyra · Cover: Jorge Fornes</div>
+        <div class="meta">Authority ID 7477915408</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_9518684038_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">NYX #3 : Li Ms. Marvel Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Collin Kelly, Jackson Lanzing · Art: Francesco Mortarino · Cover: Leirix Li</div>
+        <div class="meta">Authority ID 9518684038</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_6863449782_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">NYX #3 : Li Ms. Marvel Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Collin Kelly, Jackson Lanzing · Art: Francesco Mortarino · Cover: Leirix Li</div>
+        <div class="meta">Authority ID 6863449782</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_9757398190_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">NYX #3</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Collin Kelly, Jackson Lanzing · Art: Francesco Mortarino · Cover: Sara Pichelli</div>
+        <div class="meta">Authority ID 9757398190</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/review/?case=comic-bin-15</span>
+    <span>Side 1 of 9</span>
+  </div>
+</section>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Comic Bin #15 (Softslabs)</h1>
+      <div class="sub">123 copies &middot; Comic Bin #15 &middot; printed 2026-09-08</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h37v37H0z"/><path stroke="#000000" d="M0 0.5h7m6 0h1m3 0h1m5 0h3m2 0h1m1 0h7M0 1.5h1m5 0h1m2 0h1m1 0h2m1 0h4m2 0h1m1 0h1m1 0h5m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h2m1 0h1m4 0h1m1 0h1m3 0h2m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h1m2 0h2m2 0h1m1 0h5m3 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h1m1 0h4m1 0h1m1 0h2m1 0h1m2 0h2m3 0h1m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h1m3 0h1m3 0h2m2 0h3m1 0h2m1 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h3m3 0h6m1 0h4m1 0h2M0 8.5h1m1 0h5m5 0h1m1 0h3m7 0h5m1 0h5M0 9.5h2m5 0h3m1 0h2m1 0h2m2 0h1m1 0h1m1 0h2m10 0h2M3 10.5h1m2 0h1m2 0h1m5 0h5m1 0h1m4 0h4m1 0h2m1 0h3M1 11.5h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h5m3 0h4m1 0h1m2 0h5m4 0h1M0 12.5h1m1 0h2m1 0h6m1 0h1m2 0h1m1 0h1m1 0h1m2 0h4m1 0h1m1 0h2m1 0h1m1 0h3M0 13.5h1m3 0h2m2 0h1m2 0h1m1 0h1m2 0h1m1 0h4m1 0h1m1 0h1m2 0h2m1 0h1M6 14.5h2m3 0h3m1 0h1m2 0h1m1 0h2m3 0h3m1 0h1m1 0h3m2 0h1M0 15.5h3m1 0h2m1 0h1m2 0h1m2 0h1m1 0h2m4 0h2m3 0h1m2 0h1m1 0h2M1 16.5h4m1 0h4m1 0h3m1 0h1m2 0h3m3 0h4m2 0h3m1 0h2M0 17.5h2m1 0h2m2 0h1m2 0h1m2 0h1m1 0h3m4 0h2m1 0h1m2 0h2m1 0h1m1 0h1m1 0h1M1 18.5h1m4 0h1m1 0h7m2 0h1m2 0h1m1 0h1m1 0h5m1 0h2m1 0h4M0 19.5h1m1 0h4m1 0h1m1 0h1m2 0h1m3 0h1m4 0h4m6 0h1m4 0h1M0 20.5h3m2 0h2m1 0h2m1 0h1m4 0h2m7 0h4m1 0h1m1 0h3M2 21.5h1m1 0h1m2 0h5m1 0h1m2 0h6m1 0h1m1 0h1m2 0h1m4 0h1M0 22.5h4m2 0h1m2 0h1m1 0h1m1 0h1m1 0h3m2 0h3m1 0h1m1 0h4m1 0h3m1 0h2M1 23.5h1m1 0h3m8 0h1m2 0h2m1 0h3m1 0h1m1 0h1m1 0h2m1 0h2m2 0h1M5 24.5h5m1 0h2m2 0h2m2 0h1m1 0h1m1 0h8m1 0h1m1 0h2M0 25.5h1m1 0h2m1 0h1m5 0h3m1 0h1m1 0h2m1 0h1m2 0h1m4 0h1m2 0h1M0 26.5h1m2 0h1m1 0h2m4 0h3m1 0h2m2 0h1m2 0h1m2 0h5m1 0h1m3 0h2M0 27.5h1m1 0h2m5 0h2m2 0h3m2 0h5m3 0h2m1 0h2m1 0h1M0 28.5h1m1 0h1m2 0h3m1 0h1m2 0h1m1 0h2m1 0h1m1 0h1m2 0h11m1 0h3M8 29.5h2m2 0h1m3 0h1m1 0h3m2 0h1m1 0h1m1 0h2m3 0h2M0 30.5h7m2 0h1m4 0h3m1 0h1m1 0h1m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m1 0h2m1 0h2m1 0h3m2 0h2m5 0h1m1 0h1m3 0h2m1 0h2M0 32.5h1m1 0h3m1 0h1m1 0h2m1 0h1m1 0h3m2 0h5m1 0h9m1 0h1M0 33.5h1m1 0h3m1 0h1m1 0h2m5 0h3m3 0h1m1 0h3m1 0h4m1 0h1m3 0h1M0 34.5h1m1 0h3m1 0h1m1 0h3m1 0h3m5 0h1m6 0h1m5 0h4M0 35.5h1m5 0h1m3 0h2m4 0h1m1 0h1m2 0h4m1 0h3m1 0h1m1 0h1m3 0h1M0 36.5h7m1 0h4m5 0h1m4 0h1m2 0h2m2 0h1m2 0h5"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_4624786701_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">NYX #3</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Collin Kelly, Jackson Lanzing · Art: Francesco Mortarino · Cover: Sara Pichelli</div>
+        <div class="meta">Authority ID 4624786701</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_4894385717_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Predator vs. Black Panther #2 : Besch Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Benjamin Percy · Art: Chris Allen, Sean Damien Hill · Cover: Rose Besch</div>
+        <div class="meta">Authority ID 4894385717 · Key: Parental Advisory</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_8772010892_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Justice League: The Atom Project #1 : Segovia Foil Card Stock Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 3/2025 · 2025</div>
+        <div class="meta">Story: John Ridley, Ryan Parrott · Art: Mike Perkins · Cover: Stephen Segovia</div>
+        <div class="meta">Authority ID 8772010892 · Key: Introduction of the Atom Project</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_3019696342_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate X-Men #7 : Del Mundo Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Peach Momoko · Art: Peach Momoko · Cover: Mike Del Mundo</div>
+        <div class="meta">Authority ID 3019696342</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_2431015756_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate X-Men #7 : Del Mundo Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Peach Momoko · Art: Peach Momoko · Cover: Mike Del Mundo</div>
+        <div class="meta">Authority ID 2431015756</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_2146527365_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate X-Men #7 : Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Peach Momoko · Art: Peach Momoko · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 2146527365</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_4784142224_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Wonder Woman #1 : Besch Creator Card Stock Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 2023-11-01</div>
+        <div class="meta">Story: Tom King · Art: Daniel Sampere · Cover: Rose Besch</div>
+        <div class="meta">Authority ID 4784142224</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_1560147754_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Loki #1 : Frank Miller Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 08/2023 · 2023</div>
+        <div class="meta">Story: Dan Watters · Art: German Peralta · Cover: Frank Miller</div>
+        <div class="meta">Authority ID 1560147754</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_5139069539_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Loki #1 : Frank Miller Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 08/2023 · 2023</div>
+        <div class="meta">Story: Dan Watters · Art: German Peralta · Cover: Frank Miller</div>
+        <div class="meta">Authority ID 5139069539</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7557919671_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">The Joker: The Man Who Stopped Laughing #9 : Bermejo Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 2023-08-01 · 2022</div>
+        <div class="meta">Story: Matthew Rosenberg · Art: Francesco Francavilla · Cover: Lee Bermejo</div>
+        <div class="meta">Authority ID 7557919671</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_9313439077_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Power Girl #13</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Leah Williams · Art: Eduardo Pansica, Julio Ferreira · Cover: Yanick Paquette</div>
+        <div class="meta">Authority ID 9313439077</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_2494526770_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Batman &amp; The Joker: The Deadly Duo #7 : Jock Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 7/2023 · 2023</div>
+        <div class="meta">Story: Marc Silvestri · Art: Marc Silvestri · Cover: Jock</div>
+        <div class="meta">Authority ID 2494526770</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7861079670_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Detective Comics #27 : Foil Facsimile Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 11/2024 · 2024</div>
+        <div class="meta">Story: Gardner Fox, Jerry Siegel, Homer Fleming, Jim Chambers, Leo O&#39;Mealia, Paul Gustavson, Russell Cole, Sven Elven · Art: Homer Fleming, Jim Chambers, Leo O&#39;Mealia, Paul Gustavson, Russell Cole, Sven Elven · Cover: Bob Kane</div>
+        <div class="meta">Authority ID 7861079670 · Key: Originally Released Apr 18th, 1939 · Batman Day 2024 Release · Printed in Golden Age Format</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-001_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-001</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/review/?case=comic-bin-15</span>
+    <span>Side 2 of 9</span>
+  </div>
+</section>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Comic Bin #15 (Softslabs)</h1>
+      <div class="sub">123 copies &middot; Comic Bin #15 &middot; printed 2026-09-08</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h37v37H0z"/><path stroke="#000000" d="M0 0.5h7m6 0h1m3 0h1m5 0h3m2 0h1m1 0h7M0 1.5h1m5 0h1m2 0h1m1 0h2m1 0h4m2 0h1m1 0h1m1 0h5m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h2m1 0h1m4 0h1m1 0h1m3 0h2m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h1m2 0h2m2 0h1m1 0h5m3 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h1m1 0h4m1 0h1m1 0h2m1 0h1m2 0h2m3 0h1m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h1m3 0h1m3 0h2m2 0h3m1 0h2m1 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h3m3 0h6m1 0h4m1 0h2M0 8.5h1m1 0h5m5 0h1m1 0h3m7 0h5m1 0h5M0 9.5h2m5 0h3m1 0h2m1 0h2m2 0h1m1 0h1m1 0h2m10 0h2M3 10.5h1m2 0h1m2 0h1m5 0h5m1 0h1m4 0h4m1 0h2m1 0h3M1 11.5h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h5m3 0h4m1 0h1m2 0h5m4 0h1M0 12.5h1m1 0h2m1 0h6m1 0h1m2 0h1m1 0h1m1 0h1m2 0h4m1 0h1m1 0h2m1 0h1m1 0h3M0 13.5h1m3 0h2m2 0h1m2 0h1m1 0h1m2 0h1m1 0h4m1 0h1m1 0h1m2 0h2m1 0h1M6 14.5h2m3 0h3m1 0h1m2 0h1m1 0h2m3 0h3m1 0h1m1 0h3m2 0h1M0 15.5h3m1 0h2m1 0h1m2 0h1m2 0h1m1 0h2m4 0h2m3 0h1m2 0h1m1 0h2M1 16.5h4m1 0h4m1 0h3m1 0h1m2 0h3m3 0h4m2 0h3m1 0h2M0 17.5h2m1 0h2m2 0h1m2 0h1m2 0h1m1 0h3m4 0h2m1 0h1m2 0h2m1 0h1m1 0h1m1 0h1M1 18.5h1m4 0h1m1 0h7m2 0h1m2 0h1m1 0h1m1 0h5m1 0h2m1 0h4M0 19.5h1m1 0h4m1 0h1m1 0h1m2 0h1m3 0h1m4 0h4m6 0h1m4 0h1M0 20.5h3m2 0h2m1 0h2m1 0h1m4 0h2m7 0h4m1 0h1m1 0h3M2 21.5h1m1 0h1m2 0h5m1 0h1m2 0h6m1 0h1m1 0h1m2 0h1m4 0h1M0 22.5h4m2 0h1m2 0h1m1 0h1m1 0h1m1 0h3m2 0h3m1 0h1m1 0h4m1 0h3m1 0h2M1 23.5h1m1 0h3m8 0h1m2 0h2m1 0h3m1 0h1m1 0h1m1 0h2m1 0h2m2 0h1M5 24.5h5m1 0h2m2 0h2m2 0h1m1 0h1m1 0h8m1 0h1m1 0h2M0 25.5h1m1 0h2m1 0h1m5 0h3m1 0h1m1 0h2m1 0h1m2 0h1m4 0h1m2 0h1M0 26.5h1m2 0h1m1 0h2m4 0h3m1 0h2m2 0h1m2 0h1m2 0h5m1 0h1m3 0h2M0 27.5h1m1 0h2m5 0h2m2 0h3m2 0h5m3 0h2m1 0h2m1 0h1M0 28.5h1m1 0h1m2 0h3m1 0h1m2 0h1m1 0h2m1 0h1m1 0h1m2 0h11m1 0h3M8 29.5h2m2 0h1m3 0h1m1 0h3m2 0h1m1 0h1m1 0h2m3 0h2M0 30.5h7m2 0h1m4 0h3m1 0h1m1 0h1m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m1 0h2m1 0h2m1 0h3m2 0h2m5 0h1m1 0h1m3 0h2m1 0h2M0 32.5h1m1 0h3m1 0h1m1 0h2m1 0h1m1 0h3m2 0h5m1 0h9m1 0h1M0 33.5h1m1 0h3m1 0h1m1 0h2m5 0h3m3 0h1m1 0h3m1 0h4m1 0h1m3 0h1M0 34.5h1m1 0h3m1 0h1m1 0h3m1 0h3m5 0h1m6 0h1m5 0h4M0 35.5h1m5 0h1m3 0h2m4 0h1m1 0h1m2 0h4m1 0h3m1 0h1m1 0h1m3 0h1M0 36.5h7m1 0h4m5 0h1m4 0h1m2 0h2m2 0h1m2 0h5"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-002_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-002</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-003_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-003</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-004_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-004</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-005_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-005</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-006_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-006</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-008_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-008</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-009_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-009</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-010_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-010</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-011_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-011</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-012_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-012</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-013_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-013</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-014_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-014</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-015_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-015</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-019_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-019</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/review/?case=comic-bin-15</span>
+    <span>Side 3 of 9</span>
+  </div>
+</section>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Comic Bin #15 (Softslabs)</h1>
+      <div class="sub">123 copies &middot; Comic Bin #15 &middot; printed 2026-09-08</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h37v37H0z"/><path stroke="#000000" d="M0 0.5h7m6 0h1m3 0h1m5 0h3m2 0h1m1 0h7M0 1.5h1m5 0h1m2 0h1m1 0h2m1 0h4m2 0h1m1 0h1m1 0h5m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h2m1 0h1m4 0h1m1 0h1m3 0h2m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h1m2 0h2m2 0h1m1 0h5m3 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h1m1 0h4m1 0h1m1 0h2m1 0h1m2 0h2m3 0h1m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h1m3 0h1m3 0h2m2 0h3m1 0h2m1 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h3m3 0h6m1 0h4m1 0h2M0 8.5h1m1 0h5m5 0h1m1 0h3m7 0h5m1 0h5M0 9.5h2m5 0h3m1 0h2m1 0h2m2 0h1m1 0h1m1 0h2m10 0h2M3 10.5h1m2 0h1m2 0h1m5 0h5m1 0h1m4 0h4m1 0h2m1 0h3M1 11.5h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h5m3 0h4m1 0h1m2 0h5m4 0h1M0 12.5h1m1 0h2m1 0h6m1 0h1m2 0h1m1 0h1m1 0h1m2 0h4m1 0h1m1 0h2m1 0h1m1 0h3M0 13.5h1m3 0h2m2 0h1m2 0h1m1 0h1m2 0h1m1 0h4m1 0h1m1 0h1m2 0h2m1 0h1M6 14.5h2m3 0h3m1 0h1m2 0h1m1 0h2m3 0h3m1 0h1m1 0h3m2 0h1M0 15.5h3m1 0h2m1 0h1m2 0h1m2 0h1m1 0h2m4 0h2m3 0h1m2 0h1m1 0h2M1 16.5h4m1 0h4m1 0h3m1 0h1m2 0h3m3 0h4m2 0h3m1 0h2M0 17.5h2m1 0h2m2 0h1m2 0h1m2 0h1m1 0h3m4 0h2m1 0h1m2 0h2m1 0h1m1 0h1m1 0h1M1 18.5h1m4 0h1m1 0h7m2 0h1m2 0h1m1 0h1m1 0h5m1 0h2m1 0h4M0 19.5h1m1 0h4m1 0h1m1 0h1m2 0h1m3 0h1m4 0h4m6 0h1m4 0h1M0 20.5h3m2 0h2m1 0h2m1 0h1m4 0h2m7 0h4m1 0h1m1 0h3M2 21.5h1m1 0h1m2 0h5m1 0h1m2 0h6m1 0h1m1 0h1m2 0h1m4 0h1M0 22.5h4m2 0h1m2 0h1m1 0h1m1 0h1m1 0h3m2 0h3m1 0h1m1 0h4m1 0h3m1 0h2M1 23.5h1m1 0h3m8 0h1m2 0h2m1 0h3m1 0h1m1 0h1m1 0h2m1 0h2m2 0h1M5 24.5h5m1 0h2m2 0h2m2 0h1m1 0h1m1 0h8m1 0h1m1 0h2M0 25.5h1m1 0h2m1 0h1m5 0h3m1 0h1m1 0h2m1 0h1m2 0h1m4 0h1m2 0h1M0 26.5h1m2 0h1m1 0h2m4 0h3m1 0h2m2 0h1m2 0h1m2 0h5m1 0h1m3 0h2M0 27.5h1m1 0h2m5 0h2m2 0h3m2 0h5m3 0h2m1 0h2m1 0h1M0 28.5h1m1 0h1m2 0h3m1 0h1m2 0h1m1 0h2m1 0h1m1 0h1m2 0h11m1 0h3M8 29.5h2m2 0h1m3 0h1m1 0h3m2 0h1m1 0h1m1 0h2m3 0h2M0 30.5h7m2 0h1m4 0h3m1 0h1m1 0h1m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m1 0h2m1 0h2m1 0h3m2 0h2m5 0h1m1 0h1m3 0h2m1 0h2M0 32.5h1m1 0h3m1 0h1m1 0h2m1 0h1m1 0h3m2 0h5m1 0h9m1 0h1M0 33.5h1m1 0h3m1 0h1m1 0h2m5 0h3m3 0h1m1 0h3m1 0h4m1 0h1m3 0h1M0 34.5h1m1 0h3m1 0h1m1 0h3m1 0h3m5 0h1m6 0h1m5 0h4M0 35.5h1m5 0h1m3 0h2m4 0h1m1 0h1m2 0h4m1 0h3m1 0h1m1 0h1m3 0h1M0 36.5h7m1 0h4m5 0h1m4 0h1m2 0h2m2 0h1m2 0h5"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-020_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-020</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-021_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-021</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-022_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-022</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-023_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-023</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-024_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-024</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-026_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-026</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-027_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-027</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-031_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-031</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-032_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-032</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-033_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-033</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-034_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-034</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-035_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-035</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-036_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-036</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-037_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-037</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/review/?case=comic-bin-15</span>
+    <span>Side 4 of 9</span>
+  </div>
+</section>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Comic Bin #15 (Softslabs)</h1>
+      <div class="sub">123 copies &middot; Comic Bin #15 &middot; printed 2026-09-08</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h37v37H0z"/><path stroke="#000000" d="M0 0.5h7m6 0h1m3 0h1m5 0h3m2 0h1m1 0h7M0 1.5h1m5 0h1m2 0h1m1 0h2m1 0h4m2 0h1m1 0h1m1 0h5m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h2m1 0h1m4 0h1m1 0h1m3 0h2m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h1m2 0h2m2 0h1m1 0h5m3 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h1m1 0h4m1 0h1m1 0h2m1 0h1m2 0h2m3 0h1m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h1m3 0h1m3 0h2m2 0h3m1 0h2m1 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h3m3 0h6m1 0h4m1 0h2M0 8.5h1m1 0h5m5 0h1m1 0h3m7 0h5m1 0h5M0 9.5h2m5 0h3m1 0h2m1 0h2m2 0h1m1 0h1m1 0h2m10 0h2M3 10.5h1m2 0h1m2 0h1m5 0h5m1 0h1m4 0h4m1 0h2m1 0h3M1 11.5h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h5m3 0h4m1 0h1m2 0h5m4 0h1M0 12.5h1m1 0h2m1 0h6m1 0h1m2 0h1m1 0h1m1 0h1m2 0h4m1 0h1m1 0h2m1 0h1m1 0h3M0 13.5h1m3 0h2m2 0h1m2 0h1m1 0h1m2 0h1m1 0h4m1 0h1m1 0h1m2 0h2m1 0h1M6 14.5h2m3 0h3m1 0h1m2 0h1m1 0h2m3 0h3m1 0h1m1 0h3m2 0h1M0 15.5h3m1 0h2m1 0h1m2 0h1m2 0h1m1 0h2m4 0h2m3 0h1m2 0h1m1 0h2M1 16.5h4m1 0h4m1 0h3m1 0h1m2 0h3m3 0h4m2 0h3m1 0h2M0 17.5h2m1 0h2m2 0h1m2 0h1m2 0h1m1 0h3m4 0h2m1 0h1m2 0h2m1 0h1m1 0h1m1 0h1M1 18.5h1m4 0h1m1 0h7m2 0h1m2 0h1m1 0h1m1 0h5m1 0h2m1 0h4M0 19.5h1m1 0h4m1 0h1m1 0h1m2 0h1m3 0h1m4 0h4m6 0h1m4 0h1M0 20.5h3m2 0h2m1 0h2m1 0h1m4 0h2m7 0h4m1 0h1m1 0h3M2 21.5h1m1 0h1m2 0h5m1 0h1m2 0h6m1 0h1m1 0h1m2 0h1m4 0h1M0 22.5h4m2 0h1m2 0h1m1 0h1m1 0h1m1 0h3m2 0h3m1 0h1m1 0h4m1 0h3m1 0h2M1 23.5h1m1 0h3m8 0h1m2 0h2m1 0h3m1 0h1m1 0h1m1 0h2m1 0h2m2 0h1M5 24.5h5m1 0h2m2 0h2m2 0h1m1 0h1m1 0h8m1 0h1m1 0h2M0 25.5h1m1 0h2m1 0h1m5 0h3m1 0h1m1 0h2m1 0h1m2 0h1m4 0h1m2 0h1M0 26.5h1m2 0h1m1 0h2m4 0h3m1 0h2m2 0h1m2 0h1m2 0h5m1 0h1m3 0h2M0 27.5h1m1 0h2m5 0h2m2 0h3m2 0h5m3 0h2m1 0h2m1 0h1M0 28.5h1m1 0h1m2 0h3m1 0h1m2 0h1m1 0h2m1 0h1m1 0h1m2 0h11m1 0h3M8 29.5h2m2 0h1m3 0h1m1 0h3m2 0h1m1 0h1m1 0h2m3 0h2M0 30.5h7m2 0h1m4 0h3m1 0h1m1 0h1m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m1 0h2m1 0h2m1 0h3m2 0h2m5 0h1m1 0h1m3 0h2m1 0h2M0 32.5h1m1 0h3m1 0h1m1 0h2m1 0h1m1 0h3m2 0h5m1 0h9m1 0h1M0 33.5h1m1 0h3m1 0h1m1 0h2m5 0h3m3 0h1m1 0h3m1 0h4m1 0h1m3 0h1M0 34.5h1m1 0h3m1 0h1m1 0h3m1 0h3m5 0h1m6 0h1m5 0h4M0 35.5h1m5 0h1m3 0h2m4 0h1m1 0h1m2 0h4m1 0h3m1 0h1m1 0h1m3 0h1M0 36.5h7m1 0h4m5 0h1m4 0h1m2 0h2m2 0h1m2 0h5"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-038_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-038</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-042_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-042</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-043_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-043</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-044_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-044</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-045_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-045</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-046_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-046</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-047_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-047</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-048_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-048</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-049_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-049</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-050_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-050</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-051_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-051</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-052_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-052</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-053_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-053</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-054_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-054</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/review/?case=comic-bin-15</span>
+    <span>Side 5 of 9</span>
+  </div>
+</section>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Comic Bin #15 (Softslabs)</h1>
+      <div class="sub">123 copies &middot; Comic Bin #15 &middot; printed 2026-09-08</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h37v37H0z"/><path stroke="#000000" d="M0 0.5h7m6 0h1m3 0h1m5 0h3m2 0h1m1 0h7M0 1.5h1m5 0h1m2 0h1m1 0h2m1 0h4m2 0h1m1 0h1m1 0h5m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h2m1 0h1m4 0h1m1 0h1m3 0h2m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h1m2 0h2m2 0h1m1 0h5m3 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h1m1 0h4m1 0h1m1 0h2m1 0h1m2 0h2m3 0h1m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h1m3 0h1m3 0h2m2 0h3m1 0h2m1 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h3m3 0h6m1 0h4m1 0h2M0 8.5h1m1 0h5m5 0h1m1 0h3m7 0h5m1 0h5M0 9.5h2m5 0h3m1 0h2m1 0h2m2 0h1m1 0h1m1 0h2m10 0h2M3 10.5h1m2 0h1m2 0h1m5 0h5m1 0h1m4 0h4m1 0h2m1 0h3M1 11.5h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h5m3 0h4m1 0h1m2 0h5m4 0h1M0 12.5h1m1 0h2m1 0h6m1 0h1m2 0h1m1 0h1m1 0h1m2 0h4m1 0h1m1 0h2m1 0h1m1 0h3M0 13.5h1m3 0h2m2 0h1m2 0h1m1 0h1m2 0h1m1 0h4m1 0h1m1 0h1m2 0h2m1 0h1M6 14.5h2m3 0h3m1 0h1m2 0h1m1 0h2m3 0h3m1 0h1m1 0h3m2 0h1M0 15.5h3m1 0h2m1 0h1m2 0h1m2 0h1m1 0h2m4 0h2m3 0h1m2 0h1m1 0h2M1 16.5h4m1 0h4m1 0h3m1 0h1m2 0h3m3 0h4m2 0h3m1 0h2M0 17.5h2m1 0h2m2 0h1m2 0h1m2 0h1m1 0h3m4 0h2m1 0h1m2 0h2m1 0h1m1 0h1m1 0h1M1 18.5h1m4 0h1m1 0h7m2 0h1m2 0h1m1 0h1m1 0h5m1 0h2m1 0h4M0 19.5h1m1 0h4m1 0h1m1 0h1m2 0h1m3 0h1m4 0h4m6 0h1m4 0h1M0 20.5h3m2 0h2m1 0h2m1 0h1m4 0h2m7 0h4m1 0h1m1 0h3M2 21.5h1m1 0h1m2 0h5m1 0h1m2 0h6m1 0h1m1 0h1m2 0h1m4 0h1M0 22.5h4m2 0h1m2 0h1m1 0h1m1 0h1m1 0h3m2 0h3m1 0h1m1 0h4m1 0h3m1 0h2M1 23.5h1m1 0h3m8 0h1m2 0h2m1 0h3m1 0h1m1 0h1m1 0h2m1 0h2m2 0h1M5 24.5h5m1 0h2m2 0h2m2 0h1m1 0h1m1 0h8m1 0h1m1 0h2M0 25.5h1m1 0h2m1 0h1m5 0h3m1 0h1m1 0h2m1 0h1m2 0h1m4 0h1m2 0h1M0 26.5h1m2 0h1m1 0h2m4 0h3m1 0h2m2 0h1m2 0h1m2 0h5m1 0h1m3 0h2M0 27.5h1m1 0h2m5 0h2m2 0h3m2 0h5m3 0h2m1 0h2m1 0h1M0 28.5h1m1 0h1m2 0h3m1 0h1m2 0h1m1 0h2m1 0h1m1 0h1m2 0h11m1 0h3M8 29.5h2m2 0h1m3 0h1m1 0h3m2 0h1m1 0h1m1 0h2m3 0h2M0 30.5h7m2 0h1m4 0h3m1 0h1m1 0h1m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m1 0h2m1 0h2m1 0h3m2 0h2m5 0h1m1 0h1m3 0h2m1 0h2M0 32.5h1m1 0h3m1 0h1m1 0h2m1 0h1m1 0h3m2 0h5m1 0h9m1 0h1M0 33.5h1m1 0h3m1 0h1m1 0h2m5 0h3m3 0h1m1 0h3m1 0h4m1 0h1m3 0h1M0 34.5h1m1 0h3m1 0h1m1 0h3m1 0h3m5 0h1m6 0h1m5 0h4M0 35.5h1m5 0h1m3 0h2m4 0h1m1 0h1m2 0h4m1 0h3m1 0h1m1 0h1m3 0h1M0 36.5h7m1 0h4m5 0h1m4 0h1m2 0h2m2 0h1m2 0h5"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-055_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-055</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-057_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-057</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-058_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-058</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-059_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-059</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-060_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-060</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-062_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-062</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-063_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-063</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-064_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-064</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-065_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-065</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-066_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-066</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-067_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-067</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-068_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-068</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-069_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-069</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-071_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-071</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/review/?case=comic-bin-15</span>
+    <span>Side 6 of 9</span>
+  </div>
+</section>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Comic Bin #15 (Softslabs)</h1>
+      <div class="sub">123 copies &middot; Comic Bin #15 &middot; printed 2026-09-08</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h37v37H0z"/><path stroke="#000000" d="M0 0.5h7m6 0h1m3 0h1m5 0h3m2 0h1m1 0h7M0 1.5h1m5 0h1m2 0h1m1 0h2m1 0h4m2 0h1m1 0h1m1 0h5m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h2m1 0h1m4 0h1m1 0h1m3 0h2m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h1m2 0h2m2 0h1m1 0h5m3 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h1m1 0h4m1 0h1m1 0h2m1 0h1m2 0h2m3 0h1m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h1m3 0h1m3 0h2m2 0h3m1 0h2m1 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h3m3 0h6m1 0h4m1 0h2M0 8.5h1m1 0h5m5 0h1m1 0h3m7 0h5m1 0h5M0 9.5h2m5 0h3m1 0h2m1 0h2m2 0h1m1 0h1m1 0h2m10 0h2M3 10.5h1m2 0h1m2 0h1m5 0h5m1 0h1m4 0h4m1 0h2m1 0h3M1 11.5h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h5m3 0h4m1 0h1m2 0h5m4 0h1M0 12.5h1m1 0h2m1 0h6m1 0h1m2 0h1m1 0h1m1 0h1m2 0h4m1 0h1m1 0h2m1 0h1m1 0h3M0 13.5h1m3 0h2m2 0h1m2 0h1m1 0h1m2 0h1m1 0h4m1 0h1m1 0h1m2 0h2m1 0h1M6 14.5h2m3 0h3m1 0h1m2 0h1m1 0h2m3 0h3m1 0h1m1 0h3m2 0h1M0 15.5h3m1 0h2m1 0h1m2 0h1m2 0h1m1 0h2m4 0h2m3 0h1m2 0h1m1 0h2M1 16.5h4m1 0h4m1 0h3m1 0h1m2 0h3m3 0h4m2 0h3m1 0h2M0 17.5h2m1 0h2m2 0h1m2 0h1m2 0h1m1 0h3m4 0h2m1 0h1m2 0h2m1 0h1m1 0h1m1 0h1M1 18.5h1m4 0h1m1 0h7m2 0h1m2 0h1m1 0h1m1 0h5m1 0h2m1 0h4M0 19.5h1m1 0h4m1 0h1m1 0h1m2 0h1m3 0h1m4 0h4m6 0h1m4 0h1M0 20.5h3m2 0h2m1 0h2m1 0h1m4 0h2m7 0h4m1 0h1m1 0h3M2 21.5h1m1 0h1m2 0h5m1 0h1m2 0h6m1 0h1m1 0h1m2 0h1m4 0h1M0 22.5h4m2 0h1m2 0h1m1 0h1m1 0h1m1 0h3m2 0h3m1 0h1m1 0h4m1 0h3m1 0h2M1 23.5h1m1 0h3m8 0h1m2 0h2m1 0h3m1 0h1m1 0h1m1 0h2m1 0h2m2 0h1M5 24.5h5m1 0h2m2 0h2m2 0h1m1 0h1m1 0h8m1 0h1m1 0h2M0 25.5h1m1 0h2m1 0h1m5 0h3m1 0h1m1 0h2m1 0h1m2 0h1m4 0h1m2 0h1M0 26.5h1m2 0h1m1 0h2m4 0h3m1 0h2m2 0h1m2 0h1m2 0h5m1 0h1m3 0h2M0 27.5h1m1 0h2m5 0h2m2 0h3m2 0h5m3 0h2m1 0h2m1 0h1M0 28.5h1m1 0h1m2 0h3m1 0h1m2 0h1m1 0h2m1 0h1m1 0h1m2 0h11m1 0h3M8 29.5h2m2 0h1m3 0h1m1 0h3m2 0h1m1 0h1m1 0h2m3 0h2M0 30.5h7m2 0h1m4 0h3m1 0h1m1 0h1m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m1 0h2m1 0h2m1 0h3m2 0h2m5 0h1m1 0h1m3 0h2m1 0h2M0 32.5h1m1 0h3m1 0h1m1 0h2m1 0h1m1 0h3m2 0h5m1 0h9m1 0h1M0 33.5h1m1 0h3m1 0h1m1 0h2m5 0h3m3 0h1m1 0h3m1 0h4m1 0h1m3 0h1M0 34.5h1m1 0h3m1 0h1m1 0h3m1 0h3m5 0h1m6 0h1m5 0h4M0 35.5h1m5 0h1m3 0h2m4 0h1m1 0h1m2 0h4m1 0h3m1 0h1m1 0h1m3 0h1M0 36.5h7m1 0h4m5 0h1m4 0h1m2 0h2m2 0h1m2 0h5"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-072_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-072</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-075_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-075</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-076_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-076</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-078_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-078</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-079_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-079</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-007_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-007</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-080_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-080</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-016_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-016</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-081_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-081</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-017_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-017</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-082_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-082</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-018_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-018</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-083_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-083</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-025_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-025</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/review/?case=comic-bin-15</span>
+    <span>Side 7 of 9</span>
+  </div>
+</section>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Comic Bin #15 (Softslabs)</h1>
+      <div class="sub">123 copies &middot; Comic Bin #15 &middot; printed 2026-09-08</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h37v37H0z"/><path stroke="#000000" d="M0 0.5h7m6 0h1m3 0h1m5 0h3m2 0h1m1 0h7M0 1.5h1m5 0h1m2 0h1m1 0h2m1 0h4m2 0h1m1 0h1m1 0h5m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h2m1 0h1m4 0h1m1 0h1m3 0h2m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h1m2 0h2m2 0h1m1 0h5m3 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h1m1 0h4m1 0h1m1 0h2m1 0h1m2 0h2m3 0h1m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h1m3 0h1m3 0h2m2 0h3m1 0h2m1 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h3m3 0h6m1 0h4m1 0h2M0 8.5h1m1 0h5m5 0h1m1 0h3m7 0h5m1 0h5M0 9.5h2m5 0h3m1 0h2m1 0h2m2 0h1m1 0h1m1 0h2m10 0h2M3 10.5h1m2 0h1m2 0h1m5 0h5m1 0h1m4 0h4m1 0h2m1 0h3M1 11.5h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h5m3 0h4m1 0h1m2 0h5m4 0h1M0 12.5h1m1 0h2m1 0h6m1 0h1m2 0h1m1 0h1m1 0h1m2 0h4m1 0h1m1 0h2m1 0h1m1 0h3M0 13.5h1m3 0h2m2 0h1m2 0h1m1 0h1m2 0h1m1 0h4m1 0h1m1 0h1m2 0h2m1 0h1M6 14.5h2m3 0h3m1 0h1m2 0h1m1 0h2m3 0h3m1 0h1m1 0h3m2 0h1M0 15.5h3m1 0h2m1 0h1m2 0h1m2 0h1m1 0h2m4 0h2m3 0h1m2 0h1m1 0h2M1 16.5h4m1 0h4m1 0h3m1 0h1m2 0h3m3 0h4m2 0h3m1 0h2M0 17.5h2m1 0h2m2 0h1m2 0h1m2 0h1m1 0h3m4 0h2m1 0h1m2 0h2m1 0h1m1 0h1m1 0h1M1 18.5h1m4 0h1m1 0h7m2 0h1m2 0h1m1 0h1m1 0h5m1 0h2m1 0h4M0 19.5h1m1 0h4m1 0h1m1 0h1m2 0h1m3 0h1m4 0h4m6 0h1m4 0h1M0 20.5h3m2 0h2m1 0h2m1 0h1m4 0h2m7 0h4m1 0h1m1 0h3M2 21.5h1m1 0h1m2 0h5m1 0h1m2 0h6m1 0h1m1 0h1m2 0h1m4 0h1M0 22.5h4m2 0h1m2 0h1m1 0h1m1 0h1m1 0h3m2 0h3m1 0h1m1 0h4m1 0h3m1 0h2M1 23.5h1m1 0h3m8 0h1m2 0h2m1 0h3m1 0h1m1 0h1m1 0h2m1 0h2m2 0h1M5 24.5h5m1 0h2m2 0h2m2 0h1m1 0h1m1 0h8m1 0h1m1 0h2M0 25.5h1m1 0h2m1 0h1m5 0h3m1 0h1m1 0h2m1 0h1m2 0h1m4 0h1m2 0h1M0 26.5h1m2 0h1m1 0h2m4 0h3m1 0h2m2 0h1m2 0h1m2 0h5m1 0h1m3 0h2M0 27.5h1m1 0h2m5 0h2m2 0h3m2 0h5m3 0h2m1 0h2m1 0h1M0 28.5h1m1 0h1m2 0h3m1 0h1m2 0h1m1 0h2m1 0h1m1 0h1m2 0h11m1 0h3M8 29.5h2m2 0h1m3 0h1m1 0h3m2 0h1m1 0h1m1 0h2m3 0h2M0 30.5h7m2 0h1m4 0h3m1 0h1m1 0h1m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m1 0h2m1 0h2m1 0h3m2 0h2m5 0h1m1 0h1m3 0h2m1 0h2M0 32.5h1m1 0h3m1 0h1m1 0h2m1 0h1m1 0h3m2 0h5m1 0h9m1 0h1M0 33.5h1m1 0h3m1 0h1m1 0h2m5 0h3m3 0h1m1 0h3m1 0h4m1 0h1m3 0h1M0 34.5h1m1 0h3m1 0h1m1 0h3m1 0h3m5 0h1m6 0h1m5 0h4M0 35.5h1m5 0h1m3 0h2m4 0h1m1 0h1m2 0h4m1 0h3m1 0h1m1 0h1m3 0h1M0 36.5h7m1 0h4m5 0h1m4 0h1m2 0h2m2 0h1m2 0h5"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-084_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-084</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-028_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-028</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-085_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-085</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-029_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-029</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-086_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-086</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-030_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-030</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-087_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-087</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-039_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-039</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-088_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-088</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-040_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-040</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-089_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-089</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-041_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-041</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-090_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-090</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-056_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-056</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/review/?case=comic-bin-15</span>
+    <span>Side 8 of 9</span>
+  </div>
+</section>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Comic Bin #15 (Softslabs)</h1>
+      <div class="sub">123 copies &middot; Comic Bin #15 &middot; printed 2026-09-08</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h37v37H0z"/><path stroke="#000000" d="M0 0.5h7m6 0h1m3 0h1m5 0h3m2 0h1m1 0h7M0 1.5h1m5 0h1m2 0h1m1 0h2m1 0h4m2 0h1m1 0h1m1 0h5m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h2m1 0h1m4 0h1m1 0h1m3 0h2m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h1m2 0h2m2 0h1m1 0h5m3 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h1m1 0h4m1 0h1m1 0h2m1 0h1m2 0h2m3 0h1m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h1m3 0h1m3 0h2m2 0h3m1 0h2m1 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h3m3 0h6m1 0h4m1 0h2M0 8.5h1m1 0h5m5 0h1m1 0h3m7 0h5m1 0h5M0 9.5h2m5 0h3m1 0h2m1 0h2m2 0h1m1 0h1m1 0h2m10 0h2M3 10.5h1m2 0h1m2 0h1m5 0h5m1 0h1m4 0h4m1 0h2m1 0h3M1 11.5h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h5m3 0h4m1 0h1m2 0h5m4 0h1M0 12.5h1m1 0h2m1 0h6m1 0h1m2 0h1m1 0h1m1 0h1m2 0h4m1 0h1m1 0h2m1 0h1m1 0h3M0 13.5h1m3 0h2m2 0h1m2 0h1m1 0h1m2 0h1m1 0h4m1 0h1m1 0h1m2 0h2m1 0h1M6 14.5h2m3 0h3m1 0h1m2 0h1m1 0h2m3 0h3m1 0h1m1 0h3m2 0h1M0 15.5h3m1 0h2m1 0h1m2 0h1m2 0h1m1 0h2m4 0h2m3 0h1m2 0h1m1 0h2M1 16.5h4m1 0h4m1 0h3m1 0h1m2 0h3m3 0h4m2 0h3m1 0h2M0 17.5h2m1 0h2m2 0h1m2 0h1m2 0h1m1 0h3m4 0h2m1 0h1m2 0h2m1 0h1m1 0h1m1 0h1M1 18.5h1m4 0h1m1 0h7m2 0h1m2 0h1m1 0h1m1 0h5m1 0h2m1 0h4M0 19.5h1m1 0h4m1 0h1m1 0h1m2 0h1m3 0h1m4 0h4m6 0h1m4 0h1M0 20.5h3m2 0h2m1 0h2m1 0h1m4 0h2m7 0h4m1 0h1m1 0h3M2 21.5h1m1 0h1m2 0h5m1 0h1m2 0h6m1 0h1m1 0h1m2 0h1m4 0h1M0 22.5h4m2 0h1m2 0h1m1 0h1m1 0h1m1 0h3m2 0h3m1 0h1m1 0h4m1 0h3m1 0h2M1 23.5h1m1 0h3m8 0h1m2 0h2m1 0h3m1 0h1m1 0h1m1 0h2m1 0h2m2 0h1M5 24.5h5m1 0h2m2 0h2m2 0h1m1 0h1m1 0h8m1 0h1m1 0h2M0 25.5h1m1 0h2m1 0h1m5 0h3m1 0h1m1 0h2m1 0h1m2 0h1m4 0h1m2 0h1M0 26.5h1m2 0h1m1 0h2m4 0h3m1 0h2m2 0h1m2 0h1m2 0h5m1 0h1m3 0h2M0 27.5h1m1 0h2m5 0h2m2 0h3m2 0h5m3 0h2m1 0h2m1 0h1M0 28.5h1m1 0h1m2 0h3m1 0h1m2 0h1m1 0h2m1 0h1m1 0h1m2 0h11m1 0h3M8 29.5h2m2 0h1m3 0h1m1 0h3m2 0h1m1 0h1m1 0h2m3 0h2M0 30.5h7m2 0h1m4 0h3m1 0h1m1 0h1m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m1 0h2m1 0h2m1 0h3m2 0h2m5 0h1m1 0h1m3 0h2m1 0h2M0 32.5h1m1 0h3m1 0h1m1 0h2m1 0h1m1 0h3m2 0h5m1 0h9m1 0h1M0 33.5h1m1 0h3m1 0h1m1 0h2m5 0h3m3 0h1m1 0h3m1 0h4m1 0h1m3 0h1M0 34.5h1m1 0h3m1 0h1m1 0h3m1 0h3m5 0h1m6 0h1m5 0h4M0 35.5h1m5 0h1m3 0h2m4 0h1m1 0h1m2 0h4m1 0h3m1 0h1m1 0h1m3 0h1M0 36.5h7m1 0h4m5 0h1m4 0h1m2 0h2m2 0h1m2 0h5"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-091_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-091</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-061_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-061</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-092_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-092</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-070_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-070</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-093_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-093</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-073_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-073</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-094_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-094</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-074_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-074</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-095_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-095</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-077_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-077</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Raw_15-096_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Unidentified · 15-096</span>
+            <span class="grade"></span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/review/?case=comic-bin-15</span>
+    <span>Side 9 of 9</span>
+  </div>
+</section>
+</body>
+</html>

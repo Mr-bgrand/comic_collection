@@ -1,0 +1,41 @@
+{
+  "capturedAt": "2026-09-08T03:36:35.624Z",
+  "cert": "100783808",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 29
+  },
+  "fields": {
+    "Brand/Title": "POKEMON JAPANESE GYM",
+    "Card Number": "117",
+    "Category": "TCG Cards",
+    "Cert Number": "100783808",
+    "Item Grade": "NM 7",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "MISTY'S SEADRA-HOLO",
+    "Year": "1998"
+  },
+  "pageUrl": "https://www.psacard.com/cert/100783808/psa",
+  "population": {
+    "atGrade": 195,
+    "higher": 1595
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 635,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/169052528/small/13r01JvTKkmuYKnnQizXbg.jpg",
+      "width": 380
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 0,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/169052528/small/XfDlT_tS6kegSxbQ_0OGNw.jpg",
+      "width": 0
+    }
+  ]
+}

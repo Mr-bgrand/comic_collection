@@ -1,0 +1,37 @@
+{
+  "capturedAt": "2026-09-08T03:38:41.298Z",
+  "cert": "114218224",
+  "estimate": null,
+  "fields": {
+    "Brand/Title": "PANINI OBSIDIAN ECLIPSING LEGENDS",
+    "Card Number": "9",
+    "Category": "FOOTBALL CARDS",
+    "Cert Number": "114218224",
+    "Item Grade": "NM-MT 8",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "WARNER/MURRAY",
+    "Year": "2024"
+  },
+  "pageUrl": "https://www.psacard.com/cert/114218224/psa",
+  "population": {
+    "atGrade": 1,
+    "higher": 1
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 638,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179066759/small/ZqGCGShTt0euEPQvkXuE5g.jpg",
+      "width": 380
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 0,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179066759/small/wc6WylCL1E-rQIUnR12bkA.jpg",
+      "width": 0
+    }
+  ]
+}

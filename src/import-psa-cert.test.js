@@ -13,3 +13,23 @@ test('PSA cert metadata cannot use eBay photos, mismatched IDs or unlabeled pric
  assert.throws(()=>parsePsaCert({...fixture,estimate:{...fixture.estimate,label:'Asking price'}}),/estimate/);
  const mixed=structuredClone(fixture);mixed.scans[1].url=mixed.scans[1].url.replace('174948246','174948247');assert.throws(()=>parsePsaCert(mixed),/different internal IDs/);
 });
+test('missing PSA scans require a scrolled and repeated cert-page review',()=>{
+ const c={...fixture,scans:[],scanStatus:'no-scans-on-cert-page'};
+ assert.throws(()=>parsePsaCert(c),/scans/);
+ assert.throws(()=>parsePsaCert({...c,scanReview:{scrolled:true,rechecked:false}}),/scans/);
+ const parsed=parsePsaCert({...c,scanReview:{scrolled:true,rechecked:true}});
+ assert.equal(parsed.scanStatus,'no-scans-on-cert-page');
+ assert.equal(parsed.subject,fixture.fields.Subject);
+ assert.deepEqual(parsed.images,{});
+ assert.equal(parsed.scanCheckedAt,fixture.capturedAt);
+});
+test('PSA Variety/Pedigree is retained from the current certificate layout',()=>{
+ const c={...fixture,fields:{...fixture.fields,'Variety/Pedigree':'CROWN ZENITH'}};
+ assert.equal(parsePsaCert(c).variety,'CROWN ZENITH');
+});
+test('interrupted scan reviews retain verified identity without asserting no photos exist',()=>{
+ const c={...fixture,scans:[],reviewStatus:'pending-scan-recheck'};
+ assert.equal(parsePsaCert(c).scanStatus,'not-fetched');
+ assert.equal(parsePsaCert(c).subject,fixture.fields.Subject);
+ assert.throws(()=>parsePsaCert({...c,scanStatus:'no-scans-on-cert-page'}),/scans/);
+});

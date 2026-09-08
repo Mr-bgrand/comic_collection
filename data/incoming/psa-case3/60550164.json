@@ -1,0 +1,34 @@
+{
+  "capturedAt": "2026-09-08T03:37:05.844Z",
+  "cert": "60550164",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 110
+  },
+  "fields": {
+    "Brand/Title": "POKEMON XY ROARING SKIES",
+    "Card Number": "99",
+    "Category": "TCG Cards",
+    "Cert Number": "60550164",
+    "Item Grade": "MINT 9",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "FA/GALLADE EX",
+    "Variety/Pedigree": "ROARING SKIES",
+    "Year": "2015"
+  },
+  "pageUrl": "https://www.psacard.com/cert/60550164/psa",
+  "population": {
+    "atGrade": 105,
+    "higher": 18
+  },
+  "scans": [],
+  "scanStatus": "no-scans-on-cert-page",
+  "scanReview": {
+    "scrolled": true,
+    "rechecked": true,
+    "checkedAt": "2026-09-08T04:03:26.984Z",
+    "basis": "Cert number matched in rendered Item Information; no Cert image 1 or Cert image 2 in full accessibility tree after scrolling down and back up."
+  }
+}

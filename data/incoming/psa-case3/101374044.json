@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:34:46.117Z",
+  "cert": "101374044",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 58
+  },
+  "fields": {
+    "Brand/Title": "POKEMON INDONESIAN S PROMO",
+    "Card Number": "016",
+    "Category": "TCG Cards",
+    "Cert Number": "101374044",
+    "Item Grade": "EX 5",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "FA/PIKACHU",
+    "Variety/Pedigree": "KFC CHAKI KIDS MEAL",
+    "Year": "2021"
+  },
+  "pageUrl": "https://www.psacard.com/cert/101374044/psa",
+  "population": {
+    "atGrade": 348,
+    "higher": 2181
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 0,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/169610906/small/NvwZcP9skUu4RR9f7ed5gg.jpg",
+      "width": 0
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 0,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/169610906/small/JKFyjjs1Z06PJyn7m31w9A.jpg",
+      "width": 0
+    }
+  ]
+}

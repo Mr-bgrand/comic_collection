@@ -1,0 +1,41 @@
+{
+  "capturedAt": "2026-09-08T03:56:35.058Z",
+  "cert": "100285399",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 96
+  },
+  "fields": {
+    "Brand/Title": "TOPPS UPDATE",
+    "Card Number": "US123",
+    "Category": "BASEBALL CARDS",
+    "Cert Number": "100285399",
+    "Item Grade": "GEM MT 10",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "SHOHEI OHTANI",
+    "Year": "2024"
+  },
+  "pageUrl": "https://www.psacard.com/cert/100285399/psa",
+  "population": {
+    "atGrade": 243,
+    "higher": 0
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 636,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/168450742/small/oDljrxGsA0eXYnMQzpj_6w.jpg",
+      "width": 380
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 639,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/168450742/small/zhjdPE6ImUaSAvNTthN5Fw.jpg",
+      "width": 380
+    }
+  ]
+}

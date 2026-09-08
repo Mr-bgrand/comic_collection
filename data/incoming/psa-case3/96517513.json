@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:37:07.268Z",
+  "cert": "96517513",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 23
+  },
+  "fields": {
+    "Brand/Title": "POKEMON SWORD & SHIELD BATTLE STYLES",
+    "Card Number": "161",
+    "Category": "TCG Cards",
+    "Cert Number": "96517513",
+    "Item Grade": "MINT 9",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "FA/PHOEBE",
+    "Variety/Pedigree": "BATTLE STYLES",
+    "Year": "2021"
+  },
+  "pageUrl": "https://www.psacard.com/cert/96517513/psa",
+  "population": {
+    "atGrade": 551,
+    "higher": 696
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 635,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/163902136/small/WpWSw5ao-0uxzj8_-IdP4w_56e6f.jpg",
+      "width": 380
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 639,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/163902136/small/eLDUM2zenUGJKT1GdBH44A_9dc3e.jpg",
+      "width": 380
+    }
+  ]
+}

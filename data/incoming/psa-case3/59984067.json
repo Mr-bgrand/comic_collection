@@ -1,0 +1,34 @@
+{
+  "capturedAt": "2026-09-08T03:36:50.728Z",
+  "cert": "59984067",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 296
+  },
+  "fields": {
+    "Brand/Title": "POKEMON PROMO BLACK STAR",
+    "Card Number": "27",
+    "Category": "TCG Cards",
+    "Cert Number": "59984067",
+    "Item Grade": "GEM MT 10",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "PIKACHU",
+    "Variety/Pedigree": "BLACK STAR",
+    "Year": "2000"
+  },
+  "pageUrl": "https://www.psacard.com/cert/59984067/psa",
+  "population": {
+    "atGrade": 5792,
+    "higher": 0
+  },
+  "scans": [],
+  "scanStatus": "no-scans-on-cert-page",
+  "scanReview": {
+    "scrolled": true,
+    "rechecked": true,
+    "checkedAt": "2026-09-08T04:03:26.303Z",
+    "basis": "Cert number matched in rendered Item Information; no Cert image 1 or Cert image 2 in full accessibility tree after scrolling down and back up."
+  }
+}

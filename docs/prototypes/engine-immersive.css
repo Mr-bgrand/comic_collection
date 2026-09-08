@@ -16,3 +16,71 @@
   .inside-case .focus-panel::before{content:'';position:absolute;inset:-15px -23px;z-index:-1;pointer-events:none;background:linear-gradient(transparent,#060d13e6 20%,#060d13e6 80%,transparent)}
 }
 @media(max-height:650px) and (min-width:651px){#singularity-caption{top:148px}#singularity-caption strong{font-size:36px}#singularity-caption p{display:none}#case-session{top:142px}#singularity-tools{bottom:115px}[data-formation=singularity] .object-tools{bottom:112px}}
+
+/* Event Horizon instruments: the full scene travels, then yields to the scan. */
+[data-formation=singularity]{--scene-foil:#b4ddff}
+[data-formation=singularity] .formations button[aria-pressed=true]{background:#c5e6ff}
+[data-formation=singularity] .scope-switch button[aria-pressed=true] span,[data-formation=singularity] .focus-panel .eyebrow{color:#b6dcf8}
+[data-formation=singularity] .atmosphere{background:linear-gradient(0deg,#010511cf,transparent 26%,transparent 78%,#02061088)}
+[data-formation=singularity] .focus-panel{right:5%;width:220px;transition:opacity .55s,transform .55s}
+[data-formation=singularity] .focus-panel::before{background:radial-gradient(ellipse,#020813d9,transparent 74%)}
+[data-formation=singularity] .object-tools{left:46%;bottom:139px}
+#singularity-caption{left:6%;top:25%;color:#b0d4ec;transition:opacity .6s,transform .8s}
+#singularity-caption>span{letter-spacing:2.3px;font-size:9px}
+#singularity-caption strong{font-size:clamp(44px,6.5vw,100px);font-weight:400;line-height:.93;letter-spacing:-5px;margin:22px 0;color:#edf5ff}
+#singularity-caption strong span{color:#e9b783}
+#singularity-caption p{font:11px/1.8 Consolas,monospace;color:#a9bbd0}
+#singularity-tools{right:5%;bottom:158px;width:260px;color:#b4cfe9}
+#flight-readout{display:block;margin-bottom:17px;font:9px Consolas,monospace;letter-spacing:1.1px;color:#e0efff;min-height:12px}
+.arrival-dot{background:#aadaff;box-shadow:0 0 12px #78c7ff}
+.arrival-meter i{background:linear-gradient(90deg,#629dcc,#cceaff,#e6b68f)}
+.arrival-actions button:first-child{color:#def1ff}
+.arrival-actions button{white-space:nowrap}
+[data-formation=singularity][data-arrival-stage=flight] .focus-panel,[data-formation=singularity][data-arrival-stage=crossing] .focus-panel{opacity:0;pointer-events:none;transform:translateY(-40%)}
+[data-formation=singularity][data-arrival-stage=crossing] #singularity-caption{opacity:0;transform:translateY(-15px)}
+[data-formation=singularity][data-arrival-stage=reveal] #singularity-caption,[data-formation=singularity][data-arrival-stage=hold] #singularity-caption,[data-formation=singularity][data-arrival-stage=departure] #singularity-caption{opacity:0;transform:translateY(-15px)}
+[data-formation=singularity][data-arrival-stage=flight] .object-tools,[data-formation=singularity][data-arrival-stage=crossing] .object-tools{opacity:.3}
+[data-formation=singularity].ambient .object-tools,[data-formation=singularity].ambient .focus-panel{opacity:0}
+@media(min-width:651px) and (max-width:1100px){
+  #singularity-caption{left:4%;top:28%}#singularity-caption strong{font-size:56px;letter-spacing:-3px}
+  [data-formation=singularity] .focus-panel{right:3%;width:165px}
+  #singularity-tools{right:3%;width:220px;bottom:145px}.arrival-actions button{font-size:9px}
+  [data-formation=singularity] .object-tools{left:40%;bottom:139px}
+}
+@media(max-width:650px){
+  #singularity-caption{top:24%;left:25px}#singularity-caption>span{font-size:7px}
+  #singularity-caption strong{font-size:55px;letter-spacing:-3px;margin:16px 0}
+  #singularity-caption p{display:block;font-size:9px}
+  [data-formation=singularity] .focus-panel{left:23px;right:23px;width:auto;bottom:286px}
+  [data-formation=singularity] .focus-panel h2{font-size:18px}
+  [data-formation=singularity] .object-tools{left:50%;bottom:226px;min-width:290px}
+  #singularity-tools{left:23px;right:23px;bottom:122px;width:auto}
+  #flight-readout{font-size:7px;margin-bottom:10px}.arrival-label{font-size:6px}
+  .arrival-actions button{font-size:9px;min-height:44px}
+  [data-formation=singularity][data-arrival-stage=flight] .focus-panel,[data-formation=singularity][data-arrival-stage=crossing] .focus-panel{transform:none}
+}
+@media(max-height:650px) and (min-width:651px){
+  #singularity-caption{top:32%}#singularity-caption strong{font-size:48px;letter-spacing:-2px}#singularity-caption p{display:none}
+  #singularity-tools{bottom:122px}#flight-readout{margin-bottom:8px}
+  [data-formation=singularity] .object-tools{bottom:112px}
+}
+@media(max-height:500px) and (min-width:651px){
+  [data-formation=singularity] .scope-switch{left:24px;right:auto;top:78px;transform:none;width:265px}
+  [data-formation=singularity] .scope-switch button{min-height:32px;font-size:9px;padding:4px 9px}
+  [data-formation=singularity] .focus-panel{top:83px;bottom:auto;right:24px;width:193px;transform:none}
+  [data-formation=singularity] .focus-panel h2{font-size:21px;line-height:1.06;margin:7px 0}
+  [data-formation=singularity] .focus-panel .variant,[data-formation=singularity] .focus-panel .source,[data-formation=singularity] .focus-panel dt{display:none}
+  [data-formation=singularity] .focus-panel .eyebrow{font-size:7px}
+  [data-formation=singularity] .focus-panel .grade{font-size:9px;margin:4px 0;padding:5px 9px}
+  [data-formation=singularity] .focus-panel dl{display:flex;gap:10px;margin:7px 0}
+  [data-formation=singularity] .focus-panel dd{font-size:9px}
+  [data-formation=singularity] .record-open{min-height:32px;margin:0;font-size:10px}
+  [data-formation=singularity] .object-tools{left:46%;bottom:94px;padding:3px 6px}
+  [data-formation=singularity] .scene-footer{left:20px;right:240px;bottom:16px;justify-content:center}
+  [data-formation=singularity] .interaction-hint,[data-formation=singularity] .inspect-toggle,[data-formation=singularity] .status-line{display:none}
+  #singularity-tools{right:24px;left:auto;bottom:18px;width:200px}
+  #singularity-tools .arrival-actions{gap:8px}#singularity-tools .arrival-actions button{font-size:8px}
+  #singularity-tools .arrival-label,#flight-readout{font-size:6px}
+  #singularity-caption{left:24px;top:35%}#singularity-caption strong{font-size:44px}
+  [data-formation=singularity][data-arrival-stage=flight] .focus-panel,[data-formation=singularity][data-arrival-stage=crossing] .focus-panel{transform:none}
+}

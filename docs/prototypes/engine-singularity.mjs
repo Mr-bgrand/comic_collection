@@ -1,94 +1,150 @@
-// One cover atlas supplies the debris and arrival mosaic. No per-fragment textures,
-// geometry allocation, or DOM animation occurs in the render loop.
-export function createSingularity(THREE, {scene,foreground,atlas,columns,rows,records,mobile}) {
+// Galactic passage: real, two-sided copies and one streak batch over a stellar sky.
+// Shaders animate geometry in depth; no per-copy textures or frame-loop allocation.
+export function createSingularity(THREE,{scene,atlas,backAtlas,columns,rows,records,mobile}) {
   const group=new THREE.Group();scene.add(group);group.visible=false;
-  const common={uTime:{value:0},uColor:{value:new THREE.Color('#90d5ff')},uEcho:{value:new THREE.Color('#d4a5ff')},uSurge:{value:0},uQuiet:{value:0}};
-  const diskGeo=new THREE.PlaneGeometry(40,30);
-  const disk=new THREE.Mesh(diskGeo,new THREE.ShaderMaterial({uniforms:common,transparent:true,depthWrite:false,depthTest:false,toneMapped:false,
-    vertexShader:`varying vec2 vUv;void main(){vUv=uv;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}`,
-    fragmentShader:`varying vec2 vUv;uniform float uTime,uSurge,uQuiet;uniform vec3 uColor,uEcho;
-    float hash(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}
-    void main(){vec2 p=(vUv-.5)*vec2(2.,1.5);float r=length(p),a=atan(p.y,p.x);float t=uTime*.13;
-      float bend=length(vec2(p.x,p.y*3.7));
-      float edge=exp(-abs(r-.245)*140.);float glow=exp(-abs(r-.252)*25.);
-      float filaments=pow(.5+.5*sin(bend*280.-a*5.-t*13.+sin(a*9.+t)*1.7),4.);
-      float diskBand=exp(-abs(bend-.43)*10.)*smoothstep(.23,.31,r);
-      float arc=pow(.5+.5*sin(a*3.+r*82.-t*5.),6.);
-      float wake=exp(-abs(r-(.25+uSurge*.55))*65.)*uSurge;
-      vec3 foil=.5+.5*cos(vec3(0.,2.1,4.2)+a*2.+r*20.-t);
-      vec3 col=mix(uColor,uEcho,.5+.5*sin(a+t))*glow*.32;
-      col+=mix(uColor,vec3(1.),.78)*edge*1.1;
-      col+=mix(uColor,foil,.45)*diskBand*(.2+filaments*.8)*(1.+arc)*1.5;
-      col+=uEcho*wake*.45;float mask=smoothstep(.237,.245,r);
-      float alpha=max(max(glow*.6,edge),diskBand*.85)+wake*.25;
-      // The center is opaque black, with the dust and mosaic behind the horizon.
-      if(r<.241){gl_FragColor=vec4(.002,.004,.009,1.);return;}
-      gl_FragColor=vec4(col*mask,clamp(alpha,0.,.96));}`
-  }));disk.position.set(mobile?0:3.7,mobile?.3:.9,-7);disk.scale.setScalar(.78);disk.rotation.z=-.18;disk.renderOrder=3;group.add(disk);
+  const uniforms={
+    uTime:{value:0},uFlow:{value:0},uSpeed:{value:0},uField:{value:1},
+    uColor:{value:new THREE.Color('#73cfff')},uEcho:{value:new THREE.Color('#e69b63')},
+    uCross:{value:0},uReveal:{value:0},uAspect:{value:1}
+  };
+  const materials=[],geometries=[];
+  function material(options){const m=new THREE.ShaderMaterial({uniforms:{...uniforms},transparent:true,depthWrite:false,toneMapped:false,...options});materials.push(m);return m;}
+  const plane=new THREE.PlaneGeometry(1,1);geometries.push(plane);
+  const seed=i=>{const x=Math.sin(i*127.1+311.7)*43758.5453;return x-Math.floor(x);};
+  function instances(count){
+    const g=new THREE.InstancedBufferGeometry();g.index=plane.index;g.attributes.position=plane.attributes.position;g.attributes.uv=plane.attributes.uv;
+    const seeds=new Float32Array(count*4);for(let i=0;i<count;i++)seeds.set([seed(i*4),seed(i*4+1),seed(i*4+2),seed(i*4+3)],i*4);
+    g.setAttribute('aSeed',new THREE.InstancedBufferAttribute(seeds,4));g.instanceCount=count;geometries.push(g);return g;
+  }
 
-  const count=mobile?2300:5600,geo=new THREE.InstancedBufferGeometry();
-  const base=new THREE.PlaneGeometry(1,1);geo.index=base.index;geo.attributes.position=base.attributes.position;geo.attributes.uv=base.attributes.uv;
-  const seeds=new Float32Array(count*4),cells=new Float32Array(count*2);
-  for(let i=0;i<count;i++){const rand=n=>{const x=Math.sin(i*127.1+n*311.7)*43758.5453;return x-Math.floor(x);};seeds.set([rand(1),rand(2),rand(3),rand(4)],i*4);const id=i%records.length;cells.set([id%columns,rows-1-Math.floor(id/columns)],i*2);}
-  geo.setAttribute('aSeed',new THREE.InstancedBufferAttribute(seeds,4));geo.setAttribute('aCell',new THREE.InstancedBufferAttribute(cells,2));geo.instanceCount=count;
-  const debrisMat=new THREE.ShaderMaterial({uniforms:{...common,uAtlas:{value:atlas},uGrid:{value:new THREE.Vector2(columns,rows)}},transparent:true,depthWrite:false,side:THREE.DoubleSide,toneMapped:false,
-    vertexShader:`attribute vec4 aSeed;attribute vec2 aCell;varying vec2 vUv,vCell;varying float vGlint,vFade;uniform float uTime,uQuiet;
-    void main(){float t=uTime*(1.-uQuiet);float travel=fract(aSeed.x+t*.022);float r=2.7+pow(travel,.64)*21.;float a=aSeed.y*6.283+t*.07+(1.-travel)*4.5;
-      vec3 center=vec3(cos(a)*r,sin(a)*r*.44,-9.+aSeed.z*7.);
-      float size=.025+pow(aSeed.w,7.)*.34;float turn=aSeed.y*6.28+t*(aSeed.w-.5);
-      vec2 q=mat2(cos(turn),-sin(turn),sin(turn),cos(turn))*position.xy*size;
-      gl_Position=projectionMatrix*modelViewMatrix*vec4(center+vec3(q,0.),1.);
-      vUv=uv;vCell=aCell;vGlint=pow(max(0.,sin(aSeed.z*80.+t*(.6+aSeed.w))),18.);vFade=smoothstep(0.,.12,travel);}`,
-    fragmentShader:`varying vec2 vUv,vCell;varying float vGlint,vFade;uniform sampler2D uAtlas;uniform vec2 uGrid;uniform vec3 uColor,uEcho;
-    void main(){vec2 uv=(vCell+clamp(vUv*.32+vec2(.3,.37),.01,.99))/uGrid;vec3 art=texture2D(uAtlas,uv).rgb;
-      vec3 foil=mix(uColor,uEcho,vUv.x);gl_FragColor=vec4(art*.82+foil*vGlint*1.5,(.26+vGlint*.65)*vFade);}`
-  });
-  const debris=new THREE.Mesh(geo,debrisMat);debris.frustumCulled=false;debris.position.x=mobile?0:3.7;group.add(debris);
+  // A continuous Milky Way band, with irregular dust extinction and pinprick stars.
+  // Screen-space keeps the sky behind every copy without an opaque central object.
+  const sky=new THREE.Mesh(plane,material({depthTest:false,
+    vertexShader:`varying vec2 vUv;void main(){vUv=uv;gl_Position=vec4(position.xy*2.,.999,1.);}`,
+    fragmentShader:`varying vec2 vUv;uniform float uTime,uAspect,uSpeed,uCross,uReveal;
+      float hash(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}
+      float noise(vec2 p){vec2 i=floor(p),f=fract(p);f=f*f*(3.-2.*f);return mix(mix(hash(i),hash(i+vec2(1.,0.)),f.x),mix(hash(i+vec2(0.,1.)),hash(i+1.),f.x),f.y);}
+      float fbm(vec2 p){float n=0.,amp=.5;for(int i=0;i<5;i++){n+=amp*noise(p);p=mat2(.8,-.6,.6,.8)*p*2.03+vec2(7.1,3.7);amp*=.5;}return n;}
+      float starLayer(vec2 p,float scale,float threshold){vec2 cell=floor(p*scale),f=fract(p*scale);
+        vec2 center=.15+.7*vec2(hash(cell),hash(cell+19.3));float size=.035+.065*hash(cell+5.2);
+        vec2 d=f-center;return exp(-dot(d,d)/(size*size))*step(threshold,hash(cell+41.7));}
+      void main(){vec2 p=(vUv-.5)*vec2(uAspect,1.);
+        p*=.94+uSpeed*.035;p+=vec2(uTime*.0007,sin(uTime*.006)*.009);
+        vec2 q=mat2(.91,-.415,.415,.91)*p;
+        float cloud=fbm(q*4.+vec2(13.,7.));
+        float spine=q.y+.045*sin(q.x*2.6)+(cloud-.5)*.13;
+        float halo=exp(-spine*spine*10.);
+        float band=exp(-spine*spine*70.);
+        float coreX=(q.x-.16)*1.45;
+        float core=exp(-coreX*coreX);
+        float detail=fbm(q*25.+cloud*2.);
+        float dust=fbm(q*11.+vec2(4.,12.));
+        float laneY=(spine+.026+(dust-.5)*.16)*24.;
+        float lane=exp(-laneY*laneY);
+        float extinction=1.-lane*smoothstep(.27,.65,dust)*.94;
+        vec3 cool=vec3(.16,.22,.36),pearl=vec3(.62,.55,.45);
+        vec3 color=vec3(.003,.006,.014)+cool*halo*.10;
+        color+=mix(cool,pearl,core*.82)*band*(.18+detail*.48)*extinction;
+        color+=vec3(.19,.10,.20)*halo*pow(cloud,3.)*.34;
+        color+=vec3(.60,.72,1.)*starLayer(p,95.,.955)*.56;
+        color+=vec3(.90,.88,.81)*starLayer(p+17.,210.,mix(.992,.69,band*extinction))*.64;
+        color+=vec3(.56,.65,.85)*starLayer(p-8.,390.,mix(.998,.78,band*extinction))*.38;
+        float crossing=sin(uCross*3.14159)*(1.-uReveal);
+        color*=1.-crossing*.65;gl_FragColor=vec4(color,1.);}`
+  }));sky.frustumCulled=false;sky.renderOrder=-10;group.add(sky);
 
-  const incomingUniforms={...common,uAtlas:{value:atlas},uGrid:{value:new THREE.Vector2(columns,rows)},uCell:{value:new THREE.Vector2()},uCapture:{value:0}};
-  const incoming=new THREE.Mesh(new THREE.PlaneGeometry(1,1.578,24,40),new THREE.ShaderMaterial({uniforms:incomingUniforms,transparent:true,side:THREE.DoubleSide,depthWrite:false,toneMapped:false,
-    vertexShader:`varying vec2 vUv;uniform float uCapture,uTime;void main(){vUv=uv;float p=uCapture;vec3 pos=position;
-      pos.x*=1.-p*.94;pos.y*=1.+sin(p*3.14159)*3.;pos.x+=sin(pos.y*1.3+p*6.)*p*.7;
-      pos.z+=pow(abs(pos.y),1.4)*p*.45;gl_Position=projectionMatrix*modelViewMatrix*vec4(pos,1.);}`,
-    fragmentShader:`varying vec2 vUv;uniform sampler2D uAtlas;uniform vec2 uGrid,uCell;uniform float uCapture;uniform vec3 uColor;
-    void main(){vec3 col=texture2D(uAtlas,(uCell+clamp(vUv,.008,.992))/uGrid).rgb;col+=uColor*pow(uCapture,2.)*.7;gl_FragColor=vec4(col,1.-smoothstep(.78,1.,uCapture));}`
-  }));group.add(incoming);incoming.renderOrder=4;
+  const tunnel=new THREE.Group();group.add(tunnel);
+  const starCount=mobile?650:1500,starGeo=instances(starCount);
+  const stars=new THREE.Mesh(starGeo,material({blending:THREE.AdditiveBlending,side:THREE.DoubleSide,
+    vertexShader:`attribute vec4 aSeed;uniform float uFlow,uSpeed,uField,uAspect;varying vec2 vUv;varying float vFade,vTint;
+      void main(){float a=aSeed.x*6.283185;float r=4.+pow(aSeed.y,.6)*75.;
+        float z=-2.-mod(aSeed.z*230.-uFlow+10000.,230.);
+        vec3 center=vec3(cos(a)*r,sin(a)*r,z);
+        float length=.25+uSpeed*(15.+aSeed.w*35.);
+        vec4 head=projectionMatrix*modelViewMatrix*vec4(center,1.);
+        vec4 tail=projectionMatrix*modelViewMatrix*vec4(center-vec3(0.,0.,length),1.);
+        vec2 dir=normalize(head.xy/head.w-tail.xy/tail.w+vec2(.00001));
+        vec2 normal=vec2(-dir.y/uAspect,dir.x);
+        vec4 clip=mix(head,tail,uv.y);
+        clip.xy+=normal*position.x*(.0011+aSeed.w*.0012)*clip.w;
+        gl_Position=clip;
+        vUv=uv;vFade=(1.-smoothstep(110.,230.,-z))*smoothstep(0.,7.,-z)*(.25+.75*uField);vTint=aSeed.w;}`,
+    fragmentShader:`varying vec2 vUv;varying float vFade,vTint;uniform vec3 uColor;
+      void main(){float rim=pow(max(0.,1.-abs(vUv.x-.5)*2.),1.5);
+        float tip=pow(sin(vUv.y*3.14159),.65);
+        vec3 color=mix(vec3(.4,.72,1.),mix(uColor,vec3(.9,.97,1.),.65),vTint);
+        gl_FragColor=vec4(color*(1.+rim),rim*tip*vFade*.8);}`
+  }));stars.frustumCulled=false;tunnel.add(stars);
 
-  // Tiles of the arriving copy leave a spiral and resolve into its exact atlas cell.
-  const nx=mobile?22:32,ny=mobile?34:50,total=nx*ny;
-  const tileGeo=new THREE.InstancedBufferGeometry();tileGeo.index=base.index;tileGeo.attributes.position=base.attributes.position;tileGeo.attributes.uv=base.attributes.uv;
-  const tile=new Float32Array(total*2);for(let y=0;y<ny;y++)for(let x=0;x<nx;x++)tile.set([x,y],(y*nx+x)*2);
-  tileGeo.setAttribute('aTile',new THREE.InstancedBufferAttribute(tile,2));tileGeo.instanceCount=total;
-  const arrivalUniforms={...common,uAtlas:{value:atlas},uGrid:{value:new THREE.Vector2(columns,rows)},uTiles:{value:new THREE.Vector2(nx,ny)},uCell:{value:new THREE.Vector2()},uProgress:{value:1},uAlpha:{value:0}};
-  const mosaic=new THREE.Mesh(tileGeo,new THREE.ShaderMaterial({uniforms:arrivalUniforms,transparent:true,depthWrite:false,side:THREE.DoubleSide,toneMapped:false,
-    vertexShader:`attribute vec2 aTile;uniform vec2 uTiles;uniform float uProgress;varying vec2 vUv;varying float vSpark;
-    void main(){vec2 tile=(aTile+.5)/uTiles;float seed=fract(sin(dot(aTile,vec2(12.98,78.23)))*43758.54);
-      float p=smoothstep(seed*.18,.82+seed*.18,uProgress);float a=seed*6.283+(1.-p)*9.;
-      vec3 start=vec3(2.7+cos(a)*(1.+seed*3.),sin(a)*(1.+seed*2.),-5.-seed*6.);
-      vec3 end=vec3(tile.x-.5,(tile.y-.5)*1.578,0.);
-      vec3 pos=mix(start,end,p)+vec3(position.x/uTiles.x,position.y/uTiles.y*1.578,0.);
-      vUv=(aTile+uv)/uTiles;vSpark=sin(seed*200.+p*18.)*(1.-p);
-      gl_Position=projectionMatrix*modelViewMatrix*vec4(pos,1.);}`,
-    fragmentShader:`varying vec2 vUv;varying float vSpark;uniform sampler2D uAtlas;uniform vec2 uGrid,uCell;uniform float uAlpha;uniform vec3 uColor;
-    void main(){vec3 color=texture2D(uAtlas,(uCell+clamp(vUv,.008,.992))/uGrid).rgb;gl_FragColor=vec4(color+uColor*max(0.,vSpark)*.6,uAlpha);}`
-  }));mosaic.frustumCulled=false;foreground.add(mosaic);mosaic.visible=false;
-  const color=new THREE.Color();let previous=-1;
+  const copyCount=mobile?44:96,copyGeo=instances(copyCount),cells=new Float32Array(copyCount*2);
+  copyGeo.setAttribute('aCell',new THREE.InstancedBufferAttribute(cells,2));
+  const copyUniforms={...uniforms,uAtlas:{value:atlas},uBack:{value:backAtlas},uGrid:{value:new THREE.Vector2(columns,rows)},uNarrow:{value:mobile?1:0}};
+  const copies=new THREE.Mesh(copyGeo,material({uniforms:copyUniforms,side:THREE.DoubleSide,
+    vertexShader:`attribute vec4 aSeed;attribute vec2 aCell;uniform float uFlow,uTime,uSpeed,uNarrow;varying vec2 vUv,vCell;varying float vFade;
+      void main(){float a=aSeed.x*6.283185+uTime*.018;
+        float radius=mix(10.,7.,uNarrow)+aSeed.y*15.;
+        float z=-3.-mod(aSeed.z*190.-uFlow*.84+10000.,190.);
+        float size=3.3+aSeed.w*2.8;
+        float roll=(aSeed.x-.5)*1.2+uTime*(aSeed.w-.5)*.055;
+        float turn=(aSeed.y-.5)*2.+sin(uTime*.17+aSeed.z*17.)*.45;
+        if(aSeed.w>.73)turn+=3.14159;
+        vec2 q=mat2(cos(roll),-sin(roll),sin(roll),cos(roll))*vec2(position.x,position.y*1.578)*size;
+        vec3 p=vec3(cos(a)*radius,sin(a)*radius*.82,z)+vec3(q.x*cos(turn),q.y,q.x*sin(turn));
+        gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
+        vUv=uv;vCell=aCell;vFade=(1.-smoothstep(80.,190.,-z))*smoothstep(1.,10.,-z);}`,
+    fragmentShader:`varying vec2 vUv,vCell;varying float vFade;uniform sampler2D uAtlas,uBack;uniform vec2 uGrid;uniform float uField;uniform vec3 uColor;
+      void main(){vec2 sideUv=gl_FrontFacing?vUv:vec2(1.-vUv.x,vUv.y);
+        vec2 at=(vCell+clamp(sideUv,.008,.992))/uGrid;
+        vec3 art=gl_FrontFacing?texture2D(uAtlas,at).rgb:texture2D(uBack,at).rgb;
+        float edge=1.-smoothstep(.003,.016,min(min(vUv.x,1.-vUv.x),min(vUv.y,1.-vUv.y)));
+        gl_FragColor=vec4(art*(.68+.32*uField)+uColor*edge*.55,vFade*uField);}`
+  }));copies.frustumCulled=false;copies.renderOrder=1;tunnel.add(copies);
+
+  // A soft chromatic shock front masks the crossing without a white-screen flash.
+  const shock=new THREE.Mesh(plane,material({depthTest:false,blending:THREE.AdditiveBlending,
+    vertexShader:`varying vec2 vUv;void main(){vUv=uv;gl_Position=vec4(position.xy*2.,0.,1.);}`,
+    fragmentShader:`varying vec2 vUv;uniform float uCross,uAspect,uReveal;uniform vec3 uColor;
+      void main(){vec2 p=(vUv-.5)*vec2(uAspect,1.);float r=length(p);
+        float wave=exp(-abs(r-uCross*2.)*16.)*sin(uCross*3.14159);
+        float rim=pow(smoothstep(.15,1.,r),3.)*(1.-uReveal)*sin(uCross*3.14159);
+        gl_FragColor=vec4(mix(uColor,vec3(.5,.8,1.),.55),wave*.48+rim*.13);}`
+  }));shock.frustumCulled=false;shock.renderOrder=5;group.add(shock);
+
+  const tint=new THREE.Color(),restPosition=new THREE.Vector3(),restScale=new THREE.Vector3();
+  let previous=-1,queueIndex=-1,queueReference=null,flow=0;
   return {
-    update({active,time,progress,capture,index,nextIndex,quiet,hero,assemble}){
-      group.visible=active;mosaic.visible=active&&!quiet&&assemble<1;
-      if(!active)return;
-      common.uTime.value=time;common.uQuiet.value=quiet?1:0;common.uSurge.value=capture;
-      if(previous!==index){common.uEcho.value.copy(common.uColor.value);previous=index;}
-      color.set(records[index].palette||'#93bedd');common.uColor.value.lerp(color,.025);
-      arrivalUniforms.uCell.value.set(index%columns,rows-1-Math.floor(index/columns));
-      incomingUniforms.uCell.value.set(nextIndex%columns,rows-1-Math.floor(nextIndex/columns));incomingUniforms.uCapture.value=capture;
-      incoming.visible=!quiet&&capture>0;
-      incoming.position.set(disk.position.x+6.5*(1-capture),disk.position.y+1.3*(1-capture),-6+capture*.3);
-      incoming.rotation.z=-.35-capture*1.7;incoming.scale.setScalar(1.5*(1-capture*.7));
-      arrivalUniforms.uProgress.value=assemble;arrivalUniforms.uAlpha.value=1-Math.max(0,(assemble-.82)/.18);
-      mosaic.position.copy(hero.position);mosaic.rotation.copy(hero.rotation);mosaic.scale.copy(hero.scale);
+    update({active,time,dt,frame,index,indices,quiet,playing,hero,camera,aspect,ambient}){
+      group.visible=active;if(!active)return;
+      uniforms.uTime.value=time;uniforms.uAspect.value=aspect;
+      uniforms.uSpeed.value=quiet?0:frame.speed;
+      uniforms.uCross.value=frame.crossing;uniforms.uReveal.value=frame.assemble;
+      uniforms.uField.value=quiet?.12:frame.stage==='flight'?1:frame.stage==='crossing'?1-frame.crossing*.9:.12+frame.departure*.5;
+      if(playing&&!quiet)flow+=dt*(3+frame.speed*100);
+      uniforms.uFlow.value=flow;tunnel.position.copy(camera.position);
+      if(previous!==index){uniforms.uEcho.value.copy(uniforms.uColor.value);previous=index;}
+      tint.set(records[index].palette||'#73cfff');uniforms.uColor.value.lerp(tint,quiet?1:Math.min(1,dt*1.5));
+      if(index!==queueIndex||indices!==queueReference){
+        queueIndex=index;queueReference=indices;const at=Math.max(0,indices.indexOf(index));
+        for(let i=0;i<copyCount;i++){const id=indices.length?indices[(at+i+1)%indices.length]:index;cells.set([id%columns,rows-1-Math.floor(id/columns)],i*2);}
+        copyGeo.attributes.aCell.needsUpdate=true;
+      }
+      // Capture the caller's steady pose, then author the approach/reveal in depth.
+      restPosition.copy(hero.position);restScale.copy(hero.scale);
+      hero.visible=quiet||frame.stage==='reveal'||frame.stage==='hold'||frame.stage==='departure';
+      if(!quiet&&frame.stage==='reveal'){
+        const p=frame.assemble,ease=1-Math.pow(1-p,3);
+        hero.position.set(restPosition.x*ease,restPosition.y*ease,-44*(1-ease));
+        hero.scale.copy(restScale).multiplyScalar(.6+.4*ease+Math.sin(p*Math.PI)*.1);
+        hero.rotation.y-=Math.pow(1-p,2)*1.35;hero.rotation.z+=(1-p)*.3;
+      }
+      if(!quiet&&frame.stage==='departure'){
+        const p=frame.departure;
+        hero.position.z=-65*p*p;hero.rotation.z-=p*.22;
+        hero.scale.multiplyScalar(1-p*.85);
+      }
+      if(ambient&&frame.stage==='hold')copies.visible=false;else copies.visible=true;
     },
-    resize(isMobile){disk.position.x=debris.position.x=isMobile?0:3.7;disk.position.y=isMobile?.3:.9;geo.instanceCount=Math.min(count,isMobile?2300:5600);},
-    dispose(){scene.remove(group);foreground.remove(mosaic);diskGeo.dispose();disk.material.dispose();geo.dispose();debrisMat.dispose();tileGeo.dispose();mosaic.material.dispose();incoming.geometry.dispose();incoming.material.dispose();base.dispose();}
+    resize(isMobile){copyGeo.instanceCount=Math.min(copyCount,isMobile?44:96);starGeo.instanceCount=Math.min(starCount,isMobile?650:1500);copyUniforms.uNarrow.value=isMobile?1:0;},
+    dispose(){scene.remove(group);for(const g of geometries)g.dispose();for(const m of materials)m.dispose();}
   };
 }

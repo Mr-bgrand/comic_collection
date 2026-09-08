@@ -1,0 +1,1452 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Comic Bin #13 (Softslabs) manifest</title>
+<style>
+
+@page { size: letter; margin: 0.5in; }
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #16161a;
+  background: #fff;
+  font-size: 7.6pt;
+  line-height: 1.26;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.side { page-break-after: always; }
+.side:last-child { page-break-after: auto; }
+
+.masthead {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.15in;
+  padding-bottom: 0.04in;
+  margin-bottom: 0.06in;
+  border-bottom: 2pt solid #16161a;
+}
+
+.masthead h1 { font-size: 14pt; font-weight: 800; letter-spacing: -0.025em; }
+.masthead .sub { margin-top: 0.02in; font-size: 7.5pt; color: #55555e; }
+
+/*
+ * The QR repeats on every side, because each side is a standalone page — whoever
+ * is holding side 2 should not have to go find side 1 to scan through.
+ */
+.mast-qr { flex: none; width: 0.8in; text-align: center; }
+.mast-qr svg { width: 0.8in; height: 0.8in; display: block; }
+.mast-qr .cap { margin-top: 0.01in; font-size: 5.5pt; line-height: 1.1; color: #55555e; }
+
+.cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0.24in;
+}
+
+.entry {
+  display: grid;
+  grid-template-columns: 0.76in 1fr;
+  column-gap: 0.1in;
+  height: 1.25in;
+  padding: 0.02in 0;
+  border-bottom: 0.3pt solid #e4e4e8;
+  overflow: hidden;
+  break-inside: avoid;
+}
+
+.cover {
+  width: 0.76in;
+  height: 1.2in;
+  object-fit: cover;
+  border: 0.3pt solid #c8c8d0;
+  background: #f4f4f6;
+}
+
+.cover-none {
+  width: 0.76in;
+  height: 1.2in;
+  border: 0.3pt dashed #c8c8d0;
+}
+
+.head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.06in;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 8.2pt;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  /* Two lines for the title; variant strings rarely fit one at this width. */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.grade {
+  font-weight: 800;
+  font-size: 9.5pt;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/*
+ * Detail lines wrap up to two lines each and then clip. Entries are a fixed
+ * height so the page count stays deterministic; compactDetailLines puts the
+ * appraisal-critical figures first so the clipping falls on the prose.
+ */
+.meta {
+  margin-top: 0.015in;
+  color: #2a2a31;
+  font-weight: 500;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.meta .cert { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 7pt; }
+.pop { font-weight: 700; color: #7a5410; }
+
+.pagefoot {
+  margin-top: 0.06in;
+  padding-top: 0.04in;
+  border-top: 0.75pt solid #c8c8d0;
+  font-size: 6.5pt;
+  color: #55555e;
+  display: flex;
+  justify-content: space-between;
+}
+
+</style>
+</head>
+<body>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Comic Bin #13 (Softslabs)</h1>
+      <div class="sub">98 copies &middot; Comic Bin #13 &middot; printed 2026-09-08</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h37v37H0z"/><path stroke="#000000" d="M0 0.5h7m3 0h2m1 0h1m2 0h2m5 0h3m2 0h1m1 0h7M0 1.5h1m5 0h1m2 0h1m1 0h1m2 0h4m2 0h1m1 0h1m1 0h5m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h5m4 0h1m1 0h1m3 0h2m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h1m2 0h2m2 0h1m1 0h5m3 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h6m1 0h1m1 0h2m1 0h1m2 0h2m3 0h1m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h2m2 0h3m1 0h2m2 0h3m1 0h2m1 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h1m5 0h6m1 0h4m1 0h2M0 8.5h1m1 0h5m2 0h2m3 0h3m7 0h5m1 0h5M0 9.5h1m1 0h2m1 0h1m1 0h4m3 0h2m2 0h1m1 0h1m1 0h2m10 0h2M3 10.5h1m2 0h1m2 0h1m1 0h2m2 0h5m1 0h1m4 0h4m1 0h2m1 0h3M1 11.5h2m2 0h1m3 0h1m3 0h3m3 0h4m1 0h1m2 0h5m4 0h1M0 12.5h1m1 0h2m1 0h6m1 0h1m2 0h1m1 0h1m1 0h1m2 0h4m1 0h1m1 0h2m1 0h1m1 0h3M0 13.5h1m4 0h1m2 0h2m1 0h1m1 0h1m2 0h1m1 0h4m1 0h1m1 0h1m2 0h2m1 0h1M4 14.5h1m1 0h2m2 0h3m2 0h1m2 0h1m1 0h2m3 0h3m1 0h1m1 0h3m2 0h1M2 15.5h1m1 0h2m1 0h1m5 0h4m4 0h2m3 0h1m2 0h1m1 0h2M0 16.5h3m3 0h2m2 0h6m2 0h3m3 0h4m2 0h3m1 0h2M0 17.5h1m1 0h1m1 0h1m3 0h1m1 0h2m1 0h5m4 0h2m1 0h1m2 0h2m1 0h1m1 0h1m1 0h1M1 18.5h2m3 0h2m1 0h6m2 0h1m2 0h1m1 0h1m1 0h5m1 0h2m1 0h4M0 19.5h1m2 0h3m1 0h1m1 0h1m1 0h1m4 0h1m4 0h4m6 0h1m4 0h1M0 20.5h3m2 0h5m6 0h2m7 0h4m1 0h1m1 0h3M0 21.5h1m1 0h1m1 0h1m2 0h5m1 0h1m2 0h6m1 0h1m1 0h1m2 0h1m4 0h1M2 22.5h2m2 0h1m2 0h3m2 0h4m2 0h1m3 0h1m1 0h4m1 0h3m1 0h2M1 23.5h1m1 0h3m7 0h1m3 0h2m1 0h3m1 0h1m1 0h1m1 0h2m1 0h2m2 0h1M0 24.5h1m3 0h1m1 0h2m1 0h1m1 0h6m2 0h1m1 0h1m1 0h8m1 0h1m1 0h2M0 25.5h1m2 0h1m3 0h1m2 0h2m1 0h1m1 0h1m1 0h2m1 0h1m2 0h1m4 0h1m2 0h1M0 26.5h1m1 0h2m1 0h3m3 0h3m1 0h2m2 0h1m2 0h1m2 0h5m1 0h1m3 0h2M0 27.5h1m2 0h1m3 0h4m1 0h4m2 0h5m3 0h2m1 0h2m1 0h1M0 28.5h1m1 0h1m2 0h3m1 0h1m2 0h1m1 0h2m1 0h1m1 0h1m2 0h11m1 0h3M8 29.5h2m2 0h1m3 0h1m1 0h3m2 0h1m1 0h1m1 0h2m3 0h2M0 30.5h7m2 0h2m4 0h2m1 0h1m1 0h1m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m1 0h2m1 0h2m1 0h3m2 0h2m5 0h1m1 0h1m3 0h2m1 0h2M0 32.5h1m1 0h3m1 0h1m1 0h2m1 0h1m1 0h3m2 0h5m1 0h9m1 0h1M0 33.5h1m1 0h3m1 0h1m1 0h2m1 0h2m2 0h3m3 0h1m1 0h3m1 0h4m1 0h1m3 0h1M0 34.5h1m1 0h3m1 0h1m1 0h3m1 0h3m5 0h1m6 0h1m5 0h4M0 35.5h1m5 0h1m3 0h1m5 0h1m1 0h1m2 0h4m1 0h3m1 0h1m1 0h1m3 0h1M0 36.5h7m1 0h4m5 0h1m4 0h1m2 0h2m2 0h1m2 0h5"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_5356989824_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">What If...? Dark: Carnage #1</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 2023-11-01 · 2023</div>
+        <div class="meta">Story: Larry Hama · Art: John McCrea · Cover: Philip Tan</div>
+        <div class="meta">Authority ID 5356989824</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7721743138_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">The Immortal Thor #1 : Miss Minutes Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 2023-10-01 · 2023</div>
+        <div class="meta">Story: Al Ewing · Art: Martin Coccolo · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 7721743138 · Key: G.O.D.S. Tie-In</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_3297623591_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Black Panther #1 : Mr. Garcin Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 08/2023 · 2023</div>
+        <div class="meta">Story: Eve L. Ewing · Art: Chris Allen · Cover: Mr. Garcin</div>
+        <div class="meta">Authority ID 3297623591</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_6741967651_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Avengers: Twilight #1 : Skottie Young Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 3/2024 · 2024</div>
+        <div class="meta">Story: Chip Zdarsky, Ralph Macchio · Art: Daniel Acuna, Walt Simonson · Cover: Skottie Young</div>
+        <div class="meta">Authority ID 6741967651</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_2896359526_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">G.O.D.S. #1 : Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 2023-12-01 · 2023</div>
+        <div class="meta">Story: Jonathan Hickman · Art: Valerio Schiti · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 2896359526</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7331534745_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Superman #9 : Santa Card Stock Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 2024-02-01 · 2023</div>
+        <div class="meta">Story: Joshua Williamson · Art: Bruno Redondo · Cover: Mikel Janin</div>
+        <div class="meta">Authority ID 7331534745</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_1861958316_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">The Return of Superman 30th Anniversary Special #1 : Dan Jurgens Cover</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 12/2023 · 2023</div>
+        <div class="meta">Story: Various · Art: Various · Cover: Dan Jurgens</div>
+        <div class="meta">Authority ID 1861958316</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_3559385072_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">The Return of Superman 30th Anniversary Special #1 : Dave Wilkins Steel Die-Cut Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 12/2023 · 2023</div>
+        <div class="meta">Story: Various · Art: Various · Cover: Dave Wilkins</div>
+        <div class="meta">Authority ID 3559385072</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_8178795398_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">The Return of Superman 30th Anniversary Special #1 : Dan Jurgens Foil Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 12/2023 · 2023</div>
+        <div class="meta">Story: Various · Art: Various · Cover: Dan Jurgens</div>
+        <div class="meta">Authority ID 8178795398</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_6417207368_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">The Return of Superman 30th Anniversary Special #1 : John Giang Cyborg Superman Die-Cut Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 12/2023 · 2023</div>
+        <div class="meta">Story: Various · Art: Various · Cover: John Giang</div>
+        <div class="meta">Authority ID 6417207368</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_6592229462_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">The Return of Superman 30th Anniversary Special #1 : John Giang Cyborg Superman Die-Cut Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 12/2023 · 2023</div>
+        <div class="meta">Story: Various · Art: Various · Cover: John Giang</div>
+        <div class="meta">Authority ID 6592229462</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_3237468880_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Dark X-Men #3 : Skottie Young Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 12/2023 · 2023</div>
+        <div class="meta">Story: Steve Foxe · Art: Jonas Scharf · Cover: Skottie Young</div>
+        <div class="meta">Authority ID 3237468880</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_9125336146_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Captain Marvel #1 : Nakayama Foil Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 2023-12-01 · 2023</div>
+        <div class="meta">Story: Alyssa Wong · Art: Jan Bazaldua · Cover: David Nakayama</div>
+        <div class="meta">Authority ID 9125336146</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_9782041734_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Supergirl Special #1 : Jack Card Stock Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 2023-12-01 · 2023</div>
+        <div class="meta">Story: Mariko Tamaki · Art: Skylar Patridge · Cover: Will Jack</div>
+        <div class="meta">Authority ID 9782041734</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/review/?case=comic-bin-13</span>
+    <span>Side 1 of 7</span>
+  </div>
+</section>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Comic Bin #13 (Softslabs)</h1>
+      <div class="sub">98 copies &middot; Comic Bin #13 &middot; printed 2026-09-08</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h37v37H0z"/><path stroke="#000000" d="M0 0.5h7m3 0h2m1 0h1m2 0h2m5 0h3m2 0h1m1 0h7M0 1.5h1m5 0h1m2 0h1m1 0h1m2 0h4m2 0h1m1 0h1m1 0h5m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h5m4 0h1m1 0h1m3 0h2m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h1m2 0h2m2 0h1m1 0h5m3 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h6m1 0h1m1 0h2m1 0h1m2 0h2m3 0h1m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h2m2 0h3m1 0h2m2 0h3m1 0h2m1 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h1m5 0h6m1 0h4m1 0h2M0 8.5h1m1 0h5m2 0h2m3 0h3m7 0h5m1 0h5M0 9.5h1m1 0h2m1 0h1m1 0h4m3 0h2m2 0h1m1 0h1m1 0h2m10 0h2M3 10.5h1m2 0h1m2 0h1m1 0h2m2 0h5m1 0h1m4 0h4m1 0h2m1 0h3M1 11.5h2m2 0h1m3 0h1m3 0h3m3 0h4m1 0h1m2 0h5m4 0h1M0 12.5h1m1 0h2m1 0h6m1 0h1m2 0h1m1 0h1m1 0h1m2 0h4m1 0h1m1 0h2m1 0h1m1 0h3M0 13.5h1m4 0h1m2 0h2m1 0h1m1 0h1m2 0h1m1 0h4m1 0h1m1 0h1m2 0h2m1 0h1M4 14.5h1m1 0h2m2 0h3m2 0h1m2 0h1m1 0h2m3 0h3m1 0h1m1 0h3m2 0h1M2 15.5h1m1 0h2m1 0h1m5 0h4m4 0h2m3 0h1m2 0h1m1 0h2M0 16.5h3m3 0h2m2 0h6m2 0h3m3 0h4m2 0h3m1 0h2M0 17.5h1m1 0h1m1 0h1m3 0h1m1 0h2m1 0h5m4 0h2m1 0h1m2 0h2m1 0h1m1 0h1m1 0h1M1 18.5h2m3 0h2m1 0h6m2 0h1m2 0h1m1 0h1m1 0h5m1 0h2m1 0h4M0 19.5h1m2 0h3m1 0h1m1 0h1m1 0h1m4 0h1m4 0h4m6 0h1m4 0h1M0 20.5h3m2 0h5m6 0h2m7 0h4m1 0h1m1 0h3M0 21.5h1m1 0h1m1 0h1m2 0h5m1 0h1m2 0h6m1 0h1m1 0h1m2 0h1m4 0h1M2 22.5h2m2 0h1m2 0h3m2 0h4m2 0h1m3 0h1m1 0h4m1 0h3m1 0h2M1 23.5h1m1 0h3m7 0h1m3 0h2m1 0h3m1 0h1m1 0h1m1 0h2m1 0h2m2 0h1M0 24.5h1m3 0h1m1 0h2m1 0h1m1 0h6m2 0h1m1 0h1m1 0h8m1 0h1m1 0h2M0 25.5h1m2 0h1m3 0h1m2 0h2m1 0h1m1 0h1m1 0h2m1 0h1m2 0h1m4 0h1m2 0h1M0 26.5h1m1 0h2m1 0h3m3 0h3m1 0h2m2 0h1m2 0h1m2 0h5m1 0h1m3 0h2M0 27.5h1m2 0h1m3 0h4m1 0h4m2 0h5m3 0h2m1 0h2m1 0h1M0 28.5h1m1 0h1m2 0h3m1 0h1m2 0h1m1 0h2m1 0h1m1 0h1m2 0h11m1 0h3M8 29.5h2m2 0h1m3 0h1m1 0h3m2 0h1m1 0h1m1 0h2m3 0h2M0 30.5h7m2 0h2m4 0h2m1 0h1m1 0h1m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m1 0h2m1 0h2m1 0h3m2 0h2m5 0h1m1 0h1m3 0h2m1 0h2M0 32.5h1m1 0h3m1 0h1m1 0h2m1 0h1m1 0h3m2 0h5m1 0h9m1 0h1M0 33.5h1m1 0h3m1 0h1m1 0h2m1 0h2m2 0h3m3 0h1m1 0h3m1 0h4m1 0h1m3 0h1M0 34.5h1m1 0h3m1 0h1m1 0h3m1 0h3m5 0h1m6 0h1m5 0h4M0 35.5h1m5 0h1m3 0h1m5 0h1m1 0h1m2 0h4m1 0h3m1 0h1m1 0h1m3 0h1M0 36.5h7m1 0h4m5 0h1m4 0h1m2 0h2m2 0h1m2 0h5"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_5997731356_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">The Return of Superman 30th Anniversary Special #1 : Dan Jurgens Foil Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 12/2023 · 2023</div>
+        <div class="meta">Story: Various · Art: Various · Cover: Dan Jurgens</div>
+        <div class="meta">Authority ID 5997731356</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_8715449494_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Dark X-Men #3 : Skottie Young Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 12/2023 · 2023</div>
+        <div class="meta">Story: Steve Foxe · Art: Jonas Scharf · Cover: Skottie Young</div>
+        <div class="meta">Authority ID 8715449494</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_8091964539_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Strange Academy: Amazing Spider-Man #1 : Ramos Connecting Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 2023-12-01 · 2023</div>
+        <div class="meta">Story: Carlos Hernandez · Art: Vasco Georgiev · Cover: Humberto Ramos</div>
+        <div class="meta">Authority ID 8091964539</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_8871359406_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spine-Tingling Spider-Man #1 : Parrillo Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 12/2023 · 2023</div>
+        <div class="meta">Story: Saladin Ahmed · Art: Juan Ferreyra · Cover: Lucio Parrillo</div>
+        <div class="meta">Authority ID 8871359406</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_8431632234_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">The Return of Superman 30th Anniversary Special #1 : Dave Wilkins Steel Die-Cut Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 12/2023 · 2023</div>
+        <div class="meta">Story: Various · Art: Various · Cover: Dave Wilkins</div>
+        <div class="meta">Authority ID 8431632234</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_5015459756_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Jean Grey #2 : Momoko X-Men 60th Anniversary Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 11/2023 · 2023</div>
+        <div class="meta">Story: Louise Jones Simonson · Art: Bernard Chang · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 5015459756</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_4526058008_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">The Flash #1 : Besch Creator Card Stock Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 2023-11-01</div>
+        <div class="meta">Story: Si Spurrier · Art: Mike Deodato Jr. · Cover: Rose Besch</div>
+        <div class="meta">Authority ID 4526058008 · Key: 1st Cameo The Uncoiled</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_4433558518_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Marvel Unleashed #2 : Lim Lucky Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 11/2023 · 2023</div>
+        <div class="meta">Story: Kyle Starks · Art: Jesus Hervas · Cover: Ron Lim</div>
+        <div class="meta">Authority ID 4433558518</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_9690645587_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Jean Grey #2 : Momoko X-Men 60th Anniversary Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 11/2023 · 2023</div>
+        <div class="meta">Story: Louise Jones Simonson · Art: Bernard Chang · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 9690645587</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7928681804_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">The Avengers #5 : Ross Connecting Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 2023-11-01 · 2023</div>
+        <div class="meta">Story: Jed MacKay · Art: Carlos Villa · Cover: Alex Ross</div>
+        <div class="meta">Authority ID 7928681804</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_9769296715_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Star Wars: The High Republic - Shadows of Starlight #1</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 2023-12-01</div>
+        <div class="meta">Story: Charles Soule · Art: Ibraim Roberson · Cover: Phil Noto</div>
+        <div class="meta">Authority ID 9769296715</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_1817179410_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spine-Tingling Spider-Man #0 : Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 11/2023 · 2023</div>
+        <div class="meta">Story: Saladin Ahmed · Art: Juan Ferreyra · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 1817179410</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_8310372021_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spine-Tingling Spider-Man #0 : Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 11/2023 · 2023</div>
+        <div class="meta">Story: Saladin Ahmed · Art: Juan Ferreyra · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 8310372021</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_5343446455_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Marvel Unleashed #2 : Lim Lucky Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 11/2023 · 2023</div>
+        <div class="meta">Story: Kyle Starks · Art: Jesus Hervas · Cover: Ron Lim</div>
+        <div class="meta">Authority ID 5343446455</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/review/?case=comic-bin-13</span>
+    <span>Side 2 of 7</span>
+  </div>
+</section>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Comic Bin #13 (Softslabs)</h1>
+      <div class="sub">98 copies &middot; Comic Bin #13 &middot; printed 2026-09-08</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h37v37H0z"/><path stroke="#000000" d="M0 0.5h7m3 0h2m1 0h1m2 0h2m5 0h3m2 0h1m1 0h7M0 1.5h1m5 0h1m2 0h1m1 0h1m2 0h4m2 0h1m1 0h1m1 0h5m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h5m4 0h1m1 0h1m3 0h2m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h1m2 0h2m2 0h1m1 0h5m3 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h6m1 0h1m1 0h2m1 0h1m2 0h2m3 0h1m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h2m2 0h3m1 0h2m2 0h3m1 0h2m1 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h1m5 0h6m1 0h4m1 0h2M0 8.5h1m1 0h5m2 0h2m3 0h3m7 0h5m1 0h5M0 9.5h1m1 0h2m1 0h1m1 0h4m3 0h2m2 0h1m1 0h1m1 0h2m10 0h2M3 10.5h1m2 0h1m2 0h1m1 0h2m2 0h5m1 0h1m4 0h4m1 0h2m1 0h3M1 11.5h2m2 0h1m3 0h1m3 0h3m3 0h4m1 0h1m2 0h5m4 0h1M0 12.5h1m1 0h2m1 0h6m1 0h1m2 0h1m1 0h1m1 0h1m2 0h4m1 0h1m1 0h2m1 0h1m1 0h3M0 13.5h1m4 0h1m2 0h2m1 0h1m1 0h1m2 0h1m1 0h4m1 0h1m1 0h1m2 0h2m1 0h1M4 14.5h1m1 0h2m2 0h3m2 0h1m2 0h1m1 0h2m3 0h3m1 0h1m1 0h3m2 0h1M2 15.5h1m1 0h2m1 0h1m5 0h4m4 0h2m3 0h1m2 0h1m1 0h2M0 16.5h3m3 0h2m2 0h6m2 0h3m3 0h4m2 0h3m1 0h2M0 17.5h1m1 0h1m1 0h1m3 0h1m1 0h2m1 0h5m4 0h2m1 0h1m2 0h2m1 0h1m1 0h1m1 0h1M1 18.5h2m3 0h2m1 0h6m2 0h1m2 0h1m1 0h1m1 0h5m1 0h2m1 0h4M0 19.5h1m2 0h3m1 0h1m1 0h1m1 0h1m4 0h1m4 0h4m6 0h1m4 0h1M0 20.5h3m2 0h5m6 0h2m7 0h4m1 0h1m1 0h3M0 21.5h1m1 0h1m1 0h1m2 0h5m1 0h1m2 0h6m1 0h1m1 0h1m2 0h1m4 0h1M2 22.5h2m2 0h1m2 0h3m2 0h4m2 0h1m3 0h1m1 0h4m1 0h3m1 0h2M1 23.5h1m1 0h3m7 0h1m3 0h2m1 0h3m1 0h1m1 0h1m1 0h2m1 0h2m2 0h1M0 24.5h1m3 0h1m1 0h2m1 0h1m1 0h6m2 0h1m1 0h1m1 0h8m1 0h1m1 0h2M0 25.5h1m2 0h1m3 0h1m2 0h2m1 0h1m1 0h1m1 0h2m1 0h1m2 0h1m4 0h1m2 0h1M0 26.5h1m1 0h2m1 0h3m3 0h3m1 0h2m2 0h1m2 0h1m2 0h5m1 0h1m3 0h2M0 27.5h1m2 0h1m3 0h4m1 0h4m2 0h5m3 0h2m1 0h2m1 0h1M0 28.5h1m1 0h1m2 0h3m1 0h1m2 0h1m1 0h2m1 0h1m1 0h1m2 0h11m1 0h3M8 29.5h2m2 0h1m3 0h1m1 0h3m2 0h1m1 0h1m1 0h2m3 0h2M0 30.5h7m2 0h2m4 0h2m1 0h1m1 0h1m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m1 0h2m1 0h2m1 0h3m2 0h2m5 0h1m1 0h1m3 0h2m1 0h2M0 32.5h1m1 0h3m1 0h1m1 0h2m1 0h1m1 0h3m2 0h5m1 0h9m1 0h1M0 33.5h1m1 0h3m1 0h1m1 0h2m1 0h2m2 0h3m3 0h1m1 0h3m1 0h4m1 0h1m3 0h1M0 34.5h1m1 0h3m1 0h1m1 0h3m1 0h3m5 0h1m6 0h1m5 0h4M0 35.5h1m5 0h1m3 0h1m5 0h1m1 0h1m2 0h4m1 0h3m1 0h1m1 0h1m3 0h1M0 36.5h7m1 0h4m5 0h1m4 0h1m2 0h2m2 0h1m2 0h5"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_4414578796_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Harley Quinn: Black + White + Redder #1 : Bruno Redondo Cover</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 09/2023 · 2023</div>
+        <div class="meta">Story: Chip Zdarsky · Art: Kevin Maguire · Cover: Bruno Redondo</div>
+        <div class="meta">Authority ID 4414578796</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7855256189_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Miles Morales: Spider-Man #8 : Chang Hellfire Gala Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 09/2023 · 2023</div>
+        <div class="meta">Story: Cody Ziglar · Art: Federico Vicentini · Cover: Bernard Chang</div>
+        <div class="meta">Authority ID 7855256189</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_8418462801_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Hawkgirl #1 : Otto Schmidt Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 09/2023 · 2023</div>
+        <div class="meta">Story: Jadzia Axelrod · Art: Amancay Nahuelpan · Cover: Otto Schmidt</div>
+        <div class="meta">Authority ID 8418462801</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_3029709213_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Groot #3 : Lee Garbett Cover</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 09/2023 · 2023</div>
+        <div class="meta">Story: Dan Abnett · Art: Damian Couceiro · Cover: Lee Garbett</div>
+        <div class="meta">Authority ID 3029709213</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7528088457_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">The Amazing Spider-Man #29 : Disney100 Captain Marvel Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 2023-09-01</div>
+        <div class="meta">Story: Zeb Wells · Art: Ed McGuinness · Cover: Giada Perissinotto</div>
+        <div class="meta">Authority ID 7528088457</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_3898761223_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Miles Morales: Spider-Man #8 : Dike Ruan Cover</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 09/2023 · 2023</div>
+        <div class="meta">Story: Cody Ziglar · Art: Federico Vicentini · Cover: Dike Ruan</div>
+        <div class="meta">Authority ID 3898761223</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_1153548610_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">The Amazing Spider-Man #29 : Hellfire Gala Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 2023-09-01 · 2022</div>
+        <div class="meta">Story: Zeb Wells · Art: Ed McGuinness · Cover: David Nakayama</div>
+        <div class="meta">Authority ID 1153548610</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_9454763603_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Knight Terrors: Batman #1 : Francesco Mattina Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 09/2023 · 2023</div>
+        <div class="meta">Story: Joshua Williamson · Art: Guillem March · Cover: Francesco Mattina</div>
+        <div class="meta">Authority ID 9454763603</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_3342940961_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Knight Terrors: First Blood #1 : Howard Porter Cover</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 09/2023 · 2023</div>
+        <div class="meta">Story: Joshua Williamson · Art: Howard Porter · Cover: Howard Porter</div>
+        <div class="meta">Authority ID 3342940961</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_0131115123_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Knight Terrors: Batman #1 : Dustin Nguyen Midnight Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 09/2023 · 2023</div>
+        <div class="meta">Story: Joshua Williamson · Art: Guillem March · Cover: Dustin Nguyen</div>
+        <div class="meta">Authority ID 0131115123</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7224187984_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Deadpool #8 : David Lopez Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 8/2023 · 2023</div>
+        <div class="meta">Story: Alyssa Wong · Art: Luigi Zagaria · Cover: David Lopez</div>
+        <div class="meta">Authority ID 7224187984</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_1839363354_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Strange Academy: Miles Morales #1</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 2023-10-01 · 2023</div>
+        <div class="meta">Story: Carlos Hernandez · Art: Juann Cabal · Cover: Nick Bradshaw</div>
+        <div class="meta">Authority ID 1839363354</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_6653170836_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">X-Men: Hellfire Gala 2023 #1 : Howard the Duck Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 2023-09-01 · 2023</div>
+        <div class="meta">Story: Gerry Duggan · Art: Various · Cover: Gustavo Duarte</div>
+        <div class="meta">Authority ID 6653170836</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_9323536015_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">City Boy #3 : Lee Card Stock Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 2023-10-01 · 2023</div>
+        <div class="meta">Story: Greg Pak · Art: Minkyu Jung · Cover: Creees Lee</div>
+        <div class="meta">Authority ID 9323536015</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/review/?case=comic-bin-13</span>
+    <span>Side 3 of 7</span>
+  </div>
+</section>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Comic Bin #13 (Softslabs)</h1>
+      <div class="sub">98 copies &middot; Comic Bin #13 &middot; printed 2026-09-08</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h37v37H0z"/><path stroke="#000000" d="M0 0.5h7m3 0h2m1 0h1m2 0h2m5 0h3m2 0h1m1 0h7M0 1.5h1m5 0h1m2 0h1m1 0h1m2 0h4m2 0h1m1 0h1m1 0h5m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h5m4 0h1m1 0h1m3 0h2m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h1m2 0h2m2 0h1m1 0h5m3 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h6m1 0h1m1 0h2m1 0h1m2 0h2m3 0h1m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h2m2 0h3m1 0h2m2 0h3m1 0h2m1 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h1m5 0h6m1 0h4m1 0h2M0 8.5h1m1 0h5m2 0h2m3 0h3m7 0h5m1 0h5M0 9.5h1m1 0h2m1 0h1m1 0h4m3 0h2m2 0h1m1 0h1m1 0h2m10 0h2M3 10.5h1m2 0h1m2 0h1m1 0h2m2 0h5m1 0h1m4 0h4m1 0h2m1 0h3M1 11.5h2m2 0h1m3 0h1m3 0h3m3 0h4m1 0h1m2 0h5m4 0h1M0 12.5h1m1 0h2m1 0h6m1 0h1m2 0h1m1 0h1m1 0h1m2 0h4m1 0h1m1 0h2m1 0h1m1 0h3M0 13.5h1m4 0h1m2 0h2m1 0h1m1 0h1m2 0h1m1 0h4m1 0h1m1 0h1m2 0h2m1 0h1M4 14.5h1m1 0h2m2 0h3m2 0h1m2 0h1m1 0h2m3 0h3m1 0h1m1 0h3m2 0h1M2 15.5h1m1 0h2m1 0h1m5 0h4m4 0h2m3 0h1m2 0h1m1 0h2M0 16.5h3m3 0h2m2 0h6m2 0h3m3 0h4m2 0h3m1 0h2M0 17.5h1m1 0h1m1 0h1m3 0h1m1 0h2m1 0h5m4 0h2m1 0h1m2 0h2m1 0h1m1 0h1m1 0h1M1 18.5h2m3 0h2m1 0h6m2 0h1m2 0h1m1 0h1m1 0h5m1 0h2m1 0h4M0 19.5h1m2 0h3m1 0h1m1 0h1m1 0h1m4 0h1m4 0h4m6 0h1m4 0h1M0 20.5h3m2 0h5m6 0h2m7 0h4m1 0h1m1 0h3M0 21.5h1m1 0h1m1 0h1m2 0h5m1 0h1m2 0h6m1 0h1m1 0h1m2 0h1m4 0h1M2 22.5h2m2 0h1m2 0h3m2 0h4m2 0h1m3 0h1m1 0h4m1 0h3m1 0h2M1 23.5h1m1 0h3m7 0h1m3 0h2m1 0h3m1 0h1m1 0h1m1 0h2m1 0h2m2 0h1M0 24.5h1m3 0h1m1 0h2m1 0h1m1 0h6m2 0h1m1 0h1m1 0h8m1 0h1m1 0h2M0 25.5h1m2 0h1m3 0h1m2 0h2m1 0h1m1 0h1m1 0h2m1 0h1m2 0h1m4 0h1m2 0h1M0 26.5h1m1 0h2m1 0h3m3 0h3m1 0h2m2 0h1m2 0h1m2 0h5m1 0h1m3 0h2M0 27.5h1m2 0h1m3 0h4m1 0h4m2 0h5m3 0h2m1 0h2m1 0h1M0 28.5h1m1 0h1m2 0h3m1 0h1m2 0h1m1 0h2m1 0h1m1 0h1m2 0h11m1 0h3M8 29.5h2m2 0h1m3 0h1m1 0h3m2 0h1m1 0h1m1 0h2m3 0h2M0 30.5h7m2 0h2m4 0h2m1 0h1m1 0h1m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m1 0h2m1 0h2m1 0h3m2 0h2m5 0h1m1 0h1m3 0h2m1 0h2M0 32.5h1m1 0h3m1 0h1m1 0h2m1 0h1m1 0h3m2 0h5m1 0h9m1 0h1M0 33.5h1m1 0h3m1 0h1m1 0h2m1 0h2m2 0h3m3 0h1m1 0h3m1 0h4m1 0h1m3 0h1M0 34.5h1m1 0h3m1 0h1m1 0h3m1 0h3m5 0h1m6 0h1m5 0h4M0 35.5h1m5 0h1m3 0h1m5 0h1m1 0h1m2 0h4m1 0h3m1 0h1m1 0h1m3 0h1M0 36.5h7m1 0h4m5 0h1m4 0h1m2 0h2m2 0h1m2 0h5"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_8210033226_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">X-Men: Hellfire Gala 2023 #1 : Campbell Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 2023-09-01 · 2023</div>
+        <div class="meta">Story: Gerry Duggan · Art: Various · Cover: J. Scott Campbell</div>
+        <div class="meta">Authority ID 8210033226</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_8393175795_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Deadpool #9 : Hellfire Gala Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 9/2023 · 2023</div>
+        <div class="meta">Story: Alyssa Wong · Art: Luigi Zagaria · Cover: Nick Dragotta</div>
+        <div class="meta">Authority ID 8393175795</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_3960999612_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Knight Terrors: Catwoman #1 : Tula Lotay Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 09/2023 · 2023</div>
+        <div class="meta">Story: Tini Howard · Art: Leila Leiz · Cover: Tula Lotay</div>
+        <div class="meta">Authority ID 3960999612</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_8277838860_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Miles Morales: Spider-Man #8 : Cheung Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 09/2023 · 2023</div>
+        <div class="meta">Story: Cody Ziglar · Art: Federico Vicentini · Cover: Jim Cheung</div>
+        <div class="meta">Authority ID 8277838860</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_0684669238_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Harley Quinn: Black + White + Redder #1 : Guillem March Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 09/2023 · 2023</div>
+        <div class="meta">Story: Chip Zdarsky · Art: Kevin Maguire · Cover: Guillem March</div>
+        <div class="meta">Authority ID 0684669238</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_3894566865_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Marvel Unleashed #1 : David Baldeon Cover</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 10/2023 · 2023</div>
+        <div class="meta">Story: Kyle Starks · Art: Jesus Hervas · Cover: David Baldeon</div>
+        <div class="meta">Authority ID 3894566865</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_5649407505_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Marvel Unleashed #1 : Bernard Chang Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 10/2023 · 2023</div>
+        <div class="meta">Story: Kyle Starks · Art: Jesus Hervas · Cover: Bernard Chang</div>
+        <div class="meta">Authority ID 5649407505</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_6890059490_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Marvel Unleashed #1 : Chrissie Zullo Uminga Miss Minutes Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 10/2023 · 2023</div>
+        <div class="meta">Story: Kyle Starks · Art: Jesus Hervas · Cover: Chrissie Zullo Uminga</div>
+        <div class="meta">Authority ID 6890059490</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_2943977617_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Marvel Unleashed #1 : Lim Lockjaw Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 10/2023 · 2023</div>
+        <div class="meta">Story: Kyle Starks · Art: Jesus Hervas · Cover: Ron Lim</div>
+        <div class="meta">Authority ID 2943977617</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_4601312346_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Marvel Unleashed #1 : Lim Redwing Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 10/2023 · 2023</div>
+        <div class="meta">Story: Kyle Starks · Art: Jesus Hervas · Cover: Ron Lim</div>
+        <div class="meta">Authority ID 4601312346</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_4490226376_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Star Wars: Darth Vader #37 : Leinil Francis Yu Cover</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 10/2023 · 2023</div>
+        <div class="meta">Story: Greg Pak · Art: Raffaele Ienco · Cover: Leinil Francis Yu</div>
+        <div class="meta">Authority ID 4490226376</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_9720335865_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Miles Morales: Spider-Man #9 : Dike Ruan Cover</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 10/2023 · 2023</div>
+        <div class="meta">Story: Cody Ziglar · Art: Federico Vicentini, Federico Sabbatini · Cover: Dike Ruan</div>
+        <div class="meta">Authority ID 9720335865</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_5336296077_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Miles Morales: Spider-Man #9 : Manhanini Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 10/2023 · 2023</div>
+        <div class="meta">Story: Cody Ziglar · Art: Federico Vicentini, Federico Sabbatini · Cover: Mateus Manhanini</div>
+        <div class="meta">Authority ID 5336296077</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_8274578327_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Knight Terrors #3 : Ivan Reis Cover</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 10/2023 · 2023</div>
+        <div class="meta">Story: Joshua Williamson · Art: Giuseppe Camuncoli, Stefano Nesi · Cover: Ivan Reis</div>
+        <div class="meta">Authority ID 8274578327</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/review/?case=comic-bin-13</span>
+    <span>Side 4 of 7</span>
+  </div>
+</section>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Comic Bin #13 (Softslabs)</h1>
+      <div class="sub">98 copies &middot; Comic Bin #13 &middot; printed 2026-09-08</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h37v37H0z"/><path stroke="#000000" d="M0 0.5h7m3 0h2m1 0h1m2 0h2m5 0h3m2 0h1m1 0h7M0 1.5h1m5 0h1m2 0h1m1 0h1m2 0h4m2 0h1m1 0h1m1 0h5m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h5m4 0h1m1 0h1m3 0h2m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h1m2 0h2m2 0h1m1 0h5m3 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h6m1 0h1m1 0h2m1 0h1m2 0h2m3 0h1m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h2m2 0h3m1 0h2m2 0h3m1 0h2m1 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h1m5 0h6m1 0h4m1 0h2M0 8.5h1m1 0h5m2 0h2m3 0h3m7 0h5m1 0h5M0 9.5h1m1 0h2m1 0h1m1 0h4m3 0h2m2 0h1m1 0h1m1 0h2m10 0h2M3 10.5h1m2 0h1m2 0h1m1 0h2m2 0h5m1 0h1m4 0h4m1 0h2m1 0h3M1 11.5h2m2 0h1m3 0h1m3 0h3m3 0h4m1 0h1m2 0h5m4 0h1M0 12.5h1m1 0h2m1 0h6m1 0h1m2 0h1m1 0h1m1 0h1m2 0h4m1 0h1m1 0h2m1 0h1m1 0h3M0 13.5h1m4 0h1m2 0h2m1 0h1m1 0h1m2 0h1m1 0h4m1 0h1m1 0h1m2 0h2m1 0h1M4 14.5h1m1 0h2m2 0h3m2 0h1m2 0h1m1 0h2m3 0h3m1 0h1m1 0h3m2 0h1M2 15.5h1m1 0h2m1 0h1m5 0h4m4 0h2m3 0h1m2 0h1m1 0h2M0 16.5h3m3 0h2m2 0h6m2 0h3m3 0h4m2 0h3m1 0h2M0 17.5h1m1 0h1m1 0h1m3 0h1m1 0h2m1 0h5m4 0h2m1 0h1m2 0h2m1 0h1m1 0h1m1 0h1M1 18.5h2m3 0h2m1 0h6m2 0h1m2 0h1m1 0h1m1 0h5m1 0h2m1 0h4M0 19.5h1m2 0h3m1 0h1m1 0h1m1 0h1m4 0h1m4 0h4m6 0h1m4 0h1M0 20.5h3m2 0h5m6 0h2m7 0h4m1 0h1m1 0h3M0 21.5h1m1 0h1m1 0h1m2 0h5m1 0h1m2 0h6m1 0h1m1 0h1m2 0h1m4 0h1M2 22.5h2m2 0h1m2 0h3m2 0h4m2 0h1m3 0h1m1 0h4m1 0h3m1 0h2M1 23.5h1m1 0h3m7 0h1m3 0h2m1 0h3m1 0h1m1 0h1m1 0h2m1 0h2m2 0h1M0 24.5h1m3 0h1m1 0h2m1 0h1m1 0h6m2 0h1m1 0h1m1 0h8m1 0h1m1 0h2M0 25.5h1m2 0h1m3 0h1m2 0h2m1 0h1m1 0h1m1 0h2m1 0h1m2 0h1m4 0h1m2 0h1M0 26.5h1m1 0h2m1 0h3m3 0h3m1 0h2m2 0h1m2 0h1m2 0h5m1 0h1m3 0h2M0 27.5h1m2 0h1m3 0h4m1 0h4m2 0h5m3 0h2m1 0h2m1 0h1M0 28.5h1m1 0h1m2 0h3m1 0h1m2 0h1m1 0h2m1 0h1m1 0h1m2 0h11m1 0h3M8 29.5h2m2 0h1m3 0h1m1 0h3m2 0h1m1 0h1m1 0h2m3 0h2M0 30.5h7m2 0h2m4 0h2m1 0h1m1 0h1m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m1 0h2m1 0h2m1 0h3m2 0h2m5 0h1m1 0h1m3 0h2m1 0h2M0 32.5h1m1 0h3m1 0h1m1 0h2m1 0h1m1 0h3m2 0h5m1 0h9m1 0h1M0 33.5h1m1 0h3m1 0h1m1 0h2m1 0h2m2 0h3m3 0h1m1 0h3m1 0h4m1 0h1m3 0h1M0 34.5h1m1 0h3m1 0h1m1 0h3m1 0h3m5 0h1m6 0h1m5 0h4M0 35.5h1m5 0h1m3 0h1m5 0h1m1 0h1m2 0h4m1 0h3m1 0h1m1 0h1m3 0h1M0 36.5h7m1 0h4m5 0h1m4 0h1m2 0h2m2 0h1m2 0h5"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_3111625080_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Strange Academy: Miles Morales #1 : Ramos Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 2023-10-01 · 2023</div>
+        <div class="meta">Story: Carlos Hernandez · Art: Juann Cabal · Cover: Humberto Ramos</div>
+        <div class="meta">Authority ID 3111625080</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7390387012_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Star Wars: The Mandalorian Season 2 #1 : Yagawa Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 2023-08-01 · 2023</div>
+        <div class="meta">Story: Rodney Barnes · Art: Georges Jeanty · Cover: Rickie Yagawa</div>
+        <div class="meta">Authority ID 7390387012</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_5756089877_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Miles Morales: Spider-Man #7 : Sara Pichelli Ultimate Last Look Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 08/2023 · 2023</div>
+        <div class="meta">Story: Cody Ziglar · Art: Federico Vicentini · Cover: Sara Pichelli</div>
+        <div class="meta">Authority ID 5756089877</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_2464434782_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Miles Morales: Spider-Man #7 : Sara Pichelli Ultimate Last Look Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 08/2023 · 2023</div>
+        <div class="meta">Story: Cody Ziglar · Art: Federico Vicentini · Cover: Sara Pichelli</div>
+        <div class="meta">Authority ID 2464434782</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7146078078_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Miles Morales: Spider-Man #7 : Sara Pichelli Ultimate Last Look Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 08/2023 · 2023</div>
+        <div class="meta">Story: Cody Ziglar · Art: Federico Vicentini · Cover: Sara Pichelli</div>
+        <div class="meta">Authority ID 7146078078</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_5588237005_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Black Panther #1 : Mr. Garcin Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 08/2023 · 2023</div>
+        <div class="meta">Story: Eve L. Ewing · Art: Chris Allen · Cover: Mr. Garcin</div>
+        <div class="meta">Authority ID 5588237005</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_2095418943_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">The Amazing Spider-Man #27 : Claudio Sciarrone Disney100 What If? Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 08/2023 · 2023</div>
+        <div class="meta">Story: Zeb Wells · Art: Ed McGuinness · Cover: Claudio Sciarrone</div>
+        <div class="meta">Authority ID 2095418943 · Key: Mickey Mouse as Iron Man on cover · Black Cat &amp; Spidey stop Shocker · Doc Ock Returns · Osborn’s guilt over Queen Goblin</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_5015166144_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Steelworks #1 : Basri Card Stock Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 2023-08-01 · 2023</div>
+        <div class="meta">Story: Michael Dorn · Art: Sami Basri · Cover: Sami Basri</div>
+        <div class="meta">Authority ID 5015166144</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7327061328_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">The Incredible Hulk #1</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 2023-08-01 · 2023</div>
+        <div class="meta">Story: Phillip Kennedy Johnson · Art: Nic Klein · Cover: Nic Klein</div>
+        <div class="meta">Authority ID 7327061328</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_5026799695_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate Invasion #1 : Negative Space Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 2023-08-01 · 2023</div>
+        <div class="meta">Story: Jonathan Hickman · Art: Bryan Hitch · Cover: John Tyler Christopher</div>
+        <div class="meta">Authority ID 5026799695</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_3428535086_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Deadpool #8 : Martin Coccolo</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 8/2023 · 2023</div>
+        <div class="meta">Story: Alyssa Wong · Art: Luigi Zagaria · Cover: Martin Coccolo</div>
+        <div class="meta">Authority ID 3428535086</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7110707374_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Carnage Reigns: Omega #1</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 2023-08-01 · 2023</div>
+        <div class="meta">Story: Cody Ziglar · Art: Julius Ohta · Cover: Ryan Stegman</div>
+        <div class="meta">Authority ID 7110707374 · Key: Conclusion of Carnage Reigns story</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_0398408255_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Knight Terrors: Batman #1 : Guillem March Cover</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 09/2023 · 2023</div>
+        <div class="meta">Story: Joshua Williamson · Art: Guillem March · Cover: Guillem March</div>
+        <div class="meta">Authority ID 0398408255</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_4988498642_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Miles Morales: Spider-Man #7 : Dike Ruan Cover</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 08/2023 · 2023</div>
+        <div class="meta">Story: Cody Ziglar · Art: Federico Vicentini · Cover: Dike Ruan</div>
+        <div class="meta">Authority ID 4988498642</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/review/?case=comic-bin-13</span>
+    <span>Side 5 of 7</span>
+  </div>
+</section>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Comic Bin #13 (Softslabs)</h1>
+      <div class="sub">98 copies &middot; Comic Bin #13 &middot; printed 2026-09-08</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h37v37H0z"/><path stroke="#000000" d="M0 0.5h7m3 0h2m1 0h1m2 0h2m5 0h3m2 0h1m1 0h7M0 1.5h1m5 0h1m2 0h1m1 0h1m2 0h4m2 0h1m1 0h1m1 0h5m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h5m4 0h1m1 0h1m3 0h2m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h1m2 0h2m2 0h1m1 0h5m3 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h6m1 0h1m1 0h2m1 0h1m2 0h2m3 0h1m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h2m2 0h3m1 0h2m2 0h3m1 0h2m1 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h1m5 0h6m1 0h4m1 0h2M0 8.5h1m1 0h5m2 0h2m3 0h3m7 0h5m1 0h5M0 9.5h1m1 0h2m1 0h1m1 0h4m3 0h2m2 0h1m1 0h1m1 0h2m10 0h2M3 10.5h1m2 0h1m2 0h1m1 0h2m2 0h5m1 0h1m4 0h4m1 0h2m1 0h3M1 11.5h2m2 0h1m3 0h1m3 0h3m3 0h4m1 0h1m2 0h5m4 0h1M0 12.5h1m1 0h2m1 0h6m1 0h1m2 0h1m1 0h1m1 0h1m2 0h4m1 0h1m1 0h2m1 0h1m1 0h3M0 13.5h1m4 0h1m2 0h2m1 0h1m1 0h1m2 0h1m1 0h4m1 0h1m1 0h1m2 0h2m1 0h1M4 14.5h1m1 0h2m2 0h3m2 0h1m2 0h1m1 0h2m3 0h3m1 0h1m1 0h3m2 0h1M2 15.5h1m1 0h2m1 0h1m5 0h4m4 0h2m3 0h1m2 0h1m1 0h2M0 16.5h3m3 0h2m2 0h6m2 0h3m3 0h4m2 0h3m1 0h2M0 17.5h1m1 0h1m1 0h1m3 0h1m1 0h2m1 0h5m4 0h2m1 0h1m2 0h2m1 0h1m1 0h1m1 0h1M1 18.5h2m3 0h2m1 0h6m2 0h1m2 0h1m1 0h1m1 0h5m1 0h2m1 0h4M0 19.5h1m2 0h3m1 0h1m1 0h1m1 0h1m4 0h1m4 0h4m6 0h1m4 0h1M0 20.5h3m2 0h5m6 0h2m7 0h4m1 0h1m1 0h3M0 21.5h1m1 0h1m1 0h1m2 0h5m1 0h1m2 0h6m1 0h1m1 0h1m2 0h1m4 0h1M2 22.5h2m2 0h1m2 0h3m2 0h4m2 0h1m3 0h1m1 0h4m1 0h3m1 0h2M1 23.5h1m1 0h3m7 0h1m3 0h2m1 0h3m1 0h1m1 0h1m1 0h2m1 0h2m2 0h1M0 24.5h1m3 0h1m1 0h2m1 0h1m1 0h6m2 0h1m1 0h1m1 0h8m1 0h1m1 0h2M0 25.5h1m2 0h1m3 0h1m2 0h2m1 0h1m1 0h1m1 0h2m1 0h1m2 0h1m4 0h1m2 0h1M0 26.5h1m1 0h2m1 0h3m3 0h3m1 0h2m2 0h1m2 0h1m2 0h5m1 0h1m3 0h2M0 27.5h1m2 0h1m3 0h4m1 0h4m2 0h5m3 0h2m1 0h2m1 0h1M0 28.5h1m1 0h1m2 0h3m1 0h1m2 0h1m1 0h2m1 0h1m1 0h1m2 0h11m1 0h3M8 29.5h2m2 0h1m3 0h1m1 0h3m2 0h1m1 0h1m1 0h2m3 0h2M0 30.5h7m2 0h2m4 0h2m1 0h1m1 0h1m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m1 0h2m1 0h2m1 0h3m2 0h2m5 0h1m1 0h1m3 0h2m1 0h2M0 32.5h1m1 0h3m1 0h1m1 0h2m1 0h1m1 0h3m2 0h5m1 0h9m1 0h1M0 33.5h1m1 0h3m1 0h1m1 0h2m1 0h2m2 0h3m3 0h1m1 0h3m1 0h4m1 0h1m3 0h1M0 34.5h1m1 0h3m1 0h1m1 0h3m1 0h3m5 0h1m6 0h1m5 0h4M0 35.5h1m5 0h1m3 0h1m5 0h1m1 0h1m2 0h4m1 0h3m1 0h1m1 0h1m3 0h1M0 36.5h7m1 0h4m5 0h1m4 0h1m2 0h2m2 0h1m2 0h5"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_4782701571_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">The Incredible Hulk #1 : Elemental Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 2023-08-01</div>
+        <div class="meta">Story: Phillip Kennedy Johnson · Art: Nic Klein · Cover: Patrick Gleason</div>
+        <div class="meta">Authority ID 4782701571</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_8474185497_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Danny Ketch: Ghost Rider #2 : Peach Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 8/2023 · 2023</div>
+        <div class="meta">Story: Howard Mackie · Art: Daniel Picciotto · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 8474185497</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_5604487405_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Guardians of the Galaxy #3 : Stonehouse Ultimate Last Look Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 08/2023 · 2023</div>
+        <div class="meta">Story: Jackson Lanzing, Collin Kelly · Art: Kev Walker · Cover: Stonehouse</div>
+        <div class="meta">Authority ID 5604487405</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_3677180903_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Miles Morales: Spider-Man #7 : Dike Ruan Cover</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 08/2023 · 2023</div>
+        <div class="meta">Story: Cody Ziglar · Art: Federico Vicentini · Cover: Dike Ruan</div>
+        <div class="meta">Authority ID 3677180903</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_4439662799_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Ultimate Invasion #1 : Blank Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 2023-08-01 · 2023</div>
+        <div class="meta">Story: Jonathan Hickman · Art: Bryan Hitch</div>
+        <div class="meta">Authority ID 4439662799</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_2600732647_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Miles Morales: Spider-Man #7 : Dike Ruan Cover</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 08/2023 · 2023</div>
+        <div class="meta">Story: Cody Ziglar · Art: Federico Vicentini · Cover: Dike Ruan</div>
+        <div class="meta">Authority ID 2600732647</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_9893483013_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Shazam! #3 : Chris Samnee Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 11/2023 · 2023</div>
+        <div class="meta">Story: Mark Waid · Art: Dan Mora · Cover: Chris Samnee</div>
+        <div class="meta">Authority ID 9893483013</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_8180613108_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Spider-Gwen Annual #1 : R1c0 Cover</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 11/2023 · 2023</div>
+        <div class="meta">Story: Karla Pacheco · Art: Marika Cresta, Rosi Kämpe · Cover: R1c0</div>
+        <div class="meta">Authority ID 8180613108</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_9829310138_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Silver Surfer Rebirth: Legacy #1 : Ron Lim Cover</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 11/2023 · 2023</div>
+        <div class="meta">Story: Ron Marz · Art: Ron Lim · Cover: Ron Lim</div>
+        <div class="meta">Authority ID 9829310138</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_3862755474_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Silver Surfer Rebirth: Legacy #1 : Frank Miller Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 11/2023 · 2023</div>
+        <div class="meta">Story: Ron Marz · Art: Ron Lim · Cover: Frank Miller</div>
+        <div class="meta">Authority ID 3862755474</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_3411274401_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Harley Quinn #32 : Corin Howell Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 11/2023 · 2023</div>
+        <div class="meta">Story: Tini Howard · Art: Sweeney Boo · Cover: Corin Howell</div>
+        <div class="meta">Authority ID 3411274401</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7050130274_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Marvel Unleashed #2 : David Baldeon Cover</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 11/2023 · 2023</div>
+        <div class="meta">Story: Kyle Starks · Art: Jesus Hervas · Cover: David Baldeon</div>
+        <div class="meta">Authority ID 7050130274</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_1327529703_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Superman #6 : Besch Creator Card Stock Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 2023-11-01 · 2023</div>
+        <div class="meta">Story: Joshua Williamson · Art: Gleb Melnikov · Cover: Rose Besch</div>
+        <div class="meta">Authority ID 1327529703</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_2876439667_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Jean Grey #2 : Simonson Jean &amp; Wolverine Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 11/2023 · 2023</div>
+        <div class="meta">Story: Louise Jones Simonson · Art: Bernard Chang · Cover: Walt Simonson</div>
+        <div class="meta">Authority ID 2876439667</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/review/?case=comic-bin-13</span>
+    <span>Side 6 of 7</span>
+  </div>
+</section>
+<section class="side">
+  <div class="masthead">
+    <div>
+      <h1>Comic Bin #13 (Softslabs)</h1>
+      <div class="sub">98 copies &middot; Comic Bin #13 &middot; printed 2026-09-08</div>
+    </div>
+    <div class="mast-qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h37v37H0z"/><path stroke="#000000" d="M0 0.5h7m3 0h2m1 0h1m2 0h2m5 0h3m2 0h1m1 0h7M0 1.5h1m5 0h1m2 0h1m1 0h1m2 0h4m2 0h1m1 0h1m1 0h5m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h5m4 0h1m1 0h1m3 0h2m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h1m2 0h2m2 0h1m1 0h5m3 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h6m1 0h1m1 0h2m1 0h1m2 0h2m3 0h1m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h2m2 0h3m1 0h2m2 0h3m1 0h2m1 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h1m5 0h6m1 0h4m1 0h2M0 8.5h1m1 0h5m2 0h2m3 0h3m7 0h5m1 0h5M0 9.5h1m1 0h2m1 0h1m1 0h4m3 0h2m2 0h1m1 0h1m1 0h2m10 0h2M3 10.5h1m2 0h1m2 0h1m1 0h2m2 0h5m1 0h1m4 0h4m1 0h2m1 0h3M1 11.5h2m2 0h1m3 0h1m3 0h3m3 0h4m1 0h1m2 0h5m4 0h1M0 12.5h1m1 0h2m1 0h6m1 0h1m2 0h1m1 0h1m1 0h1m2 0h4m1 0h1m1 0h2m1 0h1m1 0h3M0 13.5h1m4 0h1m2 0h2m1 0h1m1 0h1m2 0h1m1 0h4m1 0h1m1 0h1m2 0h2m1 0h1M4 14.5h1m1 0h2m2 0h3m2 0h1m2 0h1m1 0h2m3 0h3m1 0h1m1 0h3m2 0h1M2 15.5h1m1 0h2m1 0h1m5 0h4m4 0h2m3 0h1m2 0h1m1 0h2M0 16.5h3m3 0h2m2 0h6m2 0h3m3 0h4m2 0h3m1 0h2M0 17.5h1m1 0h1m1 0h1m3 0h1m1 0h2m1 0h5m4 0h2m1 0h1m2 0h2m1 0h1m1 0h1m1 0h1M1 18.5h2m3 0h2m1 0h6m2 0h1m2 0h1m1 0h1m1 0h5m1 0h2m1 0h4M0 19.5h1m2 0h3m1 0h1m1 0h1m1 0h1m4 0h1m4 0h4m6 0h1m4 0h1M0 20.5h3m2 0h5m6 0h2m7 0h4m1 0h1m1 0h3M0 21.5h1m1 0h1m1 0h1m2 0h5m1 0h1m2 0h6m1 0h1m1 0h1m2 0h1m4 0h1M2 22.5h2m2 0h1m2 0h3m2 0h4m2 0h1m3 0h1m1 0h4m1 0h3m1 0h2M1 23.5h1m1 0h3m7 0h1m3 0h2m1 0h3m1 0h1m1 0h1m1 0h2m1 0h2m2 0h1M0 24.5h1m3 0h1m1 0h2m1 0h1m1 0h6m2 0h1m1 0h1m1 0h8m1 0h1m1 0h2M0 25.5h1m2 0h1m3 0h1m2 0h2m1 0h1m1 0h1m1 0h2m1 0h1m2 0h1m4 0h1m2 0h1M0 26.5h1m1 0h2m1 0h3m3 0h3m1 0h2m2 0h1m2 0h1m2 0h5m1 0h1m3 0h2M0 27.5h1m2 0h1m3 0h4m1 0h4m2 0h5m3 0h2m1 0h2m1 0h1M0 28.5h1m1 0h1m2 0h3m1 0h1m2 0h1m1 0h2m1 0h1m1 0h1m2 0h11m1 0h3M8 29.5h2m2 0h1m3 0h1m1 0h3m2 0h1m1 0h1m1 0h2m3 0h2M0 30.5h7m2 0h2m4 0h2m1 0h1m1 0h1m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m1 0h2m1 0h2m1 0h3m2 0h2m5 0h1m1 0h1m3 0h2m1 0h2M0 32.5h1m1 0h3m1 0h1m1 0h2m1 0h1m1 0h3m2 0h5m1 0h9m1 0h1M0 33.5h1m1 0h3m1 0h1m1 0h2m1 0h2m2 0h3m3 0h1m1 0h3m1 0h4m1 0h1m3 0h1M0 34.5h1m1 0h3m1 0h1m1 0h3m1 0h3m5 0h1m6 0h1m5 0h4M0 35.5h1m5 0h1m3 0h1m5 0h1m1 0h1m2 0h4m1 0h3m1 0h1m1 0h1m3 0h1M0 36.5h7m1 0h4m5 0h1m4 0h1m2 0h2m2 0h1m2 0h5"/></svg>
+<div class="cap">Scan for cover scans</div></div>
+  </div>
+  <div class="cols">
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_6974822820_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Batman / Superman: World&#39;s Finest #20 : Magog Helmet Embossed Foil Virgin Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 12/2023 · 2023</div>
+        <div class="meta">Story: Mark Waid · Art: Dan Mora</div>
+        <div class="meta">Authority ID 6974822820</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_9651014888_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Dark X-Men #1 : X-Men Connecting Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 10/2023 · 2023</div>
+        <div class="meta">Story: Steve Foxe · Art: Jonas Scharf · Cover: Alex Ross</div>
+        <div class="meta">Authority ID 9651014888</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_8155896771_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Batman #1 : Facsimile Edition 2023</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 11/2023 · 2023</div>
+        <div class="meta">Story: Various · Art: Various · Cover: Bob Kane</div>
+        <div class="meta">Authority ID 8155896771</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_5026340044_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">City Boy #3</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 2023-10-01 · 2023</div>
+        <div class="meta">Story: Greg Pak · Art: Minkyu Jung · Cover: Minkyu Jung</div>
+        <div class="meta">Authority ID 5026340044</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_1801215285_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">The Incredible Hulk #3 : Miller Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel Comics · 2023-10-01 · 2023</div>
+        <div class="meta">Story: Phillip Kennedy Johnson · Art: Nic Klein · Cover: Frank Miller</div>
+        <div class="meta">Authority ID 1801215285</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_9364212668_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Miles Morales: Spider-Man #7 : Taurin Clarke Connecting Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 08/2023 · 2023</div>
+        <div class="meta">Story: Cody Ziglar · Art: Federico Vicentini · Cover: Taurin Clarke</div>
+        <div class="meta">Authority ID 9364212668</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_5819648189_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Miles Morales: Spider-Man #7 : Taurin Clarke Connecting Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 08/2023 · 2023</div>
+        <div class="meta">Story: Cody Ziglar · Art: Federico Vicentini · Cover: Taurin Clarke</div>
+        <div class="meta">Authority ID 5819648189</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_0722910234_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Miles Morales: Spider-Man #7 : Taurin Clarke Connecting Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 08/2023 · 2023</div>
+        <div class="meta">Story: Cody Ziglar · Art: Federico Vicentini · Cover: Taurin Clarke</div>
+        <div class="meta">Authority ID 0722910234</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_3396613329_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Batman #137 : Salvador Larroca Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC · 11/2023 · 2023</div>
+        <div class="meta">Story: Chip Zdarsky · Art: Jorge Jimenez · Cover: Salvador Larroca</div>
+        <div class="meta">Authority ID 3396613329</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_3588660607_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Superman #5 : Cassaday Card Stock Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">DC Comics · 2023-08-01 · 2023</div>
+        <div class="meta">Story: Joshua Williamson · Art: Jamal Campbell · Cover: John Cassady</div>
+        <div class="meta">Authority ID 3588660607</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_0699277782_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Predator Versus Wolverine #1 : Peach Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 11/2023 · 2023</div>
+        <div class="meta">Story: Benjamin Percy · Art: Various · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 0699277782</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_7239312594_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Guardians of the Galaxy #6 : Peach Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 11/2023 · 2023</div>
+        <div class="meta">Story: Jackson Lanzing, Collin Kelly · Art: Kev Walker · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 7239312594</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_5003919165_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Guardians of the Galaxy #6 : Peach Momoko Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 11/2023 · 2023</div>
+        <div class="meta">Story: Jackson Lanzing, Collin Kelly · Art: Kev Walker · Cover: Peach Momoko</div>
+        <div class="meta">Authority ID 5003919165</div>
+        </div>
+      </div>
+      <div class="entry">
+        <img class="cover" src="../data/medium/Authority_9082175601_FRONT.jpg" alt="">
+        <div>
+          <div class="head">
+            <span class="name">Captain America #1 : John Romita Jr. Variant</span>
+            <span class="grade"></span>
+          </div>
+        <div class="meta">Marvel · 11/2023 · 2023</div>
+        <div class="meta">Story: J. Michael Straczynski · Art: Jesus Saiz · Cover: John Romita Jr.</div>
+        <div class="meta">Authority ID 9082175601</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagefoot">
+    <span>mr-bgrand.github.io/comic_collection/review/?case=comic-bin-13</span>
+    <span>Side 7 of 7</span>
+  </div>
+</section>
+</body>
+</html>

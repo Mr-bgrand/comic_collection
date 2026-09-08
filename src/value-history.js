@@ -6,6 +6,7 @@ import { execFileSync } from 'node:child_process';
 import { pathToFileURL } from 'node:url';
 import { effectiveValue, fmvValue, graderOf } from './model.js';
 import { readCollection } from './lab-admin.js';
+import { marketValuation } from './card-valuation.js';
 
 const historyPath=root=>path.join(root,'data/value-history.json');
 const emptyTotals=()=>({total:0,count:0,valued:0,unvalued:0,marketTotal:0,ownerTotal:0,undated:0});
@@ -17,11 +18,11 @@ export function valueSnapshot(records,{observedAt=new Date().toISOString(),sourc
   for(const record of records){
     const id=record.id||`${record.provider||graderOf(record)||'CGC'}:${record.cert}`;
     if(identities.has(id))throw Error(`Duplicate copy in value history: ${id}`);identities.add(id);
-    const value=effectiveValue(record),market=fmvValue(record)!==null,entry=market?record.fmv:record.manual;
+    const value=effectiveValue(record),market=fmvValue(record)!==null,entry=market?marketValuation(record):record.manual;
     if(value!==null&&entry?.currency&&entry.currency!=='USD')throw Error(`Value for ${id} is not in USD.`);
-    const date=value!==null?(market?record.fmv?.asOf||record.fmv?.fetchedAt:record.manual?.setAt)||null:null;
+    const date=value!==null?(market?entry?.asOf||entry?.fetchedAt:record.manual?.setAt)||null:null;
     const kind=record.kind==='card'?'card':'comic';
-    fingerprints.push([id,kind,value,market?'market':'owner',date,market?record.fmv?.source||null:null]);
+    fingerprints.push([id,kind,value,market?'market':'owner',date,market?entry?.source||null:null]);
     for(const group of [totals,kind==='card'?cards:comics]){
       group.count++;if(value===null){group.unvalued++;continue;}
       group.valued++;group.total+=round(value);group[market?'marketTotal':'ownerTotal']+=round(value);if(!date)group.undated++;

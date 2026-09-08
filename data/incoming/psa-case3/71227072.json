@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:33:45.228Z",
+  "cert": "71227072",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 17
+  },
+  "fields": {
+    "Brand/Title": "POKEMON SWORD & SHIELD ASTRAL RADIANCE",
+    "Card Number": "212",
+    "Category": "TCG Cards",
+    "Cert Number": "71227072",
+    "Item Grade": "MINT 9",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "FA/JUBILIFE VILLAGE",
+    "Variety/Pedigree": "ASTRAL RADIANCE-SECRET",
+    "Year": "2022"
+  },
+  "pageUrl": "https://www.psacard.com/cert/71227072/psa",
+  "population": {
+    "atGrade": 80,
+    "higher": 137
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 640,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/135946585/small/RTuAZDZid0ydSIvVlAVLtA.jpg",
+      "width": 380
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 0,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/135946585/small/0eqWbwTVakGFb6hqpD7ZKA.jpg",
+      "width": 0
+    }
+  ]
+}

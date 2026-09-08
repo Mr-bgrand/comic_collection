@@ -1,0 +1,41 @@
+{
+  "capturedAt": "2026-09-08T03:36:58.093Z",
+  "cert": "101074833",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 66
+  },
+  "fields": {
+    "Brand/Title": "POKEMON ROCKET",
+    "Card Number": "6",
+    "Category": "TCG Cards",
+    "Cert Number": "101074833",
+    "Item Grade": "NM-MT 8",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "DARK DUGTRIO-HOLO",
+    "Year": "2000"
+  },
+  "pageUrl": "https://www.psacard.com/cert/101074833/psa",
+  "population": {
+    "atGrade": 940,
+    "higher": 499
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 0,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/169584790/small/Vot_JrSHIUWQasD2zIMBRg.jpg",
+      "width": 0
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 0,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/169584790/small/jgZHLJcDPUuB4v7MIWJF1w.jpg",
+      "width": 0
+    }
+  ]
+}

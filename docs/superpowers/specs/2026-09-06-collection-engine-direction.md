@@ -88,14 +88,20 @@ Dragging the held copy turns it; its back remains the real reverse scan. Leave c
 or Escape returns to the saved overview rotation and zoom. A faint box outline,
 case name and in-case count keep the experience connected to physical storage.
 
-05 Singularity is a separate ambient scene. Instanced mosaic fragments use the
-existing cover atlas, orbiting a dark event horizon with prismatic filaments and
-glints. A color sampled from each actual cover changes the surrounding light;
-the previous color fades behind it. Every five active seconds an incoming copy
-folds into the horizon and a mosaic of its own cover resolves into the foreground.
-Most of each cycle holds the clear, unaltered scan. A stable mixed queue visits
-each scanned copy once per cycle and respects the All / Comics / Cards scope;
-unscanned records remain accessible through Find.
+05 Singularity now follows the owner's selected **Event Horizon** direction,
+inspired by [ThreeUI's Hyperspace reference](https://threeui.com/three-js/warp-field/hyperspace).
+The earlier stationary mosaic scene has been replaced with an authored flight.
+Real front/back scans stream past in a deep tunnel with accelerating light streaks.
+The camera moves toward a world-space black hole, widens its field of view and
+banks slightly, crosses its growing photon ring, then reveals the selected copy
+from depth. Cover colors tint the surrounding light.
+
+Each 11.2-second active sequence includes 3.4 seconds of approach, .8 crossing,
+1.2 reveal, **five full seconds holding the intact scan**, and .8 departure.
+A stable mixed queue visits each scanned copy once per cycle and respects
+All / Comics / Cards; unscanned records remain accessible through Find.
+Replay flight restarts the current journey. Pause or direct interaction immediately
+settles the selected copy for inspection; Resume starts with the full viewing hold.
 
 Touching the canvas, navigating manually, opening Find/record/Admin/history, or
 hiding the tab pauses arrivals. Resume is explicit. Motion off also stops automatic
@@ -105,7 +111,30 @@ and enlarges the copy; Show controls or Escape returns them. Direct entry uses
 it does not install an operating-system screensaver or offline app.
 
 Implementation is in `engine-immersive.mjs/html/css` and `engine-singularity.mjs`,
-integrated by the existing builder. Seven additional tests cover case boundaries,
-111-copy portrait/desktop layouts, deterministic scan queues, pause gates and
-arrival timing. Full suite: 284 passing tests. Browser verification uses desktop
-and 390 × 844 layouts; physical phone GPU, battery and touch testing remain useful.
+integrated by the existing builder. The flight uses bounded instanced batches
+(up to 96 copies and 1,500 streaks on desktop; 44 and 650 on phone), existing
+front/reverse atlases, and the existing detail scan cache. No new image sources
+or external renderer packages are required. The ordinary collection instance
+updates are skipped while the flight is active.
+
+Eight immersive tests cover case boundaries, 111-copy portrait/desktop layouts,
+deterministic scan queues, pause gates, camera continuity, and the full five-second
+hold after arrival. Full suite: 285 passing tests. Browser checks cover 1440 × 900,
+390 × 844, compact landscape, replay, pause retention, real reverse scans, scope,
+motion-off and Ambient exit. Physical phone GPU, battery and touch testing remain
+unverified.
+
+## Milky Way backdrop — September 7
+
+The owner requested a focused replacement of the circular black hole, keeping
+everything else. `engine-singularity.mjs` now renders a continuous diagonal Milky
+Way with fine stellar layers, irregular dust extinction, restrained blue/violet
+haze and a warm pearl band. The opaque black pupil and accretion-ring mesh are
+removed. The galaxy remains behind the real scans throughout the flight and hold.
+The collectible geometry, camera journey, queue, timing, scan treatment, controls
+and other four experiences are unchanged. No new textures or dependencies.
+
+Validation: review build and all eight existing immersive tests pass; desktop
+and a 390 × 844 portrait preview render the flight and held-copy phases. The main
+scene reports no WebGL console errors. The existing Superdesign draft is version
+17; its fetched source matches the local galaxy implementation exactly.

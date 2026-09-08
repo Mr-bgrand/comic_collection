@@ -1,0 +1,78 @@
+{
+  "container": "case-03",
+  "requested": 94,
+  "imported": 94,
+  "remaining": [],
+  "pendingScanRecheck": [],
+  "missingScans": [
+    "53822070",
+    "55583101",
+    "52520649",
+    "57803694",
+    "55700008",
+    "55209358",
+    "54310261",
+    "59984067",
+    "52109910",
+    "60550164",
+    "61336961",
+    "65336829",
+    "60354886",
+    "55498220",
+    "58545061",
+    "65234866",
+    "48384800",
+    "59798176",
+    "54467228",
+    "24709368"
+  ],
+  "updatedAt": "2026-09-08T04:07:56.733Z",
+  "images": {
+    "downloaded": 0,
+    "complete": 74,
+    "missing": 20,
+    "errors": []
+  },
+  "verifiedAt": "2026-09-08T04:12:51.484Z",
+  "scanCount": 148,
+  "added": 94,
+  "valued": 90,
+  "recordedEstimateTotal": 9707,
+  "verification": {
+    "sourceMetadataMatches": true,
+    "scanHashesMatch": true,
+    "frontBackScansVisuallyReviewed": 148,
+    "duplicateCerts": 0,
+    "duplicateImageBytes": 0,
+    "unicodeReplacementCharacters": 0,
+    "findResults": 94,
+    "noValueResults": 4,
+    "standaloneCertsVerified": [
+      "108031205",
+      "114218231",
+      "24709368"
+    ],
+    "adminPrintLinks": true,
+    "recordImagesLoaded": true,
+    "build": "passed",
+    "print": "passed",
+    "tests": 323,
+    "pdf": {
+      "label": {
+        "pages": 4,
+        "size": [
+          4,
+          6
+        ]
+      },
+      "sheet": {
+        "pages": 7,
+        "size": [
+          8.5,
+          11
+        ]
+      }
+    },
+    "allPdfPagesVisuallyReviewed": true
+  }
+}

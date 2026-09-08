@@ -1,0 +1,41 @@
+{
+  "capturedAt": "2026-09-08T03:34:47.110Z",
+  "cert": "104020411",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 30
+  },
+  "fields": {
+    "Brand/Title": "POKEMON GAME",
+    "Card Number": "7",
+    "Category": "TCG Cards",
+    "Cert Number": "104020411",
+    "Item Grade": "EX-MT 6",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "HITMONCHAN-HOLO",
+    "Year": "1999"
+  },
+  "pageUrl": "https://www.psacard.com/cert/104020411/psa",
+  "population": {
+    "atGrade": 2871,
+    "higher": 10453
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 0,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/172447918/small/9eEfYrX-L0KLpdUlHuWmBQ.jpg",
+      "width": 0
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 0,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/172447918/small/igU-g6oUhU6hYzZTY38LSw.jpg",
+      "width": 0
+    }
+  ]
+}

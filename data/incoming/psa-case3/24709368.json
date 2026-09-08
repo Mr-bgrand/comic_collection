@@ -1,0 +1,34 @@
+{
+  "capturedAt": "2026-09-08T03:50:38.789Z",
+  "cert": "24709368",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 36
+  },
+  "fields": {
+    "Brand/Title": "POKEMON NEO DESTINY",
+    "Card Number": "17",
+    "Category": "TCG Cards",
+    "Cert Number": "24709368",
+    "Item Grade": "MINT 9",
+    "Label Type": "Hologram",
+    "Reverse Cert/Barcode": "No",
+    "Subject": "DARK ARIADOS",
+    "Variety/Pedigree": "1ST EDITION",
+    "Year": "2002"
+  },
+  "pageUrl": "https://www.psacard.com/cert/24709368/psa",
+  "population": {
+    "atGrade": 67,
+    "higher": 63
+  },
+  "scans": [],
+  "scanStatus": "no-scans-on-cert-page",
+  "scanReview": {
+    "scrolled": true,
+    "rechecked": true,
+    "checkedAt": "2026-09-08T04:06:13.473Z",
+    "basis": "Cert number matched in rendered Item Information; no Cert image 1 or Cert image 2 in full accessibility tree after scrolling down and back up."
+  }
+}

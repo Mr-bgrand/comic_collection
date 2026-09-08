@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:34:41.777Z",
+  "cert": "93236999",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 112
+  },
+  "fields": {
+    "Brand/Title": "POKEMON SUN & MOON FORBIDDEN LIGHT",
+    "Card Number": "128",
+    "Category": "TCG Cards",
+    "Cert Number": "93236999",
+    "Item Grade": "GEM MT 10",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "FA/BONNIE",
+    "Variety/Pedigree": "FORBIDDEN LIGHT",
+    "Year": "2018"
+  },
+  "pageUrl": "https://www.psacard.com/cert/93236999/psa",
+  "population": {
+    "atGrade": 222,
+    "higher": 0
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 639,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/160163596/small/dM2FtbTHBE-X5Sfp5_eR_A.jpg",
+      "width": 380
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 0,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/160163596/small/0k2u5hhi1kaUghYZLL4mgA.jpg",
+      "width": 0
+    }
+  ]
+}

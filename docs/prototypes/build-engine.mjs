@@ -3,8 +3,11 @@ import fs from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import sharp from 'sharp';
 import { captureValueHistory } from '../../src/value-history.js';
+import { refreshTagValues } from '../../src/refresh-tag-values.js';
+import { marketValuation, marketValueLabel } from '../../src/card-valuation.js';
 import { displayTitle, gradeLabel, graderOf, fmvValue, manualValue, certUrl, collectionStats, signatureLine } from '../../src/model.js';
 
+await refreshTagValues();
 const bins = await Promise.all((await fs.readdir('data/bins')).filter(f=>f.endsWith('.json')).sort().map(async f=>JSON.parse(await fs.readFile('data/bins/'+f,'utf8'))));
 const config=JSON.parse(await fs.readFile('data/config.json','utf8'));
 const base=config.baseUrl.replace(/\/$/,'');
@@ -40,7 +43,7 @@ for(let i=0;i<flat.length;i++) {
     if((embeddedCerts.has(c.cert)||localScans)&&local) images[side]='data:image/jpeg;base64,'+(await sharp(local).resize({height:640,withoutEnlargement:true}).jpeg({quality:78}).toBuffer()).toString('base64');
     else images[side]=base+'/medium/'+encodeURIComponent(file);
   }
-  const market=fmvValue(c), manual=manualValue(c);
+  const market=fmvValue(c), manual=manualValue(c), valuation=marketValuation(c);
   const cgcDetails=isCard&&c.grader==='CGC'&&c.cgc?[
     ['CURRENT CERT GRADE',c.cgc.gradeText],
     ...(c.cgc.slabLabel?[['PHYSICAL SLAB LABEL',c.cgc.slabLabel.gradeText]]:[]),
@@ -49,8 +52,8 @@ for(let i=0;i<flat.length;i++) {
     ...(c.population?[['POPULATION',c.population.atGrade+' at '+c.cgc.gradeText+' · '+c.population.higher+' higher · checked '+c.population.asOf]]:[])
   ]:null;
   records.push({palette,id:c.id||(c.provider||graderOf(c)||'Collection')+':'+c.cert,kind:isCard?'card':'comic',grader:graderOf(c),provider:c.provider||null,holder:c.holder||null,localScans,cert:c.cert,title:displayTitle(c),short:isCard?(c.displaySubject||c.subject):c.title+' #'+c.issue,variant:isCard?[c.year,c.brand,c.cardNumber?'#'+c.cardNumber:null,c.variety].filter(Boolean).join(' · '):c.variant||'Standard edition',grade:gradeLabel(c),bin:b.id||b.bin,container:isLoose?(c.location||b.location||'Location not recorded'):(b.title||'Bin '+b.bin),virtual:!!b.virtual,storage:b.location||null,
-    value:market??manual,source:market!==null?(isCard?(c.fmv.source==='psa-vault-export'?'PSA estimate · vault export':(c.grader||'Card')+' estimate'):'GoCollect FMV'):manual!==null?'Owner estimate':null,date:(market!==null?(c.fmv?.asOf||c.fmv?.fetchedAt):c.manual?.setAt)?.slice(0,10)||null,importedAt:c.importSource?.importedAt?.slice(0,10)||null,
-    verify:certUrl(c),evidence:c.fmv?.url||null,href:isCard||isLoose||!b.bin?null:base+'/bin/'+encodeURIComponent(b.bin)+'/',frontFile:c.images?.front||null,backFile:c.images?.back||null,images,hasScan:!!small,previewFront:fallback?'data:image/jpeg;base64,'+fallback.toString('base64'):null,scanStatus:c.scanStatus||null,top:c.population?.higher===0,publisher:c.publisher||c.brand||'',year:c.issueYear||c.year||'',featuredCharacters:c.featuredCharacters||[],searchTerms:[c.artComments,c.keyComments,c.category,c.series,c.provider,c.holder,c.upc,...(c.featuredCharacters||[]),signatureLine(c),c.signatures?.length?'Signed':null].filter(Boolean).join(' · '),
+    value:market??manual,source:market!==null?marketValueLabel(c):manual!==null?'Owner estimate':null,date:(market!==null?(valuation?.asOf||valuation?.fetchedAt):c.manual?.setAt)?.slice(0,10)||null,importedAt:c.importSource?.importedAt?.slice(0,10)||null,
+    verify:certUrl(c),evidence:valuation?.url||null,href:isCard||isLoose||!b.bin?null:base+'/bin/'+encodeURIComponent(b.bin)+'/',frontFile:c.images?.front||null,backFile:c.images?.back||null,images,hasScan:!!small,previewFront:fallback?'data:image/jpeg;base64,'+fallback.toString('base64'):null,scanStatus:c.scanStatus||null,top:c.population?.higher===0,publisher:c.publisher||c.brand||'',year:c.issueYear||c.year||'',featuredCharacters:c.featuredCharacters||[],searchTerms:[c.artComments,c.keyComments,c.category,c.series,c.provider,c.holder,c.upc,...(c.featuredCharacters||[]),signatureLine(c),c.signatures?.length?'Signed':null].filter(Boolean).join(' · '),
     details:c.provider==='Authority'?[['HOLDER','Soft sleeve'],['AUTHENTICATION','Authority · '+c.authentication.label],['COVER ART',c.creators.coverArtists.join(', ')],['WRITERS',c.creators.writers.join(', ')],['ARTISTS',c.creators.artists.join(', ')],['EDITION',[c.publisher,'Vol. '+c.volume,'Cover '+c.coverCode].join(' · ')],['ON SALE',c.onSaleDate],['PRINTED',c.issueDate],['CONTENTS',[c.composition,c.keyComments].filter(Boolean).join(' · ')],['UPC',c.upc]]:c.grader==='TAG'&&c.tag?[['GRADE',gradeLabel(c)+' · '+c.gradeDescription],...(Number.isFinite(c.tag.score)?[['TAG SCORE',c.tag.score+' / 1000']]:[]),['GRADED',c.gradeDate],['POPULATION',c.population.atGrade+' at grade '+c.grade+' / '+c.population.total+' total · '+c.population.asOf],['RANK AT GRADE',c.tag.rank.atGrade+' · '+c.tag.rank.atGradeLabel],['OVERALL RANK',c.tag.rank.overall+' · '+c.tag.rank.overallLabel+' · '+c.tag.rank.asOf],['FRONT CENTERING',c.tag.centering.front],['BACK CENTERING',c.tag.centering.back],...Object.entries(c.tag.dings).map(([part,counts])=>[part.toUpperCase()+' DINGS','Front '+counts.front+' / Back '+counts.back]),['DIMENSIONS',c.tag.dimensions.heightIn+' × '+c.tag.dimensions.widthIn+' inches']]:[]});
   if(cgcDetails)records.at(-1).details=cgcDetails;
   if(c.arenaClub)records.at(-1).details=[['GRADE',gradeLabel(c)+' · '+c.gradeDescription],...Object.entries(c.arenaClub.subgrades).map(([label,value])=>[label.toUpperCase()+' SUBGRADE',String(value)]),['CENTERING',c.arenaClub.centering.left+'% L / '+c.arenaClub.centering.right+'% R · '+c.arenaClub.centering.top+'% T / '+c.arenaClub.centering.bottom+'% B']];
@@ -65,7 +68,7 @@ script=script.replace("import { matchesSearch, searchShortcuts } from './engine-
 const adminSource=(await fs.readFile('docs/prototypes/engine-admin.mjs','utf8')).replace("import { mountPhotoIntake } from './photo-intake.mjs';",(await fs.readFile('docs/prototypes/photo-intake.mjs','utf8')).replace(/export /g,''));
 script=script.replace("import { mountAdmin } from './engine-admin.mjs';",adminSource.replace(/export /g,''));
 script=script.replace("import { mountValueHistory } from './engine-value.mjs';",(await fs.readFile('docs/prototypes/engine-value.mjs','utf8')).replace(/export /g,''));
-for(const [signature,file] of [["import { caseMembers, stepWithin, caseFormation, arrivalFrame, advanceArrival, arrivalSequence } from './engine-immersive.mjs';",'engine-immersive.mjs'],["import { createSingularity } from './engine-singularity.mjs';",'engine-singularity.mjs']])script=script.replace(signature,(await fs.readFile('docs/prototypes/'+file,'utf8')).replace(/export /g,''));
+for(const [signature,file] of [["import { caseMembers, stepWithin, caseFormation, arrivalFrame, advanceArrival, arrivalSequence, ARRIVAL_REST } from './engine-immersive.mjs';",'engine-immersive.mjs'],["import { createSingularity } from './engine-singularity.mjs';",'engine-singularity.mjs']])script=script.replace(signature,(await fs.readFile('docs/prototypes/'+file,'utf8')).replace(/export /g,''));
 const immersiveHtml=await fs.readFile('docs/prototypes/engine-immersive.html','utf8');
 const css=(await fs.readFile('docs/prototypes/engine.css','utf8'))+'\n'+(await fs.readFile('docs/prototypes/engine-admin.css','utf8'))+'\n'+(await fs.readFile('docs/prototypes/photo-intake.css','utf8'))+'\n'+(await fs.readFile('docs/prototypes/engine-value.css','utf8'));
 const immersiveCss=await fs.readFile('docs/prototypes/engine-immersive.css','utf8');

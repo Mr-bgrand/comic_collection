@@ -1,0 +1,41 @@
+{
+  "capturedAt": "2026-09-08T03:36:31.251Z",
+  "cert": "113196767",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 75
+  },
+  "fields": {
+    "Brand/Title": "ONE PIECE OP01-ROMANCE DAWN",
+    "Card Number": "024",
+    "Category": "TCG Cards",
+    "Cert Number": "113196767",
+    "Item Grade": "GEM MT 10",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "MONKEY D. LUFFY",
+    "Year": "2022"
+  },
+  "pageUrl": "https://www.psacard.com/cert/113196767/psa",
+  "population": {
+    "atGrade": 1239,
+    "higher": 0
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 0,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/178670513/small/-Ij63VbIhU-aDWwkGHDVtQ.jpg",
+      "width": 0
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 0,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/178670513/small/N28l0VhvlECVmdCSi4cAGA.jpg",
+      "width": 0
+    }
+  ]
+}

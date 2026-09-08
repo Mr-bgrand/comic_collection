@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:37:02.624Z",
+  "cert": "75408148",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 18
+  },
+  "fields": {
+    "Brand/Title": "PANINI DONRUSS",
+    "Card Number": "308",
+    "Category": "FOOTBALL CARDS",
+    "Cert Number": "75408148",
+    "Item Grade": "MINT 9",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "JAMESON WILLIAMS",
+    "Variety/Pedigree": "PRESS PROOF PREMIUM",
+    "Year": "2022"
+  },
+  "pageUrl": "https://www.psacard.com/cert/75408148/psa",
+  "population": {
+    "atGrade": 92,
+    "higher": 122
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 643,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/140765900/small/UIu9HyAO9E6uo1KfdoHGFw.jpg",
+      "width": 380
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 640,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/140765900/small/I8WwARH3LEC-9RJsJXDm3g.jpg",
+      "width": 380
+    }
+  ]
+}

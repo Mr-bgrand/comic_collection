@@ -1,0 +1,41 @@
+{
+  "capturedAt": "2026-09-08T03:38:11.821Z",
+  "cert": "127120384",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 173
+  },
+  "fields": {
+    "Brand/Title": "PANINI PRIZM WNBA FRACTAL",
+    "Card Number": "1",
+    "Category": "BASKETBALL CARDS",
+    "Cert Number": "127120384",
+    "Item Grade": "GEM MT 10",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "CAITLIN CLARK",
+    "Year": "2024"
+  },
+  "pageUrl": "https://www.psacard.com/cert/127120384/psa",
+  "population": {
+    "atGrade": 1103,
+    "higher": 0
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 0,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/187171312/small/nO1wfcbHcEquE0cw0KNQaw.jpg",
+      "width": 0
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 639,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/187171312/small/cVElrhfLr0y_UwxxsAyj1w.jpg",
+      "width": 380
+    }
+  ]
+}

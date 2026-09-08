@@ -1,0 +1,33 @@
+{
+  "capturedAt": "2026-09-08T04:00:37.531Z",
+  "cert": "55209358",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 29
+  },
+  "fields": {
+    "Brand/Title": "POKEMON SUN & MOON DRAGON MAJESTY",
+    "Card Number": "3",
+    "Category": "TCG Cards",
+    "Cert Number": "55209358",
+    "Item Grade": "MINT 9",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "CHARIZARD",
+    "Variety/Pedigree": "DRM-LET'S PLAY EEVEE!",
+    "Year": "2018"
+  },
+  "pageUrl": "https://www.psacard.com/cert/55209358/psa",
+  "population": {
+    "atGrade": 540,
+    "higher": 586
+  },
+  "scans": [],
+  "scanStatus": "no-scans-on-cert-page",
+  "scanReview": {
+    "scrolled": true,
+    "rechecked": true,
+    "basis": "Rendered cert metadata and gallery reviewed again after scrolling; no cert image 1 or 2 from PSA scan host."
+  }
+}

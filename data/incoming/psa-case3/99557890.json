@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:38:47.085Z",
+  "cert": "99557890",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 94
+  },
+  "fields": {
+    "Brand/Title": "PANINI MOSAIC",
+    "Card Number": "331",
+    "Category": "FOOTBALL CARDS",
+    "Cert Number": "99557890",
+    "Item Grade": "GEM MT 10",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "TREY MCBRIDE",
+    "Variety/Pedigree": "VARIATION-SILVER",
+    "Year": "2022"
+  },
+  "pageUrl": "https://www.psacard.com/cert/99557890/psa",
+  "population": {
+    "atGrade": 4,
+    "higher": 0
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 638,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/167604274/small/r-wcR7uQRkGsz-818z5sXg.jpg",
+      "width": 380
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 636,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/167604274/small/hyRQE5IxnUOjfz7zFDMtkQ.jpg",
+      "width": 380
+    }
+  ]
+}

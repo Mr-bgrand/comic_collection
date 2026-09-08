@@ -7,6 +7,7 @@
     "vault": "node src/import-vault.js",
     "psa:certs": "node src/import-psa-cert.js",
     "tag": "node src/import-tag.js",
+    "tag:values": "node src/refresh-tag-values.js",
     "cgc:cards": "node src/import-cgc-cards.js",
     "arena:import": "node src/import-arena-club.js",
     "cards:images": "node src/import-card-images.js",

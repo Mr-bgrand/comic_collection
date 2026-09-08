@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T04:00:05.919Z",
+  "cert": "114218225",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 37
+  },
+  "fields": {
+    "Brand/Title": "PANINI OBSIDIAN",
+    "Card Number": "2",
+    "Category": "FOOTBALL CARDS",
+    "Cert Number": "114218225",
+    "Item Grade": "MINT 9",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "KYLER MURRAY",
+    "Variety/Pedigree": "RED",
+    "Year": "2024"
+  },
+  "pageUrl": "https://www.psacard.com/cert/114218225/psa",
+  "population": {
+    "atGrade": 3,
+    "higher": 0
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 635,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179066760/small/l_Og0TMKtEiMhaIkTOexWg.jpg",
+      "width": 380
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 639,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/179066760/small/-2Nm7ltOSUGwWfUgEzwnhg.jpg",
+      "width": 380
+    }
+  ]
+}

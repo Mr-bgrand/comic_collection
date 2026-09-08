@@ -1,0 +1,64 @@
+{
+  "container": "comic-bin-14",
+  "requested": 97,
+  "imported": 97,
+  "scans": 194,
+  "added": 97,
+  "remaining": [],
+  "failed": [],
+  "updatedAt": "2026-09-07T23:58:08.223Z",
+  "submittedLinks": 98,
+  "duplicateIds": [
+    "4212643688"
+  ],
+  "verifiedAt": "2026-09-08T00:03:38.988Z",
+  "verification": {
+    "sourceMetadataMatches": true,
+    "originalScanHashesMatch": true,
+    "frontBackScansVisuallyReviewed": 194,
+    "unicodeReplacementCharacters": 0,
+    "leadingZeroIds": [
+      "0477570673",
+      "0302344965",
+      "0471278720",
+      "0845428595",
+      "0287251619",
+      "0034476645",
+      "0636835348",
+      "0392376426",
+      "0985015717",
+      "0872865980",
+      "0156273372"
+    ],
+    "findResults": 97,
+    "duplicateCertificateResults": 1,
+    "build": "passed",
+    "print": "passed",
+    "pdf": {
+      "label": {
+        "pages": 4,
+        "sizeInches": [
+          4,
+          6
+        ],
+        "unicodeClean": true
+      },
+      "sheet": {
+        "pages": 7,
+        "sizeInches": [
+          8.5,
+          11
+        ],
+        "unicodeClean": true,
+        "certificateIds": 97
+      }
+    },
+    "collection": {
+      "total": 693,
+      "comics": 550,
+      "cards": 143,
+      "missingScans": 6,
+      "unassigned": 14
+    }
+  }
+}

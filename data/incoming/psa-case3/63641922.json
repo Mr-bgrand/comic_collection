@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:38:39.120Z",
+  "cert": "63641922",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 20
+  },
+  "fields": {
+    "Brand/Title": "BOWMAN'S BEST BEST OF 2020 AUTOGRAPHS",
+    "Card Number": "B20LR",
+    "Category": "BASEBALL CARDS",
+    "Cert Number": "63641922",
+    "Item Grade": "MINT 9",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "LUIS ROBERT",
+    "Variety/Pedigree": "BEST/2020 AUTO-REF.",
+    "Year": "2020"
+  },
+  "pageUrl": "https://www.psacard.com/cert/63641922/psa",
+  "population": {
+    "atGrade": 81,
+    "higher": 40
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 0,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/126723654/small/356683423.jpg",
+      "width": 0
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 0,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/126723654/small/356683402.jpg",
+      "width": 0
+    }
+  ]
+}

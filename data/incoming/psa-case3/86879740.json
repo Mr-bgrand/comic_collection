@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:33:44.589Z",
+  "cert": "86879740",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 55
+  },
+  "fields": {
+    "Brand/Title": "POKEMON SUN & MOON UNIFIED MINDS",
+    "Card Number": "54",
+    "Category": "TCG Cards",
+    "Cert Number": "86879740",
+    "Item Grade": "MINT 9",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "RAICHU/ALN.RAICHU GX",
+    "Variety/Pedigree": "UNIFIED MINDS",
+    "Year": "2019"
+  },
+  "pageUrl": "https://www.psacard.com/cert/86879740/psa",
+  "population": {
+    "atGrade": 2691,
+    "higher": 2462
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 637,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/153428137/small/j8-mVsTo0kW_ZnlYVUlPPQ.jpg",
+      "width": 380
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 640,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/153428137/small/uEn8Zc_Dv0uiZaG809xpSQ.jpg",
+      "width": 380
+    }
+  ]
+}

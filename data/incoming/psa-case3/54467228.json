@@ -1,0 +1,34 @@
+{
+  "capturedAt": "2026-09-08T04:00:04.880Z",
+  "cert": "54467228",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 18
+  },
+  "fields": {
+    "Brand/Title": "PANINI MOSAIC ROOKIE AUTOGRAPHS MOSAIC",
+    "Card Number": "RA51",
+    "Category": "FOOTBALL CARDS",
+    "Cert Number": "54467228",
+    "Item Grade": "GEM MT 10",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "KENNETH MURRAY",
+    "Variety/Pedigree": "ROOKIE AUTOGRAPHS MOSAIC",
+    "Year": "2020"
+  },
+  "pageUrl": "https://www.psacard.com/cert/54467228/psa",
+  "population": {
+    "atGrade": 11,
+    "higher": 0
+  },
+  "scans": [],
+  "scanStatus": "no-scans-on-cert-page",
+  "scanReview": {
+    "scrolled": true,
+    "rechecked": true,
+    "checkedAt": "2026-09-08T04:06:59.661Z",
+    "basis": "Cert number matched in rendered Item Information; no Cert image 1 or Cert image 2 in full accessibility tree after scrolling down and back up."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "capturedAt": "2026-09-08T03:38:46.249Z",
+  "cert": "97340118",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 249
+  },
+  "fields": {
+    "Brand/Title": "BOWMAN CHROME PROSPECT AUTOGRAPHS",
+    "Card Number": "CPAPS",
+    "Category": "BASEBALL CARDS",
+    "Cert Number": "97340118",
+    "Item Grade": "NM-MT 8",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "PAUL SKENES",
+    "Year": "2024"
+  },
+  "pageUrl": "https://www.psacard.com/cert/97340118/psa",
+  "population": {
+    "atGrade": 34,
+    "higher": 419
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 637,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/164709993/small/J2kNUZkraUer11592zaYKQ.jpg",
+      "width": 380
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 636,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/164709993/small/xtAYguFcUEaJSiruznkpYA.jpg",
+      "width": 380
+    }
+  ]
+}

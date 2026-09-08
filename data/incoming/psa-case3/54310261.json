@@ -1,0 +1,34 @@
+{
+  "capturedAt": "2026-09-08T03:36:50.086Z",
+  "cert": "54310261",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 111
+  },
+  "fields": {
+    "Brand/Title": "POKEMON XY STEAM SIEGE",
+    "Card Number": "113",
+    "Category": "TCG Cards",
+    "Cert Number": "54310261",
+    "Item Grade": "GEM MT 10",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "FA/POKEMON RANGER",
+    "Variety/Pedigree": "STEAM SIEGE",
+    "Year": "2016"
+  },
+  "pageUrl": "https://www.psacard.com/cert/54310261/psa",
+  "population": {
+    "atGrade": 306,
+    "higher": 0
+  },
+  "scans": [],
+  "scanStatus": "no-scans-on-cert-page",
+  "scanReview": {
+    "scrolled": true,
+    "rechecked": true,
+    "checkedAt": "2026-09-08T04:03:25.414Z",
+    "basis": "Cert number matched in rendered Item Information; no Cert image 1 or Cert image 2 in full accessibility tree after scrolling down and back up."
+  }
+}

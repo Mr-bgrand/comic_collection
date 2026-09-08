@@ -1,0 +1,41 @@
+{
+  "capturedAt": "2026-09-08T03:56:34.360Z",
+  "cert": "103495225",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 82
+  },
+  "fields": {
+    "Brand/Title": "PANINI PRIZM",
+    "Card Number": "309",
+    "Category": "FOOTBALL CARDS",
+    "Cert Number": "103495225",
+    "Item Grade": "GEM MT 10",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "BO NIX",
+    "Year": "2024"
+  },
+  "pageUrl": "https://www.psacard.com/cert/103495225/psa",
+  "population": {
+    "atGrade": 1717,
+    "higher": 0
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 0,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/172080793/small/hRzB8BZeA0uKPdvP47JtkA.jpg",
+      "width": 0
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 637,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/172080793/small/CaDwa0wP5kCCtyESIKsGpQ.jpg",
+      "width": 380
+    }
+  ]
+}

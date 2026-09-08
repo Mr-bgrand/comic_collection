@@ -20,6 +20,7 @@ import { renderDashboard } from './templates/dashboard.js';
 import { renderWallPage } from './templates/wallPage.js';
 import { renderWall3dPage } from './templates/wall3dPage.js';
 import { ensureThumbs, THUMB_DIR, MEDIUM_DIR, WALL_DIR } from './thumbs.js';
+import { refreshTagValues } from './refresh-tag-values.js';
 
 const DATA_DIR = 'data';
 const DIST_DIR = 'dist';
@@ -63,6 +64,7 @@ function warnUnresolved(bins) {
 }
 
 export async function build() {
+  await refreshTagValues();
   const config = await loadConfig();
   const bins = await loadBins();
 

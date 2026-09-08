@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-09-08T03:37:00.050Z",
+  "cert": "99916824",
+  "estimate": {
+    "currency": "USD",
+    "label": "PSA ESTIMATE",
+    "value": 117
+  },
+  "fields": {
+    "Brand/Title": "POKEMON JAPANESE SWORD & SHIELD EEVEE HEROES",
+    "Card Number": "094",
+    "Category": "TCG Cards",
+    "Cert Number": "99916824",
+    "Item Grade": "GEM MT 10",
+    "Label Type": "w/ Fugitive Ink Technology",
+    "Reverse Cert/Barcode": "Yes",
+    "Subject": "FA/UMBREON VMAX",
+    "Variety/Pedigree": "EEVEE HEROES-HYPER",
+    "Year": "2021"
+  },
+  "pageUrl": "https://www.psacard.com/cert/99916824/psa",
+  "population": {
+    "atGrade": 2554,
+    "higher": 0
+  },
+  "scans": [
+    {
+      "alt": "Cert image 1",
+      "height": 0,
+      "side": "front",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/167860952/small/bPhNMKNPFEiF3NOdFpKd7Q.jpg",
+      "width": 0
+    },
+    {
+      "alt": "Cert image 2",
+      "height": 639,
+      "side": "back",
+      "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/167860952/small/UsVatf07hEqXDze5trm3KQ.jpg",
+      "width": 380
+    }
+  ]
+}
