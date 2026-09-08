@@ -9,6 +9,7 @@ import { renderLabel } from './templates/label.js';
 import { renderSheet } from './templates/sheet.js';
 import { renderCollectionMaster, withPrintControls } from './templates/labPrint.js';
 import { isPrintPdf } from './print-packs.js';
+import { mediaRange } from './http-range.js';
 import { binUrl } from './model.js';
 import {physicalContainers,printContainer,containerId,containerUrl} from './physical-containers.js';
 import { createPrintJobs } from './lab-jobs.js';
@@ -98,8 +99,19 @@ export async function serveLab({ root = process.cwd(), port = 4175, photoPort = 
       if (!inside(file)) return json(res, 404, { error: 'Not found' });
       const resolved = await realpath(file);
       if (!inside(resolved)) return json(res, 404, { error: 'Not found' });
-      const mime = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '.mjs': 'text/javascript', '.css': 'text/css', '.jpg': 'image/jpeg', '.png': 'image/png', '.svg': 'image/svg+xml', '.pdf': 'application/pdf', '.json': 'application/json' }[path.extname(file)] || 'application/octet-stream';
-      res.writeHead(200, { 'Content-Type': mime, 'Cache-Control': 'no-store' }); res.end(await readFile(resolved));
+      const mime = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '.mjs': 'text/javascript', '.css': 'text/css', '.jpg': 'image/jpeg', '.png': 'image/png', '.svg': 'image/svg+xml', '.pdf': 'application/pdf', '.mp3': 'audio/mpeg', '.json': 'application/json' }[path.extname(file)] || 'application/octet-stream';
+      const bytes = await readFile(resolved), headers = { 'Content-Type': mime, 'Cache-Control': 'no-store', 'Content-Length': bytes.length };
+      if (mime === 'audio/mpeg') {
+        headers['Accept-Ranges'] = 'bytes';
+        if (req.headers.range) {
+          const range = mediaRange(req.headers.range, bytes.length);
+          if (!range) { res.writeHead(416, { 'Content-Range': `bytes */${bytes.length}`, 'Content-Length': 0 }); return res.end(); }
+          headers['Content-Range'] = `bytes ${range.start}-${range.end}/${bytes.length}`;
+          headers['Content-Length'] = range.end - range.start + 1;
+          res.writeHead(206, headers); return res.end(bytes.subarray(range.start, range.end + 1));
+        }
+      }
+      res.writeHead(200, headers); res.end(bytes);
     } catch (error) { json(res, error.status || (error.code === 'ENOENT' ? 404 : 400), { error: error.code === 'ENOENT' ? 'Not found' : error.message }); }
   });
   await new Promise((resolve, reject) => { server.once('error', reject); server.listen(port, '127.0.0.1', resolve); });

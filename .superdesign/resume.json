@@ -79,7 +79,20 @@
           "currentVersion": 18
         }
       },
-      "updatedAt": "2026-09-08T06:49:42.795Z"
+      "updatedAt": "2026-09-08T06:49:42.795Z",
+      "pendingCanvasSync": {
+        "feature": "Singularity soundtrack",
+        "status": "service-unavailable",
+        "draftStillAtVersion": 18,
+        "reason": "Import timed out; one retry and final read returned HTTP 502.",
+        "sourceFiles": [
+          "docs/prototypes/engine-audio.mjs",
+          "docs/prototypes/engine.js",
+          "docs/prototypes/engine-immersive.html",
+          "docs/prototypes/engine-immersive.css"
+        ],
+        "checkedAt": "2026-09-08T08:37:16.582Z"
+      }
     }
   }
 }

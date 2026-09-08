@@ -35,7 +35,11 @@ view. The Event Horizon headline and black-hole graphic have been removed.
 
 Direct links: `?view=singularity`, `?view=singularity&ambient=1`, or
 `?case=comic-bin-13`. This is a browser display, not an installed screensaver.
-The requested Interstellar soundtrack is pending the owner's audio file.
+Singularity includes the owner's supplied **Cornfield Chase — Hans Zimmer** MP3.
+Music loops through successive arrivals, follows Pause/Resume, and continues when
+controls are hidden. Tap **Music play** if the browser needs a first interaction;
+**Music off** is remembered on that browser. Leaving Singularity or backgrounding
+the page pauses audio without resetting its position. The file loads on demand.
 
 ## Find, inspect and value
 

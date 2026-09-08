@@ -5,6 +5,7 @@ import { mountAdmin } from './engine-admin.mjs';
 import { mountValueHistory } from './engine-value.mjs';
 import { caseMembers, stepWithin, caseFormation, arrivalFrame, advanceArrival, arrivalSequence, ARRIVAL_REST } from './engine-immersive.mjs';
 import { createSingularity } from './engine-singularity.mjs';
+import { createSoundtrack } from './engine-audio.mjs';
 
 const payload=JSON.parse(document.getElementById('engine-data').textContent);
 const records=payload.records, $=id=>document.getElementById(id), app=$('engine');
@@ -13,6 +14,12 @@ const reduced=matchMedia('(prefers-reduced-motion: reduce)');
 let quiet=reduced.matches, selected=0, mode='orbit', inspecting=true, exploded=false, separation=1, flipped=false, graphics=null,scope='all',tourOn=false;
 let rendererFailed=false,unvaluedOnly=false,caseFilter=null;
 let insideCase=false,arrivalPlaying=false,arrivalElapsed=0,arrivalTime=0,ambient=false;
+let musicStorage;try{musicStorage=localStorage;}catch{}
+const soundtrack=createSoundtrack({audio:$('singularity-audio'),button:$('music-toggle'),source:payload.soundtrack?.src,storage:musicStorage});
+function syncSoundtrack(){soundtrack.setPlayback({active:mode==='singularity',playing:arrivalPlaying,quiet,hidden:document.hidden});}
+document.addEventListener('visibilitychange',syncSoundtrack);
+addEventListener('pagehide',()=>soundtrack.setPlayback({active:false,playing:false}));
+addEventListener('pageshow',syncSoundtrack);
 const arrivalQueues=Object.fromEntries(['all','comic','card'].map(s=>[s,arrivalSequence(records,s)]));
 const browseIndices=()=>insideCase&&mode==='longbox'?caseMembers(records,selected,scope):mode==='singularity'?arrivalQueues[scope]:visibleIndices();
 const text=(id,value)=>{$(id).textContent=value;};
@@ -29,8 +36,8 @@ const visibleIndices=()=>records.map((c,i)=>({c,i})).filter(({c})=>scope==='all'
 const sourceText=c=>c.source?c.source+' · '+(c.date||'valuation date not provided'):'No value recorded';
 function updateScope(){document.querySelectorAll('[data-scope]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.scope===scope)));}
 function stopTour(){tourOn=false;$('tour').setAttribute('aria-pressed','false');text('tour','Play tour ▷');if(arrivalPlaying){arrivalPlaying=false;arrivalElapsed=ARRIVAL_REST;syncArrival();}}
-function syncArrival(){text('arrival-play',arrivalPlaying?'Pause Ⅱ':'Resume ▷');$('arrival-play').setAttribute('aria-pressed',String(arrivalPlaying));text('arrival-state',quiet?'STILL / MOTION OFF':arrivalPlaying?'CONTINUOUS FLIGHT':'PAUSED / YOUR MOMENT');}
-function setAmbient(value){ambient=value;app.classList.toggle('ambient',ambient);for(const el of document.querySelectorAll('.topline,.scope-switch,.scene-footer,.focus-panel,.object-tools,#singularity-tools'))el.inert=ambient;updateFocus();if(ambient)$('ambient-exit').focus({preventScroll:true});}
+function syncArrival(){text('arrival-play',arrivalPlaying?'Pause Ⅱ':'Resume ▷');$('arrival-play').setAttribute('aria-pressed',String(arrivalPlaying));text('arrival-state',quiet?'STILL / MOTION OFF':arrivalPlaying?'CONTINUOUS FLIGHT':'PAUSED / YOUR MOMENT');syncSoundtrack();}
+function setAmbient(value){ambient=value;app.classList.toggle('ambient',ambient);for(const el of document.querySelectorAll('.topline,.scope-switch,.scene-footer,.focus-panel,.object-tools,#singularity-tools,#singularity-music'))el.inert=ambient;updateFocus();if(ambient)$('ambient-exit').focus({preventScroll:true});}
 function leaveInspection(){if(mode==='singularity'){setAmbient(!ambient);return;}stopTour();insideCase=false;inspecting=false;exploded=false;updateFocus();graphics?.arrange();}
 function nextObject(delta){choose(stepWithin(browseIndices(),selected,delta));}
 function updateFocus() {
@@ -73,7 +80,7 @@ function arrange(next) {
   document.querySelectorAll('[data-formation]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.formation===mode)));
   text('scene-name',({orbit:'01 — ORBITAL ARRAY',wall:'02 — CHROMATIC WALL',longbox:'03 — INSIDE THE CASE',spotlight:'04 — SPOTLIGHT / AFTER HOURS',singularity:'05 — SINGULARITY'})[mode]);
   if(mode==='singularity'){const queue=arrivalQueues[scope];if(!records[selected].hasScan&&queue.length)selected=queue[0];arrivalPlaying=!quiet&&queue.length>0;arrivalElapsed=arrivalPlaying?0:ARRIVAL_REST;syncArrival();}
-  updateFocus();graphics?.arrange(true);
+  syncSoundtrack();updateFocus();graphics?.arrange(true);
   if(mode==='singularity')graphics?.select();
 }
 function toggleExplosion() {
@@ -86,7 +93,7 @@ function motion() {
   if(quiet&&mode==='singularity')arrivalElapsed=ARRIVAL_REST;syncArrival();
 }
 $('motion').onclick=()=>{quiet=!quiet;if(quiet)stopTour();motion();};reduced.addEventListener('change',e=>{quiet=e.matches;if(quiet)stopTour();motion();});motion();
-document.querySelectorAll('[data-formation]').forEach(b=>b.onclick=()=>arrange(b.dataset.formation));
+document.querySelectorAll('[data-formation]').forEach(b=>b.onclick=()=>{arrange(b.dataset.formation);if(mode==='singularity')soundtrack.retry();});
 document.querySelectorAll('[data-scope]').forEach(b=>b.onclick=()=>{stopTour();insideCase=false;scope=b.dataset.scope;updateScope();const indices=visibleIndices();if(!indices.includes(selected))selected=indices[0];exploded=false;flipped=false;if(mode==='longbox')inspecting=false;updateFocus();graphics?.arrange();if(inspecting)graphics?.select();});
 $('tour').onclick=()=>{tourOn=!tourOn;if(tourOn){quiet=false;motion();}text('tour',tourOn?'Pause tour Ⅱ':'Play tour ▷');$('tour').setAttribute('aria-pressed',String(tourOn));graphics?.restartTour();};
 $('wall-zoom-in').onclick=()=>{stopTour();graphics?.zoomWall(.8);};
@@ -96,8 +103,8 @@ $('home').onclick=()=>arrange('orbit');$('previous').onclick=()=>{stopTour();nex
 $('explode').onclick=toggleExplosion;$('flip').onclick=()=>{stopTour();if(!records[selected].images.back)return;flipped=!flipped;exploded=false;updateFocus();graphics?.resetHero();};
 $('inspect-toggle').onclick=()=>{if(inspecting)leaveInspection();else choose(selected);};
 $('case-leave').onclick=leaveInspection;$('case-enter').onclick=()=>choose(selected);
-$('arrival-play').onclick=()=>{if(arrivalPlaying)stopTour();else if(arrivalQueues[scope].length){arrivalPlaying=true;quiet=false;motion();arrivalElapsed=ARRIVAL_REST;syncArrival();}};
-$('arrival-replay').onclick=()=>{if(!arrivalQueues[scope].length)return;arrivalPlaying=true;quiet=false;motion();arrivalElapsed=0;flipped=false;graphics?.select();syncArrival();updateFocus();};
+$('arrival-play').onclick=()=>{if(arrivalPlaying)stopTour();else if(arrivalQueues[scope].length){arrivalPlaying=true;quiet=false;motion();arrivalElapsed=ARRIVAL_REST;syncArrival();soundtrack.retry();}};
+$('arrival-replay').onclick=()=>{if(!arrivalQueues[scope].length)return;arrivalPlaying=true;quiet=false;motion();arrivalElapsed=0;flipped=false;graphics?.select();syncArrival();soundtrack.retry();updateFocus();};
 $('ambient-start').onclick=()=>setAmbient(true);$('ambient-exit').onclick=()=>setAmbient(false);
 $('separation').oninput=e=>{separation=Number(e.target.value)/100;text('separation-value',e.target.value+'%');};
 document.querySelectorAll('[data-close]').forEach(b=>b.onclick=()=>$(b.dataset.close).close());

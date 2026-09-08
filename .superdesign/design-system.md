@@ -43,3 +43,12 @@ Admin opens as a responsive control-room overlay with Bins & locations, Print St
 Scanned copies play in a stable mixed sequence with All / Comics / Cards scope. Pause, direct interaction and dialogs settle the current copy for inspection and stop arrivals. Resume begins with its viewing hold; Replay arrival restarts that copy's reveal. A backgrounded browser tab suspends rendering and elapsed time but preserves play/pause intent, resuming without skipped records when visible again. Motion off gives a still presentation with manual navigation. Hide controls / Ambient / Show controls change visibility only, preserving playback or a deliberate pause. Ambient removes controls from keyboard focus, enlarges the art, and leaves an explicit Show controls action; Escape exits Ambient. Mobile portrait reserves space for the complete scan and lower controls; compact landscape places scope, metadata and playback beside the image. Link directly with `?view=singularity` or `?view=singularity&ambient=1`. This is an ambient display, not an installed operating-system screensaver.
 
 New source: engine-immersive.mjs/html/css and engine-singularity.mjs. The homepage value instrument stays out of these immersive scenes. Keep the detail scan intact; colored light belongs to the surrounding flight and horizon. Native WebGL 2 is required; the searchable fallback remains available.
+
+**September 8 soundtrack:** Singularity plays the owner's supplied Cornfield Chase
+by Hans Zimmer as one continuous loop. Use a small Music control below the brand,
+beside the scope in desktop and below it in portrait; preserve all scene geometry.
+Audio follows scene Pause/Resume, pauses when leaving or backgrounding, and keeps
+its position between arrivals. Hide controls hides the music control and removes
+it from keyboard focus without affecting playback. Remember an explicit Music off
+preference. When first playback is blocked, show Music play and start from that tap.
+Source: `engine-audio.mjs`; the MP3 loads on demand as a separate published asset.

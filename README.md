@@ -4,6 +4,8 @@ Your personal comic and card collection: exact-copy records, immersive displays,
 case labels, master sheets, and recorded value history.
 
 The active experience is [Collection / Lab](https://mr-bgrand.github.io/comic_collection/review/).
+Singularity includes optional looping *Cornfield Chase* audio. Tap Music to enable
+it when needed; hiding controls keeps the soundtrack and flight running.
 The original catalogue remains at the site root. Current snapshot, September 8,
 2026: **910 objects - 673 comics and 237 cards**, with 884 front scans.
 See [collection status](docs/collection-status.md) for containers and pending intake.

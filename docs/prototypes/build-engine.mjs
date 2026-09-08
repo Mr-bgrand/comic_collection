@@ -11,6 +11,7 @@ await refreshTagValues();
 const bins = await Promise.all((await fs.readdir('data/bins')).filter(f=>f.endsWith('.json')).sort().map(async f=>JSON.parse(await fs.readFile('data/bins/'+f,'utf8'))));
 const config=JSON.parse(await fs.readFile('data/config.json','utf8'));
 const base=config.baseUrl.replace(/\/$/,'');
+const soundtrack={src:base+'/review/audio/cornfield-chase.mp3',title:'Cornfield Chase',artist:'Hans Zimmer'};
 const cardBoxes=existsSync('data/cards')?await Promise.all((await fs.readdir('data/cards')).filter(f=>f.endsWith('.json')).sort().map(async f=>JSON.parse(await fs.readFile('data/cards/'+f,'utf8')))):[];
 const comicGroups=existsSync('data/comics')?await Promise.all((await fs.readdir('data/comics')).filter(f=>f.endsWith('.json')).sort().map(async f=>JSON.parse(await fs.readFile('data/comics/'+f,'utf8')))):[];
 const flat=[...bins.flatMap(b=>b.comics.map(c=>({c,b}))),...cardBoxes.flatMap(b=>(b.cards||[]).map(c=>({c,b}))),...comicGroups.flatMap(b=>(b.comics||[]).map(c=>({c,b})))];
@@ -70,6 +71,7 @@ script=script.replace("import { mountAdmin } from './engine-admin.mjs';",adminSo
 script=script.replace("import { mountValueHistory } from './engine-value.mjs';",(await fs.readFile('docs/prototypes/engine-value.mjs','utf8')).replace(/export /g,''));
 for(const [signature,file] of [["import { caseMembers, stepWithin, caseFormation, arrivalFrame, advanceArrival, arrivalSequence, ARRIVAL_REST } from './engine-immersive.mjs';",'engine-immersive.mjs'],["import { createSingularity } from './engine-singularity.mjs';",'engine-singularity.mjs']])script=script.replace(signature,(await fs.readFile('docs/prototypes/'+file,'utf8')).replace(/export /g,''));
 const immersiveHtml=await fs.readFile('docs/prototypes/engine-immersive.html','utf8');
+script=script.replace("import { createSoundtrack } from './engine-audio.mjs';",(await fs.readFile('docs/prototypes/engine-audio.mjs','utf8')).replace(/export /g,''));
 const css=(await fs.readFile('docs/prototypes/engine.css','utf8'))+'\n'+(await fs.readFile('docs/prototypes/engine-admin.css','utf8'))+'\n'+(await fs.readFile('docs/prototypes/photo-intake.css','utf8'))+'\n'+(await fs.readFile('docs/prototypes/engine-value.css','utf8'));
 const immersiveCss=await fs.readFile('docs/prototypes/engine-immersive.css','utf8');
 const adminHtml=(await fs.readFile('docs/prototypes/engine-admin.html','utf8')).replace('<!-- PHOTO INTAKE -->',await fs.readFile('docs/prototypes/photo-intake.html','utf8'));
@@ -78,6 +80,7 @@ const storedHistory=await captureValueHistory(process.cwd(),flat.map(({c})=>c));
 const publicSnapshot=({fingerprint,revision,...snapshot})=>snapshot;
 const valueHistory={currency:storedHistory.currency,timeZone:storedHistory.timeZone,snapshots:storedHistory.snapshots.map(publicSnapshot),current:publicSnapshot(storedHistory.current)};
 const data={valueHistory,bins:[...bins,...cardBoxes.filter(b=>b.physical===true&&!b.virtual),...comicGroups.filter(b=>b.physical===true&&!b.virtual)].map(b=>({id:b.bin||b.id,title:b.title||'Bin '+b.bin,location:b.location||'',count:(b.comics||b.cards||[]).length})),records,backAtlas:'data:image/jpeg;base64,'+backAtlas.toString('base64'),atlas:'data:image/jpeg;base64,'+atlas.toString('base64'),columns,rows,stats:{...collectionStats([...bins,...comicGroups]),bins:bins.length,cards:records.filter(c=>c.kind==='card').length,psaVaultCards:cardBoxes.find(b=>b.id==='psa-vault')?.cards.length||0},base,snapshot:new Date().toISOString().slice(0,10)};
+data.soundtrack=soundtrack;
 const html=`<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#060d13"><title>COLLECTION / LAB</title>
 <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"}}</script><style>${css}
 ${immersiveCss}</style></head><body><div id="engine" class="relative">
@@ -101,9 +104,11 @@ ${adminHtml}${valueHtml}<noscript><div class="noscript">This interactive collect
 <script id="engine-data" type="application/json">${JSON.stringify(data).replace(/</g,'\\u003c')}</script><script>setTimeout(()=>{if(!document.documentElement.dataset.engineReady){document.getElementById('boot').hidden=true;document.getElementById('fallback').hidden=false;}},18000);</script><script type="module">${script}</script>
 </div></body></html>`;
 await fs.mkdir('dist/review',{recursive:true});await fs.mkdir('.superdesign/tmp',{recursive:true});
-const appData={...data,atlas:'./front-atlas.jpg',backAtlas:'./back-atlas.jpg',records:records.map(c=>({...c,images:Object.fromEntries(['front','back'].map(side=>[side,c[side+'File']?'../medium/'+encodeURIComponent(c[side+'File']):null]))}))};
+const appData={...data,soundtrack:{...soundtrack,src:'./audio/cornfield-chase.mp3'},atlas:'./front-atlas.jpg',backAtlas:'./back-atlas.jpg',records:records.map(c=>({...c,images:Object.fromEntries(['front','back'].map(side=>[side,c[side+'File']?'../medium/'+encodeURIComponent(c[side+'File']):null]))}))};
 const appHtml=html.replace(/(<script id="engine-data" type="application\/json">)[\s\S]*?(<\/script>)/,(_,open,close)=>open+JSON.stringify(appData).replace(/</g,'\\u003c')+close);
 await fs.writeFile('dist/review/front-atlas.jpg',atlas);await fs.writeFile('dist/review/back-atlas.jpg',backAtlas);
+await fs.mkdir('dist/review/audio',{recursive:true});
+await fs.copyFile('assets/audio/cornfield-chase.mp3','dist/review/audio/cornfield-chase.mp3');
 await fs.writeFile('dist/review/index.html',appHtml);await fs.writeFile('.superdesign/tmp/engine.html',html);
 await fs.writeFile('docs/prototypes/engine.html',html);
 console.log(`Built ${records.length} objects. App ${Math.round(Buffer.byteLength(appHtml)/1024)} KB; atlas ${Math.round(atlas.length/1024)} KB; portable scene ${Math.round(Buffer.byteLength(html)/1024)} KB. http://localhost:4175/review/`);

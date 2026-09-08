@@ -70,3 +70,13 @@
 @media(min-width:651px) and (min-height:501px){
   [data-formation=singularity] .focus-panel{top:auto;bottom:290px;max-height:calc(100dvh - 400px);overflow-y:auto;overflow-x:hidden;transform:none;scrollbar-width:thin}
 }
+
+/* Music stays beside the scene title, leaving the lower mobile controls intact. */
+#singularity-music{display:none;position:absolute;left:34px;top:88px;align-items:center;gap:12px;color:#9ab4c9;font:9px Consolas,monospace}
+[data-formation=singularity] #singularity-music{display:flex}
+#music-toggle{min-height:44px;padding:10px 13px;border:1px solid #91b9da40;border-radius:24px;background:#08131fcc;color:#d6eafb;font:10px Consolas,monospace;white-space:nowrap}
+#music-toggle[data-state=playing]{border-color:#aadaff80}
+#singularity-music span{line-height:1.5}#singularity-music small{display:block;font-size:8px;color:#7593ac}
+.ambient #singularity-music{opacity:0;pointer-events:none}
+@media(max-width:650px){#singularity-music{left:23px;top:142px;gap:9px;font-size:8px}#music-toggle{font-size:9px;padding:8px 11px}#singularity-music small{font-size:7px}}
+@media(max-height:500px) and (min-width:651px){#singularity-music{left:24px;top:116px}#singularity-music span{display:none}}

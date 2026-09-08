@@ -67,7 +67,8 @@ Inventory growth and newly valued records affect totals; these are not investmen
   scans. Use Admin > Photos to attach an exact-copy front/back image.
 - The original 14 TAG cards still need a physical storage assignment.
 - The 96 owner-scanned raw books in Bin #15 need title/issue identification.
-- Interstellar music is requested for Singularity; the owner's audio file is pending.
+- Singularity now uses the owner's supplied *Cornfield Chase* MP3, with looping
+  playback, a Music toggle, and uninterrupted audio when controls are hidden.
 
 ## Printing and project guide
 
