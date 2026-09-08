@@ -176,6 +176,28 @@ It warns when the result is not slab-shaped (a CGC slab is about 1.5 times as
 tall as it is wide), which catches a wrong number before it reaches a sheet.
 ```
 
+### Raw comics, two at a time
+
+Raw books are bagged and boarded, so only the front is visible - and the bed is
+wide enough for two side by side with mat to spare. One press scans both:
+
+```bash
+npm run scan:raw -- --bin 15            # keyboard: Enter = scan, a = again, s = shiny, q = quit
+npm run scan:raw -- --bin 15 --voice    # hands-free, with the live preview
+npm run scan:raw -- --bin 15 --from .cache/raw/raw-15-scan-004.jpg   # re-process a kept bed
+```
+
+Each bed is split into its books, each book is cropped and saved, and each gets
+a stable id - `raw:15-001`, `raw:15-002` - in `data/comics/comic-bin-15.json`,
+the container the Lab and `npm run print` already treat as a raw comic bin. The
+bed is kept in `.cache/raw/` so a bad split is a re-crop, not a rescan. Saying
+**again** rescans the last bed and replaces its books rather than adding two more.
+
+Nothing here works out what the books are: many are virgin covers with no text
+at all, and identifying them is a matching problem for later. Until then a book
+shows as `Unidentified · 15-001`, and every record carries an `identification`
+slot for the answer to land in.
+
 In voice mode it reads out the bin, title, variant and grade before each book —
 enough to identify the slab in your hand without looking at the screen, which is
 the case that matters when scanning a run of near-identical variants. Then it

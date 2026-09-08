@@ -1,6 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
+  gradeLabel,
   isReflectiveCover,
   displayTitle,
   isTopPop,
@@ -377,4 +378,33 @@ test('isReflectiveCover does not fire on a word that merely contains one', () =>
 test('isReflectiveCover handles a missing comic', () => {
   assert.equal(isReflectiveCover(undefined), false);
   assert.equal(isReflectiveCover({}), false);
+});
+
+/*
+ * Unidentified raw books.
+ *
+ * A raw comic scanned before anyone has worked out what it is has no title, no
+ * issue and no cert. Rendered through the ordinary path that came out as " #",
+ * which on a printed sheet reads as a bug rather than as a book awaiting
+ * identification. The stable scan id is the only name it has, so that is shown.
+ */
+
+test('an unidentified raw book is named by its scan id, not " #"', () => {
+  const raw = { id: 'raw:15-001', title: null, issue: null,
+    grading: { status: 'raw' }, identification: { status: 'unidentified' } };
+  assert.equal(displayTitle(raw), 'Unidentified · 15-001');
+});
+
+test('once identified, a raw book displays like any other comic', () => {
+  const raw = { id: 'raw:15-001', title: 'Venom', issue: '23', variant: 'Virgin',
+    grading: { status: 'raw' }, identification: { status: 'confirmed' } };
+  assert.equal(displayTitle(raw), 'Venom #23 : Virgin');
+});
+
+test('a title-less record with no raw id still does not render as " #"', () => {
+  assert.equal(displayTitle({ title: null, issue: null }), 'Unidentified');
+});
+
+test('gradeLabel for an unidentified raw book is the raw label', () => {
+  assert.match(gradeLabel({ grading: { status: 'raw' } }), /raw/i);
 });

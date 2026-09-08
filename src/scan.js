@@ -46,7 +46,7 @@ const SHINY_BRIGHTNESS = 70;
 const SHINY_CONTRAST = 20;
 const SHINY_QUALITY = 90;
 
-function runScan(outPath, { brightness = 0, contrast = 0, quality = 0 } = {}) {
+export function runScan(outPath, { brightness = 0, contrast = 0, quality = 0 } = {}) {
   return new Promise((resolve) => {
     const ps = spawn(
       'powershell',

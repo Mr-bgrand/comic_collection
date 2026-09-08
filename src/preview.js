@@ -83,14 +83,21 @@ const PAGE = `<!doctype html>
        d.mode === 'bright' ? 'bright mode' : null].filter(Boolean).join('  ·  ');
 
     const flag = document.getElementById('flag');
-    if (d.brightness !== null && d.brightness < 45) {
+    const darkest = d.figures && d.figures.length
+      ? Math.min(...d.figures.map((f) => f.brightness ?? 255)) : d.brightness;
+    if (darkest !== null && darkest < 45) {
       flag.style.display = 'block';
-      flag.textContent = 'Very dark (' + d.brightness + '). A foil or metal cover can '
+      flag.textContent = 'Very dark (' + darkest + '). A foil or metal cover can '
         + 'reflect the lamp away from the lens — say "shiny", or tilt the slab slightly.';
     } else { flag.style.display = 'none'; }
 
     const main = document.getElementById('main');
     main.innerHTML = '';
+    if (d.figures && d.figures.length) {
+      // Two books from one bed, side by side, each with its own reading.
+      for (const f of d.figures) main.appendChild(fig(f.label, f.url, f.brightness, d.seq));
+      return;
+    }
     if (d.previous) main.appendChild(fig('Before', d.previousUrl, d.previousBrightness, d.seq));
     main.appendChild(fig(d.previous ? 'After' : 'Latest scan', d.url, d.brightness, d.seq));
   }
@@ -123,6 +130,7 @@ export async function startPreview({ open = true } = {}) {
   let latest = { seq: 0 };
   let current = null; // { buffer }
   let previous = null;
+  let figures = []; // two-up: one buffer per book on the bed
 
   const server = createServer((req, res) => {
     const url = (req.url ?? '/').split('?')[0];
@@ -135,6 +143,12 @@ export async function startPreview({ open = true } = {}) {
     if (url === '/current.jpg' && current) {
       res.writeHead(200, { 'content-type': 'image/jpeg', 'cache-control': 'no-store' });
       res.end(current);
+      return;
+    }
+    const figMatch = url.match(/^\/fig\/(\d+)\.jpg$/);
+    if (figMatch && figures[Number(figMatch[1])]) {
+      res.writeHead(200, { 'content-type': 'image/jpeg', 'cache-control': 'no-store' });
+      res.end(figures[Number(figMatch[1])]);
       return;
     }
     if (url === '/previous.jpg' && previous) {
@@ -171,6 +185,7 @@ export async function startPreview({ open = true } = {}) {
      *               previous version of this same image, when replacing one
      */
     async show(buffer, info = {}) {
+      figures = [];
       previous = info.before ?? null;
       current = buffer;
       latest = {
@@ -185,6 +200,30 @@ export async function startPreview({ open = true } = {}) {
         previous: Boolean(previous),
         previousUrl: '/previous.jpg',
         previousBrightness: previous ? await meanBrightness(previous) : null,
+      };
+    },
+    /**
+     * Show several images from one scan - the two-up raw case. Each item is
+     * { buffer, label }; the header carries the shared title/bin/mode.
+     */
+    async showMany(items, info = {}) {
+      figures = items.map((it) => it.buffer);
+      previous = null;
+      current = figures[0] ?? null;
+      const figs = [];
+      for (const [i, it] of items.entries()) {
+        figs.push({ label: it.label ?? `Book ${i + 1}`, url: `/fig/${i}.jpg`, brightness: await meanBrightness(it.buffer) });
+      }
+      latest = {
+        seq: latest.seq + 1,
+        title: info.title ?? '',
+        cert: info.cert ?? '',
+        side: info.side ?? '',
+        bin: info.bin ?? '',
+        mode: info.mode ?? 'normal',
+        figures: figs,
+        brightness: figs[0]?.brightness ?? null,
+        previous: false,
       };
     },
     stop() {

@@ -136,3 +136,67 @@ test('still finds a slab that genuinely fills most of the bed', () => {
   assert.ok(box, 'a large slab must still be found');
   assert.ok(box.width > 0.8, `width ${box?.width?.toFixed(3)}`);
 });
+
+/*
+ * Two books on the bed.
+ *
+ * Raw comics are scanned two at a time, side by side. The bed is 19.4" wide and
+ * two bagged comics are 13.5", so there is always a run of mat between them.
+ * The column profile therefore has two solid runs, and each becomes its own
+ * box - in left-to-right order, because that is the order the books were laid.
+ */
+
+import { findContentBoxes } from './crop.js';
+
+function twoUp(w, h, left, right, opts) {
+  const px = field(w, h, left, opts);
+  for (let y = right.y; y < right.y + right.h; y += 1) {
+    for (let x = right.x; x < right.x + right.w; x += 1) px[y * w + x] = opts?.slab ?? 200;
+  }
+  return px;
+}
+
+test('two books side by side become two boxes, left first', () => {
+  const px = twoUp(300, 200, { x: 20, y: 20, w: 100, h: 160 }, { x: 170, y: 20, w: 100, h: 160 });
+  const boxes = findContentBoxes(px, 300, 200, { max: 2 });
+  assert.equal(boxes.length, 2);
+  assert.ok(boxes[0].left < boxes[1].left, 'left book must come first');
+  assert.ok(Math.abs(boxes[0].left - 20 / 300) < 0.03, `left ${boxes[0].left}`);
+  assert.ok(Math.abs(boxes[1].left - 170 / 300) < 0.03, `right ${boxes[1].left}`);
+  for (const b of boxes) assert.ok(Math.abs(b.width - 100 / 300) < 0.03, `width ${b.width}`);
+});
+
+test('one book on a two-up bed gives one box, not a phantom second', () => {
+  const px = field(300, 200, { x: 20, y: 20, w: 100, h: 160 });
+  const boxes = findContentBoxes(px, 300, 200, { max: 2 });
+  assert.equal(boxes.length, 1);
+});
+
+test('books of different sizes are both found with their own heights', () => {
+  const px = twoUp(300, 200, { x: 20, y: 10, w: 100, h: 180 }, { x: 170, y: 40, w: 90, h: 120 });
+  const boxes = findContentBoxes(px, 300, 200, { max: 2 });
+  assert.equal(boxes.length, 2);
+  assert.ok(boxes[0].height > boxes[1].height, 'each box keeps its own row extent');
+  assert.ok(Math.abs(boxes[1].top - 40 / 200) < 0.03, `right top ${boxes[1].top}`);
+});
+
+test('a patch of lamp spill does not become a third book', () => {
+  // Spill sits 34 columns clear of the left book - beyond the 6% gap allowance
+  // that bridges a dark band across a single cover. Closer than that and it is
+  // indistinguishable from a dark panel at the book's own edge.
+  const px = twoUp(300, 200, { x: 50, y: 20, w: 90, h: 160 }, { x: 180, y: 20, w: 90, h: 160 });
+  for (let y = 150; y < 190; y += 1) for (let x = 4; x < 16; x += 1) px[y * 300 + x] = 190;
+  const boxes = findContentBoxes(px, 300, 200, { max: 2 });
+  assert.equal(boxes.length, 2);
+  assert.ok(boxes[0].left > 0.1, `spill (at x<22) must not be a box: left ${boxes[0].left}`);
+});
+
+test('an empty bed gives no boxes', () => {
+  assert.deepEqual(findContentBoxes(field(300, 200, null), 300, 200, { max: 2 }), []);
+});
+
+test('findContentBox is unchanged: the single widest box', () => {
+  const px = twoUp(300, 200, { x: 20, y: 20, w: 120, h: 160 }, { x: 200, y: 20, w: 60, h: 160 });
+  const one = findContentBox(px, 300, 200);
+  assert.ok(Math.abs(one.width - 120 / 300) < 0.03, 'the wider of the two');
+});

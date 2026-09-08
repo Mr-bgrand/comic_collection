@@ -117,6 +117,13 @@ export const SPOKEN_PROMPTS = [
   'No scanner found. Stopping.',
   'Skipping.',
   'Still listening.',
+  'Bright mode.',
+  'Normal mode.',
+  'Place two books.',
+  'Two saved.',
+  'One saved.',
+  'Nothing found on the bed.',
+  'Rescanning.',
 ];
 
 /** Parse one line of the recogniser's output. */

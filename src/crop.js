@@ -64,8 +64,8 @@ export function matThreshold(gray, width, height) {
  * Short gaps are bridged: a dark band across a cover - a black panel, a shadow
  * between the holder and the label - must not split one slab into two runs.
  */
-function widestRun(hits, min, gapAllowance) {
-  let best = null;
+function solidRuns(hits, min, gapAllowance) {
+  const runs = [];
   let start = -1;
   let gap = 0;
 
@@ -76,89 +76,87 @@ function widestRun(hits, min, gapAllowance) {
     } else if (start >= 0) {
       gap += 1;
       if (gap > gapAllowance) {
-        const end = i - gap;
-        if (!best || end - start > best.end - best.start) best = { start, end };
+        runs.push({ start, end: i - gap });
         start = -1;
         gap = 0;
       }
     }
   }
-  if (start >= 0) {
-    const end = hits.length - 1 - gap;
-    if (!best || end - start > best.end - best.start) best = { start, end };
+  if (start >= 0) runs.push({ start, end: hits.length - 1 - gap });
+  return runs;
+}
+
+function widestRun(hits, min, gapAllowance) {
+  let best = null;
+  for (const run of solidRuns(hits, min, gapAllowance)) {
+    if (!best || run.end - run.start > best.end - best.start) best = run;
   }
   return best;
 }
 /**
- * Find the content box, in fractions of the image (0-1).
- * Returns null when the image is essentially uniform — a blank bed, a lens cap,
- * a scan that failed — because cropping that would produce nonsense.
+ * Find up to `max` content boxes, in fractions of the image (0-1), left to
+ * right.
+ *
+ * One box is a slab on the mat. Two is the raw-comic case: bagged books scanned
+ * side by side, with a run of bare mat between them, so the column profile has
+ * two solid runs and each is a book. The runs are ranked by width and the
+ * widest `max` kept - a patch of lamp spill is narrow and loses that contest.
+ *
+ * Returns [] when the bed is empty or uniform - a blank bed, a lens cap, a scan
+ * that failed - because cropping that would produce nonsense.
  */
-export function findContentBox(gray, width, height) {
+export function findContentBoxes(gray, width, height, { max = 1 } = {}) {
   const threshold = matThreshold(gray, width, height);
   const bright = (x, y) => gray[y * width + x] > threshold;
 
-  const rowHits = new Array(height).fill(0);
   const colHits = new Array(width).fill(0);
   for (let y = 0; y < height; y += 1) {
     for (let x = 0; x < width; x += 1) {
-      if (bright(x, y)) {
-        rowHits[y] += 1;
-        colHits[x] += 1;
-      }
+      if (bright(x, y)) colHits[x] += 1;
     }
   }
 
-  const rowMin = Math.max(1, Math.floor(width * ROW_HIT_RATIO));
   const colMin = Math.max(1, Math.floor(height * ROW_HIT_RATIO));
   const gapX = Math.round(width * GAP_RATIO);
-  const gapY = Math.round(height * GAP_RATIO);
 
-  // Columns first. Spill usually sits beside the slab, so the horizontal
-  // profile separates them most cleanly.
-  const cols = widestRun(colHits, colMin, gapX);
-  if (!cols) return null;
+  const runs = solidRuns(colHits, colMin, gapX)
+    .sort((a, b) => (b.end - b.start) - (a.end - a.start))
+    .slice(0, max)
+    .sort((a, b) => a.start - b.start);
 
-  // Then rows, counted only inside those columns - so spill above or below the
-  // slab but outside its width cannot lengthen the box.
-  const rowHitsInCols = new Array(height).fill(0);
-  for (let y = 0; y < height; y += 1) {
-    for (let x = cols.start; x <= cols.end; x += 1) {
-      if (bright(x, y)) rowHitsInCols[y] += 1;
+  const out = [];
+  for (const cols of runs) {
+    // Rows are the outer extent within this run's columns, not the widest run:
+    // a dark cover is not uniformly bright - a foil scan is a white label, a
+    // near-black middle and a bright holder edge - and the widest run would
+    // return the label alone. Inside the book's own columns there is no spill.
+    const rowHits = new Array(height).fill(0);
+    for (let y = 0; y < height; y += 1) {
+      for (let x = cols.start; x <= cols.end; x += 1) {
+        if (bright(x, y)) rowHits[y] += 1;
+      }
     }
+    const rowMin = Math.max(1, Math.floor((cols.end - cols.start + 1) * ROW_HIT_RATIO));
+    const firstRow = rowHits.findIndex((n) => n >= rowMin);
+    const lastRow = rowHits.length - 1 - [...rowHits].reverse().findIndex((n) => n >= rowMin);
+    if (firstRow < 0 || lastRow <= firstRow) continue;
+
+    const boxW = (cols.end - cols.start + 1) / width;
+    const boxH = (lastRow - firstRow + 1) / height;
+    // A box covering nearly everything means nothing was found worth cropping to.
+    if (boxW > 0.97 && boxH > 0.97) continue;
+    // A sliver is a reflection or a stray object, not a comic.
+    if (boxW < 0.1 || boxH < 0.1) continue;
+
+    out.push({ left: cols.start / width, top: firstRow / height, width: boxW, height: boxH });
   }
-  // Rows are taken as the outer extent within those columns, not the widest
-  // run. A dark cover is not uniformly bright - a foil scan has a white label,
-  // a near-black middle and a bright holder edge - so the widest run would
-  // return the label alone and crop the comic off its own scan. Inside the
-  // slab's own columns there is no spill left to guard against.
-  const rowMinInCols = Math.max(1, Math.floor((cols.end - cols.start + 1) * ROW_HIT_RATIO));
-  const firstRowIn = rowHitsInCols.findIndex((n) => n >= rowMinInCols);
-  const lastRowIn = rowHitsInCols.length - 1
-    - [...rowHitsInCols].reverse().findIndex((n) => n >= rowMinInCols);
-  if (firstRowIn < 0 || lastRowIn <= firstRowIn) return null;
-  const rows = { start: firstRowIn, end: lastRowIn };
-  const firstRow = rows.start;
-  const lastRow = rows.end;
-  const firstCol = cols.start;
-  const lastCol = cols.end;
-  if (firstRow < 0 || firstCol < 0 || lastRow <= firstRow || lastCol <= firstCol) return null;
-
-  const boxW = (lastCol - firstCol + 1) / width;
-  const boxH = (lastRow - firstRow + 1) / height;
-  // A box covering nearly everything means nothing was found worth cropping to.
-  if (boxW > 0.97 && boxH > 0.97) return null;
-  // A sliver is a reflection or a stray object, not a comic.
-  if (boxW < 0.1 || boxH < 0.1) return null;
-
-  return {
-    left: firstCol / width,
-    top: firstRow / height,
-    width: boxW,
-    height: boxH,
-  };
+  return out;
 }
 
+/** The single content box - the widest one - or null. */
+export function findContentBox(gray, width, height) {
+  return findContentBoxes(gray, width, height, { max: 1 })[0] ?? null;
+}
 /**
  * Crop an image buffer/path to its slab and normalise it.
  * Falls back to the uncropped image whenever the box looks implausible — a wide
@@ -196,4 +194,50 @@ export async function cropToSlab(input, { maxEdge = 1400, quality = 88 } = {}) {
     .toBuffer();
 
   return { buffer: out, cropped: Boolean(box) };
+}
+
+/**
+ * Crop a bed holding up to `max` books into one image per book, left to right.
+ *
+ * The raw-comic case: fronts scanned two at a time. Each book is cropped and
+ * scaled exactly as a single slab would be. When nothing can be found the whole
+ * bed comes back as one image, so a scan is never silently lost to a bad guess.
+ *
+ * @returns {Promise<Array<{buffer: Buffer, box: object | null}>>}
+ */
+export async function cropToSlabs(input, { max = 2, maxEdge = 1400, quality = 88 } = {}) {
+  const { default: sharp } = await import('sharp');
+
+  const base = sharp(input).rotate();
+  const meta = await base.clone().metadata();
+  if (!meta.width || !meta.height) throw new Error('unreadable image');
+
+  const small = await base
+    .clone()
+    .resize({ width: ANALYSIS_WIDTH })
+    .greyscale()
+    .raw()
+    .toBuffer({ resolveWithObject: true });
+
+  const boxes = findContentBoxes(small.data, small.info.width, small.info.height, { max });
+  const targets = boxes.length ? boxes : [null];
+
+  const out = [];
+  for (const box of targets) {
+    let pipeline = sharp(input).rotate();
+    if (box) {
+      const margin = MARGIN_RATIO;
+      const left = Math.max(0, Math.round((box.left - margin) * meta.width));
+      const top = Math.max(0, Math.round((box.top - margin) * meta.height));
+      const width = Math.min(meta.width - left, Math.round((box.width + margin * 2) * meta.width));
+      const height = Math.min(meta.height - top, Math.round((box.height + margin * 2) * meta.height));
+      pipeline = pipeline.extract({ left, top, width, height });
+    }
+    const buffer = await pipeline
+      .resize({ width: maxEdge, height: maxEdge, fit: 'inside', withoutEnlargement: true })
+      .jpeg({ quality, progressive: true })
+      .toBuffer();
+    out.push({ buffer, box });
+  }
+  return out;
 }

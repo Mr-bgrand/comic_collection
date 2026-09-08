@@ -14,6 +14,13 @@ export function displayTitle(comic) {
     const base = [comic.year, comic.brand, comic.cardNumber ? `#${comic.cardNumber}` : null, comic.subject].filter(Boolean).join(' ');
     return comic.variety ? `${base} : ${comic.variety}` : base;
   }
+  // A raw book scanned before it has been identified has no title and no
+  // issue; rendered as " #" on a sheet that reads as a bug. Its scan id is
+  // the only name it has.
+  if (!comic.title && !comic.issue) {
+    const seq = typeof comic.id === 'string' && comic.id.startsWith('raw:') ? comic.id.slice(4) : '';
+    return seq ? `Unidentified · ${seq}` : 'Unidentified';
+  }
   const base = `${comic.title ?? ''} #${comic.issue ?? ''}`.trim();
   const variant = (comic.variant ?? '').trim();
   return variant ? `${base} : ${variant}` : base;
