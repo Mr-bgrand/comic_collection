@@ -19,7 +19,8 @@ const ROW_HIT_RATIO = 0.02; // a row/column counts as content at 2% bright pixel
 const GAP_RATIO = 0.06; // a dark band this wide does not split one slab in two
 // A comic is about 1.5 times as tall as it is wide. One box squarer than this
 // is two books touching - the first real two-up bed came back as one 1400x1182.
-const SEAM_MAX_RATIO = 1.15; // a dark band this wide does not split one slab in two
+const SEAM_MAX_RATIO = 1.15;
+const MIN_BOX_RATIO = 0.1; // narrower than this is a reflection or a mark, not a comic // a dark band this wide does not split one slab in two
 const MARGIN_RATIO = 0.012; // small breathing room so the holder is not clipped
 
 /**
@@ -122,7 +123,12 @@ export function findContentBoxes(gray, width, height, { max = 1 } = {}) {
   const colMin = Math.max(1, Math.floor(height * ROW_HIT_RATIO));
   const gapX = Math.round(width * GAP_RATIO);
 
+  // Slivers go first. The SV600 mat has a small "L" printed near one corner,
+  // and a bag edge can catch the lamp; both make a narrow bright run. Kept in
+  // the ranking they counted as a second book, so two books touching - one wide
+  // run plus the L - never reached the seam split. Every real bed had the L.
   const runs = solidRuns(colHits, colMin, gapX)
+    .filter((r) => (r.end - r.start + 1) / width >= MIN_BOX_RATIO)
     .sort((a, b) => (b.end - b.start) - (a.end - a.start))
     .slice(0, max)
     .sort((a, b) => a.start - b.start);

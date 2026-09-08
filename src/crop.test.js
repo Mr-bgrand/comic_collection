@@ -246,3 +246,15 @@ test('the halves keep their own heights when the books differ', () => {
   assert.equal(boxes.length, 2);
   assert.ok(boxes[0].height > boxes[1].height + 0.1, `left ${boxes[0].height.toFixed(2)} right ${boxes[1].height.toFixed(2)}`);
 });
+
+test("the mat's printed L must not count as a second book and block the seam split", () => {
+  // Two books touching (one wide run) plus a small bright glyph on the mat,
+  // well away from them. On every real bed the glyph became "book two" and
+  // the touching pair was never split.
+  const px = field(300, 200, { x: 60, y: 20, w: 200, h: 160 });
+  for (let y = 175; y < 190; y += 1) for (let x = 6; x < 16; x += 1) px[y * 300 + x] = 200;
+  const boxes = findContentBoxes(px, 300, 200, { max: 2 });
+  assert.equal(boxes.length, 2, 'touching pair must split');
+  assert.ok(boxes.every((b) => b.left > 0.1), 'the glyph is not a box');
+  assert.ok(Math.abs((boxes[0].left + boxes[0].width) - 160 / 300) < 0.03, 'split at the middle of the pair');
+});
