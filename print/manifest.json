@@ -1,0 +1,326 @@
+{
+  "generatedAt": "2026-09-08T07:54:54.520Z",
+  "objects": 910,
+  "physicalContainers": 19,
+  "physicalCopies": 847,
+  "labels": {
+    "file": "all-case-labels-4x6.pdf",
+    "pages": 37,
+    "ranges": [
+      {
+        "id": "01",
+        "title": "Bin 01",
+        "copies": 23,
+        "firstPage": 1,
+        "lastPage": 1,
+        "blankPage": null
+      },
+      {
+        "id": "02",
+        "title": "Bin 02",
+        "copies": 23,
+        "firstPage": 2,
+        "lastPage": 2,
+        "blankPage": null
+      },
+      {
+        "id": "03",
+        "title": "Bin 03",
+        "copies": 25,
+        "firstPage": 3,
+        "lastPage": 3,
+        "blankPage": null
+      },
+      {
+        "id": "04",
+        "title": "Bin 04",
+        "copies": 23,
+        "firstPage": 4,
+        "lastPage": 4,
+        "blankPage": null
+      },
+      {
+        "id": "05",
+        "title": "Bin 05",
+        "copies": 25,
+        "firstPage": 5,
+        "lastPage": 5,
+        "blankPage": null
+      },
+      {
+        "id": "06",
+        "title": "Bin 06",
+        "copies": 25,
+        "firstPage": 6,
+        "lastPage": 6,
+        "blankPage": null
+      },
+      {
+        "id": "07",
+        "title": "Bin 07",
+        "copies": 24,
+        "firstPage": 7,
+        "lastPage": 7,
+        "blankPage": null
+      },
+      {
+        "id": "08",
+        "title": "Bin 08",
+        "copies": 22,
+        "firstPage": 8,
+        "lastPage": 8,
+        "blankPage": null
+      },
+      {
+        "id": "09",
+        "title": "Bin 09",
+        "copies": 24,
+        "firstPage": 9,
+        "lastPage": 9,
+        "blankPage": null
+      },
+      {
+        "id": "11",
+        "title": "Bin 11",
+        "copies": 25,
+        "firstPage": 10,
+        "lastPage": 10,
+        "blankPage": null
+      },
+      {
+        "id": "wall",
+        "title": "Display Wall",
+        "copies": 5,
+        "firstPage": 11,
+        "lastPage": 11,
+        "blankPage": null
+      },
+      {
+        "id": "case-01",
+        "title": "Case #1",
+        "copies": 12,
+        "firstPage": 12,
+        "lastPage": 12,
+        "blankPage": null
+      },
+      {
+        "id": "case-02",
+        "title": "Case #2",
+        "copies": 57,
+        "firstPage": 13,
+        "lastPage": 15,
+        "blankPage": null
+      },
+      {
+        "id": "case-03",
+        "title": "Graded PSA Case #3",
+        "copies": 94,
+        "firstPage": 16,
+        "lastPage": 19,
+        "blankPage": null
+      },
+      {
+        "id": "case-wall-office",
+        "title": "Case Wall Display (Office)",
+        "copies": 11,
+        "firstPage": 20,
+        "lastPage": 20,
+        "blankPage": null
+      },
+      {
+        "id": "comic-bin-13",
+        "title": "Comic Bin #13 (Softslabs)",
+        "copies": 98,
+        "firstPage": 21,
+        "lastPage": 24,
+        "blankPage": null
+      },
+      {
+        "id": "comic-bin-14",
+        "title": "Comic Bin #14 (Softslabs)",
+        "copies": 97,
+        "firstPage": 25,
+        "lastPage": 28,
+        "blankPage": null
+      },
+      {
+        "id": "comic-bin-15",
+        "title": "Comic Bin #15 (Softslabs)",
+        "copies": 123,
+        "firstPage": 29,
+        "lastPage": 33,
+        "blankPage": null
+      },
+      {
+        "id": "comic-case-12",
+        "title": "Comic Case #12 (Softslabs)",
+        "copies": 111,
+        "firstPage": 34,
+        "lastPage": 37,
+        "blankPage": null
+      }
+    ]
+  },
+  "sheets": {
+    "file": "all-case-master-sheets-letter.pdf",
+    "pages": 74,
+    "duplex": true,
+    "ranges": [
+      {
+        "id": "01",
+        "title": "Bin 01",
+        "copies": 23,
+        "firstPage": 1,
+        "lastPage": 2,
+        "blankPage": null
+      },
+      {
+        "id": "02",
+        "title": "Bin 02",
+        "copies": 23,
+        "firstPage": 3,
+        "lastPage": 4,
+        "blankPage": null
+      },
+      {
+        "id": "03",
+        "title": "Bin 03",
+        "copies": 25,
+        "firstPage": 5,
+        "lastPage": 6,
+        "blankPage": null
+      },
+      {
+        "id": "04",
+        "title": "Bin 04",
+        "copies": 23,
+        "firstPage": 7,
+        "lastPage": 8,
+        "blankPage": null
+      },
+      {
+        "id": "05",
+        "title": "Bin 05",
+        "copies": 25,
+        "firstPage": 9,
+        "lastPage": 10,
+        "blankPage": null
+      },
+      {
+        "id": "06",
+        "title": "Bin 06",
+        "copies": 25,
+        "firstPage": 11,
+        "lastPage": 12,
+        "blankPage": null
+      },
+      {
+        "id": "07",
+        "title": "Bin 07",
+        "copies": 24,
+        "firstPage": 13,
+        "lastPage": 14,
+        "blankPage": null
+      },
+      {
+        "id": "08",
+        "title": "Bin 08",
+        "copies": 22,
+        "firstPage": 15,
+        "lastPage": 16,
+        "blankPage": null
+      },
+      {
+        "id": "09",
+        "title": "Bin 09",
+        "copies": 24,
+        "firstPage": 17,
+        "lastPage": 18,
+        "blankPage": null
+      },
+      {
+        "id": "11",
+        "title": "Bin 11",
+        "copies": 25,
+        "firstPage": 19,
+        "lastPage": 20,
+        "blankPage": null
+      },
+      {
+        "id": "wall",
+        "title": "Display Wall",
+        "copies": 5,
+        "firstPage": 21,
+        "lastPage": 21,
+        "blankPage": 22
+      },
+      {
+        "id": "case-01",
+        "title": "Case #1",
+        "copies": 12,
+        "firstPage": 23,
+        "lastPage": 23,
+        "blankPage": 24
+      },
+      {
+        "id": "case-02",
+        "title": "Case #2",
+        "copies": 57,
+        "firstPage": 25,
+        "lastPage": 29,
+        "blankPage": 30
+      },
+      {
+        "id": "case-03",
+        "title": "Graded PSA Case #3",
+        "copies": 94,
+        "firstPage": 31,
+        "lastPage": 37,
+        "blankPage": 38
+      },
+      {
+        "id": "case-wall-office",
+        "title": "Case Wall Display (Office)",
+        "copies": 11,
+        "firstPage": 39,
+        "lastPage": 39,
+        "blankPage": 40
+      },
+      {
+        "id": "comic-bin-13",
+        "title": "Comic Bin #13 (Softslabs)",
+        "copies": 98,
+        "firstPage": 41,
+        "lastPage": 47,
+        "blankPage": 48
+      },
+      {
+        "id": "comic-bin-14",
+        "title": "Comic Bin #14 (Softslabs)",
+        "copies": 97,
+        "firstPage": 49,
+        "lastPage": 55,
+        "blankPage": 56
+      },
+      {
+        "id": "comic-bin-15",
+        "title": "Comic Bin #15 (Softslabs)",
+        "copies": 123,
+        "firstPage": 57,
+        "lastPage": 65,
+        "blankPage": 66
+      },
+      {
+        "id": "comic-case-12",
+        "title": "Comic Case #12 (Softslabs)",
+        "copies": 111,
+        "firstPage": 67,
+        "lastPage": 74,
+        "blankPage": null
+      }
+    ]
+  },
+  "master": {
+    "file": "collection-master-list.pdf"
+  }
+}

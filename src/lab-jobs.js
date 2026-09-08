@@ -1,6 +1,7 @@
 import { spawn } from 'node:child_process';
 import { readdir, stat } from 'node:fs/promises';
 import path from 'node:path';
+import { isPrintPdf } from './print-packs.js';
 
 export function createPrintJobs(root) {
   let current = { status: 'idle', stage: '', log: '', files: [] };
@@ -17,7 +18,7 @@ export function createPrintJobs(root) {
   }
   async function files() {
     try {
-      const names = (await readdir(path.join(root, 'print'))).filter(name => /^bin-[a-zA-Z0-9_-]+-(label|sheet)\.pdf$/.test(name)).sort();
+      const names = (await readdir(path.join(root, 'print'))).filter(isPrintPdf).sort();
       return Promise.all(names.map(async name => ({ name, url: '/print/' + name, updatedAt: (await stat(path.join(root, 'print', name))).mtime.toISOString() })));
     } catch { return []; }
   }

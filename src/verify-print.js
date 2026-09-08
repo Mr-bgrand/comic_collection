@@ -11,8 +11,7 @@
  *   npm run verify:print
  */
 
-import { writeFile, mkdir, readFile, readdir } from 'node:fs/promises';
-import { existsSync } from 'node:fs';
+import { writeFile, mkdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import QRCode from 'qrcode';
@@ -20,14 +19,11 @@ import QRCode from 'qrcode';
 import { binUrl } from './model.js';
 import { renderLabel } from './templates/label.js';
 import { renderSheet, PER_SIDE } from './templates/sheet.js';
+import { readCollection } from './lab-admin.js';
+import { physicalContainers, printContainer, containerUrl } from './physical-containers.js';
 
 async function loadRealBins() {
-  const dir = path.resolve('data', 'bins');
-  if (!existsSync(dir)) return [];
-  const files = (await readdir(dir)).filter((f) => f.endsWith('.json')).sort();
-  return Promise.all(
-    files.map(async (f) => JSON.parse(await readFile(path.join(dir, f), 'utf8'))),
-  );
+  return physicalContainers(await readCollection()).map(({data}) => printContainer(data));
 }
 
 const OUT_DIR = path.resolve('dist', 'verify');
@@ -148,7 +144,7 @@ export async function verifyPrint({ size = 25 } = {}) {
     for (const real of await loadRealBins()) {
       const n = (real.comics ?? []).length;
       if (!n) continue;
-      const realUrl = binUrl(config.baseUrl, real.bin);
+      const realUrl = containerUrl(config.baseUrl, real);
       const realQr = await QRCode.toString(realUrl, {
         type: 'svg',
         margin: 0,
@@ -168,14 +164,14 @@ export async function verifyPrint({ size = 25 } = {}) {
         'utf8',
       );
       checks.push(
-        { html: lHtml, pdf: `bin-${real.bin}-label.pdf`, w: 4, h: 6, pages: 1, name: `bin ${real.bin} label (${n} comics)` },
+        { html: lHtml, pdf: `bin-${real.bin}-label.pdf`, w: 4, h: 6, pages: real.isPhysicalCase ? Math.ceil(n/28) : 1, name: `container ${real.bin} label (${n} copies)` },
         {
           html: sHtml,
           pdf: `bin-${real.bin}-sheet.pdf`,
           w: 8.5,
           h: 11,
           pages: Math.ceil(n / PER_SIDE),
-          name: `bin ${real.bin} sheet (${n} comics)`,
+          name: `container ${real.bin} sheet (${n} copies)`,
         },
       );
     }
@@ -183,6 +179,8 @@ export async function verifyPrint({ size = 25 } = {}) {
     for (const check of checks) {
       await page.goto(pathToFileURL(check.html).href);
       await page.waitForLoadState('networkidle');
+      const missingImages = await page.evaluate(() => [...document.images].filter(img => !img.complete || !img.naturalWidth).length);
+      if (missingImages) failures.push(`${check.name}: ${missingImages} referenced images failed to load`);
       const pdfPath = path.join(OUT_DIR, check.pdf);
       await page.pdf({ path: pdfPath, preferCSSPageSize: true, printBackground: true });
 

@@ -12,21 +12,20 @@
  *   npm run print
  */
 
-import { writeFile, mkdir, readFile, readdir, rename } from 'node:fs/promises';
-import { existsSync } from 'node:fs';
+import { writeFile, mkdir, readFile, rename } from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import QRCode from 'qrcode';
 
-import { binUrl } from './model.js';
 import { renderLabel } from './templates/label.js';
 import { renderSheet } from './templates/sheet.js';
+import { renderCollectionMaster } from './templates/labPrint.js';
 import { ensureThumbs } from './thumbs.js';
 import {readCollection} from './lab-admin.js';
 import {physicalContainers,printContainer,containerUrl} from './physical-containers.js';
+import {assemblePrintPack, PRINT_PACKS, printGuide} from './print-packs.js';
 
 const PRINT_DIR = 'print';
-const BIN_DIR = path.join('data', 'bins');
 // 480px covers printed at 0.76in wide is ~630dpi — comfortably past what any
 // printer resolves, and still a fraction of the 500px originals' weight.
 const PRINT_IMG_ABS = path.resolve('data', 'medium');
@@ -41,17 +40,10 @@ async function loadConfig() {
   return JSON.parse(await readFile(path.join('data', 'config.json'), 'utf8'));
 }
 
-async function loadBins() {
-  if (!existsSync(BIN_DIR)) return [];
-  const files = (await readdir(BIN_DIR)).filter((f) => f.endsWith('.json')).sort();
-  return Promise.all(
-    files.map(async (f) => JSON.parse(await readFile(path.join(BIN_DIR, f), 'utf8'))),
-  );
-}
-
 export async function makePrintables() {
   const config = await loadConfig();
-  const bins = physicalContainers(await readCollection()).map(({data})=>printContainer(data));
+  const collection = await readCollection();
+  const bins = physicalContainers(collection).map(({data})=>printContainer(data));
   if (!bins.length) {
     console.log('No bins to print.');
     return { files: [] };
@@ -65,6 +57,7 @@ export async function makePrintables() {
   const page = await browser.newPage();
   const written = [];
   const locked = [];
+  const packEntries = { label: [], sheet: [] };
 
   try {
     for (const bin of bins) {
@@ -82,10 +75,12 @@ export async function makePrintables() {
       const docs = [
         {
           name: `bin-${bin.bin}-label`,
+          kind: 'label',
           html: renderLabel({ bin, qrSvg, url, config }),
         },
         {
           name: `bin-${bin.bin}-sheet`,
+          kind: 'sheet',
           html: renderSheet({ bin, url, qrSvg, imagePrefix: '../data/medium/' }),
         },
       ];
@@ -110,6 +105,7 @@ export async function makePrintables() {
         try {
           const bytes=await page.pdf({ preferCSSPageSize: true, printBackground: true });
           await replacePrintFile(pdfPath,bytes);
+          packEntries[doc.kind].push({ id: bin.bin, title: bin.title, copies: count, bytes });
           written.push(pdfPath);
           console.log(`  ${pdfPath}`);
           console.log(`  ${htmlPath}`);
@@ -126,7 +122,32 @@ export async function makePrintables() {
         const { rm } = await import('node:fs/promises');
         await rm(tmp, { force: true });
       }
-      console.log(`bin ${bin.bin}: ${count} comics\n`);
+      console.log(`container ${bin.bin}: ${count} copies\n`);
+    }
+
+    // Never combine a previous, locked PDF with this run's current inventory.
+    if (!locked.length) {
+      const labelPack = await assemblePrintPack(packEntries.label, { title: 'All case labels - 4 x 6 inches' });
+      const sheetPack = await assemblePrintPack(packEntries.sheet, { title: 'All case master sheets - Letter duplex', duplex: true });
+      for (const [name, pack] of [[PRINT_PACKS[0], labelPack], [PRINT_PACKS[1], sheetPack]]) {
+        await replacePrintFile(path.join(PRINT_DIR, name), pack.bytes);written.push(path.join(PRINT_DIR, name));
+      }
+      const masterHtml = renderCollectionMaster(collection);
+      const masterPath = path.join(PRINT_DIR, 'collection-master-list.html');
+      await replacePrintFile(masterPath, masterHtml);
+      await page.goto(pathToFileURL(path.resolve(masterPath)).href);
+      const masterBytes = await page.pdf({ preferCSSPageSize: true, printBackground: true });
+      await replacePrintFile(path.join(PRINT_DIR, PRINT_PACKS[2]), masterBytes);
+      written.push(path.join(PRINT_DIR, PRINT_PACKS[2]));
+      const all = [...collection.bins, ...collection.cards, ...collection.comics].flatMap(({data:b}) => b.comics || b.cards || []);
+      const manifest = { generatedAt: new Date().toISOString(), objects: all.length, physicalContainers: bins.length,
+        physicalCopies: packEntries.label.reduce((n,b) => n+b.copies, 0),
+        labels: { file: PRINT_PACKS[0], pages: labelPack.pages, ranges: labelPack.ranges },
+        sheets: { file: PRINT_PACKS[1], pages: sheetPack.pages, duplex: true, ranges: sheetPack.ranges },
+        master: { file: PRINT_PACKS[2] } };
+      await replacePrintFile(path.join(PRINT_DIR, 'manifest.json'), JSON.stringify(manifest, null, 2)+'\n');
+      await replacePrintFile(path.join(PRINT_DIR, 'README.md'), printGuide(manifest));
+      console.log(`Combined packs: ${labelPack.pages} label pages, ${sheetPack.pages} Letter pages (duplex), ${all.length} objects in the master list.`);
     }
   } finally {
     await browser.close();

@@ -1,15 +1,19 @@
 # Comic Collection
 
-Inventory and printed paperwork for CGC-graded comics stored in BCW bins.
+Your personal comic and card collection: exact-copy records, immersive displays,
+case labels, master sheets, and recorded value history.
 
-Give it a CGC certification number; it looks the book up, stores the record, and
-generates the three things a bin needs:
+The active experience is [Collection / Lab](https://mr-bgrand.github.io/comic_collection/review/).
+The original catalogue remains at the site root. Current snapshot, September 8,
+2026: **910 objects - 673 comics and 237 cards**, with 884 front scans.
+See [collection status](docs/collection-status.md) for containers and pending intake.
 
 | Output | Where it goes | What it's for |
 | --- | --- | --- |
-| **4×6 label** | The bin's front label slot | Every comic in the bin, one line each, readable without a phone |
-| **8.5×11 sheet** | Inside the bin, printed double-sided | The full CGC record per book — the appraisal document |
-| **QR code** | On the label | Opens the bin's web page, with full-size cover scans |
+| **4×6 labels** | The bin or case label slot | Every copy, with continuation pages for larger cases |
+| **8.5×11 master sheets** | Inside the bin, printed double-sided | Cover scans and the stored record per copy |
+| **Collection master list** | Your collection reference | Every copy, location and recorded value/source |
+| **QR codes** | On labels and sheets | Open the matching bin or case and its scans |
 
 Design doc: [`docs/superpowers/specs/2026-08-16-comic-inventory-labels-design.md`](docs/superpowers/specs/2026-08-16-comic-inventory-labels-design.md)
 
@@ -17,13 +21,12 @@ Design doc: [`docs/superpowers/specs/2026-08-16-comic-inventory-labels-design.md
 
 ## Phone photos in Collection / Lab
 
-Current local inventory: **498 objects — 355 comics and 143 cards**. Case #12
-contains all **111 unique Authority softslabs with front and back scans**. Case
-#2 has 57 TAG cards; the office wall has nine TAG and two PSA cards. The Arena
-Club card is in Case #1. Five additional CGC cards are saved in the intake queue
-pending CGC's security verification; they are not counted as imported.
+Authority softslabs are in Case #12 and Bins #13-15. Bin #15 also contains 96
+unidentified owner-scanned raw books. Card Case #3 contains 94 PSA cards, including
+the certs supplied without URLs. Five additional CGC cards remain queued for
+verified capture and are not counted as imported.
 
-All 15 physical bins/cases appear in **Admin → Bins & locations / Print Studio**.
+All 19 physical bins/cases appear in **Admin → Bins & locations / Print Studio**.
 `npm run build` and `npm run print` remain the normal workflow. Large 4×6 labels
 continue across pages; Letter sheets include every copy. Printed case QR links
 use the configured site URL and become available when that build is published.
@@ -100,6 +103,7 @@ books up again.
 ## Printing
 
 ```bash
+npm run build
 npm run print
 ```
 
@@ -107,18 +111,23 @@ Writes ready-to-print files to [`print/`](print/), which is committed to the rep
 
 | File | Print as |
 | --- | --- |
-| `print/bin-01-label.pdf` | **4×6**, one page |
-| `print/bin-01-sheet.pdf` | **letter, double-sided**, two sides |
+| `print/all-case-labels-4x6.pdf` | **4×6, single-sided**, every physical container |
+| `print/all-case-master-sheets-letter.pdf` | **Letter portrait, double-sided, long-edge flip**; each case starts on a fresh sheet |
+| `print/collection-master-list.pdf` | **Letter landscape**, all 910 stored copies including PSA Vault and unassigned TAG cards |
+| `print/bin-<id>-label.pdf` / `bin-<id>-sheet.pdf` | One container's labels or sheets |
 
 Print the **PDFs**, not the HTML. A PDF carries its own page size, so 4×6 comes
 out 4×6; printing HTML invites the browser to silently scale it to "fit". If your
 print dialog offers scaling, set it to 100% / "actual size".
 
-The matching `.html` files are written alongside for tweaking and re-printing.
+The [print index](print/README.md) lists every container and its page ranges. The
+combined master-sheet PDF includes blank reverse pages for duplex separation;
+keep those blanks. Matching `.html` files are written alongside for previews.
 
-`npm run build` produces the same pages under `dist/`, but `dist/` is build output
-— gitignored and wiped on every build — so use `print/` for anything you want to
-keep.
+`npm run build` refreshes the catalogue and immersive app. `npm run print` creates
+the permanent paperwork from all physical comic/card containers. `dist/` is
+gitignored and wiped on every build, so use `print/` for files you want to keep.
+Local **Admin > Print Studio > Build & generate** runs these same two commands.
 
 ## Fair market values (GoCollect)
 
@@ -150,6 +159,7 @@ npm run scan:timed    # scans the back 8s after a good front
 node src/scan.js --timed 12    # ...or pick your own gap
 npm run scan -- --redo 4089841007      # rescan named certs, even if they
                                        # already have a cover
+```
 
 A live preview opens with any voice or `--redo` run (or `--preview` on its own):
 a local page that swaps in each scan as it lands, showing the book, the side,
@@ -174,7 +184,6 @@ npm run recrop -- 4177706003_OBV 0.27 0.01 0.72 0.97  # left top right bottom,
 
 It warns when the result is not slab-shaped (a CGC slab is about 1.5 times as
 tall as it is wide), which catches a wrong number before it reaches a sheet.
-```
 
 ### Raw comics, two at a time
 
@@ -269,6 +278,12 @@ and a book you haven't valued are different facts.
 
 ## Dashboard
 
+The current Collection / Lab has **01 Orbit, 02 Wall, 03 Inside the Case,
+04 Spotlight and 05 Singularity**. Singularity continuously cruises through the
+Milky Way with five-second viewing holds. Hide controls preserves playback or an
+intentional pause. Motion off, touch-to-pause and the real reverse scans remain.
+See the [viewer guide](docs/prototypes/README.md) for controls and local Admin.
+
 Case #2 contains 57 TAG cards in `data/cards/case-02.json`. Their reviewed report
 captures and official scan manifest are `data/incoming/tag-case-02-captures.json`
 and `data/incoming/tag-case-02-images.json`. Refresh with `npm run tag --
@@ -292,6 +307,12 @@ estimates, not a market-return series. Unvalued copies are excluded, explicit $0
 values are counted, and valuation dates remain separate from snapshot dates.
 Rebuilding does not fetch new prices.
 
+For TAG, an explicit TAG value or owner estimate takes precedence. Otherwise a
+verified PSA comparison must match the same card, language, variant and numeric
+grade (TAG 10 uses PSA 10, including exact half-grades). It stays labeled as a PSA
+comparison with its source date. `npm run tag:values` refreshes comparisons from
+stored records; unmatched cards remain unvalued.
+
 `dist/dashboard/` — total value, grade spread, top-pop count, and a sortable table
 of every book with links out to both CGC and GoCollect. Linked from the site index.
 
@@ -314,15 +335,15 @@ be with full scans, and took the manifest PDF from 8 MB to 258 KB.
 Hovering a slab lifts it into the light; the sort buttons glide the covers into
 bin, grade, value, or top-pop order.
 
-`dist/wall/3d/` — **the vault**, the wall's experimental WebGL sibling, linked
-from the wall's own toolbar. The same 213 slabs become physical objects in a
+`dist/wall/3d/` — **the vault**, the older wall's WebGL sibling, linked
+from the wall's own toolbar. The legacy graded-comic inventory becomes physical objects in a
 dark room: clearcoat plastic under an environment light, with the torch as a
 real lamp riding the pointer. Four formations — the wall, the longboxes the
 books actually live in (sorted by bin, each row *is* that bin), a helix, and an
 orbit — plus the same four sorts. Click a slab to hold it up to the camera (it
 swaps in the sharper scan); click it again, or the gold button, to open its bin.
 
-It is the one page in the site that loads a library at view time: three.js,
+Like Collection / Lab, it loads Three.js at view time,
 version-pinned, from jsdelivr. No WebGL, a blocked CDN, or no JavaScript all
 degrade to a short note pointing back at the flat wall, which remains the
 canonical page.
@@ -341,7 +362,8 @@ npm test
 ```
 
 Covers the pure logic: encoding repair, display titles, population parsing,
-pagination, and label auto-sizing. The CGC parser is tested against a saved
+pagination, label auto-sizing, combined PDF pagination, import identity checks,
+valuation evidence and scene navigation. The CGC parser is tested against a saved
 capture of a real record (`src/fixtures/`), so the suite never touches the network.
 
 ---
@@ -370,6 +392,9 @@ rather than by interpretation.
 data/
   config.json          collection name, site URL, bin capacity
   bins/bin-01.json     one file per bin — the source of truth, hand-editable
+  cards/               PSA, TAG, CGC Cards and Arena Club records
+  comics/              Authority sleeves and owner-scanned raw comics
+  value-history.json   dated recorded-value observations
   images/              committed cover scans
 src/
   scrape.js            CGC lookup (Playwright)
@@ -377,6 +402,9 @@ src/
   model.js             display logic — titles, top pop, pagination, auto-sizing
   build.js             JSON -> dist/
   templates/           label, sheet, bin page, index
+  print.js             current PDFs and combined packs in print/
+docs/prototypes/       active five-view Collection / Lab sources
+print/                 permanent PDFs, index and page-range manifest
 dist/                  build output (gitignored)
 ```
 

@@ -8,6 +8,7 @@ import { readCollection, adminState, saveBinMetadata } from './lab-admin.js';
 import { renderLabel } from './templates/label.js';
 import { renderSheet } from './templates/sheet.js';
 import { renderCollectionMaster, withPrintControls } from './templates/labPrint.js';
+import { isPrintPdf } from './print-packs.js';
 import { binUrl } from './model.js';
 import {physicalContainers,printContainer,containerId,containerUrl} from './physical-containers.js';
 import { createPrintJobs } from './lab-jobs.js';
@@ -90,7 +91,7 @@ export async function serveLab({ root = process.cwd(), port = 4175, photoPort = 
         return res.end(withPrintControls(html, { size, title }));
       }
       // Serve only the built app and scan derivatives, with traversal/symlink confinement.
-      const imageRoute = route.startsWith('/medium/'), printRoute = /^\/print\/bin-[a-zA-Z0-9_-]+-(label|sheet)\.pdf$/.test(route);
+      const imageRoute = route.startsWith('/medium/'), printRoute = route.startsWith('/print/') && isPrintPdf(route.slice('/print/'.length));
       const dir = path.resolve(root, imageRoute ? 'data/medium' : printRoute ? 'print' : 'dist');
       const relative = imageRoute ? route.slice('/medium/'.length) : printRoute ? route.slice('/print/'.length) : route === '/' ? 'review/index.html' : route.slice(1) + (route.endsWith('/') ? 'index.html' : '');
       const file = path.resolve(dir, relative), inside = value => value.startsWith(dir + path.sep);

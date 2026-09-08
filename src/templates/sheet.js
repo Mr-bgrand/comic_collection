@@ -167,7 +167,7 @@ function renderEntry(comic, imagePrefix) {
         <div>
           <div class="head">
             <span class="name">${escapeHtml(displayTitle(comic))}</span>
-            <span class="grade">${escapeHtml(comic.grade ?? '')}${
+            <span class="grade">${escapeHtml(comic.grading?.status === 'raw' ? 'RAW' : comic.grade ?? '')}${
               isTopPop(comic) ? ' ★' : ''
             }</span>
           </div>
