@@ -1,0 +1,97 @@
+{
+  "discoveredAt": "2026-09-08T23:44:34.977Z",
+  "discovery": "Rendered TAG cert pages: certificate text matched before scrolling to Slabbed image captures. Both displayed img src values matched the recorded cert and front/back side exactly.",
+  "container": "case-wall-office",
+  "records": [
+    {
+      "grader": "TAG",
+      "cert": "M2908131",
+      "renderedCert": "M2908131",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/M2908131",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/M2908131_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/M2908131_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:44:34.977Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "D1216494",
+      "renderedCert": "D1216494",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/D1216494",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/D1216494_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/D1216494_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:44:34.977Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "L6270823",
+      "renderedCert": "L6270823",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/L6270823",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/L6270823_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/L6270823_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:44:34.977Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "H7207442",
+      "renderedCert": "H7207442",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/H7207442",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/H7207442_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/H7207442_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:44:34.977Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "H6422814",
+      "renderedCert": "H6422814",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/H6422814",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/H6422814_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/H6422814_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:44:34.977Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "Q3963552",
+      "renderedCert": "Q3963552",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/Q3963552",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/Q3963552_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/Q3963552_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:44:34.977Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "U5165558",
+      "renderedCert": "U5165558",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/U5165558",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/U5165558_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/U5165558_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:44:34.977Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "G5711598",
+      "renderedCert": "G5711598",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/G5711598",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/G5711598_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/G5711598_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:52:29.561Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "E4095241",
+      "renderedCert": "E4095241",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/E4095241",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/E4095241_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/E4095241_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:52:29.561Z"
+    }
+  ]
+}

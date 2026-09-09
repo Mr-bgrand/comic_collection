@@ -219,8 +219,10 @@
         "capturedAt": "2026-09-07T07:20:36.720Z"
       },
       "images": {
-        "front": "TAG_M2908131_FRONT.jpg",
-        "back": "TAG_M2908131_BACK.jpg"
+        "front": "TAG_M2908131_SLAB_FRONT.jpg",
+        "back": "TAG_M2908131_SLAB_BACK.jpg",
+        "scanFront": "TAG_M2908131_FRONT.jpg",
+        "scanBack": "TAG_M2908131_BACK.jpg"
       },
       "scanStatus": "complete",
       "importSource": {
@@ -231,6 +233,34 @@
       },
       "imageSources": {
         "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/M2908131_Slabbed_FRONT.jpg",
+          "pageUrl": "https://my.taggrading.com/card/M2908131",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-08T23:44:34.977Z",
+          "retrievedAt": "2026-09-08T23:52:31.678Z",
+          "sideBasis": "TAG rendered cert page: Slabbed image captures, Front / Back labels and cert-matching Slabbed_FRONT / Slabbed_BACK files",
+          "originalWidth": 2152,
+          "originalHeight": 3825,
+          "sha256": "244d6bf9fa27f38627a878bcb4be4aecce2f6a0c37875813b520cf35d587cab2",
+          "originalFile": "data/originals/TAG_M2908131_SLAB_FRONT.jpg",
+          "originalSha256": "e65331eb75b39ed649e2a129e9ecb5b6aa2de5842310ffa6097af90eedbeb0d8"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/M2908131_Slabbed_BACK.jpg",
+          "pageUrl": "https://my.taggrading.com/card/M2908131",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-08T23:44:34.977Z",
+          "retrievedAt": "2026-09-08T23:52:33.462Z",
+          "sideBasis": "TAG rendered cert page: Slabbed image captures, Front / Back labels and cert-matching Slabbed_FRONT / Slabbed_BACK files",
+          "originalWidth": 2152,
+          "originalHeight": 3825,
+          "sha256": "a0ba956c0df994ae2d793975fe98a6ef61c9c38fe2138c14fbb53fd1285ee233",
+          "originalFile": "data/originals/TAG_M2908131_SLAB_BACK.jpg",
+          "originalSha256": "0528c3809fd1c507830212ca913269782d11b7995c7fe8a057e3e71e9b7683e3"
+        },
+        "scanFront": {
           "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/a9db8c73-dad7-4647-96f1-55bc02780675_FRONT_MAIN.jpg",
           "pageUrl": "https://my.taggrading.com/card/M2908131",
           "side": "front",
@@ -244,7 +274,7 @@
           "originalFile": "data/originals/TAG_M2908131_FRONT.jpg",
           "originalSha256": "1d27f9b6517d81cf92edc090b0440d63f39986ee42176257be2bb076cae64094"
         },
-        "back": {
+        "scanBack": {
           "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/a9db8c73-dad7-4647-96f1-55bc02780675_BACK_MAIN.jpg",
           "pageUrl": "https://my.taggrading.com/card/M2908131",
           "side": "back",
@@ -257,6 +287,42 @@
           "sha256": "f54a3b87854d63fbe2a6ef0ab23fb93c7f2417d46ff6e59db21fcaa296e209f0",
           "originalFile": "data/originals/TAG_M2908131_BACK.jpg",
           "originalSha256": "02cba8ed7a8dc77ecbaa194fa1ae7f81797124c905717b460eeae931ba23b4c1"
+        }
+      },
+      "cardScans": {
+        "images": {
+          "front": "TAG_M2908131_FRONT.jpg",
+          "back": "TAG_M2908131_BACK.jpg"
+        },
+        "imageSources": {
+          "front": {
+            "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/a9db8c73-dad7-4647-96f1-55bc02780675_FRONT_MAIN.jpg",
+            "pageUrl": "https://my.taggrading.com/card/M2908131",
+            "side": "front",
+            "kind": "plain-scan",
+            "discoveredAt": "2026-09-07T07:20:36.720Z",
+            "retrievedAt": "2026-09-07T07:22:45.209Z",
+            "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+            "originalWidth": 4400,
+            "originalHeight": 6093,
+            "sha256": "1b307bc21250dd68d4456e1932f8c55050ab48dbbd472e593fb3e1122c58407d",
+            "originalFile": "data/originals/TAG_M2908131_FRONT.jpg",
+            "originalSha256": "1d27f9b6517d81cf92edc090b0440d63f39986ee42176257be2bb076cae64094"
+          },
+          "back": {
+            "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/a9db8c73-dad7-4647-96f1-55bc02780675_BACK_MAIN.jpg",
+            "pageUrl": "https://my.taggrading.com/card/M2908131",
+            "side": "back",
+            "kind": "plain-scan",
+            "discoveredAt": "2026-09-07T07:20:36.720Z",
+            "retrievedAt": "2026-09-07T07:22:45.762Z",
+            "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+            "originalWidth": 4403,
+            "originalHeight": 6095,
+            "sha256": "f54a3b87854d63fbe2a6ef0ab23fb93c7f2417d46ff6e59db21fcaa296e209f0",
+            "originalFile": "data/originals/TAG_M2908131_BACK.jpg",
+            "originalSha256": "02cba8ed7a8dc77ecbaa194fa1ae7f81797124c905717b460eeae931ba23b4c1"
+          }
         }
       }
     },
@@ -333,8 +399,10 @@
         "capturedAt": "2026-09-07T07:20:37.477Z"
       },
       "images": {
-        "front": "TAG_D1216494_FRONT.jpg",
-        "back": "TAG_D1216494_BACK.jpg"
+        "front": "TAG_D1216494_SLAB_FRONT.jpg",
+        "back": "TAG_D1216494_SLAB_BACK.jpg",
+        "scanFront": "TAG_D1216494_FRONT.jpg",
+        "scanBack": "TAG_D1216494_BACK.jpg"
       },
       "scanStatus": "complete",
       "importSource": {
@@ -345,6 +413,34 @@
       },
       "imageSources": {
         "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/D1216494_Slabbed_FRONT.jpg",
+          "pageUrl": "https://my.taggrading.com/card/D1216494",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-08T23:44:34.977Z",
+          "retrievedAt": "2026-09-08T23:52:35.768Z",
+          "sideBasis": "TAG rendered cert page: Slabbed image captures, Front / Back labels and cert-matching Slabbed_FRONT / Slabbed_BACK files",
+          "originalWidth": 1744,
+          "originalHeight": 3100,
+          "sha256": "8f994a03b0a34fdb900aac0799a795eff9689d6f0e3c9339e0f2dc3a02005b10",
+          "originalFile": "data/originals/TAG_D1216494_SLAB_FRONT.jpg",
+          "originalSha256": "db5bbb42952c6da71eed4e678824a73bf7a06667f5296f9b7c81e0e2232e2a9c"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/D1216494_Slabbed_BACK.jpg",
+          "pageUrl": "https://my.taggrading.com/card/D1216494",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-08T23:44:34.977Z",
+          "retrievedAt": "2026-09-08T23:52:37.913Z",
+          "sideBasis": "TAG rendered cert page: Slabbed image captures, Front / Back labels and cert-matching Slabbed_FRONT / Slabbed_BACK files",
+          "originalWidth": 1744,
+          "originalHeight": 3100,
+          "sha256": "20348bda79f872142fe3ac8e26f2b6838c1f83eac5f3545b13d5455def18527f",
+          "originalFile": "data/originals/TAG_D1216494_SLAB_BACK.jpg",
+          "originalSha256": "b8cb41baa18fefc867c14bdabf054d294d8a5476b09ec0db618f37434655241d"
+        },
+        "scanFront": {
           "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/7e9f06e2-218c-4193-84d7-52050356e0c0_FRONT_MAIN.jpg",
           "pageUrl": "https://my.taggrading.com/card/D1216494",
           "side": "front",
@@ -358,7 +454,7 @@
           "originalFile": "data/originals/TAG_D1216494_FRONT.jpg",
           "originalSha256": "531b27e63a94e0dea1bd78260cdc9f3713369215007eb8de870c89ffe44327ff"
         },
-        "back": {
+        "scanBack": {
           "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/7e9f06e2-218c-4193-84d7-52050356e0c0_BACK_MAIN.jpg",
           "pageUrl": "https://my.taggrading.com/card/D1216494",
           "side": "back",
@@ -371,6 +467,42 @@
           "sha256": "bf44c5b85aaaa79e2354ba4166ac8abf8bbcc246bf53ba432e33f8ffd3c7fc1c",
           "originalFile": "data/originals/TAG_D1216494_BACK.jpg",
           "originalSha256": "7d6921c20a590d8a282a18054e8079ba01181b8980bd7d14e7980e958e9b8329"
+        }
+      },
+      "cardScans": {
+        "images": {
+          "front": "TAG_D1216494_FRONT.jpg",
+          "back": "TAG_D1216494_BACK.jpg"
+        },
+        "imageSources": {
+          "front": {
+            "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/7e9f06e2-218c-4193-84d7-52050356e0c0_FRONT_MAIN.jpg",
+            "pageUrl": "https://my.taggrading.com/card/D1216494",
+            "side": "front",
+            "kind": "plain-scan",
+            "discoveredAt": "2026-09-07T07:20:37.477Z",
+            "retrievedAt": "2026-09-07T07:22:46.314Z",
+            "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+            "originalWidth": 4442,
+            "originalHeight": 6153,
+            "sha256": "aa9a3c5f79c26e36c6609f853f87e42e558a52b19a5d3c4625414d543b6a2136",
+            "originalFile": "data/originals/TAG_D1216494_FRONT.jpg",
+            "originalSha256": "531b27e63a94e0dea1bd78260cdc9f3713369215007eb8de870c89ffe44327ff"
+          },
+          "back": {
+            "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/7e9f06e2-218c-4193-84d7-52050356e0c0_BACK_MAIN.jpg",
+            "pageUrl": "https://my.taggrading.com/card/D1216494",
+            "side": "back",
+            "kind": "plain-scan",
+            "discoveredAt": "2026-09-07T07:20:37.477Z",
+            "retrievedAt": "2026-09-07T07:22:46.850Z",
+            "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+            "originalWidth": 4436,
+            "originalHeight": 6157,
+            "sha256": "bf44c5b85aaaa79e2354ba4166ac8abf8bbcc246bf53ba432e33f8ffd3c7fc1c",
+            "originalFile": "data/originals/TAG_D1216494_BACK.jpg",
+            "originalSha256": "7d6921c20a590d8a282a18054e8079ba01181b8980bd7d14e7980e958e9b8329"
+          }
         }
       }
     },
@@ -448,8 +580,10 @@
         "capturedAt": "2026-09-07T07:20:48.312Z"
       },
       "images": {
-        "front": "TAG_L6270823_FRONT.jpg",
-        "back": "TAG_L6270823_BACK.jpg"
+        "front": "TAG_L6270823_SLAB_FRONT.jpg",
+        "back": "TAG_L6270823_SLAB_BACK.jpg",
+        "scanFront": "TAG_L6270823_FRONT.jpg",
+        "scanBack": "TAG_L6270823_BACK.jpg"
       },
       "scanStatus": "complete",
       "importSource": {
@@ -460,6 +594,34 @@
       },
       "imageSources": {
         "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/L6270823_Slabbed_FRONT.jpg",
+          "pageUrl": "https://my.taggrading.com/card/L6270823",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-08T23:44:34.977Z",
+          "retrievedAt": "2026-09-08T23:52:40.207Z",
+          "sideBasis": "TAG rendered cert page: Slabbed image captures, Front / Back labels and cert-matching Slabbed_FRONT / Slabbed_BACK files",
+          "originalWidth": 1744,
+          "originalHeight": 3100,
+          "sha256": "9d4d8593ba0042b9392f83cfbba95409f6e366038ff1626dac309d9a7f1fbf2f",
+          "originalFile": "data/originals/TAG_L6270823_SLAB_FRONT.jpg",
+          "originalSha256": "6e5feb5e086f894d7f3351c6ab3d00e4137451918b92869c9b575bc575c230c7"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/L6270823_Slabbed_BACK.jpg",
+          "pageUrl": "https://my.taggrading.com/card/L6270823",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-08T23:44:34.977Z",
+          "retrievedAt": "2026-09-08T23:52:42.331Z",
+          "sideBasis": "TAG rendered cert page: Slabbed image captures, Front / Back labels and cert-matching Slabbed_FRONT / Slabbed_BACK files",
+          "originalWidth": 1744,
+          "originalHeight": 3100,
+          "sha256": "052094d43e1b4cfc0eed6ee8a498a92e2bf894eb2e42bb82163a6f332da03991",
+          "originalFile": "data/originals/TAG_L6270823_SLAB_BACK.jpg",
+          "originalSha256": "b81ddab70b4818a0e62127cf05b09e9c34aef9ff1b5771fadf1a8e91c3e5ace1"
+        },
+        "scanFront": {
           "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/954e66a9-4f2c-4f15-a9c6-93c755b4a7d2_FRONT_MAIN.jpg",
           "pageUrl": "https://my.taggrading.com/card/L6270823",
           "side": "front",
@@ -473,7 +635,7 @@
           "originalFile": "data/originals/TAG_L6270823_FRONT.jpg",
           "originalSha256": "7f73643e098701728334bf0097f3fe6d8a424168c909095db01be0b9b6e29143"
         },
-        "back": {
+        "scanBack": {
           "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/954e66a9-4f2c-4f15-a9c6-93c755b4a7d2_BACK_MAIN.jpg",
           "pageUrl": "https://my.taggrading.com/card/L6270823",
           "side": "back",
@@ -486,6 +648,42 @@
           "sha256": "efb55f3eb591b2208b398477bf0799ee40e9df205475c673a8aa764f02a5da99",
           "originalFile": "data/originals/TAG_L6270823_BACK.jpg",
           "originalSha256": "0d68a69163013ca15cd191fd50df60555f48b1cdd9114bbe81e157fa335a04b3"
+        }
+      },
+      "cardScans": {
+        "images": {
+          "front": "TAG_L6270823_FRONT.jpg",
+          "back": "TAG_L6270823_BACK.jpg"
+        },
+        "imageSources": {
+          "front": {
+            "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/954e66a9-4f2c-4f15-a9c6-93c755b4a7d2_FRONT_MAIN.jpg",
+            "pageUrl": "https://my.taggrading.com/card/L6270823",
+            "side": "front",
+            "kind": "plain-scan",
+            "discoveredAt": "2026-09-07T07:20:48.312Z",
+            "retrievedAt": "2026-09-07T07:22:47.507Z",
+            "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+            "originalWidth": 4425,
+            "originalHeight": 6159,
+            "sha256": "c9a3894020ffecbbac62cb9b18e9d7cd8d613932b3f5e38328c191a800c7a823",
+            "originalFile": "data/originals/TAG_L6270823_FRONT.jpg",
+            "originalSha256": "7f73643e098701728334bf0097f3fe6d8a424168c909095db01be0b9b6e29143"
+          },
+          "back": {
+            "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/954e66a9-4f2c-4f15-a9c6-93c755b4a7d2_BACK_MAIN.jpg",
+            "pageUrl": "https://my.taggrading.com/card/L6270823",
+            "side": "back",
+            "kind": "plain-scan",
+            "discoveredAt": "2026-09-07T07:20:48.312Z",
+            "retrievedAt": "2026-09-07T07:22:48.124Z",
+            "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+            "originalWidth": 4428,
+            "originalHeight": 6159,
+            "sha256": "efb55f3eb591b2208b398477bf0799ee40e9df205475c673a8aa764f02a5da99",
+            "originalFile": "data/originals/TAG_L6270823_BACK.jpg",
+            "originalSha256": "0d68a69163013ca15cd191fd50df60555f48b1cdd9114bbe81e157fa335a04b3"
+          }
         }
       }
     },
@@ -563,8 +761,10 @@
         "capturedAt": "2026-09-07T07:20:59.082Z"
       },
       "images": {
-        "front": "TAG_H7207442_FRONT.jpg",
-        "back": "TAG_H7207442_BACK.jpg"
+        "front": "TAG_H7207442_SLAB_FRONT.jpg",
+        "back": "TAG_H7207442_SLAB_BACK.jpg",
+        "scanFront": "TAG_H7207442_FRONT.jpg",
+        "scanBack": "TAG_H7207442_BACK.jpg"
       },
       "scanStatus": "complete",
       "importSource": {
@@ -575,6 +775,34 @@
       },
       "imageSources": {
         "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/H7207442_Slabbed_FRONT.jpg",
+          "pageUrl": "https://my.taggrading.com/card/H7207442",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-08T23:44:34.977Z",
+          "retrievedAt": "2026-09-08T23:52:44.430Z",
+          "sideBasis": "TAG rendered cert page: Slabbed image captures, Front / Back labels and cert-matching Slabbed_FRONT / Slabbed_BACK files",
+          "originalWidth": 1744,
+          "originalHeight": 3100,
+          "sha256": "86825dcce7a1d0bb99d363b6f45bc16d9ad2e3fb6f12255be6cf21df79be996c",
+          "originalFile": "data/originals/TAG_H7207442_SLAB_FRONT.jpg",
+          "originalSha256": "e51d008697e033aefeb846e5a472c6ab516e9bf1a04f4f0ca9d0b8ddecfff84a"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/H7207442_Slabbed_BACK.jpg",
+          "pageUrl": "https://my.taggrading.com/card/H7207442",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-08T23:44:34.977Z",
+          "retrievedAt": "2026-09-08T23:52:46.642Z",
+          "sideBasis": "TAG rendered cert page: Slabbed image captures, Front / Back labels and cert-matching Slabbed_FRONT / Slabbed_BACK files",
+          "originalWidth": 1744,
+          "originalHeight": 3100,
+          "sha256": "a9c43a16b11eb25d12090b4fe3aacfcf9cae997eb9f532a4be5f5a34747e848d",
+          "originalFile": "data/originals/TAG_H7207442_SLAB_BACK.jpg",
+          "originalSha256": "7180759b7a8359423cc5608cc773e569c8c478cceaa7221739ba24493b3a0422"
+        },
+        "scanFront": {
           "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/7e97fd78-ecf8-4a0b-84ef-878082d9aa8f_FRONT_MAIN.jpg",
           "pageUrl": "https://my.taggrading.com/card/H7207442",
           "side": "front",
@@ -588,7 +816,7 @@
           "originalFile": "data/originals/TAG_H7207442_FRONT.jpg",
           "originalSha256": "115743d009a0e255ad4dc23d2f617de26994e41c193068f55afd33864be54909"
         },
-        "back": {
+        "scanBack": {
           "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/7e97fd78-ecf8-4a0b-84ef-878082d9aa8f_BACK_MAIN.jpg",
           "pageUrl": "https://my.taggrading.com/card/H7207442",
           "side": "back",
@@ -601,6 +829,42 @@
           "sha256": "5c2984e1e0ac5892c74178c046d365e95f4014dabd725b84a479d572fb4aa314",
           "originalFile": "data/originals/TAG_H7207442_BACK.jpg",
           "originalSha256": "4e6f6fb318a2613c1751e9b183cbb67fb8ce9694859229dd4261cd4cc5fa4cc6"
+        }
+      },
+      "cardScans": {
+        "images": {
+          "front": "TAG_H7207442_FRONT.jpg",
+          "back": "TAG_H7207442_BACK.jpg"
+        },
+        "imageSources": {
+          "front": {
+            "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/7e97fd78-ecf8-4a0b-84ef-878082d9aa8f_FRONT_MAIN.jpg",
+            "pageUrl": "https://my.taggrading.com/card/H7207442",
+            "side": "front",
+            "kind": "plain-scan",
+            "discoveredAt": "2026-09-07T07:20:59.082Z",
+            "retrievedAt": "2026-09-07T07:22:48.725Z",
+            "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+            "originalWidth": 4444,
+            "originalHeight": 6152,
+            "sha256": "aa4f62fb80f65dd7da2da18b05da42ec105aa006bbef14fb7e0cefbc8e08ff73",
+            "originalFile": "data/originals/TAG_H7207442_FRONT.jpg",
+            "originalSha256": "115743d009a0e255ad4dc23d2f617de26994e41c193068f55afd33864be54909"
+          },
+          "back": {
+            "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/7e97fd78-ecf8-4a0b-84ef-878082d9aa8f_BACK_MAIN.jpg",
+            "pageUrl": "https://my.taggrading.com/card/H7207442",
+            "side": "back",
+            "kind": "plain-scan",
+            "discoveredAt": "2026-09-07T07:20:59.082Z",
+            "retrievedAt": "2026-09-07T07:22:49.234Z",
+            "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+            "originalWidth": 4439,
+            "originalHeight": 6157,
+            "sha256": "5c2984e1e0ac5892c74178c046d365e95f4014dabd725b84a479d572fb4aa314",
+            "originalFile": "data/originals/TAG_H7207442_BACK.jpg",
+            "originalSha256": "4e6f6fb318a2613c1751e9b183cbb67fb8ce9694859229dd4261cd4cc5fa4cc6"
+          }
         }
       }
     },
@@ -678,8 +942,10 @@
         "capturedAt": "2026-09-07T07:21:40.327Z"
       },
       "images": {
-        "front": "TAG_H6422814_FRONT.jpg",
-        "back": "TAG_H6422814_BACK.jpg"
+        "front": "TAG_H6422814_SLAB_FRONT.jpg",
+        "back": "TAG_H6422814_SLAB_BACK.jpg",
+        "scanFront": "TAG_H6422814_FRONT.jpg",
+        "scanBack": "TAG_H6422814_BACK.jpg"
       },
       "scanStatus": "complete",
       "importSource": {
@@ -690,6 +956,34 @@
       },
       "imageSources": {
         "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/H6422814_Slabbed_FRONT.jpg",
+          "pageUrl": "https://my.taggrading.com/card/H6422814",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-08T23:44:34.977Z",
+          "retrievedAt": "2026-09-08T23:52:48.810Z",
+          "sideBasis": "TAG rendered cert page: Slabbed image captures, Front / Back labels and cert-matching Slabbed_FRONT / Slabbed_BACK files",
+          "originalWidth": 1744,
+          "originalHeight": 3100,
+          "sha256": "51b333962635d8fed607692acb9af43014b59ccbed5bbabfa4fba4285599879f",
+          "originalFile": "data/originals/TAG_H6422814_SLAB_FRONT.jpg",
+          "originalSha256": "90f43ac26b3e533a20e19e957ac2d68365bad6c7a4db197648df21a7c23690d3"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/H6422814_Slabbed_BACK.jpg",
+          "pageUrl": "https://my.taggrading.com/card/H6422814",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-08T23:44:34.977Z",
+          "retrievedAt": "2026-09-08T23:52:51.010Z",
+          "sideBasis": "TAG rendered cert page: Slabbed image captures, Front / Back labels and cert-matching Slabbed_FRONT / Slabbed_BACK files",
+          "originalWidth": 1744,
+          "originalHeight": 3100,
+          "sha256": "df497890420bc3ce95dc2536f4072230c362107c2dd1899f6e86898a6e0ec12e",
+          "originalFile": "data/originals/TAG_H6422814_SLAB_BACK.jpg",
+          "originalSha256": "8750601dafce1182ec771473dc02aec816db9f1df44907d5c43eaf9764e09119"
+        },
+        "scanFront": {
           "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/0ed3f3d0-02e3-4457-9871-d2a278d95cc6_FRONT_MAIN.jpg",
           "pageUrl": "https://my.taggrading.com/card/H6422814",
           "side": "front",
@@ -703,7 +997,7 @@
           "originalFile": "data/originals/TAG_H6422814_FRONT.jpg",
           "originalSha256": "cb3f9ed6c0bda87671a6d491e974d344246cb08d61fa0a7d85b45b5e797f3ce4"
         },
-        "back": {
+        "scanBack": {
           "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/0ed3f3d0-02e3-4457-9871-d2a278d95cc6_BACK_MAIN.jpg",
           "pageUrl": "https://my.taggrading.com/card/H6422814",
           "side": "back",
@@ -716,6 +1010,42 @@
           "sha256": "a8b357aa20b1f9fc5761a38b6e7654bb914986b5ce595fbe5520663195f6fe82",
           "originalFile": "data/originals/TAG_H6422814_BACK.jpg",
           "originalSha256": "f914a66224e8593b8b97c3b8e58c7a4697ac5f54c9c45e6822063462022beacc"
+        }
+      },
+      "cardScans": {
+        "images": {
+          "front": "TAG_H6422814_FRONT.jpg",
+          "back": "TAG_H6422814_BACK.jpg"
+        },
+        "imageSources": {
+          "front": {
+            "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/0ed3f3d0-02e3-4457-9871-d2a278d95cc6_FRONT_MAIN.jpg",
+            "pageUrl": "https://my.taggrading.com/card/H6422814",
+            "side": "front",
+            "kind": "plain-scan",
+            "discoveredAt": "2026-09-07T07:21:40.327Z",
+            "retrievedAt": "2026-09-07T07:22:49.782Z",
+            "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+            "originalWidth": 4429,
+            "originalHeight": 6158,
+            "sha256": "87d427d932b451e782f8bacb1877814e7dd8f17055a7f5c45fd4f05aef530039",
+            "originalFile": "data/originals/TAG_H6422814_FRONT.jpg",
+            "originalSha256": "cb3f9ed6c0bda87671a6d491e974d344246cb08d61fa0a7d85b45b5e797f3ce4"
+          },
+          "back": {
+            "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/0ed3f3d0-02e3-4457-9871-d2a278d95cc6_BACK_MAIN.jpg",
+            "pageUrl": "https://my.taggrading.com/card/H6422814",
+            "side": "back",
+            "kind": "plain-scan",
+            "discoveredAt": "2026-09-07T07:21:40.327Z",
+            "retrievedAt": "2026-09-07T07:22:50.355Z",
+            "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+            "originalWidth": 4432,
+            "originalHeight": 6158,
+            "sha256": "a8b357aa20b1f9fc5761a38b6e7654bb914986b5ce595fbe5520663195f6fe82",
+            "originalFile": "data/originals/TAG_H6422814_BACK.jpg",
+            "originalSha256": "f914a66224e8593b8b97c3b8e58c7a4697ac5f54c9c45e6822063462022beacc"
+          }
         }
       }
     },
@@ -793,8 +1123,10 @@
         "capturedAt": "2026-09-07T07:21:51.041Z"
       },
       "images": {
-        "front": "TAG_Q3963552_FRONT.jpg",
-        "back": "TAG_Q3963552_BACK.jpg"
+        "front": "TAG_Q3963552_SLAB_FRONT.jpg",
+        "back": "TAG_Q3963552_SLAB_BACK.jpg",
+        "scanFront": "TAG_Q3963552_FRONT.jpg",
+        "scanBack": "TAG_Q3963552_BACK.jpg"
       },
       "scanStatus": "complete",
       "importSource": {
@@ -805,6 +1137,34 @@
       },
       "imageSources": {
         "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/Q3963552_Slabbed_FRONT.jpg",
+          "pageUrl": "https://my.taggrading.com/card/Q3963552",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-08T23:44:34.977Z",
+          "retrievedAt": "2026-09-08T23:52:53.198Z",
+          "sideBasis": "TAG rendered cert page: Slabbed image captures, Front / Back labels and cert-matching Slabbed_FRONT / Slabbed_BACK files",
+          "originalWidth": 1744,
+          "originalHeight": 3100,
+          "sha256": "a1a8f3e1780e187501cc0dfd641f4b83b0f424b0981aba68d907f1aebbf0163c",
+          "originalFile": "data/originals/TAG_Q3963552_SLAB_FRONT.jpg",
+          "originalSha256": "66b6aa9b12f9164a6cb5ff5af40b4d48757f3bd664424ff7389047c6f73fd6d0"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/Q3963552_Slabbed_BACK.jpg",
+          "pageUrl": "https://my.taggrading.com/card/Q3963552",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-08T23:44:34.977Z",
+          "retrievedAt": "2026-09-08T23:52:55.286Z",
+          "sideBasis": "TAG rendered cert page: Slabbed image captures, Front / Back labels and cert-matching Slabbed_FRONT / Slabbed_BACK files",
+          "originalWidth": 1744,
+          "originalHeight": 3100,
+          "sha256": "16230c23d08094614a38924c0d3c8859c4803d1197af498b45009d4e85a358dc",
+          "originalFile": "data/originals/TAG_Q3963552_SLAB_BACK.jpg",
+          "originalSha256": "29ef6b2d651a9b1575c79e790fbb99a6b18820b8d10716cbdc4fc46c081ef3a0"
+        },
+        "scanFront": {
           "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/c2c6928b-8a69-4348-b5b9-268109257aa9_FRONT_MAIN.jpg",
           "pageUrl": "https://my.taggrading.com/card/Q3963552",
           "side": "front",
@@ -818,7 +1178,7 @@
           "originalFile": "data/originals/TAG_Q3963552_FRONT.jpg",
           "originalSha256": "c54028634c384f238dda566d5dc455d2b6392033b568f1fbc16330525d93dc31"
         },
-        "back": {
+        "scanBack": {
           "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/c2c6928b-8a69-4348-b5b9-268109257aa9_BACK_MAIN.jpg",
           "pageUrl": "https://my.taggrading.com/card/Q3963552",
           "side": "back",
@@ -831,6 +1191,42 @@
           "sha256": "30eaad322fe1c82936992c5483fcc88d610c60b730599cde8b6a3d895616c43e",
           "originalFile": "data/originals/TAG_Q3963552_BACK.jpg",
           "originalSha256": "c93fb8148b63fa9c21f67b333526f069362af0b97f711304fd714feca79645f6"
+        }
+      },
+      "cardScans": {
+        "images": {
+          "front": "TAG_Q3963552_FRONT.jpg",
+          "back": "TAG_Q3963552_BACK.jpg"
+        },
+        "imageSources": {
+          "front": {
+            "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/c2c6928b-8a69-4348-b5b9-268109257aa9_FRONT_MAIN.jpg",
+            "pageUrl": "https://my.taggrading.com/card/Q3963552",
+            "side": "front",
+            "kind": "plain-scan",
+            "discoveredAt": "2026-09-07T07:21:51.041Z",
+            "retrievedAt": "2026-09-07T07:22:50.972Z",
+            "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+            "originalWidth": 4433,
+            "originalHeight": 6147,
+            "sha256": "989550c53d3877502dc3d0875cc2705e737f9b9473e4eaf76c0ce07fb350314c",
+            "originalFile": "data/originals/TAG_Q3963552_FRONT.jpg",
+            "originalSha256": "c54028634c384f238dda566d5dc455d2b6392033b568f1fbc16330525d93dc31"
+          },
+          "back": {
+            "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/c2c6928b-8a69-4348-b5b9-268109257aa9_BACK_MAIN.jpg",
+            "pageUrl": "https://my.taggrading.com/card/Q3963552",
+            "side": "back",
+            "kind": "plain-scan",
+            "discoveredAt": "2026-09-07T07:21:51.041Z",
+            "retrievedAt": "2026-09-07T07:22:51.594Z",
+            "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+            "originalWidth": 4439,
+            "originalHeight": 6155,
+            "sha256": "30eaad322fe1c82936992c5483fcc88d610c60b730599cde8b6a3d895616c43e",
+            "originalFile": "data/originals/TAG_Q3963552_BACK.jpg",
+            "originalSha256": "c93fb8148b63fa9c21f67b333526f069362af0b97f711304fd714feca79645f6"
+          }
         }
       }
     },
@@ -908,8 +1304,10 @@
         "capturedAt": "2026-09-07T07:22:02.600Z"
       },
       "images": {
-        "front": "TAG_U5165558_FRONT.jpg",
-        "back": "TAG_U5165558_BACK.jpg"
+        "front": "TAG_U5165558_SLAB_FRONT.jpg",
+        "back": "TAG_U5165558_SLAB_BACK.jpg",
+        "scanFront": "TAG_U5165558_FRONT.jpg",
+        "scanBack": "TAG_U5165558_BACK.jpg"
       },
       "scanStatus": "complete",
       "importSource": {
@@ -920,6 +1318,34 @@
       },
       "imageSources": {
         "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/U5165558_Slabbed_FRONT.jpg",
+          "pageUrl": "https://my.taggrading.com/card/U5165558",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-08T23:44:34.977Z",
+          "retrievedAt": "2026-09-08T23:52:57.427Z",
+          "sideBasis": "TAG rendered cert page: Slabbed image captures, Front / Back labels and cert-matching Slabbed_FRONT / Slabbed_BACK files",
+          "originalWidth": 1744,
+          "originalHeight": 3100,
+          "sha256": "7a4c690794291327d657dfb817dac63e858e7d1b399114b21f44e8e8958ef9a3",
+          "originalFile": "data/originals/TAG_U5165558_SLAB_FRONT.jpg",
+          "originalSha256": "45525927db51ebc27e39038cd01ede53302afaefcabd8285fa53b2b57715e8d0"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/U5165558_Slabbed_BACK.jpg",
+          "pageUrl": "https://my.taggrading.com/card/U5165558",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-08T23:44:34.977Z",
+          "retrievedAt": "2026-09-08T23:52:59.434Z",
+          "sideBasis": "TAG rendered cert page: Slabbed image captures, Front / Back labels and cert-matching Slabbed_FRONT / Slabbed_BACK files",
+          "originalWidth": 1744,
+          "originalHeight": 3100,
+          "sha256": "07a340e8d1799fe0bf40f899271ce199f190ec19d53298c7118419b2c4beb81e",
+          "originalFile": "data/originals/TAG_U5165558_SLAB_BACK.jpg",
+          "originalSha256": "e948acac4f7e03bc8cf76486e9ec05f54d80010326159f12816133670f38d028"
+        },
+        "scanFront": {
           "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/6a259e93-93ef-4118-82cb-975d7ef7d076_FRONT_MAIN.jpg",
           "pageUrl": "https://my.taggrading.com/card/U5165558",
           "side": "front",
@@ -933,7 +1359,7 @@
           "originalFile": "data/originals/TAG_U5165558_FRONT.jpg",
           "originalSha256": "c0c2a4cf1435d0daa5478997c5232cfef4e67da24d893557f4ca1b7f831caac3"
         },
-        "back": {
+        "scanBack": {
           "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/6a259e93-93ef-4118-82cb-975d7ef7d076_BACK_MAIN.jpg",
           "pageUrl": "https://my.taggrading.com/card/U5165558",
           "side": "back",
@@ -946,6 +1372,42 @@
           "sha256": "bd7bd4efa242ce29a9096e897f831691b3d64dca1da884cb0be4ace63f094515",
           "originalFile": "data/originals/TAG_U5165558_BACK.jpg",
           "originalSha256": "a43f17f72086be9be58c889a31e189257a3b0c2819cd378e6267d0e44925d37f"
+        }
+      },
+      "cardScans": {
+        "images": {
+          "front": "TAG_U5165558_FRONT.jpg",
+          "back": "TAG_U5165558_BACK.jpg"
+        },
+        "imageSources": {
+          "front": {
+            "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/6a259e93-93ef-4118-82cb-975d7ef7d076_FRONT_MAIN.jpg",
+            "pageUrl": "https://my.taggrading.com/card/U5165558",
+            "side": "front",
+            "kind": "plain-scan",
+            "discoveredAt": "2026-09-07T07:22:02.600Z",
+            "retrievedAt": "2026-09-07T07:22:52.295Z",
+            "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+            "originalWidth": 4474,
+            "originalHeight": 6220,
+            "sha256": "3e753dbbd6b5ae1c61295f8b5f72eb89969969dd4f7571b838682d78881f55fd",
+            "originalFile": "data/originals/TAG_U5165558_FRONT.jpg",
+            "originalSha256": "c0c2a4cf1435d0daa5478997c5232cfef4e67da24d893557f4ca1b7f831caac3"
+          },
+          "back": {
+            "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/6a259e93-93ef-4118-82cb-975d7ef7d076_BACK_MAIN.jpg",
+            "pageUrl": "https://my.taggrading.com/card/U5165558",
+            "side": "back",
+            "kind": "plain-scan",
+            "discoveredAt": "2026-09-07T07:22:02.600Z",
+            "retrievedAt": "2026-09-07T07:22:52.740Z",
+            "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+            "originalWidth": 4480,
+            "originalHeight": 6220,
+            "sha256": "bd7bd4efa242ce29a9096e897f831691b3d64dca1da884cb0be4ace63f094515",
+            "originalFile": "data/originals/TAG_U5165558_BACK.jpg",
+            "originalSha256": "a43f17f72086be9be58c889a31e189257a3b0c2819cd378e6267d0e44925d37f"
+          }
         }
       }
     },
@@ -1023,8 +1485,10 @@
         "capturedAt": "2026-09-07T07:22:22.830Z"
       },
       "images": {
-        "front": "TAG_G5711598_FRONT.jpg",
-        "back": "TAG_G5711598_BACK.jpg"
+        "front": "TAG_G5711598_SLAB_FRONT.jpg",
+        "back": "TAG_G5711598_SLAB_BACK.jpg",
+        "scanFront": "TAG_G5711598_FRONT.jpg",
+        "scanBack": "TAG_G5711598_BACK.jpg"
       },
       "scanStatus": "complete",
       "importSource": {
@@ -1035,6 +1499,34 @@
       },
       "imageSources": {
         "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/G5711598_Slabbed_FRONT.jpg",
+          "pageUrl": "https://my.taggrading.com/card/G5711598",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-08T23:52:29.561Z",
+          "retrievedAt": "2026-09-08T23:53:01.765Z",
+          "sideBasis": "TAG rendered cert page: Slabbed image captures, Front / Back labels and cert-matching Slabbed_FRONT / Slabbed_BACK files",
+          "originalWidth": 1744,
+          "originalHeight": 3100,
+          "sha256": "a28d328d882431b67f2b26f2620af15f77cba2f85b3bc9bd643d38c32527ffd5",
+          "originalFile": "data/originals/TAG_G5711598_SLAB_FRONT.jpg",
+          "originalSha256": "9755c21579e41e1e1fd1b1c3b0c49cc40f1be74d709c9aef83da358c69f888a2"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/G5711598_Slabbed_BACK.jpg",
+          "pageUrl": "https://my.taggrading.com/card/G5711598",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-08T23:52:29.561Z",
+          "retrievedAt": "2026-09-08T23:53:03.863Z",
+          "sideBasis": "TAG rendered cert page: Slabbed image captures, Front / Back labels and cert-matching Slabbed_FRONT / Slabbed_BACK files",
+          "originalWidth": 1744,
+          "originalHeight": 3100,
+          "sha256": "20ee5a1deed635458454cf1b1a36f0fb4e406d4a16865fde7c099963df1696a3",
+          "originalFile": "data/originals/TAG_G5711598_SLAB_BACK.jpg",
+          "originalSha256": "7b031991e0ac8f700dab4e706919510fc604a4c4d966bcf6f139fab8b3cf4611"
+        },
+        "scanFront": {
           "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/076fc274-576c-4c74-be6f-c143fd6a830a_FRONT_MAIN.jpg",
           "pageUrl": "https://my.taggrading.com/card/G5711598",
           "side": "front",
@@ -1048,7 +1540,7 @@
           "originalFile": "data/originals/TAG_G5711598_FRONT.jpg",
           "originalSha256": "a800101a99927218b6f3d25f670d2ebc94467880fa21cc395ccb7221294fe4aa"
         },
-        "back": {
+        "scanBack": {
           "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/076fc274-576c-4c74-be6f-c143fd6a830a_BACK_MAIN.jpg",
           "pageUrl": "https://my.taggrading.com/card/G5711598",
           "side": "back",
@@ -1061,6 +1553,42 @@
           "sha256": "ae39dcede6194fd70d3198cac6175a80393751597cfb713e89a1659662fec98f",
           "originalFile": "data/originals/TAG_G5711598_BACK.jpg",
           "originalSha256": "213b05f063c5fa3b09568ecaf301ee9426b5c7d6c1570befc7381700ead49e6f"
+        }
+      },
+      "cardScans": {
+        "images": {
+          "front": "TAG_G5711598_FRONT.jpg",
+          "back": "TAG_G5711598_BACK.jpg"
+        },
+        "imageSources": {
+          "front": {
+            "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/076fc274-576c-4c74-be6f-c143fd6a830a_FRONT_MAIN.jpg",
+            "pageUrl": "https://my.taggrading.com/card/G5711598",
+            "side": "front",
+            "kind": "plain-scan",
+            "discoveredAt": "2026-09-07T07:22:22.830Z",
+            "retrievedAt": "2026-09-07T07:22:53.377Z",
+            "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+            "originalWidth": 4419,
+            "originalHeight": 6158,
+            "sha256": "7cbc257321dcc267d08ce07733abd3e17641c0032e1f6d1589a21d91d201791c",
+            "originalFile": "data/originals/TAG_G5711598_FRONT.jpg",
+            "originalSha256": "a800101a99927218b6f3d25f670d2ebc94467880fa21cc395ccb7221294fe4aa"
+          },
+          "back": {
+            "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/076fc274-576c-4c74-be6f-c143fd6a830a_BACK_MAIN.jpg",
+            "pageUrl": "https://my.taggrading.com/card/G5711598",
+            "side": "back",
+            "kind": "plain-scan",
+            "discoveredAt": "2026-09-07T07:22:22.830Z",
+            "retrievedAt": "2026-09-07T07:22:54.050Z",
+            "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+            "originalWidth": 4430,
+            "originalHeight": 6162,
+            "sha256": "ae39dcede6194fd70d3198cac6175a80393751597cfb713e89a1659662fec98f",
+            "originalFile": "data/originals/TAG_G5711598_BACK.jpg",
+            "originalSha256": "213b05f063c5fa3b09568ecaf301ee9426b5c7d6c1570befc7381700ead49e6f"
+          }
         }
       }
     },
@@ -1137,8 +1665,10 @@
         "capturedAt": "2026-09-07T07:22:33.555Z"
       },
       "images": {
-        "front": "TAG_E4095241_FRONT.jpg",
-        "back": "TAG_E4095241_BACK.jpg"
+        "front": "TAG_E4095241_SLAB_FRONT.jpg",
+        "back": "TAG_E4095241_SLAB_BACK.jpg",
+        "scanFront": "TAG_E4095241_FRONT.jpg",
+        "scanBack": "TAG_E4095241_BACK.jpg"
       },
       "scanStatus": "complete",
       "importSource": {
@@ -1149,6 +1679,34 @@
       },
       "imageSources": {
         "front": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/E4095241_Slabbed_FRONT.jpg",
+          "pageUrl": "https://my.taggrading.com/card/E4095241",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-08T23:52:29.561Z",
+          "retrievedAt": "2026-09-08T23:53:06.104Z",
+          "sideBasis": "TAG rendered cert page: Slabbed image captures, Front / Back labels and cert-matching Slabbed_FRONT / Slabbed_BACK files",
+          "originalWidth": 1744,
+          "originalHeight": 3100,
+          "sha256": "e66203ab011ae4f94016a86861b3f0f2380b1356bbefe0ed9eba9a5b057d44ff",
+          "originalFile": "data/originals/TAG_E4095241_SLAB_FRONT.jpg",
+          "originalSha256": "7f6e41b8cb12602af4985a6f183bea55171c2aa582c3b97ad08d3f2b6fa499b6"
+        },
+        "back": {
+          "url": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/E4095241_Slabbed_BACK.jpg",
+          "pageUrl": "https://my.taggrading.com/card/E4095241",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-08T23:52:29.561Z",
+          "retrievedAt": "2026-09-08T23:53:08.176Z",
+          "sideBasis": "TAG rendered cert page: Slabbed image captures, Front / Back labels and cert-matching Slabbed_FRONT / Slabbed_BACK files",
+          "originalWidth": 1744,
+          "originalHeight": 3100,
+          "sha256": "c10033329ad12af5ce3895b106771952b091633b1a3a419d73ea8fac8ee49b57",
+          "originalFile": "data/originals/TAG_E4095241_SLAB_BACK.jpg",
+          "originalSha256": "52bfbfd49c97604c2cc58fec0f2e62c0301d1841d8787a985789ec6ecbc05633"
+        },
+        "scanFront": {
           "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/9528a7e7-bb87-4ec2-b829-4d2f3f00b45d_FRONT_MAIN.jpg",
           "pageUrl": "https://my.taggrading.com/card/E4095241",
           "side": "front",
@@ -1162,7 +1720,7 @@
           "originalFile": "data/originals/TAG_E4095241_FRONT.jpg",
           "originalSha256": "54f036675c8136811df51338cd4d8ebd7b72231d5aab23c018e8f79ab3f33c8d"
         },
-        "back": {
+        "scanBack": {
           "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/9528a7e7-bb87-4ec2-b829-4d2f3f00b45d_BACK_MAIN.jpg",
           "pageUrl": "https://my.taggrading.com/card/E4095241",
           "side": "back",
@@ -1175,6 +1733,42 @@
           "sha256": "9d865467f4e23d221151041cf6f4384899c60060f290c1424b8b25131cc3d351",
           "originalFile": "data/originals/TAG_E4095241_BACK.jpg",
           "originalSha256": "4fd2b9ff0797f289f876982012f8ad2ac060f5f1ceaecdfbf3c00b1817455dd4"
+        }
+      },
+      "cardScans": {
+        "images": {
+          "front": "TAG_E4095241_FRONT.jpg",
+          "back": "TAG_E4095241_BACK.jpg"
+        },
+        "imageSources": {
+          "front": {
+            "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/9528a7e7-bb87-4ec2-b829-4d2f3f00b45d_FRONT_MAIN.jpg",
+            "pageUrl": "https://my.taggrading.com/card/E4095241",
+            "side": "front",
+            "kind": "plain-scan",
+            "discoveredAt": "2026-09-07T07:22:33.555Z",
+            "retrievedAt": "2026-09-07T07:22:54.736Z",
+            "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+            "originalWidth": 4437,
+            "originalHeight": 6155,
+            "sha256": "de7540a7721a767d8b025aa27690f5000dd62d78ba96a63bd8b89cf8bf22cdf4",
+            "originalFile": "data/originals/TAG_E4095241_FRONT.jpg",
+            "originalSha256": "54f036675c8136811df51338cd4d8ebd7b72231d5aab23c018e8f79ab3f33c8d"
+          },
+          "back": {
+            "url": "https://d39lwrz0lm7c9r.cloudfront.net/card-images/9528a7e7-bb87-4ec2-b829-4d2f3f00b45d_BACK_MAIN.jpg",
+            "pageUrl": "https://my.taggrading.com/card/E4095241",
+            "side": "back",
+            "kind": "plain-scan",
+            "discoveredAt": "2026-09-07T07:22:33.555Z",
+            "retrievedAt": "2026-09-07T07:22:55.376Z",
+            "sideBasis": "TAG rendered card page: explicit FRONT_MAIN / BACK_MAIN suffix",
+            "originalWidth": 4428,
+            "originalHeight": 6159,
+            "sha256": "9d865467f4e23d221151041cf6f4384899c60060f290c1424b8b25131cc3d351",
+            "originalFile": "data/originals/TAG_E4095241_BACK.jpg",
+            "originalSha256": "4fd2b9ff0797f289f876982012f8ad2ac060f5f1ceaecdfbf3c00b1817455dd4"
+          }
         }
       }
     }

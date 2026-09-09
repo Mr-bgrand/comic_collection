@@ -1,10 +1,14 @@
 /** Cert-page-discovered URLs only. Never infer an image identifier from a cert. */
-export function acceptedCardImage(grader,source,side,cert,reversed=false) {
+export function acceptedCardImage(grader,source,side,cert,reversed=false,kind='plain-scan') {
   if(!['front','back'].includes(side))return false;
   try {
     const url=new URL(source);if(url.protocol!=='https:'||url.username||url.password)return false;
     if(grader==='PSA')return url.hostname==='d1htnxwo4o0jhw.cloudfront.net'&&/^\/cert\/[^/]+\/.+\.(jpg|jpeg|png|webp)$/i.test(url.pathname);
-    if(grader==='TAG')return url.hostname==='d39lwrz0lm7c9r.cloudfront.net'&&new RegExp('^/card-images/[^/]+_'+side.toUpperCase()+'_MAIN\\.(jpg|jpeg|png|webp)$','i').test(url.pathname);
+    if(grader==='TAG') {
+      if(url.hostname!=='d39lwrz0lm7c9r.cloudfront.net'||url.port||url.search||url.hash)return false;
+      if(kind==='slab-photo')return /^[A-Z]\d{7}$/.test(cert)&&url.pathname===`/slab-images/${cert}_Slabbed_${side.toUpperCase()}.jpg`;
+      return kind==='plain-scan'&&new RegExp('^/card-images/[^/]+_'+side.toUpperCase()+'_MAIN\\.(jpg|jpeg|png|webp)$','i').test(url.pathname);
+    }
     if(grader==='Arena Club')return url.hostname==='assets.arenaclub.com'&&!url.port&&!url.hash&&new RegExp('^/items/card_[a-f0-9-]{36}/slab_'+side+'\\.png$').test(url.pathname)&&[...url.searchParams.keys()].every(k=>['fit','w'].includes(k));
     if(grader==='CGC') {
       // All three hosts occur in the CGC Cards viewer, including legacy CGC
@@ -21,24 +25,15 @@ export function acceptedCardImage(grader,source,side,cert,reversed=false) {
 /**
  * TAG also photographs the encapsulated card — the GRADED IMAGES section of the
  * card page — and those photos, not the bare MAIN scans, are what the slab
- * actually looks like. Same covenant as everything else: the URL must be
- * discovered on the rendered page. The filename scheme for these photos is not
- * assumed; what is enforced is TAG's own asset host and path, that a MAIN scan
- * cannot masquerade as a slab photo, and that when the filename does carry a
- * FRONT/BACK marker it agrees with the side the capture recorded from the
- * page's labels.
+ * actually looks like. The rendered pages use /slab-images/, not /card-images/.
+ * Accept that observed format only, so SFX and defect crops cannot qualify.
+ * Importers also supply the target cert to enforce exact-copy identity.
  */
-export function acceptedTagSlabPhoto(source,side) {
-  if(!['front','back'].includes(side))return false;
+export function acceptedTagSlabPhoto(source,side,cert) {
   try {
     const url=new URL(source);
-    if(url.protocol!=='https:'||url.username||url.password||url.port||url.hash||url.search)return false;
-    if(url.hostname!=='d39lwrz0lm7c9r.cloudfront.net')return false;
-    if(!/^\/card-images\/[^/]+\.(jpg|jpeg|png|webp)$/i.test(url.pathname))return false;
-    if(/_(FRONT|BACK)_MAIN\.[a-z]+$/i.test(url.pathname))return false;
-    const marker=url.pathname.match(/_(FRONT|BACK)[_.]/i);
-    if(marker&&marker[1].toLowerCase()!==side)return false;
-    return true;
+    const imageCert=url.pathname.match(/^\/slab-images\/([A-Z]\d{7})_Slabbed_/)?.[1];
+    return acceptedCardImage('TAG',source,side,cert||imageCert,false,'slab-photo');
   }catch{}
   return false;
 }

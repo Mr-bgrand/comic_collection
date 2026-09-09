@@ -243,11 +243,13 @@ list supplied in the conversation or a file already in this workspace.
   the slab photograph the display image (`images.front` / `images.back`) —
   the copy as it physically exists, consistent with every CGC comic on the
   wall — and keeps the MAIN scans first-class as `images.scanFront` /
-  `images.scanBack` without re-downloading. Slab-photo URLs obey the same
-  covenant: discovered on the page, same host and `/card-images/` path,
-  never constructed; a `_MAIN` scan is not accepted as a slab photo, and a
-  FRONT/BACK marker in the filename must agree with the side recorded from
-  the page's labels.
+  `images.scanBack` without re-downloading, with provenance also retained in
+  `cardScans`. Slab-photo URLs obey the same covenant: discovered on the page,
+  same host and the observed `/slab-images/<cert>_Slabbed_FRONT.jpg` / BACK
+  path, never constructed. The filename must match the target cert and side.
+  `/card-images/` MAIN, SFX and defect images do not qualify as slab photographs.
+  Both `slabFront` / `slabBack` and explicit `kind: "slab-photo"` pair manifests
+  are supported; source URLs are checked before any record is changed.
 - Do not construct image URLs from a certification number: internal image IDs
   and UUIDs must come from the page. Retain the discovered source URL for
   each asset, its side/type, the cert-page URL, and the retrieval timestamp

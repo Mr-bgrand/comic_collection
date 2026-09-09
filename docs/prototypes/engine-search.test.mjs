@@ -9,6 +9,12 @@ const records = [
   {kind:'card', title:'2025 POKEMON #1 PIKACHU', short:'PIKACHU', grade:'PSA 10'},
   {kind:'card', title:'2025 TOPPS #1 SHOHEI OHTANI', short:'SHOHEI OHTANI', grade:'PSA 10'},
 ];
+test('raw comic discovery finds owner scans without mixing in Authority authentication or graded cards',()=>{
+  const copies=[{id:'raw:15-001',kind:'comic',holder:'bag-and-board',grade:'Raw · ungraded'},
+    {id:'Authority:0012345678',kind:'comic',holder:'soft-sleeve',grade:'RAW Authentic'},records[3]];
+  for(const query of ['Raw comics','raw books','owner scans','raw:15-001'])assert.deepEqual(copies.filter(c=>matchesSearch(c,query)),[copies[0]]);
+  assert.ok(searchShortcuts(copies).keywords.some(s=>s.label==='Raw comics'&&s.count===1));
+});
 
 test('No value yet combines with text search and treats an explicit zero as valued',()=>{
   const copies=[{title:'Venom',cert:'1',value:null},{title:'Venom',cert:'2',value:0},{title:'Venom',cert:'3',value:85},{title:'Batman',cert:'4',value:null},{title:'Venom',cert:'5'}];

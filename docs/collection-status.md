@@ -35,6 +35,9 @@ This is a snapshot of the stored inventory, not a new appraisal or a fresh grade
 Comic Case #12 contains 111 Authority sleeves. Bins #13 and #14 contain 98 and 97.
 Bin #15 contains 27 Authority sleeves plus 96 owner-scanned raw books awaiting
 identification. Duplicate submitted IDs were deduplicated; leading zeros are kept.
+Find > Raw comics now opens those 96 owner scans directly. Their focus labels and
+record IDs are readable while identification is pending, and Singularity spreads
+them through the full flight instead of clustering their sequential scan IDs.
 
 Case #1 contains 11 CGC cards and one Arena Club card. Case #2 contains 57 TAG cards.
 The office card wall contains nine TAG and two PSA cards. PSA Case #3 contains 94
@@ -58,6 +61,12 @@ Inventory growth and newly valued records affect totals; these are not investmen
 
 ## Remaining intake and images
 
+- All 80 TAG cards now use verified full-slab front and back photographs from
+  each cert page's Slabbed image captures section: 57 in Case #2, nine on the
+  office wall and 14 in TAG Collection. The original card-only MAIN scans and
+  their source history remain in `cardScans`. The viewer, its overview textures,
+  and the physical-case master sheets use the slab photographs. Source manifests
+  and repeat-import instructions are linked in the [viewer guide](prototypes/README.md).
 - Five CGC cards intended for Case #1 remain queued for verified capture:
   6034330274, 6021634274, 6025099060, 6025067013 and 6032717240. They are not included
   in stored counts or printed paperwork. Their supplied URLs remain in

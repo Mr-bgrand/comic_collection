@@ -1,0 +1,577 @@
+{
+  "discoveredAt": "2026-09-08T23:23:22.201Z",
+  "discovery": "Rendered TAG cert pages: certificate text matched before scrolling to Slabbed image captures. Both displayed img src values matched the recorded cert and front/back side exactly.",
+  "container": "case-02",
+  "records": [
+    {
+      "grader": "TAG",
+      "cert": "H5738313",
+      "renderedCert": "H5738313",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/H5738313",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/H5738313_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/H5738313_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:23:22.201Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "D4344079",
+      "renderedCert": "D4344079",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/D4344079",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/D4344079_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/D4344079_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:23:22.201Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "D6943986",
+      "renderedCert": "D6943986",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/D6943986",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/D6943986_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/D6943986_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:23:22.201Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "E1563870",
+      "renderedCert": "E1563870",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/E1563870",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/E1563870_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/E1563870_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:23:22.201Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "X5786663",
+      "renderedCert": "X5786663",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/X5786663",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/X5786663_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/X5786663_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:23:22.201Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "N2689700",
+      "renderedCert": "N2689700",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/N2689700",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/N2689700_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/N2689700_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:23:22.201Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "S7276401",
+      "renderedCert": "S7276401",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/S7276401",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/S7276401_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/S7276401_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:23:22.201Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "L3302729",
+      "renderedCert": "L3302729",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/L3302729",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/L3302729_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/L3302729_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:23:22.201Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "W6420124",
+      "renderedCert": "W6420124",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/W6420124",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/W6420124_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/W6420124_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:23:22.201Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "H1116328",
+      "renderedCert": "H1116328",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/H1116328",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/H1116328_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/H1116328_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:23:22.201Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "K7814397",
+      "renderedCert": "K7814397",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/K7814397",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/K7814397_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/K7814397_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:23:22.201Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "V3539115",
+      "renderedCert": "V3539115",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/V3539115",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/V3539115_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/V3539115_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:23:22.201Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "D4669879",
+      "renderedCert": "D4669879",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/D4669879",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/D4669879_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/D4669879_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:23:22.201Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "H4372254",
+      "renderedCert": "H4372254",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/H4372254",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/H4372254_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/H4372254_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:23:22.201Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "J3594287",
+      "renderedCert": "J3594287",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/J3594287",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/J3594287_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/J3594287_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:23:22.201Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "W8299572",
+      "renderedCert": "W8299572",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/W8299572",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/W8299572_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/W8299572_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:23:22.201Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "R1562007",
+      "renderedCert": "R1562007",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/R1562007",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/R1562007_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/R1562007_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:23:22.201Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "Q6595392",
+      "renderedCert": "Q6595392",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/Q6595392",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/Q6595392_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/Q6595392_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:23:22.201Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "R8010173",
+      "renderedCert": "R8010173",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/R8010173",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/R8010173_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/R8010173_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:23:22.201Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "S7361300",
+      "renderedCert": "S7361300",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/S7361300",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/S7361300_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/S7361300_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:23:22.201Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "T2163854",
+      "renderedCert": "T2163854",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/T2163854",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/T2163854_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/T2163854_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:23:22.201Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "E3511461",
+      "renderedCert": "E3511461",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/E3511461",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/E3511461_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/E3511461_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:23:22.201Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "N3448560",
+      "renderedCert": "N3448560",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/N3448560",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/N3448560_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/N3448560_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:23:22.201Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "E3314397",
+      "renderedCert": "E3314397",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/E3314397",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/E3314397_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/E3314397_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:23:22.201Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "Y3695911",
+      "renderedCert": "Y3695911",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/Y3695911",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/Y3695911_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/Y3695911_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:24:45.196Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "H9545478",
+      "renderedCert": "H9545478",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/H9545478",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/H9545478_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/H9545478_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:24:45.196Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "D5403529",
+      "renderedCert": "D5403529",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/D5403529",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/D5403529_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/D5403529_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:24:45.196Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "G7325430",
+      "renderedCert": "G7325430",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/G7325430",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/G7325430_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/G7325430_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:24:45.196Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "C5407435",
+      "renderedCert": "C5407435",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/C5407435",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/C5407435_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/C5407435_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:24:45.196Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "Q7881130",
+      "renderedCert": "Q7881130",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/Q7881130",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/Q7881130_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/Q7881130_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:24:45.196Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "R1997289",
+      "renderedCert": "R1997289",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/R1997289",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/R1997289_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/R1997289_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:24:45.196Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "L1594257",
+      "renderedCert": "L1594257",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/L1594257",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/L1594257_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/L1594257_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:24:45.196Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "L4878840",
+      "renderedCert": "L4878840",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/L4878840",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/L4878840_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/L4878840_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:34:08.235Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "V8723321",
+      "renderedCert": "V8723321",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/V8723321",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/V8723321_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/V8723321_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:34:08.235Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "G2899282",
+      "renderedCert": "G2899282",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/G2899282",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/G2899282_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/G2899282_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:34:08.235Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "Y5902940",
+      "renderedCert": "Y5902940",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/Y5902940",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/Y5902940_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/Y5902940_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:34:08.235Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "Z4751716",
+      "renderedCert": "Z4751716",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/Z4751716",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/Z4751716_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/Z4751716_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:34:08.235Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "W9236358",
+      "renderedCert": "W9236358",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/W9236358",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/W9236358_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/W9236358_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:34:08.235Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "U4172963",
+      "renderedCert": "U4172963",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/U4172963",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/U4172963_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/U4172963_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:34:08.235Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "Y6882653",
+      "renderedCert": "Y6882653",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/Y6882653",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/Y6882653_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/Y6882653_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:34:08.235Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "T3906312",
+      "renderedCert": "T3906312",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/T3906312",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/T3906312_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/T3906312_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:35:55.633Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "Z5553675",
+      "renderedCert": "Z5553675",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/Z5553675",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/Z5553675_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/Z5553675_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:35:55.633Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "M9505930",
+      "renderedCert": "M9505930",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/M9505930",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/M9505930_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/M9505930_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:35:55.633Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "Z6685887",
+      "renderedCert": "Z6685887",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/Z6685887",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/Z6685887_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/Z6685887_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:35:55.633Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "X7892704",
+      "renderedCert": "X7892704",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/X7892704",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/X7892704_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/X7892704_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:35:55.633Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "K3758473",
+      "renderedCert": "K3758473",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/K3758473",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/K3758473_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/K3758473_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:35:55.633Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "T3147187",
+      "renderedCert": "T3147187",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/T3147187",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/T3147187_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/T3147187_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:35:55.633Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "W3676548",
+      "renderedCert": "W3676548",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/W3676548",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/W3676548_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/W3676548_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:35:55.633Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "L4078317",
+      "renderedCert": "L4078317",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/L4078317",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/L4078317_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/L4078317_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:42:52.976Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "P5515986",
+      "renderedCert": "P5515986",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/P5515986",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/P5515986_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/P5515986_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:42:52.976Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "M1530937",
+      "renderedCert": "M1530937",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/M1530937",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/M1530937_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/M1530937_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:42:52.976Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "N9962443",
+      "renderedCert": "N9962443",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/N9962443",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/N9962443_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/N9962443_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:42:52.976Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "H5133767",
+      "renderedCert": "H5133767",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/H5133767",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/H5133767_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/H5133767_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:42:52.976Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "T4865125",
+      "renderedCert": "T4865125",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/T4865125",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/T4865125_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/T4865125_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:42:52.976Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "K7745092",
+      "renderedCert": "K7745092",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/K7745092",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/K7745092_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/K7745092_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:42:52.976Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "J3913496",
+      "renderedCert": "J3913496",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/J3913496",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/J3913496_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/J3913496_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:42:52.976Z"
+    },
+    {
+      "grader": "TAG",
+      "cert": "V7329173",
+      "renderedCert": "V7329173",
+      "kind": "slab-photo",
+      "pageUrl": "https://my.taggrading.com/card/V7329173",
+      "front": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/V7329173_Slabbed_FRONT.jpg",
+      "back": "https://d39lwrz0lm7c9r.cloudfront.net/slab-images/V7329173_Slabbed_BACK.jpg",
+      "discoveredAt": "2026-09-08T23:44:34.977Z"
+    }
+  ]
+}

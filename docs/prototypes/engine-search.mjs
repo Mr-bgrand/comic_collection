@@ -10,11 +10,14 @@ export function matchesSearch(record, query, {unvaluedOnly=false}={}) {
   if(unvaluedOnly&&typeof record.value==='number'&&Number.isFinite(record.value))return false;
   const needle = normalizeSearch(query);
   if (!needle) return true;
+  if (['raw comics', 'raw books', 'owner scans'].includes(needle)) {
+    return record.kind==='comic'&&(record.id?.startsWith('raw:')||record.holder==='bag-and-board');
+  }
   if (['tag', 'psa', 'cgc', 'cbcs', 'authority'].includes(needle)) {
     const issuer = record.provider || record.grader || String(record.grade || '').split(' ')[0];
     return normalizeSearch(issuer) === needle;
   }
-  return normalizeSearch([record.title, record.short, record.variant, record.cert,
+  return normalizeSearch([record.title, record.short, record.variant, record.cert, record.id,
     record.grade, record.container, record.publisher, record.year, record.searchTerms].filter(Boolean).join(' ')).includes(needle);
 }
 
@@ -25,7 +28,7 @@ const comicNames = [
   'Supergirl', 'Wonder Woman', 'Moon Man', 'Silver Surfer', 'Superman', 'Obi-Wan Kenobi',
   'Darth Vader', 'Gwen Stacy', 'Captain America', 'Thor', 'Iron Man', 'Black Panther',
 ];
-const keywordLabels = ['Foil', 'Virgin', 'Sketch', 'Signed', 'Facsimile', 'Pokémon',
+const keywordLabels = ['Raw comics', 'Foil', 'Virgin', 'Sketch', 'Signed', 'Facsimile', 'Pokémon',
   'Star Wars', 'One Piece', 'Momoko', 'Gleason', 'First appearance'];
 const nameCase = value => value.toLowerCase().replace(/(^|[\s.-])([a-z])/g, (_, space, letter) => space + letter.toUpperCase());
 

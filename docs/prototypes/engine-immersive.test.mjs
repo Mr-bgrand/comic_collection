@@ -57,3 +57,14 @@ test('arrival queue visits each scanned copy once, mixes inventory order and res
   const all=arrivalSequence(items);assert.equal(all.length,49);assert.equal(new Set(all).size,49);assert.ok(!all.includes(3));assert.deepEqual(all,arrivalSequence(items));
   assert.notDeepEqual(all,[...all].sort((a,b)=>a-b));assert.ok(arrivalSequence(items,'card').every(i=>items[i].kind==='card'));
 });
+test('owner scans stay distributed throughout the circular flight, including across its seam',()=>{
+  const groups=[['raw',96,'comic','bag-and-board'],['Authority',333,'comic','soft-sleeve'],['CGC',239,'comic','slab'],['card',216,'card','slab']];
+  const items=groups.flatMap(([prefix,count,kind,holder])=>Array.from({length:count},(_,i)=>({id:prefix+':'+i,kind,holder,hasScan:true})));
+  for(const scope of ['all','comic']){
+    const queue=arrivalSequence(items,scope),positions=queue.flatMap((id,i)=>items[id].id.startsWith('raw:')?[i]:[]);
+    assert.equal(positions.length,96);assert.equal(new Set(queue).size,queue.length);
+    const gaps=positions.map((pos,i)=>(positions[(i+1)%positions.length]-pos+queue.length)%queue.length);
+    assert.ok(Math.max(...gaps)<=Math.ceil(queue.length/96)+3,JSON.stringify(gaps));
+    assert.deepEqual(queue,arrivalSequence(items,scope));
+  }
+});

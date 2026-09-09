@@ -85,13 +85,31 @@ zeros, source URLs and dates. Reimports preserve owner data and verified scans.
 - `npm run cards:images -- <image-manifest.json> <container.json>` imports verified
   card scans. Originals stay in ignored `data/originals`; app derivatives rebuild.
 
-Image paths use grader-internal IDs read from rendered cert pages. PSA uses only
-`d1htnxwo4o0jhw.cloudfront.net/cert/`, never eBay similar-sales images. TAG uses the
-exact FRONT_MAIN/BACK_MAIN pair, excluding SFX and flaw crops. Preserve source URL,
+Image URLs are verified against each rendered cert page. PSA uses only
+`d1htnxwo4o0jhw.cloudfront.net/cert/`, never eBay similar-sales images. TAG's
+**Slabbed image captures** section provides the full holder photographs, with
+cert-matching `Slabbed_FRONT` / `Slabbed_BACK` files. These become the default
+display images. The original FRONT_MAIN/BACK_MAIN pair remains in `cardScans`
+with its provenance; SFX and flaw crops are excluded. Older card-scan imports
+cannot downgrade an imported slab or overwrite an owner photo. Preserve source URL,
 side evidence and checksum. Missing scans stay missing. CGC report grades and
 physical-label wording can differ; retain both. CBCS capture remains manual where
 verification requires it. Acquisition costs/private notes are excluded from the
 portable review data.
+
+The September 8 TAG slab-source manifests are grouped by
+[Case #2](../../data/incoming/2026-09-08-tag-slabs-case-02.json),
+[office wall](../../data/incoming/2026-09-08-tag-slabs-case-wall-office.json), and
+[TAG Collection](../../data/incoming/2026-09-08-tag-slabs-tag-collection.json).
+Pass a manifest and its matching `data/cards/<container>.json` file to
+`npm run cards:images --`. Requests are paced; a 403/429 stops the batch. Let the
+source recover before retrying; completed sides are skipped on the next run.
+
+**Find > Raw comics** locates all 96 owner-scanned books in Bin #15. Their scan IDs
+remain stable while titles/issues await identification. Singularity interleaves
+owner scans, Authority sleeves, graded comics and cards across the entire flight,
+including the loop boundary; filtered flights keep the same coverage. Raw books
+use flexible framing and an Owner scan ID instead of an empty certification.
 
 ## Admin, photos and print
 

@@ -299,7 +299,11 @@ section. Capture those two URLs into the image manifest as `slabFront` /
 re-run `npm run cards:images`. The slab photograph becomes the card's display
 image everywhere — the copy as it physically exists, matching the CGC slabs —
 while the razor-sharp MAIN scans stay on the record as `images.scanFront` /
-`images.scanBack`, without being downloaded again.
+`images.scanBack` and in `cardScans`, without being downloaded again. Verified
+slab sources use `/slab-images/<cert>_Slabbed_FRONT.jpg` and the matching BACK
+file on TAG's CloudFront host; `/card-images/` contains MAIN/SFX/defect assets
+and does not qualify as a slab photograph. Explicit `kind: "slab-photo"`
+manifests are also supported. All 80 stored TAG cards now have both slab photos.
 
 The experimental Collection / Lab home also shows the combined recorded value of
 comics and cards, with a small trend chart. Click it to explore dated snapshots,

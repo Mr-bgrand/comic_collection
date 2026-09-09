@@ -7,8 +7,19 @@ export function stepWithin(indices, selected, delta) {
   return indices[((indices.indexOf(selected)+delta)%indices.length+indices.length)%indices.length];
 }
 export function arrivalSequence(records, scope='all') {
-  const hash=s=>{let h=2166136261;for(const c of s)h=Math.imul(h^c.charCodeAt(0),16777619);return h>>>0;};
-  return records.flatMap((c,i)=>c.hasScan&&(scope==='all'||c.kind===scope)?[{i,key:hash(c.id||c.cert||String(i))}]:[]).sort((a,b)=>a.key-b.key||a.i-b.i).map(c=>c.i);
+  // Spread each type through the whole flight. Sequential scan IDs must not
+  // strand all owner-scanned books together several minutes into the show.
+  const hash=s=>{let h=2166136261;for(const c of s)h=Math.imul(h^c.charCodeAt(0),16777619);h=Math.imul(h^(h>>>16),0x85ebca6b);h=Math.imul(h^(h>>>13),0xc2b2ae35);return (h^(h>>>16))>>>0;};
+  const groups=new Map();
+  records.forEach((c,i)=>{
+    if(!c.hasScan||(scope!=='all'&&c.kind!==scope))return;
+    const group=c.kind==='card'?'card':c.id?.startsWith('raw:')||c.holder==='bag-and-board'?'owner-raw':c.holder==='soft-sleeve'?'soft-sleeve':'graded-comic';
+    if(!groups.has(group))groups.set(group,[]);
+    groups.get(group).push({i,key:hash(c.id||c.cert||String(i))});
+  });
+  return [...groups.values()].flatMap(group=>group.sort((a,b)=>a.key-b.key||a.i-b.i)
+    .map((entry,index)=>({...entry,position:(index+.5)/group.length})))
+    .sort((a,b)=>a.position-b.position||a.key-b.key||a.i-b.i).map(c=>c.i);
 }
 export function caseFormation(records, selected, aspect, scope='all') {
   const members=caseMembers(records,selected,scope),at=members.indexOf(selected),mobile=aspect<.8;

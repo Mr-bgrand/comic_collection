@@ -110,12 +110,12 @@ $('separation').oninput=e=>{separation=Number(e.target.value)/100;text('separati
 document.querySelectorAll('[data-close]').forEach(b=>b.onclick=()=>$(b.dataset.close).close());
 function openRecord() {
   stopTour();const c=records[selected];text('record-title',c.short);text('record-variant',c.variant);text('record-grade',c.grade);
-  text('record-id-label',c.provider==='Authority'?'AUTHORITY ID':'CERTIFICATION');
+  text('record-id-label',c.provider==='Authority'?'AUTHORITY ID':!c.cert?'OWNER SCAN':'CERTIFICATION');
   text('verify-link',c.provider==='Authority'?'Authority record ↗':'Verify certification ↗');
   $('record-details').replaceChildren();
   for(const [label,value] of c.details||[]){if(!value)continue;const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=label;dd.textContent=value;$('record-details').append(dt,dd);}
   $('record-details').hidden=!c.details?.length;
-  text('record-cert',c.cert);text('record-bin',c.container+(c.virtual?' · '+(c.storage||'External storage'):''));text('record-value',money(c.value));text('record-source',sourceText(c)+(c.importedAt?' · imported '+c.importedAt:''));
+  text('record-cert',c.cert||c.id);text('record-bin',c.container+(c.virtual?' · '+(c.storage||'External storage'):''));text('record-value',money(c.value));text('record-source',sourceText(c)+(c.importedAt?' · imported '+c.importedAt:''));
   $('record-scan-notice').hidden=c.hasScan;text('record-scan-notice',c.scanStatus==='no-scans-on-cert-page'?'PSA currently supplies no scans for this cert. Your imported record is retained; no similar-card photo has been substituted.':'Scans are pending retrieval from the certification page. The collection record is already imported.');
   for(const side of ['front','back']) {const img=$('record-'+side),url=c.images[side]?asset(c,side):null;img.hidden=!url;if(url){img.src=url;img.alt=c.short+' '+side+' scan';img.onerror=()=>{img.hidden=true;};}}
   link('verify-link',c.verify);link('value-link',c.evidence);link('bin-link',c.href);$('record-dialog').showModal();
@@ -141,7 +141,7 @@ function search() {
   text('search-count',matches.length+(matches.length===1?' object':' objects'));$('results').replaceChildren();
   for(const {c,i} of matches) {
     const button=document.createElement('button');button.className='result';const identity=document.createElement('span');identity.textContent=c.title;
-    const meta=document.createElement('small');meta.textContent=c.grade+' · '+c.container+' · '+c.cert;identity.append(meta);
+    const meta=document.createElement('small');meta.textContent=c.grade+' · '+c.container+' · '+(c.cert||c.id);identity.append(meta);
     const price=document.createElement('span');price.textContent=money(c.value)+' ↗';button.append(identity,price);
     button.onclick=()=>{$('search-dialog').close();choose(i);if(rendererFailed)openRecord();};$('results').append(button);
   }
@@ -260,7 +260,7 @@ async function start() {
   const textureCache=new Map();let request=0;
   function placeholder(c,side){
     const surface=document.createElement('canvas');surface.width=320;surface.height=500;const ctx=surface.getContext('2d');
-    ctx.fillStyle='#142834';ctx.fillRect(0,0,320,500);ctx.strokeStyle='#426471';ctx.strokeRect(13,13,294,474);ctx.fillStyle='#c7e3dc';ctx.font='14px monospace';ctx.fillText(c.grade,28,48);ctx.font='12px monospace';ctx.fillText(side.toUpperCase()+' SCAN',28,230);ctx.fillStyle='#88a8b8';ctx.fillText('Not available',28,255);ctx.fillText(c.cert,28,445);
+    ctx.fillStyle='#142834';ctx.fillRect(0,0,320,500);ctx.strokeStyle='#426471';ctx.strokeRect(13,13,294,474);ctx.fillStyle='#c7e3dc';ctx.font='14px monospace';ctx.fillText(c.grade,28,48);ctx.font='12px monospace';ctx.fillText(side.toUpperCase()+' SCAN',28,230);ctx.fillStyle='#88a8b8';ctx.fillText('Not available',28,255);ctx.fillText(c.cert||c.id||"",28,445);
     const t=new THREE.CanvasTexture(surface);t.colorSpace=THREE.SRGBColorSpace;return t;
   }
   function atlasPreview(i,side="front"){const t=(side==="back"?backAtlas:atlas).clone();t.repeat.set(.984/payload.columns,.984/payload.rows);t.offset.set((i%payload.columns+.008)/payload.columns,(payload.rows-1-Math.floor(i/payload.columns)+.008)/payload.rows);t.needsUpdate=true;return t;}
@@ -268,7 +268,8 @@ async function start() {
   function fitScan(mesh,texture){const w=texture.image?.width,h=texture.image?.height;if(w&&h){const ratio=w/h;mesh.scale.set(Math.min(1,ratio*1.578),Math.min(1,1/(ratio*1.578)),1);}}
   async function loadFocus() {
     const c=records[selected],ticket=++request;obverse.scale.set(1,1,1);reverse.scale.set(1,1,1);
-    rear.visible=front.visible=c.holder!=='soft-sleeve';core.scale.z=c.holder==='soft-sleeve'?.2:1;
+    const flexible=['soft-sleeve','bag-and-board'].includes(c.holder);
+    rear.visible=front.visible=!flexible;core.scale.z=flexible?.2:1;
     previewTex?.dispose();previewTex=atlasPreview(selected);frontMat.map=previewTex;frontMat.color.set(0xffffff);frontMat.needsUpdate=true;
     fallbackBack?.dispose();fallbackBack=atlasPreview(selected,'back');backMat.map=fallbackBack;backMat.color.set(0xffffff);backMat.needsUpdate=true;
     for(const [side,mat] of [['front',frontMat],['back',backMat]]) {
