@@ -1,0 +1,1650 @@
+{
+  "bin": "10",
+  "title": "Bin 10",
+  "location": "",
+  "updated": "2026-09-10",
+  "comics": [
+    {
+      "cert": "4350046007",
+      "title": "Something is Killing the Children: Pen & Ink",
+      "issue": "1",
+      "issueDate": "6/23",
+      "issueYear": "2023",
+      "publisher": "Boom! Studios",
+      "variant": "Boom! Studios Foil Edition B",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nWerther Dell'Edera art\nAndrew K. Currey cover",
+      "keyComments": "\"Virgin\" sketch cover.",
+      "population": {
+        "atGrade": 39,
+        "higher": 0,
+        "topPop": true,
+        "source": "CGC",
+        "asOf": "2026-09-10",
+        "url": "https://www.cgccomics.com/certlookup/4350046007/"
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046007/",
+      "repairs": [],
+      "kind": "comic",
+      "grader": "CGC",
+      "holder": "slab",
+      "images": {
+        "front": "4350046007_OBV.jpg",
+        "back": "4350046007_REV.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/09df116b-dff8-4e61-8993-55b97c15f04d/CGC4350046-007_OBV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350046007/",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:48.866Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350046007_OBV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "38e56208a8c5e64302dc44096412ff01182131cf4d5373dffb2a8dbf48d7ac41",
+          "sha256": "cfa83939f717e2b1c593f1be0f0cb77dd55f7c24267cc2e441fa774a31bdebcb"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/09df116b-dff8-4e61-8993-55b97c15f04d/CGC4350046-007_REV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350046007/",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:49.176Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350046007_REV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "ce4b0e9e7548c416b296a537769584bd158587d0726d4c9b1bbfd0d8848a180c",
+          "sha256": "87bdbedc9c87791a87d45ce6d7ab725b38134b99a6cefa9060810287550bde61"
+        }
+      },
+      "source": "cgc-cert-lookup",
+      "fetchedAt": "2026-09-10T05:53:28.351Z",
+      "importSource": {
+        "file": "data/incoming/2026-09-10-cgc-bin-10-captures.json",
+        "pageUrl": "https://www.cgccomics.com/certlookup/4350046007/",
+        "capturedAt": "2026-09-10T05:53:28.351Z",
+        "importedAt": "2026-09-10T05:54:48.024Z"
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "cert": "4350046008",
+      "title": "Something is Killing the Children: Pen & Ink",
+      "issue": "1",
+      "issueDate": "6/23",
+      "issueYear": "2023",
+      "publisher": "Boom! Studios",
+      "variant": "Boom! Studios Foil Edition A",
+      "grade": "9.6",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nWerther Dell'Edera art\nAndrew K. Currey cover",
+      "keyComments": "Sketch cover.\nRed foil logo.",
+      "population": {
+        "atGrade": 2,
+        "higher": 60,
+        "topPop": false,
+        "source": "CGC",
+        "asOf": "2026-09-10",
+        "url": "https://www.cgccomics.com/certlookup/4350046008/"
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046008/",
+      "repairs": [],
+      "kind": "comic",
+      "grader": "CGC",
+      "holder": "slab",
+      "images": {
+        "front": "4350046008_OBV.jpg",
+        "back": "4350046008_REV.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/2c2931b9-d061-4b42-840f-607d2ce0a139/CGC4350046-008_OBV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350046008/",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:49.568Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350046008_OBV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "bd1a1e2de804ffe2969189da34e14ed2c0a1c28f1b868f9a5ebc8cb149f62360",
+          "sha256": "48a8dc08c942f3b47f161af423abe5e26c55441e99c64f3e192bd2a7a4d1978d"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/2c2931b9-d061-4b42-840f-607d2ce0a139/CGC4350046-008_REV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350046008/",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:49.924Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350046008_REV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "e1dc8a886914bbfe599da3810c58d3b32c1a96191bb8001df316c77e26a6cc47",
+          "sha256": "3505d1349a1950f6b479c56dac547769e1e5d0fd9815af978daf06862dd042fc"
+        }
+      },
+      "source": "cgc-cert-lookup",
+      "fetchedAt": "2026-09-10T05:53:28.351Z",
+      "importSource": {
+        "file": "data/incoming/2026-09-10-cgc-bin-10-captures.json",
+        "pageUrl": "https://www.cgccomics.com/certlookup/4350046008/",
+        "capturedAt": "2026-09-10T05:53:28.351Z",
+        "importedAt": "2026-09-10T05:54:49.181Z"
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "cert": "4350046006",
+      "title": "Invincible",
+      "issue": "9",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "Image/Skybound",
+      "variant": "Convention Foil Sketch Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Ryan Ottley cover",
+      "keyComments": "Reprints Invincible #9 (2/04)",
+      "population": {
+        "atGrade": 22,
+        "higher": 8,
+        "topPop": false,
+        "source": "CGC",
+        "asOf": "2026-09-10",
+        "url": "https://www.cgccomics.com/certlookup/4350046006/"
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046006/",
+      "repairs": [],
+      "kind": "comic",
+      "grader": "CGC",
+      "holder": "slab",
+      "images": {
+        "front": "4350046006_OBV.jpg",
+        "back": "4350046006_REV.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/f356d35e-bcd2-4153-aa4e-2b1e8e6c8ff9/CGC4350046-006_OBV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350046006/",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:50.488Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350046006_OBV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "f17ec8ec569052bdfbe74c7a846c67a85f5bfde7c220d5e1e809ca684f928aad",
+          "sha256": "23af174f606b871fbc4f3c450fff7df3e2a406e41819049cf6dea708ef23c04b"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/f356d35e-bcd2-4153-aa4e-2b1e8e6c8ff9/CGC4350046-006_REV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350046006/",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:50.840Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350046006_REV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "2a7e1f258507522f02aca014c742eb456df71f3e284849ba9baa0fdc74def35a",
+          "sha256": "6227f347991a78b40b5ab82047932457b7e8def20fbe36468cf282c5b2a68a18"
+        }
+      },
+      "source": "cgc-cert-lookup",
+      "fetchedAt": "2026-09-10T05:53:28.351Z",
+      "importSource": {
+        "file": "data/incoming/2026-09-10-cgc-bin-10-captures.json",
+        "pageUrl": "https://www.cgccomics.com/certlookup/4350046006/",
+        "capturedAt": "2026-09-10T05:53:28.351Z",
+        "importedAt": "2026-09-10T05:54:49.929Z"
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "cert": "4350046005",
+      "title": "Invincible",
+      "issue": "9",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "Image/Skybound",
+      "variant": "Convention Foil Edition",
+      "grade": "9.4",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Ryan Ottley cover",
+      "keyComments": "Reprints Invincible #9 (2/04)",
+      "population": {
+        "atGrade": 1,
+        "higher": 17,
+        "topPop": false,
+        "source": "CGC",
+        "asOf": "2026-09-10",
+        "url": "https://www.cgccomics.com/certlookup/4350046005/"
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046005/",
+      "repairs": [],
+      "kind": "comic",
+      "grader": "CGC",
+      "holder": "slab",
+      "images": {
+        "front": "4350046005_OBV.jpg",
+        "back": "4350046005_REV.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/9de63d96-0e99-4a3d-ac6d-0d4e30118b91/CGC4350046-005_OBV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350046005/",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:51.298Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350046005_OBV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "35754500683b2b921386ec7b7b48d83fd519391f328e7cde349cd0b8b9273420",
+          "sha256": "955a05e107bc65c9932c8bd03bfef16a815208ca800632f8ee0ef80eb2ba2b0a"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/9de63d96-0e99-4a3d-ac6d-0d4e30118b91/CGC4350046-005_REV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350046005/",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:51.627Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350046005_REV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "a4ac02e03fe0b7fc74e4095dfcadf9b5a41b25525481ad21a45f04561dbd29be",
+          "sha256": "3614f6f73f71093442a5899b5988bdf2b7e63313c6d384df55136c714aabbc94"
+        }
+      },
+      "source": "cgc-cert-lookup",
+      "fetchedAt": "2026-09-10T05:53:28.351Z",
+      "importSource": {
+        "file": "data/incoming/2026-09-10-cgc-bin-10-captures.json",
+        "pageUrl": "https://www.cgccomics.com/certlookup/4350046005/",
+        "capturedAt": "2026-09-10T05:53:28.351Z",
+        "importedAt": "2026-09-10T05:54:50.844Z"
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "cert": "4350046004",
+      "title": "Usagi Yojimbo: Ice and Snow SDCC Preview",
+      "issue": "1",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "Dark Horse Comics",
+      "variant": "Gold Foil Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Stan Sakai story, cover & art",
+      "keyComments": "Gold foil logo.\nSketch cover.",
+      "population": {
+        "atGrade": 3,
+        "higher": 0,
+        "topPop": true,
+        "source": "CGC",
+        "asOf": "2026-09-10",
+        "url": "https://www.cgccomics.com/certlookup/4350046004/"
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046004/",
+      "repairs": [],
+      "kind": "comic",
+      "grader": "CGC",
+      "holder": "slab",
+      "images": {
+        "front": "4350046004_OBV.jpg",
+        "back": "4350046004_REV.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/485fc14a-9717-4dc8-b436-3146975b94e1/CGC4350046-004_OBV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350046004/",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:52.093Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350046004_OBV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "cabf9ec0183e1b730216779ff1180a197a7db726527b6d58de3fbed39b463f02",
+          "sha256": "d2336c710ac4f6aaba3c7631108b697181f159b29621c60343b486bc38587647"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/485fc14a-9717-4dc8-b436-3146975b94e1/CGC4350046-004_REV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350046004/",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:52.468Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350046004_REV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "2d648b2c0e5f76fbdad7c8e9f81dda65088631700ff1d5465700a2c94ec4a74a",
+          "sha256": "2fc8ba1fea40c45b709a85a517dafdef31760f0a542e643c0016063654c57f05"
+        }
+      },
+      "source": "cgc-cert-lookup",
+      "fetchedAt": "2026-09-10T05:53:28.351Z",
+      "importSource": {
+        "file": "data/incoming/2026-09-10-cgc-bin-10-captures.json",
+        "pageUrl": "https://www.cgccomics.com/certlookup/4350046004/",
+        "capturedAt": "2026-09-10T05:53:28.351Z",
+        "importedAt": "2026-09-10T05:54:51.631Z"
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "cert": "4350046003",
+      "title": "Spawn",
+      "issue": "1",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "Image Comics",
+      "variant": "Convention Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Puppeteer Lee cover",
+      "keyComments": "Reprints Spawn #1 (5/92)\nSan Diego Comic-Con 2023 exclusive.",
+      "population": {
+        "atGrade": 115,
+        "higher": 1,
+        "topPop": false,
+        "source": "CGC",
+        "asOf": "2026-09-10",
+        "url": "https://www.cgccomics.com/certlookup/4350046003/"
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046003/",
+      "repairs": [],
+      "kind": "comic",
+      "grader": "CGC",
+      "holder": "slab",
+      "images": {
+        "front": "4350046003_OBV.jpg",
+        "back": "4350046003_REV.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/17935ca2-07ab-4ab3-b2e6-3cc250f1d931/CGC4350046-003_OBV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350046003/",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:52.887Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350046003_OBV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "7f9c0fbaaef41638b3e95d5893fdf2b26f0515efb23e54c8ad5147957e7b3f89",
+          "sha256": "3d77ff9ae07575f108d91e8ce574e922bb00a418e2a62d4188a27cd97d0d3afd"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/17935ca2-07ab-4ab3-b2e6-3cc250f1d931/CGC4350046-003_REV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350046003/",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:53.211Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350046003_REV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "f4fb8bcde1367bf74ce186dae80ccae9acae692aef93ca2acdc793b459e3f8bd",
+          "sha256": "e352d89c8d4057973bc581c63bdc7968cc507f702bd246ec403ee9f3a306de2e"
+        }
+      },
+      "source": "cgc-cert-lookup",
+      "fetchedAt": "2026-09-10T05:53:28.351Z",
+      "importSource": {
+        "file": "data/incoming/2026-09-10-cgc-bin-10-captures.json",
+        "pageUrl": "https://www.cgccomics.com/certlookup/4350046003/",
+        "capturedAt": "2026-09-10T05:53:28.351Z",
+        "importedAt": "2026-09-10T05:54:52.472Z"
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "cert": "4350046015",
+      "title": "Gone Ashcan",
+      "issue": "1",
+      "issueDate": "2023",
+      "issueYear": "2023",
+      "publisher": "DSTLRY",
+      "grade": "9.2",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "labelText": "NAME WRITTEN ON COVER IN MARKER.",
+      "artComments": "Jock story, cover & art",
+      "graderNotes": "indent front cover",
+      "population": {
+        "atGrade": 1,
+        "higher": 1,
+        "topPop": false,
+        "source": "CGC",
+        "asOf": "2026-09-10",
+        "url": "https://www.cgccomics.com/certlookup/4350046015/"
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046015/",
+      "repairs": [],
+      "kind": "comic",
+      "grader": "CGC",
+      "holder": "slab",
+      "images": {
+        "front": "4350046015_OBV.jpg",
+        "back": "4350046015_REV.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/b0c67d0e-f475-4f5a-9671-5ea54183ffda/CGC4350046-015_OBV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350046015/",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:53.615Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350046015_OBV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "fc058c5a9fbaddfac9f8374d738e21c5cbe0282415858a087ccecec7eeac0c5c",
+          "sha256": "236334f882117a3023c5e75ab85b93a4fa44858aeeec0ab0b89c2cbb1515ddba"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/b0c67d0e-f475-4f5a-9671-5ea54183ffda/CGC4350046-015_REV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350046015/",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:54.015Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350046015_REV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "87b13d101a8c2ec5ad1608d2b4465098db1378f3300b79e2c652988b16743fc4",
+          "sha256": "af24ad4a67a2a79af8122439a8552cae5a278f5e88cc6f10a4bcee4756f54c27"
+        }
+      },
+      "source": "cgc-cert-lookup",
+      "fetchedAt": "2026-09-10T05:53:28.351Z",
+      "importSource": {
+        "file": "data/incoming/2026-09-10-cgc-bin-10-captures.json",
+        "pageUrl": "https://www.cgccomics.com/certlookup/4350046015/",
+        "capturedAt": "2026-09-10T05:53:28.351Z",
+        "importedAt": "2026-09-10T05:54:53.215Z"
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "cert": "4350046019",
+      "title": "The Boys Special Edition",
+      "issue": "1",
+      "issueDate": "2023",
+      "issueYear": "2023",
+      "publisher": "Dynamite Entertainment",
+      "variant": "ComicTom101 Foil Edition",
+      "grade": "9.9",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Garth Ennis story\nDarick Robertson art\nZoe Lacchei cover",
+      "keyComments": "San Diego Comic-Con 2023 exclusive.\n\"Virgin\" cover.",
+      "population": {
+        "atGrade": 1,
+        "higher": 0,
+        "topPop": true,
+        "source": "CGC",
+        "asOf": "2026-09-10",
+        "url": "https://www.cgccomics.com/certlookup/4350046019/"
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046019/",
+      "repairs": [],
+      "kind": "comic",
+      "grader": "CGC",
+      "holder": "slab",
+      "images": {
+        "front": "4350046019_OBV.jpg",
+        "back": "4350046019_REV.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/98cdcbed-8e4c-410a-9f6a-d22cbb666b6b/CGC4350046-019_OBV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350046019/",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:54.371Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350046019_OBV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "7e40f8d922ba57df3a28754f4086d7a303bf4af764b8248d1bb8a6286cf20521",
+          "sha256": "f93fe3b1383c581da01d2fe25c9103dd448799d296945a41f39e8c8d35b8186b"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/98cdcbed-8e4c-410a-9f6a-d22cbb666b6b/CGC4350046-019_REV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350046019/",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:54.706Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350046019_REV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "da3188626b6ccf3ad351c56ce45bc4e623c63efb817b4b04a3755bd56c31ab4b",
+          "sha256": "4663a7eb1f008206fa50e525f0ce52114fe30b7b30209f66857c3bbdc7d837fa"
+        }
+      },
+      "source": "cgc-cert-lookup",
+      "fetchedAt": "2026-09-10T05:53:28.351Z",
+      "importSource": {
+        "file": "data/incoming/2026-09-10-cgc-bin-10-captures.json",
+        "pageUrl": "https://www.cgccomics.com/certlookup/4350046019/",
+        "capturedAt": "2026-09-10T05:53:28.351Z",
+        "importedAt": "2026-09-10T05:54:54.020Z"
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "cert": "4350046002",
+      "title": "w0rldtr33",
+      "issue": "3",
+      "issueDate": "6/23",
+      "issueYear": "2023",
+      "publisher": "Image Comics",
+      "variant": "CBNS Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nFernando Blanco art\nMichael Gaydos cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 10,
+        "higher": 0,
+        "topPop": true,
+        "source": "CGC",
+        "asOf": "2026-09-10",
+        "url": "https://www.cgccomics.com/certlookup/4350046002/"
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046002/",
+      "repairs": [],
+      "kind": "comic",
+      "grader": "CGC",
+      "holder": "slab",
+      "images": {
+        "front": "4350046002_OBV.jpg",
+        "back": "4350046002_REV.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/7902d332-65a6-4eae-9511-239279503806/CGC4350046-002_OBV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350046002/",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:55.122Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350046002_OBV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "c6fb4d64de7a2ea9c96167419b623616a7825357a4336dad6979886ea20bdbcd",
+          "sha256": "ab6fe8776243fefffd316afb0d36246d9f084dfffd06f68851d66d81601fe7ca"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/7902d332-65a6-4eae-9511-239279503806/CGC4350046-002_REV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350046002/",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:55.551Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350046002_REV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "c3efbda0667b15d8421498232731ddb65bad2f40ba8acf65b4d1a8442017b0da",
+          "sha256": "8afcf2fb85182c6009c0ad650d3914d3868e41eb22aeccb28bd15595463044ae"
+        }
+      },
+      "source": "cgc-cert-lookup",
+      "fetchedAt": "2026-09-10T05:53:28.351Z",
+      "importSource": {
+        "file": "data/incoming/2026-09-10-cgc-bin-10-captures.json",
+        "pageUrl": "https://www.cgccomics.com/certlookup/4350046002/",
+        "capturedAt": "2026-09-10T05:53:28.351Z",
+        "importedAt": "2026-09-10T05:54:54.710Z"
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "cert": "4350047001",
+      "title": "Final Boss",
+      "issue": "3",
+      "issueDate": "2023",
+      "issueYear": "2023",
+      "publisher": "no publisher listed",
+      "variant": "SMZ Comics Foil Edition",
+      "grade": "9.2",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-15",
+      "labelCategory": "Universal",
+      "artComments": "Tyler Kirkham story & art\nMarat Mychaels cover",
+      "keyComments": "\"Virgin\" cover.",
+      "graderNotes": "tears to cover",
+      "population": {
+        "atGrade": 1,
+        "higher": 0,
+        "topPop": true,
+        "source": "CGC",
+        "asOf": "2026-09-10",
+        "url": "https://www.cgccomics.com/certlookup/4350047001/"
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350047001/",
+      "repairs": [],
+      "kind": "comic",
+      "grader": "CGC",
+      "holder": "slab",
+      "images": {
+        "front": "4350047001_OBV.jpg",
+        "back": "4350047001_REV.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/97d44826-2349-4f20-bde4-d139540cbf60/CGC4350047-001_OBV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350047001/",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:55.942Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350047001_OBV.jpg",
+          "originalWidth": 2262,
+          "originalHeight": 3550,
+          "originalSha256": "33c63be0778eb983513e0846f9e281e0b0cf104adbfb29f86d745ab7baf9c430",
+          "sha256": "99d65237f902fd1b66d4047ddbcc0e57cbfaf94dd5218b298a6da69e43de4ceb"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/97d44826-2349-4f20-bde4-d139540cbf60/CGC4350047-001_REV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350047001/",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:56.332Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350047001_REV.jpg",
+          "originalWidth": 2262,
+          "originalHeight": 3550,
+          "originalSha256": "70927cb8b67155c68dfe225a20d05eadecbd0ad2a2bc7bb03f691a81a15c9956",
+          "sha256": "c5ec35ccc3691845d830237631fe4190264ffc7cf744dc9749d17e0b0daf8bfe"
+        }
+      },
+      "source": "cgc-cert-lookup",
+      "fetchedAt": "2026-09-10T05:53:28.351Z",
+      "importSource": {
+        "file": "data/incoming/2026-09-10-cgc-bin-10-captures.json",
+        "pageUrl": "https://www.cgccomics.com/certlookup/4350047001/",
+        "capturedAt": "2026-09-10T05:53:28.351Z",
+        "importedAt": "2026-09-10T05:54:55.557Z"
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "cert": "4350047003",
+      "title": "Batman",
+      "issue": "135",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "Ross Variant Cover C",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Chip Zdarsky story, Alex Ross cover\nMike Hawthorne, Jorge Jimenez,\nMikel Janín & Adriano Di Benedetto art",
+      "keyComments": "Batman #900\n\"Virgin\" cover.",
+      "population": {
+        "atGrade": 100,
+        "higher": 0,
+        "topPop": true,
+        "source": "CGC",
+        "asOf": "2026-09-10",
+        "url": "https://www.cgccomics.com/certlookup/4350047003/"
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350047003/",
+      "repairs": [
+        ["Jan�n", "Janín"]
+      ],
+      "repairSources": [
+        {"field": "artComments", "source": "DC Comics", "url": "https://www.dc.com/blog/2023/04/07/batman-135-the-iconic-series-reaches-its-900th-issue-with-an-incredible-conclusion-to-the-bat-man-of-gotham", "verifiedAt": "2026-09-10"}
+      ],
+      "kind": "comic",
+      "grader": "CGC",
+      "holder": "slab",
+      "images": {
+        "front": "4350047003_OBV.jpg",
+        "back": "4350047003_REV.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/d7fbc920-6e16-4c32-b4ec-c3762221b13b/CGC4350047-003_OBV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350047003/",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:56.725Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350047003_OBV.jpg",
+          "originalWidth": 2262,
+          "originalHeight": 3550,
+          "originalSha256": "0ba55ea5b2d025632ce0ff85f4b70ee840518ac0adc2d2c08c732f7930fec376",
+          "sha256": "67c5a36f545720c562c8b523f10a0eea3e9127ed0c41ee407ad552fcb02f93af"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/d7fbc920-6e16-4c32-b4ec-c3762221b13b/CGC4350047-003_REV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350047003/",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:57.030Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350047003_REV.jpg",
+          "originalWidth": 2262,
+          "originalHeight": 3550,
+          "originalSha256": "e96a5af41794de257cfed1725d18feac7ce8332cab565efb007912a0774d6d41",
+          "sha256": "8cd992adf9422ef5404ade79f41863116f12d744dc5dd2a6340fb34d7fbec647"
+        }
+      },
+      "source": "cgc-cert-lookup",
+      "fetchedAt": "2026-09-10T05:53:28.351Z",
+      "importSource": {
+        "file": "data/incoming/2026-09-10-cgc-bin-10-captures.json",
+        "pageUrl": "https://www.cgccomics.com/certlookup/4350047003/",
+        "capturedAt": "2026-09-10T05:53:28.351Z",
+        "importedAt": "2026-09-10T05:54:56.338Z"
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "cert": "2765925001",
+      "title": "TMNT/Usagi Yojimbo: Wherewhen",
+      "issue": "2",
+      "issueDate": "5/23",
+      "issueYear": "2023",
+      "publisher": "IDW Publishing",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-10-12",
+      "labelCategory": "Signature Series",
+      "artComments": "Stan Sakai story, cover & art",
+      "keyComments": "Wraparound cover.",
+      "signatureText": "SIGNED BY KEVIN EASTMAN ON 7/19/23",
+      "signatures": [
+        {
+          "name": "Kevin Eastman",
+          "date": "2023-07-19"
+        }
+      ],
+      "population": {
+        "atGrade": 1,
+        "higher": 0,
+        "topPop": true,
+        "source": "CGC",
+        "asOf": "2026-09-10",
+        "url": "https://www.cgccomics.com/certlookup/2765925001/"
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/2765925001/",
+      "repairs": [],
+      "kind": "comic",
+      "grader": "CGC",
+      "holder": "slab",
+      "images": {
+        "front": "2765925001_OBV.jpg",
+        "back": "2765925001_REV.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/9cca1bd5-f207-4354-8b30-a637e827fe1f/CGC2765925-001_OBV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/2765925001/",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:57.364Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/2765925001_OBV.jpg",
+          "originalWidth": 2091,
+          "originalHeight": 3332,
+          "originalSha256": "724a3dd250dc7674fdd889ad2e754dec0d70ced224dd6451c0bb074f6f3e7e28",
+          "sha256": "6e62fb72b8d4c96d7e826fef74fe88edc18d982e128bddf587df012729059381"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/9cca1bd5-f207-4354-8b30-a637e827fe1f/CGC2765925-001_REV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/2765925001/",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:57.719Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/2765925001_REV.jpg",
+          "originalWidth": 2091,
+          "originalHeight": 3332,
+          "originalSha256": "f5522a43ab90c8f7f5b32516665cf9d6fc49dc2112e305a602134cf9eb3c3327",
+          "sha256": "d0e3cdb019c9e510ca72f601ee81d90f126d4ace6736c77a3670bb8a4e4c36ea"
+        }
+      },
+      "source": "cgc-cert-lookup",
+      "fetchedAt": "2026-09-10T05:53:28.351Z",
+      "importSource": {
+        "file": "data/incoming/2026-09-10-cgc-bin-10-captures.json",
+        "pageUrl": "https://www.cgccomics.com/certlookup/2765925001/",
+        "capturedAt": "2026-09-10T05:53:28.351Z",
+        "importedAt": "2026-09-10T05:54:57.033Z"
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "cert": "4350047005",
+      "title": "Superior Spider-Man Returns",
+      "issue": "1",
+      "issueDate": "12/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "VeVe \"Virgin\" Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Dan Slott & Christos Gage story\nHumberto Ramos, Giuseppe Camuncoli,\nMark Bagley & Ryan Stegman art",
+      "keyComments": "Mike McKone cover\nOrigin & 1st appearance of\nSupernova (Estrella Lopez).",
+      "population": {
+        "atGrade": 59,
+        "higher": 1,
+        "topPop": false,
+        "source": "CGC",
+        "asOf": "2026-09-10",
+        "url": "https://www.cgccomics.com/certlookup/4350047005/"
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350047005/",
+      "repairs": [],
+      "kind": "comic",
+      "grader": "CGC",
+      "holder": "slab",
+      "images": {
+        "front": "4350047005_OBV.jpg",
+        "back": "4350047005_REV.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/519a43bf-916c-487e-a8e5-17221a01b6ee/CGC4350047-005_OBV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350047005/",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:58.123Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350047005_OBV.jpg",
+          "originalWidth": 2262,
+          "originalHeight": 3550,
+          "originalSha256": "745505b839ad8cefe7638dc3b1be4aa3c87f35fea5e1c97fa2cbf23a6979ba54",
+          "sha256": "9949a94bb241c252486e376c9522d567ff4d4bb8a4ed5d910d79a21b7066b3f5"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/519a43bf-916c-487e-a8e5-17221a01b6ee/CGC4350047-005_REV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350047005/",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:58.438Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350047005_REV.jpg",
+          "originalWidth": 2262,
+          "originalHeight": 3550,
+          "originalSha256": "8a332a4cc9382f034c1ded950040a57f42ce4b309aef500f2aeb7087fcc9e006",
+          "sha256": "efcaea496b335b421f606ed2371f8727fddc90086d3dd4cf2ec614bdcc93b0a4"
+        }
+      },
+      "source": "cgc-cert-lookup",
+      "fetchedAt": "2026-09-10T05:53:28.351Z",
+      "importSource": {
+        "file": "data/incoming/2026-09-10-cgc-bin-10-captures.json",
+        "pageUrl": "https://www.cgccomics.com/certlookup/4350047005/",
+        "capturedAt": "2026-09-10T05:53:28.351Z",
+        "importedAt": "2026-09-10T05:54:57.725Z"
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "cert": "4350046012",
+      "title": "Transformers",
+      "issue": "1",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "Image/Skybound",
+      "variant": "Convention Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Daniel Warren Johnson story, cover & art",
+      "keyComments": "Ashcan preview.",
+      "population": {
+        "atGrade": 143,
+        "higher": 5,
+        "topPop": false,
+        "source": "CGC",
+        "asOf": "2026-09-10",
+        "url": "https://www.cgccomics.com/certlookup/4350046012/"
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046012/",
+      "repairs": [],
+      "kind": "comic",
+      "grader": "CGC",
+      "holder": "slab",
+      "images": {
+        "front": "4350046012_OBV.jpg",
+        "back": "4350046012_REV.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/9d4c15aa-60c3-46f9-8d7c-32b161173405/CGC4350046-012_OBV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350046012/",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:58.749Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350046012_OBV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "0c85d646f4ba76ab15535c9533014ff816debf5bd54ecbdfb00fc49c8b25cb46",
+          "sha256": "2def883f192211c659102f50cc08c6a44768cabf84fc447ad7674a4321264c6b"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/9d4c15aa-60c3-46f9-8d7c-32b161173405/CGC4350046-012_REV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350046012/",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:59.111Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350046012_REV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "b6ed0d5e3084bd178cc64dbc4c355a7fdf07f75c6a835483f3fe3eb50caf00d3",
+          "sha256": "e90722910fff52b96efd993dcedd1d7405520f1b69018b94717b659821732686"
+        }
+      },
+      "source": "cgc-cert-lookup",
+      "fetchedAt": "2026-09-10T05:53:28.351Z",
+      "importSource": {
+        "file": "data/incoming/2026-09-10-cgc-bin-10-captures.json",
+        "pageUrl": "https://www.cgccomics.com/certlookup/4350046012/",
+        "capturedAt": "2026-09-10T05:53:28.351Z",
+        "importedAt": "2026-09-10T05:54:58.443Z"
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "cert": "4350771003",
+      "title": "Transformers",
+      "issue": "1",
+      "issueDate": "10/23",
+      "issueYear": "2023",
+      "publisher": "Image/Skybound",
+      "variant": "Giang Foil Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Daniel Warren Johnson story & art\nJohn Giang cover",
+      "keyComments": "Big Time Collectibles &\nScott's Collectables exclusive.",
+      "population": {
+        "atGrade": 65,
+        "higher": 17,
+        "topPop": false,
+        "source": "CGC",
+        "asOf": "2026-09-10",
+        "url": "https://www.cgccomics.com/certlookup/4350771003/"
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350771003/",
+      "repairs": [],
+      "kind": "comic",
+      "grader": "CGC",
+      "holder": "slab",
+      "images": {
+        "front": "4350771003_OBV.jpg",
+        "back": "4350771003_REV.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/3963437e-ae5b-49cd-bf5b-09bdc62df9af/CGC4350771-003_OBV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350771003/",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:59.457Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350771003_OBV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "9a52488c8abb97689f40b454df90efd5191247e8fe470560bb5313df35444b11",
+          "sha256": "2fd954768294ba0ad3aed050abfdd72fe8f9b64e34377c38bee27c56837e3a0f"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/3963437e-ae5b-49cd-bf5b-09bdc62df9af/CGC4350771-003_REV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350771003/",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:54:59.782Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350771003_REV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "f906e6f0a132aa43b1cc83d4e942f69f7555c7a062c98358979e37f3d21fcc79",
+          "sha256": "03413d27f0cf7adfff95108ee725d850ab140e8c452889e90b7edca12324df7e"
+        }
+      },
+      "source": "cgc-cert-lookup",
+      "fetchedAt": "2026-09-10T05:53:28.351Z",
+      "importSource": {
+        "file": "data/incoming/2026-09-10-cgc-bin-10-captures.json",
+        "pageUrl": "https://www.cgccomics.com/certlookup/4350771003/",
+        "capturedAt": "2026-09-10T05:53:28.351Z",
+        "importedAt": "2026-09-10T05:54:59.116Z"
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "cert": "4350047004",
+      "title": "Star Wars: The Mandalorian Season 2",
+      "issue": "1",
+      "issueDate": "8/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Trinity Comics \"Virgin\" Edition A",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Rodney Barnes story\nGeorges Jeanty & Karl Story art\nPeach Momoko cover",
+      "population": {
+        "atGrade": 23,
+        "higher": 0,
+        "topPop": true,
+        "source": "CGC",
+        "asOf": "2026-09-10",
+        "url": "https://www.cgccomics.com/certlookup/4350047004/"
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350047004/",
+      "repairs": [],
+      "kind": "comic",
+      "grader": "CGC",
+      "holder": "slab",
+      "images": {
+        "front": "4350047004_OBV.jpg",
+        "back": "4350047004_REV.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/a4c764c0-9ee5-4f9f-a763-7885b8093215/CGC4350047-004_OBV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350047004/",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:55:00.169Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350047004_OBV.jpg",
+          "originalWidth": 2262,
+          "originalHeight": 3550,
+          "originalSha256": "e1c3434bcc9a797d273656873636c8a93bd0848da1b21b2bc71f95af43b14c78",
+          "sha256": "a0d298ef948e741f0d3e0d24ef10594e556627c7c09a2559ba78cd891584b757"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/a4c764c0-9ee5-4f9f-a763-7885b8093215/CGC4350047-004_REV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350047004/",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:55:00.512Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350047004_REV.jpg",
+          "originalWidth": 2262,
+          "originalHeight": 3550,
+          "originalSha256": "5d5a00540218af06d043d158a0866a2ae941cd2a3e2a7117c40aae57e32f90d4",
+          "sha256": "c0b30ce1ef54c2ab2698eb1b59df29f5fb349ba2aa2eb5bfb77c697f454d2655"
+        }
+      },
+      "source": "cgc-cert-lookup",
+      "fetchedAt": "2026-09-10T05:53:28.351Z",
+      "importSource": {
+        "file": "data/incoming/2026-09-10-cgc-bin-10-captures.json",
+        "pageUrl": "https://www.cgccomics.com/certlookup/4350047004/",
+        "capturedAt": "2026-09-10T05:53:28.351Z",
+        "importedAt": "2026-09-10T05:54:59.787Z"
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "cert": "4350771004",
+      "title": "Superior Spider-Man Returns",
+      "issue": "1",
+      "issueDate": "12/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "VeVe \"Virgin\" Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Dan Slott & Christos Gage story\nHumberto Ramos, Giuseppe Camuncoli,\nMark Bagley & Ryan Stegman art",
+      "keyComments": "Mike McKone cover\nOrigin & 1st appearance of\nSupernova (Estrella Lopez).",
+      "population": {
+        "atGrade": 59,
+        "higher": 1,
+        "topPop": false,
+        "source": "CGC",
+        "asOf": "2026-09-10",
+        "url": "https://www.cgccomics.com/certlookup/4350771004/"
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350771004/",
+      "repairs": [],
+      "kind": "comic",
+      "grader": "CGC",
+      "holder": "slab",
+      "images": {
+        "front": "4350771004_OBV.jpg",
+        "back": "4350771004_REV.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/3b021505-e05f-4981-acce-7334cd0a18a3/CGC4350771-004_OBV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350771004/",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:55:00.895Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350771004_OBV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "c5bd378fe07115013e899fcd56838c27586946fb2e16617e91cf7361da20bf5a",
+          "sha256": "f6cd15d1a2dd2f37eef468e828426c4090241a89fdd3628601a25009ac0e54f4"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/3b021505-e05f-4981-acce-7334cd0a18a3/CGC4350771-004_REV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350771004/",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:55:01.215Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350771004_REV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "c83411e3adf09e37536a578f2218b96382edf00c6086ad3163b816b31f2d20d5",
+          "sha256": "7b8791f186c9a310e8b3790700983fbdd7a84ba7990256a241ac3a07a76c60d9"
+        }
+      },
+      "source": "cgc-cert-lookup",
+      "fetchedAt": "2026-09-10T05:53:28.351Z",
+      "importSource": {
+        "file": "data/incoming/2026-09-10-cgc-bin-10-captures.json",
+        "pageUrl": "https://www.cgccomics.com/certlookup/4350771004/",
+        "capturedAt": "2026-09-10T05:53:28.351Z",
+        "importedAt": "2026-09-10T05:55:00.516Z"
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "cert": "4350771005",
+      "title": "Batman: The Long Halloween Special",
+      "issue": "1",
+      "issueDate": "6/23",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "Spectral Comics Foil Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Jeph Loeb story\nTim Sale art",
+      "population": {
+        "atGrade": 24,
+        "higher": 1,
+        "topPop": false,
+        "source": "CGC",
+        "asOf": "2026-09-10",
+        "url": "https://www.cgccomics.com/certlookup/4350771005/"
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350771005/",
+      "repairs": [],
+      "kind": "comic",
+      "grader": "CGC",
+      "holder": "slab",
+      "images": {
+        "front": "4350771005_OBV.jpg",
+        "back": "4350771005_REV.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/18d09007-3698-4561-887d-5c806ade52c0/CGC4350771-005_OBV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350771005/",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:55:01.555Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350771005_OBV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "9ecf0a0c6da891be87eb40ea30a41cb16a3cfadb6e4e9f051c819a21256715cf",
+          "sha256": "10d02f095a3eed9c6122aa022a265fe114179174b255754b7d727d22acd75851"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/18d09007-3698-4561-887d-5c806ade52c0/CGC4350771-005_REV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350771005/",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:55:01.958Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350771005_REV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "2279703fafdfd6cf496e0d035f7e87d3ba4407caec3cb5b7e000ae97d4cc2500",
+          "sha256": "46aac2da76cd7e475516e2def4ef5a8e78081c2550ed7f3b029810b702e67a8d"
+        }
+      },
+      "source": "cgc-cert-lookup",
+      "fetchedAt": "2026-09-10T05:53:28.351Z",
+      "importSource": {
+        "file": "data/incoming/2026-09-10-cgc-bin-10-captures.json",
+        "pageUrl": "https://www.cgccomics.com/certlookup/4350771005/",
+        "capturedAt": "2026-09-10T05:53:28.351Z",
+        "importedAt": "2026-09-10T05:55:01.219Z"
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "cert": "4350771001",
+      "title": "Action Comics Presents: Doomsday Special",
+      "issue": "1",
+      "issueDate": "10/23",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "The Syndicate Edition B",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Dan Watters stories\nEddy Barrows, Eber Ferreira &\nMax Raynor art, Nathan Szerdy cover",
+      "population": {
+        "atGrade": 29,
+        "higher": 0,
+        "topPop": true,
+        "source": "CGC",
+        "asOf": "2026-09-10",
+        "url": "https://www.cgccomics.com/certlookup/4350771001/"
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350771001/",
+      "repairs": [],
+      "kind": "comic",
+      "grader": "CGC",
+      "holder": "slab",
+      "images": {
+        "front": "4350771001_OBV.jpg",
+        "back": "4350771001_REV.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/5bf09f27-ce52-46f7-8f19-b52dd6af6fef/CGC4350771-001_OBV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350771001/",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:55:02.259Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350771001_OBV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "52e5a71f68fc9e8ec319912e3be29e8ecc34f64aed59c6e414b2f233994a82e7",
+          "sha256": "29bd3407832d61a6222e7a0b6faae72e0283e8d301a573fde84bbeb3c02bb948"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/5bf09f27-ce52-46f7-8f19-b52dd6af6fef/CGC4350771-001_REV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350771001/",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:55:02.596Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350771001_REV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "a4202ded9007c4c6d9f65bc3d9f5d98c7c9fbeefdf716efbd8b80e7c5a9781e2",
+          "sha256": "ca553660a3bb6fa62386aaf9d20be660ae39d2fba13213e5f0aca30bbc77d4dd"
+        }
+      },
+      "source": "cgc-cert-lookup",
+      "fetchedAt": "2026-09-10T05:53:28.351Z",
+      "importSource": {
+        "file": "data/incoming/2026-09-10-cgc-bin-10-captures.json",
+        "pageUrl": "https://www.cgccomics.com/certlookup/4350771001/",
+        "capturedAt": "2026-09-10T05:53:28.351Z",
+        "importedAt": "2026-09-10T05:55:01.962Z"
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "cert": "4350771002",
+      "title": "w0rldtr33",
+      "issue": "5",
+      "issueDate": "8/23",
+      "issueYear": "2023",
+      "publisher": "Image Comics",
+      "variant": "Rabbit Comics \"Virgin\" Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nFernando Blanco art\nStan Yak cover",
+      "keyComments": "\"Ghost in the Shell\" movie poster\ncover homage.",
+      "population": {
+        "atGrade": 25,
+        "higher": 2,
+        "topPop": false,
+        "source": "CGC",
+        "asOf": "2026-09-10",
+        "url": "https://www.cgccomics.com/certlookup/4350771002/"
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350771002/",
+      "repairs": [],
+      "kind": "comic",
+      "grader": "CGC",
+      "holder": "slab",
+      "images": {
+        "front": "4350771002_OBV.jpg",
+        "back": "4350771002_REV.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/4f16d31a-a059-45f2-b8fe-021d69d9b338/CGC4350771-002_OBV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350771002/",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:55:02.923Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350771002_OBV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "8d6736c205cdc79925b869881bfc77b29058ebff75baac4e963d40ae3c733569",
+          "sha256": "90177f7e69326c16401242fc84f3470c871d393caefadd95506cff8af1d87abe"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/4f16d31a-a059-45f2-b8fe-021d69d9b338/CGC4350771-002_REV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350771002/",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:55:03.288Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350771002_REV.jpg",
+          "originalWidth": 2139,
+          "originalHeight": 3398,
+          "originalSha256": "52484e13f030063dfdbab3ee7394fab28491a7e0f70d5efea61ff65e05d0804f",
+          "sha256": "cbac601ba9ff260c9e47d87783b4315605ea759bf680444f30ac3c63d7a767ec"
+        }
+      },
+      "source": "cgc-cert-lookup",
+      "fetchedAt": "2026-09-10T05:53:28.351Z",
+      "importSource": {
+        "file": "data/incoming/2026-09-10-cgc-bin-10-captures.json",
+        "pageUrl": "https://www.cgccomics.com/certlookup/4350771002/",
+        "capturedAt": "2026-09-10T05:53:28.351Z",
+        "importedAt": "2026-09-10T05:55:02.600Z"
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "cert": "4350047006",
+      "title": "w0rldtr33",
+      "issue": "5",
+      "issueDate": "8/23",
+      "issueYear": "2023",
+      "publisher": "Image Comics",
+      "variant": "Variant Cover E",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nFernando Blanco art\nGavin Fullerton cover",
+      "keyComments": "The Closet #1 cover homage.",
+      "population": {
+        "atGrade": 8,
+        "higher": 0,
+        "topPop": true,
+        "source": "CGC",
+        "asOf": "2026-09-10",
+        "url": "https://www.cgccomics.com/certlookup/4350047006/"
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350047006/",
+      "repairs": [],
+      "kind": "comic",
+      "grader": "CGC",
+      "holder": "slab",
+      "images": {
+        "front": "4350047006_OBV.jpg",
+        "back": "4350047006_REV.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/a636f169-cd09-4c28-9deb-e8e3b4cecdc7/CGC4350047-006_OBV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350047006/",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:55:03.692Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350047006_OBV.jpg",
+          "originalWidth": 2262,
+          "originalHeight": 3550,
+          "originalSha256": "bf419a0748faa1b5034a9535a62e55c806a939684cc8b14fb954e8520b2ca464",
+          "sha256": "e8ca50bc75ec304a4377886999c13123a926f4ee83043a27ab963c9a2d824c4c"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/a636f169-cd09-4c28-9deb-e8e3b4cecdc7/CGC4350047-006_REV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350047006/",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:55:04.079Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350047006_REV.jpg",
+          "originalWidth": 2262,
+          "originalHeight": 3550,
+          "originalSha256": "93b69b2b446b2da47d53689161c3320cec068eeb08ebf3d0ec7d8341027c5871",
+          "sha256": "8b16ca89047e791e54a80fb53c2c58de003782e3ef220e5f050f2014df3a3b2d"
+        }
+      },
+      "source": "cgc-cert-lookup",
+      "fetchedAt": "2026-09-10T05:53:28.351Z",
+      "importSource": {
+        "file": "data/incoming/2026-09-10-cgc-bin-10-captures.json",
+        "pageUrl": "https://www.cgccomics.com/certlookup/4350047006/",
+        "capturedAt": "2026-09-10T05:53:28.351Z",
+        "importedAt": "2026-09-10T05:55:03.293Z"
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "cert": "4350047002",
+      "title": "Grim",
+      "issue": "12",
+      "issueDate": "8/23",
+      "issueYear": "2023",
+      "publisher": "Boom! Studios",
+      "variant": "Trinity Comics Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Stephanie Phillips story\nFlaviano art\nZoe Lacchei cover",
+      "keyComments": "Something is Killing the Children #15\nTrinity Comics Edition cover homage.\n\"Virgin\" cover.",
+      "population": {
+        "atGrade": 4,
+        "higher": 0,
+        "topPop": true,
+        "source": "CGC",
+        "asOf": "2026-09-10",
+        "url": "https://www.cgccomics.com/certlookup/4350047002/"
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350047002/",
+      "repairs": [],
+      "kind": "comic",
+      "grader": "CGC",
+      "holder": "slab",
+      "images": {
+        "front": "4350047002_OBV.jpg",
+        "back": "4350047002_REV.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/12113d92-3ff5-41c7-826f-e42cc2d96b2b/CGC4350047-002_OBV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350047002/",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:55:04.435Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350047002_OBV.jpg",
+          "originalWidth": 2262,
+          "originalHeight": 3550,
+          "originalSha256": "aad5639fe79018a1b50d445034d7ffc167ccefc44fc030d8bee65df73978af67",
+          "sha256": "4bd9ca7bd18ed4e46d10a4a07295c29388bc23ba69e2884c55b168e2b93a15e3"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/12113d92-3ff5-41c7-826f-e42cc2d96b2b/CGC4350047-002_REV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350047002/",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:55:04.831Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350047002_REV.jpg",
+          "originalWidth": 2262,
+          "originalHeight": 3550,
+          "originalSha256": "38c72d0c1720e65c70be32d84016ea1ddafd8e6c85fced0f4c73d8b42296f36f",
+          "sha256": "8e48d7174eb8564507b7164faaebd36dd8cf739f48a3bc1924f9d56afd31dbfa"
+        }
+      },
+      "source": "cgc-cert-lookup",
+      "fetchedAt": "2026-09-10T05:53:28.351Z",
+      "importSource": {
+        "file": "data/incoming/2026-09-10-cgc-bin-10-captures.json",
+        "pageUrl": "https://www.cgccomics.com/certlookup/4350047002/",
+        "capturedAt": "2026-09-10T05:53:28.351Z",
+        "importedAt": "2026-09-10T05:55:04.086Z"
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "cert": "4350047007",
+      "title": "Something is Killing the Children",
+      "issue": "31",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "Boom! Studios",
+      "variant": "Trinity Comics Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nWerther Dell'Edera art\nPuppeteer Lee cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 38,
+        "higher": 4,
+        "topPop": false,
+        "source": "CGC",
+        "asOf": "2026-09-10",
+        "url": "https://www.cgccomics.com/certlookup/4350047007/"
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350047007/",
+      "repairs": [],
+      "kind": "comic",
+      "grader": "CGC",
+      "holder": "slab",
+      "images": {
+        "front": "4350047007_OBV.jpg",
+        "back": "4350047007_REV.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/8a43d5c8-703a-4156-a174-cc641f62982a/CGC4350047-007_OBV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350047007/",
+          "side": "front",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:55:05.200Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350047007_OBV.jpg",
+          "originalWidth": 2262,
+          "originalHeight": 3550,
+          "originalSha256": "7440f6cbd7dedcf4a5ea671fc2e5ab87c9ac034f0fdb7d7b5bc455bf92980382",
+          "sha256": "69ef974508b1d6de79ddd2438ea0b66194b7af28bd9c3113bf5545985ec1e1c6"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/8a43d5c8-703a-4156-a174-cc641f62982a/CGC4350047-007_REV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4350047007/",
+          "side": "back",
+          "kind": "slab-photo",
+          "discoveredAt": "2026-09-10T05:53:28.351Z",
+          "retrievedAt": "2026-09-10T05:55:05.541Z",
+          "sideBasis": "CGC rendered cert page: Obverse / Reverse links; exact cert and OBV / REV filename verified",
+          "originalFile": "data/originals/4350047007_REV.jpg",
+          "originalWidth": 2262,
+          "originalHeight": 3550,
+          "originalSha256": "3dbadb9a89e6c81bf021d4c21c7e61968207a87ddaaf5169e73bec85bafd1ff4",
+          "sha256": "5cc924508ed64603da9f01d62aabf897dd6f02a5a8f1b27f2b26578fc85914d4"
+        }
+      },
+      "source": "cgc-cert-lookup",
+      "fetchedAt": "2026-09-10T05:53:28.351Z",
+      "importSource": {
+        "file": "data/incoming/2026-09-10-cgc-bin-10-captures.json",
+        "pageUrl": "https://www.cgccomics.com/certlookup/4350047007/",
+        "capturedAt": "2026-09-10T05:53:28.351Z",
+        "importedAt": "2026-09-10T05:55:04.837Z"
+      },
+      "scanStatus": "complete"
+    }
+  ]
+}

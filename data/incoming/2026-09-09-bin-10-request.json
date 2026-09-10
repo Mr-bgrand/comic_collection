@@ -1,0 +1,209 @@
+{
+  "type": "owner-reported-bin",
+  "reportedOn": "2026-09-09",
+  "container": {
+    "bin": "10",
+    "title": "Bin 10",
+    "physical": true,
+    "reportedFull": true,
+    "reportedCount": null
+  },
+  "status": "imported",
+  "records": [
+    {
+      "grader": "CGC",
+      "cert": "4350046007",
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046007/",
+      "verifiedGrade": "9.8",
+      "source": "owner",
+      "lookupStatus": "verified"
+    },
+    {
+      "grader": "CGC",
+      "cert": "4350046008",
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046008/",
+      "verifiedGrade": "9.6",
+      "source": "owner",
+      "lookupStatus": "verified"
+    },
+    {
+      "grader": "CGC",
+      "cert": "4350046006",
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046006/",
+      "verifiedGrade": "9.8",
+      "source": "owner",
+      "lookupStatus": "verified"
+    },
+    {
+      "grader": "CGC",
+      "cert": "4350046005",
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046005/",
+      "verifiedGrade": "9.4",
+      "source": "owner",
+      "lookupStatus": "verified"
+    },
+    {
+      "grader": "CGC",
+      "cert": "4350046004",
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046004/",
+      "verifiedGrade": "9.8",
+      "source": "owner",
+      "lookupStatus": "verified"
+    },
+    {
+      "grader": "CGC",
+      "cert": "4350046003",
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046003/",
+      "verifiedGrade": "9.8",
+      "source": "owner",
+      "lookupStatus": "verified",
+      "rawInput": "03197012398000084350046003",
+      "interpretation": "Trailing 10 digits matched to the rendered CGC certificate"
+    },
+    {
+      "grader": "CGC",
+      "cert": "4350046015",
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046015/",
+      "verifiedGrade": "9.2",
+      "source": "owner",
+      "lookupStatus": "verified"
+    },
+    {
+      "grader": "CGC",
+      "cert": "4350046019",
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046019/",
+      "verifiedGrade": "9.9",
+      "source": "owner",
+      "lookupStatus": "verified"
+    },
+    {
+      "grader": "CGC",
+      "cert": "4350046002",
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046002/",
+      "verifiedGrade": "9.8",
+      "source": "owner",
+      "lookupStatus": "verified"
+    },
+    {
+      "grader": "CGC",
+      "cert": "4350047001",
+      "certUrl": "https://www.cgccomics.com/certlookup/4350047001/",
+      "verifiedGrade": "9.2",
+      "source": "owner",
+      "lookupStatus": "verified"
+    },
+    {
+      "grader": "CGC",
+      "cert": "4350047003",
+      "certUrl": "https://www.cgccomics.com/certlookup/4350047003/",
+      "verifiedGrade": "9.8",
+      "source": "owner",
+      "lookupStatus": "verified"
+    },
+    {
+      "grader": "CGC",
+      "cert": "2765925001",
+      "certUrl": "https://www.cgccomics.com/certlookup/2765925001/",
+      "verifiedGrade": "9.8",
+      "source": "owner",
+      "lookupStatus": "verified"
+    },
+    {
+      "grader": "CGC",
+      "cert": "4350047005",
+      "certUrl": "https://www.cgccomics.com/certlookup/4350047005/",
+      "verifiedGrade": "9.8",
+      "source": "owner",
+      "lookupStatus": "verified"
+    },
+    {
+      "grader": "CGC",
+      "cert": "4350046012",
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046012/",
+      "verifiedGrade": "9.8",
+      "source": "owner",
+      "lookupStatus": "verified"
+    },
+    {
+      "grader": "CGC",
+      "cert": "4350771003",
+      "certUrl": "https://www.cgccomics.com/certlookup/4350771003/",
+      "verifiedGrade": "9.8",
+      "source": "owner",
+      "lookupStatus": "verified"
+    },
+    {
+      "grader": "CGC",
+      "cert": "4350047004",
+      "certUrl": "https://www.cgccomics.com/certlookup/4350047004/",
+      "verifiedGrade": "9.8",
+      "source": "owner",
+      "lookupStatus": "verified"
+    },
+    {
+      "grader": "CGC",
+      "cert": "4350771004",
+      "certUrl": "https://www.cgccomics.com/certlookup/4350771004/",
+      "verifiedGrade": "9.8",
+      "source": "owner",
+      "lookupStatus": "verified"
+    },
+    {
+      "grader": "CGC",
+      "cert": "4350771005",
+      "certUrl": "https://www.cgccomics.com/certlookup/4350771005/",
+      "verifiedGrade": "9.8",
+      "source": "owner",
+      "lookupStatus": "verified"
+    },
+    {
+      "grader": "CGC",
+      "cert": "4350771001",
+      "certUrl": "https://www.cgccomics.com/certlookup/4350771001/",
+      "verifiedGrade": "9.8",
+      "source": "owner",
+      "lookupStatus": "verified"
+    },
+    {
+      "grader": "CGC",
+      "cert": "4350771002",
+      "certUrl": "https://www.cgccomics.com/certlookup/4350771002/",
+      "verifiedGrade": "9.8",
+      "source": "owner",
+      "lookupStatus": "verified"
+    },
+    {
+      "grader": "CGC",
+      "cert": "4350047006",
+      "certUrl": "https://www.cgccomics.com/certlookup/4350047006/",
+      "verifiedGrade": "9.8",
+      "source": "owner",
+      "lookupStatus": "verified"
+    },
+    {
+      "grader": "CGC",
+      "cert": "4350047002",
+      "certUrl": "https://www.cgccomics.com/certlookup/4350047002/",
+      "verifiedGrade": "9.8",
+      "source": "owner",
+      "lookupStatus": "verified"
+    },
+    {
+      "grader": "CGC",
+      "cert": "4350047007",
+      "certUrl": "https://www.cgccomics.com/certlookup/4350047007/",
+      "verifiedGrade": "9.8",
+      "source": "owner",
+      "lookupStatus": "verified"
+    }
+  ],
+  "notes": [
+    "Includes the earlier certificate 4350046007 and all 22 entries in the follow-up scan list.",
+    "The long barcode resolves to CGC 4350046003 (Spawn #1, Convention Edition, 9.8), verified on CGC.",
+    "23 distinct certificates, 46 exact-copy images. Similar titles with different certificates remain separate copies.",
+    "CGC fields and census were read from the rendered pages; market values were not inferred."
+  ],
+  "importedAt": "2026-09-10T05:55:05.550Z",
+  "importedCount": 23,
+  "captureFile": "data/incoming/2026-09-10-cgc-bin-10-captures.json"
+}

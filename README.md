@@ -6,8 +6,8 @@ case labels, master sheets, and recorded value history.
 The active experience is [Collection / Lab](https://mr-bgrand.github.io/comic_collection/review/).
 Singularity includes optional looping *Cornfield Chase* audio. Tap Music to enable
 it when needed; hiding controls keeps the soundtrack and flight running.
-The original catalogue remains at the site root. Current snapshot, September 8,
-2026: **910 objects - 673 comics and 237 cards**, with 884 front scans.
+The original catalogue remains at the site root. Current snapshot, September 9,
+2026: **933 objects - 696 comics and 237 cards**, with 907 front scans.
 See [collection status](docs/collection-status.md) for containers and pending intake.
 
 | Output | Where it goes | What it's for |
@@ -28,7 +28,7 @@ unidentified owner-scanned raw books. Card Case #3 contains 94 PSA cards, includ
 the certs supplied without URLs. Five additional CGC cards remain queued for
 verified capture and are not counted as imported.
 
-All 19 physical bins/cases appear in **Admin → Bins & locations / Print Studio**.
+All 20 physical bins/cases appear in **Admin → Bins & locations / Print Studio**.
 `npm run build` and `npm run print` remain the normal workflow. Large 4×6 labels
 continue across pages; Letter sheets include every copy. Printed case QR links
 use the configured site URL and become available when that build is published.
@@ -115,7 +115,7 @@ Writes ready-to-print files to [`print/`](print/), which is committed to the rep
 | --- | --- |
 | `print/all-case-labels-4x6.pdf` | **4×6, single-sided**, every physical container |
 | `print/all-case-master-sheets-letter.pdf` | **Letter portrait, double-sided, long-edge flip**; each case starts on a fresh sheet |
-| `print/collection-master-list.pdf` | **Letter landscape**, all 910 stored copies including PSA Vault |
+| `print/collection-master-list.pdf` | **Letter landscape**, all 933 stored copies including PSA Vault |
 | `print/bin-<id>-label.pdf` / `bin-<id>-sheet.pdf` | One container's labels or sheets |
 
 Print the **PDFs**, not the HTML. A PDF carries its own page size, so 4×6 comes

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-10T04:22:43.934Z",
-  "objects": 910,
-  "physicalContainers": 19,
-  "physicalCopies": 861,
+  "generatedAt": "2026-09-10T06:04:42.220Z",
+  "objects": 933,
+  "physicalContainers": 20,
+  "physicalCopies": 884,
   "labels": {
     "file": "all-case-labels-4x6.pdf",
-    "pages": 37,
+    "pages": 38,
     "ranges": [
       {
         "id": "01",
@@ -80,90 +80,98 @@
         "blankPage": null
       },
       {
+        "id": "10",
+        "title": "Bin 10",
+        "copies": 23,
+        "firstPage": 10,
+        "lastPage": 10,
+        "blankPage": null
+      },
+      {
         "id": "11",
         "title": "Bin 11",
         "copies": 25,
-        "firstPage": 10,
-        "lastPage": 10,
+        "firstPage": 11,
+        "lastPage": 11,
         "blankPage": null
       },
       {
         "id": "wall",
         "title": "Display Wall",
         "copies": 5,
-        "firstPage": 11,
-        "lastPage": 11,
+        "firstPage": 12,
+        "lastPage": 12,
         "blankPage": null
       },
       {
         "id": "case-01",
         "title": "Case #1",
         "copies": 26,
-        "firstPage": 12,
-        "lastPage": 12,
+        "firstPage": 13,
+        "lastPage": 13,
         "blankPage": null
       },
       {
         "id": "case-02",
         "title": "Case #2",
         "copies": 57,
-        "firstPage": 13,
-        "lastPage": 15,
+        "firstPage": 14,
+        "lastPage": 16,
         "blankPage": null
       },
       {
         "id": "case-03",
         "title": "Graded PSA Case #3",
         "copies": 94,
-        "firstPage": 16,
-        "lastPage": 19,
+        "firstPage": 17,
+        "lastPage": 20,
         "blankPage": null
       },
       {
         "id": "case-wall-office",
         "title": "Case Wall Display (Office)",
         "copies": 11,
-        "firstPage": 20,
-        "lastPage": 20,
+        "firstPage": 21,
+        "lastPage": 21,
         "blankPage": null
       },
       {
         "id": "comic-bin-13",
         "title": "Comic Bin #13 (Softslabs)",
         "copies": 98,
-        "firstPage": 21,
-        "lastPage": 24,
+        "firstPage": 22,
+        "lastPage": 25,
         "blankPage": null
       },
       {
         "id": "comic-bin-14",
         "title": "Comic Bin #14 (Softslabs)",
         "copies": 97,
-        "firstPage": 25,
-        "lastPage": 28,
+        "firstPage": 26,
+        "lastPage": 29,
         "blankPage": null
       },
       {
         "id": "comic-bin-15",
         "title": "Comic Bin #15 (Softslabs)",
         "copies": 123,
-        "firstPage": 29,
-        "lastPage": 33,
+        "firstPage": 30,
+        "lastPage": 34,
         "blankPage": null
       },
       {
         "id": "comic-case-12",
         "title": "Comic Case #12 (Softslabs)",
         "copies": 111,
-        "firstPage": 34,
-        "lastPage": 37,
+        "firstPage": 35,
+        "lastPage": 38,
         "blankPage": null
       }
     ]
   },
   "sheets": {
     "file": "all-case-master-sheets-letter.pdf",
-    "pages": 74,
+    "pages": 76,
     "duplex": true,
     "ranges": [
       {
@@ -239,83 +247,91 @@
         "blankPage": null
       },
       {
+        "id": "10",
+        "title": "Bin 10",
+        "copies": 23,
+        "firstPage": 19,
+        "lastPage": 20,
+        "blankPage": null
+      },
+      {
         "id": "11",
         "title": "Bin 11",
         "copies": 25,
-        "firstPage": 19,
-        "lastPage": 20,
+        "firstPage": 21,
+        "lastPage": 22,
         "blankPage": null
       },
       {
         "id": "wall",
         "title": "Display Wall",
         "copies": 5,
-        "firstPage": 21,
-        "lastPage": 21,
-        "blankPage": 22
+        "firstPage": 23,
+        "lastPage": 23,
+        "blankPage": 24
       },
       {
         "id": "case-01",
         "title": "Case #1",
         "copies": 26,
-        "firstPage": 23,
-        "lastPage": 24,
+        "firstPage": 25,
+        "lastPage": 26,
         "blankPage": null
       },
       {
         "id": "case-02",
         "title": "Case #2",
         "copies": 57,
-        "firstPage": 25,
-        "lastPage": 29,
-        "blankPage": 30
+        "firstPage": 27,
+        "lastPage": 31,
+        "blankPage": 32
       },
       {
         "id": "case-03",
         "title": "Graded PSA Case #3",
         "copies": 94,
-        "firstPage": 31,
-        "lastPage": 37,
-        "blankPage": 38
+        "firstPage": 33,
+        "lastPage": 39,
+        "blankPage": 40
       },
       {
         "id": "case-wall-office",
         "title": "Case Wall Display (Office)",
         "copies": 11,
-        "firstPage": 39,
-        "lastPage": 39,
-        "blankPage": 40
+        "firstPage": 41,
+        "lastPage": 41,
+        "blankPage": 42
       },
       {
         "id": "comic-bin-13",
         "title": "Comic Bin #13 (Softslabs)",
         "copies": 98,
-        "firstPage": 41,
-        "lastPage": 47,
-        "blankPage": 48
+        "firstPage": 43,
+        "lastPage": 49,
+        "blankPage": 50
       },
       {
         "id": "comic-bin-14",
         "title": "Comic Bin #14 (Softslabs)",
         "copies": 97,
-        "firstPage": 49,
-        "lastPage": 55,
-        "blankPage": 56
+        "firstPage": 51,
+        "lastPage": 57,
+        "blankPage": 58
       },
       {
         "id": "comic-bin-15",
         "title": "Comic Bin #15 (Softslabs)",
         "copies": 123,
-        "firstPage": 57,
-        "lastPage": 65,
-        "blankPage": 66
+        "firstPage": 59,
+        "lastPage": 67,
+        "blankPage": 68
       },
       {
         "id": "comic-case-12",
         "title": "Comic Case #12 (Softslabs)",
         "copies": 111,
-        "firstPage": 67,
-        "lastPage": 74,
+        "firstPage": 69,
+        "lastPage": 76,
         "blankPage": null
       }
     ]

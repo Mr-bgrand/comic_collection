@@ -1,0 +1,610 @@
+{
+  "container": "10",
+  "source": "CGC rendered certificate pages",
+  "capturedAt": "2026-09-10T05:53:28.351Z",
+  "identityCheck": "Every page's CGC Cert # was matched to the owner-supplied certificate; stored fields and image URLs cross-checked against the browser capture.",
+  "records": [
+    {
+      "cert": "4350046007",
+      "title": "Something is Killing the Children: Pen & Ink",
+      "issue": "1",
+      "issueDate": "6/23",
+      "issueYear": "2023",
+      "publisher": "Boom! Studios",
+      "variant": "Boom! Studios Foil Edition B",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nWerther Dell'Edera art\nAndrew K. Currey cover",
+      "keyComments": "\"Virgin\" sketch cover.",
+      "population": {
+        "atGrade": 39,
+        "higher": 0,
+        "topPop": true
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046007/",
+      "images": {
+        "front": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/09df116b-dff8-4e61-8993-55b97c15f04d/CGC4350046-007_OBV.jpg",
+        "back": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/09df116b-dff8-4e61-8993-55b97c15f04d/CGC4350046-007_REV.jpg"
+      },
+      "capturedFieldFingerprint": "5e52493a"
+    },
+    {
+      "cert": "4350046003",
+      "title": "Spawn",
+      "issue": "1",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "Image Comics",
+      "variant": "Convention Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Puppeteer Lee cover",
+      "keyComments": "Reprints Spawn #1 (5/92)\nSan Diego Comic-Con 2023 exclusive.",
+      "population": {
+        "atGrade": 115,
+        "higher": 1,
+        "topPop": false
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046003/",
+      "images": {
+        "front": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/17935ca2-07ab-4ab3-b2e6-3cc250f1d931/CGC4350046-003_OBV.jpg",
+        "back": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/17935ca2-07ab-4ab3-b2e6-3cc250f1d931/CGC4350046-003_REV.jpg"
+      },
+      "capturedFieldFingerprint": "bde8fe6c"
+    },
+    {
+      "cert": "4350046008",
+      "title": "Something is Killing the Children: Pen & Ink",
+      "issue": "1",
+      "issueDate": "6/23",
+      "issueYear": "2023",
+      "publisher": "Boom! Studios",
+      "variant": "Boom! Studios Foil Edition A",
+      "grade": "9.6",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nWerther Dell'Edera art\nAndrew K. Currey cover",
+      "keyComments": "Sketch cover.\nRed foil logo.",
+      "population": {
+        "atGrade": 2,
+        "higher": 60,
+        "topPop": false
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046008/",
+      "images": {
+        "front": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/2c2931b9-d061-4b42-840f-607d2ce0a139/CGC4350046-008_OBV.jpg",
+        "back": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/2c2931b9-d061-4b42-840f-607d2ce0a139/CGC4350046-008_REV.jpg"
+      },
+      "capturedFieldFingerprint": "358ec123"
+    },
+    {
+      "cert": "4350046006",
+      "title": "Invincible",
+      "issue": "9",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "Image/Skybound",
+      "variant": "Convention Foil Sketch Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Ryan Ottley cover",
+      "keyComments": "Reprints Invincible #9 (2/04)",
+      "population": {
+        "atGrade": 22,
+        "higher": 8,
+        "topPop": false
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046006/",
+      "images": {
+        "front": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/f356d35e-bcd2-4153-aa4e-2b1e8e6c8ff9/CGC4350046-006_OBV.jpg",
+        "back": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/f356d35e-bcd2-4153-aa4e-2b1e8e6c8ff9/CGC4350046-006_REV.jpg"
+      },
+      "capturedFieldFingerprint": "438adb2f"
+    },
+    {
+      "cert": "4350046005",
+      "title": "Invincible",
+      "issue": "9",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "Image/Skybound",
+      "variant": "Convention Foil Edition",
+      "grade": "9.4",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Ryan Ottley cover",
+      "keyComments": "Reprints Invincible #9 (2/04)",
+      "population": {
+        "atGrade": 1,
+        "higher": 17,
+        "topPop": false
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046005/",
+      "images": {
+        "front": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/9de63d96-0e99-4a3d-ac6d-0d4e30118b91/CGC4350046-005_OBV.jpg",
+        "back": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/9de63d96-0e99-4a3d-ac6d-0d4e30118b91/CGC4350046-005_REV.jpg"
+      },
+      "capturedFieldFingerprint": "a5988dbc"
+    },
+    {
+      "cert": "4350046004",
+      "title": "Usagi Yojimbo: Ice and Snow SDCC Preview",
+      "issue": "1",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "Dark Horse Comics",
+      "variant": "Gold Foil Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Stan Sakai story, cover & art",
+      "keyComments": "Gold foil logo.\nSketch cover.",
+      "population": {
+        "atGrade": 3,
+        "higher": 0,
+        "topPop": true
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046004/",
+      "images": {
+        "front": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/485fc14a-9717-4dc8-b436-3146975b94e1/CGC4350046-004_OBV.jpg",
+        "back": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/485fc14a-9717-4dc8-b436-3146975b94e1/CGC4350046-004_REV.jpg"
+      },
+      "capturedFieldFingerprint": "74209b0c"
+    },
+    {
+      "cert": "4350046015",
+      "title": "Gone Ashcan",
+      "issue": "1",
+      "issueDate": "2023",
+      "issueYear": "2023",
+      "publisher": "DSTLRY",
+      "grade": "9.2",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "labelText": "NAME WRITTEN ON COVER IN MARKER.",
+      "artComments": "Jock story, cover & art",
+      "graderNotes": "indent front cover",
+      "population": {
+        "atGrade": 1,
+        "higher": 1,
+        "topPop": false
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046015/",
+      "images": {
+        "front": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/b0c67d0e-f475-4f5a-9671-5ea54183ffda/CGC4350046-015_OBV.jpg",
+        "back": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/b0c67d0e-f475-4f5a-9671-5ea54183ffda/CGC4350046-015_REV.jpg"
+      },
+      "capturedFieldFingerprint": "2bd4fddb"
+    },
+    {
+      "cert": "4350046019",
+      "title": "The Boys Special Edition",
+      "issue": "1",
+      "issueDate": "2023",
+      "issueYear": "2023",
+      "publisher": "Dynamite Entertainment",
+      "variant": "ComicTom101 Foil Edition",
+      "grade": "9.9",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Garth Ennis story\nDarick Robertson art\nZoe Lacchei cover",
+      "keyComments": "San Diego Comic-Con 2023 exclusive.\n\"Virgin\" cover.",
+      "population": {
+        "atGrade": 1,
+        "higher": 0,
+        "topPop": true
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046019/",
+      "images": {
+        "front": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/98cdcbed-8e4c-410a-9f6a-d22cbb666b6b/CGC4350046-019_OBV.jpg",
+        "back": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/98cdcbed-8e4c-410a-9f6a-d22cbb666b6b/CGC4350046-019_REV.jpg"
+      },
+      "capturedFieldFingerprint": "9bb034e2"
+    },
+    {
+      "cert": "4350046002",
+      "title": "w0rldtr33",
+      "issue": "3",
+      "issueDate": "6/23",
+      "issueYear": "2023",
+      "publisher": "Image Comics",
+      "variant": "CBNS Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nFernando Blanco art\nMichael Gaydos cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 10,
+        "higher": 0,
+        "topPop": true
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046002/",
+      "images": {
+        "front": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/7902d332-65a6-4eae-9511-239279503806/CGC4350046-002_OBV.jpg",
+        "back": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/7902d332-65a6-4eae-9511-239279503806/CGC4350046-002_REV.jpg"
+      },
+      "capturedFieldFingerprint": "9fe576da"
+    },
+    {
+      "cert": "4350047001",
+      "title": "Final Boss",
+      "issue": "3",
+      "issueDate": "2023",
+      "issueYear": "2023",
+      "publisher": "no publisher listed",
+      "variant": "SMZ Comics Foil Edition",
+      "grade": "9.2",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-15",
+      "labelCategory": "Universal",
+      "artComments": "Tyler Kirkham story & art\nMarat Mychaels cover",
+      "keyComments": "\"Virgin\" cover.",
+      "graderNotes": "tears to cover",
+      "population": {
+        "atGrade": 1,
+        "higher": 0,
+        "topPop": true
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350047001/",
+      "images": {
+        "front": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/97d44826-2349-4f20-bde4-d139540cbf60/CGC4350047-001_OBV.jpg",
+        "back": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/97d44826-2349-4f20-bde4-d139540cbf60/CGC4350047-001_REV.jpg"
+      },
+      "capturedFieldFingerprint": "9b8bf6a3"
+    },
+    {
+      "cert": "4350047003",
+      "title": "Batman",
+      "issue": "135",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "Ross Variant Cover C",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Chip Zdarsky story, Alex Ross cover\nMike Hawthorne, Jorge Jimenez,\nMikel Jan�n & Adriano Di Benedetto art",
+      "keyComments": "Batman #900\n\"Virgin\" cover.",
+      "population": {
+        "atGrade": 100,
+        "higher": 0,
+        "topPop": true
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350047003/",
+      "images": {
+        "front": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/d7fbc920-6e16-4c32-b4ec-c3762221b13b/CGC4350047-003_OBV.jpg",
+        "back": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/d7fbc920-6e16-4c32-b4ec-c3762221b13b/CGC4350047-003_REV.jpg"
+      },
+      "capturedFieldFingerprint": "91902983"
+    },
+    {
+      "cert": "2765925001",
+      "title": "TMNT/Usagi Yojimbo: Wherewhen",
+      "issue": "2",
+      "issueDate": "5/23",
+      "issueYear": "2023",
+      "publisher": "IDW Publishing",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-10-12",
+      "labelCategory": "Signature Series",
+      "artComments": "Stan Sakai story, cover & art",
+      "keyComments": "Wraparound cover.",
+      "signatureText": "SIGNED BY KEVIN EASTMAN ON 7/19/23",
+      "signatures": [
+        {
+          "name": "Kevin Eastman",
+          "date": "2023-07-19"
+        }
+      ],
+      "population": {
+        "atGrade": 1,
+        "higher": 0,
+        "topPop": true
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/2765925001/",
+      "images": {
+        "front": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/9cca1bd5-f207-4354-8b30-a637e827fe1f/CGC2765925-001_OBV.jpg",
+        "back": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/9cca1bd5-f207-4354-8b30-a637e827fe1f/CGC2765925-001_REV.jpg"
+      },
+      "capturedFieldFingerprint": "97c8613e"
+    },
+    {
+      "cert": "4350047005",
+      "title": "Superior Spider-Man Returns",
+      "issue": "1",
+      "issueDate": "12/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "VeVe \"Virgin\" Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Dan Slott & Christos Gage story\nHumberto Ramos, Giuseppe Camuncoli,\nMark Bagley & Ryan Stegman art",
+      "keyComments": "Mike McKone cover\nOrigin & 1st appearance of\nSupernova (Estrella Lopez).",
+      "population": {
+        "atGrade": 59,
+        "higher": 1,
+        "topPop": false
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350047005/",
+      "images": {
+        "front": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/519a43bf-916c-487e-a8e5-17221a01b6ee/CGC4350047-005_OBV.jpg",
+        "back": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/519a43bf-916c-487e-a8e5-17221a01b6ee/CGC4350047-005_REV.jpg"
+      },
+      "capturedFieldFingerprint": "3bd50310"
+    },
+    {
+      "cert": "4350046012",
+      "title": "Transformers",
+      "issue": "1",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "Image/Skybound",
+      "variant": "Convention Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Daniel Warren Johnson story, cover & art",
+      "keyComments": "Ashcan preview.",
+      "population": {
+        "atGrade": 143,
+        "higher": 5,
+        "topPop": false
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350046012/",
+      "images": {
+        "front": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/9d4c15aa-60c3-46f9-8d7c-32b161173405/CGC4350046-012_OBV.jpg",
+        "back": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/9d4c15aa-60c3-46f9-8d7c-32b161173405/CGC4350046-012_REV.jpg"
+      },
+      "capturedFieldFingerprint": "dfc5b7d0"
+    },
+    {
+      "cert": "4350771003",
+      "title": "Transformers",
+      "issue": "1",
+      "issueDate": "10/23",
+      "issueYear": "2023",
+      "publisher": "Image/Skybound",
+      "variant": "Giang Foil Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Daniel Warren Johnson story & art\nJohn Giang cover",
+      "keyComments": "Big Time Collectibles &\nScott's Collectables exclusive.",
+      "population": {
+        "atGrade": 65,
+        "higher": 17,
+        "topPop": false
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350771003/",
+      "images": {
+        "front": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/3963437e-ae5b-49cd-bf5b-09bdc62df9af/CGC4350771-003_OBV.jpg",
+        "back": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/3963437e-ae5b-49cd-bf5b-09bdc62df9af/CGC4350771-003_REV.jpg"
+      },
+      "capturedFieldFingerprint": "41f1be32"
+    },
+    {
+      "cert": "4350047004",
+      "title": "Star Wars: The Mandalorian Season 2",
+      "issue": "1",
+      "issueDate": "8/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "Trinity Comics \"Virgin\" Edition A",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Rodney Barnes story\nGeorges Jeanty & Karl Story art\nPeach Momoko cover",
+      "population": {
+        "atGrade": 23,
+        "higher": 0,
+        "topPop": true
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350047004/",
+      "images": {
+        "front": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/a4c764c0-9ee5-4f9f-a763-7885b8093215/CGC4350047-004_OBV.jpg",
+        "back": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/a4c764c0-9ee5-4f9f-a763-7885b8093215/CGC4350047-004_REV.jpg"
+      },
+      "capturedFieldFingerprint": "bb249ed0"
+    },
+    {
+      "cert": "4350771004",
+      "title": "Superior Spider-Man Returns",
+      "issue": "1",
+      "issueDate": "12/23",
+      "issueYear": "2023",
+      "publisher": "Marvel Comics",
+      "variant": "VeVe \"Virgin\" Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Dan Slott & Christos Gage story\nHumberto Ramos, Giuseppe Camuncoli,\nMark Bagley & Ryan Stegman art",
+      "keyComments": "Mike McKone cover\nOrigin & 1st appearance of\nSupernova (Estrella Lopez).",
+      "population": {
+        "atGrade": 59,
+        "higher": 1,
+        "topPop": false
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350771004/",
+      "images": {
+        "front": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/3b021505-e05f-4981-acce-7334cd0a18a3/CGC4350771-004_OBV.jpg",
+        "back": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/3b021505-e05f-4981-acce-7334cd0a18a3/CGC4350771-004_REV.jpg"
+      },
+      "capturedFieldFingerprint": "618b05f0"
+    },
+    {
+      "cert": "4350771005",
+      "title": "Batman: The Long Halloween Special",
+      "issue": "1",
+      "issueDate": "6/23",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "Spectral Comics Foil Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Jeph Loeb story\nTim Sale art",
+      "population": {
+        "atGrade": 24,
+        "higher": 1,
+        "topPop": false
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350771005/",
+      "images": {
+        "front": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/18d09007-3698-4561-887d-5c806ade52c0/CGC4350771-005_OBV.jpg",
+        "back": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/18d09007-3698-4561-887d-5c806ade52c0/CGC4350771-005_REV.jpg"
+      },
+      "capturedFieldFingerprint": "f9196b75"
+    },
+    {
+      "cert": "4350771001",
+      "title": "Action Comics Presents: Doomsday Special",
+      "issue": "1",
+      "issueDate": "10/23",
+      "issueYear": "2023",
+      "publisher": "DC Comics",
+      "variant": "The Syndicate Edition B",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Dan Watters stories\nEddy Barrows, Eber Ferreira &\nMax Raynor art, Nathan Szerdy cover",
+      "population": {
+        "atGrade": 29,
+        "higher": 0,
+        "topPop": true
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350771001/",
+      "images": {
+        "front": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/5bf09f27-ce52-46f7-8f19-b52dd6af6fef/CGC4350771-001_OBV.jpg",
+        "back": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/5bf09f27-ce52-46f7-8f19-b52dd6af6fef/CGC4350771-001_REV.jpg"
+      },
+      "capturedFieldFingerprint": "c704bbd3"
+    },
+    {
+      "cert": "4350771002",
+      "title": "w0rldtr33",
+      "issue": "5",
+      "issueDate": "8/23",
+      "issueYear": "2023",
+      "publisher": "Image Comics",
+      "variant": "Rabbit Comics \"Virgin\" Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nFernando Blanco art\nStan Yak cover",
+      "keyComments": "\"Ghost in the Shell\" movie poster\ncover homage.",
+      "population": {
+        "atGrade": 25,
+        "higher": 2,
+        "topPop": false
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350771002/",
+      "images": {
+        "front": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/4f16d31a-a059-45f2-b8fe-021d69d9b338/CGC4350771-002_OBV.jpg",
+        "back": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/4f16d31a-a059-45f2-b8fe-021d69d9b338/CGC4350771-002_REV.jpg"
+      },
+      "capturedFieldFingerprint": "2dfa80f6"
+    },
+    {
+      "cert": "4350047006",
+      "title": "w0rldtr33",
+      "issue": "5",
+      "issueDate": "8/23",
+      "issueYear": "2023",
+      "publisher": "Image Comics",
+      "variant": "Variant Cover E",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nFernando Blanco art\nGavin Fullerton cover",
+      "keyComments": "The Closet #1 cover homage.",
+      "population": {
+        "atGrade": 8,
+        "higher": 0,
+        "topPop": true
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350047006/",
+      "images": {
+        "front": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/a636f169-cd09-4c28-9deb-e8e3b4cecdc7/CGC4350047-006_OBV.jpg",
+        "back": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/a636f169-cd09-4c28-9deb-e8e3b4cecdc7/CGC4350047-006_REV.jpg"
+      },
+      "capturedFieldFingerprint": "a50cb0b9"
+    },
+    {
+      "cert": "4350047002",
+      "title": "Grim",
+      "issue": "12",
+      "issueDate": "8/23",
+      "issueYear": "2023",
+      "publisher": "Boom! Studios",
+      "variant": "Trinity Comics Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "Stephanie Phillips story\nFlaviano art\nZoe Lacchei cover",
+      "keyComments": "Something is Killing the Children #15\nTrinity Comics Edition cover homage.\n\"Virgin\" cover.",
+      "population": {
+        "atGrade": 4,
+        "higher": 0,
+        "topPop": true
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350047002/",
+      "images": {
+        "front": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/12113d92-3ff5-41c7-826f-e42cc2d96b2b/CGC4350047-002_OBV.jpg",
+        "back": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/12113d92-3ff5-41c7-826f-e42cc2d96b2b/CGC4350047-002_REV.jpg"
+      },
+      "capturedFieldFingerprint": "97742a7a"
+    },
+    {
+      "cert": "4350047007",
+      "title": "Something is Killing the Children",
+      "issue": "31",
+      "issueDate": "7/23",
+      "issueYear": "2023",
+      "publisher": "Boom! Studios",
+      "variant": "Trinity Comics Edition",
+      "grade": "9.8",
+      "pageQuality": "WHITE",
+      "gradeDate": "2023-11-14",
+      "labelCategory": "Universal",
+      "artComments": "James Tynion IV story\nWerther Dell'Edera art\nPuppeteer Lee cover",
+      "keyComments": "\"Virgin\" cover.",
+      "population": {
+        "atGrade": 38,
+        "higher": 4,
+        "topPop": false
+      },
+      "certUrl": "https://www.cgccomics.com/certlookup/4350047007/",
+      "images": {
+        "front": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/8a43d5c8-703a-4156-a174-cc641f62982a/CGC4350047-007_OBV.jpg",
+        "back": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/8a43d5c8-703a-4156-a174-cc641f62982a/CGC4350047-007_REV.jpg"
+      },
+      "capturedFieldFingerprint": "a5f94c5b"
+    }
+  ]
+}

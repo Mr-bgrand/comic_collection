@@ -2,9 +2,9 @@
 
 This is a snapshot of the stored inventory, not a new appraisal or a fresh grader lookup.
 
-**910 objects: 673 comics and 237 cards.**
-884 have front scans; 26 are still missing them.
-19 physical containers hold 861 copies.
+**933 objects: 696 comics and 237 cards.**
+907 have front scans; 26 are still missing them.
+20 physical containers hold 884 copies.
 
 ## Containers
 
@@ -19,6 +19,7 @@ This is a snapshot of the stored inventory, not a new appraisal or a fresh grade
 | Bin 07 | `07` | 24 | Physical container |
 | Bin 08 | `08` | 22 | Physical container |
 | Bin 09 | `09` | 24 | Physical container |
+| Bin 10 | `10` | 23 | Physical container |
 | Bin 11 | `11` | 25 | Physical container |
 | Display Wall | `wall` | 5 | Physical container |
 | Case #1 | `case-01` | 26 | Physical container |
@@ -32,6 +33,11 @@ This is a snapshot of the stored inventory, not a new appraisal or a fresh grade
 | Comic Case #12 (Softslabs) | `comic-case-12` | 111 | Physical container |
 
 Comic Case #12 contains 111 Authority sleeves. Bins #13 and #14 contain 98 and 97.
+Bin 10 contains 23 CGC comics with verified front/back slab scans, including the
+earlier cert 4350046007. The long barcode resolves to cert 4350046003 (Spawn #1,
+Convention Edition, 9.8). Its Signature Series comic retains the Kevin Eastman
+signature details. See the [Bin 10 intake](../data/incoming/2026-09-09-bin-10-request.json)
+and [CGC captures](../data/incoming/2026-09-10-cgc-bin-10-captures.json).
 Bin #15 contains 27 Authority sleeves plus 96 owner-scanned raw books awaiting
 identification. Duplicate submitted IDs were deduplicated; leading zeros are kept.
 Find > Raw comics now opens those 96 owner scans directly. Their focus labels and
@@ -50,9 +56,9 @@ were moved from the unassigned group; no duplicate copies were created. See the
 
 | Group | Recorded total | Valued | No value yet |
 | --- | ---: | ---: | ---: |
-| Comics | $11,483 | 163 | 510 |
+| Comics | $11,483 | 163 | 533 |
 | Cards | $17,175 | 138 | 99 |
-| All | $28,658 | 301 | 609 |
+| All | $28,658 | 301 | 632 |
 
 45 PSA Vault estimates have no source date. Printing/building does not update
 market prices. TAG's explicit value or owner estimate takes precedence; otherwise
@@ -63,6 +69,8 @@ Inventory growth and newly valued records affect totals; these are not investmen
 
 ## Remaining intake and images
 
+- Bin 10's 23 comics have verified identities and scans but no recorded market
+  values yet. Importing certificate details does not infer prices.
 - All 80 TAG cards now use verified full-slab front and back photographs from
   each cert page's Slabbed image captures section: 57 in Case #2, nine on the
   office wall and 14 in Case #1. The original card-only MAIN scans and
@@ -84,7 +92,7 @@ Inventory growth and newly valued records affect totals; these are not investmen
 
 The [current print set](../print/README.md) contains individual labels/sheets,
 a combined 4 x 6 label pack, a duplex Letter master-sheet pack, and a complete
-910-copy collection master list. Combined masters preserve case boundaries with
+933-copy collection master list. Combined masters preserve case boundaries with
 blank reverse pages. Physical packs exclude external/unassigned cards; the complete
 master list includes them with their storage status.
 
