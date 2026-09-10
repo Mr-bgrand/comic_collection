@@ -1,6 +1,6 @@
 # Current print set
 
-Generated 2026-09-08 from the stored collection: **910 objects**, including **847 copies in 19 physical containers**.
+Generated 2026-09-10 from the stored collection: **910 objects**, including **861 copies in 19 physical containers**.
 
 | Complete PDF | Paper and settings |
 | --- | --- |
@@ -9,6 +9,8 @@ Generated 2026-09-08 from the stored collection: **910 objects**, including **84
 | [Collection master list](collection-master-list.pdf) | Letter landscape; all 910 stored copies, including external storage and unassigned cards |
 
 The combined master sheets include blank reverse pages where needed so the next case starts on a new physical sheet. Keep those blanks when printing duplex. The individual PDFs below contain only that case's content pages. Labels for larger cases continue onto additional 4 x 6 pages.
+
+Each label row includes the grading company beside the grade (for example, PSA 10, TAG 9, CGC 9.8 or CBCS 9.8). Arena Club is written in full. Ungraded comics show RAW; Authority-authenticated copies show Authority RAW.
 
 Print the PDFs using actual size / 100%, not Fit or Shrink. These are ready-to-print files; generating them does not send a job to your printer. Cover scans and certification data come from the stored records. Missing scans and values stay missing; printing does not fetch new prices.
 
@@ -29,7 +31,7 @@ Page numbers refer to the combined packs; links open the individual PDFs. Blank 
 | Bin 09 | 24 | [9](bin-09-label.pdf) | [17-18](bin-09-sheet.pdf) | - |
 | Bin 11 | 25 | [10](bin-11-label.pdf) | [19-20](bin-11-sheet.pdf) | - |
 | Display Wall | 5 | [11](bin-wall-label.pdf) | [21](bin-wall-sheet.pdf) | 22 |
-| Case #1 | 12 | [12](bin-case-01-label.pdf) | [23](bin-case-01-sheet.pdf) | 24 |
+| Case #1 | 26 | [12](bin-case-01-label.pdf) | [23-24](bin-case-01-sheet.pdf) | - |
 | Case #2 | 57 | [13-15](bin-case-02-label.pdf) | [25-29](bin-case-02-sheet.pdf) | 30 |
 | Graded PSA Case #3 | 94 | [16-19](bin-case-03-label.pdf) | [31-37](bin-case-03-sheet.pdf) | 38 |
 | Case Wall Display (Office) | 11 | [20](bin-case-wall-office-label.pdf) | [39](bin-case-wall-office-sheet.pdf) | 40 |

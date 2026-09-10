@@ -54,7 +54,7 @@ ol { list-style: none; margin-top: 0.06in; }
 
 li {
   display: grid;
-  grid-template-columns: 2.8in 1fr;
+  grid-template-columns: 2.65in 1fr;
   align-items: center;
   column-gap: 0.05in;
   height: 0.1668in;
@@ -73,6 +73,11 @@ li:last-child { border-bottom: 0; }
 }
 
 .g {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  gap: 0.04in;
+  min-width: 0;
   font-size: 10pt;
   font-weight: 700;
   text-align: right;
@@ -81,6 +86,7 @@ li:last-child { border-bottom: 0; }
   line-height: 1.15;
 }
 
+.company { font-size: 7pt; font-weight: 600; }
 .star { font-size: 8.5pt; }
 
 footer {
@@ -103,7 +109,7 @@ footer {
     <div class="bin-no">BIN 11</div>
 
     <div class="bin-meta">
-      <strong>25</strong> CGC graded<br>
+      <strong>25</strong> copies<br>
       ★ 14 top pop<br>Updated 2026-08-27
     </div>
   </div>
@@ -112,31 +118,31 @@ footer {
 </header>
 
 <ol>
-      <li><span class="t" style="font-size:9.5pt">White Widow #2 : Rebel Killer Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.1pt">Arcade Kings #1 : Bird City Comics Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:7.3pt">Amazing Spider-Man #1 : JScottCampbell.com Edition A</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:6.5pt">Star Wars: The Mandalorian Season 2 #5 : Trinity Comics &quot;Virgin&quot; Edition B</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:7.8pt">Star Wars: Obi-Wan Kenobi #1 : Gist Variant Cover</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.5pt">Star Wars #2</span><span class="g">9.4</span></li>
-      <li><span class="t" style="font-size:9.5pt">Star Wars #1</span><span class="g">9.2</span></li>
-      <li><span class="t" style="font-size:7.5pt">Star Wars: Obi-Wan Kenobi #1 : Momoko Variant Cover</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:8.3pt">Star Wars: Obi-Wan Kenobi #1 : Variant Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.5pt">Star Wars: Obi-Wan Kenobi #1</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.5pt">Star Wars: Yoda #1 : Comic Mint Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:7.2pt">Star Wars: The Mandalorian #1 : Jimenez Variant Cover</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:7.2pt">Star Wars: Darth Vader #29 : East Side Comics Edition</span><span class="g">9.6</span></li>
-      <li><span class="t" style="font-size:7.5pt">Star Wars: Obi-Wan Kenobi #1 : Momoko Variant Cover</span><span class="g">8.0</span></li>
-      <li><span class="t" style="font-size:9.5pt">Star Wars: The Mandalorian #2</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.5pt">Fear #19</span><span class="g">9.2</span></li>
-      <li><span class="t" style="font-size:9.5pt">The Exiled #1 : SMZ Comics Foil Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.5pt">Strange Academy #1 : Young Variant Cover</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.1pt">Final Boss #1 : SMZ Comics Metal Edition G</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.5pt">Back to the Future #1 : Artist Edition</span><span class="g">9.2</span></li>
-      <li><span class="t" style="font-size:7.6pt">Transformers/Back to the Future #4 : Variant Cover</span><span class="g">8.5</span></li>
-      <li><span class="t" style="font-size:7.8pt">Back to the Future #1 : JJ&#39;s Comics &amp; Art Edition</span><span class="g">9.8</span></li>
-      <li><span class="t" style="font-size:7.6pt">Back to the Future #1 : JScottCampbell.com Edition</span><span class="g">9.8</span></li>
-      <li><span class="t" style="font-size:7.3pt">Back to the Future #1 : Local Comic Shop Day Edition</span><span class="g">7.5</span></li>
-      <li><span class="t" style="font-size:9.5pt">Back to the Future #1 : Zbox Edition</span><span class="g">9.6</span></li>
+      <li><span class="t" style="font-size:9.5pt">White Widow #2 : Rebel Killer Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:8.6pt">Arcade Kings #1 : Bird City Comics Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:6.9pt">Amazing Spider-Man #1 : JScottCampbell.com Edition A</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:6.5pt">Star Wars: The Mandalorian Season 2 #5 : Trinity Comics &quot;Virgin&quot; Edition B</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:7.3pt">Star Wars: Obi-Wan Kenobi #1 : Gist Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Star Wars #2</span><span class="g"><span class="company">CGC</span> <span class="score">9.4</span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Star Wars #1</span><span class="g"><span class="company">CGC</span> <span class="score">9.2</span></span></li>
+      <li><span class="t" style="font-size:7.1pt">Star Wars: Obi-Wan Kenobi #1 : Momoko Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:7.8pt">Star Wars: Obi-Wan Kenobi #1 : Variant Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Star Wars: Obi-Wan Kenobi #1</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:9.2pt">Star Wars: Yoda #1 : Comic Mint Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:6.8pt">Star Wars: The Mandalorian #1 : Jimenez Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:6.8pt">Star Wars: Darth Vader #29 : East Side Comics Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.6</span></span></li>
+      <li><span class="t" style="font-size:7.1pt">Star Wars: Obi-Wan Kenobi #1 : Momoko Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">8.0</span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Star Wars: The Mandalorian #2</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Fear #19</span><span class="g"><span class="company">CGC</span> <span class="score">9.2</span></span></li>
+      <li><span class="t" style="font-size:9.2pt">The Exiled #1 : SMZ Comics Foil Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:9pt">Strange Academy #1 : Young Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:8.6pt">Final Boss #1 : SMZ Comics Metal Edition G</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Back to the Future #1 : Artist Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.2</span></span></li>
+      <li><span class="t" style="font-size:7.2pt">Transformers/Back to the Future #4 : Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">8.5</span></span></li>
+      <li><span class="t" style="font-size:7.3pt">Back to the Future #1 : JJ&#39;s Comics &amp; Art Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8</span></span></li>
+      <li><span class="t" style="font-size:7.2pt">Back to the Future #1 : JScottCampbell.com Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8</span></span></li>
+      <li><span class="t" style="font-size:6.9pt">Back to the Future #1 : Local Comic Shop Day Edition</span><span class="g"><span class="company">CGC</span> <span class="score">7.5</span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Back to the Future #1 : Zbox Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.6</span></span></li>
 </ol>
 
 <footer>

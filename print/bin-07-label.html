@@ -54,7 +54,7 @@ ol { list-style: none; margin-top: 0.06in; }
 
 li {
   display: grid;
-  grid-template-columns: 2.8in 1fr;
+  grid-template-columns: 2.65in 1fr;
   align-items: center;
   column-gap: 0.05in;
   height: 0.1737in;
@@ -73,6 +73,11 @@ li:last-child { border-bottom: 0; }
 }
 
 .g {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  gap: 0.04in;
+  min-width: 0;
   font-size: 10pt;
   font-weight: 700;
   text-align: right;
@@ -81,6 +86,7 @@ li:last-child { border-bottom: 0; }
   line-height: 1.15;
 }
 
+.company { font-size: 7pt; font-weight: 600; }
 .star { font-size: 8.5pt; }
 
 footer {
@@ -103,7 +109,7 @@ footer {
     <div class="bin-no">BIN 07</div>
 
     <div class="bin-meta">
-      <strong>24</strong> CGC graded<br>
+      <strong>24</strong> copies<br>
       ★ 13 top pop<br>Updated 2026-08-22
     </div>
   </div>
@@ -112,30 +118,30 @@ footer {
 </header>
 
 <ol>
-      <li><span class="t" style="font-size:8.6pt">All-New Ghost Rider #1 : Young Variant Cover</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:6.5pt">All-New Ghost Rider: Engines of Vengeance #1 : Second Printing</span><span class="g">9.4<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:6.8pt">Ghost Rider: Vengeance Forever #1 : Kubert Variant Cover</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:7.5pt">Ghost Rider: Vengeance Forever #1 : Variant Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.5pt">Ghost Rider: Vengeance Forever #1</span><span class="g">9.4</span></li>
-      <li><span class="t" style="font-size:9.5pt">Incredible Hulk #400</span><span class="g">8.5</span></li>
-      <li><span class="t" style="font-size:9.5pt">Incredible Hulk #377</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.5pt">Sensational She-Hulk #1</span><span class="g">9.6</span></li>
-      <li><span class="t" style="font-size:9.5pt">Hulk #11 : Nakayama &quot;Virgin&quot; Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.5pt">Hulk #13 : Momoko Variant Cover</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.5pt">Incredible Hulk #330</span><span class="g">9.4</span></li>
-      <li><span class="t" style="font-size:9.5pt">Hulk #13 : Comic Mint Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.5pt">Tales to Astonish #90</span><span class="g">3.5</span></li>
-      <li><span class="t" style="font-size:9.5pt">Tales to Astonish #91</span><span class="g">4.5</span></li>
-      <li><span class="t" style="font-size:9.5pt">Nova #1 : Young Variant Cover</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.5pt">Tarzan #207</span><span class="g">8.5</span></li>
-      <li><span class="t" style="font-size:7.9pt">Marauders #21 : Dauterman &quot;Design&quot; Variant Cover</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.5pt">Spider-Punk #1</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:7.3pt">Spider-Gwen: Shadow Clones #1 : Momoko Variant Cover</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:6.9pt">Spider-Gwen: Shadow Clones #1 : Spectral Comics Edition</span><span class="g">8.5</span></li>
-      <li><span class="t" style="font-size:6.5pt">Spider-Gwen: Shadow Clones #1 : Spectral Comics &quot;Virgin&quot; Edition</span><span class="g">9.8</span></li>
-      <li><span class="t" style="font-size:9.3pt">Avengers Forever #15 : Ross Variant Cover</span><span class="g">9.8</span></li>
-      <li><span class="t" style="font-size:9.5pt">Dark Web #1 : KRS Comics Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.5pt">Spider-Boy #1 : Young Variant Cover</span><span class="g">9.6</span></li>
+      <li><span class="t" style="font-size:8.2pt">All-New Ghost Rider #1 : Young Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:6.5pt">All-New Ghost Rider: Engines of Vengeance #1 : Second Printing</span><span class="g"><span class="company">CGC</span> <span class="score">9.4<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:6.5pt">Ghost Rider: Vengeance Forever #1 : Kubert Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:7.1pt">Ghost Rider: Vengeance Forever #1 : Variant Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Ghost Rider: Vengeance Forever #1</span><span class="g"><span class="company">CGC</span> <span class="score">9.4</span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Incredible Hulk #400</span><span class="g"><span class="company">CGC</span> <span class="score">8.5</span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Incredible Hulk #377</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Sensational She-Hulk #1</span><span class="g"><span class="company">CGC</span> <span class="score">9.6</span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Hulk #11 : Nakayama &quot;Virgin&quot; Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Hulk #13 : Momoko Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Incredible Hulk #330</span><span class="g"><span class="company">CGC</span> <span class="score">9.4</span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Hulk #13 : Comic Mint Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Tales to Astonish #90</span><span class="g"><span class="company">CGC</span> <span class="score">3.5</span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Tales to Astonish #91</span><span class="g"><span class="company">CGC</span> <span class="score">4.5</span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Nova #1 : Young Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Tarzan #207</span><span class="g"><span class="company">CGC</span> <span class="score">8.5</span></span></li>
+      <li><span class="t" style="font-size:7.5pt">Marauders #21 : Dauterman &quot;Design&quot; Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Spider-Punk #1</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:6.9pt">Spider-Gwen: Shadow Clones #1 : Momoko Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:6.5pt">Spider-Gwen: Shadow Clones #1 : Spectral Comics Edition</span><span class="g"><span class="company">CGC</span> <span class="score">8.5</span></span></li>
+      <li><span class="t" style="font-size:6.5pt">Spider-Gwen: Shadow Clones #1 : Spectral Comics &quot;Virgin&quot; Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8</span></span></li>
+      <li><span class="t" style="font-size:8.8pt">Avengers Forever #15 : Ross Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8</span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Dark Web #1 : KRS Comics Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Spider-Boy #1 : Young Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.6</span></span></li>
 </ol>
 
 <footer>

@@ -2,7 +2,7 @@
  * The 4x6 bin label — goes in the bin's front label slot.
  *
  * Every comic in the bin gets one line, so the bin can be read without a phone.
- * The grade sits in a fixed right-hand column; long variant strings shrink to fit
+ * The grading company and grade sit in a fixed right-hand column; long variants shrink to fit
  * rather than wrapping, so that column stays straight all the way down.
  *
  * Row height is computed from the space actually left after the header and
@@ -10,10 +10,10 @@
  * instead of depending on a hand-tuned constant that only worked for one count.
  */
 
-import { labelRow, fitFontSize, labelMetrics } from '../model.js';
+import { labelRow, graderOf, fitFontSize, labelMetrics } from '../model.js';
 import { escapeHtml, page, FONT_NARROW, INK } from './shared.js';
 
-const TITLE_COLUMN_IN = 2.8;
+const TITLE_COLUMN_IN = 2.65;
 const HEADER_IN = 1.16;
 const FOOTER_IN = 0.2;
 const GAP_IN = 0.06;
@@ -86,6 +86,11 @@ li:last-child { border-bottom: 0; }
 }
 
 .g {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  gap: 0.04in;
+  min-width: 0;
   font-size: ${m.gradePt}pt;
   font-weight: 700;
   text-align: right;
@@ -94,6 +99,7 @@ li:last-child { border-bottom: 0; }
   line-height: 1.15;
 }
 
+.company { font-size: ${Math.min(7, m.gradePt)}pt; font-weight: 600; }
 .star { font-size: ${Math.max(5.5, m.gradePt - 1.5)}pt; }
 
 footer {
@@ -126,13 +132,17 @@ export function renderLabel({ bin, qrSvg, url, config }) {
   const rows = comics
     .map((comic) => {
       const row = labelRow(comic);
+      const grader = graderOf(comic);
+      // Authentication identifies a raw copy's provider; it is not a numeric grade.
+      const company = grader || comic.authentication?.provider || '';
+      const grade = grader ? row.grade : 'RAW';
       // Shrink for width, then cap at whatever the row height allows.
       const size = Math.min(fitFontSize(row.title, TITLE_COLUMN_IN), metrics.titlePt);
       return `      <li><span class="t" style="font-size:${size}pt">${escapeHtml(
         row.title,
-      )}</span><span class="g">${escapeHtml(row.grade)}${
-        row.star ? '<span class="star"> ★</span>' : ''
-      }</span></li>`;
+      )}</span><span class="g">${company ? `<span class="company">${escapeHtml(company)}</span> ` : ''}<span class="score">${escapeHtml(grade)}${
+        grader && row.star ? '<span class="star"> ★</span>' : ''
+      }</span></span></li>`;
     })
     .join('\n');
 
@@ -143,7 +153,7 @@ export function renderLabel({ bin, qrSvg, url, config }) {
     <div class="bin-no"${bin.isPhysicalCase?' style="font-size:19pt;line-height:1.05"':''}>${escapeHtml(bin.isPhysicalCase?bin.title:'BIN '+bin.bin)}</div>
 ${!bin.isPhysicalCase&&bin.title && bin.title !== `Bin ${bin.bin}` ? `    <div class="bin-title">${escapeHtml(bin.title)}</div>` : ''}
     <div class="bin-meta">
-      <strong>${escapeHtml(bin.labelRange||comics.length)}</strong> ${bin.isPhysicalCase?'copies':'CGC graded'}${
+      <strong>${escapeHtml(bin.labelRange||comics.length)}</strong> copies${
         bin.location ? ` &middot; ${escapeHtml(bin.location)}` : ''
       }<br>
       ${topPops ? `★ ${topPops} top pop<br>` : ''}${bin.isPhysicalCase?'Printed '+new Date().toISOString().slice(0,10):'Updated '+escapeHtml(bin.updated ?? '')}

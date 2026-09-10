@@ -1,10 +1,10 @@
-# Collection status - September 8, 2026
+# Collection status - September 9, 2026
 
 This is a snapshot of the stored inventory, not a new appraisal or a fresh grader lookup.
 
 **910 objects: 673 comics and 237 cards.**
 884 have front scans; 26 are still missing them.
-19 physical containers hold 847 copies.
+19 physical containers hold 861 copies.
 
 ## Containers
 
@@ -21,12 +21,11 @@ This is a snapshot of the stored inventory, not a new appraisal or a fresh grade
 | Bin 09 | `09` | 24 | Physical container |
 | Bin 11 | `11` | 25 | Physical container |
 | Display Wall | `wall` | 5 | Physical container |
-| Case #1 | `case-01` | 12 | Physical container |
+| Case #1 | `case-01` | 26 | Physical container |
 | Case #2 | `case-02` | 57 | Physical container |
 | Graded PSA Case #3 | `case-03` | 94 | Physical container |
 | Case Wall Display (Office) | `case-wall-office` | 11 | Physical container |
 | PSA Vault | `psa-vault` | 49 | External custody |
-| TAG Collection | `tag-collection` | 14 | Location unassigned |
 | Comic Bin #13 (Softslabs) | `comic-bin-13` | 98 | Physical container |
 | Comic Bin #14 (Softslabs) | `comic-bin-14` | 97 | Physical container |
 | Comic Bin #15 (Softslabs) | `comic-bin-15` | 123 | Physical container |
@@ -39,10 +38,13 @@ Find > Raw comics now opens those 96 owner scans directly. Their focus labels an
 record IDs are readable while identification is pending, and Singularity spreads
 them through the full flight instead of clustering their sequential scan IDs.
 
-Case #1 contains 11 CGC cards and one Arena Club card. Case #2 contains 57 TAG cards.
+Case #1 contains 14 TAG cards, 11 CGC cards and one Arena Club card. Case #2 contains 57 TAG cards.
 The office card wall contains nine TAG and two PSA cards. PSA Case #3 contains 94
 cards, including bare-number entries 108031205, 114218231 and 24709368. The 49-card
-PSA Vault export and 14 original TAG cards remain in their separate groups.
+PSA Vault export remains in external custody. On September 9, the owner assigned
+the 14 original TAG cards to Case #1. Their existing records and slab photographs
+were moved from the unassigned group; no duplicate copies were created. See the
+[assignment record](../data/incoming/2026-09-09-tag-case-01-assignment.json).
 
 ## Recorded values
 
@@ -63,7 +65,7 @@ Inventory growth and newly valued records affect totals; these are not investmen
 
 - All 80 TAG cards now use verified full-slab front and back photographs from
   each cert page's Slabbed image captures section: 57 in Case #2, nine on the
-  office wall and 14 in TAG Collection. The original card-only MAIN scans and
+  office wall and 14 in Case #1. The original card-only MAIN scans and
   their source history remain in `cardScans`. The viewer, its overview textures,
   and the physical-case master sheets use the slab photographs. Source manifests
   and repeat-import instructions are linked in the [viewer guide](prototypes/README.md).
@@ -74,7 +76,6 @@ Inventory growth and newly valued records affect totals; these are not investmen
 - Twenty-one PSA cards have no scans on their reviewed cert pages: twenty in
   Case #3 and cert 62837377 in PSA Vault. Five legacy graded comics also need front
   scans. Use Admin > Photos to attach an exact-copy front/back image.
-- The original 14 TAG cards still need a physical storage assignment.
 - The 96 owner-scanned raw books in Bin #15 need title/issue identification.
 - Singularity now uses the owner's supplied *Cornfield Chase* MP3, with looping
   playback, a Music toggle, and uninterrupted audio when controls are hidden.

@@ -181,6 +181,12 @@ export async function verifyPrint({ size = 25 } = {}) {
       await page.waitForLoadState('networkidle');
       const missingImages = await page.evaluate(() => [...document.images].filter(img => !img.complete || !img.naturalWidth).length);
       if (missingImages) failures.push(`${check.name}: ${missingImages} referenced images failed to load`);
+      if (check.w === 4) {
+        const clippedGrades = await page.locator('.g').evaluateAll(elements => elements
+          .filter(el => el.scrollWidth > el.clientWidth + 1)
+          .map(el => el.textContent.trim()));
+        if (clippedGrades.length) failures.push(`${check.name}: grading column clips ${clippedGrades.join(', ')}`);
+      }
       const pdfPath = path.join(OUT_DIR, check.pdf);
       await page.pdf({ path: pdfPath, preferCSSPageSize: true, printBackground: true });
 

@@ -100,7 +100,8 @@ portable review data.
 The September 8 TAG slab-source manifests are grouped by
 [Case #2](../../data/incoming/2026-09-08-tag-slabs-case-02.json),
 [office wall](../../data/incoming/2026-09-08-tag-slabs-case-wall-office.json), and
-[TAG Collection](../../data/incoming/2026-09-08-tag-slabs-tag-collection.json).
+[original TAG Collection](../../data/incoming/2026-09-08-tag-slabs-tag-collection.json)
+(now assigned to Case #1; use `data/cards/case-01.json` when refreshing these images).
 Pass a manifest and its matching `data/cards/<container>.json` file to
 `npm run cards:images --`. Requests are paced; a 403/429 stops the batch. Let the
 source recover before retrying; completed sides are skipped on the next run.
@@ -120,8 +121,9 @@ It creates PDFs and does not send them to a printer.
 
 The [print index](../../print/README.md) contains the 4 x 6 label pack, duplex Letter
 master-sheet pack, complete collection master list, individual PDFs and page
-ranges. Physical paperwork covers 847 copies in 19 containers; the complete list
-also includes the 49 PSA Vault and 14 unassigned TAG cards. Keep the blank reverse
+ranges. Physical paperwork covers 861 copies in 19 containers; the complete list
+also includes the 49 PSA Vault cards. All 14 original TAG cards are assigned to
+Case #1 and included in its label and master sheets. Keep the blank reverse
 pages in the combined duplex pack.
 
 **Admin > Photos** searches an existing cert/title, selects front or back, and

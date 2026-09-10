@@ -115,7 +115,7 @@ Writes ready-to-print files to [`print/`](print/), which is committed to the rep
 | --- | --- |
 | `print/all-case-labels-4x6.pdf` | **4×6, single-sided**, every physical container |
 | `print/all-case-master-sheets-letter.pdf` | **Letter portrait, double-sided, long-edge flip**; each case starts on a fresh sheet |
-| `print/collection-master-list.pdf` | **Letter landscape**, all 910 stored copies including PSA Vault and unassigned TAG cards |
+| `print/collection-master-list.pdf` | **Letter landscape**, all 910 stored copies including PSA Vault |
 | `print/bin-<id>-label.pdf` / `bin-<id>-sheet.pdf` | One container's labels or sheets |
 
 Print the **PDFs**, not the HTML. A PDF carries its own page size, so 4×6 comes
@@ -125,6 +125,10 @@ print dialog offers scaling, set it to 100% / "actual size".
 The [print index](print/README.md) lists every container and its page ranges. The
 combined master-sheet PDF includes blank reverse pages for duplex separation;
 keep those blanks. Matching `.html` files are written alongside for previews.
+
+Every 4×6 label row identifies the grading company beside its grade: PSA, TAG,
+CGC, CBCS or Arena Club. Ungraded books show RAW; authenticated softslabs show
+Authority RAW.
 
 `npm run build` refreshes the catalogue and immersive app. `npm run print` creates
 the permanent paperwork from all physical comic/card containers. `dist/` is

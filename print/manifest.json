@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-08T23:54:58.766Z",
+  "generatedAt": "2026-09-10T04:22:43.934Z",
   "objects": 910,
   "physicalContainers": 19,
-  "physicalCopies": 847,
+  "physicalCopies": 861,
   "labels": {
     "file": "all-case-labels-4x6.pdf",
     "pages": 37,
@@ -98,7 +98,7 @@
       {
         "id": "case-01",
         "title": "Case #1",
-        "copies": 12,
+        "copies": 26,
         "firstPage": 12,
         "lastPage": 12,
         "blankPage": null
@@ -257,10 +257,10 @@
       {
         "id": "case-01",
         "title": "Case #1",
-        "copies": 12,
+        "copies": 26,
         "firstPage": 23,
-        "lastPage": 23,
-        "blankPage": 24
+        "lastPage": 24,
+        "blankPage": null
       },
       {
         "id": "case-02",

@@ -54,7 +54,7 @@ ol { list-style: none; margin-top: 0.06in; }
 
 li {
   display: grid;
-  grid-template-columns: 2.8in 1fr;
+  grid-template-columns: 2.65in 1fr;
   align-items: center;
   column-gap: 0.05in;
   height: 0.1668in;
@@ -73,6 +73,11 @@ li:last-child { border-bottom: 0; }
 }
 
 .g {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  gap: 0.04in;
+  min-width: 0;
   font-size: 10pt;
   font-weight: 700;
   text-align: right;
@@ -81,6 +86,7 @@ li:last-child { border-bottom: 0; }
   line-height: 1.15;
 }
 
+.company { font-size: 7pt; font-weight: 600; }
 .star { font-size: 8.5pt; }
 
 footer {
@@ -103,7 +109,7 @@ footer {
     <div class="bin-no">BIN 03</div>
 
     <div class="bin-meta">
-      <strong>25</strong> CGC graded<br>
+      <strong>25</strong> copies<br>
       ★ 14 top pop<br>Updated 2026-08-19
     </div>
   </div>
@@ -112,31 +118,31 @@ footer {
 </header>
 
 <ol>
-      <li><span class="t" style="font-size:9.5pt">Amazing Fantasy #1000</span><span class="g">9.0</span></li>
-      <li><span class="t" style="font-size:8.5pt">Amazing Spider-Man #21 : Weaver Variant Cover</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.5pt">Spider-Man #4 : Variant Edition</span><span class="g">9.4</span></li>
-      <li><span class="t" style="font-size:8.8pt">Amazing Spider-Man #21 : Comic Mint Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.5pt">Amazing Spider-Man #1 : Hustl. Edition</span><span class="g">9.4</span></li>
-      <li><span class="t" style="font-size:7pt">Amazing Spider-Man #21 : Comic Mint &quot;Virgin&quot; Edition A</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:8.1pt">Amazing Spider-Man #19 : Nakayama Variant Cover</span><span class="g">9.8</span></li>
-      <li><span class="t" style="font-size:8.3pt">Amazing Fantasy #1000 : Campbell Variant Cover</span><span class="g">9.8</span></li>
-      <li><span class="t" style="font-size:9.5pt">Spider-Verse #6</span><span class="g">9.4</span></li>
-      <li><span class="t" style="font-size:8.8pt">Amazing Spider-Man #23 : Comic Mint Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:7.5pt">Amazing Spider-Man #19 : Perissinotto Variant Cover</span><span class="g">9.8</span></li>
-      <li><span class="t" style="font-size:7.8pt">Amazing Spider-Man #21 : Mangiatordi Sketch Cover</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:7.6pt">Amazing Spider-Man #21 : Mangiatordi Variant Cover</span><span class="g">9.2</span></li>
-      <li><span class="t" style="font-size:8.1pt">Amazing Spider-Man #20 : Nakayama Variant Cover</span><span class="g">9.6</span></li>
-      <li><span class="t" style="font-size:6.5pt">Ultimate Fallout: Facsimile Edition #4 : Mayhew Variant Cover</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.5pt">Amazing Spider-Man #27 : Variant Edition</span><span class="g">9.8</span></li>
-      <li><span class="t" style="font-size:6.5pt">Miles Morales: Spider-Man #39 : Comic Mint Convention Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:6.5pt">Ultimate Fallout #4 : Second Printing/Pichelli Variant Cover</span><span class="g">9.6</span></li>
-      <li><span class="t" style="font-size:6.5pt">Miles Morales: Spider-Man #2 : Sad Lemons Comics &quot;Virgin&quot; Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:7.6pt">Miles Morales: Spider-Man #41 : Comic Mint Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:7pt">Miles Morales: Spider-Man #2 : Vicentini Variant Cover</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:6.5pt">Miles Morales: Spider-Man #3 : The Syndicate &quot;Virgin&quot; Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:7.8pt">Miles Morales: Spider-Man #39 : Tao Variant Cover</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:7.3pt">Miles Morales: Spider-Man #4 : Bachalo Variant Cover</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:6.5pt">Miles Morales: Spider-Man #42 : KRS Comics &quot;Virgin&quot; Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Amazing Fantasy #1000</span><span class="g"><span class="company">CGC</span> <span class="score">9.0</span></span></li>
+      <li><span class="t" style="font-size:8pt">Amazing Spider-Man #21 : Weaver Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Spider-Man #4 : Variant Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.4</span></span></li>
+      <li><span class="t" style="font-size:8.4pt">Amazing Spider-Man #21 : Comic Mint Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Amazing Spider-Man #1 : Hustl. Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.4</span></span></li>
+      <li><span class="t" style="font-size:6.7pt">Amazing Spider-Man #21 : Comic Mint &quot;Virgin&quot; Edition A</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:7.7pt">Amazing Spider-Man #19 : Nakayama Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8</span></span></li>
+      <li><span class="t" style="font-size:7.8pt">Amazing Fantasy #1000 : Campbell Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8</span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Spider-Verse #6</span><span class="g"><span class="company">CGC</span> <span class="score">9.4</span></span></li>
+      <li><span class="t" style="font-size:8.4pt">Amazing Spider-Man #23 : Comic Mint Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:7.1pt">Amazing Spider-Man #19 : Perissinotto Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8</span></span></li>
+      <li><span class="t" style="font-size:7.3pt">Amazing Spider-Man #21 : Mangiatordi Sketch Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:7.2pt">Amazing Spider-Man #21 : Mangiatordi Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.2</span></span></li>
+      <li><span class="t" style="font-size:7.7pt">Amazing Spider-Man #20 : Nakayama Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.6</span></span></li>
+      <li><span class="t" style="font-size:6.5pt">Ultimate Fallout: Facsimile Edition #4 : Mayhew Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:9pt">Amazing Spider-Man #27 : Variant Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8</span></span></li>
+      <li><span class="t" style="font-size:6.5pt">Miles Morales: Spider-Man #39 : Comic Mint Convention Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:6.5pt">Ultimate Fallout #4 : Second Printing/Pichelli Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.6</span></span></li>
+      <li><span class="t" style="font-size:6.5pt">Miles Morales: Spider-Man #2 : Sad Lemons Comics &quot;Virgin&quot; Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:7.2pt">Miles Morales: Spider-Man #41 : Comic Mint Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:6.7pt">Miles Morales: Spider-Man #2 : Vicentini Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:6.5pt">Miles Morales: Spider-Man #3 : The Syndicate &quot;Virgin&quot; Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:7.3pt">Miles Morales: Spider-Man #39 : Tao Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:6.9pt">Miles Morales: Spider-Man #4 : Bachalo Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:6.5pt">Miles Morales: Spider-Man #42 : KRS Comics &quot;Virgin&quot; Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
 </ol>
 
 <footer>

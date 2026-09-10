@@ -54,7 +54,7 @@ ol { list-style: none; margin-top: 0.06in; }
 
 li {
   display: grid;
-  grid-template-columns: 2.8in 1fr;
+  grid-template-columns: 2.65in 1fr;
   align-items: center;
   column-gap: 0.05in;
   height: 0.1813in;
@@ -73,6 +73,11 @@ li:last-child { border-bottom: 0; }
 }
 
 .g {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  gap: 0.04in;
+  min-width: 0;
   font-size: 10pt;
   font-weight: 700;
   text-align: right;
@@ -81,6 +86,7 @@ li:last-child { border-bottom: 0; }
   line-height: 1.15;
 }
 
+.company { font-size: 7pt; font-weight: 600; }
 .star { font-size: 8.5pt; }
 
 footer {
@@ -103,7 +109,7 @@ footer {
     <div class="bin-no">BIN 02</div>
 
     <div class="bin-meta">
-      <strong>23</strong> CGC graded<br>
+      <strong>23</strong> copies<br>
       ★ 16 top pop<br>Updated 2026-08-17
     </div>
   </div>
@@ -112,29 +118,29 @@ footer {
 </header>
 
 <ol>
-      <li><span class="t" style="font-size:9.5pt">w0rldtr33 #4 : No Masss Comics Edition</span><span class="g">9.9<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:6.6pt">Something is Killing the Children #31 : Tiny Onion Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:7.5pt">G&#39;nort&#39;s Swimsuit Edition #1 : KRS Comics Edition B</span><span class="g">9.8</span></li>
-      <li><span class="t" style="font-size:9.5pt">w0rldtr33 #5 : The Comic Corner Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.5pt">w0rldtr33 #5 : Near Mint Comics Edition</span><span class="g">8.0</span></li>
-      <li><span class="t" style="font-size:6.5pt">Star Wars: Visions - Peach Momoko #1 : Trinity Comics Edition</span><span class="g">9.8</span></li>
-      <li><span class="t" style="font-size:9.5pt">w0rldtr33 #5 : Near Mint Comics Edition</span><span class="g">9.4</span></li>
-      <li><span class="t" style="font-size:7.9pt">Death of the Venomverse #1 : Li &quot;Virgin&quot; Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:7.2pt">w0rldtr33 #1 : Third Printing/No Masss Comics Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:7.2pt">w0rldtr33 #1 : Third Printing/No Masss Comics Edition</span><span class="g">9.6</span></li>
-      <li><span class="t" style="font-size:8.6pt">The Addiction #1 : NYCC Lau &quot;Virgin&quot; Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.5pt">The Cull #1 : Shrike Variant Cover</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:7.5pt">G&#39;nort&#39;s Swimsuit Edition #1 : KRS Comics Edition A</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:8.5pt">The Addiction #1 : NYCC Mack &quot;Virgin&quot; Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.5pt">Poison Ivy #10 : Frison Foil Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.5pt">She-Hulk #12 : Variant Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:6.5pt">Whatnot Publishing Sampler #1 : Kickstradomis Red Lava Edition</span><span class="g">10<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:7.3pt">Vengeance of the Moon Knight #1 : Gist Variant Cover</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:6.5pt">Power Rangers Unlimited: The Coinless #1 : Frison Foil Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.5pt">Transformers #1 : Manapul Variant Cover</span><span class="g">9.8</span></li>
-      <li><span class="t" style="font-size:9.5pt">Transformers #1 : Chiang Variant Cover</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:6.6pt">Batman: Facsimile Edition #655 : Whatnot Special Edition C</span><span class="g">9.9<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:6.5pt">Something is Killing the Children #25 : ComicTom101 Edition B</span><span class="g">9.8</span></li>
+      <li><span class="t" style="font-size:9.5pt">w0rldtr33 #4 : No Masss Comics Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.9<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:6.5pt">Something is Killing the Children #31 : Tiny Onion Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:7.1pt">G&#39;nort&#39;s Swimsuit Edition #1 : KRS Comics Edition B</span><span class="g"><span class="company">CGC</span> <span class="score">9.8</span></span></li>
+      <li><span class="t" style="font-size:9.2pt">w0rldtr33 #5 : The Comic Corner Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:9.2pt">w0rldtr33 #5 : Near Mint Comics Edition</span><span class="g"><span class="company">CGC</span> <span class="score">8.0</span></span></li>
+      <li><span class="t" style="font-size:6.5pt">Star Wars: Visions - Peach Momoko #1 : Trinity Comics Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8</span></span></li>
+      <li><span class="t" style="font-size:9.2pt">w0rldtr33 #5 : Near Mint Comics Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.4</span></span></li>
+      <li><span class="t" style="font-size:7.5pt">Death of the Venomverse #1 : Li &quot;Virgin&quot; Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:6.8pt">w0rldtr33 #1 : Third Printing/No Masss Comics Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:6.8pt">w0rldtr33 #1 : Third Printing/No Masss Comics Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.6</span></span></li>
+      <li><span class="t" style="font-size:8.2pt">The Addiction #1 : NYCC Lau &quot;Virgin&quot; Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:9.5pt">The Cull #1 : Shrike Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:7.1pt">G&#39;nort&#39;s Swimsuit Edition #1 : KRS Comics Edition A</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:8pt">The Addiction #1 : NYCC Mack &quot;Virgin&quot; Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Poison Ivy #10 : Frison Foil Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:9.5pt">She-Hulk #12 : Variant Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:6.5pt">Whatnot Publishing Sampler #1 : Kickstradomis Red Lava Edition</span><span class="g"><span class="company">CGC</span> <span class="score">10<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:6.9pt">Vengeance of the Moon Knight #1 : Gist Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:6.5pt">Power Rangers Unlimited: The Coinless #1 : Frison Foil Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:9.2pt">Transformers #1 : Manapul Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8</span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Transformers #1 : Chiang Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:6.5pt">Batman: Facsimile Edition #655 : Whatnot Special Edition C</span><span class="g"><span class="company">CGC</span> <span class="score">9.9<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:6.5pt">Something is Killing the Children #25 : ComicTom101 Edition B</span><span class="g"><span class="company">CGC</span> <span class="score">9.8</span></span></li>
 </ol>
 
 <footer>

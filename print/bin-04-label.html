@@ -54,7 +54,7 @@ ol { list-style: none; margin-top: 0.06in; }
 
 li {
   display: grid;
-  grid-template-columns: 2.8in 1fr;
+  grid-template-columns: 2.65in 1fr;
   align-items: center;
   column-gap: 0.05in;
   height: 0.1813in;
@@ -73,6 +73,11 @@ li:last-child { border-bottom: 0; }
 }
 
 .g {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  gap: 0.04in;
+  min-width: 0;
   font-size: 10pt;
   font-weight: 700;
   text-align: right;
@@ -81,6 +86,7 @@ li:last-child { border-bottom: 0; }
   line-height: 1.15;
 }
 
+.company { font-size: 7pt; font-weight: 600; }
 .star { font-size: 8.5pt; }
 
 footer {
@@ -103,7 +109,7 @@ footer {
     <div class="bin-no">BIN 04</div>
 
     <div class="bin-meta">
-      <strong>23</strong> CGC graded<br>
+      <strong>23</strong> copies<br>
       ★ 11 top pop<br>Updated 2026-08-21
     </div>
   </div>
@@ -112,29 +118,29 @@ footer {
 </header>
 
 <ol>
-      <li><span class="t" style="font-size:9.5pt">Ultimate Spider-Man #2 : Third Printing</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.1pt">Ultimate X-Men #2 : Momoko Variant Cover A</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:8.1pt">Spectacular Spider-Men #1 : Ramos Variant Cover</span><span class="g">9.6</span></li>
-      <li><span class="t" style="font-size:9.5pt">Spider-Boy #6 : Momoko Variant Cover</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.5pt">Ultimate X-Men #2 : Choi Variant Cover</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:6.5pt">Marvel&#39;s Voices: Spider-Verse #1 : Su &quot;Virgin&quot; Sketch Edition</span><span class="g">9.4</span></li>
-      <li><span class="t" style="font-size:9.5pt">Ultimate X-Men #2</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.5pt">X-Men #27 : Trinity Comics Edition</span><span class="g">9.4</span></li>
-      <li><span class="t" style="font-size:9.5pt">Spider-Boy #1 : Vecchio Variant Cover</span><span class="g">9.6</span></li>
-      <li><span class="t" style="font-size:9.5pt">Silver Surfer: Black #1</span><span class="g">9.6</span></li>
-      <li><span class="t" style="font-size:8.5pt">Do You Pooh? #1 : Fadeaway &quot;Virgin&quot; Edition B</span><span class="g">9.8</span></li>
-      <li><span class="t" style="font-size:9.5pt">Back to the Future #1 : Second Printing</span><span class="g">9.4</span></li>
-      <li><span class="t" style="font-size:6.6pt">Canto II: The Hollow Men #1 : Gotham Central/El Rey Virgin</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:8.8pt">Fame: Mike Tyson #nn : Waite Foil Edition B</span><span class="g">9.8</span></li>
-      <li><span class="t" style="font-size:9.5pt">Catwoman #13</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:9.5pt">Wolverine #1 : Gleason Variant Cover</span><span class="g">9.8</span></li>
-      <li><span class="t" style="font-size:8.1pt">Wolverine: Facsimile Edition #88 : Foil Edition</span><span class="g">9.8</span></li>
-      <li><span class="t" style="font-size:6.9pt">Do You Pooh? #1 : Magic Pooh vs Air Pooh Foil Edition B</span><span class="g">9.9<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:7.3pt">Fame: Michael J. Fox #nn : Official Pix Foil Edition</span><span class="g">9.8</span></li>
-      <li><span class="t" style="font-size:6.9pt">Do You Pooh? #1 : SMZ Comics Convention Metal Edition B</span><span class="g">9.9<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:7.8pt">Fame: Mike Tyson #nn : Crush Collectibles Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
-      <li><span class="t" style="font-size:7.8pt">Fame: Michael Jordan #nn : Bueckert Variant Cover</span><span class="g">9.8</span></li>
-      <li><span class="t" style="font-size:8.6pt">Revolution #1 : Sharper Collectibles Edition</span><span class="g">9.8<span class="star"> ★</span></span></li>
+      <li><span class="t" style="font-size:9.2pt">Ultimate Spider-Man #2 : Third Printing</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:8.6pt">Ultimate X-Men #2 : Momoko Variant Cover A</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:7.7pt">Spectacular Spider-Men #1 : Ramos Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.6</span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Spider-Boy #6 : Momoko Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Ultimate X-Men #2 : Choi Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:6.5pt">Marvel&#39;s Voices: Spider-Verse #1 : Su &quot;Virgin&quot; Sketch Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.4</span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Ultimate X-Men #2</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:9.5pt">X-Men #27 : Trinity Comics Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.4</span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Spider-Boy #1 : Vecchio Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.6</span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Silver Surfer: Black #1</span><span class="g"><span class="company">CGC</span> <span class="score">9.6</span></span></li>
+      <li><span class="t" style="font-size:8pt">Do You Pooh? #1 : Fadeaway &quot;Virgin&quot; Edition B</span><span class="g"><span class="company">CGC</span> <span class="score">9.8</span></span></li>
+      <li><span class="t" style="font-size:9.2pt">Back to the Future #1 : Second Printing</span><span class="g"><span class="company">CGC</span> <span class="score">9.4</span></span></li>
+      <li><span class="t" style="font-size:6.5pt">Canto II: The Hollow Men #1 : Gotham Central/El Rey Virgin</span><span class="g"><span class="company">CBCS</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:8.4pt">Fame: Mike Tyson #nn : Waite Foil Edition B</span><span class="g"><span class="company">CGC</span> <span class="score">9.8</span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Catwoman #13</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:9.5pt">Wolverine #1 : Gleason Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8</span></span></li>
+      <li><span class="t" style="font-size:7.7pt">Wolverine: Facsimile Edition #88 : Foil Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8</span></span></li>
+      <li><span class="t" style="font-size:6.5pt">Do You Pooh? #1 : Magic Pooh vs Air Pooh Foil Edition B</span><span class="g"><span class="company">CGC</span> <span class="score">9.9<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:6.9pt">Fame: Michael J. Fox #nn : Official Pix Foil Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8</span></span></li>
+      <li><span class="t" style="font-size:6.5pt">Do You Pooh? #1 : SMZ Comics Convention Metal Edition B</span><span class="g"><span class="company">CGC</span> <span class="score">9.9<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:7.3pt">Fame: Mike Tyson #nn : Crush Collectibles Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
+      <li><span class="t" style="font-size:7.3pt">Fame: Michael Jordan #nn : Bueckert Variant Cover</span><span class="g"><span class="company">CGC</span> <span class="score">9.8</span></span></li>
+      <li><span class="t" style="font-size:8.2pt">Revolution #1 : Sharper Collectibles Edition</span><span class="g"><span class="company">CGC</span> <span class="score">9.8<span class="star"> ★</span></span></span></li>
 </ol>
 
 <footer>

@@ -580,6 +580,36 @@
         "ownerTotal": 0,
         "undated": 45
       }
+    },
+    {
+      "observedAt": "2026-09-10T04:21:57.232Z",
+      "source": "build",
+      "fingerprint": "d7f123e91fcd3c2cff3a398fcb5ea4a9a98b78c39d932d5c60e6d9269804aead",
+      "total": 28658,
+      "count": 910,
+      "valued": 301,
+      "unvalued": 609,
+      "marketTotal": 28658,
+      "ownerTotal": 0,
+      "undated": 45,
+      "comics": {
+        "total": 11483,
+        "count": 673,
+        "valued": 163,
+        "unvalued": 510,
+        "marketTotal": 11483,
+        "ownerTotal": 0,
+        "undated": 0
+      },
+      "cards": {
+        "total": 17175,
+        "count": 237,
+        "valued": 138,
+        "unvalued": 99,
+        "marketTotal": 17175,
+        "ownerTotal": 0,
+        "undated": 45
+      }
     }
   ]
 }

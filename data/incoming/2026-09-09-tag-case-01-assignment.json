@@ -1,0 +1,81 @@
+{
+  "type": "location-assignment",
+  "recordedAt": "2026-09-10T04:20:00.253Z",
+  "source": "Owner confirmed all listed TAG cards are physically in Case #1",
+  "from": "tag-collection",
+  "to": "case-01",
+  "existingCardsMoved": 14,
+  "newCardsAdded": 0,
+  "records": [
+    {
+      "grader": "TAG",
+      "cert": "S2994291",
+      "certUrl": "https://my.taggrading.com/card/S2994291"
+    },
+    {
+      "grader": "TAG",
+      "cert": "Q9937497",
+      "certUrl": "https://my.taggrading.com/card/Q9937497"
+    },
+    {
+      "grader": "TAG",
+      "cert": "K8931484",
+      "certUrl": "https://my.taggrading.com/card/K8931484"
+    },
+    {
+      "grader": "TAG",
+      "cert": "H1870819",
+      "certUrl": "https://my.taggrading.com/card/H1870819"
+    },
+    {
+      "grader": "TAG",
+      "cert": "H7738551",
+      "certUrl": "https://my.taggrading.com/card/H7738551"
+    },
+    {
+      "grader": "TAG",
+      "cert": "T4684141",
+      "certUrl": "https://my.taggrading.com/card/T4684141"
+    },
+    {
+      "grader": "TAG",
+      "cert": "K3472903",
+      "certUrl": "https://my.taggrading.com/card/K3472903"
+    },
+    {
+      "grader": "TAG",
+      "cert": "D9973845",
+      "certUrl": "https://my.taggrading.com/card/D9973845"
+    },
+    {
+      "grader": "TAG",
+      "cert": "Y2994116",
+      "certUrl": "https://my.taggrading.com/card/Y2994116"
+    },
+    {
+      "grader": "TAG",
+      "cert": "R4092198",
+      "certUrl": "https://my.taggrading.com/card/R4092198"
+    },
+    {
+      "grader": "TAG",
+      "cert": "H9812622",
+      "certUrl": "https://my.taggrading.com/card/H9812622"
+    },
+    {
+      "grader": "TAG",
+      "cert": "F9615045",
+      "certUrl": "https://my.taggrading.com/card/F9615045"
+    },
+    {
+      "grader": "TAG",
+      "cert": "L6527429",
+      "certUrl": "https://my.taggrading.com/card/L6527429"
+    },
+    {
+      "grader": "TAG",
+      "cert": "E1992795",
+      "certUrl": "https://my.taggrading.com/card/E1992795"
+    }
+  ]
+}
