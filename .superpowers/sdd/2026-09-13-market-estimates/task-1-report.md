@@ -123,3 +123,18 @@ Logs retained at `.superpowers/sdd/2026-09-13-market-estimates/task-1-focused.lo
 - Core matches stored explicit fields conservatively. Provider adapters must map their verified fields to the record snapshot and mark ambiguous matches pending; unknown identities are never inferred from a title search.
 - Existing refresh-tag-values.js still deletes legacy `psaComparison` on no new match. New selected observations survive because they are separate. Controller notified task 2 should preserve valid prior comparison evidence on failed acquisition; this task did not cross into provider integration.
 - Browser public build/server must make the added pure module dependency available as needed (task 3 ownership). No server/build paths changed here.
+
+## Review follow-up: eligibility and dynamic pilot coverage
+
+Addressed both Important findings from task-1-review.md and two controller integration findings. Added regressions first and observed failures before implementation:
+
+1. Three matching raw sales with null/empty/unknown condition incorrectly returned eligible. Missing graded grade or grader also incorrectly established eligibility. The estimator now retains matching transactions as `{status:'review',provisional:true,value:null,range:null}` when these essential fields are absent. A graded target needs a finite positive numeric grade at most 10 and a meaningful named grader. A raw target (null grade and grader) needs an assessed condition via the shared condition helper. Assessed raw `{grade:'VF'}` still produces an eligible median from three compatible sales.
+2. Ten present preferred TAG IDs incorrectly exhausted the quota before outside half-grade/exclusive coverage. Required coverage is now reserved first, preferring qualifying rows within the preferred IDs; remaining slots fill from preferred IDs and deterministic sorted fallback. This makes coverage depend on actual current attributes, not hard-coded assumptions about those copies. Regression uses ten preferred IDs with neither attribute plus two outside coverage candidates, and checks quota, uniqueness and reversed-input determinism.
+3. Legacy CGC comics without stored grader now route their first source query to GoCollect using the normalized CGC grader. Explicit CGC card records remain outside comic GoCollect routing.
+4. TAG WORLD SCARIES in stored brand/series identifies the owner's exclusive set for special coverage. BLOOD RED HOLO/LUNAR GOLD HOLO therefore qualify; ordinary Pokemon HOLO does not become exclusive merely from being holo.
+
+Touched estimator control flow and pilot reservation/output blocks were expanded for readability. No persistence, observation, provider, UI or real data changes.
+
+Verification: `node --test src/valuation/sold-comps.test.js src/valuation/queue.test.js` **10/10 passed**; all core tests `node --test src/valuation/*.test.js` **25/25 passed**; `git diff --check` clean except Git CRLF normalization warnings. Full suite not rerun in this focused follow-up. Log: `task-1-review-focused.log`.
+
+Read-only real pilot verification after fixes: no quota shortfalls. TAG selection in order: L3302729, G7325430, E3314397, M9505930, U5165558, C5407435, H1870819, R4092198, H9812622, S2994291 (each full ID prefixed TAG:). This is the same ten researched copies: four half-grades and both stored World Scaries exclusives remain included, and unrelated rainbow-foil H6422814 no longer displaces S2994291. No inventory writes performed.

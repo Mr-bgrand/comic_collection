@@ -21,3 +21,24 @@ test('nested qualifiers match structurally and empty identities cannot establish
  const entries=sales([10,20,30]).map(e=>({...e,identity:structuredClone(qualified.identity)}));assert.equal(estimator.estimateSoldComps(qualified,entries).value,20);
  assert.equal(estimator.estimateSoldComps({...target,identity:{}},sales([10,20,30]).map(e=>({...e,identity:{}}))).value,null);
 });
+test('missing raw condition or graded grade/grader remains review-only despite three sales', () => {
+ for (const patch of [
+  {grade:null,grader:null,condition:null},
+  {grade:null,grader:null,condition:{}},
+  {grade:null,grader:null,condition:'unknown'},
+  {grade:null,grader:'CGC'},
+  {grade:'9.8',grader:null},
+  {grade:'',grader:'CGC'},
+  {grade:'9.8',grader:'unknown'}
+ ]) {
+  const incomplete={...target,...patch};
+  const entries=sales([10,20,30]).map(sale=>({...sale,...patch}));
+  const result=estimator.estimateSoldComps(incomplete,entries);
+  assert.equal(result.status,'review',JSON.stringify(patch));
+  assert.equal(result.value,null);assert.equal(result.range,null);
+  assert.equal(result.transactions.length,3);assert.equal(result.provisional,true);
+ }
+ const raw={...target,grade:null,grader:null,condition:{grade:'VF'}};
+ const assessed=estimator.estimateSoldComps(raw,sales([10,20,30]).map(sale=>({...sale,grade:null,grader:null,condition:{grade:'VF'}})));
+ assert.equal(assessed.status,'eligible');assert.equal(assessed.value,20);
+});

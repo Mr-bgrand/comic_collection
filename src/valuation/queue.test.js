@@ -17,3 +17,30 @@ test('pilot fills distinct quotas deterministically and reports shortfall',()=>{
 test('CGC pilot chooses comics rather than card records sharing the grader',()=>{
  const rows=[entry('CGC:card',{kind:'card',year:2025,brand:'Card',subject:'Card',cardNumber:'1'}),entry('CGC:comic')];const p=queue.selectPilot(queue.buildQueue(rows));assert.deepEqual(p.items.filter(r=>r.pilotCategory==='CGC').map(r=>r.copyId),['CGC:comic']);
 });
+test('TAG pilot reserves dynamic half-grade and exclusive coverage before preferred IDs fill quota', () => {
+ const ids=['L3302729','E3314397','M9505930','U5165558','G7325430','C5407435','H1870819','R4092198','H9812622','S2994291'];
+ const tag=(id,patch={})=>entry(`TAG:${id}`,{kind:'card',grader:'TAG',year:2024,brand:'Test',subject:'Card',cardNumber:id,grade:'10',...patch});
+ const records=[...ids.map(id=>tag(id)),tag('outside-half',{grade:'8.5'}),tag('outside-exclusive',{variety:'Retailer Exclusive'})];
+ const rows=queue.buildQueue(records);
+ const result=queue.selectPilot(rows);
+ assert.equal(result.items.length,10);assert.equal(new Set(result.items.map(row=>row.copyId)).size,10);
+ assert.ok(result.items.some(row=>row.copyId==='TAG:outside-half'));
+ assert.ok(result.items.some(row=>row.copyId==='TAG:outside-exclusive'));
+ assert.deepEqual(queue.selectPilot([...rows].reverse()),result);
+});
+test('legacy CGC comics use normalized grader for GoCollect query routing', () => {
+ const legacy=entry('CGC:legacy');delete legacy.record.grader;
+ const row=queue.buildQueue([legacy])[0];
+ assert.equal(row.grader,'CGC');assert.equal(row.sourceQueries[0].source,'GoCollect');
+ assert.match(row.sourceQueries[0].query,/CGC 9.8/);
+});
+test('TAG World Scaries editions qualify as exclusive coverage without classifying every holo as exclusive', () => {
+ const rows=queue.buildQueue([
+  entry('TAG:scaries',{kind:'card',grader:'TAG',brand:'TAG WORLD SCARIES',variety:'BLOOD RED HOLO'}),
+  entry('TAG:scaries-series',{kind:'card',grader:'TAG',brand:'TAG',series:'TAG WORLD SCARIES',variety:'LUNAR GOLD HOLO'}),
+  entry('TAG:pokemon',{kind:'card',grader:'TAG',brand:'Pokemon',variety:'HOLO'})
+ ]);
+ assert.equal(rows.find(row=>row.copyId==='TAG:scaries').special,true);
+ assert.equal(rows.find(row=>row.copyId==='TAG:scaries-series').special,true);
+ assert.equal(rows.find(row=>row.copyId==='TAG:pokemon').special,false);
+});
