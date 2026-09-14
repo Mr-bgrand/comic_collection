@@ -16,6 +16,7 @@ import { createPrintJobs } from './lab-jobs.js';
 import { readValueHistory } from './value-history.js';
 import { savePhoto } from './photo-store.js';
 import { createPhotoBridge, photoRoute, photoBody } from './photo-bridge.js';
+import { createValuationAdmin } from './valuation-admin.js';
 
 const json = (res, status, value) => { res.writeHead(status, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' }); res.end(JSON.stringify(value)); };
 export function localRequest(req) {
@@ -30,6 +31,7 @@ export function localRequest(req) {
 export async function serveLab({ root = process.cwd(), port = 4175, photoPort = 4176, refreshPhotos = true } = {}) {
   let writes = Promise.resolve();
   const jobs = createPrintJobs(root);
+  const values = createValuationAdmin(root);
   const persistPhoto = (body,authorize=()=>{}) => {
     const result=writes.then(async()=>{
       authorize();
@@ -44,6 +46,19 @@ export async function serveLab({ root = process.cwd(), port = 4175, photoPort = 
     try {
       if (!localRequest(req)) return json(res, 403, { error: 'Open Admin from the local Collection / Lab.' });
       const url = new URL(req.url, 'http://localhost'), route = decodeURIComponent(url.pathname);
+      if(route==='/api/admin/values'||route.startsWith('/api/admin/values/')) {
+        const action=route.slice('/api/admin/values'.length).replace(/^\//,'');
+        if(req.method==='GET')return json(res,200,await values.read(action,url.searchParams));
+        if(req.method!=='POST')return json(res,405,{error:'Method not supported'});
+        if(!req.headers['content-type']?.startsWith('application/json'))return json(res,415,{error:'JSON required'});
+        const body=JSON.parse((await photoBody(req,2*1024*1024)).toString());
+        const result=writes.then(async()=>{
+          if((await jobs.snapshot()).status==='running')throw Object.assign(Error('Let the current build finish before editing values.'),{status:409});
+          return values.write(action,body);
+        });
+        writes=result.catch(()=>{});
+        try{return json(res,200,await result);}catch(error){if(/revision|collection changed|another valuation write/i.test(error.message))error.status=409;throw error;}
+      }
       if(route==='/api/admin/photos/pair'&&req.method==='POST') {
         const body=JSON.parse((await photoBody(req,2048)).toString());return json(res,200,await photoBridge.pair(body.id));
       }
@@ -55,8 +70,9 @@ export async function serveLab({ root = process.cwd(), port = 4175, photoPort = 
       if (req.method === 'POST' && route === '/api/admin/job') {
         if (!req.headers['content-type']?.startsWith('application/json')) return json(res, 415, { error: 'JSON required' });
         let raw = ''; for await (const chunk of req) { raw += chunk; if (raw.length > 1024) throw new Error('Request too large'); }
-        await writes;
-        return json(res, 202, jobs.start(JSON.parse(raw).action));
+        const result=writes.then(()=>jobs.start(JSON.parse(raw).action));
+        writes=result.catch(()=>{});
+        return json(res, 202, await result);
       }
       if (req.method === 'POST' && route === '/api/admin/bin') {
         if ((await jobs.snapshot()).status === 'running') return json(res, 409, { error: 'Let the current build finish before editing bins.' });

@@ -27,6 +27,8 @@ import {
   graderOf,
 } from '../model.js';
 import { escapeHtml, page, FONT_SANS, FONT_MONO } from './shared.js';
+import {resolveValuation} from '../valuation/resolution.js';
+import {valuationSourceText,valuationMoney} from '../valuation/presentation.js';
 
 const css = `
 :root {
@@ -440,6 +442,7 @@ export function renderDashboard({ bins, config }) {
   const rows = comics
     .map(({ comic, bin }) => {
       const value = fmvValue(comic);
+      const valuation=resolveValuation(comic);
       const cert = comic.cert ?? '';
 
       // The cert number and the price are themselves the links — a separate
@@ -454,17 +457,12 @@ export function renderDashboard({ bins, config }) {
       // Three states, not two: priced, listed-but-unsold (still worth a link),
       // and not carried by GoCollect at all.
       let fmvCell = '<span class="dim">—</span>';
-      if (value !== null) {
-        const money = escapeHtml(formatMoney(value));
-        fmvCell = comic.fmv?.url
-          ? `<a href="${escapeHtml(comic.fmv.url)}" target="_blank" rel="noopener">${money}</a>`
+      if (valuation) {
+        const money = escapeHtml(valuationMoney(valuation.value));
+        fmvCell = valuation.url
+          ? `<a href="${escapeHtml(valuation.url)}" target="_blank" rel="noopener">${money}</a>`
           : money;
-      } else if (manualValue(comic) !== null) {
-        // Marked as an estimate wherever it appears, never dressed as market data.
-        const note = comic.manual?.note ? ` — ${comic.manual.note}` : '';
-        fmvCell = `<span class="est" title="${escapeHtml(
-          `Your estimate${note}`,
-        )}">${escapeHtml(formatMoney(manualValue(comic)))}<span class="est-mark">est</span></span>`;
+        fmvCell+=`<small style="display:block;font-size:10px;font-weight:400">${escapeHtml(valuationSourceText(comic))}</small>`;
       } else if (comic.fmv?.url) {
         fmvCell = `<a class="nosale" href="${escapeHtml(
           comic.fmv.url,

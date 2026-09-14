@@ -59,13 +59,13 @@ test('bin page links cert numbers to CGC', () => {
   assert.ok(html.includes('href="https://www.cgccomics.com/certlookup/4418876012/"'));
 });
 
-test('bin page shows FMV with its date, linked to GoCollect', () => {
+test('bin page links FMV to GoCollect without presenting a retrieval date as the source date', () => {
   const html = renderBinPage({ bin: BINS[0] });
   assert.ok(
     html.includes('href="https://gocollect.com/app/comic/incredible-hulk-1-gleason-virgin-edition"'),
   );
   assert.ok(html.includes('$60'));
-  assert.ok(html.includes('as of 2026-08-17'), 'a price without a date is worse than no price');
+  assert.ok(html.includes('Source undated'));assert.ok(!html.includes('as of 2026-08-17'));
 });
 
 test('bin page omits the FMV block entirely when a book has no price', () => {

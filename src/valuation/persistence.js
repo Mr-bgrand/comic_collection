@@ -3,6 +3,7 @@ import path from 'node:path';
 import {randomUUID} from 'node:crypto';
 import {readCollection,revisionOf} from '../lab-admin.js';
 import {copyId,addObservation,acceptObservation} from './observations.js';
+import {reviewMetadata,rejectObservation} from './review.js';
 /** Flatten real stored copies with container context and optimistic file revision. No filename is exposed. */
 export function collectionRecords(collection) {
  return [...collection.bins,...collection.cards,...collection.comics].flatMap(({data,revision})=>(data.comics||data.cards||[]).map(record=>({record:structuredClone(record),copyId:copyId(record),container:{id:data.id||data.bin,title:data.title||`Bin ${data.bin??data.id}`},revision})));
@@ -21,11 +22,14 @@ export async function applyValuationBatch(root,batch,options={}) {
   const collection=await readCollection(root),files=[...collection.bins,...collection.cards,...collection.comics],copies=new Map();
   for(const file of files){file.next=structuredClone(file.data);for(const record of file.next.comics||file.next.cards||[]){const id=copyId(record);if(copies.has(id))throw new Error(`Duplicate stored copy ID ${id}`);copies.set(id,{file,record});}}
   for(const edit of batch){
-   if(!edit||Object.keys(edit).some(k=>!['copyId','revision','observations','accept'].includes(k)))throw new Error('Unsupported batch field; paths are not accepted');
+   if(!edit||Object.keys(edit).some(k=>!['copyId','revision','observations','accept','review','reject'].includes(k)))throw new Error('Unsupported batch field; paths are not accepted');
    const found=copies.get(edit.copyId);if(!found)throw new Error(`Unknown copy ID ${edit.copyId}`);
    const {file}=found;if(edit.revision!==file.revision)throw new Error('Revision conflict: collection changed');
    if(edit.observations!==undefined&&!Array.isArray(edit.observations))throw new Error('Observations must be an array');
-   let record=found.record;for(const observation of edit.observations||[])record=addObservation(record,observation,options);
+   let record=found.record;
+   if(edit.review)record=reviewMetadata(record,edit.review,options);
+   for(const observation of edit.observations||[])record=addObservation(record,observation,options);
+   if(edit.reject)record=rejectObservation(record,edit.reject,options);
    if(edit.accept){if(typeof edit.accept.observationId!=='string')throw new Error('Acceptance observation ID required');record=acceptObservation(record,edit.accept.observationId,{...options,...edit.accept});}
    const list=file.next.comics||file.next.cards;list[list.indexOf(found.record)]=record;found.record=record;
   }

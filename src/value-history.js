@@ -4,12 +4,12 @@ import path from 'node:path';
 import { createHash, randomUUID } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
 import { pathToFileURL } from 'node:url';
-import { effectiveValue, fmvValue, graderOf } from './model.js';
+import { graderOf } from './model.js';
 import { readCollection } from './lab-admin.js';
-import { marketValuation } from './card-valuation.js';
+import { resolveValuation,provisionalReference } from './valuation/resolution.js';
 
 const historyPath=root=>path.join(root,'data/value-history.json');
-const emptyTotals=()=>({total:0,count:0,valued:0,unvalued:0,marketTotal:0,ownerTotal:0,undated:0});
+const emptyTotals=()=>({total:0,count:0,valued:0,unvalued:0,marketTotal:0,comparisonTotal:0,ownerTotal:0,provisionalTotal:0,provisionalCount:0,undated:0});
 const round=value=>Math.round(value*100)/100;
 const dayOf=(at,timeZone)=>new Intl.DateTimeFormat('en-CA',{timeZone:timeZone||'UTC'}).format(new Date(at));
 export function valueSnapshot(records,{observedAt=new Date().toISOString(),source='build',revision=null}={}) {
@@ -18,19 +18,19 @@ export function valueSnapshot(records,{observedAt=new Date().toISOString(),sourc
   for(const record of records){
     const id=record.id||`${record.provider||graderOf(record)||'CGC'}:${record.cert}`;
     if(identities.has(id))throw Error(`Duplicate copy in value history: ${id}`);identities.add(id);
-    const value=effectiveValue(record),market=fmvValue(record)!==null,entry=market?marketValuation(record):record.manual;
+    const entry=resolveValuation(record),value=entry?.value??null,provisional=provisionalReference(record);
     if(value!==null&&entry?.currency&&entry.currency!=='USD')throw Error(`Value for ${id} is not in USD.`);
-    const date=value!==null?(market?entry?.asOf||entry?.fetchedAt:record.manual?.setAt)||null:null;
+    const date=entry?.asOf||null,category=entry?.basis==='psa-comparison'?'comparisonTotal':entry?.basis==='owner'?'ownerTotal':'marketTotal';
     const kind=record.kind==='card'?'card':'comic';
-    fingerprints.push([id,kind,value,market?'market':'owner',date,market?entry?.source||null:null]);
+    fingerprints.push([id,kind,value,entry?.basis??null,date,entry?.source??null,entry?.observationId??null,provisional?.id??null,provisional?.value??null]);
     for(const group of [totals,kind==='card'?cards:comics]){
-      group.count++;if(value===null){group.unvalued++;continue;}
-      group.valued++;group.total+=round(value);group[market?'marketTotal':'ownerTotal']+=round(value);if(!date)group.undated++;
+      group.count++;if(provisional){group.provisionalCount++;group.provisionalTotal+=round(provisional.value);}if(value===null){group.unvalued++;continue;}
+      group.valued++;group.total+=round(value);group[category]+=round(value);if(!date)group.undated++;
     }
   }
-  for(const group of [totals,comics,cards])for(const key of ['total','marketTotal','ownerTotal'])group[key]=round(group[key]);
+  for(const group of [totals,comics,cards])for(const key of ['total','marketTotal','comparisonTotal','ownerTotal','provisionalTotal'])group[key]=round(group[key]);
   fingerprints.sort((a,b)=>a[0].localeCompare(b[0]));
-  return {observedAt:new Date(observedAt).toISOString(),source,...(revision?{revision}:{}),fingerprint:createHash('sha256').update(JSON.stringify(fingerprints)).digest('hex'),...totals,comics,cards};
+  return {observedAt:new Date(observedAt).toISOString(),source,categoryVersion:1,...(revision?{revision}:{}),fingerprint:createHash('sha256').update(JSON.stringify(fingerprints)).digest('hex'),...totals,comics,cards};
 }
 export async function readValueHistory(root) {
   try{const history=JSON.parse(await fs.readFile(historyPath(root),'utf8'));

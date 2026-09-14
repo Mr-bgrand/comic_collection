@@ -52,6 +52,7 @@ test('newest dated PSA evidence wins; conflicting equally dated prices and unkno
   assert.equal(comparisonForTag(tag, [{ ...older, fmv: { ...older.fmv, asOf: psa.fmv.asOf } }, psa]), null);
   assert.equal(comparisonForTag(tag, []), null);
   assert.equal(comparisonForTag(tag, [{ ...psa, fmv: { ...psa.fmv, source: 'psa-vault-export', asOf: null } }]).asOf, null);
+  assert.equal(comparisonForTag(tag, [{ ...psa, fmv: { ...psa.fmv, asOf: null, fetchedAt:'2026-09-09' } }]).asOf, null);
 });
 
 test('editing a card identity or grade invalidates its previous comparison immediately', () => {
@@ -68,7 +69,7 @@ test('collection totals, dated history and master print all use and identify the
   assert.equal(snapshot.total, 148);
   assert.equal(snapshot.valued, 1);
   assert.equal(snapshot.undated, 0);
-  assert.match(renderCollectionMaster({ bins: [], cards, comics: [] }), /PSA 10 comparison · TAG fallback · 2026-09-08/);
+  assert.match(renderCollectionMaster({ bins: [], cards, comics: [] }), /PSA 10 comparison · TAG fallback · Source as of 2026-09-08/);
 });
 
 test('refresh is repeatable, propagates new PSA values, retains prior evidence without a current match, and preserves scans and direct TAG data', async t => {

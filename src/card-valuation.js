@@ -32,7 +32,7 @@ export function comparisonForTag(card, candidates) {
   if (!psa || matches.some(other => date(other) === date(psa) && other.fmv.value !== psa.fmv.value)) return null;
   return {
     value: psa.fmv.value, currency: 'USD', source: 'psa-grade-comparison', status: 'recorded',
-    asOf: date(psa) || null, url: psa.fmv.url,
+    asOf: psa.fmv.asOf || null, url: psa.fmv.url,
     comparison: { grader: 'PSA', cert: psa.cert, grade: String(psa.grade), identityKey, tagCert: card.cert, source: psa.fmv.source },
   };
 }
@@ -41,6 +41,7 @@ export function comparisonForTag(card, candidates) {
 export function marketValuation(card) {
   const selected = selectedObservation(card);
   if (selected) return selected.basis === 'owner' ? null : { ...selected, source: selected.source.name, url: selected.source.url, asOf: selected.source.asOf };
+  if (card?.valuation?.legacyInvalidatedAt) return null;
   if (isRaw(card) && !assessedCondition(card)) return null;
   if (knownValue(card?.fmv)) return card.fmv;
   if (knownValue(card?.manual)) return null;

@@ -12,7 +12,7 @@ const records=payload.records, $=id=>document.getElementById(id), app=$('engine'
 const money=v=>v===null?'Not yet valued':'$'+v.toLocaleString('en-US');
 const reduced=matchMedia('(prefers-reduced-motion: reduce)');
 let quiet=reduced.matches, selected=0, mode='orbit', inspecting=true, exploded=false, separation=1, flipped=false, graphics=null,scope='all',tourOn=false;
-let rendererFailed=false,unvaluedOnly=false,caseFilter=null,lastResultsScroll=0;
+let rendererFailed=false,unvaluedOnly=false,valueFilter=null,caseFilter=null,lastResultsScroll=0;
 let insideCase=false,arrivalPlaying=false,arrivalElapsed=0,arrivalTime=0,ambient=false;
 let musicStorage;try{musicStorage=localStorage;}catch{}
 const soundtrack=createSoundtrack({audio:$('singularity-audio'),button:$('music-toggle'),source:payload.soundtrack?.src,storage:musicStorage});
@@ -33,7 +33,7 @@ function asset(c,side) {
   return url;
 }
 const visibleIndices=()=>records.map((c,i)=>({c,i})).filter(({c})=>scope==='all'||c.kind===scope).map(({i})=>i);
-const sourceText=c=>c.source?c.source+' · '+(c.date||'valuation date not provided'):'No value recorded';
+const sourceText=c=>c.source?c.source+' · '+(c.date?'Source as of '+c.date:'Source undated'):c.provisional?'Provisional raw reference '+money(c.provisional.value)+' · '+c.provisional.source+' · '+(c.provisional.date||'Source undated')+' · excluded from totals':'No value recorded';
 function updateScope(){document.querySelectorAll('[data-scope]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.scope===scope)));}
 function stopTour(){tourOn=false;$('tour').setAttribute('aria-pressed','false');text('tour','Play tour ▷');if(arrivalPlaying){arrivalPlaying=false;arrivalElapsed=ARRIVAL_REST;syncArrival();}}
 function syncArrival(){text('arrival-play',arrivalPlaying?'Pause Ⅱ':'Resume ▷');$('arrival-play').setAttribute('aria-pressed',String(arrivalPlaying));text('arrival-state',quiet?'STILL / MOTION OFF':arrivalPlaying?'CONTINUOUS FLIGHT':'PAUSED / YOUR MOMENT');syncSoundtrack();}
@@ -134,9 +134,10 @@ for(const [group,id] of [['names','search-names'],['keywords','search-keywords']
 }
 function search() {
   const q=$('query').value.trim();
-  const matches=records.map((c,i)=>({c,i})).filter(({c})=>(!caseFilter||c.bin===caseFilter)&&matchesSearch(c,q,{unvaluedOnly}));
-  $('search-discovery').hidden=!!q||unvaluedOnly;$('search-reset').hidden=!q&&!unvaluedOnly;
-  $('search-unvalued').setAttribute('aria-pressed',String(unvaluedOnly));$('search-all-values').setAttribute('aria-pressed',String(!unvaluedOnly));
+  const matches=records.map((c,i)=>({c,i})).filter(({c})=>(!caseFilter||c.bin===caseFilter)&&matchesSearch(c,q,{unvaluedOnly,valueFilter}));
+  $('search-discovery').hidden=!!q||unvaluedOnly||!!valueFilter;$('search-reset').hidden=!q&&!unvaluedOnly&&!valueFilter;
+  $('search-unvalued').setAttribute('aria-pressed',String(unvaluedOnly));$('search-all-values').setAttribute('aria-pressed',String(!unvaluedOnly&&!valueFilter));
+  document.querySelectorAll('[data-value-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.valueFilter===valueFilter)));
   text('search-unvalued-count',records.filter(c=>(!caseFilter||c.bin===caseFilter)&&matchesSearch(c,q,{unvaluedOnly:true})).length);
   text('search-count',matches.length+(matches.length===1?' object':' objects'));$('results').replaceChildren();
   for(const {c,i} of matches) {
@@ -148,7 +149,7 @@ function search() {
   if(!matches.length){const p=document.createElement('p');p.textContent='No matching objects. Try a title or certification number.';$('results').append(p);}
 }
 function focusSearch(){(innerWidth<=650?$('search-title'):$('query')).focus({preventScroll:true});}
-function clearSearch(){ $('query').value='';unvaluedOnly=false;caseFilter=null;lastResultsScroll=0;search();focusSearch(); }
+function clearSearch(){ $('query').value='';unvaluedOnly=false;valueFilter=null;caseFilter=null;lastResultsScroll=0;search();focusSearch(); }
 /*
  * Opening a result closes this dialog to go look at the object, so reopening
  * must resume the same filtered list — query, value filter and scroll intact —
@@ -156,10 +157,11 @@ function clearSearch(){ $('query').value='';unvaluedOnly=false;caseFilter=null;l
  * shortcut (the unvalued view) starts a fresh search; Clear search is the way
  * a person starts over.
  */
-function openSearch({unvalued=null}={}){stopTour();if(unvalued!==null){$('query').value='';unvaluedOnly=unvalued;caseFilter=null;lastResultsScroll=0;}search();$('search-dialog').showModal();$('results').scrollTop=lastResultsScroll;focusSearch();}
+function openSearch({unvalued=null}={}){stopTour();if(unvalued!==null){$('query').value='';unvaluedOnly=unvalued;valueFilter=null;caseFilter=null;lastResultsScroll=0;}search();$('search-dialog').showModal();$('results').scrollTop=lastResultsScroll;focusSearch();}
 $('search-reset').onclick=clearSearch;
 $('results').onscroll=()=>{lastResultsScroll=$('results').scrollTop;};
-$('search-unvalued').onclick=()=>{unvaluedOnly=true;lastResultsScroll=0;search();};$('search-all-values').onclick=()=>{unvaluedOnly=false;lastResultsScroll=0;search();};
+$('search-unvalued').onclick=()=>{unvaluedOnly=true;valueFilter=null;lastResultsScroll=0;search();};$('search-all-values').onclick=()=>{unvaluedOnly=false;valueFilter=null;lastResultsScroll=0;search();};
+document.querySelectorAll('[data-value-filter]').forEach(b=>b.onclick=()=>{unvaluedOnly=false;valueFilter=b.dataset.valueFilter;lastResultsScroll=0;search();});
 $('search').onclick=$('fallback-search').onclick=openSearch;$('query').oninput=()=>{caseFilter=null;lastResultsScroll=0;search();};
 document.addEventListener('keydown',e=>{
   if(e.key==='Escape'&&ambient){e.preventDefault();setAmbient(false);return;}

@@ -6,7 +6,8 @@ export function normalizeSearch(value) {
     .replace(/\bxmen\b/g, 'x men');
 }
 
-export function matchesSearch(record, query, {unvaluedOnly=false}={}) {
+export function matchesSearch(record, query, {unvaluedOnly=false,valueFilter=null}={}) {
+  if(valueFilter&&valueFilter!=='all'&&!record.valuationFlags?.includes(valueFilter))return false;
   if(unvaluedOnly&&typeof record.value==='number'&&Number.isFinite(record.value))return false;
   const needle = normalizeSearch(query);
   if (!needle) return true;

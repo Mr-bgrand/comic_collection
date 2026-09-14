@@ -22,6 +22,12 @@ test('No value yet combines with text search and treats an explicit zero as valu
   assert.equal(copies.filter(c=>matchesSearch(c,'',{unvaluedOnly:true})).length,3);
   assert.equal(copies.filter(c=>matchesSearch(c,'Venom')).length,4);
 });
+test('Find review and condition filters use actual copy flags and combine with title search',()=>{
+ const copies=[{title:'Venom',cert:'1',valuationFlags:['missing','identity','condition']},{title:'Venom',cert:'2',valuationFlags:['review','undated']},{title:'Batman',cert:'3',valuationFlags:['stale']},{title:'Venom',cert:'4',valuationFlags:[]}];
+ assert.deepEqual(copies.filter(c=>matchesSearch(c,'Venom',{valueFilter:'condition'})).map(c=>c.cert),['1']);
+ assert.deepEqual(copies.filter(c=>matchesSearch(c,'',{valueFilter:'stale'})).map(c=>c.cert),['3']);
+ assert.deepEqual(copies.filter(c=>matchesSearch(c,'Venom',{valueFilter:'review'})).map(c=>c.cert),['2']);
+});
 
 test('Japanese names remain searchable and do not collapse into an empty match', () => {
   const c = { title: "シロナのロズレイド CYNTHIA'S ROSERADE", cert: 'Q9937497' };

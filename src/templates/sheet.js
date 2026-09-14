@@ -17,7 +17,8 @@
  * exactly this reason, and nothing is lost — the QR opens the full record.
  */
 
-import { displayTitle, compactDetailLines, isTopPop, paginate } from '../model.js';
+import { displayTitle, compactDetailLines, isTopPop, paginate,effectiveValue } from '../model.js';
+import {valuationSourceText,valuationMoney} from '../valuation/presentation.js';
 import { escapeHtml, page, FONT_SANS, FONT_MONO, INK } from './shared.js';
 
 export const PER_COLUMN = 7;
@@ -153,7 +154,8 @@ function renderEntry(comic, imagePrefix) {
     ? `<img class="cover" src="${escapeHtml(imagePrefix + comic.images.front)}" alt="">`
     : '<div class="cover-none"></div>';
 
-  const lines = compactDetailLines(comic)
+  const value=effectiveValue(comic);
+  const lines = [...(value!==null?[valuationMoney(value)+' · '+valuationSourceText(comic)]:[]),...compactDetailLines(comic)]
     .map((line) => {
       const html = escapeHtml(line)
         .replace(/((?:CGC|CBCS) cert )([\w-]+)/, '$1<span class="cert">$2</span>')

@@ -1,4 +1,4 @@
-import {copyId,identified,isRaw,assessedCondition,validDate} from './observations.js';
+import {copyId,identified,isRaw,assessedCondition,validDate,selectedObservation} from './observations.js';
 import {resolveValuation} from './resolution.js';
 import {displayTitle} from '../model.js';
 const special=/exclusive|virgin|metal|foil|signed|signature/i;
@@ -15,6 +15,7 @@ export function buildQueue(records,{now=new Date().toISOString(),staleDays=90,fi
   if(current&&!validDate(current.asOf))flag('undated','Value has no source-as-of date');
   if(current&&validDate(current.asOf)&&(Date.parse(now)-Date.parse(current.asOf))/86400000>staleDays)flag('stale',`Source value is older than ${staleDays} days`);
   if(r.valuation?.observations?.some(o=>o.reviewStatus==='pending'))flag('review','Evidence awaits owner review');
+  if(r.valuation?.selection&&!selectedObservation(r)&&!flags.includes('review'))flag('review','Previous selection no longer matches this copy');
   if(isRaw(r)&&!assessedCondition(r))flag('condition','Raw condition is unrecorded');
   if(!identified(r))flag('identity','Edition identity is unconfirmed');
   const grader=isRaw(r)?null:r.grader||'CGC', title=displayTitle(r);

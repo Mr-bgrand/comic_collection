@@ -5,8 +5,10 @@
  * for a phone held in one hand while the other hand holds the bin.
  */
 
-import { displayTitle, detailLines, isTopPop, formatMoney, certUrl } from '../model.js';
+import { displayTitle, detailLines, isTopPop, certUrl } from '../model.js';
 import { escapeHtml, page, FONT_SANS, FONT_MONO } from './shared.js';
+import {resolveValuation} from '../valuation/resolution.js';
+import {valuationSourceText,valuationMoney} from '../valuation/presentation.js';
 
 const css = `
 :root {
@@ -188,25 +190,20 @@ function renderComic(comic, imagePrefix) {
     })
     .join('\n');
 
-  // FMV links to the book's GoCollect page, and always states its date — an
-  // undated price is worse than no price.
-  const asOf = comic.fmv?.fetchedAt
-    ? ` &middot; as of ${escapeHtml(comic.fmv.fetchedAt.slice(0, 10))}`
-    : '';
-
+  const valuation=resolveValuation(comic);
   let fmv = '';
-  if (comic.fmv?.value) {
-    const money = escapeHtml(formatMoney(comic.fmv.value));
+  if (valuation) {
+    const money = escapeHtml(valuationMoney(valuation.value));
     fmv = `      <div class="fmv">${
-      comic.fmv.url
-        ? `<a href="${escapeHtml(comic.fmv.url)}" target="_blank" rel="noopener">${money}</a>`
+      valuation.url
+        ? `<a href="${escapeHtml(valuation.url)}" target="_blank" rel="noopener">${money}</a>`
         : money
-    } <span class="fmv-meta">GoCollect FMV${asOf}</span></div>`;
+    } <span class="fmv-meta">${escapeHtml(valuationSourceText(comic))}</span></div>`;
   } else if (comic.fmv?.url) {
     // Listed on GoCollect but never sold — the page is still worth linking.
     fmv = `      <div class="fmv"><a class="nosale" href="${escapeHtml(
       comic.fmv.url,
-    )}" target="_blank" rel="noopener">No recorded sales</a> <span class="fmv-meta">on GoCollect${asOf}</span></div>`;
+    )}" target="_blank" rel="noopener">Source lookup</a></div>`;
   }
 
   const warning = comic.unresolved?.length

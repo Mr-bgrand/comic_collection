@@ -1,4 +1,7 @@
 /** Lightweight SVG history: actual observations and a keyboard/touch scrubber. */
+export function historyCategories(snapshot) {
+ return [['Market estimates','marketTotal'],['PSA comparisons for TAG','comparisonTotal'],['Owner estimates','ownerTotal'],['Provisional raw · excluded','provisionalTotal']].map(([label,key])=>({label,value:snapshot.categoryVersion===1&&Number.isFinite(snapshot[key])?snapshot[key]:null}));
+}
 export function mountValueHistory({history,onOpen=()=>{},onUnvalued=()=>{}}) {
   const $=id=>document.getElementById(id),ns='http://www.w3.org/2000/svg',snapshots=history.snapshots;
   const current=history.current||snapshots.at(-1),money=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:2,minimumFractionDigits:0}).format(n);
@@ -30,6 +33,7 @@ export function mountValueHistory({history,onOpen=()=>{},onUnvalued=()=>{}}) {
     $('value-date').textContent=date(s.observedAt,true);$('value-total').textContent=s.valued?money(s.total):'No values yet';$('value-coverage-count').textContent=`${s.valued} / ${s.count}`;
     $('value-comics').textContent=s.comics.valued?money(s.comics.total):s.comics.count?'Not yet valued':'No copies recorded';$('value-cards').textContent=s.cards.valued?money(s.cards.total):s.cards.count?'Not yet valued':'No copies recorded';
     $('value-position').textContent=`${index+1} / ${snapshots.length}`;$('value-latest').disabled=index===snapshots.length-1;
+    $('value-categories').replaceChildren();for(const category of historyCategories(s)){const p=document.createElement('p'),label=document.createElement('span'),amount=document.createElement('strong');label.textContent=category.label;amount.textContent=category.value===null?'Not recorded':money(category.value);p.append(label,amount);$('value-categories').append(p);}
     $('value-observation').textContent=s.source==='saved-inventory'?'From a saved inventory version. This is the date the record was saved, not a new appraisal.':'From your local collection records at the time shown. Rebuilding records existing estimates; it does not fetch new prices.';
     $('value-undated').hidden=!s.undated;$('value-undated').textContent=`${s.undated} valued ${s.undated===1?'copy has':'copies have'} no valuation date supplied.`;
     cursor.setAttribute('x1',p.x);cursor.setAttribute('x2',p.x);dots.forEach((dot,i)=>dot.setAttribute('r',i===index?6:3.5));

@@ -1,9 +1,11 @@
 /** Local management UI; portable design copies remain visibly read-only. */
 import { mountPhotoIntake } from './photo-intake.mjs';
+import { mountValuations } from './engine-values.mjs';
 export function mountAdmin({ payload, onOpen, onBinChange }) {
   const $ = id => document.getElementById(id), dialog = $('admin-dialog');
   let bins = payload.bins || [], connected = false, poll = null, running = false;
   const photos = mountPhotoIntake($('admin-photos'), {onSaved:()=>load()});
+  const values = mountValuations($('admin-values'), {api});
   const message = (value, error = false) => { $('admin-status').textContent = value; $('admin-status').classList.toggle('error', error); };
   async function api(route, body) {
     const response = await fetch('/api/admin/' + route, { cache: 'no-store', ...(body ? { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) } : {}) });
@@ -58,7 +60,7 @@ export function mountAdmin({ payload, onOpen, onBinChange }) {
     message('');
     try { const state = await api('state');bins = state.bins;connected = true;health(state.summary);for (const bin of bins) onBinChange(bin); }
     catch (error) { connected = false;health();message(error.message || 'Open the local app with npm run lab to manage the collection.', true); }
-    $('admin-connection').textContent = connected ? 'LOCAL · CONNECTED' : 'PREVIEW · READ ONLY';$('admin-signal').classList.toggle('online', connected);renderBins();photos.setConnected(connected);if (connected) await checkJob();
+    $('admin-connection').textContent = connected ? 'LOCAL · CONNECTED' : 'PREVIEW · READ ONLY';$('admin-signal').classList.toggle('online', connected);renderBins();photos.setConnected(connected);await values.setConnected(connected);if (connected) await checkJob();
   }
   async function checkJob() {
     try {
@@ -80,7 +82,7 @@ export function mountAdmin({ payload, onOpen, onBinChange }) {
     catch (error) { running = false;printLinks();message(error.message, true); }
   }
   for (const button of document.querySelectorAll('[data-admin-view]')) button.onclick = () => {
-    const view = button.dataset.adminView;for (const item of document.querySelectorAll('[data-admin-view]')) item.setAttribute('aria-pressed', String(item === button));for (const section of ['bins', 'print', 'backup', 'photos']) $('admin-' + section).hidden = section !== view;document.querySelector('.admin-content').scrollTop=0;
+    const view = button.dataset.adminView;for (const item of document.querySelectorAll('[data-admin-view]')) item.setAttribute('aria-pressed', String(item === button));for (const section of ['bins', 'print', 'backup', 'photos', 'values']) $('admin-' + section).hidden = section !== view;document.querySelector('.admin-content').scrollTop=0;
   };
   $('admin').onclick = () => { onOpen();dialog.showModal();health();renderBins();load();photos.resume(); };
   $('admin-reload').onclick = load;$('print-bin').onchange = printLinks;

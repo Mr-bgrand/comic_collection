@@ -5,6 +5,7 @@ import path from 'node:path';
 import os from 'node:os';
 import {execFileSync} from 'node:child_process';
 import {valueSnapshot,appendSnapshot,captureValueHistory,readValueHistory,seedGitValueHistory} from './value-history.js';
+import {identityOf,addObservation,acceptObservation} from './valuation/observations.js';
 const at='2026-09-07T05:00:00Z';
 async function fixture(t){const tempRoot=path.resolve(os.tmpdir()),root=await mkdtemp(path.join(tempRoot,'collection-value-test-'));assert.ok(root.startsWith(tempRoot+path.sep+'collection-value-test-'));t.after(()=>rm(root,{recursive:true,force:true}));return root;}
 
@@ -12,10 +13,22 @@ test('value totals share record precedence and distinguish unknown, zero, owner 
   const records=[{cert:'1',fmv:{value:85},manual:{value:900}},{cert:'2',manual:{value:12.25,setAt:'2026-08-01'}},{kind:'card',grader:'PSA',cert:'1',fmv:{value:0,asOf:'2026-08-02'}},{cert:'3'}];
   const s=valueSnapshot(records,{observedAt:at});
   assert.equal(s.total,97.25);assert.equal(s.marketTotal,85);assert.equal(s.ownerTotal,12.25);
-  assert.equal(s.count,4);assert.equal(s.valued,3);assert.equal(s.unvalued,1);assert.equal(s.undated,1);
+  assert.equal(s.count,4);assert.equal(s.valued,3);assert.equal(s.unvalued,1);assert.equal(s.undated,2);
   assert.equal(s.cards.valued,1);assert.equal(s.cards.total,0);assert.equal(s.comics.total,97.25);
   assert.equal(s.observedAt,'2026-09-07T05:00:00.000Z');
   assert.equal(valueSnapshot([{cert:'4',fmv:{value:'100'}}]).valued,0);
+});
+
+test('snapshots separate selected market, PSA comparison, owner and one provisional reference per raw copy',()=>{
+ const now='2026-09-01T12:00:00Z';
+ const base={kind:'card',grader:'TAG',grade:10,year:2024,brand:'Pokemon',subject:'Mew',cardNumber:'1'};
+ function priced(cert,basis,value){const r={...base,cert};const o={id:cert,copyId:'TAG:'+cert,basis,value,currency:'USD',source:{name:'Fixture guide',url:'https://example.com/price',asOf:null,retrievedAt:now},match:{identity:identityOf(r),grade:10,grader:basis==='psa-comparison'?'PSA':'TAG',condition:null,status:'exact'},reviewStatus:'pending'};return acceptObservation(addObservation(r,o,{now}),o.id,{now});}
+ const raw={id:'raw:1',title:'Venom',issue:'1',grade:null,grading:{status:'raw'}};
+ function ref(id,value,retrievedAt){return {id,copyId:raw.id,basis:'raw-reference',value,currency:'USD',source:{name:'Raw guide',url:'https://example.com/raw',asOf:null,retrievedAt},match:{identity:identityOf(raw),grade:null,grader:null,condition:null,status:'exact'},reviewStatus:'pending'};}
+ const withRefs=addObservation(addObservation(raw,ref('r1',20,'2026-08-01'),{now}),ref('r2',30,now),{now});
+ const s=valueSnapshot([priced('a','guide',100),priced('b','psa-comparison',40),priced('c','owner',15),withRefs],{observedAt:at});
+ assert.equal(s.total,155);assert.equal(s.marketTotal,100);assert.equal(s.comparisonTotal,40);assert.equal(s.ownerTotal,15);assert.equal(s.provisionalTotal,30);assert.equal(s.provisionalCount,1);assert.equal(s.valued,3);assert.equal(s.undated,3);
+ assert.equal(s.cards.comparisonTotal,40);assert.equal(s.comics.total,0);
 });
 test('duplicate copies and mixed currencies cannot silently inflate a USD total',()=>{
   assert.throws(()=>valueSnapshot([{cert:'1'},{cert:'1'}]),/Duplicate copy/);

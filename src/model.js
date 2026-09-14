@@ -309,6 +309,7 @@ export function fmvValue(comic) {
 export function manualValue(comic) {
   const selected = selectedObservation(comic);
   if (selected) return selected.basis === 'owner' ? selected.value : null;
+  if (comic?.valuation?.legacyInvalidatedAt) return null;
   if (isRaw(comic) && !assessedCondition(comic)) return null;
   const v = comic?.manual?.value;
   return typeof v === 'number' && Number.isFinite(v) ? v : null;

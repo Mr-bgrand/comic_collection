@@ -1,0 +1,21 @@
+# Reviewing collection values
+
+Start the local app with `npm.cmd run lab`, open Collection / Lab, then choose **Admin → Values**. Public pages remain read only. **Reload** reads the current stored evidence without fetching prices.
+
+Search by title, certification number or full copy ID. The queue distinguishes missing value, stale source, undated source, pending review, missing identity and unassessed raw condition. Select a copy to see its owned front/back scans, stored edition, current selection and source observations.
+
+Use **PriceCharting lookup**, **GoCollect lookup** or **Sold listings lookup** to research the exact edition. A search result is a candidate. Check edition, variant, full UPC or card number, grader, numerical grade, special designation and condition against the owned copy. A generic graded bucket is not a same-grade PSA comparison for TAG. Half grades stay unchanged.
+
+Under **Record source evidence**, enter the visible amount, source URL, actual source date if supplied, captured date, reviewer and matching notes. Leave the source date blank when undated. Saving imports pending evidence; it does not select a value. An exact compatible observation exposes **Accept this value**, which explicitly selects and locks it. **Dismiss** records a reason and retains the alternative for audit. Accepted and superseded accepted observations remain in history.
+
+Under **Review identity or raw condition**, edit only reviewed identity fields or choose a condition band. Supply a source URL and review notes. Leave the condition selection blank to preserve the existing assessment, including unassessed. Identity/condition changes retain all observations but invalidate values matched to the former details; legacy price fields remain stored for audit. Scans, IDs, grades and locations are not editable in this form.
+
+The recorded headline includes market estimates, PSA comparisons for TAG and owner estimates, shown separately. A raw reference is provisional and excluded. Where several compatible raw references exist, the latest captured non-rejected reference represents that unvalued copy in the separate provisional subtotal; references are not added together. A front cover alone does not establish condition.
+
+Automatic refresh requires a configured optional official API plus a previously owner-verified catalog mapping. Set `PRICECHARTING_API_TOKEN` or `SPORTSCARDSPRO_API_TOKEN` in the local server environment and restart it. A token does not prove subscription entitlement. GoCollect supports saved visible-page captures; a signed-in browser does not create a server API. Refresh actions stay disabled without supported access/mappings. Supported fetches import pending observations, reuse exact compatible product results within the batch, and preserve locked selections.
+
+**Source access & imports** offers an optional API catalog search and JSON evidence upload. Provider search returns candidates only. The reviewed provider capture/import contracts are in [the provider README](../src/valuation/providers/README.md). You can download a per-copy human capture template, fill it from reviewed evidence and import it. **Export research queue** downloads a work list; it does not fetch prices.
+
+Writes use current file revisions and original backups. If another edit changes that file, reload before retrying. After accepting evidence or reviewing identity, use **Print Studio → Build only** to update saved public pages and value-history snapshots, or **Build & generate** for PDFs as well. Local Values totals and live print previews read the saved changes immediately. Building records existing evidence and never refreshes the market. Older history snapshots retain their recorded totals; category splits absent from those snapshots show **Not recorded**.
+
+Source names and actual source dates appear on record pages, dashboard rows, master sheets and the collection master list. Undated sources stay labeled **Source undated**. The compact 4 × 6 grader label layout is unchanged.
