@@ -433,7 +433,11 @@ export function renderDashboard({ bins, config }) {
   const grades = gradeDistribution(bins);
   const byBin = valueByBin(bins);
 
-  const asOf = stats.oldestFmv ? stats.oldestFmv.slice(0, 10) : null;
+  const sourceDates = stats.valued ? [
+    `Source dates: ${stats.sourceDated} of ${stats.valued} recorded values`,
+    ...(stats.oldestSourceAsOf ? [`oldest source date ${stats.oldestSourceAsOf.slice(0, 10)}`] : []),
+    ...(stats.sourceUndated ? [`${stats.sourceUndated} undated`] : []),
+  ].join(' · ') : null;
 
   const comics = bins.flatMap((bin) =>
     (bin.comics ?? []).map((comic) => ({ comic, bin: bin.bin })),
@@ -532,7 +536,7 @@ ${barChart(
   <h1>Dashboard</h1>
   <p class="asof">${stats.comics} graded comics across ${stats.bins} bin${
     stats.bins === 1 ? '' : 's'
-  }${asOf ? ` &middot; values as of ${escapeHtml(asOf)}` : ''}</p>
+  }${sourceDates ? ` &middot; ${escapeHtml(sourceDates)}` : ''}</p>
 
   <div class="kpis">
     <div class="kpi hero">

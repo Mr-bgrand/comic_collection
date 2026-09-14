@@ -17,3 +17,12 @@ test('masters, bin sheets and record pages show the same selected amount and und
  const htmls=[renderCollectionMaster({bins:[{data:bin}],cards:[],comics:[]}),renderSheet({bin,url:'https://example.com/bin/01/'}),renderBinPage({bin}),renderDashboard({bins:[bin],config:{baseUrl:'https://example.com',collectionName:'Fixture'}})];
  for(const html of htmls){assert.match(html,/123\.45/);assert.match(html,/Independent guide/);assert.match(html,/Source undated/);assert.doesNotMatch(html,/as of 2026-09-01/);}
 });
+test('dashboard header reports selected source-date coverage and keeps capture-only prices undated',()=>{
+ const captured={cert:'124',title:'Venom',issue:'2',grade:'9.8',fmv:{value:20,fetchedAt:'2026-08-15'}};
+ const accepted=selected();accepted.fmv={value:9,asOf:'2025-01-01',fetchedAt:'2025-01-04'};accepted.valuation.observations[0].source.asOf='2026-08-26';
+ const header=records=>renderDashboard({bins:[{bin:'01',comics:records}],config:{baseUrl:'https://example.com',collectionName:'Fixture'}}).match(/<p class="asof">([\s\S]*?)<\/p>/)[1];
+ const mixed=header([accepted,captured]);
+ assert.match(mixed,/Source dates: 1 of 2 recorded values/);assert.match(mixed,/oldest source date 2026-08-26/);assert.match(mixed,/1 undated/);
+ assert.doesNotMatch(mixed,/2025-01-01|2025-01-04|2026-08-15|values as of/);
+ const onlyCapture=header([captured]);assert.match(onlyCapture,/Source dates: 0 of 1 recorded values/);assert.match(onlyCapture,/1 undated/);assert.doesNotMatch(onlyCapture,/2026-08-15|oldest source date|values as of/);
+});

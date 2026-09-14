@@ -3,7 +3,8 @@
  * Pure functions only — no I/O, no templates.
  */
 import { marketValuation } from './card-valuation.js';
-import { selectedObservation, isRaw, assessedCondition } from './valuation/observations.js';
+import { selectedObservation, isRaw, assessedCondition, validDate } from './valuation/observations.js';
+import { resolveValuation } from './valuation/resolution.js';
 
 /**
  * The title as printed on the CGC slab, variant and all, so a book can be
@@ -339,7 +340,9 @@ export function collectionStats(bins) {
   let priced = 0;
   let totalValue = 0;
   let topPop = 0;
-  let oldestFmv = null;
+  let oldestSourceAsOf = null;
+  let sourceDated = 0;
+  let sourceUndated = 0;
   let noSales = 0;
   let notListed = 0;
   let unfetched = 0;
@@ -369,8 +372,14 @@ export function collectionStats(bins) {
         notListed += 1; // GoCollect does not carry this book
       }
 
-      const at = comic.fmv?.fetchedAt;
-      if (at && (!oldestFmv || at < oldestFmv)) oldestFmv = at;
+      const valuation = resolveValuation(comic);
+      if (valuation) {
+        const at = valuation.asOf;
+        if (validDate(at)) {
+          sourceDated += 1;
+          if (!oldestSourceAsOf || Date.parse(at) < Date.parse(oldestSourceAsOf)) oldestSourceAsOf = at;
+        } else sourceUndated += 1;
+      }
     }
   }
 
@@ -391,7 +400,11 @@ export function collectionStats(bins) {
     combinedValue: totalValue + manualTotal,
     valued: priced + manualCount,
     topPop,
-    oldestFmv,
+    oldestSourceAsOf,
+    sourceDated,
+    sourceUndated,
+    // Compatibility alias: this now means source-as-of, never a fetch timestamp.
+    oldestFmv: oldestSourceAsOf,
   };
 }
 

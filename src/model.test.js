@@ -282,10 +282,14 @@ test('collectionStats separates the three reasons a book has no price', () => {
   assert.equal(s.unpriced, 3);
 });
 
-test('collectionStats reports the oldest FMV date, so staleness is visible', () => {
-  const older = { ...PRICED, cert: '3', fmv: { value: 10, fetchedAt: '2026-01-01T00:00:00Z' } };
+test('collectionStats reports source-date coverage without turning capture dates into source dates', () => {
+  const older = { ...PRICED, cert: '3', fmv: { value: 10, asOf: '2026-01-01', fetchedAt: '2026-09-02T00:00:00Z' } };
   const s = collectionStats([{ bin: '01', comics: [PRICED, older] }]);
-  assert.equal(s.oldestFmv, '2026-01-01T00:00:00Z');
+  assert.equal(s.oldestFmv, '2026-01-01');
+  assert.equal(s.oldestSourceAsOf, '2026-01-01');
+  assert.equal(s.sourceDated, 1);assert.equal(s.sourceUndated, 1);
+  const undated=collectionStats([{comics:[PRICED]}]);
+  assert.equal(undated.oldestSourceAsOf,null);assert.equal(undated.sourceDated,0);assert.equal(undated.sourceUndated,1);
 });
 
 test('collectionStats handles an empty collection', () => {
