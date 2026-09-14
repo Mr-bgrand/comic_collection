@@ -60,10 +60,31 @@ export function mountValuations(root,{api}) {
   const s=state.summary;$('values-summary').textContent=`${valueMoney(s.total)} recorded · ${s.valued}/${s.count} valued. Market ${valueMoney(s.marketTotal)} · PSA comparisons ${valueMoney(s.comparisonTotal)} · Owner ${valueMoney(s.ownerTotal)}. Provisional raw ${valueMoney(s.provisionalTotal)} across ${s.provisionalCount} copies is excluded.`;
   list();detail();controls();
  }
+ function evidenceOutcome(action,result,success) {
+  if(!['capture','import','record'].includes(action))return {text:success,error:false};
+  const saved=action==='capture'?result.persistence:result;
+  const imported=(action!=='capture'||result.status==='captured')&&saved?.status==='imported'&&Number.isInteger(saved.changed)&&saved.changed>=0;
+  if(imported)return {text:saved.changed===0?'This evidence is already recorded. No changes were saved.':success,error:false};
+  const statuses={
+   'login-required':'Sign-in required',
+   'review-required':'Matching review required',
+   'missing':'No matching price found',
+   'no-sales':'No sales available',
+   'not-listed':'This edition is not listed',
+   'access-required':'Source access required',
+   'captured':'Capture was not saved',
+   'reviewed':'Evidence was reviewed but not saved',
+   'unknown':'Capture could not be verified'
+  };
+  const status=statuses[result.status]||'Capture status: '+String(result.status||'unavailable').replaceAll('-',' ');
+  const reason=typeof result.reason==='string'&&result.reason.trim()?result.reason.trim()+' ':'';
+  return {text:status+'. '+reason+'No evidence was imported. Existing values were kept.',error:true};
+ }
  async function mutate(action,body,success){
   if(!connected||busy)return;busy=true;controls();message(action==='refresh'?'Checking supported provider mappings…':'Saving…');
   try{const result=await api('values/'+action,body);await load();
-   message(action==='refresh'?`${result.retrievedValues} new values retrieved for review. ${result.items.filter(i=>i.status!=='captured').length} copies still need access or manual research.`:success);
+   const outcome=action==='refresh'?{text:`${result.retrievedValues} new values retrieved for review. ${result.items.filter(i=>i.status!=='captured').length} copies still need access or manual research.`,error:false}:evidenceOutcome(action,result,success);
+   message(outcome.text,outcome.error);
    $('values-outcomes').replaceChildren();if(action==='refresh'){const groups=new Map();for(const item of result.items)if(item.status!=='captured'){const reason=item.reason||item.status;groups.set(reason,(groups.get(reason)||0)+1);}for(const [reason,count] of groups){const p=document.createElement('p');p.textContent=`${count} copies: ${reason}`;$('values-outcomes').append(p);}}
   }catch(error){message(error.message,true);}finally{busy=false;controls();}
  }
