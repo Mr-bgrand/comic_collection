@@ -1,4 +1,5 @@
 /** Owner policy: an unpriced TAG copy may use the same card at the same PSA grade. */
+import { selectedObservation, isRaw, assessedCondition } from './valuation/observations.js';
 const knownValue = entry => typeof entry?.value === 'number' && Number.isFinite(entry.value);
 const normalize = value => String(value ?? '').normalize('NFKD').replace(/\p{M}/gu, '').toUpperCase().replace(/[^A-Z0-9]+/g, ' ').trim();
 const gradeOf = card => /^(?:10|[1-9](?:\.5)?)$/.test(String(card?.grade)) ? Number(card.grade) : null;
@@ -38,6 +39,9 @@ export function comparisonForTag(card, candidates) {
 
 /** Direct grader data and explicit owner estimates take priority over comparisons. */
 export function marketValuation(card) {
+  const selected = selectedObservation(card);
+  if (selected) return selected.basis === 'owner' ? null : { ...selected, source: selected.source.name, url: selected.source.url, asOf: selected.source.asOf };
+  if (isRaw(card) && !assessedCondition(card)) return null;
   if (knownValue(card?.fmv)) return card.fmv;
   if (knownValue(card?.manual)) return null;
   const value = card?.psaComparison, comparison = value?.comparison;
@@ -47,9 +51,11 @@ export function marketValuation(card) {
 }
 
 export function marketValueLabel(card) {
+  const observation = selectedObservation(card);
+  if (observation) return observation.basis === 'psa-comparison' ? `PSA ${observation.match.grade} comparison · TAG fallback` : observation.source.name;
   const value = marketValuation(card);
   if (!value) return null;
   if (value.source === 'psa-grade-comparison') return `PSA ${value.comparison.grade} comparison · TAG fallback`;
   if (card.kind === 'card') return value.source === 'psa-vault-export' ? 'PSA estimate · vault export' : `${card.grader || 'Card'} estimate`;
-  return 'GoCollect FMV';
+  return value.source && !/gocollect/i.test(value.source) ? value.source : 'GoCollect FMV';
 }

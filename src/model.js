@@ -3,6 +3,7 @@
  * Pure functions only — no I/O, no templates.
  */
 import { marketValuation } from './card-valuation.js';
+import { selectedObservation, isRaw, assessedCondition } from './valuation/observations.js';
 
 /**
  * The title as printed on the CGC slab, variant and all, so a book can be
@@ -306,6 +307,9 @@ export function fmvValue(comic) {
  * separately and never merged into a market figure without saying so.
  */
 export function manualValue(comic) {
+  const selected = selectedObservation(comic);
+  if (selected) return selected.basis === 'owner' ? selected.value : null;
+  if (isRaw(comic) && !assessedCondition(comic)) return null;
   const v = comic?.manual?.value;
   return typeof v === 'number' && Number.isFinite(v) ? v : null;
 }
