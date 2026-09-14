@@ -19,10 +19,10 @@ export async function refreshTagValues(root = process.cwd()) {
       const comparison = comparisonForTag(card, psa);
       const before = JSON.stringify(card.psaComparison ?? null);
       if (comparison) card.psaComparison = comparison;
-      else delete card.psaComparison;
+      // Failed acquisition leaves prior comparison evidence intact.
       if (before !== JSON.stringify(card.psaComparison ?? null)) { changed = true; report.changed++; }
       const selected = marketValuation(card);
-      if (selected?.source === 'psa-grade-comparison') report.matched.push({ cert: card.cert, subject: card.subject, grade: card.grade, value: selected.value, psaCert: selected.comparison.cert, url: selected.url });
+      if (selected?.source === 'psa-grade-comparison' || selected?.basis === 'psa-comparison') report.matched.push({ cert: card.cert, subject: card.subject, grade: card.grade, value: selected.value, psaCert: selected.comparison?.cert ?? null, url: selected.url });
       else if (selected || Number.isFinite(card.manual?.value)) report.direct.push(card.cert);
       else report.pending.push({ cert: card.cert, subject: card.subject, year: card.year, set: card.brand, cardNumber: card.cardNumber, variety: card.variety, requiredPsaGrade: card.grade, reason: 'No unambiguous same-card, same-grade PSA value in the imported records' });
     }

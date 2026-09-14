@@ -4,6 +4,7 @@
   "description": "CGC-graded comic bin inventory: cert lookup, print labels, and a QR-linked catalog",
   "type": "module",
   "scripts": {
+    "values": "node src/valuation-cli.js",
     "vault": "node src/import-vault.js",
     "psa:certs": "node src/import-psa-cert.js",
     "tag": "node src/import-tag.js",

@@ -148,3 +148,12 @@ test('buildFmv timestamps every price, because FMV goes stale and grades do not'
   const fmv = buildFmv({ fmvText: '$10' }, '2026-08-17T12:00:00Z');
   assert.ok(fmv.fetchedAt, 'fetchedAt is always set');
 });
+
+import {shouldRefreshGoCollect,preserveGoCollectValue} from './gocollect.js';
+test('GoCollect retries missing, failed and old guide evidence without wiping a previous price',()=>{
+ const now='2026-09-13T12:00:00Z';
+ for(const fmv of [null,{status:'no-sales',value:null},{status:'not-listed',value:null},{value:60,asOf:'2025-01-01'},{value:60,fetchedAt:now}])assert.equal(shouldRefreshGoCollect({cert:'123',grade:'9.8',fmv},{now}),true);
+ assert.equal(shouldRefreshGoCollect({cert:'123',fmv:{value:60,asOf:'2026-09-01'}},{now}),false);
+ assert.equal(shouldRefreshGoCollect({kind:'card',grader:'CGC',cert:'123'},{now}),false);
+ const previous={value:60,status:'priced',asOf:'2026-09-01'};assert.deepEqual(preserveGoCollectValue(previous,{value:null,status:'no-sales'}),previous);
+});

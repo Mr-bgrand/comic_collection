@@ -71,7 +71,7 @@ test('collection totals, dated history and master print all use and identify the
   assert.match(renderCollectionMaster({ bins: [], cards, comics: [] }), /PSA 10 comparison · TAG fallback · 2026-09-08/);
 });
 
-test('refresh is repeatable, propagates new PSA values, removes stale matches, and preserves scans and direct TAG data', async t => {
+test('refresh is repeatable, propagates new PSA values, retains prior evidence without a current match, and preserves scans and direct TAG data', async t => {
   const root = await fs.mkdtemp(path.join(os.tmpdir(), 'tag-values-'));
   t.after(() => fs.rm(root, { recursive: true, force: true }));
   const dir = path.join(root, 'data/cards'); await fs.mkdir(dir, { recursive: true });
@@ -91,5 +91,6 @@ test('refresh is repeatable, propagates new PSA values, removes stale matches, a
   assert.equal(JSON.parse(await fs.readFile(tagFile, 'utf8')).cards[0].psaComparison.value, 160);
   await fs.writeFile(psaFile, JSON.stringify({ cards: [] }));
   await refreshTagValues(root);
-  assert.equal(JSON.parse(await fs.readFile(tagFile, 'utf8')).cards[0].psaComparison, undefined);
+  assert.equal(JSON.parse(await fs.readFile(tagFile, 'utf8')).cards[0].psaComparison.value, 160);
+  assert.equal(JSON.parse(await fs.readFile(tagFile, 'utf8')).cards[0].psaComparison.url, psa.fmv.url);
 });

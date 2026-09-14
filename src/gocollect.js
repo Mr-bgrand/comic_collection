@@ -291,7 +291,7 @@ export async function fetchAllFmv({ force = false } = {}) {
       }
 
       const todo = (data.comics ?? []).filter(
-        (c) => (c.grader ?? 'CGC') === 'CGC' && (force || !c.fmv),
+        (c) => shouldRefreshGoCollect(c, { force }),
       );
       if (!todo.length) {
         console.log(`bin ${data.bin}: already priced (use --force to refresh)`);
@@ -302,7 +302,7 @@ export async function fetchAllFmv({ force = false } = {}) {
         process.stdout.write(`[${i + 1}/${todo.length}] ${comic.cert} ... `);
         try {
           const fmv = await lookupOne(page, comic.cert);
-          comic.fmv = fmv;
+          comic.fmv = preserveGoCollectValue(comic.fmv, fmv);
           if (fmv.status === 'priced') {
             priced += 1;
             console.log(`$${fmv.value}`);
@@ -344,4 +344,12 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
     console.error(err.message ?? err);
     process.exit(1);
   });
+}
+export function shouldRefreshGoCollect(record,{now=new Date().toISOString(),staleDays=90,force=false}={}) {
+ if(record.kind==='card'||(record.grader||'CGC')!=='CGC'||!record.cert)return false;
+ const value=record.fmv;
+ return force||!Number.isFinite(value?.value)||value.value<0||!value.asOf||!Number.isFinite(Date.parse(value.asOf))||Date.parse(now)-Date.parse(value.asOf)>staleDays*86400000;
+}
+export function preserveGoCollectValue(previous,next) {
+ return Number.isFinite(previous?.value)&&previous.value>=0&&!Number.isFinite(next?.value)?previous:next;
 }

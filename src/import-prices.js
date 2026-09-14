@@ -100,7 +100,11 @@ export function toMarket(row, now) {
   };
 }
 
-export async function importPrices(csvPath) {
+export async function importPrices(csvPath, { root = process.cwd(), dryRun = false } = {}) {
+  if (csvPath && path.extname(csvPath).toLowerCase() === '.json') {
+    const { importValuationDocument } = await import('./valuation-cli.js');
+    return importValuationDocument(root, JSON.parse(await readFile(path.resolve(root, csvPath), 'utf8')), { dryRun });
+  }
   if (!csvPath || !existsSync(csvPath)) {
     console.error('Usage: npm run prices -- path/to/returned.csv');
     return { updated: 0 };
