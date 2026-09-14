@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "raw:15-003",
+      "revision": "f5eb6a959dfacae34e7b63fbbd276e5d41db8dc8e42ad17e05ccf944d35eacae",
+      "observations": [
+        {
+          "id": "pilot-2026-09-14-raw:15-003-raw-reference",
+          "copyId": "raw:15-003",
+          "basis": "raw-reference",
+          "value": 3.86,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-spider-man-reign-2/spider-man-reign-2-young-1-2024",
+            "asOf": null,
+            "retrievedAt": "2026-09-14T05:21:44.332Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Spider-Man: Reign 2",
+              "issue": "1",
+              "issueYear": "2024",
+              "publisher": "Marvel",
+              "variant": "Skottie Young Variant Cover",
+              "upc": "75960620394900121",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "productId": "6943128",
+          "reviewReason": "Full owner-scan UPC and live catalog edition verified. Broad ungraded reference only; condition unassessed. Excluded from accepted total."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-004",
+      "revision": "f5eb6a959dfacae34e7b63fbbd276e5d41db8dc8e42ad17e05ccf944d35eacae",
+      "observations": [
+        {
+          "id": "pilot-2026-09-14-raw:15-004-raw-reference",
+          "copyId": "raw:15-004",
+          "basis": "raw-reference",
+          "value": 3.8,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-spider-man-reign-2/spider-man-reign-2-yu-1-2024",
+            "asOf": null,
+            "retrievedAt": "2026-09-14T05:21:44.332Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Spider-Man: Reign 2",
+              "issue": "1",
+              "issueYear": "2024",
+              "publisher": "Marvel",
+              "variant": "Leinil Francis Yu Variant Cover",
+              "upc": "75960620394900131",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "productId": "6943126",
+          "reviewReason": "Full owner-scan UPC and live catalog edition verified. Broad ungraded reference only; condition unassessed. Excluded from accepted total."
+        }
+      ]
+    }
+  ]
+}

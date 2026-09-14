@@ -1,0 +1,81 @@
+{
+  "checkedAt": "2026-09-14T05:57:36.433Z",
+  "copies": 933,
+  "membershipUnchanged": true,
+  "containerAssignmentsUnchanged": true,
+  "protectedFieldsUnchanged": [
+    "id",
+    "cert",
+    "provider",
+    "grader",
+    "grade",
+    "grading",
+    "condition",
+    "holder",
+    "images",
+    "imageSources",
+    "imageSource",
+    "location",
+    "fmv",
+    "manual"
+  ],
+  "reviewedIdentityChanges": [
+    {
+      "copyId": "raw:15-003",
+      "field": "title"
+    },
+    {
+      "copyId": "raw:15-003",
+      "field": "issue"
+    },
+    {
+      "copyId": "raw:15-003",
+      "field": "variant"
+    },
+    {
+      "copyId": "raw:15-003",
+      "field": "publisher"
+    },
+    {
+      "copyId": "raw:15-003",
+      "field": "issueYear"
+    },
+    {
+      "copyId": "raw:15-003",
+      "field": "identification"
+    },
+    {
+      "copyId": "raw:15-003",
+      "field": "upc"
+    },
+    {
+      "copyId": "raw:15-004",
+      "field": "title"
+    },
+    {
+      "copyId": "raw:15-004",
+      "field": "issue"
+    },
+    {
+      "copyId": "raw:15-004",
+      "field": "variant"
+    },
+    {
+      "copyId": "raw:15-004",
+      "field": "publisher"
+    },
+    {
+      "copyId": "raw:15-004",
+      "field": "issueYear"
+    },
+    {
+      "copyId": "raw:15-004",
+      "field": "identification"
+    },
+    {
+      "copyId": "raw:15-004",
+      "field": "upc"
+    }
+  ],
+  "note": "Compared per-field SHA256 fingerprints before final integration. Only valuation metadata/evidence and the two explicitly reviewed raw identities may change. Git retains the baseline records."
+}

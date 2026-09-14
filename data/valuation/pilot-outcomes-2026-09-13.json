@@ -1,0 +1,814 @@
+{
+  "generatedAt": "2026-09-14T05:57:36.194Z",
+  "status": "pilot-researched-with-explicit-access-and-condition-gaps",
+  "startingCoverage": {
+    "copies": 933,
+    "priced": 301,
+    "missing": 632,
+    "recordedValue": 28658
+  },
+  "currentCoverage": {
+    "copies": 933,
+    "priced": 303,
+    "missing": 630,
+    "recordedValue": 28761.42,
+    "newlySelected": 2,
+    "pendingObservations": 13,
+    "provisionalRawReferences": 7,
+    "provisionalRawReferenceAmount": 32.55
+  },
+  "quotas": {
+    "CGC": 10,
+    "TAG": 10,
+    "Authority": 5,
+    "raw": 5
+  },
+  "shortfalls": {},
+  "items": [
+    {
+      "copyId": "CGC:2765925001",
+      "title": "TMNT/Usagi Yojimbo: Wherewhen #2",
+      "container": {
+        "id": "10",
+        "title": "Bin 10"
+      },
+      "grade": "9.8",
+      "grader": "CGC",
+      "status": "login-required",
+      "reason": "Exact title, issue, month/year and Stan Sakai wraparound cover match stored record. Selected Signature tab. Price panel says Please sign in; sales shown as dashes are not a confirmed no-sales result. No value captured.",
+      "selected": null,
+      "observationIds": [],
+      "evidence": {
+        "copyId": "CGC:2765925001",
+        "url": "https://gocollect.com/comic/tmnt-usagi-yojimbo-wherewhen-2-cvr-a-sakai",
+        "retrievedAt": "2026-09-14T05:24:56.175Z",
+        "status": "login-required",
+        "selectedTier": "CGC Signature",
+        "grade": "9.8",
+        "note": "Exact title, issue, month/year and Stan Sakai wraparound cover match stored record. Selected Signature tab. Price panel says Please sign in; sales shown as dashes are not a confirmed no-sales result. No value captured."
+      },
+      "mappingReview": null
+    },
+    {
+      "copyId": "CGC:4089841007",
+      "title": "Wretches #1 : Momoko Metal Edition",
+      "container": {
+        "id": "08",
+        "title": "Bin 08"
+      },
+      "grade": "9.8",
+      "grader": "CGC",
+      "status": "not-attempted-login-required",
+      "reason": "GoCollect is at sign-in. This cert has not been individually queried in this pilot; any older result is preserved.",
+      "selected": null,
+      "observationIds": [],
+      "evidence": null,
+      "mappingReview": null
+    },
+    {
+      "copyId": "CGC:1430525018",
+      "title": "Back to the Future #1 : JJ's Comics & Art Edition",
+      "container": {
+        "id": "11",
+        "title": "Bin 11"
+      },
+      "grade": "9.8",
+      "grader": "CGC",
+      "status": "not-attempted-login-required",
+      "reason": "GoCollect is at sign-in. This cert has not been individually queried in this pilot; any older result is preserved.",
+      "selected": null,
+      "observationIds": [],
+      "evidence": null,
+      "mappingReview": null
+    },
+    {
+      "copyId": "CGC:2691440008",
+      "title": "Revolution #1 : Sharper Collectibles Edition",
+      "container": {
+        "id": "04",
+        "title": "Bin 04"
+      },
+      "grade": "9.8",
+      "grader": "CGC",
+      "status": "not-attempted-login-required",
+      "reason": "GoCollect is at sign-in. This cert has not been individually queried in this pilot; any older result is preserved.",
+      "selected": null,
+      "observationIds": [],
+      "evidence": null,
+      "mappingReview": {
+        "copyId": "CGC:2691440008",
+        "storedEdition": "Revolution #1 : Sharper Collectibles Edition",
+        "legacyUrl": "https://gocollect.com/app/comic/revolution-1-blank-sketch-cover",
+        "status": "needs-catalog-edition-review",
+        "note": "Stored legacy URL names Blank Sketch Cover while owned record names Sharper Collectibles Edition. This is an ambiguity to resolve before new pricing, not a confirmed wrong match. No current legacy price exists and no replacement price was inferred."
+      }
+    },
+    {
+      "copyId": "CGC:2733544003",
+      "title": "Strange Academy #1 : Young Variant Cover",
+      "container": {
+        "id": "11",
+        "title": "Bin 11"
+      },
+      "grade": "9.8",
+      "grader": "CGC",
+      "status": "not-attempted-login-required",
+      "reason": "GoCollect is at sign-in. This cert has not been individually queried in this pilot; any older result is preserved.",
+      "selected": null,
+      "observationIds": [],
+      "evidence": null,
+      "mappingReview": null
+    },
+    {
+      "copyId": "CGC:2757895001",
+      "title": "Final Boss #1 : SMZ Comics Metal Edition G",
+      "container": {
+        "id": "11",
+        "title": "Bin 11"
+      },
+      "grade": "9.8",
+      "grader": "CGC",
+      "status": "not-attempted-login-required",
+      "reason": "GoCollect is at sign-in. This cert has not been individually queried in this pilot; any older result is preserved.",
+      "selected": null,
+      "observationIds": [],
+      "evidence": null,
+      "mappingReview": null
+    },
+    {
+      "copyId": "CGC:3760617001",
+      "title": "White Widow #2 : Rebel Killer Edition",
+      "container": {
+        "id": "11",
+        "title": "Bin 11"
+      },
+      "grade": "9.8",
+      "grader": "CGC",
+      "status": "not-attempted-login-required",
+      "reason": "GoCollect is at sign-in. This cert has not been individually queried in this pilot; any older result is preserved.",
+      "selected": null,
+      "observationIds": [],
+      "evidence": null,
+      "mappingReview": null
+    },
+    {
+      "copyId": "CGC:4137945006",
+      "title": "Detective Comics: Facsimile Edition #27",
+      "container": {
+        "id": "05",
+        "title": "Bin 05"
+      },
+      "grade": "9.0",
+      "grader": "CGC",
+      "status": "not-attempted-login-required",
+      "reason": "GoCollect is at sign-in. This cert has not been individually queried in this pilot; any older result is preserved.",
+      "selected": null,
+      "observationIds": [],
+      "evidence": null,
+      "mappingReview": null
+    },
+    {
+      "copyId": "CGC:4137946001",
+      "title": "All-New Ghost Rider: Engines of Vengeance #1 : Second Printing",
+      "container": {
+        "id": "07",
+        "title": "Bin 07"
+      },
+      "grade": "9.4",
+      "grader": "CGC",
+      "status": "not-attempted-login-required",
+      "reason": "GoCollect is at sign-in. This cert has not been individually queried in this pilot; any older result is preserved.",
+      "selected": null,
+      "observationIds": [],
+      "evidence": null,
+      "mappingReview": null
+    },
+    {
+      "copyId": "CGC:4137947002",
+      "title": "Back to the Future #1 : Second Printing",
+      "container": {
+        "id": "04",
+        "title": "Bin 04"
+      },
+      "grade": "9.4",
+      "grader": "CGC",
+      "status": "not-attempted-login-required",
+      "reason": "GoCollect is at sign-in. This cert has not been individually queried in this pilot; any older result is preserved.",
+      "selected": null,
+      "observationIds": [],
+      "evidence": null,
+      "mappingReview": null
+    },
+    {
+      "copyId": "TAG:L3302729",
+      "title": "2025 JOURNEY TOGETHER #174/159 MAMOSWINE EX : ULTRA RARE",
+      "container": {
+        "id": "case-02",
+        "title": "Case #2"
+      },
+      "grade": "8.5",
+      "grader": "TAG",
+      "status": "no-exact-grade-comps",
+      "reason": "Six visible Grade 8 sales were PSA 8; owned grade is TAG 8.5. No rounding.",
+      "selected": null,
+      "observationIds": [],
+      "evidence": {
+        "copyId": "TAG:L3302729",
+        "url": "https://www.pricecharting.com/game/pokemon-journey-together/mamoswine-ex-174",
+        "productId": "8871322",
+        "status": "no-exact-grade-comps",
+        "note": "Six visible Grade 8 sales were PSA 8; owned grade is TAG 8.5. No rounding."
+      },
+      "mappingReview": null
+    },
+    {
+      "copyId": "TAG:G7325430",
+      "title": "2025 TAG WORLD SCARIES: LA VS. TOR #WS2-1 WILWOLF : BLOOD RED HOLO",
+      "container": {
+        "id": "case-02",
+        "title": "Case #2"
+      },
+      "grade": "10",
+      "grader": "TAG",
+      "status": "no-exact-comps",
+      "reason": "Blood Red Holo /5. Creator random-tier retail pack is not a comparable secondary sale. No matching PSA evidence found.",
+      "selected": null,
+      "observationIds": [],
+      "evidence": {
+        "copyId": "TAG:G7325430",
+        "url": "https://taggrading.com/products/wilwolf-art-card-drop-ltd-ed-serialized",
+        "status": "no-exact-comps",
+        "note": "Blood Red Holo /5. Creator random-tier retail pack is not a comparable secondary sale. No matching PSA evidence found."
+      },
+      "mappingReview": null
+    },
+    {
+      "copyId": "TAG:E3314397",
+      "title": "2023 OBSIDIAN FLAMES #202/197 CLEFFA : ILLUSTRATION RARE",
+      "container": {
+        "id": "case-02",
+        "title": "Case #2"
+      },
+      "grade": "8.5",
+      "grader": "TAG",
+      "status": "insufficient-sales",
+      "reason": "One exact PSA 8.5 sale is a reference only, not an accepted estimate.",
+      "selected": null,
+      "observationIds": [
+        "pilot-2026-09-14-TAG:E3314397-psa-comparison-PSA"
+      ],
+      "evidence": {
+        "copyId": "TAG:E3314397",
+        "url": "https://www.pricecharting.com/game/pokemon-obsidian-flames/cleffa-202",
+        "productId": "5605720",
+        "status": "insufficient-sales",
+        "sales": [
+          {
+            "transactionId": "377200765308",
+            "url": "https://www.ebay.com/itm/377200765308",
+            "date": "2026-05-27",
+            "value": 61,
+            "grader": "PSA",
+            "grade": "8.5"
+          }
+        ],
+        "note": "One exact PSA 8.5 sale is a reference only, not an accepted estimate."
+      },
+      "mappingReview": null
+    },
+    {
+      "copyId": "TAG:M9505930",
+      "title": "2024 SURGING SPARKS ELITE TRAINER BOX #159 MAGNETON",
+      "container": {
+        "id": "case-02",
+        "title": "Case #2"
+      },
+      "grade": "8.5",
+      "grader": "TAG",
+      "status": "no-exact-grade-comps",
+      "reason": "Visible 8.5 sales belong to BGS/CGC. PSA 8 sales excluded; no exact PSA 8.5 found in displayed listings.",
+      "selected": null,
+      "observationIds": [],
+      "evidence": {
+        "copyId": "TAG:M9505930",
+        "url": "https://www.pricecharting.com/game/pokemon-promo/magneton-159",
+        "productId": "7800768",
+        "status": "no-exact-grade-comps",
+        "note": "Visible 8.5 sales belong to BGS/CGC. PSA 8 sales excluded; no exact PSA 8.5 found in displayed listings."
+      },
+      "mappingReview": null
+    },
+    {
+      "copyId": "TAG:U5165558",
+      "title": "2024 TOPPS CHROME UPDATE #USC43 JARED JONES : PRISM REFRACTOR",
+      "container": {
+        "id": "case-wall-office",
+        "title": "Case Wall Display (Office)"
+      },
+      "grade": "8.5",
+      "grader": "TAG",
+      "status": "no-exact-grade-comps",
+      "reason": "Stored variety Prism Refractor; catalog has zero Grade 8 sold listings. Generic Grade 8 guide and other parallels excluded for TAG 8.5.",
+      "selected": null,
+      "observationIds": [],
+      "evidence": {
+        "copyId": "TAG:U5165558",
+        "url": "https://www.sportscardspro.com/game/baseball-cards-2024-topps-chrome-update/jared-jones-prism-refractor-usc43",
+        "productId": "7834500",
+        "status": "no-exact-grade-comps",
+        "note": "Stored variety Prism Refractor; catalog has zero Grade 8 sold listings. Generic Grade 8 guide and other parallels excluded for TAG 8.5."
+      },
+      "mappingReview": null
+    },
+    {
+      "copyId": "TAG:C5407435",
+      "title": "2025 TAG WORLD SCARIES: LA VS. TOR #WS2-2 BO BONES : LUNAR GOLD HOLO",
+      "container": {
+        "id": "case-02",
+        "title": "Case #2"
+      },
+      "grade": "9",
+      "grader": "TAG",
+      "status": "no-exact-comps",
+      "reason": "Lunar Gold Holo /25 TAG 9. Creator random-tier retail pack is not a comparable secondary sale. No matching PSA evidence found.",
+      "selected": null,
+      "observationIds": [],
+      "evidence": {
+        "copyId": "TAG:C5407435",
+        "url": "https://taggrading.com/products/bo-bones-art-card-drop-ltd-ed-serialized-copy",
+        "status": "no-exact-comps",
+        "note": "Lunar Gold Holo /25 TAG 9. Creator random-tier retail pack is not a comparable secondary sale. No matching PSA evidence found."
+      },
+      "mappingReview": null
+    },
+    {
+      "copyId": "TAG:H1870819",
+      "title": "2025 HEAT WAVE ARENA #091/063 シロナのガブリアス CYNTHIA'S GARCHOMP EX : ULTRA RARE",
+      "container": {
+        "id": "case-01",
+        "title": "Case #1"
+      },
+      "grade": "10",
+      "grader": "TAG",
+      "status": "guide-candidate-review",
+      "reason": "Exact Japanese gold Ultra Rare #091 verified on owner slab. Only two listed TAG sales, both in 2025. Keep candidate pending review for thin and old evidence.",
+      "selected": null,
+      "observationIds": [
+        "pilot-2026-09-14-TAG:H1870819-guide-TAG",
+        "pilot-2026-09-14-TAG:H1870819-psa-comparison-PSA"
+      ],
+      "evidence": {
+        "copyId": "TAG:H1870819",
+        "productId": "8867759",
+        "title": "Cynthia's Garchomp ex #91 Pokemon Japanese Heat Wave Arena",
+        "year": "2025",
+        "number": "091/063",
+        "language": "Japanese",
+        "grade": "10",
+        "url": "https://www.pricecharting.com/game/pokemon-japanese-heat-wave-arena/cynthia%27s-garchomp-ex-91",
+        "tagGuide": 43.98,
+        "psaGuide": 57.71,
+        "latestListedTagSale": "2025-11-19",
+        "tagSalesListed": 2,
+        "review": "Exact Japanese gold Ultra Rare #091 verified on owner slab. Only two listed TAG sales, both in 2025. Keep candidate pending review for thin and old evidence."
+      },
+      "mappingReview": null
+    },
+    {
+      "copyId": "TAG:R4092198",
+      "title": "2023 PARADOX RIFT #186/182 MAGBY : ILLUSTRATION RARE",
+      "container": {
+        "id": "case-01",
+        "title": "Case #1"
+      },
+      "grade": "10",
+      "grader": "TAG",
+      "status": "accepted",
+      "reason": "Exact direct TAG10 guide selected; source publication date is unavailable and shown as undated.",
+      "selected": {
+        "value": 88.57,
+        "currency": "USD",
+        "basis": "guide",
+        "source": "PriceCharting",
+        "url": "https://www.pricecharting.com/game/pokemon-paradox-rift/magby-186",
+        "asOf": null,
+        "retrievedAt": "2026-09-14T04:58:10.475Z",
+        "observationId": "pilot-2026-09-14-TAG:R4092198-guide-TAG",
+        "locked": true,
+        "provisional": false,
+        "legacy": false
+      },
+      "observationIds": [
+        "pilot-2026-09-14-TAG:R4092198-guide-TAG",
+        "pilot-2026-09-14-TAG:R4092198-psa-comparison-PSA"
+      ],
+      "evidence": {
+        "copyId": "TAG:R4092198",
+        "productId": "5953024",
+        "title": "Magby #186 Pokemon Paradox Rift",
+        "year": "2023",
+        "number": "186/182",
+        "language": "English",
+        "grade": "10",
+        "url": "https://www.pricecharting.com/game/pokemon-paradox-rift/magby-186",
+        "tagGuide": 88.57,
+        "psaGuide": 178.75,
+        "latestListedTagSale": "2026-05-29",
+        "tagSalesListed": 5,
+        "review": "Exact set, card number, English language and TAG 10 verified on owner slab. Direct TAG guide preferred. Five displayed TAG sales span 2025-08-31 through 2026-05-29; not five recent sales. Price confidence medium."
+      },
+      "mappingReview": null
+    },
+    {
+      "copyId": "TAG:H9812622",
+      "title": "2023 PARADOX RIFT ELITE TRAINER BOX #065 SCREAM TAIL : HOLO",
+      "container": {
+        "id": "case-01",
+        "title": "Case #1"
+      },
+      "grade": "10",
+      "grader": "TAG",
+      "status": "guide-candidate-review",
+      "reason": "Exact unstamped Paradox Rift ETB promo verified on owner slab; not Pokemon Center variant. Direct TAG guide exists. Five listed sales within previous year vary from $46 to $95; keep candidate pending review for wide dispersion.",
+      "selected": null,
+      "observationIds": [
+        "pilot-2026-09-14-TAG:H9812622-guide-TAG",
+        "pilot-2026-09-14-TAG:H9812622-psa-comparison-PSA"
+      ],
+      "evidence": {
+        "copyId": "TAG:H9812622",
+        "productId": "5963314",
+        "title": "Scream Tail #65 Pokemon Promo",
+        "year": "2023",
+        "number": "065",
+        "language": "English",
+        "grade": "10",
+        "url": "https://www.pricecharting.com/game/pokemon-promo/scream-tail-65",
+        "tagGuide": 71.02,
+        "psaGuide": 110.92,
+        "latestListedTagSale": "2026-06-07",
+        "tagSalesListed": 6,
+        "review": "Exact unstamped Paradox Rift ETB promo verified on owner slab; not Pokemon Center variant. Direct TAG guide exists. Five listed sales within previous year vary from $46 to $95; keep candidate pending review for wide dispersion."
+      },
+      "mappingReview": null
+    },
+    {
+      "copyId": "TAG:S2994291",
+      "title": "2025 HEAT WAVE ARENA #064/063 ヤンヤンマ YANMA : ART RARE",
+      "container": {
+        "id": "case-01",
+        "title": "Case #1"
+      },
+      "grade": "9",
+      "grader": "TAG",
+      "status": "accepted",
+      "reason": "Five exact PSA9 reported sales support the median, explicitly recorded as a PSA comparison.",
+      "selected": {
+        "value": 14.85,
+        "currency": "USD",
+        "basis": "psa-comparison",
+        "source": "PriceCharting reported eBay sales",
+        "url": "https://www.pricecharting.com/game/pokemon-japanese-heat-wave-arena/yanma-64",
+        "asOf": "2026-07-26",
+        "retrievedAt": "2026-09-14T04:58:10.475Z",
+        "observationId": "pilot-2026-09-14-TAG:S2994291-psa-comparison-PSA",
+        "locked": true,
+        "provisional": false,
+        "legacy": false
+      },
+      "observationIds": [
+        "pilot-2026-09-14-TAG:S2994291-psa-comparison-PSA"
+      ],
+      "evidence": {
+        "copyId": "TAG:S2994291",
+        "url": "https://www.pricecharting.com/game/pokemon-japanese-heat-wave-arena/yanma-64",
+        "productId": "8830692",
+        "status": "psa-comparison-candidate",
+        "note": "Owner slab image verified Japanese Heat Wave Arena 064/063 Art Rare TAG 9. Five same-edition PSA 9 sales within 365 days, excluding mixed CGC/TAG sales and older sales. Prices are publicly reported completed sales, not independently verified buyer receipts.",
+        "sales": [
+          {
+            "transactionId": "147451668776",
+            "date": "2026-07-26",
+            "value": 14.85
+          },
+          {
+            "transactionId": "406483036185",
+            "date": "2026-07-15",
+            "value": 14.95
+          },
+          {
+            "transactionId": "318168059126",
+            "date": "2026-04-21",
+            "value": 10
+          },
+          {
+            "transactionId": "277749266064",
+            "date": "2026-03-01",
+            "value": 20.14
+          },
+          {
+            "transactionId": "365950300854",
+            "date": "2025-11-05",
+            "value": 7.5
+          }
+        ],
+        "directTagSale": {
+          "transactionId": "406897128447",
+          "date": "2026-05-25",
+          "value": 12.99,
+          "note": "Only one direct TAG 9 sale listed; insufficient for direct sold estimate."
+        }
+      },
+      "mappingReview": null
+    },
+    {
+      "copyId": "Authority:5356989824",
+      "title": "What If...? Dark: Carnage #1",
+      "container": {
+        "id": "comic-bin-13",
+        "title": "Comic Bin #13 (Softslabs)"
+      },
+      "grade": null,
+      "grader": null,
+      "status": "raw-reference-condition-unassessed",
+      "reason": "Exact full UPC matched. Broad ungraded guide is a provisional reference excluded from accepted totals.",
+      "selected": null,
+      "observationIds": [
+        "pilot-2026-09-14-Authority:5356989824-raw-reference-raw"
+      ],
+      "evidence": {
+        "copyId": "Authority:5356989824",
+        "productId": "5810112",
+        "title": "What If? Dark: Carnage #1 (2023)",
+        "upc": "75960620633900111",
+        "value": 4.2,
+        "url": "https://www.pricecharting.com/game/comic-books-what-if-dark-carnage/what-if-dark-carnage-1-2023"
+      },
+      "mappingReview": null
+    },
+    {
+      "copyId": "Authority:7721743138",
+      "title": "The Immortal Thor #1 : Miss Minutes Variant",
+      "container": {
+        "id": "comic-bin-13",
+        "title": "Comic Bin #13 (Softslabs)"
+      },
+      "grade": null,
+      "grader": null,
+      "status": "raw-reference-condition-unassessed",
+      "reason": "Exact full UPC matched. Broad ungraded guide is a provisional reference excluded from accepted totals.",
+      "selected": null,
+      "observationIds": [
+        "pilot-2026-09-14-Authority:7721743138-raw-reference-raw"
+      ],
+      "evidence": {
+        "copyId": "Authority:7721743138",
+        "productId": "5692913",
+        "title": "Immortal Thor [Momoko] #1 (2023)",
+        "upc": "75960620664300131",
+        "value": 4.23,
+        "url": "https://www.pricecharting.com/game/comic-books-immortal-thor/immortal-thor-momoko-1-2023"
+      },
+      "mappingReview": null
+    },
+    {
+      "copyId": "Authority:3297623591",
+      "title": "Black Panther #1 : Mr. Garcin Variant",
+      "container": {
+        "id": "comic-bin-13",
+        "title": "Comic Bin #13 (Softslabs)"
+      },
+      "grade": null,
+      "grader": null,
+      "status": "raw-reference-condition-unassessed",
+      "reason": "Exact full UPC matched. Broad ungraded guide is a provisional reference excluded from accepted totals.",
+      "selected": null,
+      "observationIds": [
+        "pilot-2026-09-14-Authority:3297623591-raw-reference-raw"
+      ],
+      "evidence": {
+        "copyId": "Authority:3297623591",
+        "productId": "5324977",
+        "title": "Black Panther [Mr. Garcin] #1 (2023)",
+        "upc": "75960620503500191",
+        "value": 4.95,
+        "url": "https://www.pricecharting.com/game/comic-books-black-panther/black-panther-mr-garcin-1-2023"
+      },
+      "mappingReview": null
+    },
+    {
+      "copyId": "Authority:6741967651",
+      "title": "Avengers: Twilight #1 : Skottie Young Variant",
+      "container": {
+        "id": "comic-bin-13",
+        "title": "Comic Bin #13 (Softslabs)"
+      },
+      "grade": null,
+      "grader": null,
+      "status": "raw-reference-condition-unassessed",
+      "reason": "Exact full UPC matched. Broad ungraded guide is a provisional reference excluded from accepted totals.",
+      "selected": null,
+      "observationIds": [
+        "pilot-2026-09-14-Authority:6741967651-raw-reference-raw"
+      ],
+      "evidence": {
+        "copyId": "Authority:6741967651",
+        "productId": "6243704",
+        "title": "Avengers: Twilight [Young] #1 (2024)",
+        "upc": "75960609592600141",
+        "value": 5.5,
+        "url": "https://www.pricecharting.com/game/comic-books-avengers-twilight/avengers-twilight-young-1-2024"
+      },
+      "mappingReview": null
+    },
+    {
+      "copyId": "Authority:2896359526",
+      "title": "G.O.D.S. #1 : Momoko Variant",
+      "container": {
+        "id": "comic-bin-13",
+        "title": "Comic Bin #13 (Softslabs)"
+      },
+      "grade": null,
+      "grader": null,
+      "status": "raw-reference-condition-unassessed",
+      "reason": "Exact full UPC matched. Broad ungraded guide is a provisional reference excluded from accepted totals.",
+      "selected": null,
+      "observationIds": [
+        "pilot-2026-09-14-Authority:2896359526-raw-reference-raw"
+      ],
+      "evidence": {
+        "copyId": "Authority:2896359526",
+        "productId": "5861529",
+        "title": "GODS [Momoko] #1 (2023)",
+        "upc": "75960620497700141",
+        "value": 6.01,
+        "url": "https://www.pricecharting.com/game/comic-books-gods/gods-momoko-1-2023"
+      },
+      "mappingReview": null
+    },
+    {
+      "copyId": "raw:15-001",
+      "title": "Unidentified · 15-001",
+      "container": {
+        "id": "comic-bin-15",
+        "title": "Comic Bin #15 (Softslabs)"
+      },
+      "grade": null,
+      "grader": null,
+      "status": "needs-edition-confirmation",
+      "reason": "Front has no title or barcode. Matches artwork on raw:15-005 but each is a separate physical copy, not a duplicate to delete. Back or purchase/edition evidence needed.",
+      "selected": null,
+      "observationIds": [],
+      "evidence": {
+        "copyId": "raw:15-001",
+        "candidate": "Marvel Super Heroes Secret Wars #8, modern facsimile virgin variant",
+        "status": "needs-edition-confirmation",
+        "note": "Front has no title or barcode. Matches artwork on raw:15-005 but each is a separate physical copy, not a duplicate to delete. Back or purchase/edition evidence needed."
+      },
+      "mappingReview": null
+    },
+    {
+      "copyId": "raw:15-002",
+      "title": "Unidentified · 15-002",
+      "container": {
+        "id": "comic-bin-15",
+        "title": "Comic Bin #15 (Softslabs)"
+      },
+      "grade": null,
+      "grader": null,
+      "status": "needs-edition-confirmation",
+      "reason": "Title, issue 1, TidalWave logo and Caio Cacau signature visible. Catalog suggests Comics Kingdom Creative/Comics Elite variant; verify edition and finish. Active listing prices excluded.",
+      "selected": null,
+      "observationIds": [],
+      "evidence": {
+        "copyId": "raw:15-002",
+        "candidate": "Orbit: Eminem #1, Caio Cacau Punisher homage trade dress",
+        "status": "needs-edition-confirmation",
+        "sourceUrl": "https://www.mycomicshop.com/search?TID=63507995",
+        "note": "Title, issue 1, TidalWave logo and Caio Cacau signature visible. Catalog suggests Comics Kingdom Creative/Comics Elite variant; verify edition and finish. Active listing prices excluded."
+      },
+      "mappingReview": null
+    },
+    {
+      "copyId": "raw:15-003",
+      "title": "Spider-Man: Reign 2 #1 : Skottie Young Variant Cover",
+      "container": {
+        "id": "comic-bin-15",
+        "title": "Comic Bin #15 (Softslabs)"
+      },
+      "grade": null,
+      "grader": null,
+      "status": "identity-confirmed-condition-unassessed",
+      "reason": "Exact complete barcode on owner front matches live catalog title, variant and year; condition unassessed.",
+      "selected": null,
+      "observationIds": [
+        "pilot-2026-09-14-raw:15-003-raw-reference"
+      ],
+      "evidence": {
+        "copyId": "raw:15-003",
+        "candidate": "Spider-Man: Reign 2 #1 (2024), Skottie Young variant",
+        "upc": "75960620394900121",
+        "sourceUrl": "https://www.pricecharting.com/game/comic-books-spider-man-reign-2/spider-man-reign-2-young-1-2024",
+        "status": "edition-verified-by-visible-barcode",
+        "note": "Exact complete barcode on owner front matches live catalog title, variant and year; condition unassessed.",
+        "verifiedIdentity": {
+          "copyId": "raw:15-003",
+          "productId": "6943128",
+          "url": "https://www.pricecharting.com/game/comic-books-spider-man-reign-2/spider-man-reign-2-young-1-2024",
+          "title": "Spider-Man: Reign 2",
+          "issue": "1",
+          "issueYear": "2024",
+          "publisher": "Marvel",
+          "variant": "Skottie Young Variant Cover",
+          "upc": "75960620394900121",
+          "value": 3.86
+        }
+      },
+      "mappingReview": null
+    },
+    {
+      "copyId": "raw:15-004",
+      "title": "Spider-Man: Reign 2 #1 : Leinil Francis Yu Variant Cover",
+      "container": {
+        "id": "comic-bin-15",
+        "title": "Comic Bin #15 (Softslabs)"
+      },
+      "grade": null,
+      "grader": null,
+      "status": "identity-confirmed-condition-unassessed",
+      "reason": "Exact complete barcode on owner front matches live catalog title, variant and year; condition unassessed.",
+      "selected": null,
+      "observationIds": [
+        "pilot-2026-09-14-raw:15-004-raw-reference"
+      ],
+      "evidence": {
+        "copyId": "raw:15-004",
+        "candidate": "Spider-Man: Reign 2 #1 (2024), Leinil Francis Yu variant",
+        "upc": "75960620394900131",
+        "sourceUrl": "https://www.pricecharting.com/game/comic-books-spider-man-reign-2/spider-man-reign-2-yu-1-2024",
+        "status": "edition-verified-by-visible-barcode",
+        "note": "Exact complete barcode on owner front matches live catalog title, variant and year; condition unassessed.",
+        "verifiedIdentity": {
+          "copyId": "raw:15-004",
+          "productId": "6943126",
+          "url": "https://www.pricecharting.com/game/comic-books-spider-man-reign-2/spider-man-reign-2-yu-1-2024",
+          "title": "Spider-Man: Reign 2",
+          "issue": "1",
+          "issueYear": "2024",
+          "publisher": "Marvel",
+          "variant": "Leinil Francis Yu Variant Cover",
+          "upc": "75960620394900131",
+          "value": 3.8
+        }
+      },
+      "mappingReview": null
+    },
+    {
+      "copyId": "raw:15-005",
+      "title": "Unidentified · 15-005",
+      "container": {
+        "id": "comic-bin-15",
+        "title": "Comic Bin #15 (Softslabs)"
+      },
+      "grade": null,
+      "grader": null,
+      "status": "needs-edition-confirmation",
+      "reason": "Title/issue visible with same art as raw:15-001, but reprint edition/year/artist remain unverified. Do not use original 1984 #8 price.",
+      "selected": null,
+      "observationIds": [],
+      "evidence": {
+        "copyId": "raw:15-005",
+        "candidate": "Marvel Super Heroes Secret Wars #8, modern facsimile trade dress variant",
+        "status": "needs-edition-confirmation",
+        "note": "Title/issue visible with same art as raw:15-001, but reprint edition/year/artist remain unverified. Do not use original 1984 #8 price."
+      },
+      "mappingReview": null
+    }
+  ],
+  "remainingMissingByGroup": {
+    "Owner raw": 96,
+    "Authority raw": 333,
+    "CGC cards": 11,
+    "TAG cards": 77,
+    "Arena Club cards": 1,
+    "CBCS comics": 2,
+    "CGC comics": 102,
+    "PSA cards": 8
+  },
+  "access": {
+    "gocollect": "User has a subscription; browser currently needs sign-in. No subscriber prices fetched in this pilot.",
+    "pricecharting": "Public pages inspected; official API token not configured.",
+    "sportscardspro": "Public page inspected; official API token not configured."
+  },
+  "bulk": {
+    "status": "queued-not-fetched",
+    "missingCopies": 630,
+    "queueFile": "data/valuation/queue.json",
+    "nextSteps": [
+      "Sign in to GoCollect to resume exact graded-comic captures.",
+      "Use verified product mappings with an official PriceCharting API token if available, or visible-page captures.",
+      "Confirm uncertain raw editions and assess condition before accepting raw market values.",
+      "Review sparse/old or widely dispersed evidence before acceptance; retain no-value status where unsupported."
+    ]
+  }
+}

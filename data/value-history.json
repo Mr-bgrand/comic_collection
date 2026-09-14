@@ -640,6 +640,86 @@
         "ownerTotal": 0,
         "undated": 45
       }
+    },
+    {
+      "observedAt": "2026-09-14T05:49:57.188Z",
+      "source": "build",
+      "categoryVersion": 1,
+      "fingerprint": "40033efebb58602f94817b92aa977c5c97c23359db2bf74f73b43e6758708512",
+      "total": 28761.42,
+      "count": 933,
+      "valued": 303,
+      "unvalued": 630,
+      "marketTotal": 28598.57,
+      "comparisonTotal": 162.85,
+      "ownerTotal": 0,
+      "provisionalTotal": 24.89,
+      "provisionalCount": 5,
+      "undated": 209,
+      "comics": {
+        "total": 11483,
+        "count": 696,
+        "valued": 163,
+        "unvalued": 533,
+        "marketTotal": 11483,
+        "comparisonTotal": 0,
+        "ownerTotal": 0,
+        "provisionalTotal": 24.89,
+        "provisionalCount": 5,
+        "undated": 163
+      },
+      "cards": {
+        "total": 17278.42,
+        "count": 237,
+        "valued": 140,
+        "unvalued": 97,
+        "marketTotal": 17115.57,
+        "comparisonTotal": 162.85,
+        "ownerTotal": 0,
+        "provisionalTotal": 0,
+        "provisionalCount": 0,
+        "undated": 46
+      }
+    },
+    {
+      "observedAt": "2026-09-14T05:57:30.185Z",
+      "source": "build",
+      "categoryVersion": 1,
+      "fingerprint": "5a960905cf3bb3d110516d028a6b14a173658b36b1a2e87964d49c23eb4819e7",
+      "total": 28761.42,
+      "count": 933,
+      "valued": 303,
+      "unvalued": 630,
+      "marketTotal": 28598.57,
+      "comparisonTotal": 162.85,
+      "ownerTotal": 0,
+      "provisionalTotal": 32.55,
+      "provisionalCount": 7,
+      "undated": 209,
+      "comics": {
+        "total": 11483,
+        "count": 696,
+        "valued": 163,
+        "unvalued": 533,
+        "marketTotal": 11483,
+        "comparisonTotal": 0,
+        "ownerTotal": 0,
+        "provisionalTotal": 32.55,
+        "provisionalCount": 7,
+        "undated": 163
+      },
+      "cards": {
+        "total": 17278.42,
+        "count": 237,
+        "valued": 140,
+        "unvalued": 97,
+        "marketTotal": 17115.57,
+        "comparisonTotal": 162.85,
+        "ownerTotal": 0,
+        "provisionalTotal": 0,
+        "provisionalCount": 0,
+        "undated": 46
+      }
     }
   ]
 }

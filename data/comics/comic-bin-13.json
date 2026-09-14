@@ -57,7 +57,54 @@
         "capturedAt": "2026-09-07T23:28:43.257Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "pilot-2026-09-14-Authority:5356989824-raw-reference-raw",
+            "copyId": "Authority:5356989824",
+            "basis": "raw-reference",
+            "value": 4.2,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-what-if-dark-carnage/what-if-dark-carnage-1-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-14T04:58:10.475Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "What If...? Dark: Carnage",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "",
+                "upc": "75960620633900111",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "A",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "productId": "5810112",
+            "reviewReason": "Exact edition UPC verified. Broad ungraded reference only; condition not assessed."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_5356989824_FRONT.jpg",
         "back": "Authority_5356989824_BACK.jpg"
@@ -152,7 +199,54 @@
         "capturedAt": "2026-09-07T23:28:54.379Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "pilot-2026-09-14-Authority:7721743138-raw-reference-raw",
+            "copyId": "Authority:7721743138",
+            "basis": "raw-reference",
+            "value": 4.23,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-immortal-thor/immortal-thor-momoko-1-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-14T04:58:10.475Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Immortal Thor",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Miss Minutes Variant",
+                "upc": "75960620664300131",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "D",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "productId": "5692913",
+            "reviewReason": "Exact edition UPC verified. Broad ungraded reference only; condition not assessed."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_7721743138_FRONT.jpg",
         "back": "Authority_7721743138_BACK.jpg"
@@ -249,7 +343,54 @@
         "capturedAt": "2026-09-07T23:28:56.617Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "pilot-2026-09-14-Authority:3297623591-raw-reference-raw",
+            "copyId": "Authority:3297623591",
+            "basis": "raw-reference",
+            "value": 4.95,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-black-panther/black-panther-mr-garcin-1-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-14T04:58:10.475Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Black Panther",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Mr. Garcin Variant",
+                "upc": "75960620503500191",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "G",
+                "volume": "9",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "productId": "5324977",
+            "reviewReason": "Exact edition UPC verified. Broad ungraded reference only; condition not assessed."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_3297623591_FRONT.jpg",
         "back": "Authority_3297623591_BACK.jpg"
@@ -348,7 +489,54 @@
         "capturedAt": "2026-09-07T23:28:58.863Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "pilot-2026-09-14-Authority:6741967651-raw-reference-raw",
+            "copyId": "Authority:6741967651",
+            "basis": "raw-reference",
+            "value": 5.5,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-avengers-twilight/avengers-twilight-young-1-2024",
+              "asOf": null,
+              "retrievedAt": "2026-09-14T04:58:10.475Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Avengers: Twilight",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "Marvel",
+                "variant": "Skottie Young Variant",
+                "upc": "75960609592600141",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "E",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "productId": "6243704",
+            "reviewReason": "Exact edition UPC verified. Broad ungraded reference only; condition not assessed."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_6741967651_FRONT.jpg",
         "back": "Authority_6741967651_BACK.jpg"
@@ -443,7 +631,54 @@
         "capturedAt": "2026-09-07T23:29:01.045Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "pilot-2026-09-14-Authority:2896359526-raw-reference-raw",
+            "copyId": "Authority:2896359526",
+            "basis": "raw-reference",
+            "value": 6.01,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-gods/gods-momoko-1-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-14T04:58:10.475Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "G.O.D.S.",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Momoko Variant",
+                "upc": "75960620497700141",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "D",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "productId": "5861529",
+            "reviewReason": "Exact edition UPC verified. Broad ungraded reference only; condition not assessed."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_2896359526_FRONT.jpg",
         "back": "Authority_2896359526_BACK.jpg"

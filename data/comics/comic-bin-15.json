@@ -2762,11 +2762,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Spider-Man: Reign 2",
+      "issue": "1",
+      "variant": "Skottie Young Variant Cover",
+      "publisher": "Marvel",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -2780,7 +2780,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Spider-Man: Reign 2",
@@ -2790,10 +2790,118 @@
             "confidence": "high",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-14T05:49:28.408Z",
+        "sourceUrl": "https://www.pricecharting.com/game/comic-books-spider-man-reign-2/spider-man-reign-2-young-1-2024"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spider-Man: Reign 2",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "Marvel",
+                "variant": "Skottie Young Variant Cover",
+                "upc": "75960620394900121",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-spider-man-reign-2/spider-man-reign-2-young-1-2024",
+              "notes": "Complete barcode visible on the owner front scan exactly matches the live catalog UPC, title, issue, year and variant. Condition remains unassessed; no numerical grade inferred.",
+              "reviewedBy": "Codex: owner scan and catalog verification",
+              "reviewedAt": "2026-09-14T05:49:28.408Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-14T05:49:28.508Z",
+        "observations": [
+          {
+            "id": "pilot-2026-09-14-raw:15-003-raw-reference",
+            "copyId": "raw:15-003",
+            "basis": "raw-reference",
+            "value": 3.86,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-spider-man-reign-2/spider-man-reign-2-young-1-2024",
+              "asOf": null,
+              "retrievedAt": "2026-09-14T05:21:44.332Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spider-Man: Reign 2",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "Marvel",
+                "variant": "Skottie Young Variant Cover",
+                "upc": "75960620394900121",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "productId": "6943128",
+            "reviewReason": "Full owner-scan UPC and live catalog edition verified. Broad ungraded reference only; condition unassessed. Excluded from accepted total."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-003_FRONT.jpg"
       },
@@ -2814,7 +2922,8 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:05:15.575Z"
-      }
+      },
+      "upc": "75960620394900121"
     },
     {
       "id": "raw:15-004",
@@ -2822,11 +2931,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Spider-Man: Reign 2",
+      "issue": "1",
+      "variant": "Leinil Francis Yu Variant Cover",
+      "publisher": "Marvel",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -2840,7 +2949,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Spider-Man: Reign 2",
@@ -2851,10 +2960,118 @@
             "source": "visual",
             "note": "artist unverified"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-14T05:49:28.408Z",
+        "sourceUrl": "https://www.pricecharting.com/game/comic-books-spider-man-reign-2/spider-man-reign-2-yu-1-2024"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spider-Man: Reign 2",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "Marvel",
+                "variant": "Leinil Francis Yu Variant Cover",
+                "upc": "75960620394900131",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-spider-man-reign-2/spider-man-reign-2-yu-1-2024",
+              "notes": "Complete barcode visible on the owner front scan exactly matches the live catalog UPC, title, issue, year and variant. Condition remains unassessed; no numerical grade inferred.",
+              "reviewedBy": "Codex: owner scan and catalog verification",
+              "reviewedAt": "2026-09-14T05:49:28.408Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-14T05:49:28.509Z",
+        "observations": [
+          {
+            "id": "pilot-2026-09-14-raw:15-004-raw-reference",
+            "copyId": "raw:15-004",
+            "basis": "raw-reference",
+            "value": 3.8,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-spider-man-reign-2/spider-man-reign-2-yu-1-2024",
+              "asOf": null,
+              "retrievedAt": "2026-09-14T05:21:44.332Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spider-Man: Reign 2",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "Marvel",
+                "variant": "Leinil Francis Yu Variant Cover",
+                "upc": "75960620394900131",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "productId": "6943126",
+            "reviewReason": "Full owner-scan UPC and live catalog edition verified. Broad ungraded reference only; condition unassessed. Excluded from accepted total."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-004_FRONT.jpg"
       },
@@ -2875,7 +3092,8 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:05:15.575Z"
-      }
+      },
+      "upc": "75960620394900131"
     },
     {
       "id": "raw:15-005",

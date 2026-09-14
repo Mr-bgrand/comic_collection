@@ -1,0 +1,1226 @@
+{
+  "status": "queued",
+  "retrievedValues": 0,
+  "providers": {
+    "gocollect": {
+      "mode": "saved-visible-capture",
+      "configured": true
+    },
+    "pricecharting": {
+      "mode": "optional-official-api",
+      "configured": false
+    },
+    "sportscardspro": {
+      "mode": "optional-official-api",
+      "configured": false
+    },
+    "json": {
+      "mode": "import-and-explicit-accept",
+      "configured": true
+    }
+  },
+  "items": [
+    {
+      "copyId": "CGC:2765925001",
+      "title": "TMNT/Usagi Yojimbo: Wherewhen #2",
+      "kind": "comic",
+      "grader": "CGC",
+      "grade": "9.8",
+      "provider": null,
+      "container": {
+        "id": "10",
+        "title": "Bin 10"
+      },
+      "revision": "42a473e42ebba3b57a31701580b5e32fca18938de27363605c79bf1b9774071d",
+      "current": null,
+      "flags": [
+        "missing"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value"
+      ],
+      "priority": 100,
+      "sourceQueries": [
+        {
+          "source": "GoCollect",
+          "query": "TMNT/Usagi Yojimbo: Wherewhen #2 CGC 9.8"
+        },
+        {
+          "source": "eBay sold",
+          "query": "TMNT/Usagi Yojimbo: Wherewhen #2 CGC 9.8"
+        }
+      ],
+      "pilotCategory": "CGC",
+      "legacyStatus": "new",
+      "special": true,
+      "halfGrade": false,
+      "candidateIdentity": null
+    },
+    {
+      "copyId": "CGC:4089841007",
+      "title": "Wretches #1 : Momoko Metal Edition",
+      "kind": "comic",
+      "grader": "CGC",
+      "grade": "9.8",
+      "provider": null,
+      "container": {
+        "id": "08",
+        "title": "Bin 08"
+      },
+      "revision": "c72a3016af331c52a30476b1d5565261b5bb392a77b8b44ed4d981132ed81a51",
+      "current": null,
+      "flags": [
+        "missing"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value"
+      ],
+      "priority": 100,
+      "sourceQueries": [
+        {
+          "source": "GoCollect",
+          "query": "Wretches #1 : Momoko Metal Edition CGC 9.8"
+        },
+        {
+          "source": "eBay sold",
+          "query": "Wretches #1 : Momoko Metal Edition CGC 9.8"
+        }
+      ],
+      "pilotCategory": "CGC",
+      "legacyStatus": "not-listed",
+      "special": true,
+      "halfGrade": false,
+      "candidateIdentity": null
+    },
+    {
+      "copyId": "CGC:1430525018",
+      "title": "Back to the Future #1 : JJ's Comics & Art Edition",
+      "kind": "comic",
+      "grader": "CGC",
+      "grade": "9.8",
+      "provider": null,
+      "container": {
+        "id": "11",
+        "title": "Bin 11"
+      },
+      "revision": "7ab22ac9398858ef37b34f18e8795321ae83913cce4b7a65ca9a1182689289ed",
+      "current": null,
+      "flags": [
+        "missing"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value"
+      ],
+      "priority": 100,
+      "sourceQueries": [
+        {
+          "source": "GoCollect",
+          "query": "Back to the Future #1 : JJ's Comics & Art Edition CGC 9.8"
+        },
+        {
+          "source": "eBay sold",
+          "query": "Back to the Future #1 : JJ's Comics & Art Edition CGC 9.8"
+        }
+      ],
+      "pilotCategory": "CGC",
+      "legacyStatus": "no-sales",
+      "special": true,
+      "halfGrade": false,
+      "candidateIdentity": null
+    },
+    {
+      "copyId": "CGC:2691440008",
+      "title": "Revolution #1 : Sharper Collectibles Edition",
+      "kind": "comic",
+      "grader": "CGC",
+      "grade": "9.8",
+      "provider": null,
+      "container": {
+        "id": "04",
+        "title": "Bin 04"
+      },
+      "revision": "40a0815138e2204c4980013f6ccd862a2e604b5e7b7fe9465608216eb00e0ada",
+      "current": null,
+      "flags": [
+        "missing"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value"
+      ],
+      "priority": 100,
+      "sourceQueries": [
+        {
+          "source": "GoCollect",
+          "query": "Revolution #1 : Sharper Collectibles Edition CGC 9.8"
+        },
+        {
+          "source": "eBay sold",
+          "query": "Revolution #1 : Sharper Collectibles Edition CGC 9.8"
+        }
+      ],
+      "pilotCategory": "CGC",
+      "legacyStatus": "no-sales",
+      "special": true,
+      "halfGrade": false,
+      "candidateIdentity": null
+    },
+    {
+      "copyId": "CGC:2733544003",
+      "title": "Strange Academy #1 : Young Variant Cover",
+      "kind": "comic",
+      "grader": "CGC",
+      "grade": "9.8",
+      "provider": null,
+      "container": {
+        "id": "11",
+        "title": "Bin 11"
+      },
+      "revision": "7ab22ac9398858ef37b34f18e8795321ae83913cce4b7a65ca9a1182689289ed",
+      "current": null,
+      "flags": [
+        "missing"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value"
+      ],
+      "priority": 100,
+      "sourceQueries": [
+        {
+          "source": "GoCollect",
+          "query": "Strange Academy #1 : Young Variant Cover CGC 9.8"
+        },
+        {
+          "source": "eBay sold",
+          "query": "Strange Academy #1 : Young Variant Cover CGC 9.8"
+        }
+      ],
+      "pilotCategory": "CGC",
+      "legacyStatus": "no-sales",
+      "special": true,
+      "halfGrade": false,
+      "candidateIdentity": null
+    },
+    {
+      "copyId": "CGC:2757895001",
+      "title": "Final Boss #1 : SMZ Comics Metal Edition G",
+      "kind": "comic",
+      "grader": "CGC",
+      "grade": "9.8",
+      "provider": null,
+      "container": {
+        "id": "11",
+        "title": "Bin 11"
+      },
+      "revision": "7ab22ac9398858ef37b34f18e8795321ae83913cce4b7a65ca9a1182689289ed",
+      "current": null,
+      "flags": [
+        "missing"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value"
+      ],
+      "priority": 100,
+      "sourceQueries": [
+        {
+          "source": "GoCollect",
+          "query": "Final Boss #1 : SMZ Comics Metal Edition G CGC 9.8"
+        },
+        {
+          "source": "eBay sold",
+          "query": "Final Boss #1 : SMZ Comics Metal Edition G CGC 9.8"
+        }
+      ],
+      "pilotCategory": "CGC",
+      "legacyStatus": "no-sales",
+      "special": true,
+      "halfGrade": false,
+      "candidateIdentity": null
+    },
+    {
+      "copyId": "CGC:3760617001",
+      "title": "White Widow #2 : Rebel Killer Edition",
+      "kind": "comic",
+      "grader": "CGC",
+      "grade": "9.8",
+      "provider": null,
+      "container": {
+        "id": "11",
+        "title": "Bin 11"
+      },
+      "revision": "7ab22ac9398858ef37b34f18e8795321ae83913cce4b7a65ca9a1182689289ed",
+      "current": null,
+      "flags": [
+        "missing"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value"
+      ],
+      "priority": 100,
+      "sourceQueries": [
+        {
+          "source": "GoCollect",
+          "query": "White Widow #2 : Rebel Killer Edition CGC 9.8"
+        },
+        {
+          "source": "eBay sold",
+          "query": "White Widow #2 : Rebel Killer Edition CGC 9.8"
+        }
+      ],
+      "pilotCategory": "CGC",
+      "legacyStatus": "no-sales",
+      "special": true,
+      "halfGrade": false,
+      "candidateIdentity": null
+    },
+    {
+      "copyId": "CGC:4137945006",
+      "title": "Detective Comics: Facsimile Edition #27",
+      "kind": "comic",
+      "grader": "CGC",
+      "grade": "9.0",
+      "provider": null,
+      "container": {
+        "id": "05",
+        "title": "Bin 05"
+      },
+      "revision": "b8b10a90773ee0fc8e2d53210f4ea36f63a18fb8c95dc5e8ebb800f9008409ed",
+      "current": null,
+      "flags": [
+        "missing"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value"
+      ],
+      "priority": 100,
+      "sourceQueries": [
+        {
+          "source": "GoCollect",
+          "query": "Detective Comics: Facsimile Edition #27 CGC 9.0"
+        },
+        {
+          "source": "eBay sold",
+          "query": "Detective Comics: Facsimile Edition #27 CGC 9.0"
+        }
+      ],
+      "pilotCategory": "CGC",
+      "legacyStatus": "no-sales",
+      "special": false,
+      "halfGrade": false,
+      "candidateIdentity": null
+    },
+    {
+      "copyId": "CGC:4137946001",
+      "title": "All-New Ghost Rider: Engines of Vengeance #1 : Second Printing",
+      "kind": "comic",
+      "grader": "CGC",
+      "grade": "9.4",
+      "provider": null,
+      "container": {
+        "id": "07",
+        "title": "Bin 07"
+      },
+      "revision": "a44b166b9191b5af0822775d3252aaa99326a87e8a17ec2f995291e3dc33da2c",
+      "current": null,
+      "flags": [
+        "missing"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value"
+      ],
+      "priority": 100,
+      "sourceQueries": [
+        {
+          "source": "GoCollect",
+          "query": "All-New Ghost Rider: Engines of Vengeance #1 : Second Printing CGC 9.4"
+        },
+        {
+          "source": "eBay sold",
+          "query": "All-New Ghost Rider: Engines of Vengeance #1 : Second Printing CGC 9.4"
+        }
+      ],
+      "pilotCategory": "CGC",
+      "legacyStatus": "not-listed",
+      "special": false,
+      "halfGrade": false,
+      "candidateIdentity": null
+    },
+    {
+      "copyId": "CGC:4137947002",
+      "title": "Back to the Future #1 : Second Printing",
+      "kind": "comic",
+      "grader": "CGC",
+      "grade": "9.4",
+      "provider": null,
+      "container": {
+        "id": "04",
+        "title": "Bin 04"
+      },
+      "revision": "40a0815138e2204c4980013f6ccd862a2e604b5e7b7fe9465608216eb00e0ada",
+      "current": null,
+      "flags": [
+        "missing"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value"
+      ],
+      "priority": 100,
+      "sourceQueries": [
+        {
+          "source": "GoCollect",
+          "query": "Back to the Future #1 : Second Printing CGC 9.4"
+        },
+        {
+          "source": "eBay sold",
+          "query": "Back to the Future #1 : Second Printing CGC 9.4"
+        }
+      ],
+      "pilotCategory": "CGC",
+      "legacyStatus": "no-sales",
+      "special": false,
+      "halfGrade": false,
+      "candidateIdentity": null
+    },
+    {
+      "copyId": "TAG:L3302729",
+      "title": "2025 JOURNEY TOGETHER #174/159 MAMOSWINE EX : ULTRA RARE",
+      "kind": "card",
+      "grader": "TAG",
+      "grade": "8.5",
+      "provider": null,
+      "container": {
+        "id": "case-02",
+        "title": "Case #2"
+      },
+      "revision": "ffa3bc6ea15d82840052df5e9325abfb9ed25515dab7de120bef2d9b66662dc4",
+      "current": null,
+      "flags": [
+        "missing"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value"
+      ],
+      "priority": 100,
+      "sourceQueries": [
+        {
+          "source": "PSA same-grade comparison",
+          "query": "2025 JOURNEY TOGETHER #174/159 MAMOSWINE EX : ULTRA RARE PSA 8.5"
+        },
+        {
+          "source": "eBay sold",
+          "query": "2025 JOURNEY TOGETHER #174/159 MAMOSWINE EX : ULTRA RARE TAG 8.5"
+        }
+      ],
+      "pilotCategory": "TAG",
+      "legacyStatus": "new",
+      "special": false,
+      "halfGrade": true,
+      "candidateIdentity": null
+    },
+    {
+      "copyId": "TAG:G7325430",
+      "title": "2025 TAG WORLD SCARIES: LA VS. TOR #WS2-1 WILWOLF : BLOOD RED HOLO",
+      "kind": "card",
+      "grader": "TAG",
+      "grade": "10",
+      "provider": null,
+      "container": {
+        "id": "case-02",
+        "title": "Case #2"
+      },
+      "revision": "ffa3bc6ea15d82840052df5e9325abfb9ed25515dab7de120bef2d9b66662dc4",
+      "current": null,
+      "flags": [
+        "missing"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value"
+      ],
+      "priority": 100,
+      "sourceQueries": [
+        {
+          "source": "PSA same-grade comparison",
+          "query": "2025 TAG WORLD SCARIES: LA VS. TOR #WS2-1 WILWOLF : BLOOD RED HOLO PSA 10"
+        },
+        {
+          "source": "eBay sold",
+          "query": "2025 TAG WORLD SCARIES: LA VS. TOR #WS2-1 WILWOLF : BLOOD RED HOLO TAG 10"
+        }
+      ],
+      "pilotCategory": "TAG",
+      "legacyStatus": "new",
+      "special": true,
+      "halfGrade": false,
+      "candidateIdentity": null
+    },
+    {
+      "copyId": "TAG:E3314397",
+      "title": "2023 OBSIDIAN FLAMES #202/197 CLEFFA : ILLUSTRATION RARE",
+      "kind": "card",
+      "grader": "TAG",
+      "grade": "8.5",
+      "provider": null,
+      "container": {
+        "id": "case-02",
+        "title": "Case #2"
+      },
+      "revision": "ffa3bc6ea15d82840052df5e9325abfb9ed25515dab7de120bef2d9b66662dc4",
+      "current": null,
+      "flags": [
+        "missing",
+        "review"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value",
+        "Evidence awaits owner review"
+      ],
+      "priority": 130,
+      "sourceQueries": [
+        {
+          "source": "PSA same-grade comparison",
+          "query": "2023 OBSIDIAN FLAMES #202/197 CLEFFA : ILLUSTRATION RARE PSA 8.5"
+        },
+        {
+          "source": "eBay sold",
+          "query": "2023 OBSIDIAN FLAMES #202/197 CLEFFA : ILLUSTRATION RARE TAG 8.5"
+        }
+      ],
+      "pilotCategory": "TAG",
+      "legacyStatus": "new",
+      "special": false,
+      "halfGrade": true,
+      "candidateIdentity": null
+    },
+    {
+      "copyId": "TAG:M9505930",
+      "title": "2024 SURGING SPARKS ELITE TRAINER BOX #159 MAGNETON",
+      "kind": "card",
+      "grader": "TAG",
+      "grade": "8.5",
+      "provider": null,
+      "container": {
+        "id": "case-02",
+        "title": "Case #2"
+      },
+      "revision": "ffa3bc6ea15d82840052df5e9325abfb9ed25515dab7de120bef2d9b66662dc4",
+      "current": null,
+      "flags": [
+        "missing"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value"
+      ],
+      "priority": 100,
+      "sourceQueries": [
+        {
+          "source": "PSA same-grade comparison",
+          "query": "2024 SURGING SPARKS ELITE TRAINER BOX #159 MAGNETON PSA 8.5"
+        },
+        {
+          "source": "eBay sold",
+          "query": "2024 SURGING SPARKS ELITE TRAINER BOX #159 MAGNETON TAG 8.5"
+        }
+      ],
+      "pilotCategory": "TAG",
+      "legacyStatus": "new",
+      "special": false,
+      "halfGrade": true,
+      "candidateIdentity": null
+    },
+    {
+      "copyId": "TAG:U5165558",
+      "title": "2024 TOPPS CHROME UPDATE #USC43 JARED JONES : PRISM REFRACTOR",
+      "kind": "card",
+      "grader": "TAG",
+      "grade": "8.5",
+      "provider": null,
+      "container": {
+        "id": "case-wall-office",
+        "title": "Case Wall Display (Office)"
+      },
+      "revision": "3595d07cbc3ae6911648801f6179883daa2e162c94c9b72bdbe3ed49934c2799",
+      "current": null,
+      "flags": [
+        "missing"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value"
+      ],
+      "priority": 100,
+      "sourceQueries": [
+        {
+          "source": "PSA same-grade comparison",
+          "query": "2024 TOPPS CHROME UPDATE #USC43 JARED JONES : PRISM REFRACTOR PSA 8.5"
+        },
+        {
+          "source": "eBay sold",
+          "query": "2024 TOPPS CHROME UPDATE #USC43 JARED JONES : PRISM REFRACTOR TAG 8.5"
+        }
+      ],
+      "pilotCategory": "TAG",
+      "legacyStatus": "new",
+      "special": false,
+      "halfGrade": true,
+      "candidateIdentity": null
+    },
+    {
+      "copyId": "TAG:C5407435",
+      "title": "2025 TAG WORLD SCARIES: LA VS. TOR #WS2-2 BO BONES : LUNAR GOLD HOLO",
+      "kind": "card",
+      "grader": "TAG",
+      "grade": "9",
+      "provider": null,
+      "container": {
+        "id": "case-02",
+        "title": "Case #2"
+      },
+      "revision": "ffa3bc6ea15d82840052df5e9325abfb9ed25515dab7de120bef2d9b66662dc4",
+      "current": null,
+      "flags": [
+        "missing"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value"
+      ],
+      "priority": 100,
+      "sourceQueries": [
+        {
+          "source": "PSA same-grade comparison",
+          "query": "2025 TAG WORLD SCARIES: LA VS. TOR #WS2-2 BO BONES : LUNAR GOLD HOLO PSA 9"
+        },
+        {
+          "source": "eBay sold",
+          "query": "2025 TAG WORLD SCARIES: LA VS. TOR #WS2-2 BO BONES : LUNAR GOLD HOLO TAG 9"
+        }
+      ],
+      "pilotCategory": "TAG",
+      "legacyStatus": "new",
+      "special": true,
+      "halfGrade": false,
+      "candidateIdentity": null
+    },
+    {
+      "copyId": "TAG:H1870819",
+      "title": "2025 HEAT WAVE ARENA #091/063 シロナのガブリアス CYNTHIA'S GARCHOMP EX : ULTRA RARE",
+      "kind": "card",
+      "grader": "TAG",
+      "grade": "10",
+      "provider": null,
+      "container": {
+        "id": "case-01",
+        "title": "Case #1"
+      },
+      "revision": "482036deea04715e7c7aed879cc6ab2cdd4b74b685038bb092f728362d702d86",
+      "current": null,
+      "flags": [
+        "missing",
+        "review"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value",
+        "Evidence awaits owner review"
+      ],
+      "priority": 130,
+      "sourceQueries": [
+        {
+          "source": "PSA same-grade comparison",
+          "query": "2025 HEAT WAVE ARENA #091/063 シロナのガブリアス CYNTHIA'S GARCHOMP EX : ULTRA RARE PSA 10"
+        },
+        {
+          "source": "eBay sold",
+          "query": "2025 HEAT WAVE ARENA #091/063 シロナのガブリアス CYNTHIA'S GARCHOMP EX : ULTRA RARE TAG 10"
+        }
+      ],
+      "pilotCategory": "TAG",
+      "legacyStatus": "new",
+      "special": false,
+      "halfGrade": false,
+      "candidateIdentity": null
+    },
+    {
+      "copyId": "TAG:R4092198",
+      "title": "2023 PARADOX RIFT #186/182 MAGBY : ILLUSTRATION RARE",
+      "kind": "card",
+      "grader": "TAG",
+      "grade": "10",
+      "provider": null,
+      "container": {
+        "id": "case-01",
+        "title": "Case #1"
+      },
+      "revision": "482036deea04715e7c7aed879cc6ab2cdd4b74b685038bb092f728362d702d86",
+      "current": {
+        "value": 88.57,
+        "currency": "USD",
+        "basis": "guide",
+        "source": "PriceCharting",
+        "url": "https://www.pricecharting.com/game/pokemon-paradox-rift/magby-186",
+        "asOf": null,
+        "retrievedAt": "2026-09-14T04:58:10.475Z",
+        "observationId": "pilot-2026-09-14-TAG:R4092198-guide-TAG",
+        "locked": true,
+        "provisional": false,
+        "legacy": false
+      },
+      "flags": [
+        "undated",
+        "review"
+      ],
+      "reasons": [
+        "Value has no source-as-of date",
+        "Evidence awaits owner review"
+      ],
+      "priority": 40,
+      "sourceQueries": [
+        {
+          "source": "PSA same-grade comparison",
+          "query": "2023 PARADOX RIFT #186/182 MAGBY : ILLUSTRATION RARE PSA 10"
+        },
+        {
+          "source": "eBay sold",
+          "query": "2023 PARADOX RIFT #186/182 MAGBY : ILLUSTRATION RARE TAG 10"
+        }
+      ],
+      "pilotCategory": "TAG",
+      "legacyStatus": "new",
+      "special": false,
+      "halfGrade": false,
+      "candidateIdentity": null
+    },
+    {
+      "copyId": "TAG:H9812622",
+      "title": "2023 PARADOX RIFT ELITE TRAINER BOX #065 SCREAM TAIL : HOLO",
+      "kind": "card",
+      "grader": "TAG",
+      "grade": "10",
+      "provider": null,
+      "container": {
+        "id": "case-01",
+        "title": "Case #1"
+      },
+      "revision": "482036deea04715e7c7aed879cc6ab2cdd4b74b685038bb092f728362d702d86",
+      "current": null,
+      "flags": [
+        "missing",
+        "review"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value",
+        "Evidence awaits owner review"
+      ],
+      "priority": 130,
+      "sourceQueries": [
+        {
+          "source": "PSA same-grade comparison",
+          "query": "2023 PARADOX RIFT ELITE TRAINER BOX #065 SCREAM TAIL : HOLO PSA 10"
+        },
+        {
+          "source": "eBay sold",
+          "query": "2023 PARADOX RIFT ELITE TRAINER BOX #065 SCREAM TAIL : HOLO TAG 10"
+        }
+      ],
+      "pilotCategory": "TAG",
+      "legacyStatus": "new",
+      "special": false,
+      "halfGrade": false,
+      "candidateIdentity": null
+    },
+    {
+      "copyId": "TAG:S2994291",
+      "title": "2025 HEAT WAVE ARENA #064/063 ヤンヤンマ YANMA : ART RARE",
+      "kind": "card",
+      "grader": "TAG",
+      "grade": "9",
+      "provider": null,
+      "container": {
+        "id": "case-01",
+        "title": "Case #1"
+      },
+      "revision": "482036deea04715e7c7aed879cc6ab2cdd4b74b685038bb092f728362d702d86",
+      "current": {
+        "value": 14.85,
+        "currency": "USD",
+        "basis": "psa-comparison",
+        "source": "PriceCharting reported eBay sales",
+        "url": "https://www.pricecharting.com/game/pokemon-japanese-heat-wave-arena/yanma-64",
+        "asOf": "2026-07-26",
+        "retrievedAt": "2026-09-14T04:58:10.475Z",
+        "observationId": "pilot-2026-09-14-TAG:S2994291-psa-comparison-PSA",
+        "locked": true,
+        "provisional": false,
+        "legacy": false
+      },
+      "flags": [],
+      "reasons": [],
+      "priority": 0,
+      "sourceQueries": [
+        {
+          "source": "PSA same-grade comparison",
+          "query": "2025 HEAT WAVE ARENA #064/063 ヤンヤンマ YANMA : ART RARE PSA 9"
+        },
+        {
+          "source": "eBay sold",
+          "query": "2025 HEAT WAVE ARENA #064/063 ヤンヤンマ YANMA : ART RARE TAG 9"
+        }
+      ],
+      "pilotCategory": "TAG",
+      "legacyStatus": "new",
+      "special": false,
+      "halfGrade": false,
+      "candidateIdentity": null
+    },
+    {
+      "copyId": "Authority:5356989824",
+      "title": "What If...? Dark: Carnage #1",
+      "kind": "comic",
+      "grader": null,
+      "grade": null,
+      "provider": "Authority",
+      "container": {
+        "id": "comic-bin-13",
+        "title": "Comic Bin #13 (Softslabs)"
+      },
+      "revision": "070c0cfc0f1e1df7ea678ee8bfe7723cd45f934e7700265d0ab1072513f4be0d",
+      "current": null,
+      "flags": [
+        "missing",
+        "review",
+        "condition"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value",
+        "Evidence awaits owner review",
+        "Raw condition is unrecorded"
+      ],
+      "priority": 170,
+      "sourceQueries": [
+        {
+          "source": "market",
+          "query": "What If...? Dark: Carnage #1"
+        },
+        {
+          "source": "eBay sold",
+          "query": "What If...? Dark: Carnage #1"
+        }
+      ],
+      "pilotCategory": "Authority",
+      "legacyStatus": "new",
+      "special": false,
+      "halfGrade": false,
+      "candidateIdentity": null
+    },
+    {
+      "copyId": "Authority:7721743138",
+      "title": "The Immortal Thor #1 : Miss Minutes Variant",
+      "kind": "comic",
+      "grader": null,
+      "grade": null,
+      "provider": "Authority",
+      "container": {
+        "id": "comic-bin-13",
+        "title": "Comic Bin #13 (Softslabs)"
+      },
+      "revision": "070c0cfc0f1e1df7ea678ee8bfe7723cd45f934e7700265d0ab1072513f4be0d",
+      "current": null,
+      "flags": [
+        "missing",
+        "review",
+        "condition"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value",
+        "Evidence awaits owner review",
+        "Raw condition is unrecorded"
+      ],
+      "priority": 170,
+      "sourceQueries": [
+        {
+          "source": "market",
+          "query": "The Immortal Thor #1 : Miss Minutes Variant"
+        },
+        {
+          "source": "eBay sold",
+          "query": "The Immortal Thor #1 : Miss Minutes Variant"
+        }
+      ],
+      "pilotCategory": "Authority",
+      "legacyStatus": "new",
+      "special": false,
+      "halfGrade": false,
+      "candidateIdentity": null
+    },
+    {
+      "copyId": "Authority:3297623591",
+      "title": "Black Panther #1 : Mr. Garcin Variant",
+      "kind": "comic",
+      "grader": null,
+      "grade": null,
+      "provider": "Authority",
+      "container": {
+        "id": "comic-bin-13",
+        "title": "Comic Bin #13 (Softslabs)"
+      },
+      "revision": "070c0cfc0f1e1df7ea678ee8bfe7723cd45f934e7700265d0ab1072513f4be0d",
+      "current": null,
+      "flags": [
+        "missing",
+        "review",
+        "condition"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value",
+        "Evidence awaits owner review",
+        "Raw condition is unrecorded"
+      ],
+      "priority": 170,
+      "sourceQueries": [
+        {
+          "source": "market",
+          "query": "Black Panther #1 : Mr. Garcin Variant"
+        },
+        {
+          "source": "eBay sold",
+          "query": "Black Panther #1 : Mr. Garcin Variant"
+        }
+      ],
+      "pilotCategory": "Authority",
+      "legacyStatus": "new",
+      "special": false,
+      "halfGrade": false,
+      "candidateIdentity": null
+    },
+    {
+      "copyId": "Authority:6741967651",
+      "title": "Avengers: Twilight #1 : Skottie Young Variant",
+      "kind": "comic",
+      "grader": null,
+      "grade": null,
+      "provider": "Authority",
+      "container": {
+        "id": "comic-bin-13",
+        "title": "Comic Bin #13 (Softslabs)"
+      },
+      "revision": "070c0cfc0f1e1df7ea678ee8bfe7723cd45f934e7700265d0ab1072513f4be0d",
+      "current": null,
+      "flags": [
+        "missing",
+        "review",
+        "condition"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value",
+        "Evidence awaits owner review",
+        "Raw condition is unrecorded"
+      ],
+      "priority": 170,
+      "sourceQueries": [
+        {
+          "source": "market",
+          "query": "Avengers: Twilight #1 : Skottie Young Variant"
+        },
+        {
+          "source": "eBay sold",
+          "query": "Avengers: Twilight #1 : Skottie Young Variant"
+        }
+      ],
+      "pilotCategory": "Authority",
+      "legacyStatus": "new",
+      "special": false,
+      "halfGrade": false,
+      "candidateIdentity": null
+    },
+    {
+      "copyId": "Authority:2896359526",
+      "title": "G.O.D.S. #1 : Momoko Variant",
+      "kind": "comic",
+      "grader": null,
+      "grade": null,
+      "provider": "Authority",
+      "container": {
+        "id": "comic-bin-13",
+        "title": "Comic Bin #13 (Softslabs)"
+      },
+      "revision": "070c0cfc0f1e1df7ea678ee8bfe7723cd45f934e7700265d0ab1072513f4be0d",
+      "current": null,
+      "flags": [
+        "missing",
+        "review",
+        "condition"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value",
+        "Evidence awaits owner review",
+        "Raw condition is unrecorded"
+      ],
+      "priority": 170,
+      "sourceQueries": [
+        {
+          "source": "market",
+          "query": "G.O.D.S. #1 : Momoko Variant"
+        },
+        {
+          "source": "eBay sold",
+          "query": "G.O.D.S. #1 : Momoko Variant"
+        }
+      ],
+      "pilotCategory": "Authority",
+      "legacyStatus": "new",
+      "special": false,
+      "halfGrade": false,
+      "candidateIdentity": null
+    },
+    {
+      "copyId": "raw:15-001",
+      "title": "Unidentified · 15-001",
+      "kind": "comic",
+      "grader": null,
+      "grade": null,
+      "provider": null,
+      "container": {
+        "id": "comic-bin-15",
+        "title": "Comic Bin #15 (Softslabs)"
+      },
+      "revision": "8a93ab4211e0166d67ea08887c3bba66c6a8b9acf2fe2a5ba23930e96f354d50",
+      "current": null,
+      "flags": [
+        "missing",
+        "condition",
+        "identity"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value",
+        "Raw condition is unrecorded",
+        "Edition identity is unconfirmed"
+      ],
+      "priority": 190,
+      "sourceQueries": [
+        {
+          "source": "market",
+          "query": "Unidentified · 15-001"
+        },
+        {
+          "source": "eBay sold",
+          "query": "Unidentified · 15-001"
+        }
+      ],
+      "pilotCategory": "raw",
+      "legacyStatus": "new",
+      "special": false,
+      "halfGrade": false,
+      "candidateIdentity": [
+        {
+          "title": "Marvel Super Heroes Secret Wars",
+          "issue": "8",
+          "variant": "Facsimile - virgin variant",
+          "publisher": "Marvel",
+          "confidence": "medium",
+          "source": "visual",
+          "note": "Same art as 015-005, which carries the Secret Wars #8 trade dress"
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-002",
+      "title": "Unidentified · 15-002",
+      "kind": "comic",
+      "grader": null,
+      "grade": null,
+      "provider": null,
+      "container": {
+        "id": "comic-bin-15",
+        "title": "Comic Bin #15 (Softslabs)"
+      },
+      "revision": "8a93ab4211e0166d67ea08887c3bba66c6a8b9acf2fe2a5ba23930e96f354d50",
+      "current": null,
+      "flags": [
+        "missing",
+        "condition",
+        "identity"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value",
+        "Raw condition is unrecorded",
+        "Edition identity is unconfirmed"
+      ],
+      "priority": 190,
+      "sourceQueries": [
+        {
+          "source": "market",
+          "query": "Unidentified · 15-002"
+        },
+        {
+          "source": "eBay sold",
+          "query": "Unidentified · 15-002"
+        }
+      ],
+      "pilotCategory": "raw",
+      "legacyStatus": "new",
+      "special": false,
+      "halfGrade": false,
+      "candidateIdentity": [
+        {
+          "title": "Orbit: Eminem",
+          "issue": "1",
+          "variant": null,
+          "publisher": "TidalWave",
+          "confidence": "high",
+          "source": "visual"
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-003",
+      "title": "Unidentified · 15-003",
+      "kind": "comic",
+      "grader": null,
+      "grade": null,
+      "provider": null,
+      "container": {
+        "id": "comic-bin-15",
+        "title": "Comic Bin #15 (Softslabs)"
+      },
+      "revision": "8a93ab4211e0166d67ea08887c3bba66c6a8b9acf2fe2a5ba23930e96f354d50",
+      "current": null,
+      "flags": [
+        "missing",
+        "condition",
+        "identity"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value",
+        "Raw condition is unrecorded",
+        "Edition identity is unconfirmed"
+      ],
+      "priority": 190,
+      "sourceQueries": [
+        {
+          "source": "market",
+          "query": "Unidentified · 15-003"
+        },
+        {
+          "source": "eBay sold",
+          "query": "Unidentified · 15-003"
+        }
+      ],
+      "pilotCategory": "raw",
+      "legacyStatus": "new",
+      "special": false,
+      "halfGrade": false,
+      "candidateIdentity": [
+        {
+          "title": "Spider-Man: Reign 2",
+          "issue": "1",
+          "variant": "Skottie Young variant (Santa Spider-Man)",
+          "publisher": "Marvel",
+          "confidence": "high",
+          "source": "visual"
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-004",
+      "title": "Unidentified · 15-004",
+      "kind": "comic",
+      "grader": null,
+      "grade": null,
+      "provider": null,
+      "container": {
+        "id": "comic-bin-15",
+        "title": "Comic Bin #15 (Softslabs)"
+      },
+      "revision": "8a93ab4211e0166d67ea08887c3bba66c6a8b9acf2fe2a5ba23930e96f354d50",
+      "current": null,
+      "flags": [
+        "missing",
+        "condition",
+        "identity"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value",
+        "Raw condition is unrecorded",
+        "Edition identity is unconfirmed"
+      ],
+      "priority": 190,
+      "sourceQueries": [
+        {
+          "source": "market",
+          "query": "Unidentified · 15-004"
+        },
+        {
+          "source": "eBay sold",
+          "query": "Unidentified · 15-004"
+        }
+      ],
+      "pilotCategory": "raw",
+      "legacyStatus": "new",
+      "special": false,
+      "halfGrade": false,
+      "candidateIdentity": [
+        {
+          "title": "Spider-Man: Reign 2",
+          "issue": "1",
+          "variant": "variant - aged Peter Parker face",
+          "publisher": "Marvel",
+          "confidence": "high",
+          "source": "visual",
+          "note": "artist unverified"
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-005",
+      "title": "Unidentified · 15-005",
+      "kind": "comic",
+      "grader": null,
+      "grade": null,
+      "provider": null,
+      "container": {
+        "id": "comic-bin-15",
+        "title": "Comic Bin #15 (Softslabs)"
+      },
+      "revision": "8a93ab4211e0166d67ea08887c3bba66c6a8b9acf2fe2a5ba23930e96f354d50",
+      "current": null,
+      "flags": [
+        "missing",
+        "condition",
+        "identity"
+      ],
+      "reasons": [
+        "No accepted or legacy effective value",
+        "Raw condition is unrecorded",
+        "Edition identity is unconfirmed"
+      ],
+      "priority": 190,
+      "sourceQueries": [
+        {
+          "source": "market",
+          "query": "Unidentified · 15-005"
+        },
+        {
+          "source": "eBay sold",
+          "query": "Unidentified · 15-005"
+        }
+      ],
+      "pilotCategory": "raw",
+      "legacyStatus": "new",
+      "special": false,
+      "halfGrade": false,
+      "candidateIdentity": [
+        {
+          "title": "Marvel Super Heroes Secret Wars",
+          "issue": "8",
+          "variant": "Facsimile - variant with trade dress",
+          "publisher": "Marvel",
+          "confidence": "high",
+          "source": "visual"
+        }
+      ]
+    }
+  ],
+  "quotas": {
+    "CGC": 10,
+    "TAG": 10,
+    "Authority": 5,
+    "raw": 5
+  },
+  "shortfalls": {}
+}

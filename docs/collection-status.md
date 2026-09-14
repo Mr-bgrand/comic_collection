@@ -1,4 +1,4 @@
-# Collection status - September 9, 2026
+# Collection status - September 13, 2026
 
 This is a snapshot of the stored inventory, not a new appraisal or a fresh grader lookup.
 
@@ -38,8 +38,9 @@ earlier cert 4350046007. The long barcode resolves to cert 4350046003 (Spawn #1,
 Convention Edition, 9.8). Its Signature Series comic retains the Kevin Eastman
 signature details. See the [Bin 10 intake](../data/incoming/2026-09-09-bin-10-request.json)
 and [CGC captures](../data/incoming/2026-09-10-cgc-bin-10-captures.json).
-Bin #15 contains 27 Authority sleeves plus 96 owner-scanned raw books awaiting
-identification. Duplicate submitted IDs were deduplicated; leading zeros are kept.
+Bin #15 contains 27 Authority sleeves plus 96 owner-scanned raw books. Two now
+have verified editions; 94 still need identification. Duplicate submitted IDs
+were deduplicated; leading zeros are kept.
 Find > Raw comics now opens those 96 owner scans directly. Their focus labels and
 record IDs are readable while identification is pending, and Singularity spreads
 them through the full flight instead of clustering their sequential scan IDs.
@@ -57,14 +58,18 @@ were moved from the unassigned group; no duplicate copies were created. See the
 | Group | Recorded total | Valued | No value yet |
 | --- | ---: | ---: | ---: |
 | Comics | $11,483 | 163 | 533 |
-| Cards | $17,175 | 138 | 99 |
-| All | $28,658 | 301 | 632 |
+| Cards | $17,278.42 | 140 | 97 |
+| All | $28,761.42 | 303 | 630 |
 
 45 PSA Vault estimates have no source date. Printing/building does not update
 market prices. TAG's explicit value or owner estimate takes precedence; otherwise
 an exact-card, same-numeric-grade PSA comparison is labeled with its source/date.
-One current comparison is available: TAG Bellibolt H9545478 uses PSA 101450005,
-both grade 10, at $148. The other 79 TAG cards await a verified match/value.
+TAG Bellibolt H9545478 retains its $148 comparison with owned PSA 101450005,
+both grade 10. The valuation pilot added Magby R4092198 at $88.57 from a direct
+TAG 10 guide and Yanma S2994291 at $14.85 from five same-grade PSA 9 sales.
+The other 77 TAG cards await a verified match/value. Seven unconditioned raw
+references total $32.55 but are excluded from the recorded total. See the
+[pilot report](valuation-pilot-2026-09-13.md) for sources, dates and remaining gaps.
 Inventory growth and newly valued records affect totals; these are not investment returns.
 
 ## Remaining intake and images
@@ -84,7 +89,9 @@ Inventory growth and newly valued records affect totals; these are not investmen
 - Twenty-one PSA cards have no scans on their reviewed cert pages: twenty in
   Case #3 and cert 62837377 in PSA Vault. Five legacy graded comics also need front
   scans. Use Admin > Photos to attach an exact-copy front/back image.
-- The 96 owner-scanned raw books in Bin #15 need title/issue identification.
+- Ninety-four owner-scanned raw books in Bin #15 need edition identification.
+  Copies 15-003 and 15-004 are verified Spider-Man: Reign 2 #1 (2024), Skottie
+  Young and Leinil Francis Yu variants. All 96 still need condition assessment.
 - Singularity now uses the owner's supplied *Cornfield Chase* MP3, with looping
   playback, a Music toggle, and uninterrupted audio when controls are hidden.
 
