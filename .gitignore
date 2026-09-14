@@ -31,3 +31,7 @@ docs/prototypes/engine.html
 # Half-written print files. A locked PDF (one open in a viewer) leaves the
 # temp HTML behind, and it was committed once.
 print/.*.tmp.*
+
+# Isolated development checkouts
+.worktrees/
+.superpowers/
