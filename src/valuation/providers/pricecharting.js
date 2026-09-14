@@ -14,7 +14,14 @@ export function priceChartingObservation(record,capture) {
  if(isRaw(record)||(grader!==(record.grader||'CGC')&&!(record.grader==='TAG'&&grader==='PSA')))return review('Exact grader required; only TAG may use a PSA comparison');
  // Comic fields combine graders/labels; half grades are not rounded to another grade.
  if(m.category!=='card'||Number(record.grade)!==10)return review('Exact grade/grader field unsupported; capture reviewed sold evidence instead');
- const field=grader==='PSA'?'manual-only-price':grader==='TAG'?'condition-21-price':grader==='CGC'?(/pristine/i.test(record.labelType||'')?'condition-19-price':'condition-17-price'):null;
+ let field;
+ if (grader === 'CGC') {
+  const label = String(record.labelType ?? '').trim().toLowerCase();
+  if (!['', 'gem mint', 'pristine'].includes(label)) return review('Unsupported CGC label designation; exact guide field unavailable');
+  field = label === 'pristine' ? 'condition-19-price' : 'condition-17-price';
+ } else {
+  field = grader === 'PSA' ? 'manual-only-price' : grader === 'TAG' ? 'condition-21-price' : null;
+ }
  if(!field)return review('Unsupported grader');
  const cents=product[field];
  if(!Number.isInteger(cents)||cents<=0)return {status:'missing',reason:'No positive API guide value for exact grade'};

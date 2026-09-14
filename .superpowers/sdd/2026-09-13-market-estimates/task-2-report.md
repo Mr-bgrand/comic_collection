@@ -29,9 +29,9 @@ CLI commands:
 npm run values -- status
 npm run values -- queue [missing stale undated review condition identity]
 npm run values -- pilot
-npm run values -- import file.json [--dry-run]
+npm.cmd run values -- import file.json [--dry-run]
 npm run values -- accept <copy-id> <observation-id>
-npm run values -- capture file.json [--import]
+npm.cmd run values -- capture file.json [--import]
 npm run values -- search <pricecharting|sportscardspro> <query>
 ```
 
@@ -92,3 +92,11 @@ Focused provider suite: **7 passed**. CLI workflow suite: **6 passed**. GoCollec
 - Rate limiting is per reusable client/process. Multi-process callers must coordinate externally; local admin uses cached clients.
 - Pure legacy gocollect helpers preserve old figures; the old launcher's access strategy was not changed or executed. Use the new saved capture flow.
 - No real data staged. Controller owns existing modifications under data/cards, data/comics, and data/valuation.
+
+## Review follow-up: exact CGC designation and PowerShell flags
+
+Addressed both Important findings from task-2-review.md. Wrote the named provider regression `CGC 10 unsupported labels yield no observation while exact Pristine and Gem Mint retain their own fields`, then ran it red: Perfect returned captured instead of review-required. The implementation now explicitly allows absent/empty or Gem Mint labelType for the CGC10 field, and exact Pristine (case/outer whitespace normalized) for the distinct Pristine field. Perfect, Unknown, Almost Pristine, Pristine Perfect and Pristine 10 all return review-required without any selectable observation. Exact Gem Mint/Pristine retain hand-checked fields and values.
+
+Updated flag-bearing Windows PowerShell examples in the provider README and report to `npm.cmd`; documented direct `node src/valuation-cli.js import observations.json --dry-run` as another reliable route. This reflects the controller's observed npm.ps1 flag stripping; no live import rerun was performed by this task. Human command documentation does not receive source-text tests.
+
+Verification: `node --test src/valuation/providers/providers.test.js src/valuation-cli.test.js` **14 passed, 0 failed**. Log: `task-2-review-focused.log`. `git diff --check` passed with CRLF normalization notices only. No full suite rerun for this focused change; no inventory/data touched.

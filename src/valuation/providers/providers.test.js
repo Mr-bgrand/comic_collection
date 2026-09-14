@@ -59,3 +59,18 @@ test('provider does not claim exact grader match for a different grader or a raw
  const raw={...card,grading:{status:'raw'}};
  assert.equal(priceChartingObservation(raw,{id:'x',asOf:null,retrievedAt:now,product,mapping:mapping(raw)}).status,'review-required');
 });
+
+test('CGC 10 unsupported labels yield no observation while exact Pristine and Gem Mint retain their own fields',()=>{
+ for(const labelType of ['Perfect','Unknown','Pristine Perfect','Almost Pristine','Pristine 10']) {
+  const record={...card,grader:'CGC',labelType};
+  const result=priceChartingObservation(record,{id:'label-check',asOf:null,retrievedAt:now,product,mapping:mapping(record)});
+  assert.equal(result.status,'review-required',labelType);
+  assert.equal(result.observation,undefined,'Unsupported label must not provide selectable evidence');
+ }
+ for(const [labelType,field,value] of [['Gem Mint','condition-17-price',333.33],['Pristine','condition-19-price',444.44]]) {
+  const record={...card,grader:'CGC',labelType};
+  const result=priceChartingObservation(record,{id:'label-check',asOf:null,retrievedAt:now,product,mapping:mapping(record)});
+  assert.equal(result.observation?.catalog.field,field);
+  assert.equal(result.observation?.value,value);
+ }
+});

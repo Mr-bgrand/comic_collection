@@ -8,13 +8,15 @@ All capture/import actions append pending evidence. Acceptance is a separate own
 npm run values -- status
 npm run values -- queue missing stale undated
 npm run values -- pilot
-npm run values -- import observations.json --dry-run
+npm.cmd run values -- import observations.json --dry-run
 npm run values -- import observations.json
 npm run values -- accept TAG:123 guide-2026-09-13
 npm run values -- capture saved-capture.json
-npm run values -- capture saved-capture.json --import
+npm.cmd run values -- capture saved-capture.json --import
 npm run values -- search pricecharting "Pikachu 1 Pokemon"
 ```
+
+In Windows PowerShell, use `npm.cmd` for flag-bearing commands: `npm.ps1` can strip flags such as `--dry-run`. Direct `node src/valuation-cli.js import observations.json --dry-run` is also reliable.
 
 Queue/pilot write only `data/valuation/queue.json` or `pilot.json`. Capture prints an outcome and, on success, a `document` suitable for import. Capture only imports with `--import`; import never accepts. `npm run prices -- observations.json` also supports this evidence format; legacy CSV retains its legacy `market` field behavior.
 
@@ -68,7 +70,7 @@ Use `provider:"pricecharting-api"` to fetch the reviewed product ID through the 
 
 API credentials: only `PRICECHARTING_API_TOKEN` / `SPORTSCARDSPRO_API_TOKEN` environment variables. Each service's paid API entitlement is separate and is not inferred from a browser subscription. Status exposes a boolean only. One request/second, serialized per client; server default clients are reused. Three total attempts maximum for HTTP 429; Retry-After up to 60s is respected, longer instructions return retry-later rather than retrying early. Transport errors never include the token or request URL. Restart a long-running admin server after changing API environment configuration.
 
-Supported card guide fields at exact grade 10: PSA `manual-only-price`; TAG `condition-21-price`; CGC `condition-17-price`; CGC Pristine (labelType includes Pristine) `condition-19-price`. Generic graded9 is not PSA9. Unsupported grades, half-grades, raw items and comic aggregate prices return review-required. Comic API fields have a different mapping (9.8 manual-only, 9.6 condition-10, 9.4 condition-17, 9.2 box-only, 9 condition-16, 8/8.5 graded); none guarantee exact grader/label, so this adapter never selects a comic aggregate as exact slab evidence. Official API does not return sold histories. Use independently verified visible sale captures and the core estimator for those.
+Supported card guide fields at exact grade 10: PSA `manual-only-price`; TAG `condition-21-price`; CGC `condition-17-price`; CGC Pristine (labelType exactly Pristine, ignoring case and surrounding whitespace) `condition-19-price`. CGC labels are explicitly limited to absent/empty or Gem Mint for the generic CGC10 field, and exact Pristine for its separate field. Perfect and other unknown/special designations return review-required with no observation. Generic graded9 is not PSA9. Unsupported grades, half-grades, raw items and comic aggregate prices return review-required. Comic API fields have a different mapping (9.8 manual-only, 9.6 condition-10, 9.4 condition-17, 9.2 box-only, 9 condition-16, 8/8.5 graded); none guarantee exact grader/label, so this adapter never selects a comic aggregate as exact slab evidence. Official API does not return sold histories. Use independently verified visible sale captures and the core estimator for those.
 
 GoCollect `provider:"gocollect"` inner fields:
 
