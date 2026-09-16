@@ -65,6 +65,7 @@ function updateFocus() {
   $('explode').hidden=mode==='singularity';
   text('inspect-toggle',mode==='singularity'?'Hide controls ↗':insideCase?'Leave this case ↗':inspecting?'Return to collection ↗':'Inspect selected object ↗');
   text('hint',mode==='spotlight'&&!exploded?(inspecting?'DRAG COPY TO TURN · SCROLL TO ROAM':'DRAG / SCROLL TO ROAM · PINCH TO ZOOM'):inspecting?(exploded?'DRAG TO PAN · ZOOM INTO THE SCANS':'DRAG TO TURN · X TO STUDY'):'DRAG TO ORBIT · PINCH / SCROLL TO ZOOM');
+  if(mode==='orbit'&&inspecting&&!exploded)text('hint','DRAG BACKGROUND TO ORBIT · DRAG COPY TO TURN');
   if(insideCase)text('hint','SWIPE THE RIBBON · DRAG COPY TO TURN · ESC TO LEAVE');
   if(mode==='singularity')text('hint','TOUCH TO PAUSE · DRAG COPY TO TURN · H TO HIDE CONTROLS');
   $('universe').setAttribute('aria-label',mode==='singularity'?'Continuous collection flight. Touch to pause. Drag the selected copy to turn. Arrow keys select another copy. Space pauses or resumes. H hides controls without pausing.':'Interactive collection. Drag to rotate. Arrow keys change the selected object. X opens the front and back study. Space returns to the collection.');
@@ -324,7 +325,8 @@ async function start() {
     if(mode==='spotlight'&&!exploded&&!down.onHero){if(moved)panWall(-dx,-dy);}
     else if(insideCase&&!exploded&&!down.onHero){caseDrag+=mobile?dy:dx;if(Math.abs(caseDrag)>60){nextObject(caseDrag<0?1:-1);caseDrag=0;}}
     else if(inspecting&&exploded){panX=Math.max(-4,Math.min(4,panX+dx/height*10));panY=Math.max(-4,Math.min(4,panY-dy/height*10));}
-    else if(inspecting){heroRY+=dx*.009;heroRX=Math.max(-.85,Math.min(.85,heroRX+dy*.006));}
+    // Keep the initial hit for the whole drag: the selected copy must not capture background gestures.
+    else if(inspecting&&(mode!=='orbit'||down.onHero)){heroRY+=dx*.009;heroRX=Math.max(-.85,Math.min(.85,heroRX+dy*.006));}
     else{fieldRY+=dx*.005;fieldRX=Math.max(-.8,Math.min(.8,fieldRX+dy*.005));}
   });
   canvas.addEventListener('pointerup',e=>{
