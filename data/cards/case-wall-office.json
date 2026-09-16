@@ -706,7 +706,64 @@
       "certUrl": "https://my.taggrading.com/card/H7207442",
       "gradeDate": "2025-04-11",
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "reviewed-2026-09-16-TAG-H7207442",
+            "copyId": "TAG:H7207442",
+            "basis": "psa-comparison",
+            "evidenceKind": "guide",
+            "value": 60.14,
+            "currency": "USD",
+            "source": {
+              "name": "SportsCardsPro",
+              "url": "https://www.sportscardspro.com/game/baseball-cards-2024-bowman-ai/paul-skenes-bai-15",
+              "asOf": null,
+              "retrievedAt": "2026-09-16T04:43:13.103Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "BOWMAN",
+                "series": "BOWMAN",
+                "subject": "PAUL SKENES",
+                "cardNumber": "BAI-15",
+                "variety": "BOWMAN A.I.",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "PSA",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://www.sportscardspro.com/game/baseball-cards-2024-bowman-ai/paul-skenes-bai-15",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-16T04:43:13.103Z",
+              "notes": "Owned label identifies 2024 Bowman A.I. base insert, not the separately released Bowman Chrome A.I. or colored parallel. TAG 10 blank; PSA 10 $60.14."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "reviewed-2026-09-16-TAG-H7207442",
+          "locked": true,
+          "selectedAt": "2026-09-16T04:43:13.356Z"
+        }
+      },
       "population": {
         "atGrade": 7,
         "total": 10,

@@ -1,0 +1,2300 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "TAG:J3913496",
+      "revision": "6dae783327d628ef5f07011e58f8cf98b3394e98b9a19d89e7394f5717d93ef5",
+      "observations": [
+        {
+          "id": "reviewed-2026-09-16-TAG-J3913496",
+          "copyId": "TAG:J3913496",
+          "basis": "guide",
+          "value": 204.5,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/pokemon-temporal-forces/deerling-165",
+            "asOf": null,
+            "retrievedAt": "2026-09-16T04:43:13.103Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "TEMPORAL FORCES",
+              "series": "POKÉMON SCARLET & VIOLET",
+              "subject": "DEERLING",
+              "cardNumber": "165/162",
+              "variety": "ILLUSTRATION RARE",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "TAG",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-temporal-forces/deerling-165",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-16T04:43:13.103Z",
+            "notes": "Exact 2024 English Illustration Rare 165/162. Full Price Guide explicitly labels TAG 10. One visible TAG 10 sale dated 2026-07-23 for $204.50; guide's valuation date/sample methodology is not supplied."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:T4865125",
+      "revision": "6dae783327d628ef5f07011e58f8cf98b3394e98b9a19d89e7394f5717d93ef5",
+      "observations": [
+        {
+          "id": "reviewed-2026-09-16-TAG-T4865125",
+          "copyId": "TAG:T4865125",
+          "basis": "guide",
+          "value": 170,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/pokemon-obsidian-flames/pidgeot-ex-225",
+            "asOf": null,
+            "retrievedAt": "2026-09-16T04:43:13.103Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2023",
+              "brand": "OBSIDIAN FLAMES",
+              "series": "POKÉMON SCARLET & VIOLET",
+              "subject": "PIDGEOT EX",
+              "cardNumber": "225/197",
+              "variety": "SPECIAL ILLUSTRATION RARE",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "TAG",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-obsidian-flames/pidgeot-ex-225",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-16T04:43:13.103Z",
+            "notes": "Exact 2023 English SIR 225/197. Full Price Guide explicitly labels TAG 10. Visible exact TAG 10 sales support category; guide date and supporting sample count not supplied."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:E1563870",
+      "revision": "6dae783327d628ef5f07011e58f8cf98b3394e98b9a19d89e7394f5717d93ef5",
+      "observations": [
+        {
+          "id": "reviewed-2026-09-16-TAG-E1563870",
+          "copyId": "TAG:E1563870",
+          "basis": "psa-comparison",
+          "evidenceKind": "guide",
+          "value": 35,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/pokemon-journey-together/lillie's-clefairy-ex-56",
+            "asOf": null,
+            "retrievedAt": "2026-09-16T04:43:13.103Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2025",
+              "brand": "JOURNEY TOGETHER",
+              "series": "POKÉMON SCARLET & VIOLET",
+              "subject": "LILLIE'S CLEFAIRY EX",
+              "cardNumber": "056/159",
+              "variety": "DOUBLE RARE",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-journey-together/lillie's-clefairy-ex-56",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-16T04:43:13.103Z",
+            "notes": "Exact 2025 English double rare 056/159. TAG 10 guide is blank; Full Price Guide explicitly labels PSA 10 at $35. Same numeric grade fallback authorized by owner."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:H1870819",
+      "revision": "2bc649c81f1e7f93272e2db4c9f98fb54d7c212c5b60530c0901fa1d9dfa3a4c",
+      "observations": [
+        {
+          "id": "reviewed-2026-09-16-TAG-H1870819",
+          "copyId": "TAG:H1870819",
+          "basis": "guide",
+          "value": 43.98,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/pokemon-japanese-heat-wave-arena/cynthia's-garchomp-ex-91",
+            "asOf": null,
+            "retrievedAt": "2026-09-16T04:43:13.103Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2025",
+              "brand": "HEAT WAVE ARENA",
+              "series": "POKÉMON SCARLET & VIOLET JAPANESE",
+              "subject": "シロナのガブリアス CYNTHIA'S GARCHOMP EX",
+              "cardNumber": "091/063",
+              "variety": "ULTRA RARE",
+              "language": "Japanese",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "TAG",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-japanese-heat-wave-arena/cynthia's-garchomp-ex-91",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-16T04:43:13.103Z",
+            "notes": "Exact 2025 Japanese ultra rare 091/063. Full Price Guide explicitly labels TAG 10. Two visible TAG sales in October/November 2025; guide date/sample count not supplied. Prior pending evidence rechecked."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:P5515986",
+      "revision": "6dae783327d628ef5f07011e58f8cf98b3394e98b9a19d89e7394f5717d93ef5",
+      "observations": [
+        {
+          "id": "reviewed-2026-09-16-TAG-P5515986",
+          "copyId": "TAG:P5515986",
+          "basis": "psa-comparison",
+          "evidenceKind": "guide",
+          "value": 43.31,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/pokemon-surging-sparks/slaking-ex-227",
+            "asOf": null,
+            "retrievedAt": "2026-09-16T04:43:13.103Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "SURGING SPARKS",
+              "series": "POKÉMON SCARLET & VIOLET",
+              "subject": "SLAKING EX",
+              "cardNumber": "227/191",
+              "variety": "ULTRA RARE",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-surging-sparks/slaking-ex-227",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-16T04:43:13.103Z",
+            "notes": "Exact 2024 English Ultra Rare 227/191. TAG 10 guide blank; PSA 10 guide explicitly $43.31. Same-grade comparison, not generic Grade 9/9.5."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:D4669879",
+      "revision": "6dae783327d628ef5f07011e58f8cf98b3394e98b9a19d89e7394f5717d93ef5",
+      "observations": [
+        {
+          "id": "reviewed-2026-09-16-TAG-D4669879",
+          "copyId": "TAG:D4669879",
+          "basis": "guide",
+          "value": 212.5,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/pokemon-crown-zenith/leafeon-vstar-gg35",
+            "asOf": null,
+            "retrievedAt": "2026-09-16T04:43:13.103Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2023",
+              "brand": "CROWN ZENITH GALARIAN GALLERY",
+              "series": "POKÉMON SWORD & SHIELD",
+              "subject": "LEAFEON VSTAR",
+              "cardNumber": "GG35",
+              "variety": "FULL ART - ULTRA RARE",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "TAG",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-crown-zenith/leafeon-vstar-gg35",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-16T04:43:13.103Z",
+            "notes": "Exact 2023 English Galarian Gallery GG35/GG70. Full Price Guide explicitly TAG 10 $212.50; valuation as-of and underlying sample count not supplied."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:H9812622",
+      "revision": "2bc649c81f1e7f93272e2db4c9f98fb54d7c212c5b60530c0901fa1d9dfa3a4c",
+      "observations": [
+        {
+          "id": "reviewed-2026-09-16-TAG-H9812622",
+          "copyId": "TAG:H9812622",
+          "basis": "guide",
+          "value": 71.02,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/pokemon-promo/scream-tail-65",
+            "asOf": null,
+            "retrievedAt": "2026-09-16T04:43:13.103Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2023",
+              "brand": "PARADOX RIFT ELITE TRAINER BOX",
+              "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+              "subject": "SCREAM TAIL",
+              "cardNumber": "065",
+              "variety": "HOLO",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "TAG",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-promo/scream-tail-65",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-16T04:43:13.103Z",
+            "notes": "Exact standard 2023 English Paradox Rift ETB Scream Tail 065, not Pokemon Center stamp. Prior identity review checked standard owned copy. Full Price Guide explicitly TAG 10 $71.02."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:Z6685887",
+      "revision": "6dae783327d628ef5f07011e58f8cf98b3394e98b9a19d89e7394f5717d93ef5",
+      "observations": [
+        {
+          "id": "reviewed-2026-09-16-TAG-Z6685887",
+          "copyId": "TAG:Z6685887",
+          "basis": "guide",
+          "value": 47.61,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/pokemon-japanese-battle-partners/wailord-103",
+            "asOf": null,
+            "retrievedAt": "2026-09-16T04:43:13.103Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2025",
+              "brand": "BATTLE PARTNERS",
+              "series": "POKÉMON SCARLET & VIOLET JAPANESE",
+              "subject": "ホエルオー WAILORD",
+              "cardNumber": "103/100",
+              "variety": "ART RARE",
+              "language": "Japanese",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "TAG",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-japanese-battle-partners/wailord-103",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-16T04:43:13.103Z",
+            "notes": "Exact 2025 Japanese Art Rare 103/100, not Korean or ordinary #25. Full Price Guide explicitly TAG 10 $47.61."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:G2899282",
+      "revision": "6dae783327d628ef5f07011e58f8cf98b3394e98b9a19d89e7394f5717d93ef5",
+      "observations": [
+        {
+          "id": "reviewed-2026-09-16-TAG-G2899282",
+          "copyId": "TAG:G2899282",
+          "basis": "psa-comparison",
+          "evidenceKind": "guide",
+          "value": 94.12,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/pokemon-promo/armarouge-ex-125",
+            "asOf": null,
+            "retrievedAt": "2026-09-16T04:43:13.103Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "ARMAROUGE EX PREMIUM COLLECTION",
+              "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+              "subject": "ARMAROUGE EX",
+              "cardNumber": "125",
+              "variety": "HOLO",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-promo/armarouge-ex-125",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-16T04:43:13.103Z",
+            "notes": "Exact 2024 English Premium Collection promo 125. TAG 10 guide blank; explicitly labeled PSA 10 guide $94.12. Same-grade fallback."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:X7892704",
+      "revision": "6dae783327d628ef5f07011e58f8cf98b3394e98b9a19d89e7394f5717d93ef5",
+      "observations": [
+        {
+          "id": "reviewed-2026-09-16-TAG-X7892704",
+          "copyId": "TAG:X7892704",
+          "basis": "guide",
+          "value": 61.17,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/pokemon-obsidian-flames/charizard-ex-125",
+            "asOf": null,
+            "retrievedAt": "2026-09-16T04:43:13.103Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2023",
+              "brand": "OBSIDIAN FLAMES",
+              "series": "POKÉMON SCARLET & VIOLET",
+              "subject": "CHARIZARD EX",
+              "cardNumber": "125/197",
+              "variety": "DOUBLE RARE",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "TAG",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-obsidian-flames/charizard-ex-125",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-16T04:43:13.103Z",
+            "notes": "Exact 2023 English double rare 125/197, not Prize Pack version or Japanese SIR. Explicit TAG 10 guide $61.17."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:M1530937",
+      "revision": "6dae783327d628ef5f07011e58f8cf98b3394e98b9a19d89e7394f5717d93ef5",
+      "observations": [
+        {
+          "id": "reviewed-2026-09-16-TAG-M1530937",
+          "copyId": "TAG:M1530937",
+          "basis": "psa-comparison",
+          "evidenceKind": "guide",
+          "value": 49.5,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/pokemon-japanese-terastal-festival/jolteon-ex-52",
+            "asOf": null,
+            "retrievedAt": "2026-09-16T04:43:13.103Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "TERASTAL FEST EX",
+              "series": "POKÉMON SCARLET & VIOLET JAPANESE",
+              "subject": "サンダース JOLTEON EX",
+              "cardNumber": "052/187",
+              "variety": "DOUBLE RARE",
+              "language": "Japanese",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-japanese-terastal-festival/jolteon-ex-52",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-16T04:43:13.103Z",
+            "notes": "Exact 2024 Japanese double rare 052/187. TAG 10 guide blank; explicitly labeled PSA 10 guide $49.50. Same-grade fallback."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:Z5553675",
+      "revision": "6dae783327d628ef5f07011e58f8cf98b3394e98b9a19d89e7394f5717d93ef5",
+      "observations": [
+        {
+          "id": "reviewed-2026-09-16-TAG-Z5553675",
+          "copyId": "TAG:Z5553675",
+          "basis": "guide",
+          "value": 25,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/pokemon-journey-together/iono's-bellibolt-ex-53",
+            "asOf": null,
+            "retrievedAt": "2026-09-16T04:43:13.103Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2025",
+              "brand": "JOURNEY TOGETHER",
+              "series": "POKÉMON SCARLET & VIOLET",
+              "subject": "IONO'S BELLIBOLT EX",
+              "cardNumber": "053/159",
+              "variety": "DOUBLE RARE",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "TAG",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-journey-together/iono's-bellibolt-ex-53",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-16T04:43:13.103Z",
+            "notes": "Exact 2025 English double rare 053/159, not Prize Pack. Live TAG 10 guide $25."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:U4172963",
+      "revision": "6dae783327d628ef5f07011e58f8cf98b3394e98b9a19d89e7394f5717d93ef5",
+      "observations": [
+        {
+          "id": "reviewed-2026-09-16-TAG-U4172963",
+          "copyId": "TAG:U4172963",
+          "basis": "guide",
+          "value": 45.93,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/pokemon-japanese-battle-partners/iono's-killowattrel-104",
+            "asOf": null,
+            "retrievedAt": "2026-09-16T04:43:13.103Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2025",
+              "brand": "BATTLE PARTNERS",
+              "series": "POKÉMON SCARLET & VIOLET JAPANESE",
+              "subject": "ナンジャモのタイカイデン IONO'S KILOWATTREL",
+              "cardNumber": "104/100",
+              "variety": "ART RARE",
+              "language": "Japanese",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "TAG",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-japanese-battle-partners/iono's-killowattrel-104",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-16T04:43:13.103Z",
+            "notes": "Exact 2025 Japanese Art Rare 104/100. Catalog URL misspells Killowattrel but title/description/card number match. Live TAG 10 guide $45.93."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:Z4751716",
+      "revision": "6dae783327d628ef5f07011e58f8cf98b3394e98b9a19d89e7394f5717d93ef5",
+      "observations": [
+        {
+          "id": "reviewed-2026-09-16-TAG-Z4751716",
+          "copyId": "TAG:Z4751716",
+          "basis": "guide",
+          "value": 37,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/pokemon-japanese-battle-partners/salamence-ex-119",
+            "asOf": null,
+            "retrievedAt": "2026-09-16T04:43:13.103Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2025",
+              "brand": "BATTLE PARTNERS",
+              "series": "POKÉMON SCARLET & VIOLET JAPANESE",
+              "subject": "ボーマンダ SALAMENCE EX",
+              "cardNumber": "119/100",
+              "variety": "SUPER RARE",
+              "language": "Japanese",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "TAG",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-japanese-battle-partners/salamence-ex-119",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-16T04:43:13.103Z",
+            "notes": "Exact 2025 Japanese Super Rare 119/100. Explicit TAG 10 guide $37.00; source guide supporting sample count/date not given."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:X5786663",
+      "revision": "6dae783327d628ef5f07011e58f8cf98b3394e98b9a19d89e7394f5717d93ef5",
+      "observations": [
+        {
+          "id": "reviewed-2026-09-16-TAG-X5786663",
+          "copyId": "TAG:X5786663",
+          "basis": "psa-comparison",
+          "evidenceKind": "guide",
+          "value": 45.27,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/pokemon-japanese-heat-wave-arena/ethan's-pichu-36",
+            "asOf": null,
+            "retrievedAt": "2026-09-16T04:43:13.103Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2025",
+              "brand": "HEAT WAVE ARENA",
+              "series": "POKÉMON SCARLET & VIOLET JAPANESE",
+              "subject": "ヒビキのピチュー ETHAN'S PICHU",
+              "cardNumber": "036/063",
+              "variety": "",
+              "language": "Japanese",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-japanese-heat-wave-arena/ethan's-pichu-36",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-16T04:43:13.103Z",
+            "notes": "Exact 2025 Japanese common 036/063. TAG 10 guide blank; explicit PSA 10 guide $45.27. Source lists no PSA 10 sales, so this is a modeled guide comparison with limited evidence, not a verified sale."
+          },
+          "provisional": true,
+          "provisionalReason": "Modeled PSA 10 guide comparison; source shows no completed PSA 10 sales."
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:N2689700",
+      "revision": "6dae783327d628ef5f07011e58f8cf98b3394e98b9a19d89e7394f5717d93ef5",
+      "observations": [
+        {
+          "id": "reviewed-2026-09-16-TAG-N2689700",
+          "copyId": "TAG:N2689700",
+          "basis": "psa-comparison",
+          "evidenceKind": "guide",
+          "value": 36,
+          "currency": "USD",
+          "source": {
+            "name": "SportsCardsPro",
+            "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-mosaic/jayden-daniels-302",
+            "asOf": null,
+            "retrievedAt": "2026-09-16T04:43:13.103Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "PANINI MOSAIC",
+              "series": "PANINI MOSAIC",
+              "subject": "JAYDEN DANIELS",
+              "cardNumber": "302",
+              "variety": "",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-mosaic/jayden-daniels-302",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-16T04:43:13.103Z",
+            "notes": "Owned label matches base rookie #302; no parallel designation. TAG 10 guide blank; explicit PSA 10 guide $36.00."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:H7207442",
+      "revision": "a745757725b696557c8ad9142735945aa4beae67cb4e5db7543ca04bb9ed9de9",
+      "observations": [
+        {
+          "id": "reviewed-2026-09-16-TAG-H7207442",
+          "copyId": "TAG:H7207442",
+          "basis": "psa-comparison",
+          "evidenceKind": "guide",
+          "value": 60.14,
+          "currency": "USD",
+          "source": {
+            "name": "SportsCardsPro",
+            "url": "https://www.sportscardspro.com/game/baseball-cards-2024-bowman-ai/paul-skenes-bai-15",
+            "asOf": null,
+            "retrievedAt": "2026-09-16T04:43:13.103Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "BOWMAN",
+              "series": "BOWMAN",
+              "subject": "PAUL SKENES",
+              "cardNumber": "BAI-15",
+              "variety": "BOWMAN A.I.",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.sportscardspro.com/game/baseball-cards-2024-bowman-ai/paul-skenes-bai-15",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-16T04:43:13.103Z",
+            "notes": "Owned label identifies 2024 Bowman A.I. base insert, not the separately released Bowman Chrome A.I. or colored parallel. TAG 10 blank; PSA 10 $60.14."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:1401028405269",
+      "revision": "2bc649c81f1e7f93272e2db4c9f98fb54d7c212c5b60530c0901fa1d9dfa3a4c",
+      "observations": [
+        {
+          "id": "reviewed-2026-09-16-CGC-1401028405269",
+          "copyId": "CGC:1401028405269",
+          "basis": "guide",
+          "value": 12.76,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/pokemon-dragon/pineco-71",
+            "asOf": null,
+            "retrievedAt": "2026-09-16T04:43:13.103Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2003",
+              "brand": "EX Dragon",
+              "series": "",
+              "subject": "Pineco",
+              "cardNumber": "71/97",
+              "variety": "",
+              "language": "English",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-dragon/pineco-71",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-16T04:43:13.103Z",
+            "notes": "Exact 2003 English EX Dragon non-holo 71/97; no reverse-holo designation on cert. Explicit CGC 10 Gem Mint guide $12.76, not Pristine 10."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:E3511461",
+      "revision": "6dae783327d628ef5f07011e58f8cf98b3394e98b9a19d89e7394f5717d93ef5",
+      "observations": [
+        {
+          "id": "reviewed-2026-09-16-TAG-E3511461",
+          "copyId": "TAG:E3511461",
+          "basis": "guide",
+          "value": 183.39,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/pokemon-promo/pikachu-88",
+            "asOf": null,
+            "retrievedAt": "2026-09-16T04:43:13.103Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "PALDEA ADVENTURE CHEST",
+              "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+              "subject": "PIKACHU",
+              "cardNumber": "088",
+              "variety": "HOLO",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "TAG",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-promo/pikachu-88",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-16T04:43:13.103Z",
+            "notes": "Exact 2024 English Paldea Adventure Chest Black Star Promo 088. Browser-rendered Full Price Guide explicitly TAG 10 $183.39. Guide sample count not stated."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:Q7881130",
+      "revision": "6dae783327d628ef5f07011e58f8cf98b3394e98b9a19d89e7394f5717d93ef5",
+      "observations": [
+        {
+          "id": "reviewed-2026-09-16-TAG-Q7881130",
+          "copyId": "TAG:Q7881130",
+          "basis": "psa-comparison",
+          "evidenceKind": "sold-comps",
+          "value": 44,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/pokemon-promo/pikachu-88",
+            "asOf": "2026-09-11",
+            "retrievedAt": "2026-09-16T04:43:13.103Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "PALDEA ADVENTURE CHEST",
+              "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+              "subject": "PIKACHU",
+              "cardNumber": "088",
+              "variety": "HOLO",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-promo/pikachu-88",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-16T04:43:13.103Z",
+            "notes": "Exact English Paldea Adventure Chest 088 in PSA 9. Median of nine distinct recent completed listings with single reported prices (2026-08-19 through 2026-09-11); omitted mislabeled 2023 row and unknown best offers. Applied to TAG 9 per owner's same-grade comparison policy."
+          },
+          "saleCount": 9,
+          "range": {
+            "low": 41,
+            "high": 56,
+            "method": "observed-iqr"
+          },
+          "transactions": [
+            {
+              "transactionId": "ebay:318811479616",
+              "listingId": "318811479616",
+              "soldAt": "2026-09-11",
+              "value": 41,
+              "sourceUrl": "https://www.ebay.com/itm/318811479616",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:127966603240",
+              "listingId": "127966603240",
+              "soldAt": "2026-09-05",
+              "value": 59.95,
+              "sourceUrl": "https://www.ebay.com/itm/127966603240",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:398335235098",
+              "listingId": "398335235098",
+              "soldAt": "2026-09-04",
+              "value": 36,
+              "sourceUrl": "https://www.ebay.com/itm/398335235098",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:137634720114",
+              "listingId": "137634720114",
+              "soldAt": "2026-08-30",
+              "value": 78.78,
+              "sourceUrl": "https://www.ebay.com/itm/137634720114",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:117366953813",
+              "listingId": "117366953813",
+              "soldAt": "2026-08-27",
+              "value": 42,
+              "sourceUrl": "https://www.ebay.com/itm/117366953813",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:287524941962",
+              "listingId": "287524941962",
+              "soldAt": "2026-08-23",
+              "value": 56,
+              "sourceUrl": "https://www.ebay.com/itm/287524941962",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:407147156746",
+              "listingId": "407147156746",
+              "soldAt": "2026-08-22",
+              "value": 44,
+              "sourceUrl": "https://www.ebay.com/itm/407147156746",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:318714937527",
+              "listingId": "318714937527",
+              "soldAt": "2026-08-22",
+              "value": 40,
+              "sourceUrl": "https://www.ebay.com/itm/318714937527",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:206488435450",
+              "listingId": "206488435450",
+              "soldAt": "2026-08-19",
+              "value": 47,
+              "sourceUrl": "https://www.ebay.com/itm/206488435450",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:1401036524258",
+      "revision": "2bc649c81f1e7f93272e2db4c9f98fb54d7c212c5b60530c0901fa1d9dfa3a4c",
+      "observations": [
+        {
+          "id": "reviewed-2026-09-16-CGC-1401036524258",
+          "copyId": "CGC:1401036524258",
+          "basis": "guide",
+          "value": 13.5,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/pokemon-japanese-deoxys-high-class/deoxys-vstar-7",
+            "asOf": null,
+            "retrievedAt": "2026-09-16T04:43:13.103Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2022",
+              "brand": "High-Class Decks",
+              "series": "",
+              "subject": "Deoxys VSTAR",
+              "cardNumber": "007/020",
+              "variety": "Deoxys VSTAR & VMAX Deck",
+              "language": "Japanese",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-japanese-deoxys-high-class/deoxys-vstar-7",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-16T04:43:13.103Z",
+            "notes": "Exact 2022 Japanese 007/020 Deoxys VSTAR & VMAX High-Class Deck. CGC cert Gem Mint 10; browser-rendered CGC 10 guide $13.50, not CGC 10 Pristine."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4357017008",
+      "revision": "d94205d3362e4a985da5d6cb884290de1051b50b502d88ed42f004be342355c2",
+      "observations": [
+        {
+          "id": "reviewed-2026-09-16-CGC-4357017008",
+          "copyId": "CGC:4357017008",
+          "basis": "sold-comps",
+          "value": 75.99,
+          "currency": "USD",
+          "source": {
+            "name": "GoCollect",
+            "url": "https://gocollect.com/app/comic/w0rldtr33-5-rabbit-comics-virgin-edition",
+            "asOf": "2026-08-13",
+            "retrievedAt": "2026-09-16T04:43:13.103Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "w0rldtr33",
+              "issue": "5",
+              "issueYear": "2023",
+              "publisher": "Image Comics",
+              "variant": "Rabbit Comics \"Virgin\" Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://gocollect.com/app/comic/w0rldtr33-5-rabbit-comics-virgin-edition",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-16T04:43:13.103Z",
+            "notes": "Exact 2023 Rabbit Comics Virgin, CGC Universal 9.8, white pages. One fixed-price sale on 2026-08-13; chart shows precise $75.99 while buyer-paid modal rounds to $76. Comparable cert 4339779004; no signatures. Limited one-sale estimate."
+          },
+          "saleCount": 1,
+          "range": {
+            "low": 75.99,
+            "high": 75.99,
+            "method": "min-max"
+          },
+          "transactions": [
+            {
+              "transactionId": "gocollect:23065730",
+              "listingId": "336511224155",
+              "soldAt": "2026-08-13",
+              "value": 75.99,
+              "format": "Fixed Price",
+              "venue": "eBay (classifiedcollect)",
+              "cert": "4339779004",
+              "sourceUrl": "https://gocollect.com/sold/23065730",
+              "identity": {
+                "kind": "comic",
+                "title": "w0rldtr33",
+                "issue": "5",
+                "issueYear": "2023",
+                "publisher": "Image Comics",
+                "variant": "Rabbit Comics \"Virgin\" Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            }
+          ],
+          "provisional": true,
+          "provisionalReason": "Limited history: 1 matching completed sale"
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:H4372254",
+      "revision": "3fa6988c87f56e50b6ed2921be697c369c3dc7086547ab85674f1e58fdda75ee",
+      "observations": [
+        {
+          "id": "reviewed-2026-09-16-TAG-H4372254",
+          "copyId": "TAG:H4372254",
+          "basis": "psa-comparison",
+          "evidenceKind": "sold-comps",
+          "value": 44,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/pokemon-promo/pikachu-88",
+            "asOf": "2026-09-11",
+            "retrievedAt": "2026-09-16T04:43:13.103Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "PALDEA ADVENTURE CHEST",
+              "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+              "subject": "PIKACHU",
+              "cardNumber": "088",
+              "variety": "HOLO",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-promo/pikachu-88",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-16T04:43:13.103Z",
+            "notes": "Exact English Paldea Adventure Chest 088 in PSA 9. Median of nine distinct recent completed listings with single reported prices (2026-08-19 through 2026-09-11); omitted mislabeled 2023 row and unknown best offers. Applied to TAG 9 per owner's same-grade comparison policy. Independently owned copy; verified matching identity and grade to Q7881130."
+          },
+          "saleCount": 9,
+          "range": {
+            "low": 41,
+            "high": 56,
+            "method": "observed-iqr"
+          },
+          "transactions": [
+            {
+              "transactionId": "ebay:318811479616",
+              "listingId": "318811479616",
+              "soldAt": "2026-09-11",
+              "value": 41,
+              "sourceUrl": "https://www.ebay.com/itm/318811479616",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:127966603240",
+              "listingId": "127966603240",
+              "soldAt": "2026-09-05",
+              "value": 59.95,
+              "sourceUrl": "https://www.ebay.com/itm/127966603240",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:398335235098",
+              "listingId": "398335235098",
+              "soldAt": "2026-09-04",
+              "value": 36,
+              "sourceUrl": "https://www.ebay.com/itm/398335235098",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:137634720114",
+              "listingId": "137634720114",
+              "soldAt": "2026-08-30",
+              "value": 78.78,
+              "sourceUrl": "https://www.ebay.com/itm/137634720114",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:117366953813",
+              "listingId": "117366953813",
+              "soldAt": "2026-08-27",
+              "value": 42,
+              "sourceUrl": "https://www.ebay.com/itm/117366953813",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:287524941962",
+              "listingId": "287524941962",
+              "soldAt": "2026-08-23",
+              "value": 56,
+              "sourceUrl": "https://www.ebay.com/itm/287524941962",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:407147156746",
+              "listingId": "407147156746",
+              "soldAt": "2026-08-22",
+              "value": 44,
+              "sourceUrl": "https://www.ebay.com/itm/407147156746",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:318714937527",
+              "listingId": "318714937527",
+              "soldAt": "2026-08-22",
+              "value": 40,
+              "sourceUrl": "https://www.ebay.com/itm/318714937527",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:206488435450",
+              "listingId": "206488435450",
+              "soldAt": "2026-08-19",
+              "value": 47,
+              "sourceUrl": "https://www.ebay.com/itm/206488435450",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:N3448560",
+      "revision": "3fa6988c87f56e50b6ed2921be697c369c3dc7086547ab85674f1e58fdda75ee",
+      "observations": [
+        {
+          "id": "reviewed-2026-09-16-TAG-N3448560",
+          "copyId": "TAG:N3448560",
+          "basis": "psa-comparison",
+          "evidenceKind": "sold-comps",
+          "value": 44,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/pokemon-promo/pikachu-88",
+            "asOf": "2026-09-11",
+            "retrievedAt": "2026-09-16T04:43:13.103Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "PALDEA ADVENTURE CHEST",
+              "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+              "subject": "PIKACHU",
+              "cardNumber": "088",
+              "variety": "HOLO",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-promo/pikachu-88",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-16T04:43:13.103Z",
+            "notes": "Exact English Paldea Adventure Chest 088 in PSA 9. Median of nine distinct recent completed listings with single reported prices (2026-08-19 through 2026-09-11); omitted mislabeled 2023 row and unknown best offers. Applied to TAG 9 per owner's same-grade comparison policy. Independently owned copy; verified matching identity and grade to Q7881130."
+          },
+          "saleCount": 9,
+          "range": {
+            "low": 41,
+            "high": 56,
+            "method": "observed-iqr"
+          },
+          "transactions": [
+            {
+              "transactionId": "ebay:318811479616",
+              "listingId": "318811479616",
+              "soldAt": "2026-09-11",
+              "value": 41,
+              "sourceUrl": "https://www.ebay.com/itm/318811479616",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:127966603240",
+              "listingId": "127966603240",
+              "soldAt": "2026-09-05",
+              "value": 59.95,
+              "sourceUrl": "https://www.ebay.com/itm/127966603240",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:398335235098",
+              "listingId": "398335235098",
+              "soldAt": "2026-09-04",
+              "value": 36,
+              "sourceUrl": "https://www.ebay.com/itm/398335235098",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:137634720114",
+              "listingId": "137634720114",
+              "soldAt": "2026-08-30",
+              "value": 78.78,
+              "sourceUrl": "https://www.ebay.com/itm/137634720114",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:117366953813",
+              "listingId": "117366953813",
+              "soldAt": "2026-08-27",
+              "value": 42,
+              "sourceUrl": "https://www.ebay.com/itm/117366953813",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:287524941962",
+              "listingId": "287524941962",
+              "soldAt": "2026-08-23",
+              "value": 56,
+              "sourceUrl": "https://www.ebay.com/itm/287524941962",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:407147156746",
+              "listingId": "407147156746",
+              "soldAt": "2026-08-22",
+              "value": 44,
+              "sourceUrl": "https://www.ebay.com/itm/407147156746",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:318714937527",
+              "listingId": "318714937527",
+              "soldAt": "2026-08-22",
+              "value": 40,
+              "sourceUrl": "https://www.ebay.com/itm/318714937527",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:206488435450",
+              "listingId": "206488435450",
+              "soldAt": "2026-08-19",
+              "value": 47,
+              "sourceUrl": "https://www.ebay.com/itm/206488435450",
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PALDEA ADVENTURE CHEST",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "PIKACHU",
+                "cardNumber": "088",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -666,7 +666,63 @@
         "source": "CGC Cards",
         "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/starter-decks/934/high-class-decks/17439/?populationID=1195367"
       },
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "reviewed-2026-09-16-CGC-1401036524258",
+            "copyId": "CGC:1401036524258",
+            "basis": "guide",
+            "value": 13.5,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/pokemon-japanese-deoxys-high-class/deoxys-vstar-7",
+              "asOf": null,
+              "retrievedAt": "2026-09-16T04:43:13.103Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2022",
+                "brand": "High-Class Decks",
+                "series": "",
+                "subject": "Deoxys VSTAR",
+                "cardNumber": "007/020",
+                "variety": "Deoxys VSTAR & VMAX Deck",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/pokemon-japanese-deoxys-high-class/deoxys-vstar-7",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-16T04:43:13.103Z",
+              "notes": "Exact 2022 Japanese 007/020 Deoxys VSTAR & VMAX High-Class Deck. CGC cert Gem Mint 10; browser-rendered CGC 10 guide $13.50, not CGC 10 Pristine."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "reviewed-2026-09-16-CGC-1401036524258",
+          "locked": true,
+          "selectedAt": "2026-09-16T04:43:13.357Z"
+        }
+      },
       "cgc": {
         "gradeText": "GEM MINT 10",
         "lookupGrade": "10.0",
@@ -844,7 +900,63 @@
         "source": "CGC Cards",
         "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/ex/850/ex-dragon-2003-copyright-w-e-symbol/15792/?populationID=474364"
       },
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "reviewed-2026-09-16-CGC-1401028405269",
+            "copyId": "CGC:1401028405269",
+            "basis": "guide",
+            "value": 12.76,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/pokemon-dragon/pineco-71",
+              "asOf": null,
+              "retrievedAt": "2026-09-16T04:43:13.103Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2003",
+                "brand": "EX Dragon",
+                "series": "",
+                "subject": "Pineco",
+                "cardNumber": "71/97",
+                "variety": "",
+                "language": "English",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/pokemon-dragon/pineco-71",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-16T04:43:13.103Z",
+              "notes": "Exact 2003 English EX Dragon non-holo 71/97; no reverse-holo designation on cert. Explicit CGC 10 Gem Mint guide $12.76, not Pristine 10."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "reviewed-2026-09-16-CGC-1401028405269",
+          "locked": true,
+          "selectedAt": "2026-09-16T04:43:13.356Z"
+        }
+      },
       "cgc": {
         "gradeText": "GEM MINT 10",
         "lookupGrade": "10.0",
@@ -1953,9 +2065,61 @@
             "productId": "8867759",
             "evidenceKind": "guide",
             "reviewReason": "Alternative same-card PSA 10 guide, not selected while usable direct TAG evidence exists."
+          },
+          {
+            "id": "reviewed-2026-09-16-TAG-H1870819",
+            "copyId": "TAG:H1870819",
+            "basis": "guide",
+            "value": 43.98,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/pokemon-japanese-heat-wave-arena/cynthia's-garchomp-ex-91",
+              "asOf": null,
+              "retrievedAt": "2026-09-16T04:43:13.103Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2025",
+                "brand": "HEAT WAVE ARENA",
+                "series": "POKÉMON SCARLET & VIOLET JAPANESE",
+                "subject": "シロナのガブリアス CYNTHIA'S GARCHOMP EX",
+                "cardNumber": "091/063",
+                "variety": "ULTRA RARE",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "TAG",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/pokemon-japanese-heat-wave-arena/cynthia's-garchomp-ex-91",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-16T04:43:13.103Z",
+              "notes": "Exact 2025 Japanese ultra rare 091/063. Full Price Guide explicitly labels TAG 10. Two visible TAG sales in October/November 2025; guide date/sample count not supplied. Prior pending evidence rechecked."
+            }
           }
         ],
-        "selection": null
+        "selection": {
+          "observationId": "reviewed-2026-09-16-TAG-H1870819",
+          "locked": true,
+          "selectedAt": "2026-09-16T04:43:13.354Z"
+        }
       },
       "population": {
         "atGrade": 46,
@@ -3379,9 +3543,61 @@
             "productId": "5963314",
             "evidenceKind": "guide",
             "reviewReason": "Alternative same-card PSA 10 guide, not selected while usable direct TAG evidence exists."
+          },
+          {
+            "id": "reviewed-2026-09-16-TAG-H9812622",
+            "copyId": "TAG:H9812622",
+            "basis": "guide",
+            "value": 71.02,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/pokemon-promo/scream-tail-65",
+              "asOf": null,
+              "retrievedAt": "2026-09-16T04:43:13.103Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2023",
+                "brand": "PARADOX RIFT ELITE TRAINER BOX",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "SCREAM TAIL",
+                "cardNumber": "065",
+                "variety": "HOLO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "TAG",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/pokemon-promo/scream-tail-65",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-16T04:43:13.103Z",
+              "notes": "Exact standard 2023 English Paradox Rift ETB Scream Tail 065, not Pokemon Center stamp. Prior identity review checked standard owned copy. Full Price Guide explicitly TAG 10 $71.02."
+            }
           }
         ],
-        "selection": null
+        "selection": {
+          "observationId": "reviewed-2026-09-16-TAG-H9812622",
+          "locked": true,
+          "selectedAt": "2026-09-16T04:43:13.354Z"
+        }
       },
       "population": {
         "atGrade": 25,
