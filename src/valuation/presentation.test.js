@@ -10,7 +10,18 @@ const now='2026-09-01T12:00:00Z';
 function selected(){const r={cert:'123',title:'Venom',issue:'1',grade:'9.8',images:{front:'owner.jpg'}};return acceptObservation(addObservation(r,{id:'source-1',copyId:'CGC:123',basis:'guide',value:123.45,currency:'USD',source:{name:'Independent guide',url:'https://example.com/verified-edition',asOf:null,retrievedAt:now},match:{identity:identityOf(r),grade:'9.8',grader:'CGC',condition:null,status:'exact'},reviewStatus:'pending',privateCapture:'Do not publish saved page text'}, {now}),'source-1',{now});}
 test('public valuation fields preserve selected provenance and never expose captures or retrieval date as source date',()=>{
  const record=selected(),p=publicValuation(record,{now});assert.equal(p.value,123.45);assert.equal(p.source,'Independent guide');assert.equal(p.date,null);assert.equal(p.basis,'guide');assert.deepEqual(p.valuationFlags,['undated']);assert.equal(p.evidence,'https://example.com/verified-edition');
- assert.equal(valuationSourceText(record),'Independent guide · Source undated');assert.ok(!JSON.stringify(p).includes('privateCapture'));assert.ok(!JSON.stringify(p).includes('Do not publish'));
+ assert.match(valuationSourceText(record),/^Independent guide · Source undated/);assert.ok(!JSON.stringify(p).includes('privateCapture'));assert.ok(!JSON.stringify(p).includes('Do not publish'));
+});
+
+test('thin and undocumented history receive the same star and explanation in public and printed values',()=>{
+ const c=selected(),bin={bin:'01',title:'Fixture',comics:[c]};
+ const p=publicValuation(c,{now});assert.equal(p.valueText,'$123.45*');assert.match(p.valueCaution,/history/i);
+ const htmls=[renderCollectionMaster({bins:[{data:bin}],cards:[],comics:[]}),renderSheet({bin,url:'https://example.com/bin/01/'}),renderBinPage({bin}),renderDashboard({bins:[bin],config:{baseUrl:'https://example.com',collectionName:'Fixture'}})];
+ for(const html of htmls){assert.match(html,/\$123\.45\*/);assert.match(html,/\* Estimate/);}
+ c.valuation.observations[0].stats={sold365:8};
+ assert.equal(publicValuation(c,{now}).valueText,'$123.45');assert.equal(publicValuation(c,{now}).valueCaution,null);
+ c.valuation.observations[0].stats.sold365=1;
+ assert.match(publicValuation(c,{now}).valueCaution,/1 .*sale/);
 });
 test('masters, bin sheets and record pages show the same selected amount and undated source',()=>{
  const c=selected(),bin={bin:'01',title:'Fixture',comics:[c]};

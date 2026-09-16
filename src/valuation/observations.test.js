@@ -57,6 +57,18 @@ test('PSA comparison sold evidence retains one sale for review and requires thre
  const guide={...o,evidenceKind:'guide'};assert.throws(()=>core.addObservation(tag,guide,{now}),/sale count/i);
  const three={...o,saleCount:3};assert.equal(effectiveValue(core.acceptObservation(core.addObservation(tag,three,{now}),o.id,{now})),100);
 });
+
+test('explicitly provisional thin-sale evidence can be selected, but never bypasses identity or raw condition',()=>{
+ const o=evidence(comic,{basis:'sold-comps',saleCount:1,provisional:true,provisionalReason:'Only one matching completed sale'});
+ const r=core.acceptObservation(core.addObservation(comic,o,{now}),o.id,{now});
+ assert.equal(effectiveValue(r),100);
+ assert.equal(core.selectedObservation(r).provisional,true);
+ assert.throws(()=>core.acceptObservation(core.addObservation(comic,{...o,match:{...o.match,grade:'9.6'}},{now}),o.id,{now}),/match/i);
+ const raw={id:'raw:one',title:'Venom',issue:'1',grading:{status:'raw'}};
+ assert.throws(()=>core.acceptObservation(core.addObservation(raw,evidence(raw,{basis:'sold-comps',saleCount:1,provisional:true,provisionalReason:'One sale'}),{now}),o.id,{now}),/condition/i);
+ assert.throws(()=>core.addObservation(comic,{...o,provisionalReason:''},{now}),/reason/i);
+ assert.throws(()=>core.addObservation(comic,{...o,provisional:'yes'},{now}),/provisional/i);
+});
 test('ungraded non-raw and unresolved empty identity cannot be accepted',()=>{
  const r={...comic,grade:null};const o=evidence(r);assert.throws(()=>core.acceptObservation(core.addObservation(r,o,{now}),o.id,{now}),/match/i);
 });

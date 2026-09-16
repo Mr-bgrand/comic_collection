@@ -1,3 +1,4 @@
+import {valuationAmount} from '../valuation/presentation.js';
 /**
  * The wall — every cover at once, edge to edge.
  *
@@ -719,7 +720,7 @@ export function renderWallPage({ bins, config }) {
         data-title="${escapeHtml(displayTitle(comic))}"
         data-meta="${escapeHtml(meta)}"
         data-census="${escapeHtml(census)}"
-        data-money="${value !== null ? escapeHtml(formatMoney(value)) : ''}"
+        data-money="${value !== null ? escapeHtml(valuationAmount(comic)) : ''}"
         aria-label="${escapeHtml(`${displayTitle(comic)}, ${gradeLabel(comic)}, bin ${bin}`)}">
         ${img}
       </button>`;
@@ -763,6 +764,7 @@ ${css}
 <main class="wall" id="wall">
 ${tiles}
 </main>
+<p style="font-size:11px;padding:12px">* Estimate based on limited or undocumented sales history.</p>
 
 <aside class="readout" id="readout" aria-live="polite">
   <div class="grade" id="r-grade"></div>

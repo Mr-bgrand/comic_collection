@@ -37,6 +37,8 @@ export function validateObservation(r,o,{now=new Date().toISOString()}={}) {
  if(o.evidenceKind!==undefined&&!['sold-comps','guide'].includes(o.evidenceKind))throw new Error('Unsupported evidence kind');
  if(soldEvidence(o)&&(!Number.isInteger(o.saleCount)||o.saleCount<1))throw new Error('Sold evidence requires sale count');
  if(!soldEvidence(o)&&Object.hasOwn(o,'saleCount'))throw new Error('Guide has no observed sale count');
+ if(o.provisional!==undefined&&typeof o.provisional!=='boolean')throw new Error('Provisional must be a boolean');
+ if(o.provisional===true&&(typeof o.provisionalReason!=='string'||!o.provisionalReason.trim()||o.provisionalReason.length>1000))throw new Error('Provisional estimate reason required');
  return structuredClone(o);
 }
 export function addObservation(r,o,options={}) {
@@ -50,12 +52,13 @@ export function acceptObservation(r,id,{now=new Date().toISOString(),locked=true
  const o=r.valuation?.observations?.find(x=>x.id===id);validateObservation(r,o,{now});
  if(o.basis==='raw-reference'||isRaw(r)&&!assessedCondition(r))throw new Error('Raw reference is provisional; condition required');
  if(!exactMatch(r,o))throw new Error('Identity, grade, grader or condition mismatch');
- if(soldEvidence(o)&&o.saleCount<3)throw new Error('Insufficient sold evidence; review only');
+ if(soldEvidence(o)&&o.saleCount<3&&o.provisional!==true)throw new Error('Insufficient sold evidence; explicitly mark provisional after review');
+ if(automatic&&o.provisional===true)throw new Error('Provisional evidence requires explicit acceptance');
  return {...structuredClone(r),valuation:{...structuredClone(r.valuation),observations:r.valuation.observations.map(x=>({...structuredClone(x),reviewStatus:x.id===id?'accepted':x.reviewStatus})),selection:{observationId:id,locked:Boolean(locked),selectedAt:now}}};
 }
 /** Invalid/stale identities never become effective merely because JSON says accepted. */
 export function selectedObservation(r) {
  const o=r?.valuation?.observations?.find(x=>x.id===r.valuation?.selection?.observationId);
  if(!o||o.reviewStatus!=='accepted'||o.basis==='raw-reference'||isRaw(r)&&!assessedCondition(r))return null;
- try{validateObservation(r,o);if(!exactMatch(r,o)||soldEvidence(o)&&o.saleCount<3)return null;return o;}catch{return null;}
+ try{validateObservation(r,o);if(!exactMatch(r,o)||soldEvidence(o)&&o.saleCount<3&&o.provisional!==true)return null;return o;}catch{return null;}
 }

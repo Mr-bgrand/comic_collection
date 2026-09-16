@@ -29,6 +29,12 @@ Complete Census & Value `;
 
 const REAL_URL = 'https://gocollect.com/app/comic/action-comics-1056-krs-comics-foil-edition';
 
+test('missing FMV with actual sales averages is not classified as no sales or silently accepted',()=>{
+ const text=REAL_CARD.replace('GoCollect FMV\n$60\n','');
+ const fmv=parseFmvCard(text,REAL_URL,'2026-09-15T12:00:00Z');
+ assert.equal(fmv.value,null);assert.equal(fmv.avg365,60);assert.equal(fmv.sold365,1);assert.equal(fmv.status,'no-fmv');
+});
+
 test('parseFmvCard reads the live Action Comics card exactly', () => {
   const fmv = parseFmvCard(REAL_CARD, REAL_URL, '2026-08-17T12:00:00Z');
   assert.equal(fmv.value, 60);

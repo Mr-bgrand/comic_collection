@@ -33,7 +33,7 @@ function asset(c,side) {
   return url;
 }
 const visibleIndices=()=>records.map((c,i)=>({c,i})).filter(({c})=>scope==='all'||c.kind===scope).map(({i})=>i);
-const sourceText=c=>c.source?c.source+' · '+(c.date?'Source as of '+c.date:'Source undated'):c.provisional?'Provisional raw reference '+money(c.provisional.value)+' · '+c.provisional.source+' · '+(c.provisional.date||'Source undated')+' · excluded from totals':'No value recorded';
+const sourceText=c=>c.source?c.source+(c.valueCaution?' · * Estimate: '+c.valueCaution:'')+' · '+(c.date?'Source as of '+c.date:'Source undated'):c.provisional?'Provisional raw reference '+money(c.provisional.value)+' · '+c.provisional.source+' · '+(c.provisional.date||'Source undated')+' · excluded from totals':'No value recorded';
 function updateScope(){document.querySelectorAll('[data-scope]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.scope===scope)));}
 function stopTour(){tourOn=false;$('tour').setAttribute('aria-pressed','false');text('tour','Play tour ▷');if(arrivalPlaying){arrivalPlaying=false;arrivalElapsed=ARRIVAL_REST;syncArrival();}}
 function syncArrival(){text('arrival-play',arrivalPlaying?'Pause Ⅱ':'Resume ▷');$('arrival-play').setAttribute('aria-pressed',String(arrivalPlaying));text('arrival-state',quiet?'STILL / MOTION OFF':arrivalPlaying?'CONTINUOUS FLIGHT':'PAUSED / YOUR MOMENT');syncSoundtrack();}
@@ -44,7 +44,7 @@ function updateFocus() {
   const c=records[selected];
   text('item-index',String(selected+1).padStart(3,'0'));
   text('focus-label','IN FOCUS');
-  text('item-title',c.short);text('item-variant',c.variant);text('item-grade',c.grade);text('item-bin',c.container+(c.virtual?' · '+(c.storage||'External storage'):''));text('item-value',money(c.value));
+  text('item-title',c.short);text('item-variant',c.variant);text('item-grade',c.grade);text('item-bin',c.container+(c.virtual?' · '+(c.storage||'External storage'):''));text('item-value',(c.valueText||money(c.value)));
   text('item-source',sourceText(c));$('scan-notice').hidden=c.hasScan;text('scan-notice',c.scanStatus==='no-scans-on-cert-page'?'No scans on PSA cert page':'Scan pending · record imported');
   const indices=browseIndices();text('object-count',indices.includes(selected)?String(indices.indexOf(selected)+1).padStart(3,'0')+' / '+indices.length:'UNSCANNED');
   $('explode').disabled=!c.hasScan;$('explode').title=c.hasScan?'Study front and reverse scans together':'Study will be available when the scans are retrieved';
@@ -115,7 +115,7 @@ function openRecord() {
   $('record-details').replaceChildren();
   for(const [label,value] of c.details||[]){if(!value)continue;const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=label;dd.textContent=value;$('record-details').append(dt,dd);}
   $('record-details').hidden=!c.details?.length;
-  text('record-cert',c.cert||c.id);text('record-bin',c.container+(c.virtual?' · '+(c.storage||'External storage'):''));text('record-value',money(c.value));text('record-source',sourceText(c)+(c.importedAt?' · imported '+c.importedAt:''));
+  text('record-cert',c.cert||c.id);text('record-bin',c.container+(c.virtual?' · '+(c.storage||'External storage'):''));text('record-value',(c.valueText||money(c.value)));text('record-source',sourceText(c)+(c.importedAt?' · imported '+c.importedAt:''));
   $('record-scan-notice').hidden=c.hasScan;text('record-scan-notice',c.scanStatus==='no-scans-on-cert-page'?'PSA currently supplies no scans for this cert. Your imported record is retained; no similar-card photo has been substituted.':'Scans are pending retrieval from the certification page. The collection record is already imported.');
   for(const side of ['front','back']) {const img=$('record-'+side),url=c.images[side]?asset(c,side):null;img.hidden=!url;if(url){img.src=url;img.alt=c.short+' '+side+' scan';img.onerror=()=>{img.hidden=true;};}}
   link('verify-link',c.verify);link('value-link',c.evidence);link('bin-link',c.href);$('record-dialog').showModal();
@@ -143,7 +143,7 @@ function search() {
   for(const {c,i} of matches) {
     const button=document.createElement('button');button.className='result';const identity=document.createElement('span');identity.textContent=c.title;
     const meta=document.createElement('small');meta.textContent=c.grade+' · '+c.container+' · '+(c.cert||c.id);identity.append(meta);
-    const price=document.createElement('span');price.textContent=money(c.value)+' ↗';button.append(identity,price);
+    const price=document.createElement('span');price.textContent=(c.valueText||money(c.value))+' ↗';button.append(identity,price);
     button.onclick=()=>{$('search-dialog').close();choose(i);if(rendererFailed)openRecord();};$('results').append(button);
   }
   if(!matches.length){const p=document.createElement('p');p.textContent='No matching objects. Try a title or certification number.';$('results').append(p);}

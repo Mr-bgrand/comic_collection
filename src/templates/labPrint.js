@@ -1,6 +1,6 @@
 import { escapeHtml as esc, page } from './shared.js';
 import { displayTitle, gradeLabel, effectiveValue, graderOf } from '../model.js';
-import { valuationSourceText,valuationMoney } from '../valuation/presentation.js';
+import { valuationSourceText,valuationAmount } from '../valuation/presentation.js';
 
 /** Print controls live outside the paper and disappear in printed output. */
 export function withPrintControls(html, { size, title }) {
@@ -21,9 +21,9 @@ export function renderCollectionMaster(collection) {
     const container = physical ? b.title || `Bin ${b.bin}` : b.virtual ? `${b.title} · ${b.location || 'External storage'}` : c.location || b.location || 'Location not recorded';
     const identity = c.provider === 'Authority' ? `Authority ID ${c.providerId || c.cert}` : c.grading?.status === 'raw' ? `Owner scan ${c.id || ''}` : `${graderOf(c)} ${c.cert || ''}`;
     const value = effectiveValue(c);
-    const basis = valuationSourceText(c);
-    return `<tr><td>${i + 1}</td><td><strong>${esc(displayTitle(c))}</strong><small>${esc(identity)}${c.holder === 'soft-sleeve' ? ' · Soft sleeve' : ''}</small></td><td>${esc(gradeLabel(c))}</td><td>${esc(container)}${physical && b.location && b.location !== container ? `<small>${esc(b.location)}</small>` : ''}</td><td>${value === null ? 'Not yet valued' : esc(valuationMoney(value))}${basis ? `<small>${esc(basis)}</small>` : ''}</td></tr>`;
+    const basis = valuationSourceText(c,{includeCaution:false});
+    return `<tr><td>${i + 1}</td><td><strong>${esc(displayTitle(c))}</strong><small>${esc(identity)}${c.holder === 'soft-sleeve' ? ' · Soft sleeve' : ''}</small></td><td>${esc(gradeLabel(c))}</td><td>${esc(container)}${physical && b.location && b.location !== container ? `<small>${esc(b.location)}</small>` : ''}</td><td>${value === null ? 'Not yet valued' : esc(valuationAmount(c))}${basis ? `<small>${esc(basis)}</small>` : ''}</td></tr>`;
   }).join('');
   return page({ title: 'Collection master list', css: `@page{size:letter landscape;margin:.45in}*{box-sizing:border-box}body{font:9pt Arial,sans-serif;color:#17212a;margin:0;background:white}header{margin:20px 0}h1{font-size:22pt;margin:0 0 8px}p{font-size:9pt;color:#53606a}table{border-collapse:collapse;width:100%;table-layout:fixed}thead{display:table-header-group}th{text-align:left;font-size:8pt;letter-spacing:.6px;border-bottom:2px solid #18252e;padding:8px 6px}td{padding:9px 6px;border-bottom:1px solid #dae0e5;vertical-align:top;overflow-wrap:anywhere}tr{break-inside:avoid}small{display:block;font-size:7pt;color:#5b6873;margin-top:4px;line-height:1.4}th:first-child{width:4%}th:nth-child(2){width:43%}th:nth-child(3){width:12%}th:nth-child(4){width:20%}@media screen{main{max-width:11in;margin:25px auto;padding:20px}}`,
-    body: `<main><header><h1>Collection master list</h1><p>${entries.length} objects · Generated ${new Date().toISOString().slice(0, 10)} · Recorded values retain their own source dates.</p></header><table><thead><tr><th>#</th><th>EXACT COPY</th><th>GRADE / STATUS</th><th>LOCATION</th><th>RECORDED VALUE</th></tr></thead><tbody>${rows}</tbody></table></main>` });
+    body: `<main><header><h1>Collection master list</h1><p>${entries.length} objects · Generated ${new Date().toISOString().slice(0, 10)} · Recorded values retain their own source dates.</p></header><table><thead><tr><th>#</th><th>EXACT COPY</th><th>GRADE / STATUS</th><th>LOCATION</th><th>RECORDED VALUE</th></tr><tr><th colspan="5" style="font-weight:400;letter-spacing:0">* Estimate based on limited or undocumented sales history.</th></tr></thead><tbody>${rows}</tbody></table></main>` });
 }

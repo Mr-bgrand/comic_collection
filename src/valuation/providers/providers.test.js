@@ -39,6 +39,8 @@ test('GoCollect requires reviewed cert edition grade label and retains guide sta
  assert.equal(goCollectObservation(r,{...capture,reviewedBy:undefined}).status,'review-required');
  assert.equal(goCollectObservation(r,{...capture,text:'Log in to continue'}).status,'login-required');
  assert.equal(goCollectObservation(r,{...capture,text:capture.text.replaceAll('$60','--')}).status,'no-sales');
+ const withoutFmv=goCollectObservation(r,{...capture,text:capture.text.replace('GoCollect FMV\n$60\n','')});
+ assert.equal(withoutFmv.status,'review-required');assert.match(withoutFmv.reason,/averages/i);assert.equal(withoutFmv.observation,undefined);
 });
 
 test('API refuses unverified mapping before requests and terminates persistent rate limiting',async()=>{

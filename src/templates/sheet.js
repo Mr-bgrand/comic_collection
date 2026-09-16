@@ -18,7 +18,7 @@
  */
 
 import { displayTitle, compactDetailLines, isTopPop, paginate,effectiveValue } from '../model.js';
-import {valuationSourceText,valuationMoney} from '../valuation/presentation.js';
+import {valuationSourceText,valuationAmount} from '../valuation/presentation.js';
 import { escapeHtml, page, FONT_SANS, FONT_MONO, INK } from './shared.js';
 
 export const PER_COLUMN = 7;
@@ -155,7 +155,7 @@ function renderEntry(comic, imagePrefix) {
     : '<div class="cover-none"></div>';
 
   const value=effectiveValue(comic);
-  const lines = [...(value!==null?[valuationMoney(value)+' · '+valuationSourceText(comic)]:[]),...compactDetailLines(comic)]
+  const lines = [...(value!==null?[valuationAmount(comic)+' · '+valuationSourceText(comic,{includeCaution:false})]:[]),...compactDetailLines(comic)]
     .map((line) => {
       const html = escapeHtml(line)
         .replace(/((?:CGC|CBCS) cert )([\w-]+)/, '$1<span class="cert">$2</span>')
@@ -200,6 +200,7 @@ export function renderSheet({ bin, url, qrSvg = '', imagePrefix = '../../images/
       <div class="sub">${comics.length} ${bin.isPhysicalCase?'copies':'graded comics'}${
         bin.location ? ` &middot; ${escapeHtml(bin.location)}` : ''
       } &middot; ${bin.isPhysicalCase?'printed '+new Date().toISOString().slice(0,10):'updated '+escapeHtml(bin.updated ?? '')}</div>
+      <div class="sub" style="font-size:6.5pt">* Estimate based on limited or undocumented sales history.</div>
     </div>
 ${qrBlock}
   </div>

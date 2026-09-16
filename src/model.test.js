@@ -270,16 +270,18 @@ test('collectionStats totals only priced books and says how many that was', () =
   assert.equal(s.bins, 1);
 });
 
-test('collectionStats separates the three reasons a book has no price', () => {
+test('collectionStats separates missing FMV from no sales and unlisted books', () => {
   const noSales = { cert: '4', fmv: { value: null, status: 'no-sales', url: 'https://x' } };
   const notListed = { cert: '5', fmv: { value: null, status: 'not-listed', url: null } };
   const never = { cert: '6' };
-  const s = collectionStats([{ bin: '01', comics: [PRICED, noSales, notListed, never] }]);
+  const noFmv = { cert: '7', fmv: { value: null, status: 'no-fmv', avg365: 110, sold365: 1 } };
+  const s = collectionStats([{ bin: '01', comics: [PRICED, noSales, notListed, never, noFmv] }]);
+  assert.equal(s.noFmv, 1);
   assert.equal(s.priced, 1);
   assert.equal(s.noSales, 1);
   assert.equal(s.notListed, 1);
   assert.equal(s.unfetched, 1, 'only a book never looked up counts as unfetched');
-  assert.equal(s.unpriced, 3);
+  assert.equal(s.unpriced, 4);
 });
 
 test('collectionStats reports source-date coverage without turning capture dates into source dates', () => {

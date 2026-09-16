@@ -47,12 +47,11 @@ export function estimateSoldComps(target, entries) {
   if (count && !hasRequiredCondition(target)) {
     return { value: null, range: null, saleCount: count, status: 'review', transactions, provisional: true };
   }
-  if (count < 3) {
-    return { value: null, range: null, saleCount: count, status: count ? 'review' : 'missing', transactions };
-  }
+  if (!count) return { value: null, range: null, saleCount: 0, status: 'missing', transactions };
   const value = count % 2 ? values[(count - 1) / 2] : (values[count / 2 - 1] + values[count / 2]) / 2;
   const range = count < 5
     ? { low: values[0], high: values[count - 1], method: 'min-max' }
     : { low: values[Math.ceil(count * .25) - 1], high: values[Math.ceil(count * .75) - 1], method: 'observed-iqr' };
-  return { value, range, saleCount: count, status: 'eligible', transactions };
+  return { value, range, saleCount: count, status: count < 3 ? 'review' : 'eligible', transactions,
+    ...(count < 3 ? {provisional:true,provisionalReason:`Limited history: ${count} matching completed ${count===1?'sale':'sales'}`} : {}) };
 }

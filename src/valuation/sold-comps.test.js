@@ -6,7 +6,7 @@ const sales=values=>values.map((value,i)=>({transactionId:`sale-${i}`,sold:true,
 test('sold estimator uses even median and observed quartile ranks',()=>{
  assert.equal(typeof estimator.estimateSoldComps,'function');
  assert.deepEqual(estimator.estimateSoldComps(target,sales([])),{value:null,range:null,saleCount:0,status:'missing',transactions:[]});
- for(const n of [1,2]){const e=estimator.estimateSoldComps(target,sales([10,20].slice(0,n)));assert.equal(e.value,null);assert.equal(e.status,'review');assert.equal(e.saleCount,n);}
+ for(const n of [1,2]){const e=estimator.estimateSoldComps(target,sales([10,20].slice(0,n)));assert.equal(e.value,n===1?10:15);assert.equal(e.status,'review');assert.equal(e.saleCount,n);assert.equal(e.provisional,true);}
  const four=estimator.estimateSoldComps(target,sales([10,20,40,100]));assert.equal(four.value,30);assert.deepEqual(four.range,{low:10,high:100,method:'min-max'});
  const six=estimator.estimateSoldComps(target,sales([10,20,30,40,50,100]));assert.equal(six.value,35);assert.deepEqual(six.range,{low:20,high:50,method:'observed-iqr'});
  const five=estimator.estimateSoldComps(target,sales([10,20,30,40,100]));assert.equal(five.value,30);assert.deepEqual(five.range,{low:20,high:40,method:'observed-iqr'});

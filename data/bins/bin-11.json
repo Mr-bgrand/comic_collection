@@ -691,6 +691,276 @@
         "url": "https://gocollect.com/app/comic/final-boss-1-4",
         "status": "no-sales",
         "fetchedAt": "2026-08-27T05:52:26.729Z"
+      },
+      "signatures": [
+        {
+          "name": "Tyler Kirkham",
+          "date": "2022-07-22",
+          "witnessed": true
+        }
+      ],
+      "identification": {
+        "status": "confirmed",
+        "reviewedAt": "2026-09-15T23:59:20Z",
+        "sourceUrl": "https://gocollect.com/app/comics/cert-lookup"
+      },
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "Final Boss",
+                "issue": "1",
+                "issueYear": "2021",
+                "publisher": "no publisher listed",
+                "variant": "SMZ Comics Metal Edition G",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Signature Series",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Final Boss",
+                "issue": "1",
+                "issueYear": "2021",
+                "publisher": "no publisher listed",
+                "variant": "SMZ Comics Metal Edition G",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Signature Series",
+                "labelType": "",
+                "signatures": [
+                  {
+                    "date": "2022-07-22",
+                    "name": "Tyler Kirkham",
+                    "witnessed": true
+                  }
+                ],
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://gocollect.com/app/comics/cert-lookup",
+              "notes": "Owned cert and all three sale rows match SMZ Comics Metal Edition G, CGC Signature 9.8, white pages, Tyler Kirkham signing July 22 2022, Amazing Fantasy 15 homage. Median of three completed sales; not the rounded annual mean.",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-15T23:59:20Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-16T00:01:03.332Z",
+        "observations": [
+          {
+            "id": "gocollect-reviewed-2026-09-15-2757895001",
+            "copyId": "CGC:2757895001",
+            "basis": "sold-comps",
+            "value": 85,
+            "currency": "USD",
+            "source": {
+              "name": "GoCollect",
+              "url": "https://gocollect.com/app/comic/final-boss-1-4",
+              "asOf": "2026-07-18",
+              "retrievedAt": "2026-09-15T23:59:20Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Final Boss",
+                "issue": "1",
+                "issueYear": "2021",
+                "publisher": "no publisher listed",
+                "variant": "SMZ Comics Metal Edition G",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Signature Series",
+                "labelType": "",
+                "signatures": [
+                  {
+                    "date": "2022-07-22",
+                    "name": "Tyler Kirkham",
+                    "witnessed": true
+                  }
+                ],
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://gocollect.com/app/comic/final-boss-1-4",
+              "notes": "Owned cert and all three sale rows match SMZ Comics Metal Edition G, CGC Signature 9.8, white pages, Tyler Kirkham signing July 22 2022, Amazing Fantasy 15 homage. Median of three completed sales; not the rounded annual mean.",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-15T23:59:20Z"
+            },
+            "saleCount": 3,
+            "range": {
+              "low": 46,
+              "high": 150,
+              "method": "min-max"
+            },
+            "transactions": [
+              {
+                "transactionId": "gocollect:22830449",
+                "soldAt": "2026-07-18",
+                "value": 150,
+                "format": "Auction",
+                "venue": "eBay (kevinflasch)",
+                "cert": "2733505001",
+                "identity": {
+                  "kind": "comic",
+                  "title": "Final Boss",
+                  "issue": "1",
+                  "issueYear": "2021",
+                  "publisher": "no publisher listed",
+                  "variant": "SMZ Comics Metal Edition G",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "language": "",
+                  "labelCategory": "Signature Series",
+                  "labelType": "",
+                  "signatures": [
+                    {
+                      "date": "2022-07-22",
+                      "name": "Tyler Kirkham",
+                      "witnessed": true
+                    }
+                  ],
+                  "restoration": "",
+                  "qualifiers": ""
+                },
+                "grade": "9.8",
+                "grader": "CGC",
+                "condition": null,
+                "currency": "USD",
+                "sold": true,
+                "sourceUrl": "https://gocollect.com/app/comic/final-boss-1-4"
+              },
+              {
+                "transactionId": "gocollect:22746443",
+                "soldAt": "2026-07-08",
+                "value": 85,
+                "format": "Fixed Price",
+                "venue": "eBay (maad9483-twzmanwt)",
+                "cert": "2757898001",
+                "identity": {
+                  "kind": "comic",
+                  "title": "Final Boss",
+                  "issue": "1",
+                  "issueYear": "2021",
+                  "publisher": "no publisher listed",
+                  "variant": "SMZ Comics Metal Edition G",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "language": "",
+                  "labelCategory": "Signature Series",
+                  "labelType": "",
+                  "signatures": [
+                    {
+                      "date": "2022-07-22",
+                      "name": "Tyler Kirkham",
+                      "witnessed": true
+                    }
+                  ],
+                  "restoration": "",
+                  "qualifiers": ""
+                },
+                "grade": "9.8",
+                "grader": "CGC",
+                "condition": null,
+                "currency": "USD",
+                "sold": true,
+                "sourceUrl": "https://gocollect.com/app/comic/final-boss-1-4"
+              },
+              {
+                "transactionId": "gocollect:20467746",
+                "soldAt": "2025-10-05",
+                "value": 46,
+                "format": "Auction",
+                "venue": "eBay (demigodcomics)",
+                "cert": "2757854001",
+                "identity": {
+                  "kind": "comic",
+                  "title": "Final Boss",
+                  "issue": "1",
+                  "issueYear": "2021",
+                  "publisher": "no publisher listed",
+                  "variant": "SMZ Comics Metal Edition G",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "language": "",
+                  "labelCategory": "Signature Series",
+                  "labelType": "",
+                  "signatures": [
+                    {
+                      "date": "2022-07-22",
+                      "name": "Tyler Kirkham",
+                      "witnessed": true
+                    }
+                  ],
+                  "restoration": "",
+                  "qualifiers": ""
+                },
+                "grade": "9.8",
+                "grader": "CGC",
+                "condition": null,
+                "currency": "USD",
+                "sold": true,
+                "sourceUrl": "https://gocollect.com/app/comic/final-boss-1-4"
+              }
+            ]
+          }
+        ],
+        "selection": {
+          "observationId": "gocollect-reviewed-2026-09-15-2757895001",
+          "locked": true,
+          "selectedAt": "2026-09-16T00:01:03.463Z"
+        }
       }
     },
     {
@@ -803,7 +1073,200 @@
         "status": "no-sales",
         "fetchedAt": "2026-08-27T05:52:50.108Z"
       },
-      "imageSource": "owner"
+      "imageSource": "owner",
+      "signatures": [
+        {
+          "name": "Michael J. Fox",
+          "date": "2019-10-25",
+          "witnessed": true
+        }
+      ],
+      "identification": {
+        "status": "confirmed",
+        "reviewedAt": "2026-09-15T23:59:20Z",
+        "sourceUrl": "https://gocollect.com/app/comics/cert-lookup"
+      },
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "Back to the Future",
+                "issue": "1",
+                "issueYear": "2015",
+                "publisher": "IDW Publishing",
+                "variant": "JJ's Comics & Art Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Signature Series",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Back to the Future",
+                "issue": "1",
+                "issueYear": "2015",
+                "publisher": "IDW Publishing",
+                "variant": "JJ's Comics & Art Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Signature Series",
+                "labelType": "",
+                "signatures": [
+                  {
+                    "date": "2019-10-25",
+                    "name": "Michael J. Fox",
+                    "witnessed": true
+                  }
+                ],
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://gocollect.com/app/comics/cert-lookup",
+              "notes": "Owned cert and comparable both identify Michael J. Fox signing October 25 2019, JJ's Comics & Art Virgin edition, CGC Signature 9.8, white pages. GoCollect transaction detail explicitly shows actual buyer-paid $600, versus struck-out original asking $760. Other aggregate rows have unidentified signers and are excluded.",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-15T23:59:20Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-16T00:01:03.332Z",
+        "observations": [
+          {
+            "id": "gocollect-reviewed-2026-09-15-1430525018",
+            "copyId": "CGC:1430525018",
+            "basis": "sold-comps",
+            "value": 600,
+            "currency": "USD",
+            "source": {
+              "name": "GoCollect",
+              "url": "https://gocollect.com/app/comic/back-to-the-future-1-jj-s-comics-art-virgin-variant",
+              "asOf": "2026-08-29",
+              "retrievedAt": "2026-09-15T23:59:20Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Back to the Future",
+                "issue": "1",
+                "issueYear": "2015",
+                "publisher": "IDW Publishing",
+                "variant": "JJ's Comics & Art Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Signature Series",
+                "labelType": "",
+                "signatures": [
+                  {
+                    "date": "2019-10-25",
+                    "name": "Michael J. Fox",
+                    "witnessed": true
+                  }
+                ],
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://gocollect.com/app/comic/back-to-the-future-1-jj-s-comics-art-virgin-variant",
+              "notes": "Owned cert and comparable both identify Michael J. Fox signing October 25 2019, JJ's Comics & Art Virgin edition, CGC Signature 9.8, white pages. GoCollect transaction detail explicitly shows actual buyer-paid $600, versus struck-out original asking $760. Other aggregate rows have unidentified signers and are excluded.",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-15T23:59:20Z"
+            },
+            "saleCount": 1,
+            "range": {
+              "low": 600,
+              "high": 600,
+              "method": "min-max"
+            },
+            "transactions": [
+              {
+                "transactionId": "gocollect:23229352",
+                "listingId": "117385099049",
+                "soldAt": "2026-08-29",
+                "value": 600,
+                "format": "Best Offer",
+                "bestOffer": true,
+                "acceptedPriceKnown": true,
+                "venue": "eBay (philip2640)",
+                "cert": "1430545003",
+                "identity": {
+                  "kind": "comic",
+                  "title": "Back to the Future",
+                  "issue": "1",
+                  "issueYear": "2015",
+                  "publisher": "IDW Publishing",
+                  "variant": "JJ's Comics & Art Edition",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "language": "",
+                  "labelCategory": "Signature Series",
+                  "labelType": "",
+                  "signatures": [
+                    {
+                      "date": "2019-10-25",
+                      "name": "Michael J. Fox",
+                      "witnessed": true
+                    }
+                  ],
+                  "restoration": "",
+                  "qualifiers": ""
+                },
+                "grade": "9.8",
+                "grader": "CGC",
+                "condition": null,
+                "currency": "USD",
+                "sold": true,
+                "sourceUrl": "https://gocollect.com/app/comic/back-to-the-future-1-jj-s-comics-art-virgin-variant"
+              }
+            ],
+            "provisional": true,
+            "provisionalReason": "Limited history: 1 matching completed sale"
+          }
+        ],
+        "selection": {
+          "observationId": "gocollect-reviewed-2026-09-15-1430525018",
+          "locked": true,
+          "selectedAt": "2026-09-16T00:01:03.463Z"
+        }
+      }
     },
     {
       "cert": "3866773006",

@@ -1,3 +1,4 @@
+import {historyCaution} from './valuation/evidence-strength.js';
 /** Local-only orchestration. Provider acquisition remains pending until owner acceptance. */
 import {randomUUID} from 'node:crypto';
 import {loadValuations,applyValuationBatch} from './valuation/persistence.js';
@@ -24,7 +25,7 @@ export function createValuationAdmin(root,{env=process.env,clientFactory=createP
    const observations=(record.valuation?.observations||[]).map(o=>{
     let eligible=true,reason='';try{acceptObservation(record,o.id);}catch(error){eligible=false;reason=error.message;}
     if(o.reviewStatus==='rejected'){eligible=false;reason='Dismissed evidence is retained for audit';}
-    return {...o,eligible,reason,selected:record.valuation?.selection?.observationId===o.id};
+    return {...o,caution:historyCaution(o),eligible,reason,selected:record.valuation?.selection?.observationId===o.id};
    });
    return {...item,record,observations};
   })};

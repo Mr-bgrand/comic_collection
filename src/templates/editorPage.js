@@ -4,7 +4,9 @@
  * you disagree with it.
  */
 
-import { displayTitle, isTopPop, fmvValue, manualValue, formatMoney } from '../model.js';
+import { displayTitle, isTopPop, fmvValue, manualValue } from '../model.js';
+import { valuationAmount } from '../valuation/presentation.js';
+import { ESTIMATE_NOTE } from '../valuation/evidence-strength.js';
 import { escapeHtml, page, FONT_SANS, FONT_MONO } from './shared.js';
 
 const css = `
@@ -120,9 +122,10 @@ function row(comic, bin) {
           <td class="num">${
             market === null
               ? `<span class="none">${
-                  comic.fmv?.status === 'no-sales' ? 'no sales' : 'not listed'
+                  comic.fmv?.status === 'no-fmv' ? 'sales found · needs review'
+                    : comic.fmv?.status === 'no-sales' ? 'no sales' : 'not listed'
                 }</span>`
-              : `<span class="market">${escapeHtml(formatMoney(market))}</span>`
+              : `<span class="market">${escapeHtml(valuationAmount(comic))}</span>`
           }</td>
           <td class="num"><input class="val" type="text" inputmode="decimal" value="${
             manual === null ? '' : escapeHtml(String(manual))
@@ -163,6 +166,7 @@ ${rows.map(({ comic, bin }) => row(comic, bin)).join('\n')}
     Your figures are kept separate from GoCollect's throughout, and anything you
     enter is labelled as an estimate wherever it is shown.
   </p>
+  <p class="lede">${escapeHtml(ESTIMATE_NOTE)}</p>
 
   <h2>No market value <span class="n">— ${gap.length} book${gap.length === 1 ? '' : 's'}</span></h2>
 ${gap.length ? table(gap) : '  <p class="lede">Nothing here — every book has a market value.</p>'}

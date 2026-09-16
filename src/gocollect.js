@@ -45,11 +45,12 @@ export function parseSold(text) {
  * Build an FMV record from the values scraped off the result card.
  * Pure, so the shape is testable without a login.
  *
- * A missing price is not a failure, and there are two distinct reasons for one:
+ * A missing FMV is not a failure:
  *
  *   priced      GoCollect has sales data and quotes a value.
  *   no-sales    The book is in their database — there is a page to link to —
  *               but nothing has sold, so every average reads "--".
+ *   no-fmv      Sales averages exist, but no separate guide FMV is supplied.
  *   not-listed  The book is not in their database at all; no page exists.
  *
  * The middle case still has a URL worth keeping, which is why a record is
@@ -70,7 +71,7 @@ export function buildFmv(raw, now) {
     avg365: parseMoney(raw.avg365 ?? ''),
     sold365: parseSold(raw.sold365 ?? ''),
     url,
-    status: value === null ? 'no-sales' : 'priced',
+    status: value === null ? [raw.avg30,raw.avg90,raw.avg365].some(v=>parseMoney(v)!==null) ? 'no-fmv' : 'no-sales' : 'priced',
     fetchedAt: now,
   };
 }
@@ -308,6 +309,8 @@ export async function fetchAllFmv({ force = false } = {}) {
             console.log(`$${fmv.value}`);
           } else if (fmv.status === 'no-sales') {
             console.log('no sales yet (page linked)');
+          } else if (fmv.status === 'no-fmv') {
+            console.log('sales found; guide FMV unavailable (review needed)');
           } else {
             console.log('not in GoCollect');
           }

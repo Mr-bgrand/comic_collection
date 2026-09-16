@@ -7,6 +7,13 @@ import {execFileSync} from 'node:child_process';
 import {valueSnapshot,appendSnapshot,captureValueHistory,readValueHistory,seedGitValueHistory} from './value-history.js';
 import {identityOf,addObservation,acceptObservation} from './valuation/observations.js';
 const at='2026-09-07T05:00:00Z';
+test('limited-history subset stays inside the total and evidence changes produce a snapshot',()=>{
+ const r={cert:'limited',fmv:{value:50,sold365:1}};
+ const thin=valueSnapshot([r],{observedAt:at});
+ assert.equal(thin.total,50);assert.equal(thin.limitedHistoryTotal,50);assert.equal(thin.limitedHistoryCount,1);
+ const strong=valueSnapshot([{...r,fmv:{value:50,sold365:8}}],{observedAt:at});
+ assert.equal(strong.total,50);assert.equal(strong.limitedHistoryCount,0);assert.notEqual(thin.fingerprint,strong.fingerprint);
+});
 async function fixture(t){const tempRoot=path.resolve(os.tmpdir()),root=await mkdtemp(path.join(tempRoot,'collection-value-test-'));assert.ok(root.startsWith(tempRoot+path.sep+'collection-value-test-'));t.after(()=>rm(root,{recursive:true,force:true}));return root;}
 
 test('value totals share record precedence and distinguish unknown, zero, owner and undated values',()=>{

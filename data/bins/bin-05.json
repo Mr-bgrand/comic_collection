@@ -446,7 +446,63 @@
         "status": "no-sales",
         "fetchedAt": "2026-08-20T15:14:51.040Z"
       },
-      "imageSource": "owner"
+      "imageSource": "owner",
+      "valuation": {
+        "observations": [
+          {
+            "id": "gocollect-reviewed-2026-09-15-4137945006",
+            "copyId": "CGC:4137945006",
+            "basis": "guide",
+            "value": 20,
+            "currency": "USD",
+            "source": {
+              "name": "GoCollect",
+              "url": "https://gocollect.com/app/comic/detective-comics-27-facsimile-edition-2022",
+              "asOf": null,
+              "retrievedAt": "2026-09-15T23:59:20Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Detective Comics: Facsimile Edition",
+                "issue": "27",
+                "issueYear": "2022",
+                "publisher": "DC Comics",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.0",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://gocollect.com/app/comic/detective-comics-27-facsimile-edition-2022",
+              "notes": "Certificate lookup matched 2022 Facsimile, CGC Universal 9.0. Explicit GoCollect FMV $20; no recent averages or FMV publication date supplied.",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-15T23:59:20Z"
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "gocollect-reviewed-2026-09-15-4137945006",
+          "locked": true,
+          "selectedAt": "2026-09-16T00:01:03.462Z"
+        }
+      }
     },
     {
       "cert": "4471692004",

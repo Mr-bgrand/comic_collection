@@ -19,6 +19,7 @@
             "basis":{"enum":["guide","sold-comps","psa-comparison","owner","raw-reference"]},
             "value":{"type":"number","minimum":0},"currency":{"const":"USD"},
             "evidenceKind":{"enum":["guide","sold-comps"]},"saleCount":{"type":"integer","minimum":1},
+            "provisional":{"type":"boolean"},"provisionalReason":{"type":"string","minLength":1,"maxLength":1000},
             "source":{"type":"object","required":["name","url","asOf","retrievedAt"],"properties":{
               "name":{"type":"string","minLength":1},"url":{"type":"string","format":"uri","pattern":"^https://"},
               "asOf":{"type":["string","null"]},"retrievedAt":{"type":"string"}

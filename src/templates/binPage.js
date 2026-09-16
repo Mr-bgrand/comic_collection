@@ -8,7 +8,7 @@
 import { displayTitle, detailLines, isTopPop, certUrl } from '../model.js';
 import { escapeHtml, page, FONT_SANS, FONT_MONO } from './shared.js';
 import {resolveValuation} from '../valuation/resolution.js';
-import {valuationSourceText,valuationMoney} from '../valuation/presentation.js';
+import {valuationSourceText,valuationAmount} from '../valuation/presentation.js';
 
 const css = `
 :root {
@@ -193,7 +193,7 @@ function renderComic(comic, imagePrefix) {
   const valuation=resolveValuation(comic);
   let fmv = '';
   if (valuation) {
-    const money = escapeHtml(valuationMoney(valuation.value));
+    const money = escapeHtml(valuationAmount(comic));
     fmv = `      <div class="fmv">${
       valuation.url
         ? `<a href="${escapeHtml(valuation.url)}" target="_blank" rel="noopener">${money}</a>`

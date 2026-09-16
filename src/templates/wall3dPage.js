@@ -1,3 +1,4 @@
+import {valuationAmount} from '../valuation/presentation.js';
 /**
  * The vault — the wall, taken off the wall.
  *
@@ -1122,7 +1123,7 @@ export function renderWall3dPage({ bins, config }) {
       title: displayTitle(comic),
       meta,
       census,
-      money: value !== null ? formatMoney(value) : '',
+      money: value !== null ? valuationAmount(comic) : '',
       label: `${displayTitle(comic)}, ${gradeLabel(comic)}, bin ${bin}`,
     };
   });
@@ -1198,6 +1199,7 @@ ${css}
   </div>
   <div class="money">
     <span id="r-amount"></span>
+    <small>* Limited or undocumented sales history</small>
     <span class="bin" id="r-bin"></span>
   </div>
   <a class="go" id="r-go" href="#">open bin &rarr;</a>

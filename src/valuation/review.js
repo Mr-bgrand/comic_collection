@@ -1,7 +1,7 @@
 /** Owner-reviewed metadata changes are deliberately narrower than inventory edits. */
 import {identityOf,identified,assessedCondition,isRaw,safeSourceUrl,validDate} from './observations.js';
 
-const comicFields=['title','issue','issueYear','publisher','variant','upc','barcode','supplement','coverCode','volume','printing','edition','language'];
+const comicFields=['title','issue','issueYear','publisher','variant','upc','barcode','supplement','coverCode','volume','printing','edition','language','signatures'];
 const cardFields=['year','brand','series','subject','cardNumber','variety','language','edition'];
 const object=value=>value&&typeof value==='object'&&!Array.isArray(value);
 const only=(value,fields)=>object(value)&&Object.keys(value).every(key=>fields.includes(key));
@@ -16,6 +16,10 @@ export function reviewMetadata(record,review,{now=new Date().toISOString()}={}) 
     const fields=record.kind==='card'?cardFields:comicFields;
     if(!only(review.identity,fields)||!Object.keys(review.identity).length)throw Error('Unsupported identity field; copy IDs, grades, scans and locations cannot be edited here');
     for(const [key,value] of Object.entries(review.identity)) {
+      if(key==='signatures') {
+        if(!Array.isArray(value)||value.length>20||value.some(s=>!only(s,['name','date','witnessed'])||!text(s.name)||s.name.length>200||s.date!==undefined&&(!validDate(s.date)||Date.parse(s.date)>Date.parse(now))||s.witnessed!==undefined&&typeof s.witnessed!=='boolean'))throw Error('Signatures require named signers, optional valid dates and boolean witness status');
+        next.signatures=structuredClone(value);continue;
+      }
       if(!(typeof value==='string'||typeof value==='number'&&Number.isFinite(value))||String(value).length>300)throw Error('Identity fields must be short text or finite numbers');
       next[key]=typeof value==='string'?value.trim():value;
     }

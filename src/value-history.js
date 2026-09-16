@@ -9,7 +9,7 @@ import { readCollection } from './lab-admin.js';
 import { resolveValuation,provisionalReference } from './valuation/resolution.js';
 
 const historyPath=root=>path.join(root,'data/value-history.json');
-const emptyTotals=()=>({total:0,count:0,valued:0,unvalued:0,marketTotal:0,comparisonTotal:0,ownerTotal:0,provisionalTotal:0,provisionalCount:0,undated:0});
+const emptyTotals=()=>({total:0,count:0,valued:0,unvalued:0,marketTotal:0,comparisonTotal:0,ownerTotal:0,provisionalTotal:0,provisionalCount:0,limitedHistoryTotal:0,limitedHistoryCount:0,undated:0});
 const round=value=>Math.round(value*100)/100;
 const dayOf=(at,timeZone)=>new Intl.DateTimeFormat('en-CA',{timeZone:timeZone||'UTC'}).format(new Date(at));
 export function valueSnapshot(records,{observedAt=new Date().toISOString(),source='build',revision=null}={}) {
@@ -22,13 +22,14 @@ export function valueSnapshot(records,{observedAt=new Date().toISOString(),sourc
     if(value!==null&&entry?.currency&&entry.currency!=='USD')throw Error(`Value for ${id} is not in USD.`);
     const date=entry?.asOf||null,category=entry?.basis==='psa-comparison'?'comparisonTotal':entry?.basis==='owner'?'ownerTotal':'marketTotal';
     const kind=record.kind==='card'?'card':'comic';
-    fingerprints.push([id,kind,value,entry?.basis??null,date,entry?.source??null,entry?.observationId??null,provisional?.id??null,provisional?.value??null]);
+    fingerprints.push([id,kind,value,entry?.basis??null,date,entry?.source??null,entry?.observationId??null,provisional?.id??null,provisional?.value??null,entry?.caution??null]);
     for(const group of [totals,kind==='card'?cards:comics]){
       group.count++;if(provisional){group.provisionalCount++;group.provisionalTotal+=round(provisional.value);}if(value===null){group.unvalued++;continue;}
       group.valued++;group.total+=round(value);group[category]+=round(value);if(!date)group.undated++;
+      if(entry.caution){group.limitedHistoryCount++;group.limitedHistoryTotal+=round(value);}
     }
   }
-  for(const group of [totals,comics,cards])for(const key of ['total','marketTotal','comparisonTotal','ownerTotal','provisionalTotal'])group[key]=round(group[key]);
+  for(const group of [totals,comics,cards])for(const key of ['total','marketTotal','comparisonTotal','ownerTotal','provisionalTotal','limitedHistoryTotal'])group[key]=round(group[key]);
   fingerprints.sort((a,b)=>a[0].localeCompare(b[0]));
   return {observedAt:new Date(observedAt).toISOString(),source,categoryVersion:1,...(revision?{revision}:{}),fingerprint:createHash('sha256').update(JSON.stringify(fingerprints)).digest('hex'),...totals,comics,cards};
 }

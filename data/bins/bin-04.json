@@ -432,7 +432,111 @@
         "status": "no-sales",
         "fetchedAt": "2026-08-20T02:36:04.775Z"
       },
-      "imageSource": "owner"
+      "imageSource": "owner",
+      "valuation": {
+        "observations": [
+          {
+            "id": "gocollect-reviewed-2026-09-15-4137947002",
+            "copyId": "CGC:4137947002",
+            "basis": "sold-comps",
+            "value": 110,
+            "currency": "USD",
+            "source": {
+              "name": "GoCollect",
+              "url": "https://gocollect.com/app/comic/back-to-the-future-1-2nd-printing",
+              "asOf": "2026-08-23",
+              "retrievedAt": "2026-09-15T23:59:20Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Back to the Future",
+                "issue": "1",
+                "issueYear": "2015",
+                "publisher": "IDW Publishing",
+                "variant": "Second Printing",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.4",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://gocollect.com/app/comic/back-to-the-future-1-2nd-printing",
+              "notes": "Exact Second Printing, CGC Universal 9.4, white pages. GoCollect transaction details explicitly identify buyer paid $110, versus struck-out original asking price $125. One matching sale in the last year.",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-15T23:59:20Z"
+            },
+            "saleCount": 1,
+            "range": {
+              "low": 110,
+              "high": 110,
+              "method": "min-max"
+            },
+            "transactions": [
+              {
+                "transactionId": "gocollect:23164057",
+                "listingId": "178104609887",
+                "soldAt": "2026-08-23",
+                "value": 110,
+                "format": "Best Offer",
+                "bestOffer": true,
+                "acceptedPriceKnown": true,
+                "venue": "eBay (symbiote83)",
+                "cert": "4523526002",
+                "identity": {
+                  "kind": "comic",
+                  "title": "Back to the Future",
+                  "issue": "1",
+                  "issueYear": "2015",
+                  "publisher": "IDW Publishing",
+                  "variant": "Second Printing",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "language": "",
+                  "labelCategory": "Universal",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": "",
+                  "qualifiers": ""
+                },
+                "grade": "9.4",
+                "grader": "CGC",
+                "condition": null,
+                "currency": "USD",
+                "sold": true,
+                "sourceUrl": "https://gocollect.com/app/comic/back-to-the-future-1-2nd-printing"
+              }
+            ],
+            "provisional": true,
+            "provisionalReason": "Limited history: 1 matching completed sale"
+          }
+        ],
+        "selection": {
+          "observationId": "gocollect-reviewed-2026-09-15-4137947002",
+          "locked": true,
+          "selectedAt": "2026-09-16T00:01:03.463Z"
+        }
+      }
     },
     {
       "cert": "21-2EC8B4A-002",

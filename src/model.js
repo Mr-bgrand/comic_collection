@@ -344,6 +344,7 @@ export function collectionStats(bins) {
   let sourceDated = 0;
   let sourceUndated = 0;
   let noSales = 0;
+  let noFmv = 0;
   let notListed = 0;
   let unfetched = 0;
   let manualCount = 0;
@@ -366,6 +367,8 @@ export function collectionStats(bins) {
         totalValue += value;
       } else if (!comic.fmv) {
         unfetched += 1; // never looked up — running the fetch would help
+      } else if (comic.fmv.status === 'no-fmv') {
+        noFmv += 1; // sales exist, but an estimate needs review
       } else if (comic.fmv.status === 'no-sales') {
         noSales += 1; // listed on GoCollect, nothing has sold
       } else {
@@ -389,6 +392,7 @@ export function collectionStats(bins) {
     priced,
     unpriced: comics - priced,
     noSales,
+    noFmv,
     notListed,
     unfetched,
     // Market money and hand-entered money, kept apart. `combinedValue` exists for

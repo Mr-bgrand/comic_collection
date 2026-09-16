@@ -7,7 +7,7 @@ export function mountValueHistory({history,onOpen=()=>{},onUnvalued=()=>{}}) {
   const current=history.current||snapshots.at(-1),money=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:2,minimumFractionDigits:0}).format(n);
   const date=(at,full=false)=>new Intl.DateTimeFormat('en-US',{month:'short',day:'numeric',...(full?{year:'numeric',hour:'numeric',minute:'2-digit'}:{}),timeZone:history.timeZone}).format(new Date(at));
   function svg(tag,attributes={},text){const node=document.createElementNS(ns,tag);for(const [key,value] of Object.entries(attributes))node.setAttribute(key,value);if(text!==undefined)node.textContent=text;return node;}
-  $('value-mini-total').textContent=current.valued?money(current.total):'No values yet';
+  $('value-mini-total').textContent=current.valued?money(current.total)+(current.limitedHistoryCount?'*':''):'No values yet';
   $('value-mini-coverage').textContent=`${current.valued} / ${current.count} valued`;
   $('value-find-missing').textContent=`${current.unvalued} with no value yet ↗`;
   $('value-find-missing').onclick=()=>{$('value-dialog').close();onUnvalued();};
@@ -30,19 +30,20 @@ export function mountValueHistory({history,onOpen=()=>{},onUnvalued=()=>{}}) {
   $('value-history-note').textContent=snapshots.length===1?'First observation saved. History grows as you rebuild.':'Snapshots are saved automatically when you rebuild.';
   $('value-scrub').max=String(snapshots.length-1);$('value-scrub').disabled=snapshots.length<2;
   function select(index){const s=snapshots[index],p=points[index];$('value-scrub').value=String(index);$('value-scrub').setAttribute('aria-valuetext',`${date(s.observedAt,true)}, ${money(s.total)}, ${s.valued} of ${s.count} copies valued`);
-    $('value-date').textContent=date(s.observedAt,true);$('value-total').textContent=s.valued?money(s.total):'No values yet';$('value-coverage-count').textContent=`${s.valued} / ${s.count}`;
+    $('value-date').textContent=date(s.observedAt,true);$('value-total').textContent=s.valued?money(s.total)+(s.limitedHistoryCount?'*':''):'No values yet';$('value-coverage-count').textContent=`${s.valued} / ${s.count}`;
     $('value-comics').textContent=s.comics.valued?money(s.comics.total):s.comics.count?'Not yet valued':'No copies recorded';$('value-cards').textContent=s.cards.valued?money(s.cards.total):s.cards.count?'Not yet valued':'No copies recorded';
     $('value-position').textContent=`${index+1} / ${snapshots.length}`;$('value-latest').disabled=index===snapshots.length-1;
     $('value-categories').replaceChildren();for(const category of historyCategories(s)){const p=document.createElement('p'),label=document.createElement('span'),amount=document.createElement('strong');label.textContent=category.label;amount.textContent=category.value===null?'Not recorded':money(category.value);p.append(label,amount);$('value-categories').append(p);}
     $('value-observation').textContent=s.source==='saved-inventory'?'From a saved inventory version. This is the date the record was saved, not a new appraisal.':'From your local collection records at the time shown. Rebuilding records existing estimates; it does not fetch new prices.';
     $('value-undated').hidden=!s.undated;$('value-undated').textContent=`${s.undated} valued ${s.undated===1?'copy has':'copies have'} no valuation date supplied.`;
+    $('value-estimate-note').textContent=Number.isInteger(s.limitedHistoryCount)?`* Estimate based on limited or undocumented sales history. ${s.limitedHistoryCount} starred values totaling ${money(s.limitedHistoryTotal)} are included above.`:'Evidence strength was not recorded for this earlier snapshot.';
     cursor.setAttribute('x1',p.x);cursor.setAttribute('x2',p.x);dots.forEach((dot,i)=>dot.setAttribute('r',i===index?6:3.5));
   }
   $('value-scrub').oninput=e=>select(Number(e.target.value));$('value-latest').onclick=()=>select(snapshots.length-1);
   let dragging=false;
   function pointAt(e){const bounds=chart.getBoundingClientRect(),x=(e.clientX-bounds.left)/bounds.width*640;let nearest=0;for(let i=1;i<points.length;i++)if(Math.abs(points[i].x-x)<Math.abs(points[nearest].x-x))nearest=i;select(nearest);}
   chart.onpointerdown=e=>{dragging=true;chart.setPointerCapture(e.pointerId);pointAt(e);};chart.onpointermove=e=>{if(dragging||e.pointerType==='mouse')pointAt(e);};chart.onpointerup=chart.onpointercancel=()=>{dragging=false;};
-  for(const s of snapshots){const row=document.createElement('tr');for(const text of [date(s.observedAt,true),s.valued?money(s.total):'Unknown',String(s.valued),String(s.count)]){const cell=document.createElement('td');cell.textContent=text;row.append(cell);}$('value-rows').append(row);}
+  for(const s of snapshots){const row=document.createElement('tr');for(const text of [date(s.observedAt,true),s.valued?money(s.total)+(s.limitedHistoryCount?'*':''):'Unknown',String(s.valued),String(s.count)]){const cell=document.createElement('td');cell.textContent=text;row.append(cell);}$('value-rows').append(row);}
   $('collection-value').onclick=()=>{onOpen();select(snapshots.length-1);$('value-dialog').showModal();};
   select(snapshots.length-1);
 }

@@ -28,7 +28,7 @@ import {
 } from '../model.js';
 import { escapeHtml, page, FONT_SANS, FONT_MONO } from './shared.js';
 import {resolveValuation} from '../valuation/resolution.js';
-import {valuationSourceText,valuationMoney} from '../valuation/presentation.js';
+import {valuationSourceText,valuationAmount} from '../valuation/presentation.js';
 
 const css = `
 :root {
@@ -462,7 +462,7 @@ export function renderDashboard({ bins, config }) {
       // and not carried by GoCollect at all.
       let fmvCell = '<span class="dim">—</span>';
       if (valuation) {
-        const money = escapeHtml(valuationMoney(valuation.value));
+        const money = escapeHtml(valuationAmount(comic));
         fmvCell = valuation.url
           ? `<a href="${escapeHtml(valuation.url)}" target="_blank" rel="noopener">${money}</a>`
           : money;
@@ -523,6 +523,7 @@ ${barChart(
     const parts = [];
     if (stats.unfetched) parts.push(`${stats.unfetched} not yet looked up`);
     if (stats.noSales) parts.push(`${stats.noSales} listed with no recorded sales`);
+    if (stats.noFmv) parts.push(`${stats.noFmv} with sales history but no guide FMV; review needed`);
     if (stats.notListed) parts.push(`${stats.notListed} not carried by GoCollect`);
     if (parts.length) {
       pricedNotice = `<p class="notice">${escapeHtml(

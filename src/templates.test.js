@@ -2,6 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { renderDashboard } from './templates/dashboard.js';
 import { renderBinPage } from './templates/binPage.js';
+import { renderEditorPage } from './templates/editorPage.js';
 
 const PRICED = {
   cert: '4418876012',
@@ -27,6 +28,22 @@ const UNPRICED = { ...PRICED, cert: '4395549004', title: 'Venom', issue: '23', f
 const BINS = [{ bin: '01', updated: '2026-08-17', comics: [PRICED, UNPRICED] }];
 const CONFIG = { collectionName: 'Comic Collection', baseUrl: 'https://example.invalid' };
 
+test('listed books with sales but no FMV are described as needing review', () => {
+  const bins = [{ bin: '01', comics: [{ ...PRICED, fmv: { value: null, status: 'no-fmv', avg365: 110, sold365: 1 } }] }];
+  const dashboard = renderDashboard({ bins, config: CONFIG });
+  assert.match(dashboard, /1 with sales history but no guide FMV; review needed/);
+  assert.doesNotMatch(dashboard, /not carried by GoCollect/);
+  const editor = renderEditorPage({ bins });
+  assert.match(editor, /sales found · needs review/);
+  assert.doesNotMatch(editor, /not listed/);
+});
+
+test('legacy value editor marks undocumented market history', () => {
+  const editor = renderEditorPage({ bins: BINS });
+  assert.match(editor, /class="market">\$60\*/);
+  assert.match(editor, /\* Estimate based on limited or undocumented sales history/);
+});
+
 test('dashboard links each cert number to its CGC verification page', () => {
   const html = renderDashboard({ bins: BINS, config: CONFIG });
   assert.ok(
@@ -44,7 +61,7 @@ test('dashboard links the FMV figure to that book on GoCollect', () => {
     ),
     'FMV is a GoCollect hotlink',
   );
-  assert.ok(html.includes('>$60</a>'), 'the price itself is the link text');
+  assert.ok(html.includes('>$60*</a>'), 'the linked price marks its undocumented sales history');
 });
 
 test('dashboard shows an unpriced book as a dash, not a broken link', () => {
