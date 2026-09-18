@@ -899,6 +899,104 @@
         "url": null,
         "status": "not-listed",
         "fetchedAt": "2026-08-22T19:54:06.943Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "overnight-2026-09-18-CGC-4300437004",
+            "copyId": "CGC:4300437004",
+            "basis": "sold-comps",
+            "value": 118.75,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/de/game/comic-books-silk/silk-gonzales-virgin-1-2022",
+              "asOf": "2023-05-29",
+              "retrievedAt": "2026-09-18T09:38:10.005Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Silk",
+                "issue": "1",
+                "issueYear": "2022",
+                "publisher": "Marvel Comics",
+                "variant": "Vault Comix \"Virgin\" Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/de/game/comic-books-silk/silk-gonzales-virgin-1-2022",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T09:38:10.005Z",
+              "notes": "Exact 2022 Silk #1 Rian Gonzales Vault Comix virgin edition, CGC Universal 9.8. Selected the only 9.8 row: SILK #1 RIAN GONZALES VAULT COMIX EXCLUSIVE VIRGIN CGC 9.8 IN HAND! 2022. Trade dress/non-virgin catalog and other grades excluded."
+            },
+            "saleCount": 1,
+            "range": {
+              "low": 118.75,
+              "high": 118.75,
+              "method": "min-max"
+            },
+            "transactions": [
+              {
+                "transactionId": "ebay:334628151910",
+                "soldAt": "2023-05-29",
+                "value": 118.75,
+                "sourceUrl": "https://www.ebay.com/itm/334628151910",
+                "identity": {
+                  "kind": "comic",
+                  "title": "Silk",
+                  "issue": "1",
+                  "issueYear": "2022",
+                  "publisher": "Marvel Comics",
+                  "variant": "Vault Comix \"Virgin\" Edition",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "language": "",
+                  "labelCategory": "Universal",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": "",
+                  "qualifiers": ""
+                },
+                "grade": "9.8",
+                "grader": "CGC",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              }
+            ],
+            "provisional": true,
+            "provisionalReason": "Only one matching sale from May 2023. Very stale historical reference; current market confidence is low."
+          }
+        ],
+        "selection": {
+          "observationId": "overnight-2026-09-18-CGC-4300437004",
+          "locked": true,
+          "selectedAt": "2026-09-18T09:38:10.276Z"
+        }
       }
     }
   ],

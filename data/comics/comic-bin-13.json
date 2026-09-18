@@ -1170,7 +1170,60 @@
         "capturedAt": "2026-09-07T23:29:29.454Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "overnight-2026-09-18-Authority-8178795398",
+            "copyId": "Authority:8178795398",
+            "basis": "raw-reference",
+            "value": 10.49,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-return-of-superman-30th-anniversary-special/return-of-superman-30th-anniversary-special-jurgens-foil-1-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T09:38:10.005Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Return of Superman 30th Anniversary Special",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DC",
+                "variant": "Dan Jurgens Foil Variant",
+                "upc": "76194138207400181",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "F",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-return-of-superman-30th-anniversary-special/return-of-superman-30th-anniversary-special-jurgens-foil-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T09:38:10.005Z",
+              "notes": "Exact full UPC 76194138207400181 and owned title/edition matched to PriceCharting product 5962825. Displayed USD ungraded guide reference. Owned condition remains unassessed; no recorded appraisal selected. Individual supporting sale count unverified; source guide as-of unspecified."
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Guide as-of and supporting sale count unspecified."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_8178795398_FRONT.jpg",
         "back": "Authority_8178795398_BACK.jpg"
@@ -2013,7 +2066,60 @@
         "capturedAt": "2026-09-07T23:30:40.032Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "overnight-2026-09-18-Authority-5997731356",
+            "copyId": "Authority:5997731356",
+            "basis": "raw-reference",
+            "value": 10.49,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-return-of-superman-30th-anniversary-special/return-of-superman-30th-anniversary-special-jurgens-foil-1-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T09:38:10.005Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Return of Superman 30th Anniversary Special",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DC",
+                "variant": "Dan Jurgens Foil Variant",
+                "upc": "76194138207400181",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "F",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-return-of-superman-30th-anniversary-special/return-of-superman-30th-anniversary-special-jurgens-foil-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T09:38:10.005Z",
+              "notes": "Exact full UPC 76194138207400181 and owned title/edition matched to PriceCharting product 5962825. Displayed USD ungraded guide reference. Owned condition remains unassessed; no recorded appraisal selected. Individual supporting sale count unverified; source guide as-of unspecified."
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Guide as-of and supporting sale count unspecified."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_5997731356_FRONT.jpg",
         "back": "Authority_5997731356_BACK.jpg"
@@ -2408,7 +2514,60 @@
         "capturedAt": "2026-09-07T23:30:47.820Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "overnight-2026-09-18-Authority-8871359406",
+            "copyId": "Authority:8871359406",
+            "basis": "raw-reference",
+            "value": 7.85,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/es/game/comic-books-spine-tingling-spider-man/spine-tingling-spider-man-parrillo-1-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T09:38:10.005Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spine-Tingling Spider-Man",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Parrillo Variant",
+                "upc": "75960620662900116",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "D",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/es/game/comic-books-spine-tingling-spider-man/spine-tingling-spider-man-parrillo-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T09:38:10.005Z",
+              "notes": "Exact full UPC 75960620662900116 and owned title/edition matched to PriceCharting product 5923436. Displayed USD ungraded guide reference. Owned condition remains unassessed; no recorded appraisal selected. Lucio Parrillo 1:25 incentive, first print. Latest explicit 2023 raw sale January 27, 2026 at $9.99; mixed raw condition guide. One row has 2024 in the title. KeyCollector exact UPC also confirms Parrillo 1:25 but reports low/mid/high $1/$2/$5; guide disagreement is retained as uncertainty, not averaged or assigned to owned condition."
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Lucio Parrillo 1:25 incentive, first print. Latest explicit 2023 raw sale January 27, 2026 at $9.99; mixed raw condition guide. One row has 2024 in the title. KeyCollector exact UPC also confirms Parrillo 1:25 but reports low/mid/high $1/$2/$5; guide disagreement is retained as uncertainty, not averaged or assigned to owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_8871359406_FRONT.jpg",
         "back": "Authority_8871359406_BACK.jpg"
@@ -2655,7 +2814,60 @@
         "capturedAt": "2026-09-07T23:30:51.992Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "overnight-2026-09-18-Authority-5015459756",
+            "copyId": "Authority:5015459756",
+            "basis": "raw-reference",
+            "value": 6.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/ru/game/comic-books-jean-grey/jean-grey-momoko-2-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T09:38:10.005Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Jean Grey",
+                "issue": "2",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Momoko X-Men 60th Anniversary Variant",
+                "upc": "75960620618600221",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/ru/game/comic-books-jean-grey/jean-grey-momoko-2-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T09:38:10.005Z",
+              "notes": "Exact full UPC 75960620618600221 and owned title/edition matched to PriceCharting product 5834497. Displayed USD ungraded guide reference. Owned condition remains unassessed; no recorded appraisal selected. Momoko X-Men 60th trade cover, not virgin."
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Momoko X-Men 60th trade cover, not virgin."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_5015459756_FRONT.jpg",
         "back": "Authority_5015459756_BACK.jpg"
@@ -2847,7 +3059,60 @@
         "capturedAt": "2026-09-07T23:30:56.944Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "overnight-2026-09-18-Authority-4433558518",
+            "copyId": "Authority:4433558518",
+            "basis": "raw-reference",
+            "value": 4.37,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-lim-lucky-2-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T09:38:10.005Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Marvel Unleashed",
+                "issue": "2",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Lim Lucky Variant",
+                "upc": "75960620134100221",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-lim-lucky-2-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T09:38:10.005Z",
+              "notes": "Exact full UPC 75960620134100221 and owned title/edition matched to PriceCharting product 5834619. Displayed USD ungraded guide reference. Owned condition remains unassessed; no recorded appraisal selected. Individual supporting sale count unverified; source guide as-of unspecified."
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Guide as-of and supporting sale count unspecified."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_4433558518_FRONT.jpg",
         "back": "Authority_4433558518_BACK.jpg"
@@ -2944,7 +3209,60 @@
         "capturedAt": "2026-09-07T23:30:59.046Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "overnight-2026-09-18-Authority-9690645587",
+            "copyId": "Authority:9690645587",
+            "basis": "raw-reference",
+            "value": 6.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/ru/game/comic-books-jean-grey/jean-grey-momoko-2-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T09:38:10.005Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Jean Grey",
+                "issue": "2",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Momoko X-Men 60th Anniversary Variant",
+                "upc": "75960620618600221",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/ru/game/comic-books-jean-grey/jean-grey-momoko-2-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T09:38:10.005Z",
+              "notes": "Exact full UPC 75960620618600221 and owned title/edition matched to PriceCharting product 5834497. Displayed USD ungraded guide reference. Owned condition remains unassessed; no recorded appraisal selected. Momoko X-Men 60th trade cover, not virgin."
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Momoko X-Men 60th trade cover, not virgin."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_9690645587_FRONT.jpg",
         "back": "Authority_9690645587_BACK.jpg"
@@ -3039,7 +3357,60 @@
         "capturedAt": "2026-09-07T23:31:10.100Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "overnight-2026-09-18-Authority-7928681804",
+            "copyId": "Authority:7928681804",
+            "basis": "raw-reference",
+            "value": 3.74,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-avengers/avengers-ross-5-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T09:38:10.005Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Avengers",
+                "issue": "5",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Ross Connecting Variant",
+                "upc": "75960620426700531",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "8",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-avengers/avengers-ross-5-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T09:38:10.005Z",
+              "notes": "Exact full UPC 75960620426700531 and owned title/edition matched to PriceCharting product 5834424. Displayed USD ungraded guide reference. Owned condition remains unassessed; no recorded appraisal selected. Individual supporting sale count unverified; source guide as-of unspecified."
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Guide as-of and supporting sale count unspecified."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_7928681804_FRONT.jpg",
         "back": "Authority_7928681804_BACK.jpg"
@@ -3134,7 +3505,83 @@
         "capturedAt": "2026-09-07T23:31:12.373Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "overnight-2026-09-18-Authority-9769296715",
+            "copyId": "Authority:9769296715",
+            "basis": "raw-reference",
+            "value": 0.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting reviewed raw sales",
+              "url": "https://www.pricecharting.com/game/comic-books-star-wars-the-high-republic-shadows-of-starlight/star-wars-the-high-republic-shadows-of-starlight-1-2023",
+              "asOf": "2026-09-08",
+              "retrievedAt": "2026-09-18T09:38:10.005Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Star Wars: The High Republic - Shadows of Starlight",
+                "issue": "1",
+                "issueYear": "",
+                "publisher": "Marvel Comics",
+                "variant": "",
+                "upc": "75960620763300111",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "A",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-star-wars-the-high-republic-shadows-of-starlight/star-wars-the-high-republic-shadows-of-starlight-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T09:38:10.005Z",
+              "notes": "Exact full UPC 75960620763300111 and owned title/edition matched to PriceCharting product 5861623. Reviewed raw-sale reference; evidence transactions are comparators only. Owned condition remains unassessed; no recorded appraisal selected. Median of the three newest explicit Phil Noto Yoda/Jedi Cover A raw sales; distinct listing IDs but repeat listing titles can concentrate evidence in few sellers. Excluded issues 1-4 lot 397672452847. Owned condition and missing issue-year field are unchanged; exact full UPC establishes edition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:336771626078",
+                  "soldAt": "2026-09-08",
+                  "value": 1.25,
+                  "sourceUrl": "https://www.ebay.com/itm/336771626078",
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:237027966470",
+                  "soldAt": "2026-09-01",
+                  "value": 0.99,
+                  "sourceUrl": "https://www.ebay.com/itm/237027966470",
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:237011835528",
+                  "soldAt": "2026-08-25",
+                  "value": 0.99,
+                  "sourceUrl": "https://www.ebay.com/itm/237011835528",
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Median of the three newest explicit Phil Noto Yoda/Jedi Cover A raw sales; distinct listing IDs but repeat listing titles can concentrate evidence in few sellers. Excluded issues 1-4 lot 397672452847. Owned condition and missing issue-year field are unchanged; exact full UPC establishes edition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_9769296715_FRONT.jpg",
         "back": "Authority_9769296715_BACK.jpg"
@@ -3231,7 +3678,60 @@
         "capturedAt": "2026-09-07T23:31:14.671Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "overnight-2026-09-18-Authority-1817179410",
+            "copyId": "Authority:1817179410",
+            "basis": "raw-reference",
+            "value": 10.24,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-spine-tingling-spider-man/spine-tingling-spider-man-momoko-0-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T09:38:10.005Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spine-Tingling Spider-Man",
+                "issue": "0",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Momoko Variant",
+                "upc": "75960620662900021",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-spine-tingling-spider-man/spine-tingling-spider-man-momoko-0-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T09:38:10.005Z",
+              "notes": "Exact full UPC 75960620662900021 and owned title/edition matched to PriceCharting product 5786094. Displayed USD ungraded guide reference. Owned condition remains unassessed; no recorded appraisal selected. Mixed-condition ungraded guide; one listing has an incorrect year. Reference only, not a newly calculated transaction estimate."
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Mixed-condition ungraded guide; one listing has an incorrect year. Reference only, not a newly calculated transaction estimate."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_1817179410_FRONT.jpg",
         "back": "Authority_1817179410_BACK.jpg"
@@ -3328,7 +3828,60 @@
         "capturedAt": "2026-09-07T23:31:18.107Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "overnight-2026-09-18-Authority-8310372021",
+            "copyId": "Authority:8310372021",
+            "basis": "raw-reference",
+            "value": 10.24,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-spine-tingling-spider-man/spine-tingling-spider-man-momoko-0-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T09:38:10.005Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spine-Tingling Spider-Man",
+                "issue": "0",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Momoko Variant",
+                "upc": "75960620662900021",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-spine-tingling-spider-man/spine-tingling-spider-man-momoko-0-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T09:38:10.005Z",
+              "notes": "Exact full UPC 75960620662900021 and owned title/edition matched to PriceCharting product 5786094. Displayed USD ungraded guide reference. Owned condition remains unassessed; no recorded appraisal selected. Mixed-condition ungraded guide; one listing has an incorrect year. Reference only, not a newly calculated transaction estimate."
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Mixed-condition ungraded guide; one listing has an incorrect year. Reference only, not a newly calculated transaction estimate."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_8310372021_FRONT.jpg",
         "back": "Authority_8310372021_BACK.jpg"
@@ -3425,7 +3978,60 @@
         "capturedAt": "2026-09-07T23:31:20.538Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "overnight-2026-09-18-Authority-5343446455",
+            "copyId": "Authority:5343446455",
+            "basis": "raw-reference",
+            "value": 4.37,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-lim-lucky-2-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T09:38:10.005Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Marvel Unleashed",
+                "issue": "2",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Lim Lucky Variant",
+                "upc": "75960620134100221",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-lim-lucky-2-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T09:38:10.005Z",
+              "notes": "Exact full UPC 75960620134100221 and owned title/edition matched to PriceCharting product 5834619. Displayed USD ungraded guide reference. Owned condition remains unassessed; no recorded appraisal selected. Individual supporting sale count unverified; source guide as-of unspecified."
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Guide as-of and supporting sale count unspecified."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_5343446455_FRONT.jpg",
         "back": "Authority_5343446455_BACK.jpg"
@@ -3522,7 +4128,83 @@
         "capturedAt": "2026-09-07T23:31:24.016Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "overnight-2026-09-18-Authority-4414578796",
+            "copyId": "Authority:4414578796",
+            "basis": "raw-reference",
+            "value": 4.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting reviewed raw sales",
+              "url": "https://www.pricecharting.com/game/comic-books-harley-quinn-black-%2B-white-%2B-redder/harley-quinn-black-%2B-white-%2B-redder-1-2023",
+              "asOf": "2026-06-09",
+              "retrievedAt": "2026-09-18T09:38:10.005Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Harley Quinn: Black + White + Redder",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DC",
+                "variant": "Bruno Redondo Cover",
+                "upc": "76194137938800111",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "A",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-harley-quinn-black-%2B-white-%2B-redder/harley-quinn-black-%2B-white-%2B-redder-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T09:38:10.005Z",
+              "notes": "Exact full UPC 76194137938800111 and owned title/edition matched to PriceCharting product 5490659. Reviewed raw-sale reference; evidence transactions are comparators only. Owned condition remains unassessed; no recorded appraisal selected. Median of three most recent explicitly identified Cover A Bruno Redondo raw sales. The mixed $4.51 guide was not used. Excluded issue 1-5 lot 167306640559, Artgerm 147177271713, and wrong-issue 204552949318. Reference covers seller-described raw copies; owned condition remains unassessed.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:325739678781",
+                  "soldAt": "2026-06-09",
+                  "value": 4.99,
+                  "sourceUrl": "https://www.ebay.com/itm/325739678781",
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:356460031737",
+                  "soldAt": "2026-03-12",
+                  "value": 3.99,
+                  "sourceUrl": "https://www.ebay.com/itm/356460031737",
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:374771967764",
+                  "soldAt": "2026-01-21",
+                  "value": 5.31,
+                  "sourceUrl": "https://www.ebay.com/itm/374771967764",
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Median of three most recent explicitly identified Cover A Bruno Redondo raw sales. The mixed $4.51 guide was not used. Excluded issue 1-5 lot 167306640559, Artgerm 147177271713, and wrong-issue 204552949318. Reference covers seller-described raw copies; owned condition remains unassessed."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_4414578796_FRONT.jpg",
         "back": "Authority_4414578796_BACK.jpg"
@@ -3619,7 +4301,60 @@
         "capturedAt": "2026-09-07T23:31:26.363Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "overnight-2026-09-18-Authority-7855256189",
+            "copyId": "Authority:7855256189",
+            "basis": "raw-reference",
+            "value": 4.25,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-chang-8-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T09:38:10.005Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Miles Morales: Spider-Man",
+                "issue": "8",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Chang Hellfire Gala Variant",
+                "upc": "75960620483000831",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-chang-8-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T09:38:10.005Z",
+              "notes": "Exact full UPC 75960620483000831 and owned title/edition matched to PriceCharting product 5436215. Displayed USD ungraded guide reference. Owned condition remains unassessed; no recorded appraisal selected. Individual supporting sale count unverified; source guide as-of unspecified."
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Guide as-of and supporting sale count unspecified."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_7855256189_FRONT.jpg",
         "back": "Authority_7855256189_BACK.jpg"
@@ -3716,7 +4451,60 @@
         "capturedAt": "2026-09-07T23:31:28.485Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "overnight-2026-09-18-Authority-8418462801",
+            "copyId": "Authority:8418462801",
+            "basis": "raw-reference",
+            "value": 8.09,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-hawkgirl/hawkgirl-schmidt-1-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T09:38:10.005Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Hawkgirl",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DC",
+                "variant": "Otto Schmidt Variant",
+                "upc": "76194138010000131",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-hawkgirl/hawkgirl-schmidt-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T09:38:10.005Z",
+              "notes": "Exact full UPC 76194138010000131 and owned title/edition matched to PriceCharting product 5490956. Displayed USD ungraded guide reference. Owned condition remains unassessed; no recorded appraisal selected. Individual supporting sale count unverified; source guide as-of unspecified."
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Guide as-of and supporting sale count unspecified."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_8418462801_FRONT.jpg",
         "back": "Authority_8418462801_BACK.jpg"
@@ -3813,7 +4601,60 @@
         "capturedAt": "2026-09-07T23:31:31.175Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "overnight-2026-09-18-Authority-3029709213",
+            "copyId": "Authority:3029709213",
+            "basis": "raw-reference",
+            "value": 2.86,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-groot/groot-3-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T09:38:10.005Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Groot",
+                "issue": "3",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Lee Garbett Cover",
+                "upc": "75960620627800311",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "A",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-groot/groot-3-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T09:38:10.005Z",
+              "notes": "Exact full UPC 75960620627800311 and owned title/edition matched to PriceCharting product 5436021. Displayed USD ungraded guide reference. Owned condition remains unassessed; no recorded appraisal selected. Lee Garbett standard cover. Reviewed recent explicit Garbett sales dated September 7, 2026 ($1) and June 19, 2026 ($5.25). Displayed guide includes mixed-condition raw copies."
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Lee Garbett standard cover. Reviewed recent explicit Garbett sales dated September 7, 2026 ($1) and June 19, 2026 ($5.25). Displayed guide includes mixed-condition raw copies."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_3029709213_FRONT.jpg",
         "back": "Authority_3029709213_BACK.jpg"
@@ -4197,7 +5038,83 @@
         "capturedAt": "2026-09-07T23:32:05.059Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "overnight-2026-09-18-Authority-9454763603",
+            "copyId": "Authority:9454763603",
+            "basis": "raw-reference",
+            "value": 5.25,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting reviewed raw sales",
+              "url": "https://www.pricecharting.com/game/comic-books-knight-terrors-batman/knight-terrors-batman-mattina-1-2023",
+              "asOf": "2026-08-30",
+              "retrievedAt": "2026-09-18T09:38:10.005Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Knight Terrors: Batman",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DC",
+                "variant": "Francesco Mattina Variant",
+                "upc": "76194138094000121",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-knight-terrors-batman/knight-terrors-batman-mattina-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T09:38:10.005Z",
+              "notes": "Exact full UPC 76194138094000121 and owned title/edition matched to PriceCharting product 5426904. Reviewed raw-sale reference; evidence transactions are comparators only. Owned condition remains unassessed; no recorded appraisal selected. Median of three recent exact Mattina Cover B raw sales described as NM by sellers. Excluded Mattina plus Puppeteer Lee two-book lot 267622658617. This is an NM comparison reference only; the owned copy has not been assigned NM or any other condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:227452351183",
+                  "soldAt": "2026-08-30",
+                  "value": 3.36,
+                  "sourceUrl": "https://www.ebay.com/itm/227452351183",
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:358738824703",
+                  "soldAt": "2026-07-27",
+                  "value": 5.25,
+                  "sourceUrl": "https://www.ebay.com/itm/358738824703",
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:317083621180",
+                  "soldAt": "2026-04-20",
+                  "value": 7.99,
+                  "sourceUrl": "https://www.ebay.com/itm/317083621180",
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Median of three recent exact Mattina Cover B raw sales described as NM by sellers. Excluded Mattina plus Puppeteer Lee two-book lot 267622658617. This is an NM comparison reference only; the owned copy has not been assigned NM or any other condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_9454763603_FRONT.jpg",
         "back": "Authority_9454763603_BACK.jpg"
@@ -4294,7 +5211,69 @@
         "capturedAt": "2026-09-07T23:32:07.297Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "overnight-2026-09-18-Authority-3342940961",
+            "copyId": "Authority:3342940961",
+            "basis": "raw-reference",
+            "value": 2.49,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting reviewed raw sales",
+              "url": "https://www.pricecharting.com/game/comic-books-knight-terrors-first-blood/knight-terrors-first-blood-1-2023",
+              "asOf": "2025-01-09",
+              "retrievedAt": "2026-09-18T09:38:10.005Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Knight Terrors: First Blood",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DC",
+                "variant": "Howard Porter Cover",
+                "upc": "76194138064300111",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "A",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-knight-terrors-first-blood/knight-terrors-first-blood-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T09:38:10.005Z",
+              "notes": "Exact full UPC 76194138064300111 and owned title/edition matched to PriceCharting product 5426899. Reviewed raw-sale reference; evidence transactions are comparators only. Owned condition remains unassessed; no recorded appraisal selected. One explicitly identified standard Cover A raw sale. Stale and sparse. Current $6.24 generic guide is dominated by Darkest Hour/neon virgin, SDCC foil, incentive variants and bundles, all excluded. No owned-copy condition inferred.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:166982030216",
+                  "soldAt": "2025-01-09",
+                  "value": 2.49,
+                  "sourceUrl": "https://www.ebay.com/itm/166982030216",
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. One explicitly identified standard Cover A raw sale. Stale and sparse. Current $6.24 generic guide is dominated by Darkest Hour/neon virgin, SDCC foil, incentive variants and bundles, all excluded. No owned-copy condition inferred."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_3342940961_FRONT.jpg",
         "back": "Authority_3342940961_BACK.jpg"
@@ -4488,7 +5467,60 @@
         "capturedAt": "2026-09-07T23:32:11.760Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "overnight-2026-09-18-Authority-7224187984",
+            "copyId": "Authority:7224187984",
+            "basis": "raw-reference",
+            "value": 3.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-deadpool/deadpool-lopez-8-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T09:38:10.005Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Deadpool",
+                "issue": "8",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "David Lopez Variant",
+                "upc": "75960620089400821",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "8",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-deadpool/deadpool-lopez-8-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T09:38:10.005Z",
+              "notes": "Exact full UPC 75960620089400821 and owned title/edition matched to PriceCharting product 5407949. Displayed USD ungraded guide reference. Owned condition remains unassessed; no recorded appraisal selected. Newest displayed raw transaction is February 19, 2025; history is stale."
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Newest displayed raw transaction is February 19, 2025; history is stale."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_7224187984_FRONT.jpg",
         "back": "Authority_7224187984_BACK.jpg"
@@ -4583,7 +5615,83 @@
         "capturedAt": "2026-09-07T23:32:14.145Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "overnight-2026-09-18-Authority-1839363354",
+            "copyId": "Authority:1839363354",
+            "basis": "raw-reference",
+            "value": 3.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting reviewed raw sales",
+              "url": "https://www.pricecharting.com/game/comic-books-strange-academy-miles-morales/strange-academy-miles-morales-1-2023",
+              "asOf": "2025-04-01",
+              "retrievedAt": "2026-09-18T09:38:10.005Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Strange Academy: Miles Morales",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "",
+                "upc": "75960620695700111",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "A",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-strange-academy-miles-morales/strange-academy-miles-morales-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T09:38:10.005Z",
+              "notes": "Exact full UPC 75960620695700111 and owned title/edition matched to PriceCharting product 5554001. Reviewed raw-sale reference; evidence transactions are comparators only. Owned condition remains unassessed; no recorded appraisal selected. Median of the three newest explicitly identified Bradshaw Cover A raw sales. Latest April 2025; stale. The current $8.99 guide mixes Perez Cover B, Ramos connecting, Garbett incentive and multi-book lots; excluded all those rows. Owned condition remains unassessed.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:386132543821",
+                  "soldAt": "2025-04-01",
+                  "value": 3.74,
+                  "sourceUrl": "https://www.ebay.com/itm/386132543821",
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:325977279640",
+                  "soldAt": "2025-03-13",
+                  "value": 3.99,
+                  "sourceUrl": "https://www.ebay.com/itm/325977279640",
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:155747947410",
+                  "soldAt": "2024-12-11",
+                  "value": 5.5,
+                  "sourceUrl": "https://www.ebay.com/itm/155747947410",
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Median of the three newest explicitly identified Bradshaw Cover A raw sales. Latest April 2025; stale. The current $8.99 guide mixes Perez Cover B, Ramos connecting, Garbett incentive and multi-book lots; excluded all those rows. Owned condition remains unassessed."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_1839363354_FRONT.jpg",
         "back": "Authority_1839363354_BACK.jpg"

@@ -70,6 +70,105 @@
         "url": "https://gocollect.com/app/comic/something-is-killing-the-children-31-tiny-onion-edition",
         "status": "no-sales",
         "fetchedAt": "2026-08-17T05:38:27.246Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "overnight-2026-09-18-CGC-4381117010",
+            "copyId": "CGC:4381117010",
+            "basis": "sold-comps",
+            "value": 51,
+            "currency": "USD",
+            "source": {
+              "name": "GoCollect",
+              "url": "https://gocollect.com/app/comic/something-is-killing-the-children-31-tiny-onion-edition",
+              "asOf": "2025-01-05",
+              "retrievedAt": "2026-09-18T09:38:10.005Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Something is Killing the Children",
+                "issue": "31",
+                "issueYear": "2023",
+                "publisher": "Boom! Studios",
+                "variant": "Tiny Onion Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://gocollect.com/app/comic/something-is-killing-the-children-31-tiny-onion-edition",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T09:38:10.005Z",
+              "notes": "Exact 2023 Tiny Onion Edition, Martin Simmonds virgin cover, CGC Universal 9.8 WHITE. Auction detail confirms seven bids, eBay listing 326389717032, comparable cert 4514249008. Tiny Onion FOIL is a separate edition and was excluded."
+            },
+            "saleCount": 1,
+            "range": {
+              "low": 51,
+              "high": 51,
+              "method": "min-max"
+            },
+            "transactions": [
+              {
+                "transactionId": "ebay:326389717032",
+                "soldAt": "2025-01-05",
+                "value": 51,
+                "comparableCert": "4514249008",
+                "sourceUrl": "https://www.ebay.com/itm/326389717032",
+                "identity": {
+                  "kind": "comic",
+                  "title": "Something is Killing the Children",
+                  "issue": "31",
+                  "issueYear": "2023",
+                  "publisher": "Boom! Studios",
+                  "variant": "Tiny Onion Edition",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "language": "",
+                  "labelCategory": "Universal",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": "",
+                  "qualifiers": ""
+                },
+                "grade": "9.8",
+                "grader": "CGC",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              }
+            ],
+            "provisional": true,
+            "provisionalReason": "One matching auction from January 2025, more than a year old."
+          }
+        ],
+        "selection": {
+          "observationId": "overnight-2026-09-18-CGC-4381117010",
+          "locked": true,
+          "selectedAt": "2026-09-18T09:38:10.276Z"
+        }
       }
     },
     {
@@ -664,6 +763,136 @@
         "url": "https://gocollect.com/app/comic/power-rangers-unlimited-the-coinless-1-frison-foil-edition",
         "status": "no-sales",
         "fetchedAt": "2026-08-17T05:40:26.917Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "overnight-2026-09-18-CGC-4381117009",
+            "copyId": "CGC:4381117009",
+            "basis": "sold-comps",
+            "value": 49.5,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-power-rangers-unlimited-the-coinless/power-rangers-unlimited-the-coinless-frison-virgin-1-2023",
+              "asOf": "2024-02-12",
+              "retrievedAt": "2026-09-18T09:38:10.005Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Power Rangers Unlimited: The Coinless",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Boom! Studios",
+                "variant": "Frison Foil Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-power-rangers-unlimited-the-coinless/power-rangers-unlimited-the-coinless-frison-virgin-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T09:38:10.005Z",
+              "notes": "Exact 2023 Frison virgin FOIL edition limited to 400, CGC Universal 9.8. Both listing titles explicitly specify virgin foil /400. Excluded $175 metal edition and unspecified/non-foil listings; mixed catalog guide not used. Median of two matching historical sales."
+            },
+            "saleCount": 2,
+            "range": {
+              "low": 29,
+              "high": 70,
+              "method": "min-max"
+            },
+            "transactions": [
+              {
+                "transactionId": "ebay:256396141886",
+                "soldAt": "2024-02-12",
+                "value": 29,
+                "sourceUrl": "https://www.ebay.com/itm/256396141886",
+                "identity": {
+                  "kind": "comic",
+                  "title": "Power Rangers Unlimited: The Coinless",
+                  "issue": "1",
+                  "issueYear": "2023",
+                  "publisher": "Boom! Studios",
+                  "variant": "Frison Foil Edition",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "language": "",
+                  "labelCategory": "Universal",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": "",
+                  "qualifiers": ""
+                },
+                "grade": "9.8",
+                "grader": "CGC",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              },
+              {
+                "transactionId": "ebay:256301029860",
+                "soldAt": "2023-11-24",
+                "value": 70,
+                "sourceUrl": "https://www.ebay.com/itm/256301029860",
+                "identity": {
+                  "kind": "comic",
+                  "title": "Power Rangers Unlimited: The Coinless",
+                  "issue": "1",
+                  "issueYear": "2023",
+                  "publisher": "Boom! Studios",
+                  "variant": "Frison Foil Edition",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "language": "",
+                  "labelCategory": "Universal",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": "",
+                  "qualifiers": ""
+                },
+                "grade": "9.8",
+                "grader": "CGC",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              }
+            ],
+            "provisional": true,
+            "provisionalReason": "Only two matching sales; newest February 2024. Historical reference, not evidence of a recent liquid market."
+          }
+        ],
+        "selection": {
+          "observationId": "overnight-2026-09-18-CGC-4381117009",
+          "locked": true,
+          "selectedAt": "2026-09-18T09:38:10.275Z"
+        }
       }
     },
     {

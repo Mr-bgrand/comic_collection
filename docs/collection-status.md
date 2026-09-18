@@ -57,9 +57,9 @@ were moved from the unassigned group; no duplicate copies were created. See the
 
 | Group | Recorded total | Valued | No value yet |
 | --- | ---: | ---: | ---: |
-| Comics | $13,433.70 | 178 | 518 |
+| Comics | $13,652.95 | 181 | 515 |
 | Cards | $19,652.37 | 185 | 52 |
-| All | $33,086.07 | 363 | 570 |
+| All | $33,305.32 | 366 | 567 |
 
 45 PSA Vault estimates have no source date. Printing/building does not update
 market prices. TAG's explicit value or owner estimate takes precedence; otherwise
@@ -75,15 +75,17 @@ history. The other 34 TAG cards await a verified match/value. See the
 [September 15 comic follow-up](valuation-gocollect-2026-09-15.md) for evidence.
 A second September 18 pass broadened the sources to MyComicShop and ComicBookRealm,
 adding eight more graded comic estimates ($853.72), all starred, and ten raw references.
-See the [expanded comic review](valuation-expanded-2026-09-18.md). Seventeen unconditioned raw
-references now total $105.52 but are excluded from the recorded total. See the
+See the [expanded comic review](valuation-expanded-2026-09-18.md). A third pass added
+three more graded estimates ($219.25), all starred, and 19 raw references. See the
+[continued research](valuation-overnight-2026-09-18.md). Thirty-six unconditioned raw
+references now total $218.19 but are excluded from the recorded total. See the
 [pilot report](valuation-pilot-2026-09-13.md) for sources, dates and remaining gaps.
 Inventory growth and newly valued records affect totals; these are not investment returns.
 
 ## Remaining intake and images
 
-- Bin 10's 23 comics have verified identities and scans but no recorded market
-  values yet. Importing certificate details does not infer prices.
+- Bin 10's 23 comics have verified identities and scans. Ten have reviewed, starred
+  estimates totaling $1,059.71; thirteen still need a supported market value.
 - All 80 TAG cards now use verified full-slab front and back photographs from
   each cert page's Slabbed image captures section: 57 in Case #2, nine on the
   office wall and 14 in Case #1. The original card-only MAIN scans and
