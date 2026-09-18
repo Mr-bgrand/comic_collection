@@ -57,9 +57,9 @@ were moved from the unassigned group; no duplicate copies were created. See the
 
 | Group | Recorded total | Valued | No value yet |
 | --- | ---: | ---: | ---: |
-| Comics | $12,579.98 | 170 | 526 |
+| Comics | $13,433.70 | 178 | 518 |
 | Cards | $19,652.37 | 185 | 52 |
-| All | $32,232.35 | 355 | 578 |
+| All | $33,086.07 | 363 | 570 |
 
 45 PSA Vault estimates have no source date. Printing/building does not update
 market prices. TAG's explicit value or owner estimate takes precedence; otherwise
@@ -73,8 +73,10 @@ Bin 10 comic estimates, totaling $956.24. Five carry an asterisk for weak or sta
 history. The other 34 TAG cards await a verified match/value. See the
 [latest reviewed prices](valuation-reviewed-2026-09-18.md) and the
 [September 15 comic follow-up](valuation-gocollect-2026-09-15.md) for evidence.
-Seven unconditioned raw
-references total $32.55 but are excluded from the recorded total. See the
+A second September 18 pass broadened the sources to MyComicShop and ComicBookRealm,
+adding eight more graded comic estimates ($853.72), all starred, and ten raw references.
+See the [expanded comic review](valuation-expanded-2026-09-18.md). Seventeen unconditioned raw
+references now total $105.52 but are excluded from the recorded total. See the
 [pilot report](valuation-pilot-2026-09-13.md) for sources, dates and remaining gaps.
 Inventory growth and newly valued records affect totals; these are not investment returns.
 

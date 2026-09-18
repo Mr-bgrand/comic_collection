@@ -73,7 +73,65 @@
         "capturedAt": "2026-09-10T05:53:28.351Z",
         "importedAt": "2026-09-10T05:54:48.024Z"
       },
-      "scanStatus": "complete"
+      "scanStatus": "complete",
+      "valuation": {
+        "observations": [
+          {
+            "id": "expanded-2026-09-18-CGC-4350046007",
+            "copyId": "CGC:4350046007",
+            "basis": "guide",
+            "value": 95,
+            "currency": "USD",
+            "source": {
+              "name": "GoCollect",
+              "url": "https://gocollect.com/app/comic/something-is-killing-the-children-pen-ink-1-7",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T05:24:44.642Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Something is Killing the Children: Pen & Ink",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Boom! Studios",
+                "variant": "Boom! Studios Foil Edition B",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://gocollect.com/app/comic/something-is-killing-the-children-pen-ink-1-7",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T05:24:44.642Z",
+              "notes": "Live exact Boom Studios Foil Edition B, Andrew K. Currey virgin sketch, June 2023, CGC Universal 9.8. FMV $95; six historical sales and one reported in the last year ($120 average). Separate Foil Edition A/red-logo entry and Gilded Foil were not used. No grade substitution for owned Foil A CGC 9.6."
+            },
+            "provisional": true,
+            "provisionalReason": "Guide as-of unspecified; only one matching sale reported within the last year."
+          }
+        ],
+        "selection": {
+          "observationId": "expanded-2026-09-18-CGC-4350046007",
+          "locked": true,
+          "selectedAt": "2026-09-18T05:24:44.888Z"
+        }
+      }
     },
     {
       "cert": "4350046008",
@@ -215,7 +273,65 @@
         "capturedAt": "2026-09-10T05:53:28.351Z",
         "importedAt": "2026-09-10T05:54:49.929Z"
       },
-      "scanStatus": "complete"
+      "scanStatus": "complete",
+      "valuation": {
+        "observations": [
+          {
+            "id": "expanded-2026-09-18-CGC-4350046006",
+            "copyId": "CGC:4350046006",
+            "basis": "guide",
+            "value": 110,
+            "currency": "USD",
+            "source": {
+              "name": "GoCollect",
+              "url": "https://gocollect.com/app/comic/invincible-9-convention-foil-sketch-edition",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T05:24:44.642Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Invincible",
+                "issue": "9",
+                "issueYear": "2023",
+                "publisher": "Image/Skybound",
+                "variant": "Convention Foil Sketch Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://gocollect.com/app/comic/invincible-9-convention-foil-sketch-edition",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T05:24:44.642Z",
+              "notes": "Live CGC Universal 9.8 grade page, July 2023 Convention Foil Sketch Edition, Ryan Ottley. GoCollect FMV $110, six historical sales and one in the last year ($199 on 2026-02-20, cert 4407684003). Other visible dates: 2025-08-24 $196; 2025-03-21 $120; 2025-03-16 $115; 2024-08-11 $105 best offer; 2024-05-18 $110. This records the displayed guide rather than treating the rounded sale table as a new median. Signed/9.9/current asking listings excluded."
+            },
+            "provisional": true,
+            "provisionalReason": "Guide as-of date unspecified; only one matching sale reported in the past year and guide differs materially from that sale."
+          }
+        ],
+        "selection": {
+          "observationId": "expanded-2026-09-18-CGC-4350046006",
+          "locked": true,
+          "selectedAt": "2026-09-18T05:24:44.889Z"
+        }
+      }
     },
     {
       "cert": "4350046005",
@@ -428,7 +544,106 @@
         "capturedAt": "2026-09-10T05:53:28.351Z",
         "importedAt": "2026-09-10T05:54:52.472Z"
       },
-      "scanStatus": "complete"
+      "scanStatus": "complete",
+      "valuation": {
+        "observations": [
+          {
+            "id": "expanded-2026-09-18-CGC-4350046003",
+            "copyId": "CGC:4350046003",
+            "basis": "sold-comps",
+            "value": 125,
+            "currency": "USD",
+            "source": {
+              "name": "MyComicShop",
+              "url": "https://www.mycomicshop.com/search?ItemID=63673576",
+              "asOf": "2025-11-11",
+              "retrievedAt": "2026-09-18T05:24:44.642Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spawn",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Image Comics",
+                "variant": "Convention Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://www.mycomicshop.com/search?ItemID=63673576",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T05:24:44.642Z",
+              "notes": "Direct auction result: 2023 Spawn #1 Convention Edition, Puppeteer Lee cover, CGC 9.8 Universal white pages, cert 4476697017. Winning bid $125, excluding any buyer premium, shipping and tax. Sales Data also confirms November 2025 CGC 9.8 monthly average $125. Raw May 2026 9.2 sale excluded."
+            },
+            "saleCount": 1,
+            "range": {
+              "low": 125,
+              "high": 125,
+              "method": "min-max"
+            },
+            "transactions": [
+              {
+                "transactionId": "mycomicshop:63673576",
+                "soldAt": "2025-11-11",
+                "value": 125,
+                "sourceUrl": "https://www.mycomicshop.com/search?ItemID=63673576",
+                "comparableCert": "4476697017",
+                "identity": {
+                  "kind": "comic",
+                  "title": "Spawn",
+                  "issue": "1",
+                  "issueYear": "2023",
+                  "publisher": "Image Comics",
+                  "variant": "Convention Edition",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "language": "",
+                  "labelCategory": "Universal",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": "",
+                  "qualifiers": ""
+                },
+                "grade": "9.8",
+                "grader": "CGC",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              }
+            ],
+            "provisional": true,
+            "provisionalReason": "One matching completed auction from November 2025; winning bid excludes buyer fees."
+          }
+        ],
+        "selection": {
+          "observationId": "expanded-2026-09-18-CGC-4350046003",
+          "locked": true,
+          "selectedAt": "2026-09-18T05:24:44.889Z"
+        }
+      }
     },
     {
       "cert": "4350046015",
@@ -797,7 +1012,106 @@
         "capturedAt": "2026-09-10T05:53:28.351Z",
         "importedAt": "2026-09-10T05:54:56.338Z"
       },
-      "scanStatus": "complete"
+      "scanStatus": "complete",
+      "valuation": {
+        "observations": [
+          {
+            "id": "expanded-2026-09-18-CGC-4350047003",
+            "copyId": "CGC:4350047003",
+            "basis": "sold-comps",
+            "value": 124.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting reported eBay sales",
+              "url": "https://www.pricecharting.com/game/comic-books-batman/batman-ross-135-2023",
+              "asOf": "2026-04-09",
+              "retrievedAt": "2026-09-18T05:24:44.642Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Batman",
+                "issue": "135",
+                "issueYear": "2023",
+                "publisher": "DC Comics",
+                "variant": "Ross Variant Cover C",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-batman/batman-ross-135-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T05:24:44.642Z",
+              "notes": "Selected the single explicitly named Ross Variant Cover C, CGC 9.8 sale in the last year. The catalog mixes covers A/B/C; generic guide and all non-C rows excluded. Older exact Cover C rows from 2024/2023 retained only as contextual history, not averaged into the recent estimate."
+            },
+            "saleCount": 1,
+            "range": {
+              "low": 124.99,
+              "high": 124.99,
+              "method": "min-max"
+            },
+            "transactions": [
+              {
+                "transactionId": "ebay:116136611143",
+                "soldAt": "2026-04-09",
+                "value": 124.99,
+                "comparableCert": "4315805003",
+                "sourceUrl": "https://www.ebay.com/itm/116136611143",
+                "identity": {
+                  "kind": "comic",
+                  "title": "Batman",
+                  "issue": "135",
+                  "issueYear": "2023",
+                  "publisher": "DC Comics",
+                  "variant": "Ross Variant Cover C",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "language": "",
+                  "labelCategory": "Universal",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": "",
+                  "qualifiers": ""
+                },
+                "grade": "9.8",
+                "grader": "CGC",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              }
+            ],
+            "provisional": true,
+            "provisionalReason": "One matching Cover C CGC 9.8 completed sale in the last year."
+          }
+        ],
+        "selection": {
+          "observationId": "expanded-2026-09-18-CGC-4350047003",
+          "locked": true,
+          "selectedAt": "2026-09-18T05:24:44.889Z"
+        }
+      }
     },
     {
       "cert": "2765925001",
@@ -1074,7 +1388,65 @@
         "capturedAt": "2026-09-10T05:53:28.351Z",
         "importedAt": "2026-09-10T05:54:58.443Z"
       },
-      "scanStatus": "complete"
+      "scanStatus": "complete",
+      "valuation": {
+        "observations": [
+          {
+            "id": "expanded-2026-09-18-CGC-4350046012",
+            "copyId": "CGC:4350046012",
+            "basis": "guide",
+            "value": 155,
+            "currency": "USD",
+            "source": {
+              "name": "ComicBookRealm CGC Analyzer",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/319444/skybound-transformers-1-sdcc-ashcan-convention-edition",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T05:24:44.642Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Transformers",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Image/Skybound",
+                "variant": "Convention Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/319444/skybound-transformers-1-sdcc-ashcan-convention-edition",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T05:24:44.642Z",
+              "notes": "Exact July 2023 Image/Skybound Convention Edition ashcan preview, Daniel Warren Johnson story/cover/art, Universal/Modern. Public CGC 9.8 row reports estimated value $155, 47 historical recorded sales, last sale January 28, 2026. Public data is delayed 30 days; transaction details not reviewed. Current eBay advertisements, Convention Sketch, other printings and signed copies excluded."
+            },
+            "provisional": true,
+            "provisionalReason": "Public guide is delayed 30 days and does not expose individual supporting transactions; latest listed sale January 2026."
+          }
+        ],
+        "selection": {
+          "observationId": "expanded-2026-09-18-CGC-4350046012",
+          "locked": true,
+          "selectedAt": "2026-09-18T05:24:44.889Z"
+        }
+      }
     },
     {
       "cert": "4350771003",
@@ -1145,7 +1517,201 @@
         "capturedAt": "2026-09-10T05:53:28.351Z",
         "importedAt": "2026-09-10T05:54:59.116Z"
       },
-      "scanStatus": "complete"
+      "scanStatus": "complete",
+      "valuation": {
+        "observations": [
+          {
+            "id": "expanded-2026-09-18-CGC-4350771003",
+            "copyId": "CGC:4350771003",
+            "basis": "sold-comps",
+            "value": 63.73,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting reported eBay sales",
+              "url": "https://www.pricecharting.com/game/comic-books-transformers/transformers-giang-foil-1-2023",
+              "asOf": "2025-06-28",
+              "retrievedAt": "2026-09-18T05:24:44.642Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Transformers",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Image/Skybound",
+                "variant": "Giang Foil Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-transformers/transformers-giang-foil-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T05:24:44.642Z",
+              "notes": "Reviewed four most recent unambiguous unsigned CGC 9.8 first-print 2023 Giang Foil Starscream sales. Excluded latest signed John Giang sale, 2nd-print virgin foils, 2024 editions, 9.9 grades and preorders. Generic displayed $86.45 guide mixes those editions and was not selected. ComicBookRealm exact Giang Foil CGC Analyzer separately displays $75 (30-day-delayed data); retained as cross-check only."
+            },
+            "saleCount": 4,
+            "range": {
+              "low": 31,
+              "high": 105,
+              "method": "min-max"
+            },
+            "transactions": [
+              {
+                "transactionId": "ebay:156654292288",
+                "soldAt": "2025-06-28",
+                "value": 86.45,
+                "sourceUrl": "https://www.ebay.com/itm/156654292288",
+                "identity": {
+                  "kind": "comic",
+                  "title": "Transformers",
+                  "issue": "1",
+                  "issueYear": "2023",
+                  "publisher": "Image/Skybound",
+                  "variant": "Giang Foil Edition",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "language": "",
+                  "labelCategory": "Universal",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": "",
+                  "qualifiers": ""
+                },
+                "grade": "9.8",
+                "grader": "CGC",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              },
+              {
+                "transactionId": "ebay:365685911359",
+                "soldAt": "2025-06-26",
+                "value": 31,
+                "sourceUrl": "https://www.ebay.com/itm/365685911359",
+                "identity": {
+                  "kind": "comic",
+                  "title": "Transformers",
+                  "issue": "1",
+                  "issueYear": "2023",
+                  "publisher": "Image/Skybound",
+                  "variant": "Giang Foil Edition",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "language": "",
+                  "labelCategory": "Universal",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": "",
+                  "qualifiers": ""
+                },
+                "grade": "9.8",
+                "grader": "CGC",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              },
+              {
+                "transactionId": "ebay:167264734565",
+                "soldAt": "2025-01-27",
+                "value": 41,
+                "sourceUrl": "https://www.ebay.com/itm/167264734565",
+                "identity": {
+                  "kind": "comic",
+                  "title": "Transformers",
+                  "issue": "1",
+                  "issueYear": "2023",
+                  "publisher": "Image/Skybound",
+                  "variant": "Giang Foil Edition",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "language": "",
+                  "labelCategory": "Universal",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": "",
+                  "qualifiers": ""
+                },
+                "grade": "9.8",
+                "grader": "CGC",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              },
+              {
+                "transactionId": "ebay:326236335809",
+                "soldAt": "2025-01-02",
+                "value": 105,
+                "sourceUrl": "https://www.ebay.com/itm/326236335809",
+                "identity": {
+                  "kind": "comic",
+                  "title": "Transformers",
+                  "issue": "1",
+                  "issueYear": "2023",
+                  "publisher": "Image/Skybound",
+                  "variant": "Giang Foil Edition",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "language": "",
+                  "labelCategory": "Universal",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": "",
+                  "qualifiers": ""
+                },
+                "grade": "9.8",
+                "grader": "CGC",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              }
+            ],
+            "provisional": true,
+            "provisionalReason": "Four matching sales; newest June 2025, more than one year old. Historical provisional estimate, not current liquid-market pricing."
+          }
+        ],
+        "selection": {
+          "observationId": "expanded-2026-09-18-CGC-4350771003",
+          "locked": true,
+          "selectedAt": "2026-09-18T05:24:44.890Z"
+        }
+      }
     },
     {
       "cert": "4350047004",
@@ -1286,7 +1852,65 @@
         "capturedAt": "2026-09-10T05:53:28.351Z",
         "importedAt": "2026-09-10T05:55:00.516Z"
       },
-      "scanStatus": "complete"
+      "scanStatus": "complete",
+      "valuation": {
+        "observations": [
+          {
+            "id": "expanded-2026-09-18-CGC-4350771004",
+            "copyId": "CGC:4350771004",
+            "basis": "guide",
+            "value": 130,
+            "currency": "USD",
+            "source": {
+              "name": "GoCollect",
+              "url": "https://gocollect.com/app/comic/superior-spider-man-returns-1-veve-virgin-edition",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T03:40:55.721Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Superior Spider-Man Returns",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "VeVe \"Virgin\" Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://gocollect.com/app/comic/superior-spider-man-returns-1-veve-virgin-edition",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T05:24:44.642Z",
+              "notes": "Exact 2023 VeVe Virgin, CGC Universal 9.8 white pages, no signatures. GoCollect currently displays $130 FMV; guide as-of unspecified. Only supporting sale: transaction 9424629, eBay 155990046420, comparable cert 4359328001, fixed price on 2024-01-27 ($129.99 chart, $130 rounded modal). Accepted as starred guide, not a recent sold median. Reused for owned copy 4350771004 after exact identity, grade, Universal label and white-page comparison. Original source retrieval date preserved."
+            },
+            "provisional": true,
+            "provisionalReason": "Stale, limited support: GoCollect guide has one matching CGC 9.8 sale dated January 27, 2024; no sales in the last year."
+          }
+        ],
+        "selection": {
+          "observationId": "expanded-2026-09-18-CGC-4350771004",
+          "locked": true,
+          "selectedAt": "2026-09-18T05:24:44.890Z"
+        }
+      }
     },
     {
       "cert": "4350771005",
@@ -1426,7 +2050,65 @@
         "capturedAt": "2026-09-10T05:53:28.351Z",
         "importedAt": "2026-09-10T05:55:01.962Z"
       },
-      "scanStatus": "complete"
+      "scanStatus": "complete",
+      "valuation": {
+        "observations": [
+          {
+            "id": "expanded-2026-09-18-CGC-4350771001",
+            "copyId": "CGC:4350771001",
+            "basis": "guide",
+            "value": 50,
+            "currency": "USD",
+            "source": {
+              "name": "GoCollect",
+              "url": "https://gocollect.com/app/comic/action-comics-presents-doomsday-special-1-the-syndicate-edition-b",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T05:24:44.642Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Action Comics Presents: Doomsday Special",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DC Comics",
+                "variant": "The Syndicate Edition B",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://gocollect.com/app/comic/action-comics-presents-doomsday-special-1-the-syndicate-edition-b",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T05:24:44.642Z",
+              "notes": "Live exact The Syndicate Edition B (Nathan Szerdy), DC 2023; CGC Universal 9.8 overview reports FMV $50 and four historical sales, none in the past year. Signature, The Syndicate Convention Edition, Edition A and other cover rows were not substituted."
+            },
+            "provisional": true,
+            "provisionalReason": "Only four historical sales and none in the last year; guide source date unspecified."
+          }
+        ],
+        "selection": {
+          "observationId": "expanded-2026-09-18-CGC-4350771001",
+          "locked": true,
+          "selectedAt": "2026-09-18T05:24:44.889Z"
+        }
+      }
     },
     {
       "cert": "4350771002",

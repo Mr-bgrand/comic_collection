@@ -773,7 +773,60 @@
         "capturedAt": "2026-09-07T23:29:03.465Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "expanded-2026-09-18-Authority-7331534745",
+            "copyId": "Authority:7331534745",
+            "basis": "raw-reference",
+            "value": 4.79,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-superman/superman-jan%C3%ADn-9-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T05:24:44.642Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Superman",
+                "issue": "9",
+                "issueYear": "2023",
+                "publisher": "DC Comics",
+                "variant": "Santa Card Stock Variant",
+                "upc": "76194137950000961",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "E",
+                "volume": "7",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-superman/superman-jan%C3%ADn-9-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T05:24:44.642Z",
+              "notes": "Exact full UPC 76194137950000961 and owned title, year and variant matched to PriceCharting product 6139095. Displayed USD ungraded guide is reference context only. Owned copy condition remains unassessed; no recorded appraisal selected. Only one raw sale shown, January 14, 2025; stale and thin history."
+            },
+            "provisional": true,
+            "provisionalReason": "Raw condition is unassessed; ungraded guide is not a copy-specific appraisal. Source as-of date unspecified. Only one raw sale shown, January 14, 2025; stale and thin history."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_7331534745_FRONT.jpg",
         "back": "Authority_7331534745_BACK.jpg"
@@ -967,7 +1020,60 @@
         "capturedAt": "2026-09-07T23:29:26.512Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "expanded-2026-09-18-Authority-3559385072",
+            "copyId": "Authority:3559385072",
+            "basis": "raw-reference",
+            "value": 9.33,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-return-of-superman-30th-anniversary-special/return-of-superman-30th-anniversary-special-wilkins-1-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T05:24:44.642Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Return of Superman 30th Anniversary Special",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DC",
+                "variant": "Dave Wilkins Steel Die-Cut Variant",
+                "upc": "76194138207400121",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-return-of-superman-30th-anniversary-special/return-of-superman-30th-anniversary-special-wilkins-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T05:24:44.642Z",
+              "notes": "Exact full UPC 76194138207400121 and owned title, year and variant matched to PriceCharting product 5962828. Displayed USD ungraded guide is reference context only. Owned copy condition remains unassessed; no recorded appraisal selected. Nine raw listings, most recent January 2025. Old presale listing excluded from any sold median; displayed ungraded guide is a provisional reference only."
+            },
+            "provisional": true,
+            "provisionalReason": "Raw condition is unassessed; ungraded guide is not a copy-specific appraisal. Source as-of date unspecified. Nine raw listings, most recent January 2025. Old presale listing excluded from any sold median; displayed ungraded guide is a provisional reference only."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_3559385072_FRONT.jpg",
         "back": "Authority_3559385072_BACK.jpg"
@@ -1161,7 +1267,60 @@
         "capturedAt": "2026-09-07T23:29:32.070Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "expanded-2026-09-18-Authority-6417207368",
+            "copyId": "Authority:6417207368",
+            "basis": "raw-reference",
+            "value": 9.66,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/nl/game/comic-books-return-of-superman-30th-anniversary-special/return-of-superman-30th-anniversary-special-giang-1-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T05:24:44.642Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Return of Superman 30th Anniversary Special",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DC",
+                "variant": "John Giang Cyborg Superman Die-Cut Variant",
+                "upc": "76194138207400141",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/nl/game/comic-books-return-of-superman-30th-anniversary-special/return-of-superman-30th-anniversary-special-giang-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T05:24:44.642Z",
+              "notes": "Exact full UPC 76194138207400141 and owned title, year and variant matched to PriceCharting product 5962829. Displayed USD ungraded guide is reference context only. Owned copy condition remains unassessed; no recorded appraisal selected. Supporting individual sale count not independently established."
+            },
+            "provisional": true,
+            "provisionalReason": "Raw condition is unassessed; ungraded guide is not a copy-specific appraisal. Source as-of date unspecified. Supporting sale count unverified."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_6417207368_FRONT.jpg",
         "back": "Authority_6417207368_BACK.jpg"
@@ -1258,7 +1417,60 @@
         "capturedAt": "2026-09-07T23:29:34.790Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "expanded-2026-09-18-Authority-6592229462",
+            "copyId": "Authority:6592229462",
+            "basis": "raw-reference",
+            "value": 9.66,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/nl/game/comic-books-return-of-superman-30th-anniversary-special/return-of-superman-30th-anniversary-special-giang-1-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T05:24:44.642Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Return of Superman 30th Anniversary Special",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DC",
+                "variant": "John Giang Cyborg Superman Die-Cut Variant",
+                "upc": "76194138207400141",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/nl/game/comic-books-return-of-superman-30th-anniversary-special/return-of-superman-30th-anniversary-special-giang-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T05:24:44.642Z",
+              "notes": "Exact full UPC 76194138207400141 and owned title, year and variant matched to PriceCharting product 5962829. Displayed USD ungraded guide is reference context only. Owned copy condition remains unassessed; no recorded appraisal selected. Supporting individual sale count not independently established."
+            },
+            "provisional": true,
+            "provisionalReason": "Raw condition is unassessed; ungraded guide is not a copy-specific appraisal. Source as-of date unspecified. Supporting sale count unverified."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_6592229462_FRONT.jpg",
         "back": "Authority_6592229462_BACK.jpg"
@@ -1355,7 +1567,60 @@
         "capturedAt": "2026-09-07T23:29:37.799Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "expanded-2026-09-18-Authority-3237468880",
+            "copyId": "Authority:3237468880",
+            "basis": "raw-reference",
+            "value": 5.9,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-dark-x-men/dark-x-men-young-3-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T05:24:44.642Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Dark X-Men",
+                "issue": "3",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Skottie Young Variant",
+                "upc": "75960620616200321",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-dark-x-men/dark-x-men-young-3-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T05:24:44.642Z",
+              "notes": "Exact full UPC 75960620616200321 and owned title, year and variant matched to PriceCharting product 5944470. Displayed USD ungraded guide is reference context only. Owned copy condition remains unassessed; no recorded appraisal selected. Supporting individual sale count not independently established."
+            },
+            "provisional": true,
+            "provisionalReason": "Raw condition is unassessed; ungraded guide is not a copy-specific appraisal. Source as-of date unspecified. Supporting sale count unverified."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_3237468880_FRONT.jpg",
         "back": "Authority_3237468880_BACK.jpg"
@@ -1450,7 +1715,60 @@
         "capturedAt": "2026-09-07T23:29:39.913Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "expanded-2026-09-18-Authority-9125336146",
+            "copyId": "Authority:9125336146",
+            "basis": "raw-reference",
+            "value": 5.47,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-captain-marvel/captain-marvel-nakayama-foil-1-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T05:24:44.642Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Captain Marvel",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Nakayama Foil Variant",
+                "upc": "75960620774900131",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "H",
+                "volume": "10",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-captain-marvel/captain-marvel-nakayama-foil-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T05:24:44.642Z",
+              "notes": "Exact full UPC 75960620774900131 and owned title, year and variant matched to PriceCharting product 5944576. Displayed USD ungraded guide is reference context only. Owned copy condition remains unassessed; no recorded appraisal selected. Supporting individual sale count not independently established."
+            },
+            "provisional": true,
+            "provisionalReason": "Raw condition is unassessed; ungraded guide is not a copy-specific appraisal. Source as-of date unspecified. Supporting sale count unverified."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_9125336146_FRONT.jpg",
         "back": "Authority_9125336146_BACK.jpg"
@@ -1545,7 +1863,60 @@
         "capturedAt": "2026-09-07T23:29:42.563Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "expanded-2026-09-18-Authority-9782041734",
+            "copyId": "Authority:9782041734",
+            "basis": "raw-reference",
+            "value": 9,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-supergirl-special/supergirl-special-jack-1-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T05:24:44.642Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Supergirl Special",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DC Comics",
+                "variant": "Jack Card Stock Variant",
+                "upc": "76194138042100131",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-supergirl-special/supergirl-special-jack-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T05:24:44.642Z",
+              "notes": "Exact full UPC 76194138042100131 and owned title, year and variant matched to PriceCharting product 5962801. Displayed USD ungraded guide is reference context only. Owned copy condition remains unassessed; no recorded appraisal selected. Supporting individual sale count not independently established."
+            },
+            "provisional": true,
+            "provisionalReason": "Raw condition is unassessed; ungraded guide is not a copy-specific appraisal. Source as-of date unspecified. Supporting sale count unverified."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_9782041734_FRONT.jpg",
         "back": "Authority_9782041734_BACK.jpg"
@@ -1739,7 +2110,60 @@
         "capturedAt": "2026-09-07T23:30:43.339Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "expanded-2026-09-18-Authority-8715449494",
+            "copyId": "Authority:8715449494",
+            "basis": "raw-reference",
+            "value": 5.9,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-dark-x-men/dark-x-men-young-3-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T05:24:44.642Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Dark X-Men",
+                "issue": "3",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Skottie Young Variant",
+                "upc": "75960620616200321",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-dark-x-men/dark-x-men-young-3-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T05:24:44.642Z",
+              "notes": "Exact full UPC 75960620616200321 and owned title, year and variant matched to PriceCharting product 5944470. Displayed USD ungraded guide is reference context only. Owned copy condition remains unassessed; no recorded appraisal selected. Supporting individual sale count not independently established."
+            },
+            "provisional": true,
+            "provisionalReason": "Raw condition is unassessed; ungraded guide is not a copy-specific appraisal. Source as-of date unspecified. Supporting sale count unverified."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_8715449494_FRONT.jpg",
         "back": "Authority_8715449494_BACK.jpg"
@@ -1834,7 +2258,60 @@
         "capturedAt": "2026-09-07T23:30:45.613Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "expanded-2026-09-18-Authority-8091964539",
+            "copyId": "Authority:8091964539",
+            "basis": "raw-reference",
+            "value": 3.93,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-strange-academy-amazing-spider-man/strange-academy-amazing-spider-man-ramos-1-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T05:24:44.642Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Strange Academy: Amazing Spider-Man",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Ramos Connecting Variant",
+                "upc": "75960620697100121",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-strange-academy-amazing-spider-man/strange-academy-amazing-spider-man-ramos-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T05:24:44.642Z",
+              "notes": "Exact full UPC 75960620697100121 and owned title, year and variant matched to PriceCharting product 5861628. Displayed USD ungraded guide is reference context only. Owned copy condition remains unassessed; no recorded appraisal selected. Supporting individual sale count not independently established."
+            },
+            "provisional": true,
+            "provisionalReason": "Raw condition is unassessed; ungraded guide is not a copy-specific appraisal. Source as-of date unspecified. Supporting sale count unverified."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_8091964539_FRONT.jpg",
         "back": "Authority_8091964539_BACK.jpg"
@@ -2028,7 +2505,60 @@
         "capturedAt": "2026-09-07T23:30:49.809Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "expanded-2026-09-18-Authority-8431632234",
+            "copyId": "Authority:8431632234",
+            "basis": "raw-reference",
+            "value": 9.33,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-return-of-superman-30th-anniversary-special/return-of-superman-30th-anniversary-special-wilkins-1-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T05:24:44.642Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Return of Superman 30th Anniversary Special",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DC",
+                "variant": "Dave Wilkins Steel Die-Cut Variant",
+                "upc": "76194138207400121",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-return-of-superman-30th-anniversary-special/return-of-superman-30th-anniversary-special-wilkins-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T05:24:44.642Z",
+              "notes": "Exact full UPC 76194138207400121 and owned title, year and variant matched to PriceCharting product 5962828. Displayed USD ungraded guide is reference context only. Owned copy condition remains unassessed; no recorded appraisal selected. Nine raw listings, most recent January 2025. Old presale listing excluded from any sold median; displayed ungraded guide is a provisional reference only."
+            },
+            "provisional": true,
+            "provisionalReason": "Raw condition is unassessed; ungraded guide is not a copy-specific appraisal. Source as-of date unspecified. Nine raw listings, most recent January 2025. Old presale listing excluded from any sold median; displayed ungraded guide is a provisional reference only."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_8431632234_FRONT.jpg",
         "back": "Authority_8431632234_BACK.jpg"
