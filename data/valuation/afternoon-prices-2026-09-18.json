@@ -1,0 +1,1314 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "TAG:S7361300",
+      "revision": "173877444527b09264afee171a8bf9ad7840ad94a2384ab2f165526c99f0fac5",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-18-TAG-S7361300",
+          "copyId": "TAG:S7361300",
+          "basis": "psa-comparison",
+          "evidenceKind": "sold-comps",
+          "value": 14.5,
+          "currency": "USD",
+          "source": {
+            "name": "SportsCardsPro",
+            "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-prizm/michael-penix-jr-green-wave-378",
+            "asOf": "2026-09-03",
+            "retrievedAt": "2026-09-18T21:39:50.090Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "PANINI PRIZM",
+              "series": "PANINI PRIZM",
+              "subject": "MICHAEL PENIX JR",
+              "cardNumber": "378",
+              "variety": "GREEN WAVE PRIZM",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-prizm/michael-penix-jr-green-wave-378",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T21:39:50.090Z",
+            "notes": "Exact 2024 Panini Prizm Michael Penix Jr. #378 Green Wave, TAG 9. No direct TAG 9 transactions in reviewed grade-9 history. Five newest explicit matching PSA 9 reported sales; ordinary Green, autograph and Portals #6 parallels excluded. No crossed-out offer prices in these five rows."
+          },
+          "saleCount": 5,
+          "range": {
+            "low": 12,
+            "high": 15.5,
+            "method": "observed-iqr"
+          },
+          "transactions": [
+            {
+              "transactionId": "ebay:298633738585",
+              "sourceUrl": "https://www.ebay.com/itm/298633738585",
+              "soldAt": "2026-09-03",
+              "value": 17,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PANINI PRIZM",
+                "series": "PANINI PRIZM",
+                "subject": "MICHAEL PENIX JR",
+                "cardNumber": "378",
+                "variety": "GREEN WAVE PRIZM",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:307112826150",
+              "sourceUrl": "https://www.ebay.com/itm/307112826150",
+              "soldAt": "2026-08-16",
+              "value": 15.5,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PANINI PRIZM",
+                "series": "PANINI PRIZM",
+                "subject": "MICHAEL PENIX JR",
+                "cardNumber": "378",
+                "variety": "GREEN WAVE PRIZM",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:377350168712",
+              "sourceUrl": "https://www.ebay.com/itm/377350168712",
+              "soldAt": "2026-07-23",
+              "value": 14.5,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PANINI PRIZM",
+                "series": "PANINI PRIZM",
+                "subject": "MICHAEL PENIX JR",
+                "cardNumber": "378",
+                "variety": "GREEN WAVE PRIZM",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:336628813871",
+              "sourceUrl": "https://www.ebay.com/itm/336628813871",
+              "soldAt": "2026-06-16",
+              "value": 9.99,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PANINI PRIZM",
+                "series": "PANINI PRIZM",
+                "subject": "MICHAEL PENIX JR",
+                "cardNumber": "378",
+                "variety": "GREEN WAVE PRIZM",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:377191043373",
+              "sourceUrl": "https://www.ebay.com/itm/377191043373",
+              "soldAt": "2026-06-02",
+              "value": 12,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PANINI PRIZM",
+                "series": "PANINI PRIZM",
+                "subject": "MICHAEL PENIX JR",
+                "cardNumber": "378",
+                "variety": "GREEN WAVE PRIZM",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:Q6595392",
+      "revision": "173877444527b09264afee171a8bf9ad7840ad94a2384ab2f165526c99f0fac5",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-18-TAG-Q6595392",
+          "copyId": "TAG:Q6595392",
+          "basis": "psa-comparison",
+          "evidenceKind": "sold-comps",
+          "value": 16.5,
+          "currency": "USD",
+          "source": {
+            "name": "SportsCardsPro",
+            "url": "https://www.sportscardspro.com/game/football-cards-2024-bowman-chrome-university/tetairoa-mcmillan-pink-lava-170",
+            "asOf": "2026-04-29",
+            "retrievedAt": "2026-09-18T21:39:50.090Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "BOWMAN UNIVERSITY CHROME",
+              "series": "BOWMAN UNIVERSITY CHROME",
+              "subject": "TETAIROA MCMILLAN",
+              "cardNumber": "170",
+              "variety": "PINK LAVA REFRACTOR",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.sportscardspro.com/game/football-cards-2024-bowman-chrome-university/tetairoa-mcmillan-pink-lava-170",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T21:39:50.090Z",
+            "notes": "Exact Tetairoa McMillan #170 Pink Lava, 2024 Bowman University Chrome, TAG 9. Only one grade-9 transaction in reviewed catalog, explicitly PSA 9; owner-authorized exact-card same-grade fallback."
+          },
+          "saleCount": 1,
+          "range": {
+            "low": 16.5,
+            "high": 16.5,
+            "method": "min-max"
+          },
+          "transactions": [
+            {
+              "transactionId": "ebay:306882631838",
+              "sourceUrl": "https://www.ebay.com/itm/306882631838",
+              "soldAt": "2026-04-29",
+              "value": 16.5,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "BOWMAN UNIVERSITY CHROME",
+                "series": "BOWMAN UNIVERSITY CHROME",
+                "subject": "TETAIROA MCMILLAN",
+                "cardNumber": "170",
+                "variety": "PINK LAVA REFRACTOR",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            }
+          ],
+          "provisional": true,
+          "provisionalReason": "One PSA 9 comparable from April 2026; sparse and older than 90 days."
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:T2163854",
+      "revision": "173877444527b09264afee171a8bf9ad7840ad94a2384ab2f165526c99f0fac5",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-18-TAG-T2163854",
+          "copyId": "TAG:T2163854",
+          "basis": "psa-comparison",
+          "evidenceKind": "sold-comps",
+          "value": 25,
+          "currency": "USD",
+          "source": {
+            "name": "SportsCardsPro",
+            "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-mosaic-introductions/marvin-harrison-jr-mosaic-3",
+            "asOf": "2025-08-10",
+            "retrievedAt": "2026-09-18T21:39:50.090Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "PANINI MOSAIC",
+              "series": "PANINI MOSAIC",
+              "subject": "MARVIN HARRISON JR",
+              "cardNumber": "3",
+              "variety": "INTRODUCTIONS · SILVER MOSAIC",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-mosaic-introductions/marvin-harrison-jr-mosaic-3",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T21:39:50.090Z",
+            "notes": "Owned full-resolution slab image explicitly labels Silver Mosaic and shows the tessellated Mosaic foil. Matched 2024 Panini Mosaic Introductions #3 Mosaic catalog, not the separate plain Silver or No Huddle Silver catalogs. One explicit PSA 9 Mosaic transaction; no direct TAG 9 transaction in reviewed history."
+          },
+          "saleCount": 1,
+          "range": {
+            "low": 25,
+            "high": 25,
+            "method": "min-max"
+          },
+          "transactions": [
+            {
+              "transactionId": "ebay:306284225565",
+              "sourceUrl": "https://www.ebay.com/itm/306284225565",
+              "soldAt": "2025-08-10",
+              "value": 25,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PANINI MOSAIC",
+                "series": "PANINI MOSAIC",
+                "subject": "MARVIN HARRISON JR",
+                "cardNumber": "3",
+                "variety": "INTRODUCTIONS · SILVER MOSAIC",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            }
+          ],
+          "provisional": true,
+          "provisionalReason": "Only one matching PSA 9 sale, August 2025. Very old historical comparison, low confidence as a current market estimate."
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:D5403529",
+      "revision": "173877444527b09264afee171a8bf9ad7840ad94a2384ab2f165526c99f0fac5",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-18-TAG-D5403529",
+          "copyId": "TAG:D5403529",
+          "basis": "psa-comparison",
+          "evidenceKind": "sold-comps",
+          "value": 22.5,
+          "currency": "USD",
+          "source": {
+            "name": "SportsCardsPro",
+            "url": "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-chrome/bubba-chandler-black-%26-white-raywave-refractor-bdc-41",
+            "asOf": "2025-11-14",
+            "retrievedAt": "2026-09-18T21:39:50.090Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2021",
+              "brand": "BOWMAN DRAFT",
+              "series": "BOWMAN DRAFT",
+              "subject": "BUBBA CHANDLER",
+              "cardNumber": "BDC-41",
+              "variety": "CHROME · BLACK & WHITE RAY WAVE REFRACTOR",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-chrome/bubba-chandler-black-%26-white-raywave-refractor-bdc-41",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T21:39:50.090Z",
+            "notes": "Exact non-autograph 2021 Bowman Draft Chrome Bubba Chandler BDC-41 Black and White RayWave, TAG 9. No direct TAG 9 in reviewed history. Used only unambiguous PSA 9 sale within the last year; April 2026 eBay 206206450957 has crossed-out $50 and reported $40 offer amount, excluded because accepted amount is unverified. Older sales and autograph CDA-BC excluded. Current $65 eBay asking price is not a completed sale."
+          },
+          "saleCount": 1,
+          "range": {
+            "low": 22.5,
+            "high": 22.5,
+            "method": "min-max"
+          },
+          "transactions": [
+            {
+              "transactionId": "ebay:157445731965",
+              "sourceUrl": "https://www.ebay.com/itm/157445731965",
+              "soldAt": "2025-11-14",
+              "value": 22.5,
+              "identity": {
+                "kind": "card",
+                "year": "2021",
+                "brand": "BOWMAN DRAFT",
+                "series": "BOWMAN DRAFT",
+                "subject": "BUBBA CHANDLER",
+                "cardNumber": "BDC-41",
+                "variety": "CHROME · BLACK & WHITE RAY WAVE REFRACTOR",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            }
+          ],
+          "provisional": true,
+          "provisionalReason": "One unambiguous PSA 9 comparable within the last year, November 2025. Sparse and stale."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:1861958316",
+      "revision": "5a0b0ad561047007631c0881d1265a6c93719cc726270978de6c3bc1f404aa3d",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-18-Authority-1861958316",
+          "copyId": "Authority:1861958316",
+          "basis": "raw-reference",
+          "value": 4.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-return-of-superman-30th-anniversary-special/return-of-superman-30th-anniversary-special-1-2023",
+            "asOf": "2026-07-21",
+            "retrievedAt": "2026-09-18T21:39:50.090Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "The Return of Superman 30th Anniversary Special",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "DC",
+              "variant": "Dan Jurgens Cover",
+              "upc": "76194138207400111",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "A",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-return-of-superman-30th-anniversary-special/return-of-superman-30th-anniversary-special-1-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T21:39:50.090Z",
+            "notes": "Exact full UPC 76194138207400111 and owned title/edition matched to PriceCharting product 5962830. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five newest explicit Dan Jurgens standard wrap-cover sales. Excluded foil, die-cut, symbol, Manapul and ambiguous-cover transactions in this mixed catalog.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:298482047631",
+                "sourceUrl": "https://www.ebay.com/itm/298482047631",
+                "soldAt": "2026-07-21",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:158059707568",
+                "sourceUrl": "https://www.ebay.com/itm/158059707568",
+                "soldAt": "2026-07-09",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:277984530092",
+                "sourceUrl": "https://www.ebay.com/itm/277984530092",
+                "soldAt": "2026-05-31",
+                "value": 9.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:306865591333",
+                "sourceUrl": "https://www.ebay.com/itm/306865591333",
+                "soldAt": "2026-05-12",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:364984904602",
+                "sourceUrl": "https://www.ebay.com/itm/364984904602",
+                "soldAt": "2026-04-08",
+                "value": 9.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five newest explicit Dan Jurgens standard wrap-cover sales. Excluded foil, die-cut, symbol, Manapul and ambiguous-cover transactions in this mixed catalog."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:3428535086",
+      "revision": "5a0b0ad561047007631c0881d1265a6c93719cc726270978de6c3bc1f404aa3d",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-18-Authority-3428535086",
+          "copyId": "Authority:3428535086",
+          "basis": "raw-reference",
+          "value": 2.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-deadpool/deadpool-8-2023",
+            "asOf": "2026-02-04",
+            "retrievedAt": "2026-09-18T21:39:50.090Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Deadpool",
+              "issue": "8",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "Martin Coccolo",
+              "upc": "75960620089400811",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "A",
+              "volume": "8",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-deadpool/deadpool-8-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T21:39:50.090Z",
+            "notes": "Exact full UPC 75960620089400811 and owned title/edition matched to PriceCharting product 5407950. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Only one explicit standard Cover A sale within the last year. Excluded All Killer No Filler collected edition, Bosslogic Whatnot SDCC blue variant, ambiguous covers and older sales. Sparse and stale.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:256850198789",
+                "sourceUrl": "https://www.ebay.com/itm/256850198789",
+                "soldAt": "2026-02-04",
+                "value": 2.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Only one explicit standard Cover A sale within the last year. Excluded All Killer No Filler collected edition, Bosslogic Whatnot SDCC blue variant, ambiguous covers and older sales. Sparse and stale."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:7327061328",
+      "revision": "5a0b0ad561047007631c0881d1265a6c93719cc726270978de6c3bc1f404aa3d",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-18-Authority-7327061328",
+          "copyId": "Authority:7327061328",
+          "basis": "raw-reference",
+          "value": 9.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-incredible-hulk/the-incredible-hulk-1-2023",
+            "asOf": "2026-07-28",
+            "retrievedAt": "2026-09-18T21:39:50.090Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "The Incredible Hulk",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "",
+              "upc": "75960620663600111",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "A",
+              "volume": "5",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-incredible-hulk/the-incredible-hulk-1-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T21:39:50.090Z",
+            "notes": "Exact full UPC 75960620663600111 and owned title/edition matched to PriceCharting product 5385702. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three explicit first-print standard Cover A / Nic Klein single-copy sales. Excluded #181 facsimile, #1-3 bundle, trade paperbacks, Perez incentive, Stormbreakers and ambiguous covers.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:336554295819",
+                "sourceUrl": "https://www.ebay.com/itm/336554295819",
+                "soldAt": "2026-07-28",
+                "value": 11.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:298399708344",
+                "sourceUrl": "https://www.ebay.com/itm/298399708344",
+                "soldAt": "2026-07-24",
+                "value": 9.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:157798512841",
+                "sourceUrl": "https://www.ebay.com/itm/157798512841",
+                "soldAt": "2026-05-23",
+                "value": 9.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three explicit first-print standard Cover A / Nic Klein single-copy sales. Excluded #181 facsimile, #1-3 bundle, trade paperbacks, Perez incentive, Stormbreakers and ambiguous covers."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:7110707374",
+      "revision": "5a0b0ad561047007631c0881d1265a6c93719cc726270978de6c3bc1f404aa3d",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-18-Authority-7110707374",
+          "copyId": "Authority:7110707374",
+          "basis": "raw-reference",
+          "value": 2.89,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-carnage-reigns-omega/carnage-reigns-omega-1-2023",
+            "asOf": "2026-08-12",
+            "retrievedAt": "2026-09-18T21:39:50.090Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Carnage Reigns: Omega",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "",
+              "upc": "75960620666700111",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "A",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-carnage-reigns-omega/carnage-reigns-omega-1-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T21:39:50.090Z",
+            "notes": "Exact full UPC 75960620666700111 and owned title/edition matched to PriceCharting product 5407381. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. One explicit Stegman Cover A raw sale within the last year. Seller describes comparison copy as NM-; owned condition remains unknown. Connecting and Siqueira variants, ambiguous covers and older rows excluded; sparse sample.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:257416863979",
+                "sourceUrl": "https://www.ebay.com/itm/257416863979",
+                "soldAt": "2026-08-12",
+                "value": 2.89,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. One explicit Stegman Cover A raw sale within the last year. Seller describes comparison copy as NM-; owned condition remains unknown. Connecting and Siqueira variants, ambiguous covers and older rows excluded; sparse sample."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:0398408255",
+      "revision": "5a0b0ad561047007631c0881d1265a6c93719cc726270978de6c3bc1f404aa3d",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-18-Authority-0398408255",
+          "copyId": "Authority:0398408255",
+          "basis": "raw-reference",
+          "value": 4.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-knight-terrors-batman/knight-terrors-batman-1-2023",
+            "asOf": "2026-08-29",
+            "retrievedAt": "2026-09-18T21:39:50.090Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Knight Terrors: Batman",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "DC",
+              "variant": "Guillem March Cover",
+              "upc": "76194138094000111",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "A",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-knight-terrors-batman/knight-terrors-batman-1-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T21:39:50.090Z",
+            "notes": "Exact full UPC 76194138094000111 and owned title/edition matched to PriceCharting product 5426906. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five newest explicit Guillem March standard Cover A transactions. Excluded cardstock variants, FCBD multi-book bundle, complete #1-2 sets and ambiguous-cover rows.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:158213797265",
+                "sourceUrl": "https://www.ebay.com/itm/158213797265",
+                "soldAt": "2026-08-29",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:195875269405",
+                "sourceUrl": "https://www.ebay.com/itm/195875269405",
+                "soldAt": "2026-07-15",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:117159569837",
+                "sourceUrl": "https://www.ebay.com/itm/117159569837",
+                "soldAt": "2026-05-29",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:374746809536",
+                "sourceUrl": "https://www.ebay.com/itm/374746809536",
+                "soldAt": "2026-04-18",
+                "value": 5.34,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:127400362795",
+                "sourceUrl": "https://www.ebay.com/itm/127400362795",
+                "soldAt": "2026-04-14",
+                "value": 5.95,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five newest explicit Guillem March standard Cover A transactions. Excluded cardstock variants, FCBD multi-book bundle, complete #1-2 sets and ambiguous-cover rows."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:8474185497",
+      "revision": "5a0b0ad561047007631c0881d1265a6c93719cc726270978de6c3bc1f404aa3d",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-18-Authority-8474185497",
+          "copyId": "Authority:8474185497",
+          "basis": "raw-reference",
+          "value": 4.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-danny-ketch-ghost-rider/danny-ketch-ghost-rider-momoko-2-2023",
+            "asOf": "2026-07-21",
+            "retrievedAt": "2026-09-18T21:39:50.090Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Danny Ketch: Ghost Rider",
+              "issue": "2",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "Peach Momoko Variant",
+              "upc": "75960620582000221",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "B",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-danny-ketch-ghost-rider/danny-ketch-ghost-rider-momoko-2-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T21:39:50.090Z",
+            "notes": "Exact full UPC 75960620582000221 and owned title/edition matched to PriceCharting product 5385531. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five newest explicit Peach Momoko Cover B single-copy raw sales. Standard cover and other issues excluded.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:178256358203",
+                "sourceUrl": "https://www.ebay.com/itm/178256358203",
+                "soldAt": "2026-07-21",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:178235355224",
+                "sourceUrl": "https://www.ebay.com/itm/178235355224",
+                "soldAt": "2026-06-20",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:177680084209",
+                "sourceUrl": "https://www.ebay.com/itm/177680084209",
+                "soldAt": "2026-06-19",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:185955771285",
+                "sourceUrl": "https://www.ebay.com/itm/185955771285",
+                "soldAt": "2026-06-06",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:127818611238",
+                "sourceUrl": "https://www.ebay.com/itm/127818611238",
+                "soldAt": "2026-05-20",
+                "value": 4.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five newest explicit Peach Momoko Cover B single-copy raw sales. Standard cover and other issues excluded."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:5604487405",
+      "revision": "5a0b0ad561047007631c0881d1265a6c93719cc726270978de6c3bc1f404aa3d",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-18-Authority-5604487405",
+          "copyId": "Authority:5604487405",
+          "basis": "raw-reference",
+          "value": 3.5,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-guardians-of-the-galaxy/guardians-of-the-galaxy-stonehouse-3-2023",
+            "asOf": "2026-07-15",
+            "retrievedAt": "2026-09-18T21:39:50.090Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Guardians of the Galaxy",
+              "issue": "3",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "Stonehouse Ultimate Last Look Variant",
+              "upc": "75960620535600321",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "B",
+              "volume": "7",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-guardians-of-the-galaxy/guardians-of-the-galaxy-stonehouse-3-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T21:39:50.090Z",
+            "notes": "Exact full UPC 75960620535600321 and owned title/edition matched to PriceCharting product 5385703. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Two explicit Stonehouse Ultimate Last Look variant sales within the last year; sparse sample. Older and presale-labeled rows excluded. Median $3.495 rounds to $3.50 in integer cents.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:227226254807",
+                "sourceUrl": "https://www.ebay.com/itm/227226254807",
+                "soldAt": "2026-07-15",
+                "value": 2,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:235053937461",
+                "sourceUrl": "https://www.ebay.com/itm/235053937461",
+                "soldAt": "2026-05-07",
+                "value": 4.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Two explicit Stonehouse Ultimate Last Look variant sales within the last year; sparse sample. Older and presale-labeled rows excluded. Median $3.495 rounds to $3.50 in integer cents."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:9364212668",
+      "revision": "5a0b0ad561047007631c0881d1265a6c93719cc726270978de6c3bc1f404aa3d",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-18-Authority-9364212668",
+          "copyId": "Authority:9364212668",
+          "basis": "raw-reference",
+          "value": 2.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-clarke-7-2023",
+            "asOf": "2025-07-06",
+            "retrievedAt": "2026-09-18T21:39:50.090Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Miles Morales: Spider-Man",
+              "issue": "7",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "Taurin Clarke Connecting Variant",
+              "upc": "75960620483000721",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "B",
+              "volume": "2",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-clarke-7-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T21:39:50.090Z",
+            "notes": "Exact full UPC 75960620483000721 and owned title/edition matched to PriceCharting product 5385740. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three newest explicit Taurin Clarke connecting variant raw sales, all from April-July 2025. Very stale historical reference; no sales in the reviewed history within the last year. Three owned copies matched independently by identical full UPC; no condition inferred.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:177231282784",
+                "sourceUrl": "https://www.ebay.com/itm/177231282784",
+                "soldAt": "2025-07-06",
+                "value": 1,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:385719770386",
+                "sourceUrl": "https://www.ebay.com/itm/385719770386",
+                "soldAt": "2025-04-27",
+                "value": 2.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:186944988881",
+                "sourceUrl": "https://www.ebay.com/itm/186944988881",
+                "soldAt": "2025-04-20",
+                "value": 8.95,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three newest explicit Taurin Clarke connecting variant raw sales, all from April-July 2025. Very stale historical reference; no sales in the reviewed history within the last year. Three owned copies matched independently by identical full UPC; no condition inferred."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:5819648189",
+      "revision": "5a0b0ad561047007631c0881d1265a6c93719cc726270978de6c3bc1f404aa3d",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-18-Authority-5819648189",
+          "copyId": "Authority:5819648189",
+          "basis": "raw-reference",
+          "value": 2.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-clarke-7-2023",
+            "asOf": "2025-07-06",
+            "retrievedAt": "2026-09-18T21:39:50.090Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Miles Morales: Spider-Man",
+              "issue": "7",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "Taurin Clarke Connecting Variant",
+              "upc": "75960620483000721",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "B",
+              "volume": "2",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-clarke-7-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T21:39:50.090Z",
+            "notes": "Exact full UPC 75960620483000721 and owned title/edition matched to PriceCharting product 5385740. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three newest explicit Taurin Clarke connecting variant raw sales, all from April-July 2025. Very stale historical reference; no sales in the reviewed history within the last year. Three owned copies matched independently by identical full UPC; no condition inferred.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:177231282784",
+                "sourceUrl": "https://www.ebay.com/itm/177231282784",
+                "soldAt": "2025-07-06",
+                "value": 1,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:385719770386",
+                "sourceUrl": "https://www.ebay.com/itm/385719770386",
+                "soldAt": "2025-04-27",
+                "value": 2.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:186944988881",
+                "sourceUrl": "https://www.ebay.com/itm/186944988881",
+                "soldAt": "2025-04-20",
+                "value": 8.95,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three newest explicit Taurin Clarke connecting variant raw sales, all from April-July 2025. Very stale historical reference; no sales in the reviewed history within the last year. Three owned copies matched independently by identical full UPC; no condition inferred."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:0722910234",
+      "revision": "5a0b0ad561047007631c0881d1265a6c93719cc726270978de6c3bc1f404aa3d",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-18-Authority-0722910234",
+          "copyId": "Authority:0722910234",
+          "basis": "raw-reference",
+          "value": 2.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-clarke-7-2023",
+            "asOf": "2025-07-06",
+            "retrievedAt": "2026-09-18T21:39:50.090Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Miles Morales: Spider-Man",
+              "issue": "7",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "Taurin Clarke Connecting Variant",
+              "upc": "75960620483000721",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "B",
+              "volume": "2",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-clarke-7-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T21:39:50.090Z",
+            "notes": "Exact full UPC 75960620483000721 and owned title/edition matched to PriceCharting product 5385740. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three newest explicit Taurin Clarke connecting variant raw sales, all from April-July 2025. Very stale historical reference; no sales in the reviewed history within the last year. Three owned copies matched independently by identical full UPC; no condition inferred.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:177231282784",
+                "sourceUrl": "https://www.ebay.com/itm/177231282784",
+                "soldAt": "2025-07-06",
+                "value": 1,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:385719770386",
+                "sourceUrl": "https://www.ebay.com/itm/385719770386",
+                "soldAt": "2025-04-27",
+                "value": 2.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:186944988881",
+                "sourceUrl": "https://www.ebay.com/itm/186944988881",
+                "soldAt": "2025-04-20",
+                "value": 8.95,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three newest explicit Taurin Clarke connecting variant raw sales, all from April-July 2025. Very stale historical reference; no sales in the reviewed history within the last year. Three owned copies matched independently by identical full UPC; no condition inferred."
+        }
+      ]
+    }
+  ]
+}

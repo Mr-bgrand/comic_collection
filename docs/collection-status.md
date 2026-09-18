@@ -58,8 +58,8 @@ were moved from the unassigned group; no duplicate copies were created. See the
 | Group | Recorded total | Valued | No value yet |
 | --- | ---: | ---: | ---: |
 | Comics | $13,883.44 | 183 | 513 |
-| Cards | $20,060.12 | 198 | 39 |
-| All | $33,943.56 | 381 | 552 |
+| Cards | $20,138.62 | 202 | 35 |
+| All | $34,022.06 | 385 | 548 |
 
 45 PSA Vault estimates have no source date. Printing/building does not update
 market prices. TAG's explicit value or owner estimate takes precedence; otherwise
@@ -70,7 +70,7 @@ TAG 10 guide and Yanma S2994291 at $14.85 from five same-grade PSA 9 sales.
 The September 16 follow-up added 21 TAG estimates, two CGC card estimates and one
 CGC comic estimate. The September 18 follow-up added 22 TAG comparisons and two
 Bin 10 comic estimates, totaling $956.24. Five carry an asterisk for weak or stale
-history. Later passes reduced the remaining TAG backlog to 23 cards. See the
+history. Later passes reduced the remaining TAG backlog to 19 cards. See the
 [latest reviewed prices](valuation-reviewed-2026-09-18.md) and the
 [September 15 comic follow-up](valuation-gocollect-2026-09-15.md) for evidence.
 A second September 18 pass broadened the sources to MyComicShop and ComicBookRealm,
@@ -80,9 +80,10 @@ three more graded estimates ($219.25), all starred, and 19 raw references. See t
 [continued research](valuation-overnight-2026-09-18.md). A fourth pass added nine card
 values ($283.76) and 13 raw references; see the [card and raw review](valuation-morning-2026-09-18.md).
 A fifth pass added six graded estimates ($354.48) and 14 raw-copy references; see
-the [midday research](valuation-midday-2026-09-18.md). Sixty-three unconditioned raw
-references now total $334.42 and remain excluded from the recorded total.
-There are 123 graded values outstanding (84 comics, 39 cards),
+the [midday research](valuation-midday-2026-09-18.md). A sixth pass added four TAG estimates ($78.50)
+and ten raw-copy references; see the [afternoon research](valuation-afternoon-2026-09-18.md).
+Seventy-three unconditioned raw references now total $377.73 and remain excluded
+from the recorded total. There are 119 graded values outstanding (84 comics, 35 cards),
 plus 429 raw copies awaiting condition assessment. See the
 [pilot report](valuation-pilot-2026-09-13.md) for sources, dates and remaining gaps.
 Inventory growth and newly valued records affect totals; these are not investment returns.

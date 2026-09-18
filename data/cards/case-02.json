@@ -7172,7 +7172,107 @@
       "certUrl": "https://my.taggrading.com/card/Q6595392",
       "gradeDate": "2025-03-18",
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "afternoon-2026-09-18-TAG-Q6595392",
+            "copyId": "TAG:Q6595392",
+            "basis": "psa-comparison",
+            "evidenceKind": "sold-comps",
+            "value": 16.5,
+            "currency": "USD",
+            "source": {
+              "name": "SportsCardsPro",
+              "url": "https://www.sportscardspro.com/game/football-cards-2024-bowman-chrome-university/tetairoa-mcmillan-pink-lava-170",
+              "asOf": "2026-04-29",
+              "retrievedAt": "2026-09-18T21:39:50.090Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "BOWMAN UNIVERSITY CHROME",
+                "series": "BOWMAN UNIVERSITY CHROME",
+                "subject": "TETAIROA MCMILLAN",
+                "cardNumber": "170",
+                "variety": "PINK LAVA REFRACTOR",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://www.sportscardspro.com/game/football-cards-2024-bowman-chrome-university/tetairoa-mcmillan-pink-lava-170",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T21:39:50.090Z",
+              "notes": "Exact Tetairoa McMillan #170 Pink Lava, 2024 Bowman University Chrome, TAG 9. Only one grade-9 transaction in reviewed catalog, explicitly PSA 9; owner-authorized exact-card same-grade fallback."
+            },
+            "saleCount": 1,
+            "range": {
+              "low": 16.5,
+              "high": 16.5,
+              "method": "min-max"
+            },
+            "transactions": [
+              {
+                "transactionId": "ebay:306882631838",
+                "sourceUrl": "https://www.ebay.com/itm/306882631838",
+                "soldAt": "2026-04-29",
+                "value": 16.5,
+                "identity": {
+                  "kind": "card",
+                  "year": "2024",
+                  "brand": "BOWMAN UNIVERSITY CHROME",
+                  "series": "BOWMAN UNIVERSITY CHROME",
+                  "subject": "TETAIROA MCMILLAN",
+                  "cardNumber": "170",
+                  "variety": "PINK LAVA REFRACTOR",
+                  "language": "",
+                  "qualifiers": "",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "labelCategory": "",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": ""
+                },
+                "grade": "9",
+                "grader": "PSA",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              }
+            ],
+            "provisional": true,
+            "provisionalReason": "One PSA 9 comparable from April 2026; sparse and older than 90 days."
+          }
+        ],
+        "selection": {
+          "observationId": "afternoon-2026-09-18-TAG-Q6595392",
+          "locked": true,
+          "selectedAt": "2026-09-18T21:39:50.374Z"
+        }
+      },
       "population": {
         "atGrade": 1,
         "total": 1,
@@ -7534,7 +7634,237 @@
       "certUrl": "https://my.taggrading.com/card/S7361300",
       "gradeDate": "2025-04-22",
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "afternoon-2026-09-18-TAG-S7361300",
+            "copyId": "TAG:S7361300",
+            "basis": "psa-comparison",
+            "evidenceKind": "sold-comps",
+            "value": 14.5,
+            "currency": "USD",
+            "source": {
+              "name": "SportsCardsPro",
+              "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-prizm/michael-penix-jr-green-wave-378",
+              "asOf": "2026-09-03",
+              "retrievedAt": "2026-09-18T21:39:50.090Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PANINI PRIZM",
+                "series": "PANINI PRIZM",
+                "subject": "MICHAEL PENIX JR",
+                "cardNumber": "378",
+                "variety": "GREEN WAVE PRIZM",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-prizm/michael-penix-jr-green-wave-378",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T21:39:50.090Z",
+              "notes": "Exact 2024 Panini Prizm Michael Penix Jr. #378 Green Wave, TAG 9. No direct TAG 9 transactions in reviewed grade-9 history. Five newest explicit matching PSA 9 reported sales; ordinary Green, autograph and Portals #6 parallels excluded. No crossed-out offer prices in these five rows."
+            },
+            "saleCount": 5,
+            "range": {
+              "low": 12,
+              "high": 15.5,
+              "method": "observed-iqr"
+            },
+            "transactions": [
+              {
+                "transactionId": "ebay:298633738585",
+                "sourceUrl": "https://www.ebay.com/itm/298633738585",
+                "soldAt": "2026-09-03",
+                "value": 17,
+                "identity": {
+                  "kind": "card",
+                  "year": "2024",
+                  "brand": "PANINI PRIZM",
+                  "series": "PANINI PRIZM",
+                  "subject": "MICHAEL PENIX JR",
+                  "cardNumber": "378",
+                  "variety": "GREEN WAVE PRIZM",
+                  "language": "",
+                  "qualifiers": "",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "labelCategory": "",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": ""
+                },
+                "grade": "9",
+                "grader": "PSA",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              },
+              {
+                "transactionId": "ebay:307112826150",
+                "sourceUrl": "https://www.ebay.com/itm/307112826150",
+                "soldAt": "2026-08-16",
+                "value": 15.5,
+                "identity": {
+                  "kind": "card",
+                  "year": "2024",
+                  "brand": "PANINI PRIZM",
+                  "series": "PANINI PRIZM",
+                  "subject": "MICHAEL PENIX JR",
+                  "cardNumber": "378",
+                  "variety": "GREEN WAVE PRIZM",
+                  "language": "",
+                  "qualifiers": "",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "labelCategory": "",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": ""
+                },
+                "grade": "9",
+                "grader": "PSA",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              },
+              {
+                "transactionId": "ebay:377350168712",
+                "sourceUrl": "https://www.ebay.com/itm/377350168712",
+                "soldAt": "2026-07-23",
+                "value": 14.5,
+                "identity": {
+                  "kind": "card",
+                  "year": "2024",
+                  "brand": "PANINI PRIZM",
+                  "series": "PANINI PRIZM",
+                  "subject": "MICHAEL PENIX JR",
+                  "cardNumber": "378",
+                  "variety": "GREEN WAVE PRIZM",
+                  "language": "",
+                  "qualifiers": "",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "labelCategory": "",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": ""
+                },
+                "grade": "9",
+                "grader": "PSA",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              },
+              {
+                "transactionId": "ebay:336628813871",
+                "sourceUrl": "https://www.ebay.com/itm/336628813871",
+                "soldAt": "2026-06-16",
+                "value": 9.99,
+                "identity": {
+                  "kind": "card",
+                  "year": "2024",
+                  "brand": "PANINI PRIZM",
+                  "series": "PANINI PRIZM",
+                  "subject": "MICHAEL PENIX JR",
+                  "cardNumber": "378",
+                  "variety": "GREEN WAVE PRIZM",
+                  "language": "",
+                  "qualifiers": "",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "labelCategory": "",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": ""
+                },
+                "grade": "9",
+                "grader": "PSA",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              },
+              {
+                "transactionId": "ebay:377191043373",
+                "sourceUrl": "https://www.ebay.com/itm/377191043373",
+                "soldAt": "2026-06-02",
+                "value": 12,
+                "identity": {
+                  "kind": "card",
+                  "year": "2024",
+                  "brand": "PANINI PRIZM",
+                  "series": "PANINI PRIZM",
+                  "subject": "MICHAEL PENIX JR",
+                  "cardNumber": "378",
+                  "variety": "GREEN WAVE PRIZM",
+                  "language": "",
+                  "qualifiers": "",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "labelCategory": "",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": ""
+                },
+                "grade": "9",
+                "grader": "PSA",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              }
+            ]
+          }
+        ],
+        "selection": {
+          "observationId": "afternoon-2026-09-18-TAG-S7361300",
+          "locked": true,
+          "selectedAt": "2026-09-18T21:39:50.374Z"
+        }
+      },
       "population": {
         "atGrade": 3,
         "total": 4,
@@ -7715,7 +8045,107 @@
       "certUrl": "https://my.taggrading.com/card/T2163854",
       "gradeDate": "2025-04-11",
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "afternoon-2026-09-18-TAG-T2163854",
+            "copyId": "TAG:T2163854",
+            "basis": "psa-comparison",
+            "evidenceKind": "sold-comps",
+            "value": 25,
+            "currency": "USD",
+            "source": {
+              "name": "SportsCardsPro",
+              "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-mosaic-introductions/marvin-harrison-jr-mosaic-3",
+              "asOf": "2025-08-10",
+              "retrievedAt": "2026-09-18T21:39:50.090Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PANINI MOSAIC",
+                "series": "PANINI MOSAIC",
+                "subject": "MARVIN HARRISON JR",
+                "cardNumber": "3",
+                "variety": "INTRODUCTIONS · SILVER MOSAIC",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-mosaic-introductions/marvin-harrison-jr-mosaic-3",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T21:39:50.090Z",
+              "notes": "Owned full-resolution slab image explicitly labels Silver Mosaic and shows the tessellated Mosaic foil. Matched 2024 Panini Mosaic Introductions #3 Mosaic catalog, not the separate plain Silver or No Huddle Silver catalogs. One explicit PSA 9 Mosaic transaction; no direct TAG 9 transaction in reviewed history."
+            },
+            "saleCount": 1,
+            "range": {
+              "low": 25,
+              "high": 25,
+              "method": "min-max"
+            },
+            "transactions": [
+              {
+                "transactionId": "ebay:306284225565",
+                "sourceUrl": "https://www.ebay.com/itm/306284225565",
+                "soldAt": "2025-08-10",
+                "value": 25,
+                "identity": {
+                  "kind": "card",
+                  "year": "2024",
+                  "brand": "PANINI MOSAIC",
+                  "series": "PANINI MOSAIC",
+                  "subject": "MARVIN HARRISON JR",
+                  "cardNumber": "3",
+                  "variety": "INTRODUCTIONS · SILVER MOSAIC",
+                  "language": "",
+                  "qualifiers": "",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "labelCategory": "",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": ""
+                },
+                "grade": "9",
+                "grader": "PSA",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              }
+            ],
+            "provisional": true,
+            "provisionalReason": "Only one matching PSA 9 sale, August 2025. Very old historical comparison, low confidence as a current market estimate."
+          }
+        ],
+        "selection": {
+          "observationId": "afternoon-2026-09-18-TAG-T2163854",
+          "locked": true,
+          "selectedAt": "2026-09-18T21:39:50.374Z"
+        }
+      },
       "population": {
         "atGrade": 1,
         "total": 1,
@@ -9716,7 +10146,107 @@
       "certUrl": "https://my.taggrading.com/card/D5403529",
       "gradeDate": "2025-06-12",
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "afternoon-2026-09-18-TAG-D5403529",
+            "copyId": "TAG:D5403529",
+            "basis": "psa-comparison",
+            "evidenceKind": "sold-comps",
+            "value": 22.5,
+            "currency": "USD",
+            "source": {
+              "name": "SportsCardsPro",
+              "url": "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-chrome/bubba-chandler-black-%26-white-raywave-refractor-bdc-41",
+              "asOf": "2025-11-14",
+              "retrievedAt": "2026-09-18T21:39:50.090Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2021",
+                "brand": "BOWMAN DRAFT",
+                "series": "BOWMAN DRAFT",
+                "subject": "BUBBA CHANDLER",
+                "cardNumber": "BDC-41",
+                "variety": "CHROME · BLACK & WHITE RAY WAVE REFRACTOR",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-chrome/bubba-chandler-black-%26-white-raywave-refractor-bdc-41",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T21:39:50.090Z",
+              "notes": "Exact non-autograph 2021 Bowman Draft Chrome Bubba Chandler BDC-41 Black and White RayWave, TAG 9. No direct TAG 9 in reviewed history. Used only unambiguous PSA 9 sale within the last year; April 2026 eBay 206206450957 has crossed-out $50 and reported $40 offer amount, excluded because accepted amount is unverified. Older sales and autograph CDA-BC excluded. Current $65 eBay asking price is not a completed sale."
+            },
+            "saleCount": 1,
+            "range": {
+              "low": 22.5,
+              "high": 22.5,
+              "method": "min-max"
+            },
+            "transactions": [
+              {
+                "transactionId": "ebay:157445731965",
+                "sourceUrl": "https://www.ebay.com/itm/157445731965",
+                "soldAt": "2025-11-14",
+                "value": 22.5,
+                "identity": {
+                  "kind": "card",
+                  "year": "2021",
+                  "brand": "BOWMAN DRAFT",
+                  "series": "BOWMAN DRAFT",
+                  "subject": "BUBBA CHANDLER",
+                  "cardNumber": "BDC-41",
+                  "variety": "CHROME · BLACK & WHITE RAY WAVE REFRACTOR",
+                  "language": "",
+                  "qualifiers": "",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "labelCategory": "",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": ""
+                },
+                "grade": "9",
+                "grader": "PSA",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              }
+            ],
+            "provisional": true,
+            "provisionalReason": "One unambiguous PSA 9 comparable within the last year, November 2025. Sparse and stale."
+          }
+        ],
+        "selection": {
+          "observationId": "afternoon-2026-09-18-TAG-D5403529",
+          "locked": true,
+          "selectedAt": "2026-09-18T21:39:50.375Z"
+        }
+      },
       "population": {
         "atGrade": 1,
         "total": 1,
