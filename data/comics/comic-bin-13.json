@@ -6123,7 +6123,76 @@
         "capturedAt": "2026-09-07T23:32:18.725Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-18-Authority-9323536015",
+            "copyId": "Authority:9323536015",
+            "basis": "raw-reference",
+            "value": 4.72,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-city-boy/city-boy-lee-3-2023",
+              "asOf": "2026-07-28",
+              "retrievedAt": "2026-09-18T17:40:33.794Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "City Boy",
+                "issue": "3",
+                "issueYear": "2023",
+                "publisher": "DC Comics",
+                "variant": "Lee Card Stock Variant",
+                "upc": "76194137799500321",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-city-boy/city-boy-lee-3-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T17:40:33.794Z",
+              "notes": "Exact full UPC 76194137799500321 and owned title/edition matched to PriceCharting product 5554482. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Two exact Creees Lee cardstock Cover B first-print sales within the last year; sparse sample. Older rows excluded.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:175866030977",
+                  "sourceUrl": "https://www.ebay.com/itm/175866030977",
+                  "soldAt": "2026-07-28",
+                  "value": 3,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:134671199908",
+                  "sourceUrl": "https://www.ebay.com/itm/134671199908",
+                  "soldAt": "2026-05-28",
+                  "value": 6.44,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Two exact Creees Lee cardstock Cover B first-print sales within the last year; sparse sample. Older rows excluded."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_9323536015_FRONT.jpg",
         "back": "Authority_9323536015_BACK.jpg"
@@ -7819,7 +7888,83 @@
         "capturedAt": "2026-09-07T23:33:10.696Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-18-Authority-4490226376",
+            "copyId": "Authority:4490226376",
+            "basis": "raw-reference",
+            "value": 3.33,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-star-wars-darth-vader/star-wars-darth-vader-37-2023",
+              "asOf": "2026-06-22",
+              "retrievedAt": "2026-09-18T17:40:33.794Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Star Wars: Darth Vader",
+                "issue": "37",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Leinil Francis Yu Cover",
+                "upc": "75960609601503711",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "A",
+                "volume": "3",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-star-wars-darth-vader/star-wars-darth-vader-37-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T17:40:33.794Z",
+              "notes": "Exact full UPC 75960609601503711 and owned title/edition matched to PriceCharting product 5640198. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three explicit standard Cover A / Leinil Yu raw transactions. Excluded Clone Wars, Return of the Jedi anniversary and ambiguous-cover rows. Comparison copies include differing seller-reported conditions; owned condition is not inferred.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:366351132479",
+                  "sourceUrl": "https://www.ebay.com/itm/366351132479",
+                  "soldAt": "2026-06-22",
+                  "value": 3.33,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:327141362900",
+                  "sourceUrl": "https://www.ebay.com/itm/327141362900",
+                  "soldAt": "2026-05-08",
+                  "value": 3.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:266972318406",
+                  "sourceUrl": "https://www.ebay.com/itm/266972318406",
+                  "soldAt": "2026-05-07",
+                  "value": 3,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three explicit standard Cover A / Leinil Yu raw transactions. Excluded Clone Wars, Return of the Jedi anniversary and ambiguous-cover rows. Comparison copies include differing seller-reported conditions; owned condition is not inferred."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_4490226376_FRONT.jpg",
         "back": "Authority_4490226376_BACK.jpg"
@@ -8077,7 +8222,97 @@
         "capturedAt": "2026-09-07T23:33:40.440Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-18-Authority-5336296077",
+            "copyId": "Authority:5336296077",
+            "basis": "raw-reference",
+            "value": 1.89,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-manhanini-9-2023",
+              "asOf": "2026-08-11",
+              "retrievedAt": "2026-09-18T17:40:33.794Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Miles Morales: Spider-Man",
+                "issue": "9",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Manhanini Variant",
+                "upc": "75960620483000921",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-manhanini-9-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T17:40:33.794Z",
+              "notes": "Exact full UPC 75960620483000921 and owned title/edition matched to PriceCharting product 5605441. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five newest explicit Mateus Manhanini single-copy raw sales. Excluded 256190559209, a two-cover bundle at $7.49.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:800457082913",
+                  "sourceUrl": "https://www.ebay.com/itm/800457082913",
+                  "soldAt": "2026-08-11",
+                  "value": 1.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:307056502929",
+                  "sourceUrl": "https://www.ebay.com/itm/307056502929",
+                  "soldAt": "2026-07-19",
+                  "value": 4.25,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:358385608160",
+                  "sourceUrl": "https://www.ebay.com/itm/358385608160",
+                  "soldAt": "2026-04-05",
+                  "value": 0.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:358378901720",
+                  "sourceUrl": "https://www.ebay.com/itm/358378901720",
+                  "soldAt": "2026-04-03",
+                  "value": 1.58,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:188156580850",
+                  "sourceUrl": "https://www.ebay.com/itm/188156580850",
+                  "soldAt": "2026-03-21",
+                  "value": 1.89,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five newest explicit Mateus Manhanini single-copy raw sales. Excluded 256190559209, a two-cover bundle at $7.49."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_5336296077_FRONT.jpg",
         "back": "Authority_5336296077_BACK.jpg"
@@ -8175,7 +8410,83 @@
         "capturedAt": "2026-09-07T23:33:42.647Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-18-Authority-8274578327",
+            "copyId": "Authority:8274578327",
+            "basis": "raw-reference",
+            "value": 1.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-knight-terrors/knight-terrors-3-2023",
+              "asOf": "2026-06-21",
+              "retrievedAt": "2026-09-18T17:40:33.794Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Knight Terrors",
+                "issue": "3",
+                "issueYear": "2023",
+                "publisher": "DC",
+                "variant": "Ivan Reis Cover",
+                "upc": "76194138070400311",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "A",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-knight-terrors/knight-terrors-3-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T17:40:33.794Z",
+              "notes": "Exact full UPC 76194138070400311 and owned title/edition matched to PriceCharting product 5605435. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three explicit standard Cover A / main-cover transactions. Excluded Darkest Hour neon-ink variant and ambiguous covers from the mixed catalog.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:158000237645",
+                  "sourceUrl": "https://www.ebay.com/itm/158000237645",
+                  "soldAt": "2026-06-21",
+                  "value": 1.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:157768155155",
+                  "sourceUrl": "https://www.ebay.com/itm/157768155155",
+                  "soldAt": "2026-03-26",
+                  "value": 1.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:235682603343",
+                  "sourceUrl": "https://www.ebay.com/itm/235682603343",
+                  "soldAt": "2026-01-14",
+                  "value": 1.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three explicit standard Cover A / main-cover transactions. Excluded Darkest Hour neon-ink variant and ambiguous covers from the mixed catalog."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_8274578327_FRONT.jpg",
         "back": "Authority_8274578327_BACK.jpg"
@@ -8270,7 +8581,69 @@
         "capturedAt": "2026-09-07T23:33:44.809Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-18-Authority-3111625080",
+            "copyId": "Authority:3111625080",
+            "basis": "raw-reference",
+            "value": 3.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-strange-academy-miles-morales/strange-academy-miles-morales-ramos-1-2023",
+              "asOf": "2025-12-06",
+              "retrievedAt": "2026-09-18T17:40:33.794Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Strange Academy: Miles Morales",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Ramos Variant",
+                "upc": "75960620695700121",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-strange-academy-miles-morales/strange-academy-miles-morales-ramos-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T17:40:33.794Z",
+              "notes": "Exact full UPC 75960620695700121 and owned title/edition matched to PriceCharting product 5553999. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. One explicit single-copy Humberto Ramos connecting variant sale within the last year. Excluded January 2026 listing naming Miles Morales, Moon Knight and Spider-Man together because it may be a bundle; older/presale rows excluded. Sparse and stale.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:325977279969",
+                  "sourceUrl": "https://www.ebay.com/itm/325977279969",
+                  "soldAt": "2025-12-06",
+                  "value": 3.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. One explicit single-copy Humberto Ramos connecting variant sale within the last year. Excluded January 2026 listing naming Miles Morales, Moon Knight and Spider-Man together because it may be a bundle; older/presale rows excluded. Sparse and stale."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_3111625080_FRONT.jpg",
         "back": "Authority_3111625080_BACK.jpg"
@@ -8462,7 +8835,83 @@
         "capturedAt": "2026-09-07T23:33:49.246Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-18-Authority-5756089877",
+            "copyId": "Authority:5756089877",
+            "basis": "raw-reference",
+            "value": 2.72,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-pichelli-7-2023",
+              "asOf": "2026-09-10",
+              "retrievedAt": "2026-09-18T17:40:33.794Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Miles Morales: Spider-Man",
+                "issue": "7",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Sara Pichelli Ultimate Last Look Variant",
+                "upc": "75960620483000731",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-pichelli-7-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T17:40:33.794Z",
+              "notes": "Exact full UPC 75960620483000731 and owned title/edition matched to PriceCharting product 5385739. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three exact Sara Pichelli Ultimate Last Look variant raw sales within the past year. Seller condition descriptions apply only to comparable copies.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:155621492304",
+                  "sourceUrl": "https://www.ebay.com/itm/155621492304",
+                  "soldAt": "2026-09-10",
+                  "value": 2.49,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:305415636260",
+                  "sourceUrl": "https://www.ebay.com/itm/305415636260",
+                  "soldAt": "2026-01-24",
+                  "value": 3,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:326052945511",
+                  "sourceUrl": "https://www.ebay.com/itm/326052945511",
+                  "soldAt": "2025-12-06",
+                  "value": 2.72,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three exact Sara Pichelli Ultimate Last Look variant raw sales within the past year. Seller condition descriptions apply only to comparable copies."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_5756089877_FRONT.jpg",
         "back": "Authority_5756089877_BACK.jpg"
@@ -8559,7 +9008,83 @@
         "capturedAt": "2026-09-07T23:33:51.628Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-18-Authority-2464434782",
+            "copyId": "Authority:2464434782",
+            "basis": "raw-reference",
+            "value": 2.72,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-pichelli-7-2023",
+              "asOf": "2026-09-10",
+              "retrievedAt": "2026-09-18T17:40:33.794Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Miles Morales: Spider-Man",
+                "issue": "7",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Sara Pichelli Ultimate Last Look Variant",
+                "upc": "75960620483000731",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-pichelli-7-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T17:40:33.794Z",
+              "notes": "Exact full UPC 75960620483000731 and owned title/edition matched to PriceCharting product 5385739. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three exact Sara Pichelli Ultimate Last Look variant raw sales within the past year. Seller condition descriptions apply only to comparable copies.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:155621492304",
+                  "sourceUrl": "https://www.ebay.com/itm/155621492304",
+                  "soldAt": "2026-09-10",
+                  "value": 2.49,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:305415636260",
+                  "sourceUrl": "https://www.ebay.com/itm/305415636260",
+                  "soldAt": "2026-01-24",
+                  "value": 3,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:326052945511",
+                  "sourceUrl": "https://www.ebay.com/itm/326052945511",
+                  "soldAt": "2025-12-06",
+                  "value": 2.72,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three exact Sara Pichelli Ultimate Last Look variant raw sales within the past year. Seller condition descriptions apply only to comparable copies."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_2464434782_FRONT.jpg",
         "back": "Authority_2464434782_BACK.jpg"
@@ -8656,7 +9181,83 @@
         "capturedAt": "2026-09-07T23:33:53.841Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-18-Authority-7146078078",
+            "copyId": "Authority:7146078078",
+            "basis": "raw-reference",
+            "value": 2.72,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-pichelli-7-2023",
+              "asOf": "2026-09-10",
+              "retrievedAt": "2026-09-18T17:40:33.794Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Miles Morales: Spider-Man",
+                "issue": "7",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Sara Pichelli Ultimate Last Look Variant",
+                "upc": "75960620483000731",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-pichelli-7-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T17:40:33.794Z",
+              "notes": "Exact full UPC 75960620483000731 and owned title/edition matched to PriceCharting product 5385739. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three exact Sara Pichelli Ultimate Last Look variant raw sales within the past year. Seller condition descriptions apply only to comparable copies.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:155621492304",
+                  "sourceUrl": "https://www.ebay.com/itm/155621492304",
+                  "soldAt": "2026-09-10",
+                  "value": 2.49,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:305415636260",
+                  "sourceUrl": "https://www.ebay.com/itm/305415636260",
+                  "soldAt": "2026-01-24",
+                  "value": 3,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:326052945511",
+                  "sourceUrl": "https://www.ebay.com/itm/326052945511",
+                  "soldAt": "2025-12-06",
+                  "value": 2.72,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three exact Sara Pichelli Ultimate Last Look variant raw sales within the past year. Seller condition descriptions apply only to comparable copies."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_7146078078_FRONT.jpg",
         "back": "Authority_7146078078_BACK.jpg"
@@ -8855,7 +9456,97 @@
         "capturedAt": "2026-09-07T23:33:59.604Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-18-Authority-2095418943",
+            "copyId": "Authority:2095418943",
+            "basis": "raw-reference",
+            "value": 1.55,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-sciarrone-27-2023",
+              "asOf": "2026-09-02",
+              "retrievedAt": "2026-09-18T17:40:33.794Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Amazing Spider-Man",
+                "issue": "27",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Claudio Sciarrone Disney100 What If? Variant",
+                "upc": "75960620200302721",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "6",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-sciarrone-27-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T17:40:33.794Z",
+              "notes": "Exact full UPC 75960620200302721 and owned title/edition matched to PriceCharting product 5325228. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five newest explicit Claudio Sciarrone Disney100 Invincible Iron Man color variant raw sales. Full UPC distinguishes it from black-and-white sketch incentive.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:146676367251",
+                  "sourceUrl": "https://www.ebay.com/itm/146676367251",
+                  "soldAt": "2026-09-02",
+                  "value": 5.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:256252813540",
+                  "sourceUrl": "https://www.ebay.com/itm/256252813540",
+                  "soldAt": "2026-08-09",
+                  "value": 3.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:236921431681",
+                  "sourceUrl": "https://www.ebay.com/itm/236921431681",
+                  "soldAt": "2026-07-17",
+                  "value": 1.55,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:336662821542",
+                  "sourceUrl": "https://www.ebay.com/itm/336662821542",
+                  "soldAt": "2026-07-10",
+                  "value": 1.51,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:336652120487",
+                  "sourceUrl": "https://www.ebay.com/itm/336652120487",
+                  "soldAt": "2026-07-03",
+                  "value": 0.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five newest explicit Claudio Sciarrone Disney100 Invincible Iron Man color variant raw sales. Full UPC distinguishes it from black-and-white sketch incentive."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_2095418943_FRONT.jpg",
         "back": "Authority_2095418943_BACK.jpg"
@@ -8950,7 +9641,60 @@
         "capturedAt": "2026-09-07T23:34:01.972Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-18-Authority-5015166144",
+            "copyId": "Authority:5015166144",
+            "basis": "raw-reference",
+            "value": 1.49,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-steelworks/steelworks-basri-1-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T17:40:33.794Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Steelworks",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DC Comics",
+                "variant": "Basri Card Stock Variant",
+                "upc": "76194138015500141",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-steelworks/steelworks-basri-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T17:40:33.794Z",
+              "notes": "Exact full UPC 76194138015500141 and owned title/edition matched to PriceCharting product 5285101. Displayed USD ungraded guide reference. Owned condition remains unassessed; no appraisal selected. Exact Sami Basri cardstock ungraded guide. No visible raw sale within the past year; newest is September 10, 2025, with other sales from 2023. Guide as-of and effective sample unspecified; very weak reference."
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Exact Sami Basri cardstock ungraded guide. No visible raw sale within the past year; newest is September 10, 2025, with other sales from 2023. Guide as-of and effective sample unspecified; very weak reference."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_5015166144_FRONT.jpg",
         "back": "Authority_5015166144_BACK.jpg"
@@ -9140,7 +9884,97 @@
         "capturedAt": "2026-09-07T23:34:16.002Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-18-Authority-5026799695",
+            "copyId": "Authority:5026799695",
+            "basis": "raw-reference",
+            "value": 5.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-ultimate-invasion/ultimate-invasion-christopher-1-2023",
+              "asOf": "2026-09-04",
+              "retrievedAt": "2026-09-18T17:40:33.794Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Ultimate Invasion",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Negative Space Variant",
+                "upc": "75960620234800161",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "E",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-ultimate-invasion/ultimate-invasion-christopher-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T17:40:33.794Z",
+              "notes": "Exact full UPC 75960620234800161 and owned title/edition matched to PriceCharting product 5385718. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five newest explicit John Tyler Christopher Negative Space single-copy raw sales. Excluded mixed-cover bundles and foil/standard/blank editions.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:267125377986",
+                  "sourceUrl": "https://www.ebay.com/itm/267125377986",
+                  "soldAt": "2026-09-04",
+                  "value": 10,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:188608600472",
+                  "sourceUrl": "https://www.ebay.com/itm/188608600472",
+                  "soldAt": "2026-07-13",
+                  "value": 5.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:298302951222",
+                  "sourceUrl": "https://www.ebay.com/itm/298302951222",
+                  "soldAt": "2026-05-17",
+                  "value": 5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:304986494992",
+                  "sourceUrl": "https://www.ebay.com/itm/304986494992",
+                  "soldAt": "2026-05-12",
+                  "value": 11.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:377138867150",
+                  "sourceUrl": "https://www.ebay.com/itm/377138867150",
+                  "soldAt": "2026-05-01",
+                  "value": 5.5,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five newest explicit John Tyler Christopher Negative Space single-copy raw sales. Excluded mixed-cover bundles and foil/standard/blank editions."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_5026799695_FRONT.jpg",
         "back": "Authority_5026799695_BACK.jpg"
@@ -9526,7 +10360,83 @@
         "capturedAt": "2026-09-07T23:36:22.773Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-18-Authority-4988498642",
+            "copyId": "Authority:4988498642",
+            "basis": "raw-reference",
+            "value": 6.17,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-7-2023",
+              "asOf": "2026-09-05",
+              "retrievedAt": "2026-09-18T17:40:33.794Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Miles Morales: Spider-Man",
+                "issue": "7",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Dike Ruan Cover",
+                "upc": "75960620483000711",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "A",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-7-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T17:40:33.794Z",
+              "notes": "Exact full UPC 75960620483000711 and owned title/edition matched to PriceCharting product 5385743. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three explicitly named Dike Ruan standard-cover raw sales. Excluded Connecting/Stegman variants, the mismatched issue #6 row and unspecified covers. Seller numerical condition is not a professional grade or the owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:117372118249",
+                  "sourceUrl": "https://www.ebay.com/itm/117372118249",
+                  "soldAt": "2026-09-05",
+                  "value": 10.16,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:236948822443",
+                  "sourceUrl": "https://www.ebay.com/itm/236948822443",
+                  "soldAt": "2026-08-10",
+                  "value": 4.2,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:407108843829",
+                  "sourceUrl": "https://www.ebay.com/itm/407108843829",
+                  "soldAt": "2026-08-06",
+                  "value": 6.17,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three explicitly named Dike Ruan standard-cover raw sales. Excluded Connecting/Stegman variants, the mismatched issue #6 row and unspecified covers. Seller numerical condition is not a professional grade or the owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_4988498642_FRONT.jpg",
         "back": "Authority_4988498642_BACK.jpg"
@@ -9913,7 +10823,83 @@
         "capturedAt": "2026-09-07T23:34:39.670Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-18-Authority-3677180903",
+            "copyId": "Authority:3677180903",
+            "basis": "raw-reference",
+            "value": 6.17,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-7-2023",
+              "asOf": "2026-09-05",
+              "retrievedAt": "2026-09-18T17:40:33.794Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Miles Morales: Spider-Man",
+                "issue": "7",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Dike Ruan Cover",
+                "upc": "75960620483000711",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "A",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-7-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T17:40:33.794Z",
+              "notes": "Exact full UPC 75960620483000711 and owned title/edition matched to PriceCharting product 5385743. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three explicitly named Dike Ruan standard-cover raw sales. Excluded Connecting/Stegman variants, the mismatched issue #6 row and unspecified covers. Seller numerical condition is not a professional grade or the owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:117372118249",
+                  "sourceUrl": "https://www.ebay.com/itm/117372118249",
+                  "soldAt": "2026-09-05",
+                  "value": 10.16,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:236948822443",
+                  "sourceUrl": "https://www.ebay.com/itm/236948822443",
+                  "soldAt": "2026-08-10",
+                  "value": 4.2,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:407108843829",
+                  "sourceUrl": "https://www.ebay.com/itm/407108843829",
+                  "soldAt": "2026-08-06",
+                  "value": 6.17,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three explicitly named Dike Ruan standard-cover raw sales. Excluded Connecting/Stegman variants, the mismatched issue #6 row and unspecified covers. Seller numerical condition is not a professional grade or the owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_3677180903_FRONT.jpg",
         "back": "Authority_3677180903_BACK.jpg"
@@ -10103,7 +11089,83 @@
         "capturedAt": "2026-09-07T23:35:18.172Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-18-Authority-2600732647",
+            "copyId": "Authority:2600732647",
+            "basis": "raw-reference",
+            "value": 6.17,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-7-2023",
+              "asOf": "2026-09-05",
+              "retrievedAt": "2026-09-18T17:40:33.794Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Miles Morales: Spider-Man",
+                "issue": "7",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Dike Ruan Cover",
+                "upc": "75960620483000711",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "A",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-7-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T17:40:33.794Z",
+              "notes": "Exact full UPC 75960620483000711 and owned title/edition matched to PriceCharting product 5385743. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three explicitly named Dike Ruan standard-cover raw sales. Excluded Connecting/Stegman variants, the mismatched issue #6 row and unspecified covers. Seller numerical condition is not a professional grade or the owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:117372118249",
+                  "sourceUrl": "https://www.ebay.com/itm/117372118249",
+                  "soldAt": "2026-09-05",
+                  "value": 10.16,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:236948822443",
+                  "sourceUrl": "https://www.ebay.com/itm/236948822443",
+                  "soldAt": "2026-08-10",
+                  "value": 4.2,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:407108843829",
+                  "sourceUrl": "https://www.ebay.com/itm/407108843829",
+                  "soldAt": "2026-08-06",
+                  "value": 6.17,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three explicitly named Dike Ruan standard-cover raw sales. Excluded Connecting/Stegman variants, the mismatched issue #6 row and unspecified covers. Seller numerical condition is not a professional grade or the owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_2600732647_FRONT.jpg",
         "back": "Authority_2600732647_BACK.jpg"

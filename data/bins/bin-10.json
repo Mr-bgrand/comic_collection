@@ -2494,7 +2494,105 @@
         "capturedAt": "2026-09-10T05:53:28.351Z",
         "importedAt": "2026-09-10T05:55:04.837Z"
       },
-      "scanStatus": "complete"
+      "scanStatus": "complete",
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-18-CGC-4350047007",
+            "copyId": "CGC:4350047007",
+            "basis": "sold-comps",
+            "value": 62.99,
+            "currency": "USD",
+            "source": {
+              "name": "GoCollect",
+              "url": "https://gocollect.com/app/comic/something-is-killing-the-children-31-trinity-comics-edition?tab=cgc&label=universal&grade=98",
+              "asOf": "2025-03-29",
+              "retrievedAt": "2026-09-18T17:40:33.794Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Something is Killing the Children",
+                "issue": "31",
+                "issueYear": "2023",
+                "publisher": "Boom! Studios",
+                "variant": "Trinity Comics Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://gocollect.com/app/comic/something-is-killing-the-children-31-trinity-comics-edition?tab=cgc&label=universal&grade=98",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T17:40:33.794Z",
+              "notes": "Exact SIKTC #31 Trinity Comics Puppeteer Lee virgin cover, CGC Universal 9.8 WHITE. Latest non-offer auction, GoCollect sale 17898942, eBay 306194487625, comparable cert 4435268008. Rendered chart accessibility point supplies $62.99; table rounds to $63. Transaction date comes from sale details, not malformed chart axis. Excluded December 2025 $55 best-offer row with unverified accepted amount and older 2024 fixed-price sales. Source also displays $65 FMV but observation is the reviewed auction comparison."
+            },
+            "saleCount": 1,
+            "range": {
+              "low": 62.99,
+              "high": 62.99,
+              "method": "min-max"
+            },
+            "transactions": [
+              {
+                "transactionId": "ebay:306194487625",
+                "sourceUrl": "https://www.ebay.com/itm/306194487625",
+                "soldAt": "2025-03-29",
+                "value": 62.99,
+                "identity": {
+                  "kind": "comic",
+                  "title": "Something is Killing the Children",
+                  "issue": "31",
+                  "issueYear": "2023",
+                  "publisher": "Boom! Studios",
+                  "variant": "Trinity Comics Edition",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "language": "",
+                  "labelCategory": "Universal",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": "",
+                  "qualifiers": ""
+                },
+                "grade": "9.8",
+                "grader": "CGC",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              }
+            ],
+            "provisional": true,
+            "provisionalReason": "Only one selected matching auction, March 2025. Sparse and stale; no verified sale within the last year."
+          }
+        ],
+        "selection": {
+          "observationId": "midday-2026-09-18-CGC-4350047007",
+          "locked": true,
+          "selectedAt": "2026-09-18T17:40:34.089Z"
+        }
+      }
     }
   ]
 }

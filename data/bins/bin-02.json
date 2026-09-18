@@ -473,6 +473,104 @@
         "url": "https://gocollect.com/app/comic/the-addiction-1-nycc-lau-virgin-edition",
         "status": "no-sales",
         "fetchedAt": "2026-08-17T05:39:30.165Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-18-CGC-4386585005",
+            "copyId": "CGC:4386585005",
+            "basis": "sold-comps",
+            "value": 167.5,
+            "currency": "USD",
+            "source": {
+              "name": "GoCollect",
+              "url": "https://gocollect.com/app/comic/the-addiction-1-nycc-lau-virgin-edition?tab=cgc&label=universal&grade=98",
+              "asOf": "2024-09-26",
+              "retrievedAt": "2026-09-18T17:40:33.794Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Addiction",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "ZQ Studios",
+                "variant": "NYCC Lau \"Virgin\" Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://gocollect.com/app/comic/the-addiction-1-nycc-lau-virgin-edition?tab=cgc&label=universal&grade=98",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T17:40:33.794Z",
+              "notes": "Exact 2023 The Addiction #1 NYCC Stanley Artgerm Lau Virgin Edition, CGC Universal 9.8 WHITE. Authenticated GoCollect sale 14139117 identifies eBay 135257912606, a four-bid auction, comparable cert 4479519024. Table/modal round to $168; rendered chart accessibility point supplies $167.50. Used transaction date from table/modal because chart axis displays a malformed 1970 date. Excluded January 2024 $350 best-offer row. One very old auction, not a current FMV; original eBay page unavailable for independent re-verification."
+            },
+            "saleCount": 1,
+            "range": {
+              "low": 167.5,
+              "high": 167.5,
+              "method": "min-max"
+            },
+            "transactions": [
+              {
+                "transactionId": "ebay:135257912606",
+                "sourceUrl": "https://www.ebay.com/itm/135257912606",
+                "soldAt": "2024-09-26",
+                "value": 167.5,
+                "identity": {
+                  "kind": "comic",
+                  "title": "The Addiction",
+                  "issue": "1",
+                  "issueYear": "2023",
+                  "publisher": "ZQ Studios",
+                  "variant": "NYCC Lau \"Virgin\" Edition",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "language": "",
+                  "labelCategory": "Universal",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": "",
+                  "qualifiers": ""
+                },
+                "grade": "9.8",
+                "grader": "CGC",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              }
+            ],
+            "provisional": true,
+            "provisionalReason": "One exact CGC 9.8 auction from September 2024. Very stale and sparse; weak historical comparison, not a reliable current market level."
+          }
+        ],
+        "selection": {
+          "observationId": "midday-2026-09-18-CGC-4386585005",
+          "locked": true,
+          "selectedAt": "2026-09-18T17:40:34.089Z"
+        }
       }
     },
     {
