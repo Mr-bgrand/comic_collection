@@ -1,4 +1,4 @@
-# Collection status - September 16, 2026 (UTC)
+# Collection status - September 18, 2026 (UTC)
 
 This is a snapshot of the stored inventory, not a new appraisal or a fresh grader lookup.
 
@@ -57,9 +57,9 @@ were moved from the unassigned group; no duplicate copies were created. See the
 
 | Group | Recorded total | Valued | No value yet |
 | --- | ---: | ---: | ---: |
-| Comics | $12,373.99 | 168 | 528 |
-| Cards | $18,902.12 | 163 | 74 |
-| All | $31,276.11 | 331 | 602 |
+| Comics | $12,579.98 | 170 | 526 |
+| Cards | $19,652.37 | 185 | 52 |
+| All | $32,232.35 | 355 | 578 |
 
 45 PSA Vault estimates have no source date. Printing/building does not update
 market prices. TAG's explicit value or owner estimate takes precedence; otherwise
@@ -68,8 +68,10 @@ TAG Bellibolt H9545478 retains its $148 comparison with owned PSA 101450005,
 both grade 10. The valuation pilot added Magby R4092198 at $88.57 from a direct
 TAG 10 guide and Yanma S2994291 at $14.85 from five same-grade PSA 9 sales.
 The September 16 follow-up added 21 TAG estimates, two CGC card estimates and one
-CGC comic estimate. The other 56 TAG cards await a verified match/value. See the
-[latest reviewed prices](valuation-reviewed-2026-09-16.md) and the
+CGC comic estimate. The September 18 follow-up added 22 TAG comparisons and two
+Bin 10 comic estimates, totaling $956.24. Five carry an asterisk for weak or stale
+history. The other 34 TAG cards await a verified match/value. See the
+[latest reviewed prices](valuation-reviewed-2026-09-18.md) and the
 [September 15 comic follow-up](valuation-gocollect-2026-09-15.md) for evidence.
 Seven unconditioned raw
 references total $32.55 but are excluded from the recorded total. See the

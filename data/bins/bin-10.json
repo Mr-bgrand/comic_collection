@@ -739,10 +739,18 @@
       },
       "certUrl": "https://www.cgccomics.com/certlookup/4350047003/",
       "repairs": [
-        ["Jan�n", "Janín"]
+        [
+          "Jan�n",
+          "Janín"
+        ]
       ],
       "repairSources": [
-        {"field": "artComments", "source": "DC Comics", "url": "https://www.dc.com/blog/2023/04/07/batman-135-the-iconic-series-reaches-its-900th-issue-with-an-incredible-conclusion-to-the-bat-man-of-gotham", "verifiedAt": "2026-09-10"}
+        {
+          "field": "artComments",
+          "source": "DC Comics",
+          "url": "https://www.dc.com/blog/2023/04/07/batman-135-the-iconic-series-reaches-its-900th-issue-with-an-incredible-conclusion-to-the-bat-man-of-gotham",
+          "verifiedAt": "2026-09-10"
+        }
       ],
       "kind": "comic",
       "grader": "CGC",
@@ -937,7 +945,65 @@
         "capturedAt": "2026-09-10T05:53:28.351Z",
         "importedAt": "2026-09-10T05:54:57.725Z"
       },
-      "scanStatus": "complete"
+      "scanStatus": "complete",
+      "valuation": {
+        "observations": [
+          {
+            "id": "reviewed-2026-09-18-CGC-4350047005",
+            "copyId": "CGC:4350047005",
+            "basis": "guide",
+            "value": 130,
+            "currency": "USD",
+            "source": {
+              "name": "GoCollect",
+              "url": "https://gocollect.com/app/comic/superior-spider-man-returns-1-veve-virgin-edition",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T03:40:55.721Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Superior Spider-Man Returns",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "VeVe \"Virgin\" Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://gocollect.com/app/comic/superior-spider-man-returns-1-veve-virgin-edition",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T03:40:55.721Z",
+              "notes": "Exact 2023 VeVe Virgin, CGC Universal 9.8 white pages, no signatures. GoCollect currently displays $130 FMV; guide as-of unspecified. Only supporting sale: transaction 9424629, eBay 155990046420, comparable cert 4359328001, fixed price on 2024-01-27 ($129.99 chart, $130 rounded modal). Accepted as starred guide, not a recent sold median."
+            },
+            "provisional": true,
+            "provisionalReason": "Stale, limited support: GoCollect guide has one matching CGC 9.8 sale dated January 27, 2024; no sales in the last year."
+          }
+        ],
+        "selection": {
+          "observationId": "reviewed-2026-09-18-CGC-4350047005",
+          "locked": true,
+          "selectedAt": "2026-09-18T03:40:56.007Z"
+        }
+      }
     },
     {
       "cert": "4350046012",
@@ -1431,7 +1497,109 @@
         "capturedAt": "2026-09-10T05:53:28.351Z",
         "importedAt": "2026-09-10T05:55:02.600Z"
       },
-      "scanStatus": "complete"
+      "scanStatus": "complete",
+      "valuation": {
+        "observations": [
+          {
+            "id": "reviewed-2026-09-18-CGC-4350771002",
+            "copyId": "CGC:4350771002",
+            "basis": "sold-comps",
+            "value": 75.99,
+            "currency": "USD",
+            "source": {
+              "name": "GoCollect",
+              "url": "https://gocollect.com/app/comic/w0rldtr33-5-rabbit-comics-virgin-edition",
+              "asOf": "2026-08-13",
+              "retrievedAt": "2026-09-16T04:43:13.103Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "w0rldtr33",
+                "issue": "5",
+                "issueYear": "2023",
+                "publisher": "Image Comics",
+                "variant": "Rabbit Comics \"Virgin\" Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://gocollect.com/app/comic/w0rldtr33-5-rabbit-comics-virgin-edition",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T03:40:55.721Z",
+              "notes": "Exact 2023 Rabbit Comics Virgin, CGC Universal 9.8, white pages. One fixed-price sale on 2026-08-13; chart shows precise $75.99 while buyer-paid modal rounds to $76. Comparable cert 4339779004; no signatures. Limited one-sale estimate. Reused for matching owned copy 4350771002 after exact identity, label category, grade and page-quality comparison. Original September 16 source retrieval retained."
+            },
+            "saleCount": 1,
+            "range": {
+              "low": 75.99,
+              "high": 75.99,
+              "method": "min-max"
+            },
+            "transactions": [
+              {
+                "transactionId": "gocollect:23065730",
+                "listingId": "336511224155",
+                "soldAt": "2026-08-13",
+                "value": 75.99,
+                "format": "Fixed Price",
+                "venue": "eBay (classifiedcollect)",
+                "cert": "4339779004",
+                "sourceUrl": "https://gocollect.com/sold/23065730",
+                "identity": {
+                  "kind": "comic",
+                  "title": "w0rldtr33",
+                  "issue": "5",
+                  "issueYear": "2023",
+                  "publisher": "Image Comics",
+                  "variant": "Rabbit Comics \"Virgin\" Edition",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "language": "",
+                  "labelCategory": "Universal",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": "",
+                  "qualifiers": ""
+                },
+                "grade": "9.8",
+                "grader": "CGC",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              }
+            ],
+            "provisional": true,
+            "provisionalReason": "Limited history: 1 matching completed sale"
+          }
+        ],
+        "selection": {
+          "observationId": "reviewed-2026-09-18-CGC-4350771002",
+          "locked": true,
+          "selectedAt": "2026-09-18T03:40:56.007Z"
+        }
+      }
     },
     {
       "cert": "4350047006",
