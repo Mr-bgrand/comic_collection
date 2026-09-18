@@ -1,0 +1,2334 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "TAG:L6527429",
+      "revision": "d286670fc72aedce4d0900a92c4906725d5a757ff88466aca689f4e15376bab0",
+      "observations": [
+        {
+          "id": "morning-2026-09-18-TAG-L6527429",
+          "copyId": "TAG:L6527429",
+          "basis": "psa-comparison",
+          "evidenceKind": "sold-comps",
+          "value": 11.5,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/pokemon-japanese-heat-wave-arena/arven%27s-greedent-75",
+            "asOf": "2026-03-26",
+            "retrievedAt": "2026-09-18T13:40:19.566Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2025",
+              "brand": "HEAT WAVE ARENA",
+              "series": "POKÉMON SCARLET & VIOLET JAPANESE",
+              "subject": "ペパーのヨクバリス ARVEN'S GREEDENT",
+              "cardNumber": "075/063",
+              "variety": "ART RARE",
+              "language": "Japanese",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-japanese-heat-wave-arena/arven%27s-greedent-75",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T13:40:19.566Z",
+            "notes": "2025 Japanese Heat Wave Arena Art Rare Arven's Greedent 075/063, owned TAG 9. Five most recent explicit PSA 9 reported sales; CGC 9 rows and mixed Grade 9 guide excluded. No direct TAG 9 value in reviewed rows. Owner-authorized exact-card, same-grade PSA comparison."
+          },
+          "saleCount": 5,
+          "range": {
+            "low": 9.58,
+            "high": 14.5,
+            "method": "observed-iqr"
+          },
+          "transactions": [
+            {
+              "transactionId": "ebay:306815730570",
+              "sourceUrl": "https://www.ebay.com/itm/306815730570",
+              "soldAt": "2026-03-26",
+              "value": 11.5,
+              "identity": {
+                "kind": "card",
+                "year": "2025",
+                "brand": "HEAT WAVE ARENA",
+                "series": "POKÉMON SCARLET & VIOLET JAPANESE",
+                "subject": "ペパーのヨクバリス ARVEN'S GREEDENT",
+                "cardNumber": "075/063",
+                "variety": "ART RARE",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:306793593948",
+              "sourceUrl": "https://www.ebay.com/itm/306793593948",
+              "soldAt": "2026-03-08",
+              "value": 9.58,
+              "identity": {
+                "kind": "card",
+                "year": "2025",
+                "brand": "HEAT WAVE ARENA",
+                "series": "POKÉMON SCARLET & VIOLET JAPANESE",
+                "subject": "ペパーのヨクバリス ARVEN'S GREEDENT",
+                "cardNumber": "075/063",
+                "variety": "ART RARE",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:287106443405",
+              "sourceUrl": "https://www.ebay.com/itm/287106443405",
+              "soldAt": "2026-02-09",
+              "value": 14.5,
+              "identity": {
+                "kind": "card",
+                "year": "2025",
+                "brand": "HEAT WAVE ARENA",
+                "series": "POKÉMON SCARLET & VIOLET JAPANESE",
+                "subject": "ペパーのヨクバリス ARVEN'S GREEDENT",
+                "cardNumber": "075/063",
+                "variety": "ART RARE",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:389528606002",
+              "sourceUrl": "https://www.ebay.com/itm/389528606002",
+              "soldAt": "2026-01-30",
+              "value": 5.5,
+              "identity": {
+                "kind": "card",
+                "year": "2025",
+                "brand": "HEAT WAVE ARENA",
+                "series": "POKÉMON SCARLET & VIOLET JAPANESE",
+                "subject": "ペパーのヨクバリス ARVEN'S GREEDENT",
+                "cardNumber": "075/063",
+                "variety": "ART RARE",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:116978776704",
+              "sourceUrl": "https://www.ebay.com/itm/116978776704",
+              "soldAt": "2026-01-22",
+              "value": 16.4,
+              "identity": {
+                "kind": "card",
+                "year": "2025",
+                "brand": "HEAT WAVE ARENA",
+                "series": "POKÉMON SCARLET & VIOLET JAPANESE",
+                "subject": "ペパーのヨクバリス ARVEN'S GREEDENT",
+                "cardNumber": "075/063",
+                "variety": "ART RARE",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            }
+          ],
+          "provisional": true,
+          "provisionalReason": "Five historical PSA 9 comparables, newest March 2026; no matching sale within the past 90 days."
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:Q9937497",
+      "revision": "d286670fc72aedce4d0900a92c4906725d5a757ff88466aca689f4e15376bab0",
+      "observations": [
+        {
+          "id": "morning-2026-09-18-TAG-Q9937497",
+          "copyId": "TAG:Q9937497",
+          "basis": "sold-comps",
+          "value": 21,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/fr/game/pokemon-japanese-heat-wave-arena/cynthia%27s-roserade-65",
+            "asOf": "2026-08-20",
+            "retrievedAt": "2026-09-18T13:40:19.566Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2025",
+              "brand": "HEAT WAVE ARENA",
+              "series": "POKÉMON SCARLET & VIOLET JAPANESE",
+              "subject": "シロナのロズレイド CYNTHIA'S ROSERADE",
+              "cardNumber": "065/063",
+              "variety": "ART RARE",
+              "language": "Japanese",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "TAG",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/fr/game/pokemon-japanese-heat-wave-arena/cynthia%27s-roserade-65",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T13:40:19.566Z",
+            "notes": "Exact Japanese Heat Wave Arena Cynthia's Roserade Art Rare 065/063, TAG 9. Direct TAG transaction preferred to the available PSA 9 comparison rows. Excluded Korean edition, regular 005/063 and other graders."
+          },
+          "saleCount": 1,
+          "range": {
+            "low": 21,
+            "high": 21,
+            "method": "min-max"
+          },
+          "transactions": [
+            {
+              "transactionId": "ebay:287408401122",
+              "sourceUrl": "https://www.ebay.com/itm/287408401122",
+              "soldAt": "2026-08-20",
+              "value": 21,
+              "identity": {
+                "kind": "card",
+                "year": "2025",
+                "brand": "HEAT WAVE ARENA",
+                "series": "POKÉMON SCARLET & VIOLET JAPANESE",
+                "subject": "シロナのロズレイド CYNTHIA'S ROSERADE",
+                "cardNumber": "065/063",
+                "variety": "ART RARE",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "TAG",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            }
+          ],
+          "provisional": true,
+          "provisionalReason": "One matching direct TAG 9 transaction."
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:M2908131",
+      "revision": "7f81ba24239cf6d28528b229e635bc9e959806fa3c843316852065f69b1660d7",
+      "observations": [
+        {
+          "id": "morning-2026-09-18-TAG-M2908131",
+          "copyId": "TAG:M2908131",
+          "basis": "sold-comps",
+          "value": 22.49,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/pokemon-promo/magneton-159",
+            "asOf": "2026-08-24",
+            "retrievedAt": "2026-09-18T13:40:19.566Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "SURGING SPARKS ELITE TRAINER BOX",
+              "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+              "subject": "MAGNETON",
+              "cardNumber": "159",
+              "variety": "",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "TAG",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-promo/magneton-159",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T13:40:19.566Z",
+            "notes": "Owned front scan confirms English SVP EN 159 Magneton, standard Surging Sparks ETB promo without Pokemon Center stamp. Three direct TAG 9 reported sales; PSA/BGS/CGC and Pokemon Center stamped entries excluded."
+          },
+          "saleCount": 3,
+          "range": {
+            "low": 21.5,
+            "high": 23,
+            "method": "min-max"
+          },
+          "transactions": [
+            {
+              "transactionId": "ebay:128031555596",
+              "sourceUrl": "https://www.ebay.com/itm/128031555596",
+              "soldAt": "2026-08-24",
+              "value": 21.5,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "SURGING SPARKS ELITE TRAINER BOX",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "MAGNETON",
+                "cardNumber": "159",
+                "variety": "",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "TAG",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:128031839162",
+              "sourceUrl": "https://www.ebay.com/itm/128031839162",
+              "soldAt": "2026-08-20",
+              "value": 22.49,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "SURGING SPARKS ELITE TRAINER BOX",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "MAGNETON",
+                "cardNumber": "159",
+                "variety": "",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "TAG",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:128019517502",
+              "sourceUrl": "https://www.ebay.com/itm/128019517502",
+              "soldAt": "2026-08-13",
+              "value": 23,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "SURGING SPARKS ELITE TRAINER BOX",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "MAGNETON",
+                "cardNumber": "159",
+                "variety": "",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "TAG",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            }
+          ],
+          "provisional": true,
+          "provisionalReason": "Three matching direct TAG 9 transactions; limited sample."
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:Q3963552",
+      "revision": "7f81ba24239cf6d28528b229e635bc9e959806fa3c843316852065f69b1660d7",
+      "observations": [
+        {
+          "id": "morning-2026-09-18-TAG-Q3963552",
+          "copyId": "TAG:Q3963552",
+          "basis": "sold-comps",
+          "value": 70,
+          "currency": "USD",
+          "source": {
+            "name": "SportsCardsPro",
+            "url": "https://www.sportscardspro.com/game/baseball-cards-2024-bowman-chrome-prospects/paul-skenes-mega-box-mojo-bcp-125",
+            "asOf": "2026-03-25",
+            "retrievedAt": "2026-09-18T13:40:19.566Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "BOWMAN MEGA BOX",
+              "series": "BOWMAN MEGA BOX",
+              "subject": "PAUL SKENES",
+              "cardNumber": "BCP-125",
+              "variety": "PROSPECTS",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "TAG",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.sportscardspro.com/game/baseball-cards-2024-bowman-chrome-prospects/paul-skenes-mega-box-mojo-bcp-125",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T13:40:19.566Z",
+            "notes": "Owned front scan confirms 2024 Bowman Mega Box Mojo chrome pattern, Paul Skenes BCP-125, unnumbered silver base parallel. Exact TAG 10 transaction; no substitution from ordinary Bowman Chrome, Aqua /125, Purple /250 or PSA guide."
+          },
+          "saleCount": 1,
+          "range": {
+            "low": 70,
+            "high": 70,
+            "method": "min-max"
+          },
+          "transactions": [
+            {
+              "transactionId": "ebay:198188014647",
+              "sourceUrl": "https://www.ebay.com/itm/198188014647",
+              "soldAt": "2026-03-25",
+              "value": 70,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "BOWMAN MEGA BOX",
+                "series": "BOWMAN MEGA BOX",
+                "subject": "PAUL SKENES",
+                "cardNumber": "BCP-125",
+                "variety": "PROSPECTS",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "TAG",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            }
+          ],
+          "provisional": true,
+          "provisionalReason": "One direct TAG 10 sale from March 2026, outside the past 90 days."
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:V8723321",
+      "revision": "375debd1da77bbfa79706906e17e525b66c5a60d0a2db9e80f5eb84bac420a0c",
+      "observations": [
+        {
+          "id": "morning-2026-09-18-TAG-V8723321",
+          "copyId": "TAG:V8723321",
+          "basis": "psa-comparison",
+          "evidenceKind": "sold-comps",
+          "value": 61.8,
+          "currency": "USD",
+          "source": {
+            "name": "SportsCardsPro",
+            "url": "https://www.sportscardspro.com/game/basketball-cards-2024-panini-prizm-sublime/james-harden-18",
+            "asOf": "2026-03-16",
+            "retrievedAt": "2026-09-18T13:40:19.566Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "PANINI PRIZM",
+              "series": "PANINI PRIZM",
+              "subject": "JAMES HARDEN",
+              "cardNumber": "18",
+              "variety": "SUBLIME",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.sportscardspro.com/game/basketball-cards-2024-panini-prizm-sublime/james-harden-18",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T13:40:19.566Z",
+            "notes": "Owned slab confirms 2024 Panini Prizm Sublime James Harden #18, TAG 10. No direct TAG 10 history in reviewed catalog. Median of two explicitly matching PSA 10 sales within the last year. Excluded July 2026 listing 297904320102 displaying $325 with $374.99 crossed-out: accepted offer amount could not be independently confirmed. Older August/June 2025 rows were outside the one-year window. Historical comparison may lag the current market."
+          },
+          "saleCount": 2,
+          "range": {
+            "low": 57.6,
+            "high": 66,
+            "method": "min-max"
+          },
+          "transactions": [
+            {
+              "transactionId": "ebay:298082079125",
+              "sourceUrl": "https://www.ebay.com/itm/298082079125",
+              "soldAt": "2026-03-16",
+              "value": 57.6,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PANINI PRIZM",
+                "series": "PANINI PRIZM",
+                "subject": "JAMES HARDEN",
+                "cardNumber": "18",
+                "variety": "SUBLIME",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:297779798430",
+              "sourceUrl": "https://www.ebay.com/itm/297779798430",
+              "soldAt": "2025-11-24",
+              "value": 66,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PANINI PRIZM",
+                "series": "PANINI PRIZM",
+                "subject": "JAMES HARDEN",
+                "cardNumber": "18",
+                "variety": "SUBLIME",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            }
+          ],
+          "provisional": true,
+          "provisionalReason": "Two PSA 10 comparisons, newest March 2026; more recent offer record unresolved. Low confidence in current market level."
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:H1116328",
+      "revision": "375debd1da77bbfa79706906e17e525b66c5a60d0a2db9e80f5eb84bac420a0c",
+      "observations": [
+        {
+          "id": "morning-2026-09-18-TAG-H1116328",
+          "copyId": "TAG:H1116328",
+          "basis": "psa-comparison",
+          "evidenceKind": "sold-comps",
+          "value": 26,
+          "currency": "USD",
+          "source": {
+            "name": "SportsCardsPro",
+            "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-donruss-rated-rookies-retro/jayden-daniels-11",
+            "asOf": "2026-09-11",
+            "retrievedAt": "2026-09-18T13:40:19.566Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "DONRUSS",
+              "series": "DONRUSS",
+              "subject": "JAYDEN DANIELS",
+              "cardNumber": "11",
+              "variety": "RATED ROOKIE RETRO",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-donruss-rated-rookies-retro/jayden-daniels-11",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T13:40:19.566Z",
+            "notes": "2024 Donruss Rated Rookies Retro Jayden Daniels #11, TAG 9. Five newest explicit same-card PSA 9 transactions. Other graders, base Donruss rookie #327 and parallels excluded; exact PSA comparison is owner-authorized."
+          },
+          "saleCount": 5,
+          "range": {
+            "low": 21.95,
+            "high": 31,
+            "method": "observed-iqr"
+          },
+          "transactions": [
+            {
+              "transactionId": "ebay:206532552403",
+              "sourceUrl": "https://www.ebay.com/itm/206532552403",
+              "soldAt": "2026-09-11",
+              "value": 19.52,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "DONRUSS",
+                "series": "DONRUSS",
+                "subject": "JAYDEN DANIELS",
+                "cardNumber": "11",
+                "variety": "RATED ROOKIE RETRO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:377458800501",
+              "sourceUrl": "https://www.ebay.com/itm/377458800501",
+              "soldAt": "2026-09-07",
+              "value": 26,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "DONRUSS",
+                "series": "DONRUSS",
+                "subject": "JAYDEN DANIELS",
+                "cardNumber": "11",
+                "variety": "RATED ROOKIE RETRO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:287556891121",
+              "sourceUrl": "https://www.ebay.com/itm/287556891121",
+              "soldAt": "2026-09-02",
+              "value": 21.95,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "DONRUSS",
+                "series": "DONRUSS",
+                "subject": "JAYDEN DANIELS",
+                "cardNumber": "11",
+                "variety": "RATED ROOKIE RETRO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:377451694479",
+              "sourceUrl": "https://www.ebay.com/itm/377451694479",
+              "soldAt": "2026-09-02",
+              "value": 31,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "DONRUSS",
+                "series": "DONRUSS",
+                "subject": "JAYDEN DANIELS",
+                "cardNumber": "11",
+                "variety": "RATED ROOKIE RETRO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:128046275559",
+              "sourceUrl": "https://www.ebay.com/itm/128046275559",
+              "soldAt": "2026-09-01",
+              "value": 46,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "DONRUSS",
+                "series": "DONRUSS",
+                "subject": "JAYDEN DANIELS",
+                "cardNumber": "11",
+                "variety": "RATED ROOKIE RETRO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:T3906312",
+      "revision": "375debd1da77bbfa79706906e17e525b66c5a60d0a2db9e80f5eb84bac420a0c",
+      "observations": [
+        {
+          "id": "morning-2026-09-18-TAG-T3906312",
+          "copyId": "TAG:T3906312",
+          "basis": "psa-comparison",
+          "evidenceKind": "sold-comps",
+          "value": 44.99,
+          "currency": "USD",
+          "source": {
+            "name": "SportsCardsPro",
+            "url": "https://www.sportscardspro.com/game/basketball-cards-2024-panini-caitlin-clark-collection/caitlin-clark-floating-hearts-19",
+            "asOf": "2026-08-05",
+            "retrievedAt": "2026-09-18T13:40:19.566Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "PANINI CAITLIN CLARK COLLECTION",
+              "series": "PANINI CAITLIN CLARK COLLECTION",
+              "subject": "CAITLIN CLARK",
+              "cardNumber": "19",
+              "variety": "FLOATING HEARTS",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.sportscardspro.com/game/basketball-cards-2024-panini-caitlin-clark-collection/caitlin-clark-floating-hearts-19",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T13:40:19.566Z",
+            "notes": "Exact 2024 Panini Caitlin Clark Collection Donruss #19 Floating Hearts /199, owned TAG 9. One reported PSA 9 sale within the last year. Excluded April 2025 serial 001/199 copy, whose first serial may carry a premium, and older December 2024 transaction. Base/non-heart variants not used."
+          },
+          "saleCount": 1,
+          "range": {
+            "low": 44.99,
+            "high": 44.99,
+            "method": "min-max"
+          },
+          "transactions": [
+            {
+              "transactionId": "ebay:406935956710",
+              "sourceUrl": "https://www.ebay.com/itm/406935956710",
+              "soldAt": "2026-08-05",
+              "value": 44.99,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PANINI CAITLIN CLARK COLLECTION",
+                "series": "PANINI CAITLIN CLARK COLLECTION",
+                "subject": "CAITLIN CLARK",
+                "cardNumber": "19",
+                "variety": "FLOATING HEARTS",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            }
+          ],
+          "provisional": true,
+          "provisionalReason": "One recent same-grade PSA comparison; limited history."
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:6016747097",
+      "revision": "d286670fc72aedce4d0900a92c4906725d5a757ff88466aca689f4e15376bab0",
+      "observations": [
+        {
+          "id": "morning-2026-09-18-CGC-6016747097",
+          "copyId": "CGC:6016747097",
+          "basis": "sold-comps",
+          "value": 14.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/pokemon-japanese-night-wanderer/persian-75",
+            "asOf": "2026-09-14",
+            "retrievedAt": "2026-09-18T13:40:19.566Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "Night Wanderer",
+              "series": "",
+              "subject": "Persian",
+              "cardNumber": "075/064",
+              "variety": "Art Rare · Holo",
+              "language": "Japanese",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-japanese-night-wanderer/persian-75",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T13:40:19.566Z",
+            "notes": "Five newest explicit CGC 9 Japanese Night Wanderer Persian Art Rare 075/064 reported sales, distinct transaction IDs. PSA/TAG and English Shrouded Fable entries excluded; source's mixed Grade 9 guide not used."
+          },
+          "saleCount": 5,
+          "range": {
+            "low": 14.7,
+            "high": 15.5,
+            "method": "observed-iqr"
+          },
+          "transactions": [
+            {
+              "transactionId": "ebay:117145057876",
+              "sourceUrl": "https://www.ebay.com/itm/117145057876",
+              "soldAt": "2026-09-14",
+              "value": 20,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "Night Wanderer",
+                "series": "",
+                "subject": "Persian",
+                "cardNumber": "075/064",
+                "variety": "Art Rare · Holo",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "CGC",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:278241256379",
+              "sourceUrl": "https://www.ebay.com/itm/278241256379",
+              "soldAt": "2026-08-09",
+              "value": 15.5,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "Night Wanderer",
+                "series": "",
+                "subject": "Persian",
+                "cardNumber": "075/064",
+                "variety": "Art Rare · Holo",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "CGC",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:206309365599",
+              "sourceUrl": "https://www.ebay.com/itm/206309365599",
+              "soldAt": "2026-07-24",
+              "value": 14.7,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "Night Wanderer",
+                "series": "",
+                "subject": "Persian",
+                "cardNumber": "075/064",
+                "variety": "Art Rare · Holo",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "CGC",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:366535670588",
+              "sourceUrl": "https://www.ebay.com/itm/366535670588",
+              "soldAt": "2026-07-18",
+              "value": 14.5,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "Night Wanderer",
+                "series": "",
+                "subject": "Persian",
+                "cardNumber": "075/064",
+                "variety": "Art Rare · Holo",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "CGC",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:198098931567",
+              "sourceUrl": "https://www.ebay.com/itm/198098931567",
+              "soldAt": "2026-07-14",
+              "value": 14.99,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "Night Wanderer",
+                "series": "",
+                "subject": "Persian",
+                "cardNumber": "075/064",
+                "variety": "Art Rare · Holo",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "CGC",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:1401019289294",
+      "revision": "d286670fc72aedce4d0900a92c4906725d5a757ff88466aca689f4e15376bab0",
+      "observations": [
+        {
+          "id": "morning-2026-09-18-CGC-1401019289294",
+          "copyId": "CGC:1401019289294",
+          "basis": "sold-comps",
+          "value": 10.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/pokemon-japanese-vstar-universe/turtwig-206",
+            "asOf": "2025-11-02",
+            "retrievedAt": "2026-09-18T13:40:19.566Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2022",
+              "brand": "VSTAR Universe",
+              "series": "",
+              "subject": "Turtwig",
+              "cardNumber": "206/172",
+              "variety": "Art Rare · Holo",
+              "language": "Japanese",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-japanese-vstar-universe/turtwig-206",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T13:40:19.566Z",
+            "notes": "Exact Japanese VSTAR Universe Turtwig Art Rare Holo 206/172 CGC 9. One matching reported sale within the previous year. June/May 2025 transactions excluded as older than one year. PSA and other graders not substituted."
+          },
+          "saleCount": 1,
+          "range": {
+            "low": 10.99,
+            "high": 10.99,
+            "method": "min-max"
+          },
+          "transactions": [
+            {
+              "transactionId": "ebay:297727661928",
+              "sourceUrl": "https://www.ebay.com/itm/297727661928",
+              "soldAt": "2025-11-02",
+              "value": 10.99,
+              "identity": {
+                "kind": "card",
+                "year": "2022",
+                "brand": "VSTAR Universe",
+                "series": "",
+                "subject": "Turtwig",
+                "cardNumber": "206/172",
+                "variety": "Art Rare · Holo",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "CGC",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            }
+          ],
+          "provisional": true,
+          "provisionalReason": "One historical CGC 9 transaction from November 2025; no sale within the past 90 days."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:4526058008",
+      "revision": "8aba5b0f6bf2c28a69578369427cb43600c4fb22765a9faa0f23f67604ecb368",
+      "observations": [
+        {
+          "id": "morning-2026-09-18-Authority-4526058008",
+          "copyId": "Authority:4526058008",
+          "basis": "raw-reference",
+          "value": 5.79,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/de/game/comic-books-flash/flash-besch-1-2023",
+            "asOf": "2026-08-06",
+            "retrievedAt": "2026-09-18T13:40:19.566Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "The Flash",
+              "issue": "1",
+              "issueYear": "",
+              "publisher": "DC Comics",
+              "variant": "Besch Creator Card Stock Variant",
+              "upc": "76194138164000181",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "D",
+              "volume": "6",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/de/game/comic-books-flash/flash-besch-1-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T13:40:19.566Z",
+            "notes": "Exact full UPC 76194138164000181 and owned title/edition matched to PriceCharting product 5834435. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Median of five most recent explicitly identified Rose Besch raw sales. Seller-described conditions vary; no owned condition inferred.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:318382932508",
+                "sourceUrl": "https://www.ebay.com/itm/318382932508",
+                "soldAt": "2026-08-06",
+                "value": 7.77,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:358673023571",
+                "sourceUrl": "https://www.ebay.com/itm/358673023571",
+                "soldAt": "2026-06-20",
+                "value": 2.35,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:376614851051",
+                "sourceUrl": "https://www.ebay.com/itm/376614851051",
+                "soldAt": "2026-06-02",
+                "value": 9.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:187696555418",
+                "sourceUrl": "https://www.ebay.com/itm/187696555418",
+                "soldAt": "2026-05-03",
+                "value": 5.79,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336469987498",
+                "sourceUrl": "https://www.ebay.com/itm/336469987498",
+                "soldAt": "2026-03-16",
+                "value": 5,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Median of five most recent explicitly identified Rose Besch raw sales. Seller-described conditions vary; no owned condition inferred."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:3898761223",
+      "revision": "8aba5b0f6bf2c28a69578369427cb43600c4fb22765a9faa0f23f67604ecb368",
+      "observations": [
+        {
+          "id": "morning-2026-09-18-Authority-3898761223",
+          "copyId": "Authority:3898761223",
+          "basis": "raw-reference",
+          "value": 4.75,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-8-2023",
+            "asOf": "2026-07-27",
+            "retrievedAt": "2026-09-18T13:40:19.566Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Miles Morales: Spider-Man",
+              "issue": "8",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "Dike Ruan Cover",
+              "upc": "75960620483000811",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "A",
+              "volume": "2",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-8-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T13:40:19.566Z",
+            "notes": "Exact full UPC 75960620483000811 and owned title/edition matched to PriceCharting product 5436217. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five newest explicit Dike Ruan / Cover A raw rows. Excluded Hellfire Gala 185995979384, ambiguous-cover rows and generic $6.65 guide. Repeated sellers may limit independence.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:295805110428",
+                "sourceUrl": "https://www.ebay.com/itm/295805110428",
+                "soldAt": "2026-07-27",
+                "value": 7.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336134078770",
+                "sourceUrl": "https://www.ebay.com/itm/336134078770",
+                "soldAt": "2026-07-13",
+                "value": 3.14,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336567726085",
+                "sourceUrl": "https://www.ebay.com/itm/336567726085",
+                "soldAt": "2026-05-12",
+                "value": 1.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336555507553",
+                "sourceUrl": "https://www.ebay.com/itm/336555507553",
+                "soldAt": "2026-05-05",
+                "value": 4.75,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236768374404",
+                "sourceUrl": "https://www.ebay.com/itm/236768374404",
+                "soldAt": "2026-04-28",
+                "value": 5.5,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five newest explicit Dike Ruan / Cover A raw rows. Excluded Hellfire Gala 185995979384, ambiguous-cover rows and generic $6.65 guide. Repeated sellers may limit independence."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:0131115123",
+      "revision": "8aba5b0f6bf2c28a69578369427cb43600c4fb22765a9faa0f23f67604ecb368",
+      "observations": [
+        {
+          "id": "morning-2026-09-18-Authority-0131115123",
+          "copyId": "Authority:0131115123",
+          "basis": "raw-reference",
+          "value": 4.49,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-knight-terrors-batman/knight-terrors-batman-nguyen-1-2023",
+            "asOf": "2026-03-16",
+            "retrievedAt": "2026-09-18T13:40:19.566Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Knight Terrors: Batman",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "DC",
+              "variant": "Dustin Nguyen Midnight Variant",
+              "upc": "76194138094000161",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "D",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-knight-terrors-batman/knight-terrors-batman-nguyen-1-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T13:40:19.566Z",
+            "notes": "Exact full UPC 76194138094000161 and owned title/edition matched to PriceCharting product 5426902. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Only one matching Nguyen Midnight raw transaction within the past year; stale and sparse.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:205869173991",
+                "sourceUrl": "https://www.ebay.com/itm/205869173991",
+                "soldAt": "2026-03-16",
+                "value": 4.49,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Only one matching Nguyen Midnight raw transaction within the past year; stale and sparse."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:8210033226",
+      "revision": "8aba5b0f6bf2c28a69578369427cb43600c4fb22765a9faa0f23f67604ecb368",
+      "observations": [
+        {
+          "id": "morning-2026-09-18-Authority-8210033226",
+          "copyId": "Authority:8210033226",
+          "basis": "raw-reference",
+          "value": 10,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/es/game/comic-books-x-men-hellfire-gala-2023/x-men-hellfire-gala-2023-campbell-1-2023",
+            "asOf": "2026-05-06",
+            "retrievedAt": "2026-09-18T13:40:19.566Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "X-Men: Hellfire Gala 2023",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "Campbell Variant",
+              "upc": "75960620574500131",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "D",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/es/game/comic-books-x-men-hellfire-gala-2023/x-men-hellfire-gala-2023-campbell-1-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T13:40:19.566Z",
+            "notes": "Exact full UPC 75960620574500131 and owned title/edition matched to PriceCharting product 5529314. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five explicitly identified Campbell Anniversary trade-dress raw rows; excluded ambiguous $39.99 presale 304996828520 and virgin/retro incentive variants. Newest sale older than 90 days.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:157786073885",
+                "sourceUrl": "https://www.ebay.com/itm/157786073885",
+                "soldAt": "2026-05-06",
+                "value": 10,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:257250395100",
+                "sourceUrl": "https://www.ebay.com/itm/257250395100",
+                "soldAt": "2026-02-25",
+                "value": 14.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:226990963405",
+                "sourceUrl": "https://www.ebay.com/itm/226990963405",
+                "soldAt": "2026-01-07",
+                "value": 6.5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:195999563915",
+                "sourceUrl": "https://www.ebay.com/itm/195999563915",
+                "soldAt": "2026-01-03",
+                "value": 11.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336355923303",
+                "sourceUrl": "https://www.ebay.com/itm/336355923303",
+                "soldAt": "2026-01-02",
+                "value": 5.5,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five explicitly identified Campbell Anniversary trade-dress raw rows; excluded ambiguous $39.99 presale 304996828520 and virgin/retro incentive variants. Newest sale older than 90 days."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:3960999612",
+      "revision": "8aba5b0f6bf2c28a69578369427cb43600c4fb22765a9faa0f23f67604ecb368",
+      "observations": [
+        {
+          "id": "morning-2026-09-18-Authority-3960999612",
+          "copyId": "Authority:3960999612",
+          "basis": "raw-reference",
+          "value": 6.71,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-knight-terrors-catwoman/knight-terrors-catwoman-lotay-1-2023",
+            "asOf": "2026-09-17",
+            "retrievedAt": "2026-09-18T13:40:19.566Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Knight Terrors: Catwoman",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "DC",
+              "variant": "Tula Lotay Variant",
+              "upc": "76194138096400121",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "B",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-knight-terrors-catwoman/knight-terrors-catwoman-lotay-1-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T13:40:19.566Z",
+            "notes": "Exact full UPC 76194138096400121 and owned title/edition matched to PriceCharting product 5490949. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Four exact Tula Lotay Cover B raw transactions in the past year. Condition descriptions apply only to sold comparison copies.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:305047273777",
+                "sourceUrl": "https://www.ebay.com/itm/305047273777",
+                "soldAt": "2026-09-17",
+                "value": 7.79,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:305528119419",
+                "sourceUrl": "https://www.ebay.com/itm/305528119419",
+                "soldAt": "2026-02-20",
+                "value": 7.34,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:166270852228",
+                "sourceUrl": "https://www.ebay.com/itm/166270852228",
+                "soldAt": "2026-01-07",
+                "value": 6.08,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:227133051303",
+                "sourceUrl": "https://www.ebay.com/itm/227133051303",
+                "soldAt": "2025-12-18",
+                "value": 3.55,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Four exact Tula Lotay Cover B raw transactions in the past year. Condition descriptions apply only to sold comparison copies."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:8277838860",
+      "revision": "8aba5b0f6bf2c28a69578369427cb43600c4fb22765a9faa0f23f67604ecb368",
+      "observations": [
+        {
+          "id": "morning-2026-09-18-Authority-8277838860",
+          "copyId": "Authority:8277838860",
+          "basis": "raw-reference",
+          "value": 1.8,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-cheung-8-2023",
+            "asOf": "2026-07-29",
+            "retrievedAt": "2026-09-18T13:40:19.566Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Miles Morales: Spider-Man",
+              "issue": "8",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "Cheung Variant",
+              "upc": "75960620483000821",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "C",
+              "volume": "2",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-cheung-8-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T13:40:19.566Z",
+            "notes": "Exact full UPC 75960620483000821 and owned title/edition matched to PriceCharting product 5436214. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Four explicit Jim Cheung raw transactions within the past year; condition remains unassessed.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:305415613626",
+                "sourceUrl": "https://www.ebay.com/itm/305415613626",
+                "soldAt": "2026-07-29",
+                "value": 2.3,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:188442626325",
+                "sourceUrl": "https://www.ebay.com/itm/188442626325",
+                "soldAt": "2026-06-07",
+                "value": 1.29,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:187625719896",
+                "sourceUrl": "https://www.ebay.com/itm/187625719896",
+                "soldAt": "2025-10-12",
+                "value": 1.29,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:134648161662",
+                "sourceUrl": "https://www.ebay.com/itm/134648161662",
+                "soldAt": "2025-09-30",
+                "value": 3.25,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Four explicit Jim Cheung raw transactions within the past year; condition remains unassessed."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:9720335865",
+      "revision": "8aba5b0f6bf2c28a69578369427cb43600c4fb22765a9faa0f23f67604ecb368",
+      "observations": [
+        {
+          "id": "morning-2026-09-18-Authority-9720335865",
+          "copyId": "Authority:9720335865",
+          "basis": "raw-reference",
+          "value": 3,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-9-2023",
+            "asOf": "2025-10-10",
+            "retrievedAt": "2026-09-18T13:40:19.566Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Miles Morales: Spider-Man",
+              "issue": "9",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "Dike Ruan Cover",
+              "upc": "75960620483000911",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "A",
+              "volume": "2",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-9-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T13:40:19.566Z",
+            "notes": "Exact full UPC 75960620483000911 and owned title/edition matched to PriceCharting product 5605444. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. One explicitly identified Ruan Cover A raw sale within the past year. Mixed $4.24 guide includes Mercado and unspecified variants; excluded those and ambiguous covers. Sparse, stale reference.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:175874424084",
+                "sourceUrl": "https://www.ebay.com/itm/175874424084",
+                "soldAt": "2025-10-10",
+                "value": 3,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. One explicitly identified Ruan Cover A raw sale within the past year. Mixed $4.24 guide includes Mercado and unspecified variants; excluded those and ambiguous covers. Sparse, stale reference."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:4601312346",
+      "revision": "8aba5b0f6bf2c28a69578369427cb43600c4fb22765a9faa0f23f67604ecb368",
+      "observations": [
+        {
+          "id": "morning-2026-09-18-Authority-4601312346",
+          "copyId": "Authority:4601312346",
+          "basis": "raw-reference",
+          "value": 6.48,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-lim-redwing-1-2023",
+            "asOf": "2026-01-07",
+            "retrievedAt": "2026-09-18T13:40:19.566Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Marvel Unleashed",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "Lim Redwing Variant",
+              "upc": "75960620134100151",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "D",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-lim-redwing-1-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T13:40:19.566Z",
+            "notes": "Exact full UPC 75960620134100151 and owned title/edition matched to PriceCharting product 5692756. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Exact Ron Lim Redwing first-print variant. One sale within past year, stale and sparse. Separate from Lim Lockjaw.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:134695068565",
+                "sourceUrl": "https://www.ebay.com/itm/134695068565",
+                "soldAt": "2026-01-07",
+                "value": 6.48,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Exact Ron Lim Redwing first-print variant. One sale within past year, stale and sparse. Separate from Lim Lockjaw."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:5649407505",
+      "revision": "8aba5b0f6bf2c28a69578369427cb43600c4fb22765a9faa0f23f67604ecb368",
+      "observations": [
+        {
+          "id": "morning-2026-09-18-Authority-5649407505",
+          "copyId": "Authority:5649407505",
+          "basis": "raw-reference",
+          "value": 4.64,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-chang-1-2023",
+            "asOf": null,
+            "retrievedAt": "2026-09-18T13:40:19.566Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Marvel Unleashed",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "Bernard Chang Variant",
+              "upc": "75960620134100131",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "E",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-chang-1-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T13:40:19.566Z",
+            "notes": "Exact full UPC 75960620134100131 and owned title/edition matched to PriceCharting product 5692758. Displayed USD ungraded guide reference. Owned condition remains unassessed; no appraisal selected. Exact Bernard Chang ungraded guide; all visible raw sales older than one year (newest August 29, 2025). Guide as-of and supporting sample are unspecified; low confidence."
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Exact Bernard Chang ungraded guide; all visible raw sales older than one year (newest August 29, 2025). Guide as-of and supporting sample are unspecified; low confidence."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:6890059490",
+      "revision": "8aba5b0f6bf2c28a69578369427cb43600c4fb22765a9faa0f23f67604ecb368",
+      "observations": [
+        {
+          "id": "morning-2026-09-18-Authority-6890059490",
+          "copyId": "Authority:6890059490",
+          "basis": "raw-reference",
+          "value": 3.98,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-zullo-1-2023",
+            "asOf": "2026-02-23",
+            "retrievedAt": "2026-09-18T13:40:19.566Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Marvel Unleashed",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "Chrissie Zullo Uminga Miss Minutes Variant",
+              "upc": "75960620134100121",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "B",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-zullo-1-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T13:40:19.566Z",
+            "notes": "Exact full UPC 75960620134100121 and owned title/edition matched to PriceCharting product 5692755. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Two exact Zullo Miss Minutes raw sales within past year. Sparse and stale; not the standard Baldeon cover.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:325785331656",
+                "sourceUrl": "https://www.ebay.com/itm/325785331656",
+                "soldAt": "2026-02-23",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:116681892539",
+                "sourceUrl": "https://www.ebay.com/itm/116681892539",
+                "soldAt": "2025-09-20",
+                "value": 2.97,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Two exact Zullo Miss Minutes raw sales within past year. Sparse and stale; not the standard Baldeon cover."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:2943977617",
+      "revision": "8aba5b0f6bf2c28a69578369427cb43600c4fb22765a9faa0f23f67604ecb368",
+      "observations": [
+        {
+          "id": "morning-2026-09-18-Authority-2943977617",
+          "copyId": "Authority:2943977617",
+          "basis": "raw-reference",
+          "value": 4.24,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-lim-lockjaw-1-2023",
+            "asOf": null,
+            "retrievedAt": "2026-09-18T13:40:19.566Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Marvel Unleashed",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "Lim Lockjaw Variant",
+              "upc": "75960620134100141",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "C",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-lim-lockjaw-1-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T13:40:19.566Z",
+            "notes": "Exact full UPC 75960620134100141 and owned title/edition matched to PriceCharting product 5692757. Displayed USD ungraded guide reference. Owned condition remains unassessed; no appraisal selected. Exact Ron Lim Lockjaw ungraded guide; newest visible raw sale January 2025. Very stale and sparse, including one $0.01 historical auction; no reliable current market implied."
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Exact Ron Lim Lockjaw ungraded guide; newest visible raw sale January 2025. Very stale and sparse, including one $0.01 historical auction; no reliable current market implied."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:3894566865",
+      "revision": "8aba5b0f6bf2c28a69578369427cb43600c4fb22765a9faa0f23f67604ecb368",
+      "observations": [
+        {
+          "id": "morning-2026-09-18-Authority-3894566865",
+          "copyId": "Authority:3894566865",
+          "basis": "raw-reference",
+          "value": 3.74,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-1-2023",
+            "asOf": "2025-01-18",
+            "retrievedAt": "2026-09-18T13:40:19.566Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Marvel Unleashed",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "David Baldeon Cover",
+              "upc": "75960620134100111",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "A",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-1-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T13:40:19.566Z",
+            "notes": "Exact full UPC 75960620134100111 and owned title/edition matched to PriceCharting product 5692760. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. One explicitly identified David Baldeon standard Cover A raw sale. Very stale. Mixed $5.51 guide includes Miss Minutes and Lockjaw variants; excluded those and ambiguous cover/presale rows. Current Westfield retailer listing corroborates edition/UPC but its $2.49 asking price is not a completed sale.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:305089241556",
+                "sourceUrl": "https://www.ebay.com/itm/305089241556",
+                "soldAt": "2025-01-18",
+                "value": 3.74,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. One explicitly identified David Baldeon standard Cover A raw sale. Very stale. Mixed $5.51 guide includes Miss Minutes and Lockjaw variants; excluded those and ambiguous cover/presale rows. Current Westfield retailer listing corroborates edition/UPC but its $2.49 asking price is not a completed sale."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:0684669238",
+      "revision": "8aba5b0f6bf2c28a69578369427cb43600c4fb22765a9faa0f23f67604ecb368",
+      "observations": [
+        {
+          "id": "morning-2026-09-18-Authority-0684669238",
+          "copyId": "Authority:0684669238",
+          "basis": "raw-reference",
+          "value": 4.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-harley-quinn-black-+-white-+-redder/harley-quinn-black-+-white-+-redder-march-1-2023",
+            "asOf": "2026-08-01",
+            "retrievedAt": "2026-09-18T13:40:19.566Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Harley Quinn: Black + White + Redder",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "DC",
+              "variant": "Guillem March Variant",
+              "upc": "76194137938800131",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "C",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-harley-quinn-black-+-white-+-redder/harley-quinn-black-+-white-+-redder-march-1-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-18T13:40:19.566Z",
+            "notes": "Exact full UPC 76194137938800131 and owned title/edition matched to PriceCharting product 5490657. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three newest explicit Guillem March Cover C raw sales. Excluded incorrect-year 2022 row; no substitution from Artgerm, foil or exclusive covers. Owned condition unassessed.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:256142955701",
+                "sourceUrl": "https://www.ebay.com/itm/256142955701",
+                "soldAt": "2026-08-01",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:364352758325",
+                "sourceUrl": "https://www.ebay.com/itm/364352758325",
+                "soldAt": "2026-06-12",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:175824636249",
+                "sourceUrl": "https://www.ebay.com/itm/175824636249",
+                "soldAt": "2026-04-12",
+                "value": 4.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three newest explicit Guillem March Cover C raw sales. Excluded incorrect-year 2022 row; no substitution from Artgerm, foil or exclusive covers. Owned condition unassessed."
+        }
+      ]
+    }
+  ]
+}

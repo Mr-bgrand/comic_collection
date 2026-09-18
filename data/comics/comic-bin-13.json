@@ -2962,7 +2962,97 @@
         "capturedAt": "2026-09-07T23:30:54.733Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "morning-2026-09-18-Authority-4526058008",
+            "copyId": "Authority:4526058008",
+            "basis": "raw-reference",
+            "value": 5.79,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/de/game/comic-books-flash/flash-besch-1-2023",
+              "asOf": "2026-08-06",
+              "retrievedAt": "2026-09-18T13:40:19.566Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Flash",
+                "issue": "1",
+                "issueYear": "",
+                "publisher": "DC Comics",
+                "variant": "Besch Creator Card Stock Variant",
+                "upc": "76194138164000181",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "D",
+                "volume": "6",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/de/game/comic-books-flash/flash-besch-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T13:40:19.566Z",
+              "notes": "Exact full UPC 76194138164000181 and owned title/edition matched to PriceCharting product 5834435. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Median of five most recent explicitly identified Rose Besch raw sales. Seller-described conditions vary; no owned condition inferred.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:318382932508",
+                  "sourceUrl": "https://www.ebay.com/itm/318382932508",
+                  "soldAt": "2026-08-06",
+                  "value": 7.77,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:358673023571",
+                  "sourceUrl": "https://www.ebay.com/itm/358673023571",
+                  "soldAt": "2026-06-20",
+                  "value": 2.35,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:376614851051",
+                  "sourceUrl": "https://www.ebay.com/itm/376614851051",
+                  "soldAt": "2026-06-02",
+                  "value": 9.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:187696555418",
+                  "sourceUrl": "https://www.ebay.com/itm/187696555418",
+                  "soldAt": "2026-05-03",
+                  "value": 5.79,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:336469987498",
+                  "sourceUrl": "https://www.ebay.com/itm/336469987498",
+                  "soldAt": "2026-03-16",
+                  "value": 5,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Median of five most recent explicitly identified Rose Besch raw sales. Seller-described conditions vary; no owned condition inferred."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_4526058008_FRONT.jpg",
         "back": "Authority_4526058008_BACK.jpg"
@@ -4846,7 +4936,97 @@
         "capturedAt": "2026-09-07T23:32:00.556Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "morning-2026-09-18-Authority-3898761223",
+            "copyId": "Authority:3898761223",
+            "basis": "raw-reference",
+            "value": 4.75,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-8-2023",
+              "asOf": "2026-07-27",
+              "retrievedAt": "2026-09-18T13:40:19.566Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Miles Morales: Spider-Man",
+                "issue": "8",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Dike Ruan Cover",
+                "upc": "75960620483000811",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "A",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-8-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T13:40:19.566Z",
+              "notes": "Exact full UPC 75960620483000811 and owned title/edition matched to PriceCharting product 5436217. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five newest explicit Dike Ruan / Cover A raw rows. Excluded Hellfire Gala 185995979384, ambiguous-cover rows and generic $6.65 guide. Repeated sellers may limit independence.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:295805110428",
+                  "sourceUrl": "https://www.ebay.com/itm/295805110428",
+                  "soldAt": "2026-07-27",
+                  "value": 7.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:336134078770",
+                  "sourceUrl": "https://www.ebay.com/itm/336134078770",
+                  "soldAt": "2026-07-13",
+                  "value": 3.14,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:336567726085",
+                  "sourceUrl": "https://www.ebay.com/itm/336567726085",
+                  "soldAt": "2026-05-12",
+                  "value": 1.25,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:336555507553",
+                  "sourceUrl": "https://www.ebay.com/itm/336555507553",
+                  "soldAt": "2026-05-05",
+                  "value": 4.75,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:236768374404",
+                  "sourceUrl": "https://www.ebay.com/itm/236768374404",
+                  "soldAt": "2026-04-28",
+                  "value": 5.5,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five newest explicit Dike Ruan / Cover A raw rows. Excluded Hellfire Gala 185995979384, ambiguous-cover rows and generic $6.65 guide. Repeated sellers may limit independence."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_3898761223_FRONT.jpg",
         "back": "Authority_3898761223_BACK.jpg"
@@ -5370,7 +5550,69 @@
         "capturedAt": "2026-09-07T23:32:09.532Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "morning-2026-09-18-Authority-0131115123",
+            "copyId": "Authority:0131115123",
+            "basis": "raw-reference",
+            "value": 4.49,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-knight-terrors-batman/knight-terrors-batman-nguyen-1-2023",
+              "asOf": "2026-03-16",
+              "retrievedAt": "2026-09-18T13:40:19.566Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Knight Terrors: Batman",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DC",
+                "variant": "Dustin Nguyen Midnight Variant",
+                "upc": "76194138094000161",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "D",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-knight-terrors-batman/knight-terrors-batman-nguyen-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T13:40:19.566Z",
+              "notes": "Exact full UPC 76194138094000161 and owned title/edition matched to PriceCharting product 5426902. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Only one matching Nguyen Midnight raw transaction within the past year; stale and sparse.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:205869173991",
+                  "sourceUrl": "https://www.ebay.com/itm/205869173991",
+                  "soldAt": "2026-03-16",
+                  "value": 4.49,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Only one matching Nguyen Midnight raw transaction within the past year; stale and sparse."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_0131115123_FRONT.jpg",
         "back": "Authority_0131115123_BACK.jpg"
@@ -5976,7 +6218,97 @@
         "capturedAt": "2026-09-07T23:32:45.635Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "morning-2026-09-18-Authority-8210033226",
+            "copyId": "Authority:8210033226",
+            "basis": "raw-reference",
+            "value": 10,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/es/game/comic-books-x-men-hellfire-gala-2023/x-men-hellfire-gala-2023-campbell-1-2023",
+              "asOf": "2026-05-06",
+              "retrievedAt": "2026-09-18T13:40:19.566Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "X-Men: Hellfire Gala 2023",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Campbell Variant",
+                "upc": "75960620574500131",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "D",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/es/game/comic-books-x-men-hellfire-gala-2023/x-men-hellfire-gala-2023-campbell-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T13:40:19.566Z",
+              "notes": "Exact full UPC 75960620574500131 and owned title/edition matched to PriceCharting product 5529314. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five explicitly identified Campbell Anniversary trade-dress raw rows; excluded ambiguous $39.99 presale 304996828520 and virgin/retro incentive variants. Newest sale older than 90 days.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:157786073885",
+                  "sourceUrl": "https://www.ebay.com/itm/157786073885",
+                  "soldAt": "2026-05-06",
+                  "value": 10,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:257250395100",
+                  "sourceUrl": "https://www.ebay.com/itm/257250395100",
+                  "soldAt": "2026-02-25",
+                  "value": 14.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:226990963405",
+                  "sourceUrl": "https://www.ebay.com/itm/226990963405",
+                  "soldAt": "2026-01-07",
+                  "value": 6.5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:195999563915",
+                  "sourceUrl": "https://www.ebay.com/itm/195999563915",
+                  "soldAt": "2026-01-03",
+                  "value": 11.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:336355923303",
+                  "sourceUrl": "https://www.ebay.com/itm/336355923303",
+                  "soldAt": "2026-01-02",
+                  "value": 5.5,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five explicitly identified Campbell Anniversary trade-dress raw rows; excluded ambiguous $39.99 presale 304996828520 and virgin/retro incentive variants. Newest sale older than 90 days."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_8210033226_FRONT.jpg",
         "back": "Authority_8210033226_BACK.jpg"
@@ -6170,7 +6502,90 @@
         "capturedAt": "2026-09-07T23:32:50.208Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "morning-2026-09-18-Authority-3960999612",
+            "copyId": "Authority:3960999612",
+            "basis": "raw-reference",
+            "value": 6.71,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-knight-terrors-catwoman/knight-terrors-catwoman-lotay-1-2023",
+              "asOf": "2026-09-17",
+              "retrievedAt": "2026-09-18T13:40:19.566Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Knight Terrors: Catwoman",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DC",
+                "variant": "Tula Lotay Variant",
+                "upc": "76194138096400121",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-knight-terrors-catwoman/knight-terrors-catwoman-lotay-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T13:40:19.566Z",
+              "notes": "Exact full UPC 76194138096400121 and owned title/edition matched to PriceCharting product 5490949. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Four exact Tula Lotay Cover B raw transactions in the past year. Condition descriptions apply only to sold comparison copies.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:305047273777",
+                  "sourceUrl": "https://www.ebay.com/itm/305047273777",
+                  "soldAt": "2026-09-17",
+                  "value": 7.79,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:305528119419",
+                  "sourceUrl": "https://www.ebay.com/itm/305528119419",
+                  "soldAt": "2026-02-20",
+                  "value": 7.34,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:166270852228",
+                  "sourceUrl": "https://www.ebay.com/itm/166270852228",
+                  "soldAt": "2026-01-07",
+                  "value": 6.08,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:227133051303",
+                  "sourceUrl": "https://www.ebay.com/itm/227133051303",
+                  "soldAt": "2025-12-18",
+                  "value": 3.55,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Four exact Tula Lotay Cover B raw transactions in the past year. Condition descriptions apply only to sold comparison copies."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_3960999612_FRONT.jpg",
         "back": "Authority_3960999612_BACK.jpg"
@@ -6267,7 +6682,90 @@
         "capturedAt": "2026-09-07T23:32:53.182Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "morning-2026-09-18-Authority-8277838860",
+            "copyId": "Authority:8277838860",
+            "basis": "raw-reference",
+            "value": 1.8,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-cheung-8-2023",
+              "asOf": "2026-07-29",
+              "retrievedAt": "2026-09-18T13:40:19.566Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Miles Morales: Spider-Man",
+                "issue": "8",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Cheung Variant",
+                "upc": "75960620483000821",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-cheung-8-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T13:40:19.566Z",
+              "notes": "Exact full UPC 75960620483000821 and owned title/edition matched to PriceCharting product 5436214. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Four explicit Jim Cheung raw transactions within the past year; condition remains unassessed.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:305415613626",
+                  "sourceUrl": "https://www.ebay.com/itm/305415613626",
+                  "soldAt": "2026-07-29",
+                  "value": 2.3,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:188442626325",
+                  "sourceUrl": "https://www.ebay.com/itm/188442626325",
+                  "soldAt": "2026-06-07",
+                  "value": 1.29,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:187625719896",
+                  "sourceUrl": "https://www.ebay.com/itm/187625719896",
+                  "soldAt": "2025-10-12",
+                  "value": 1.29,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:134648161662",
+                  "sourceUrl": "https://www.ebay.com/itm/134648161662",
+                  "soldAt": "2025-09-30",
+                  "value": 3.25,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Four explicit Jim Cheung raw transactions within the past year; condition remains unassessed."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_8277838860_FRONT.jpg",
         "back": "Authority_8277838860_BACK.jpg"
@@ -6364,7 +6862,83 @@
         "capturedAt": "2026-09-07T23:32:56.173Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "morning-2026-09-18-Authority-0684669238",
+            "copyId": "Authority:0684669238",
+            "basis": "raw-reference",
+            "value": 4.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-harley-quinn-black-+-white-+-redder/harley-quinn-black-+-white-+-redder-march-1-2023",
+              "asOf": "2026-08-01",
+              "retrievedAt": "2026-09-18T13:40:19.566Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Harley Quinn: Black + White + Redder",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DC",
+                "variant": "Guillem March Variant",
+                "upc": "76194137938800131",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-harley-quinn-black-+-white-+-redder/harley-quinn-black-+-white-+-redder-march-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T13:40:19.566Z",
+              "notes": "Exact full UPC 76194137938800131 and owned title/edition matched to PriceCharting product 5490657. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three newest explicit Guillem March Cover C raw sales. Excluded incorrect-year 2022 row; no substitution from Artgerm, foil or exclusive covers. Owned condition unassessed.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:256142955701",
+                  "sourceUrl": "https://www.ebay.com/itm/256142955701",
+                  "soldAt": "2026-08-01",
+                  "value": 4.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:364352758325",
+                  "sourceUrl": "https://www.ebay.com/itm/364352758325",
+                  "soldAt": "2026-06-12",
+                  "value": 4.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:175824636249",
+                  "sourceUrl": "https://www.ebay.com/itm/175824636249",
+                  "soldAt": "2026-04-12",
+                  "value": 4.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three newest explicit Guillem March Cover C raw sales. Excluded incorrect-year 2022 row; no substitution from Artgerm, foil or exclusive covers. Owned condition unassessed."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_0684669238_FRONT.jpg",
         "back": "Authority_0684669238_BACK.jpg"
@@ -6461,7 +7035,69 @@
         "capturedAt": "2026-09-07T23:32:59.158Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "morning-2026-09-18-Authority-3894566865",
+            "copyId": "Authority:3894566865",
+            "basis": "raw-reference",
+            "value": 3.74,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-1-2023",
+              "asOf": "2025-01-18",
+              "retrievedAt": "2026-09-18T13:40:19.566Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Marvel Unleashed",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "David Baldeon Cover",
+                "upc": "75960620134100111",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "A",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T13:40:19.566Z",
+              "notes": "Exact full UPC 75960620134100111 and owned title/edition matched to PriceCharting product 5692760. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. One explicitly identified David Baldeon standard Cover A raw sale. Very stale. Mixed $5.51 guide includes Miss Minutes and Lockjaw variants; excluded those and ambiguous cover/presale rows. Current Westfield retailer listing corroborates edition/UPC but its $2.49 asking price is not a completed sale.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:305089241556",
+                  "sourceUrl": "https://www.ebay.com/itm/305089241556",
+                  "soldAt": "2025-01-18",
+                  "value": 3.74,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. One explicitly identified David Baldeon standard Cover A raw sale. Very stale. Mixed $5.51 guide includes Miss Minutes and Lockjaw variants; excluded those and ambiguous cover/presale rows. Current Westfield retailer listing corroborates edition/UPC but its $2.49 asking price is not a completed sale."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_3894566865_FRONT.jpg",
         "back": "Authority_3894566865_BACK.jpg"
@@ -6558,7 +7194,60 @@
         "capturedAt": "2026-09-07T23:33:01.549Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "morning-2026-09-18-Authority-5649407505",
+            "copyId": "Authority:5649407505",
+            "basis": "raw-reference",
+            "value": 4.64,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-chang-1-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T13:40:19.566Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Marvel Unleashed",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Bernard Chang Variant",
+                "upc": "75960620134100131",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "E",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-chang-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T13:40:19.566Z",
+              "notes": "Exact full UPC 75960620134100131 and owned title/edition matched to PriceCharting product 5692758. Displayed USD ungraded guide reference. Owned condition remains unassessed; no appraisal selected. Exact Bernard Chang ungraded guide; all visible raw sales older than one year (newest August 29, 2025). Guide as-of and supporting sample are unspecified; low confidence."
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Exact Bernard Chang ungraded guide; all visible raw sales older than one year (newest August 29, 2025). Guide as-of and supporting sample are unspecified; low confidence."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_5649407505_FRONT.jpg",
         "back": "Authority_5649407505_BACK.jpg"
@@ -6655,7 +7344,76 @@
         "capturedAt": "2026-09-07T23:33:03.779Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "morning-2026-09-18-Authority-6890059490",
+            "copyId": "Authority:6890059490",
+            "basis": "raw-reference",
+            "value": 3.98,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-zullo-1-2023",
+              "asOf": "2026-02-23",
+              "retrievedAt": "2026-09-18T13:40:19.566Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Marvel Unleashed",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Chrissie Zullo Uminga Miss Minutes Variant",
+                "upc": "75960620134100121",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-zullo-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T13:40:19.566Z",
+              "notes": "Exact full UPC 75960620134100121 and owned title/edition matched to PriceCharting product 5692755. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Two exact Zullo Miss Minutes raw sales within past year. Sparse and stale; not the standard Baldeon cover.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:325785331656",
+                  "sourceUrl": "https://www.ebay.com/itm/325785331656",
+                  "soldAt": "2026-02-23",
+                  "value": 4.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:116681892539",
+                  "sourceUrl": "https://www.ebay.com/itm/116681892539",
+                  "soldAt": "2025-09-20",
+                  "value": 2.97,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Two exact Zullo Miss Minutes raw sales within past year. Sparse and stale; not the standard Baldeon cover."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_6890059490_FRONT.jpg",
         "back": "Authority_6890059490_BACK.jpg"
@@ -6752,7 +7510,60 @@
         "capturedAt": "2026-09-07T23:33:06.150Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "morning-2026-09-18-Authority-2943977617",
+            "copyId": "Authority:2943977617",
+            "basis": "raw-reference",
+            "value": 4.24,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-lim-lockjaw-1-2023",
+              "asOf": null,
+              "retrievedAt": "2026-09-18T13:40:19.566Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Marvel Unleashed",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Lim Lockjaw Variant",
+                "upc": "75960620134100141",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-lim-lockjaw-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T13:40:19.566Z",
+              "notes": "Exact full UPC 75960620134100141 and owned title/edition matched to PriceCharting product 5692757. Displayed USD ungraded guide reference. Owned condition remains unassessed; no appraisal selected. Exact Ron Lim Lockjaw ungraded guide; newest visible raw sale January 2025. Very stale and sparse, including one $0.01 historical auction; no reliable current market implied."
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Exact Ron Lim Lockjaw ungraded guide; newest visible raw sale January 2025. Very stale and sparse, including one $0.01 historical auction; no reliable current market implied."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_2943977617_FRONT.jpg",
         "back": "Authority_2943977617_BACK.jpg"
@@ -6849,7 +7660,69 @@
         "capturedAt": "2026-09-07T23:33:08.354Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "morning-2026-09-18-Authority-4601312346",
+            "copyId": "Authority:4601312346",
+            "basis": "raw-reference",
+            "value": 6.48,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-lim-redwing-1-2023",
+              "asOf": "2026-01-07",
+              "retrievedAt": "2026-09-18T13:40:19.566Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Marvel Unleashed",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Lim Redwing Variant",
+                "upc": "75960620134100151",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "D",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-lim-redwing-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T13:40:19.566Z",
+              "notes": "Exact full UPC 75960620134100151 and owned title/edition matched to PriceCharting product 5692756. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Exact Ron Lim Redwing first-print variant. One sale within past year, stale and sparse. Separate from Lim Lockjaw.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:134695068565",
+                  "sourceUrl": "https://www.ebay.com/itm/134695068565",
+                  "soldAt": "2026-01-07",
+                  "value": 6.48,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Exact Ron Lim Redwing first-print variant. One sale within past year, stale and sparse. Separate from Lim Lockjaw."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_4601312346_FRONT.jpg",
         "back": "Authority_4601312346_BACK.jpg"
@@ -7044,7 +7917,69 @@
         "capturedAt": "2026-09-07T23:33:38.185Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "morning-2026-09-18-Authority-9720335865",
+            "copyId": "Authority:9720335865",
+            "basis": "raw-reference",
+            "value": 3,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-9-2023",
+              "asOf": "2025-10-10",
+              "retrievedAt": "2026-09-18T13:40:19.566Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Miles Morales: Spider-Man",
+                "issue": "9",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Dike Ruan Cover",
+                "upc": "75960620483000911",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "A",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-9-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T13:40:19.566Z",
+              "notes": "Exact full UPC 75960620483000911 and owned title/edition matched to PriceCharting product 5605444. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. One explicitly identified Ruan Cover A raw sale within the past year. Mixed $4.24 guide includes Mercado and unspecified variants; excluded those and ambiguous covers. Sparse, stale reference.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:175874424084",
+                  "sourceUrl": "https://www.ebay.com/itm/175874424084",
+                  "soldAt": "2025-10-10",
+                  "value": 3,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. One explicitly identified Ruan Cover A raw sale within the past year. Mixed $4.24 guide includes Mercado and unspecified variants; excluded those and ambiguous covers. Sparse, stale reference."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_9720335865_FRONT.jpg",
         "back": "Authority_9720335865_BACK.jpg"

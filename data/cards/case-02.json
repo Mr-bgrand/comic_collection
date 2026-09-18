@@ -2707,7 +2707,237 @@
       "certUrl": "https://my.taggrading.com/card/H1116328",
       "gradeDate": "2025-04-22",
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "morning-2026-09-18-TAG-H1116328",
+            "copyId": "TAG:H1116328",
+            "basis": "psa-comparison",
+            "evidenceKind": "sold-comps",
+            "value": 26,
+            "currency": "USD",
+            "source": {
+              "name": "SportsCardsPro",
+              "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-donruss-rated-rookies-retro/jayden-daniels-11",
+              "asOf": "2026-09-11",
+              "retrievedAt": "2026-09-18T13:40:19.566Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "DONRUSS",
+                "series": "DONRUSS",
+                "subject": "JAYDEN DANIELS",
+                "cardNumber": "11",
+                "variety": "RATED ROOKIE RETRO",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-donruss-rated-rookies-retro/jayden-daniels-11",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T13:40:19.566Z",
+              "notes": "2024 Donruss Rated Rookies Retro Jayden Daniels #11, TAG 9. Five newest explicit same-card PSA 9 transactions. Other graders, base Donruss rookie #327 and parallels excluded; exact PSA comparison is owner-authorized."
+            },
+            "saleCount": 5,
+            "range": {
+              "low": 21.95,
+              "high": 31,
+              "method": "observed-iqr"
+            },
+            "transactions": [
+              {
+                "transactionId": "ebay:206532552403",
+                "sourceUrl": "https://www.ebay.com/itm/206532552403",
+                "soldAt": "2026-09-11",
+                "value": 19.52,
+                "identity": {
+                  "kind": "card",
+                  "year": "2024",
+                  "brand": "DONRUSS",
+                  "series": "DONRUSS",
+                  "subject": "JAYDEN DANIELS",
+                  "cardNumber": "11",
+                  "variety": "RATED ROOKIE RETRO",
+                  "language": "",
+                  "qualifiers": "",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "labelCategory": "",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": ""
+                },
+                "grade": "9",
+                "grader": "PSA",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              },
+              {
+                "transactionId": "ebay:377458800501",
+                "sourceUrl": "https://www.ebay.com/itm/377458800501",
+                "soldAt": "2026-09-07",
+                "value": 26,
+                "identity": {
+                  "kind": "card",
+                  "year": "2024",
+                  "brand": "DONRUSS",
+                  "series": "DONRUSS",
+                  "subject": "JAYDEN DANIELS",
+                  "cardNumber": "11",
+                  "variety": "RATED ROOKIE RETRO",
+                  "language": "",
+                  "qualifiers": "",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "labelCategory": "",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": ""
+                },
+                "grade": "9",
+                "grader": "PSA",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              },
+              {
+                "transactionId": "ebay:287556891121",
+                "sourceUrl": "https://www.ebay.com/itm/287556891121",
+                "soldAt": "2026-09-02",
+                "value": 21.95,
+                "identity": {
+                  "kind": "card",
+                  "year": "2024",
+                  "brand": "DONRUSS",
+                  "series": "DONRUSS",
+                  "subject": "JAYDEN DANIELS",
+                  "cardNumber": "11",
+                  "variety": "RATED ROOKIE RETRO",
+                  "language": "",
+                  "qualifiers": "",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "labelCategory": "",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": ""
+                },
+                "grade": "9",
+                "grader": "PSA",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              },
+              {
+                "transactionId": "ebay:377451694479",
+                "sourceUrl": "https://www.ebay.com/itm/377451694479",
+                "soldAt": "2026-09-02",
+                "value": 31,
+                "identity": {
+                  "kind": "card",
+                  "year": "2024",
+                  "brand": "DONRUSS",
+                  "series": "DONRUSS",
+                  "subject": "JAYDEN DANIELS",
+                  "cardNumber": "11",
+                  "variety": "RATED ROOKIE RETRO",
+                  "language": "",
+                  "qualifiers": "",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "labelCategory": "",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": ""
+                },
+                "grade": "9",
+                "grader": "PSA",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              },
+              {
+                "transactionId": "ebay:128046275559",
+                "sourceUrl": "https://www.ebay.com/itm/128046275559",
+                "soldAt": "2026-09-01",
+                "value": 46,
+                "identity": {
+                  "kind": "card",
+                  "year": "2024",
+                  "brand": "DONRUSS",
+                  "series": "DONRUSS",
+                  "subject": "JAYDEN DANIELS",
+                  "cardNumber": "11",
+                  "variety": "RATED ROOKIE RETRO",
+                  "language": "",
+                  "qualifiers": "",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "labelCategory": "",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": ""
+                },
+                "grade": "9",
+                "grader": "PSA",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              }
+            ]
+          }
+        ],
+        "selection": {
+          "observationId": "morning-2026-09-18-TAG-H1116328",
+          "locked": true,
+          "selectedAt": "2026-09-18T13:40:19.851Z"
+        }
+      },
       "population": {
         "atGrade": 13,
         "total": 19,
@@ -4586,7 +4816,140 @@
       "certUrl": "https://my.taggrading.com/card/V8723321",
       "gradeDate": "2025-07-09",
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "morning-2026-09-18-TAG-V8723321",
+            "copyId": "TAG:V8723321",
+            "basis": "psa-comparison",
+            "evidenceKind": "sold-comps",
+            "value": 61.8,
+            "currency": "USD",
+            "source": {
+              "name": "SportsCardsPro",
+              "url": "https://www.sportscardspro.com/game/basketball-cards-2024-panini-prizm-sublime/james-harden-18",
+              "asOf": "2026-03-16",
+              "retrievedAt": "2026-09-18T13:40:19.566Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PANINI PRIZM",
+                "series": "PANINI PRIZM",
+                "subject": "JAMES HARDEN",
+                "cardNumber": "18",
+                "variety": "SUBLIME",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "PSA",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://www.sportscardspro.com/game/basketball-cards-2024-panini-prizm-sublime/james-harden-18",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T13:40:19.566Z",
+              "notes": "Owned slab confirms 2024 Panini Prizm Sublime James Harden #18, TAG 10. No direct TAG 10 history in reviewed catalog. Median of two explicitly matching PSA 10 sales within the last year. Excluded July 2026 listing 297904320102 displaying $325 with $374.99 crossed-out: accepted offer amount could not be independently confirmed. Older August/June 2025 rows were outside the one-year window. Historical comparison may lag the current market."
+            },
+            "saleCount": 2,
+            "range": {
+              "low": 57.6,
+              "high": 66,
+              "method": "min-max"
+            },
+            "transactions": [
+              {
+                "transactionId": "ebay:298082079125",
+                "sourceUrl": "https://www.ebay.com/itm/298082079125",
+                "soldAt": "2026-03-16",
+                "value": 57.6,
+                "identity": {
+                  "kind": "card",
+                  "year": "2024",
+                  "brand": "PANINI PRIZM",
+                  "series": "PANINI PRIZM",
+                  "subject": "JAMES HARDEN",
+                  "cardNumber": "18",
+                  "variety": "SUBLIME",
+                  "language": "",
+                  "qualifiers": "",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "labelCategory": "",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": ""
+                },
+                "grade": "10",
+                "grader": "PSA",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              },
+              {
+                "transactionId": "ebay:297779798430",
+                "sourceUrl": "https://www.ebay.com/itm/297779798430",
+                "soldAt": "2025-11-24",
+                "value": 66,
+                "identity": {
+                  "kind": "card",
+                  "year": "2024",
+                  "brand": "PANINI PRIZM",
+                  "series": "PANINI PRIZM",
+                  "subject": "JAMES HARDEN",
+                  "cardNumber": "18",
+                  "variety": "SUBLIME",
+                  "language": "",
+                  "qualifiers": "",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "labelCategory": "",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": ""
+                },
+                "grade": "10",
+                "grader": "PSA",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              }
+            ],
+            "provisional": true,
+            "provisionalReason": "Two PSA 10 comparisons, newest March 2026; more recent offer record unresolved. Low confidence in current market level."
+          }
+        ],
+        "selection": {
+          "observationId": "morning-2026-09-18-TAG-V8723321",
+          "locked": true,
+          "selectedAt": "2026-09-18T13:40:19.851Z"
+        }
+      },
       "population": {
         "atGrade": 1,
         "total": 1,
@@ -11326,7 +11689,107 @@
       "certUrl": "https://my.taggrading.com/card/T3906312",
       "gradeDate": "2025-07-09",
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "morning-2026-09-18-TAG-T3906312",
+            "copyId": "TAG:T3906312",
+            "basis": "psa-comparison",
+            "evidenceKind": "sold-comps",
+            "value": 44.99,
+            "currency": "USD",
+            "source": {
+              "name": "SportsCardsPro",
+              "url": "https://www.sportscardspro.com/game/basketball-cards-2024-panini-caitlin-clark-collection/caitlin-clark-floating-hearts-19",
+              "asOf": "2026-08-05",
+              "retrievedAt": "2026-09-18T13:40:19.566Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PANINI CAITLIN CLARK COLLECTION",
+                "series": "PANINI CAITLIN CLARK COLLECTION",
+                "subject": "CAITLIN CLARK",
+                "cardNumber": "19",
+                "variety": "FLOATING HEARTS",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://www.sportscardspro.com/game/basketball-cards-2024-panini-caitlin-clark-collection/caitlin-clark-floating-hearts-19",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-18T13:40:19.566Z",
+              "notes": "Exact 2024 Panini Caitlin Clark Collection Donruss #19 Floating Hearts /199, owned TAG 9. One reported PSA 9 sale within the last year. Excluded April 2025 serial 001/199 copy, whose first serial may carry a premium, and older December 2024 transaction. Base/non-heart variants not used."
+            },
+            "saleCount": 1,
+            "range": {
+              "low": 44.99,
+              "high": 44.99,
+              "method": "min-max"
+            },
+            "transactions": [
+              {
+                "transactionId": "ebay:406935956710",
+                "sourceUrl": "https://www.ebay.com/itm/406935956710",
+                "soldAt": "2026-08-05",
+                "value": 44.99,
+                "identity": {
+                  "kind": "card",
+                  "year": "2024",
+                  "brand": "PANINI CAITLIN CLARK COLLECTION",
+                  "series": "PANINI CAITLIN CLARK COLLECTION",
+                  "subject": "CAITLIN CLARK",
+                  "cardNumber": "19",
+                  "variety": "FLOATING HEARTS",
+                  "language": "",
+                  "qualifiers": "",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "labelCategory": "",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": ""
+                },
+                "grade": "9",
+                "grader": "PSA",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              }
+            ],
+            "provisional": true,
+            "provisionalReason": "One recent same-grade PSA comparison; limited history."
+          }
+        ],
+        "selection": {
+          "observationId": "morning-2026-09-18-TAG-T3906312",
+          "locked": true,
+          "selectedAt": "2026-09-18T13:40:19.851Z"
+        }
+      },
       "population": {
         "atGrade": 1,
         "total": 1,
