@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-19T21:46:41.562Z",
+  "copyId": "CGC:4093107189",
+  "changes": [
+    {
+      "field": "cardNumber",
+      "previous": null,
+      "value": "070"
+    }
+  ],
+  "evidence": {
+    "ownedScan": "data/images/CGC_4093107189_FRONT.jpg",
+    "referenceUrl": "https://www.fanaticscollect.com/buy-now/f0c142f5-d0d4-4bfa-bab2-ea16ed7139ab",
+    "referenceImage": "https://cdn-vault.fanaticscollect.com/2025/10/24/rm4/medium/v1661647_2020102309112302R_21.jpg",
+    "referenceCert": "6089999011",
+    "notes": "Both images were visually reviewed. Bottom-right of owned card says No.070; CGC label names Japanese 1998 Vending Series 3, Mint 9. 070 is the printed Pokedex identifier used by catalogs, not a new cert or a fabricated set sequence. Only the previously missing cardNumber field is filled; grade, location, images and all other inventory fields unchanged."
+  }
+}

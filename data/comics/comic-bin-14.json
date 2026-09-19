@@ -3242,7 +3242,97 @@
         "capturedAt": "2026-09-07T23:51:05.324Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "night-2026-09-19-Authority-1612926433",
+            "copyId": "Authority:1612926433",
+            "basis": "raw-reference",
+            "value": 6.59,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-trinity-special-world%E2%80%99s-finest/trinity-special-world%E2%80%99s-finest-ortega-1-2024",
+              "asOf": "2026-07-23",
+              "retrievedAt": "2026-09-19T21:47:38.540Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Trinity Special: World's Finest",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "DC Comics",
+                "variant": "Ortega Card Stock Variant",
+                "upc": "76194138619500121",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-trinity-special-world%E2%80%99s-finest/trinity-special-world%E2%80%99s-finest-ortega-1-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T21:47:38.540Z",
+              "notes": "Exact full UPC 76194138619500121 and owned title/edition matched to PriceCharting product 7324163. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five latest explicitly named World's Finest Cover B Ortega sales, including the two low sales. Wide dispersion and older January comparisons. The January 2024 Trinity Special Ortega catalog (UPC 76194138316300131) is a different book and excluded.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:137523702318",
+                  "sourceUrl": "https://www.ebay.com/itm/137523702318",
+                  "soldAt": "2026-07-23",
+                  "value": 0.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:137348940977",
+                  "sourceUrl": "https://www.ebay.com/itm/137348940977",
+                  "soldAt": "2026-06-01",
+                  "value": 1.5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:204996771347",
+                  "sourceUrl": "https://www.ebay.com/itm/204996771347",
+                  "soldAt": "2026-01-29",
+                  "value": 7.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:365096568068",
+                  "sourceUrl": "https://www.ebay.com/itm/365096568068",
+                  "soldAt": "2026-01-28",
+                  "value": 6.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:127562478502",
+                  "sourceUrl": "https://www.ebay.com/itm/127562478502",
+                  "soldAt": "2026-01-28",
+                  "value": 6.59,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five latest explicitly named World's Finest Cover B Ortega sales, including the two low sales. Wide dispersion and older January comparisons. The January 2024 Trinity Special Ortega catalog (UPC 76194138316300131) is a different book and excluded."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_1612926433_FRONT.jpg",
         "back": "Authority_1612926433_BACK.jpg"
@@ -4891,7 +4981,97 @@
         "capturedAt": "2026-09-07T23:52:05.730Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "night-2026-09-19-Authority-2556429102",
+            "copyId": "Authority:2556429102",
+            "basis": "raw-reference",
+            "value": 4.24,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/es/game/comic-books-power-girl/power-girl-segovia-12-2024",
+              "asOf": "2026-08-12",
+              "retrievedAt": "2026-09-19T21:47:38.540Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Power Girl",
+                "issue": "12",
+                "issueYear": "2024",
+                "publisher": "DC Comics",
+                "variant": "Segovia Card Stock Variant",
+                "upc": "76194138173201231",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "3",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/es/game/comic-books-power-girl/power-girl-segovia-12-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T21:47:38.540Z",
+              "notes": "Exact full UPC 76194138173201231 and owned title/edition matched to PriceCharting product 7310247. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Latest five explicitly named Cover C Stephen Segovia cardstock raw sales. Several comparisons are over six months old. Source-reported completion; no owned condition inferred.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:135396884309",
+                  "sourceUrl": "https://www.ebay.com/itm/135396884309",
+                  "soldAt": "2026-08-12",
+                  "value": 4.21,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:387357633206",
+                  "sourceUrl": "https://www.ebay.com/itm/387357633206",
+                  "soldAt": "2026-05-20",
+                  "value": 4.24,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:226152086134",
+                  "sourceUrl": "https://www.ebay.com/itm/226152086134",
+                  "soldAt": "2026-03-18",
+                  "value": 4.49,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:205397341949",
+                  "sourceUrl": "https://www.ebay.com/itm/205397341949",
+                  "soldAt": "2026-02-18",
+                  "value": 3.19,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:196565440336",
+                  "sourceUrl": "https://www.ebay.com/itm/196565440336",
+                  "soldAt": "2026-02-15",
+                  "value": 4.84,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Latest five explicitly named Cover C Stephen Segovia cardstock raw sales. Several comparisons are over six months old. Source-reported completion; no owned condition inferred."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_2556429102_FRONT.jpg",
         "back": "Authority_2556429102_BACK.jpg"
@@ -4988,7 +5168,97 @@
         "capturedAt": "2026-09-07T23:52:26.849Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "night-2026-09-19-Authority-1787185948",
+            "copyId": "Authority:1787185948",
+            "basis": "raw-reference",
+            "value": 4.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-nyx/nyx-artgerm-1-2024",
+              "asOf": "2026-09-02",
+              "retrievedAt": "2026-09-19T21:47:38.540Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "NYX",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Artgerm Variant",
+                "upc": "75960620918700131",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-nyx/nyx-artgerm-1-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T21:47:38.540Z",
+              "notes": "Exact full UPC 75960620918700131 and owned title/edition matched to PriceCharting product 7048797. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Latest five first-print Artgerm trade-cover raw sales. Seller-described VF through NM conditions and low prices are retained; virgin and second-print editions excluded. Source-reported completed rows, not individually reverified eBay archives.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:327324353848",
+                  "sourceUrl": "https://www.ebay.com/itm/327324353848",
+                  "soldAt": "2026-09-02",
+                  "value": 5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:177379166781",
+                  "sourceUrl": "https://www.ebay.com/itm/177379166781",
+                  "soldAt": "2026-08-16",
+                  "value": 4.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:267745735362",
+                  "sourceUrl": "https://www.ebay.com/itm/267745735362",
+                  "soldAt": "2026-08-09",
+                  "value": 2,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:365047616618",
+                  "sourceUrl": "https://www.ebay.com/itm/365047616618",
+                  "soldAt": "2026-07-20",
+                  "value": 7,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:267616957633",
+                  "sourceUrl": "https://www.ebay.com/itm/267616957633",
+                  "soldAt": "2026-06-25",
+                  "value": 2.95,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Latest five first-print Artgerm trade-cover raw sales. Seller-described VF through NM conditions and low prices are retained; virgin and second-print editions excluded. Source-reported completed rows, not individually reverified eBay archives."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_1787185948_FRONT.jpg",
         "back": "Authority_1787185948_BACK.jpg"
@@ -5089,7 +5359,97 @@
         "capturedAt": "2026-09-07T23:52:29.102Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "night-2026-09-19-Authority-4036518340",
+            "copyId": "Authority:4036518340",
+            "basis": "raw-reference",
+            "value": 5.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-batman/batman-march-152-2024",
+              "asOf": "2026-09-02",
+              "retrievedAt": "2026-09-19T21:47:38.540Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Batman",
+                "issue": "152",
+                "issueYear": "2024",
+                "publisher": "DC Comics",
+                "variant": "March Card Stock Variant",
+                "upc": "76194134182815221",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "3",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-batman/batman-march-152-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T21:47:38.540Z",
+              "notes": "Exact full UPC 76194134182815221 and owned title/edition matched to PriceCharting product 7323707. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Latest five explicitly named Guillem March Cover B raw sales; four are older than five months. Other Batman 152 covers excluded. Source-reported completion and seller conditions do not establish owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:326255743432",
+                  "sourceUrl": "https://www.ebay.com/itm/326255743432",
+                  "soldAt": "2026-09-02",
+                  "value": 5.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:196582568978",
+                  "sourceUrl": "https://www.ebay.com/itm/196582568978",
+                  "soldAt": "2026-03-24",
+                  "value": 5.69,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:197526032740",
+                  "sourceUrl": "https://www.ebay.com/itm/197526032740",
+                  "soldAt": "2026-01-12",
+                  "value": 4.5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:177393116076",
+                  "sourceUrl": "https://www.ebay.com/itm/177393116076",
+                  "soldAt": "2025-12-09",
+                  "value": 5.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:167018404533",
+                  "sourceUrl": "https://www.ebay.com/itm/167018404533",
+                  "soldAt": "2025-11-21",
+                  "value": 9.66,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Latest five explicitly named Guillem March Cover B raw sales; four are older than five months. Other Batman 152 covers excluded. Source-reported completion and seller conditions do not establish owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_4036518340_FRONT.jpg",
         "back": "Authority_4036518340_BACK.jpg"
@@ -5279,7 +5639,97 @@
         "capturedAt": "2026-09-07T23:52:36.167Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "night-2026-09-19-Authority-5020777607",
+            "copyId": "Authority:5020777607",
+            "basis": "raw-reference",
+            "value": 15,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-wolverine/wolverine-gleason-adamantium-head-foil-1-2024",
+              "asOf": "2026-09-02",
+              "retrievedAt": "2026-09-19T21:47:38.540Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Wolverine",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Adamantium Head Foil Variant",
+                "upc": "75960620841800181",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "I",
+                "volume": "8",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-wolverine/wolverine-gleason-adamantium-head-foil-1-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T21:47:38.540Z",
+              "notes": "Exact full UPC 75960620841800181 and owned title/edition matched to PriceCharting product 7566652. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five latest clearly identified Adamantium Head Foil raw rows after excluding the $80 May 25 row 358287497785: its old URL redirects to a product page advertising a different CGC 9.9 copy, so the original condition/completion cannot be reverified. That redirection does not prove the archived item was graded. Retained seller **RD notation is unexplained and may imply a condition defect. Reference only, no owned condition inferred. The separate Adamantium Head V barcode 75960620841800118 is not merged.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:287498939504",
+                  "sourceUrl": "https://www.ebay.com/itm/287498939504",
+                  "soldAt": "2026-09-02",
+                  "value": 15.2,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:168580464864",
+                  "sourceUrl": "https://www.ebay.com/itm/168580464864",
+                  "soldAt": "2026-08-17",
+                  "value": 15,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:327201476211",
+                  "sourceUrl": "https://www.ebay.com/itm/327201476211",
+                  "soldAt": "2026-07-22",
+                  "value": 15.75,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:236897186151",
+                  "sourceUrl": "https://www.ebay.com/itm/236897186151",
+                  "soldAt": "2026-06-28",
+                  "value": 15,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:146774348911",
+                  "sourceUrl": "https://www.ebay.com/itm/146774348911",
+                  "soldAt": "2026-05-14",
+                  "value": 12.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five latest clearly identified Adamantium Head Foil raw rows after excluding the $80 May 25 row 358287497785: its old URL redirects to a product page advertising a different CGC 9.9 copy, so the original condition/completion cannot be reverified. That redirection does not prove the archived item was graded. Retained seller **RD notation is unexplained and may imply a condition defect. Reference only, no owned condition inferred. The separate Adamantium Head V barcode 75960620841800118 is not merged."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_5020777607_FRONT.jpg",
         "back": "Authority_5020777607_BACK.jpg"
@@ -5374,7 +5824,97 @@
         "capturedAt": "2026-09-07T23:52:38.515Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "night-2026-09-19-Authority-0034476645",
+            "copyId": "Authority:0034476645",
+            "basis": "raw-reference",
+            "value": 15,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-wolverine/wolverine-gleason-adamantium-head-foil-1-2024",
+              "asOf": "2026-09-02",
+              "retrievedAt": "2026-09-19T21:47:38.540Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Wolverine",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Adamantium Head Foil Variant",
+                "upc": "75960620841800181",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "I",
+                "volume": "8",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-wolverine/wolverine-gleason-adamantium-head-foil-1-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T21:47:38.540Z",
+              "notes": "Exact full UPC 75960620841800181 and owned title/edition matched to PriceCharting product 7566652. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five latest clearly identified Adamantium Head Foil raw rows after excluding the $80 May 25 row 358287497785: its old URL redirects to a product page advertising a different CGC 9.9 copy, so the original condition/completion cannot be reverified. That redirection does not prove the archived item was graded. Retained seller **RD notation is unexplained and may imply a condition defect. Reference only, no owned condition inferred. The separate Adamantium Head V barcode 75960620841800118 is not merged.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:287498939504",
+                  "sourceUrl": "https://www.ebay.com/itm/287498939504",
+                  "soldAt": "2026-09-02",
+                  "value": 15.2,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:168580464864",
+                  "sourceUrl": "https://www.ebay.com/itm/168580464864",
+                  "soldAt": "2026-08-17",
+                  "value": 15,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:327201476211",
+                  "sourceUrl": "https://www.ebay.com/itm/327201476211",
+                  "soldAt": "2026-07-22",
+                  "value": 15.75,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:236897186151",
+                  "sourceUrl": "https://www.ebay.com/itm/236897186151",
+                  "soldAt": "2026-06-28",
+                  "value": 15,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:146774348911",
+                  "sourceUrl": "https://www.ebay.com/itm/146774348911",
+                  "soldAt": "2026-05-14",
+                  "value": 12.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five latest clearly identified Adamantium Head Foil raw rows after excluding the $80 May 25 row 358287497785: its old URL redirects to a product page advertising a different CGC 9.9 copy, so the original condition/completion cannot be reverified. That redirection does not prove the archived item was graded. Retained seller **RD notation is unexplained and may imply a condition defect. Reference only, no owned condition inferred. The separate Adamantium Head V barcode 75960620841800118 is not merged."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_0034476645_FRONT.jpg",
         "back": "Authority_0034476645_BACK.jpg"
@@ -5469,7 +6009,97 @@
         "capturedAt": "2026-09-07T23:52:40.757Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "night-2026-09-19-Authority-8641480131",
+            "copyId": "Authority:8641480131",
+            "basis": "raw-reference",
+            "value": 5.95,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-momoko-47-2024",
+              "asOf": "2026-08-23",
+              "retrievedAt": "2026-09-19T21:47:38.540Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Amazing Spider-Man",
+                "issue": "47",
+                "issueYear": "2022",
+                "publisher": "Marvel Comics",
+                "variant": "Momoko Variant",
+                "upc": "75960620200304731",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "6",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-momoko-47-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T21:47:38.540Z",
+              "notes": "Exact full UPC 75960620200304731 and owned title/edition matched to PriceCharting product 6635227. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Latest five Momoko Cover C raw rows; $15.99 high amount retained. One title has an extra inconsistent 2023 suffix but explicitly names 2024 Cover C, and catalog full UPC matches. Source-reported sales with seller condition differences; owned condition unassessed.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:178319248013",
+                  "sourceUrl": "https://www.ebay.com/itm/178319248013",
+                  "soldAt": "2026-08-23",
+                  "value": 5.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:145726470516",
+                  "sourceUrl": "https://www.ebay.com/itm/145726470516",
+                  "soldAt": "2026-08-10",
+                  "value": 15.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:176810152931",
+                  "sourceUrl": "https://www.ebay.com/itm/176810152931",
+                  "soldAt": "2026-07-17",
+                  "value": 4.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:335291317280",
+                  "sourceUrl": "https://www.ebay.com/itm/335291317280",
+                  "soldAt": "2026-06-07",
+                  "value": 4.66,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:188035637511",
+                  "sourceUrl": "https://www.ebay.com/itm/188035637511",
+                  "soldAt": "2026-03-08",
+                  "value": 5.95,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Latest five Momoko Cover C raw rows; $15.99 high amount retained. One title has an extra inconsistent 2023 suffix but explicitly names 2024 Cover C, and catalog full UPC matches. Source-reported sales with seller condition differences; owned condition unassessed."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_8641480131_FRONT.jpg",
         "back": "Authority_8641480131_BACK.jpg"
@@ -5564,7 +6194,97 @@
         "capturedAt": "2026-09-07T23:52:43.171Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "night-2026-09-19-Authority-1658094494",
+            "copyId": "Authority:1658094494",
+            "basis": "raw-reference",
+            "value": 4.05,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-the-ghost-spider/spider-gwen-the-ghost-spider-villalobos-2-2024",
+              "asOf": "2026-06-27",
+              "retrievedAt": "2026-09-19T21:47:38.540Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spider-Gwen: The Ghost-Spider",
+                "issue": "2",
+                "issueYear": "",
+                "publisher": "Marvel Comics",
+                "variant": "Villalobos Variant",
+                "upc": "75960620908800221",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-the-ghost-spider/spider-gwen-the-ghost-spider-villalobos-2-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T21:47:38.540Z",
+              "notes": "Exact full UPC 75960620908800221 and owned title/edition matched to PriceCharting product 6903514. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Latest five Villalobos raw references; wide price spread and several stale sales. Individual original eBay completion and comparison condition not independently verified.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:227401283748",
+                  "sourceUrl": "https://www.ebay.com/itm/227401283748",
+                  "soldAt": "2026-06-27",
+                  "value": 3.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:127520188459",
+                  "sourceUrl": "https://www.ebay.com/itm/127520188459",
+                  "soldAt": "2026-03-21",
+                  "value": 9.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:196617063829",
+                  "sourceUrl": "https://www.ebay.com/itm/196617063829",
+                  "soldAt": "2026-03-18",
+                  "value": 3.5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:335407917764",
+                  "sourceUrl": "https://www.ebay.com/itm/335407917764",
+                  "soldAt": "2026-01-17",
+                  "value": 4.05,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:315503490410",
+                  "sourceUrl": "https://www.ebay.com/itm/315503490410",
+                  "soldAt": "2026-01-10",
+                  "value": 7.32,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Latest five Villalobos raw references; wide price spread and several stale sales. Individual original eBay completion and comparison condition not independently verified."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_1658094494_FRONT.jpg",
         "back": "Authority_1658094494_BACK.jpg"
@@ -5662,7 +6382,97 @@
         "capturedAt": "2026-09-07T23:52:45.394Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "night-2026-09-19-Authority-7968227093",
+            "copyId": "Authority:7968227093",
+            "basis": "raw-reference",
+            "value": 3.75,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/es/game/comic-books-ms-marvel-mutant-menace/ms-marvel-mutant-menace-momoko-3-2024",
+              "asOf": "2026-05-20",
+              "retrievedAt": "2026-09-19T21:47:38.540Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Ms. Marvel: Mutant Menace",
+                "issue": "3",
+                "issueYear": "2024",
+                "publisher": "Marvel",
+                "variant": "Peach Momoko Variant",
+                "upc": "75960620910100341",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/es/game/comic-books-ms-marvel-mutant-menace/ms-marvel-mutant-menace-momoko-3-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T21:47:38.540Z",
+              "notes": "Exact full UPC 75960620910100341 and owned title/edition matched to PriceCharting product 6736716. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five latest Momoko variant raw sales; seller-described VF/NM comparisons and wide price dispersion. Latest evidence is four months old. Individual original eBay transactions not independently reverified.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:326142954632",
+                  "sourceUrl": "https://www.ebay.com/itm/326142954632",
+                  "soldAt": "2026-05-20",
+                  "value": 8.49,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:365718091871",
+                  "sourceUrl": "https://www.ebay.com/itm/365718091871",
+                  "soldAt": "2026-04-08",
+                  "value": 2.22,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:318110141028",
+                  "sourceUrl": "https://www.ebay.com/itm/318110141028",
+                  "soldAt": "2026-04-06",
+                  "value": 2,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:296365039222",
+                  "sourceUrl": "https://www.ebay.com/itm/296365039222",
+                  "soldAt": "2026-03-12",
+                  "value": 3.75,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:364888049710",
+                  "sourceUrl": "https://www.ebay.com/itm/364888049710",
+                  "soldAt": "2026-03-11",
+                  "value": 3.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five latest Momoko variant raw sales; seller-described VF/NM comparisons and wide price dispersion. Latest evidence is four months old. Individual original eBay transactions not independently reverified."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_7968227093_FRONT.jpg",
         "back": "Authority_7968227093_BACK.jpg"
@@ -5757,7 +6567,69 @@
         "capturedAt": "2026-09-07T23:53:18.003Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "night-2026-09-19-Authority-5638527647",
+            "copyId": "Authority:5638527647",
+            "basis": "raw-reference",
+            "value": 4.49,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-ultimate-x-men/ultimate-x-men-momoko-3-2024",
+              "asOf": "2026-01-02",
+              "retrievedAt": "2026-09-19T21:47:38.540Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Ultimate X-Men",
+                "issue": "3",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Momoko Variant",
+                "upc": "75960620798500341",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "D",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-ultimate-x-men/ultimate-x-men-momoko-3-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T21:47:38.540Z",
+              "notes": "Exact full UPC 75960620798500341 and owned title/edition matched to PriceCharting product 6736658. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Only one unambiguous first-print Cover D Peach Momoko raw row retained. Catalog mixes regular Cover A, second print, 1:25 and other variants; all excluded. Generic first-print-variant row 147515472581 now redirects to a product/active listing and could not establish the archived cover. Sparse stale single-sale reference.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:357355378453",
+                  "sourceUrl": "https://www.ebay.com/itm/357355378453",
+                  "soldAt": "2026-01-02",
+                  "value": 4.49,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Only one unambiguous first-print Cover D Peach Momoko raw row retained. Catalog mixes regular Cover A, second print, 1:25 and other variants; all excluded. Generic first-print-variant row 147515472581 now redirects to a product/active listing and could not establish the archived cover. Sparse stale single-sale reference."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_5638527647_FRONT.jpg",
         "back": "Authority_5638527647_BACK.jpg"
@@ -5852,7 +6724,97 @@
         "capturedAt": "2026-09-07T23:53:20.247Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "night-2026-09-19-Authority-1026812613",
+            "copyId": "Authority:1026812613",
+            "basis": "raw-reference",
+            "value": 4.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-ultimate-x-men/ultimate-x-men-momoko-3-2024",
+              "asOf": "2026-05-28",
+              "retrievedAt": "2026-09-19T21:47:38.540Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Ultimate X-Men",
+                "issue": "3",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "",
+                "upc": "75960620798500311",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "A",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-ultimate-x-men/ultimate-x-men-momoko-3-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T21:47:38.540Z",
+              "notes": "Owned regular-cover UPC 75960620798500311 verified against Marvel official issue https://www.marvel.com/comics/issue/112999/ and PriceCharting regular product 6736653 https://www.pricecharting.com/game/comic-books-ultimate-x-men/ultimate-x-men-3-2024 . The selected newer transactions are misbucketed under the Momoko variant catalog 6736658 but explicitly identify first-print Cover A/main cover; do not treat the variant catalog UPC as the owned edition. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five explicitly regular Cover A/main-cover transactions across April-May 2026; catalog identity mixing makes this a provisional reference. Individual original eBay photographs were not reverified. No owned condition inferred.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:136640915017",
+                  "sourceUrl": "https://www.ebay.com/itm/136640915017",
+                  "soldAt": "2026-05-28",
+                  "value": 5.95,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:286180747819",
+                  "sourceUrl": "https://www.ebay.com/itm/286180747819",
+                  "soldAt": "2026-05-27",
+                  "value": 5.95,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:366021103958",
+                  "sourceUrl": "https://www.ebay.com/itm/366021103958",
+                  "soldAt": "2026-05-18",
+                  "value": 2.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:387032246765",
+                  "sourceUrl": "https://www.ebay.com/itm/387032246765",
+                  "soldAt": "2026-04-18",
+                  "value": 4.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:277881627870",
+                  "sourceUrl": "https://www.ebay.com/itm/277881627870",
+                  "soldAt": "2026-04-16",
+                  "value": 4.95,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five explicitly regular Cover A/main-cover transactions across April-May 2026; catalog identity mixing makes this a provisional reference. Individual original eBay photographs were not reverified. No owned condition inferred."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_1026812613_FRONT.jpg",
         "back": "Authority_1026812613_BACK.jpg"
@@ -6045,7 +7007,97 @@
         "capturedAt": "2026-09-07T23:53:24.651Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "night-2026-09-19-Authority-7600118770",
+            "copyId": "Authority:7600118770",
+            "basis": "raw-reference",
+            "value": 3.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-ms-marvel-mutant-menace/ms-marvel-mutant-menace-momoko-2-2024",
+              "asOf": "2026-05-17",
+              "retrievedAt": "2026-09-19T21:47:38.540Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Ms. Marvel: Mutant Menace",
+                "issue": "2",
+                "issueYear": "2024",
+                "publisher": "Marvel",
+                "variant": "Peach Momoko Variant",
+                "upc": "75960620910100221",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-ms-marvel-mutant-menace/ms-marvel-mutant-menace-momoko-2-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T21:47:38.540Z",
+              "notes": "Exact full UPC 75960620910100221 and owned title/edition matched to PriceCharting product 6635325. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five latest Momoko variant raw transactions, including the low $0.99 and $1.20 sales. Several-month-old, source-reported history; no condition assigned to owned copy.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:364828862202",
+                  "sourceUrl": "https://www.ebay.com/itm/364828862202",
+                  "soldAt": "2026-05-17",
+                  "value": 3.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:196496229999",
+                  "sourceUrl": "https://www.ebay.com/itm/196496229999",
+                  "soldAt": "2026-05-14",
+                  "value": 3.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:137102417294",
+                  "sourceUrl": "https://www.ebay.com/itm/137102417294",
+                  "soldAt": "2026-03-12",
+                  "value": 0.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:147180933049",
+                  "sourceUrl": "https://www.ebay.com/itm/147180933049",
+                  "soldAt": "2026-03-10",
+                  "value": 5.25,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:127661556647",
+                  "sourceUrl": "https://www.ebay.com/itm/127661556647",
+                  "soldAt": "2026-02-26",
+                  "value": 1.2,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five latest Momoko variant raw transactions, including the low $0.99 and $1.20 sales. Several-month-old, source-reported history; no condition assigned to owned copy."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_7600118770_FRONT.jpg",
         "back": "Authority_7600118770_BACK.jpg"
@@ -6142,7 +7194,97 @@
         "capturedAt": "2026-09-07T23:53:26.874Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "night-2026-09-19-Authority-6729153984",
+            "copyId": "Authority:6729153984",
+            "basis": "raw-reference",
+            "value": 24.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-spider-woman/spider-woman-momoko-7-2024",
+              "asOf": "2026-08-15",
+              "retrievedAt": "2026-09-19T21:47:38.540Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spider-Woman",
+                "issue": "7",
+                "issueYear": "2024",
+                "publisher": "Marvel",
+                "variant": "Peach Momoko Black Costume Variant",
+                "upc": "75960620783100721",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "8",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-spider-woman/spider-woman-momoko-7-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T21:47:38.540Z",
+              "notes": "Exact full UPC 75960620783100721 and owned title/edition matched to PriceCharting product 6675928. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Latest five Momoko black-costume trade-cover raw rows, retaining the $4 low result. Wide $4-$29.99 dispersion; second-print virgin catalog is separate and excluded. Source-reported sales only; owned copies receive no condition grade.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:168614465036",
+                  "sourceUrl": "https://www.ebay.com/itm/168614465036",
+                  "soldAt": "2026-08-15",
+                  "value": 4,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:117283292116",
+                  "sourceUrl": "https://www.ebay.com/itm/117283292116",
+                  "soldAt": "2026-08-06",
+                  "value": 22.95,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:158122477763",
+                  "sourceUrl": "https://www.ebay.com/itm/158122477763",
+                  "soldAt": "2026-07-27",
+                  "value": 28,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:407065959275",
+                  "sourceUrl": "https://www.ebay.com/itm/407065959275",
+                  "soldAt": "2026-07-25",
+                  "value": 24.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:306544560597",
+                  "sourceUrl": "https://www.ebay.com/itm/306544560597",
+                  "soldAt": "2026-06-27",
+                  "value": 29.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Latest five Momoko black-costume trade-cover raw rows, retaining the $4 low result. Wide $4-$29.99 dispersion; second-print virgin catalog is separate and excluded. Source-reported sales only; owned copies receive no condition grade."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_6729153984_FRONT.jpg",
         "back": "Authority_6729153984_BACK.jpg"
@@ -6239,7 +7381,97 @@
         "capturedAt": "2026-09-07T23:53:29.168Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "night-2026-09-19-Authority-1886089226",
+            "copyId": "Authority:1886089226",
+            "basis": "raw-reference",
+            "value": 24.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-spider-woman/spider-woman-momoko-7-2024",
+              "asOf": "2026-08-15",
+              "retrievedAt": "2026-09-19T21:47:38.540Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spider-Woman",
+                "issue": "7",
+                "issueYear": "2024",
+                "publisher": "Marvel",
+                "variant": "Peach Momoko Black Costume Variant",
+                "upc": "75960620783100721",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "8",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-spider-woman/spider-woman-momoko-7-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T21:47:38.540Z",
+              "notes": "Exact full UPC 75960620783100721 and owned title/edition matched to PriceCharting product 6675928. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Latest five Momoko black-costume trade-cover raw rows, retaining the $4 low result. Wide $4-$29.99 dispersion; second-print virgin catalog is separate and excluded. Source-reported sales only; owned copies receive no condition grade.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:168614465036",
+                  "sourceUrl": "https://www.ebay.com/itm/168614465036",
+                  "soldAt": "2026-08-15",
+                  "value": 4,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:117283292116",
+                  "sourceUrl": "https://www.ebay.com/itm/117283292116",
+                  "soldAt": "2026-08-06",
+                  "value": 22.95,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:158122477763",
+                  "sourceUrl": "https://www.ebay.com/itm/158122477763",
+                  "soldAt": "2026-07-27",
+                  "value": 28,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:407065959275",
+                  "sourceUrl": "https://www.ebay.com/itm/407065959275",
+                  "soldAt": "2026-07-25",
+                  "value": 24.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:306544560597",
+                  "sourceUrl": "https://www.ebay.com/itm/306544560597",
+                  "soldAt": "2026-06-27",
+                  "value": 29.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Latest five Momoko black-costume trade-cover raw rows, retaining the $4 low result. Wide $4-$29.99 dispersion; second-print virgin catalog is separate and excluded. Source-reported sales only; owned copies receive no condition grade."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_1886089226_FRONT.jpg",
         "back": "Authority_1886089226_BACK.jpg"
@@ -7581,7 +8813,69 @@
         "capturedAt": "2026-09-07T23:54:42.149Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "night-2026-09-19-Authority-3627194745",
+            "copyId": "Authority:3627194745",
+            "basis": "raw-reference",
+            "value": 4.49,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-ultimate-x-men/ultimate-x-men-momoko-3-2024",
+              "asOf": "2026-01-02",
+              "retrievedAt": "2026-09-19T21:47:38.540Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Ultimate X-Men",
+                "issue": "3",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Momoko Variant",
+                "upc": "75960620798500341",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "D",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-ultimate-x-men/ultimate-x-men-momoko-3-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T21:47:38.540Z",
+              "notes": "Exact full UPC 75960620798500341 and owned title/edition matched to PriceCharting product 6736658. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Only one unambiguous first-print Cover D Peach Momoko raw row retained. Catalog mixes regular Cover A, second print, 1:25 and other variants; all excluded. Generic first-print-variant row 147515472581 now redirects to a product/active listing and could not establish the archived cover. Sparse stale single-sale reference.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:357355378453",
+                  "sourceUrl": "https://www.ebay.com/itm/357355378453",
+                  "soldAt": "2026-01-02",
+                  "value": 4.49,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Only one unambiguous first-print Cover D Peach Momoko raw row retained. Catalog mixes regular Cover A, second print, 1:25 and other variants; all excluded. Generic first-print-variant row 147515472581 now redirects to a product/active listing and could not establish the archived cover. Sparse stale single-sale reference."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_3627194745_FRONT.jpg",
         "back": "Authority_3627194745_BACK.jpg"
@@ -7778,7 +9072,97 @@
         "capturedAt": "2026-09-07T23:54:47.917Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "night-2026-09-19-Authority-2378585436",
+            "copyId": "Authority:2378585436",
+            "basis": "raw-reference",
+            "value": 3.75,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/es/game/comic-books-ms-marvel-mutant-menace/ms-marvel-mutant-menace-momoko-3-2024",
+              "asOf": "2026-05-20",
+              "retrievedAt": "2026-09-19T21:47:38.540Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Ms. Marvel: Mutant Menace",
+                "issue": "3",
+                "issueYear": "2024",
+                "publisher": "Marvel",
+                "variant": "Peach Momoko Variant",
+                "upc": "75960620910100341",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/es/game/comic-books-ms-marvel-mutant-menace/ms-marvel-mutant-menace-momoko-3-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T21:47:38.540Z",
+              "notes": "Exact full UPC 75960620910100341 and owned title/edition matched to PriceCharting product 6736716. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five latest Momoko variant raw sales; seller-described VF/NM comparisons and wide price dispersion. Latest evidence is four months old. Individual original eBay transactions not independently reverified.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:326142954632",
+                  "sourceUrl": "https://www.ebay.com/itm/326142954632",
+                  "soldAt": "2026-05-20",
+                  "value": 8.49,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:365718091871",
+                  "sourceUrl": "https://www.ebay.com/itm/365718091871",
+                  "soldAt": "2026-04-08",
+                  "value": 2.22,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:318110141028",
+                  "sourceUrl": "https://www.ebay.com/itm/318110141028",
+                  "soldAt": "2026-04-06",
+                  "value": 2,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:296365039222",
+                  "sourceUrl": "https://www.ebay.com/itm/296365039222",
+                  "soldAt": "2026-03-12",
+                  "value": 3.75,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:364888049710",
+                  "sourceUrl": "https://www.ebay.com/itm/364888049710",
+                  "soldAt": "2026-03-11",
+                  "value": 3.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five latest Momoko variant raw sales; seller-described VF/NM comparisons and wide price dispersion. Latest evidence is four months old. Individual original eBay transactions not independently reverified."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_2378585436_FRONT.jpg",
         "back": "Authority_2378585436_BACK.jpg"
