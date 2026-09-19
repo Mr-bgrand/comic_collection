@@ -1,0 +1,1403 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "CGC:4273634003",
+      "revision": "62d9857f7ee83d530c27e10c2c11f266dd081d5bfc85c34ffbd1f93b5093fa3a",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-19-CGC-4273634003",
+          "copyId": "CGC:4273634003",
+          "basis": "sold-comps",
+          "value": 15,
+          "currency": "USD",
+          "source": {
+            "name": "eBay completed sale",
+            "url": "https://www.ebay.com/itm/375455604577",
+            "asOf": "2024-06-02",
+            "retrievedAt": "2026-09-19T13:47:17.671Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Amazing Spider-Man",
+              "issue": "21",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "Mangiatordi Variant Cover",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.2",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.ebay.com/itm/375455604577",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T13:47:17.671Z",
+            "notes": "Direct eBay archived page confirms sold June 2 at $15.00; year 2024 verified in PriceCharting raw transaction archive, https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-21-2023, grade 9.2 tab. Sale photo https://i.ebayimg.com/images/g/AZ8AAOSw11hmVl6T/s-l1600.webp visually verifies CGC Universal 9.2 WHITE pages, Mangiatordi Variant Cover, color Disney 100 Hulk homage, cert 4421406003. ComicBookRealm's exact Universal/Modern catalog https://comicbookrealm.com/cgc-analyzer/comic/id/305374/marvel-comics-amazing-spider-man-21-mangiatordi-variant-cover also records one 9.2 sale June 2, 2024 at $15. GoCollect exact catalog currently reports no 9.2 sales; its other grades and asking listings were excluded. This is one stale historical comparable, not a current guide or multiple independent sales."
+          },
+          "saleCount": 1,
+          "range": {
+            "low": 15,
+            "high": 15,
+            "method": "min-max"
+          },
+          "transactions": [
+            {
+              "transactionId": "ebay:375455604577",
+              "sourceUrl": "https://www.ebay.com/itm/375455604577",
+              "soldAt": "2024-06-02",
+              "value": 15,
+              "identity": {
+                "kind": "comic",
+                "title": "Amazing Spider-Man",
+                "issue": "21",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Mangiatordi Variant Cover",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.2",
+              "grader": "CGC",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            }
+          ],
+          "provisional": true,
+          "provisionalReason": "Only one exact-grade sale, dated June 2, 2024. Historical evidence is over two years old; current market value may differ materially."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:8393175795",
+      "revision": "09be99ae808877cedc5700845a4a60dcf92cdf6614023664fb559a684ebf4008",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-19-Authority-8393175795",
+          "copyId": "Authority:8393175795",
+          "basis": "raw-reference",
+          "value": 6.38,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-deadpool/deadpool-9-2023",
+            "asOf": "2025-01-18",
+            "retrievedAt": "2026-09-19T13:47:17.671Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Deadpool",
+              "issue": "9",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "Hellfire Gala Variant",
+              "upc": "75960620089400931",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "B",
+              "volume": "8",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-deadpool/deadpool-9-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T13:47:17.671Z",
+            "notes": "Owned full UPC 75960620089400931 identifies Nick Dragotta Hellfire Gala variant, confirmed by Midtown Comics https://www.midtowncomics.com/product/2216009. PriceCharting product 5529355 mixes variants and its catalog UPC ends 00911 (base Coccolo); only the explicit Hellfire Gala transaction was used. The seller calls it 9c but Midtown identifies Hellfire Gala as Cover B; variant name, not the letter, is matched. Older explicit Dragotta sale 186017576780 dated 2023-09-14 at $3.49 retained only as research context, not included in this latest-sale reference. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. One stale January 2025 raw comparison; owned condition remains unassessed. Coccolo, Park Studios, and unidentified variant transactions were excluded.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:365053539223",
+                "sourceUrl": "https://www.ebay.com/itm/365053539223",
+                "soldAt": "2025-01-18",
+                "value": 6.38,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. One stale January 2025 raw comparison; owned condition remains unassessed. Coccolo, Park Studios, and unidentified variant transactions were excluded."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:0477570673",
+      "revision": "3ab6ff121c5c488b93fbac14404178940b56d0f5b4edf32095d613c4caab08e5",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-19-Authority-0477570673",
+          "copyId": "Authority:0477570673",
+          "basis": "raw-reference",
+          "value": 4.45,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-catwoman/catwoman-besch-68-2024",
+            "asOf": "2026-06-25",
+            "retrievedAt": "2026-09-19T13:47:17.671Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Catwoman",
+              "issue": "68",
+              "issueYear": "2024",
+              "publisher": "DC Comics",
+              "variant": "Besch Card Stock Variant",
+              "upc": "76194135682206821",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "C",
+              "volume": "5",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-catwoman/catwoman-besch-68-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T13:47:17.671Z",
+            "notes": "Exact full UPC 76194135682206821 and owned title/edition matched to PriceCharting product 7446401. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Median of five latest explicit Rose Besch regular raw comparisons. NYCC foil/virgin listings and the conflicting Cover B listing were excluded; this is the Cover C cardstock edition. Comparison condition descriptions do not establish either owned copy's condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:157531763240",
+                "sourceUrl": "https://www.ebay.com/itm/157531763240",
+                "soldAt": "2026-06-25",
+                "value": 4.49,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:377042709565",
+                "sourceUrl": "https://www.ebay.com/itm/377042709565",
+                "soldAt": "2026-03-24",
+                "value": 3.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:235817369410",
+                "sourceUrl": "https://www.ebay.com/itm/235817369410",
+                "soldAt": "2026-01-26",
+                "value": 4.45,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:296790052014",
+                "sourceUrl": "https://www.ebay.com/itm/296790052014",
+                "soldAt": "2026-01-07",
+                "value": 7.79,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:135257471043",
+                "sourceUrl": "https://www.ebay.com/itm/135257471043",
+                "soldAt": "2026-01-06",
+                "value": 4.25,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Median of five latest explicit Rose Besch regular raw comparisons. NYCC foil/virgin listings and the conflicting Cover B listing were excluded; this is the Cover C cardstock edition. Comparison condition descriptions do not establish either owned copy's condition."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:0471278720",
+      "revision": "3ab6ff121c5c488b93fbac14404178940b56d0f5b4edf32095d613c4caab08e5",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-19-Authority-0471278720",
+          "copyId": "Authority:0471278720",
+          "basis": "raw-reference",
+          "value": 4.45,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-catwoman/catwoman-besch-68-2024",
+            "asOf": "2026-06-25",
+            "retrievedAt": "2026-09-19T13:47:17.671Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Catwoman",
+              "issue": "68",
+              "issueYear": "2024",
+              "publisher": "DC Comics",
+              "variant": "Besch Card Stock Variant",
+              "upc": "76194135682206821",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "C",
+              "volume": "5",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-catwoman/catwoman-besch-68-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T13:47:17.671Z",
+            "notes": "Exact full UPC 76194135682206821 and owned title/edition matched to PriceCharting product 7446401. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Median of five latest explicit Rose Besch regular raw comparisons. NYCC foil/virgin listings and the conflicting Cover B listing were excluded; this is the Cover C cardstock edition. Comparison condition descriptions do not establish either owned copy's condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:157531763240",
+                "sourceUrl": "https://www.ebay.com/itm/157531763240",
+                "soldAt": "2026-06-25",
+                "value": 4.49,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:377042709565",
+                "sourceUrl": "https://www.ebay.com/itm/377042709565",
+                "soldAt": "2026-03-24",
+                "value": 3.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:235817369410",
+                "sourceUrl": "https://www.ebay.com/itm/235817369410",
+                "soldAt": "2026-01-26",
+                "value": 4.45,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:296790052014",
+                "sourceUrl": "https://www.ebay.com/itm/296790052014",
+                "soldAt": "2026-01-07",
+                "value": 7.79,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:135257471043",
+                "sourceUrl": "https://www.ebay.com/itm/135257471043",
+                "soldAt": "2026-01-06",
+                "value": 4.25,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Median of five latest explicit Rose Besch regular raw comparisons. NYCC foil/virgin listings and the conflicting Cover B listing were excluded; this is the Cover C cardstock edition. Comparison condition descriptions do not establish either owned copy's condition."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:9449464338",
+      "revision": "3ab6ff121c5c488b93fbac14404178940b56d0f5b4edf32095d613c4caab08e5",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-19-Authority-9449464338",
+          "copyId": "Authority:9449464338",
+          "basis": "raw-reference",
+          "value": 3.95,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-deathlok/deathlok-50th-anniversary-special-miller-1-2024",
+            "asOf": "2026-01-04",
+            "retrievedAt": "2026-09-19T13:47:17.671Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Deathlok 50th Anniversary Special",
+              "issue": "1",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Miller Variant",
+              "upc": "75960621024400141",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "D",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-deathlok/deathlok-50th-anniversary-special-miller-1-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T13:47:17.671Z",
+            "notes": "Exact full UPC 75960621024400141 and owned title/edition matched to PriceCharting product 7446657. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three post-release raw Miller Cover D comparisons; the August 2024 preorder was excluded. Sparse and partly stale sales; not the separate Miller virgin edition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:235780102703",
+                "sourceUrl": "https://www.ebay.com/itm/235780102703",
+                "soldAt": "2026-01-04",
+                "value": 4.73,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:176605888698",
+                "sourceUrl": "https://www.ebay.com/itm/176605888698",
+                "soldAt": "2025-03-21",
+                "value": 2.69,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:196781624719",
+                "sourceUrl": "https://www.ebay.com/itm/196781624719",
+                "soldAt": "2025-01-21",
+                "value": 3.95,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three post-release raw Miller Cover D comparisons; the August 2024 preorder was excluded. Sparse and partly stale sales; not the separate Miller virgin edition."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:1700597971",
+      "revision": "7f2219875bac9ec9a4edf680d2a09a1d8669a82371696ad668529f95834df976",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-19-Authority-1700597971",
+          "copyId": "Authority:1700597971",
+          "basis": "raw-reference",
+          "value": 3.95,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-deathlok/deathlok-50th-anniversary-special-miller-1-2024",
+            "asOf": "2026-01-04",
+            "retrievedAt": "2026-09-19T13:47:17.671Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Deathlok 50th Anniversary Special",
+              "issue": "1",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Miller Variant",
+              "upc": "75960621024400141",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "D",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-deathlok/deathlok-50th-anniversary-special-miller-1-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T13:47:17.671Z",
+            "notes": "Exact full UPC 75960621024400141 and owned title/edition matched to PriceCharting product 7446657. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three post-release raw Miller Cover D comparisons; the August 2024 preorder was excluded. Sparse and partly stale sales; not the separate Miller virgin edition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:235780102703",
+                "sourceUrl": "https://www.ebay.com/itm/235780102703",
+                "soldAt": "2026-01-04",
+                "value": 4.73,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:176605888698",
+                "sourceUrl": "https://www.ebay.com/itm/176605888698",
+                "soldAt": "2025-03-21",
+                "value": 2.69,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:196781624719",
+                "sourceUrl": "https://www.ebay.com/itm/196781624719",
+                "soldAt": "2025-01-21",
+                "value": 3.95,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three post-release raw Miller Cover D comparisons; the August 2024 preorder was excluded. Sparse and partly stale sales; not the separate Miller virgin edition."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:4090239380",
+      "revision": "3ab6ff121c5c488b93fbac14404178940b56d0f5b4edf32095d613c4caab08e5",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-19-Authority-4090239380",
+          "copyId": "Authority:4090239380",
+          "basis": "raw-reference",
+          "value": 3.16,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-detective-comics/detective-comics-1089-2024",
+            "asOf": "2026-07-31",
+            "retrievedAt": "2026-09-19T13:47:17.671Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Detective Comics",
+              "issue": "1089",
+              "issueYear": "2024",
+              "publisher": "DC Comics",
+              "variant": "",
+              "upc": "76194134373008911",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "A",
+              "volume": "2",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-detective-comics/detective-comics-1089-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T13:47:17.671Z",
+            "notes": "Exact full UPC 76194134373008911 and owned title/edition matched to PriceCharting product 7487603. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five latest explicit Evan Cagle Cover A raw sales; ambiguous cover listings and variants were excluded. Seller condition descriptions apply only to comparison copies.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:296789279669",
+                "sourceUrl": "https://www.ebay.com/itm/296789279669",
+                "soldAt": "2026-07-31",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:366561267757",
+                "sourceUrl": "https://www.ebay.com/itm/366561267757",
+                "soldAt": "2026-07-28",
+                "value": 3.33,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:117189361663",
+                "sourceUrl": "https://www.ebay.com/itm/117189361663",
+                "soldAt": "2026-05-23",
+                "value": 3.16,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:365729872920",
+                "sourceUrl": "https://www.ebay.com/itm/365729872920",
+                "soldAt": "2026-05-20",
+                "value": 2.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:117096006730",
+                "sourceUrl": "https://www.ebay.com/itm/117096006730",
+                "soldAt": "2026-05-10",
+                "value": 3.16,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five latest explicit Evan Cagle Cover A raw sales; ambiguous cover listings and variants were excluded. Seller condition descriptions apply only to comparison copies."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:5136110762",
+      "revision": "3ab6ff121c5c488b93fbac14404178940b56d0f5b4edf32095d613c4caab08e5",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-19-Authority-5136110762",
+          "copyId": "Authority:5136110762",
+          "basis": "raw-reference",
+          "value": 4.49,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-ultimate-x-men/ultimate-x-men-momoko-11-2025",
+            "asOf": "2026-04-20",
+            "retrievedAt": "2026-09-19T13:47:17.671Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Ultimate X-Men",
+              "issue": "11",
+              "issueYear": "2025",
+              "publisher": "Marvel Comics",
+              "variant": "Momoko Variant",
+              "upc": "75960620798501121",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "B",
+              "volume": "2",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-ultimate-x-men/ultimate-x-men-momoko-11-2025",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T13:47:17.671Z",
+            "notes": "PriceCharting product 8435290 has no UPC and mixes Momoko regular and variant listings. Owned UPC 75960620798501121 independently matches Cover B Peach Momoko variant at https://www.midtowncomics.com/product/2384320 and https://my.comics.org/issue/2707266/. Only five latest explicit Momoko VARIANT raw listings were selected; regular Cover A and ambiguous Momoko entries were excluded. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Median of five variant-specific raw comparisons with a wide $0.99-$4.99 spread. Owned condition remains unassessed.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:127808364249",
+                "sourceUrl": "https://www.ebay.com/itm/127808364249",
+                "soldAt": "2026-04-20",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:196979872323",
+                "sourceUrl": "https://www.ebay.com/itm/196979872323",
+                "soldAt": "2026-03-20",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:186917655953",
+                "sourceUrl": "https://www.ebay.com/itm/186917655953",
+                "soldAt": "2026-03-09",
+                "value": 4.49,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:227069954692",
+                "sourceUrl": "https://www.ebay.com/itm/227069954692",
+                "soldAt": "2026-02-15",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:257143460837",
+                "sourceUrl": "https://www.ebay.com/itm/257143460837",
+                "soldAt": "2026-01-20",
+                "value": 4.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Median of five variant-specific raw comparisons with a wide $0.99-$4.99 spread. Owned condition remains unassessed."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:2131799607",
+      "revision": "7f2219875bac9ec9a4edf680d2a09a1d8669a82371696ad668529f95834df976",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-19-Authority-2131799607",
+          "copyId": "Authority:2131799607",
+          "basis": "raw-reference",
+          "value": 4.49,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-ultimate-x-men/ultimate-x-men-momoko-11-2025",
+            "asOf": "2026-04-20",
+            "retrievedAt": "2026-09-19T13:47:17.671Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Ultimate X-Men",
+              "issue": "11",
+              "issueYear": "2025",
+              "publisher": "Marvel Comics",
+              "variant": "Momoko Variant",
+              "upc": "75960620798501121",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "B",
+              "volume": "2",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-ultimate-x-men/ultimate-x-men-momoko-11-2025",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T13:47:17.671Z",
+            "notes": "PriceCharting product 8435290 has no UPC and mixes Momoko regular and variant listings. Owned UPC 75960620798501121 independently matches Cover B Peach Momoko variant at https://www.midtowncomics.com/product/2384320 and https://my.comics.org/issue/2707266/. Only five latest explicit Momoko VARIANT raw listings were selected; regular Cover A and ambiguous Momoko entries were excluded. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Median of five variant-specific raw comparisons with a wide $0.99-$4.99 spread. Owned condition remains unassessed.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:127808364249",
+                "sourceUrl": "https://www.ebay.com/itm/127808364249",
+                "soldAt": "2026-04-20",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:196979872323",
+                "sourceUrl": "https://www.ebay.com/itm/196979872323",
+                "soldAt": "2026-03-20",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:186917655953",
+                "sourceUrl": "https://www.ebay.com/itm/186917655953",
+                "soldAt": "2026-03-09",
+                "value": 4.49,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:227069954692",
+                "sourceUrl": "https://www.ebay.com/itm/227069954692",
+                "soldAt": "2026-02-15",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:257143460837",
+                "sourceUrl": "https://www.ebay.com/itm/257143460837",
+                "soldAt": "2026-01-20",
+                "value": 4.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Median of five variant-specific raw comparisons with a wide $0.99-$4.99 spread. Owned condition remains unassessed."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:6581969942",
+      "revision": "7f2219875bac9ec9a4edf680d2a09a1d8669a82371696ad668529f95834df976",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-19-Authority-6581969942",
+          "copyId": "Authority:6581969942",
+          "basis": "raw-reference",
+          "value": 4.49,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-ultimate-x-men/ultimate-x-men-momoko-11-2025",
+            "asOf": "2026-04-20",
+            "retrievedAt": "2026-09-19T13:47:17.671Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Ultimate X-Men",
+              "issue": "11",
+              "issueYear": "2025",
+              "publisher": "Marvel Comics",
+              "variant": "Momoko Variant",
+              "upc": "75960620798501121",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "B",
+              "volume": "2",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-ultimate-x-men/ultimate-x-men-momoko-11-2025",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T13:47:17.671Z",
+            "notes": "PriceCharting product 8435290 has no UPC and mixes Momoko regular and variant listings. Owned UPC 75960620798501121 independently matches Cover B Peach Momoko variant at https://www.midtowncomics.com/product/2384320 and https://my.comics.org/issue/2707266/. Only five latest explicit Momoko VARIANT raw listings were selected; regular Cover A and ambiguous Momoko entries were excluded. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Median of five variant-specific raw comparisons with a wide $0.99-$4.99 spread. Owned condition remains unassessed.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:127808364249",
+                "sourceUrl": "https://www.ebay.com/itm/127808364249",
+                "soldAt": "2026-04-20",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:196979872323",
+                "sourceUrl": "https://www.ebay.com/itm/196979872323",
+                "soldAt": "2026-03-20",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:186917655953",
+                "sourceUrl": "https://www.ebay.com/itm/186917655953",
+                "soldAt": "2026-03-09",
+                "value": 4.49,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:227069954692",
+                "sourceUrl": "https://www.ebay.com/itm/227069954692",
+                "soldAt": "2026-02-15",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:257143460837",
+                "sourceUrl": "https://www.ebay.com/itm/257143460837",
+                "soldAt": "2026-01-20",
+                "value": 4.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Median of five variant-specific raw comparisons with a wide $0.99-$4.99 spread. Owned condition remains unassessed."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:0302344965",
+      "revision": "3ab6ff121c5c488b93fbac14404178940b56d0f5b4edf32095d613c4caab08e5",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-19-Authority-0302344965",
+          "copyId": "Authority:0302344965",
+          "basis": "raw-reference",
+          "value": 4.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-wonder-woman/wonder-woman-17-2025",
+            "asOf": "2026-05-06",
+            "retrievedAt": "2026-09-19T13:47:17.671Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Wonder Woman",
+              "issue": "17",
+              "issueYear": "2025",
+              "publisher": "DC Comics",
+              "variant": "",
+              "upc": "76194138162601711",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "A",
+              "volume": "6",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-wonder-woman/wonder-woman-17-2025",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T13:47:17.671Z",
+            "notes": "Owned UPC 76194138162601711 confirms Daniel Sampere Cover A at https://www.midtowncomics.com/product/2382508?plid=573. PriceCharting product 8345423 has no UPC and includes other covers; only five latest explicit Cover A transactions without presale wording were retained. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Mixed-condition raw reference. Cover B, ambiguous covers and presale-titled listings were excluded.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:167479449710",
+                "sourceUrl": "https://www.ebay.com/itm/167479449710",
+                "soldAt": "2026-05-06",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:257403316049",
+                "sourceUrl": "https://www.ebay.com/itm/257403316049",
+                "soldAt": "2026-03-24",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:326740491395",
+                "sourceUrl": "https://www.ebay.com/itm/326740491395",
+                "soldAt": "2026-01-01",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:306056147712",
+                "sourceUrl": "https://www.ebay.com/itm/306056147712",
+                "soldAt": "2025-11-13",
+                "value": 5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:135509278995",
+                "sourceUrl": "https://www.ebay.com/itm/135509278995",
+                "soldAt": "2025-10-30",
+                "value": 4.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Mixed-condition raw reference. Cover B, ambiguous covers and presale-titled listings were excluded."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:1719753034",
+      "revision": "3ab6ff121c5c488b93fbac14404178940b56d0f5b4edf32095d613c4caab08e5",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-19-Authority-1719753034",
+          "copyId": "Authority:1719753034",
+          "basis": "raw-reference",
+          "value": 6.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-fantastic-four/fantastic-four-momoko-marvel-rivals-28-2025",
+            "asOf": "2026-09-14",
+            "retrievedAt": "2026-09-19T13:47:17.671Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Fantastic Four",
+              "issue": "28",
+              "issueYear": "2025",
+              "publisher": "Marvel Comics",
+              "variant": "Marvel Rivals Variant",
+              "upc": "75960620289802861",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "E",
+              "volume": "7",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-fantastic-four/fantastic-four-momoko-marvel-rivals-28-2025",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T13:47:17.671Z",
+            "notes": "Owned UPC 75960620289802861 matches Peach Momoko Marvel Rivals Galacta/Jeff cover at https://www.midtowncomics.com/product/2386417 and https://shop.thirdeyecomics.com/products/nov24cat-fantastic-four-28-peach-momoko-marvel-rivals-variant. PriceCharting product 9143727 has no UPC. Edition identity is based on the full barcode and named Rivals artwork; differing cover-letter labels are not treated as edition identifiers. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five recent raw comparisons with a wide $0.79-$10.79 range. Median reference only; owned condition is unassessed.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:156650154773",
+                "sourceUrl": "https://www.ebay.com/itm/156650154773",
+                "soldAt": "2026-09-14",
+                "value": 10.79,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:298559127103",
+                "sourceUrl": "https://www.ebay.com/itm/298559127103",
+                "soldAt": "2026-09-05",
+                "value": 6.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336751696194",
+                "sourceUrl": "https://www.ebay.com/itm/336751696194",
+                "soldAt": "2026-08-27",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:296962337103",
+                "sourceUrl": "https://www.ebay.com/itm/296962337103",
+                "soldAt": "2026-08-18",
+                "value": 9.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:188673007707",
+                "sourceUrl": "https://www.ebay.com/itm/188673007707",
+                "soldAt": "2026-07-26",
+                "value": 0.79,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five recent raw comparisons with a wide $0.79-$10.79 range. Median reference only; owned condition is unassessed."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:2191262622",
+      "revision": "3ab6ff121c5c488b93fbac14404178940b56d0f5b4edf32095d613c4caab08e5",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-19-Authority-2191262622",
+          "copyId": "Authority:2191262622",
+          "basis": "raw-reference",
+          "value": 4.84,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-power-girl/power-girl-hill-12-2024",
+            "asOf": "2026-08-12",
+            "retrievedAt": "2026-09-19T13:47:17.671Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Power Girl",
+              "issue": "12",
+              "issueYear": "2024",
+              "publisher": "DC Comics",
+              "variant": "Hill Card Stock Variant",
+              "upc": "76194138173201221",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "B",
+              "volume": "3",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-power-girl/power-girl-hill-12-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T13:47:17.671Z",
+            "notes": "Exact full UPC 76194138173201221 and owned title/edition matched to PriceCharting product 7310246. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five latest explicit Chuma Hill Cover B cardstock raw comparisons. Seller condition descriptions are not an assessment of the owned book.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:135396882936",
+                "sourceUrl": "https://www.ebay.com/itm/135396882936",
+                "soldAt": "2026-08-12",
+                "value": 6.71,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:196982215953",
+                "sourceUrl": "https://www.ebay.com/itm/196982215953",
+                "soldAt": "2026-06-28",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:296656478964",
+                "sourceUrl": "https://www.ebay.com/itm/296656478964",
+                "soldAt": "2026-03-09",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:196565431826",
+                "sourceUrl": "https://www.ebay.com/itm/196565431826",
+                "soldAt": "2026-02-15",
+                "value": 4.84,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:177364484727",
+                "sourceUrl": "https://www.ebay.com/itm/177364484727",
+                "soldAt": "2026-01-24",
+                "value": 3,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five latest explicit Chuma Hill Cover B cardstock raw comparisons. Seller condition descriptions are not an assessment of the owned book."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:5475543212",
+      "revision": "3ab6ff121c5c488b93fbac14404178940b56d0f5b4edf32095d613c4caab08e5",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-19-Authority-5475543212",
+          "copyId": "Authority:5475543212",
+          "basis": "raw-reference",
+          "value": 4.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-x-men/x-men-campbell-4-2024",
+            "asOf": "2026-09-09",
+            "retrievedAt": "2026-09-19T13:47:17.671Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "X-Men",
+              "issue": "4",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Campbell Emma Frost Variant",
+              "upc": "75960620920000421",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "D",
+              "volume": "7",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-x-men/x-men-campbell-4-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T13:47:17.671Z",
+            "notes": "Exact full UPC 75960620920000421 and owned title/edition matched to PriceCharting product 7446352. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five latest non-presale Campbell Emma Frost trade-cover raw comparisons. Separate virgin edition (UPC ending 00416), slabs and presale-titled entry excluded.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:366176776110",
+                "sourceUrl": "https://www.ebay.com/itm/366176776110",
+                "soldAt": "2026-09-09",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:365313228336",
+                "sourceUrl": "https://www.ebay.com/itm/365313228336",
+                "soldAt": "2026-07-15",
+                "value": 3.5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:366441368615",
+                "sourceUrl": "https://www.ebay.com/itm/366441368615",
+                "soldAt": "2026-06-26",
+                "value": 7.04,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:198400701954",
+                "sourceUrl": "https://www.ebay.com/itm/198400701954",
+                "soldAt": "2026-06-20",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:146052023213",
+                "sourceUrl": "https://www.ebay.com/itm/146052023213",
+                "soldAt": "2026-05-15",
+                "value": 5.03,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five latest non-presale Campbell Emma Frost trade-cover raw comparisons. Separate virgin edition (UPC ending 00416), slabs and presale-titled entry excluded."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:9234163169",
+      "revision": "3ab6ff121c5c488b93fbac14404178940b56d0f5b4edf32095d613c4caab08e5",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-19-Authority-9234163169",
+          "copyId": "Authority:9234163169",
+          "basis": "raw-reference",
+          "value": 4.74,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-wolverine-revenge/wolverine-revenge-besch-2-2024",
+            "asOf": "2026-05-26",
+            "retrievedAt": "2026-09-19T13:47:17.671Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Wolverine: Revenge",
+              "issue": "2",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Besch Variant",
+              "upc": "75960620995800221",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "B",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-wolverine-revenge/wolverine-revenge-besch-2-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T13:47:17.671Z",
+            "notes": "Exact full UPC 75960620995800221 and owned title/edition matched to PriceCharting product 7487741. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five latest non-presale Rose Besch trade-cover raw comparisons. This is not the virgin variant or Red Band edition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:156611638497",
+                "sourceUrl": "https://www.ebay.com/itm/156611638497",
+                "soldAt": "2026-05-26",
+                "value": 4.74,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:197659914022",
+                "sourceUrl": "https://www.ebay.com/itm/197659914022",
+                "soldAt": "2026-05-13",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:196666779873",
+                "sourceUrl": "https://www.ebay.com/itm/196666779873",
+                "soldAt": "2026-05-03",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:365133395276",
+                "sourceUrl": "https://www.ebay.com/itm/365133395276",
+                "soldAt": "2026-03-21",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236060968310",
+                "sourceUrl": "https://www.ebay.com/itm/236060968310",
+                "soldAt": "2026-03-07",
+                "value": 3.44,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five latest non-presale Rose Besch trade-cover raw comparisons. This is not the virgin variant or Red Band edition."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:6518665500",
+      "revision": "3ab6ff121c5c488b93fbac14404178940b56d0f5b4edf32095d613c4caab08e5",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-19-Authority-6518665500",
+          "copyId": "Authority:6518665500",
+          "basis": "raw-reference",
+          "value": 4.01,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-what-if-galactus-transformed-spider-gwen/what-if-galactus-transformed-spider-gwen-1-2025",
+            "asOf": "2026-03-26",
+            "retrievedAt": "2026-09-19T13:47:17.671Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "What If…? Galactus Transformed Spider-Gwen?",
+              "issue": "1",
+              "issueYear": "2025",
+              "publisher": "Marvel Comics",
+              "variant": "",
+              "upc": "75960621164700111",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "A",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-what-if-galactus-transformed-spider-gwen/what-if-galactus-transformed-spider-gwen-1-2025",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T13:47:17.671Z",
+            "notes": "Owned UPC 75960621164700111 matches regular Ron Lim Cover A at https://www.midtowncomics.com/p/2384341-what-if-galactus-transformed-spidergwen-1-one-shot-cover-a-regular-ron-lim-cover/ and the PRH November 2024 catalog page 51. PriceCharting product 8435407 has no UPC and mixes covers; only two explicit Cover A single-book rows were retained. Direct eBay 177292817228 is an ongoing multi-quantity listing with one sold; its historical date and price are sourced to PriceCharting, not inferred from the current asking price. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Only two unambiguous Cover A raw comparisons; homage, Cover C, design variant, multi-book sets and ambiguous entries excluded. Owned condition remains unassessed.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:177292817228",
+                "sourceUrl": "https://www.ebay.com/itm/177292817228",
+                "soldAt": "2026-03-26",
+                "value": 3.98,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:335833708851",
+                "sourceUrl": "https://www.ebay.com/itm/335833708851",
+                "soldAt": "2025-11-26",
+                "value": 4.03,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Only two unambiguous Cover A raw comparisons; homage, Cover C, design variant, multi-book sets and ambiguous entries excluded. Owned condition remains unassessed."
+        }
+      ]
+    }
+  ]
+}

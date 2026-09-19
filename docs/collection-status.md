@@ -57,9 +57,9 @@ were moved from the unassigned group; no duplicate copies were created. See the
 
 | Group | Recorded total | Valued | No value yet |
 | --- | ---: | ---: | ---: |
-| Comics | $14,101.92 | 186 | 510 |
+| Comics | $14,116.92 | 187 | 509 |
 | Cards | $20,273.62 | 204 | 33 |
-| All | $34,375.54 | 390 | 543 |
+| All | $34,390.54 | 391 | 542 |
 
 45 PSA Vault estimates have no source date. Printing/building does not update
 market prices. TAG's explicit value or owner estimate takes precedence; otherwise
@@ -88,8 +88,11 @@ A morning September 19 pass added two graded estimates ($154.49) and 11 raw-copy
 references across eight editions; see the [morning research](valuation-morning-2026-09-19.md).
 A midday September 19 pass added one graded estimate ($149.99) and nine raw-copy
 references; see the [midday research](valuation-midday-2026-09-19.md).
-One hundred unconditioned raw references now total $558.46 and remain excluded
-from the recorded total. There are 114 graded values outstanding (81 comics, 33 cards),
+An afternoon September 19 pass added one starred historical graded estimate ($15.00)
+and 15 raw-copy references across 11 editions; see the
+[afternoon research](valuation-afternoon-2026-09-19.md).
+115 unconditioned raw references now total $628.83 and remain excluded
+from the recorded total. There are 113 graded values outstanding (80 comics, 33 cards),
 plus 429 raw copies awaiting condition assessment. See the
 [pilot report](valuation-pilot-2026-09-13.md) for sources, dates and remaining gaps.
 Inventory growth and newly valued records affect totals; these are not investment returns.

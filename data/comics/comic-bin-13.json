@@ -6792,7 +6792,69 @@
         "capturedAt": "2026-09-07T23:32:47.979Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "afternoon-2026-09-19-Authority-8393175795",
+            "copyId": "Authority:8393175795",
+            "basis": "raw-reference",
+            "value": 6.38,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-deadpool/deadpool-9-2023",
+              "asOf": "2025-01-18",
+              "retrievedAt": "2026-09-19T13:47:17.671Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Deadpool",
+                "issue": "9",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Hellfire Gala Variant",
+                "upc": "75960620089400931",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "8",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-deadpool/deadpool-9-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T13:47:17.671Z",
+              "notes": "Owned full UPC 75960620089400931 identifies Nick Dragotta Hellfire Gala variant, confirmed by Midtown Comics https://www.midtowncomics.com/product/2216009. PriceCharting product 5529355 mixes variants and its catalog UPC ends 00911 (base Coccolo); only the explicit Hellfire Gala transaction was used. The seller calls it 9c but Midtown identifies Hellfire Gala as Cover B; variant name, not the letter, is matched. Older explicit Dragotta sale 186017576780 dated 2023-09-14 at $3.49 retained only as research context, not included in this latest-sale reference. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. One stale January 2025 raw comparison; owned condition remains unassessed. Coccolo, Park Studios, and unidentified variant transactions were excluded.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:365053539223",
+                  "sourceUrl": "https://www.ebay.com/itm/365053539223",
+                  "soldAt": "2025-01-18",
+                  "value": 6.38,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. One stale January 2025 raw comparison; owned condition remains unassessed. Coccolo, Park Studios, and unidentified variant transactions were excluded."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_8393175795_FRONT.jpg",
         "back": "Authority_8393175795_BACK.jpg"

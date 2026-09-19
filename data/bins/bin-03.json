@@ -488,6 +488,104 @@
         "url": "https://gocollect.com/app/comic/amazing-spider-man-21-disney100-hulk-var",
         "status": "no-sales",
         "fetchedAt": "2026-08-19T01:21:01.346Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "afternoon-2026-09-19-CGC-4273634003",
+            "copyId": "CGC:4273634003",
+            "basis": "sold-comps",
+            "value": 15,
+            "currency": "USD",
+            "source": {
+              "name": "eBay completed sale",
+              "url": "https://www.ebay.com/itm/375455604577",
+              "asOf": "2024-06-02",
+              "retrievedAt": "2026-09-19T13:47:17.671Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Amazing Spider-Man",
+                "issue": "21",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Mangiatordi Variant Cover",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.2",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://www.ebay.com/itm/375455604577",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T13:47:17.671Z",
+              "notes": "Direct eBay archived page confirms sold June 2 at $15.00; year 2024 verified in PriceCharting raw transaction archive, https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-21-2023, grade 9.2 tab. Sale photo https://i.ebayimg.com/images/g/AZ8AAOSw11hmVl6T/s-l1600.webp visually verifies CGC Universal 9.2 WHITE pages, Mangiatordi Variant Cover, color Disney 100 Hulk homage, cert 4421406003. ComicBookRealm's exact Universal/Modern catalog https://comicbookrealm.com/cgc-analyzer/comic/id/305374/marvel-comics-amazing-spider-man-21-mangiatordi-variant-cover also records one 9.2 sale June 2, 2024 at $15. GoCollect exact catalog currently reports no 9.2 sales; its other grades and asking listings were excluded. This is one stale historical comparable, not a current guide or multiple independent sales."
+            },
+            "saleCount": 1,
+            "range": {
+              "low": 15,
+              "high": 15,
+              "method": "min-max"
+            },
+            "transactions": [
+              {
+                "transactionId": "ebay:375455604577",
+                "sourceUrl": "https://www.ebay.com/itm/375455604577",
+                "soldAt": "2024-06-02",
+                "value": 15,
+                "identity": {
+                  "kind": "comic",
+                  "title": "Amazing Spider-Man",
+                  "issue": "21",
+                  "issueYear": "2023",
+                  "publisher": "Marvel Comics",
+                  "variant": "Mangiatordi Variant Cover",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "language": "",
+                  "labelCategory": "Universal",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": "",
+                  "qualifiers": ""
+                },
+                "grade": "9.2",
+                "grader": "CGC",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              }
+            ],
+            "provisional": true,
+            "provisionalReason": "Only one exact-grade sale, dated June 2, 2024. Historical evidence is over two years old; current market value may differ materially."
+          }
+        ],
+        "selection": {
+          "observationId": "afternoon-2026-09-19-CGC-4273634003",
+          "locked": true,
+          "selectedAt": "2026-09-19T13:47:17.958Z"
+        }
       }
     },
     {
