@@ -1,0 +1,1299 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "CGC:1401031230023",
+      "revision": "40a905b95b916fb74ac37b84cfe32b5d2578104e8b00d6628e7ae6b05e91e7b5",
+      "observations": [
+        {
+          "id": "evening-2026-09-19-CGC-1401031230023",
+          "copyId": "CGC:1401031230023",
+          "basis": "sold-comps",
+          "value": 19.55,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/nl/game/pokemon-promo/galarian-moltres-swsh284",
+            "asOf": "2026-08-01",
+            "retrievedAt": "2026-09-19T17:43:47.556Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2023",
+              "brand": "Black Star Promos",
+              "series": "",
+              "subject": "Galarian Moltres",
+              "cardNumber": "SWSH284",
+              "variety": "Crown Zenith Tin",
+              "language": "English",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "8.5",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/nl/game/pokemon-promo/galarian-moltres-swsh284",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T17:43:47.556Z",
+            "notes": "PriceCharting's Grade 8 bucket mixes graders and half grades. Retained only two rows explicitly identifying CGC 8.5, English Galarian Moltres SWSH284 Holo Crown Zenith tin promo; all PSA 8 rows excluded. Both original eBay URLs now redirect to a generic raw-card product page, so completion, photos and comparable certification numbers could not be independently reverified. These are PriceCharting-reported completed sales, not the current raw-card asking prices shown after redirection. Median $19.55; only two comparisons with a wide spread."
+          },
+          "saleCount": 2,
+          "range": {
+            "low": 14.1,
+            "high": 25,
+            "method": "min-max"
+          },
+          "transactions": [
+            {
+              "transactionId": "ebay:398218998927",
+              "sourceUrl": "https://www.ebay.com/itm/398218998927",
+              "soldAt": "2026-08-01",
+              "value": 14.1,
+              "identity": {
+                "kind": "card",
+                "year": "2023",
+                "brand": "Black Star Promos",
+                "series": "",
+                "subject": "Galarian Moltres",
+                "cardNumber": "SWSH284",
+                "variety": "Crown Zenith Tin",
+                "language": "English",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "8.5",
+              "grader": "CGC",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:168380701670",
+              "sourceUrl": "https://www.ebay.com/itm/168380701670",
+              "soldAt": "2026-05-24",
+              "value": 25,
+              "identity": {
+                "kind": "card",
+                "year": "2023",
+                "brand": "Black Star Promos",
+                "series": "",
+                "subject": "Galarian Moltres",
+                "cardNumber": "SWSH284",
+                "variety": "Crown Zenith Tin",
+                "language": "English",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "8.5",
+              "grader": "CGC",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            }
+          ],
+          "provisional": true,
+          "provisionalReason": "Only two source-reported CGC 8.5 sales; original eBay archives and slab photographs are no longer available."
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:6021692042",
+      "revision": "40a905b95b916fb74ac37b84cfe32b5d2578104e8b00d6628e7ae6b05e91e7b5",
+      "observations": [
+        {
+          "id": "evening-2026-09-19-CGC-6021692042",
+          "copyId": "CGC:6021692042",
+          "basis": "sold-comps",
+          "value": 45,
+          "currency": "USD",
+          "source": {
+            "name": "Fanatics Collect",
+            "url": "https://www.fanaticscollect.com/buy-now/9e6b4fc6-1ea3-4236-942b-d5b9cb726fe8",
+            "asOf": "2026-08-20",
+            "retrievedAt": "2026-09-19T17:43:47.556Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "Scarlet & Violet Promos",
+              "series": "",
+              "subject": "Pikachu in a Batik Shirt",
+              "cardNumber": "154/SV-P",
+              "variety": "Pikachu's Indonesia Journey",
+              "language": "Indonesian",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.fanaticscollect.com/buy-now/9e6b4fc6-1ea3-4236-942b-d5b9cb726fe8",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T17:43:47.556Z",
+            "notes": "Fanatics sold listing and photo verify Indonesian 2024 Pikachu in a Batik Shirt 154/SV-P, Pikachu's Indonesia Journey, CGC Gem Mint 10, comparable cert 6069450017. The expanded Sales History states that all entries match product, variant, grade and grader. Used five latest displayed completed amounts; median $45, range $38-$70. August 20 is the date rendered after locale initialization (initial unlocalized text showed August 21); the other dates agree. History does not expose individual transaction IDs or the other four certs: fanatics-history keys are locally derived deduplication keys, NOT provider transaction IDs. A separate August 18, 2025 weekly auction sold for $18 including buyer premium, but was excluded as older than this five-sale sample. Pristine 10, promos 101/190, current asks, and the EUR Catawiki hammer price were not mixed in. Photo: https://cdn-vault.fanaticscollect.com/2025/8/1/ss7/medium/v1431883_2020073110341787R_33.jpg"
+          },
+          "saleCount": 5,
+          "range": {
+            "low": 40,
+            "high": 50,
+            "method": "observed-iqr"
+          },
+          "transactions": [
+            {
+              "transactionId": "fanatics-history:9e6b4fc6:2026-08-20:70",
+              "sourceUrl": "https://www.fanaticscollect.com/buy-now/9e6b4fc6-1ea3-4236-942b-d5b9cb726fe8",
+              "soldAt": "2026-08-20",
+              "value": 70,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "Scarlet & Violet Promos",
+                "series": "",
+                "subject": "Pikachu in a Batik Shirt",
+                "cardNumber": "154/SV-P",
+                "variety": "Pikachu's Indonesia Journey",
+                "language": "Indonesian",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "CGC",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "fanatics-history:9e6b4fc6:2026-08-13:50",
+              "sourceUrl": "https://www.fanaticscollect.com/buy-now/9e6b4fc6-1ea3-4236-942b-d5b9cb726fe8",
+              "soldAt": "2026-08-13",
+              "value": 50,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "Scarlet & Violet Promos",
+                "series": "",
+                "subject": "Pikachu in a Batik Shirt",
+                "cardNumber": "154/SV-P",
+                "variety": "Pikachu's Indonesia Journey",
+                "language": "Indonesian",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "CGC",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "fanatics-history:9e6b4fc6:2026-06-14:40",
+              "sourceUrl": "https://www.fanaticscollect.com/buy-now/9e6b4fc6-1ea3-4236-942b-d5b9cb726fe8",
+              "soldAt": "2026-06-14",
+              "value": 40,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "Scarlet & Violet Promos",
+                "series": "",
+                "subject": "Pikachu in a Batik Shirt",
+                "cardNumber": "154/SV-P",
+                "variety": "Pikachu's Indonesia Journey",
+                "language": "Indonesian",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "CGC",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "fanatics-history:9e6b4fc6:2026-06-04:45",
+              "sourceUrl": "https://www.fanaticscollect.com/buy-now/9e6b4fc6-1ea3-4236-942b-d5b9cb726fe8",
+              "soldAt": "2026-06-04",
+              "value": 45,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "Scarlet & Violet Promos",
+                "series": "",
+                "subject": "Pikachu in a Batik Shirt",
+                "cardNumber": "154/SV-P",
+                "variety": "Pikachu's Indonesia Journey",
+                "language": "Indonesian",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "CGC",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "fanatics-history:9e6b4fc6:2026-05-17:38",
+              "sourceUrl": "https://www.fanaticscollect.com/buy-now/9e6b4fc6-1ea3-4236-942b-d5b9cb726fe8",
+              "soldAt": "2026-05-17",
+              "value": 38,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "Scarlet & Violet Promos",
+                "series": "",
+                "subject": "Pikachu in a Batik Shirt",
+                "cardNumber": "154/SV-P",
+                "variety": "Pikachu's Indonesia Journey",
+                "language": "Indonesian",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "CGC",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            }
+          ],
+          "provisional": true,
+          "provisionalReason": "Five platform-reported same-variant/grade sales, but only one slab independently pictured; individual transaction IDs are not exposed and prices span $38-$70."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:6299079290",
+      "revision": "82c2c85519566175e04122d15f5b03d7947b938459e6ef574d2eabcd6b9edaef",
+      "observations": [
+        {
+          "id": "evening-2026-09-19-Authority-6299079290",
+          "copyId": "Authority:6299079290",
+          "basis": "raw-reference",
+          "value": 5.79,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-strange-academy-moon-knight/strange-academy-moon-knight-1-2023",
+            "asOf": "2025-08-15",
+            "retrievedAt": "2026-09-19T17:43:47.556Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Strange Academy: Moon Knight",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "",
+              "upc": "75960620696400111",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "A",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-strange-academy-moon-knight/strange-academy-moon-knight-1-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T17:43:47.556Z",
+            "notes": "Exact full UPC 75960620696400111 and owned title/edition matched to PriceCharting product 5810108. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three historical comparisons explicitly naming regular Bradshaw/Cover A. The catalog mixes 1:25 variants; those and newer edition-ambiguous rows were excluded. Latest retained sale is over a year old; this is a stale reference, not current FMV.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:127288658719",
+                "sourceUrl": "https://www.ebay.com/itm/127288658719",
+                "soldAt": "2025-08-15",
+                "value": 5.79,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:256282021921",
+                "sourceUrl": "https://www.ebay.com/itm/256282021921",
+                "soldAt": "2025-08-06",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:286444433899",
+                "sourceUrl": "https://www.ebay.com/itm/286444433899",
+                "soldAt": "2025-06-19",
+                "value": 9,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three historical comparisons explicitly naming regular Bradshaw/Cover A. The catalog mixes 1:25 variants; those and newer edition-ambiguous rows were excluded. Latest retained sale is over a year old; this is a stale reference, not current FMV."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:6140552943",
+      "revision": "82c2c85519566175e04122d15f5b03d7947b938459e6ef574d2eabcd6b9edaef",
+      "observations": [
+        {
+          "id": "evening-2026-09-19-Authority-6140552943",
+          "copyId": "Authority:6140552943",
+          "basis": "raw-reference",
+          "value": 14.5,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-batman/batman-jones-152-2024",
+            "asOf": "2026-05-06",
+            "retrievedAt": "2026-09-19T17:43:47.556Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Batman",
+              "issue": "152",
+              "issueYear": "2024",
+              "publisher": "DC Comics",
+              "variant": "Jones Card Stock Variant",
+              "upc": "76194134182815251",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "H",
+              "volume": "3",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-batman/batman-jones-152-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T17:43:47.556Z",
+            "notes": "Exact full UPC 76194134182815251 and owned title/edition matched to PriceCharting product 7323713. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three latest exact Joelle Jones 1:50 cardstock comparisons; pre-release and older transactions excluded. Sparse, several-month-old history; comparison grades do not assess owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:167019721756",
+                "sourceUrl": "https://www.ebay.com/itm/167019721756",
+                "soldAt": "2026-05-06",
+                "value": 11.24,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:188131970605",
+                "sourceUrl": "https://www.ebay.com/itm/188131970605",
+                "soldAt": "2026-05-05",
+                "value": 18.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:176571084872",
+                "sourceUrl": "https://www.ebay.com/itm/176571084872",
+                "soldAt": "2026-03-21",
+                "value": 14.5,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three latest exact Joelle Jones 1:50 cardstock comparisons; pre-release and older transactions excluded. Sparse, several-month-old history; comparison grades do not assess owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:3225778945",
+      "revision": "82c2c85519566175e04122d15f5b03d7947b938459e6ef574d2eabcd6b9edaef",
+      "observations": [
+        {
+          "id": "evening-2026-09-19-Authority-3225778945",
+          "copyId": "Authority:3225778945",
+          "basis": "raw-reference",
+          "value": 3.19,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-kid-venom/kid-venom-momoko-2-2024",
+            "asOf": "2026-08-27",
+            "retrievedAt": "2026-09-19T17:43:47.556Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Kid Venom",
+              "issue": "2",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Momoko Variant",
+              "upc": "75960620891300221",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "C",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-kid-venom/kid-venom-momoko-2-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T17:43:47.556Z",
+            "notes": "Exact full UPC 75960620891300221 and owned title/edition matched to PriceCharting product 7324065. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five latest explicitly named Momoko raw sales. Comparison copies span seller-described VF+ through NM; owned condition remains unassessed.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:235766280177",
+                "sourceUrl": "https://www.ebay.com/itm/235766280177",
+                "soldAt": "2026-08-27",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:326264038002",
+                "sourceUrl": "https://www.ebay.com/itm/326264038002",
+                "soldAt": "2026-08-01",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:406979878360",
+                "sourceUrl": "https://www.ebay.com/itm/406979878360",
+                "soldAt": "2026-06-10",
+                "value": 3,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:116758116347",
+                "sourceUrl": "https://www.ebay.com/itm/116758116347",
+                "soldAt": "2026-05-12",
+                "value": 3.19,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:405499706032",
+                "sourceUrl": "https://www.ebay.com/itm/405499706032",
+                "soldAt": "2026-05-09",
+                "value": 2.81,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five latest explicitly named Momoko raw sales. Comparison copies span seller-described VF+ through NM; owned condition remains unassessed."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:0287251619",
+      "revision": "82c2c85519566175e04122d15f5b03d7947b938459e6ef574d2eabcd6b9edaef",
+      "observations": [
+        {
+          "id": "evening-2026-09-19-Authority-0287251619",
+          "copyId": "Authority:0287251619",
+          "basis": "raw-reference",
+          "value": 9.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-ferry-11-2024",
+            "asOf": "2026-07-26",
+            "retrievedAt": "2026-09-19T17:43:47.556Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Spider-Boy",
+              "issue": "11",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Ferry Variant",
+              "upc": "75960620785501131",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "C",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-ferry-11-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T17:43:47.556Z",
+            "notes": "Exact full UPC 75960620785501131 and owned title/edition matched to PriceCharting product 7323827. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three latest Ferry-specific raw amounts, widely dispersed ($3.49-$24.95). The $3.49 listing advertises a buy-two-get-one promotion; the source reports the single-item amount, but any basket discount is unknown. Sparse partly stale history; median is a provisional edition reference only.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:147386270647",
+                "sourceUrl": "https://www.ebay.com/itm/147386270647",
+                "soldAt": "2026-07-26",
+                "value": 3.49,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:335874950872",
+                "sourceUrl": "https://www.ebay.com/itm/335874950872",
+                "soldAt": "2026-02-22",
+                "value": 9.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:296681337238",
+                "sourceUrl": "https://www.ebay.com/itm/296681337238",
+                "soldAt": "2025-12-30",
+                "value": 24.95,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three latest Ferry-specific raw amounts, widely dispersed ($3.49-$24.95). The $3.49 listing advertises a buy-two-get-one promotion; the source reports the single-item amount, but any basket discount is unknown. Sparse partly stale history; median is a provisional edition reference only."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:9248188403",
+      "revision": "82c2c85519566175e04122d15f5b03d7947b938459e6ef574d2eabcd6b9edaef",
+      "observations": [
+        {
+          "id": "evening-2026-09-19-Authority-9248188403",
+          "copyId": "Authority:9248188403",
+          "basis": "raw-reference",
+          "value": 4.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-venom-war/venom-war-young-2-2024",
+            "asOf": "2026-08-10",
+            "retrievedAt": "2026-09-19T17:43:47.556Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Venom War",
+              "issue": "2",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Young Variant",
+              "upc": "75960620887600241",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "G",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-venom-war/venom-war-young-2-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T17:43:47.556Z",
+            "notes": "Exact full UPC 75960620887600241 and owned title/edition matched to PriceCharting product 7323825. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five latest Skottie Young raw transactions; median retains the $0.99 low sale rather than dropping it as inconvenient. Owned copies are matched by full UPC; neither receives a condition grade.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:278244158741",
+                "sourceUrl": "https://www.ebay.com/itm/278244158741",
+                "soldAt": "2026-08-10",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:135244820749",
+                "sourceUrl": "https://www.ebay.com/itm/135244820749",
+                "soldAt": "2026-08-08",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:235768323811",
+                "sourceUrl": "https://www.ebay.com/itm/235768323811",
+                "soldAt": "2026-05-03",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:168171352337",
+                "sourceUrl": "https://www.ebay.com/itm/168171352337",
+                "soldAt": "2026-04-18",
+                "value": 5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:389847276605",
+                "sourceUrl": "https://www.ebay.com/itm/389847276605",
+                "soldAt": "2026-04-12",
+                "value": 5.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five latest Skottie Young raw transactions; median retains the $0.99 low sale rather than dropping it as inconvenient. Owned copies are matched by full UPC; neither receives a condition grade."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:6520007258",
+      "revision": "82c2c85519566175e04122d15f5b03d7947b938459e6ef574d2eabcd6b9edaef",
+      "observations": [
+        {
+          "id": "evening-2026-09-19-Authority-6520007258",
+          "copyId": "Authority:6520007258",
+          "basis": "raw-reference",
+          "value": 4.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-venom-war/venom-war-young-2-2024",
+            "asOf": "2026-08-10",
+            "retrievedAt": "2026-09-19T17:43:47.556Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Venom War",
+              "issue": "2",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Young Variant",
+              "upc": "75960620887600241",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "G",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-venom-war/venom-war-young-2-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T17:43:47.556Z",
+            "notes": "Exact full UPC 75960620887600241 and owned title/edition matched to PriceCharting product 7323825. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five latest Skottie Young raw transactions; median retains the $0.99 low sale rather than dropping it as inconvenient. Owned copies are matched by full UPC; neither receives a condition grade.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:278244158741",
+                "sourceUrl": "https://www.ebay.com/itm/278244158741",
+                "soldAt": "2026-08-10",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:135244820749",
+                "sourceUrl": "https://www.ebay.com/itm/135244820749",
+                "soldAt": "2026-08-08",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:235768323811",
+                "sourceUrl": "https://www.ebay.com/itm/235768323811",
+                "soldAt": "2026-05-03",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:168171352337",
+                "sourceUrl": "https://www.ebay.com/itm/168171352337",
+                "soldAt": "2026-04-18",
+                "value": 5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:389847276605",
+                "sourceUrl": "https://www.ebay.com/itm/389847276605",
+                "soldAt": "2026-04-12",
+                "value": 5.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five latest Skottie Young raw transactions; median retains the $0.99 low sale rather than dropping it as inconvenient. Owned copies are matched by full UPC; neither receives a condition grade."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:2906721269",
+      "revision": "82c2c85519566175e04122d15f5b03d7947b938459e6ef574d2eabcd6b9edaef",
+      "observations": [
+        {
+          "id": "evening-2026-09-19-Authority-2906721269",
+          "copyId": "Authority:2906721269",
+          "basis": "raw-reference",
+          "value": 4.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-venom-war/venom-war-momoko-2-2024",
+            "asOf": "2026-07-06",
+            "retrievedAt": "2026-09-19T17:43:47.556Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Venom War",
+              "issue": "2",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Momoko Variant",
+              "upc": "75960620887600231",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "F",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-venom-war/venom-war-momoko-2-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T17:43:47.556Z",
+            "notes": "Exact full UPC 75960620887600231 and owned title/edition matched to PriceCharting product 7323824. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five latest explicitly named Momoko raw sales, including the low clearance sale. No other Venom War issue, cover or graded price used.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:158044900759",
+                "sourceUrl": "https://www.ebay.com/itm/158044900759",
+                "soldAt": "2026-07-06",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:137253646952",
+                "sourceUrl": "https://www.ebay.com/itm/137253646952",
+                "soldAt": "2026-05-02",
+                "value": 4.5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:365096567099",
+                "sourceUrl": "https://www.ebay.com/itm/365096567099",
+                "soldAt": "2026-03-31",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:127461505812",
+                "sourceUrl": "https://www.ebay.com/itm/127461505812",
+                "soldAt": "2026-03-21",
+                "value": 7,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:157294568791",
+                "sourceUrl": "https://www.ebay.com/itm/157294568791",
+                "soldAt": "2026-01-06",
+                "value": 1.55,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five latest explicitly named Momoko raw sales, including the low clearance sale. No other Venom War issue, cover or graded price used."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:2435781019",
+      "revision": "82c2c85519566175e04122d15f5b03d7947b938459e6ef574d2eabcd6b9edaef",
+      "observations": [
+        {
+          "id": "evening-2026-09-19-Authority-2435781019",
+          "copyId": "Authority:2435781019",
+          "basis": "raw-reference",
+          "value": 7.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-ultimate-spider-man/ultimate-spider-man-13-2025",
+            "asOf": "2026-03-13",
+            "retrievedAt": "2026-09-19T17:43:47.556Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Ultimate Spider-Man",
+              "issue": "13",
+              "issueYear": "2025",
+              "publisher": "Marvel Comics",
+              "variant": "",
+              "upc": "75960620796101311",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "A",
+              "volume": "2",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-ultimate-spider-man/ultimate-spider-man-13-2025",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T17:43:47.556Z",
+            "notes": "Marvel's official issue record https://www.marvel.com/comics/issue/113890/ultimate-spider-man-2024-13 confirms full UPC 75960620796101311 and Marco Checchetto regular cover. PriceCharting product 8345367 has no UPC and mixes foil, store exclusives and a collected paperback; retained only the two visible sales explicitly naming Cover A. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Two stale March 2026 raw comparisons with a very wide spread; median $7.99 is not a copy-specific appraisal. Foil, store exclusives, TPB lots and ambiguous editions excluded.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:236585756539",
+                "sourceUrl": "https://www.ebay.com/itm/236585756539",
+                "soldAt": "2026-03-13",
+                "value": 14.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:198114000198",
+                "sourceUrl": "https://www.ebay.com/itm/198114000198",
+                "soldAt": "2026-03-01",
+                "value": 0.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Two stale March 2026 raw comparisons with a very wide spread; median $7.99 is not a copy-specific appraisal. Foil, store exclusives, TPB lots and ambiguous editions excluded."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:7215898203",
+      "revision": "82c2c85519566175e04122d15f5b03d7947b938459e6ef574d2eabcd6b9edaef",
+      "observations": [
+        {
+          "id": "evening-2026-09-19-Authority-7215898203",
+          "copyId": "Authority:7215898203",
+          "basis": "raw-reference",
+          "value": 4.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-what-if-donald-duck-became-thor/what-if-donald-duck-became-thor-noto-1-2024",
+            "asOf": "2026-06-03",
+            "retrievedAt": "2026-09-19T17:43:47.556Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Marvel & Disney: What If…? Donald Duck Became Thor",
+              "issue": "1",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Noto Variant",
+              "upc": "75960621014500121",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "B",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-what-if-donald-duck-became-thor/what-if-donald-duck-became-thor-noto-1-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T17:43:47.556Z",
+            "notes": "Exact full UPC 75960621014500121 and owned title/edition matched to PriceCharting product 7324112. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five latest Phil Noto raw comparisons. References are several months old and seller condition descriptions do not establish the owned book's condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:257403313170",
+                "sourceUrl": "https://www.ebay.com/itm/257403313170",
+                "soldAt": "2026-06-03",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:335510996721",
+                "sourceUrl": "https://www.ebay.com/itm/335510996721",
+                "soldAt": "2026-05-18",
+                "value": 4.72,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:196885826981",
+                "sourceUrl": "https://www.ebay.com/itm/196885826981",
+                "soldAt": "2026-03-30",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:365096566878",
+                "sourceUrl": "https://www.ebay.com/itm/365096566878",
+                "soldAt": "2026-03-29",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:266933055592",
+                "sourceUrl": "https://www.ebay.com/itm/266933055592",
+                "soldAt": "2026-02-15",
+                "value": 5.39,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five latest Phil Noto raw comparisons. References are several months old and seller condition descriptions do not establish the owned book's condition."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:0845428595",
+      "revision": "82c2c85519566175e04122d15f5b03d7947b938459e6ef574d2eabcd6b9edaef",
+      "observations": [
+        {
+          "id": "evening-2026-09-19-Authority-0845428595",
+          "copyId": "Authority:0845428595",
+          "basis": "raw-reference",
+          "value": 5.49,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-what-if-donald-duck-became-thor/what-if-donald-duck-became-thor-young-1-2024",
+            "asOf": "2026-09-09",
+            "retrievedAt": "2026-09-19T17:43:47.556Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Marvel & Disney: What If…? Donald Duck Became Thor",
+              "issue": "1",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Young Variant",
+              "upc": "75960621014500151",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "E",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-what-if-donald-duck-became-thor/what-if-donald-duck-became-thor-young-1-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T17:43:47.556Z",
+            "notes": "Exact full UPC 75960621014500151 and owned title/edition matched to PriceCharting product 7324113. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five latest explicitly named Skottie Young single-book raw sales. Five-cover bundle 196624515922 at $27.99 was excluded; low single-copy sales were retained.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:318419156427",
+                "sourceUrl": "https://www.ebay.com/itm/318419156427",
+                "soldAt": "2026-09-09",
+                "value": 2.84,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236977398992",
+                "sourceUrl": "https://www.ebay.com/itm/236977398992",
+                "soldAt": "2026-08-06",
+                "value": 1.33,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:298473581322",
+                "sourceUrl": "https://www.ebay.com/itm/298473581322",
+                "soldAt": "2026-07-03",
+                "value": 6,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:235769254515",
+                "sourceUrl": "https://www.ebay.com/itm/235769254515",
+                "soldAt": "2026-05-22",
+                "value": 5.49,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:156397583718",
+                "sourceUrl": "https://www.ebay.com/itm/156397583718",
+                "soldAt": "2026-05-18",
+                "value": 6.6,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five latest explicitly named Skottie Young single-book raw sales. Five-cover bundle 196624515922 at $27.99 was excluded; low single-copy sales were retained."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:4725989543",
+      "revision": "82c2c85519566175e04122d15f5b03d7947b938459e6ef574d2eabcd6b9edaef",
+      "observations": [
+        {
+          "id": "evening-2026-09-19-Authority-4725989543",
+          "copyId": "Authority:4725989543",
+          "basis": "raw-reference",
+          "value": 12.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-11-2024",
+            "asOf": "2026-08-26",
+            "retrievedAt": "2026-09-19T17:43:47.556Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Spider-Boy",
+              "issue": "11",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "",
+              "upc": "75960620785501111",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "A",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-11-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T17:43:47.556Z",
+            "notes": "Exact full UPC 75960620785501111 and owned title/edition matched to PriceCharting product 7323829. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three latest unambiguous Cover A single-book raw sales. Godzilla variants, generic cover-uncertain titles, #11-12 lots and the Cover A listing with ambiguous '(2)' wording were excluded.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:206495945116",
+                "sourceUrl": "https://www.ebay.com/itm/206495945116",
+                "soldAt": "2026-08-26",
+                "value": 14.8,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:127808447396",
+                "sourceUrl": "https://www.ebay.com/itm/127808447396",
+                "soldAt": "2026-07-17",
+                "value": 12.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:366467605513",
+                "sourceUrl": "https://www.ebay.com/itm/366467605513",
+                "soldAt": "2026-06-15",
+                "value": 8.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three latest unambiguous Cover A single-book raw sales. Godzilla variants, generic cover-uncertain titles, #11-12 lots and the Cover A listing with ambiguous '(2)' wording were excluded."
+        }
+      ]
+    }
+  ]
+}
