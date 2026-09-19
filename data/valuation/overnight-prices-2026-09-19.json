@@ -1,0 +1,716 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "TAG:Y5902940",
+      "revision": "64062458583fb055aeba3f093231179c0f5432d78e21d1031745f403c7f46adc",
+      "observations": [
+        {
+          "id": "overnight-2026-09-19-TAG-Y5902940",
+          "copyId": "TAG:Y5902940",
+          "basis": "psa-comparison",
+          "evidenceKind": "sold-comps",
+          "value": 11.5,
+          "currency": "USD",
+          "source": {
+            "name": "Sports Card Investor",
+            "url": "https://www.sportscardinvestor.com/cards/blake-corum-football/2024-topps-chrome-sapphire-edition-gold-219/psa-9",
+            "asOf": "2025-11-30",
+            "retrievedAt": "2026-09-19T01:39:22.384Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "TOPPS CHROME SAPPHIRE EDITION",
+              "series": "TOPPS CHROME SAPPHIRE EDITION",
+              "subject": "BLAKE CORUM",
+              "cardNumber": "219",
+              "variety": "GOLD REFRACTOR",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.sportscardinvestor.com/cards/blake-corum-football/2024-topps-chrome-sapphire-edition-gold-219/psa-9",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T01:39:22.384Z",
+            "notes": "Exact 2024 Topps Chrome Sapphire Edition Blake Corum #219 Gold /50, TAG 9. No reliable direct TAG 9 sale located by targeted search. Owner-authorized same-grade PSA fallback. Sports Card Investor reports one PSA 9 comparison, serial 17/50, at $11.50. Transaction list gives November 30, 2025; summary gives November 29, a one-day source discrepancy, retained here using the transaction-list date. Original eBay URL now redirects to a sold-out generic product page and does not independently verify price. Excluded raw, White /15, non-Sapphire Gold Wave and other grades. This is a sparse historical comparison, not a current firm appraisal."
+          },
+          "saleCount": 1,
+          "range": {
+            "low": 11.5,
+            "high": 11.5,
+            "method": "min-max"
+          },
+          "transactions": [
+            {
+              "transactionId": "ebay:317561649510",
+              "sourceUrl": "https://www.ebay.com/itm/317561649510",
+              "soldAt": "2025-11-30",
+              "value": 11.5,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "TOPPS CHROME SAPPHIRE EDITION",
+                "series": "TOPPS CHROME SAPPHIRE EDITION",
+                "subject": "BLAKE CORUM",
+                "cardNumber": "219",
+                "variety": "GOLD REFRACTOR",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            }
+          ],
+          "provisional": true,
+          "provisionalReason": "One reported PSA 9 sale from November 2025; stale, sparse history and one-day source date discrepancy. Original listing price no longer independently accessible."
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4198680003",
+      "revision": "f0697ed52a5c74c72ceb0f6c5c304226d7a3a1259b40c44e7b3d7bd5572bb486",
+      "observations": [
+        {
+          "id": "overnight-2026-09-19-CGC-4198680003",
+          "copyId": "CGC:4198680003",
+          "basis": "sold-comps",
+          "value": 37.5,
+          "currency": "USD",
+          "source": {
+            "name": "GoCollect",
+            "url": "https://gocollect.com/app/comic/ninja-funk-1-5",
+            "asOf": "2024-11-29",
+            "retrievedAt": "2026-09-19T01:39:22.384Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Ninja Funk",
+              "issue": "1",
+              "issueYear": "2022",
+              "publisher": "Whatnot Publishing",
+              "variant": "Spectral Comics Convention Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://gocollect.com/app/comic/ninja-funk-1-5",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T01:39:22.384Z",
+            "notes": "Exact Ninja Funk #1 Spectral Comics Convention Edition, Tyler Kirkham, CGC Universal 9.8 WHITE. Authenticated GoCollect sale 15406296 reports eBay 186099803079, seller j_j_comics, comparable cert 4263458024, fixed price, November 29, 2024. Chart accessibility supplies exact $37.50; rounded table/modal displays $38. Excluded September 28, 2023 best-offer row 7241467 ($80 displayed), same comparable cert, because accepted price is not verified. Signature Series and other Kirkham covers excluded. One very stale comparison; not a claim of fresh 2026 market evidence."
+          },
+          "saleCount": 1,
+          "range": {
+            "low": 37.5,
+            "high": 37.5,
+            "method": "min-max"
+          },
+          "transactions": [
+            {
+              "transactionId": "ebay:186099803079",
+              "sourceUrl": "https://www.ebay.com/itm/186099803079",
+              "soldAt": "2024-11-29",
+              "value": 37.5,
+              "identity": {
+                "kind": "comic",
+                "title": "Ninja Funk",
+                "issue": "1",
+                "issueYear": "2022",
+                "publisher": "Whatnot Publishing",
+                "variant": "Spectral Comics Convention Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            }
+          ],
+          "provisional": true,
+          "provisionalReason": "Only one usable fixed-price sale, from November 2024; very stale and sparse history."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:3862755474",
+      "revision": "b5c81025b8a9b60897616ab3e5ba2c5d952ef2a3e1e7917ca8f1ce880f5c2727",
+      "observations": [
+        {
+          "id": "overnight-2026-09-19-Authority-3862755474",
+          "copyId": "Authority:3862755474",
+          "basis": "raw-reference",
+          "value": 3.49,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-silver-surfer-rebirth-legacy/silver-surfer-rebirth-legacy-miller-1-2023",
+            "asOf": "2026-05-02",
+            "retrievedAt": "2026-09-19T01:39:22.384Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Silver Surfer Rebirth: Legacy",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "Frank Miller Variant",
+              "upc": "75960620435900131",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "C",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-silver-surfer-rebirth-legacy/silver-surfer-rebirth-legacy-miller-1-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T01:39:22.384Z",
+            "notes": "Exact full UPC 75960620435900131 and owned title/edition matched to PriceCharting product 5768164. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Four newest explicit Frank Miller open-order variant single-copy sales within the last year. Excluded 1:100 incentive, two-book lots and older rows. Latest comparison is over 90 days old. Owned condition remains unknown.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:256273215062",
+                "sourceUrl": "https://www.ebay.com/itm/256273215062",
+                "soldAt": "2026-05-02",
+                "value": 3.49,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:196050366793",
+                "sourceUrl": "https://www.ebay.com/itm/196050366793",
+                "soldAt": "2026-02-23",
+                "value": 9.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:157244804279",
+                "sourceUrl": "https://www.ebay.com/itm/157244804279",
+                "soldAt": "2025-12-09",
+                "value": 2.95,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:186369716222",
+                "sourceUrl": "https://www.ebay.com/itm/186369716222",
+                "soldAt": "2025-11-28",
+                "value": 3.49,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Four newest explicit Frank Miller open-order variant single-copy sales within the last year. Excluded 1:100 incentive, two-book lots and older rows. Latest comparison is over 90 days old. Owned condition remains unknown."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:5026340044",
+      "revision": "b5c81025b8a9b60897616ab3e5ba2c5d952ef2a3e1e7917ca8f1ce880f5c2727",
+      "observations": [
+        {
+          "id": "overnight-2026-09-19-Authority-5026340044",
+          "copyId": "Authority:5026340044",
+          "basis": "raw-reference",
+          "value": 3.75,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-city-boy/city-boy-3-2023",
+            "asOf": "2026-05-28",
+            "retrievedAt": "2026-09-19T01:39:22.384Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "City Boy",
+              "issue": "3",
+              "issueYear": "2023",
+              "publisher": "DC Comics",
+              "variant": "",
+              "upc": "76194137799500311",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "A",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-city-boy/city-boy-3-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T01:39:22.384Z",
+            "notes": "Exact full UPC 76194137799500311 and owned title/edition matched to PriceCharting product 5554483. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. PriceCharting truncates the UPC to 7619413779950031; the complete owned UPC 76194137799500311 is independently matched to Minkyu Jung Cover A by https://westfieldcomics.com/comic-books/City-Boy-3-cover-A--Minkyu-Jung-2023/23052040 and https://www.midtowncomics.com/product/2217798. Only two explicit Main Cover first-print sales within the last year retained. Ambiguous-cover and older rows excluded. Sparse and stale reference. Retail asking prices were used only for identity, not value.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:166253296802",
+                "sourceUrl": "https://www.ebay.com/itm/166253296802",
+                "soldAt": "2026-05-28",
+                "value": 5.51,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:235684009272",
+                "sourceUrl": "https://www.ebay.com/itm/235684009272",
+                "soldAt": "2026-01-04",
+                "value": 1.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. PriceCharting truncates the UPC to 7619413779950031; the complete owned UPC 76194137799500311 is independently matched to Minkyu Jung Cover A by https://westfieldcomics.com/comic-books/City-Boy-3-cover-A--Minkyu-Jung-2023/23052040 and https://www.midtowncomics.com/product/2217798. Only two explicit Main Cover first-print sales within the last year retained. Ambiguous-cover and older rows excluded. Sparse and stale reference. Retail asking prices were used only for identity, not value."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:9829310138",
+      "revision": "b5c81025b8a9b60897616ab3e5ba2c5d952ef2a3e1e7917ca8f1ce880f5c2727",
+      "observations": [
+        {
+          "id": "overnight-2026-09-19-Authority-9829310138",
+          "copyId": "Authority:9829310138",
+          "basis": "raw-reference",
+          "value": 2.39,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-silver-surfer-rebirth-legacy/silver-surfer-rebirth-legacy-1-2023",
+            "asOf": "2026-01-11",
+            "retrievedAt": "2026-09-19T01:39:22.384Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Silver Surfer Rebirth: Legacy",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "Ron Lim Cover",
+              "upc": "75960620435900111",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "A",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-silver-surfer-rebirth-legacy/silver-surfer-rebirth-legacy-1-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T01:39:22.384Z",
+            "notes": "Exact full UPC 75960620435900111 and owned title/edition matched to PriceCharting product 5768168. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. One explicit standard Cover A sale in reviewed history. The catalog mixes many JTC Negative Space and second-print transactions, a graded slab and ambiguous-cover rows; those were excluded. Sparse and stale reference for the Ron Lim first-print cover.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:256275293470",
+                "sourceUrl": "https://www.ebay.com/itm/256275293470",
+                "soldAt": "2026-01-11",
+                "value": 2.39,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. One explicit standard Cover A sale in reviewed history. The catalog mixes many JTC Negative Space and second-print transactions, a graded slab and ambiguous-cover rows; those were excluded. Sparse and stale reference for the Ron Lim first-print cover."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:8180613108",
+      "revision": "b5c81025b8a9b60897616ab3e5ba2c5d952ef2a3e1e7917ca8f1ce880f5c2727",
+      "observations": [
+        {
+          "id": "overnight-2026-09-19-Authority-8180613108",
+          "copyId": "Authority:8180613108",
+          "basis": "raw-reference",
+          "value": 4,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-annual/spider-gwen-annual-1-2023",
+            "asOf": "2026-07-26",
+            "retrievedAt": "2026-09-19T01:39:22.384Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Spider-Gwen Annual",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "R1c0 Cover",
+              "upc": "75960620734300111",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "A",
+              "volume": "3",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-annual/spider-gwen-annual-1-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T01:39:22.384Z",
+            "notes": "Exact full UPC 75960620734300111 and owned title/edition matched to PriceCharting product 5768179. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Two newest explicit R1c0 / RIC0 Cover A transactions. Excluded Andolfo, Bry's exclusive, second print and ambiguous-cover listings in the mixed catalog. Sparse reference. $3.995 median rounds to $4.00 in integer cents.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:257403304959",
+                "sourceUrl": "https://www.ebay.com/itm/257403304959",
+                "soldAt": "2026-07-26",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236900628651",
+                "sourceUrl": "https://www.ebay.com/itm/236900628651",
+                "soldAt": "2026-07-04",
+                "value": 3,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Two newest explicit R1c0 / RIC0 Cover A transactions. Excluded Andolfo, Bry's exclusive, second print and ambiguous-cover listings in the mixed catalog. Sparse reference. $3.995 median rounds to $4.00 in integer cents."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:4439662799",
+      "revision": "b5c81025b8a9b60897616ab3e5ba2c5d952ef2a3e1e7917ca8f1ce880f5c2727",
+      "observations": [
+        {
+          "id": "overnight-2026-09-19-Authority-4439662799",
+          "copyId": "Authority:4439662799",
+          "basis": "raw-reference",
+          "value": 9.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-ultimate-invasion/ultimate-invasion-blank-1-2023",
+            "asOf": "2026-06-30",
+            "retrievedAt": "2026-09-19T01:39:22.384Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Ultimate Invasion",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "Blank Variant",
+              "upc": "75960620234800151",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "H",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-ultimate-invasion/ultimate-invasion-blank-1-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T01:39:22.384Z",
+            "notes": "Exact full UPC 75960620234800151 and owned title/edition matched to PriceCharting product 5385719. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five newest explicit unmarked blank variant first-print single copies. Excluded original sketches by Jorge Molina and Brian Lacy, Dynamic Forces COA, unrelated Hitch sketch incentive and older transactions. No seller condition is assigned to the owned copy.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:385702419343",
+                "sourceUrl": "https://www.ebay.com/itm/385702419343",
+                "soldAt": "2026-06-30",
+                "value": 6.74,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:285474738351",
+                "sourceUrl": "https://www.ebay.com/itm/285474738351",
+                "soldAt": "2026-06-27",
+                "value": 9.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:376409999386",
+                "sourceUrl": "https://www.ebay.com/itm/376409999386",
+                "soldAt": "2026-06-26",
+                "value": 8.95,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:285751083917",
+                "sourceUrl": "https://www.ebay.com/itm/285751083917",
+                "soldAt": "2026-06-26",
+                "value": 10,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:257160144667",
+                "sourceUrl": "https://www.ebay.com/itm/257160144667",
+                "soldAt": "2026-06-26",
+                "value": 9.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five newest explicit unmarked blank variant first-print single copies. Excluded original sketches by Jorge Molina and Brian Lacy, Dynamic Forces COA, unrelated Hitch sketch incentive and older transactions. No seller condition is assigned to the owned copy."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:7050130274",
+      "revision": "b5c81025b8a9b60897616ab3e5ba2c5d952ef2a3e1e7917ca8f1ce880f5c2727",
+      "observations": [
+        {
+          "id": "overnight-2026-09-19-Authority-7050130274",
+          "copyId": "Authority:7050130274",
+          "basis": "raw-reference",
+          "value": 6.45,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-2-2023",
+            "asOf": "2026-05-28",
+            "retrievedAt": "2026-09-19T01:39:22.384Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Marvel Unleashed",
+              "issue": "2",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "David Baldeon Cover",
+              "upc": "75960620134100211",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "A",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-2-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T01:39:22.384Z",
+            "notes": "Exact full UPC 75960620134100211 and owned title/edition matched to PriceCharting product 5834620. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. One explicit first-print Main Cover transaction within the last year. Excluded Ron Lim variant, presale and ambiguous-cover rows. Sparse, stale reference for David Baldeon standard cover.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:175917391790",
+                "sourceUrl": "https://www.ebay.com/itm/175917391790",
+                "soldAt": "2026-05-28",
+                "value": 6.45,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. One explicit first-print Main Cover transaction within the last year. Excluded Ron Lim variant, presale and ambiguous-cover rows. Sparse, stale reference for David Baldeon standard cover."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:3411274401",
+      "revision": "b5c81025b8a9b60897616ab3e5ba2c5d952ef2a3e1e7917ca8f1ce880f5c2727",
+      "observations": [
+        {
+          "id": "overnight-2026-09-19-Authority-3411274401",
+          "copyId": "Authority:3411274401",
+          "basis": "raw-reference",
+          "value": 49.49,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-harley-quinn/harley-quinn-howell-32-2023",
+            "asOf": "2025-04-09",
+            "retrievedAt": "2026-09-19T01:39:22.384Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Harley Quinn",
+              "issue": "32",
+              "issueYear": "2023",
+              "publisher": "DC",
+              "variant": "Corin Howell Variant",
+              "upc": "76194137281503251",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "E",
+              "volume": "4",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-harley-quinn/harley-quinn-howell-32-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T01:39:22.384Z",
+            "notes": "Exact full UPC 76194137281503251 and owned title/edition matched to PriceCharting product 5834457. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Two latest explicit Corin Howell 1:50 incentive raw sales, both March-April 2025. Very stale historical reference; no recent sale in reviewed catalog. Older 2023-2024 rows range $5.50-$22.50 and were not mixed into the latest two-sale median. Wide historical variation and unassessed owned condition make this a low-confidence reference only.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:295999781497",
+                "sourceUrl": "https://www.ebay.com/itm/295999781497",
+                "soldAt": "2025-04-09",
+                "value": 53.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:335416438373",
+                "sourceUrl": "https://www.ebay.com/itm/335416438373",
+                "soldAt": "2025-03-26",
+                "value": 44.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Two latest explicit Corin Howell 1:50 incentive raw sales, both March-April 2025. Very stale historical reference; no recent sale in reviewed catalog. Older 2023-2024 rows range $5.50-$22.50 and were not mixed into the latest two-sale median. Wide historical variation and unassessed owned condition make this a low-confidence reference only."
+        }
+      ]
+    }
+  ]
+}

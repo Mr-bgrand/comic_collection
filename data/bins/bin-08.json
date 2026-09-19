@@ -411,7 +411,105 @@
         "status": "no-sales",
         "fetchedAt": "2026-08-22T07:24:12.204Z"
       },
-      "imageSource": "owner"
+      "imageSource": "owner",
+      "valuation": {
+        "observations": [
+          {
+            "id": "overnight-2026-09-19-CGC-4198680003",
+            "copyId": "CGC:4198680003",
+            "basis": "sold-comps",
+            "value": 37.5,
+            "currency": "USD",
+            "source": {
+              "name": "GoCollect",
+              "url": "https://gocollect.com/app/comic/ninja-funk-1-5",
+              "asOf": "2024-11-29",
+              "retrievedAt": "2026-09-19T01:39:22.384Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Ninja Funk",
+                "issue": "1",
+                "issueYear": "2022",
+                "publisher": "Whatnot Publishing",
+                "variant": "Spectral Comics Convention Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://gocollect.com/app/comic/ninja-funk-1-5",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T01:39:22.384Z",
+              "notes": "Exact Ninja Funk #1 Spectral Comics Convention Edition, Tyler Kirkham, CGC Universal 9.8 WHITE. Authenticated GoCollect sale 15406296 reports eBay 186099803079, seller j_j_comics, comparable cert 4263458024, fixed price, November 29, 2024. Chart accessibility supplies exact $37.50; rounded table/modal displays $38. Excluded September 28, 2023 best-offer row 7241467 ($80 displayed), same comparable cert, because accepted price is not verified. Signature Series and other Kirkham covers excluded. One very stale comparison; not a claim of fresh 2026 market evidence."
+            },
+            "saleCount": 1,
+            "range": {
+              "low": 37.5,
+              "high": 37.5,
+              "method": "min-max"
+            },
+            "transactions": [
+              {
+                "transactionId": "ebay:186099803079",
+                "sourceUrl": "https://www.ebay.com/itm/186099803079",
+                "soldAt": "2024-11-29",
+                "value": 37.5,
+                "identity": {
+                  "kind": "comic",
+                  "title": "Ninja Funk",
+                  "issue": "1",
+                  "issueYear": "2022",
+                  "publisher": "Whatnot Publishing",
+                  "variant": "Spectral Comics Convention Edition",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "language": "",
+                  "labelCategory": "Universal",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": "",
+                  "qualifiers": ""
+                },
+                "grade": "9.8",
+                "grader": "CGC",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              }
+            ],
+            "provisional": true,
+            "provisionalReason": "Only one usable fixed-price sale, from November 2024; very stale and sparse history."
+          }
+        ],
+        "selection": {
+          "observationId": "overnight-2026-09-19-CGC-4198680003",
+          "locked": true,
+          "selectedAt": "2026-09-19T01:39:22.668Z"
+        }
+      }
     },
     {
       "cert": "4273634007",
