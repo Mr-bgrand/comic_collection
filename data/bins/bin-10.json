@@ -2078,7 +2078,105 @@
         "capturedAt": "2026-09-10T05:53:28.351Z",
         "importedAt": "2026-09-10T05:55:01.219Z"
       },
-      "scanStatus": "complete"
+      "scanStatus": "complete",
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-19-CGC-4350771005",
+            "copyId": "CGC:4350771005",
+            "basis": "sold-comps",
+            "value": 149.99,
+            "currency": "USD",
+            "source": {
+              "name": "GoCollect",
+              "url": "https://gocollect.com/app/comic/batman-the-long-halloween-special-1-spectral-comics-foil-edition",
+              "asOf": "2026-04-21",
+              "retrievedAt": "2026-09-19T09:44:48.873Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Batman: The Long Halloween Special",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DC Comics",
+                "variant": "Spectral Comics Foil Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://gocollect.com/app/comic/batman-the-long-halloween-special-1-spectral-comics-foil-edition",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T09:44:48.873Z",
+              "notes": "Owned certification lookup links 4350771005 to the Spectral Comics Foil Edition, whose census identifies June 2023 despite the general catalog publication date showing the underlying 2021 issue. Exact CGC Universal 9.8 WHITE comparison, comparable cert 4709917024; GoCollect sale 22010572, seller j_j_comics, fixed price. Individual sale modal has no best-offer warning. The chart supplies $149.99; table/modal round to $150. Latest and only sale within one year; older September 2025 and 2024 transactions excluded. Ordinary Spectral paper and virgin editions, Signature Series, and current asking prices excluded. Source-reported completed transaction, not independently reverified at eBay."
+            },
+            "saleCount": 1,
+            "range": {
+              "low": 149.99,
+              "high": 149.99,
+              "method": "min-max"
+            },
+            "transactions": [
+              {
+                "transactionId": "ebay:188251498962",
+                "sourceUrl": "https://www.ebay.com/itm/188251498962",
+                "soldAt": "2026-04-21",
+                "value": 149.99,
+                "identity": {
+                  "kind": "comic",
+                  "title": "Batman: The Long Halloween Special",
+                  "issue": "1",
+                  "issueYear": "2023",
+                  "publisher": "DC Comics",
+                  "variant": "Spectral Comics Foil Edition",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "language": "",
+                  "labelCategory": "Universal",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": "",
+                  "qualifiers": ""
+                },
+                "grade": "9.8",
+                "grader": "CGC",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              }
+            ],
+            "provisional": true,
+            "provisionalReason": "One matching sale within the past year, dated April 21, 2026; limited and stale history."
+          }
+        ],
+        "selection": {
+          "observationId": "midday-2026-09-19-CGC-4350771005",
+          "locked": true,
+          "selectedAt": "2026-09-19T09:44:49.159Z"
+        }
+      }
     },
     {
       "cert": "4350771001",

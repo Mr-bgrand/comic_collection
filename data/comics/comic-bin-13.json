@@ -4929,7 +4929,83 @@
         "capturedAt": "2026-09-07T23:31:33.479Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-19-Authority-7528088457",
+            "copyId": "Authority:7528088457",
+            "basis": "raw-reference",
+            "value": 0.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-29-2023",
+              "asOf": "2026-06-24",
+              "retrievedAt": "2026-09-19T09:44:48.873Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Amazing Spider-Man",
+                "issue": "29",
+                "issueYear": "",
+                "publisher": "Marvel Comics",
+                "variant": "Disney100 Captain Marvel Variant",
+                "upc": "75960620200302921",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "6",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-29-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T09:44:48.873Z",
+              "notes": "Owned full UPC 75960620200302921 is the Giada Perissinotto Disney100 Captain Marvel color cover, independently matched by GCD https://www.comics.org/series/184161/details/?sort=barcode. PriceCharting base catalog 5436252 shows regular-cover UPC 75960620200302911 and mixes variants; its aggregate guide is not used. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Only three explicitly named Disney100 Perissinotto raw single-copy transactions retained. Excluded color-plus-B&W 1:100 lot, ordinary cover A, other variants and slabs. Catalog UPC mismatch disclosed; selected transaction titles identify the owned cover. Sparse evidence, no owned condition inferred.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:185983895615",
+                  "sourceUrl": "https://www.ebay.com/itm/185983895615",
+                  "soldAt": "2026-06-24",
+                  "value": 3.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:127923998649",
+                  "sourceUrl": "https://www.ebay.com/itm/127923998649",
+                  "soldAt": "2026-06-22",
+                  "value": 0.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:127901492375",
+                  "sourceUrl": "https://www.ebay.com/itm/127901492375",
+                  "soldAt": "2026-06-10",
+                  "value": 0.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Only three explicitly named Disney100 Perissinotto raw single-copy transactions retained. Excluded color-plus-B&W 1:100 lot, ordinary cover A, other variants and slabs. Catalog UPC mismatch disclosed; selected transaction titles identify the owned cover. Sparse evidence, no owned condition inferred."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_7528088457_FRONT.jpg",
         "back": "Authority_7528088457_BACK.jpg"
@@ -5211,7 +5287,97 @@
         "capturedAt": "2026-09-07T23:32:02.826Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-19-Authority-1153548610",
+            "copyId": "Authority:1153548610",
+            "basis": "raw-reference",
+            "value": 3.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-nakayama-29-2023",
+              "asOf": "2026-08-05",
+              "retrievedAt": "2026-09-19T09:44:48.873Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Amazing Spider-Man",
+                "issue": "29",
+                "issueYear": "2022",
+                "publisher": "Marvel Comics",
+                "variant": "Hellfire Gala Variant",
+                "upc": "75960620200302931",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "6",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-nakayama-29-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T09:44:48.873Z",
+              "notes": "Exact full UPC 75960620200302931 and owned title/edition matched to PriceCharting product 5436245. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five latest explicit Nakayama Hellfire Gala trade-dress raw sales; separate SDCC virgin variant excluded. Full UPC matches this July 2023 edition. Owned metadata currently says issueYear 2022; that discrepancy is retained and disclosed rather than silently changed. Reference is keyed to the exact full UPC and cover variant. Comparison conditions vary and do not establish owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:800247652542",
+                  "sourceUrl": "https://www.ebay.com/itm/800247652542",
+                  "soldAt": "2026-08-05",
+                  "value": 3.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:407048773073",
+                  "sourceUrl": "https://www.ebay.com/itm/407048773073",
+                  "soldAt": "2026-07-11",
+                  "value": 11.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:325728436188",
+                  "sourceUrl": "https://www.ebay.com/itm/325728436188",
+                  "soldAt": "2026-06-22",
+                  "value": 3.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:335227005804",
+                  "sourceUrl": "https://www.ebay.com/itm/335227005804",
+                  "soldAt": "2026-06-21",
+                  "value": 3.88,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:236804728116",
+                  "sourceUrl": "https://www.ebay.com/itm/236804728116",
+                  "soldAt": "2026-05-19",
+                  "value": 4.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five latest explicit Nakayama Hellfire Gala trade-dress raw sales; separate SDCC virgin variant excluded. Full UPC matches this July 2023 edition. Owned metadata currently says issueYear 2022; that discrepancy is retained and disclosed rather than silently changed. Reference is keyed to the exact full UPC and cover variant. Comparison conditions vary and do not establish owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_1153548610_FRONT.jpg",
         "back": "Authority_1153548610_BACK.jpg"
@@ -6118,7 +6284,69 @@
         "capturedAt": "2026-09-07T23:32:16.387Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-19-Authority-6653170836",
+            "copyId": "Authority:6653170836",
+            "basis": "raw-reference",
+            "value": 8.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-x-men-hellfire-gala-2023/x-men-hellfire-gala-2023-duarte-1-2023",
+              "asOf": "2026-09-09",
+              "retrievedAt": "2026-09-19T09:44:48.873Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "X-Men: Hellfire Gala 2023",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Howard the Duck Variant",
+                "upc": "75960620574500181",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "G",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-x-men-hellfire-gala-2023/x-men-hellfire-gala-2023-duarte-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T09:44:48.873Z",
+              "notes": "Exact full UPC 75960620574500181 and owned title/edition matched to PriceCharting product 5529317. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Latest and only raw Duarte Howard the Duck transaction within one year; older 2024 and 2023 rows excluded. Full UPC matches the owned variant. Single-sale reference with unassessed owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:235103556642",
+                  "sourceUrl": "https://www.ebay.com/itm/235103556642",
+                  "soldAt": "2026-09-09",
+                  "value": 8.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Latest and only raw Duarte Howard the Duck transaction within one year; older 2024 and 2023 rows excluded. Full UPC matches the owned variant. Single-sale reference with unassessed owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_6653170836_FRONT.jpg",
         "back": "Authority_6653170836_BACK.jpg"
@@ -8828,7 +9056,90 @@
         "capturedAt": "2026-09-07T23:33:47.041Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-19-Authority-7390387012",
+            "copyId": "Authority:7390387012",
+            "basis": "raw-reference",
+            "value": 3.12,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-star-wars-the-mandalorian-season-2/star-wars-the-mandalorian-season-2-yagawa-1-2023",
+              "asOf": "2026-05-29",
+              "retrievedAt": "2026-09-19T09:44:48.873Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Star Wars: The Mandalorian Season 2",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Yagawa Variant",
+                "upc": "75960620598100151",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "E",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-star-wars-the-mandalorian-season-2/star-wars-the-mandalorian-season-2-yagawa-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T09:44:48.873Z",
+              "notes": "Exact full UPC 75960620598100151 and owned title/edition matched to PriceCharting product 5385502. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Four explicit Yagawa trade-dress Cover E raw sales within one year. Excluded misclassified $40 1:100 virgin incentive, older transactions and the separate 2022 first-season series. Sparse, stale history with a wide range; owned condition remains unassessed.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:155621477762",
+                  "sourceUrl": "https://www.ebay.com/itm/155621477762",
+                  "soldAt": "2026-05-29",
+                  "value": 1.29,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:286249106281",
+                  "sourceUrl": "https://www.ebay.com/itm/286249106281",
+                  "soldAt": "2026-05-19",
+                  "value": 4.95,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:295765374864",
+                  "sourceUrl": "https://www.ebay.com/itm/295765374864",
+                  "soldAt": "2026-04-18",
+                  "value": 7.79,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:267419277203",
+                  "sourceUrl": "https://www.ebay.com/itm/267419277203",
+                  "soldAt": "2025-10-05",
+                  "value": 0.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Four explicit Yagawa trade-dress Cover E raw sales within one year. Excluded misclassified $40 1:100 virgin incentive, older transactions and the separate 2022 first-season series. Sparse, stale history with a wide range; owned condition remains unassessed."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_7390387012_FRONT.jpg",
         "back": "Authority_7390387012_BACK.jpg"
@@ -9444,7 +9755,90 @@
         "capturedAt": "2026-09-07T23:33:56.051Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-19-Authority-5588237005",
+            "copyId": "Authority:5588237005",
+            "basis": "raw-reference",
+            "value": 4.87,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-black-panther/black-panther-mr-garcin-1-2023",
+              "asOf": "2026-08-04",
+              "retrievedAt": "2026-09-19T09:44:48.873Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Black Panther",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Mr. Garcin Variant",
+                "upc": "75960620503500191",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "G",
+                "volume": "9",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-black-panther/black-panther-mr-garcin-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T09:44:48.873Z",
+              "notes": "Exact full UPC 75960620503500191 and owned title/edition matched to PriceCharting product 5324977. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Four latest explicit Mr. Garcin Cover G raw single-copy sales within one year. Excluded the 24x36 promotional poster, presale wording and older transactions. Sparse history, no condition inferred for owned copy.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:374746332888",
+                  "sourceUrl": "https://www.ebay.com/itm/374746332888",
+                  "soldAt": "2026-08-04",
+                  "value": 5.24,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:374693691732",
+                  "sourceUrl": "https://www.ebay.com/itm/374693691732",
+                  "soldAt": "2026-01-06",
+                  "value": 5.32,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:156022341223",
+                  "sourceUrl": "https://www.ebay.com/itm/156022341223",
+                  "soldAt": "2025-12-17",
+                  "value": 4.5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:325957564761",
+                  "sourceUrl": "https://www.ebay.com/itm/325957564761",
+                  "soldAt": "2025-12-06",
+                  "value": 3.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Four latest explicit Mr. Garcin Cover G raw single-copy sales within one year. Excluded the 24x36 promotional poster, presale wording and older transactions. Sparse history, no condition inferred for owned copy."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_5588237005_FRONT.jpg",
         "back": "Authority_5588237005_BACK.jpg"
@@ -10911,7 +11305,76 @@
         "capturedAt": "2026-09-07T23:36:24.426Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-19-Authority-4782701571",
+            "copyId": "Authority:4782701571",
+            "basis": "raw-reference",
+            "value": 2.19,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-incredible-hulk/the-incredible-hulk-gleason-1-2023",
+              "asOf": "2026-06-28",
+              "retrievedAt": "2026-09-19T09:44:48.873Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Incredible Hulk",
+                "issue": "1",
+                "issueYear": "",
+                "publisher": "Marvel Comics",
+                "variant": "Elemental Variant",
+                "upc": "75960620663600171",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "G",
+                "volume": "5",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-incredible-hulk/the-incredible-hulk-gleason-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T09:44:48.873Z",
+              "notes": "Exact full UPC 75960620663600171 and owned title/edition matched to PriceCharting product 5385696. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Only two explicitly named Elemental first-print raw sales within one year retained. Excluded Gray Fan Expo, signed multi-cover sets, virgin editions, ambiguous Gleason-only titles, presale wording and older sales. Full UPC resolves the edition despite the owned issueYear being blank; no identity or condition field changed. Sparse reference.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:365222480507",
+                  "sourceUrl": "https://www.ebay.com/itm/365222480507",
+                  "soldAt": "2026-06-28",
+                  "value": 1.38,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:134616817604",
+                  "sourceUrl": "https://www.ebay.com/itm/134616817604",
+                  "soldAt": "2026-05-01",
+                  "value": 2.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Only two explicitly named Elemental first-print raw sales within one year retained. Excluded Gray Fan Expo, signed multi-cover sets, virgin editions, ambiguous Gleason-only titles, presale wording and older sales. Full UPC resolves the edition despite the owned issueYear being blank; no identity or condition field changed. Sparse reference."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_4782701571_FRONT.jpg",
         "back": "Authority_4782701571_BACK.jpg"
@@ -11891,7 +12354,76 @@
         "capturedAt": "2026-09-07T23:35:20.514Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-19-Authority-9893483013",
+            "copyId": "Authority:9893483013",
+            "basis": "raw-reference",
+            "value": 4.59,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-shazam/shazam-samnee-3-2023",
+              "asOf": "2026-09-02",
+              "retrievedAt": "2026-09-19T09:44:48.873Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Shazam!",
+                "issue": "3",
+                "issueYear": "2023",
+                "publisher": "DC",
+                "variant": "Chris Samnee Variant",
+                "upc": "76194138048300321",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "4",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-shazam/shazam-samnee-3-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T09:44:48.873Z",
+              "notes": "Exact full UPC 76194138048300321 and owned title/edition matched to PriceCharting product 5768267. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Two explicit Chris Samnee Cover B raw sales within the last year. Older and presale-worded rows excluded. Sparse history; no owned condition inferred.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:186072658106",
+                  "sourceUrl": "https://www.ebay.com/itm/186072658106",
+                  "soldAt": "2026-09-02",
+                  "value": 4.19,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:167088221543",
+                  "sourceUrl": "https://www.ebay.com/itm/167088221543",
+                  "soldAt": "2025-09-20",
+                  "value": 4.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Two explicit Chris Samnee Cover B raw sales within the last year. Older and presale-worded rows excluded. Sparse history; no owned condition inferred."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_9893483013_FRONT.jpg",
         "back": "Authority_9893483013_BACK.jpg"
@@ -12914,7 +13446,83 @@
         "capturedAt": "2026-09-07T23:35:36.284Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-19-Authority-2876439667",
+            "copyId": "Authority:2876439667",
+            "basis": "raw-reference",
+            "value": 0.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-jean-grey/jean-grey-simonson-2-2023",
+              "asOf": "2026-09-06",
+              "retrievedAt": "2026-09-19T09:44:48.873Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Jean Grey",
+                "issue": "2",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Simonson Jean & Wolverine Variant",
+                "upc": "75960620618600217",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "D",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-jean-grey/jean-grey-simonson-2-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T09:44:48.873Z",
+              "notes": "Exact full UPC 75960620618600217 and owned title/edition matched to PriceCharting product 5834499. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three latest explicitly named Walter Simonson Jean and Wolverine variant raw sales. Excluded an ambiguous 2033 / 2 listing, lots, Amy Reeder cover A, Ejikure 1:25 and older transactions. Sparse recent history; transaction condition is not transferred to the owned copy.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:407179144760",
+                  "sourceUrl": "https://www.ebay.com/itm/407179144760",
+                  "soldAt": "2026-09-06",
+                  "value": 0.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:306974991334",
+                  "sourceUrl": "https://www.ebay.com/itm/306974991334",
+                  "soldAt": "2026-06-07",
+                  "value": 2.15,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:406743337615",
+                  "sourceUrl": "https://www.ebay.com/itm/406743337615",
+                  "soldAt": "2026-03-20",
+                  "value": 0.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three latest explicitly named Walter Simonson Jean and Wolverine variant raw sales. Excluded an ambiguous 2033 / 2 listing, lots, Amy Reeder cover A, Ejikure 1:25 and older transactions. Sparse recent history; transaction condition is not transferred to the owned copy."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_2876439667_FRONT.jpg",
         "back": "Authority_2876439667_BACK.jpg"
@@ -13334,7 +13942,69 @@
         "capturedAt": "2026-09-07T23:35:49.732Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-19-Authority-8155896771",
+            "copyId": "Authority:8155896771",
+            "basis": "raw-reference",
+            "value": 12,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-batman-facsimile-edition/batman-facsimile-1-2023",
+              "asOf": "2024-11-01",
+              "retrievedAt": "2026-09-19T09:44:48.873Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Batman",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DC",
+                "variant": "Facsimile Edition 2023",
+                "upc": "76194138217300111",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "A",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-batman-facsimile-edition/batman-facsimile-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T09:44:48.873Z",
+              "notes": "Exact full UPC 76194138217300111 and owned title/edition matched to PriceCharting product 6142616. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Only the latest explicitly identified Bob Kane/Jerry Robinson Cover A raw sale is retained. Very stale November 2024 historical reference. Excluded the CGC 9.8 slab misclassified as Ungraded and older ambiguous-cover rows. Midtown https://www.midtowncomics.com/product/2233257 independently confirms owned UPC as regular Cover A; PriceCharting incorrectly repeats this UPC in its separate foil catalog, which is not used. No owned condition is inferred.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:134782124606",
+                  "sourceUrl": "https://www.ebay.com/itm/134782124606",
+                  "soldAt": "2024-11-01",
+                  "value": 12,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Only the latest explicitly identified Bob Kane/Jerry Robinson Cover A raw sale is retained. Very stale November 2024 historical reference. Excluded the CGC 9.8 slab misclassified as Ungraded and older ambiguous-cover rows. Midtown https://www.midtowncomics.com/product/2233257 independently confirms owned UPC as regular Cover A; PriceCharting incorrectly repeats this UPC in its separate foil catalog, which is not used. No owned condition is inferred."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_8155896771_FRONT.jpg",
         "back": "Authority_8155896771_BACK.jpg"

@@ -1318,6 +1318,52 @@
         "limitedHistoryCount": 175,
         "undated": 66
       }
+    },
+    {
+      "observedAt": "2026-09-19T09:52:03.584Z",
+      "source": "build",
+      "categoryVersion": 1,
+      "fingerprint": "39f75c17e8ddb5789b63ebee9cd6eecea75cadb405f7abd3423e4ef6f2feb4d5",
+      "total": 34375.54,
+      "count": 933,
+      "valued": 390,
+      "unvalued": 543,
+      "marketTotal": 32485.32,
+      "comparisonTotal": 1890.22,
+      "ownerTotal": 0,
+      "provisionalTotal": 558.46,
+      "provisionalCount": 100,
+      "limitedHistoryTotal": 29685.66,
+      "limitedHistoryCount": 317,
+      "undated": 236,
+      "comics": {
+        "total": 14101.92,
+        "count": 696,
+        "valued": 186,
+        "unvalued": 510,
+        "marketTotal": 14101.92,
+        "comparisonTotal": 0,
+        "ownerTotal": 0,
+        "provisionalTotal": 558.46,
+        "provisionalCount": 100,
+        "limitedHistoryTotal": 10404.92,
+        "limitedHistoryCount": 142,
+        "undated": 170
+      },
+      "cards": {
+        "total": 20273.62,
+        "count": 237,
+        "valued": 204,
+        "unvalued": 33,
+        "marketTotal": 18383.4,
+        "comparisonTotal": 1890.22,
+        "ownerTotal": 0,
+        "provisionalTotal": 0,
+        "provisionalCount": 0,
+        "limitedHistoryTotal": 19280.74,
+        "limitedHistoryCount": 175,
+        "undated": 66
+      }
     }
   ]
 }

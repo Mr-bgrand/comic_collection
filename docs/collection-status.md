@@ -57,9 +57,9 @@ were moved from the unassigned group; no duplicate copies were created. See the
 
 | Group | Recorded total | Valued | No value yet |
 | --- | ---: | ---: | ---: |
-| Comics | $13,951.93 | 185 | 511 |
+| Comics | $14,101.92 | 186 | 510 |
 | Cards | $20,273.62 | 204 | 33 |
-| All | $34,225.55 | 389 | 544 |
+| All | $34,375.54 | 390 | 543 |
 
 45 PSA Vault estimates have no source date. Printing/building does not update
 market prices. TAG's explicit value or owner estimate takes precedence; otherwise
@@ -86,16 +86,18 @@ A September 19 pass added two graded estimates ($49.00), both starred, and seven
 references; see the [overnight research](valuation-overnight-2026-09-19.md).
 A morning September 19 pass added two graded estimates ($154.49) and 11 raw-copy
 references across eight editions; see the [morning research](valuation-morning-2026-09-19.md).
-Ninety-one unconditioned raw references now total $516.73 and remain excluded
-from the recorded total. There are 115 graded values outstanding (82 comics, 33 cards),
+A midday September 19 pass added one graded estimate ($149.99) and nine raw-copy
+references; see the [midday research](valuation-midday-2026-09-19.md).
+One hundred unconditioned raw references now total $558.46 and remain excluded
+from the recorded total. There are 114 graded values outstanding (81 comics, 33 cards),
 plus 429 raw copies awaiting condition assessment. See the
 [pilot report](valuation-pilot-2026-09-13.md) for sources, dates and remaining gaps.
 Inventory growth and newly valued records affect totals; these are not investment returns.
 
 ## Remaining intake and images
 
-- Bin 10's 23 comics have verified identities and scans. Twelve have reviewed, starred
-  estimates totaling $1,153.69; eleven still need a supported market value.
+- Bin 10's 23 comics have verified identities and scans. Thirteen have reviewed, starred
+  estimates totaling $1,303.68; ten still need a supported market value.
 - All 80 TAG cards now use verified full-slab front and back photographs from
   each cert page's Slabbed image captures section: 57 in Case #2, nine on the
   office wall and 14 in Case #1. The original card-only MAIN scans and
