@@ -1,0 +1,1115 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "TAG:R8010173",
+      "revision": "afd73b9ef4944163f54f4e70f72b794d685ae1680c1bd44121a9d9b179a9523c",
+      "observations": [
+        {
+          "id": "morning-2026-09-19-TAG-R8010173",
+          "copyId": "TAG:R8010173",
+          "basis": "psa-comparison",
+          "evidenceKind": "sold-comps",
+          "value": 123.5,
+          "currency": "USD",
+          "source": {
+            "name": "SportsCardsPro",
+            "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-mosaic-in-focus-signature/ricky-pearsall-if-rpl",
+            "asOf": "2026-06-05",
+            "retrievedAt": "2026-09-19T05:39:38.925Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "PANINI MOSAIC",
+              "series": "PANINI MOSAIC",
+              "subject": "RICKY PEARSALL",
+              "cardNumber": "IF-RPL",
+              "variety": "IN FOCUS SIGNATURES",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-mosaic-in-focus-signature/ricky-pearsall-if-rpl",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T05:39:38.925Z",
+            "notes": "Exact 2024 Panini Mosaic Ricky Pearsall #IF-RPL In Focus Signatures base autograph, TAG 10. SportsCardsPro product 7947167 shows zero TAG 10 sales; owner-authorized same-grade PSA 10 fallback uses the three newest explicit base autograph transactions, all within the last year. Excluded Gold /10, Choice parallels, other grades, older sales and active asking listings. Median $123.50. Latest sale is over 90 days old; source-reported sold transactions, not independently reverified original eBay prices."
+          },
+          "saleCount": 3,
+          "range": {
+            "low": 112.5,
+            "high": 125,
+            "method": "min-max"
+          },
+          "transactions": [
+            {
+              "transactionId": "ebay:157950090167",
+              "sourceUrl": "https://www.ebay.com/itm/157950090167",
+              "soldAt": "2026-06-05",
+              "value": 123.5,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PANINI MOSAIC",
+                "series": "PANINI MOSAIC",
+                "subject": "RICKY PEARSALL",
+                "cardNumber": "IF-RPL",
+                "variety": "IN FOCUS SIGNATURES",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:287047101697",
+              "sourceUrl": "https://www.ebay.com/itm/287047101697",
+              "soldAt": "2026-01-08",
+              "value": 125,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PANINI MOSAIC",
+                "series": "PANINI MOSAIC",
+                "subject": "RICKY PEARSALL",
+                "cardNumber": "IF-RPL",
+                "variety": "IN FOCUS SIGNATURES",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:376549943022",
+              "sourceUrl": "https://www.ebay.com/itm/376549943022",
+              "soldAt": "2025-09-22",
+              "value": 112.5,
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PANINI MOSAIC",
+                "series": "PANINI MOSAIC",
+                "subject": "RICKY PEARSALL",
+                "cardNumber": "IF-RPL",
+                "variety": "IN FOCUS SIGNATURES",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "PSA",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            }
+          ],
+          "provisional": true,
+          "provisionalReason": "Only three same-grade PSA comparison sales within the last year; latest June 5, 2026 is over 90 days old. TAG resale may differ."
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4350047004",
+      "revision": "2fb3ef4472da89aa6bb934cb34120a6a71327593397cb894010276af330f48b9",
+      "observations": [
+        {
+          "id": "morning-2026-09-19-CGC-4350047004",
+          "copyId": "CGC:4350047004",
+          "basis": "sold-comps",
+          "value": 30.99,
+          "currency": "USD",
+          "source": {
+            "name": "GoCollect",
+            "url": "https://gocollect.com/app/comic/star-wars-mandalorian-season-2-1-trinity-comics-virgin-edition",
+            "asOf": "2025-01-21",
+            "retrievedAt": "2026-09-19T05:39:38.925Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Star Wars: The Mandalorian Season 2",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "Trinity Comics \"Virgin\" Edition A",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://gocollect.com/app/comic/star-wars-mandalorian-season-2-1-trinity-comics-virgin-edition",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T05:39:38.925Z",
+            "notes": "Exact Star Wars: The Mandalorian Season 2 #1 Trinity Comics Virgin Edition A, Peach Momoko, CGC Universal 9.8 WHITE. GoCollect cert lookup links owned 4350047004 to this catalog, whose census explicitly identifies Virgin Edition A. Authenticated GoCollect sale 16493768: eBay 176793986207, seller sports.connection, 15-bid auction, comparable cert 4309421007, January 21, 2025. Chart supplies exact $30.99, table/modal round to $31. This latest recorded auction is very stale. Older catalog sales are from 2023 and were not combined with the latest observation. Excluded Virgin B, sketch, Signature Series and asking listings. Source-reported archived sale, not independently reverified on original eBay page."
+          },
+          "saleCount": 1,
+          "range": {
+            "low": 30.99,
+            "high": 30.99,
+            "method": "min-max"
+          },
+          "transactions": [
+            {
+              "transactionId": "ebay:176793986207",
+              "sourceUrl": "https://www.ebay.com/itm/176793986207",
+              "soldAt": "2025-01-21",
+              "value": 30.99,
+              "identity": {
+                "kind": "comic",
+                "title": "Star Wars: The Mandalorian Season 2",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Trinity Comics \"Virgin\" Edition A",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "currency": "USD",
+              "sold": true
+            }
+          ],
+          "provisional": true,
+          "provisionalReason": "One latest recorded auction from January 2025; very stale historical reference with no recent same-edition sale in the reviewed GoCollect history."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:0699277782",
+      "revision": "17199c90f861d0cefbabc9cf885d4163d18a92c6304965ae4bb2dcf641414e9f",
+      "observations": [
+        {
+          "id": "morning-2026-09-19-Authority-0699277782",
+          "copyId": "Authority:0699277782",
+          "basis": "raw-reference",
+          "value": 8.39,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-predator-vs-wolverine/predator-vs-wolverine-momoko-1-2023",
+            "asOf": "2026-06-21",
+            "retrievedAt": "2026-09-19T05:39:38.925Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Predator Versus Wolverine",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "Peach Momoko Variant",
+              "upc": "75960620710700141",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "E",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-predator-vs-wolverine/predator-vs-wolverine-momoko-1-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T05:39:38.925Z",
+            "notes": "Exact full UPC 75960620710700141 and owned title/edition matched to PriceCharting product 5706678. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five newest explicit Peach Momoko first-print single-copy sales. Excluded presale wording and older rows. Wide spread $3.25-$11.49; seller condition descriptions concern comparison copies only.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:306992927019",
+                "sourceUrl": "https://www.ebay.com/itm/306992927019",
+                "soldAt": "2026-06-21",
+                "value": 4.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236611424371",
+                "sourceUrl": "https://www.ebay.com/itm/236611424371",
+                "soldAt": "2026-06-18",
+                "value": 9.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:325819555266",
+                "sourceUrl": "https://www.ebay.com/itm/325819555266",
+                "soldAt": "2026-03-07",
+                "value": 8.39,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:276384554983",
+                "sourceUrl": "https://www.ebay.com/itm/276384554983",
+                "soldAt": "2026-03-03",
+                "value": 11.49,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:177869273443",
+                "sourceUrl": "https://www.ebay.com/itm/177869273443",
+                "soldAt": "2026-02-23",
+                "value": 3.25,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five newest explicit Peach Momoko first-print single-copy sales. Excluded presale wording and older rows. Wide spread $3.25-$11.49; seller condition descriptions concern comparison copies only."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:3396613329",
+      "revision": "17199c90f861d0cefbabc9cf885d4163d18a92c6304965ae4bb2dcf641414e9f",
+      "observations": [
+        {
+          "id": "morning-2026-09-19-Authority-3396613329",
+          "copyId": "Authority:3396613329",
+          "basis": "raw-reference",
+          "value": 4.49,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-batman/batman-larroca-137-2023",
+            "asOf": "2026-06-01",
+            "retrievedAt": "2026-09-19T05:39:38.925Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Batman",
+              "issue": "137",
+              "issueYear": "2023",
+              "publisher": "DC",
+              "variant": "Salvador Larroca Variant",
+              "upc": "76194134182813741",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "F",
+              "volume": "3",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-batman/batman-larroca-137-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T05:39:38.925Z",
+            "notes": "Exact full UPC 76194134182813741 and owned title/edition matched to PriceCharting product 5768330. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Four explicit Salvador Larroca 1:25 single-copy raw sales within the last year. Older and graded transactions excluded. Latest is over 90 days old and values vary widely. Median $4.49; no seller condition transferred to owned copy.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:406949374139",
+                "sourceUrl": "https://www.ebay.com/itm/406949374139",
+                "soldAt": "2026-06-01",
+                "value": 1.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:376513899225",
+                "sourceUrl": "https://www.ebay.com/itm/376513899225",
+                "soldAt": "2026-02-24",
+                "value": 5.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:196674241638",
+                "sourceUrl": "https://www.ebay.com/itm/196674241638",
+                "soldAt": "2026-01-03",
+                "value": 10.58,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:389395793083",
+                "sourceUrl": "https://www.ebay.com/itm/389395793083",
+                "soldAt": "2025-12-27",
+                "value": 2.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Four explicit Salvador Larroca 1:25 single-copy raw sales within the last year. Older and graded transactions excluded. Latest is over 90 days old and values vary widely. Median $4.49; no seller condition transferred to owned copy."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:1801215285",
+      "revision": "17199c90f861d0cefbabc9cf885d4163d18a92c6304965ae4bb2dcf641414e9f",
+      "observations": [
+        {
+          "id": "morning-2026-09-19-Authority-1801215285",
+          "copyId": "Authority:1801215285",
+          "basis": "raw-reference",
+          "value": 3.49,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-incredible-hulk/the-incredible-hulk-miller-3-2023",
+            "asOf": "2026-01-02",
+            "retrievedAt": "2026-09-19T05:39:38.925Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "The Incredible Hulk",
+              "issue": "3",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "Miller Variant",
+              "upc": "75960620663600331",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "C",
+              "volume": "5",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-incredible-hulk/the-incredible-hulk-miller-3-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T05:39:38.925Z",
+            "notes": "Exact full UPC 75960620663600331 and owned title/edition matched to PriceCharting product 5705402. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three latest explicit Frank Miller trade-dress first-print raw sales, all within the last year. Excluded virgin incentive and older transactions. Sparse and stale reference.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:386081365151",
+                "sourceUrl": "https://www.ebay.com/itm/386081365151",
+                "soldAt": "2026-01-02",
+                "value": 2.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:167408624319",
+                "sourceUrl": "https://www.ebay.com/itm/167408624319",
+                "soldAt": "2025-11-26",
+                "value": 3.49,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:364450971288",
+                "sourceUrl": "https://www.ebay.com/itm/364450971288",
+                "soldAt": "2025-11-22",
+                "value": 4.59,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three latest explicit Frank Miller trade-dress first-print raw sales, all within the last year. Excluded virgin incentive and older transactions. Sparse and stale reference."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:3588660607",
+      "revision": "17199c90f861d0cefbabc9cf885d4163d18a92c6304965ae4bb2dcf641414e9f",
+      "observations": [
+        {
+          "id": "morning-2026-09-19-Authority-3588660607",
+          "copyId": "Authority:3588660607",
+          "basis": "raw-reference",
+          "value": 5.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-superman/superman-cassaday-5-2023",
+            "asOf": "2026-04-22",
+            "retrievedAt": "2026-09-19T05:39:38.925Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Superman",
+              "issue": "5",
+              "issueYear": "2023",
+              "publisher": "DC Comics",
+              "variant": "Cassaday Card Stock Variant",
+              "upc": "76194137950000521",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "B",
+              "volume": "6",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-superman/superman-cassaday-5-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T05:39:38.925Z",
+            "notes": "Owned full UPC 76194137950000521 is verified as John Cassaday color Cover B by https://comicpreviews.com/products/superman-5-cover-b-john-cassaday-stock-variant. PriceCharting product 5385780 instead displays UPC 76194137950000551 and mixes color and 1:50 black-and-white versions; its overall guide was not used. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Only the latest explicitly named Cassaday Cover B sale is retained. Excluded 1:50 black-and-white incentive, ambiguous Cassaday rows and older color-cover sales. One stale comparison; catalog UPC mismatch is disclosed, not silently treated as exact.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:175791435508",
+                "sourceUrl": "https://www.ebay.com/itm/175791435508",
+                "soldAt": "2026-04-22",
+                "value": 5.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Only the latest explicitly named Cassaday Cover B sale is retained. Excluded 1:50 black-and-white incentive, ambiguous Cassaday rows and older color-cover sales. One stale comparison; catalog UPC mismatch is disclosed, not silently treated as exact."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:7239312594",
+      "revision": "17199c90f861d0cefbabc9cf885d4163d18a92c6304965ae4bb2dcf641414e9f",
+      "observations": [
+        {
+          "id": "morning-2026-09-19-Authority-7239312594",
+          "copyId": "Authority:7239312594",
+          "basis": "raw-reference",
+          "value": 3.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-guardians-of-the-galaxy/guardians-of-the-galaxy-momoko-6-2023",
+            "asOf": "2026-09-12",
+            "retrievedAt": "2026-09-19T05:39:38.925Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Guardians of the Galaxy",
+              "issue": "6",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "Peach Momoko Variant",
+              "upc": "75960620535600621",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "B",
+              "volume": "7",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-guardians-of-the-galaxy/guardians-of-the-galaxy-momoko-6-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T05:39:38.925Z",
+            "notes": "Exact full UPC 75960620535600621 and owned title/edition matched to PriceCharting product 5810277. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three explicit Momoko Howard the Duck trade-dress Cover B sales within the last year. Excluded June 2026 row retaining presale wording, older transactions and separate 1:50 virgin edition. Applied as a separate pending reference to each of the four owned copies across Bins 13 and 14; no owned condition is inferred.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:235211410855",
+                "sourceUrl": "https://www.ebay.com/itm/235211410855",
+                "soldAt": "2026-09-12",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:325957559346",
+                "sourceUrl": "https://www.ebay.com/itm/325957559346",
+                "soldAt": "2025-12-06",
+                "value": 3.51,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:167088221409",
+                "sourceUrl": "https://www.ebay.com/itm/167088221409",
+                "soldAt": "2025-11-05",
+                "value": 3.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three explicit Momoko Howard the Duck trade-dress Cover B sales within the last year. Excluded June 2026 row retaining presale wording, older transactions and separate 1:50 virgin edition. Applied as a separate pending reference to each of the four owned copies across Bins 13 and 14; no owned condition is inferred."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:5003919165",
+      "revision": "17199c90f861d0cefbabc9cf885d4163d18a92c6304965ae4bb2dcf641414e9f",
+      "observations": [
+        {
+          "id": "morning-2026-09-19-Authority-5003919165",
+          "copyId": "Authority:5003919165",
+          "basis": "raw-reference",
+          "value": 3.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-guardians-of-the-galaxy/guardians-of-the-galaxy-momoko-6-2023",
+            "asOf": "2026-09-12",
+            "retrievedAt": "2026-09-19T05:39:38.925Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Guardians of the Galaxy",
+              "issue": "6",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "Peach Momoko Variant",
+              "upc": "75960620535600621",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "B",
+              "volume": "7",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-guardians-of-the-galaxy/guardians-of-the-galaxy-momoko-6-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T05:39:38.925Z",
+            "notes": "Exact full UPC 75960620535600621 and owned title/edition matched to PriceCharting product 5810277. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three explicit Momoko Howard the Duck trade-dress Cover B sales within the last year. Excluded June 2026 row retaining presale wording, older transactions and separate 1:50 virgin edition. Applied as a separate pending reference to each of the four owned copies across Bins 13 and 14; no owned condition is inferred.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:235211410855",
+                "sourceUrl": "https://www.ebay.com/itm/235211410855",
+                "soldAt": "2026-09-12",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:325957559346",
+                "sourceUrl": "https://www.ebay.com/itm/325957559346",
+                "soldAt": "2025-12-06",
+                "value": 3.51,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:167088221409",
+                "sourceUrl": "https://www.ebay.com/itm/167088221409",
+                "soldAt": "2025-11-05",
+                "value": 3.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three explicit Momoko Howard the Duck trade-dress Cover B sales within the last year. Excluded June 2026 row retaining presale wording, older transactions and separate 1:50 virgin edition. Applied as a separate pending reference to each of the four owned copies across Bins 13 and 14; no owned condition is inferred."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:1602965563",
+      "revision": "c0c8846e7dee933ffbc722c752b0d86b21af6bd49a209855ac9a874267a7f2f3",
+      "observations": [
+        {
+          "id": "morning-2026-09-19-Authority-1602965563",
+          "copyId": "Authority:1602965563",
+          "basis": "raw-reference",
+          "value": 3.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-guardians-of-the-galaxy/guardians-of-the-galaxy-momoko-6-2023",
+            "asOf": "2026-09-12",
+            "retrievedAt": "2026-09-19T05:39:38.925Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Guardians of the Galaxy",
+              "issue": "6",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "Peach Momoko Variant",
+              "upc": "75960620535600621",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "B",
+              "volume": "7",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-guardians-of-the-galaxy/guardians-of-the-galaxy-momoko-6-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T05:39:38.925Z",
+            "notes": "Exact full UPC 75960620535600621 and owned title/edition matched to PriceCharting product 5810277. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three explicit Momoko Howard the Duck trade-dress Cover B sales within the last year. Excluded June 2026 row retaining presale wording, older transactions and separate 1:50 virgin edition. Applied as a separate pending reference to each of the four owned copies across Bins 13 and 14; no owned condition is inferred.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:235211410855",
+                "sourceUrl": "https://www.ebay.com/itm/235211410855",
+                "soldAt": "2026-09-12",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:325957559346",
+                "sourceUrl": "https://www.ebay.com/itm/325957559346",
+                "soldAt": "2025-12-06",
+                "value": 3.51,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:167088221409",
+                "sourceUrl": "https://www.ebay.com/itm/167088221409",
+                "soldAt": "2025-11-05",
+                "value": 3.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three explicit Momoko Howard the Duck trade-dress Cover B sales within the last year. Excluded June 2026 row retaining presale wording, older transactions and separate 1:50 virgin edition. Applied as a separate pending reference to each of the four owned copies across Bins 13 and 14; no owned condition is inferred."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:4703281641",
+      "revision": "c0c8846e7dee933ffbc722c752b0d86b21af6bd49a209855ac9a874267a7f2f3",
+      "observations": [
+        {
+          "id": "morning-2026-09-19-Authority-4703281641",
+          "copyId": "Authority:4703281641",
+          "basis": "raw-reference",
+          "value": 3.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-guardians-of-the-galaxy/guardians-of-the-galaxy-momoko-6-2023",
+            "asOf": "2026-09-12",
+            "retrievedAt": "2026-09-19T05:39:38.925Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Guardians of the Galaxy",
+              "issue": "6",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "Peach Momoko Variant",
+              "upc": "75960620535600621",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "B",
+              "volume": "7",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-guardians-of-the-galaxy/guardians-of-the-galaxy-momoko-6-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T05:39:38.925Z",
+            "notes": "Exact full UPC 75960620535600621 and owned title/edition matched to PriceCharting product 5810277. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three explicit Momoko Howard the Duck trade-dress Cover B sales within the last year. Excluded June 2026 row retaining presale wording, older transactions and separate 1:50 virgin edition. Applied as a separate pending reference to each of the four owned copies across Bins 13 and 14; no owned condition is inferred.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:235211410855",
+                "sourceUrl": "https://www.ebay.com/itm/235211410855",
+                "soldAt": "2026-09-12",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:325957559346",
+                "sourceUrl": "https://www.ebay.com/itm/325957559346",
+                "soldAt": "2025-12-06",
+                "value": 3.51,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:167088221409",
+                "sourceUrl": "https://www.ebay.com/itm/167088221409",
+                "soldAt": "2025-11-05",
+                "value": 3.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three explicit Momoko Howard the Duck trade-dress Cover B sales within the last year. Excluded June 2026 row retaining presale wording, older transactions and separate 1:50 virgin edition. Applied as a separate pending reference to each of the four owned copies across Bins 13 and 14; no owned condition is inferred."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:9651014888",
+      "revision": "17199c90f861d0cefbabc9cf885d4163d18a92c6304965ae4bb2dcf641414e9f",
+      "observations": [
+        {
+          "id": "morning-2026-09-19-Authority-9651014888",
+          "copyId": "Authority:9651014888",
+          "basis": "raw-reference",
+          "value": 10,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-dark-x-men/dark-x-men-ross-1-2023",
+            "asOf": "2026-04-14",
+            "retrievedAt": "2026-09-19T05:39:38.925Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Dark X-Men",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "X-Men Connecting Variant",
+              "upc": "75960620616200121",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "B",
+              "volume": "2",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-dark-x-men/dark-x-men-ross-1-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T05:39:38.925Z",
+            "notes": "Exact full UPC 75960620616200121 and owned title/edition matched to PriceCharting product 5640157. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. One explicitly identified Alex Ross Connecting X-Men Part C raw sale. Catalog contains many 1:100 virgin B&W/sketch sales plus a CGC 9.8 slab incorrectly under Ungraded; all excluded, along with ambiguous-cover rows. GCD https://www.comics.org/series/203282/details/timeline/ independently separates owned color UPC 75960620616200121 from sketch UPC 75960620616200116. Sparse, stale reference; not the mixed catalog guide.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:188250483882",
+                "sourceUrl": "https://www.ebay.com/itm/188250483882",
+                "soldAt": "2026-04-14",
+                "value": 10,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. One explicitly identified Alex Ross Connecting X-Men Part C raw sale. Catalog contains many 1:100 virgin B&W/sketch sales plus a CGC 9.8 slab incorrectly under Ungraded; all excluded, along with ambiguous-cover rows. GCD https://www.comics.org/series/203282/details/timeline/ independently separates owned color UPC 75960620616200121 from sketch UPC 75960620616200116. Sparse, stale reference; not the mixed catalog guide."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:6974822820",
+      "revision": "17199c90f861d0cefbabc9cf885d4163d18a92c6304965ae4bb2dcf641414e9f",
+      "observations": [
+        {
+          "id": "morning-2026-09-19-Authority-6974822820",
+          "copyId": "Authority:6974822820",
+          "basis": "raw-reference",
+          "value": 5.15,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-batman-superman-world%27s-finest/batman-superman-world%27s-finest-magog-20-2023",
+            "asOf": "2026-06-25",
+            "retrievedAt": "2026-09-19T05:39:38.925Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Batman / Superman: World's Finest",
+              "issue": "20",
+              "issueYear": "2023",
+              "publisher": "DC",
+              "variant": "Magog Helmet Embossed Foil Virgin Variant",
+              "upc": "76194137521202051",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "C",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-batman-superman-world%27s-finest/batman-superman-world%27s-finest-magog-20-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T05:39:38.925Z",
+            "notes": "Exact full UPC 76194137521202051 and owned title/edition matched to PriceCharting product 5921500. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Two latest explicit Magog Helmet Embossed Foil first-print raw sales, both within the last year. Excluded older rows and separate logo-foil catalog. Sparse history; owned condition remains unassessed.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:364545898939",
+                "sourceUrl": "https://www.ebay.com/itm/364545898939",
+                "soldAt": "2026-06-25",
+                "value": 4.55,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:157725888464",
+                "sourceUrl": "https://www.ebay.com/itm/157725888464",
+                "soldAt": "2026-06-15",
+                "value": 5.75,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Two latest explicit Magog Helmet Embossed Foil first-print raw sales, both within the last year. Excluded older rows and separate logo-foil catalog. Sparse history; owned condition remains unassessed."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:9082175601",
+      "revision": "17199c90f861d0cefbabc9cf885d4163d18a92c6304965ae4bb2dcf641414e9f",
+      "observations": [
+        {
+          "id": "morning-2026-09-19-Authority-9082175601",
+          "copyId": "Authority:9082175601",
+          "basis": "raw-reference",
+          "value": 5.97,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-captain-america/captain-america-romita-jr-1-2023",
+            "asOf": "2026-03-04",
+            "retrievedAt": "2026-09-19T05:39:38.925Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Captain America",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "John Romita Jr. Variant",
+              "upc": "75960620740400131",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "D",
+              "volume": "12",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-captain-america/captain-america-romita-jr-1-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-19T05:39:38.925Z",
+            "notes": "Exact full UPC 75960620740400131 and owned title/edition matched to PriceCharting product 5810207. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Four latest explicit John Romita Jr 2023 single-copy variant sales within the last year. Excluded older rows and misclassified 2013 issues #1-8 lot. Median $5.97; stale reference with wide transaction range.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:365053555546",
+                "sourceUrl": "https://www.ebay.com/itm/365053555546",
+                "soldAt": "2026-03-04",
+                "value": 1.89,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:295934815986",
+                "sourceUrl": "https://www.ebay.com/itm/295934815986",
+                "soldAt": "2026-02-14",
+                "value": 7.79,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:157062641669",
+                "sourceUrl": "https://www.ebay.com/itm/157062641669",
+                "soldAt": "2026-02-09",
+                "value": 5.95,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:235232079887",
+                "sourceUrl": "https://www.ebay.com/itm/235232079887",
+                "soldAt": "2026-01-25",
+                "value": 5.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Four latest explicit John Romita Jr 2023 single-copy variant sales within the last year. Excluded older rows and misclassified 2013 issues #1-8 lot. Median $5.97; stale reference with wide transaction range."
+        }
+      ]
+    }
+  ]
+}

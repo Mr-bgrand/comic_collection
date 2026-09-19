@@ -57,9 +57,9 @@ were moved from the unassigned group; no duplicate copies were created. See the
 
 | Group | Recorded total | Valued | No value yet |
 | --- | ---: | ---: | ---: |
-| Comics | $13,920.94 | 184 | 512 |
-| Cards | $20,150.12 | 203 | 34 |
-| All | $34,071.06 | 387 | 546 |
+| Comics | $13,951.93 | 185 | 511 |
+| Cards | $20,273.62 | 204 | 33 |
+| All | $34,225.55 | 389 | 544 |
 
 45 PSA Vault estimates have no source date. Printing/building does not update
 market prices. TAG's explicit value or owner estimate takes precedence; otherwise
@@ -70,7 +70,7 @@ TAG 10 guide and Yanma S2994291 at $14.85 from five same-grade PSA 9 sales.
 The September 16 follow-up added 21 TAG estimates, two CGC card estimates and one
 CGC comic estimate. The September 18 follow-up added 22 TAG comparisons and two
 Bin 10 comic estimates, totaling $956.24. Five carry an asterisk for weak or stale
-history. Later passes reduced the remaining TAG backlog to 18 cards. See the
+history. Later passes reduced the remaining TAG backlog to 17 cards. See the
 [latest reviewed prices](valuation-reviewed-2026-09-18.md) and the
 [September 15 comic follow-up](valuation-gocollect-2026-09-15.md) for evidence.
 A second September 18 pass broadened the sources to MyComicShop and ComicBookRealm,
@@ -84,16 +84,18 @@ the [midday research](valuation-midday-2026-09-18.md). A sixth pass added four T
 and ten raw-copy references; see the [afternoon research](valuation-afternoon-2026-09-18.md).
 A September 19 pass added two graded estimates ($49.00), both starred, and seven raw
 references; see the [overnight research](valuation-overnight-2026-09-19.md).
-Eighty unconditioned raw references now total $457.29 and remain excluded
-from the recorded total. There are 117 graded values outstanding (83 comics, 34 cards),
+A morning September 19 pass added two graded estimates ($154.49) and 11 raw-copy
+references across eight editions; see the [morning research](valuation-morning-2026-09-19.md).
+Ninety-one unconditioned raw references now total $516.73 and remain excluded
+from the recorded total. There are 115 graded values outstanding (82 comics, 33 cards),
 plus 429 raw copies awaiting condition assessment. See the
 [pilot report](valuation-pilot-2026-09-13.md) for sources, dates and remaining gaps.
 Inventory growth and newly valued records affect totals; these are not investment returns.
 
 ## Remaining intake and images
 
-- Bin 10's 23 comics have verified identities and scans. Eleven have reviewed, starred
-  estimates totaling $1,122.70; twelve still need a supported market value.
+- Bin 10's 23 comics have verified identities and scans. Twelve have reviewed, starred
+  estimates totaling $1,153.69; eleven still need a supported market value.
 - All 80 TAG cards now use verified full-slab front and back photographs from
   each cert page's Slabbed image captures section: 57 in Case #2, nine on the
   office wall and 14 in Case #1. The original card-only MAIN scans and

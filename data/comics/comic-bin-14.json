@@ -1510,7 +1510,83 @@
         "capturedAt": "2026-09-07T23:50:52.581Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "morning-2026-09-19-Authority-1602965563",
+            "copyId": "Authority:1602965563",
+            "basis": "raw-reference",
+            "value": 3.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-guardians-of-the-galaxy/guardians-of-the-galaxy-momoko-6-2023",
+              "asOf": "2026-09-12",
+              "retrievedAt": "2026-09-19T05:39:38.925Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Guardians of the Galaxy",
+                "issue": "6",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Peach Momoko Variant",
+                "upc": "75960620535600621",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "7",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-guardians-of-the-galaxy/guardians-of-the-galaxy-momoko-6-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T05:39:38.925Z",
+              "notes": "Exact full UPC 75960620535600621 and owned title/edition matched to PriceCharting product 5810277. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three explicit Momoko Howard the Duck trade-dress Cover B sales within the last year. Excluded June 2026 row retaining presale wording, older transactions and separate 1:50 virgin edition. Applied as a separate pending reference to each of the four owned copies across Bins 13 and 14; no owned condition is inferred.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:235211410855",
+                  "sourceUrl": "https://www.ebay.com/itm/235211410855",
+                  "soldAt": "2026-09-12",
+                  "value": 3.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:325957559346",
+                  "sourceUrl": "https://www.ebay.com/itm/325957559346",
+                  "soldAt": "2025-12-06",
+                  "value": 3.51,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:167088221409",
+                  "sourceUrl": "https://www.ebay.com/itm/167088221409",
+                  "soldAt": "2025-11-05",
+                  "value": 3.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three explicit Momoko Howard the Duck trade-dress Cover B sales within the last year. Excluded June 2026 row retaining presale wording, older transactions and separate 1:50 virgin edition. Applied as a separate pending reference to each of the four owned copies across Bins 13 and 14; no owned condition is inferred."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_1602965563_FRONT.jpg",
         "back": "Authority_1602965563_BACK.jpg"
@@ -1608,7 +1684,83 @@
         "capturedAt": "2026-09-07T23:50:55.328Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "morning-2026-09-19-Authority-4703281641",
+            "copyId": "Authority:4703281641",
+            "basis": "raw-reference",
+            "value": 3.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-guardians-of-the-galaxy/guardians-of-the-galaxy-momoko-6-2023",
+              "asOf": "2026-09-12",
+              "retrievedAt": "2026-09-19T05:39:38.925Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Guardians of the Galaxy",
+                "issue": "6",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Peach Momoko Variant",
+                "upc": "75960620535600621",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "7",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-guardians-of-the-galaxy/guardians-of-the-galaxy-momoko-6-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-19T05:39:38.925Z",
+              "notes": "Exact full UPC 75960620535600621 and owned title/edition matched to PriceCharting product 5810277. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three explicit Momoko Howard the Duck trade-dress Cover B sales within the last year. Excluded June 2026 row retaining presale wording, older transactions and separate 1:50 virgin edition. Applied as a separate pending reference to each of the four owned copies across Bins 13 and 14; no owned condition is inferred.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:235211410855",
+                  "sourceUrl": "https://www.ebay.com/itm/235211410855",
+                  "soldAt": "2026-09-12",
+                  "value": 3.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:325957559346",
+                  "sourceUrl": "https://www.ebay.com/itm/325957559346",
+                  "soldAt": "2025-12-06",
+                  "value": 3.51,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:167088221409",
+                  "sourceUrl": "https://www.ebay.com/itm/167088221409",
+                  "soldAt": "2025-11-05",
+                  "value": 3.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three explicit Momoko Howard the Duck trade-dress Cover B sales within the last year. Excluded June 2026 row retaining presale wording, older transactions and separate 1:50 virgin edition. Applied as a separate pending reference to each of the four owned copies across Bins 13 and 14; no owned condition is inferred."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_4703281641_FRONT.jpg",
         "back": "Authority_4703281641_BACK.jpg"
