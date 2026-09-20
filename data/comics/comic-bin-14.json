@@ -13443,7 +13443,104 @@
         "capturedAt": "2026-09-07T23:56:15.403Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-20-Authority-8601857068",
+            "copyId": "Authority:8601857068",
+            "basis": "raw-reference",
+            "value": 6.18,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-uncle-scrooge-and-the-infinity-dime/uncle-scrooge-and-the-infinity-dime-miller-1-2024",
+              "asOf": "2026-09-12",
+              "retrievedAt": "2026-09-20T09:46:57.404Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Uncle Scrooge and the Infinity Dime",
+                "issue": "1",
+                "issueYear": "",
+                "publisher": "Marvel Comics",
+                "variant": "Miller Variant",
+                "upc": "75960620873900141",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "E",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-uncle-scrooge-and-the-infinity-dime/uncle-scrooge-and-the-infinity-dime-miller-1-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-20T09:46:57.404Z",
+              "notes": "Exact full UPC 75960620873900141 and owned title/edition matched to PriceCharting product 6874912. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Six 2026 source-reported completed raw sales; low $0.99 outcomes retained. Original eBay photographs/completion not independently reverified. Seller condition describes comparison copies, not owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:205026775578",
+                  "sourceUrl": "https://www.ebay.com/itm/205026775578",
+                  "soldAt": "2026-09-12",
+                  "value": 5.16,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:186499830838",
+                  "sourceUrl": "https://www.ebay.com/itm/186499830838",
+                  "soldAt": "2026-05-12",
+                  "value": 7.19,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:335376822080",
+                  "sourceUrl": "https://www.ebay.com/itm/335376822080",
+                  "soldAt": "2026-04-23",
+                  "value": 7.31,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:188151131624",
+                  "sourceUrl": "https://www.ebay.com/itm/188151131624",
+                  "soldAt": "2026-03-23",
+                  "value": 0.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:277767066190",
+                  "sourceUrl": "https://www.ebay.com/itm/277767066190",
+                  "soldAt": "2026-03-12",
+                  "value": 0.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:375410163832",
+                  "sourceUrl": "https://www.ebay.com/itm/375410163832",
+                  "soldAt": "2026-01-04",
+                  "value": 8.75,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Six 2026 source-reported completed raw sales; low $0.99 outcomes retained. Original eBay photographs/completion not independently reverified. Seller condition describes comparison copies, not owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_8601857068_FRONT.jpg",
         "back": "Authority_8601857068_BACK.jpg"
@@ -13536,7 +13633,97 @@
         "capturedAt": "2026-09-07T23:56:17.872Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-20-Authority-9582191741",
+            "copyId": "Authority:9582191741",
+            "basis": "raw-reference",
+            "value": 2.67,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-blood-hunt/blood-hunt-dell%27otto-3-2024",
+              "asOf": "2026-06-01",
+              "retrievedAt": "2026-09-20T09:46:57.404Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Blood Hunt",
+                "issue": "3",
+                "issueYear": "2024",
+                "publisher": "Marvel",
+                "variant": "Gabriele Dell'Otto Connecting Variant",
+                "upc": "75960620805000317",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "E",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-blood-hunt/blood-hunt-dell%27otto-3-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-20T09:46:57.404Z",
+              "notes": "Exact full UPC 75960620805000317 and owned title/edition matched to PriceCharting product 6838191. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five 2026 source-reported completed raw sales for the trade connecting 1:10 cover, excluding the different 1:100 virgin edition. Two comparison sellers describe F/VFN, not owned condition. Original eBay photographs/completion not independently reverified.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:227346427495",
+                  "sourceUrl": "https://www.ebay.com/itm/227346427495",
+                  "soldAt": "2026-06-01",
+                  "value": 1.43,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:227325561170",
+                  "sourceUrl": "https://www.ebay.com/itm/227325561170",
+                  "soldAt": "2026-05-11",
+                  "value": 1.45,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:365384487953",
+                  "sourceUrl": "https://www.ebay.com/itm/365384487953",
+                  "soldAt": "2026-05-02",
+                  "value": 2.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:116290414148",
+                  "sourceUrl": "https://www.ebay.com/itm/116290414148",
+                  "soldAt": "2026-04-15",
+                  "value": 3.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:287237325257",
+                  "sourceUrl": "https://www.ebay.com/itm/287237325257",
+                  "soldAt": "2026-04-03",
+                  "value": 2.67,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five 2026 source-reported completed raw sales for the trade connecting 1:10 cover, excluding the different 1:100 virgin edition. Two comparison sellers describe F/VFN, not owned condition. Original eBay photographs/completion not independently reverified."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_9582191741_FRONT.jpg",
         "back": "Authority_9582191741_BACK.jpg"
@@ -13813,7 +14000,90 @@
         "capturedAt": "2026-09-07T23:56:23.381Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-20-Authority-3286879755",
+            "copyId": "Authority:3286879755",
+            "basis": "raw-reference",
+            "value": 9.7,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-blood-hunt/blood-hunt-dell%27otto-2-2024",
+              "asOf": "2026-03-16",
+              "retrievedAt": "2026-09-20T09:46:57.404Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Blood Hunt",
+                "issue": "2",
+                "issueYear": "2024",
+                "publisher": "Marvel",
+                "variant": "Gabriele Dell'Otto Connecting Variant",
+                "upc": "75960620805000217",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "E",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-blood-hunt/blood-hunt-dell%27otto-2-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-20T09:46:57.404Z",
+              "notes": "Exact full UPC 75960620805000217 and owned title/edition matched to PriceCharting product 6768293. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Four 2026 source-reported completed 1:10 connecting trade-cover sales. Catalog includes erroneous 1:100 virgin rows, which were excluded; original eBay photographs/completion not independently reverified. Seller condition is not owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:227245366269",
+                  "sourceUrl": "https://www.ebay.com/itm/227245366269",
+                  "soldAt": "2026-03-16",
+                  "value": 11.66,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:227235259942",
+                  "sourceUrl": "https://www.ebay.com/itm/227235259942",
+                  "soldAt": "2026-03-09",
+                  "value": 7.74,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:375641638046",
+                  "sourceUrl": "https://www.ebay.com/itm/375641638046",
+                  "soldAt": "2026-01-26",
+                  "value": 11.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:387020313838",
+                  "sourceUrl": "https://www.ebay.com/itm/387020313838",
+                  "soldAt": "2026-01-02",
+                  "value": 7.64,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Four 2026 source-reported completed 1:10 connecting trade-cover sales. Catalog includes erroneous 1:100 virgin rows, which were excluded; original eBay photographs/completion not independently reverified. Seller condition is not owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_3286879755_FRONT.jpg",
         "back": "Authority_3286879755_BACK.jpg"
@@ -13908,7 +14178,125 @@
         "capturedAt": "2026-09-07T23:56:28.054Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-20-Authority-0985015717",
+            "copyId": "Authority:0985015717",
+            "basis": "raw-reference",
+            "value": 5.28,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-ultimate-spider-man/ultimate-spider-man-marquez-6-2024",
+              "asOf": "2026-08-09",
+              "retrievedAt": "2026-09-20T09:46:57.404Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Ultimate Spider-Man",
+                "issue": "6",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Marquez Variant",
+                "upc": "75960620796100616",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "D",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-ultimate-spider-man/ultimate-spider-man-marquez-6-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-20T09:46:57.404Z",
+              "notes": "Exact full UPC 75960620796100616 and owned title/edition matched to PriceCharting product 6874738. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Nine matching 2026 March-August source-reported completed Marquez 1:25 sales. Inconsistent 2025 title excluded; low-dollar sales retained. Original eBay photographs/completion not independently reverified. Seller condition is not owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:327271892400",
+                  "sourceUrl": "https://www.ebay.com/itm/327271892400",
+                  "soldAt": "2026-08-09",
+                  "value": 9.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:318385704884",
+                  "sourceUrl": "https://www.ebay.com/itm/318385704884",
+                  "soldAt": "2026-06-06",
+                  "value": 1,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:318273754934",
+                  "sourceUrl": "https://www.ebay.com/itm/318273754934",
+                  "soldAt": "2026-05-16",
+                  "value": 0.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:187620458010",
+                  "sourceUrl": "https://www.ebay.com/itm/187620458010",
+                  "soldAt": "2026-05-12",
+                  "value": 7.8,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:326954581835",
+                  "sourceUrl": "https://www.ebay.com/itm/326954581835",
+                  "soldAt": "2026-04-30",
+                  "value": 9.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:168120718855",
+                  "sourceUrl": "https://www.ebay.com/itm/168120718855",
+                  "soldAt": "2026-03-24",
+                  "value": 5.28,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:227235263945",
+                  "sourceUrl": "https://www.ebay.com/itm/227235263945",
+                  "soldAt": "2026-03-09",
+                  "value": 6.05,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:358267223062",
+                  "sourceUrl": "https://www.ebay.com/itm/358267223062",
+                  "soldAt": "2026-03-07",
+                  "value": 2.3,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:358252652958",
+                  "sourceUrl": "https://www.ebay.com/itm/358252652958",
+                  "soldAt": "2026-03-03",
+                  "value": 0.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Nine matching 2026 March-August source-reported completed Marquez 1:25 sales. Inconsistent 2025 title excluded; low-dollar sales retained. Original eBay photographs/completion not independently reverified. Seller condition is not owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_0985015717_FRONT.jpg",
         "back": "Authority_0985015717_BACK.jpg"
@@ -14003,7 +14391,97 @@
         "capturedAt": "2026-09-07T23:56:30.664Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-20-Authority-6979536235",
+            "copyId": "Authority:6979536235",
+            "basis": "raw-reference",
+            "value": 5.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-ultimate-spider-man/ultimate-spider-man-6-2024",
+              "asOf": "2026-07-15",
+              "retrievedAt": "2026-09-20T09:46:57.404Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Ultimate Spider-Man",
+                "issue": "6",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "",
+                "upc": "75960620796100611",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "A",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-ultimate-spider-man/ultimate-spider-man-6-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-20T09:46:57.404Z",
+              "notes": "Exact full UPC 75960620796100611 and owned title/edition matched to PriceCharting product 6874737. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five recent source-reported completed sales explicitly Cover A/first printing. Mixed second-print, unspecified-cover and inconsistent-year rows excluded. Original eBay photos/completion not independently reverified; seller condition is not owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:278156980405",
+                  "sourceUrl": "https://www.ebay.com/itm/278156980405",
+                  "soldAt": "2026-07-15",
+                  "value": 0.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:358504510569",
+                  "sourceUrl": "https://www.ebay.com/itm/358504510569",
+                  "soldAt": "2026-06-28",
+                  "value": 5.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:188142786564",
+                  "sourceUrl": "https://www.ebay.com/itm/188142786564",
+                  "soldAt": "2026-06-12",
+                  "value": 10,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:117218229532",
+                  "sourceUrl": "https://www.ebay.com/itm/117218229532",
+                  "soldAt": "2026-06-06",
+                  "value": 1,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:177818830666",
+                  "sourceUrl": "https://www.ebay.com/itm/177818830666",
+                  "soldAt": "2026-05-24",
+                  "value": 9.5,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five recent source-reported completed sales explicitly Cover A/first printing. Mixed second-print, unspecified-cover and inconsistent-year rows excluded. Original eBay photos/completion not independently reverified; seller condition is not owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_6979536235_FRONT.jpg",
         "back": "Authority_6979536235_BACK.jpg"
@@ -14098,7 +14576,132 @@
         "capturedAt": "2026-09-07T23:56:33.114Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-20-Authority-5355290373",
+            "copyId": "Authority:5355290373",
+            "basis": "raw-reference",
+            "value": 7.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-uncle-scrooge-and-the-infinity-dime/uncle-scrooge-and-the-infinity-dime-young-1-2024",
+              "asOf": "2026-09-04",
+              "retrievedAt": "2026-09-20T09:46:57.404Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Uncle Scrooge and the Infinity Dime",
+                "issue": "1",
+                "issueYear": "",
+                "publisher": "Marvel Comics",
+                "variant": "Young Variant",
+                "upc": "75960620873900181",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "H",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-uncle-scrooge-and-the-infinity-dime/uncle-scrooge-and-the-infinity-dime-young-1-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-20T09:46:57.404Z",
+              "notes": "Exact full UPC 75960620873900181 and owned title/edition matched to PriceCharting product 6874916. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Ten most recent matching source-reported completed raw sales. Original eBay photographs/completion not independently reverified. Seller condition is not owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:287546993163",
+                  "sourceUrl": "https://www.ebay.com/itm/287546993163",
+                  "soldAt": "2026-09-04",
+                  "value": 3,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:364951046135",
+                  "sourceUrl": "https://www.ebay.com/itm/364951046135",
+                  "soldAt": "2026-08-14",
+                  "value": 7.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:277685219191",
+                  "sourceUrl": "https://www.ebay.com/itm/277685219191",
+                  "soldAt": "2026-08-10",
+                  "value": 7.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:406003487013",
+                  "sourceUrl": "https://www.ebay.com/itm/406003487013",
+                  "soldAt": "2026-07-27",
+                  "value": 5.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:135564315328",
+                  "sourceUrl": "https://www.ebay.com/itm/135564315328",
+                  "soldAt": "2026-06-15",
+                  "value": 4.69,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:387379393313",
+                  "sourceUrl": "https://www.ebay.com/itm/387379393313",
+                  "soldAt": "2026-05-24",
+                  "value": 7.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:287139266530",
+                  "sourceUrl": "https://www.ebay.com/itm/287139266530",
+                  "soldAt": "2026-05-24",
+                  "value": 8,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:276520464305",
+                  "sourceUrl": "https://www.ebay.com/itm/276520464305",
+                  "soldAt": "2026-05-22",
+                  "value": 9.33,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:376994167594",
+                  "sourceUrl": "https://www.ebay.com/itm/376994167594",
+                  "soldAt": "2026-05-03",
+                  "value": 8.95,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:327112808282",
+                  "sourceUrl": "https://www.ebay.com/itm/327112808282",
+                  "soldAt": "2026-04-28",
+                  "value": 9.34,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Ten most recent matching source-reported completed raw sales. Original eBay photographs/completion not independently reverified. Seller condition is not owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_5355290373_FRONT.jpg",
         "back": "Authority_5355290373_BACK.jpg"
@@ -14193,7 +14796,139 @@
         "capturedAt": "2026-09-07T23:56:35.552Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-20-Authority-5503132028",
+            "copyId": "Authority:5503132028",
+            "basis": "raw-reference",
+            "value": 3.59,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-uncle-scrooge-and-the-infinity-dime/uncle-scrooge-and-the-infinity-dime-momoko-1-2024",
+              "asOf": "2026-09-12",
+              "retrievedAt": "2026-09-20T09:46:57.404Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Uncle Scrooge and the Infinity Dime",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Momoko Variant",
+                "upc": "75960620873900161",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "F",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-uncle-scrooge-and-the-infinity-dime/uncle-scrooge-and-the-infinity-dime-momoko-1-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-20T09:46:57.404Z",
+              "notes": "Exact full UPC 75960620873900161 and owned title/edition matched to PriceCharting product 6874914. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Eleven 2026 source-reported completed Momoko raw sales, excluding explicit second printing. Multiple similar VF listings may share a seller; transaction independence and original sale photos/completion not independently reverified. Seller condition is not owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:406003487017",
+                  "sourceUrl": "https://www.ebay.com/itm/406003487017",
+                  "soldAt": "2026-09-12",
+                  "value": 5.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:205830958741",
+                  "sourceUrl": "https://www.ebay.com/itm/205830958741",
+                  "soldAt": "2026-08-14",
+                  "value": 5.59,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:267708539578",
+                  "sourceUrl": "https://www.ebay.com/itm/267708539578",
+                  "soldAt": "2026-06-29",
+                  "value": 1.95,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:267704968000",
+                  "sourceUrl": "https://www.ebay.com/itm/267704968000",
+                  "soldAt": "2026-06-24",
+                  "value": 1.95,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:267666804101",
+                  "sourceUrl": "https://www.ebay.com/itm/267666804101",
+                  "soldAt": "2026-06-20",
+                  "value": 1.95,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:267529479385",
+                  "sourceUrl": "https://www.ebay.com/itm/267529479385",
+                  "soldAt": "2026-05-11",
+                  "value": 1.95,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:235621050339",
+                  "sourceUrl": "https://www.ebay.com/itm/235621050339",
+                  "soldAt": "2026-04-21",
+                  "value": 7.32,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:157589442325",
+                  "sourceUrl": "https://www.ebay.com/itm/157589442325",
+                  "soldAt": "2026-02-08",
+                  "value": 3.24,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:276808671460",
+                  "sourceUrl": "https://www.ebay.com/itm/276808671460",
+                  "soldAt": "2026-01-29",
+                  "value": 7.97,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:266795439480",
+                  "sourceUrl": "https://www.ebay.com/itm/266795439480",
+                  "soldAt": "2026-01-04",
+                  "value": 8.75,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:226061918734",
+                  "sourceUrl": "https://www.ebay.com/itm/226061918734",
+                  "soldAt": "2026-01-03",
+                  "value": 3.59,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Eleven 2026 source-reported completed Momoko raw sales, excluding explicit second printing. Multiple similar VF listings may share a seller; transaction independence and original sale photos/completion not independently reverified. Seller condition is not owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_5503132028_FRONT.jpg",
         "back": "Authority_5503132028_BACK.jpg"
@@ -14290,7 +15025,132 @@
         "capturedAt": "2026-09-07T23:56:38.002Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-20-Authority-2828519294",
+            "copyId": "Authority:2828519294",
+            "basis": "raw-reference",
+            "value": 1,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-nyx/nyx-yagawa-1-2024",
+              "asOf": "2026-09-06",
+              "retrievedAt": "2026-09-20T09:46:57.404Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "NYX",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Yagawa Variant",
+                "upc": "75960620918700118",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "G",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-nyx/nyx-yagawa-1-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-20T09:46:57.404Z",
+              "notes": "Exact full UPC 75960620918700118 and owned title/edition matched to PriceCharting product 7048795. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Ten most recent matching source-reported completed raw 1:25 Yagawa sales. Repeated $0.99 titles may share a seller; transaction independence and original eBay photos/completion not independently reverified. Low outcomes retained. Seller condition is not owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:226257434393",
+                  "sourceUrl": "https://www.ebay.com/itm/226257434393",
+                  "soldAt": "2026-09-06",
+                  "value": 7.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:147509465252",
+                  "sourceUrl": "https://www.ebay.com/itm/147509465252",
+                  "soldAt": "2026-08-23",
+                  "value": 1,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:287273105750",
+                  "sourceUrl": "https://www.ebay.com/itm/287273105750",
+                  "soldAt": "2026-07-18",
+                  "value": 5.95,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:127848201160",
+                  "sourceUrl": "https://www.ebay.com/itm/127848201160",
+                  "soldAt": "2026-05-12",
+                  "value": 3.7,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:358411629915",
+                  "sourceUrl": "https://www.ebay.com/itm/358411629915",
+                  "soldAt": "2026-04-12",
+                  "value": 0.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:358385621561",
+                  "sourceUrl": "https://www.ebay.com/itm/358385621561",
+                  "soldAt": "2026-04-05",
+                  "value": 0.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:358375409937",
+                  "sourceUrl": "https://www.ebay.com/itm/358375409937",
+                  "soldAt": "2026-04-02",
+                  "value": 0.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:358348443524",
+                  "sourceUrl": "https://www.ebay.com/itm/358348443524",
+                  "soldAt": "2026-03-27",
+                  "value": 0.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:358340213431",
+                  "sourceUrl": "https://www.ebay.com/itm/358340213431",
+                  "soldAt": "2026-03-25",
+                  "value": 0.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:365081687958",
+                  "sourceUrl": "https://www.ebay.com/itm/365081687958",
+                  "soldAt": "2026-03-22",
+                  "value": 1.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Ten most recent matching source-reported completed raw 1:25 Yagawa sales. Repeated $0.99 titles may share a seller; transaction independence and original eBay photos/completion not independently reverified. Low outcomes retained. Seller condition is not owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_2828519294_FRONT.jpg",
         "back": "Authority_2828519294_BACK.jpg"
@@ -14387,7 +15247,104 @@
         "capturedAt": "2026-09-07T23:56:40.647Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-20-Authority-8487041626",
+            "copyId": "Authority:8487041626",
+            "basis": "raw-reference",
+            "value": 4.56,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-ultimate-x-men/ultimate-x-men-5-2024",
+              "asOf": "2026-04-27",
+              "retrievedAt": "2026-09-20T09:46:57.404Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Ultimate X-Men",
+                "issue": "5",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "",
+                "upc": "75960620798500511",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "A",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-ultimate-x-men/ultimate-x-men-5-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-20T09:46:57.404Z",
+              "notes": "Exact full UPC 75960620798500511 and owned title/edition matched to PriceCharting product 6985342. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Six source-reported completed raw titles explicitly identifying Cover A/main cover. Ambiguous unspecified-cover rows excluded; includes older history and a wide $1.25-$16.19 range. Original eBay photographs/completion not independently reverified. Seller condition is not owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:366243365591",
+                  "sourceUrl": "https://www.ebay.com/itm/366243365591",
+                  "soldAt": "2026-04-27",
+                  "value": 4.44,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:336380660271",
+                  "sourceUrl": "https://www.ebay.com/itm/336380660271",
+                  "soldAt": "2026-01-13",
+                  "value": 4.67,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:187660295716",
+                  "sourceUrl": "https://www.ebay.com/itm/187660295716",
+                  "soldAt": "2025-10-25",
+                  "value": 1.25,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:317223472141",
+                  "sourceUrl": "https://www.ebay.com/itm/317223472141",
+                  "soldAt": "2025-08-30",
+                  "value": 4,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:388360801491",
+                  "sourceUrl": "https://www.ebay.com/itm/388360801491",
+                  "soldAt": "2025-07-05",
+                  "value": 14.39,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:387222774893",
+                  "sourceUrl": "https://www.ebay.com/itm/387222774893",
+                  "soldAt": "2025-05-03",
+                  "value": 16.19,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Six source-reported completed raw titles explicitly identifying Cover A/main cover. Ambiguous unspecified-cover rows excluded; includes older history and a wide $1.25-$16.19 range. Original eBay photographs/completion not independently reverified. Seller condition is not owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_8487041626_FRONT.jpg",
         "back": "Authority_8487041626_BACK.jpg"
@@ -14482,7 +15439,90 @@
         "capturedAt": "2026-09-07T23:57:06.596Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-20-Authority-4762415178",
+            "copyId": "Authority:4762415178",
+            "basis": "raw-reference",
+            "value": 2.89,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-the-ghost-spider/spider-gwen-the-ghost-spider-3-2024",
+              "asOf": "2026-03-10",
+              "retrievedAt": "2026-09-20T09:46:57.404Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spider-Gwen: The Ghost-Spider",
+                "issue": "3",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "",
+                "upc": "75960620908800311",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "A",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-the-ghost-spider/spider-gwen-the-ghost-spider-3-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-20T09:46:57.404Z",
+              "notes": "Exact full UPC 75960620908800311 and owned title/edition matched to PriceCharting product 7096691. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Four 2026 source-reported completed Cover A/Mark Brooks raw sales. Excluded Weapon X-Traction, Szerdy, Ekijure, Big Marvel and unspecified-cover rows from mixed catalog. Original eBay photographs/completion not independently reverified. Seller condition is not owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:387144994337",
+                  "sourceUrl": "https://www.ebay.com/itm/387144994337",
+                  "soldAt": "2026-03-10",
+                  "value": 3.39,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:167696298498",
+                  "sourceUrl": "https://www.ebay.com/itm/167696298498",
+                  "soldAt": "2026-02-15",
+                  "value": 1.19,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:256533443591",
+                  "sourceUrl": "https://www.ebay.com/itm/256533443591",
+                  "soldAt": "2026-01-19",
+                  "value": 2.39,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:235626106565",
+                  "sourceUrl": "https://www.ebay.com/itm/235626106565",
+                  "soldAt": "2026-01-12",
+                  "value": 3.95,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Four 2026 source-reported completed Cover A/Mark Brooks raw sales. Excluded Weapon X-Traction, Szerdy, Ekijure, Big Marvel and unspecified-cover rows from mixed catalog. Original eBay photographs/completion not independently reverified. Seller condition is not owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_4762415178_FRONT.jpg",
         "back": "Authority_4762415178_BACK.jpg"
@@ -14579,7 +15619,97 @@
         "capturedAt": "2026-09-07T23:57:08.957Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-20-Authority-7504279545",
+            "copyId": "Authority:7504279545",
+            "basis": "raw-reference",
+            "value": 4.78,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-nyx/nyx-villalobos-1-2024",
+              "asOf": "2026-07-09",
+              "retrievedAt": "2026-09-20T09:46:57.404Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "NYX",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Villalobos Variant",
+                "upc": "75960620918700121",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-nyx/nyx-villalobos-1-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-20T09:46:57.404Z",
+              "notes": "Exact full UPC 75960620918700121 and owned title/edition matched to PriceCharting product 7048794. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five 2026 source-reported completed standalone Villalobos raw sales. $2.50 bargain rows requiring a $5 minimum purchase excluded because their transaction requires additional items. Original eBay photographs/completion not independently reverified. Seller condition is not owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:227133244195",
+                  "sourceUrl": "https://www.ebay.com/itm/227133244195",
+                  "soldAt": "2026-07-09",
+                  "value": 4.23,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:375498845678",
+                  "sourceUrl": "https://www.ebay.com/itm/375498845678",
+                  "soldAt": "2026-03-12",
+                  "value": 5.3,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:235544147460",
+                  "sourceUrl": "https://www.ebay.com/itm/235544147460",
+                  "soldAt": "2026-03-07",
+                  "value": 4.78,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:256518531406",
+                  "sourceUrl": "https://www.ebay.com/itm/256518531406",
+                  "soldAt": "2026-02-26",
+                  "value": 4.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:335808753888",
+                  "sourceUrl": "https://www.ebay.com/itm/335808753888",
+                  "soldAt": "2026-01-05",
+                  "value": 4.5,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five 2026 source-reported completed standalone Villalobos raw sales. $2.50 bargain rows requiring a $5 minimum purchase excluded because their transaction requires additional items. Original eBay photographs/completion not independently reverified. Seller condition is not owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_7504279545_FRONT.jpg",
         "back": "Authority_7504279545_BACK.jpg"
@@ -14676,7 +15806,111 @@
         "capturedAt": "2026-09-07T23:57:11.361Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-20-Authority-0872865980",
+            "copyId": "Authority:0872865980",
+            "basis": "raw-reference",
+            "value": 3.24,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-nyx/nyx-1-2024",
+              "asOf": "2026-09-11",
+              "retrievedAt": "2026-09-20T09:46:57.404Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "NYX",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "",
+                "upc": "75960620918700111",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "A",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-nyx/nyx-1-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-20T09:46:57.404Z",
+              "notes": "Exact full UPC 75960620918700111 and owned title/edition matched to PriceCharting product 7048788. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Seven 2026 source-reported completed sales explicitly Cover A/Sara Pichelli main. Lobos, other variants and unspecified-cover rows excluded. Low clearance outcomes retained. Original eBay photographs/completion not independently reverified. Seller condition is not owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:176483862572",
+                  "sourceUrl": "https://www.ebay.com/itm/176483862572",
+                  "soldAt": "2026-09-11",
+                  "value": 2.39,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:357415760448",
+                  "sourceUrl": "https://www.ebay.com/itm/357415760448",
+                  "soldAt": "2026-09-10",
+                  "value": 3.49,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:256518527633",
+                  "sourceUrl": "https://www.ebay.com/itm/256518527633",
+                  "soldAt": "2026-09-06",
+                  "value": 3.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:406216932577",
+                  "sourceUrl": "https://www.ebay.com/itm/406216932577",
+                  "soldAt": "2026-08-30",
+                  "value": 1,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:235955656439",
+                  "sourceUrl": "https://www.ebay.com/itm/235955656439",
+                  "soldAt": "2026-07-21",
+                  "value": 4.49,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:156559881890",
+                  "sourceUrl": "https://www.ebay.com/itm/156559881890",
+                  "soldAt": "2026-05-19",
+                  "value": 0.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:157618260370",
+                  "sourceUrl": "https://www.ebay.com/itm/157618260370",
+                  "soldAt": "2026-03-24",
+                  "value": 3.24,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Seven 2026 source-reported completed sales explicitly Cover A/Sara Pichelli main. Lobos, other variants and unspecified-cover rows excluded. Low clearance outcomes retained. Original eBay photographs/completion not independently reverified. Seller condition is not owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_0872865980_FRONT.jpg",
         "back": "Authority_0872865980_BACK.jpg"
@@ -14773,7 +16007,83 @@
         "capturedAt": "2026-09-07T23:57:13.742Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-20-Authority-7271473346",
+            "copyId": "Authority:7271473346",
+            "basis": "raw-reference",
+            "value": 4.77,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-nyx/nyx-antonio-1-2024",
+              "asOf": "2026-03-12",
+              "retrievedAt": "2026-09-20T09:46:57.404Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "NYX",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Antônio Variant",
+                "upc": "75960620918700151",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "D",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-nyx/nyx-antonio-1-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-20T09:46:57.404Z",
+              "notes": "Exact full UPC 75960620918700151 and owned title/edition matched to PriceCharting product 7048796. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Sparse history: three 2025-26 source-reported completed Antonio raw sales. Older launch rows and presales excluded. Same edition reference shared by two owned copies. Original eBay photos/completion not independently reverified. Seller condition is not owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:335372774581",
+                  "sourceUrl": "https://www.ebay.com/itm/335372774581",
+                  "soldAt": "2026-03-12",
+                  "value": 4.77,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:166885329251",
+                  "sourceUrl": "https://www.ebay.com/itm/166885329251",
+                  "soldAt": "2025-10-08",
+                  "value": 8.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:226893172642",
+                  "sourceUrl": "https://www.ebay.com/itm/226893172642",
+                  "soldAt": "2025-09-15",
+                  "value": 3.22,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Sparse history: three 2025-26 source-reported completed Antonio raw sales. Older launch rows and presales excluded. Same edition reference shared by two owned copies. Original eBay photos/completion not independently reverified. Seller condition is not owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_7271473346_FRONT.jpg",
         "back": "Authority_7271473346_BACK.jpg"
@@ -14870,7 +16180,83 @@
         "capturedAt": "2026-09-07T23:57:16.191Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-20-Authority-6205705382",
+            "copyId": "Authority:6205705382",
+            "basis": "raw-reference",
+            "value": 4.77,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-nyx/nyx-antonio-1-2024",
+              "asOf": "2026-03-12",
+              "retrievedAt": "2026-09-20T09:46:57.404Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "NYX",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Antônio Variant",
+                "upc": "75960620918700151",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "D",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-nyx/nyx-antonio-1-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-20T09:46:57.404Z",
+              "notes": "Exact full UPC 75960620918700151 and owned title/edition matched to PriceCharting product 7048796. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Sparse history: three 2025-26 source-reported completed Antonio raw sales. Older launch rows and presales excluded. Same edition reference shared by two owned copies. Original eBay photos/completion not independently reverified. Seller condition is not owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:335372774581",
+                  "sourceUrl": "https://www.ebay.com/itm/335372774581",
+                  "soldAt": "2026-03-12",
+                  "value": 4.77,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:166885329251",
+                  "sourceUrl": "https://www.ebay.com/itm/166885329251",
+                  "soldAt": "2025-10-08",
+                  "value": 8.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:226893172642",
+                  "sourceUrl": "https://www.ebay.com/itm/226893172642",
+                  "soldAt": "2025-09-15",
+                  "value": 3.22,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Sparse history: three 2025-26 source-reported completed Antonio raw sales. Older launch rows and presales excluded. Same edition reference shared by two owned copies. Original eBay photos/completion not independently reverified. Seller condition is not owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_6205705382_FRONT.jpg",
         "back": "Authority_6205705382_BACK.jpg"
@@ -14967,7 +16353,97 @@
         "capturedAt": "2026-09-07T23:57:18.950Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-20-Authority-2720816121",
+            "copyId": "Authority:2720816121",
+            "basis": "raw-reference",
+            "value": 4.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-ultimate-x-men/ultimate-x-men-momoko-5-2024",
+              "asOf": "2026-09-03",
+              "retrievedAt": "2026-09-20T09:46:57.404Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Ultimate X-Men",
+                "issue": "5",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Momoko Variant",
+                "upc": "75960620798500541",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "D",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-ultimate-x-men/ultimate-x-men-momoko-5-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-20T09:46:57.404Z",
+              "notes": "Exact full UPC 75960620798500541 and owned title/edition matched to PriceCharting product 6985345. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five 2026 source-reported completed sales explicitly Momoko variant/Cover D. Momoko also drew the main cover; all main/Cover A and ambiguous Momoko-only titles excluded. Raw seller 9.4 is a comparison condition, not an owned grade. Original eBay photographs/completion not independently reverified.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:365942154511",
+                  "sourceUrl": "https://www.ebay.com/itm/365942154511",
+                  "soldAt": "2026-09-03",
+                  "value": 4.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:188431955367",
+                  "sourceUrl": "https://www.ebay.com/itm/188431955367",
+                  "soldAt": "2026-08-02",
+                  "value": 1,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:177091602189",
+                  "sourceUrl": "https://www.ebay.com/itm/177091602189",
+                  "soldAt": "2026-06-08",
+                  "value": 3.4,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:235678225784",
+                  "sourceUrl": "https://www.ebay.com/itm/235678225784",
+                  "soldAt": "2026-01-06",
+                  "value": 5.24,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:127472252304",
+                  "sourceUrl": "https://www.ebay.com/itm/127472252304",
+                  "soldAt": "2026-01-05",
+                  "value": 5,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five 2026 source-reported completed sales explicitly Momoko variant/Cover D. Momoko also drew the main cover; all main/Cover A and ambiguous Momoko-only titles excluded. Raw seller 9.4 is a comparison condition, not an owned grade. Original eBay photographs/completion not independently reverified."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_2720816121_FRONT.jpg",
         "back": "Authority_2720816121_BACK.jpg"
@@ -15066,7 +16542,83 @@
         "capturedAt": "2026-09-07T23:57:21.329Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-20-Authority-5906267782",
+            "copyId": "Authority:5906267782",
+            "basis": "raw-reference",
+            "value": 4.02,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-icon-vs-hardware/icon-vs-hardware-1-2023",
+              "asOf": "2026-06-09",
+              "retrievedAt": "2026-09-20T09:46:57.404Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Icon vs. Hardware",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DC",
+                "variant": "Rahzzah Cover",
+                "upc": "76194137764300111",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "A",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-icon-vs-hardware/icon-vs-hardware-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-20T09:46:57.404Z",
+              "notes": "Exact full UPC 76194137764300111 and owned title/edition matched to PriceCharting product 4765822. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three latest explicitly Rahzzah/main Cover A source-reported completed raw sales. Sparse, partly stale history. Excluded 1-5 sets, choose-cover menus, Canaan White/Cowan variants, mixed-title bundles and unspecified covers. Original eBay photos/completion not independently reverified; seller condition is not owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:304778308791",
+                  "sourceUrl": "https://www.ebay.com/itm/304778308791",
+                  "soldAt": "2026-06-09",
+                  "value": 4.69,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:336253769194",
+                  "sourceUrl": "https://www.ebay.com/itm/336253769194",
+                  "soldAt": "2025-11-26",
+                  "value": 3.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:175609592771",
+                  "sourceUrl": "https://www.ebay.com/itm/175609592771",
+                  "soldAt": "2024-11-08",
+                  "value": 4.02,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three latest explicitly Rahzzah/main Cover A source-reported completed raw sales. Sparse, partly stale history. Excluded 1-5 sets, choose-cover menus, Canaan White/Cowan variants, mixed-title bundles and unspecified covers. Original eBay photos/completion not independently reverified; seller condition is not owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_5906267782_FRONT.jpg",
         "back": "Authority_5906267782_BACK.jpg"
@@ -15164,7 +16716,111 @@
         "capturedAt": "2026-09-07T23:57:23.769Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-20-Authority-1330144913",
+            "copyId": "Authority:1330144913",
+            "basis": "raw-reference",
+            "value": 4.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-ramos-2-2023",
+              "asOf": "2026-07-15",
+              "retrievedAt": "2026-09-20T09:46:57.404Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spider-Boy",
+                "issue": "2",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Humberto Ramos Ski Chalet Variant",
+                "upc": "75960620785500241",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-ramos-2-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-20T09:46:57.404Z",
+              "notes": "Exact full UPC 75960620785500241 and owned title/edition matched to PriceCharting product 6139175. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Seven recent source-reported completed Ski Chalet raw sales. Ramos also drew Cover A: Regular/Cover A and ambiguous Ramos-only rows excluded. Buy-five shipping promotion does not itself identify a five-book lot; retained as a single-title reference. Original eBay photos/completion not independently reverified. Seller condition is not owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:236034002829",
+                  "sourceUrl": "https://www.ebay.com/itm/236034002829",
+                  "soldAt": "2026-07-15",
+                  "value": 6.5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:266500880198",
+                  "sourceUrl": "https://www.ebay.com/itm/266500880198",
+                  "soldAt": "2026-05-08",
+                  "value": 5.35,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:358340213545",
+                  "sourceUrl": "https://www.ebay.com/itm/358340213545",
+                  "soldAt": "2026-03-25",
+                  "value": 1.25,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:176001310292",
+                  "sourceUrl": "https://www.ebay.com/itm/176001310292",
+                  "soldAt": "2026-01-31",
+                  "value": 4.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:177696199539",
+                  "sourceUrl": "https://www.ebay.com/itm/177696199539",
+                  "soldAt": "2025-12-29",
+                  "value": 1,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:187657289396",
+                  "sourceUrl": "https://www.ebay.com/itm/187657289396",
+                  "soldAt": "2025-10-24",
+                  "value": 0.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:365392892132",
+                  "sourceUrl": "https://www.ebay.com/itm/365392892132",
+                  "soldAt": "2025-09-12",
+                  "value": 5.44,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Seven recent source-reported completed Ski Chalet raw sales. Ramos also drew Cover A: Regular/Cover A and ambiguous Ramos-only rows excluded. Buy-five shipping promotion does not itself identify a five-book lot; retained as a single-title reference. Original eBay photos/completion not independently reverified. Seller condition is not owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_1330144913_FRONT.jpg",
         "back": "Authority_1330144913_BACK.jpg"
@@ -15259,7 +16915,97 @@
         "capturedAt": "2026-09-07T23:57:26.210Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-20-Authority-4003077415",
+            "copyId": "Authority:4003077415",
+            "basis": "raw-reference",
+            "value": 7.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-gods/gods-momoko-1-2023",
+              "asOf": "2026-07-15",
+              "retrievedAt": "2026-09-20T09:46:57.404Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "G.O.D.S.",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Momoko Variant",
+                "upc": "75960620497700141",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "D",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-gods/gods-momoko-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-20T09:46:57.404Z",
+              "notes": "Exact full UPC 75960620497700141 and owned title/edition matched to PriceCharting product 5861529. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five matching 2026 source-reported completed Momoko raw sales. Inconsistent 2024 title and older presale titles excluded. Original eBay photos/completion not independently reverified. Seller condition is not owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:227210443185",
+                  "sourceUrl": "https://www.ebay.com/itm/227210443185",
+                  "soldAt": "2026-07-15",
+                  "value": 2,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:257190623805",
+                  "sourceUrl": "https://www.ebay.com/itm/257190623805",
+                  "soldAt": "2026-07-11",
+                  "value": 7.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:325839072089",
+                  "sourceUrl": "https://www.ebay.com/itm/325839072089",
+                  "soldAt": "2026-05-08",
+                  "value": 15,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:187823418836",
+                  "sourceUrl": "https://www.ebay.com/itm/187823418836",
+                  "soldAt": "2026-03-21",
+                  "value": 5.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:176115397653",
+                  "sourceUrl": "https://www.ebay.com/itm/176115397653",
+                  "soldAt": "2026-01-19",
+                  "value": 9.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five matching 2026 source-reported completed Momoko raw sales. Inconsistent 2024 title and older presale titles excluded. Original eBay photos/completion not independently reverified. Seller condition is not owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_4003077415_FRONT.jpg",
         "back": "Authority_4003077415_BACK.jpg"
@@ -15362,7 +17108,104 @@
         "capturedAt": "2026-09-07T23:57:29.527Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-20-Authority-5798918434",
+            "copyId": "Authority:5798918434",
+            "basis": "raw-reference",
+            "value": 5.84,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-wonder-woman/wonder-woman-del-mundo-17-2025",
+              "asOf": "2026-07-02",
+              "retrievedAt": "2026-09-20T09:46:57.404Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Wonder Woman",
+                "issue": "17",
+                "issueYear": "2025",
+                "publisher": "DC Comics",
+                "variant": "Mike Del Mundo Card Stock  Variant",
+                "upc": "76194138162601731",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "6",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-wonder-woman/wonder-woman-del-mundo-17-2025",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-20T09:46:57.404Z",
+              "notes": "Owned full UPC 76194138162601731 independently matches Wonder Woman volume 6 #17 Cover C Mike Del Mundo, January 22 2025, at https://www.g-mart.com/static/f255781.html and https://www.midtowncomics.com/product/2382510 . PriceCharting product 8345425 matches issue/year/artist but omits UPC. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Six 2026 source-reported completed raw sales; excluded older presale titles and the CGC 9.8 transaction. Two entries append 2024 despite explicitly identifying the January 2025 Del Mundo issue, so full source-title provenance retains that catalog inconsistency. Original eBay photos/completion not independently reverified. Seller condition is not owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:365373016767",
+                  "sourceUrl": "https://www.ebay.com/itm/365373016767",
+                  "soldAt": "2026-07-02",
+                  "value": 6,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:176837512603",
+                  "sourceUrl": "https://www.ebay.com/itm/176837512603",
+                  "soldAt": "2026-03-29",
+                  "value": 4.15,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:375848520102",
+                  "sourceUrl": "https://www.ebay.com/itm/375848520102",
+                  "soldAt": "2026-01-20",
+                  "value": 6.58,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:187205843670",
+                  "sourceUrl": "https://www.ebay.com/itm/187205843670",
+                  "soldAt": "2026-01-07",
+                  "value": 5.61,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:316880141529",
+                  "sourceUrl": "https://www.ebay.com/itm/316880141529",
+                  "soldAt": "2026-01-03",
+                  "value": 5.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:177471616113",
+                  "sourceUrl": "https://www.ebay.com/itm/177471616113",
+                  "soldAt": "2026-01-01",
+                  "value": 5.69,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Six 2026 source-reported completed raw sales; excluded older presale titles and the CGC 9.8 transaction. Two entries append 2024 despite explicitly identifying the January 2025 Del Mundo issue, so full source-title provenance retains that catalog inconsistency. Original eBay photos/completion not independently reverified. Seller condition is not owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_5798918434_FRONT.jpg",
         "back": "Authority_5798918434_BACK.jpg"

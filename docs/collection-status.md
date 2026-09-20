@@ -102,7 +102,10 @@ An early September 20 pass added a starred CGC Venusaur estimate ($13.88) and
 A later September 20 pass added 16 raw-copy references across 15 editions ($90.09),
 resolved Strange Academy's Humberto Ramos signature identity, and accepted no new graded
 values; see the [continued research](valuation-morning-2026-09-20.md).
-173 unconditioned raw references now total $1,006.04 and remain excluded
+A further September 20 pass added 19 raw-copy references across 18 editions ($95.24),
+including the remaining NYX, Uncle Scrooge and Ultimate variants in Bin 14; see the
+[midday research](valuation-midday-2026-09-20.md). No new graded estimate was accepted.
+192 unconditioned raw references now total $1,101.28 and remain excluded
 from the recorded total. There are 107 graded values outstanding (80 comics, 27 cards),
 plus 429 raw copies awaiting condition assessment. See the
 [pilot report](valuation-pilot-2026-09-13.md) for sources, dates and remaining gaps.
