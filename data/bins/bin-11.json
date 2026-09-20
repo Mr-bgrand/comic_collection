@@ -657,7 +657,14 @@
         "status": "no-sales",
         "fetchedAt": "2026-08-27T05:52:19.321Z"
       },
-      "imageSource": "owner"
+      "imageSource": "owner",
+      "signatures": [
+        {
+          "name": "Humberto Ramos",
+          "date": "2022-06-17",
+          "witnessed": true
+        }
+      ]
     },
     {
       "cert": "2757895001",

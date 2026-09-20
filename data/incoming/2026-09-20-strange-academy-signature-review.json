@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-20T05:48:49.194Z",
+  "copyId": "CGC:2733544003",
+  "changes": [
+    {
+      "field": "signatures",
+      "previous": null,
+      "value": [
+        {
+          "name": "Humberto Ramos",
+          "date": "2022-06-17",
+          "witnessed": true
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "ownedScan": "data/images/2733544003_OBV.jpg",
+    "sha256": "e73a5ee7f17ee6846566f9c1eed058fc6233b49076673fc8e81186f94a8ddd1f",
+    "labelText": "SIGNED BY HUMBERTO RAMOS ON 6/17/22",
+    "notes": "Owned scan visually reviewed. Yellow CGC Signature Series label, cert 2733544003, Young Variant Cover, grade 9.8 White pages. Only the missing structured signature detail is added. No condition inferred and no value accepted. Unsigned copies, Skottie Young-only signatures, Ramos cover variants and double-signed copies are not exact comparisons."
+  }
+}

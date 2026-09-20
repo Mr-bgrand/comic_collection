@@ -1,0 +1,1498 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "Authority:5133388234",
+      "revision": "71930811d063a85288362d3afb1697d5f7dfa4ec79e1651f11f4642a1c39663b",
+      "observations": [
+        {
+          "id": "morning-2026-09-20-Authority-5133388234",
+          "copyId": "Authority:5133388234",
+          "basis": "raw-reference",
+          "value": 4.49,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-the-ghost-spider/spider-gwen-the-ghost-spider-2-2024",
+            "asOf": "2026-08-09",
+            "retrievedAt": "2026-09-20T05:48:57.846Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Spider-Gwen: The Ghost-Spider",
+              "issue": "2",
+              "issueYear": "",
+              "publisher": "Marvel Comics",
+              "variant": "",
+              "upc": "75960620908800211",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "A",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-the-ghost-spider/spider-gwen-the-ghost-spider-2-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-20T05:48:57.846Z",
+            "notes": "Exact full UPC 75960620908800211 and owned title/edition matched to PriceCharting product 6903510. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Only rows explicitly main cover or Cover A used. Black Costume, Li virgin, trade paperbacks and ambiguous artist/variant titles excluded from this heavily mixed catalog. Two source-reported completed sales, not individually verified; seller condition is not owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:235644434430",
+                "sourceUrl": "https://www.ebay.com/itm/235644434430",
+                "soldAt": "2026-08-09",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:176473372298",
+                "sourceUrl": "https://www.ebay.com/itm/176473372298",
+                "soldAt": "2026-02-15",
+                "value": 4.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Only rows explicitly main cover or Cover A used. Black Costume, Li virgin, trade paperbacks and ambiguous artist/variant titles excluded from this heavily mixed catalog. Two source-reported completed sales, not individually verified; seller condition is not owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:7073308967",
+      "revision": "71930811d063a85288362d3afb1697d5f7dfa4ec79e1651f11f4642a1c39663b",
+      "observations": [
+        {
+          "id": "morning-2026-09-20-Authority-7073308967",
+          "copyId": "Authority:7073308967",
+          "basis": "raw-reference",
+          "value": 6.95,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-blood-hunt/blood-hunt-momoko-1-2024",
+            "asOf": "2026-09-17",
+            "retrievedAt": "2026-09-20T05:48:57.846Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Blood Hunt",
+              "issue": "1",
+              "issueYear": "2024",
+              "publisher": "Marvel",
+              "variant": "Peach Momoko Variant",
+              "upc": "75960620805000181",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "F",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-blood-hunt/blood-hunt-momoko-1-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-20T05:48:57.846Z",
+            "notes": "Exact full UPC 75960620805000181 matches the owned Blood Hunt #1 Peach Momoko variant and PriceCharting product 6675889 (catalog appends a period). Midtown Comics product 2302405 independently identifies Cover F Peach Momoko, released May 1, 2024: https://www.midtowncomics.com/p/2302405-blood-hunt-1-cover-f-variant-peach-momoko-cover/. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Catalog mixes Blood Hunt with separate Magik and Jubilee tie-ins; all such rows excluded, as was the inconsistent 2025 Vision title. Nine matching source-reported completed raw sales; original eBay photos and completion not independently reverified. Seller condition is not owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:285838919855",
+                "sourceUrl": "https://www.ebay.com/itm/285838919855",
+                "soldAt": "2026-09-17",
+                "value": 6.95,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:375594004923",
+                "sourceUrl": "https://www.ebay.com/itm/375594004923",
+                "soldAt": "2026-09-15",
+                "value": 9.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:327230374477",
+                "sourceUrl": "https://www.ebay.com/itm/327230374477",
+                "soldAt": "2026-09-14",
+                "value": 10.49,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:186469092634",
+                "sourceUrl": "https://www.ebay.com/itm/186469092634",
+                "soldAt": "2026-08-30",
+                "value": 4.42,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:257377876572",
+                "sourceUrl": "https://www.ebay.com/itm/257377876572",
+                "soldAt": "2026-07-12",
+                "value": 4.79,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:326635256414",
+                "sourceUrl": "https://www.ebay.com/itm/326635256414",
+                "soldAt": "2026-06-22",
+                "value": 10.49,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:375314110596",
+                "sourceUrl": "https://www.ebay.com/itm/375314110596",
+                "soldAt": "2026-06-14",
+                "value": 7.64,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:386971880357",
+                "sourceUrl": "https://www.ebay.com/itm/386971880357",
+                "soldAt": "2026-06-13",
+                "value": 5.09,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:287325905905",
+                "sourceUrl": "https://www.ebay.com/itm/287325905905",
+                "soldAt": "2026-05-27",
+                "value": 5.95,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Catalog mixes Blood Hunt with separate Magik and Jubilee tie-ins; all such rows excluded, as was the inconsistent 2025 Vision title. Nine matching source-reported completed raw sales; original eBay photos and completion not independently reverified. Seller condition is not owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:6727328581",
+      "revision": "71930811d063a85288362d3afb1697d5f7dfa4ec79e1651f11f4642a1c39663b",
+      "observations": [
+        {
+          "id": "morning-2026-09-20-Authority-6727328581",
+          "copyId": "Authority:6727328581",
+          "basis": "raw-reference",
+          "value": 5.17,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-deadpool/deadpool-facsimile-1-2024",
+            "asOf": "2026-07-25",
+            "retrievedAt": "2026-09-20T05:48:57.846Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Deadpool",
+              "issue": "1",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Facsimile Edition",
+              "upc": "75960620991000111",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "C",
+              "volume": "2",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-deadpool/deadpool-facsimile-1-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-20T05:48:57.846Z",
+            "notes": "Exact full UPC 75960620991000111 and owned title/edition matched to PriceCharting product 6965417. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Excluded posters, Circle Chase 3D, presale titles and ambiguous variant-only titles. Eight matching source-reported completed sales, including older rows; original eBay completion/photographs not independently reverified. Seller condition is not owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:188422833567",
+                "sourceUrl": "https://www.ebay.com/itm/188422833567",
+                "soldAt": "2026-07-25",
+                "value": 6.74,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:198151293847",
+                "sourceUrl": "https://www.ebay.com/itm/198151293847",
+                "soldAt": "2026-04-08",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:187030677616",
+                "sourceUrl": "https://www.ebay.com/itm/187030677616",
+                "soldAt": "2026-03-02",
+                "value": 7.19,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:315247312281",
+                "sourceUrl": "https://www.ebay.com/itm/315247312281",
+                "soldAt": "2026-02-25",
+                "value": 5.39,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:266828521884",
+                "sourceUrl": "https://www.ebay.com/itm/266828521884",
+                "soldAt": "2026-01-03",
+                "value": 6.59,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:186627909081",
+                "sourceUrl": "https://www.ebay.com/itm/186627909081",
+                "soldAt": "2025-11-13",
+                "value": 4.75,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:226379990122",
+                "sourceUrl": "https://www.ebay.com/itm/226379990122",
+                "soldAt": "2025-08-16",
+                "value": 4.95,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:277066560095",
+                "sourceUrl": "https://www.ebay.com/itm/277066560095",
+                "soldAt": "2025-07-12",
+                "value": 4.67,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Excluded posters, Circle Chase 3D, presale titles and ambiguous variant-only titles. Eight matching source-reported completed sales, including older rows; original eBay completion/photographs not independently reverified. Seller condition is not owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:8157740009",
+      "revision": "71930811d063a85288362d3afb1697d5f7dfa4ec79e1651f11f4642a1c39663b",
+      "observations": [
+        {
+          "id": "morning-2026-09-20-Authority-8157740009",
+          "copyId": "Authority:8157740009",
+          "basis": "raw-reference",
+          "value": 3.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-the-ghost-spider/spider-gwen-the-ghost-spider-hans-2-2024",
+            "asOf": "2026-07-20",
+            "retrievedAt": "2026-09-20T05:48:57.846Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Spider-Gwen: The Ghost-Spider",
+              "issue": "2",
+              "issueYear": "",
+              "publisher": "Marvel Comics",
+              "variant": "Black Costume Variant",
+              "upc": "75960620908800231",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "B",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-the-ghost-spider/spider-gwen-the-ghost-spider-hans-2-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-20T05:48:57.846Z",
+            "notes": "Exact full UPC 75960620908800231 and owned title/edition matched to PriceCharting product 6903515. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five most recent matching Hans/Black Costume source-reported completed raw sales. Includes the $1 sale rather than discarding low outcomes. Catalog letter inconsistency in an older Cover B title omitted; original eBay photos/completion not independently reverified. Seller condition not owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:205207402090",
+                "sourceUrl": "https://www.ebay.com/itm/205207402090",
+                "soldAt": "2026-07-20",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:176665979362",
+                "sourceUrl": "https://www.ebay.com/itm/176665979362",
+                "soldAt": "2026-04-27",
+                "value": 3.45,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:235578596825",
+                "sourceUrl": "https://www.ebay.com/itm/235578596825",
+                "soldAt": "2026-02-10",
+                "value": 4.05,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:276808671340",
+                "sourceUrl": "https://www.ebay.com/itm/276808671340",
+                "soldAt": "2026-01-29",
+                "value": 4,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:146983412250",
+                "sourceUrl": "https://www.ebay.com/itm/146983412250",
+                "soldAt": "2025-12-01",
+                "value": 1,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five most recent matching Hans/Black Costume source-reported completed raw sales. Includes the $1 sale rather than discarding low outcomes. Catalog letter inconsistency in an older Cover B title omitted; original eBay photos/completion not independently reverified. Seller condition not owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:6417946130",
+      "revision": "71930811d063a85288362d3afb1697d5f7dfa4ec79e1651f11f4642a1c39663b",
+      "observations": [
+        {
+          "id": "morning-2026-09-20-Authority-6417946130",
+          "copyId": "Authority:6417946130",
+          "basis": "raw-reference",
+          "value": 9.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-50-2024",
+            "asOf": "2026-09-06",
+            "retrievedAt": "2026-09-20T05:48:57.846Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "The Amazing Spider-Man",
+              "issue": "50",
+              "issueYear": "2024",
+              "publisher": "Marvel",
+              "variant": "Ed McGuinness Cover",
+              "upc": "75960620200305011",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "A",
+              "volume": "6",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-50-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-20T05:48:57.846Z",
+            "notes": "Exact full UPC 75960620200305011 and owned title/edition matched to PriceCharting product 6768020. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Only explicitly Cover A or McGuinness Regular rows used. Negative Space, Silk and ambiguous titles excluded from mixed catalog. Three source-reported completed sales, original eBay completion/photos not independently reverified. Seller condition is not owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:267194076216",
+                "sourceUrl": "https://www.ebay.com/itm/267194076216",
+                "soldAt": "2026-09-06",
+                "value": 11.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:366511221818",
+                "sourceUrl": "https://www.ebay.com/itm/366511221818",
+                "soldAt": "2026-07-11",
+                "value": 6.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:364912839011",
+                "sourceUrl": "https://www.ebay.com/itm/364912839011",
+                "soldAt": "2026-06-03",
+                "value": 9.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Only explicitly Cover A or McGuinness Regular rows used. Negative Space, Silk and ambiguous titles excluded from mixed catalog. Three source-reported completed sales, original eBay completion/photos not independently reverified. Seller condition is not owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:9678305299",
+      "revision": "71930811d063a85288362d3afb1697d5f7dfa4ec79e1651f11f4642a1c39663b",
+      "observations": [
+        {
+          "id": "morning-2026-09-20-Authority-9678305299",
+          "copyId": "Authority:9678305299",
+          "basis": "raw-reference",
+          "value": 2.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-free-comic-book-day/ultimate-universe-spider-man-1-2024",
+            "asOf": "2026-08-18",
+            "retrievedAt": "2026-09-20T05:48:57.846Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Ultimate Universe/Spider-Man",
+              "issue": "1",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "2024 Free Comic Book Day",
+              "upc": "75960620862300111",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-free-comic-book-day/ultimate-universe-spider-man-1-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-20T05:48:57.846Z",
+            "notes": "Owned full UPC 75960620862300111 independently confirmed by Marvel https://www.marvel.com/comics/issue/114059/read as Free Comic Book Day 2024 Ultimate Universe/Spider-Man #1 with Ryan Stegman cover. PriceCharting product 6675876 matches title/year/edition but omits UPC. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Eight 2026 source-reported completed raw sales. Excluded twenty-book bundles and SVG 9.8; original eBay completion/photos not independently reverified. Seller unstamped/condition descriptions do not establish owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:178343742368",
+                "sourceUrl": "https://www.ebay.com/itm/178343742368",
+                "soldAt": "2026-08-18",
+                "value": 2.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:327298316328",
+                "sourceUrl": "https://www.ebay.com/itm/327298316328",
+                "soldAt": "2026-08-13",
+                "value": 2.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:327082663700",
+                "sourceUrl": "https://www.ebay.com/itm/327082663700",
+                "soldAt": "2026-05-26",
+                "value": 9.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:166747546983",
+                "sourceUrl": "https://www.ebay.com/itm/166747546983",
+                "soldAt": "2026-05-04",
+                "value": 1,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:116169977955",
+                "sourceUrl": "https://www.ebay.com/itm/116169977955",
+                "soldAt": "2026-02-04",
+                "value": 4.95,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:257068818692",
+                "sourceUrl": "https://www.ebay.com/itm/257068818692",
+                "soldAt": "2026-01-24",
+                "value": 2.95,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:355648312564",
+                "sourceUrl": "https://www.ebay.com/itm/355648312564",
+                "soldAt": "2026-01-04",
+                "value": 1.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:226094436168",
+                "sourceUrl": "https://www.ebay.com/itm/226094436168",
+                "soldAt": "2026-01-03",
+                "value": 3.49,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Eight 2026 source-reported completed raw sales. Excluded twenty-book bundles and SVG 9.8; original eBay completion/photos not independently reverified. Seller unstamped/condition descriptions do not establish owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:6159409171",
+      "revision": "71930811d063a85288362d3afb1697d5f7dfa4ec79e1651f11f4642a1c39663b",
+      "observations": [
+        {
+          "id": "morning-2026-09-20-Authority-6159409171",
+          "copyId": "Authority:6159409171",
+          "basis": "raw-reference",
+          "value": 4.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-hellverine/hellverine-young-1-2024",
+            "asOf": "2026-09-04",
+            "retrievedAt": "2026-09-20T05:48:57.846Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Hellverine",
+              "issue": "1",
+              "issueYear": "2024",
+              "publisher": "Marvel",
+              "variant": "Skottie Young Variant",
+              "upc": "75960620950700131",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "C",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-hellverine/hellverine-young-1-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-20T05:48:57.846Z",
+            "notes": "Exact full UPC 75960620950700131 and owned title/edition matched to PriceCharting product 6777610. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Nine most recent matching single-book Young variant source-reported completed sales. August 31 two-cover bundle excluded. Original eBay completion/photos not independently reverified; seller condition is not owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:298202426674",
+                "sourceUrl": "https://www.ebay.com/itm/298202426674",
+                "soldAt": "2026-09-04",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:188502399463",
+                "sourceUrl": "https://www.ebay.com/itm/188502399463",
+                "soldAt": "2026-08-28",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336611539985",
+                "sourceUrl": "https://www.ebay.com/itm/336611539985",
+                "soldAt": "2026-08-22",
+                "value": 6.19,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:257332732748",
+                "sourceUrl": "https://www.ebay.com/itm/257332732748",
+                "soldAt": "2026-07-11",
+                "value": 11.95,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:335343975057",
+                "sourceUrl": "https://www.ebay.com/itm/335343975057",
+                "soldAt": "2026-07-08",
+                "value": 4.57,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:188511907313",
+                "sourceUrl": "https://www.ebay.com/itm/188511907313",
+                "soldAt": "2026-06-21",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:186678176346",
+                "sourceUrl": "https://www.ebay.com/itm/186678176346",
+                "soldAt": "2026-06-12",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:278027734798",
+                "sourceUrl": "https://www.ebay.com/itm/278027734798",
+                "soldAt": "2026-06-12",
+                "value": 5.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:226803635383",
+                "sourceUrl": "https://www.ebay.com/itm/226803635383",
+                "soldAt": "2026-06-08",
+                "value": 8.39,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Nine most recent matching single-book Young variant source-reported completed sales. August 31 two-cover bundle excluded. Original eBay completion/photos not independently reverified; seller condition is not owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:2845328237",
+      "revision": "71930811d063a85288362d3afb1697d5f7dfa4ec79e1651f11f4642a1c39663b",
+      "observations": [
+        {
+          "id": "morning-2026-09-20-Authority-2845328237",
+          "copyId": "Authority:2845328237",
+          "basis": "raw-reference",
+          "value": 7.74,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-avengers-annual/avengers-annual-facsimile-edition-10-2024",
+            "asOf": "2026-08-23",
+            "retrievedAt": "2026-09-20T05:48:57.846Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "The Avengers Annual",
+              "issue": "10",
+              "issueYear": "",
+              "publisher": "Marvel Comics",
+              "variant": "Facsimile Edition 2024",
+              "upc": "75960620937801011",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "F",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-avengers-annual/avengers-annual-facsimile-edition-10-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-20T05:48:57.846Z",
+            "notes": "Owned UPC 75960620937801011 independently matches standard Al Milgrom 2024 facsimile, G-Mart https://www.g-mart.com/static/f246041.html and Midtown https://www.midtowncomics.com/p/2310117-avengers-annual-10-cover-f-facsimile-edition-regular-al-milgrom-cover/. PriceCharting 6792219 stores only 12-digit UPC root. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Four source-reported 2024 standard facsimile sale titles retained. Explicit Foil, Cover B, 2022 and undated-printing rows excluded. Original eBay photos/completion not independently verified, so undisclosed finish/edition remains a limitation. Seller condition is not owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:137632290264",
+                "sourceUrl": "https://www.ebay.com/itm/137632290264",
+                "soldAt": "2026-08-23",
+                "value": 2.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:127964892870",
+                "sourceUrl": "https://www.ebay.com/itm/127964892870",
+                "soldAt": "2026-07-20",
+                "value": 7.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:197867316180",
+                "sourceUrl": "https://www.ebay.com/itm/197867316180",
+                "soldAt": "2026-06-13",
+                "value": 7.49,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:306292835143",
+                "sourceUrl": "https://www.ebay.com/itm/306292835143",
+                "soldAt": "2026-02-28",
+                "value": 10,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Four source-reported 2024 standard facsimile sale titles retained. Explicit Foil, Cover B, 2022 and undated-printing rows excluded. Original eBay photos/completion not independently verified, so undisclosed finish/edition remains a limitation. Seller condition is not owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:2676719519",
+      "revision": "71930811d063a85288362d3afb1697d5f7dfa4ec79e1651f11f4642a1c39663b",
+      "observations": [
+        {
+          "id": "morning-2026-09-20-Authority-2676719519",
+          "copyId": "Authority:2676719519",
+          "basis": "raw-reference",
+          "value": 8.3,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-x-men-%2797/x-men-%2797-hildebrandt-virgin-3-2024",
+            "asOf": "2026-08-07",
+            "retrievedAt": "2026-09-20T05:48:57.846Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "X-Men '97",
+              "issue": "3",
+              "issueYear": "",
+              "publisher": "Marvel Comics",
+              "variant": "Marvel Masterpieces III \"V\" Variant",
+              "upc": "75960620705300316",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "D",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-x-men-%2797/x-men-%2797-hildebrandt-virgin-3-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-20T05:48:57.846Z",
+            "notes": "Exact full UPC 75960620705300316 and owned title/edition matched to PriceCharting product 6768301. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three recent exact Hildebrandt Masterpieces III virgin 1:50 source-reported completed sales; older 2024-25 rows omitted from recent sample. Wide $4.25-$20 range. Original eBay completion/photographs not independently reverified; seller condition not owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:358563497404",
+                "sourceUrl": "https://www.ebay.com/itm/358563497404",
+                "soldAt": "2026-08-07",
+                "value": 20,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336706434119",
+                "sourceUrl": "https://www.ebay.com/itm/336706434119",
+                "soldAt": "2026-08-01",
+                "value": 4.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:137534975344",
+                "sourceUrl": "https://www.ebay.com/itm/137534975344",
+                "soldAt": "2026-07-28",
+                "value": 8.3,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three recent exact Hildebrandt Masterpieces III virgin 1:50 source-reported completed sales; older 2024-25 rows omitted from recent sample. Wide $4.25-$20 range. Original eBay completion/photographs not independently reverified; seller condition not owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:7962755161",
+      "revision": "71930811d063a85288362d3afb1697d5f7dfa4ec79e1651f11f4642a1c39663b",
+      "observations": [
+        {
+          "id": "morning-2026-09-20-Authority-7962755161",
+          "copyId": "Authority:7962755161",
+          "basis": "raw-reference",
+          "value": 3.26,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-rahzzah-7-2024",
+            "asOf": "2026-02-19",
+            "retrievedAt": "2026-09-20T05:48:57.846Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Spider-Boy",
+              "issue": "7",
+              "issueYear": "2024",
+              "publisher": "Marvel",
+              "variant": "Rahzzah Variant",
+              "upc": "75960620785500716",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "D",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-rahzzah-7-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-20T05:48:57.846Z",
+            "notes": "Exact full UPC 75960620785500716 and owned title/edition matched to PriceCharting product 6777580. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Latest five matching single-book Rahzzah 1:25 source-reported completed sales; all four- and five-book bundles excluded. Sparse and stale history, wide $0.99-$11.99 range; original eBay completion/photos not independently verified. Seller condition is not owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:405021756593",
+                "sourceUrl": "https://www.ebay.com/itm/405021756593",
+                "soldAt": "2026-02-19",
+                "value": 11.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336218371189",
+                "sourceUrl": "https://www.ebay.com/itm/336218371189",
+                "soldAt": "2025-10-13",
+                "value": 3.26,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:136463769846",
+                "sourceUrl": "https://www.ebay.com/itm/136463769846",
+                "soldAt": "2025-09-22",
+                "value": 2.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:306483827119",
+                "sourceUrl": "https://www.ebay.com/itm/306483827119",
+                "soldAt": "2025-09-15",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:365786812009",
+                "sourceUrl": "https://www.ebay.com/itm/365786812009",
+                "soldAt": "2025-08-16",
+                "value": 7.2,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Latest five matching single-book Rahzzah 1:25 source-reported completed sales; all four- and five-book bundles excluded. Sparse and stale history, wide $0.99-$11.99 range; original eBay completion/photos not independently verified. Seller condition is not owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:4548896419",
+      "revision": "71930811d063a85288362d3afb1697d5f7dfa4ec79e1651f11f4642a1c39663b",
+      "observations": [
+        {
+          "id": "morning-2026-09-20-Authority-4548896419",
+          "copyId": "Authority:4548896419",
+          "basis": "raw-reference",
+          "value": 4.59,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-power-girl/power-girl-talaski-9-2024",
+            "asOf": "2026-01-27",
+            "retrievedAt": "2026-09-20T05:48:57.846Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Power Girl",
+              "issue": "9",
+              "issueYear": "2024",
+              "publisher": "DC",
+              "variant": "David Talaski Variant",
+              "upc": "76194138173200921",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "C",
+              "volume": "3",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-power-girl/power-girl-talaski-9-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-20T05:48:57.846Z",
+            "notes": "Owned UPC 76194138173200921 and Talaski edition independently corroborated by Westfield https://westfieldcomics.com/comic-books/Power-Girl-9-variant-cardstock-cover--David-Talaski-2024/24030122 and Midtown product 2308371. PriceCharting incorrectly duplicates this barcode on the Daniel catalog; use Talaski product 6777576 only. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Four latest matching Talaski raw sale titles, source-reported completed sales; sparse stale history. Excluded 9.8 ambiguous grading row, presales and older inconsistent Cover B description. Original eBay completion/photos not independently reverified; seller condition is not owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:187962870719",
+                "sourceUrl": "https://www.ebay.com/itm/187962870719",
+                "soldAt": "2026-01-27",
+                "value": 3.5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:387057422784",
+                "sourceUrl": "https://www.ebay.com/itm/387057422784",
+                "soldAt": "2026-01-03",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:186459014271",
+                "sourceUrl": "https://www.ebay.com/itm/186459014271",
+                "soldAt": "2025-08-24",
+                "value": 4.19,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:126621011059",
+                "sourceUrl": "https://www.ebay.com/itm/126621011059",
+                "soldAt": "2025-01-22",
+                "value": 4.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Four latest matching Talaski raw sale titles, source-reported completed sales; sparse stale history. Excluded 9.8 ambiguous grading row, presales and older inconsistent Cover B description. Original eBay completion/photos not independently reverified; seller condition is not owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:1585442390",
+      "revision": "71930811d063a85288362d3afb1697d5f7dfa4ec79e1651f11f4642a1c39663b",
+      "observations": [
+        {
+          "id": "morning-2026-09-20-Authority-1585442390",
+          "copyId": "Authority:1585442390",
+          "basis": "raw-reference",
+          "value": 4.59,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-power-girl/power-girl-talaski-9-2024",
+            "asOf": "2026-01-27",
+            "retrievedAt": "2026-09-20T05:48:57.846Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Power Girl",
+              "issue": "9",
+              "issueYear": "2024",
+              "publisher": "DC",
+              "variant": "David Talaski Variant",
+              "upc": "76194138173200921",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "C",
+              "volume": "3",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-power-girl/power-girl-talaski-9-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-20T05:48:57.846Z",
+            "notes": "Owned UPC 76194138173200921 and Talaski edition independently corroborated by Westfield https://westfieldcomics.com/comic-books/Power-Girl-9-variant-cardstock-cover--David-Talaski-2024/24030122 and Midtown product 2308371. PriceCharting incorrectly duplicates this barcode on the Daniel catalog; use Talaski product 6777576 only. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Four latest matching Talaski raw sale titles, source-reported completed sales; sparse stale history. Excluded 9.8 ambiguous grading row, presales and older inconsistent Cover B description. Original eBay completion/photos not independently reverified; seller condition is not owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:187962870719",
+                "sourceUrl": "https://www.ebay.com/itm/187962870719",
+                "soldAt": "2026-01-27",
+                "value": 3.5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:387057422784",
+                "sourceUrl": "https://www.ebay.com/itm/387057422784",
+                "soldAt": "2026-01-03",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:186459014271",
+                "sourceUrl": "https://www.ebay.com/itm/186459014271",
+                "soldAt": "2025-08-24",
+                "value": 4.19,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:126621011059",
+                "sourceUrl": "https://www.ebay.com/itm/126621011059",
+                "soldAt": "2025-01-22",
+                "value": 4.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Four latest matching Talaski raw sale titles, source-reported completed sales; sparse stale history. Excluded 9.8 ambiguous grading row, presales and older inconsistent Cover B description. Original eBay completion/photos not independently reverified; seller condition is not owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:8320705949",
+      "revision": "71930811d063a85288362d3afb1697d5f7dfa4ec79e1651f11f4642a1c39663b",
+      "observations": [
+        {
+          "id": "morning-2026-09-20-Authority-8320705949",
+          "copyId": "Authority:8320705949",
+          "basis": "raw-reference",
+          "value": 4.97,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-ultimate-spider-man/ultimate-spider-man-romero-5-2024",
+            "asOf": "2026-04-15",
+            "retrievedAt": "2026-09-20T05:48:57.846Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Ultimate Spider-Man",
+              "issue": "5",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Romero Variant",
+              "upc": "75960620796100521",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "C",
+              "volume": "2",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-ultimate-spider-man/ultimate-spider-man-romero-5-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-20T05:48:57.846Z",
+            "notes": "Exact full UPC 75960620796100521 and owned title/edition matched to PriceCharting product 6777452. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Six latest matching Romero single-book source-reported completed sales; sparse mostly stale history. Two-cover bundle and inconsistent Cover C title omitted. Original eBay completion/photos not independently reverified; seller condition is not owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:236142431908",
+                "sourceUrl": "https://www.ebay.com/itm/236142431908",
+                "soldAt": "2026-04-15",
+                "value": 4.95,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:166904262333",
+                "sourceUrl": "https://www.ebay.com/itm/166904262333",
+                "soldAt": "2026-01-28",
+                "value": 4,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:387032293900",
+                "sourceUrl": "https://www.ebay.com/itm/387032293900",
+                "soldAt": "2026-01-23",
+                "value": 4.24,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:196431980040",
+                "sourceUrl": "https://www.ebay.com/itm/196431980040",
+                "soldAt": "2026-01-03",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:226162414277",
+                "sourceUrl": "https://www.ebay.com/itm/226162414277",
+                "soldAt": "2025-12-25",
+                "value": 9.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:266851454360",
+                "sourceUrl": "https://www.ebay.com/itm/266851454360",
+                "soldAt": "2025-11-19",
+                "value": 5.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Six latest matching Romero single-book source-reported completed sales; sparse mostly stale history. Two-cover bundle and inconsistent Cover C title omitted. Original eBay completion/photos not independently reverified; seller condition is not owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:0392376426",
+      "revision": "71930811d063a85288362d3afb1697d5f7dfa4ec79e1651f11f4642a1c39663b",
+      "observations": [
+        {
+          "id": "morning-2026-09-20-Authority-0392376426",
+          "copyId": "Authority:0392376426",
+          "basis": "raw-reference",
+          "value": 5.67,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-batman-and-robin/batman-and-robin-melnikov-10-2024",
+            "asOf": "2026-08-17",
+            "retrievedAt": "2026-09-20T05:48:57.846Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Batman and Robin",
+              "issue": "10",
+              "issueYear": "2024",
+              "publisher": "DC",
+              "variant": "Gleb Melnikov Variant",
+              "upc": "76194138050601021",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "B",
+              "volume": "3",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-batman-and-robin/batman-and-robin-melnikov-10-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-20T05:48:57.846Z",
+            "notes": "Exact full UPC 76194138050601021 and owned title/edition matched to PriceCharting product 6838170. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Six latest matching Melnikov cardstock variant source-reported completed sales. Sparse history including two older comparisons; original eBay completion/photos not independently reverified. Seller condition is not owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:187182432984",
+                "sourceUrl": "https://www.ebay.com/itm/187182432984",
+                "soldAt": "2026-08-17",
+                "value": 5.65,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:235612545567",
+                "sourceUrl": "https://www.ebay.com/itm/235612545567",
+                "soldAt": "2026-07-11",
+                "value": 5.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:327057630236",
+                "sourceUrl": "https://www.ebay.com/itm/327057630236",
+                "soldAt": "2026-04-13",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:196407606356",
+                "sourceUrl": "https://www.ebay.com/itm/196407606356",
+                "soldAt": "2026-02-10",
+                "value": 5.69,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:176444709511",
+                "sourceUrl": "https://www.ebay.com/itm/176444709511",
+                "soldAt": "2025-10-20",
+                "value": 5.4,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:176424486640",
+                "sourceUrl": "https://www.ebay.com/itm/176424486640",
+                "soldAt": "2025-08-30",
+                "value": 5.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Six latest matching Melnikov cardstock variant source-reported completed sales. Sparse history including two older comparisons; original eBay completion/photos not independently reverified. Seller condition is not owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:4349869229",
+      "revision": "71930811d063a85288362d3afb1697d5f7dfa4ec79e1651f11f4642a1c39663b",
+      "observations": [
+        {
+          "id": "morning-2026-09-20-Authority-4349869229",
+          "copyId": "Authority:4349869229",
+          "basis": "raw-reference",
+          "value": 7.19,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-uncle-scrooge-and-the-infinity-dime/uncle-scrooge-and-the-infinity-dime-1-2024",
+            "asOf": "2026-08-14",
+            "retrievedAt": "2026-09-20T05:48:57.846Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Uncle Scrooge and the Infinity Dime",
+              "issue": "1",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "",
+              "upc": "75960620873900111",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "A",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-uncle-scrooge-and-the-infinity-dime/uncle-scrooge-and-the-infinity-dime-1-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-20T05:48:57.846Z",
+            "notes": "Exact full UPC 75960620873900111 and owned title/edition matched to PriceCharting product 6874906. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five explicit Alex Ross regular/Cover A source-reported completed raw sales. Second printings, graded 9.8, generic variants and ambiguous titles excluded. Original eBay completion/photos not independently reverified; seller condition is not owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:117232393819",
+                "sourceUrl": "https://www.ebay.com/itm/117232393819",
+                "soldAt": "2026-08-14",
+                "value": 5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:196961983866",
+                "sourceUrl": "https://www.ebay.com/itm/196961983866",
+                "soldAt": "2026-07-13",
+                "value": 5.95,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:186499820655",
+                "sourceUrl": "https://www.ebay.com/itm/186499820655",
+                "soldAt": "2026-05-13",
+                "value": 7.19,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:166849605249",
+                "sourceUrl": "https://www.ebay.com/itm/166849605249",
+                "soldAt": "2026-04-27",
+                "value": 8.64,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:335376818652",
+                "sourceUrl": "https://www.ebay.com/itm/335376818652",
+                "soldAt": "2026-04-21",
+                "value": 7.32,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five explicit Alex Ross regular/Cover A source-reported completed raw sales. Second printings, graded 9.8, generic variants and ambiguous titles excluded. Original eBay completion/photos not independently reverified; seller condition is not owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:1447642178",
+      "revision": "71930811d063a85288362d3afb1697d5f7dfa4ec79e1651f11f4642a1c39663b",
+      "observations": [
+        {
+          "id": "morning-2026-09-20-Authority-1447642178",
+          "copyId": "Authority:1447642178",
+          "basis": "raw-reference",
+          "value": 5.21,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-ultimate-x-men/ultimate-x-men-4-2024",
+            "asOf": "2026-01-13",
+            "retrievedAt": "2026-09-20T05:48:57.846Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Ultimate X-Men",
+              "issue": "4",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "",
+              "upc": "75960620798500411",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "A",
+              "volume": "2",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-ultimate-x-men/ultimate-x-men-4-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-20T05:48:57.846Z",
+            "notes": "Exact full UPC 75960620798500411 and owned title/edition matched to PriceCharting product 6838139. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Only the two explicitly Cover A/Main Cover first-print raw titles retained; generic variants and unspecified covers excluded. Sparse stale source-reported completed sales; original eBay completion/photos not independently reverified. Seller condition is not owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:336380656836",
+                "sourceUrl": "https://www.ebay.com/itm/336380656836",
+                "soldAt": "2026-01-13",
+                "value": 4.67,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:267476195436",
+                "sourceUrl": "https://www.ebay.com/itm/267476195436",
+                "soldAt": "2026-01-04",
+                "value": 5.75,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Only the two explicitly Cover A/Main Cover first-print raw titles retained; generic variants and unspecified covers excluded. Sparse stale source-reported completed sales; original eBay completion/photos not independently reverified. Seller condition is not owned condition."
+        }
+      ]
+    }
+  ]
+}
