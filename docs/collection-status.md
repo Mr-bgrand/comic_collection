@@ -109,7 +109,9 @@ An afternoon September 20 pass added 25 raw-copy references across 19 editions (
 mostly in Bin 15; see the [afternoon research](valuation-afternoon-2026-09-20.md).
 An evening September 20 pass added 31 raw-copy references across 22 editions ($161.64),
 mostly in Case 12; see the [evening research](valuation-evening-2026-09-20.md).
-248 unconditioned raw references now total $1,533.86 and remain excluded
+A night September 20 pass added 24 more Case 12 references across 21 editions ($115.32);
+see the [night research](valuation-night-2026-09-20.md).
+272 unconditioned raw references now total $1,649.18 and remain excluded
 from the recorded total. There are 107 graded values outstanding (80 comics, 27 cards),
 plus 429 raw copies awaiting condition assessment. See the
 [pilot report](valuation-pilot-2026-09-13.md) for sources, dates and remaining gaps.
