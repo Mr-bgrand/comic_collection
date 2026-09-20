@@ -1,4 +1,4 @@
-# Collection status - September 19, 2026 (UTC)
+# Collection status - September 20, 2026 (UTC)
 
 This is a snapshot of the stored inventory, not a new appraisal or a fresh grader lookup.
 
@@ -58,8 +58,8 @@ were moved from the unassigned group; no duplicate copies were created. See the
 | Group | Recorded total | Valued | No value yet |
 | --- | ---: | ---: | ---: |
 | Comics | $14,116.92 | 187 | 509 |
-| Cards | $20,421.47 | 209 | 28 |
-| All | $34,538.39 | 396 | 537 |
+| Cards | $20,435.35 | 210 | 27 |
+| All | $34,552.27 | 397 | 536 |
 
 45 PSA Vault estimates have no source date. Printing/building does not update
 market prices. TAG's explicit value or owner estimate takes precedence; otherwise
@@ -97,8 +97,10 @@ An evening September 19 pass added two starred CGC card estimates ($64.55) and
 A night September 19 pass added three starred CGC card estimates ($83.30), filled
 Weepinbell's missing printed card number, and added 16 raw-copy references across
 12 editions; see the [night research](valuation-night-2026-09-19.md).
-142 unconditioned raw references now total $845.98 and remain excluded
-from the recorded total. There are 108 graded values outstanding (80 comics, 28 cards),
+An early September 20 pass added a starred CGC Venusaur estimate ($13.88) and
+15 raw-copy references across 14 editions; see the [research report](valuation-dawn-2026-09-20.md).
+157 unconditioned raw references now total $915.95 and remain excluded
+from the recorded total. There are 107 graded values outstanding (80 comics, 27 cards),
 plus 429 raw copies awaiting condition assessment. See the
 [pilot report](valuation-pilot-2026-09-13.md) for sources, dates and remaining gaps.
 Inventory growth and newly valued records affect totals; these are not investment returns.

@@ -846,7 +846,117 @@
         "source": "CGC Cards",
         "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/starter-decks/934/venusaur-vmax-starter-set-sef/12674/?populationID=600817"
       },
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "dawn-2026-09-20-CGC-4135876101",
+            "copyId": "CGC:4135876101",
+            "basis": "sold-comps",
+            "value": 13.88,
+            "currency": "USD",
+            "source": {
+              "name": "Graded Card Center",
+              "url": "https://gradedcardcenter.com/en/item/f2973fe9-9b0f-4eb9-becb-1542c42e8690",
+              "asOf": "2025-06-17",
+              "retrievedAt": "2026-09-20T01:50:33.711Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2020",
+                "brand": "Venusaur VMAX Starter Set",
+                "series": "",
+                "subject": "Venusaur V",
+                "cardNumber": "001/021",
+                "variety": "Holo",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://gradedcardcenter.com/en/item/f2973fe9-9b0f-4eb9-becb-1542c42e8690",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-20T01:50:33.711Z",
+              "notes": "Original Graded Card Center listing explicitly says Collectible sold and Payment status Paid: EUR 12 on June 17, 2025, cert 4284562138, CGC 10 Gem Mint. Listing photo visually matches owned 2020 Japanese Venusaur V VMAX Starter Set sEF 001/021. Owned scan has legacy blue CGC Gem Mint 9.5; existing inventory grade 10 retained because CGC explicitly equates that legacy designation to current Gem Mint 10: https://www.cgccards.com/card-grading/grading-scale/ . This is not Pristine 10. Converted EUR 12 x 1.1568 USD/EUR = USD 13.8816, rounded 13.88, using official June 17 2025 ECB reference published https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3AC%2F2025%2F03109 . Auction fee inclusion not confirmed; shipping/tax excluded. Sole transaction UUID is actual listing identifier. Image https://cdn.gradedcardcenter.com/image/width=1000,fit=contain,format=webp,quality=65/item_recto_RIHfXXdFCFAv8jIBriUhw . PriceCharting start-deck-100 product 3671489 is a mixed/wrong catalog; its April 7 2025 eBay 388117390062 USD18 reports source-completed but original archive only said Ended, so omitted. Current USD17.49 eBay406163744254 is an ask, omitted. Two other GCC history listings are leads only, not imported. The June 5 2025 GCC listing 36f27826-3bce-4d24-a3c3-06e2798eebe4 also says Paid at EUR14, but its grading tab has the SAME cert 4284562138. Only the later June17 sale is retained to avoid overstating independent comparable depth. February listing remains unverified."
+            },
+            "saleCount": 1,
+            "range": {
+              "low": 13.88,
+              "high": 13.88,
+              "method": "min-max"
+            },
+            "transactions": [
+              {
+                "transactionId": "gcc:f2973fe9-9b0f-4eb9-becb-1542c42e8690",
+                "sourceUrl": "https://gradedcardcenter.com/en/item/f2973fe9-9b0f-4eb9-becb-1542c42e8690",
+                "soldAt": "2025-06-17",
+                "value": 13.88,
+                "identity": {
+                  "kind": "card",
+                  "year": "2020",
+                  "brand": "Venusaur VMAX Starter Set",
+                  "series": "",
+                  "subject": "Venusaur V",
+                  "cardNumber": "001/021",
+                  "variety": "Holo",
+                  "language": "Japanese",
+                  "qualifiers": "",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "labelCategory": "",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": ""
+                },
+                "grade": "10",
+                "grader": "CGC",
+                "condition": null,
+                "currency": "USD",
+                "sold": true,
+                "comparableCert": "4284562138",
+                "originalCurrency": "EUR",
+                "originalValue": 12,
+                "fx": {
+                  "usdPerEur": 1.1568,
+                  "asOf": "2025-06-17",
+                  "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3AC%2F2025%2F03109"
+                },
+                "completionEvidence": "Original auction listing: Collectible sold; Payment status Paid",
+                "buyerPremiumIncluded": null,
+                "shippingTaxIncluded": false
+              }
+            ],
+            "provisional": true,
+            "provisionalReason": "Single stale June 2025 auction; EUR amount converted at the sale-date ECB reference rate. Different holder generation and international market; fees not confirmed."
+          }
+        ],
+        "selection": {
+          "observationId": "dawn-2026-09-20-CGC-4135876101",
+          "locked": true,
+          "selectedAt": "2026-09-20T01:50:34.001Z"
+        }
+      },
       "cgc": {
         "gradeText": "GEM MINT 10",
         "lookupGrade": "9.5",
