@@ -1864,7 +1864,69 @@
         "capturedAt": "2026-09-08T00:06:41.141Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "evening-2026-09-20-Authority-0745715728",
+            "copyId": "Authority:0745715728",
+            "basis": "raw-reference",
+            "value": 5,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-ultimate-x-men/ultimate-x-men-momoko-7-2024",
+              "asOf": "2025-04-24",
+              "retrievedAt": "2026-09-20T17:52:01.769Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Ultimate X-Men",
+                "issue": "7",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Momoko Variant",
+                "upc": "75960620798500741",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "D",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-ultimate-x-men/ultimate-x-men-momoko-7-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-20T17:52:01.769Z",
+              "notes": "Exact full UPC 75960620798500741 and owned title/edition matched to PriceCharting product 7446339. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Only one unambiguously titled regular Momoko Cover D transaction; more than a year old. Source catalog also contains main Cover A and limited 600 Chibi/minimal-trade exclusives, which were excluded along with ambiguous named-artist rows. Very thin, stale reference. Original eBay photographs/completion not independently reverified. Seller condition is not owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:365147617949",
+                  "sourceUrl": "https://www.ebay.com/itm/365147617949",
+                  "soldAt": "2025-04-24",
+                  "value": 5,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Only one unambiguously titled regular Momoko Cover D transaction; more than a year old. Source catalog also contains main Cover A and limited 600 Chibi/minimal-trade exclusives, which were excluded along with ambiguous named-artist rows. Very thin, stale reference. Original eBay photographs/completion not independently reverified. Seller condition is not owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_0745715728_FRONT.jpg",
         "back": "Authority_0745715728_BACK.jpg"
@@ -3610,7 +3672,69 @@
         "capturedAt": "2026-09-08T00:07:52.323Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "evening-2026-09-20-Authority-2146527365",
+            "copyId": "Authority:2146527365",
+            "basis": "raw-reference",
+            "value": 5,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-ultimate-x-men/ultimate-x-men-momoko-7-2024",
+              "asOf": "2025-04-24",
+              "retrievedAt": "2026-09-20T17:52:01.769Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Ultimate X-Men",
+                "issue": "7",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Momoko Variant",
+                "upc": "75960620798500741",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "D",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-ultimate-x-men/ultimate-x-men-momoko-7-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-20T17:52:01.769Z",
+              "notes": "Exact full UPC 75960620798500741 and owned title/edition matched to PriceCharting product 7446339. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Only one unambiguously titled regular Momoko Cover D transaction; more than a year old. Source catalog also contains main Cover A and limited 600 Chibi/minimal-trade exclusives, which were excluded along with ambiguous named-artist rows. Very thin, stale reference. Original eBay photographs/completion not independently reverified. Seller condition is not owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:365147617949",
+                  "sourceUrl": "https://www.ebay.com/itm/365147617949",
+                  "soldAt": "2025-04-24",
+                  "value": 5,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Only one unambiguously titled regular Momoko Cover D transaction; more than a year old. Source catalog also contains main Cover A and limited 600 Chibi/minimal-trade exclusives, which were excluded along with ambiguous named-artist rows. Very thin, stale reference. Original eBay photographs/completion not independently reverified. Seller condition is not owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_2146527365_FRONT.jpg",
         "back": "Authority_2146527365_BACK.jpg"

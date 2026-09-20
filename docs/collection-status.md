@@ -107,7 +107,9 @@ including the remaining NYX, Uncle Scrooge and Ultimate variants in Bin 14; see 
 [midday research](valuation-midday-2026-09-20.md). No new graded estimate was accepted.
 An afternoon September 20 pass added 25 raw-copy references across 19 editions ($270.94),
 mostly in Bin 15; see the [afternoon research](valuation-afternoon-2026-09-20.md).
-217 unconditioned raw references now total $1,372.22 and remain excluded
+An evening September 20 pass added 31 raw-copy references across 22 editions ($161.64),
+mostly in Case 12; see the [evening research](valuation-evening-2026-09-20.md).
+248 unconditioned raw references now total $1,533.86 and remain excluded
 from the recorded total. There are 107 graded values outstanding (80 comics, 27 cards),
 plus 429 raw copies awaiting condition assessment. See the
 [pilot report](valuation-pilot-2026-09-13.md) for sources, dates and remaining gaps.
