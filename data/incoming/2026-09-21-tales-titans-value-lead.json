@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-21T01:50:33.845Z",
+  "copyId": "CGC:4424144002",
+  "status": "needs-comparable-label-verification",
+  "accepted": false,
+  "source": {
+    "name": "PriceCharting",
+    "url": "https://www.pricecharting.com/game/comic-books-tales-of-the-titans/tales-of-the-titans-1-2023"
+  },
+  "transaction": {
+    "transactionId": "ebay:305288498829",
+    "sourceUrl": "https://www.ebay.com/itm/305288498829",
+    "soldAt": "2023-12-04",
+    "value": 30,
+    "currency": "USD",
+    "sourceReportedTitle": "Tales of the Titans #1, East Side Comics \"Virgin\" Ed, CGC 9.6 2023"
+  },
+  "notes": "Matching edition and numeric grade in the source-reported sale title. Original eBay page is missing. Comparable cert, label category, page quality, autograph/restoration status and photos could not be independently verified. Stale historical lead only; no accepted value or raw reference. The other 9.6 transaction is Scott Cover A and is excluded."
+}

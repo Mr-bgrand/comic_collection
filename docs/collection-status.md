@@ -1,4 +1,4 @@
-# Collection status - September 20, 2026 (UTC)
+# Collection status - September 21, 2026 (UTC)
 
 This is a snapshot of the stored inventory, not a new appraisal or a fresh grader lookup.
 
@@ -111,7 +111,9 @@ An evening September 20 pass added 31 raw-copy references across 22 editions ($1
 mostly in Case 12; see the [evening research](valuation-evening-2026-09-20.md).
 A night September 20 pass added 24 more Case 12 references across 21 editions ($115.32);
 see the [night research](valuation-night-2026-09-20.md).
-272 unconditioned raw references now total $1,649.18 and remain excluded
+An early September 21 pass added 24 more Case 12 references across 20 editions ($141.89);
+see the [early research](valuation-early-2026-09-21.md).
+296 unconditioned raw references now total $1,791.07 and remain excluded
 from the recorded total. There are 107 graded values outstanding (80 comics, 27 cards),
 plus 429 raw copies awaiting condition assessment. See the
 [pilot report](valuation-pilot-2026-09-13.md) for sources, dates and remaining gaps.
