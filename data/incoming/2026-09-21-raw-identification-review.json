@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-21T05:49:04.916Z",
+  "edits": [
+    {
+      "copyId": "raw:15-009",
+      "revision": "5e38243ece7ecb6a34fa4157c7392d348ea17932e2c49a13ce1d4225d7178171",
+      "review": {
+        "identity": {
+          "title": "NYX",
+          "issue": "1",
+          "issueYear": "2024",
+          "publisher": "Marvel Comics",
+          "variant": "Artgerm Variant",
+          "coverCode": "C",
+          "upc": "75960620918700131"
+        },
+        "evidence": {
+          "url": "https://shop.thirdeyecomics.com/products/prh-75960620918700131-nyx-1-artgerm-variant",
+          "notes": "Manually read full UPC 75960620918700131 and NYX #1 on owner scan Raw_15-009_FRONT.jpg. Artgerm trade artwork and barcode match retailer catalog and PriceCharting product 7048797. Existing Authority copy 1787185948 independently has the same UPC and edition. This confirms the edition only; no physical condition inferred.",
+          "reviewedBy": "Owner-authorized scan and catalog review",
+          "reviewedAt": "2026-09-21T05:49:04.916Z"
+        }
+      }
+    },
+    {
+      "copyId": "raw:15-026",
+      "revision": "5e38243ece7ecb6a34fa4157c7392d348ea17932e2c49a13ce1d4225d7178171",
+      "review": {
+        "identity": {
+          "title": "Miles Morales: Spider-Man",
+          "issue": "21",
+          "issueYear": "2024",
+          "publisher": "Marvel Comics",
+          "variant": "Skottie Young Big Marvels Variant",
+          "coverCode": "B",
+          "upc": "75960620483002121"
+        },
+        "evidence": {
+          "url": "https://shop.thirdeyecomics.com/products/apr240625-miles-morales-spider-man-21-young-big-marvel-var",
+          "notes": "Manually read full UPC 75960620483002121, issue 21 / legacy 303 and Skottie Young Big Marvels artwork on owner scan Raw_15-026_FRONT.jpg. Full barcode matches retailer catalog and PriceCharting product 6838153. This confirms the edition only; no physical condition inferred.",
+          "reviewedBy": "Owner-authorized scan and catalog review",
+          "reviewedAt": "2026-09-21T05:49:04.916Z"
+        }
+      }
+    },
+    {
+      "copyId": "Authority:4485245047",
+      "revision": "c4dafa8b3de646deec985c88b3d4d718b07c24a9f7d35935bf3dbd84a2168925",
+      "review": {
+        "identity": {
+          "issueYear": "2023"
+        },
+        "evidence": {
+          "url": "https://shop.thirdeyecomics.com/products/flash-105-facsimile-edition",
+          "reviewedBy": "Owner-authorized scan and catalog review",
+          "reviewedAt": "2026-09-21T05:55:26.888Z",
+          "notes": "Owned Authority front scan explicitly says Facsimile Edition and Originally released Feb 4th, 1959. The stored full UPC 76194138216600111 matches the retailer catalog for the September 27, 2023 facsimile. Correct issueYear to the owned printing year, not the original story publication year. The original Authority label and import capture remain preserved. Condition unchanged."
+        }
+      }
+    }
+  ],
+  "scans": [
+    {
+      "copyId": "raw:15-009",
+      "image": "Raw_15-009_FRONT.jpg",
+      "sha256": "a741505c3664a516940d2907bf8ea7134a21a6e6459b63366becdc1a9652b1e4"
+    },
+    {
+      "copyId": "raw:15-026",
+      "image": "Raw_15-026_FRONT.jpg",
+      "sha256": "19befc9267c5d0e408245b5e3b734df363f14c252bfcd6a7cc803abf985d3bde"
+    },
+    {
+      "copyId": "Authority:4485245047",
+      "image": "Authority_4485245047_FRONT.jpg",
+      "sha256": "c9e6d602b7ea6d122903b763a482f86549f57e7c4df483bd11d679b8d1ef7619"
+    }
+  ]
+}

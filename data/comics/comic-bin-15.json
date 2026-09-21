@@ -5779,11 +5779,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "NYX",
+      "issue": "1",
+      "variant": "Artgerm Variant",
+      "publisher": "Marvel Comics",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -5797,7 +5797,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "NYX",
@@ -5808,10 +5808,161 @@
             "source": "hash",
             "note": "Hash match (distance 8) to your Authority sleeve 1787185948, NYX #1 Artgerm"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-21T05:49:04.916Z",
+        "sourceUrl": "https://shop.thirdeyecomics.com/products/prh-75960620918700131-nyx-1-artgerm-variant"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "NYX",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Artgerm Variant",
+                "upc": "75960620918700131",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://shop.thirdeyecomics.com/products/prh-75960620918700131-nyx-1-artgerm-variant",
+              "notes": "Manually read full UPC 75960620918700131 and NYX #1 on owner scan Raw_15-009_FRONT.jpg. Artgerm trade artwork and barcode match retailer catalog and PriceCharting product 7048797. Existing Authority copy 1787185948 independently has the same UPC and edition. This confirms the edition only; no physical condition inferred.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-21T05:49:04.916Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-21T05:49:05.013Z",
+        "observations": [
+          {
+            "id": "morning-2026-09-21-raw-15-009",
+            "copyId": "raw:15-009",
+            "basis": "raw-reference",
+            "value": 4.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-nyx/nyx-artgerm-1-2024",
+              "asOf": "2026-09-02",
+              "retrievedAt": "2026-09-21T05:55:37.012Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "NYX",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Artgerm Variant",
+                "upc": "75960620918700131",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-nyx/nyx-artgerm-1-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-21T05:55:37.012Z",
+              "notes": "Exact full UPC 75960620918700131 and owned title/edition matched to PriceCharting product 7048797. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Latest five matching Artgerm trade-cover raw sales freshly rechecked; same comparison sample as the existing Authority copy. VF through NM comparison conditions are not owned condition. Virgin and later printings excluded. Original eBay photos/completion not independently reverified.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:327324353848",
+                  "sourceUrl": "https://www.ebay.com/itm/327324353848",
+                  "soldAt": "2026-09-02",
+                  "value": 5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:177379166781",
+                  "sourceUrl": "https://www.ebay.com/itm/177379166781",
+                  "soldAt": "2026-08-16",
+                  "value": 4.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:267745735362",
+                  "sourceUrl": "https://www.ebay.com/itm/267745735362",
+                  "soldAt": "2026-08-09",
+                  "value": 2,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:365047616618",
+                  "sourceUrl": "https://www.ebay.com/itm/365047616618",
+                  "soldAt": "2026-07-20",
+                  "value": 7,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:267616957633",
+                  "sourceUrl": "https://www.ebay.com/itm/267616957633",
+                  "soldAt": "2026-06-25",
+                  "value": 2.95,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Latest five matching Artgerm trade-cover raw sales freshly rechecked; same comparison sample as the existing Authority copy. VF through NM comparison conditions are not owned condition. Virgin and later printings excluded. Original eBay photos/completion not independently reverified."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-009_FRONT.jpg"
       },
@@ -5832,7 +5983,9 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:07:09.818Z"
-      }
+      },
+      "coverCode": "C",
+      "upc": "75960620918700131"
     },
     {
       "id": "raw:15-010",
@@ -6573,11 +6726,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Miles Morales: Spider-Man",
+      "issue": "21",
+      "variant": "Skottie Young Big Marvels Variant",
+      "publisher": "Marvel Comics",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -6591,7 +6744,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Miles Morales: Spider-Man",
@@ -6601,10 +6754,189 @@
             "confidence": "high",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-21T05:49:04.916Z",
+        "sourceUrl": "https://shop.thirdeyecomics.com/products/apr240625-miles-morales-spider-man-21-young-big-marvel-var"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Miles Morales: Spider-Man",
+                "issue": "21",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Skottie Young Big Marvels Variant",
+                "upc": "75960620483002121",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://shop.thirdeyecomics.com/products/apr240625-miles-morales-spider-man-21-young-big-marvel-var",
+              "notes": "Manually read full UPC 75960620483002121, issue 21 / legacy 303 and Skottie Young Big Marvels artwork on owner scan Raw_15-026_FRONT.jpg. Full barcode matches retailer catalog and PriceCharting product 6838153. This confirms the edition only; no physical condition inferred.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-21T05:49:04.916Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-21T05:49:05.013Z",
+        "observations": [
+          {
+            "id": "morning-2026-09-21-raw-15-026",
+            "copyId": "raw:15-026",
+            "basis": "raw-reference",
+            "value": 4.88,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-young-21-2024",
+              "asOf": "2026-07-23",
+              "retrievedAt": "2026-09-21T05:55:37.012Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Miles Morales: Spider-Man",
+                "issue": "21",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Skottie Young Big Marvels Variant",
+                "upc": "75960620483002121",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-young-21-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-21T05:55:37.012Z",
+              "notes": "Exact full UPC 75960620483002121 and owned title/edition matched to PriceCharting product 6838153. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Nine most recent matching Skottie Young Big Marvels raw sales, all in 2026. Original eBay photos/completion not independently reverified. Seller condition is not owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:236399740679",
+                  "sourceUrl": "https://www.ebay.com/itm/236399740679",
+                  "soldAt": "2026-07-23",
+                  "value": 5.76,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:277695013360",
+                  "sourceUrl": "https://www.ebay.com/itm/277695013360",
+                  "soldAt": "2026-05-28",
+                  "value": 5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:298298370189",
+                  "sourceUrl": "https://www.ebay.com/itm/298298370189",
+                  "soldAt": "2026-05-17",
+                  "value": 2.25,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:126984195889",
+                  "sourceUrl": "https://www.ebay.com/itm/126984195889",
+                  "soldAt": "2026-05-16",
+                  "value": 5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:196835305255",
+                  "sourceUrl": "https://www.ebay.com/itm/196835305255",
+                  "soldAt": "2026-05-12",
+                  "value": 3.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:157665725767",
+                  "sourceUrl": "https://www.ebay.com/itm/157665725767",
+                  "soldAt": "2026-04-29",
+                  "value": 4.88,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:296481219345",
+                  "sourceUrl": "https://www.ebay.com/itm/296481219345",
+                  "soldAt": "2026-04-13",
+                  "value": 3.75,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:127726377265",
+                  "sourceUrl": "https://www.ebay.com/itm/127726377265",
+                  "soldAt": "2026-03-15",
+                  "value": 1.84,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:375830770274",
+                  "sourceUrl": "https://www.ebay.com/itm/375830770274",
+                  "soldAt": "2026-02-20",
+                  "value": 7.3,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Nine most recent matching Skottie Young Big Marvels raw sales, all in 2026. Original eBay photos/completion not independently reverified. Seller condition is not owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-026_FRONT.jpg"
       },
@@ -6625,7 +6957,9 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:27:01.278Z"
-      }
+      },
+      "coverCode": "B",
+      "upc": "75960620483002121"
     },
     {
       "id": "raw:15-027",

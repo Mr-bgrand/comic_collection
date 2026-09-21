@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-09-21T06:00:05.411Z",
+  "status": "research-only",
+  "accepted": false,
+  "items": [
+    {
+      "copyId": "CGC:4177706002",
+      "sourceUrl": "https://www.pricecharting.com/game/comic-books-do-you-pooh/do-you-pooh-spawn-1-2022",
+      "outcome": "Excluded green-prism /100 $150 2023 sale. Owned front scan confirms Desjardins Green Crystal 9/10 edition, not Spawn homage."
+    },
+    {
+      "copyId": "CGC:4424144001",
+      "sourceUrl": "https://comicbookrealm.com/cgc-analyzer/comic/id/342019/marvel-comics-spectacular-spider-men-1",
+      "outcome": "No CGC 9.6 sale/value displayed. CGC 9.8 and signed/2012 Spider-Men results excluded."
+    },
+    {
+      "copyId": "CGC:4245413002",
+      "sourceUrl": "https://comicbookrealm.com/cgc-analyzer/comic/id/305058/marvel-comics-spider-gwen-shadow-clones-1b-variant-edition",
+      "outcome": "No CGC 9.0 sale/value; numeric grades 9.4/9.6/9.8 excluded."
+    },
+    {
+      "copyId": "CGC:4198680009",
+      "sourceUrl": "https://www.pricecharting.com/es/game/comic-books-spider-man/spider-man-cassaday-4-2023",
+      "outcome": "No CGC 9.4 sale/value. Raw seller 9.4 and different Non-Stop series excluded."
+    },
+    {
+      "copyId": "CGC:4480290002",
+      "query": "\"Disputed\" \"1\" \"Tao\" \"9.8\"",
+      "outcome": "Search hits mixed issue 3 and other editions; exact paid evidence not established."
+    },
+    {
+      "copyId": "TAG:H5738313",
+      "sourceUrl": "https://cardexr.com/card/sv9a-ethan-s-ho-oh-20-063",
+      "outcome": "US and UK markets show no PSA 9 price/history. PSA population and raw prices are not same-grade comps."
+    },
+    {
+      "copyId": "TAG:D6943986",
+      "sourceUrl": "https://www.pokevalues.com/card/origin-forme-palkia-vstar-astral-radiance-040",
+      "outcome": "No grade 7 paid comparison/value. LastSold search lead pools PSA 7 and lower; not accepted."
+    },
+    {
+      "copyId": "PSA:121297947",
+      "query": "\"Pikachu\" \"173\" \"Japanese\" \"PSA 6\"",
+      "outcome": "No exact paid comparison established; English or other-grade results excluded."
+    }
+  ]
+}
