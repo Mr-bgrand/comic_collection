@@ -1,0 +1,529 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "raw:15-062",
+      "revision": "e165cebb8c28a813dd2a707ae74b90f336bc13164b974dc2a9a70a1754922f9f",
+      "observations": [
+        {
+          "id": "evening-2026-09-21-raw-15-062",
+          "copyId": "raw:15-062",
+          "basis": "raw-reference",
+          "value": 36.86,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-tales-of-the-titans/tales-of-the-titans-wajid-1-2023",
+            "asOf": "2026-07-31",
+            "retrievedAt": "2026-09-21T21:42:13.689Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Tales of the Titans",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "DC Comics",
+              "variant": "Fatima Wajid 1:50 Cardstock Variant",
+              "upc": "76194138148000141",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-tales-of-the-titans/tales-of-the-titans-wajid-1-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-21T21:42:13.689Z",
+            "notes": "Exact full UPC 76194138148000141 and owned title/edition matched to PriceCharting product 5490931. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Six matching Wajid raw comparisons within a year. Older rows excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:168522891860",
+                "sourceUrl": "https://www.ebay.com/itm/168522891860",
+                "soldAt": "2026-07-31",
+                "value": 33.71,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:204445745479",
+                "sourceUrl": "https://www.ebay.com/itm/204445745479",
+                "soldAt": "2026-06-21",
+                "value": 44.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:266355857240",
+                "sourceUrl": "https://www.ebay.com/itm/266355857240",
+                "soldAt": "2026-05-22",
+                "value": 44.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:127665912163",
+                "sourceUrl": "https://www.ebay.com/itm/127665912163",
+                "soldAt": "2026-02-15",
+                "value": 6.85,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:406354613193",
+                "sourceUrl": "https://www.ebay.com/itm/406354613193",
+                "soldAt": "2025-12-24",
+                "value": 40,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:286528346890",
+                "sourceUrl": "https://www.ebay.com/itm/286528346890",
+                "soldAt": "2025-11-13",
+                "value": 17,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Six matching Wajid raw comparisons within a year. Older rows excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-072",
+      "revision": "e165cebb8c28a813dd2a707ae74b90f336bc13164b974dc2a9a70a1754922f9f",
+      "observations": [
+        {
+          "id": "evening-2026-09-21-raw-15-072",
+          "copyId": "raw:15-072",
+          "basis": "raw-reference",
+          "value": 2.86,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-free-comic-book-day/spider-man-venom-1-2022",
+            "asOf": "2026-07-19",
+            "retrievedAt": "2026-09-21T21:42:13.689Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Free Comic Book Day: Spider-Man / Venom",
+              "issue": "1",
+              "issueYear": "2022",
+              "publisher": "Marvel Comics",
+              "variant": "John Romita Jr. Cover A",
+              "upc": "75960620375800111",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-free-comic-book-day/spider-man-venom-1-2022",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-21T21:42:13.689Z",
+            "notes": "Exact full UPC 75960620375800111 and owned title/edition matched to PriceCharting product 3458510. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Six matching FCBD 2022 raw comparisons within a year. Older rows excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:358229687795",
+                "sourceUrl": "https://www.ebay.com/itm/358229687795",
+                "soldAt": "2026-07-19",
+                "value": 6.5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:277332683854",
+                "sourceUrl": "https://www.ebay.com/itm/277332683854",
+                "soldAt": "2026-05-06",
+                "value": 4.49,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:287078127489",
+                "sourceUrl": "https://www.ebay.com/itm/287078127489",
+                "soldAt": "2026-01-26",
+                "value": 0.5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:385628210255",
+                "sourceUrl": "https://www.ebay.com/itm/385628210255",
+                "soldAt": "2026-01-22",
+                "value": 1.23,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:126440555166",
+                "sourceUrl": "https://www.ebay.com/itm/126440555166",
+                "soldAt": "2026-01-08",
+                "value": 8.22,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:116919853002",
+                "sourceUrl": "https://www.ebay.com/itm/116919853002",
+                "soldAt": "2025-12-18",
+                "value": 0.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Six matching FCBD 2022 raw comparisons within a year. Older rows excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-073",
+      "revision": "e165cebb8c28a813dd2a707ae74b90f336bc13164b974dc2a9a70a1754922f9f",
+      "observations": [
+        {
+          "id": "evening-2026-09-21-raw-15-073",
+          "copyId": "raw:15-073",
+          "basis": "raw-reference",
+          "value": 3.25,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-bachalo-4-2023",
+            "asOf": "2026-08-16",
+            "retrievedAt": "2026-09-21T21:42:13.689Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Miles Morales: Spider-Man",
+              "issue": "4",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "Chris Bachalo Variant",
+              "upc": "75960620483000451",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-bachalo-4-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-21T21:42:13.689Z",
+            "notes": "Exact full UPC 75960620483000451 and owned title/edition matched to PriceCharting product 4895056. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Seven matching Bachalo raw comparisons within a year; older rows excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:155478047190",
+                "sourceUrl": "https://www.ebay.com/itm/155478047190",
+                "soldAt": "2026-08-16",
+                "value": 3.29,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:275748433790",
+                "sourceUrl": "https://www.ebay.com/itm/275748433790",
+                "soldAt": "2026-07-27",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:205308023665",
+                "sourceUrl": "https://www.ebay.com/itm/205308023665",
+                "soldAt": "2026-05-11",
+                "value": 2.39,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:256143597171",
+                "sourceUrl": "https://www.ebay.com/itm/256143597171",
+                "soldAt": "2026-04-30",
+                "value": 4.19,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:296471166976",
+                "sourceUrl": "https://www.ebay.com/itm/296471166976",
+                "soldAt": "2026-01-09",
+                "value": 2.75,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:177632011855",
+                "sourceUrl": "https://www.ebay.com/itm/177632011855",
+                "soldAt": "2025-12-08",
+                "value": 3.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:187663293607",
+                "sourceUrl": "https://www.ebay.com/itm/187663293607",
+                "soldAt": "2025-10-26",
+                "value": 1,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Seven matching Bachalo raw comparisons within a year; older rows excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-076",
+      "revision": "e165cebb8c28a813dd2a707ae74b90f336bc13164b974dc2a9a70a1754922f9f",
+      "observations": [
+        {
+          "id": "evening-2026-09-21-raw-15-076",
+          "copyId": "raw:15-076",
+          "basis": "raw-reference",
+          "value": 6,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-1-2022",
+            "asOf": "2026-08-05",
+            "retrievedAt": "2026-09-21T21:42:13.689Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "The Amazing Spider-Man",
+              "issue": "1",
+              "issueYear": "2022",
+              "publisher": "Marvel Comics",
+              "variant": "John Romita Jr. Cover A",
+              "upc": "75960620200300111",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-1-2022",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-21T21:42:13.689Z",
+            "notes": "Exact full UPC 75960620200300111 and owned title/edition matched to PriceCharting product 5082715. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Two explicitly identified regular Romita Jr cover / LGY 895 raw comparisons. Mixed-page variants and ambiguous rows excluded. Thin history. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:358563253739",
+                "sourceUrl": "https://www.ebay.com/itm/358563253739",
+                "soldAt": "2026-08-05",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:397505452176",
+                "sourceUrl": "https://www.ebay.com/itm/397505452176",
+                "soldAt": "2026-07-30",
+                "value": 7,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Two explicitly identified regular Romita Jr cover / LGY 895 raw comparisons. Mixed-page variants and ambiguous rows excluded. Thin history. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-079",
+      "revision": "e165cebb8c28a813dd2a707ae74b90f336bc13164b974dc2a9a70a1754922f9f",
+      "observations": [
+        {
+          "id": "evening-2026-09-21-raw-15-079",
+          "copyId": "raw:15-079",
+          "basis": "raw-reference",
+          "value": 1.41,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-spider-man/spider-man-cassaday-4-2023",
+            "asOf": "2025-12-30",
+            "retrievedAt": "2026-09-21T21:42:13.689Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Spider-Man",
+              "issue": "4",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "John Cassaday Classic Homage Variant",
+              "upc": "75960620327700421",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-spider-man/spider-man-cassaday-4-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-21T21:42:13.689Z",
+            "notes": "Exact full UPC 75960620327700421 and owned title/edition matched to PriceCharting product 4557931. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Only one matching Cassaday raw sale reported within a year; thin history. Earlier rows excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:136788512145",
+                "sourceUrl": "https://www.ebay.com/itm/136788512145",
+                "soldAt": "2025-12-30",
+                "value": 1.41,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Only one matching Cassaday raw sale reported within a year; thin history. Earlier rows excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-080",
+      "revision": "e165cebb8c28a813dd2a707ae74b90f336bc13164b974dc2a9a70a1754922f9f",
+      "observations": [
+        {
+          "id": "evening-2026-09-21-raw-15-080",
+          "copyId": "raw:15-080",
+          "basis": "raw-reference",
+          "value": 3.33,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-spider-man-reign-2/spider-man-reign-2-1-2024",
+            "asOf": "2026-08-14",
+            "retrievedAt": "2026-09-21T21:42:13.689Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Spider-Man: Reign 2",
+              "issue": "1",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Kaare Andrews Cover A",
+              "upc": "75960620394900111",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-spider-man-reign-2/spider-man-reign-2-1-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-21T21:42:13.689Z",
+            "notes": "Exact full UPC 75960620394900111 and owned title/edition matched to PriceCharting product 6943121. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Four explicitly identified Cover A/main-cover raw comparisons within a year. SDCC black-and-white, Leirix 1:25, second-print and ambiguous cover rows excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:335420522214",
+                "sourceUrl": "https://www.ebay.com/itm/335420522214",
+                "soldAt": "2026-08-14",
+                "value": 4.66,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:327176129737",
+                "sourceUrl": "https://www.ebay.com/itm/327176129737",
+                "soldAt": "2026-05-31",
+                "value": 1.44,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:226473428037",
+                "sourceUrl": "https://www.ebay.com/itm/226473428037",
+                "soldAt": "2026-02-24",
+                "value": 4.4,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:297922234442",
+                "sourceUrl": "https://www.ebay.com/itm/297922234442",
+                "soldAt": "2026-01-19",
+                "value": 2.25,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Four explicitly identified Cover A/main-cover raw comparisons within a year. SDCC black-and-white, Leirix 1:25, second-print and ambiguous cover rows excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+        }
+      ]
+    }
+  ]
+}

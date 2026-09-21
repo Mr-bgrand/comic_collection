@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-09-21T21:43:58.606Z",
+  "sourceRowAudit": {
+    "sets": 6,
+    "rows": 26,
+    "normalizedBrowserCaptureLength": 1881,
+    "fnv1a": 1491034216
+  },
+  "coverage": "Live rendered PriceCharting sale tables and SportsCardsPro grade counts; direct eBay listing content, Fanatics Collect sale/listing search results, and retailer/publisher catalogs. GoCollect searched for identity/graded leads, but no new paid GoCollect archive review. No fresh Heritage, ComicLink, MyComicShop auction or ComicBookRealm review in this batch.",
+  "rawReferences": [
+    {
+      "upc": "76194138148000141",
+      "productId": "5490931",
+      "url": "https://www.pricecharting.com/game/comic-books-tales-of-the-titans/tales-of-the-titans-wajid-1-2023",
+      "sales": [
+        [
+          "168522891860",
+          "2026-07-31",
+          33.71
+        ],
+        [
+          "204445745479",
+          "2026-06-21",
+          44.99
+        ],
+        [
+          "266355857240",
+          "2026-05-22",
+          44.99
+        ],
+        [
+          "127665912163",
+          "2026-02-15",
+          6.85
+        ],
+        [
+          "406354613193",
+          "2025-12-24",
+          40
+        ],
+        [
+          "286528346890",
+          "2025-11-13",
+          17
+        ]
+      ],
+      "caveat": "Six matching Wajid raw comparisons within a year. Older rows excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:186869702424",
+          "url": "https://www.ebay.com/itm/186869702424",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:177386300013",
+          "url": "https://www.ebay.com/itm/177386300013",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:325738754584",
+          "url": "https://www.ebay.com/itm/325738754584",
+          "reason": "Older than one year."
+        }
+      ]
+    },
+    {
+      "upc": "75960620375800111",
+      "productId": "3458510",
+      "url": "https://www.pricecharting.com/game/comic-books-free-comic-book-day/spider-man-venom-1-2022",
+      "sales": [
+        [
+          "358229687795",
+          "2026-07-19",
+          6.5
+        ],
+        [
+          "277332683854",
+          "2026-05-06",
+          4.49
+        ],
+        [
+          "287078127489",
+          "2026-01-26",
+          0.5
+        ],
+        [
+          "385628210255",
+          "2026-01-22",
+          1.23
+        ],
+        [
+          "126440555166",
+          "2026-01-08",
+          8.22
+        ],
+        [
+          "116919853002",
+          "2025-12-18",
+          0.99
+        ]
+      ],
+      "caveat": "Six matching FCBD 2022 raw comparisons within a year. Older rows excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:257059621369",
+          "url": "https://www.ebay.com/itm/257059621369",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:405912113827",
+          "url": "https://www.ebay.com/itm/405912113827",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:388402953508",
+          "url": "https://www.ebay.com/itm/388402953508",
+          "reason": "Older than one year."
+        }
+      ]
+    },
+    {
+      "upc": "75960620483000451",
+      "productId": "4895056",
+      "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-bachalo-4-2023",
+      "sales": [
+        [
+          "155478047190",
+          "2026-08-16",
+          3.29
+        ],
+        [
+          "275748433790",
+          "2026-07-27",
+          3.99
+        ],
+        [
+          "205308023665",
+          "2026-05-11",
+          2.39
+        ],
+        [
+          "256143597171",
+          "2026-04-30",
+          4.19
+        ],
+        [
+          "296471166976",
+          "2026-01-09",
+          2.75
+        ],
+        [
+          "177632011855",
+          "2025-12-08",
+          3.25
+        ],
+        [
+          "187663293607",
+          "2025-10-26",
+          1
+        ]
+      ],
+      "caveat": "Seven matching Bachalo raw comparisons within a year; older rows excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:236298944475",
+          "url": "https://www.ebay.com/itm/236298944475",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:236073013953",
+          "url": "https://www.ebay.com/itm/236073013953",
+          "reason": "Older than one year."
+        }
+      ]
+    },
+    {
+      "upc": "75960620200300111",
+      "productId": "5082715",
+      "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-1-2022",
+      "sales": [
+        [
+          "358563253739",
+          "2026-08-05",
+          4.99
+        ],
+        [
+          "397505452176",
+          "2026-07-30",
+          7
+        ]
+      ],
+      "caveat": "Two explicitly identified regular Romita Jr cover / LGY 895 raw comparisons. Mixed-page variants and ambiguous rows excluded. Thin history. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:318846731048",
+          "url": "https://www.ebay.com/itm/318846731048",
+          "reason": "Derrick Chew variant."
+        },
+        {
+          "transactionId": "ebay:206529732183",
+          "url": "https://www.ebay.com/itm/206529732183",
+          "reason": "Ambiguous Romita variant."
+        },
+        {
+          "transactionId": "ebay:188788684976",
+          "url": "https://www.ebay.com/itm/188788684976",
+          "reason": "Ambiguous cover/format."
+        },
+        {
+          "transactionId": "ebay:407173998821",
+          "url": "https://www.ebay.com/itm/407173998821",
+          "reason": "Marcus To variant."
+        },
+        {
+          "transactionId": "ebay:336759637597",
+          "url": "https://www.ebay.com/itm/336759637597",
+          "reason": "Gleason Webhead variant."
+        },
+        {
+          "transactionId": "ebay:307131867323",
+          "url": "https://www.ebay.com/itm/307131867323",
+          "reason": "Trick or Read edition."
+        },
+        {
+          "transactionId": "ebay:237011835584",
+          "url": "https://www.ebay.com/itm/237011835584",
+          "reason": "Gleason Webhead variant."
+        },
+        {
+          "transactionId": "ebay:206496563558",
+          "url": "https://www.ebay.com/itm/206496563558",
+          "reason": "Hardcover compilation."
+        },
+        {
+          "transactionId": "ebay:336735496993",
+          "url": "https://www.ebay.com/itm/336735496993",
+          "reason": "Gleason Webhead variant."
+        },
+        {
+          "transactionId": "ebay:357995256973",
+          "url": "https://www.ebay.com/itm/357995256973",
+          "reason": "Ambiguous cover/format."
+        }
+      ]
+    },
+    {
+      "upc": "75960620327700421",
+      "productId": "4557931",
+      "url": "https://www.pricecharting.com/game/comic-books-spider-man/spider-man-cassaday-4-2023",
+      "sales": [
+        [
+          "136788512145",
+          "2025-12-30",
+          1.41
+        ]
+      ],
+      "caveat": "Only one matching Cassaday raw sale reported within a year; thin history. Earlier rows excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:135274662483",
+          "url": "https://www.ebay.com/itm/135274662483",
+          "reason": "Older 2024 sale."
+        },
+        {
+          "transactionId": "ebay:304782584474",
+          "url": "https://www.ebay.com/itm/304782584474",
+          "reason": "Older 2024 sale."
+        },
+        {
+          "transactionId": "ebay:115973293876",
+          "url": "https://www.ebay.com/itm/115973293876",
+          "reason": "Older 2023 sale."
+        },
+        {
+          "transactionId": "ebay:266487274370",
+          "url": "https://www.ebay.com/itm/266487274370",
+          "reason": "Older 2023 sale."
+        },
+        {
+          "transactionId": "ebay:225748662571",
+          "url": "https://www.ebay.com/itm/225748662571",
+          "reason": "Older 2023 sale."
+        },
+        {
+          "transactionId": "ebay:134711582860",
+          "url": "https://www.ebay.com/itm/134711582860",
+          "reason": "Older 2023 sale."
+        },
+        {
+          "transactionId": "ebay:134676049221",
+          "url": "https://www.ebay.com/itm/134676049221",
+          "reason": "Older 2023 sale."
+        },
+        {
+          "transactionId": "ebay:256154453976",
+          "url": "https://www.ebay.com/itm/256154453976",
+          "reason": "Older 2023 sale."
+        }
+      ]
+    },
+    {
+      "upc": "75960620394900111",
+      "productId": "6943121",
+      "url": "https://www.pricecharting.com/game/comic-books-spider-man-reign-2/spider-man-reign-2-1-2024",
+      "sales": [
+        [
+          "335420522214",
+          "2026-08-14",
+          4.66
+        ],
+        [
+          "327176129737",
+          "2026-05-31",
+          1.44
+        ],
+        [
+          "226473428037",
+          "2026-02-24",
+          4.4
+        ],
+        [
+          "297922234442",
+          "2026-01-19",
+          2.25
+        ]
+      ],
+      "caveat": "Four explicitly identified Cover A/main-cover raw comparisons within a year. SDCC black-and-white, Leirix 1:25, second-print and ambiguous cover rows excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:405335267451",
+          "url": "https://www.ebay.com/itm/405335267451",
+          "reason": "SDCC black-and-white variant."
+        },
+        {
+          "transactionId": "ebay:127888870954",
+          "url": "https://www.ebay.com/itm/127888870954",
+          "reason": "Leirix 1:25 variant."
+        },
+        {
+          "transactionId": "ebay:197892630549",
+          "url": "https://www.ebay.com/itm/197892630549",
+          "reason": "Second printing."
+        },
+        {
+          "transactionId": "ebay:305623250173",
+          "url": "https://www.ebay.com/itm/305623250173",
+          "reason": "Cover unspecified on contaminated catalog page."
+        },
+        {
+          "transactionId": "ebay:204866150246",
+          "url": "https://www.ebay.com/itm/204866150246",
+          "reason": "Cover unspecified on contaminated catalog page."
+        },
+        {
+          "transactionId": "ebay:336452377154",
+          "url": "https://www.ebay.com/itm/336452377154",
+          "reason": "Cover unspecified on contaminated catalog page."
+        },
+        {
+          "transactionId": "ebay:336489084657",
+          "url": "https://www.ebay.com/itm/336489084657",
+          "reason": "Cover unspecified on contaminated catalog page."
+        }
+      ]
+    }
+  ],
+  "gradedSearches": [
+    {
+      "copyId": "CGC:4386585001",
+      "item": "The Cull #1 Shrike Variant (2023), CGC 9.8",
+      "reason": "Exact PriceCharting product 5639836 has zero 9.8 sold listings in the live rendered grade selector. Its modeled 9.8 figure is not an observed sale. Search results offered raw Shrike copies; no matching paid CGC 9.8 transaction established.",
+      "urls": [
+        "https://www.pricecharting.com/game/comic-books-the-cull/the-cull-shrike-1-2023"
+      ]
+    },
+    {
+      "copyId": "TAG:L4878840",
+      "item": "Henry Davis BDC-48, 2021 Bowman Draft Sapphire Yellow /99, TAG 10",
+      "reason": "Exact SportsCardsPro product 3181446 has zero TAG 10 and zero PSA 10 sold listings. The Fanatics listing is PSA 9, and Yellow Lava /75 is a different parallel; neither supports this same-grade fallback.",
+      "urls": [
+        "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-sapphire/henry-davis-yellow-bdc-48",
+        "https://www.fanaticscollect.com/buy-now/e715d1c4-27bc-43f6-90da-2c58d2a4146e",
+        "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-chrome/henry-davis-yellow-lava-refractor-bdc-48"
+      ]
+    },
+    {
+      "copyId": "PSA:114218231",
+      "item": "Trey Benson RMITBN, 2024 Panini Obsidian Rookie Materials Ink, PSA 9",
+      "reason": "eBay 397501105832 is an active $189 asking price for the Green /5 parallel (cert 114417887), not a completed same-edition sale. Searches also returned Black Color Blast and Rookie Eruption Materials, which are different inserts.",
+      "urls": [
+        "https://www.ebay.com/itm/397501105832"
+      ]
+    },
+    {
+      "copyId": "PSA:121297944",
+      "item": "Will Johnson #183, 2024 Bowman University Chrome Sapphire Orange /25, PSA 10",
+      "reason": "eBay 146545741673 is an active $139 asking price. Fanatics sold archive result is a 2023 PA-WIL autograph ($240 including premium, August 26, 2024), not the owned 2024 non-autograph #183. Neither accepted.",
+      "urls": [
+        "https://www.ebay.com/itm/146545741673",
+        "https://www.fanaticscollect.com/weekly/a979dcf6-4ab9-11ef-923a-0a58a9feac02/2023-bowman-u-chrome-sapphire-orange-will-johnson-rookie-auto-25-pa-wil-psa-10"
+      ]
+    }
+  ],
+  "unresolvedScans": [
+    {
+      "ids": [
+        "raw:15-060"
+      ],
+      "reason": "Taylor Swift Deferdini homage cover; exact regular/foil/metal finish not established."
+    },
+    {
+      "ids": [
+        "raw:15-063",
+        "raw:15-064",
+        "raw:15-065",
+        "raw:15-066",
+        "raw:15-067"
+      ],
+      "reason": "Spawn #350 variants; no readable front UPC. Match exact cover edition and printing before pricing."
+    },
+    {
+      "ids": [
+        "raw:15-068",
+        "raw:15-069",
+        "raw:15-071",
+        "raw:15-074",
+        "raw:15-075",
+        "raw:15-077",
+        "raw:15-078",
+        "raw:15-081",
+        "raw:15-082",
+        "raw:15-083"
+      ],
+      "reason": "Front scans inspected; no usable full UPC and exact edition unresolved. Includes Space Ghost, Moon Man, Disney homage, Campbell exclusives, Stormbreakers, Sports Almanac foil and Momoko cover leads; these are not confirmed identities."
+    }
+  ],
+  "next": "Continue unreviewed owner scans from 15-084 onward, then resolve specialty editions. Seek new exact graded auction evidence; do not repeat these excluded results without new evidence."
+}
