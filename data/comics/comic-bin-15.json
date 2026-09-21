@@ -8958,11 +8958,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Captain America",
+      "issue": "10",
+      "variant": "Skottie Young Big Marvels Variant",
+      "publisher": "Marvel Comics",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -8976,7 +8976,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Captain America",
@@ -8986,10 +8986,182 @@
             "confidence": "high",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-21T13:53:40.760Z",
+        "sourceUrl": "https://www.marvel.com/comics/issue/116697/captain_america_2023_10_variant/variant"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Captain America",
+                "issue": "10",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Skottie Young Big Marvels Variant",
+                "upc": "75960620740401021",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://www.marvel.com/comics/issue/116697/captain_america_2023_10_variant/variant",
+              "notes": "Manually read issue and full UPC 75960620740401021 on owner scan Raw_15-044_FRONT.jpg; matched cover and exact barcode to catalog. Identity review only; no physical condition inferred.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-21T13:53:40.760Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-21T13:53:40.862Z",
+        "observations": [
+          {
+            "id": "afternoon-2026-09-21-raw-15-044",
+            "copyId": "raw:15-044",
+            "basis": "raw-reference",
+            "value": 5,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-captain-america/captain-america-young-10-2024",
+              "asOf": "2026-08-17",
+              "retrievedAt": "2026-09-21T13:53:50.291Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Captain America",
+                "issue": "10",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Skottie Young Big Marvels Variant",
+                "upc": "75960620740401021",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-captain-america/captain-america-young-10-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-21T13:53:50.291Z",
+              "notes": "Exact full UPC 75960620740401021 and owned title/edition matched to PriceCharting product 6874850. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Eight matching 2026 color-trade rows; conflicting-year row excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:166869356205",
+                  "sourceUrl": "https://www.ebay.com/itm/166869356205",
+                  "soldAt": "2026-08-17",
+                  "value": 5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:117085872321",
+                  "sourceUrl": "https://www.ebay.com/itm/117085872321",
+                  "soldAt": "2026-08-02",
+                  "value": 5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:405217052030",
+                  "sourceUrl": "https://www.ebay.com/itm/405217052030",
+                  "soldAt": "2026-07-25",
+                  "value": 6.73,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:127739643114",
+                  "sourceUrl": "https://www.ebay.com/itm/127739643114",
+                  "soldAt": "2026-07-02",
+                  "value": 5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:236655982504",
+                  "sourceUrl": "https://www.ebay.com/itm/236655982504",
+                  "soldAt": "2026-06-18",
+                  "value": 4.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:306047003555",
+                  "sourceUrl": "https://www.ebay.com/itm/306047003555",
+                  "soldAt": "2026-04-26",
+                  "value": 4.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:157616760436",
+                  "sourceUrl": "https://www.ebay.com/itm/157616760436",
+                  "soldAt": "2026-03-21",
+                  "value": 3.14,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:387163672891",
+                  "sourceUrl": "https://www.ebay.com/itm/387163672891",
+                  "soldAt": "2026-03-14",
+                  "value": 3.49,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Eight matching 2026 color-trade rows; conflicting-year row excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-044_FRONT.jpg"
       },
@@ -9010,7 +9182,8 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:31:07.295Z"
-      }
+      },
+      "upc": "75960620740401021"
     },
     {
       "id": "raw:15-045",
@@ -9018,11 +9191,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Captain Marvel",
+      "issue": "9",
+      "variant": "Skottie Young Big Marvels Variant",
+      "publisher": "Marvel Comics",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -9036,7 +9209,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Captain Marvel",
@@ -9046,10 +9219,182 @@
             "confidence": "high",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-21T13:53:40.760Z",
+        "sourceUrl": "https://www.marvel.com/comics/issue/116699/captain_marvel_2023_9_variant/variant"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Captain Marvel",
+                "issue": "9",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Skottie Young Big Marvels Variant",
+                "upc": "75960620774900921",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://www.marvel.com/comics/issue/116699/captain_marvel_2023_9_variant/variant",
+              "notes": "Manually read issue and full UPC 75960620774900921 on owner scan Raw_15-045_FRONT.jpg; matched cover and exact barcode to catalog. Identity review only; no physical condition inferred.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-21T13:53:40.760Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-21T13:53:40.863Z",
+        "observations": [
+          {
+            "id": "afternoon-2026-09-21-raw-15-045",
+            "copyId": "raw:15-045",
+            "basis": "raw-reference",
+            "value": 4.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-captain-marvel/captain-marvel-young-9-2024",
+              "asOf": "2026-09-19",
+              "retrievedAt": "2026-09-21T13:53:50.291Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Captain Marvel",
+                "issue": "9",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Skottie Young Big Marvels Variant",
+                "upc": "75960620774900921",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-captain-marvel/captain-marvel-young-9-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-21T13:53:50.291Z",
+              "notes": "Exact full UPC 75960620774900921 and owned title/edition matched to PriceCharting product 6874872. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Eight matching 2026 raw rows; misclassified graded 9.8 row excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:186369777985",
+                  "sourceUrl": "https://www.ebay.com/itm/186369777985",
+                  "soldAt": "2026-09-19",
+                  "value": 4.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:205387867657",
+                  "sourceUrl": "https://www.ebay.com/itm/205387867657",
+                  "soldAt": "2026-09-08",
+                  "value": 3.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:267530799685",
+                  "sourceUrl": "https://www.ebay.com/itm/267530799685",
+                  "soldAt": "2026-08-05",
+                  "value": 2.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:117090758470",
+                  "sourceUrl": "https://www.ebay.com/itm/117090758470",
+                  "soldAt": "2026-08-02",
+                  "value": 5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:117085875881",
+                  "sourceUrl": "https://www.ebay.com/itm/117085875881",
+                  "soldAt": "2026-07-02",
+                  "value": 5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:364978937903",
+                  "sourceUrl": "https://www.ebay.com/itm/364978937903",
+                  "soldAt": "2026-05-28",
+                  "value": 5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:366249950911",
+                  "sourceUrl": "https://www.ebay.com/itm/366249950911",
+                  "soldAt": "2026-05-24",
+                  "value": 4.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:387163725713",
+                  "sourceUrl": "https://www.ebay.com/itm/387163725713",
+                  "soldAt": "2026-05-24",
+                  "value": 3.2,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Eight matching 2026 raw rows; misclassified graded 9.8 row excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-045_FRONT.jpg"
       },
@@ -9070,7 +9415,8 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:31:07.295Z"
-      }
+      },
+      "upc": "75960620774900921"
     },
     {
       "id": "raw:15-046",
@@ -9078,11 +9424,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Doctor Strange",
+      "issue": "16",
+      "variant": "Skottie Young Big Marvels Variant",
+      "publisher": "Marvel Comics",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -9096,7 +9442,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Doctor Strange",
@@ -9106,10 +9452,161 @@
             "confidence": "high",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-21T13:53:40.760Z",
+        "sourceUrl": "https://www.marvel.com/comics/issue/116705/doctor_strange_2023_16_variant/variant"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Doctor Strange",
+                "issue": "16",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Skottie Young Big Marvels Variant",
+                "upc": "75960620534901621",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://www.marvel.com/comics/issue/116705/doctor_strange_2023_16_variant/variant",
+              "notes": "Manually read issue and full UPC 75960620534901621 on owner scan Raw_15-046_FRONT.jpg; matched cover and exact barcode to catalog. Identity review only; no physical condition inferred.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-21T13:53:40.760Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-21T13:53:40.863Z",
+        "observations": [
+          {
+            "id": "afternoon-2026-09-21-raw-15-046",
+            "copyId": "raw:15-046",
+            "basis": "raw-reference",
+            "value": 3.75,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-doctor-strange/doctor-strange-young-16-2024",
+              "asOf": "2026-07-17",
+              "retrievedAt": "2026-09-21T13:53:50.291Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Doctor Strange",
+                "issue": "16",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Skottie Young Big Marvels Variant",
+                "upc": "75960620534901621",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-doctor-strange/doctor-strange-young-16-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-21T13:53:50.291Z",
+              "notes": "Exact full UPC 75960620534901621 and owned title/edition matched to PriceCharting product 6874778. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five matching 2026 color-trade rows; 1:50 sketch and minimum-purchase listings excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:336076892714",
+                  "sourceUrl": "https://www.ebay.com/itm/336076892714",
+                  "soldAt": "2026-07-17",
+                  "value": 3,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:366249998447",
+                  "sourceUrl": "https://www.ebay.com/itm/366249998447",
+                  "soldAt": "2026-05-24",
+                  "value": 3.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:387165671637",
+                  "sourceUrl": "https://www.ebay.com/itm/387165671637",
+                  "soldAt": "2026-03-14",
+                  "value": 2.89,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:305623223627",
+                  "sourceUrl": "https://www.ebay.com/itm/305623223627",
+                  "soldAt": "2026-03-13",
+                  "value": 3.75,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:236378679798",
+                  "sourceUrl": "https://www.ebay.com/itm/236378679798",
+                  "soldAt": "2026-03-12",
+                  "value": 5.02,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five matching 2026 color-trade rows; 1:50 sketch and minimum-purchase listings excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-046_FRONT.jpg"
       },
@@ -9130,7 +9627,8 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:31:26.611Z"
-      }
+      },
+      "upc": "75960620534901621"
     },
     {
       "id": "raw:15-047",
@@ -9138,11 +9636,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "The Invincible Iron Man",
+      "issue": "19",
+      "variant": "Skottie Young Big Marvels Variant",
+      "publisher": "Marvel Comics",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -9156,7 +9654,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "The Invincible Iron Man",
@@ -9166,10 +9664,189 @@
             "confidence": "high",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-21T13:53:40.760Z",
+        "sourceUrl": "https://westfieldcomics.com/comic-books/Invincible-Iron-Man-19-variant-Big-Marvel-cover--Skottie-Young-2024/24040407"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Invincible Iron Man",
+                "issue": "19",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Skottie Young Big Marvels Variant",
+                "upc": "75960620424301931",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://westfieldcomics.com/comic-books/Invincible-Iron-Man-19-variant-Big-Marvel-cover--Skottie-Young-2024/24040407",
+              "notes": "Manually read issue and full UPC 75960620424301931 on owner scan Raw_15-047_FRONT.jpg; matched cover and exact barcode to catalog. Identity review only; no physical condition inferred.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-21T13:53:40.760Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-21T13:53:40.863Z",
+        "observations": [
+          {
+            "id": "afternoon-2026-09-21-raw-15-047",
+            "copyId": "raw:15-047",
+            "basis": "raw-reference",
+            "value": 4.95,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-invincible-iron-man/invincible-iron-man-young-19-2024",
+              "asOf": "2026-08-15",
+              "retrievedAt": "2026-09-21T13:53:50.291Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Invincible Iron Man",
+                "issue": "19",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Skottie Young Big Marvels Variant",
+                "upc": "75960620424301931",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-invincible-iron-man/invincible-iron-man-young-19-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-21T13:53:50.291Z",
+              "notes": "Exact full UPC 75960620424301931 and owned title/edition matched to PriceCharting product 6874782. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Nine matching 2026 color-trade raw comparisons. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:166869364153",
+                  "sourceUrl": "https://www.ebay.com/itm/166869364153",
+                  "soldAt": "2026-08-15",
+                  "value": 4,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:126984192821",
+                  "sourceUrl": "https://www.ebay.com/itm/126984192821",
+                  "soldAt": "2026-07-02",
+                  "value": 5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:266893452449",
+                  "sourceUrl": "https://www.ebay.com/itm/266893452449",
+                  "soldAt": "2026-05-29",
+                  "value": 4.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:366249972963",
+                  "sourceUrl": "https://www.ebay.com/itm/366249972963",
+                  "soldAt": "2026-05-24",
+                  "value": 3.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:157379013992",
+                  "sourceUrl": "https://www.ebay.com/itm/157379013992",
+                  "soldAt": "2026-05-24",
+                  "value": 4.95,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:306047023970",
+                  "sourceUrl": "https://www.ebay.com/itm/306047023970",
+                  "soldAt": "2026-04-26",
+                  "value": 4.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:235564195669",
+                  "sourceUrl": "https://www.ebay.com/itm/235564195669",
+                  "soldAt": "2026-04-07",
+                  "value": 3.97,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:364989908549",
+                  "sourceUrl": "https://www.ebay.com/itm/364989908549",
+                  "soldAt": "2026-03-18",
+                  "value": 6.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:127698490586",
+                  "sourceUrl": "https://www.ebay.com/itm/127698490586",
+                  "soldAt": "2026-03-01",
+                  "value": 0.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Nine matching 2026 color-trade raw comparisons. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-047_FRONT.jpg"
       },
@@ -9190,7 +9867,8 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:31:26.611Z"
-      }
+      },
+      "upc": "75960620424301931"
     },
     {
       "id": "raw:15-048",
@@ -9198,11 +9876,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Spider-Gwen: The Ghost-Spider",
+      "issue": "3",
+      "variant": "Skottie Young Big Marvels Variant",
+      "publisher": "Marvel Comics",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -9216,7 +9894,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Spider-Gwen: The Ghost-Spider",
@@ -9226,10 +9904,182 @@
             "confidence": "high",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-21T13:53:40.760Z",
+        "sourceUrl": "https://neighborhoodcomics.com/products/75960620908800331-spider-gwen-the-ghost-spider-3"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spider-Gwen: The Ghost-Spider",
+                "issue": "3",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Skottie Young Big Marvels Variant",
+                "upc": "75960620908800331",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://neighborhoodcomics.com/products/75960620908800331-spider-gwen-the-ghost-spider-3",
+              "notes": "Manually read issue and full UPC 75960620908800331 on owner scan Raw_15-048_FRONT.jpg; matched cover and exact barcode to catalog. Identity review only; no physical condition inferred.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-21T13:53:40.760Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-21T13:53:40.863Z",
+        "observations": [
+          {
+            "id": "afternoon-2026-09-21-raw-15-048",
+            "copyId": "raw:15-048",
+            "basis": "raw-reference",
+            "value": 4,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-the-ghost-spider/spider-gwen-the-ghost-spider-young-3-2024",
+              "asOf": "2026-07-08",
+              "retrievedAt": "2026-09-21T13:53:50.291Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spider-Gwen: The Ghost-Spider",
+                "issue": "3",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Skottie Young Big Marvels Variant",
+                "upc": "75960620908800331",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-the-ghost-spider/spider-gwen-the-ghost-spider-young-3-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-21T13:53:50.291Z",
+              "notes": "Exact full UPC 75960620908800331 and owned title/edition matched to PriceCharting product 7096697. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Eight matching color-trade raw comparisons within a year; conflicting-year row excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:366204738107",
+                  "sourceUrl": "https://www.ebay.com/itm/366204738107",
+                  "soldAt": "2026-07-08",
+                  "value": 3.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:127873115004",
+                  "sourceUrl": "https://www.ebay.com/itm/127873115004",
+                  "soldAt": "2026-05-26",
+                  "value": 3.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:236089922349",
+                  "sourceUrl": "https://www.ebay.com/itm/236089922349",
+                  "soldAt": "2026-05-01",
+                  "value": 4.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:305757861319",
+                  "sourceUrl": "https://www.ebay.com/itm/305757861319",
+                  "soldAt": "2026-04-26",
+                  "value": 4.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:358362911716",
+                  "sourceUrl": "https://www.ebay.com/itm/358362911716",
+                  "soldAt": "2026-03-29",
+                  "value": 0.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:197946157973",
+                  "sourceUrl": "https://www.ebay.com/itm/197946157973",
+                  "soldAt": "2026-02-16",
+                  "value": 4,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:196531677163",
+                  "sourceUrl": "https://www.ebay.com/itm/196531677163",
+                  "soldAt": "2026-01-12",
+                  "value": 7.31,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:306601206586",
+                  "sourceUrl": "https://www.ebay.com/itm/306601206586",
+                  "soldAt": "2025-11-24",
+                  "value": 2.25,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Eight matching color-trade raw comparisons within a year; conflicting-year row excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-048_FRONT.jpg"
       },
@@ -9250,7 +10100,8 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:31:47.687Z"
-      }
+      },
+      "upc": "75960620908800331"
     },
     {
       "id": "raw:15-049",
@@ -9258,11 +10109,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Daredevil",
+      "issue": "10",
+      "variant": "Skottie Young Big Marvels Variant",
+      "publisher": "Marvel Comics",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -9276,7 +10127,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Daredevil",
@@ -9286,10 +10137,182 @@
             "confidence": "high",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-21T13:53:40.760Z",
+        "sourceUrl": "https://shop.thirdeyecomics.com/products/apr240803-daredevil-10-skottie-young-big-marvel-var"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Daredevil",
+                "issue": "10",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Skottie Young Big Marvels Variant",
+                "upc": "75960620531801021",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://shop.thirdeyecomics.com/products/apr240803-daredevil-10-skottie-young-big-marvel-var",
+              "notes": "Manually read issue and full UPC 75960620531801021 on owner scan Raw_15-049_FRONT.jpg; matched cover and exact barcode to catalog. Identity review only; no physical condition inferred.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-21T13:53:40.760Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-21T13:53:40.863Z",
+        "observations": [
+          {
+            "id": "afternoon-2026-09-21-raw-15-049",
+            "copyId": "raw:15-049",
+            "basis": "raw-reference",
+            "value": 4.98,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-daredevil/daredevil-young-10-2024",
+              "asOf": "2026-09-03",
+              "retrievedAt": "2026-09-21T13:53:50.291Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Daredevil",
+                "issue": "10",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Skottie Young Big Marvels Variant",
+                "upc": "75960620531801021",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-daredevil/daredevil-young-10-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-21T13:53:50.291Z",
+              "notes": "Exact full UPC 75960620531801021 and owned title/edition matched to PriceCharting product 6903200. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Eight matching 2026 color-trade raw comparisons; sketch edition excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:407167191079",
+                  "sourceUrl": "https://www.ebay.com/itm/407167191079",
+                  "soldAt": "2026-09-03",
+                  "value": 2.25,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:157725250332",
+                  "sourceUrl": "https://www.ebay.com/itm/157725250332",
+                  "soldAt": "2026-08-03",
+                  "value": 5.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:127820288781",
+                  "sourceUrl": "https://www.ebay.com/itm/127820288781",
+                  "soldAt": "2026-08-02",
+                  "value": 5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:127820288713",
+                  "sourceUrl": "https://www.ebay.com/itm/127820288713",
+                  "soldAt": "2026-07-02",
+                  "value": 5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:137284381690",
+                  "sourceUrl": "https://www.ebay.com/itm/137284381690",
+                  "soldAt": "2026-05-13",
+                  "value": 5.5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:326889852732",
+                  "sourceUrl": "https://www.ebay.com/itm/326889852732",
+                  "soldAt": "2026-04-26",
+                  "value": 4.19,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:236361900593",
+                  "sourceUrl": "https://www.ebay.com/itm/236361900593",
+                  "soldAt": "2026-03-12",
+                  "value": 4.95,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:296508411358",
+                  "sourceUrl": "https://www.ebay.com/itm/296508411358",
+                  "soldAt": "2026-02-23",
+                  "value": 4.69,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Eight matching 2026 color-trade raw comparisons; sketch edition excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-049_FRONT.jpg"
       },
@@ -9310,7 +10333,8 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:31:47.687Z"
-      }
+      },
+      "upc": "75960620531801021"
     },
     {
       "id": "raw:15-050",
@@ -9318,11 +10342,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Scarlet Witch",
+      "issue": "1",
+      "variant": "Skottie Young Big Marvels Variant",
+      "publisher": "Marvel Comics",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -9336,7 +10360,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Scarlet Witch",
@@ -9346,10 +10370,189 @@
             "confidence": "high",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-21T13:53:40.760Z",
+        "sourceUrl": "https://www.marvel.com/comics/issue/116728/scarlet_witch_2024_1_variant/variant"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Scarlet Witch",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Skottie Young Big Marvels Variant",
+                "upc": "75960620828900131",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://www.marvel.com/comics/issue/116728/scarlet_witch_2024_1_variant/variant",
+              "notes": "Manually read issue and full UPC 75960620828900131 on owner scan Raw_15-050_FRONT.jpg; matched cover and exact barcode to catalog. Identity review only; no physical condition inferred.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-21T13:53:40.760Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-21T13:53:40.863Z",
+        "observations": [
+          {
+            "id": "afternoon-2026-09-21-raw-15-050",
+            "copyId": "raw:15-050",
+            "basis": "raw-reference",
+            "value": 4.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-scarlet-witch/scarlet-witch-young-1-2024",
+              "asOf": "2026-07-25",
+              "retrievedAt": "2026-09-21T13:53:50.291Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Scarlet Witch",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Skottie Young Big Marvels Variant",
+                "upc": "75960620828900131",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-scarlet-witch/scarlet-witch-young-1-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-21T13:53:50.291Z",
+              "notes": "Exact full UPC 75960620828900131 and owned title/edition matched to PriceCharting product 6838259. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Nine matching 2026 color-trade raw comparisons. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:286097256321",
+                  "sourceUrl": "https://www.ebay.com/itm/286097256321",
+                  "soldAt": "2026-07-25",
+                  "value": 12.95,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:306232889577",
+                  "sourceUrl": "https://www.ebay.com/itm/306232889577",
+                  "soldAt": "2026-07-09",
+                  "value": 3.9,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:336497343466",
+                  "sourceUrl": "https://www.ebay.com/itm/336497343466",
+                  "soldAt": "2026-03-27",
+                  "value": 4.89,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:156264304044",
+                  "sourceUrl": "https://www.ebay.com/itm/156264304044",
+                  "soldAt": "2026-03-22",
+                  "value": 4.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:145821794845",
+                  "sourceUrl": "https://www.ebay.com/itm/145821794845",
+                  "soldAt": "2026-03-14",
+                  "value": 4.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:186832418458",
+                  "sourceUrl": "https://www.ebay.com/itm/186832418458",
+                  "soldAt": "2026-03-02",
+                  "value": 9.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:176423288584",
+                  "sourceUrl": "https://www.ebay.com/itm/176423288584",
+                  "soldAt": "2026-02-19",
+                  "value": 4.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:136734047563",
+                  "sourceUrl": "https://www.ebay.com/itm/136734047563",
+                  "soldAt": "2026-02-10",
+                  "value": 4.96,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:257091602114",
+                  "sourceUrl": "https://www.ebay.com/itm/257091602114",
+                  "soldAt": "2026-02-06",
+                  "value": 4.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Nine matching 2026 color-trade raw comparisons. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-050_FRONT.jpg"
       },
@@ -9370,7 +10573,8 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:32:04.356Z"
-      }
+      },
+      "upc": "75960620828900131"
     },
     {
       "id": "raw:15-051",
@@ -9378,11 +10582,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Spider-Boy",
+      "issue": "8",
+      "variant": "Skottie Young Big Marvels Variant",
+      "publisher": "Marvel Comics",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -9396,7 +10600,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Spider-Boy",
@@ -9406,10 +10610,175 @@
             "confidence": "high",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-21T13:53:40.760Z",
+        "sourceUrl": "https://bigtimecollectibles.com/en-ca/products/75960620785500821"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spider-Boy",
+                "issue": "8",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Skottie Young Big Marvels Variant",
+                "upc": "75960620785500821",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://bigtimecollectibles.com/en-ca/products/75960620785500821",
+              "notes": "Manually read issue and full UPC 75960620785500821 on owner scan Raw_15-051_FRONT.jpg; matched cover and exact barcode to catalog. Identity review only; no physical condition inferred.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-21T13:53:40.760Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-21T13:53:40.863Z",
+        "observations": [
+          {
+            "id": "afternoon-2026-09-21-raw-15-051",
+            "copyId": "raw:15-051",
+            "basis": "raw-reference",
+            "value": 3.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-young-8-2024",
+              "asOf": "2026-08-06",
+              "retrievedAt": "2026-09-21T13:53:50.291Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spider-Boy",
+                "issue": "8",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Skottie Young Big Marvels Variant",
+                "upc": "75960620785500821",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-young-8-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-21T13:53:50.291Z",
+              "notes": "Exact full UPC 75960620785500821 and owned title/edition matched to PriceCharting product 6838224. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Seven matching 2026 color-trade raw comparisons; presale and 1:50 listing excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:236977560867",
+                  "sourceUrl": "https://www.ebay.com/itm/236977560867",
+                  "soldAt": "2026-08-06",
+                  "value": 1.4,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:156264290689",
+                  "sourceUrl": "https://www.ebay.com/itm/156264290689",
+                  "soldAt": "2026-07-11",
+                  "value": 4.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:298396824446",
+                  "sourceUrl": "https://www.ebay.com/itm/298396824446",
+                  "soldAt": "2026-06-21",
+                  "value": 3.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:226963274723",
+                  "sourceUrl": "https://www.ebay.com/itm/226963274723",
+                  "soldAt": "2026-05-22",
+                  "value": 2.75,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:227118026869",
+                  "sourceUrl": "https://www.ebay.com/itm/227118026869",
+                  "soldAt": "2026-05-20",
+                  "value": 5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:298298369628",
+                  "sourceUrl": "https://www.ebay.com/itm/298298369628",
+                  "soldAt": "2026-05-17",
+                  "value": 1.75,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:188348463303",
+                  "sourceUrl": "https://www.ebay.com/itm/188348463303",
+                  "soldAt": "2026-05-06",
+                  "value": 4.45,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Seven matching 2026 color-trade raw comparisons; presale and 1:50 listing excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-051_FRONT.jpg"
       },
@@ -9430,7 +10799,8 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:32:04.356Z"
-      }
+      },
+      "upc": "75960620785500821"
     },
     {
       "id": "raw:15-052",
@@ -9438,11 +10808,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "The Incredible Hulk",
+      "issue": "13",
+      "variant": "Skottie Young Big Marvels Variant",
+      "publisher": "Marvel Comics",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -9456,7 +10826,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "The Incredible Hulk",
@@ -9466,10 +10836,182 @@
             "confidence": "high",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-21T13:53:40.760Z",
+        "sourceUrl": "https://shop.thirdeyecomics.com/products/apr240779-incredible-hulk-13-skottie-young-big-marvel-var"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Incredible Hulk",
+                "issue": "13",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Skottie Young Big Marvels Variant",
+                "upc": "75960620663601321",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://shop.thirdeyecomics.com/products/apr240779-incredible-hulk-13-skottie-young-big-marvel-var",
+              "notes": "Manually read issue and full UPC 75960620663601321 on owner scan Raw_15-052_FRONT.jpg; matched cover and exact barcode to catalog. Identity review only; no physical condition inferred.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-21T13:53:40.760Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-21T13:53:40.864Z",
+        "observations": [
+          {
+            "id": "afternoon-2026-09-21-raw-15-052",
+            "copyId": "raw:15-052",
+            "basis": "raw-reference",
+            "value": 4.5,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-incredible-hulk/the-incredible-hulk-young-13-2024",
+              "asOf": "2026-09-06",
+              "retrievedAt": "2026-09-21T13:53:50.291Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Incredible Hulk",
+                "issue": "13",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Skottie Young Big Marvels Variant",
+                "upc": "75960620663601321",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-incredible-hulk/the-incredible-hulk-young-13-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-21T13:53:50.291Z",
+              "notes": "Exact full UPC 75960620663601321 and owned title/edition matched to PriceCharting product 6838177. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Eight matching 2026 color-trade raw comparisons; 1:50 sketch excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:375868107732",
+                  "sourceUrl": "https://www.ebay.com/itm/375868107732",
+                  "soldAt": "2026-09-06",
+                  "value": 9.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:306232861299",
+                  "sourceUrl": "https://www.ebay.com/itm/306232861299",
+                  "soldAt": "2026-07-09",
+                  "value": 3.9,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:117190441853",
+                  "sourceUrl": "https://www.ebay.com/itm/117190441853",
+                  "soldAt": "2026-07-02",
+                  "value": 5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:178252663833",
+                  "sourceUrl": "https://www.ebay.com/itm/178252663833",
+                  "soldAt": "2026-07-02",
+                  "value": 15,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:186491898368",
+                  "sourceUrl": "https://www.ebay.com/itm/186491898368",
+                  "soldAt": "2026-06-18",
+                  "value": 3.49,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:406344846723",
+                  "sourceUrl": "https://www.ebay.com/itm/406344846723",
+                  "soldAt": "2026-06-12",
+                  "value": 3.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:157378990536",
+                  "sourceUrl": "https://www.ebay.com/itm/157378990536",
+                  "soldAt": "2026-05-24",
+                  "value": 5.95,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:135111505650",
+                  "sourceUrl": "https://www.ebay.com/itm/135111505650",
+                  "soldAt": "2026-04-18",
+                  "value": 3.45,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Eight matching 2026 color-trade raw comparisons; 1:50 sketch excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-052_FRONT.jpg"
       },
@@ -9490,7 +11032,8 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:32:21.267Z"
-      }
+      },
+      "upc": "75960620663601321"
     },
     {
       "id": "raw:15-053",
@@ -9498,11 +11041,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Fantastic Four",
+      "issue": "21",
+      "variant": "Skottie Young Big Marvels Variant",
+      "publisher": "Marvel Comics",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -9516,7 +11059,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Fantastic Four",
@@ -9526,10 +11069,189 @@
             "confidence": "high",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-21T13:53:40.760Z",
+        "sourceUrl": "https://www.marvel.com/comics/issue/116709/fantastic_four_2022_21_variant/"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Fantastic Four",
+                "issue": "21",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Skottie Young Big Marvels Variant",
+                "upc": "75960620289802121",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://www.marvel.com/comics/issue/116709/fantastic_four_2022_21_variant/",
+              "notes": "Manually read issue and full UPC 75960620289802121 on owner scan Raw_15-053_FRONT.jpg; matched cover and exact barcode to catalog. Identity review only; no physical condition inferred.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-21T13:53:40.760Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-21T13:53:40.864Z",
+        "observations": [
+          {
+            "id": "afternoon-2026-09-21-raw-15-053",
+            "copyId": "raw:15-053",
+            "basis": "raw-reference",
+            "value": 4.44,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-fantastic-four/fantastic-four-young-21-2024",
+              "asOf": "2026-09-11",
+              "retrievedAt": "2026-09-21T13:53:50.291Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Fantastic Four",
+                "issue": "21",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Skottie Young Big Marvels Variant",
+                "upc": "75960620289802121",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-fantastic-four/fantastic-four-young-21-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-21T13:53:50.291Z",
+              "notes": "Exact full UPC 75960620289802121 and owned title/edition matched to PriceCharting product 6838156. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Nine matching 2026 color-trade raw comparisons. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:176311976316",
+                  "sourceUrl": "https://www.ebay.com/itm/176311976316",
+                  "soldAt": "2026-09-11",
+                  "value": 5.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:166869361638",
+                  "sourceUrl": "https://www.ebay.com/itm/166869361638",
+                  "soldAt": "2026-08-16",
+                  "value": 4,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:127926052322",
+                  "sourceUrl": "https://www.ebay.com/itm/127926052322",
+                  "soldAt": "2026-07-02",
+                  "value": 5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:306831920846",
+                  "sourceUrl": "https://www.ebay.com/itm/306831920846",
+                  "soldAt": "2026-06-30",
+                  "value": 4.95,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:375422430079",
+                  "sourceUrl": "https://www.ebay.com/itm/375422430079",
+                  "soldAt": "2026-05-23",
+                  "value": 4.43,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:186891451844",
+                  "sourceUrl": "https://www.ebay.com/itm/186891451844",
+                  "soldAt": "2026-05-08",
+                  "value": 3.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:365897771697",
+                  "sourceUrl": "https://www.ebay.com/itm/365897771697",
+                  "soldAt": "2026-03-14",
+                  "value": 4.44,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:236361900605",
+                  "sourceUrl": "https://www.ebay.com/itm/236361900605",
+                  "soldAt": "2026-03-12",
+                  "value": 4.95,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:305602719398",
+                  "sourceUrl": "https://www.ebay.com/itm/305602719398",
+                  "soldAt": "2026-02-27",
+                  "value": 3.75,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Nine matching 2026 color-trade raw comparisons. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-053_FRONT.jpg"
       },
@@ -9550,7 +11272,8 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:32:21.267Z"
-      }
+      },
+      "upc": "75960620289802121"
     },
     {
       "id": "raw:15-054",
@@ -9558,11 +11281,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Spider-Boy",
+      "issue": "4",
+      "variant": "Philip Tan 1:25 Variant",
+      "publisher": "Marvel Comics",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -9576,7 +11299,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Spider-Boy",
@@ -9586,10 +11309,154 @@
             "confidence": "high",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-21T13:53:40.760Z",
+        "sourceUrl": "https://westfieldcomics.com/comic-books/Spider-Boy-4-incentive-125-cover--Philip-Tan-2024/V2312092"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spider-Boy",
+                "issue": "4",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Philip Tan 1:25 Variant",
+                "upc": "75960620785500416",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://westfieldcomics.com/comic-books/Spider-Boy-4-incentive-125-cover--Philip-Tan-2024/V2312092",
+              "notes": "Manually read issue and full UPC 75960620785500416 on owner scan Raw_15-054_FRONT.jpg; matched cover and exact barcode to catalog. Identity review only; no physical condition inferred.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-21T13:53:40.760Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-21T13:53:40.864Z",
+        "observations": [
+          {
+            "id": "afternoon-2026-09-21-raw-15-054",
+            "copyId": "raw:15-054",
+            "basis": "raw-reference",
+            "value": 5.27,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-tan-4-2024",
+              "asOf": "2025-07-20",
+              "retrievedAt": "2026-09-21T13:53:50.291Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spider-Boy",
+                "issue": "4",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Philip Tan 1:25 Variant",
+                "upc": "75960620785500416",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-tan-4-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-21T13:53:50.291Z",
+              "notes": "Exact full UPC 75960620785500416 and owned title/edition matched to PriceCharting product 6376634. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Stale history: four 2025 raw sales, latest July 20, 2025; no sale within a year. Historical reference, not a current market appraisal. Older 2024 rows excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:336063426678",
+                  "sourceUrl": "https://www.ebay.com/itm/336063426678",
+                  "soldAt": "2025-07-20",
+                  "value": 5.54,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:236051336705",
+                  "sourceUrl": "https://www.ebay.com/itm/236051336705",
+                  "soldAt": "2025-04-13",
+                  "value": 5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:335826305571",
+                  "sourceUrl": "https://www.ebay.com/itm/335826305571",
+                  "soldAt": "2025-03-03",
+                  "value": 3.98,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:335227006982",
+                  "sourceUrl": "https://www.ebay.com/itm/335227006982",
+                  "soldAt": "2025-01-17",
+                  "value": 24.32,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Stale history: four 2025 raw sales, latest July 20, 2025; no sale within a year. Historical reference, not a current market appraisal. Older 2024 rows excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-054_FRONT.jpg"
       },
@@ -9610,7 +11477,8 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:32:43.544Z"
-      }
+      },
+      "upc": "75960620785500416"
     },
     {
       "id": "raw:15-055",
@@ -9618,11 +11486,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "The Avengers",
+      "issue": "15",
+      "variant": "Skottie Young Big Marvels Variant",
+      "publisher": "Marvel Comics",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -9636,7 +11504,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "The Avengers",
@@ -9646,10 +11514,175 @@
             "confidence": "high",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-21T13:53:40.760Z",
+        "sourceUrl": "https://www.marvel.com/comics/issue/116691/avengers_2023_15_variant/"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Avengers",
+                "issue": "15",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Skottie Young Big Marvels Variant",
+                "upc": "75960620426701521",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://www.marvel.com/comics/issue/116691/avengers_2023_15_variant/",
+              "notes": "Manually read issue and full UPC 75960620426701521 on owner scan Raw_15-055_FRONT.jpg; matched cover and exact barcode to catalog. Identity review only; no physical condition inferred.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-21T13:53:40.760Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-21T13:53:40.864Z",
+        "observations": [
+          {
+            "id": "afternoon-2026-09-21-raw-15-055",
+            "copyId": "raw:15-055",
+            "basis": "raw-reference",
+            "value": 4.44,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-avengers/avengers-young-15-2024",
+              "asOf": "2026-07-11",
+              "retrievedAt": "2026-09-21T13:53:50.291Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Avengers",
+                "issue": "15",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Skottie Young Big Marvels Variant",
+                "upc": "75960620426701521",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-avengers/avengers-young-15-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-21T13:53:50.291Z",
+              "notes": "Exact full UPC 75960620426701521 and owned title/edition matched to PriceCharting product 6838160. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Seven matching 2026 color-trade raw comparisons; presale and damaged sketch excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:157737375631",
+                  "sourceUrl": "https://www.ebay.com/itm/157737375631",
+                  "soldAt": "2026-07-11",
+                  "value": 3.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:800242629166",
+                  "sourceUrl": "https://www.ebay.com/itm/800242629166",
+                  "soldAt": "2026-07-02",
+                  "value": 3.98,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:126984182388",
+                  "sourceUrl": "https://www.ebay.com/itm/126984182388",
+                  "soldAt": "2026-07-02",
+                  "value": 5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:186491904693",
+                  "sourceUrl": "https://www.ebay.com/itm/186491904693",
+                  "soldAt": "2026-06-19",
+                  "value": 3.49,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:266806662447",
+                  "sourceUrl": "https://www.ebay.com/itm/266806662447",
+                  "soldAt": "2026-06-03",
+                  "value": 4.44,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:157552874129",
+                  "sourceUrl": "https://www.ebay.com/itm/157552874129",
+                  "soldAt": "2026-05-30",
+                  "value": 11.8,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:116513193766",
+                  "sourceUrl": "https://www.ebay.com/itm/116513193766",
+                  "soldAt": "2026-05-07",
+                  "value": 5,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Seven matching 2026 color-trade raw comparisons; presale and damaged sketch excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-055_FRONT.jpg"
       },
@@ -9670,7 +11703,8 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:32:43.544Z"
-      }
+      },
+      "upc": "75960620426701521"
     },
     {
       "id": "raw:15-057",
@@ -9678,11 +11712,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Spider-Boy",
+      "issue": "1",
+      "variant": "Chris Campana Variant",
+      "publisher": "Marvel Comics",
+      "issueYear": "2023",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -9696,7 +11730,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Spider-Boy",
@@ -9706,10 +11740,168 @@
             "confidence": "high",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-21T13:53:40.760Z",
+        "sourceUrl": "https://new.ecomics.it/dettaglio/spider-boy-1-chris-campana-variant"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spider-Boy",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Chris Campana Variant",
+                "upc": "75960620785500161",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://new.ecomics.it/dettaglio/spider-boy-1-chris-campana-variant",
+              "notes": "Manually read issue and full UPC 75960620785500161 on owner scan Raw_15-057_FRONT.jpg; matched cover and exact barcode to catalog. Publisher preview https://www.marvel.com/articles/comics/spider-boy-1-solo-series-first-look-preview-variant-covers confirms November 2023 release. Ordinary Campana cover, not LCSD. Identity review only; no physical condition inferred.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-21T13:53:40.760Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-21T13:53:40.864Z",
+        "observations": [
+          {
+            "id": "afternoon-2026-09-21-raw-15-057",
+            "copyId": "raw:15-057",
+            "basis": "raw-reference",
+            "value": 4.72,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-campana-1-2023",
+              "asOf": "2026-08-09",
+              "retrievedAt": "2026-09-21T13:53:50.291Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spider-Boy",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Chris Campana Variant",
+                "upc": "75960620785500161",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-campana-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-21T13:53:50.291Z",
+              "notes": "Exact owner UPC 75960620785500161 and Chris Campana cover matched to retailer catalog and Marvel preview. PriceCharting omits UPC; ordinary color trade cover, not LCSD. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Six matching 2026 ordinary Campana raw comparisons; three LCSD listings excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:375087655702",
+                  "sourceUrl": "https://www.ebay.com/itm/375087655702",
+                  "soldAt": "2026-08-09",
+                  "value": 4.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:257643304755",
+                  "sourceUrl": "https://www.ebay.com/itm/257643304755",
+                  "soldAt": "2026-07-31",
+                  "value": 0.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:188384923826",
+                  "sourceUrl": "https://www.ebay.com/itm/188384923826",
+                  "soldAt": "2026-05-24",
+                  "value": 2.09,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:235278255730",
+                  "sourceUrl": "https://www.ebay.com/itm/235278255730",
+                  "soldAt": "2026-03-03",
+                  "value": 5.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:295938376473",
+                  "sourceUrl": "https://www.ebay.com/itm/295938376473",
+                  "soldAt": "2026-02-09",
+                  "value": 5.63,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:365921809008",
+                  "sourceUrl": "https://www.ebay.com/itm/365921809008",
+                  "soldAt": "2026-01-28",
+                  "value": 4.44,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Six matching 2026 ordinary Campana raw comparisons; three LCSD listings excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-057_FRONT.jpg"
       },
@@ -9730,7 +11922,8 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:33:31.067Z"
-      }
+      },
+      "upc": "75960620785500161"
     },
     {
       "id": "raw:15-058",
@@ -9738,11 +11931,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Spider-Boy",
+      "issue": "3",
+      "variant": "Paco Medina Marvel Comics Presents Variant",
+      "publisher": "Marvel Comics",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -9756,7 +11949,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Spider-Boy",
@@ -9766,10 +11959,133 @@
             "confidence": "high",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-21T13:53:40.760Z",
+        "sourceUrl": "https://www.marvel.com/comics/issue/114801/spider-boy_2023_3_variant/"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spider-Boy",
+                "issue": "3",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Paco Medina Marvel Comics Presents Variant",
+                "upc": "75960620785500341",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://www.marvel.com/comics/issue/114801/spider-boy_2023_3_variant/",
+              "notes": "Manually read issue and full UPC 75960620785500341 on owner scan Raw_15-058_FRONT.jpg; matched cover and exact barcode to catalog. Paco Medina cover, not Humberto Ramos. Identity review only; no physical condition inferred.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-21T13:53:40.760Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-21T13:53:40.864Z",
+        "observations": [
+          {
+            "id": "afternoon-2026-09-21-raw-15-058",
+            "copyId": "raw:15-058",
+            "basis": "raw-reference",
+            "value": 5.35,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-medina-3-2024",
+              "asOf": "2026-09-08",
+              "retrievedAt": "2026-09-21T13:53:50.291Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spider-Boy",
+                "issue": "3",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Paco Medina Marvel Comics Presents Variant",
+                "upc": "75960620785500341",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-medina-3-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-21T13:53:50.291Z",
+              "notes": "Exact full UPC 75960620785500341 and owned title/edition matched to PriceCharting product 6303991. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Thin history: only one matching sale reported within a year; older 2024-2025 rows excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:375122625632",
+                  "sourceUrl": "https://www.ebay.com/itm/375122625632",
+                  "soldAt": "2026-09-08",
+                  "value": 5.35,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Thin history: only one matching sale reported within a year; older 2024-2025 rows excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-058_FRONT.jpg"
       },
@@ -9790,7 +12106,8 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:33:31.067Z"
-      }
+      },
+      "upc": "75960620785500341"
     },
     {
       "id": "raw:15-059",

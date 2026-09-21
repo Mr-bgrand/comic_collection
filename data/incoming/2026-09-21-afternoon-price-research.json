@@ -1,0 +1,845 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-09-21T13:55:24.037Z",
+  "sourceRowAudit": {
+    "sets": 14,
+    "rows": 97,
+    "normalizedBrowserCaptureLength": 5544,
+    "fnv1a": 2429109941
+  },
+  "coverage": "PriceCharting rendered raw-sale tables; ComicBookRealm exact-edition CGC Analyzer; SportsCardsPro exact-card pages; Sports Card Investor public pages; direct eBay listing and MyComicShop/COMC search results; Marvel publisher and retailer identity catalogs. No fresh exhaustive Heritage, ComicLink, paid GoCollect or GPA archive review in this pass.",
+  "rawReferences": [
+    {
+      "upc": "75960620740401021",
+      "productId": "6874850",
+      "url": "https://www.pricecharting.com/game/comic-books-captain-america/captain-america-young-10-2024",
+      "sales": [
+        [
+          "166869356205",
+          "2026-08-17",
+          5
+        ],
+        [
+          "117085872321",
+          "2026-08-02",
+          5
+        ],
+        [
+          "405217052030",
+          "2026-07-25",
+          6.73
+        ],
+        [
+          "127739643114",
+          "2026-07-02",
+          5
+        ],
+        [
+          "236655982504",
+          "2026-06-18",
+          4.99
+        ],
+        [
+          "306047003555",
+          "2026-04-26",
+          4.99
+        ],
+        [
+          "157616760436",
+          "2026-03-21",
+          3.14
+        ],
+        [
+          "387163672891",
+          "2026-03-14",
+          3.49
+        ]
+      ],
+      "caveat": "Eight matching 2026 color-trade rows; conflicting-year row excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:168512141894",
+          "url": "https://www.ebay.com/itm/168512141894",
+          "reason": "Conflicting 2022 metadata / 2024 title."
+        }
+      ]
+    },
+    {
+      "upc": "75960620774900921",
+      "productId": "6874872",
+      "url": "https://www.pricecharting.com/game/comic-books-captain-marvel/captain-marvel-young-9-2024",
+      "sales": [
+        [
+          "186369777985",
+          "2026-09-19",
+          4.99
+        ],
+        [
+          "205387867657",
+          "2026-09-08",
+          3.99
+        ],
+        [
+          "267530799685",
+          "2026-08-05",
+          2.99
+        ],
+        [
+          "117090758470",
+          "2026-08-02",
+          5
+        ],
+        [
+          "117085875881",
+          "2026-07-02",
+          5
+        ],
+        [
+          "364978937903",
+          "2026-05-28",
+          5
+        ],
+        [
+          "366249950911",
+          "2026-05-24",
+          4.99
+        ],
+        [
+          "387163725713",
+          "2026-05-24",
+          3.2
+        ]
+      ],
+      "caveat": "Eight matching 2026 raw rows; misclassified graded 9.8 row excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:336497342075",
+          "url": "https://www.ebay.com/itm/336497342075",
+          "reason": "Graded 9.8 listing in raw table."
+        }
+      ]
+    },
+    {
+      "upc": "75960620534901621",
+      "productId": "6874778",
+      "url": "https://www.pricecharting.com/game/comic-books-doctor-strange/doctor-strange-young-16-2024",
+      "sales": [
+        [
+          "336076892714",
+          "2026-07-17",
+          3
+        ],
+        [
+          "366249998447",
+          "2026-05-24",
+          3.99
+        ],
+        [
+          "387165671637",
+          "2026-03-14",
+          2.89
+        ],
+        [
+          "305623223627",
+          "2026-03-13",
+          3.75
+        ],
+        [
+          "236378679798",
+          "2026-03-12",
+          5.02
+        ]
+      ],
+      "caveat": "Five matching 2026 color-trade rows; 1:50 sketch and minimum-purchase listings excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:336596727453",
+          "url": "https://www.ebay.com/itm/336596727453",
+          "reason": "1:50 sketch."
+        },
+        {
+          "transactionId": "ebay:127844438214",
+          "url": "https://www.ebay.com/itm/127844438214",
+          "reason": "Minimum purchase."
+        },
+        {
+          "transactionId": "ebay:336545162494",
+          "url": "https://www.ebay.com/itm/336545162494",
+          "reason": "1:50 sketch."
+        },
+        {
+          "transactionId": "ebay:137152100416",
+          "url": "https://www.ebay.com/itm/137152100416",
+          "reason": "1:50 sketch."
+        }
+      ]
+    },
+    {
+      "upc": "75960620424301931",
+      "productId": "6874782",
+      "url": "https://www.pricecharting.com/game/comic-books-invincible-iron-man/invincible-iron-man-young-19-2024",
+      "sales": [
+        [
+          "166869364153",
+          "2026-08-15",
+          4
+        ],
+        [
+          "126984192821",
+          "2026-07-02",
+          5
+        ],
+        [
+          "266893452449",
+          "2026-05-29",
+          4.99
+        ],
+        [
+          "366249972963",
+          "2026-05-24",
+          3.99
+        ],
+        [
+          "157379013992",
+          "2026-05-24",
+          4.95
+        ],
+        [
+          "306047023970",
+          "2026-04-26",
+          4.99
+        ],
+        [
+          "235564195669",
+          "2026-04-07",
+          3.97
+        ],
+        [
+          "364989908549",
+          "2026-03-18",
+          6.99
+        ],
+        [
+          "127698490586",
+          "2026-03-01",
+          0.99
+        ]
+      ],
+      "caveat": "Nine matching 2026 color-trade raw comparisons. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+      "excluded": []
+    },
+    {
+      "upc": "75960620908800331",
+      "productId": "7096697",
+      "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-the-ghost-spider/spider-gwen-the-ghost-spider-young-3-2024",
+      "sales": [
+        [
+          "366204738107",
+          "2026-07-08",
+          3.99
+        ],
+        [
+          "127873115004",
+          "2026-05-26",
+          3.99
+        ],
+        [
+          "236089922349",
+          "2026-05-01",
+          4.99
+        ],
+        [
+          "305757861319",
+          "2026-04-26",
+          4.99
+        ],
+        [
+          "358362911716",
+          "2026-03-29",
+          0.99
+        ],
+        [
+          "197946157973",
+          "2026-02-16",
+          4
+        ],
+        [
+          "196531677163",
+          "2026-01-12",
+          7.31
+        ],
+        [
+          "306601206586",
+          "2025-11-24",
+          2.25
+        ]
+      ],
+      "caveat": "Eight matching color-trade raw comparisons within a year; conflicting-year row excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:286724531758",
+          "url": "https://www.ebay.com/itm/286724531758",
+          "reason": "Conflicting 2019 metadata / 2024 title."
+        }
+      ]
+    },
+    {
+      "upc": "75960620531801021",
+      "productId": "6903200",
+      "url": "https://www.pricecharting.com/game/comic-books-daredevil/daredevil-young-10-2024",
+      "sales": [
+        [
+          "407167191079",
+          "2026-09-03",
+          2.25
+        ],
+        [
+          "157725250332",
+          "2026-08-03",
+          5.99
+        ],
+        [
+          "127820288781",
+          "2026-08-02",
+          5
+        ],
+        [
+          "127820288713",
+          "2026-07-02",
+          5
+        ],
+        [
+          "137284381690",
+          "2026-05-13",
+          5.5
+        ],
+        [
+          "326889852732",
+          "2026-04-26",
+          4.19
+        ],
+        [
+          "236361900593",
+          "2026-03-12",
+          4.95
+        ],
+        [
+          "296508411358",
+          "2026-02-23",
+          4.69
+        ]
+      ],
+      "caveat": "Eight matching 2026 color-trade raw comparisons; sketch edition excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:167723480547",
+          "url": "https://www.ebay.com/itm/167723480547",
+          "reason": "Sketch variant."
+        }
+      ]
+    },
+    {
+      "upc": "75960620828900131",
+      "productId": "6838259",
+      "url": "https://www.pricecharting.com/game/comic-books-scarlet-witch/scarlet-witch-young-1-2024",
+      "sales": [
+        [
+          "286097256321",
+          "2026-07-25",
+          12.95
+        ],
+        [
+          "306232889577",
+          "2026-07-09",
+          3.9
+        ],
+        [
+          "336497343466",
+          "2026-03-27",
+          4.89
+        ],
+        [
+          "156264304044",
+          "2026-03-22",
+          4.99
+        ],
+        [
+          "145821794845",
+          "2026-03-14",
+          4.99
+        ],
+        [
+          "186832418458",
+          "2026-03-02",
+          9.99
+        ],
+        [
+          "176423288584",
+          "2026-02-19",
+          4.99
+        ],
+        [
+          "136734047563",
+          "2026-02-10",
+          4.96
+        ],
+        [
+          "257091602114",
+          "2026-02-06",
+          4.99
+        ]
+      ],
+      "caveat": "Nine matching 2026 color-trade raw comparisons. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+      "excluded": []
+    },
+    {
+      "upc": "75960620785500821",
+      "productId": "6838224",
+      "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-young-8-2024",
+      "sales": [
+        [
+          "236977560867",
+          "2026-08-06",
+          1.4
+        ],
+        [
+          "156264290689",
+          "2026-07-11",
+          4.99
+        ],
+        [
+          "298396824446",
+          "2026-06-21",
+          3.99
+        ],
+        [
+          "226963274723",
+          "2026-05-22",
+          2.75
+        ],
+        [
+          "227118026869",
+          "2026-05-20",
+          5
+        ],
+        [
+          "298298369628",
+          "2026-05-17",
+          1.75
+        ],
+        [
+          "188348463303",
+          "2026-05-06",
+          4.45
+        ]
+      ],
+      "caveat": "Seven matching 2026 color-trade raw comparisons; presale and 1:50 listing excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:176308035843",
+          "url": "https://www.ebay.com/itm/176308035843",
+          "reason": "Presale."
+        },
+        {
+          "transactionId": "ebay:226766630323",
+          "url": "https://www.ebay.com/itm/226766630323",
+          "reason": "1:50 incentive."
+        }
+      ]
+    },
+    {
+      "upc": "75960620663601321",
+      "productId": "6838177",
+      "url": "https://www.pricecharting.com/game/comic-books-incredible-hulk/the-incredible-hulk-young-13-2024",
+      "sales": [
+        [
+          "375868107732",
+          "2026-09-06",
+          9.99
+        ],
+        [
+          "306232861299",
+          "2026-07-09",
+          3.9
+        ],
+        [
+          "117190441853",
+          "2026-07-02",
+          5
+        ],
+        [
+          "178252663833",
+          "2026-07-02",
+          15
+        ],
+        [
+          "186491898368",
+          "2026-06-18",
+          3.49
+        ],
+        [
+          "406344846723",
+          "2026-06-12",
+          3.99
+        ],
+        [
+          "157378990536",
+          "2026-05-24",
+          5.95
+        ],
+        [
+          "135111505650",
+          "2026-04-18",
+          3.45
+        ]
+      ],
+      "caveat": "Eight matching 2026 color-trade raw comparisons; 1:50 sketch excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:226762381983",
+          "url": "https://www.ebay.com/itm/226762381983",
+          "reason": "1:50 sketch."
+        }
+      ]
+    },
+    {
+      "upc": "75960620289802121",
+      "productId": "6838156",
+      "url": "https://www.pricecharting.com/game/comic-books-fantastic-four/fantastic-four-young-21-2024",
+      "sales": [
+        [
+          "176311976316",
+          "2026-09-11",
+          5.99
+        ],
+        [
+          "166869361638",
+          "2026-08-16",
+          4
+        ],
+        [
+          "127926052322",
+          "2026-07-02",
+          5
+        ],
+        [
+          "306831920846",
+          "2026-06-30",
+          4.95
+        ],
+        [
+          "375422430079",
+          "2026-05-23",
+          4.43
+        ],
+        [
+          "186891451844",
+          "2026-05-08",
+          3.99
+        ],
+        [
+          "365897771697",
+          "2026-03-14",
+          4.44
+        ],
+        [
+          "236361900605",
+          "2026-03-12",
+          4.95
+        ],
+        [
+          "305602719398",
+          "2026-02-27",
+          3.75
+        ]
+      ],
+      "caveat": "Nine matching 2026 color-trade raw comparisons. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+      "excluded": []
+    },
+    {
+      "upc": "75960620785500416",
+      "productId": "6376634",
+      "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-tan-4-2024",
+      "sales": [
+        [
+          "336063426678",
+          "2025-07-20",
+          5.54
+        ],
+        [
+          "236051336705",
+          "2025-04-13",
+          5
+        ],
+        [
+          "335826305571",
+          "2025-03-03",
+          3.98
+        ],
+        [
+          "335227006982",
+          "2025-01-17",
+          24.32
+        ]
+      ],
+      "caveat": "Stale history: four 2025 raw sales, latest July 20, 2025; no sale within a year. Historical reference, not a current market appraisal. Older 2024 rows excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:364881321155",
+          "url": "https://www.ebay.com/itm/364881321155",
+          "reason": "Older 2024 sale."
+        },
+        {
+          "transactionId": "ebay:126361240704",
+          "url": "https://www.ebay.com/itm/126361240704",
+          "reason": "Older 2024 sale."
+        },
+        {
+          "transactionId": "ebay:296282835806",
+          "url": "https://www.ebay.com/itm/296282835806",
+          "reason": "Older 2024 sale."
+        },
+        {
+          "transactionId": "ebay:176184384597",
+          "url": "https://www.ebay.com/itm/176184384597",
+          "reason": "Older 2024 sale and conflicting year."
+        },
+        {
+          "transactionId": "ebay:126341570731",
+          "url": "https://www.ebay.com/itm/126341570731",
+          "reason": "Older 2024 sale."
+        }
+      ]
+    },
+    {
+      "upc": "75960620426701521",
+      "productId": "6838160",
+      "url": "https://www.pricecharting.com/game/comic-books-avengers/avengers-young-15-2024",
+      "sales": [
+        [
+          "157737375631",
+          "2026-07-11",
+          3.99
+        ],
+        [
+          "800242629166",
+          "2026-07-02",
+          3.98
+        ],
+        [
+          "126984182388",
+          "2026-07-02",
+          5
+        ],
+        [
+          "186491904693",
+          "2026-06-19",
+          3.49
+        ],
+        [
+          "266806662447",
+          "2026-06-03",
+          4.44
+        ],
+        [
+          "157552874129",
+          "2026-05-30",
+          11.8
+        ],
+        [
+          "116513193766",
+          "2026-05-07",
+          5
+        ]
+      ],
+      "caveat": "Seven matching 2026 color-trade raw comparisons; presale and damaged sketch excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:176308048266",
+          "url": "https://www.ebay.com/itm/176308048266",
+          "reason": "Presale."
+        },
+        {
+          "transactionId": "ebay:318351055112",
+          "url": "https://www.ebay.com/itm/318351055112",
+          "reason": "Damaged 1:50 sketch."
+        }
+      ]
+    },
+    {
+      "upc": "75960620785500161",
+      "productId": "5836278",
+      "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-campana-1-2023",
+      "sales": [
+        [
+          "375087655702",
+          "2026-08-09",
+          4.99
+        ],
+        [
+          "257643304755",
+          "2026-07-31",
+          0.99
+        ],
+        [
+          "188384923826",
+          "2026-05-24",
+          2.09
+        ],
+        [
+          "235278255730",
+          "2026-03-03",
+          5.99
+        ],
+        [
+          "295938376473",
+          "2026-02-09",
+          5.63
+        ],
+        [
+          "365921809008",
+          "2026-01-28",
+          4.44
+        ]
+      ],
+      "caveat": "Six matching 2026 ordinary Campana raw comparisons; three LCSD listings excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:326159404692",
+          "url": "https://www.ebay.com/itm/326159404692",
+          "reason": "LCSD variant."
+        },
+        {
+          "transactionId": "ebay:135444074403",
+          "url": "https://www.ebay.com/itm/135444074403",
+          "reason": "LCSD variant."
+        },
+        {
+          "transactionId": "ebay:196076722860",
+          "url": "https://www.ebay.com/itm/196076722860",
+          "reason": "LCSD variant."
+        }
+      ],
+      "identityNote": "Exact owner UPC 75960620785500161 and Chris Campana cover matched to retailer catalog and Marvel preview. PriceCharting omits UPC; ordinary color trade cover, not LCSD."
+    },
+    {
+      "upc": "75960620785500341",
+      "productId": "6303991",
+      "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-medina-3-2024",
+      "sales": [
+        [
+          "375122625632",
+          "2026-09-08",
+          5.35
+        ]
+      ],
+      "caveat": "Thin history: only one matching sale reported within a year; older 2024-2025 rows excluded. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:386784516045",
+          "url": "https://www.ebay.com/itm/386784516045",
+          "reason": "Older March 2025 sale."
+        },
+        {
+          "transactionId": "ebay:235402468018",
+          "url": "https://www.ebay.com/itm/235402468018",
+          "reason": "Older January 2025 sale."
+        },
+        {
+          "transactionId": "ebay:266997307957",
+          "url": "https://www.ebay.com/itm/266997307957",
+          "reason": "Older January 2025 sale."
+        },
+        {
+          "transactionId": "ebay:166955214933",
+          "url": "https://www.ebay.com/itm/166955214933",
+          "reason": "Older 2024 sale."
+        },
+        {
+          "transactionId": "ebay:196304094217",
+          "url": "https://www.ebay.com/itm/196304094217",
+          "reason": "Older 2024 sale."
+        },
+        {
+          "transactionId": "ebay:126303097525",
+          "url": "https://www.ebay.com/itm/126303097525",
+          "reason": "Older 2024 sale."
+        },
+        {
+          "transactionId": "ebay:387002946503",
+          "url": "https://www.ebay.com/itm/387002946503",
+          "reason": "Older 2024 sale and conflicting year."
+        },
+        {
+          "transactionId": "ebay:315203421744",
+          "url": "https://www.ebay.com/itm/315203421744",
+          "reason": "Older 2024 sale."
+        }
+      ]
+    }
+  ],
+  "gradedSearches": [
+    {
+      "copyId": "CGC:4418876005",
+      "item": "X-Men #27 Trinity Comics Edition (2023), CGC Universal 9.4",
+      "reason": "ComicBookRealm exact-edition table shows no 9.4 sale or estimate. Its 9.6 and 9.8 entries are different grades. PriceCharting results mix trade/virgin raw copies; MyComicShop has no matching stock. No exact paid 9.4 comparison established.",
+      "urls": [
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/328104/marvel-comics-x-men-27trinity-nycc-trinity-comics-edition",
+        "https://www.pricecharting.com/game/comic-books-x-men/x-men-momoko-27-2023",
+        "https://www.mycomicshop.com/search?AffID=738603P01&PubRng=&pubid=&q=x-men+27"
+      ]
+    },
+    {
+      "copyId": "CGC:4424144008",
+      "item": "Marvel's Voices: Spider-Verse #1 Su Virgin Sketch Edition (2023), CGC Universal 9.4",
+      "reason": "PriceCharting places a June 26, 2025 $15 Su Virgin Sketch raw row inside the base-edition page. Wrong condition basis and mixed catalog; not used as a graded 9.4 value. No matching paid 9.4 result established.",
+      "urls": [
+        "https://www.pricecharting.com/ru/game/comic-books-marvel's-voices-spider-verse/marvel's-voices-spider-verse-1-2023"
+      ]
+    },
+    {
+      "copyId": "PSA:114218224",
+      "item": "2024 Panini Obsidian Eclipsing Legends Warner/Murray #9, PSA 8",
+      "reason": "SportsCardsPro exact base #9 page has zero Grade 8 sold listings and no graded value. Red and Purple parallel prices do not apply. COMC search result is an asking price, not a completed transaction.",
+      "urls": [
+        "https://www.sportscardspro.com/game/football-cards-2024-panini-obsidian-eclipsing-legends/kurt-warner-kyler-murray-9",
+        "https://www.comc.com/Players/Football/Kurt_Warner/c44877/Cards/Football%2Csh%2CvText%2Ci100"
+      ]
+    },
+    {
+      "copyId": "PSA:160521636",
+      "item": "2025 Topps x Bob Ross Sandy Koufax #71 Sap Green /75, PSA 9",
+      "reason": "SportsCardsPro has zero Grade 9 sold listings and no Grade 9 value; its PSA 10 sale and raw rows are not comparable grades. Sports Card Investor exact-card public page exposes no usable sale figures.",
+      "urls": [
+        "https://www.sportscardspro.com/game/baseball-cards-2025-topps-x-bob-ross/sandy-koufax-sap-green-71",
+        "https://www.sportscardinvestor.com/cards/sandy-koufax-baseball/2025-topps-bob-ross-the-joy-of-baseball-sap-green-71"
+      ]
+    },
+    {
+      "copyId": "PSA:160521637",
+      "item": "2025 Topps x Bob Ross Coby Mayo #91G Autograph Sap Green /75, PSA 10",
+      "reason": "eBay item 406182483894 is a $170 ungraded asking price with inconsistent print-run metadata. Other results were raw active auctions or the non-autograph base card. No exact PSA 10 paid comparison established.",
+      "urls": [
+        "https://www.ebay.com/itm/406182483894",
+        "https://www.sportscardinvestor.com/cards/coby-mayo-baseball/2025-topps-bob-ross-the-joy-of-baseball-base-91"
+      ]
+    }
+  ],
+  "unresolvedScans": [
+    {
+      "ids": [
+        "raw:15-034",
+        "raw:15-035",
+        "raw:15-036"
+      ],
+      "reason": "Disney homage covers inspected but front scans do not show a usable full UPC. Homage title on artwork is not sufficient to establish the underlying comic edition."
+    },
+    {
+      "ids": [
+        "raw:15-059"
+      ],
+      "reason": "Reflective signed Kyle Willis Spider-Boy bridge cover; exact specialty finish/release not verified. Do not substitute ordinary trade-cover prices."
+    }
+  ],
+  "next": "Continue unreviewed readable owner-scan barcodes beyond 15-059 and fresh graded leads. Revisit these excluded graded sources only when new matching evidence appears."
+}
