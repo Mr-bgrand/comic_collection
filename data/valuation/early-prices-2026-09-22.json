@@ -1,0 +1,882 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "raw:15-084",
+      "revision": "97474f53fa951a5603a2dbadf149d4481c4b5a8d92e15449c0dbe62d249790bd",
+      "observations": [
+        {
+          "id": "early-2026-09-22-raw-15-084",
+          "copyId": "raw:15-084",
+          "basis": "raw-reference",
+          "value": 3.25,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-the-ghost-spider/spider-gwen-the-ghost-spider-frison-1-2024",
+            "asOf": "2026-08-21",
+            "retrievedAt": "2026-09-22T01:54:52.031Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Spider-Gwen: The Ghost-Spider",
+              "issue": "1",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Jenny Frison Variant",
+              "upc": "75960620908800131",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-the-ghost-spider/spider-gwen-the-ghost-spider-frison-1-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-22T01:54:52.031Z",
+            "notes": "Exact full UPC 75960620908800131 and owned title/edition matched to PriceCharting product 6768342. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:128026749350",
+                "sourceUrl": "https://www.ebay.com/itm/128026749350",
+                "soldAt": "2026-08-21",
+                "value": 3.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:188624194142",
+                "sourceUrl": "https://www.ebay.com/itm/188624194142",
+                "soldAt": "2026-07-18",
+                "value": 1.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:227133261874",
+                "sourceUrl": "https://www.ebay.com/itm/227133261874",
+                "soldAt": "2026-07-16",
+                "value": 4.27,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:318397709094",
+                "sourceUrl": "https://www.ebay.com/itm/318397709094",
+                "soldAt": "2026-06-17",
+                "value": 4.38,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:127903528034",
+                "sourceUrl": "https://www.ebay.com/itm/127903528034",
+                "soldAt": "2026-06-11",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:406937523734",
+                "sourceUrl": "https://www.ebay.com/itm/406937523734",
+                "soldAt": "2026-05-26",
+                "value": 1.05,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:188380835936",
+                "sourceUrl": "https://www.ebay.com/itm/188380835936",
+                "soldAt": "2026-05-24",
+                "value": 5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:267616956603",
+                "sourceUrl": "https://www.ebay.com/itm/267616956603",
+                "soldAt": "2026-05-21",
+                "value": 2.95,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:127848786383",
+                "sourceUrl": "https://www.ebay.com/itm/127848786383",
+                "soldAt": "2026-05-13",
+                "value": 4,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-085",
+      "revision": "97474f53fa951a5603a2dbadf149d4481c4b5a8d92e15449c0dbe62d249790bd",
+      "observations": [
+        {
+          "id": "early-2026-09-22-raw-15-085",
+          "copyId": "raw:15-085",
+          "basis": "raw-reference",
+          "value": 5.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-vengeance-of-the-moon-knight/vengeance-of-the-moon-knight-young-6-2024",
+            "asOf": "2026-09-05",
+            "retrievedAt": "2026-09-22T01:54:52.031Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Vengeance of the Moon Knight",
+              "issue": "6",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Skottie Young Big Marvels Variant",
+              "upc": "75960620807400621",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-vengeance-of-the-moon-knight/vengeance-of-the-moon-knight-young-6-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-22T01:54:52.031Z",
+            "notes": "Exact full UPC 75960620807400621 and owned title/edition matched to PriceCharting product 6903424. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:206354011463",
+                "sourceUrl": "https://www.ebay.com/itm/206354011463",
+                "soldAt": "2026-09-05",
+                "value": 8.96,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:166869355157",
+                "sourceUrl": "https://www.ebay.com/itm/166869355157",
+                "soldAt": "2026-08-15",
+                "value": 5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:198453787369",
+                "sourceUrl": "https://www.ebay.com/itm/198453787369",
+                "soldAt": "2026-08-05",
+                "value": 8.07,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:327119123801",
+                "sourceUrl": "https://www.ebay.com/itm/327119123801",
+                "soldAt": "2026-07-03",
+                "value": 9.49,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:126984197818",
+                "sourceUrl": "https://www.ebay.com/itm/126984197818",
+                "soldAt": "2026-07-02",
+                "value": 5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:306975181212",
+                "sourceUrl": "https://www.ebay.com/itm/306975181212",
+                "soldAt": "2026-06-08",
+                "value": 4,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:167955606660",
+                "sourceUrl": "https://www.ebay.com/itm/167955606660",
+                "soldAt": "2026-03-07",
+                "value": 5.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-086",
+      "revision": "97474f53fa951a5603a2dbadf149d4481c4b5a8d92e15449c0dbe62d249790bd",
+      "observations": [
+        {
+          "id": "early-2026-09-22-raw-15-086",
+          "copyId": "raw:15-086",
+          "basis": "raw-reference",
+          "value": 9,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-x-men/x-men-young-35-2024",
+            "asOf": "2026-09-04",
+            "retrievedAt": "2026-09-22T01:54:52.031Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "X-Men",
+              "issue": "35",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Skottie Young Big Marvels Variant",
+              "upc": "75960609999303531",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-x-men/x-men-young-35-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-22T01:54:52.031Z",
+            "notes": "Exact full UPC 75960609999303531 and owned title/edition matched to PriceCharting product 6795440. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:287546993154",
+                "sourceUrl": "https://www.ebay.com/itm/287546993154",
+                "soldAt": "2026-09-04",
+                "value": 3,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:178308998862",
+                "sourceUrl": "https://www.ebay.com/itm/178308998862",
+                "soldAt": "2026-07-16",
+                "value": 15,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:366467541615",
+                "sourceUrl": "https://www.ebay.com/itm/366467541615",
+                "soldAt": "2026-06-14",
+                "value": 6.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:135427726469",
+                "sourceUrl": "https://www.ebay.com/itm/135427726469",
+                "soldAt": "2026-05-30",
+                "value": 13.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:364936820575",
+                "sourceUrl": "https://www.ebay.com/itm/364936820575",
+                "soldAt": "2026-05-28",
+                "value": 10,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:365565191827",
+                "sourceUrl": "https://www.ebay.com/itm/365565191827",
+                "soldAt": "2026-05-18",
+                "value": 8,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-087",
+      "revision": "97474f53fa951a5603a2dbadf149d4481c4b5a8d92e15449c0dbe62d249790bd",
+      "observations": [
+        {
+          "id": "early-2026-09-22-raw-15-087",
+          "copyId": "raw:15-087",
+          "basis": "raw-reference",
+          "value": 3.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-jackpot-and-black-cat/jackpot-and-black-cat-young-4-2024",
+            "asOf": "2026-09-11",
+            "retrievedAt": "2026-09-22T01:54:52.031Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Jackpot & Black Cat",
+              "issue": "4",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Skottie Young Big Marvels Variant",
+              "upc": "75960620833300421",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-jackpot-and-black-cat/jackpot-and-black-cat-young-4-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-22T01:54:52.031Z",
+            "notes": "Exact full UPC 75960620833300421 and owned title/edition matched to PriceCharting product 6903724. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:176311983525",
+                "sourceUrl": "https://www.ebay.com/itm/176311983525",
+                "soldAt": "2026-09-11",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:116758115681",
+                "sourceUrl": "https://www.ebay.com/itm/116758115681",
+                "soldAt": "2026-08-12",
+                "value": 3.19,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236977558251",
+                "sourceUrl": "https://www.ebay.com/itm/236977558251",
+                "soldAt": "2026-08-06",
+                "value": 0.75,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:116513204843",
+                "sourceUrl": "https://www.ebay.com/itm/116513204843",
+                "soldAt": "2026-07-02",
+                "value": 5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236864932796",
+                "sourceUrl": "https://www.ebay.com/itm/236864932796",
+                "soldAt": "2026-06-22",
+                "value": 8,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:137348939472",
+                "sourceUrl": "https://www.ebay.com/itm/137348939472",
+                "soldAt": "2026-06-01",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:405497357720",
+                "sourceUrl": "https://www.ebay.com/itm/405497357720",
+                "soldAt": "2026-04-10",
+                "value": 3.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-088",
+      "revision": "97474f53fa951a5603a2dbadf149d4481c4b5a8d92e15449c0dbe62d249790bd",
+      "observations": [
+        {
+          "id": "early-2026-09-22-raw-15-088",
+          "copyId": "raw:15-088",
+          "basis": "raw-reference",
+          "value": 3.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-bagley-5-2024",
+            "asOf": "2026-01-08",
+            "retrievedAt": "2026-09-22T01:54:52.031Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Spider-Boy",
+              "issue": "5",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Mark Bagley Variant",
+              "upc": "75960620785500531",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-bagley-5-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-22T01:54:52.031Z",
+            "notes": "Exact full UPC 75960620785500531 and owned title/edition matched to PriceCharting product 6480501. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Only three matching sales within a year; thin history. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:257039686744",
+                "sourceUrl": "https://www.ebay.com/itm/257039686744",
+                "soldAt": "2026-01-08",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:386911899215",
+                "sourceUrl": "https://www.ebay.com/itm/386911899215",
+                "soldAt": "2026-01-06",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:235705930689",
+                "sourceUrl": "https://www.ebay.com/itm/235705930689",
+                "soldAt": "2025-12-13",
+                "value": 2.19,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Only three matching sales within a year; thin history. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-089",
+      "revision": "97474f53fa951a5603a2dbadf149d4481c4b5a8d92e15449c0dbe62d249790bd",
+      "observations": [
+        {
+          "id": "early-2026-09-22-raw-15-089",
+          "copyId": "raw:15-089",
+          "basis": "raw-reference",
+          "value": 3.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-venom/venom-young-34-2024",
+            "asOf": "2026-08-14",
+            "retrievedAt": "2026-09-22T01:54:52.031Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Venom",
+              "issue": "34",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Skottie Young Big Marvels Variant",
+              "upc": "75960620191403421",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-venom/venom-young-34-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-22T01:54:52.031Z",
+            "notes": "Exact full UPC 75960620191403421 and owned title/edition matched to PriceCharting product 6795451. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:166869347387",
+                "sourceUrl": "https://www.ebay.com/itm/166869347387",
+                "soldAt": "2026-08-14",
+                "value": 4,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:298396826325",
+                "sourceUrl": "https://www.ebay.com/itm/298396826325",
+                "soldAt": "2026-07-15",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:156264233138",
+                "sourceUrl": "https://www.ebay.com/itm/156264233138",
+                "soldAt": "2026-07-11",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:407030531543",
+                "sourceUrl": "https://www.ebay.com/itm/407030531543",
+                "soldAt": "2026-07-07",
+                "value": 4,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:298298370047",
+                "sourceUrl": "https://www.ebay.com/itm/298298370047",
+                "soldAt": "2026-05-17",
+                "value": 1.75,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:335376835055",
+                "sourceUrl": "https://www.ebay.com/itm/335376835055",
+                "soldAt": "2026-04-05",
+                "value": 3.94,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:227246261218",
+                "sourceUrl": "https://www.ebay.com/itm/227246261218",
+                "soldAt": "2026-03-14",
+                "value": 0.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-091",
+      "revision": "97474f53fa951a5603a2dbadf149d4481c4b5a8d92e15449c0dbe62d249790bd",
+      "observations": [
+        {
+          "id": "early-2026-09-22-raw-15-091",
+          "copyId": "raw:15-091",
+          "basis": "raw-reference",
+          "value": 4.72,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-campana-1-2023",
+            "asOf": "2026-08-09",
+            "retrievedAt": "2026-09-22T01:54:52.031Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Spider-Boy",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "Chris Campana Variant",
+              "upc": "75960620785500161",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-campana-1-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-22T01:54:52.031Z",
+            "notes": "Owned full UPC 75960620785500161 and color Campana cover confirmed against GCD issue 2576274. PriceCharting has no UPC and mixes LCSD copies; explicit LCSD rows excluded. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:375087655702",
+                "sourceUrl": "https://www.ebay.com/itm/375087655702",
+                "soldAt": "2026-08-09",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:257643304755",
+                "sourceUrl": "https://www.ebay.com/itm/257643304755",
+                "soldAt": "2026-07-31",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:188384923826",
+                "sourceUrl": "https://www.ebay.com/itm/188384923826",
+                "soldAt": "2026-05-24",
+                "value": 2.09,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:235278255730",
+                "sourceUrl": "https://www.ebay.com/itm/235278255730",
+                "soldAt": "2026-03-03",
+                "value": 5.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:295938376473",
+                "sourceUrl": "https://www.ebay.com/itm/295938376473",
+                "soldAt": "2026-02-09",
+                "value": 5.63,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:365921809008",
+                "sourceUrl": "https://www.ebay.com/itm/365921809008",
+                "soldAt": "2026-01-28",
+                "value": 4.44,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-090",
+      "revision": "97474f53fa951a5603a2dbadf149d4481c4b5a8d92e15449c0dbe62d249790bd",
+      "observations": [
+        {
+          "id": "early-2026-09-22-raw-15-090",
+          "copyId": "raw:15-090",
+          "basis": "raw-reference",
+          "value": 4.71,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-x-men-blood-hunt-jubilee/x-men-blood-hunt-jubilee-young-1-2024",
+            "asOf": "2026-09-19",
+            "retrievedAt": "2026-09-22T01:54:52.031Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "X-Men: Blood Hunt - Jubilee",
+              "issue": "1",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Skottie Young Big Marvels Variant",
+              "upc": "75960620875300141",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-x-men-blood-hunt-jubilee/x-men-blood-hunt-jubilee-young-1-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-22T01:54:52.031Z",
+            "notes": "Exact full UPC 75960620875300141 and owned title/edition matched to PriceCharting product 6838234. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:266806662456",
+                "sourceUrl": "https://www.ebay.com/itm/266806662456",
+                "soldAt": "2026-09-19",
+                "value": 4.42,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:116758115779",
+                "sourceUrl": "https://www.ebay.com/itm/116758115779",
+                "soldAt": "2026-09-15",
+                "value": 3.19,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:326349479957",
+                "sourceUrl": "https://www.ebay.com/itm/326349479957",
+                "soldAt": "2026-09-05",
+                "value": 8.49,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:376125785654",
+                "sourceUrl": "https://www.ebay.com/itm/376125785654",
+                "soldAt": "2026-07-11",
+                "value": 7.75,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:116524594209",
+                "sourceUrl": "https://www.ebay.com/itm/116524594209",
+                "soldAt": "2026-07-02",
+                "value": 5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:405497356671",
+                "sourceUrl": "https://www.ebay.com/itm/405497356671",
+                "soldAt": "2026-04-21",
+                "value": 3.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-096",
+      "revision": "97474f53fa951a5603a2dbadf149d4481c4b5a8d92e15449c0dbe62d249790bd",
+      "observations": [
+        {
+          "id": "early-2026-09-22-raw-15-096",
+          "copyId": "raw:15-096",
+          "basis": "raw-reference",
+          "value": 4.36,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-spider-gwen/spider-gwen-2-2016",
+            "asOf": "2026-06-08",
+            "retrievedAt": "2026-09-22T01:54:52.031Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Spider-Gwen",
+              "issue": "2",
+              "issueYear": "2015",
+              "publisher": "Marvel Comics",
+              "variant": "Robbi Rodriguez Cover A",
+              "upc": "75960608313800211",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-spider-gwen/spider-gwen-2-2016",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-22T01:54:52.031Z",
+            "notes": "Full UPC 75960608313800211 matches Marvel release November 11, 2015 and PriceCharting product 2399340 dated by its January 2016 cover date. Only explicitly named Robbi Rodriguez cover retained. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Only one clearly named Rodriguez-cover comparison retained; thin history. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:374955925030",
+                "sourceUrl": "https://www.ebay.com/itm/374955925030",
+                "soldAt": "2026-06-08",
+                "value": 4.36,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Only one clearly named Rodriguez-cover comparison retained; thin history. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+        }
+      ]
+    }
+  ]
+}
