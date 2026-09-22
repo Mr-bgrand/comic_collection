@@ -1,0 +1,1919 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-09-22T18:05:50.036Z",
+  "sourceRowAudit": {
+    "editions": 9,
+    "rawTables": 9,
+    "selectedRows": 138,
+    "excludedRows": 109,
+    "normalizedBrowserCaptureLength": 6073,
+    "fnv1a": 3335569097
+  },
+  "coverage": "Nine live rendered PriceCharting raw-sale tables, plus the generic Campbell #14 table and Moon Man table; individual owned scans and catalog images compared. Original HipComic closed auction and its photo inspected but excluded because the comparison copy has an additional autograph. Fresh indexed graded searches broadened to Sports Card Investor, SportsCardsPro, eBay, ComicBookRealm, HiBid, Setlot, Fanatics Collect, retailers and publisher pages. No newly verified paid GoCollect value or independently verified completed payment for selected PriceCharting rows.",
+  "rawReferences": [
+    {
+      "copyIds": [
+        "raw:15-075"
+      ],
+      "productId": "3726742",
+      "url": "https://www.pricecharting.com/game/comic-books-amazing-mary-jane/the-amazing-mary-jane-campbell-b-1-2019",
+      "sales": [
+        [
+          "168675324542",
+          "2026-09-11",
+          39.99
+        ],
+        [
+          "198629997441",
+          "2026-09-10",
+          25
+        ],
+        [
+          "137445343949",
+          "2026-07-04",
+          49.99
+        ],
+        [
+          "147280274513",
+          "2026-05-05",
+          38
+        ],
+        [
+          "277281211655",
+          "2026-03-19",
+          59.99
+        ],
+        [
+          "116805945660",
+          "2025-10-13",
+          15
+        ]
+      ],
+      "identityNote": "Individually inspected owned front Raw_15-075_FRONT.jpg. Catalog identifies cover B as 2,500 copies; owned coffee/ripped-jeans/Spider-Man-top illustration matches product 3726742. Printed artist flourish is part of the artwork; no signature premium added. Identity only; condition remains unassessed.",
+      "caveat": "PriceCharting-reported sales; completed payment was not independently verified. Seller condition descriptions and repeated listing titles do not establish owned condition or independent buyers. Median of selected matching rows from the preceding year is only an edition reference, excluded from accepted collection totals.",
+      "excluded": [
+        {
+          "transactionId": "ebay:387361451804",
+          "url": "https://www.ebay.com/itm/387361451804",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:186841805744",
+          "url": "https://www.ebay.com/itm/186841805744",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:256701190923",
+          "url": "https://www.ebay.com/itm/256701190923",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:146083688681",
+          "url": "https://www.ebay.com/itm/146083688681",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:276625436738",
+          "url": "https://www.ebay.com/itm/276625436738",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:186510292239",
+          "url": "https://www.ebay.com/itm/186510292239",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:285937178591",
+          "url": "https://www.ebay.com/itm/285937178591",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:186532023375",
+          "url": "https://www.ebay.com/itm/186532023375",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:156122158544",
+          "url": "https://www.ebay.com/itm/156122158544",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:226010738540",
+          "url": "https://www.ebay.com/itm/226010738540",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:296228736398",
+          "url": "https://www.ebay.com/itm/296228736398",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:225974942708",
+          "url": "https://www.ebay.com/itm/225974942708",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:325962518982",
+          "url": "https://www.ebay.com/itm/325962518982",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:185702389709",
+          "url": "https://www.ebay.com/itm/185702389709",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:225792817319",
+          "url": "https://www.ebay.com/itm/225792817319",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:256055851785",
+          "url": "https://www.ebay.com/itm/256055851785",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:166243244126",
+          "url": "https://www.ebay.com/itm/166243244126",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:314726450216",
+          "url": "https://www.ebay.com/itm/314726450216",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:166230333432",
+          "url": "https://www.ebay.com/itm/166230333432",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:166215289225",
+          "url": "https://www.ebay.com/itm/166215289225",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:374746738435",
+          "url": "https://www.ebay.com/itm/374746738435",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:295553871723",
+          "url": "https://www.ebay.com/itm/295553871723",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:298315841151",
+          "url": "https://www.ebay.com/itm/298315841151",
+          "reason": "Cover letter unspecified."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-081"
+      ],
+      "upc": "75960620785500321",
+      "productId": "6303992",
+      "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-vicentini-3-2024",
+      "sales": [
+        [
+          "317362732813",
+          "2026-06-13",
+          1.99
+        ],
+        [
+          "235410209325",
+          "2026-03-03",
+          4.99
+        ]
+      ],
+      "identityNote": "Individually inspected owned front Raw_15-081_FRONT.jpg. Owned image of Spider-Boy crouching on a car windshield wiper matches the catalog artwork, not issue 12. UPC is catalog-sourced, not read from this front scan. Identity only; condition remains unassessed.",
+      "caveat": "Thin history: only two selected sales. PriceCharting-reported sales; completed payment was not independently verified. Seller condition descriptions and repeated listing titles do not establish owned condition or independent buyers. Median of selected matching rows from the preceding year is only an edition reference, excluded from accepted collection totals.",
+      "excluded": [
+        {
+          "transactionId": "ebay:386784483701",
+          "url": "https://www.ebay.com/itm/386784483701",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:177173296948",
+          "url": "https://www.ebay.com/itm/177173296948",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:177115704320",
+          "url": "https://www.ebay.com/itm/177115704320",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:176877981980",
+          "url": "https://www.ebay.com/itm/176877981980",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:176842371238",
+          "url": "https://www.ebay.com/itm/176842371238",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:156669114991",
+          "url": "https://www.ebay.com/itm/156669114991",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:176809152206",
+          "url": "https://www.ebay.com/itm/176809152206",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:266568179489",
+          "url": "https://www.ebay.com/itm/266568179489",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:196304090713",
+          "url": "https://www.ebay.com/itm/196304090713",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:395318959954",
+          "url": "https://www.ebay.com/itm/395318959954",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:186273484337",
+          "url": "https://www.ebay.com/itm/186273484337",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:196231266679",
+          "url": "https://www.ebay.com/itm/196231266679",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:296140470733",
+          "url": "https://www.ebay.com/itm/296140470733",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:315319593712",
+          "url": "https://www.ebay.com/itm/315319593712",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:204640448345",
+          "url": "https://www.ebay.com/itm/204640448345",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:315248396374",
+          "url": "https://www.ebay.com/itm/315248396374",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:386797519723",
+          "url": "https://www.ebay.com/itm/386797519723",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:315168010199",
+          "url": "https://www.ebay.com/itm/315168010199",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:315154591383",
+          "url": "https://www.ebay.com/itm/315154591383",
+          "reason": "Older than the one-year comparison window."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-078"
+      ],
+      "productId": "5076276",
+      "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-campbell-j-14-2019",
+      "sales": [
+        [
+          "116049374812",
+          "2025-10-23",
+          20
+        ],
+        [
+          "177366687876",
+          "2025-10-11",
+          19.99
+        ]
+      ],
+      "identityNote": "Individually inspected owned front Raw_15-078_FRONT.jpg. Owned issue 14/LGY815, white border and color Spider-Man on broken logo match artist cover A, limited to 3,000. HipComic 19870529 has the same cover but an additional large brown autograph, absent from owned scan; its $28 sale is excluded. Identity only; condition remains unassessed.",
+      "caveat": "Thin history: only two selected sales. Matching cover A rows are misfiled in the Campbell J table; selected row titles explicitly identify A. Most recent qualifying sale is nearly a year old. PriceCharting-reported sales; completed payment was not independently verified. Seller condition descriptions and repeated listing titles do not establish owned condition or independent buyers. Median of selected matching rows from the preceding year is only an edition reference, excluded from accepted collection totals.",
+      "excluded": [
+        {
+          "transactionId": "ebay:326518290344",
+          "url": "https://www.ebay.com/itm/326518290344",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:306049746173",
+          "url": "https://www.ebay.com/itm/306049746173",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:226815788428",
+          "url": "https://www.ebay.com/itm/226815788428",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:235424017677",
+          "url": "https://www.ebay.com/itm/235424017677",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:355029886592",
+          "url": "https://www.ebay.com/itm/355029886592",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:226575041485",
+          "url": "https://www.ebay.com/itm/226575041485",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:365419937797",
+          "url": "https://www.ebay.com/itm/365419937797",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:256810375913",
+          "url": "https://www.ebay.com/itm/256810375913",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:196985931666",
+          "url": "https://www.ebay.com/itm/196985931666",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:226509144494",
+          "url": "https://www.ebay.com/itm/226509144494",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:256757276295",
+          "url": "https://www.ebay.com/itm/256757276295",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:255881032890",
+          "url": "https://www.ebay.com/itm/255881032890",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:256735679444",
+          "url": "https://www.ebay.com/itm/256735679444",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:256735679447",
+          "url": "https://www.ebay.com/itm/256735679447",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:137556804870",
+          "url": "https://www.ebay.com/itm/137556804870",
+          "reason": "Cover letter unspecified."
+        },
+        {
+          "transactionId": "ebay:235003925868",
+          "url": "https://www.ebay.com/itm/235003925868",
+          "reason": "Cover letter unspecified."
+        },
+        {
+          "transactionId": "ebay:147414062061",
+          "url": "https://www.ebay.com/itm/147414062061",
+          "reason": "Different cover: Mary Jane, Black Cat, Gwen or sketch edition, not color cover A."
+        },
+        {
+          "transactionId": "ebay:278144394643",
+          "url": "https://www.ebay.com/itm/278144394643",
+          "reason": "Different cover: Mary Jane, Black Cat, Gwen or sketch edition, not color cover A."
+        },
+        {
+          "transactionId": "ebay:257231519123",
+          "url": "https://www.ebay.com/itm/257231519123",
+          "reason": "Different cover: Mary Jane, Black Cat, Gwen or sketch edition, not color cover A."
+        },
+        {
+          "transactionId": "ebay:267649025028",
+          "url": "https://www.ebay.com/itm/267649025028",
+          "reason": "Different cover: Mary Jane, Black Cat, Gwen or sketch edition, not color cover A."
+        },
+        {
+          "transactionId": "ebay:377111168717",
+          "url": "https://www.ebay.com/itm/377111168717",
+          "reason": "Different cover: Mary Jane, Black Cat, Gwen or sketch edition, not color cover A."
+        },
+        {
+          "transactionId": "ebay:227207504688",
+          "url": "https://www.ebay.com/itm/227207504688",
+          "reason": "Different cover: Mary Jane, Black Cat, Gwen or sketch edition, not color cover A."
+        },
+        {
+          "transactionId": "ebay:376991372339",
+          "url": "https://www.ebay.com/itm/376991372339",
+          "reason": "Different cover: Mary Jane, Black Cat, Gwen or sketch edition, not color cover A."
+        },
+        {
+          "transactionId": "ebay:406701562525",
+          "url": "https://www.ebay.com/itm/406701562525",
+          "reason": "Different cover: Mary Jane, Black Cat, Gwen or sketch edition, not color cover A."
+        },
+        {
+          "transactionId": "ebay:188036984556",
+          "url": "https://www.ebay.com/itm/188036984556",
+          "reason": "Different cover: Mary Jane, Black Cat, Gwen or sketch edition, not color cover A."
+        },
+        {
+          "transactionId": "ebay:187776775057",
+          "url": "https://www.ebay.com/itm/187776775057",
+          "reason": "Different cover: Mary Jane, Black Cat, Gwen or sketch edition, not color cover A."
+        },
+        {
+          "transactionId": "ebay:257195266377",
+          "url": "https://www.ebay.com/itm/257195266377",
+          "reason": "Different cover: Mary Jane, Black Cat, Gwen or sketch edition, not color cover A."
+        },
+        {
+          "transactionId": "ebay:257171714398",
+          "url": "https://www.ebay.com/itm/257171714398",
+          "reason": "Different cover: Mary Jane, Black Cat, Gwen or sketch edition, not color cover A."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-028"
+      ],
+      "upc": "75960620200305131",
+      "productId": "6795432",
+      "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-young-51-2024",
+      "sales": [
+        [
+          "206470866825",
+          "2026-08-10",
+          4.66
+        ],
+        [
+          "405358431479",
+          "2026-08-02",
+          11.48
+        ],
+        [
+          "267362164597",
+          "2026-06-29",
+          2.95
+        ],
+        [
+          "156264286590",
+          "2026-06-02",
+          4.99
+        ],
+        [
+          "196816131749",
+          "2026-05-12",
+          4.99
+        ],
+        [
+          "406851483065",
+          "2026-04-19",
+          0.99
+        ],
+        [
+          "296481181836",
+          "2026-04-13",
+          4.69
+        ],
+        [
+          "156239106881",
+          "2026-04-01",
+          4.29
+        ],
+        [
+          "116892072792",
+          "2026-03-26",
+          9.5
+        ],
+        [
+          "168013080306",
+          "2026-03-16",
+          3
+        ],
+        [
+          "256741332221",
+          "2026-03-03",
+          3.99
+        ],
+        [
+          "116987445204",
+          "2026-01-22",
+          5
+        ],
+        [
+          "305639130465",
+          "2026-01-20",
+          8
+        ],
+        [
+          "236390921950",
+          "2026-01-06",
+          9.92
+        ],
+        [
+          "335376649654",
+          "2026-01-03",
+          4.73
+        ],
+        [
+          "395591698679",
+          "2025-12-17",
+          3.99
+        ],
+        [
+          "357933722559",
+          "2025-11-29",
+          6.99
+        ],
+        [
+          "336267650200",
+          "2025-11-14",
+          5.5
+        ],
+        [
+          "236441095347",
+          "2025-11-14",
+          5.5
+        ],
+        [
+          "156276755300",
+          "2025-11-13",
+          4.25
+        ],
+        [
+          "236418716006",
+          "2025-11-07",
+          3.25
+        ],
+        [
+          "336256187877",
+          "2025-11-04",
+          5.99
+        ],
+        [
+          "405225679939",
+          "2025-11-01",
+          4.99
+        ],
+        [
+          "236405098063",
+          "2025-10-30",
+          3.17
+        ],
+        [
+          "236389314170",
+          "2025-10-23",
+          5.5
+        ],
+        [
+          "336221073634",
+          "2025-10-16",
+          5.5
+        ]
+      ],
+      "identityNote": "Individually inspected owned front Raw_15-028_FRONT.jpg. Full barcode read from owned front; white background, blue title, color baby Spider-Man. Not the black-and-white 1:50 variant. Identity only; condition remains unassessed.",
+      "caveat": "PriceCharting-reported sales; completed payment was not independently verified. Seller condition descriptions and repeated listing titles do not establish owned condition or independent buyers. Median of selected matching rows from the preceding year is only an edition reference, excluded from accepted collection totals.",
+      "excluded": [
+        {
+          "transactionId": "ebay:117302526056",
+          "url": "https://www.ebay.com/itm/117302526056",
+          "reason": "Conflicting cover B label; no individual image verification."
+        },
+        {
+          "transactionId": "ebay:236969702027",
+          "url": "https://www.ebay.com/itm/236969702027",
+          "reason": "1:50 incentive rather than owned color edition."
+        },
+        {
+          "transactionId": "ebay:386992551309",
+          "url": "https://www.ebay.com/itm/386992551309",
+          "reason": "Conflicting cover D label; no individual image verification."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-029"
+      ],
+      "upc": "75960620705300421",
+      "productId": "6903462",
+      "url": "https://www.pricecharting.com/game/comic-books-x-men-%2797/x-men-%2797-young-4-2024",
+      "sales": [
+        [
+          "236710325670",
+          "2026-08-28",
+          4.99
+        ],
+        [
+          "336741329740",
+          "2026-08-21",
+          4.99
+        ],
+        [
+          "236979439974",
+          "2026-08-07",
+          1.34
+        ],
+        [
+          "405065710416",
+          "2026-07-19",
+          3.49
+        ],
+        [
+          "176883426414",
+          "2026-07-17",
+          3.99
+        ],
+        [
+          "196465320571",
+          "2026-07-08",
+          8.02
+        ],
+        [
+          "116513208742",
+          "2026-07-02",
+          5
+        ],
+        [
+          "186521397244",
+          "2026-06-18",
+          3.49
+        ],
+        [
+          "306975180208",
+          "2026-06-08",
+          5
+        ],
+        [
+          "147319175681",
+          "2026-05-26",
+          1.34
+        ],
+        [
+          "236063817371",
+          "2026-04-28",
+          1.8
+        ],
+        [
+          "376808334123",
+          "2026-04-25",
+          10.99
+        ],
+        [
+          "198237004282",
+          "2026-04-11",
+          4.99
+        ],
+        [
+          "145851978667",
+          "2026-03-14",
+          3.99
+        ],
+        [
+          "296508409019",
+          "2026-03-13",
+          3.75
+        ],
+        [
+          "365895611848",
+          "2026-03-12",
+          5.95
+        ],
+        [
+          "176443949503",
+          "2026-02-24",
+          2.99
+        ],
+        [
+          "236622774212",
+          "2026-02-19",
+          2.42
+        ],
+        [
+          "204853838350",
+          "2026-02-17",
+          4.99
+        ],
+        [
+          "267456296836",
+          "2026-02-04",
+          3.79
+        ],
+        [
+          "376838837713",
+          "2026-01-13",
+          3.99
+        ],
+        [
+          "256553015357",
+          "2026-01-11",
+          4.99
+        ],
+        [
+          "176794916298",
+          "2026-01-02",
+          9.95
+        ],
+        [
+          "226214074309",
+          "2025-12-25",
+          10.99
+        ],
+        [
+          "315534449309",
+          "2025-12-07",
+          4.78
+        ],
+        [
+          "177580463389",
+          "2025-11-21",
+          1
+        ],
+        [
+          "336267650154",
+          "2025-11-14",
+          1.35
+        ]
+      ],
+      "identityNote": "Individually inspected owned front Raw_15-029_FRONT.jpg. Full barcode read from owned front; color baby Storm, purple cloud and trade dress. Not the black-and-white virgin incentive. Identity only; condition remains unassessed.",
+      "caveat": "PriceCharting-reported sales; completed payment was not independently verified. Seller condition descriptions and repeated listing titles do not establish owned condition or independent buyers. Median of selected matching rows from the preceding year is only an edition reference, excluded from accepted collection totals.",
+      "excluded": [
+        {
+          "transactionId": "ebay:117401410805",
+          "url": "https://www.ebay.com/itm/117401410805",
+          "reason": "Conflicting cover C label; no individual image verification."
+        },
+        {
+          "transactionId": "ebay:236580764223",
+          "url": "https://www.ebay.com/itm/236580764223",
+          "reason": "Only 2025 appears in listing title; exact issue year not independently verified."
+        },
+        {
+          "transactionId": "ebay:286936773981",
+          "url": "https://www.ebay.com/itm/286936773981",
+          "reason": "1:50 black-and-white virgin, not owned color edition."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-030"
+      ],
+      "upc": "75960620709100821",
+      "productId": "6795517",
+      "url": "https://www.pricecharting.com/game/comic-books-carnage/carnage-young-8-2024",
+      "sales": [
+        [
+          "157552817720",
+          "2026-07-21",
+          11.89
+        ],
+        [
+          "157828916219",
+          "2026-07-18",
+          5
+        ],
+        [
+          "146054925877",
+          "2026-05-30",
+          6.72
+        ],
+        [
+          "205781487510",
+          "2026-04-24",
+          4.19
+        ],
+        [
+          "397715967499",
+          "2026-03-22",
+          9.35
+        ],
+        [
+          "267030818090",
+          "2026-03-12",
+          7.79
+        ],
+        [
+          "285893595480",
+          "2026-02-24",
+          5.84
+        ],
+        [
+          "116907959831",
+          "2026-02-07",
+          6.75
+        ],
+        [
+          "236578409236",
+          "2026-01-23",
+          4.25
+        ],
+        [
+          "226322101041",
+          "2026-01-22",
+          2.24
+        ],
+        [
+          "256532894084",
+          "2026-01-16",
+          5.99
+        ],
+        [
+          "336377565750",
+          "2026-01-16",
+          4.25
+        ],
+        [
+          "305602697408",
+          "2026-01-12",
+          4.69
+        ],
+        [
+          "236554124330",
+          "2026-01-09",
+          4
+        ],
+        [
+          "358047331079",
+          "2025-12-31",
+          3.35
+        ],
+        [
+          "236527464519",
+          "2025-12-26",
+          3.77
+        ],
+        [
+          "236514610740",
+          "2025-12-19",
+          3
+        ],
+        [
+          "357995359001",
+          "2025-12-15",
+          3.89
+        ],
+        [
+          "236501749728",
+          "2025-12-12",
+          4.25
+        ],
+        [
+          "236488453702",
+          "2025-12-05",
+          6.5
+        ],
+        [
+          "236469882815",
+          "2025-11-28",
+          2.01
+        ],
+        [
+          "297759638201",
+          "2025-11-23",
+          5.5
+        ],
+        [
+          "236450982079",
+          "2025-11-21",
+          2.36
+        ],
+        [
+          "236433473375",
+          "2025-11-14",
+          2.58
+        ],
+        [
+          "336272815516",
+          "2025-11-14",
+          5.25
+        ],
+        [
+          "336255442016",
+          "2025-11-07",
+          5
+        ],
+        [
+          "236405098051",
+          "2025-10-30",
+          2.5
+        ]
+      ],
+      "identityNote": "Individually inspected owned front Raw_15-030_FRONT.jpg. Full barcode read from owned front; red baby Carnage with trade dress. Not the black-and-white sketch incentive. Identity only; condition remains unassessed.",
+      "caveat": "PriceCharting-reported sales; completed payment was not independently verified. Seller condition descriptions and repeated listing titles do not establish owned condition or independent buyers. Median of selected matching rows from the preceding year is only an edition reference, excluded from accepted collection totals.",
+      "excluded": [
+        {
+          "transactionId": "ebay:336788623592",
+          "url": "https://www.ebay.com/itm/336788623592",
+          "reason": "1:50 incentive."
+        },
+        {
+          "transactionId": "ebay:167723475728",
+          "url": "https://www.ebay.com/itm/167723475728",
+          "reason": "Sketch incentive."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-040"
+      ],
+      "upc": "75960620664301221",
+      "productId": "6874771",
+      "url": "https://www.pricecharting.com/game/comic-books-immortal-thor/immortal-thor-young-12-2024",
+      "sales": [
+        [
+          "137675496210",
+          "2026-09-09",
+          6.1
+        ],
+        [
+          "166869362655",
+          "2026-08-15",
+          5
+        ],
+        [
+          "306232866214",
+          "2026-07-09",
+          3.9
+        ],
+        [
+          "126984192325",
+          "2026-07-02",
+          5
+        ],
+        [
+          "376664443988",
+          "2026-06-19",
+          4.99
+        ],
+        [
+          "157378838776",
+          "2026-06-17",
+          4.95
+        ],
+        [
+          "256564890811",
+          "2026-05-29",
+          4.99
+        ],
+        [
+          "364978946389",
+          "2026-05-28",
+          6
+        ],
+        [
+          "366249956985",
+          "2026-05-25",
+          4.95
+        ],
+        [
+          "235564192795",
+          "2026-04-22",
+          4.75
+        ],
+        [
+          "176795068231",
+          "2026-03-25",
+          7.96
+        ],
+        [
+          "156265422200",
+          "2026-03-22",
+          4.99
+        ],
+        [
+          "296513487797",
+          "2026-03-15",
+          3.99
+        ],
+        [
+          "135108744327",
+          "2026-03-05",
+          4.25
+        ],
+        [
+          "375435897066",
+          "2026-02-25",
+          5.33
+        ],
+        [
+          "296508391694",
+          "2026-02-23",
+          4.69
+        ],
+        [
+          "387165696313",
+          "2026-01-04",
+          7.79
+        ],
+        [
+          "236082851514",
+          "2025-11-06",
+          3.99
+        ],
+        [
+          "236344797026",
+          "2025-10-02",
+          10.5
+        ],
+        [
+          "127397032045",
+          "2025-10-01",
+          2.99
+        ],
+        [
+          "336181557935",
+          "2025-09-25",
+          2.25
+        ]
+      ],
+      "identityNote": "Individually inspected owned front Raw_15-040_FRONT.jpg. Full barcode read from owned front; color baby Thor holding Mjolnir. Not the sketch incentive. Identity only; condition remains unassessed.",
+      "caveat": "PriceCharting-reported sales; completed payment was not independently verified. Seller condition descriptions and repeated listing titles do not establish owned condition or independent buyers. Median of selected matching rows from the preceding year is only an edition reference, excluded from accepted collection totals.",
+      "excluded": [
+        {
+          "transactionId": "ebay:336170105614",
+          "url": "https://www.ebay.com/itm/336170105614",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:336158202604",
+          "url": "https://www.ebay.com/itm/336158202604",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:236289483689",
+          "url": "https://www.ebay.com/itm/236289483689",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:326388753688",
+          "url": "https://www.ebay.com/itm/326388753688",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:236283634015",
+          "url": "https://www.ebay.com/itm/236283634015",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:166963195011",
+          "url": "https://www.ebay.com/itm/166963195011",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:356701613855",
+          "url": "https://www.ebay.com/itm/356701613855",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:117190441501",
+          "url": "https://www.ebay.com/itm/117190441501",
+          "reason": "Quoted $2 is subject to a $5 minimum purchase; not a standalone comparison."
+        },
+        {
+          "transactionId": "ebay:167723488234",
+          "url": "https://www.ebay.com/itm/167723488234",
+          "reason": "Sketch incentive."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-041"
+      ],
+      "upc": "75960620874600141",
+      "productId": "6795512",
+      "url": "https://www.pricecharting.com/game/comic-books-wolverine-blood-hunt/wolverine-blood-hunt-young-1-2024",
+      "sales": [
+        [
+          "166869348186",
+          "2026-08-14",
+          5
+        ],
+        [
+          "326152721044",
+          "2026-07-27",
+          3.99
+        ],
+        [
+          "176449169142",
+          "2026-07-19",
+          3.99
+        ],
+        [
+          "257424627356",
+          "2026-07-14",
+          4.99
+        ],
+        [
+          "267679863651",
+          "2026-07-09",
+          3
+        ],
+        [
+          "266961619545",
+          "2026-06-10",
+          5.8
+        ],
+        [
+          "267375224527",
+          "2026-05-29",
+          4.99
+        ],
+        [
+          "366341887130",
+          "2026-05-16",
+          5.82
+        ],
+        [
+          "166816702172",
+          "2026-05-10",
+          4.69
+        ],
+        [
+          "227328586134",
+          "2026-05-06",
+          6.89
+        ],
+        [
+          "168307033646",
+          "2026-04-18",
+          2.99
+        ],
+        [
+          "187002603984",
+          "2026-04-11",
+          3.99
+        ],
+        [
+          "206169770309",
+          "2026-03-31",
+          2.25
+        ],
+        [
+          "206108357563",
+          "2026-03-08",
+          2.51
+        ],
+        [
+          "257158190084",
+          "2026-03-03",
+          1.99
+        ],
+        [
+          "257000150621",
+          "2026-02-28",
+          3.99
+        ],
+        [
+          "387349547939",
+          "2026-01-28",
+          3.99
+        ],
+        [
+          "296481179658",
+          "2026-01-04",
+          3.75
+        ],
+        [
+          "136869923779",
+          "2025-12-28",
+          5
+        ],
+        [
+          "406170047699",
+          "2025-12-17",
+          3
+        ],
+        [
+          "375410163826",
+          "2025-12-16",
+          4.5
+        ],
+        [
+          "286936773977",
+          "2025-11-19",
+          3.51
+        ],
+        [
+          "236433473376",
+          "2025-11-14",
+          3.06
+        ],
+        [
+          "336255451762",
+          "2025-11-07",
+          4.53
+        ],
+        [
+          "336244996641",
+          "2025-10-30",
+          1.92
+        ]
+      ],
+      "identityNote": "Individually inspected owned front Raw_15-041_FRONT.jpg. Full barcode read from owned front; color baby Wolverine with Blood Hunt trade dress. Not the black-and-white virgin incentive. Identity only; condition remains unassessed.",
+      "caveat": "PriceCharting-reported sales; completed payment was not independently verified. Seller condition descriptions and repeated listing titles do not establish owned condition or independent buyers. Median of selected matching rows from the preceding year is only an edition reference, excluded from accepted collection totals.",
+      "excluded": [
+        {
+          "transactionId": "ebay:287087592572",
+          "url": "https://www.ebay.com/itm/287087592572",
+          "reason": "Title says issue 4 while table says issue 1; unresolved conflict."
+        },
+        {
+          "transactionId": "ebay:136820763167",
+          "url": "https://www.ebay.com/itm/136820763167",
+          "reason": "1:50 black-and-white virgin, not owned color edition."
+        },
+        {
+          "transactionId": "ebay:136636198266",
+          "url": "https://www.ebay.com/itm/136636198266",
+          "reason": "1:50 black-and-white virgin, not owned color edition."
+        },
+        {
+          "transactionId": "ebay:136634788563",
+          "url": "https://www.ebay.com/itm/136634788563",
+          "reason": "1:50 black-and-white virgin, not owned color edition."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-039"
+      ],
+      "upc": "75960620785500171",
+      "productId": "6106260",
+      "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-local-comic-shop-1-2023",
+      "sales": [
+        [
+          "225776467688",
+          "2026-01-31",
+          5.95
+        ],
+        [
+          "266738342014",
+          "2025-11-17",
+          5.95
+        ]
+      ],
+      "identityNote": "Individually inspected owned front Raw_15-039_FRONT.jpg. Owned Spider-Man above upside-down Spider-Boy on a stone gargoyle and Local Comic Shop Day logo match catalog product 6106260. January 2024 cover date, released November 2023; catalog uses release year. UPC is catalog-sourced, not visible on this front. Identity only; condition remains unassessed.",
+      "caveat": "Thin history: only two selected sales. PriceCharting-reported sales; completed payment was not independently verified. Seller condition descriptions and repeated listing titles do not establish owned condition or independent buyers. Median of selected matching rows from the preceding year is only an edition reference, excluded from accepted collection totals.",
+      "excluded": [
+        {
+          "transactionId": "ebay:305249621009",
+          "url": "https://www.ebay.com/itm/305249621009",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:387031827307",
+          "url": "https://www.ebay.com/itm/387031827307",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:325814276617",
+          "url": "https://www.ebay.com/itm/325814276617",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:326159404692",
+          "url": "https://www.ebay.com/itm/326159404692",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:374941778507",
+          "url": "https://www.ebay.com/itm/374941778507",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:355825487204",
+          "url": "https://www.ebay.com/itm/355825487204",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:335136600896",
+          "url": "https://www.ebay.com/itm/335136600896",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:126124501738",
+          "url": "https://www.ebay.com/itm/126124501738",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:115963231817",
+          "url": "https://www.ebay.com/itm/115963231817",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:266629979599",
+          "url": "https://www.ebay.com/itm/266629979599",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:256402914359",
+          "url": "https://www.ebay.com/itm/256402914359",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:235417877825",
+          "url": "https://www.ebay.com/itm/235417877825",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:134793442287",
+          "url": "https://www.ebay.com/itm/134793442287",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:225859673181",
+          "url": "https://www.ebay.com/itm/225859673181",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:394968962008",
+          "url": "https://www.ebay.com/itm/394968962008",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:386241555951",
+          "url": "https://www.ebay.com/itm/386241555951",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:404669220219",
+          "url": "https://www.ebay.com/itm/404669220219",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:395021119227",
+          "url": "https://www.ebay.com/itm/395021119227",
+          "reason": "Older than the one-year comparison window."
+        }
+      ]
+    }
+  ],
+  "additionalExclusions": [
+    {
+      "transactionId": "ebay:227485649768",
+      "sourceUrl": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-campbell-14-2019",
+      "reason": "Wrong cover: Cover B"
+    },
+    {
+      "transactionId": "ebay:227125002951",
+      "sourceUrl": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-campbell-14-2019",
+      "reason": "Wrong cover: Cover M/Gwen, grade 9.8"
+    },
+    {
+      "transactionId": "ebay:306650515339",
+      "sourceUrl": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-campbell-14-2019",
+      "reason": "Wrong cover: Gwen cover"
+    },
+    {
+      "transactionId": "ebay:306650523134",
+      "sourceUrl": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-campbell-14-2019",
+      "reason": "Wrong cover: Mary Jane cover"
+    },
+    {
+      "transactionId": "ebay:187038940631",
+      "sourceUrl": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-campbell-14-2019",
+      "reason": "Wrong cover: Black Cat cover"
+    },
+    {
+      "transactionId": "hipcomic:19870529",
+      "url": "https://www.hipcomic.com/listing/the-amazing-spider-man-14-campbell-cover-a-2019/19870529",
+      "date": "2025-12-28",
+      "reportedSoldPrice": 28,
+      "reason": "Original closed auction inspected. Its photo has a large brown Campbell autograph absent from owned front. Title omits the autograph; excluded despite matching cover A."
+    }
+  ],
+  "gradedSearches": [
+    {
+      "copyId": "CGC:6001871064",
+      "identity": "Blaine, 1999 Japanese Gym 2 Non-Holo, CGC 9",
+      "method": "Fresh indexed search and retrieved source results; no newly verified original graded sale.",
+      "finding": "Fresh indexed exact searches including Fanatics Collect. Setlot still offers an unlinked July 20, 2026 $8.40 row in a mixed-card table; the original transaction is unverified. No value imported.",
+      "sources": [
+        "https://app.setlot.com/catalog/pokemon/japanese-challenge-from-the-darkness/blaine"
+      ]
+    },
+    {
+      "copyId": "CGC:4480291001",
+      "identity": "Wonder Woman #1, Rose Besch, 2023, CGCxJSA 9.8",
+      "method": "Fresh indexed search and retrieved source results; no newly verified original graded sale.",
+      "finding": "Indexed PriceCharting, ComicBookRealm, eBay and Walmart results. Owned record is CGCxJSA; signature details need verification. Universal estimates and Signature Series offers cannot establish its value.",
+      "sources": [
+        "https://www.pricecharting.com/game/comic-books-wonder-woman/wonder-woman-besch-1-2023",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/324878/dc-comics-wonder-woman-1h-besch-variant-cover"
+      ]
+    },
+    {
+      "copyId": "CGC:4386585004",
+      "identity": "The Addiction #1, NYCC Mack Virgin, 2023, CGC 9.8",
+      "method": "Fresh indexed search and retrieved source results; no newly verified original graded sale.",
+      "finding": "Publisher and indexed eBay results advertise embossed Mack variants, including an active $150 listing. The owned virgin finish was not established as the same edition. No value imported.",
+      "sources": [
+        "https://shop.theaddiction.co/products/addiction-nycc-cgc",
+        "https://www.ebay.com/itm/257182162605"
+      ]
+    },
+    {
+      "copyId": "PSA:160521636",
+      "identity": "Sandy Koufax #71, 2025 Topps x Bob Ross Sap Green /75, PSA 9",
+      "method": "Fresh indexed search and retrieved source results; no newly verified original graded sale.",
+      "finding": "Fresh exact search. Sports Card Investor exact parallel page masks prices in indexed results; no grade-9 completed sale verified. #71G autograph and other colors/years excluded.",
+      "sources": [
+        "https://www.sportscardinvestor.com/cards/sandy-koufax-baseball/2025-topps-bob-ross-the-joy-of-baseball-sap-green-71"
+      ]
+    },
+    {
+      "copyId": "PSA:160521637",
+      "identity": "Coby Mayo #91G, 2025 Bob Ross Autograph Sap Green /75, PSA 10",
+      "method": "Fresh indexed search and retrieved source results; no newly verified original graded sale.",
+      "finding": "Fresh searches returned raw Sap Green offers and PSA 10 Titanium White /35, not a matching graded completed sale. SCI base #91 is not the autograph.",
+      "sources": [
+        "https://www.sportscardinvestor.com/cards/coby-mayo-baseball/2025-topps-bob-ross-the-joy-of-baseball-base-91",
+        "https://onlygreats.com/hottest-sports-cards/coby-mayo/"
+      ]
+    },
+    {
+      "copyId": "PSA:114218231",
+      "identity": "Trey Benson RMI-TBN, 2024 Panini Obsidian Rookie Materials Ink, PSA 9",
+      "method": "Fresh indexed search and retrieved source results; no newly verified original graded sale.",
+      "finding": "Exact searches found active White parallel/ungraded patch offers, not a verified matching PSA 9 sale.",
+      "sources": [
+        "https://www.breakninja.com/Football-And-More-Search-Box-Top-100-Results-With-Minimum-1-Bid.php?Search=Arizona+Cardinals&submit=Go"
+      ]
+    },
+    {
+      "copyId": "PSA:114218224",
+      "identity": "Warner/Murray #9, 2024 Obsidian Eclipsing Legends, PSA 8",
+      "method": "Fresh indexed search and retrieved source results; no newly verified original graded sale.",
+      "finding": "An indexed HiBid $22 closed result is Immaculate PSA 9: wrong set and grade. No matching completed sale verified.",
+      "sources": [
+        "https://hibid.com/catalog/743050/silver-coins--proof-sets--comics-and-sports-cards"
+      ]
+    },
+    {
+      "copyId": "PSA:121297947",
+      "identity": "Pikachu #173, 2023 Korean 151 Art Rare, PSA 6",
+      "method": "Fresh indexed search and retrieved source results; no newly verified original graded sale.",
+      "finding": "Fresh searches returned an English PSA 6 offer and Korean PSA 8 offer. Language and grade mismatches excluded.",
+      "sources": [
+        "https://www.ebay.com/p/12062911546",
+        "https://www.cosbears.co.uk/sets/scarlet-violet/151/pikachu-173165"
+      ]
+    },
+    {
+      "copyId": "TAG:J3594287",
+      "identity": "Jared Jones RA-JJ, 2024 Topps Chrome Update base Autographs, TAG 10",
+      "method": "Fresh indexed search and retrieved source results; no newly verified original graded sale.",
+      "finding": "Same-grade PSA search. Exact SCI page has masked indexed prices; SportsCardsPro refractor /499 PSA 10 value and a printing plate are different parallels. No fallback imported.",
+      "sources": [
+        "https://www.sportscardinvestor.com/cards/jared-jones-baseball/2024-topps-chrome-update-autographs-ra-jj",
+        "https://www.sportscardspro.com/game/baseball-cards-2024-topps-chrome-rookie-autograph/jared-jones-refractor-ra-jj"
+      ]
+    },
+    {
+      "copyId": "TAG:L4878840",
+      "identity": "Henry Davis BDC-48, 2021 Bowman Draft Sapphire Yellow /99, TAG 10",
+      "method": "Fresh indexed search and retrieved source results; no newly verified original graded sale.",
+      "finding": "Same-grade PSA searches returned 2024 Yellow /75 and 2021 Chrome Yellow Lava /75, both different parallels. No matching grade-10 completed sale verified.",
+      "sources": [
+        "https://www.sportscardinvestor.com/cards/henry-davis-baseball/2021-bowman-draft-sapphire-edition-chrome-purple-1st-bdc-48"
+      ]
+    }
+  ],
+  "additionalRawChecks": [
+    {
+      "copyId": "raw:15-068",
+      "finding": "Space Ghost #1 candidate art requires publisher comparison and finish confirmation. Regular, foil and foil-virgin editions have different UPCs. No identity change.",
+      "sources": [
+        "https://dynamite.com/SPACE-GHOST-1/",
+        "https://www.comics.org/issue/2627465/?display=grid"
+      ]
+    },
+    {
+      "copyId": "raw:15-069",
+      "finding": "Moon Man #2 Marco Locati A is a candidate. The rendered PriceCharting Newsstand table has zero sale rows; its edition label is not verified for this copy. No identity change.",
+      "sources": [
+        "https://imagecomics.com/comics/releases/moon-man-2",
+        "https://www.pricecharting.com/game/comic-books-moon-man/moon-man-newsstand-2-2024"
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-071",
+        "raw:15-018"
+      ],
+      "finding": "Individually inspected artwork; title/artist remain unresolved. No identity or value inferred."
+    },
+    {
+      "copyIds": [
+        "raw:15-002",
+        "raw:15-012",
+        "raw:15-013",
+        "raw:15-014",
+        "raw:15-015",
+        "raw:15-017",
+        "raw:15-025"
+      ],
+      "finding": "Specialty celebrity covers remain unresolved at exact title/finish level. Visible art alone does not establish foil, metal or standard stock. No identity or value changed."
+    }
+  ],
+  "remainingRaw": [
+    {
+      "copyId": "Authority:1327529703",
+      "title": "Superman",
+      "issue": "6",
+      "variant": "Besch Creator Card Stock Variant",
+      "upc": "76194137950000661"
+    },
+    {
+      "copyId": "Authority:1251463037",
+      "title": "Wolverine: Revenge",
+      "issue": "2",
+      "variant": null,
+      "upc": "75960620995800211"
+    },
+    {
+      "copyId": "Authority:4742106011",
+      "title": "Ultimate Wolverine",
+      "issue": "1",
+      "variant": null,
+      "upc": "75960621050300111"
+    },
+    {
+      "copyId": "Authority:7633260283",
+      "title": "Detective Comics",
+      "issue": "400",
+      "variant": "Blank Facsimile Edition",
+      "upc": "76194138450400121"
+    },
+    {
+      "copyId": "Authority:4845360792",
+      "title": "The Immortal Thor",
+      "issue": "15",
+      "variant": "Villalobos Variant",
+      "upc": "75960620664301521"
+    },
+    {
+      "copyId": "Authority:4841253705",
+      "title": "Wolverine",
+      "issue": "1",
+      "variant": "Adamantium Head \"V\" Variant",
+      "upc": "75960620841800118"
+    },
+    {
+      "copyId": "Authority:8796605910",
+      "title": "From The DC Vault: The Sandman",
+      "issue": "19",
+      "variant": "Remastered Variant",
+      "upc": "76194138359000111"
+    },
+    {
+      "copyId": "Authority:7861079670",
+      "title": "Detective Comics",
+      "issue": "27",
+      "variant": "Foil Facsimile Variant",
+      "upc": "76194138562400131"
+    },
+    {
+      "copyId": "raw:15-002",
+      "title": null,
+      "issue": null,
+      "variant": null
+    },
+    {
+      "copyId": "raw:15-012",
+      "title": null,
+      "issue": null,
+      "variant": null
+    },
+    {
+      "copyId": "raw:15-013",
+      "title": null,
+      "issue": null,
+      "variant": null
+    },
+    {
+      "copyId": "raw:15-014",
+      "title": null,
+      "issue": null,
+      "variant": null
+    },
+    {
+      "copyId": "raw:15-015",
+      "title": null,
+      "issue": null,
+      "variant": null
+    },
+    {
+      "copyId": "raw:15-059",
+      "title": null,
+      "issue": null,
+      "variant": null
+    },
+    {
+      "copyId": "raw:15-060",
+      "title": null,
+      "issue": null,
+      "variant": null
+    },
+    {
+      "copyId": "raw:15-068",
+      "title": null,
+      "issue": null,
+      "variant": null
+    },
+    {
+      "copyId": "raw:15-069",
+      "title": null,
+      "issue": null,
+      "variant": null
+    },
+    {
+      "copyId": "raw:15-071",
+      "title": null,
+      "issue": null,
+      "variant": null
+    },
+    {
+      "copyId": "raw:15-017",
+      "title": null,
+      "issue": null,
+      "variant": null
+    },
+    {
+      "copyId": "raw:15-082",
+      "title": null,
+      "issue": null,
+      "variant": null
+    },
+    {
+      "copyId": "raw:15-018",
+      "title": null,
+      "issue": null,
+      "variant": null
+    },
+    {
+      "copyId": "raw:15-083",
+      "title": null,
+      "issue": null,
+      "variant": null
+    },
+    {
+      "copyId": "raw:15-025",
+      "title": null,
+      "issue": null,
+      "variant": null
+    },
+    {
+      "copyId": "raw:15-056",
+      "title": null,
+      "issue": null,
+      "variant": null
+    },
+    {
+      "copyId": "raw:15-061",
+      "title": null,
+      "issue": null,
+      "variant": null
+    },
+    {
+      "copyId": "raw:15-092",
+      "title": null,
+      "issue": null,
+      "variant": null
+    },
+    {
+      "copyId": "raw:15-070",
+      "title": null,
+      "issue": null,
+      "variant": null
+    },
+    {
+      "copyId": "raw:15-093",
+      "title": null,
+      "issue": null,
+      "variant": null
+    },
+    {
+      "copyId": "raw:15-094",
+      "title": null,
+      "issue": null,
+      "variant": null
+    },
+    {
+      "copyId": "raw:15-074",
+      "title": null,
+      "issue": null,
+      "variant": null
+    },
+    {
+      "copyId": "raw:15-095",
+      "title": null,
+      "issue": null,
+      "variant": null
+    },
+    {
+      "copyId": "raw:15-077",
+      "title": null,
+      "issue": null,
+      "variant": null
+    },
+    {
+      "copyId": "Authority:8364744505",
+      "title": "Detective Comics",
+      "issue": "27",
+      "variant": "Blank Facsimile Edition",
+      "upc": "76194138562400121"
+    },
+    {
+      "copyId": "Authority:0152908938",
+      "title": "Rogue & Gambit",
+      "issue": "1",
+      "variant": "Alex Ross Mystique Timeless Virgin Variant",
+      "upc": "75960620455700151"
+    }
+  ],
+  "result": {
+    "baseline": {
+      "items": 933,
+      "valued": 397,
+      "total": 34552.27,
+      "missing": 536,
+      "starred": 324,
+      "starredTotal": 29862.39,
+      "rawMissing": 429,
+      "rawReferences": 386,
+      "rawReferenceTotal": 2368.59
+    },
+    "after": {
+      "items": 933,
+      "valued": 397,
+      "total": 34552.27,
+      "missing": 536,
+      "starred": 324,
+      "starredTotal": 29862.39,
+      "rawMissing": 429,
+      "rawReferences": 395,
+      "rawReferenceTotal": 2459.24
+    },
+    "addedGraded": 0,
+    "addedRawReferences": 9,
+    "addedValue": 0,
+    "comics": {
+      "items": 696,
+      "valued": 187,
+      "total": 14116.92,
+      "missing": 509,
+      "starred": 143,
+      "starredTotal": 10419.92,
+      "rawMissing": 429,
+      "rawReferences": 395,
+      "rawReferenceTotal": 2459.24
+    },
+    "cards": {
+      "items": 237,
+      "valued": 210,
+      "total": 20435.35,
+      "missing": 27,
+      "starred": 181,
+      "starredTotal": 19442.47,
+      "rawMissing": 0,
+      "rawReferences": 0,
+      "rawReferenceTotal": 0
+    },
+    "bin10": {
+      "items": 23,
+      "valued": 13,
+      "total": 1303.68,
+      "missing": 10,
+      "starred": 13,
+      "starredTotal": 1303.68,
+      "rawMissing": 0,
+      "rawReferences": 0,
+      "rawReferenceTotal": 0
+    },
+    "addedRecords": [
+      {
+        "copyId": "raw:15-075",
+        "container": "Comic Bin #15 (Softslabs)",
+        "item": "The Amazing Mary Jane #1",
+        "variant": "J. Scott Campbell.com Exclusive Cover B - 90s-2000s Coffee n' Jeans",
+        "grade": null,
+        "basis": "raw-reference",
+        "value": 39,
+        "star": true,
+        "url": "https://www.pricecharting.com/game/comic-books-amazing-mary-jane/the-amazing-mary-jane-campbell-b-1-2019"
+      },
+      {
+        "copyId": "raw:15-081",
+        "container": "Comic Bin #15 (Softslabs)",
+        "item": "Spider-Boy #3",
+        "variant": "Federico Vicentini Stormbreakers Variant",
+        "grade": null,
+        "basis": "raw-reference",
+        "value": 3.49,
+        "star": true,
+        "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-vicentini-3-2024"
+      },
+      {
+        "copyId": "raw:15-078",
+        "container": "Comic Bin #15 (Softslabs)",
+        "item": "Amazing Spider-Man #14",
+        "variant": "J. Scott Campbell.com Exclusive Cover A - Spider-Man",
+        "grade": null,
+        "basis": "raw-reference",
+        "value": 20,
+        "star": true,
+        "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-campbell-j-14-2019"
+      },
+      {
+        "copyId": "raw:15-028",
+        "container": "Comic Bin #15 (Softslabs)",
+        "item": "Amazing Spider-Man #51",
+        "variant": "Skottie Young Big Marvels Color Variant",
+        "grade": null,
+        "basis": "raw-reference",
+        "value": 4.99,
+        "star": true,
+        "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-young-51-2024"
+      },
+      {
+        "copyId": "raw:15-029",
+        "container": "Comic Bin #15 (Softslabs)",
+        "item": "X-Men '97 #4",
+        "variant": "Skottie Young Big Marvels Color Variant",
+        "grade": null,
+        "basis": "raw-reference",
+        "value": 3.99,
+        "star": true,
+        "url": "https://www.pricecharting.com/game/comic-books-x-men-%2797/x-men-%2797-young-4-2024"
+      },
+      {
+        "copyId": "raw:15-030",
+        "container": "Comic Bin #15 (Softslabs)",
+        "item": "Carnage #8",
+        "variant": "Skottie Young Big Marvels Color Variant",
+        "grade": null,
+        "basis": "raw-reference",
+        "value": 4.25,
+        "star": true,
+        "url": "https://www.pricecharting.com/game/comic-books-carnage/carnage-young-8-2024"
+      },
+      {
+        "copyId": "raw:15-040",
+        "container": "Comic Bin #15 (Softslabs)",
+        "item": "Immortal Thor #12",
+        "variant": "Skottie Young Big Marvels Color Variant",
+        "grade": null,
+        "basis": "raw-reference",
+        "value": 4.99,
+        "star": true,
+        "url": "https://www.pricecharting.com/game/comic-books-immortal-thor/immortal-thor-young-12-2024"
+      },
+      {
+        "copyId": "raw:15-041",
+        "container": "Comic Bin #15 (Softslabs)",
+        "item": "Wolverine: Blood Hunt #1",
+        "variant": "Skottie Young Big Marvels Color Variant",
+        "grade": null,
+        "basis": "raw-reference",
+        "value": 3.99,
+        "star": true,
+        "url": "https://www.pricecharting.com/game/comic-books-wolverine-blood-hunt/wolverine-blood-hunt-young-1-2024"
+      },
+      {
+        "copyId": "raw:15-039",
+        "container": "Comic Bin #15 (Softslabs)",
+        "item": "Spider-Boy #1",
+        "variant": "Chris Campana Local Comic Shop Day Variant",
+        "grade": null,
+        "basis": "raw-reference",
+        "value": 5.95,
+        "star": true,
+        "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-local-comic-shop-1-2023"
+      }
+    ]
+  }
+}
