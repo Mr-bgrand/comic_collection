@@ -1,0 +1,1730 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-09-22T14:10:54.073Z",
+  "sourceRowAudit": {
+    "editions": 8,
+    "rawTables": 8,
+    "selectedRows": 167,
+    "excludedRows": 62,
+    "normalizedBrowserCaptureLength": 7933,
+    "fnv1a": 295477594
+  },
+  "coverage": "Eight live rendered PriceCharting raw-sale tables, direct catalog artwork comparisons and Image Comics publisher cover gallery; live exact Ho-Oh grade-9 table and Setlot Blaine sale row. Indexed PokeValues, lastsold, Setlot, Assetra, Fanatics Collect, MyComicShop, HipComic, retailer and eBay sources checked as additional leads. No newly verified paid GoCollect valuation or independently verified completed-payment amount in this batch.",
+  "rawReferences": [
+    {
+      "copyIds": [
+        "raw:15-034"
+      ],
+      "upc": "75960620200302531",
+      "productId": "5122610",
+      "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-soffritti-25-2023",
+      "sales": [
+        [
+          "117100354230",
+          "2026-03-26",
+          5.35
+        ],
+        [
+          "336484768145",
+          "2026-03-23",
+          0.99
+        ],
+        [
+          "336471293403",
+          "2026-03-17",
+          1.25
+        ],
+        [
+          "388057787819",
+          "2026-03-10",
+          3.35
+        ],
+        [
+          "236664896222",
+          "2026-03-10",
+          0.99
+        ],
+        [
+          "336449130067",
+          "2026-03-03",
+          6.77
+        ],
+        [
+          "236639299415",
+          "2026-02-24",
+          4.25
+        ],
+        [
+          "236626844564",
+          "2026-02-17",
+          2.85
+        ],
+        [
+          "336417821491",
+          "2026-02-10",
+          0.99
+        ],
+        [
+          "374681938538",
+          "2026-02-05",
+          4.19
+        ],
+        [
+          "336407758346",
+          "2026-02-03",
+          1.7
+        ],
+        [
+          "236590250774",
+          "2026-01-27",
+          0.99
+        ],
+        [
+          "336386621424",
+          "2026-01-20",
+          1.67
+        ],
+        [
+          "187939269006",
+          "2026-01-19",
+          1.29
+        ],
+        [
+          "236566414353",
+          "2026-01-13",
+          1.77
+        ],
+        [
+          "236554095975",
+          "2026-01-06",
+          1.25
+        ],
+        [
+          "336355899601",
+          "2025-12-30",
+          4.28
+        ],
+        [
+          "236527431752",
+          "2025-12-23",
+          0.99
+        ],
+        [
+          "236501710554",
+          "2025-12-09",
+          3.8
+        ],
+        [
+          "325976230937",
+          "2025-12-06",
+          5.59
+        ],
+        [
+          "336311198846",
+          "2025-12-02",
+          3.24
+        ],
+        [
+          "145628662595",
+          "2025-11-30",
+          4.19
+        ],
+        [
+          "336294298330",
+          "2025-11-25",
+          2.76
+        ],
+        [
+          "236433458518",
+          "2025-11-11",
+          2.01
+        ],
+        [
+          "336259379659",
+          "2025-11-04",
+          3
+        ],
+        [
+          "335660981883",
+          "2025-10-04",
+          4.89
+        ],
+        [
+          "257089822578",
+          "2025-09-29",
+          5.94
+        ]
+      ],
+      "saleSources": {},
+      "identityNote": "Owned front scan Raw_15-034_FRONT.jpg individually inspected and visually matched to catalog artwork. Red-and-black New Avengers homage with white lightning and Mickey as Captain America. The homage title is not the comic series name. UPC is catalog-sourced from PriceCharting product 5122610, not read from the owned scan. Identity only; owned condition remains unassessed.",
+      "caveat": "PriceCharting-reported sale rows; completed payment was not independently verified. Some tables contain weekly repeated seller-style titles with distinct listing IDs; they are not established independent buyers or distinct physical comparison copies. Median of matching rows from the preceding year is only a provisional edition reference. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:168385077351",
+          "url": "https://www.ebay.com/itm/168385077351",
+          "reason": "Explicitly Graded 9.8, misfiled in raw table."
+        },
+        {
+          "transactionId": "ebay:236175322873",
+          "url": "https://www.ebay.com/itm/236175322873",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:236168477320",
+          "url": "https://www.ebay.com/itm/236168477320",
+          "reason": "Older than the one-year comparison window."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-035"
+      ],
+      "upc": "75960620200302721",
+      "productId": "5325228",
+      "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-sciarrone-27-2023",
+      "sales": [
+        [
+          "146676367251",
+          "2026-09-02",
+          5.99
+        ],
+        [
+          "256252813540",
+          "2026-08-09",
+          3.99
+        ],
+        [
+          "236921431681",
+          "2026-07-17",
+          1.55
+        ],
+        [
+          "336662821542",
+          "2026-07-10",
+          1.51
+        ],
+        [
+          "336652120487",
+          "2026-07-03",
+          0.99
+        ],
+        [
+          "336640767142",
+          "2026-06-26",
+          0.99
+        ],
+        [
+          "336628330528",
+          "2026-06-19",
+          1.56
+        ],
+        [
+          "236850394038",
+          "2026-06-12",
+          1.25
+        ],
+        [
+          "336601469222",
+          "2026-06-05",
+          2.25
+        ],
+        [
+          "336589657980",
+          "2026-05-29",
+          1.78
+        ],
+        [
+          "336578728033",
+          "2026-05-22",
+          2.25
+        ],
+        [
+          "336567747598",
+          "2026-05-15",
+          1.77
+        ],
+        [
+          "236782672550",
+          "2026-05-08",
+          1.46
+        ],
+        [
+          "336543373126",
+          "2026-05-01",
+          1.81
+        ],
+        [
+          "236754512332",
+          "2026-04-24",
+          1.55
+        ],
+        [
+          "336525181069",
+          "2026-04-17",
+          3.25
+        ],
+        [
+          "127749133614",
+          "2026-03-23",
+          0.99
+        ],
+        [
+          "389408209237",
+          "2026-03-14",
+          3.5
+        ],
+        [
+          "134614467356",
+          "2026-01-08",
+          3.79
+        ],
+        [
+          "374980570655",
+          "2026-01-07",
+          6.68
+        ],
+        [
+          "374746332893",
+          "2026-01-07",
+          3.99
+        ],
+        [
+          "175771658228",
+          "2026-01-07",
+          2.05
+        ],
+        [
+          "404327197478",
+          "2025-12-22",
+          3.5
+        ],
+        [
+          "176863368571",
+          "2025-12-14",
+          7.5
+        ]
+      ],
+      "saleSources": {},
+      "identityNote": "Owned front scan Raw_15-035_FRONT.jpg individually inspected and visually matched to catalog artwork. Invincible Iron Man homage featuring Mickey in red-and-gold armor. The homage title is not the comic series name. UPC is catalog-sourced from PriceCharting product 5325228, not read from the owned scan. Identity only; owned condition remains unassessed.",
+      "caveat": "PriceCharting-reported sale rows; completed payment was not independently verified. Some tables contain weekly repeated seller-style titles with distinct listing IDs; they are not established independent buyers or distinct physical comparison copies. Median of matching rows from the preceding year is only a provisional edition reference. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:306208639536",
+          "url": "https://www.ebay.com/itm/306208639536",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:146253204839",
+          "url": "https://www.ebay.com/itm/146253204839",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:394677692495",
+          "url": "https://www.ebay.com/itm/394677692495",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:266499558148",
+          "url": "https://www.ebay.com/itm/266499558148",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:305464573365",
+          "url": "https://www.ebay.com/itm/305464573365",
+          "reason": "Older than the one-year comparison window."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-036"
+      ],
+      "upc": "75960620200301741",
+      "productId": "4580098",
+      "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-pastrovicchio-17-2023",
+      "sales": [
+        [
+          "327090981805",
+          "2026-04-15",
+          1.46
+        ],
+        [
+          "257039656432",
+          "2026-03-28",
+          3.99
+        ],
+        [
+          "295506926624",
+          "2026-03-05",
+          19.99
+        ],
+        [
+          "175471921481",
+          "2026-01-31",
+          7.99
+        ],
+        [
+          "257243170615",
+          "2026-01-06",
+          8.64
+        ],
+        [
+          "304714607831",
+          "2026-01-06",
+          4.79
+        ],
+        [
+          "177607588959",
+          "2025-12-01",
+          1.58
+        ]
+      ],
+      "saleSources": {},
+      "identityNote": "Owned front scan Raw_15-036_FRONT.jpg individually inspected and visually matched to catalog artwork. White-background Avengers homage with Mickey as Captain America and Goofy as Iron Man. Color artwork, not the 1:100 black-and-white variant. UPC is catalog-sourced from PriceCharting product 4580098, not read from the owned scan. Identity only; owned condition remains unassessed.",
+      "caveat": "PriceCharting-reported sale rows; completed payment was not independently verified. Some tables contain weekly repeated seller-style titles with distinct listing IDs; they are not established independent buyers or distinct physical comparison copies. Median of matching rows from the preceding year is only a provisional edition reference. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:257108977773",
+          "url": "https://www.ebay.com/itm/257108977773",
+          "reason": "Original eBay page unavailable; cover/grade could not be independently confirmed for the ambiguous listing."
+        },
+        {
+          "transactionId": "ebay:306502051550",
+          "url": "https://www.ebay.com/itm/306502051550",
+          "reason": "Black-and-white 1:100 variant, not owned color edition."
+        },
+        {
+          "transactionId": "ebay:335594666487",
+          "url": "https://www.ebay.com/itm/335594666487",
+          "reason": "Black-and-white 1:100 variant and older than one year."
+        },
+        {
+          "transactionId": "ebay:388789058724",
+          "url": "https://www.ebay.com/itm/388789058724",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:375868366993",
+          "url": "https://www.ebay.com/itm/375868366993",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:177037907724",
+          "url": "https://www.ebay.com/itm/177037907724",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:286042326671",
+          "url": "https://www.ebay.com/itm/286042326671",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:176877860148",
+          "url": "https://www.ebay.com/itm/176877860148",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:176859338720",
+          "url": "https://www.ebay.com/itm/176859338720",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:176842377977",
+          "url": "https://www.ebay.com/itm/176842377977",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:176834589839",
+          "url": "https://www.ebay.com/itm/176834589839",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:266433101783",
+          "url": "https://www.ebay.com/itm/266433101783",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:256571005961",
+          "url": "https://www.ebay.com/itm/256571005961",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:116060260211",
+          "url": "https://www.ebay.com/itm/116060260211",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:355757655778",
+          "url": "https://www.ebay.com/itm/355757655778",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:256176051851",
+          "url": "https://www.ebay.com/itm/256176051851",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:166664217184",
+          "url": "https://www.ebay.com/itm/166664217184",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:156118771091",
+          "url": "https://www.ebay.com/itm/156118771091",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:186363352617",
+          "url": "https://www.ebay.com/itm/186363352617",
+          "reason": "Older than the one-year comparison window."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-063"
+      ],
+      "upc": "70985300214735011",
+      "productId": "6376562",
+      "url": "https://www.pricecharting.com/game/comic-books-spawn/spawn-350-2024",
+      "sales": [
+        [
+          "186274068563",
+          "2026-09-18",
+          4.99
+        ],
+        [
+          "375330343809",
+          "2026-09-08",
+          5.35
+        ],
+        [
+          "137480389784",
+          "2026-07-11",
+          0.99
+        ],
+        [
+          "145643852399",
+          "2026-07-09",
+          4.59
+        ],
+        [
+          "266817413448",
+          "2026-06-24",
+          5.24
+        ],
+        [
+          "404810191669",
+          "2026-03-26",
+          3.51
+        ],
+        [
+          "366034299562",
+          "2026-03-18",
+          2.67
+        ],
+        [
+          "235440892049",
+          "2026-02-06",
+          4.99
+        ],
+        [
+          "276425512660",
+          "2026-01-19",
+          5.15
+        ],
+        [
+          "326950034026",
+          "2026-01-17",
+          3.25
+        ],
+        [
+          "177684991144",
+          "2026-01-10",
+          6.99
+        ],
+        [
+          "305409708554",
+          "2026-01-05",
+          4.96
+        ],
+        [
+          "386842211392",
+          "2026-01-01",
+          4.24
+        ],
+        [
+          "336334536186",
+          "2025-12-19",
+          3.25
+        ]
+      ],
+      "saleSources": {},
+      "identityNote": "Owned front scan Raw_15-063_FRONT.jpg individually inspected and visually matched to catalog artwork. Yellow Spawn title along bottom, horizontal axe. UPC is catalog-sourced from PriceCharting product 6376562, not read from the owned scan. Identity only; owned condition remains unassessed.",
+      "caveat": "PriceCharting-reported sale rows; completed payment was not independently verified. Some tables contain weekly repeated seller-style titles with distinct listing IDs; they are not established independent buyers or distinct physical comparison copies. Median of matching rows from the preceding year is only a provisional edition reference. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:298469877824",
+          "url": "https://www.ebay.com/itm/298469877824",
+          "reason": "Graded CGCxJSA 9.8 retailer edition, not raw A."
+        },
+        {
+          "transactionId": "ebay:404914399117",
+          "url": "https://www.ebay.com/itm/404914399117",
+          "reason": "Cover F, not A."
+        },
+        {
+          "transactionId": "ebay:287111088260",
+          "url": "https://www.ebay.com/itm/287111088260",
+          "reason": "Multi-book set including Thank You edition."
+        },
+        {
+          "transactionId": "ebay:204604338846",
+          "url": "https://www.ebay.com/itm/204604338846",
+          "reason": "Cover letter/art not established by captured title."
+        },
+        {
+          "transactionId": "ebay:236123851320",
+          "url": "https://www.ebay.com/itm/236123851320",
+          "reason": "Cover letter/art not established by captured title."
+        },
+        {
+          "transactionId": "ebay:127844852589",
+          "url": "https://www.ebay.com/itm/127844852589",
+          "reason": "Cover letter/art not established by captured title."
+        },
+        {
+          "transactionId": "ebay:197835698918",
+          "url": "https://www.ebay.com/itm/197835698918",
+          "reason": "Cover letter/art not established by captured title."
+        },
+        {
+          "transactionId": "ebay:206045846479",
+          "url": "https://www.ebay.com/itm/206045846479",
+          "reason": "Cover letter/art not established by captured title."
+        },
+        {
+          "transactionId": "ebay:406494546625",
+          "url": "https://www.ebay.com/itm/406494546625",
+          "reason": "Cover letter/art not established by captured title."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-064"
+      ],
+      "upc": "70985300214735041",
+      "productId": "6376559",
+      "url": "https://www.pricecharting.com/game/comic-books-spawn/spawn-booth-350-2024",
+      "sales": [
+        [
+          "236709901617",
+          "2026-04-03",
+          3.25
+        ],
+        [
+          "236694783324",
+          "2026-03-27",
+          2.25
+        ],
+        [
+          "336472203734",
+          "2026-03-20",
+          2.04
+        ],
+        [
+          "336460417555",
+          "2026-03-13",
+          3.1
+        ],
+        [
+          "236653383781",
+          "2026-03-06",
+          2.25
+        ],
+        [
+          "336438130289",
+          "2026-02-27",
+          2.25
+        ],
+        [
+          "375216175116",
+          "2026-02-23",
+          5.32
+        ],
+        [
+          "236626867467",
+          "2026-02-20",
+          2.02
+        ],
+        [
+          "336417852301",
+          "2026-02-13",
+          2.29
+        ],
+        [
+          "206045846471",
+          "2026-02-11",
+          4.99
+        ],
+        [
+          "336409073594",
+          "2026-02-06",
+          1.76
+        ],
+        [
+          "336396665547",
+          "2026-01-30",
+          3.5
+        ],
+        [
+          "315062220798",
+          "2026-01-30",
+          4.49
+        ],
+        [
+          "336386632029",
+          "2026-01-23",
+          3.25
+        ],
+        [
+          "236567860204",
+          "2026-01-16",
+          2.25
+        ],
+        [
+          "336366386393",
+          "2026-01-09",
+          2.35
+        ],
+        [
+          "187659947861",
+          "2026-01-08",
+          4.49
+        ],
+        [
+          "386842218257",
+          "2026-01-03",
+          4.24
+        ],
+        [
+          "127472537040",
+          "2026-01-03",
+          5
+        ],
+        [
+          "336355923283",
+          "2026-01-02",
+          4
+        ],
+        [
+          "336345103397",
+          "2025-12-26",
+          3.25
+        ],
+        [
+          "336334538603",
+          "2025-12-19",
+          0.99
+        ],
+        [
+          "236501751714",
+          "2025-12-12",
+          5.5
+        ],
+        [
+          "336311234424",
+          "2025-12-05",
+          1.29
+        ],
+        [
+          "336294360542",
+          "2025-11-28",
+          2.25
+        ],
+        [
+          "236450997036",
+          "2025-11-21",
+          2.54
+        ],
+        [
+          "236405099198",
+          "2025-10-30",
+          2.25
+        ],
+        [
+          "396462308850",
+          "2026-02-16",
+          5.13
+        ],
+        [
+          "196257091542",
+          "2026-01-02",
+          9.06
+        ],
+        [
+          "335227007300",
+          "2026-01-01",
+          4.36
+        ],
+        [
+          "147219218269",
+          "2026-05-17",
+          5.25
+        ],
+        [
+          "306929211149",
+          "2026-05-17",
+          3.75
+        ],
+        [
+          "366326034925",
+          "2026-05-08",
+          4.74
+        ]
+      ],
+      "saleSources": {
+        "396462308850": "https://www.pricecharting.com/game/comic-books-spawn/spawn-350-2024",
+        "196257091542": "https://www.pricecharting.com/game/comic-books-spawn/spawn-350-2024",
+        "335227007300": "https://www.pricecharting.com/game/comic-books-spawn/spawn-350-2024",
+        "147219218269": "https://www.pricecharting.com/game/comic-books-spawn/spawn-mcfarlane-350-2024",
+        "306929211149": "https://www.pricecharting.com/game/comic-books-spawn/spawn-mcfarlane-350-2024",
+        "366326034925": "https://www.pricecharting.com/game/comic-books-spawn/spawn-mcfarlane-350-2024"
+      },
+      "identityNote": "Owned front scan Raw_15-064_FRONT.jpg individually inspected and visually matched to catalog artwork. Blue Spawn title at top, green energy sphere and chains/skulls. UPC is catalog-sourced from PriceCharting product 6376559, not read from the owned scan. Identity only; owned condition remains unassessed.",
+      "caveat": "PriceCharting-reported sale rows; completed payment was not independently verified. Some tables contain weekly repeated seller-style titles with distinct listing IDs; they are not established independent buyers or distinct physical comparison copies. Median of matching rows from the preceding year is only a provisional edition reference. Seller condition descriptions do not establish owned condition.",
+      "excluded": []
+    },
+    {
+      "copyIds": [
+        "raw:15-065"
+      ],
+      "upc": "70985300214735021",
+      "productId": "6376561",
+      "url": "https://www.pricecharting.com/game/comic-books-spawn/spawn-mcfarlane-350-2024",
+      "sales": [
+        [
+          "256515284668",
+          "2026-06-24",
+          5.09
+        ],
+        [
+          "188422782251",
+          "2026-06-19",
+          4.99
+        ],
+        [
+          "196257087583",
+          "2026-04-02",
+          8.91
+        ]
+      ],
+      "saleSources": {
+        "196257087583": "https://www.pricecharting.com/game/comic-books-spawn/spawn-350-2024"
+      },
+      "identityNote": "Owned front scan Raw_15-065_FRONT.jpg individually inspected and visually matched to catalog artwork. Green Spawn title along bottom, rising figure in red flames. Color trade dress, not black-and-white virgin cover F. UPC is catalog-sourced from PriceCharting product 6376561, not read from the owned scan. Identity only; owned condition remains unassessed.",
+      "caveat": "Thin history: only three matching color cover B rows. PriceCharting-reported sale rows; completed payment was not independently verified. Some tables contain weekly repeated seller-style titles with distinct listing IDs; they are not established independent buyers or distinct physical comparison copies. Median of matching rows from the preceding year is only a provisional edition reference. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:188536311961",
+          "url": "https://www.ebay.com/itm/188536311961",
+          "reason": "McFarlane black-and-white / virgin cover F, not color B."
+        },
+        {
+          "transactionId": "ebay:236968726581",
+          "url": "https://www.ebay.com/itm/236968726581",
+          "reason": "McFarlane black-and-white / virgin cover F, not color B."
+        },
+        {
+          "transactionId": "ebay:236951446816",
+          "url": "https://www.ebay.com/itm/236951446816",
+          "reason": "McFarlane black-and-white / virgin cover F, not color B."
+        },
+        {
+          "transactionId": "ebay:336686256111",
+          "url": "https://www.ebay.com/itm/336686256111",
+          "reason": "McFarlane black-and-white / virgin cover F, not color B."
+        },
+        {
+          "transactionId": "ebay:326027758832",
+          "url": "https://www.ebay.com/itm/326027758832",
+          "reason": "McFarlane black-and-white / virgin cover F, not color B."
+        },
+        {
+          "transactionId": "ebay:336675468089",
+          "url": "https://www.ebay.com/itm/336675468089",
+          "reason": "McFarlane black-and-white / virgin cover F, not color B."
+        },
+        {
+          "transactionId": "ebay:236905882207",
+          "url": "https://www.ebay.com/itm/236905882207",
+          "reason": "McFarlane black-and-white / virgin cover F, not color B."
+        },
+        {
+          "transactionId": "ebay:236892622884",
+          "url": "https://www.ebay.com/itm/236892622884",
+          "reason": "McFarlane black-and-white / virgin cover F, not color B."
+        },
+        {
+          "transactionId": "ebay:336640767144",
+          "url": "https://www.ebay.com/itm/336640767144",
+          "reason": "McFarlane black-and-white / virgin cover F, not color B."
+        },
+        {
+          "transactionId": "ebay:188422826918",
+          "url": "https://www.ebay.com/itm/188422826918",
+          "reason": "McFarlane black-and-white / virgin cover F, not color B."
+        },
+        {
+          "transactionId": "ebay:186274084885",
+          "url": "https://www.ebay.com/itm/186274084885",
+          "reason": "McFarlane black-and-white / virgin cover F, not color B."
+        },
+        {
+          "transactionId": "ebay:336628330479",
+          "url": "https://www.ebay.com/itm/336628330479",
+          "reason": "McFarlane black-and-white / virgin cover F, not color B."
+        },
+        {
+          "transactionId": "ebay:236850394069",
+          "url": "https://www.ebay.com/itm/236850394069",
+          "reason": "McFarlane black-and-white / virgin cover F, not color B."
+        },
+        {
+          "transactionId": "ebay:236837088755",
+          "url": "https://www.ebay.com/itm/236837088755",
+          "reason": "McFarlane black-and-white / virgin cover F, not color B."
+        },
+        {
+          "transactionId": "ebay:236823606106",
+          "url": "https://www.ebay.com/itm/236823606106",
+          "reason": "McFarlane black-and-white / virgin cover F, not color B."
+        },
+        {
+          "transactionId": "ebay:236811188182",
+          "url": "https://www.ebay.com/itm/236811188182",
+          "reason": "McFarlane black-and-white / virgin cover F, not color B."
+        },
+        {
+          "transactionId": "ebay:178033358511",
+          "url": "https://www.ebay.com/itm/178033358511",
+          "reason": "McFarlane black-and-white / virgin cover F, not color B."
+        },
+        {
+          "transactionId": "ebay:336567747575",
+          "url": "https://www.ebay.com/itm/336567747575",
+          "reason": "McFarlane black-and-white / virgin cover F, not color B."
+        },
+        {
+          "transactionId": "ebay:236782672541",
+          "url": "https://www.ebay.com/itm/236782672541",
+          "reason": "McFarlane black-and-white / virgin cover F, not color B."
+        },
+        {
+          "transactionId": "ebay:236768421441",
+          "url": "https://www.ebay.com/itm/236768421441",
+          "reason": "McFarlane black-and-white / virgin cover F, not color B."
+        },
+        {
+          "transactionId": "ebay:236754512355",
+          "url": "https://www.ebay.com/itm/236754512355",
+          "reason": "McFarlane black-and-white / virgin cover F, not color B."
+        },
+        {
+          "transactionId": "ebay:236740077994",
+          "url": "https://www.ebay.com/itm/236740077994",
+          "reason": "McFarlane black-and-white / virgin cover F, not color B."
+        },
+        {
+          "transactionId": "ebay:364795158408",
+          "url": "https://www.ebay.com/itm/364795158408",
+          "reason": "McFarlane edition unspecified; B versus F not established."
+        },
+        {
+          "transactionId": "ebay:318424264639",
+          "url": "https://www.ebay.com/itm/318424264639",
+          "reason": "McFarlane edition unspecified; B versus F not established."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-066"
+      ],
+      "upc": "70985300214735031",
+      "productId": "6376560",
+      "url": "https://www.pricecharting.com/game/comic-books-spawn/spawn-stegman-350-2024",
+      "sales": [
+        [
+          "236639329633",
+          "2026-02-27",
+          1.75
+        ],
+        [
+          "336428306656",
+          "2026-02-20",
+          3.25
+        ],
+        [
+          "336417852293",
+          "2026-02-13",
+          2.29
+        ],
+        [
+          "336409073638",
+          "2026-02-06",
+          1.76
+        ],
+        [
+          "236590282226",
+          "2026-01-30",
+          4.25
+        ],
+        [
+          "336386632030",
+          "2026-01-23",
+          3.25
+        ],
+        [
+          "364795156282",
+          "2026-01-20",
+          5.08
+        ],
+        [
+          "326950035974",
+          "2026-01-17",
+          3.25
+        ],
+        [
+          "336377563937",
+          "2026-01-16",
+          3.25
+        ],
+        [
+          "386842222750",
+          "2026-01-10",
+          4.24
+        ],
+        [
+          "187856684039",
+          "2026-01-09",
+          5.99
+        ],
+        [
+          "336366386398",
+          "2026-01-09",
+          3.25
+        ],
+        [
+          "127472536016",
+          "2026-01-05",
+          5
+        ],
+        [
+          "375216175111",
+          "2026-01-05",
+          5.32
+        ],
+        [
+          "336355923313",
+          "2026-01-02",
+          4
+        ],
+        [
+          "236527467713",
+          "2025-12-26",
+          3.25
+        ],
+        [
+          "236514613125",
+          "2025-12-19",
+          2
+        ],
+        [
+          "176690872219",
+          "2025-12-19",
+          2.49
+        ],
+        [
+          "236501751723",
+          "2025-12-12",
+          3.25
+        ],
+        [
+          "297802220938",
+          "2025-12-06",
+          0.99
+        ],
+        [
+          "267481775924",
+          "2025-12-05",
+          3.49
+        ],
+        [
+          "236488458657",
+          "2025-12-05",
+          0.99
+        ],
+        [
+          "336294360537",
+          "2025-11-28",
+          2.25
+        ],
+        [
+          "236450997038",
+          "2025-11-21",
+          3.25
+        ],
+        [
+          "336267650144",
+          "2025-11-14",
+          0.99
+        ],
+        [
+          "236405099177",
+          "2025-10-30",
+          2.25
+        ],
+        [
+          "335227007296",
+          "2026-03-24",
+          4.36
+        ],
+        [
+          "156127607248",
+          "2026-05-25",
+          4
+        ]
+      ],
+      "saleSources": {
+        "335227007296": "https://www.pricecharting.com/game/comic-books-spawn/spawn-350-2024",
+        "156127607248": "https://www.pricecharting.com/game/comic-books-spawn/spawn-mcfarlane-350-2024"
+      },
+      "identityNote": "Owned front scan Raw_15-066_FRONT.jpg individually inspected and visually matched to catalog artwork. Red Spawn title along bottom, green energy hand and scythe. UPC is catalog-sourced from PriceCharting product 6376560, not read from the owned scan. Identity only; owned condition remains unassessed.",
+      "caveat": "PriceCharting-reported sale rows; completed payment was not independently verified. Some tables contain weekly repeated seller-style titles with distinct listing IDs; they are not established independent buyers or distinct physical comparison copies. Median of matching rows from the preceding year is only a provisional edition reference. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:406216827686",
+          "url": "https://www.ebay.com/itm/406216827686",
+          "reason": "Two-book C and D set."
+        },
+        {
+          "transactionId": "ebay:166729150852",
+          "url": "https://www.ebay.com/itm/166729150852",
+          "reason": "Two-book C and D set."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-067"
+      ],
+      "upc": "70985300214735051",
+      "productId": "6376558",
+      "url": "https://www.pricecharting.com/game/comic-books-spawn/spawn-glapion-350-2024",
+      "sales": [
+        [
+          "266636773576",
+          "2026-04-13",
+          5.32
+        ],
+        [
+          "336460417620",
+          "2026-03-13",
+          1.25
+        ],
+        [
+          "236653383769",
+          "2026-03-06",
+          3.25
+        ],
+        [
+          "236639329622",
+          "2026-02-27",
+          1.25
+        ],
+        [
+          "336428306632",
+          "2026-02-20",
+          3
+        ],
+        [
+          "336417852281",
+          "2026-02-13",
+          2.29
+        ],
+        [
+          "336409073656",
+          "2026-02-06",
+          3.8
+        ],
+        [
+          "236590282230",
+          "2026-01-30",
+          2.25
+        ],
+        [
+          "236578409220",
+          "2026-01-23",
+          0.99
+        ],
+        [
+          "236567860134",
+          "2026-01-16",
+          3.25
+        ],
+        [
+          "187853147942",
+          "2026-01-10",
+          6.99
+        ],
+        [
+          "236554124284",
+          "2026-01-09",
+          3.07
+        ],
+        [
+          "315062220807",
+          "2026-01-05",
+          4.49
+        ],
+        [
+          "386842257310",
+          "2026-01-05",
+          4.24
+        ],
+        [
+          "236541126258",
+          "2026-01-02",
+          1.83
+        ],
+        [
+          "336345103462",
+          "2025-12-26",
+          2.01
+        ],
+        [
+          "336334538626",
+          "2025-12-19",
+          3.25
+        ],
+        [
+          "186791517960",
+          "2025-12-18",
+          2.49
+        ],
+        [
+          "336322912965",
+          "2025-12-12",
+          0.99
+        ],
+        [
+          "297802212299",
+          "2025-12-06",
+          0.99
+        ],
+        [
+          "236488458663",
+          "2025-12-05",
+          1.74
+        ],
+        [
+          "236469889145",
+          "2025-11-28",
+          2.25
+        ],
+        [
+          "336279066380",
+          "2025-11-21",
+          2
+        ],
+        [
+          "336267650134",
+          "2025-11-14",
+          0.99
+        ],
+        [
+          "336255451672",
+          "2025-11-07",
+          0.99
+        ],
+        [
+          "226410279509",
+          "2025-11-02",
+          4.5
+        ],
+        [
+          "236405099172",
+          "2025-10-30",
+          2.25
+        ],
+        [
+          "236389317586",
+          "2025-10-23",
+          1.25
+        ],
+        [
+          "336208460188",
+          "2025-10-09",
+          2.35
+        ],
+        [
+          "336194165739",
+          "2025-10-02",
+          2.25
+        ],
+        [
+          "235402473510",
+          "2026-03-26",
+          4.34
+        ]
+      ],
+      "saleSources": {
+        "235402473510": "https://www.pricecharting.com/game/comic-books-spawn/spawn-350-2024"
+      },
+      "identityNote": "Owned front scan Raw_15-067_FRONT.jpg individually inspected and visually matched to catalog artwork. Gray Spawn title at top, stark black-and-white alley with rats and curling red cape. UPC is catalog-sourced from PriceCharting product 6376558, not read from the owned scan. Identity only; owned condition remains unassessed.",
+      "caveat": "PriceCharting-reported sale rows; completed payment was not independently verified. Some tables contain weekly repeated seller-style titles with distinct listing IDs; they are not established independent buyers or distinct physical comparison copies. Median of matching rows from the preceding year is only a provisional edition reference. Seller condition descriptions do not establish owned condition.",
+      "excluded": []
+    }
+  ],
+  "gradedSearches": [
+    {
+      "copyId": "TAG:H5738313",
+      "item": "Ethan's Ho-Oh ex 020/063, 2025 Japanese Heat Wave Arena, TAG 9",
+      "method": "Live rendered PriceCharting exact product 8867716; selected Grade 9 table; fresh indexed exact-number PSA 9 search.",
+      "reason": "Grade 9 table has zero sale rows. PSA 10 and other grades are not permissible substitutes. Indexed 086/063 and 090/063 listings are different cards. No new value.",
+      "urls": [
+        "https://www.pricecharting.com/game/pokemon-japanese-heat-wave-arena/ethan%27s-ho-oh-ex-20"
+      ]
+    },
+    {
+      "copyId": "TAG:D6943986",
+      "item": "Origin Forme Palkia VSTAR 040/189, 2022 Astral Radiance, TAG 7",
+      "method": "Fresh indexed exact-number PSA 7 search; read PokeValues and lastsold card pages through web results.",
+      "reason": "PokeValues reports PSA 7 population six but no 90-day sold count/median/price. Other grades and combined PSA <=7 population cannot establish PSA 7 value. Prize Pack, World Championship and #192 versions excluded. No new value.",
+      "urls": [
+        "https://www.pokevalues.com/card/origin-forme-palkia-vstar-astral-radiance-040",
+        "https://www.lastsold.de/en/sets/astral-radiance/origin-forme-palkia-vstar-040"
+      ]
+    },
+    {
+      "copyId": "CGC:6001871064",
+      "item": "Blaine, 1999 Japanese Gym 2 Challenge from the Darkness, non-holo, CGC 9",
+      "method": "Fresh exact searches across eBay, Fanatics Collect, PriceCharting, Setlot and Assetra indexed results. Live Setlot rendered sale row inspected afterward: no source link or transaction ID attached.",
+      "reason": "English 2000 #17/#100, Japanese Guren Town holo and Blaine-owned Pokemon cards are mismatches. Setlot has a promising July 20, 2026 $8.40 row with the correct title and grade, but provides no original transaction link in the retrieved result; its overall table mixes many different Blaine Pokemon cards. Retain as a verification lead, not an imported value. No completed original auction verified.",
+      "urls": [
+        "https://app.setlot.com/catalog/pokemon/japanese-challenge-from-the-darkness/blaine",
+        "https://www.pricecharting.com/game/pokemon-japanese-challenge-from-the-darkness/blaine",
+        "https://assetra.co/comps/1999-blaine-pokemon-japanese-guren-town-gym-deck-73749",
+        "https://www.fanaticscollect.com/weekly/e29c0de2-605b-11f1-bff7-0a58a9feac02/2000-pokemon-gym-challenge-holo-blaine-17-cgc-9-mint"
+      ]
+    },
+    {
+      "copyIds": [
+        "CGC:4418876002",
+        "CGC:4418876003"
+      ],
+      "item": "Female Force: Taylor Swift, Unknown Comics foil B and metal B, CGC 9.8",
+      "method": "Exact title, retailer, foil/metal B and grade searches; indexed MyComicShop and eBay catalog results.",
+      "reason": "Other artists, Unknown A/Dazzler homage and raw asking prices do not establish the owned X-homage foil B or metal B at 9.8. No completed exact-edition/grade sale verified; no new values.",
+      "urls": [
+        "https://www.mycomicshop.com/search?TID=60467885"
+      ]
+    }
+  ],
+  "additionalRawChecks": [
+    {
+      "copyId": "raw:15-059",
+      "item": "Kyle Willis Spider-Man / Golden Gate / SDCC artwork",
+      "reason": "Owned front inspected. One matching-looking offer explicitly describes an art print, not a comic, while another calls it a comic. Physical format and finish remain unresolved. Active asking prices are not sold values; identity remains pending.",
+      "urls": [
+        "https://www.mercari.com/us/item/m72324277874/",
+        "https://www.ebay.com/itm/115990398243",
+        "https://www.ebay.com/itm/397377271142"
+      ]
+    },
+    {
+      "copyId": "raw:15-060",
+      "item": "Female Force: Taylor Swift, Defendini X homage",
+      "reason": "Owned front inspected; trade dress apparent, finish not confirmed. HipComic closed offer explicitly was not sold. Unknown Comics page is the virgin version, so its price is not applicable. No identity or value imported.",
+      "urls": [
+        "https://www.hipcomic.com/listing/female-force-taylor-swift-steven-defendini-exclusive-trade-dress-variant-nm/14824022",
+        "https://unknowncomicbooks.com/products/female-force-taylor-swift-unknown-comics-steven-defendini-exclusive-x-virgin-var-03-27-2024"
+      ]
+    },
+    {
+      "copyId": "raw:15-068",
+      "item": "Space Ghost #1, 2024",
+      "reason": "Owned front inspected; Mattina cover A is a candidate, but ordinary versus foil must be visually checked before confirmation. Next pass lead.",
+      "urls": [
+        "https://gocollect.com/comic/space-ghost-1-cvr-a-mattina"
+      ]
+    },
+    {
+      "copyId": "raw:15-069",
+      "item": "Moon Man #2",
+      "reason": "Owned front inspected; Locati cover A is a candidate. Verify publisher art and exact product before importing.",
+      "urls": [
+        "https://westfieldcomics.com/comic-books/Moon-Man-2-cover-A--Locati/23120519",
+        "https://www.pricecharting.com/console/comic-books-moon-man"
+      ]
+    }
+  ],
+  "unresolvedScans": [
+    {
+      "ids": [
+        "raw:15-002"
+      ],
+      "reason": "Orbit Eminem Caio Cacau Punisher homage visually identified as a lead. Retailer has trade, virgin, foil, metal and Rapboy variants; exact finish remains unconfirmed.",
+      "urls": [
+        "https://rabbitcomics.com/products/orbit-eminem-1-caio-cacau-excluisve-variant-preorder",
+        "https://caiocacau.artstation.com/projects/5WXZmO"
+      ]
+    },
+    {
+      "ids": [
+        "raw:15-012",
+        "raw:15-013",
+        "raw:15-015"
+      ],
+      "reason": "Tribute Kobe Bryant Sajad Shah Wu-Tang homage lead; black basketball/snake cover. Finish and exact printing require confirmation; regular, foil and metal variants cannot be conflated.",
+      "urls": [
+        "https://www.7ate9comics.com/products/tribute-kobe-bryant-wu-tang-clan-homage-virgin-variant-ltd-to-only-300"
+      ]
+    },
+    {
+      "ids": [
+        "raw:15-014"
+      ],
+      "reason": "Tribute Tupac Caio Cacau Crow homage lead; exact finish remains unresolved. Active eBay 406237860963 is not a completed sale.",
+      "urls": [
+        "https://www.ebay.com/itm/406237860963"
+      ]
+    }
+  ],
+  "remainingRaw": [
+    {
+      "copyId": "Authority:1327529703",
+      "title": "Superman",
+      "issue": "6",
+      "variant": "Besch Creator Card Stock Variant",
+      "upc": "76194137950000661",
+      "front": "Authority_1327529703_FRONT.jpg"
+    },
+    {
+      "copyId": "Authority:1251463037",
+      "title": "Wolverine: Revenge",
+      "issue": "2",
+      "variant": null,
+      "upc": "75960620995800211",
+      "front": "Authority_1251463037_FRONT.jpg"
+    },
+    {
+      "copyId": "Authority:4742106011",
+      "title": "Ultimate Wolverine",
+      "issue": "1",
+      "variant": null,
+      "upc": "75960621050300111",
+      "front": "Authority_4742106011_FRONT.jpg"
+    },
+    {
+      "copyId": "Authority:7633260283",
+      "title": "Detective Comics",
+      "issue": "400",
+      "variant": "Blank Facsimile Edition",
+      "upc": "76194138450400121",
+      "front": "Authority_7633260283_FRONT.jpg"
+    },
+    {
+      "copyId": "Authority:4845360792",
+      "title": "The Immortal Thor",
+      "issue": "15",
+      "variant": "Villalobos Variant",
+      "upc": "75960620664301521",
+      "front": "Authority_4845360792_FRONT.jpg"
+    },
+    {
+      "copyId": "Authority:4841253705",
+      "title": "Wolverine",
+      "issue": "1",
+      "variant": "Adamantium Head \"V\" Variant",
+      "upc": "75960620841800118",
+      "front": "Authority_4841253705_FRONT.jpg"
+    },
+    {
+      "copyId": "Authority:8796605910",
+      "title": "From The DC Vault: The Sandman",
+      "issue": "19",
+      "variant": "Remastered Variant",
+      "upc": "76194138359000111",
+      "front": "Authority_8796605910_FRONT.jpg"
+    },
+    {
+      "copyId": "Authority:7861079670",
+      "title": "Detective Comics",
+      "issue": "27",
+      "variant": "Foil Facsimile Variant",
+      "upc": "76194138562400131",
+      "front": "Authority_7861079670_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-002",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-002_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-012",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-012_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-013",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-013_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-014",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-014_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-015",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-015_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-059",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-059_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-060",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-060_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-068",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-068_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-069",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-069_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-071",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-071_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-075",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-075_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-078",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-078_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-081",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-081_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-017",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-017_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-082",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-082_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-018",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-018_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-083",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-083_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-025",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-025_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-028",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-028_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-029",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-029_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-030",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-030_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-039",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-039_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-040",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-040_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-041",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-041_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-056",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-056_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-061",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-061_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-092",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-092_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-070",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-070_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-093",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-093_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-094",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-094_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-074",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-074_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-095",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-095_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-077",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-077_FRONT.jpg"
+    },
+    {
+      "copyId": "Authority:8364744505",
+      "title": "Detective Comics",
+      "issue": "27",
+      "variant": "Blank Facsimile Edition",
+      "upc": "76194138562400121",
+      "front": "Authority_8364744505_FRONT.jpg"
+    },
+    {
+      "copyId": "Authority:0152908938",
+      "title": "Rogue & Gambit",
+      "issue": "1",
+      "variant": "Alex Ross Mystique Timeless Virgin Variant",
+      "upc": "75960620455700151",
+      "front": "Authority_0152908938_FRONT.jpg"
+    }
+  ],
+  "next": "Continue 33 unidentified owner scans; start with Space Ghost 15-068 and Moon Man 15-069, then 15-071/075/078/081. Verify the Blaine CGC 9 July 20 $8.40 original auction if discoverable. Ten identified raw editions still lack references. Keep specialty finishes unresolved where artwork alone cannot establish them. All 429 raw conditions remain unassessed.",
+  "verification": {
+    "inventoryAudit": "Passed: all 933 copies and existing accepted selections preserved; only eight identities and pending raw references added; repeat import makes zero changes.",
+    "tests": 428,
+    "build": "passed",
+    "print": "43 PDFs regenerated; verify:print passed",
+    "visualReview": "Bin 15 4x6 label pages 2 and 3 and Letter pages 4 and 6 rendered and inspected; matching scans and readable artist/cover labels; long text uses existing ellipsis behavior.",
+    "browserTranscription": "FNV1a 295477594 over 7933 characters; 167 unique transaction IDs.",
+    "protectedOwnerPdfSha256": "34E973523968FE1C821CA77A3D453CE8DD9BA29F8DE007F1ABFA07959DA5600F"
+  }
+}
