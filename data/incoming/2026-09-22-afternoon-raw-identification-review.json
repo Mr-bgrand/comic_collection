@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-22T22:00:20.545Z",
+  "edits": [
+    {
+      "copyId": "raw:15-094",
+      "revision": "9ddee9aeebb6a1e9b6a93d3331abac9a72866565227996aed4c27ebd461b78e5",
+      "review": {
+        "identity": {
+          "title": "Amazing Spider-Man",
+          "issue": "33",
+          "issueYear": "2023",
+          "publisher": "Marvel Comics",
+          "variant": "Giada Perissinotto Disney100 Ms. Marvel Color Variant",
+          "upc": "75960620200303321"
+        },
+        "evidence": {
+          "url": "https://www.midtowncomics.com/product/2235115",
+          "notes": "Individually inspected owned front Raw_15-094_FRONT.jpg. Daisy Duck in the Ms. Marvel costume matches the color Disney100 homage. The cover homages Ms. Marvel #1, but the actual issue is Amazing Spider-Man #33; prior proposed Ms. Marvel identity was incorrect. UPC is catalog-sourced. Identity only; condition remains unassessed.",
+          "reviewedBy": "Owner-authorized scan and catalog review",
+          "reviewedAt": "2026-09-22T22:00:20.545Z"
+        }
+      }
+    },
+    {
+      "copyId": "raw:15-077",
+      "revision": "9ddee9aeebb6a1e9b6a93d3331abac9a72866565227996aed4c27ebd461b78e5",
+      "review": {
+        "identity": {
+          "title": "Miles Morales: Spider-Man",
+          "issue": "4",
+          "issueYear": "2023",
+          "publisher": "Marvel Comics",
+          "variant": "Tyler Kirkham Unknown Comics Exclusive Trade Dress"
+        },
+        "evidence": {
+          "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-kirkham-4-2023",
+          "notes": "Individually inspected owned front Raw_15-077_FRONT.jpg. Owned issue 4/LGY286, lightning/rain artwork and printed trade dress match the Kirkham catalog image. The small artist signature is printed artwork, not an additional autograph. No signature premium added. Identity only; condition remains unassessed.",
+          "reviewedBy": "Owner-authorized scan and catalog review",
+          "reviewedAt": "2026-09-22T22:00:20.545Z"
+        }
+      }
+    },
+    {
+      "copyId": "raw:15-095",
+      "revision": "9ddee9aeebb6a1e9b6a93d3331abac9a72866565227996aed4c27ebd461b78e5",
+      "review": {
+        "identity": {
+          "title": "Amazing Spider-Man",
+          "issue": "32",
+          "issueYear": "2023",
+          "publisher": "Marvel Comics",
+          "variant": "Giada Perissinotto Disney100 Ghost-Spider Color Variant",
+          "upc": "75960620200303221"
+        },
+        "evidence": {
+          "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-perissinotto-32-2023",
+          "notes": "Individually inspected owned front Raw_15-095_FRONT.jpg. Daisy Duck in a white Ghost-Spider hood in an alley matches the color Disney100 homage. The Edge of Spider-Verse cover title is an homage, not the host series. UPC is catalog-sourced. Identity only; condition remains unassessed.",
+          "reviewedBy": "Owner-authorized scan and catalog review",
+          "reviewedAt": "2026-09-22T22:00:20.545Z"
+        }
+      }
+    },
+    {
+      "copyId": "raw:15-092",
+      "revision": "9ddee9aeebb6a1e9b6a93d3331abac9a72866565227996aed4c27ebd461b78e5",
+      "review": {
+        "identity": {
+          "title": "Amazing Fantasy",
+          "issue": "1000",
+          "issueYear": "2022",
+          "publisher": "Marvel Comics",
+          "variant": "Steve McNiven Variant - First Printing",
+          "upc": "75960609975700171"
+        },
+        "evidence": {
+          "url": "https://www.g-mart.com/static/f218450.html",
+          "notes": "Individually inspected owned front Raw_15-092_FRONT.jpg. Individually compared owned lamp-post/Spider-Man/Peter Parker art and printed title layout with https://www.g-mart.com/static/f218450.jpg. First printing, released August 31, 2022; October cover date. Second printing uses different artwork and is excluded. UPC is catalog-sourced. Identity only; condition remains unassessed.",
+          "reviewedBy": "Owner-authorized scan and catalog review",
+          "reviewedAt": "2026-09-22T22:00:20.545Z"
+        }
+      }
+    },
+    {
+      "copyId": "raw:15-074",
+      "revision": "9ddee9aeebb6a1e9b6a93d3331abac9a72866565227996aed4c27ebd461b78e5",
+      "review": {
+        "identity": {
+          "title": "Amazing Spider-Man",
+          "issue": "27",
+          "issueYear": "2023",
+          "publisher": "Marvel Comics",
+          "variant": "Claudio Sciarrone Disney100 Invincible Iron Man Color Variant",
+          "upc": "75960620200302721"
+        },
+        "evidence": {
+          "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-sciarrone-27-2023",
+          "notes": "Individually inspected owned front Raw_15-074_FRONT.jpg. Owned Mickey Mouse in red/gold Iron Man armor matches the catalog image and separately identified copy 15-035. The Iron Man #1 cover title is an homage; host issue is Amazing Spider-Man #27. This is a separate owned scan, not a newly created copy. UPC is catalog-sourced. Identity only; condition remains unassessed.",
+          "reviewedBy": "Owner-authorized scan and catalog review",
+          "reviewedAt": "2026-09-22T22:00:20.545Z"
+        }
+      }
+    }
+  ],
+  "scans": [
+    {
+      "copyId": "raw:15-094",
+      "image": "Raw_15-094_FRONT.jpg",
+      "sha256": "e30df5876d733fb7e11445464c08fdf485fedbc5a394db3b09d8b443bdb757f4"
+    },
+    {
+      "copyId": "raw:15-077",
+      "image": "Raw_15-077_FRONT.jpg",
+      "sha256": "3c14050b8257fcb4ccf5240044d2fd95a6b7f47308a1bbd87af770a783a63250"
+    },
+    {
+      "copyId": "raw:15-095",
+      "image": "Raw_15-095_FRONT.jpg",
+      "sha256": "675552d02408cdddb4ce1918a3ba00bc1382ce964eb1091eaabf8f1352842bd4"
+    },
+    {
+      "copyId": "raw:15-092",
+      "image": "Raw_15-092_FRONT.jpg",
+      "sha256": "5f078646c12e56a1c35cfe37cba42e4e9ad405020719bfe4e6c4514c8fe90bbb"
+    },
+    {
+      "copyId": "raw:15-074",
+      "image": "Raw_15-074_FRONT.jpg",
+      "sha256": "08ea9e1fb8d1b103b39019e787a307a1e8212eb8ed18975ca456525dc09ffd57"
+    }
+  ]
+}

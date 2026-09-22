@@ -38,8 +38,8 @@ earlier cert 4350046007. The long barcode resolves to cert 4350046003 (Spawn #1,
 Convention Edition, 9.8). Its Signature Series comic retains the Kevin Eastman
 signature details. See the [Bin 10 intake](../data/incoming/2026-09-09-bin-10-request.json)
 and [CGC captures](../data/incoming/2026-09-10-cgc-bin-10-captures.json).
-Bin #15 contains 27 Authority sleeves plus 96 owner-scanned raw books. Seventy-two now
-have verified editions; 24 still need identification. Duplicate submitted IDs
+Bin #15 contains 27 Authority sleeves plus 96 owner-scanned raw books. Seventy-seven now
+have verified editions; 19 still need identification. Duplicate submitted IDs
 were deduplicated; leading zeros are kept.
 Find > Raw comics now opens those 96 owner scans directly. Their focus labels and
 record IDs are readable while identification is pending, and Singularity spreads
@@ -132,7 +132,9 @@ A morning September 22 pass identified eight more scans and added $28.19 in
 raw references; see the [morning research](valuation-morning-2026-09-22.md).
 A midday September 22 pass identified nine more scans and added $90.65 in
 raw references; see the [midday research](valuation-midday-2026-09-22.md).
-395 unconditioned raw references now total $2,459.24 and remain excluded
+An afternoon September 22 pass identified five more scans and added $16.37 in
+raw references; see the [afternoon research](valuation-afternoon-2026-09-22.md).
+400 unconditioned raw references now total $2,475.61 and remain excluded
 from the recorded total. There are 107 graded values outstanding (80 comics, 27 cards),
 plus 429 raw copies awaiting condition assessment. See the
 [pilot report](valuation-pilot-2026-09-13.md) for sources, dates and remaining gaps.
@@ -155,7 +157,7 @@ Inventory growth and newly valued records affect totals; these are not investmen
 - Twenty-one PSA cards have no scans on their reviewed cert pages: twenty in
   Case #3 and cert 62837377 in PSA Vault. Five legacy graded comics also need front
   scans. Use Admin > Photos to attach an exact-copy front/back image.
-- Twenty-four owner-scanned raw books in Bin #15 need edition identification.
+- Nineteen owner-scanned raw books in Bin #15 need edition identification.
   Copies 15-003 and 15-004 are verified Spider-Man: Reign 2 #1 (2024), Skottie
   Young and Leinil Francis Yu variants. Copies 15-009 and 15-026 are verified NYX #1
   Artgerm and Miles Morales: Spider-Man #21 Skottie Young Big Marvels variants.
@@ -168,7 +170,8 @@ Inventory growth and newly valued records affect totals; these are not investmen
   Six more (15-001, 005, 006, 007, 008 and 011) were confirmed in the dawn pass.
   Eight more (15-034, 035, 036 and 063 through 067) were confirmed in the morning pass.
   Nine more (15-028, 029, 030, 039, 040, 041, 075, 078 and 081) were confirmed
-  in the midday pass. All 96 still need condition assessment.
+  in the midday pass. Five more (15-074, 077, 092, 094 and 095) were confirmed
+  in the afternoon pass. All 96 still need condition assessment.
 - Singularity now uses the owner's supplied *Cornfield Chase* MP3, with looping
   playback, a Music toggle, and uninterrupted audio when controls are hidden.
 

@@ -1,0 +1,913 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "raw:15-094",
+      "revision": "773418c4835ba8b61ebbedea507ba2ca90a15c510ff3db970719624d49bf53fe",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-22-raw-15-094",
+          "copyId": "raw:15-094",
+          "basis": "raw-reference",
+          "value": 1.56,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-perissinotto-33-2023",
+            "asOf": "2026-07-22",
+            "retrievedAt": "2026-09-22T22:00:23.793Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Amazing Spider-Man",
+              "issue": "33",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "Giada Perissinotto Disney100 Ms. Marvel Color Variant",
+              "upc": "75960620200303321",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-perissinotto-33-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-22T22:00:23.793Z",
+            "notes": "Individually inspected owned front Raw_15-094_FRONT.jpg. Daisy Duck in the Ms. Marvel costume matches the color Disney100 homage. The cover homages Ms. Marvel #1, but the actual issue is Amazing Spider-Man #33; prior proposed Ms. Marvel identity was incorrect. UPC is catalog-sourced. Identity only; condition remains unassessed. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. PriceCharting-reported sales; completed payment was not independently verified. Seller condition descriptions and repeated listing titles do not establish owned condition or independent buyers. Median of selected matching rows from the preceding year is only an edition reference, excluded from accepted collection totals.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:336686242838",
+                "sourceUrl": "https://www.ebay.com/itm/336686242838",
+                "soldAt": "2026-07-22",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236921092303",
+                "sourceUrl": "https://www.ebay.com/itm/236921092303",
+                "soldAt": "2026-07-15",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336662809086",
+                "sourceUrl": "https://www.ebay.com/itm/336662809086",
+                "soldAt": "2026-07-08",
+                "value": 2.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336652102613",
+                "sourceUrl": "https://www.ebay.com/itm/336652102613",
+                "soldAt": "2026-07-01",
+                "value": 1.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336640752952",
+                "sourceUrl": "https://www.ebay.com/itm/336640752952",
+                "soldAt": "2026-06-24",
+                "value": 2.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236866269898",
+                "sourceUrl": "https://www.ebay.com/itm/236866269898",
+                "soldAt": "2026-06-17",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336613571935",
+                "sourceUrl": "https://www.ebay.com/itm/336613571935",
+                "soldAt": "2026-06-10",
+                "value": 1.84,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236837076756",
+                "sourceUrl": "https://www.ebay.com/itm/236837076756",
+                "soldAt": "2026-06-03",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336589645722",
+                "sourceUrl": "https://www.ebay.com/itm/336589645722",
+                "soldAt": "2026-05-27",
+                "value": 1.56,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236811152949",
+                "sourceUrl": "https://www.ebay.com/itm/236811152949",
+                "soldAt": "2026-05-20",
+                "value": 1.29,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236797638624",
+                "sourceUrl": "https://www.ebay.com/itm/236797638624",
+                "soldAt": "2026-05-13",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236782654955",
+                "sourceUrl": "https://www.ebay.com/itm/236782654955",
+                "soldAt": "2026-05-06",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236768389819",
+                "sourceUrl": "https://www.ebay.com/itm/236768389819",
+                "soldAt": "2026-04-29",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336532406863",
+                "sourceUrl": "https://www.ebay.com/itm/336532406863",
+                "soldAt": "2026-04-22",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236740045828",
+                "sourceUrl": "https://www.ebay.com/itm/236740045828",
+                "soldAt": "2026-04-15",
+                "value": 2.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336509360250",
+                "sourceUrl": "https://www.ebay.com/itm/336509360250",
+                "soldAt": "2026-04-08",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336496650007",
+                "sourceUrl": "https://www.ebay.com/itm/336496650007",
+                "soldAt": "2026-04-01",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336486898893",
+                "sourceUrl": "https://www.ebay.com/itm/336486898893",
+                "soldAt": "2026-03-25",
+                "value": 2.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236678800211",
+                "sourceUrl": "https://www.ebay.com/itm/236678800211",
+                "soldAt": "2026-03-18",
+                "value": 1.75,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236664899987",
+                "sourceUrl": "https://www.ebay.com/itm/236664899987",
+                "soldAt": "2026-03-11",
+                "value": 1.76,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336450273609",
+                "sourceUrl": "https://www.ebay.com/itm/336450273609",
+                "soldAt": "2026-03-04",
+                "value": 1.56,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336438112950",
+                "sourceUrl": "https://www.ebay.com/itm/336438112950",
+                "soldAt": "2026-02-25",
+                "value": 1.78,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336428292282",
+                "sourceUrl": "https://www.ebay.com/itm/336428292282",
+                "soldAt": "2026-02-18",
+                "value": 4.81,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236614132710",
+                "sourceUrl": "https://www.ebay.com/itm/236614132710",
+                "soldAt": "2026-02-11",
+                "value": 2.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336412281365",
+                "sourceUrl": "https://www.ebay.com/itm/336412281365",
+                "soldAt": "2026-02-04",
+                "value": 2.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:175733896751",
+                "sourceUrl": "https://www.ebay.com/itm/175733896751",
+                "soldAt": "2026-01-31",
+                "value": 4.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. PriceCharting-reported sales; completed payment was not independently verified. Seller condition descriptions and repeated listing titles do not establish owned condition or independent buyers. Median of selected matching rows from the preceding year is only an edition reference, excluded from accepted collection totals."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-077",
+      "revision": "773418c4835ba8b61ebbedea507ba2ca90a15c510ff3db970719624d49bf53fe",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-22-raw-15-077",
+          "copyId": "raw:15-077",
+          "basis": "raw-reference",
+          "value": 7.5,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-kirkham-4-2023",
+            "asOf": "2026-05-28",
+            "retrievedAt": "2026-09-22T22:00:23.793Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Miles Morales: Spider-Man",
+              "issue": "4",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "Tyler Kirkham Unknown Comics Exclusive Trade Dress",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-kirkham-4-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-22T22:00:23.793Z",
+            "notes": "Individually inspected owned front Raw_15-077_FRONT.jpg. Owned issue 4/LGY286, lightning/rain artwork and printed trade dress match the Kirkham catalog image. The small artist signature is printed artwork, not an additional autograph. No signature premium added. Identity only; condition remains unassessed. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. PriceCharting-reported sales; completed payment was not independently verified. Seller condition descriptions and repeated listing titles do not establish owned condition or independent buyers. Median of selected matching rows from the preceding year is only an edition reference, excluded from accepted collection totals.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:257501998167",
+                "sourceUrl": "https://www.ebay.com/itm/257501998167",
+                "soldAt": "2026-05-28",
+                "value": 5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:188023282746",
+                "sourceUrl": "https://www.ebay.com/itm/188023282746",
+                "soldAt": "2026-04-28",
+                "value": 10,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:256776849224",
+                "sourceUrl": "https://www.ebay.com/itm/256776849224",
+                "soldAt": "2026-02-13",
+                "value": 6.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:277574808813",
+                "sourceUrl": "https://www.ebay.com/itm/277574808813",
+                "soldAt": "2025-12-14",
+                "value": 10.95,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:297526290347",
+                "sourceUrl": "https://www.ebay.com/itm/297526290347",
+                "soldAt": "2025-11-29",
+                "value": 9.54,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:376715316317",
+                "sourceUrl": "https://www.ebay.com/itm/376715316317",
+                "soldAt": "2025-11-27",
+                "value": 4,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:376715356812",
+                "sourceUrl": "https://www.ebay.com/itm/376715356812",
+                "soldAt": "2025-11-27",
+                "value": 7.5,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. PriceCharting-reported sales; completed payment was not independently verified. Seller condition descriptions and repeated listing titles do not establish owned condition or independent buyers. Median of selected matching rows from the preceding year is only an edition reference, excluded from accepted collection totals."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-095",
+      "revision": "773418c4835ba8b61ebbedea507ba2ca90a15c510ff3db970719624d49bf53fe",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-22-raw-15-095",
+          "copyId": "raw:15-095",
+          "basis": "raw-reference",
+          "value": 1.55,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-perissinotto-32-2023",
+            "asOf": "2026-06-27",
+            "retrievedAt": "2026-09-22T22:00:23.793Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Amazing Spider-Man",
+              "issue": "32",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "Giada Perissinotto Disney100 Ghost-Spider Color Variant",
+              "upc": "75960620200303221",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-perissinotto-32-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-22T22:00:23.793Z",
+            "notes": "Individually inspected owned front Raw_15-095_FRONT.jpg. Daisy Duck in a white Ghost-Spider hood in an alley matches the color Disney100 homage. The Edge of Spider-Verse cover title is an homage, not the host series. UPC is catalog-sourced. Identity only; condition remains unassessed. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. PriceCharting-reported sales; completed payment was not independently verified. Seller condition descriptions and repeated listing titles do not establish owned condition or independent buyers. Median of selected matching rows from the preceding year is only an edition reference, excluded from accepted collection totals.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:358701194193",
+                "sourceUrl": "https://www.ebay.com/itm/358701194193",
+                "soldAt": "2026-06-27",
+                "value": 0.89,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:127901563081",
+                "sourceUrl": "https://www.ebay.com/itm/127901563081",
+                "soldAt": "2026-06-10",
+                "value": 7.5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:358631657088",
+                "sourceUrl": "https://www.ebay.com/itm/358631657088",
+                "soldAt": "2026-06-10",
+                "value": 1.55,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:358595357715",
+                "sourceUrl": "https://www.ebay.com/itm/358595357715",
+                "soldAt": "2026-06-01",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:358591590427",
+                "sourceUrl": "https://www.ebay.com/itm/358591590427",
+                "soldAt": "2026-05-31",
+                "value": 1.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:358588050056",
+                "sourceUrl": "https://www.ebay.com/itm/358588050056",
+                "soldAt": "2026-05-30",
+                "value": 1.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:358584535153",
+                "sourceUrl": "https://www.ebay.com/itm/358584535153",
+                "soldAt": "2026-05-29",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:358557523870",
+                "sourceUrl": "https://www.ebay.com/itm/358557523870",
+                "soldAt": "2026-05-22",
+                "value": 2.51,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:127683893435",
+                "sourceUrl": "https://www.ebay.com/itm/127683893435",
+                "soldAt": "2026-02-21",
+                "value": 1.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:176919470183",
+                "sourceUrl": "https://www.ebay.com/itm/176919470183",
+                "soldAt": "2026-02-02",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:267345773113",
+                "sourceUrl": "https://www.ebay.com/itm/267345773113",
+                "soldAt": "2025-11-23",
+                "value": 3.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. PriceCharting-reported sales; completed payment was not independently verified. Seller condition descriptions and repeated listing titles do not establish owned condition or independent buyers. Median of selected matching rows from the preceding year is only an edition reference, excluded from accepted collection totals."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-092",
+      "revision": "773418c4835ba8b61ebbedea507ba2ca90a15c510ff3db970719624d49bf53fe",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-22-raw-15-092",
+          "copyId": "raw:15-092",
+          "basis": "raw-reference",
+          "value": 3.83,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-amazing-fantasy/amazing-fantasy-mcniven-1000-2022",
+            "asOf": "2026-09-18",
+            "retrievedAt": "2026-09-22T22:00:23.793Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Amazing Fantasy",
+              "issue": "1000",
+              "issueYear": "2022",
+              "publisher": "Marvel Comics",
+              "variant": "Steve McNiven Variant - First Printing",
+              "upc": "75960609975700171",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-amazing-fantasy/amazing-fantasy-mcniven-1000-2022",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-22T22:00:23.793Z",
+            "notes": "Individually inspected owned front Raw_15-092_FRONT.jpg. Individually compared owned lamp-post/Spider-Man/Peter Parker art and printed title layout with https://www.g-mart.com/static/f218450.jpg. First printing, released August 31, 2022; October cover date. Second printing uses different artwork and is excluded. UPC is catalog-sourced. Identity only; condition remains unassessed. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. PriceCharting-reported sales; completed payment was not independently verified. Seller condition descriptions and repeated listing titles do not establish owned condition or independent buyers. Median of selected matching rows from the preceding year is only an edition reference, excluded from accepted collection totals.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:195318851113",
+                "sourceUrl": "https://www.ebay.com/itm/195318851113",
+                "soldAt": "2026-09-18",
+                "value": 7.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:257403304299",
+                "sourceUrl": "https://www.ebay.com/itm/257403304299",
+                "soldAt": "2026-08-18",
+                "value": 3.49,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:358298969013",
+                "sourceUrl": "https://www.ebay.com/itm/358298969013",
+                "soldAt": "2026-07-06",
+                "value": 3.17,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:366381215454",
+                "sourceUrl": "https://www.ebay.com/itm/366381215454",
+                "soldAt": "2026-05-11",
+                "value": 3.2,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:256123493459",
+                "sourceUrl": "https://www.ebay.com/itm/256123493459",
+                "soldAt": "2026-04-02",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:358248358641",
+                "sourceUrl": "https://www.ebay.com/itm/358248358641",
+                "soldAt": "2026-03-02",
+                "value": 1.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236609146196",
+                "sourceUrl": "https://www.ebay.com/itm/236609146196",
+                "soldAt": "2026-02-08",
+                "value": 5.5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236609148513",
+                "sourceUrl": "https://www.ebay.com/itm/236609148513",
+                "soldAt": "2026-02-01",
+                "value": 3.83,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236585280144",
+                "sourceUrl": "https://www.ebay.com/itm/236585280144",
+                "soldAt": "2026-01-25",
+                "value": 3.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236573493234",
+                "sourceUrl": "https://www.ebay.com/itm/236573493234",
+                "soldAt": "2026-01-18",
+                "value": 5.5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:116967614120",
+                "sourceUrl": "https://www.ebay.com/itm/116967614120",
+                "soldAt": "2026-01-13",
+                "value": 7.5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236561572663",
+                "sourceUrl": "https://www.ebay.com/itm/236561572663",
+                "soldAt": "2026-01-11",
+                "value": 3.51,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:157440114524",
+                "sourceUrl": "https://www.ebay.com/itm/157440114524",
+                "soldAt": "2026-01-04",
+                "value": 4.97,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236545017632",
+                "sourceUrl": "https://www.ebay.com/itm/236545017632",
+                "soldAt": "2026-01-04",
+                "value": 2.51,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236535656589",
+                "sourceUrl": "https://www.ebay.com/itm/236535656589",
+                "soldAt": "2025-12-28",
+                "value": 3,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336341154457",
+                "sourceUrl": "https://www.ebay.com/itm/336341154457",
+                "soldAt": "2025-12-21",
+                "value": 5.5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236509287164",
+                "sourceUrl": "https://www.ebay.com/itm/236509287164",
+                "soldAt": "2025-12-14",
+                "value": 6.5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336314819213",
+                "sourceUrl": "https://www.ebay.com/itm/336314819213",
+                "soldAt": "2025-12-07",
+                "value": 4.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336304052043",
+                "sourceUrl": "https://www.ebay.com/itm/336304052043",
+                "soldAt": "2025-11-30",
+                "value": 5.5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236470557241",
+                "sourceUrl": "https://www.ebay.com/itm/236470557241",
+                "soldAt": "2025-11-23",
+                "value": 3.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:297647005889",
+                "sourceUrl": "https://www.ebay.com/itm/297647005889",
+                "soldAt": "2025-10-06",
+                "value": 0.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. PriceCharting-reported sales; completed payment was not independently verified. Seller condition descriptions and repeated listing titles do not establish owned condition or independent buyers. Median of selected matching rows from the preceding year is only an edition reference, excluded from accepted collection totals."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-074",
+      "revision": "773418c4835ba8b61ebbedea507ba2ca90a15c510ff3db970719624d49bf53fe",
+      "observations": [
+        {
+          "id": "afternoon-2026-09-22-raw-15-074",
+          "copyId": "raw:15-074",
+          "basis": "raw-reference",
+          "value": 1.93,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-sciarrone-27-2023",
+            "asOf": "2026-09-02",
+            "retrievedAt": "2026-09-22T22:00:23.793Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Amazing Spider-Man",
+              "issue": "27",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "Claudio Sciarrone Disney100 Invincible Iron Man Color Variant",
+              "upc": "75960620200302721",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-sciarrone-27-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-22T22:00:23.793Z",
+            "notes": "Individually inspected owned front Raw_15-074_FRONT.jpg. Owned Mickey Mouse in red/gold Iron Man armor matches the catalog image and separately identified copy 15-035. The Iron Man #1 cover title is an homage; host issue is Amazing Spider-Man #27. This is a separate owned scan, not a newly created copy. UPC is catalog-sourced. Identity only; condition remains unassessed. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. PriceCharting-reported sales; completed payment was not independently verified. Seller condition descriptions and repeated listing titles do not establish owned condition or independent buyers. Median of selected matching rows from the preceding year is only an edition reference, excluded from accepted collection totals.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:146676367251",
+                "sourceUrl": "https://www.ebay.com/itm/146676367251",
+                "soldAt": "2026-09-02",
+                "value": 5.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:256252813540",
+                "sourceUrl": "https://www.ebay.com/itm/256252813540",
+                "soldAt": "2026-08-09",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236921431681",
+                "sourceUrl": "https://www.ebay.com/itm/236921431681",
+                "soldAt": "2026-07-17",
+                "value": 1.55,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336662821542",
+                "sourceUrl": "https://www.ebay.com/itm/336662821542",
+                "soldAt": "2026-07-10",
+                "value": 1.51,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336652120487",
+                "sourceUrl": "https://www.ebay.com/itm/336652120487",
+                "soldAt": "2026-07-03",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336640767142",
+                "sourceUrl": "https://www.ebay.com/itm/336640767142",
+                "soldAt": "2026-06-26",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336628330528",
+                "sourceUrl": "https://www.ebay.com/itm/336628330528",
+                "soldAt": "2026-06-19",
+                "value": 1.56,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236850394038",
+                "sourceUrl": "https://www.ebay.com/itm/236850394038",
+                "soldAt": "2026-06-12",
+                "value": 1.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336601469222",
+                "sourceUrl": "https://www.ebay.com/itm/336601469222",
+                "soldAt": "2026-06-05",
+                "value": 2.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336589657980",
+                "sourceUrl": "https://www.ebay.com/itm/336589657980",
+                "soldAt": "2026-05-29",
+                "value": 1.78,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336578728033",
+                "sourceUrl": "https://www.ebay.com/itm/336578728033",
+                "soldAt": "2026-05-22",
+                "value": 2.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336567747598",
+                "sourceUrl": "https://www.ebay.com/itm/336567747598",
+                "soldAt": "2026-05-15",
+                "value": 1.77,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236782672550",
+                "sourceUrl": "https://www.ebay.com/itm/236782672550",
+                "soldAt": "2026-05-08",
+                "value": 1.46,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336543373126",
+                "sourceUrl": "https://www.ebay.com/itm/336543373126",
+                "soldAt": "2026-05-01",
+                "value": 1.81,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236754512332",
+                "sourceUrl": "https://www.ebay.com/itm/236754512332",
+                "soldAt": "2026-04-24",
+                "value": 1.55,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:336525181069",
+                "sourceUrl": "https://www.ebay.com/itm/336525181069",
+                "soldAt": "2026-04-17",
+                "value": 3.25,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:127749133614",
+                "sourceUrl": "https://www.ebay.com/itm/127749133614",
+                "soldAt": "2026-03-23",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:389408209237",
+                "sourceUrl": "https://www.ebay.com/itm/389408209237",
+                "soldAt": "2026-03-14",
+                "value": 3.5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:134614467356",
+                "sourceUrl": "https://www.ebay.com/itm/134614467356",
+                "soldAt": "2026-01-08",
+                "value": 3.79,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:374980570655",
+                "sourceUrl": "https://www.ebay.com/itm/374980570655",
+                "soldAt": "2026-01-07",
+                "value": 6.68,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:374746332893",
+                "sourceUrl": "https://www.ebay.com/itm/374746332893",
+                "soldAt": "2026-01-07",
+                "value": 3.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:175771658228",
+                "sourceUrl": "https://www.ebay.com/itm/175771658228",
+                "soldAt": "2026-01-07",
+                "value": 2.05,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:404327197478",
+                "sourceUrl": "https://www.ebay.com/itm/404327197478",
+                "soldAt": "2025-12-22",
+                "value": 3.5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:176863368571",
+                "sourceUrl": "https://www.ebay.com/itm/176863368571",
+                "soldAt": "2025-12-14",
+                "value": 7.5,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. PriceCharting-reported sales; completed payment was not independently verified. Seller condition descriptions and repeated listing titles do not establish owned condition or independent buyers. Median of selected matching rows from the preceding year is only an edition reference, excluded from accepted collection totals."
+        }
+      ]
+    }
+  ]
+}

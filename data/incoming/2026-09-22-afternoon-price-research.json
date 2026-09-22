@@ -1,0 +1,1313 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-09-22T22:00:20.545Z",
+  "sourceRowAudit": {
+    "editions": 5,
+    "rawTables": 5,
+    "totalRows": 145,
+    "selectedRows": 89,
+    "excludedRows": 56,
+    "normalizedBrowserCaptureLength": 3938,
+    "fnv1a": 1084832603
+  },
+  "coverage": "Five live rendered PriceCharting raw-sale tables and their catalog images; individually inspected owned fronts. G-Mart printed-cover image matched for Amazing Fantasy. Marvel and retailer catalog information cross-checked for Disney homage host issues. SportsCardsPro grade selector inspected live for Jeanty. Fresh indexed graded searches included ComicBookRealm, eBay, HipComic, ComicLink and retailer pages. MyComicShop, Slabulous, Bird City and Mercari provided Moon Man identity leads, not accepted sale prices. No newly verified paid GoCollect value or independently verified completed payment for selected PriceCharting rows.",
+  "rawReferences": [
+    {
+      "copyIds": [
+        "raw:15-094"
+      ],
+      "upc": "75960620200303321",
+      "productId": "5768316",
+      "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-perissinotto-33-2023",
+      "sales": [
+        [
+          "336686242838",
+          "2026-07-22",
+          0.99
+        ],
+        [
+          "236921092303",
+          "2026-07-15",
+          0.99
+        ],
+        [
+          "336662809086",
+          "2026-07-08",
+          2.25
+        ],
+        [
+          "336652102613",
+          "2026-07-01",
+          1.25
+        ],
+        [
+          "336640752952",
+          "2026-06-24",
+          2.25
+        ],
+        [
+          "236866269898",
+          "2026-06-17",
+          0.99
+        ],
+        [
+          "336613571935",
+          "2026-06-10",
+          1.84
+        ],
+        [
+          "236837076756",
+          "2026-06-03",
+          0.99
+        ],
+        [
+          "336589645722",
+          "2026-05-27",
+          1.56
+        ],
+        [
+          "236811152949",
+          "2026-05-20",
+          1.29
+        ],
+        [
+          "236797638624",
+          "2026-05-13",
+          0.99
+        ],
+        [
+          "236782654955",
+          "2026-05-06",
+          0.99
+        ],
+        [
+          "236768389819",
+          "2026-04-29",
+          0.99
+        ],
+        [
+          "336532406863",
+          "2026-04-22",
+          0.99
+        ],
+        [
+          "236740045828",
+          "2026-04-15",
+          2.25
+        ],
+        [
+          "336509360250",
+          "2026-04-08",
+          0.99
+        ],
+        [
+          "336496650007",
+          "2026-04-01",
+          0.99
+        ],
+        [
+          "336486898893",
+          "2026-03-25",
+          2.25
+        ],
+        [
+          "236678800211",
+          "2026-03-18",
+          1.75
+        ],
+        [
+          "236664899987",
+          "2026-03-11",
+          1.76
+        ],
+        [
+          "336450273609",
+          "2026-03-04",
+          1.56
+        ],
+        [
+          "336438112950",
+          "2026-02-25",
+          1.78
+        ],
+        [
+          "336428292282",
+          "2026-02-18",
+          4.81
+        ],
+        [
+          "236614132710",
+          "2026-02-11",
+          2.25
+        ],
+        [
+          "336412281365",
+          "2026-02-04",
+          2.25
+        ],
+        [
+          "175733896751",
+          "2026-01-31",
+          4.99
+        ]
+      ],
+      "identityNote": "Individually inspected owned front Raw_15-094_FRONT.jpg. Daisy Duck in the Ms. Marvel costume matches the color Disney100 homage. The cover homages Ms. Marvel #1, but the actual issue is Amazing Spider-Man #33; prior proposed Ms. Marvel identity was incorrect. UPC is catalog-sourced. Identity only; condition remains unassessed.",
+      "caveat": "PriceCharting-reported sales; completed payment was not independently verified. Seller condition descriptions and repeated listing titles do not establish owned condition or independent buyers. Median of selected matching rows from the preceding year is only an edition reference, excluded from accepted collection totals.",
+      "excluded": [
+        {
+          "transactionId": "ebay:167215678215",
+          "url": "https://www.ebay.com/itm/167215678215",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:166306716724",
+          "url": "https://www.ebay.com/itm/166306716724",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:305775352380",
+          "url": "https://www.ebay.com/itm/305775352380",
+          "reason": "Older than the one-year comparison window. Also 1:100 variant, not owned color."
+        },
+        {
+          "transactionId": "ebay:175787011117",
+          "url": "https://www.ebay.com/itm/175787011117",
+          "reason": "Older than the one-year comparison window."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-077"
+      ],
+      "productId": "4895052",
+      "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-kirkham-4-2023",
+      "sales": [
+        [
+          "257501998167",
+          "2026-05-28",
+          5
+        ],
+        [
+          "188023282746",
+          "2026-04-28",
+          10
+        ],
+        [
+          "256776849224",
+          "2026-02-13",
+          6.99
+        ],
+        [
+          "277574808813",
+          "2025-12-14",
+          10.95
+        ],
+        [
+          "297526290347",
+          "2025-11-29",
+          9.54
+        ],
+        [
+          "376715316317",
+          "2025-11-27",
+          4
+        ],
+        [
+          "376715356812",
+          "2025-11-27",
+          7.5
+        ]
+      ],
+      "identityNote": "Individually inspected owned front Raw_15-077_FRONT.jpg. Owned issue 4/LGY286, lightning/rain artwork and printed trade dress match the Kirkham catalog image. The small artist signature is printed artwork, not an additional autograph. No signature premium added. Identity only; condition remains unassessed.",
+      "caveat": "PriceCharting-reported sales; completed payment was not independently verified. Seller condition descriptions and repeated listing titles do not establish owned condition or independent buyers. Median of selected matching rows from the preceding year is only an edition reference, excluded from accepted collection totals.",
+      "excluded": [
+        {
+          "transactionId": "ebay:387913304631",
+          "url": "https://www.ebay.com/itm/387913304631",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:186707902010",
+          "url": "https://www.ebay.com/itm/186707902010",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:375555230540",
+          "url": "https://www.ebay.com/itm/375555230540",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:304891494869",
+          "url": "https://www.ebay.com/itm/304891494869",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:305444845700",
+          "url": "https://www.ebay.com/itm/305444845700",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:364891471389",
+          "url": "https://www.ebay.com/itm/364891471389",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:335274466131",
+          "url": "https://www.ebay.com/itm/335274466131",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:156070126866",
+          "url": "https://www.ebay.com/itm/156070126866",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:166286522129",
+          "url": "https://www.ebay.com/itm/166286522129",
+          "reason": "Older than the one-year comparison window. Also a two-book lot."
+        },
+        {
+          "transactionId": "ebay:204617866770",
+          "url": "https://www.ebay.com/itm/204617866770",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:156003958486",
+          "url": "https://www.ebay.com/itm/156003958486",
+          "reason": "Older than the one-year comparison window. Also autographed."
+        },
+        {
+          "transactionId": "ebay:335194617469",
+          "url": "https://www.ebay.com/itm/335194617469",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:305304314432",
+          "url": "https://www.ebay.com/itm/305304314432",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:155631189052",
+          "url": "https://www.ebay.com/itm/155631189052",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:155605725200",
+          "url": "https://www.ebay.com/itm/155605725200",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:125945378634",
+          "url": "https://www.ebay.com/itm/125945378634",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:256074215509",
+          "url": "https://www.ebay.com/itm/256074215509",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:285274014886",
+          "url": "https://www.ebay.com/itm/285274014886",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:304917055760",
+          "url": "https://www.ebay.com/itm/304917055760",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:204321538683",
+          "url": "https://www.ebay.com/itm/204321538683",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:314504409776",
+          "url": "https://www.ebay.com/itm/314504409776",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:226111559447",
+          "url": "https://www.ebay.com/itm/226111559447",
+          "reason": "Two-book lot, #2 Harvey plus #4 Kirkham."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-095"
+      ],
+      "upc": "75960620200303221",
+      "productId": "5692946",
+      "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-perissinotto-32-2023",
+      "sales": [
+        [
+          "358701194193",
+          "2026-06-27",
+          0.89
+        ],
+        [
+          "127901563081",
+          "2026-06-10",
+          7.5
+        ],
+        [
+          "358631657088",
+          "2026-06-10",
+          1.55
+        ],
+        [
+          "358595357715",
+          "2026-06-01",
+          0.99
+        ],
+        [
+          "358591590427",
+          "2026-05-31",
+          1.25
+        ],
+        [
+          "358588050056",
+          "2026-05-30",
+          1.25
+        ],
+        [
+          "358584535153",
+          "2026-05-29",
+          0.99
+        ],
+        [
+          "358557523870",
+          "2026-05-22",
+          2.51
+        ],
+        [
+          "127683893435",
+          "2026-02-21",
+          1.99
+        ],
+        [
+          "176919470183",
+          "2026-02-02",
+          3.99
+        ],
+        [
+          "267345773113",
+          "2025-11-23",
+          3.99
+        ]
+      ],
+      "identityNote": "Individually inspected owned front Raw_15-095_FRONT.jpg. Daisy Duck in a white Ghost-Spider hood in an alley matches the color Disney100 homage. The Edge of Spider-Verse cover title is an homage, not the host series. UPC is catalog-sourced. Identity only; condition remains unassessed.",
+      "caveat": "PriceCharting-reported sales; completed payment was not independently verified. Seller condition descriptions and repeated listing titles do not establish owned condition or independent buyers. Median of selected matching rows from the preceding year is only an edition reference, excluded from accepted collection totals.",
+      "excluded": [
+        {
+          "transactionId": "ebay:226502641590",
+          "url": "https://www.ebay.com/itm/226502641590",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:167215614589",
+          "url": "https://www.ebay.com/itm/167215614589",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:186046269981",
+          "url": "https://www.ebay.com/itm/186046269981",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:386012299604",
+          "url": "https://www.ebay.com/itm/386012299604",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:285749803153",
+          "url": "https://www.ebay.com/itm/285749803153",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:166284066013",
+          "url": "https://www.ebay.com/itm/166284066013",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:186044433796",
+          "url": "https://www.ebay.com/itm/186044433796",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:305724938294",
+          "url": "https://www.ebay.com/itm/305724938294",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:266872585488",
+          "url": "https://www.ebay.com/itm/266872585488",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:266686868167",
+          "url": "https://www.ebay.com/itm/266686868167",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:175753620727",
+          "url": "https://www.ebay.com/itm/175753620727",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:145732190504",
+          "url": "https://www.ebay.com/itm/145732190504",
+          "reason": "Older than the one-year comparison window. Also black-and-white 1:100 incentive."
+        },
+        {
+          "transactionId": "ebay:235424074887",
+          "url": "https://www.ebay.com/itm/235424074887",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:296211850253",
+          "url": "https://www.ebay.com/itm/296211850253",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:266555429791",
+          "url": "https://www.ebay.com/itm/266555429791",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:145268173417",
+          "url": "https://www.ebay.com/itm/145268173417",
+          "reason": "Older than the one-year comparison window."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-092"
+      ],
+      "upc": "75960609975700171",
+      "productId": "3621102",
+      "url": "https://www.pricecharting.com/game/comic-books-amazing-fantasy/amazing-fantasy-mcniven-1000-2022",
+      "sales": [
+        [
+          "195318851113",
+          "2026-09-18",
+          7.99
+        ],
+        [
+          "257403304299",
+          "2026-08-18",
+          3.49
+        ],
+        [
+          "358298969013",
+          "2026-07-06",
+          3.17
+        ],
+        [
+          "366381215454",
+          "2026-05-11",
+          3.2
+        ],
+        [
+          "256123493459",
+          "2026-04-02",
+          4.99
+        ],
+        [
+          "358248358641",
+          "2026-03-02",
+          1.25
+        ],
+        [
+          "236609146196",
+          "2026-02-08",
+          5.5
+        ],
+        [
+          "236609148513",
+          "2026-02-01",
+          3.83
+        ],
+        [
+          "236585280144",
+          "2026-01-25",
+          3.25
+        ],
+        [
+          "236573493234",
+          "2026-01-18",
+          5.5
+        ],
+        [
+          "116967614120",
+          "2026-01-13",
+          7.5
+        ],
+        [
+          "236561572663",
+          "2026-01-11",
+          3.51
+        ],
+        [
+          "157440114524",
+          "2026-01-04",
+          4.97
+        ],
+        [
+          "236545017632",
+          "2026-01-04",
+          2.51
+        ],
+        [
+          "236535656589",
+          "2025-12-28",
+          3
+        ],
+        [
+          "336341154457",
+          "2025-12-21",
+          5.5
+        ],
+        [
+          "236509287164",
+          "2025-12-14",
+          6.5
+        ],
+        [
+          "336314819213",
+          "2025-12-07",
+          4.25
+        ],
+        [
+          "336304052043",
+          "2025-11-30",
+          5.5
+        ],
+        [
+          "236470557241",
+          "2025-11-23",
+          3.25
+        ],
+        [
+          "297647005889",
+          "2025-10-06",
+          0.99
+        ]
+      ],
+      "identityNote": "Individually inspected owned front Raw_15-092_FRONT.jpg. Individually compared owned lamp-post/Spider-Man/Peter Parker art and printed title layout with https://www.g-mart.com/static/f218450.jpg. First printing, released August 31, 2022; October cover date. Second printing uses different artwork and is excluded. UPC is catalog-sourced. Identity only; condition remains unassessed.",
+      "caveat": "PriceCharting-reported sales; completed payment was not independently verified. Seller condition descriptions and repeated listing titles do not establish owned condition or independent buyers. Median of selected matching rows from the preceding year is only an edition reference, excluded from accepted collection totals.",
+      "excluded": [
+        {
+          "transactionId": "ebay:136317616299",
+          "url": "https://www.ebay.com/itm/136317616299",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:317129522245",
+          "url": "https://www.ebay.com/itm/317129522245",
+          "reason": "Older than the one-year comparison window. Also second printing."
+        },
+        {
+          "transactionId": "ebay:317100398155",
+          "url": "https://www.ebay.com/itm/317100398155",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:187418841403",
+          "url": "https://www.ebay.com/itm/187418841403",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:146587301436",
+          "url": "https://www.ebay.com/itm/146587301436",
+          "reason": "Older than the one-year comparison window. Also second printing."
+        },
+        {
+          "transactionId": "ebay:147096632046",
+          "url": "https://www.ebay.com/itm/147096632046",
+          "reason": "Second printing."
+        },
+        {
+          "transactionId": "ebay:127630521998",
+          "url": "https://www.ebay.com/itm/127630521998",
+          "reason": "Second printing."
+        },
+        {
+          "transactionId": "ebay:296141623594",
+          "url": "https://www.ebay.com/itm/296141623594",
+          "reason": "Second printing."
+        },
+        {
+          "transactionId": "ebay:366064329611",
+          "url": "https://www.ebay.com/itm/366064329611",
+          "reason": "Cover G label is not individually verified; excluded conservatively."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-074"
+      ],
+      "upc": "75960620200302721",
+      "productId": "5325228",
+      "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-sciarrone-27-2023",
+      "sales": [
+        [
+          "146676367251",
+          "2026-09-02",
+          5.99
+        ],
+        [
+          "256252813540",
+          "2026-08-09",
+          3.99
+        ],
+        [
+          "236921431681",
+          "2026-07-17",
+          1.55
+        ],
+        [
+          "336662821542",
+          "2026-07-10",
+          1.51
+        ],
+        [
+          "336652120487",
+          "2026-07-03",
+          0.99
+        ],
+        [
+          "336640767142",
+          "2026-06-26",
+          0.99
+        ],
+        [
+          "336628330528",
+          "2026-06-19",
+          1.56
+        ],
+        [
+          "236850394038",
+          "2026-06-12",
+          1.25
+        ],
+        [
+          "336601469222",
+          "2026-06-05",
+          2.25
+        ],
+        [
+          "336589657980",
+          "2026-05-29",
+          1.78
+        ],
+        [
+          "336578728033",
+          "2026-05-22",
+          2.25
+        ],
+        [
+          "336567747598",
+          "2026-05-15",
+          1.77
+        ],
+        [
+          "236782672550",
+          "2026-05-08",
+          1.46
+        ],
+        [
+          "336543373126",
+          "2026-05-01",
+          1.81
+        ],
+        [
+          "236754512332",
+          "2026-04-24",
+          1.55
+        ],
+        [
+          "336525181069",
+          "2026-04-17",
+          3.25
+        ],
+        [
+          "127749133614",
+          "2026-03-23",
+          0.99
+        ],
+        [
+          "389408209237",
+          "2026-03-14",
+          3.5
+        ],
+        [
+          "134614467356",
+          "2026-01-08",
+          3.79
+        ],
+        [
+          "374980570655",
+          "2026-01-07",
+          6.68
+        ],
+        [
+          "374746332893",
+          "2026-01-07",
+          3.99
+        ],
+        [
+          "175771658228",
+          "2026-01-07",
+          2.05
+        ],
+        [
+          "404327197478",
+          "2025-12-22",
+          3.5
+        ],
+        [
+          "176863368571",
+          "2025-12-14",
+          7.5
+        ]
+      ],
+      "identityNote": "Individually inspected owned front Raw_15-074_FRONT.jpg. Owned Mickey Mouse in red/gold Iron Man armor matches the catalog image and separately identified copy 15-035. The Iron Man #1 cover title is an homage; host issue is Amazing Spider-Man #27. This is a separate owned scan, not a newly created copy. UPC is catalog-sourced. Identity only; condition remains unassessed.",
+      "caveat": "PriceCharting-reported sales; completed payment was not independently verified. Seller condition descriptions and repeated listing titles do not establish owned condition or independent buyers. Median of selected matching rows from the preceding year is only an edition reference, excluded from accepted collection totals.",
+      "excluded": [
+        {
+          "transactionId": "ebay:306208639536",
+          "url": "https://www.ebay.com/itm/306208639536",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:146253204839",
+          "url": "https://www.ebay.com/itm/146253204839",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:394677692495",
+          "url": "https://www.ebay.com/itm/394677692495",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:266499558148",
+          "url": "https://www.ebay.com/itm/266499558148",
+          "reason": "Older than the one-year comparison window."
+        },
+        {
+          "transactionId": "ebay:305464573365",
+          "url": "https://www.ebay.com/itm/305464573365",
+          "reason": "Older than the one-year comparison window."
+        }
+      ]
+    }
+  ],
+  "gradedSearches": [
+    {
+      "copyId": "TAG:K7814397",
+      "identity": "Ashton Jeanty 55B-21, 2024 Bowman Chrome University 1955 Fuchsia /150, TAG 10",
+      "method": "Live rendered grade selector and fresh indexed eBay search.",
+      "finding": "Live rendered SportsCardsPro product 7929653 shows PSA 10 (0), TAG 10 (0), all other graded categories (0), and 18 ungraded sales. Its modeled PSA 10 guide is not a verified same-grade sale. An indexed $75 PSA 10 eBay listing is an active offer. No comparison imported.",
+      "sources": [
+        "https://www.sportscardspro.com/game/football-cards-2024-bowman-chrome-university-1955/ashton-jeanty-fuchsia-refractor-55b-21",
+        "https://www.ebay.com/itm/306775902985"
+      ]
+    },
+    {
+      "copyId": "CGC:4245413015",
+      "identity": "Amazing Spider-Man #20 Nakayama, 2023, Universal 9.6",
+      "method": "Fresh indexed search and retrieved source results; no newly verified original graded sale.",
+      "finding": "Fresh indexed ComicBookRealm exact-edition table has no grade-9.6 history or estimate. Its grade-9.8 history is not applicable. eBay and HipComic results include signed virgin editions, unlike the owned trade-dress Universal copy.",
+      "sources": [
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/307124/marvel-comics-amazing-spider-man-20",
+        "https://www.ebay.com/itm/197662409574",
+        "https://www.hipcomic.com/price-guide/us/marvel/comic/the-amazing-spider-man-2022/20/"
+      ]
+    },
+    {
+      "copyId": "CGC:4350047006",
+      "identity": "w0rldtr33 #5 Fullerton Cover E, 2023, Universal 9.8",
+      "method": "Fresh indexed search and retrieved source results; no newly verified original graded sale.",
+      "finding": "Fresh exact searches found a BeachBum Comics $300 retail offer, not a completed sale. Dan Quintana, Ghost in the Shell and signed variants are different editions.",
+      "sources": [
+        "https://beachbumcomics.com/collections/w0rldtr33",
+        "https://comics.www.collectors-society.com/registry/comics/PeopleSetDetail.aspx?PeopleSetID=165085"
+      ]
+    },
+    {
+      "copyId": "CGC:4424144001",
+      "identity": "Spectacular Spider-Men #1 Ramos, 2024, Universal 9.6",
+      "method": "Fresh indexed search and retrieved source results; no newly verified original graded sale.",
+      "finding": "Fresh searches returned the SDCC Ramos Color Splash variant and 2012 Spider-Men #1 Ramos; these are different editions/series. No matching completed sale verified.",
+      "sources": [
+        "https://www.pricecharting.com/game/comic-books-spectacular-spider-men/spectacular-spider-men-sdcc-ramos-color-splash-1-2024",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/110788/marvel-comics-spider-men-1b-ramos-variant-cover"
+      ]
+    },
+    {
+      "copyId": "CGC:4245413012",
+      "identity": "Amazing Fantasy #1000 regular, 2022, Universal 9.0",
+      "method": "Fresh indexed search and retrieved source results; no newly verified original graded sale.",
+      "finding": "Fresh exact searches returned Campbell virgin 9.8 history and Amazing Fantasy #15 auction results. Neither matches this copy. No value imported.",
+      "sources": [
+        "https://www.pricecharting.com/es/game/comic-books-amazing-fantasy/amazing-fantasy-campbell-virgin-1000-2022",
+        "https://www.comiclink.com/results/generate_highlights.asp?output=2023-Spring-Comics"
+      ]
+    },
+    {
+      "copyId": "CGC:4089841007",
+      "identity": "Wretches #1 Momoko Metal, 2022, Universal 9.8",
+      "method": "Fresh indexed search and retrieved source results; no newly verified original graded sale.",
+      "finding": "Fresh indexed eBay storefront results contain a Metal edition retail offer and signed non-metal copies. No exact completed sale verified.",
+      "sources": [
+        "https://www.ebay.ca/str/geekstreetcomics/Graded-Comics-CGC/_i.html?_pgn=3&store_cat=33317038018"
+      ]
+    },
+    {
+      "copyId": "CGC:4386585001",
+      "identity": "The Cull #1 Shrike, 2023, Universal 9.8",
+      "method": "Fresh indexed search and retrieved source results; no newly verified original graded sale.",
+      "finding": "Fresh exact title/artist/grade sold search did not produce a verified matching transaction. No value imported.",
+      "sources": []
+    },
+    {
+      "copyId": "CGC:4350046004",
+      "identity": "Usagi Yojimbo: Ice and Snow SDCC Preview #1 Gold Foil, 2023, Universal 9.8",
+      "method": "Fresh indexed search and retrieved source results; no newly verified original graded sale.",
+      "finding": "Fresh searches returned signed/remarqued graded offers and raw gold/blue/green foil records. PriceCharting tables mix the later regular issue, NYCC edition and SDCC preview. None establishes the owned unsigned graded value.",
+      "sources": [
+        "https://www.pricecharting.com/game/comic-books-usagi-yojimbo-ice-and-snow/usagi-yojimbo-ice-and-snow-1-2023",
+        "https://www.pricecharting.com/es/game/comic-books-usagi-yojimbo/usagi-yojimbo-sdcc-1-2019"
+      ]
+    },
+    {
+      "copyId": "CGC:4401613003",
+      "identity": "Arcade Kings #1 Bird City, 2023, Universal 9.8",
+      "method": "Fresh indexed search and retrieved source results; no newly verified original graded sale.",
+      "finding": "Fresh exact title/store/grade auction search did not produce a verified matching transaction. No value imported.",
+      "sources": []
+    }
+  ],
+  "additionalRawChecks": [
+    {
+      "copyId": "raw:15-070",
+      "finding": "Individually inspected helmet/profile cover; small printed artist mark reads Ivan Tao. Exact Moon Man issue and finish are not confirmed; no identity or value imported."
+    },
+    {
+      "copyId": "raw:15-093",
+      "finding": "Individually inspected astronaut reaching toward light. Live Slabulous Moon Man #1 Ivan Tao Jumpman photograph has a spread-leg pose and does not match this owned cover. That candidate is excluded. Moon Man #2 Ivan Tao OBJ is a follow-up lead, not yet an accepted identity. Retailer sold-out status and two-book lot offers establish no individual sale price.",
+      "sources": [
+        "https://slabulouscomics.com/products/moon-man-1-ivan-tao-exclusive",
+        "https://slabulouscomics.com/cdn/shop/files/moonman1tao.jpg?v=1705625039",
+        "https://www.mycomicshop.com/search?mingr=0&tid=59990763",
+        "https://www.ebay.com/itm/335457317315",
+        "https://www.ebay.com/itm/135932848849"
+      ]
+    }
+  ],
+  "remainingRaw": [
+    {
+      "copyId": "Authority:1327529703",
+      "title": "Superman",
+      "issue": "6",
+      "variant": "Besch Creator Card Stock Variant",
+      "upc": "76194137950000661",
+      "images": {
+        "front": "Authority_1327529703_FRONT.jpg",
+        "back": "Authority_1327529703_BACK.jpg"
+      }
+    },
+    {
+      "copyId": "Authority:1251463037",
+      "title": "Wolverine: Revenge",
+      "issue": "2",
+      "variant": null,
+      "upc": "75960620995800211",
+      "images": {
+        "front": "Authority_1251463037_FRONT.jpg",
+        "back": "Authority_1251463037_BACK.jpg"
+      }
+    },
+    {
+      "copyId": "Authority:4742106011",
+      "title": "Ultimate Wolverine",
+      "issue": "1",
+      "variant": null,
+      "upc": "75960621050300111",
+      "images": {
+        "front": "Authority_4742106011_FRONT.jpg",
+        "back": "Authority_4742106011_BACK.jpg"
+      }
+    },
+    {
+      "copyId": "Authority:7633260283",
+      "title": "Detective Comics",
+      "issue": "400",
+      "variant": "Blank Facsimile Edition",
+      "upc": "76194138450400121",
+      "images": {
+        "front": "Authority_7633260283_FRONT.jpg",
+        "back": "Authority_7633260283_BACK.jpg"
+      }
+    },
+    {
+      "copyId": "Authority:4845360792",
+      "title": "The Immortal Thor",
+      "issue": "15",
+      "variant": "Villalobos Variant",
+      "upc": "75960620664301521",
+      "images": {
+        "front": "Authority_4845360792_FRONT.jpg",
+        "back": "Authority_4845360792_BACK.jpg"
+      }
+    },
+    {
+      "copyId": "Authority:4841253705",
+      "title": "Wolverine",
+      "issue": "1",
+      "variant": "Adamantium Head \"V\" Variant",
+      "upc": "75960620841800118",
+      "images": {
+        "front": "Authority_4841253705_FRONT.jpg",
+        "back": "Authority_4841253705_BACK.jpg"
+      }
+    },
+    {
+      "copyId": "Authority:8796605910",
+      "title": "From The DC Vault: The Sandman",
+      "issue": "19",
+      "variant": "Remastered Variant",
+      "upc": "76194138359000111",
+      "images": {
+        "front": "Authority_8796605910_FRONT.jpg",
+        "back": "Authority_8796605910_BACK.jpg"
+      }
+    },
+    {
+      "copyId": "Authority:7861079670",
+      "title": "Detective Comics",
+      "issue": "27",
+      "variant": "Foil Facsimile Variant",
+      "upc": "76194138562400131",
+      "images": {
+        "front": "Authority_7861079670_FRONT.jpg",
+        "back": "Authority_7861079670_BACK.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-002",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-002_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-012",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-012_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-013",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-013_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-014",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-014_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-015",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-015_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-059",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-059_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-060",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-060_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-068",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-068_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-069",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-069_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-071",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-071_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-017",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-017_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-082",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-082_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-018",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-018_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-083",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-083_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-025",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-025_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-056",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-056_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-061",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-061_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-070",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-070_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-093",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-093_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "Authority:8364744505",
+      "title": "Detective Comics",
+      "issue": "27",
+      "variant": "Blank Facsimile Edition",
+      "upc": "76194138562400121",
+      "images": {
+        "front": "Authority_8364744505_FRONT.jpg",
+        "back": "Authority_8364744505_BACK.jpg"
+      }
+    },
+    {
+      "copyId": "Authority:0152908938",
+      "title": "Rogue & Gambit",
+      "issue": "1",
+      "variant": "Alex Ross Mystique Timeless Virgin Variant",
+      "upc": "75960620455700151",
+      "images": {
+        "front": "Authority_0152908938_FRONT.jpg",
+        "back": "Authority_0152908938_BACK.jpg"
+      }
+    }
+  ],
+  "result": {
+    "baseline": {
+      "items": 933,
+      "valued": 397,
+      "total": 34552.27,
+      "missing": 536,
+      "starred": 324,
+      "starredTotal": 29862.39,
+      "rawMissing": 429,
+      "rawReferences": 395,
+      "rawReferenceTotal": 2459.24
+    },
+    "after": {
+      "items": 933,
+      "valued": 397,
+      "total": 34552.27,
+      "missing": 536,
+      "starred": 324,
+      "starredTotal": 29862.39,
+      "rawMissing": 429,
+      "rawReferences": 400,
+      "rawReferenceTotal": 2475.61
+    },
+    "addedGraded": 0,
+    "addedRawReferences": 5,
+    "addedValue": 0,
+    "comics": {
+      "items": 696,
+      "valued": 187,
+      "total": 14116.92,
+      "missing": 509,
+      "starred": 143,
+      "starredTotal": 10419.92,
+      "rawMissing": 429,
+      "rawReferences": 400,
+      "rawReferenceTotal": 2475.61
+    },
+    "cards": {
+      "items": 237,
+      "valued": 210,
+      "total": 20435.35,
+      "missing": 27,
+      "starred": 181,
+      "starredTotal": 19442.47,
+      "rawMissing": 0,
+      "rawReferences": 0,
+      "rawReferenceTotal": 0
+    },
+    "bin10": {
+      "items": 23,
+      "valued": 13,
+      "total": 1303.68,
+      "missing": 10,
+      "starred": 13,
+      "starredTotal": 1303.68,
+      "rawMissing": 0,
+      "rawReferences": 0,
+      "rawReferenceTotal": 0
+    },
+    "addedRecords": [
+      {
+        "copyId": "raw:15-094",
+        "container": "Comic Bin #15 (Softslabs)",
+        "item": "Amazing Spider-Man #33",
+        "variant": "Giada Perissinotto Disney100 Ms. Marvel Color Variant",
+        "grade": null,
+        "basis": "raw-reference",
+        "value": 1.56,
+        "star": true,
+        "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-perissinotto-33-2023"
+      },
+      {
+        "copyId": "raw:15-077",
+        "container": "Comic Bin #15 (Softslabs)",
+        "item": "Miles Morales: Spider-Man #4",
+        "variant": "Tyler Kirkham Unknown Comics Exclusive Trade Dress",
+        "grade": null,
+        "basis": "raw-reference",
+        "value": 7.5,
+        "star": true,
+        "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-kirkham-4-2023"
+      },
+      {
+        "copyId": "raw:15-095",
+        "container": "Comic Bin #15 (Softslabs)",
+        "item": "Amazing Spider-Man #32",
+        "variant": "Giada Perissinotto Disney100 Ghost-Spider Color Variant",
+        "grade": null,
+        "basis": "raw-reference",
+        "value": 1.55,
+        "star": true,
+        "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-perissinotto-32-2023"
+      },
+      {
+        "copyId": "raw:15-092",
+        "container": "Comic Bin #15 (Softslabs)",
+        "item": "Amazing Fantasy #1000",
+        "variant": "Steve McNiven Variant - First Printing",
+        "grade": null,
+        "basis": "raw-reference",
+        "value": 3.83,
+        "star": true,
+        "url": "https://www.pricecharting.com/game/comic-books-amazing-fantasy/amazing-fantasy-mcniven-1000-2022"
+      },
+      {
+        "copyId": "raw:15-074",
+        "container": "Comic Bin #15 (Softslabs)",
+        "item": "Amazing Spider-Man #27",
+        "variant": "Claudio Sciarrone Disney100 Invincible Iron Man Color Variant",
+        "grade": null,
+        "basis": "raw-reference",
+        "value": 1.93,
+        "star": true,
+        "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-sciarrone-27-2023"
+      }
+    ]
+  }
+}
