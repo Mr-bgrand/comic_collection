@@ -1,0 +1,758 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-09-22T10:01:25.336Z",
+  "sourceRowAudit": {
+    "editions": 4,
+    "uniqueProductPagesWithUsedRows": 3,
+    "rows": 14,
+    "normalizedBrowserCaptureLength": 1137,
+    "fnv1a": 3952539735
+  },
+  "coverage": "Live PriceCharting raw tables and SportsCardsPro PSA 10 table; live Sports Card Investor raw and PSA 10 filters; direct retailer reference art; original eBay cover photographs for Suayan A/B and Space Ghost. Indexed MyComicShop, ComicBookRealm and eBay results checked as leads. No newly verified completed-payment amount directly from eBay, paid GoCollect page, Heritage or ComicLink result in this batch.",
+  "rawReferences": [
+    {
+      "copyIds": [
+        "raw:15-007"
+      ],
+      "productId": "6675963",
+      "url": "https://www.pricecharting.com/game/comic-books-space-ghost/space-ghost-dell%27otto-virgin-1-2024",
+      "sales": [
+        [
+          "386996090230",
+          "2024-05-15",
+          22.5
+        ]
+      ],
+      "identityNote": "Owned front scan and printed COA explicitly identify Space Ghost #1 by Gabriele Dell Otto, Spectral Comics / Wanted Comix, number 356/444. The historical eBay listing photograph visually matches the paper virgin artwork. The retailer sells a set; its asking price is not used. No UPC visible; left unset.",
+      "caveat": "Historical reference only: a single May 15, 2024 sale, more than two years old. The original eBay page remains available with the matching photo and ended date but displays $0.00; $22.50 is reported by PriceCharting, not independently verified from eBay. Do not treat this as a current appraisal. PriceCharting-reported sale evidence; completed payment was not independently verified. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:358915298605",
+          "url": "https://www.ebay.com/itm/358915298605",
+          "reason": "Metal /25, not paper /444."
+        },
+        {
+          "transactionId": "ebay:358898753600",
+          "url": "https://www.ebay.com/itm/358898753600",
+          "reason": "Metal /25, not paper /444."
+        },
+        {
+          "transactionId": "ebay:196741482853",
+          "url": "https://www.ebay.com/itm/196741482853",
+          "reason": "Metal /25, not paper /444."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-006",
+        "raw:15-008",
+        "raw:15-011"
+      ],
+      "upc": "75960620908800130",
+      "productId": "6768332",
+      "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-the-ghost-spider/spider-gwen-the-ghost-spider-momoko-1-2024",
+      "sales": [
+        [
+          "176329938632",
+          "2026-09-06",
+          14.99
+        ],
+        [
+          "126787618410",
+          "2026-07-01",
+          13
+        ],
+        [
+          "135171065257",
+          "2026-02-11",
+          14
+        ],
+        [
+          "277126236175",
+          "2025-10-27",
+          15
+        ],
+        [
+          "236327331339",
+          "2025-09-24",
+          13.99
+        ]
+      ],
+      "identityNote": "All three owned front scans individually inspected: issue 1 / LGY61, hooded Gwen with gold headphones, pastel background and trade dress. Artwork matches the Big Time Collectibles Peach Momoko exclusive. Retailer distinguishes the 3000-copy trade from 1000-copy virgin. UPC is catalog-sourced from https://www.comics.org/issue/2797219/, not read from owned scans.",
+      "caveat": "Five explicitly trade-dress sale rows within one year. Other titles without an explicit trade/virgin distinction were omitted from the mixed-edition table. PriceCharting-reported sale evidence; completed payment was not independently verified. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:287429686233",
+          "url": "https://www.ebay.com/itm/287429686233",
+          "reason": "Trade and virgin set."
+        },
+        {
+          "transactionId": "ebay:156219703894",
+          "url": "https://www.ebay.com/itm/156219703894",
+          "reason": "Cover set."
+        },
+        {
+          "transactionId": "ebay:178109012270",
+          "url": "https://www.ebay.com/itm/178109012270",
+          "reason": "Trade/virgin not explicit in the captured title."
+        },
+        {
+          "transactionId": "ebay:176974134500",
+          "url": "https://www.ebay.com/itm/176974134500",
+          "reason": "Trade/virgin not explicit in the captured title."
+        },
+        {
+          "transactionId": "ebay:167663749642",
+          "url": "https://www.ebay.com/itm/167663749642",
+          "reason": "Trade/virgin not explicit in the captured title."
+        },
+        {
+          "transactionId": "ebay:296362047208",
+          "url": "https://www.ebay.com/itm/296362047208",
+          "reason": "Trade/virgin not explicit in the captured title."
+        },
+        {
+          "transactionId": "ebay:177391749566",
+          "url": "https://www.ebay.com/itm/177391749566",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:156219701828",
+          "url": "https://www.ebay.com/itm/156219701828",
+          "reason": "Older than one year; Cover B needs separate edition verification."
+        },
+        {
+          "transactionId": "ebay:286463888268",
+          "url": "https://www.ebay.com/itm/286463888268",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:286429912958",
+          "url": "https://www.ebay.com/itm/286429912958",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:286298839578",
+          "url": "https://www.ebay.com/itm/286298839578",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:256682795052",
+          "url": "https://www.ebay.com/itm/256682795052",
+          "reason": "Multi-cover set and older than one year."
+        },
+        {
+          "transactionId": "ebay:176818269369",
+          "url": "https://www.ebay.com/itm/176818269369",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:286246001094",
+          "url": "https://www.ebay.com/itm/286246001094",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:305508638297",
+          "url": "https://www.ebay.com/itm/305508638297",
+          "reason": "Multi-cover set and older than one year."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-001"
+      ],
+      "productId": "7226298",
+      "url": "https://www.pricecharting.com/game/comic-books-marvel-super-heroes-secret-wars/marvel-super-heroes-secret-wars-facsimile-suayan-8-2024",
+      "sales": [
+        [
+          "156462399891",
+          "2026-01-05",
+          23.99
+        ]
+      ],
+      "identityNote": "Owned virgin cover visually matched to the Rabbit Comics Mico Suayan exclusive artwork and eBay 156462399891 Cover B photograph. Retailer specifies 1000 virgin copies. This sale is filed on the trade-dress PriceCharting page, but the original listing Cover B image is the virgin edition. No barcode visible; UPC left unset.",
+      "caveat": "Only one recent matching sale. Original eBay listing currently shows an active multi-quantity asking price of $29.99; the historical $23.99 sale and date come from PriceCharting. The active asking price was not imported. PriceCharting-reported sale evidence; completed payment was not independently verified. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:296551225837",
+          "url": "https://www.ebay.com/itm/296551225837",
+          "reason": "Trade and virgin two-book set."
+        },
+        {
+          "transactionId": "ebay:376210062595",
+          "url": "https://www.ebay.com/itm/376210062595",
+          "reason": "Trade and virgin two-book set, older than one year."
+        },
+        {
+          "transactionId": "ebay:197604261203",
+          "url": "https://www.ebay.com/itm/197604261203",
+          "reason": "Older than one year (September 20, 2025); newer matching January 2026 row retained instead."
+        },
+        {
+          "transactionId": "ebay:176706805755",
+          "url": "https://www.ebay.com/itm/176706805755",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:305659617566",
+          "url": "https://www.ebay.com/itm/305659617566",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:256726512304",
+          "url": "https://www.ebay.com/itm/256726512304",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:326503108333",
+          "url": "https://www.ebay.com/itm/326503108333",
+          "reason": "Older than one year."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-005"
+      ],
+      "productId": "7226298",
+      "url": "https://www.pricecharting.com/game/comic-books-marvel-super-heroes-secret-wars/marvel-super-heroes-secret-wars-facsimile-suayan-8-2024",
+      "sales": [
+        [
+          "188695438388",
+          "2026-08-25",
+          15
+        ],
+        [
+          "358634447803",
+          "2026-06-29",
+          11.99
+        ],
+        [
+          "157635874501",
+          "2026-04-08",
+          19
+        ],
+        [
+          "127152015614",
+          "2026-03-20",
+          15
+        ],
+        [
+          "358046146296",
+          "2026-01-16",
+          14.99
+        ],
+        [
+          "156367353009",
+          "2026-01-05",
+          11.99
+        ],
+        [
+          "357898896878",
+          "2025-12-23",
+          13
+        ]
+      ],
+      "identityNote": "Owned trade cover visually matched to Rabbit Comics Mico Suayan exclusive artwork. Retailer specifies 3000 trade copies. The original eBay 156367353009 Cover A photograph establishes the trade cover for that row. No barcode visible; UPC left unset.",
+      "caveat": "Seven matching trade-dress sale rows within one year. PriceCharting-reported sale evidence; completed payment was not independently verified. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:156462399891",
+          "url": "https://www.ebay.com/itm/156462399891",
+          "reason": "Virgin Cover B: used separately for raw:15-001, not in this trade median."
+        },
+        {
+          "transactionId": "ebay:296551221965",
+          "url": "https://www.ebay.com/itm/296551221965",
+          "reason": "Trade/virgin not explicit in captured title."
+        },
+        {
+          "transactionId": "ebay:267259749825",
+          "url": "https://www.ebay.com/itm/267259749825",
+          "reason": "CVR-I designation does not by itself establish trade versus virgin."
+        },
+        {
+          "transactionId": "ebay:326503108333",
+          "url": "https://www.ebay.com/itm/326503108333",
+          "reason": "Virgin Cover B and older than one year."
+        },
+        {
+          "transactionId": "ebay:375831916308",
+          "url": "https://www.ebay.com/itm/375831916308",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:256726506001",
+          "url": "https://www.ebay.com/itm/256726506001",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:387505002002",
+          "url": "https://www.ebay.com/itm/387505002002",
+          "reason": "Older than one year."
+        }
+      ]
+    }
+  ],
+  "gradedSearches": [
+    {
+      "copyId": "PSA:121629672",
+      "item": "Marvin Harrison Jr. 2024 Photogenic Rookie Pix Red #6 /49, PSA 10",
+      "method": "Live rendered SportsCardsPro exact-product page and selected PSA 10 table; indexed eBay search.",
+      "reason": "Product 8444359 has zero PSA 10 rows. Three raw rows and one grade-9 row do not establish PSA 10 value. The eBay search hit for 358067918945 was PSA 9. No new estimate imported.",
+      "urls": [
+        "https://www.sportscardspro.com/game/football-cards-2024-panini-photogenic-rookie-pix/marvin-harrison-jr-red-6"
+      ]
+    },
+    {
+      "copyId": "PSA:114218230",
+      "item": "Maason Smith 2024 Topps Chrome Sapphire Rookie Autographs Red RA-MSM /5, PSA 10",
+      "method": "Live Sports Card Investor exact edition, then its PSA 10 filter; indexed search across eBay and other catalogs.",
+      "reason": "The raw table displays two $25 sales, April 26, 2026 and September 1, 2025. The exact PSA 10 view explicitly says No sales found. The 2022 Bowman Chrome University Red #9 PSA 10 sale is a different card and was excluded. No new estimate imported.",
+      "urls": [
+        "https://www.sportscardinvestor.com/cards/maason-smith-football/2024-topps-chrome-sapphire-edition-rookie-autographs-red-ra-msm/psa-10",
+        "https://www.sportscardinvestor.com/cards/maason-smith-football/2024-topps-chrome-sapphire-edition-rookie-autographs-red-ra-msm",
+        "https://www.sportscardspro.com/game/football-cards-2022-bowman-chrome-university/maason-smith-autograph-red-9"
+      ]
+    },
+    {
+      "copyId": "CBCS:21-45DB4BC-045",
+      "item": "Reflections #14 (Kabuki Reflections), July 2009, CBCS 9.8",
+      "method": "Owned slab front rechecked; indexed MyComicShop catalog and eBay results.",
+      "reason": "The full cover title Kabuki Reflections improves matching. Available MyComicShop and eBay copies are raw VF/VG or VF/NM asking offers. No completed CBCS 9.8 comparison established. Owned label remains Reflections, Marvel/Icon, July 2009; no metadata or price changed.",
+      "urls": [
+        "https://www.mycomicshop.com/search?TID=136651",
+        "https://www.ebay.com/itm/366372811605"
+      ],
+      "ownedScan": "data/images/21-45DB4BC-045_OBV.jpg"
+    },
+    {
+      "copyId": "CGC:4381117006",
+      "item": "w0rldtr33 #4 No Masss Comics, CGC 9.9",
+      "method": "New exact web searches for title, issue, retailer and grade.",
+      "queries": [
+        "\"w0rldtr33\" \"4\" \"No Mass\" \"9.9\" sold",
+        "\"w0rldtr33\" \"No Mass\" \"4\" CGC"
+      ],
+      "reason": "No exact result. A search hit referenced issue 1 at 9.8 in unrelated seller feedback; excluded. This was a search-only check, not a verified auction archive lookup."
+    }
+  ],
+  "additionalRawChecks": [
+    {
+      "url": "https://www.pricecharting.com/game/comic-books-marvel-super-heroes-secret-wars-facsimile-edition/marvel-super-heroes-secret-wars-facsimile-suayan-8-2024",
+      "reason": "Duplicate catalog product 7964162 has zero raw rows; not used. The other series catalog product 7226298 has usable rows."
+    },
+    {
+      "url": "https://www.pricecharting.com/game/comic-books-marvel-super-heroes-secret-wars/marvel-super-heroes-secret-wars-facsimile-suayan-virgin-8-2024",
+      "reason": "Product 7226300 mixes single copies with two-book sets. Latest single-copy row is September 20, 2025, older than the January 2026 Cover B sale on product 7226298. Its guide price was not used."
+    },
+    {
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/347882/dynamite-entertainment-space-ghost-1spectral-wanted-b-dellotto-virgin-edition",
+      "reason": "Exact edition supports identity; 9.8, 9.4 and 9.2 recorded sales are not raw comparisons. Current retailer/marketplace set asking prices are not sold evidence."
+    }
+  ],
+  "unresolvedScans": [
+    {
+      "ids": [
+        "raw:15-002"
+      ],
+      "reason": "Orbit Eminem Caio Cacau Punisher homage visually identified as a lead. Retailer has trade, virgin, foil, metal and Rapboy variants; exact finish remains unconfirmed.",
+      "urls": [
+        "https://rabbitcomics.com/products/orbit-eminem-1-caio-cacau-excluisve-variant-preorder",
+        "https://caiocacau.artstation.com/projects/5WXZmO"
+      ]
+    },
+    {
+      "ids": [
+        "raw:15-012",
+        "raw:15-013",
+        "raw:15-015"
+      ],
+      "reason": "Tribute Kobe Bryant Sajad Shah Wu-Tang homage lead; black basketball/snake cover. Finish and exact printing require confirmation; regular, foil and metal variants cannot be conflated.",
+      "urls": [
+        "https://www.7ate9comics.com/products/tribute-kobe-bryant-wu-tang-clan-homage-virgin-variant-ltd-to-only-300"
+      ]
+    },
+    {
+      "ids": [
+        "raw:15-014"
+      ],
+      "reason": "Tribute Tupac Caio Cacau Crow homage lead; exact finish remains unresolved. Active eBay 406237860963 is not a completed sale.",
+      "urls": [
+        "https://www.ebay.com/itm/406237860963"
+      ]
+    }
+  ],
+  "remainingRaw": [
+    {
+      "copyId": "Authority:1327529703",
+      "title": "Superman",
+      "issue": "6",
+      "variant": "Besch Creator Card Stock Variant",
+      "upc": "76194137950000661",
+      "front": "Authority_1327529703_FRONT.jpg"
+    },
+    {
+      "copyId": "Authority:1251463037",
+      "title": "Wolverine: Revenge",
+      "issue": "2",
+      "variant": null,
+      "upc": "75960620995800211",
+      "front": "Authority_1251463037_FRONT.jpg"
+    },
+    {
+      "copyId": "Authority:4742106011",
+      "title": "Ultimate Wolverine",
+      "issue": "1",
+      "variant": null,
+      "upc": "75960621050300111",
+      "front": "Authority_4742106011_FRONT.jpg"
+    },
+    {
+      "copyId": "Authority:7633260283",
+      "title": "Detective Comics",
+      "issue": "400",
+      "variant": "Blank Facsimile Edition",
+      "upc": "76194138450400121",
+      "front": "Authority_7633260283_FRONT.jpg"
+    },
+    {
+      "copyId": "Authority:4845360792",
+      "title": "The Immortal Thor",
+      "issue": "15",
+      "variant": "Villalobos Variant",
+      "upc": "75960620664301521",
+      "front": "Authority_4845360792_FRONT.jpg"
+    },
+    {
+      "copyId": "Authority:4841253705",
+      "title": "Wolverine",
+      "issue": "1",
+      "variant": "Adamantium Head \"V\" Variant",
+      "upc": "75960620841800118",
+      "front": "Authority_4841253705_FRONT.jpg"
+    },
+    {
+      "copyId": "Authority:8796605910",
+      "title": "From The DC Vault: The Sandman",
+      "issue": "19",
+      "variant": "Remastered Variant",
+      "upc": "76194138359000111",
+      "front": "Authority_8796605910_FRONT.jpg"
+    },
+    {
+      "copyId": "Authority:7861079670",
+      "title": "Detective Comics",
+      "issue": "27",
+      "variant": "Foil Facsimile Variant",
+      "upc": "76194138562400131",
+      "front": "Authority_7861079670_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-002",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-002_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-012",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-012_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-013",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-013_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-014",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-014_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-015",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-015_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-034",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-034_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-035",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-035_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-036",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-036_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-059",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-059_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-060",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-060_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-063",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-063_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-064",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-064_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-065",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-065_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-066",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-066_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-067",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-067_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-068",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-068_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-069",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-069_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-071",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-071_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-075",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-075_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-078",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-078_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-081",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-081_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-017",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-017_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-082",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-082_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-018",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-018_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-083",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-083_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-025",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-025_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-028",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-028_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-029",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-029_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-030",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-030_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-039",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-039_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-040",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-040_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-041",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-041_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-056",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-056_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-061",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-061_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-092",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-092_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-070",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-070_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-093",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-093_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-094",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-094_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-074",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-074_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-095",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-095_FRONT.jpg"
+    },
+    {
+      "copyId": "raw:15-077",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "front": "Raw_15-077_FRONT.jpg"
+    },
+    {
+      "copyId": "Authority:8364744505",
+      "title": "Detective Comics",
+      "issue": "27",
+      "variant": "Blank Facsimile Edition",
+      "upc": "76194138562400121",
+      "front": "Authority_8364744505_FRONT.jpg"
+    },
+    {
+      "copyId": "Authority:0152908938",
+      "title": "Rogue & Gambit",
+      "issue": "1",
+      "variant": "Alex Ross Mystique Timeless Virgin Variant",
+      "upc": "75960620455700151",
+      "front": "Authority_0152908938_FRONT.jpg"
+    }
+  ],
+  "next": "Continue the 41 unidentified owner scans, starting with 15-034, 035, 036, 059 and 060; ten identified editions still lack raw references. Preserve finish questions for Eminem, Kobe and Tupac specialty covers. Avoid repeating the four graded failures without new evidence. All 429 raw conditions remain unassessed."
+}

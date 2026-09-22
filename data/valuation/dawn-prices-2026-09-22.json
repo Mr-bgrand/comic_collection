@@ -1,0 +1,515 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "raw:15-007",
+      "revision": "7c701f353338b0a32eed6d69da649528ba232d12053c9ad15bca835980d47255",
+      "observations": [
+        {
+          "id": "dawn-2026-09-22-raw-15-007",
+          "copyId": "raw:15-007",
+          "basis": "raw-reference",
+          "value": 22.5,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-space-ghost/space-ghost-dell%27otto-virgin-1-2024",
+            "asOf": "2024-05-15",
+            "retrievedAt": "2026-09-22T09:59:11.601Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Space Ghost",
+              "issue": "1",
+              "issueYear": "2024",
+              "publisher": "Dynamite Entertainment",
+              "variant": "Gabriele Dell'Otto Spectral Comics / Wanted Comix Virgin (444 copies)",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-space-ghost/space-ghost-dell%27otto-virgin-1-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-22T09:59:11.601Z",
+            "notes": "Owned front scan and printed COA explicitly identify Space Ghost #1 by Gabriele Dell Otto, Spectral Comics / Wanted Comix, number 356/444. The historical eBay listing photograph visually matches the paper virgin artwork. The retailer sells a set; its asking price is not used. No UPC visible; left unset. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Historical reference only: a single May 15, 2024 sale, more than two years old. The original eBay page remains available with the matching photo and ended date but displays $0.00; $22.50 is reported by PriceCharting, not independently verified from eBay. Do not treat this as a current appraisal. PriceCharting-reported sale evidence; completed payment was not independently verified. Seller condition descriptions do not establish owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:386996090230",
+                "sourceUrl": "https://www.ebay.com/itm/386996090230",
+                "soldAt": "2024-05-15",
+                "value": 22.5,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Historical reference only: a single May 15, 2024 sale, more than two years old. The original eBay page remains available with the matching photo and ended date but displays $0.00; $22.50 is reported by PriceCharting, not independently verified from eBay. Do not treat this as a current appraisal. PriceCharting-reported sale evidence; completed payment was not independently verified. Seller condition descriptions do not establish owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-006",
+      "revision": "7c701f353338b0a32eed6d69da649528ba232d12053c9ad15bca835980d47255",
+      "observations": [
+        {
+          "id": "dawn-2026-09-22-raw-15-006",
+          "copyId": "raw:15-006",
+          "basis": "raw-reference",
+          "value": 14,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-the-ghost-spider/spider-gwen-the-ghost-spider-momoko-1-2024",
+            "asOf": "2026-09-06",
+            "retrievedAt": "2026-09-22T09:59:11.601Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Spider-Gwen: The Ghost-Spider",
+              "issue": "1",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Peach Momoko Exclusive Trade Dress (3000 copies)",
+              "upc": "75960620908800130",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-the-ghost-spider/spider-gwen-the-ghost-spider-momoko-1-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-22T09:59:11.601Z",
+            "notes": "All three owned front scans individually inspected: issue 1 / LGY61, hooded Gwen with gold headphones, pastel background and trade dress. Artwork matches the Big Time Collectibles Peach Momoko exclusive. Retailer distinguishes the 3000-copy trade from 1000-copy virgin. UPC is catalog-sourced from https://www.comics.org/issue/2797219/, not read from owned scans. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five explicitly trade-dress sale rows within one year. Other titles without an explicit trade/virgin distinction were omitted from the mixed-edition table. PriceCharting-reported sale evidence; completed payment was not independently verified. Seller condition descriptions do not establish owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:176329938632",
+                "sourceUrl": "https://www.ebay.com/itm/176329938632",
+                "soldAt": "2026-09-06",
+                "value": 14.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:126787618410",
+                "sourceUrl": "https://www.ebay.com/itm/126787618410",
+                "soldAt": "2026-07-01",
+                "value": 13,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:135171065257",
+                "sourceUrl": "https://www.ebay.com/itm/135171065257",
+                "soldAt": "2026-02-11",
+                "value": 14,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:277126236175",
+                "sourceUrl": "https://www.ebay.com/itm/277126236175",
+                "soldAt": "2025-10-27",
+                "value": 15,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236327331339",
+                "sourceUrl": "https://www.ebay.com/itm/236327331339",
+                "soldAt": "2025-09-24",
+                "value": 13.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five explicitly trade-dress sale rows within one year. Other titles without an explicit trade/virgin distinction were omitted from the mixed-edition table. PriceCharting-reported sale evidence; completed payment was not independently verified. Seller condition descriptions do not establish owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-008",
+      "revision": "7c701f353338b0a32eed6d69da649528ba232d12053c9ad15bca835980d47255",
+      "observations": [
+        {
+          "id": "dawn-2026-09-22-raw-15-008",
+          "copyId": "raw:15-008",
+          "basis": "raw-reference",
+          "value": 14,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-the-ghost-spider/spider-gwen-the-ghost-spider-momoko-1-2024",
+            "asOf": "2026-09-06",
+            "retrievedAt": "2026-09-22T09:59:11.601Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Spider-Gwen: The Ghost-Spider",
+              "issue": "1",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Peach Momoko Exclusive Trade Dress (3000 copies)",
+              "upc": "75960620908800130",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-the-ghost-spider/spider-gwen-the-ghost-spider-momoko-1-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-22T09:59:11.601Z",
+            "notes": "All three owned front scans individually inspected: issue 1 / LGY61, hooded Gwen with gold headphones, pastel background and trade dress. Artwork matches the Big Time Collectibles Peach Momoko exclusive. Retailer distinguishes the 3000-copy trade from 1000-copy virgin. UPC is catalog-sourced from https://www.comics.org/issue/2797219/, not read from owned scans. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five explicitly trade-dress sale rows within one year. Other titles without an explicit trade/virgin distinction were omitted from the mixed-edition table. PriceCharting-reported sale evidence; completed payment was not independently verified. Seller condition descriptions do not establish owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:176329938632",
+                "sourceUrl": "https://www.ebay.com/itm/176329938632",
+                "soldAt": "2026-09-06",
+                "value": 14.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:126787618410",
+                "sourceUrl": "https://www.ebay.com/itm/126787618410",
+                "soldAt": "2026-07-01",
+                "value": 13,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:135171065257",
+                "sourceUrl": "https://www.ebay.com/itm/135171065257",
+                "soldAt": "2026-02-11",
+                "value": 14,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:277126236175",
+                "sourceUrl": "https://www.ebay.com/itm/277126236175",
+                "soldAt": "2025-10-27",
+                "value": 15,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236327331339",
+                "sourceUrl": "https://www.ebay.com/itm/236327331339",
+                "soldAt": "2025-09-24",
+                "value": 13.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five explicitly trade-dress sale rows within one year. Other titles without an explicit trade/virgin distinction were omitted from the mixed-edition table. PriceCharting-reported sale evidence; completed payment was not independently verified. Seller condition descriptions do not establish owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-011",
+      "revision": "7c701f353338b0a32eed6d69da649528ba232d12053c9ad15bca835980d47255",
+      "observations": [
+        {
+          "id": "dawn-2026-09-22-raw-15-011",
+          "copyId": "raw:15-011",
+          "basis": "raw-reference",
+          "value": 14,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-the-ghost-spider/spider-gwen-the-ghost-spider-momoko-1-2024",
+            "asOf": "2026-09-06",
+            "retrievedAt": "2026-09-22T09:59:11.601Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Spider-Gwen: The Ghost-Spider",
+              "issue": "1",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Peach Momoko Exclusive Trade Dress (3000 copies)",
+              "upc": "75960620908800130",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-the-ghost-spider/spider-gwen-the-ghost-spider-momoko-1-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-22T09:59:11.601Z",
+            "notes": "All three owned front scans individually inspected: issue 1 / LGY61, hooded Gwen with gold headphones, pastel background and trade dress. Artwork matches the Big Time Collectibles Peach Momoko exclusive. Retailer distinguishes the 3000-copy trade from 1000-copy virgin. UPC is catalog-sourced from https://www.comics.org/issue/2797219/, not read from owned scans. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Five explicitly trade-dress sale rows within one year. Other titles without an explicit trade/virgin distinction were omitted from the mixed-edition table. PriceCharting-reported sale evidence; completed payment was not independently verified. Seller condition descriptions do not establish owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:176329938632",
+                "sourceUrl": "https://www.ebay.com/itm/176329938632",
+                "soldAt": "2026-09-06",
+                "value": 14.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:126787618410",
+                "sourceUrl": "https://www.ebay.com/itm/126787618410",
+                "soldAt": "2026-07-01",
+                "value": 13,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:135171065257",
+                "sourceUrl": "https://www.ebay.com/itm/135171065257",
+                "soldAt": "2026-02-11",
+                "value": 14,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:277126236175",
+                "sourceUrl": "https://www.ebay.com/itm/277126236175",
+                "soldAt": "2025-10-27",
+                "value": 15,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236327331339",
+                "sourceUrl": "https://www.ebay.com/itm/236327331339",
+                "soldAt": "2025-09-24",
+                "value": 13.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Five explicitly trade-dress sale rows within one year. Other titles without an explicit trade/virgin distinction were omitted from the mixed-edition table. PriceCharting-reported sale evidence; completed payment was not independently verified. Seller condition descriptions do not establish owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-001",
+      "revision": "7c701f353338b0a32eed6d69da649528ba232d12053c9ad15bca835980d47255",
+      "observations": [
+        {
+          "id": "dawn-2026-09-22-raw-15-001",
+          "copyId": "raw:15-001",
+          "basis": "raw-reference",
+          "value": 23.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-marvel-super-heroes-secret-wars/marvel-super-heroes-secret-wars-facsimile-suayan-8-2024",
+            "asOf": "2026-01-05",
+            "retrievedAt": "2026-09-22T09:59:11.601Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Marvel Super Heroes Secret Wars",
+              "issue": "8",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Facsimile Mico Suayan Exclusive Virgin (1000 copies)",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-marvel-super-heroes-secret-wars/marvel-super-heroes-secret-wars-facsimile-suayan-8-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-22T09:59:11.601Z",
+            "notes": "Owned virgin cover visually matched to the Rabbit Comics Mico Suayan exclusive artwork and eBay 156462399891 Cover B photograph. Retailer specifies 1000 virgin copies. This sale is filed on the trade-dress PriceCharting page, but the original listing Cover B image is the virgin edition. No barcode visible; UPC left unset. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Only one recent matching sale. Original eBay listing currently shows an active multi-quantity asking price of $29.99; the historical $23.99 sale and date come from PriceCharting. The active asking price was not imported. PriceCharting-reported sale evidence; completed payment was not independently verified. Seller condition descriptions do not establish owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:156462399891",
+                "sourceUrl": "https://www.ebay.com/itm/156462399891",
+                "soldAt": "2026-01-05",
+                "value": 23.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Only one recent matching sale. Original eBay listing currently shows an active multi-quantity asking price of $29.99; the historical $23.99 sale and date come from PriceCharting. The active asking price was not imported. PriceCharting-reported sale evidence; completed payment was not independently verified. Seller condition descriptions do not establish owned condition."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-005",
+      "revision": "7c701f353338b0a32eed6d69da649528ba232d12053c9ad15bca835980d47255",
+      "observations": [
+        {
+          "id": "dawn-2026-09-22-raw-15-005",
+          "copyId": "raw:15-005",
+          "basis": "raw-reference",
+          "value": 14.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-marvel-super-heroes-secret-wars/marvel-super-heroes-secret-wars-facsimile-suayan-8-2024",
+            "asOf": "2026-08-25",
+            "retrievedAt": "2026-09-22T09:59:11.601Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Marvel Super Heroes Secret Wars",
+              "issue": "8",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Facsimile Mico Suayan Exclusive Trade Dress (3000 copies)",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-marvel-super-heroes-secret-wars/marvel-super-heroes-secret-wars-facsimile-suayan-8-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-22T09:59:11.601Z",
+            "notes": "Owned trade cover visually matched to Rabbit Comics Mico Suayan exclusive artwork. Retailer specifies 3000 trade copies. The original eBay 156367353009 Cover A photograph establishes the trade cover for that row. No barcode visible; UPC left unset. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Seven matching trade-dress sale rows within one year. PriceCharting-reported sale evidence; completed payment was not independently verified. Seller condition descriptions do not establish owned condition.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:188695438388",
+                "sourceUrl": "https://www.ebay.com/itm/188695438388",
+                "soldAt": "2026-08-25",
+                "value": 15,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:358634447803",
+                "sourceUrl": "https://www.ebay.com/itm/358634447803",
+                "soldAt": "2026-06-29",
+                "value": 11.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:157635874501",
+                "sourceUrl": "https://www.ebay.com/itm/157635874501",
+                "soldAt": "2026-04-08",
+                "value": 19,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:127152015614",
+                "sourceUrl": "https://www.ebay.com/itm/127152015614",
+                "soldAt": "2026-03-20",
+                "value": 15,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:358046146296",
+                "sourceUrl": "https://www.ebay.com/itm/358046146296",
+                "soldAt": "2026-01-16",
+                "value": 14.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:156367353009",
+                "sourceUrl": "https://www.ebay.com/itm/156367353009",
+                "soldAt": "2026-01-05",
+                "value": 11.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:357898896878",
+                "sourceUrl": "https://www.ebay.com/itm/357898896878",
+                "soldAt": "2025-12-23",
+                "value": 13,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Seven matching trade-dress sale rows within one year. PriceCharting-reported sale evidence; completed payment was not independently verified. Seller condition descriptions do not establish owned condition."
+        }
+      ]
+    }
+  ]
+}
