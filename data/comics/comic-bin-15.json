@@ -5993,11 +5993,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Spider-Gwen: The Ghost-Spider",
+      "issue": "1",
+      "variant": "Jenny Frison Variant",
+      "publisher": "Marvel Comics",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -6011,7 +6011,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Spider-Gwen: The Ghost-Spider",
@@ -6022,10 +6022,189 @@
             "source": "visual",
             "note": "artist unverified"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-22T06:02:11.998Z",
+        "sourceUrl": "https://www.midtowncomics.com/p/2292106-spidergwen-ghostspider-vol-2-1-cover-d-variant-jenny-frison-cover"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spider-Gwen: The Ghost-Spider",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Jenny Frison Variant",
+                "upc": "75960620908800131",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://www.midtowncomics.com/p/2292106-spidergwen-ghostspider-vol-2-1-cover-d-variant-jenny-frison-cover",
+              "notes": "Owner front scan Raw_15-010_FRONT.jpg manually inspected. Owned front scan shows full UPC 75960620908800131. This is another copy of the Frison edition already identified as raw:15-084; the existing copy and reference are preserved. Identity only; owned condition remains unassessed.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-22T06:02:11.998Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-22T06:02:12.100Z",
+        "observations": [
+          {
+            "id": "night-2026-09-22-raw-15-010",
+            "copyId": "raw:15-010",
+            "basis": "raw-reference",
+            "value": 3.25,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-the-ghost-spider/spider-gwen-the-ghost-spider-frison-1-2024",
+              "asOf": "2026-08-21",
+              "retrievedAt": "2026-09-22T06:02:21.063Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spider-Gwen: The Ghost-Spider",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Jenny Frison Variant",
+                "upc": "75960620908800131",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-the-ghost-spider/spider-gwen-the-ghost-spider-frison-1-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-22T06:02:21.063Z",
+              "notes": "Owned front scan shows full UPC 75960620908800131. This is another copy of the Frison edition already identified as raw:15-084; the existing copy and reference are preserved. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:128026749350",
+                  "sourceUrl": "https://www.ebay.com/itm/128026749350",
+                  "soldAt": "2026-08-21",
+                  "value": 3.25,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:188624194142",
+                  "sourceUrl": "https://www.ebay.com/itm/188624194142",
+                  "soldAt": "2026-07-18",
+                  "value": 1.25,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:227133261874",
+                  "sourceUrl": "https://www.ebay.com/itm/227133261874",
+                  "soldAt": "2026-07-16",
+                  "value": 4.27,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:318397709094",
+                  "sourceUrl": "https://www.ebay.com/itm/318397709094",
+                  "soldAt": "2026-06-17",
+                  "value": 4.38,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:127903528034",
+                  "sourceUrl": "https://www.ebay.com/itm/127903528034",
+                  "soldAt": "2026-06-11",
+                  "value": 0.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:406937523734",
+                  "sourceUrl": "https://www.ebay.com/itm/406937523734",
+                  "soldAt": "2026-05-26",
+                  "value": 1.05,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:188380835936",
+                  "sourceUrl": "https://www.ebay.com/itm/188380835936",
+                  "soldAt": "2026-05-24",
+                  "value": 5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:267616956603",
+                  "sourceUrl": "https://www.ebay.com/itm/267616956603",
+                  "soldAt": "2026-05-21",
+                  "value": 2.95,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:127848786383",
+                  "sourceUrl": "https://www.ebay.com/itm/127848786383",
+                  "soldAt": "2026-05-13",
+                  "value": 4,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-010_FRONT.jpg"
       },
@@ -6046,7 +6225,8 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:07:41.954Z"
-      }
+      },
+      "upc": "75960620908800131"
     },
     {
       "id": "raw:15-011",
@@ -6360,11 +6540,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "The Devil's Cut",
+      "issue": "1",
+      "variant": "Becky Cloonan Cover C 1:10",
+      "publisher": "DSTLRY",
+      "issueYear": "2023",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -6378,7 +6558,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "D: The Devil's Cut",
@@ -6390,10 +6570,161 @@
             "note": "issue assumed #1 - one-shot anthology"
           }
         ],
-        "duplicateOf": "raw:15-023"
+        "duplicateOf": "raw:15-023",
+        "reviewedAt": "2026-09-22T06:02:11.998Z",
+        "sourceUrl": "https://dstlry.co/products/the-devil-s-cut-cover-b-1"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Devil's Cut",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DSTLRY",
+                "variant": "Becky Cloonan Cover C 1:10",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://dstlry.co/products/the-devil-s-cut-cover-b-1",
+              "notes": "Owner front scan Raw_15-019_FRONT.jpg manually inspected. Both owned scans visually match the publisher's Becky Cloonan Cover C: white D and skull over blue-gray face with red eyes. Not Jock Cover A or the signed gold edition. No barcode visible on owned fronts; UPC remains unset. Identity only; owned condition remains unassessed.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-22T06:02:11.998Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-22T06:02:12.100Z",
+        "observations": [
+          {
+            "id": "night-2026-09-22-raw-15-019",
+            "copyId": "raw:15-019",
+            "basis": "raw-reference",
+            "value": 14.67,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-devil%27s-cut/devil%27s-cut-cloonan-1-2023",
+              "asOf": "2026-09-17",
+              "retrievedAt": "2026-09-22T06:02:21.063Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Devil's Cut",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DSTLRY",
+                "variant": "Becky Cloonan Cover C 1:10",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-devil%27s-cut/devil%27s-cut-cloonan-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-22T06:02:21.063Z",
+              "notes": "Both owned scans visually match the publisher's Becky Cloonan Cover C: white D and skull over blue-gray face with red eyes. Not Jock Cover A or the signed gold edition. No barcode visible on owned fronts; UPC remains unset. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:305038746805",
+                  "sourceUrl": "https://www.ebay.com/itm/305038746805",
+                  "soldAt": "2026-09-17",
+                  "value": 14.67,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:206021505885",
+                  "sourceUrl": "https://www.ebay.com/itm/206021505885",
+                  "soldAt": "2026-07-31",
+                  "value": 0.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:175799823724",
+                  "sourceUrl": "https://www.ebay.com/itm/175799823724",
+                  "soldAt": "2026-02-03",
+                  "value": 14.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:136515796079",
+                  "sourceUrl": "https://www.ebay.com/itm/136515796079",
+                  "soldAt": "2026-01-01",
+                  "value": 23.74,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:276708200212",
+                  "sourceUrl": "https://www.ebay.com/itm/276708200212",
+                  "soldAt": "2025-12-13",
+                  "value": 5.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-019_FRONT.jpg"
       },
@@ -6422,11 +6753,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Gone",
+      "issue": "1",
+      "variant": "Joelle Jones Cover C 1:10",
+      "publisher": "DSTLRY",
+      "issueYear": "2023",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -6440,7 +6771,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Gone",
@@ -6452,10 +6783,133 @@
             "note": "issue number not visible on cover"
           }
         ],
-        "duplicateOf": "raw:15-024"
+        "duplicateOf": "raw:15-024",
+        "reviewedAt": "2026-09-22T06:02:11.998Z",
+        "sourceUrl": "https://dstlry.co/products/gone-1-cover-c"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Gone",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DSTLRY",
+                "variant": "Joelle Jones Cover C 1:10",
+                "upc": "61499847315100131",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://dstlry.co/products/gone-1-cover-c",
+              "notes": "Owner front scan Raw_15-020_FRONT.jpg manually inspected. Both owned covers show Abi seated with an apple in a ship interior; visually matched directly to publisher Joelle Jones Cover C. UPC is catalog-sourced from PriceCharting product 5944683, not read from owned fronts. Excludes the Rabbit process and virgin variants. Identity only; owned condition remains unassessed.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-22T06:02:11.998Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-22T06:02:12.101Z",
+        "observations": [
+          {
+            "id": "night-2026-09-22-raw-15-020",
+            "copyId": "raw:15-020",
+            "basis": "raw-reference",
+            "value": 6.95,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-gone/gone-jones-1-2023",
+              "asOf": "2026-03-22",
+              "retrievedAt": "2026-09-22T06:02:21.063Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Gone",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DSTLRY",
+                "variant": "Joelle Jones Cover C 1:10",
+                "upc": "61499847315100131",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-gone/gone-jones-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-22T06:02:21.063Z",
+              "notes": "Both owned covers show Abi seated with an apple in a ship interior; visually matched directly to publisher Joelle Jones Cover C. UPC is catalog-sourced from PriceCharting product 5944683, not read from owned fronts. Excludes the Rabbit process and virgin variants. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Only one matching sale within a year; thin history. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:404844166194",
+                  "sourceUrl": "https://www.ebay.com/itm/404844166194",
+                  "soldAt": "2026-03-22",
+                  "value": 6.95,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Only one matching sale within a year; thin history. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-020_FRONT.jpg"
       },
@@ -6476,7 +6930,8 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:10:11.208Z"
-      }
+      },
+      "upc": "61499847315100131"
     },
     {
       "id": "raw:15-021",
@@ -6484,11 +6939,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "The Devil's Cut",
+      "issue": "1",
+      "variant": "Tula Lotay Cover D 1:25",
+      "publisher": "DSTLRY",
+      "issueYear": "2023",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -6502,7 +6957,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "D: The Devil's Cut",
@@ -6512,10 +6967,140 @@
             "confidence": "high",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-22T06:02:11.998Z",
+        "sourceUrl": "https://dstlry.co/products/the-devil-s-cut-cover-d"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Devil's Cut",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DSTLRY",
+                "variant": "Tula Lotay Cover D 1:25",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://dstlry.co/products/the-devil-s-cut-cover-d",
+              "notes": "Owner front scan Raw_15-021_FRONT.jpg manually inspected. Owned pink D / woman in profile cover visually matches publisher Tula Lotay Cover D and the 1:25 market listing. Other Lotay editions exist and were not substituted. No barcode visible on the owned front; UPC remains unset. Identity only; owned condition remains unassessed.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-22T06:02:11.998Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-22T06:02:12.101Z",
+        "observations": [
+          {
+            "id": "night-2026-09-22-raw-15-021",
+            "copyId": "raw:15-021",
+            "basis": "raw-reference",
+            "value": 22.84,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-devil%27s-cut/devil%27s-cut-125-lotay-1-2023",
+              "asOf": "2026-09-17",
+              "retrievedAt": "2026-09-22T06:02:21.063Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Devil's Cut",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DSTLRY",
+                "variant": "Tula Lotay Cover D 1:25",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-devil%27s-cut/devil%27s-cut-125-lotay-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-22T06:02:21.063Z",
+              "notes": "Owned pink D / woman in profile cover visually matches publisher Tula Lotay Cover D and the 1:25 market listing. Other Lotay editions exist and were not substituted. No barcode visible on the owned front; UPC remains unset. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Only two matching single-copy sales within a year, with a wide price spread. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:305038746763",
+                  "sourceUrl": "https://www.ebay.com/itm/305038746763",
+                  "soldAt": "2026-09-17",
+                  "value": 36.68,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:188630935100",
+                  "sourceUrl": "https://www.ebay.com/itm/188630935100",
+                  "soldAt": "2026-08-07",
+                  "value": 8.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Only two matching single-copy sales within a year, with a wide price spread. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-021_FRONT.jpg"
       },
@@ -6544,11 +7129,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Gone",
+      "issue": "1",
+      "variant": "Jock Cover B",
+      "publisher": "DSTLRY",
+      "issueYear": "2023",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -6562,7 +7147,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Gone",
@@ -6572,10 +7157,133 @@
             "confidence": "medium",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-22T06:02:11.998Z",
+        "sourceUrl": "https://dstlry.co/products/gone-1-cover-b"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Gone",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DSTLRY",
+                "variant": "Jock Cover B",
+                "upc": "61499847315100121",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://dstlry.co/products/gone-1-cover-b",
+              "notes": "Owner front scan Raw_15-022_FRONT.jpg manually inspected. Owned blue-purple cover with eyes above title visually matches publisher Jock Cover B. UPC is catalog-sourced from PriceCharting product 5944682, not read from the owned front. Only a row explicitly identifying Cover B was retained. Identity only; owned condition remains unassessed.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-22T06:02:11.998Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-22T06:02:12.101Z",
+        "observations": [
+          {
+            "id": "night-2026-09-22-raw-15-022",
+            "copyId": "raw:15-022",
+            "basis": "raw-reference",
+            "value": 5.29,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-gone/gone-jock-1-2023",
+              "asOf": "2026-06-20",
+              "retrievedAt": "2026-09-22T06:02:21.063Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Gone",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DSTLRY",
+                "variant": "Jock Cover B",
+                "upc": "61499847315100121",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-gone/gone-jock-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-22T06:02:21.063Z",
+              "notes": "Owned blue-purple cover with eyes above title visually matches publisher Jock Cover B. UPC is catalog-sourced from PriceCharting product 5944682, not read from the owned front. Only a row explicitly identifying Cover B was retained. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Only one unambiguous Cover B sale within a year; thin history. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:356575191662",
+                  "sourceUrl": "https://www.ebay.com/itm/356575191662",
+                  "soldAt": "2026-06-20",
+                  "value": 5.29,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Only one unambiguous Cover B sale within a year; thin history. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-022_FRONT.jpg"
       },
@@ -6596,7 +7304,8 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:10:29.790Z"
-      }
+      },
+      "upc": "61499847315100121"
     },
     {
       "id": "raw:15-023",
@@ -6604,11 +7313,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "The Devil's Cut",
+      "issue": "1",
+      "variant": "Becky Cloonan Cover C 1:10",
+      "publisher": "DSTLRY",
+      "issueYear": "2023",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -6622,7 +7331,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "D: The Devil's Cut",
@@ -6633,10 +7342,161 @@
             "source": "visual",
             "note": "issue assumed #1 - one-shot anthology"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-22T06:02:11.998Z",
+        "sourceUrl": "https://dstlry.co/products/the-devil-s-cut-cover-b-1"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Devil's Cut",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DSTLRY",
+                "variant": "Becky Cloonan Cover C 1:10",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://dstlry.co/products/the-devil-s-cut-cover-b-1",
+              "notes": "Owner front scan Raw_15-023_FRONT.jpg manually inspected. Both owned scans visually match the publisher's Becky Cloonan Cover C: white D and skull over blue-gray face with red eyes. Not Jock Cover A or the signed gold edition. No barcode visible on owned fronts; UPC remains unset. Identity only; owned condition remains unassessed.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-22T06:02:11.998Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-22T06:02:12.101Z",
+        "observations": [
+          {
+            "id": "night-2026-09-22-raw-15-023",
+            "copyId": "raw:15-023",
+            "basis": "raw-reference",
+            "value": 14.67,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-devil%27s-cut/devil%27s-cut-cloonan-1-2023",
+              "asOf": "2026-09-17",
+              "retrievedAt": "2026-09-22T06:02:21.063Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Devil's Cut",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DSTLRY",
+                "variant": "Becky Cloonan Cover C 1:10",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-devil%27s-cut/devil%27s-cut-cloonan-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-22T06:02:21.063Z",
+              "notes": "Both owned scans visually match the publisher's Becky Cloonan Cover C: white D and skull over blue-gray face with red eyes. Not Jock Cover A or the signed gold edition. No barcode visible on owned fronts; UPC remains unset. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:305038746805",
+                  "sourceUrl": "https://www.ebay.com/itm/305038746805",
+                  "soldAt": "2026-09-17",
+                  "value": 14.67,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:206021505885",
+                  "sourceUrl": "https://www.ebay.com/itm/206021505885",
+                  "soldAt": "2026-07-31",
+                  "value": 0.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:175799823724",
+                  "sourceUrl": "https://www.ebay.com/itm/175799823724",
+                  "soldAt": "2026-02-03",
+                  "value": 14.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:136515796079",
+                  "sourceUrl": "https://www.ebay.com/itm/136515796079",
+                  "soldAt": "2026-01-01",
+                  "value": 23.74,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:276708200212",
+                  "sourceUrl": "https://www.ebay.com/itm/276708200212",
+                  "soldAt": "2025-12-13",
+                  "value": 5.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-023_FRONT.jpg"
       },
@@ -6665,11 +7525,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Gone",
+      "issue": "1",
+      "variant": "Joelle Jones Cover C 1:10",
+      "publisher": "DSTLRY",
+      "issueYear": "2023",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -6683,7 +7543,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Gone",
@@ -6694,10 +7554,133 @@
             "source": "visual",
             "note": "issue number not visible on cover"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-22T06:02:11.998Z",
+        "sourceUrl": "https://dstlry.co/products/gone-1-cover-c"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Gone",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DSTLRY",
+                "variant": "Joelle Jones Cover C 1:10",
+                "upc": "61499847315100131",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://dstlry.co/products/gone-1-cover-c",
+              "notes": "Owner front scan Raw_15-024_FRONT.jpg manually inspected. Both owned covers show Abi seated with an apple in a ship interior; visually matched directly to publisher Joelle Jones Cover C. UPC is catalog-sourced from PriceCharting product 5944683, not read from owned fronts. Excludes the Rabbit process and virgin variants. Identity only; owned condition remains unassessed.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-22T06:02:11.998Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-22T06:02:12.101Z",
+        "observations": [
+          {
+            "id": "night-2026-09-22-raw-15-024",
+            "copyId": "raw:15-024",
+            "basis": "raw-reference",
+            "value": 6.95,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-gone/gone-jones-1-2023",
+              "asOf": "2026-03-22",
+              "retrievedAt": "2026-09-22T06:02:21.063Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Gone",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DSTLRY",
+                "variant": "Joelle Jones Cover C 1:10",
+                "upc": "61499847315100131",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-gone/gone-jones-1-2023",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-22T06:02:21.063Z",
+              "notes": "Both owned covers show Abi seated with an apple in a ship interior; visually matched directly to publisher Joelle Jones Cover C. UPC is catalog-sourced from PriceCharting product 5944683, not read from owned fronts. Excludes the Rabbit process and virgin variants. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Only one matching sale within a year; thin history. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:404844166194",
+                  "sourceUrl": "https://www.ebay.com/itm/404844166194",
+                  "soldAt": "2026-03-22",
+                  "value": 6.95,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Only one matching sale within a year; thin history. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-024_FRONT.jpg"
       },
@@ -6718,7 +7701,8 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:10:45.434Z"
-      }
+      },
+      "upc": "61499847315100131"
     },
     {
       "id": "raw:15-026",
@@ -13915,11 +14899,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Teenage Mutant Ninja Turtles",
+      "issue": "1",
+      "variant": "Khary Randolph Cover E",
+      "publisher": "IDW Publishing",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -13931,7 +14915,7 @@
       },
       "authentication": null,
       "identification": {
-        "status": "proposed",
+        "status": "confirmed",
         "proposedAt": "2026-09-08T02:56:52.013Z",
         "proposedBy": "claude-visual-pass",
         "candidates": [
@@ -13943,10 +14927,189 @@
             "confidence": "high",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-22T06:02:11.998Z",
+        "sourceUrl": "https://www.midtowncomics.com/product/2326848"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Teenage Mutant Ninja Turtles",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "IDW Publishing",
+                "variant": "Khary Randolph Cover E",
+                "upc": "82771403315100151",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://www.midtowncomics.com/product/2326848",
+              "notes": "Owner front scan Raw_15-016_FRONT.jpg manually inspected. Owned issue 1 / Cover E marking and Randolph artwork visually match Midtown product 2326848, released July 24, 2024. UPC is catalog-sourced, not read from the owned front. PriceCharting product 6942615 names the same Randolph edition. Identity only; owned condition remains unassessed.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-22T06:02:11.998Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-22T06:02:12.100Z",
+        "observations": [
+          {
+            "id": "night-2026-09-22-raw-15-016",
+            "copyId": "raw:15-016",
+            "basis": "raw-reference",
+            "value": 4.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting",
+              "url": "https://www.pricecharting.com/game/comic-books-teenage-mutant-ninja-turtles/teenage-mutant-ninja-turtles-randolph-1-2024",
+              "asOf": "2026-08-11",
+              "retrievedAt": "2026-09-22T06:02:21.063Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Teenage Mutant Ninja Turtles",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "IDW Publishing",
+                "variant": "Khary Randolph Cover E",
+                "upc": "82771403315100151",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-teenage-mutant-ninja-turtles/teenage-mutant-ninja-turtles-randolph-1-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-22T06:02:21.063Z",
+              "notes": "Owned issue 1 / Cover E marking and Randolph artwork visually match Midtown product 2326848, released July 24, 2024. UPC is catalog-sourced, not read from the owned front. PriceCharting product 6942615 names the same Randolph edition. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:327146042526",
+                  "sourceUrl": "https://www.ebay.com/itm/327146042526",
+                  "soldAt": "2026-08-11",
+                  "value": 3.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:267555508262",
+                  "sourceUrl": "https://www.ebay.com/itm/267555508262",
+                  "soldAt": "2026-05-10",
+                  "value": 2.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:365022156527",
+                  "sourceUrl": "https://www.ebay.com/itm/365022156527",
+                  "soldAt": "2026-02-20",
+                  "value": 4.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:126827307900",
+                  "sourceUrl": "https://www.ebay.com/itm/126827307900",
+                  "soldAt": "2026-02-12",
+                  "value": 4,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:167908429560",
+                  "sourceUrl": "https://www.ebay.com/itm/167908429560",
+                  "soldAt": "2026-01-08",
+                  "value": 5.49,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:127472532208",
+                  "sourceUrl": "https://www.ebay.com/itm/127472532208",
+                  "soldAt": "2026-01-08",
+                  "value": 4.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:196521426251",
+                  "sourceUrl": "https://www.ebay.com/itm/196521426251",
+                  "soldAt": "2026-01-08",
+                  "value": 4.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:286388096979",
+                  "sourceUrl": "https://www.ebay.com/itm/286388096979",
+                  "soldAt": "2025-12-03",
+                  "value": 2.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:335870209960",
+                  "sourceUrl": "https://www.ebay.com/itm/335870209960",
+                  "soldAt": "2025-11-05",
+                  "value": 4.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-016_FRONT.jpg"
       },
@@ -13967,7 +15130,8 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:56:51.663Z"
-      }
+      },
+      "upc": "82771403315100151"
     },
     {
       "id": "raw:15-081",

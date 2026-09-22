@@ -1,0 +1,528 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-09-22T06:04:10.667Z",
+  "sourceRowAudit": {
+    "sets": 6,
+    "rows": 27,
+    "normalizedBrowserCaptureLength": 1754,
+    "fnv1a": 1965808936
+  },
+  "coverage": "Live rendered PriceCharting raw tables for six exact editions and Hulk 9.6 table; direct DSTLRY cover images and Midtown catalog; owned front scans. Web-indexed MyComicShop, ComicBookRealm, ComicLink, eBay, artist and retailer results were checked as leads. No newly verified direct eBay transaction, paid GoCollect page or Heritage auction result in this batch.",
+  "rawReferences": [
+    {
+      "copyIds": [
+        "raw:15-010"
+      ],
+      "upc": "75960620908800131",
+      "productId": "6768342",
+      "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-the-ghost-spider/spider-gwen-the-ghost-spider-frison-1-2024",
+      "sales": [
+        [
+          "128026749350",
+          "2026-08-21",
+          3.25
+        ],
+        [
+          "188624194142",
+          "2026-07-18",
+          1.25
+        ],
+        [
+          "227133261874",
+          "2026-07-16",
+          4.27
+        ],
+        [
+          "318397709094",
+          "2026-06-17",
+          4.38
+        ],
+        [
+          "127903528034",
+          "2026-06-11",
+          0.99
+        ],
+        [
+          "406937523734",
+          "2026-05-26",
+          1.05
+        ],
+        [
+          "188380835936",
+          "2026-05-24",
+          5
+        ],
+        [
+          "267616956603",
+          "2026-05-21",
+          2.95
+        ],
+        [
+          "127848786383",
+          "2026-05-13",
+          4
+        ]
+      ],
+      "identityNote": "Owned front scan shows full UPC 75960620908800131. This is another copy of the Frison edition already identified as raw:15-084; the existing copy and reference are preserved.",
+      "caveat": "Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+      "excluded": []
+    },
+    {
+      "copyIds": [
+        "raw:15-016"
+      ],
+      "upc": "82771403315100151",
+      "productId": "6942615",
+      "url": "https://www.pricecharting.com/game/comic-books-teenage-mutant-ninja-turtles/teenage-mutant-ninja-turtles-randolph-1-2024",
+      "sales": [
+        [
+          "327146042526",
+          "2026-08-11",
+          3.99
+        ],
+        [
+          "267555508262",
+          "2026-05-10",
+          2.99
+        ],
+        [
+          "365022156527",
+          "2026-02-20",
+          4.99
+        ],
+        [
+          "126827307900",
+          "2026-02-12",
+          4
+        ],
+        [
+          "167908429560",
+          "2026-01-08",
+          5.49
+        ],
+        [
+          "127472532208",
+          "2026-01-08",
+          4.99
+        ],
+        [
+          "196521426251",
+          "2026-01-08",
+          4.99
+        ],
+        [
+          "286388096979",
+          "2025-12-03",
+          2.99
+        ],
+        [
+          "335870209960",
+          "2025-11-05",
+          4.99
+        ]
+      ],
+      "identityNote": "Owned issue 1 / Cover E marking and Randolph artwork visually match Midtown product 2326848, released July 24, 2024. UPC is catalog-sourced, not read from the owned front. PriceCharting product 6942615 names the same Randolph edition.",
+      "caveat": "Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:266941191195",
+          "url": "https://www.ebay.com/itm/266941191195",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:236012179760",
+          "url": "https://www.ebay.com/itm/236012179760",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:187242414015",
+          "url": "https://www.ebay.com/itm/187242414015",
+          "reason": "Older than one year."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-019",
+        "raw:15-023"
+      ],
+      "upc": null,
+      "productId": "5705168",
+      "url": "https://www.pricecharting.com/game/comic-books-devil%27s-cut/devil%27s-cut-cloonan-1-2023",
+      "sales": [
+        [
+          "305038746805",
+          "2026-09-17",
+          14.67
+        ],
+        [
+          "206021505885",
+          "2026-07-31",
+          0.99
+        ],
+        [
+          "175799823724",
+          "2026-02-03",
+          14.99
+        ],
+        [
+          "136515796079",
+          "2026-01-01",
+          23.74
+        ],
+        [
+          "276708200212",
+          "2025-12-13",
+          5.99
+        ]
+      ],
+      "identityNote": "Both owned scans visually match the publisher's Becky Cloonan Cover C: white D and skull over blue-gray face with red eyes. Not Jock Cover A or the signed gold edition. No barcode visible on owned fronts; UPC remains unset.",
+      "caveat": "Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:116659044791",
+          "url": "https://www.ebay.com/itm/116659044791",
+          "reason": "Signed gold CGC 9.6, not the owned raw Cloonan Cover C."
+        },
+        {
+          "transactionId": "ebay:146625665465",
+          "url": "https://www.ebay.com/itm/146625665465",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:115882224488",
+          "url": "https://www.ebay.com/itm/115882224488",
+          "reason": "Older than one year and presale title."
+        },
+        {
+          "transactionId": "ebay:266318520486",
+          "url": "https://www.ebay.com/itm/266318520486",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:126851540869",
+          "url": "https://www.ebay.com/itm/126851540869",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:126793657887",
+          "url": "https://www.ebay.com/itm/126793657887",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:126780699480",
+          "url": "https://www.ebay.com/itm/126780699480",
+          "reason": "Older than one year."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-021"
+      ],
+      "upc": null,
+      "productId": "5705167",
+      "url": "https://www.pricecharting.com/game/comic-books-devil%27s-cut/devil%27s-cut-125-lotay-1-2023",
+      "sales": [
+        [
+          "305038746763",
+          "2026-09-17",
+          36.68
+        ],
+        [
+          "188630935100",
+          "2026-08-07",
+          8.99
+        ]
+      ],
+      "identityNote": "Owned pink D / woman in profile cover visually matches publisher Tula Lotay Cover D and the 1:25 market listing. Other Lotay editions exist and were not substituted. No barcode visible on the owned front; UPC remains unset.",
+      "caveat": "Only two matching single-copy sales within a year, with a wide price spread. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:168653451126",
+          "url": "https://www.ebay.com/itm/168653451126",
+          "reason": "Lot includes Cover A and the Lotay variant."
+        },
+        {
+          "transactionId": "ebay:136784587579",
+          "url": "https://www.ebay.com/itm/136784587579",
+          "reason": "Lot includes Lotay and Jones variants."
+        },
+        {
+          "transactionId": "ebay:266318520485",
+          "url": "https://www.ebay.com/itm/266318520485",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:175799824810",
+          "url": "https://www.ebay.com/itm/175799824810",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:115882224246",
+          "url": "https://www.ebay.com/itm/115882224246",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:186381589766",
+          "url": "https://www.ebay.com/itm/186381589766",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:266384578436",
+          "url": "https://www.ebay.com/itm/266384578436",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:305106181429",
+          "url": "https://www.ebay.com/itm/305106181429",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:126052257640",
+          "url": "https://www.ebay.com/itm/126052257640",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:305139633221",
+          "url": "https://www.ebay.com/itm/305139633221",
+          "reason": "Older than one year."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-020",
+        "raw:15-024"
+      ],
+      "upc": "61499847315100131",
+      "productId": "5944683",
+      "url": "https://www.pricecharting.com/game/comic-books-gone/gone-jones-1-2023",
+      "sales": [
+        [
+          "404844166194",
+          "2026-03-22",
+          6.95
+        ]
+      ],
+      "identityNote": "Both owned covers show Abi seated with an apple in a ship interior; visually matched directly to publisher Joelle Jones Cover C. UPC is catalog-sourced from PriceCharting product 5944683, not read from owned fronts. Excludes the Rabbit process and virgin variants.",
+      "caveat": "Only one matching sale within a year; thin history. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:126115329432",
+          "url": "https://www.ebay.com/itm/126115329432",
+          "reason": "Rabbit process variant, not Cover C; also older than one year."
+        },
+        {
+          "transactionId": "ebay:266472848582",
+          "url": "https://www.ebay.com/itm/266472848582",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:364541048334",
+          "url": "https://www.ebay.com/itm/364541048334",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:126780701846",
+          "url": "https://www.ebay.com/itm/126780701846",
+          "reason": "Rabbit process variant, not Cover C."
+        },
+        {
+          "transactionId": "ebay:404610545629",
+          "url": "https://www.ebay.com/itm/404610545629",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:296012284888",
+          "url": "https://www.ebay.com/itm/296012284888",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:364539118872",
+          "url": "https://www.ebay.com/itm/364539118872",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:126263963448",
+          "url": "https://www.ebay.com/itm/126263963448",
+          "reason": "Rabbit process variant."
+        },
+        {
+          "transactionId": "ebay:176037205440",
+          "url": "https://www.ebay.com/itm/176037205440",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:166464686568",
+          "url": "https://www.ebay.com/itm/166464686568",
+          "reason": "Older than one year."
+        },
+        {
+          "transactionId": "ebay:126228691780",
+          "url": "https://www.ebay.com/itm/126228691780",
+          "reason": "Multi-cover bundle."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-022"
+      ],
+      "upc": "61499847315100121",
+      "productId": "5944682",
+      "url": "https://www.pricecharting.com/game/comic-books-gone/gone-jock-1-2023",
+      "sales": [
+        [
+          "356575191662",
+          "2026-06-20",
+          5.29
+        ]
+      ],
+      "identityNote": "Owned blue-purple cover with eyes above title visually matches publisher Jock Cover B. UPC is catalog-sourced from PriceCharting product 5944682, not read from the owned front. Only a row explicitly identifying Cover B was retained.",
+      "caveat": "Only one unambiguous Cover B sale within a year; thin history. Original eBay photos and transaction completion were not independently reverified. Seller condition descriptions do not establish owned condition.",
+      "excluded": [
+        {
+          "transactionId": "ebay:398267773153",
+          "url": "https://www.ebay.com/itm/398267773153",
+          "reason": "Ambiguous Jock variant with conflicting 2024 year; exact Cover B not established."
+        },
+        {
+          "transactionId": "ebay:257242318465",
+          "url": "https://www.ebay.com/itm/257242318465",
+          "reason": "Hardcover collection."
+        },
+        {
+          "transactionId": "ebay:197087302631",
+          "url": "https://www.ebay.com/itm/197087302631",
+          "reason": "Forbidden Planet virgin variant."
+        },
+        {
+          "transactionId": "ebay:296260131219",
+          "url": "https://www.ebay.com/itm/296260131219",
+          "reason": "Jock variant unspecified on mixed-edition page."
+        },
+        {
+          "transactionId": "ebay:397281805467",
+          "url": "https://www.ebay.com/itm/397281805467",
+          "reason": "Cover A."
+        },
+        {
+          "transactionId": "ebay:387700123635",
+          "url": "https://www.ebay.com/itm/387700123635",
+          "reason": "Cover G virgin."
+        },
+        {
+          "transactionId": "ebay:167304990605",
+          "url": "https://www.ebay.com/itm/167304990605",
+          "reason": "Issue 1-3 lot."
+        },
+        {
+          "transactionId": "ebay:355683220906",
+          "url": "https://www.ebay.com/itm/355683220906",
+          "reason": "Cover A."
+        },
+        {
+          "transactionId": "ebay:126115324469",
+          "url": "https://www.ebay.com/itm/126115324469",
+          "reason": "Cover A."
+        },
+        {
+          "transactionId": "ebay:365285584420",
+          "url": "https://www.ebay.com/itm/365285584420",
+          "reason": "LCSD black-and-white Cover A."
+        },
+        {
+          "transactionId": "ebay:196527467551",
+          "url": "https://www.ebay.com/itm/196527467551",
+          "reason": "Hardcover collection."
+        }
+      ]
+    }
+  ],
+  "gradedSearches": [
+    {
+      "copyId": "CGC:4418876012",
+      "item": "Incredible Hulk #1 Gleason Virgin Edition C, CGC Universal 9.6",
+      "reason": "Owned front scan rechecked: green face and white energy symbol, Universal 9.6, white pages. PriceCharting product 5385700 has zero 9.6 rows; its raw table mixes the 1:100 Elemental and gray convention editions. The Green Virgin catalog was a separate search lead; do not assume its cover matches. eBay 317498337555 and 187743703983 are Signature Series 9.8 asking listings. ComicLink search surfaced Edition A at 9.8, not Edition C at 9.6. No supported value imported.",
+      "urls": [
+        "https://www.pricecharting.com/game/comic-books-incredible-hulk/the-incredible-hulk-gleason-virgin-1-2023",
+        "https://www.ebay.com/itm/317498337555",
+        "https://www.ebay.com/itm/187743703983",
+        "https://www.comiclink.com/Auctions/search.asp?ItemType=CB&title=incredible+hulk+1"
+      ],
+      "ownedScan": "data/images/4418876012_OBV.jpg"
+    },
+    {
+      "copyId": "CGC:4480290002",
+      "item": "The Disputed #1 ComicTom101 edition, CGC 9.8",
+      "reason": "Fresh indexed searches still mix issue 3, 9.9 and active asking offers. ComicTom store result is issue 3, not the owned issue 1. eBay category result showed prices without verified transaction completion. No paid exact comparison established.",
+      "urls": [
+        "https://www.comictom.com/collections/cgc?page=4",
+        "https://www.ebay.com/shop/comic-tom-101?_nkw=comic+tom+101"
+      ]
+    },
+    {
+      "copyId": "CGC:2733544003",
+      "item": "Strange Academy #1 Young cover, CGC Signature Series 9.8, Humberto Ramos",
+      "reason": "Fresh MyComicShop listing still has different covers, unsigned slabs and other/multiple signatures. Retailer and eBay results with both Young and Ramos signatures were excluded. The owned single Ramos signature was already verified; it is not an identity gap.",
+      "urls": [
+        "https://www.mycomicshop.com/search?TID=50527233&mingr=5",
+        "https://comicstoastonish.com/product/strange-academy-1-ss-cgc-9-8-auto-humberto-ramos-skottie-young/",
+        "https://www.ebay.com/itm/364763893821"
+      ]
+    }
+  ],
+  "unresolvedScans": [
+    {
+      "ids": [
+        "raw:15-001",
+        "raw:15-005"
+      ],
+      "reason": "Secret Wars #8 2024 facsimile, Mico Suayan artwork (not Mastrazzo): virgin and trade dress copies. Still need finish/printing confirmation and review of raw-sale rows; no identity or price imported.",
+      "urls": [
+        "https://www.comiccollectorlive.com/issue/comic-books/Marvel-Super-Heroes-Secret-Wars/8-H-Facsimile-Edition-2024-Mico-Suayan-Dress-Cover/c41b8b26-adb9-4b62-9b7d-4bfab6265473",
+        "https://www.pricecharting.com/game/comic-books-marvel-super-heroes-secret-wars-facsimile-edition/marvel-super-heroes-secret-wars-facsimile-suayan-8-2024",
+        "https://www.mycomicshop.com/search?ItemID=64111671"
+      ],
+      "excluded": "MCS January 28, 2026 $117 auction is a 9.8 Signature Series signed/sketched virgin, not raw."
+    },
+    {
+      "ids": [
+        "raw:15-007"
+      ],
+      "reason": "Owned COA identifies Space Ghost #1 Gabriele Dell Otto, Wanted Comix / Spectral Comics, 356/444. Continue exact raw-edition sales research; indexed sets and asking prices were not imported."
+    },
+    {
+      "ids": [
+        "raw:15-002"
+      ],
+      "reason": "Orbit Eminem Caio Cacau Punisher homage visually identified as a lead. Retailer has trade, virgin, foil, metal and Rapboy variants; exact finish remains unconfirmed.",
+      "urls": [
+        "https://rabbitcomics.com/products/orbit-eminem-1-caio-cacau-excluisve-variant-preorder",
+        "https://caiocacau.artstation.com/projects/5WXZmO"
+      ]
+    },
+    {
+      "ids": [
+        "raw:15-012",
+        "raw:15-013",
+        "raw:15-015"
+      ],
+      "reason": "Tribute Kobe Bryant Sajad Shah Wu-Tang homage lead; black basketball/snake cover. Finish and exact printing require confirmation; regular, foil and metal variants cannot be conflated.",
+      "urls": [
+        "https://www.7ate9comics.com/products/tribute-kobe-bryant-wu-tang-clan-homage-virgin-variant-ltd-to-only-300"
+      ]
+    },
+    {
+      "ids": [
+        "raw:15-014"
+      ],
+      "reason": "Tribute Tupac Caio Cacau Crow homage lead; exact finish remains unresolved. Active eBay 406237860963 is not a completed sale.",
+      "urls": [
+        "https://www.ebay.com/itm/406237860963"
+      ]
+    }
+  ],
+  "next": "Continue specialty owner-scan leads above and the ten identified raw editions still lacking references. Graded pricing remains 107 copies; seek fresh exact-grade results rather than repeating the rejected editions and active offers. Condition remains unassessed for all 429 raw copies."
+}
