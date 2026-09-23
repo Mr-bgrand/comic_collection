@@ -10068,7 +10068,106 @@
         "source": "CGC Cards",
         "url": "https://www.cgccards.com/population-report/sports/baseball/1/2020-present/13/2024-topps-50-50-shohei-ohtani/43323/?populationID=16342606"
       },
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "dawn-2026-09-23-CGC-6034330274",
+            "copyId": "CGC:6034330274",
+            "basis": "sold-comps",
+            "value": 55.28,
+            "currency": "USD",
+            "source": {
+              "name": "Pristine Auction",
+              "url": "https://www.pristineauction.com/a12324088-Shohei-Ohtani-2024-Topps-5050-34-CGC-10",
+              "asOf": "2026-04-21",
+              "retrievedAt": "2026-09-23T06:14:04.279Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "Topps 50/50",
+                "series": "",
+                "subject": "Shohei Ohtani",
+                "cardNumber": "34",
+                "variety": "",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://www.pristineauction.com/a12324088-Shohei-Ohtani-2024-Topps-5050-34-CGC-10",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-23T06:14:04.279Z",
+              "notes": "Original completed auction and photograph reviewed. Exact 2024 Topps 50/50 base #34 Shohei Ohtani, CGC GEM MINT 10, comparison cert 6037841105. Winning bid $47.25 plus displayed buyer premium $8.03 = $55.28 total; no shipping or tax included. Lot ended April 21, 2026 with 24 bids. Single historical sale, not a current firm appraisal."
+            },
+            "saleCount": 1,
+            "range": {
+              "low": 55.28,
+              "high": 55.28,
+              "method": "min-max"
+            },
+            "transactions": [
+              {
+                "transactionId": "pristine:12324088",
+                "sourceUrl": "https://www.pristineauction.com/a12324088-Shohei-Ohtani-2024-Topps-5050-34-CGC-10",
+                "soldAt": "2026-04-21",
+                "value": 55.28,
+                "identity": {
+                  "kind": "card",
+                  "year": "2024",
+                  "brand": "Topps 50/50",
+                  "series": "",
+                  "subject": "Shohei Ohtani",
+                  "cardNumber": "34",
+                  "variety": "",
+                  "language": "",
+                  "qualifiers": "",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "labelCategory": "",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": ""
+                },
+                "grade": "10",
+                "grader": "CGC",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              }
+            ],
+            "provisional": true,
+            "provisionalReason": "Limited history: one matching April 2026 completed auction. Includes the displayed buyer premium; shipping and tax excluded."
+          }
+        ],
+        "selection": {
+          "observationId": "dawn-2026-09-23-CGC-6034330274",
+          "locked": true,
+          "selectedAt": "2026-09-23T06:14:04.616Z"
+        }
+      },
       "cgc": {
         "gradeText": "GEM MINT 10",
         "lookupGrade": "10.0",
@@ -10452,7 +10551,106 @@
         "source": "CGC Cards",
         "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/scarlet-and-violet/842/trading-card-game-classic-clf-cll-clk/20262/?populationID=1490836"
       },
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "dawn-2026-09-23-CGC-6032717240",
+            "copyId": "CGC:6032717240",
+            "basis": "sold-comps",
+            "value": 12,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting / eBay",
+              "url": "https://www.pricecharting.com/game/pokemon-japanese-classic-venusaur/sandslash-9",
+              "asOf": "2026-02-25",
+              "retrievedAt": "2026-09-23T06:14:04.279Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2023",
+                "brand": "Trading Card Game Classic",
+                "series": "",
+                "subject": "Sandslash",
+                "cardNumber": "009/032",
+                "variety": "Venusaur & Lugia ex Deck · Holo",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/pokemon-japanese-classic-venusaur/sandslash-9",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-23T06:14:04.279Z",
+              "notes": "PriceCharting product 6206621 reports one February 25, 2026 CGC 10 sale at $12. Original eBay listing displays $12 and an ended timestamp of February 24 in its rendered timezone; its photograph confirms CGC GEM MINT 10 cert 6110268059, Japanese 2023 Classic Venusaur & Lugia ex Deck Sandslash #009/032 Holo. Completion is source-reported; buyer payment is not independently verified. August and June 2026 rows are excluded because original photos show PRISTINE 10. The August row also confuses a $20 asking price with a $15 accepted offer. October 2025 row 286865657248 excluded because the archived original shows $0.00 rather than the aggregator's $8.50."
+            },
+            "saleCount": 1,
+            "range": {
+              "low": 12,
+              "high": 12,
+              "method": "min-max"
+            },
+            "transactions": [
+              {
+                "transactionId": "ebay:287124521001",
+                "sourceUrl": "https://www.ebay.com/itm/287124521001",
+                "soldAt": "2026-02-25",
+                "value": 12,
+                "identity": {
+                  "kind": "card",
+                  "year": "2023",
+                  "brand": "Trading Card Game Classic",
+                  "series": "",
+                  "subject": "Sandslash",
+                  "cardNumber": "009/032",
+                  "variety": "Venusaur & Lugia ex Deck · Holo",
+                  "language": "Japanese",
+                  "qualifiers": "",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "labelCategory": "",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": ""
+                },
+                "grade": "10",
+                "grader": "CGC",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              }
+            ],
+            "provisional": true,
+            "provisionalReason": "Limited, source-reported history: one $12 February 2026 sale. Exact Gem Mint label verified in the original photo; payment not independently verified. Pristine 10 listings excluded."
+          }
+        ],
+        "selection": {
+          "observationId": "dawn-2026-09-23-CGC-6032717240",
+          "locked": true,
+          "selectedAt": "2026-09-23T06:14:04.617Z"
+        }
+      },
       "cgc": {
         "gradeText": "GEM MINT 10",
         "lookupGrade": "10.0",

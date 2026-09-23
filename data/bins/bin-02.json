@@ -66,6 +66,136 @@
           "originalFile": "data/originals/4561341007_REV.jpg",
           "originalSha256": "16aa1eaee9bfe9335c1e185f0ff501d8b8d5a573cdf6fc702f640406fbc09ab3"
         }
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "dawn-2026-09-23-CGC-4561341007",
+            "copyId": "CGC:4561341007",
+            "basis": "sold-comps",
+            "value": 216,
+            "currency": "USD",
+            "source": {
+              "name": "Heritage Auctions",
+              "url": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/strange-tales-167-marvel-1968-cgc-vf-nm-90-off-white-to-white-pages/a/122324-13671.s",
+              "asOf": "2023-06-12",
+              "retrievedAt": "2026-09-23T06:14:04.279Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Strange Tales",
+                "issue": "167",
+                "issueYear": "1968",
+                "publisher": "Marvel Comics",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.0",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/strange-tales-167-marvel-1968-cgc-vf-nm-90-off-white-to-white-pages/a/122324-13671.s",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-23T06:14:04.279Z",
+              "notes": "Original Heritage lot descriptions, published realized prices and slab photographs reviewed. Both comparison copies are Strange Tales #167 (1968), CGC Universal 9.0 with OFF-WHITE TO WHITE pages, certs 4222672011 and 4031712005. Median of $240 and $192 is $216. Published realized prices used without adding a premium again. These are 2022-2023 sales, not recent market evidence. The 2025 WHITE-pages sale was excluded because owned page quality differs. Owned page quality is preserved."
+            },
+            "saleCount": 2,
+            "range": {
+              "low": 192,
+              "high": 240,
+              "method": "min-max"
+            },
+            "transactions": [
+              {
+                "transactionId": "heritage:122324:13671",
+                "sourceUrl": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/strange-tales-167-marvel-1968-cgc-vf-nm-90-off-white-to-white-pages/a/122324-13671.s",
+                "soldAt": "2023-06-12",
+                "value": 240,
+                "identity": {
+                  "kind": "comic",
+                  "title": "Strange Tales",
+                  "issue": "167",
+                  "issueYear": "1968",
+                  "publisher": "Marvel Comics",
+                  "variant": "",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "language": "",
+                  "labelCategory": "Universal",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": "",
+                  "qualifiers": ""
+                },
+                "grade": "9.0",
+                "grader": "CGC",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              },
+              {
+                "transactionId": "heritage:122229:15676",
+                "sourceUrl": "https://comics.ha.com/itm/silver-age-1956-1969-/superhero/strange-tales-167-marvel-1968-cgc-vf-nm-90-off-white-to-white-pages/a/122229-15676.s",
+                "soldAt": "2022-07-18",
+                "value": 192,
+                "identity": {
+                  "kind": "comic",
+                  "title": "Strange Tales",
+                  "issue": "167",
+                  "issueYear": "1968",
+                  "publisher": "Marvel Comics",
+                  "variant": "",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "language": "",
+                  "labelCategory": "Universal",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": "",
+                  "qualifiers": ""
+                },
+                "grade": "9.0",
+                "grader": "CGC",
+                "condition": null,
+                "currency": "USD",
+                "sold": true
+              }
+            ],
+            "provisional": true,
+            "provisionalReason": "Stale, limited history: two exact-grade and page-quality sales from 2022 and 2023. Historical median only; current market value remains uncertain."
+          }
+        ],
+        "selection": {
+          "observationId": "dawn-2026-09-23-CGC-4561341007",
+          "locked": true,
+          "selectedAt": "2026-09-23T06:14:04.616Z"
+        }
       }
     },
     {

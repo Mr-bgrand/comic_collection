@@ -5319,10 +5319,10 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
+      "title": "Orbit: Eminem",
+      "issue": "1",
+      "variant": "Caio Cacau Punisher #1 Homage Trade Dress",
+      "publisher": "TidalWave Productions",
       "issueYear": null,
       "holder": "bag-and-board",
       "holderSource": "owner",
@@ -5337,7 +5337,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Orbit: Eminem",
@@ -5347,10 +5347,72 @@
             "confidence": "high",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-23T06:14:00.327Z",
+        "sourceUrl": "https://comickingdomcreative.com/products/orbit-eminem-ck-shared-exclusive-punisher-1-homage-caio-cacau"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Orbit: Eminem",
+                "issue": "1",
+                "issueYear": "",
+                "publisher": "TidalWave Productions",
+                "variant": "Caio Cacau Punisher #1 Homage Trade Dress",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://comickingdomcreative.com/products/orbit-eminem-ck-shared-exclusive-punisher-1-homage-caio-cacau",
+              "notes": "Owned front scan individually inspected against the publisher-exclusive retailer's cover image: Eminem in white shirt holding two guns, yellow/blue Orbit Eminem title, yellow double-issue box. Matches Caio Cacau Punisher #1 homage regular trade dress, not green-costume Rapboy, virgin or Mico Suayan Robin/Batman cover. Printed artist mark is not an authenticated autograph. Release-year catalog ambiguity remains, so no year inferred. No grade or value assigned.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-23T06:14:00.327Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-23T06:14:00.453Z"
+      },
       "images": {
         "front": "Raw_15-002_FRONT.jpg"
       },
@@ -7162,11 +7224,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Tribute: Tupac Shakur",
+      "issue": "1",
+      "variant": "Caio Cacau Crow Homage Trade Dress - finish unverified",
+      "publisher": "TidalWave Productions",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -7180,7 +7242,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Tribute: Tupac Shakur",
@@ -7190,10 +7252,72 @@
             "confidence": "high",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-23T06:14:00.327Z",
+        "sourceUrl": "https://comickingdomcreative.com/products/tribute-tupac-shakur-ck-shared-exclusive-crow-homage-caio-cacau"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Tribute: Tupac Shakur",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "TidalWave Productions",
+                "variant": "Caio Cacau Crow Homage Trade Dress - finish unverified",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://comickingdomcreative.com/products/tribute-tupac-shakur-ck-shared-exclusive-crow-homage-caio-cacau",
+              "notes": "Owned front scan individually inspected: All Eyes On Me vertical white stripe, Tupac centered, crow/bandana motif, red Tupac trade dress, issue 1 and TidalWave marks. Title and Caio Cacau Crow-homage artwork match the exclusive retailer. Exact finish/printing remains unverified: HiBid lot 238726939 has an additional bottom credit block absent on the owned scan. That $12 auction result is retained only as an unselected research lead, not an exact-copy value or raw reference. No grade, autograph or special finish inferred.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-23T06:14:00.327Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-23T06:14:00.454Z"
+      },
       "images": {
         "front": "Raw_15-014_FRONT.jpg"
       },
@@ -18841,11 +18965,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Female Force: Taylor Swift",
+      "issue": "1",
+      "variant": "Steven Defendini Unknown Comics Exclusive Trade Dress",
+      "publisher": "TidalWave Productions",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -18857,7 +18981,7 @@
       },
       "authentication": null,
       "identification": {
-        "status": "proposed",
+        "status": "confirmed",
         "proposedAt": "2026-09-08T02:56:53.259Z",
         "proposedBy": "claude-visual-pass",
         "candidates": [
@@ -18869,10 +18993,72 @@
             "confidence": "medium",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-23T06:14:00.327Z",
+        "sourceUrl": "https://www.knightofcomics.com/products/female-force-taylor-swift-unknown-comics-steven-defendini-exclusive-var-03-27-2024"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Female Force: Taylor Swift",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "TidalWave Productions",
+                "variant": "Steven Defendini Unknown Comics Exclusive Trade Dress",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://www.knightofcomics.com/products/female-force-taylor-swift-unknown-comics-steven-defendini-exclusive-var-03-27-2024",
+              "notes": "Owned front individually inspected against retailer image taylorswiftTRADE.jpg: blue dress, microphone, gold star, blue Taylor Swift title, white border, Female Force bottom left and TidalWave bottom right. Exact regular Defendini trade cover, distinct from the X montage on raw:15-060 and from virgin variants. Retail asking price is not a sold comparable. Condition remains unassessed; no value assigned.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-23T06:14:00.327Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-23T06:14:00.454Z"
+      },
       "images": {
         "front": "Raw_15-025_FRONT.jpg"
       },

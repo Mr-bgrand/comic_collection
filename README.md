@@ -24,9 +24,10 @@ Design doc: [`docs/superpowers/specs/2026-08-16-comic-inventory-labels-design.md
 ## Phone photos in Collection / Lab
 
 Authority softslabs are in Case #12 and Bins #13-15. Bin #15 also contains 96
-unidentified owner-scanned raw books. Card Case #3 contains 94 PSA cards, including
-the certs supplied without URLs. Five additional CGC cards remain queued for
-verified capture and are not counted as imported.
+owner-scanned raw books: 83 have identified titles/artwork and 13 still need
+identification. Tupac's finish/printing also needs confirmation. Card Case #3
+contains 94 PSA cards, including the certs supplied without URLs. The five
+previously queued CGC cards were verified and imported into Case #1.
 
 All 20 physical bins/cases appear in **Admin → Bins & locations / Print Studio**.
 `npm run build` and `npm run print` remain the normal workflow. Large 4×6 labels

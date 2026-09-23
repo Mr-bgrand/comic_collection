@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-23T06:14:00.327Z",
+  "edits": [
+    {
+      "copyId": "raw:15-002",
+      "revision": "26ae76ec7903a56c98a2aa5938d2f1b4ecf037706ea38255a5f4c29a9bb06bbb",
+      "review": {
+        "identity": {
+          "title": "Orbit: Eminem",
+          "issue": "1",
+          "publisher": "TidalWave Productions",
+          "variant": "Caio Cacau Punisher #1 Homage Trade Dress"
+        },
+        "evidence": {
+          "url": "https://comickingdomcreative.com/products/orbit-eminem-ck-shared-exclusive-punisher-1-homage-caio-cacau",
+          "notes": "Owned front scan individually inspected against the publisher-exclusive retailer's cover image: Eminem in white shirt holding two guns, yellow/blue Orbit Eminem title, yellow double-issue box. Matches Caio Cacau Punisher #1 homage regular trade dress, not green-costume Rapboy, virgin or Mico Suayan Robin/Batman cover. Printed artist mark is not an authenticated autograph. Release-year catalog ambiguity remains, so no year inferred. No grade or value assigned.",
+          "reviewedBy": "Owner-authorized scan and catalog review",
+          "reviewedAt": "2026-09-23T06:14:00.327Z"
+        }
+      }
+    },
+    {
+      "copyId": "raw:15-014",
+      "revision": "26ae76ec7903a56c98a2aa5938d2f1b4ecf037706ea38255a5f4c29a9bb06bbb",
+      "review": {
+        "identity": {
+          "title": "Tribute: Tupac Shakur",
+          "issue": "1",
+          "issueYear": "2024",
+          "publisher": "TidalWave Productions",
+          "variant": "Caio Cacau Crow Homage Trade Dress - finish unverified"
+        },
+        "evidence": {
+          "url": "https://comickingdomcreative.com/products/tribute-tupac-shakur-ck-shared-exclusive-crow-homage-caio-cacau",
+          "notes": "Owned front scan individually inspected: All Eyes On Me vertical white stripe, Tupac centered, crow/bandana motif, red Tupac trade dress, issue 1 and TidalWave marks. Title and Caio Cacau Crow-homage artwork match the exclusive retailer. Exact finish/printing remains unverified: HiBid lot 238726939 has an additional bottom credit block absent on the owned scan. That $12 auction result is retained only as an unselected research lead, not an exact-copy value or raw reference. No grade, autograph or special finish inferred.",
+          "reviewedBy": "Owner-authorized scan and catalog review",
+          "reviewedAt": "2026-09-23T06:14:00.327Z"
+        }
+      }
+    },
+    {
+      "copyId": "raw:15-025",
+      "revision": "26ae76ec7903a56c98a2aa5938d2f1b4ecf037706ea38255a5f4c29a9bb06bbb",
+      "review": {
+        "identity": {
+          "title": "Female Force: Taylor Swift",
+          "issue": "1",
+          "issueYear": "2024",
+          "publisher": "TidalWave Productions",
+          "variant": "Steven Defendini Unknown Comics Exclusive Trade Dress"
+        },
+        "evidence": {
+          "url": "https://www.knightofcomics.com/products/female-force-taylor-swift-unknown-comics-steven-defendini-exclusive-var-03-27-2024",
+          "notes": "Owned front individually inspected against retailer image taylorswiftTRADE.jpg: blue dress, microphone, gold star, blue Taylor Swift title, white border, Female Force bottom left and TidalWave bottom right. Exact regular Defendini trade cover, distinct from the X montage on raw:15-060 and from virgin variants. Retail asking price is not a sold comparable. Condition remains unassessed; no value assigned.",
+          "reviewedBy": "Owner-authorized scan and catalog review",
+          "reviewedAt": "2026-09-23T06:14:00.327Z"
+        }
+      }
+    }
+  ],
+  "scans": [
+    {
+      "copyId": "raw:15-002",
+      "image": "Raw_15-002_FRONT.jpg",
+      "sha256": "06e70d895d084294dc652590ee9cf2f0dc8611f39eb507257b69890030c72b26"
+    },
+    {
+      "copyId": "raw:15-014",
+      "image": "Raw_15-014_FRONT.jpg",
+      "sha256": "530347d8e177f8a898e156513440d665e8a1ec8cb65df91cc2a8d4bb271edfe3"
+    },
+    {
+      "copyId": "raw:15-025",
+      "image": "Raw_15-025_FRONT.jpg",
+      "sha256": "2e35c3788362e5a06f7957660f1b918720d65703d74efc1848fcefb120c1ecfe"
+    }
+  ]
+}

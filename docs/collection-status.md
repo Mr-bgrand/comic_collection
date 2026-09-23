@@ -38,8 +38,9 @@ earlier cert 4350046007. The long barcode resolves to cert 4350046003 (Spawn #1,
 Convention Edition, 9.8). Its Signature Series comic retains the Kevin Eastman
 signature details. See the [Bin 10 intake](../data/incoming/2026-09-09-bin-10-request.json)
 and [CGC captures](../data/incoming/2026-09-10-cgc-bin-10-captures.json).
-Bin #15 contains 27 Authority sleeves plus 96 owner-scanned raw books. Eighty now
-have verified editions; 16 still need identification. Duplicate submitted IDs
+Bin #15 contains 27 Authority sleeves plus 96 owner-scanned raw books. Eighty-three now
+have identified titles/artwork; 13 still need identification. Tupac's exact finish
+and printing also remain unverified. Duplicate submitted IDs
 were deduplicated; leading zeros are kept.
 Find > Raw comics now opens those 96 owner scans directly. Their focus labels and
 record IDs are readable while identification is pending, and Singularity spreads
@@ -57,9 +58,9 @@ were moved from the unassigned group; no duplicate copies were created. See the
 
 | Group | Recorded total | Valued | No value yet |
 | --- | ---: | ---: | ---: |
-| Comics | $14,116.92 | 187 | 510 |
-| Cards | $21,008.35 | 217 | 36 |
-| All | $35,125.27 | 404 | 546 |
+| Comics | $14,332.92 | 188 | 509 |
+| Cards | $21,075.63 | 219 | 34 |
+| All | $35,408.55 | 407 | 543 |
 
 45 PSA Vault estimates have no source date. Printing/building does not update
 market prices. TAG's explicit value or owner estimate takes precedence; otherwise
@@ -139,8 +140,12 @@ An early September 23 pass identified three more scans and added three raw refer
 The September 23 intake added seven PSA cert-page estimates totaling $573.00;
 all carry an asterisk because their supporting sales history was not established.
 These are guide estimates, not independently verified sold comparables.
+A subsequent September 23 pass added three starred graded estimates ($283.28)
+and identified three more raw cover titles/artwork; see the
+[dawn research](valuation-dawn-2026-09-23.md). Original photographs exposed
+Pristine/Gem Mint and cover-printing mismatches, which were excluded from prices.
 403 unconditioned raw references now total $2,490.81 and remain excluded
-from the recorded total. There are 117 graded values outstanding (81 comics, 36 cards),
+from the recorded total. There are 114 graded values outstanding (80 comics, 34 cards),
 plus 429 raw copies awaiting condition assessment. See the
 [pilot report](valuation-pilot-2026-09-13.md) for sources, dates and remaining gaps.
 Inventory growth and newly valued records affect totals; these are not investment returns.
