@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "reviewedDate": "2026-09-23",
+  "batch": "morning",
+  "addedGradedEstimates": 0,
+  "addedRawReferences": 1,
+  "identifiedOwnerScans": ["15-012", "15-013", "15-015", "15-017", "15-068"],
+  "acceptedReference": {
+    "copyId": "raw:15-068",
+    "sourceUrl": "https://www.hipcomic.com/listing/space-ghost-1-dellotto-variant-cover-spectral-wanted-comix-comics/19045830",
+    "eventUrl": "https://www.hipcomic.com/event/hipcomic-no-reserve-auction-403/8730",
+    "imageUrl": "https://img.hipcomic.com/p/120928b22c98a0f3c15a89b37520c38d.jpg",
+    "soldAt": "2025-09-08",
+    "displayedSaleTime": "22:29:02",
+    "value": 3.25,
+    "currency": "USD",
+    "quantity": 1,
+    "bids": 5,
+    "exclusions": "USD 6 shipping and tax excluded. Exact trade cover photo checked. Condition not transferred to owned copy. Old single sale remains pending raw reference; payment not independently verified."
+  },
+  "exclusions": [
+    {"copyId":"raw:15-017","url":"https://denver.hibid.com/lot/238726933/fame--michael-jordan--2024--variant","reason":"USD 15 closed auction photograph shows black uniforms; owned scan shows red uniforms. Wrong cover. Fee text also conflicts between 18 and 18.5 percent."},
+    {"copyIds":["raw:15-012","raw:15-013","raw:15-015"],"url":"https://www.ebay.com/itm/198330078472","reason":"Rendered original is ENDED USD 0.00, not a usable sold result. Earlier indexed 0.99 was an opening bid. Owned finishes remain unverified."},
+    {"copyIds":["raw:15-012","raw:15-013","raw:15-015"],"url":"https://comickingdomcreative.com/products/tribute-kobe-bryant-ck-shared-exclusive-wu-tang-clan-homage-sajad-shah","reason":"Primary retailer identity evidence only. Listed prices and sold-out options are not completed sales; print counts not assigned to unverified finishes."},
+    {"copyId":"raw:15-017","url":"https://comickingdomcreative.com/products/fame-michael-jordan-fan-expo-chicago-ck-exclusive-goodfellas-homage-caio-cacau","reason":"Primary red-virgin artwork evidence only. Retail prices not used, finish and printing not inferred."},
+    {"cert":"4245549001","url":"https://comicbookrealm.com/cgc-analyzer/comic/id/145590/idw-publishing-back-to-the-future-1e-artist-edition","reason":"Artist Edition table has no 9.2 sales. Other grades, Signature Series and generic issue-1 sales do not match."},
+    {"certs":["4245413009","4273634005"],"url":"https://geekedoutcomics.com/products/darkwing-duck-1-casey-parsons-cgc-9-8-exclusive-cover-dynamite-2023","reason":"Sold-out retail listing is not transaction history. No new exact-grade verified sale added."}
+  ],
+  "searchesWithoutUsableEvidence": ["The Cull Shrike CGC 9.8 sold", "Revolution Sharper CGC 9.8 auction", "Gone Ashcan CGC 9.2 sold", "Blaine Japanese non-holo CGC 9 sold"],
+  "notCompleted": "These were targeted searches, not exhaustive auction-archive audits. Remaining graded records need exact-grade evidence. Five identified raw scans still need finish/printing checks; eight scans still need title/artwork identification."
+}

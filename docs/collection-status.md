@@ -38,9 +38,9 @@ earlier cert 4350046007. The long barcode resolves to cert 4350046003 (Spawn #1,
 Convention Edition, 9.8). Its Signature Series comic retains the Kevin Eastman
 signature details. See the [Bin 10 intake](../data/incoming/2026-09-09-bin-10-request.json)
 and [CGC captures](../data/incoming/2026-09-10-cgc-bin-10-captures.json).
-Bin #15 contains 27 Authority sleeves plus 96 owner-scanned raw books. Eighty-three now
-have identified titles/artwork; 13 still need identification. Tupac's exact finish
-and printing also remain unverified. Duplicate submitted IDs
+Bin #15 contains 27 Authority sleeves plus 96 owner-scanned raw books. Eighty-eight now
+have identified titles/artwork; eight still need identification. Tupac, three Kobe
+copies and the red Jordan cover still need finish/printing confirmation. Duplicate submitted IDs
 were deduplicated; leading zeros are kept.
 Find > Raw comics now opens those 96 owner scans directly. Their focus labels and
 record IDs are readable while identification is pending, and Singularity spreads
@@ -144,7 +144,9 @@ A subsequent September 23 pass added three starred graded estimates ($283.28)
 and identified three more raw cover titles/artwork; see the
 [dawn research](valuation-dawn-2026-09-23.md). Original photographs exposed
 Pristine/Gem Mint and cover-printing mismatches, which were excluded from prices.
-403 unconditioned raw references now total $2,490.81 and remain excluded
+A morning September 23 pass identified five more raw covers and verified a $3.25
+Space Ghost trade-cover auction reference; see the [morning research](valuation-morning-2026-09-23.md).
+404 unconditioned raw references now total $2,494.06 and remain excluded
 from the recorded total. There are 114 graded values outstanding (80 comics, 34 cards),
 plus 429 raw copies awaiting condition assessment. See the
 [pilot report](valuation-pilot-2026-09-13.md) for sources, dates and remaining gaps.

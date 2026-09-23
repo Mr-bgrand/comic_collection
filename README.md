@@ -24,8 +24,9 @@ Design doc: [`docs/superpowers/specs/2026-08-16-comic-inventory-labels-design.md
 ## Phone photos in Collection / Lab
 
 Authority softslabs are in Case #12 and Bins #13-15. Bin #15 also contains 96
-owner-scanned raw books: 83 have identified titles/artwork and 13 still need
-identification. Tupac's finish/printing also needs confirmation. Card Case #3
+owner-scanned raw books: 88 have identified titles/artwork and eight still need
+identification. Tupac, three Kobe copies and the red Jordan cover still need
+finish/printing confirmation. Card Case #3
 contains 94 PSA cards, including the certs supplied without URLs. The five
 previously queued CGC cards were verified and imported into Case #1.
 

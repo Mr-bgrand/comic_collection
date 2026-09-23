@@ -7101,11 +7101,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Tribute: Kobe Bryant",
+      "issue": "1",
+      "variant": "Sajad Shah Wu-Tang Clan Homage Virgin - finish unverified",
+      "publisher": "TidalWave Productions",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -7119,7 +7119,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Tribute: Kobe Bryant",
@@ -7131,10 +7131,72 @@
             "note": "Same publisher/series as the wall copy 4526002009; exact edition unverified"
           }
         ],
-        "duplicateOf": "raw:15-013"
+        "duplicateOf": "raw:15-013",
+        "reviewedAt": "2026-09-23T10:05:06.308Z",
+        "sourceUrl": "https://comickingdomcreative.com/products/tribute-kobe-bryant-ck-shared-exclusive-wu-tang-clan-homage-sajad-shah"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Tribute: Kobe Bryant",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "TidalWave Productions",
+                "variant": "Sajad Shah Wu-Tang Clan Homage Virgin - finish unverified",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://comickingdomcreative.com/products/tribute-kobe-bryant-ck-shared-exclusive-wu-tang-clan-homage-sajad-shah",
+              "notes": "Each owned front scan was individually compared with the primary retailer virgin-cover image: Black Mamba cobra on orange basketball above five Kobe Bryant poses; no trade title. Artwork matches Sajad Shah Wu-Tang Clan homage virgin. Retailer also offers foil, metal and retailer-appreciation versions. Exact finish and printing remain unverified; no limited print count, condition, autograph or value inferred.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-23T10:05:06.308Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-23T10:05:06.485Z"
+      },
       "images": {
         "front": "Raw_15-012_FRONT.jpg"
       },
@@ -7163,11 +7225,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Tribute: Kobe Bryant",
+      "issue": "1",
+      "variant": "Sajad Shah Wu-Tang Clan Homage Virgin - finish unverified",
+      "publisher": "TidalWave Productions",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -7181,7 +7243,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Tribute: Kobe Bryant",
@@ -7192,10 +7254,72 @@
             "source": "visual",
             "note": "Same publisher/series as the wall copy 4526002009; exact edition unverified"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-23T10:05:06.308Z",
+        "sourceUrl": "https://comickingdomcreative.com/products/tribute-kobe-bryant-ck-shared-exclusive-wu-tang-clan-homage-sajad-shah"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Tribute: Kobe Bryant",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "TidalWave Productions",
+                "variant": "Sajad Shah Wu-Tang Clan Homage Virgin - finish unverified",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://comickingdomcreative.com/products/tribute-kobe-bryant-ck-shared-exclusive-wu-tang-clan-homage-sajad-shah",
+              "notes": "Each owned front scan was individually compared with the primary retailer virgin-cover image: Black Mamba cobra on orange basketball above five Kobe Bryant poses; no trade title. Artwork matches Sajad Shah Wu-Tang Clan homage virgin. Retailer also offers foil, metal and retailer-appreciation versions. Exact finish and printing remain unverified; no limited print count, condition, autograph or value inferred.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-23T10:05:06.308Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-23T10:05:06.485Z"
+      },
       "images": {
         "front": "Raw_15-013_FRONT.jpg"
       },
@@ -7346,11 +7470,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Tribute: Kobe Bryant",
+      "issue": "1",
+      "variant": "Sajad Shah Wu-Tang Clan Homage Virgin - finish unverified",
+      "publisher": "TidalWave Productions",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -7364,7 +7488,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Tribute: Kobe Bryant",
@@ -7376,10 +7500,72 @@
             "note": "Same publisher/series as the wall copy 4526002009; exact edition unverified"
           }
         ],
-        "duplicateOf": "raw:15-013"
+        "duplicateOf": "raw:15-013",
+        "reviewedAt": "2026-09-23T10:05:06.308Z",
+        "sourceUrl": "https://comickingdomcreative.com/products/tribute-kobe-bryant-ck-shared-exclusive-wu-tang-clan-homage-sajad-shah"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Tribute: Kobe Bryant",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "TidalWave Productions",
+                "variant": "Sajad Shah Wu-Tang Clan Homage Virgin - finish unverified",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://comickingdomcreative.com/products/tribute-kobe-bryant-ck-shared-exclusive-wu-tang-clan-homage-sajad-shah",
+              "notes": "Each owned front scan was individually compared with the primary retailer virgin-cover image: Black Mamba cobra on orange basketball above five Kobe Bryant poses; no trade title. Artwork matches Sajad Shah Wu-Tang Clan homage virgin. Retailer also offers foil, metal and retailer-appreciation versions. Exact finish and printing remain unverified; no limited print count, condition, autograph or value inferred.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-23T10:05:06.308Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-23T10:05:06.486Z"
+      },
       "images": {
         "front": "Raw_15-015_FRONT.jpg"
       },
@@ -16722,11 +16908,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Space Ghost",
+      "issue": "1",
+      "variant": "Gabriele Dell'Otto Spectral Comics / Wanted Comix Exclusive Trade Dress",
+      "publisher": "Dynamite Entertainment",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -16740,7 +16926,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Space Ghost",
@@ -16750,10 +16936,133 @@
             "confidence": "high",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-23T10:05:06.308Z",
+        "sourceUrl": "https://www.hipcomic.com/listing/space-ghost-1-dellotto-variant-cover-spectral-wanted-comix-comics/19045830"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Space Ghost",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "Dynamite Entertainment",
+                "variant": "Gabriele Dell'Otto Spectral Comics / Wanted Comix Exclusive Trade Dress",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://www.hipcomic.com/listing/space-ghost-1-dellotto-variant-cover-spectral-wanted-comix-comics/19045830",
+              "notes": "Owned scan individually matched to the original HipComic auction photograph: Space Ghost standing among asteroids, orange/red cape, SPACE GHOST title at upper right, issue 01 and vertical Dynamite at upper left. This is trade dress, not virgin. Publication and cover identity cross-checked with catalog issue 2743145. No UPC assigned from a catalog-only number; owned condition remains unassessed.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-23T10:05:06.308Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-23T10:05:06.486Z",
+        "observations": [
+          {
+            "id": "morning-2026-09-23-raw-15-068",
+            "copyId": "raw:15-068",
+            "basis": "raw-reference",
+            "value": 3.25,
+            "currency": "USD",
+            "source": {
+              "name": "HipComic completed auction",
+              "url": "https://www.hipcomic.com/listing/space-ghost-1-dellotto-variant-cover-spectral-wanted-comix-comics/19045830",
+              "asOf": "2025-09-08",
+              "retrievedAt": "2026-09-23T10:05:06.308Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Space Ghost",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "Dynamite Entertainment",
+                "variant": "Gabriele Dell'Otto Spectral Comics / Wanted Comix Exclusive Trade Dress",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.hipcomic.com/listing/space-ghost-1-dellotto-variant-cover-spectral-wanted-comix-comics/19045830",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-23T10:05:06.308Z",
+              "notes": "Exact trade-cover photograph matched to the owned scan. HipComic lot 19045830 sales history records one copy sold for USD 3.25 on September 8, 2025 at 22:29:02; five bids. Auction event 8730 ended September 8, 2025. Shipping USD 6 and tax excluded. One old sale; buyer payment not independently verified. No condition assigned to the owned copy.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "hipcomic:19045830",
+                  "sourceUrl": "https://www.hipcomic.com/listing/space-ghost-1-dellotto-variant-cover-spectral-wanted-comix-comics/19045830",
+                  "soldAt": "2025-09-08",
+                  "value": 3.25,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; one stale auction result is only a reference, not a copy-specific appraisal."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-068_FRONT.jpg"
       },
@@ -18725,11 +19034,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Fame: Michael Jordan",
+      "issue": "1",
+      "variant": "Caio Cacau Goodfellas Homage Red Virgin - finish unverified",
+      "publisher": "TidalWave Productions",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -18741,7 +19050,7 @@
       },
       "authentication": null,
       "identification": {
-        "status": "proposed",
+        "status": "confirmed",
         "proposedAt": "2026-09-08T02:56:52.428Z",
         "proposedBy": "claude-visual-pass",
         "candidates": [
@@ -18753,10 +19062,72 @@
             "confidence": "low",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-23T10:05:06.308Z",
+        "sourceUrl": "https://comickingdomcreative.com/products/fame-michael-jordan-fan-expo-chicago-ck-exclusive-goodfellas-homage-caio-cacau"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Fame: Michael Jordan",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "TidalWave Productions",
+                "variant": "Caio Cacau Goodfellas Homage Red Virgin - finish unverified",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://comickingdomcreative.com/products/fame-michael-jordan-fan-expo-chicago-ck-exclusive-goodfellas-homage-caio-cacau",
+              "notes": "Owned front individually compared with primary retailer red-virgin image: Jordan, Rodman and Pippen in RED Bulls uniforms, stadium lights and six trophies below; no trade dress. Exact finish/printing remains unverified because the retailer also offers foil and metal. HiBid lot 238726933 is BLACK uniforms and excluded. Retailer damaged-copy stock does not establish the condition of the owned copy. No grade, autograph, limitation or value assigned.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-23T10:05:06.308Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-23T10:05:06.486Z"
+      },
       "images": {
         "front": "Raw_15-017_FRONT.jpg"
       },
