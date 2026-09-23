@@ -9685,7 +9685,7 @@
       "brand": "Neo Premium File",
       "category": "Pokémon",
       "language": "Japanese",
-      "cardNumber": null,
+      "cardNumber": "156",
       "variety": null,
       "grade": "9.5",
       "gradeDescription": "MINT+",
@@ -9699,7 +9699,236 @@
         "source": "CGC Cards",
         "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/neo/744/neo-premium-file/15985/?populationID=516167"
       },
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "card",
+                "year": "1999",
+                "brand": "Neo Premium File",
+                "series": "",
+                "subject": "Quilava",
+                "cardNumber": "",
+                "variety": "",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "card",
+                "year": "1999",
+                "brand": "Neo Premium File",
+                "series": "",
+                "subject": "Quilava",
+                "cardNumber": "156",
+                "variety": "",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://www.cgccards.com/certlookup/1401036680181/9_5/",
+              "notes": "Read No. 156 directly from bottom right of the owned CGC front scan; slab cert 1401036680181 and MINT+ 9.5 confirmed. This fills an omitted printed number without changing grade or identity.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-23T14:17:25.779Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-23T14:17:25.947Z",
+        "observations": [
+          {
+            "id": "midday-2026-09-23-CGC-1401036680181",
+            "copyId": "CGC:1401036680181",
+            "basis": "sold-comps",
+            "value": 23.99,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting / eBay",
+              "url": "https://www.pricecharting.com/game/pokemon-japanese-neo-premium-file/quilava-156",
+              "asOf": "2026-08-19",
+              "retrievedAt": "2026-09-23T14:17:25.779Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "1999",
+                "brand": "Neo Premium File",
+                "series": "",
+                "subject": "Quilava",
+                "cardNumber": "156",
+                "variety": "",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9.5",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/pokemon-japanese-neo-premium-file/quilava-156",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-23T14:17:25.779Z",
+              "notes": "Median of three source-reported CGC MINT+ 9.5 sales. All three original listing photographs individually checked for the current MINT+ label and Japanese Neo Premium File Quilava #156. Original eBay 358147125834 says SOLD $23.99 August 18 local time (PriceCharting August 19); other two say ENDED at the reported amounts on May 7. Payment not independently verified. Excludes old blue-label Gem Mint 9.5 copies, a zero-price archive and active asking prices. Shipping/tax excluded."
+            },
+            "saleCount": 3,
+            "range": {
+              "low": 19.99,
+              "high": 25,
+              "method": "min-max"
+            },
+            "transactions": [
+              {
+                "transactionId": "ebay:358147125834",
+                "sourceUrl": "https://www.ebay.com/itm/358147125834",
+                "soldAt": "2026-08-19",
+                "value": 23.99,
+                "comparableCert": "1401028340073",
+                "currency": "USD",
+                "identity": {
+                  "kind": "card",
+                  "year": "1999",
+                  "brand": "Neo Premium File",
+                  "series": "",
+                  "subject": "Quilava",
+                  "cardNumber": "156",
+                  "variety": "",
+                  "language": "Japanese",
+                  "qualifiers": "",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "labelCategory": "",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": ""
+                },
+                "grade": "9.5",
+                "grader": "CGC",
+                "condition": null,
+                "sold": true
+              },
+              {
+                "transactionId": "ebay:336202621086",
+                "sourceUrl": "https://www.ebay.com/itm/336202621086",
+                "soldAt": "2026-05-07",
+                "value": 19.99,
+                "comparableCert": "1401008741125",
+                "currency": "USD",
+                "identity": {
+                  "kind": "card",
+                  "year": "1999",
+                  "brand": "Neo Premium File",
+                  "series": "",
+                  "subject": "Quilava",
+                  "cardNumber": "156",
+                  "variety": "",
+                  "language": "Japanese",
+                  "qualifiers": "",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "labelCategory": "",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": ""
+                },
+                "grade": "9.5",
+                "grader": "CGC",
+                "condition": null,
+                "sold": true
+              },
+              {
+                "transactionId": "ebay:116965669205",
+                "sourceUrl": "https://www.ebay.com/itm/116965669205",
+                "soldAt": "2026-05-07",
+                "value": 25,
+                "comparableCert": "6072649066",
+                "currency": "USD",
+                "identity": {
+                  "kind": "card",
+                  "year": "1999",
+                  "brand": "Neo Premium File",
+                  "series": "",
+                  "subject": "Quilava",
+                  "cardNumber": "156",
+                  "variety": "",
+                  "language": "Japanese",
+                  "qualifiers": "",
+                  "upc": "",
+                  "barcode": "",
+                  "supplement": "",
+                  "coverCode": "",
+                  "volume": "",
+                  "printing": "",
+                  "edition": "",
+                  "labelCategory": "",
+                  "labelType": "",
+                  "signatures": "",
+                  "restoration": ""
+                },
+                "grade": "9.5",
+                "grader": "CGC",
+                "condition": null,
+                "sold": true
+              }
+            ],
+            "provisional": true,
+            "provisionalReason": "Only three matching source-reported sales; two original archives say ended rather than sold, and payment was not independently verified."
+          }
+        ],
+        "selection": {
+          "observationId": "midday-2026-09-23-CGC-1401036680181",
+          "locked": true,
+          "selectedAt": "2026-09-23T14:17:26.432Z"
+        }
+      },
       "cgc": {
         "gradeText": "MINT+ 9.5",
         "lookupGrade": "9.5",
@@ -9765,6 +9994,11 @@
           "originalFile": "data/originals/CGC_1401036680181_BACK.jpg",
           "originalSha256": "59f50639b57dec434c341071cfcd0bd35a1293b0d925af8f3308b72a3f0bdf47"
         }
+      },
+      "identification": {
+        "status": "confirmed",
+        "reviewedAt": "2026-09-23T14:17:25.779Z",
+        "sourceUrl": "https://www.cgccards.com/certlookup/1401036680181/9_5/"
       }
     },
     {

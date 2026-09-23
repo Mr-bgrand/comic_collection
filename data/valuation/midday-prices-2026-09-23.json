@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "CGC:1401036680181",
+      "revision": "1cf39b19a2cd4bf25891a0ec69090296d865758233dff3a15ac4da2fd80c0aa1",
+      "observations": [
+        {
+          "id": "midday-2026-09-23-CGC-1401036680181",
+          "copyId": "CGC:1401036680181",
+          "basis": "sold-comps",
+          "value": 23.99,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting / eBay",
+            "url": "https://www.pricecharting.com/game/pokemon-japanese-neo-premium-file/quilava-156",
+            "asOf": "2026-08-19",
+            "retrievedAt": "2026-09-23T14:17:25.779Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "1999",
+              "brand": "Neo Premium File",
+              "series": "",
+              "subject": "Quilava",
+              "cardNumber": "156",
+              "variety": "",
+              "language": "Japanese",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9.5",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-japanese-neo-premium-file/quilava-156",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-23T14:17:25.779Z",
+            "notes": "Median of three source-reported CGC MINT+ 9.5 sales. All three original listing photographs individually checked for the current MINT+ label and Japanese Neo Premium File Quilava #156. Original eBay 358147125834 says SOLD $23.99 August 18 local time (PriceCharting August 19); other two say ENDED at the reported amounts on May 7. Payment not independently verified. Excludes old blue-label Gem Mint 9.5 copies, a zero-price archive and active asking prices. Shipping/tax excluded."
+          },
+          "saleCount": 3,
+          "range": {
+            "low": 19.99,
+            "high": 25,
+            "method": "min-max"
+          },
+          "transactions": [
+            {
+              "transactionId": "ebay:358147125834",
+              "sourceUrl": "https://www.ebay.com/itm/358147125834",
+              "soldAt": "2026-08-19",
+              "value": 23.99,
+              "comparableCert": "1401028340073",
+              "currency": "USD",
+              "identity": {
+                "kind": "card",
+                "year": "1999",
+                "brand": "Neo Premium File",
+                "series": "",
+                "subject": "Quilava",
+                "cardNumber": "156",
+                "variety": "",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9.5",
+              "grader": "CGC",
+              "condition": null,
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:336202621086",
+              "sourceUrl": "https://www.ebay.com/itm/336202621086",
+              "soldAt": "2026-05-07",
+              "value": 19.99,
+              "comparableCert": "1401008741125",
+              "currency": "USD",
+              "identity": {
+                "kind": "card",
+                "year": "1999",
+                "brand": "Neo Premium File",
+                "series": "",
+                "subject": "Quilava",
+                "cardNumber": "156",
+                "variety": "",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9.5",
+              "grader": "CGC",
+              "condition": null,
+              "sold": true
+            },
+            {
+              "transactionId": "ebay:116965669205",
+              "sourceUrl": "https://www.ebay.com/itm/116965669205",
+              "soldAt": "2026-05-07",
+              "value": 25,
+              "comparableCert": "6072649066",
+              "currency": "USD",
+              "identity": {
+                "kind": "card",
+                "year": "1999",
+                "brand": "Neo Premium File",
+                "series": "",
+                "subject": "Quilava",
+                "cardNumber": "156",
+                "variety": "",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9.5",
+              "grader": "CGC",
+              "condition": null,
+              "sold": true
+            }
+          ],
+          "provisional": true,
+          "provisionalReason": "Only three matching source-reported sales; two original archives say ended rather than sold, and payment was not independently verified."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:1251463037",
+      "revision": "dcd81304c48a4bedcbf2607e45beabfe99bef820a2a670bbae99d9336f03fe9b",
+      "observations": [
+        {
+          "id": "midday-2026-09-23-Authority-1251463037",
+          "copyId": "Authority:1251463037",
+          "basis": "raw-reference",
+          "value": 5.49,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting / eBay",
+            "url": "https://www.pricecharting.com/game/comic-books-wolverine-revenge/wolverine-revenge-2-2024",
+            "asOf": "2026-07-23",
+            "retrievedAt": "2026-09-23T14:17:25.779Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Wolverine: Revenge",
+              "issue": "2",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "",
+              "upc": "75960620995800211",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "A",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-wolverine-revenge/wolverine-revenge-2-2024",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-23T14:17:25.779Z",
+            "notes": "Median of two source-reported raw sales, $0.99 and $9.99. Both original photographs individually match the owned Greg Capullo standard Cover A; printed UPC 75960620995800211 confirmed on the sale images. eBay 137524103976 says SOLD $0.99 July 22 local time (PriceCharting July 23); 326912704599 says ENDED $9.99 June 9. Red Band, virgin and Cover B entries in the mixed PriceCharting table are excluded. Broad price range and different comparison-copy conditions; the owned raw condition remains unassessed. No shipping or tax included; buyer payment not independently verified.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:137524103976",
+                "sourceUrl": "https://www.ebay.com/itm/137524103976",
+                "soldAt": "2026-07-23",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:326912704599",
+                "sourceUrl": "https://www.ebay.com/itm/326912704599",
+                "soldAt": "2026-06-09",
+                "value": 9.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned condition is unassessed. Two source-reported results vary widely ($0.99-$9.99); this is a reference only, excluded from recorded value."
+        }
+      ]
+    }
+  ]
+}

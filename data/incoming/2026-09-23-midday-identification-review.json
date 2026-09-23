@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-23T14:17:25.779Z",
+  "edits": [
+    {
+      "copyId": "raw:15-069",
+      "revision": "302223d51a8c801b7f9b638858d0585c1491fd5ac347e086f7b46fdf05091504",
+      "review": {
+        "identity": {
+          "title": "Moon Man",
+          "issue": "2",
+          "issueYear": "2024",
+          "publisher": "Image Comics",
+          "variant": "Marco Locati Cover A",
+          "coverCode": "A"
+        },
+        "evidence": {
+          "url": "https://imagecomics.com/comics/releases/moon-man-2",
+          "notes": "Owned front individually matched to MyComicShop cover 2A image 7460703: MOON MAN title, issue 02, astronaut striking through a blue city. Image Comics confirms Marco Locati Cover A, released April 17, 2024. No catalog-only UPC or condition assigned.",
+          "reviewedBy": "Owner-authorized scan and catalog review",
+          "reviewedAt": "2026-09-23T14:17:25.779Z"
+        }
+      }
+    },
+    {
+      "copyId": "raw:15-070",
+      "revision": "302223d51a8c801b7f9b638858d0585c1491fd5ac347e086f7b46fdf05091504",
+      "review": {
+        "identity": {
+          "title": "Moon Man",
+          "issue": "2",
+          "issueYear": "2024",
+          "publisher": "Image Comics",
+          "variant": "Erica D'Urso Cover B Virgin",
+          "coverCode": "B"
+        },
+        "evidence": {
+          "url": "https://imagecomics.com/comics/releases/moon-man-2",
+          "notes": "Owned front individually matched to MyComicShop cover 2B image 7460709: blue helmet profile, orange face shield and yellow cosmic splatter. Image Comics confirms Erica D'Urso Cover B. Earlier Ivan Tao/foil candidate is unsupported and not adopted. No condition or special finish inferred.",
+          "reviewedBy": "Owner-authorized scan and catalog review",
+          "reviewedAt": "2026-09-23T14:17:25.779Z"
+        }
+      }
+    },
+    {
+      "copyId": "raw:15-071",
+      "revision": "302223d51a8c801b7f9b638858d0585c1491fd5ac347e086f7b46fdf05091504",
+      "review": {
+        "identity": {
+          "title": "Moon Man",
+          "issue": "2",
+          "issueYear": "2024",
+          "publisher": "Image Comics",
+          "variant": "Greg Tocchini Cover C Virgin",
+          "coverCode": "C"
+        },
+        "evidence": {
+          "url": "https://imagecomics.com/comics/releases/moon-man-2",
+          "notes": "Owned front individually matched to MyComicShop cover 2C image 7460712: astronaut beneath floating vehicles. Image Comics confirms Greg Tocchini Cover C. This is Moon Man, not Ghostbusters or Void Rivals. No condition inferred.",
+          "reviewedBy": "Owner-authorized scan and catalog review",
+          "reviewedAt": "2026-09-23T14:17:25.779Z"
+        }
+      }
+    },
+    {
+      "copyId": "raw:15-082",
+      "revision": "302223d51a8c801b7f9b638858d0585c1491fd5ac347e086f7b46fdf05091504",
+      "review": {
+        "identity": {
+          "title": "Fame: Michael J. Fox",
+          "issue": "nn",
+          "publisher": "TidalWave Comics",
+          "variant": "Official Pix Foil Edition - Matthew Waite Sports Almanac"
+        },
+        "evidence": {
+          "url": "https://officialpix.myshopify.com/products/sports-almanac-michael-j-fox",
+          "notes": "Owned red/black/gold foil Sports Almanac 1950-2000 cover individually matched to the Official Pix Almanac.jpg image and the collection CGC 4603826010 cover. The actual CGC label in the retailer image reads Fame: Michael J. Fox #nn, TidalWave Comics, No Date, Official Pix Foil Edition, despite retailer copy calling it Back to the Future #1. Year remains unknown; legacy 1900 sentinel is not copied. No signature or grade assigned to this raw copy. Retailer signed graded asking price is excluded.",
+          "reviewedBy": "Owner-authorized scan and catalog review",
+          "reviewedAt": "2026-09-23T14:17:25.779Z"
+        }
+      }
+    },
+    {
+      "copyId": "CGC:1401036680181",
+      "revision": "07d74963975a094d25cc11fdf23701cc0404a9e44e79ad350af4187855c0e5b3",
+      "review": {
+        "identity": {
+          "cardNumber": "156"
+        },
+        "evidence": {
+          "url": "https://www.cgccards.com/certlookup/1401036680181/9_5/",
+          "notes": "Read No. 156 directly from bottom right of the owned CGC front scan; slab cert 1401036680181 and MINT+ 9.5 confirmed. This fills an omitted printed number without changing grade or identity.",
+          "reviewedBy": "Owner-authorized scan and catalog review",
+          "reviewedAt": "2026-09-23T14:17:25.779Z"
+        }
+      }
+    }
+  ],
+  "scans": [
+    {
+      "copyId": "raw:15-069",
+      "image": "Raw_15-069_FRONT.jpg",
+      "sha256": "e4654dd85c56037bf6faba38f5dfcf60494dd0fe4ca2638f901540e95cfc7b28"
+    },
+    {
+      "copyId": "raw:15-070",
+      "image": "Raw_15-070_FRONT.jpg",
+      "sha256": "81f97d8c8f9ac563ff2feb8c4533977d4f6742e45749cf6846c8edfd6cc42463"
+    },
+    {
+      "copyId": "raw:15-071",
+      "image": "Raw_15-071_FRONT.jpg",
+      "sha256": "fe02633b5eaa03e12107c4fab6ffa3d74bfa6d1b0879101a196f9110f8294302"
+    },
+    {
+      "copyId": "raw:15-082",
+      "image": "Raw_15-082_FRONT.jpg",
+      "sha256": "facd41740f3809037a57951a449fa0556e6df2b088ce79ba5103c716b8197cbb"
+    },
+    {
+      "copyId": "CGC:1401036680181",
+      "image": "CGC_1401036680181_FRONT.jpg",
+      "sha256": "820c15ec3493925141b6489f75dabe394f14c1c0ef533b450d69cf3fe6439731"
+    }
+  ],
+  "additionalIdentitySources": [
+    "https://www.mycomicshop.com/search?mingr=0&tid=59990763"
+  ]
+}

@@ -1522,7 +1522,76 @@
         "capturedAt": "2026-09-07T23:50:06.713Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "midday-2026-09-23-Authority-1251463037",
+            "copyId": "Authority:1251463037",
+            "basis": "raw-reference",
+            "value": 5.49,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting / eBay",
+              "url": "https://www.pricecharting.com/game/comic-books-wolverine-revenge/wolverine-revenge-2-2024",
+              "asOf": "2026-07-23",
+              "retrievedAt": "2026-09-23T14:17:25.779Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Wolverine: Revenge",
+                "issue": "2",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "",
+                "upc": "75960620995800211",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "A",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-wolverine-revenge/wolverine-revenge-2-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-23T14:17:25.779Z",
+              "notes": "Median of two source-reported raw sales, $0.99 and $9.99. Both original photographs individually match the owned Greg Capullo standard Cover A; printed UPC 75960620995800211 confirmed on the sale images. eBay 137524103976 says SOLD $0.99 July 22 local time (PriceCharting July 23); 326912704599 says ENDED $9.99 June 9. Red Band, virgin and Cover B entries in the mixed PriceCharting table are excluded. Broad price range and different comparison-copy conditions; the owned raw condition remains unassessed. No shipping or tax included; buyer payment not independently verified.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:137524103976",
+                  "sourceUrl": "https://www.ebay.com/itm/137524103976",
+                  "soldAt": "2026-07-23",
+                  "value": 0.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:326912704599",
+                  "sourceUrl": "https://www.ebay.com/itm/326912704599",
+                  "soldAt": "2026-06-09",
+                  "value": 9.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned condition is unassessed. Two source-reported results vary widely ($0.99-$9.99); this is a reference only, excluded from recorded value."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_1251463037_FRONT.jpg",
         "back": "Authority_1251463037_BACK.jpg"

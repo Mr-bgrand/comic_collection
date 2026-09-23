@@ -17091,11 +17091,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Moon Man",
+      "issue": "2",
+      "variant": "Marco Locati Cover A",
+      "publisher": "Image Comics",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -17109,7 +17109,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Moon Man",
@@ -17119,10 +17119,72 @@
             "confidence": "high",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-23T14:17:25.779Z",
+        "sourceUrl": "https://imagecomics.com/comics/releases/moon-man-2"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Moon Man",
+                "issue": "2",
+                "issueYear": "2024",
+                "publisher": "Image Comics",
+                "variant": "Marco Locati Cover A",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "A",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://imagecomics.com/comics/releases/moon-man-2",
+              "notes": "Owned front individually matched to MyComicShop cover 2A image 7460703: MOON MAN title, issue 02, astronaut striking through a blue city. Image Comics confirms Marco Locati Cover A, released April 17, 2024. No catalog-only UPC or condition assigned.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-23T14:17:25.779Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-23T14:17:25.945Z"
+      },
       "images": {
         "front": "Raw_15-069_FRONT.jpg"
       },
@@ -17143,7 +17205,8 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:36:38.980Z"
-      }
+      },
+      "coverCode": "A"
     },
     {
       "id": "raw:15-071",
@@ -17151,11 +17214,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Moon Man",
+      "issue": "2",
+      "variant": "Greg Tocchini Cover C Virgin",
+      "publisher": "Image Comics",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -17169,7 +17232,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Moon Man",
@@ -17180,10 +17243,72 @@
             "source": "visual",
             "note": "series inferred from art; issue not visible"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-23T14:17:25.779Z",
+        "sourceUrl": "https://imagecomics.com/comics/releases/moon-man-2"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Moon Man",
+                "issue": "2",
+                "issueYear": "2024",
+                "publisher": "Image Comics",
+                "variant": "Greg Tocchini Cover C Virgin",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://imagecomics.com/comics/releases/moon-man-2",
+              "notes": "Owned front individually matched to MyComicShop cover 2C image 7460712: astronaut beneath floating vehicles. Image Comics confirms Greg Tocchini Cover C. This is Moon Man, not Ghostbusters or Void Rivals. No condition inferred.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-23T14:17:25.779Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-23T14:17:25.946Z"
+      },
       "images": {
         "front": "Raw_15-071_FRONT.jpg"
       },
@@ -17204,7 +17329,8 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:37:24.292Z"
-      }
+      },
+      "coverCode": "C"
     },
     {
       "id": "raw:15-072",
@@ -19156,10 +19282,10 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
+      "title": "Fame: Michael J. Fox",
+      "issue": "nn",
+      "variant": "Official Pix Foil Edition - Matthew Waite Sports Almanac",
+      "publisher": "TidalWave Comics",
       "issueYear": null,
       "holder": "bag-and-board",
       "holderSource": "owner",
@@ -19172,7 +19298,7 @@
       },
       "authentication": null,
       "identification": {
-        "status": "proposed",
+        "status": "confirmed",
         "proposedAt": "2026-09-08T02:56:52.435Z",
         "proposedBy": "claude-visual-pass",
         "candidates": [
@@ -19184,10 +19310,72 @@
             "confidence": "low",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-23T14:17:25.779Z",
+        "sourceUrl": "https://officialpix.myshopify.com/products/sports-almanac-michael-j-fox"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Fame: Michael J. Fox",
+                "issue": "nn",
+                "issueYear": "",
+                "publisher": "TidalWave Comics",
+                "variant": "Official Pix Foil Edition - Matthew Waite Sports Almanac",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://officialpix.myshopify.com/products/sports-almanac-michael-j-fox",
+              "notes": "Owned red/black/gold foil Sports Almanac 1950-2000 cover individually matched to the Official Pix Almanac.jpg image and the collection CGC 4603826010 cover. The actual CGC label in the retailer image reads Fame: Michael J. Fox #nn, TidalWave Comics, No Date, Official Pix Foil Edition, despite retailer copy calling it Back to the Future #1. Year remains unknown; legacy 1900 sentinel is not copied. No signature or grade assigned to this raw copy. Retailer signed graded asking price is excluded.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-23T14:17:25.779Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-23T14:17:25.946Z"
+      },
       "images": {
         "front": "Raw_15-082_FRONT.jpg"
       },
@@ -23965,11 +24153,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Moon Man",
+      "issue": "2",
+      "variant": "Erica D'Urso Cover B Virgin",
+      "publisher": "Image Comics",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -23981,7 +24169,7 @@
       },
       "authentication": null,
       "identification": {
-        "status": "proposed",
+        "status": "confirmed",
         "proposedAt": "2026-09-08T02:56:56.739Z",
         "proposedBy": "claude-visual-pass",
         "candidates": [
@@ -23994,10 +24182,72 @@
             "source": "visual",
             "note": "series inferred from art; issue not visible"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-23T14:17:25.779Z",
+        "sourceUrl": "https://imagecomics.com/comics/releases/moon-man-2"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Moon Man",
+                "issue": "2",
+                "issueYear": "2024",
+                "publisher": "Image Comics",
+                "variant": "Erica D'Urso Cover B Virgin",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://imagecomics.com/comics/releases/moon-man-2",
+              "notes": "Owned front individually matched to MyComicShop cover 2B image 7460709: blue helmet profile, orange face shield and yellow cosmic splatter. Image Comics confirms Erica D'Urso Cover B. Earlier Ivan Tao/foil candidate is unsupported and not adopted. No condition or special finish inferred.",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "reviewedAt": "2026-09-23T14:17:25.779Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-23T14:17:25.946Z"
+      },
       "images": {
         "front": "Raw_15-070_FRONT.jpg"
       },
@@ -24018,7 +24268,8 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:56:56.349Z"
-      }
+      },
+      "coverCode": "B"
     },
     {
       "id": "raw:15-093",

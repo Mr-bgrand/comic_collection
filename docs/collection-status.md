@@ -38,8 +38,8 @@ earlier cert 4350046007. The long barcode resolves to cert 4350046003 (Spawn #1,
 Convention Edition, 9.8). Its Signature Series comic retains the Kevin Eastman
 signature details. See the [Bin 10 intake](../data/incoming/2026-09-09-bin-10-request.json)
 and [CGC captures](../data/incoming/2026-09-10-cgc-bin-10-captures.json).
-Bin #15 contains 27 Authority sleeves plus 96 owner-scanned raw books. Eighty-eight now
-have identified titles/artwork; eight still need identification. Tupac, three Kobe
+Bin #15 contains 27 Authority sleeves plus 96 owner-scanned raw books. Ninety-two now
+have identified titles/artwork; four still need identification. Tupac, three Kobe
 copies and the red Jordan cover still need finish/printing confirmation. Duplicate submitted IDs
 were deduplicated; leading zeros are kept.
 Find > Raw comics now opens those 96 owner scans directly. Their focus labels and
@@ -59,8 +59,8 @@ were moved from the unassigned group; no duplicate copies were created. See the
 | Group | Recorded total | Valued | No value yet |
 | --- | ---: | ---: | ---: |
 | Comics | $14,332.92 | 188 | 509 |
-| Cards | $21,075.63 | 219 | 34 |
-| All | $35,408.55 | 407 | 543 |
+| Cards | $21,099.62 | 220 | 33 |
+| All | $35,432.54 | 408 | 542 |
 
 45 PSA Vault estimates have no source date. Printing/building does not update
 market prices. TAG's explicit value or owner estimate takes precedence; otherwise
@@ -146,8 +146,12 @@ and identified three more raw cover titles/artwork; see the
 Pristine/Gem Mint and cover-printing mismatches, which were excluded from prices.
 A morning September 23 pass identified five more raw covers and verified a $3.25
 Space Ghost trade-cover auction reference; see the [morning research](valuation-morning-2026-09-23.md).
-404 unconditioned raw references now total $2,494.06 and remain excluded
-from the recorded total. There are 114 graded values outstanding (80 comics, 34 cards),
+A midday September 23 pass identified four more raw covers, added a starred $23.99
+Quilava MINT+ 9.5 estimate and a separate $5.49 Wolverine raw reference; see the
+[midday research](valuation-midday-2026-09-23.md). Old Gem Mint 9.5 labels and
+Red Band cover mismatches were excluded after checking original photographs.
+405 unconditioned raw references now total $2,499.55 and remain excluded
+from the recorded total. There are 113 graded values outstanding (80 comics, 33 cards),
 plus 429 raw copies awaiting condition assessment. See the
 [pilot report](valuation-pilot-2026-09-13.md) for sources, dates and remaining gaps.
 Inventory growth and newly valued records affect totals; these are not investment returns.
@@ -171,7 +175,8 @@ Inventory growth and newly valued records affect totals; these are not investmen
   Case #3, cert 62837377 in PSA Vault and Shohei Ohtani cert 65424083 in Case #1.
   Five legacy graded comics also need front
   scans. Use Admin > Photos to attach an exact-copy front/back image.
-- Sixteen owner-scanned raw books in Bin #15 need edition identification.
+- Four owner-scanned raw books in Bin #15 still need title/edition identification;
+  five identified copies separately need finish/printing confirmation.
   Copies 15-003 and 15-004 are verified Spider-Man: Reign 2 #1 (2024), Skottie
   Young and Leinil Francis Yu variants. Copies 15-009 and 15-026 are verified NYX #1
   Artgerm and Miles Morales: Spider-Man #21 Skottie Young Big Marvels variants.
@@ -186,7 +191,9 @@ Inventory growth and newly valued records affect totals; these are not investmen
   Nine more (15-028, 029, 030, 039, 040, 041, 075, 078 and 081) were confirmed
   in the midday pass. Five more (15-074, 077, 092, 094 and 095) were confirmed
   in the afternoon pass. Three more (15-056, 061 and 093) were confirmed
-  in the early September 23 pass. All 96 still need condition assessment.
+  in the early September 23 pass. The morning pass identified 15-012, 013, 015,
+  017 and 068; the midday pass identified 15-069, 070, 071 and 082.
+  All 96 still need condition assessment.
 - Singularity now uses the owner's supplied *Cornfield Chase* MP3, with looping
   playback, a Music toggle, and uninterrupted audio when controls are hidden.
 
