@@ -1,0 +1,295 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "raw:15-056",
+      "revision": "2061819f5bb608e1db28a3cc3dfa830a94094a1efe9332de698c78a2bf914028",
+      "observations": [
+        {
+          "id": "early-2026-09-23-raw-15-056",
+          "copyId": "raw:15-056",
+          "basis": "raw-reference",
+          "value": 4.83,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-1-2023",
+            "asOf": "2026-08-09",
+            "retrievedAt": "2026-09-23T02:12:21.761Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Spider-Boy",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "Humberto Ramos Cover A - First Printing",
+              "upc": "75960620785500111",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-1-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-23T02:12:21.761Z",
+            "notes": "Individually inspected owned front Raw_15-056_FRONT.jpg. Ramos building-side artwork, movie banner and printed UPC 75960620785500111 match Spider-Boy #1 Cover A. Retailer URL is misleadingly named #2, but its rendered heading and UPC are #1. GCD series 205262 barcode catalog also confirms first printing. Printed artist mark is part of the cover, not a separately authenticated autograph. Condition remains unassessed. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. PriceCharting-reported sale rows; completed payment was not independently verified. Seller condition claims describe comparison copies, not the owned book. Median is an edition reference, excluded from accepted totals until owned condition is assessed. Shipping is excluded.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:256321747636",
+                "sourceUrl": "https://www.ebay.com/itm/256321747636",
+                "soldAt": "2026-08-09",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:305249622166",
+                "sourceUrl": "https://www.ebay.com/itm/305249622166",
+                "soldAt": "2026-07-25",
+                "value": 7.79,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:205930293245",
+                "sourceUrl": "https://www.ebay.com/itm/205930293245",
+                "soldAt": "2026-07-18",
+                "value": 4.27,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:116852998519",
+                "sourceUrl": "https://www.ebay.com/itm/116852998519",
+                "soldAt": "2026-04-17",
+                "value": 4.67,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:187976398001",
+                "sourceUrl": "https://www.ebay.com/itm/187976398001",
+                "soldAt": "2026-02-25",
+                "value": 4.04,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:127685745752",
+                "sourceUrl": "https://www.ebay.com/itm/127685745752",
+                "soldAt": "2026-02-22",
+                "value": 0.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:175890729540",
+                "sourceUrl": "https://www.ebay.com/itm/175890729540",
+                "soldAt": "2026-02-06",
+                "value": 7.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:225776324047",
+                "sourceUrl": "https://www.ebay.com/itm/225776324047",
+                "soldAt": "2026-01-31",
+                "value": 5.95,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:205836444694",
+                "sourceUrl": "https://www.ebay.com/itm/205836444694",
+                "soldAt": "2026-01-20",
+                "value": 3.61,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:256553224544",
+                "sourceUrl": "https://www.ebay.com/itm/256553224544",
+                "soldAt": "2026-01-20",
+                "value": 5.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. PriceCharting-reported sale rows; completed payment was not independently verified. Seller condition claims describe comparison copies, not the owned book. Median is an edition reference, excluded from accepted totals until owned condition is assessed. Shipping is excluded."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-061",
+      "revision": "2061819f5bb608e1db28a3cc3dfa830a94094a1efe9332de698c78a2bf914028",
+      "observations": [
+        {
+          "id": "early-2026-09-23-raw-15-061",
+          "copyId": "raw:15-061",
+          "basis": "raw-reference",
+          "value": 4.38,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting",
+            "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-annual/spider-gwen-annual-1-2023",
+            "asOf": "2026-07-26",
+            "retrievedAt": "2026-09-23T02:12:21.761Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Spider-Gwen Annual",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "R1c0 Cover A - First Printing",
+              "upc": "75960620734300111",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-annual/spider-gwen-annual-1-2023",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-23T02:12:21.761Z",
+            "notes": "Individually inspected owned front Raw_15-061_FRONT.jpg. Contest of Chaos, Gwen versus White Fox artwork and printed UPC 75960620734300111 match GCD and PriceCharting product 5768179. R1c0 artist mark is printed artwork. Condition remains unassessed. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. PriceCharting-reported sale rows; completed payment was not independently verified. Seller condition claims describe comparison copies, not the owned book. Median is an edition reference, excluded from accepted totals until owned condition is assessed. Shipping is excluded.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:257403304959",
+                "sourceUrl": "https://www.ebay.com/itm/257403304959",
+                "soldAt": "2026-07-26",
+                "value": 4.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:236900628651",
+                "sourceUrl": "https://www.ebay.com/itm/236900628651",
+                "soldAt": "2026-07-04",
+                "value": 3,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:335832205558",
+                "sourceUrl": "https://www.ebay.com/itm/335832205558",
+                "soldAt": "2026-02-16",
+                "value": 4.77,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:389267421547",
+                "sourceUrl": "https://www.ebay.com/itm/389267421547",
+                "soldAt": "2025-11-29",
+                "value": 3.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. PriceCharting-reported sale rows; completed payment was not independently verified. Seller condition claims describe comparison copies, not the owned book. Median is an edition reference, excluded from accepted totals until owned condition is assessed. Shipping is excluded."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:4742106011",
+      "revision": "20dc8ef3aa940dffbce2d43c13823ed84e4c5167dddfbe246e4d9f9464c9929a",
+      "observations": [
+        {
+          "id": "early-2026-09-23-Authority-4742106011",
+          "copyId": "Authority:4742106011",
+          "basis": "raw-reference",
+          "value": 5.99,
+          "currency": "USD",
+          "source": {
+            "name": "eBay sold-search results",
+            "url": "https://www.ebay.com/sch/i.html?_nkw=Ultimate+Wolverine+1+Cappuccio+-virgin+-2nd+-3rd+-CGC&_sacat=0&_from=R40&_trksid=p2334524.m570.l1313&rt=nc&_odkw=Darkwing+Duck+1+Parsons+CGC&_osacat=0&LH_Sold=1",
+            "asOf": "2026-09-11",
+            "retrievedAt": "2026-09-23T02:12:21.761Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Ultimate Wolverine",
+              "issue": "1",
+              "issueYear": "2025",
+              "publisher": "Marvel Comics",
+              "variant": "",
+              "upc": "75960621050300111",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "A",
+              "volume": "1",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.ebay.com/sch/i.html?_nkw=Ultimate+Wolverine+1+Cappuccio+-virgin+-2nd+-3rd+-CGC&_sacat=0&_from=R40&_trksid=p2334524.m570.l1313&rt=nc&_odkw=Darkwing+Duck+1+Parsons+CGC&_osacat=0&LH_Sold=1",
+            "reviewedBy": "Owner-authorized source review",
+            "reviewedAt": "2026-09-23T02:12:21.761Z",
+            "notes": "Existing Authority record identifies Ultimate Wolverine #1 (2025), Cappuccio Cover A, UPC 75960621050300111. Live eBay sold results explicitly identify Cappuccio or Cover A. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three fixed-price amounts reported by eBay sold search, not independently verified payment records. Original 405477684833 is out of stock with 33 sold at displayed $6.99; 388639767773 has one sold and current price $5.99. Each listing is counted once, not once per cumulative sold unit. Original 820011842608 redirects to product 6074496254 with matching UPC; its $2.50 and sale date are supported by the captured sold-search result only. Comparison copies range VF/NM to NM; owned condition remains unassessed. Shipping excluded. Best Offer, range and multi-book results excluded.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:405477684833",
+                "sourceUrl": "https://www.ebay.com/itm/405477684833",
+                "soldAt": "2026-09-11",
+                "value": 6.99,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:820011842608",
+                "sourceUrl": "https://www.ebay.com/itm/820011842608",
+                "soldAt": "2026-08-23",
+                "value": 2.5,
+                "currency": "USD"
+              },
+              {
+                "transactionId": "ebay:388639767773",
+                "sourceUrl": "https://www.ebay.com/itm/388639767773",
+                "soldAt": "2026-08-18",
+                "value": 5.99,
+                "currency": "USD"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three fixed-price amounts reported by eBay sold search, not independently verified payment records. Original 405477684833 is out of stock with 33 sold at displayed $6.99; 388639767773 has one sold and current price $5.99. Each listing is counted once, not once per cumulative sold unit. Original 820011842608 redirects to product 6074496254 with matching UPC; its $2.50 and sale date are supported by the captured sold-search result only. Comparison copies range VF/NM to NM; owned condition remains unassessed. Shipping excluded. Best Offer, range and multi-book results excluded."
+        }
+      ]
+    }
+  ]
+}

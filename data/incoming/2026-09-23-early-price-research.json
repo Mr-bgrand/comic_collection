@@ -1,0 +1,872 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-09-23T02:12:21.280Z",
+  "coverage": "Live PriceCharting raw tables, direct eBay sold searches and original listings; owned scans compared with dealer/GCD catalog identities. Graded checks included ComicBookRealm, Heritage archives, Mercari, HipComic and MyComicShop search results. No newly verified paid GoCollect value. No new card-price observation in this batch.",
+  "sourceRowAudit": {
+    "priceChartingTables": 2,
+    "tableRows": 60,
+    "selectedRows": 14,
+    "excludedRows": 46,
+    "normalizedBrowserCaptureLength": 492,
+    "fnv1a": 3962699961,
+    "directEbaySelectedRows": 3,
+    "independentPaymentVerification": false
+  },
+  "rawReferences": [
+    {
+      "copyIds": [
+        "raw:15-056"
+      ],
+      "upc": "75960620785500111",
+      "productId": "5699369",
+      "sourceName": "PriceCharting",
+      "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-1-2023",
+      "identityNote": "Individually inspected owned front Raw_15-056_FRONT.jpg. Ramos building-side artwork, movie banner and printed UPC 75960620785500111 match Spider-Boy #1 Cover A. Retailer URL is misleadingly named #2, but its rendered heading and UPC are #1. GCD series 205262 barcode catalog also confirms first printing. Printed artist mark is part of the cover, not a separately authenticated autograph. Condition remains unassessed.",
+      "caveat": "PriceCharting-reported sale rows; completed payment was not independently verified. Seller condition claims describe comparison copies, not the owned book. Median is an edition reference, excluded from accepted totals until owned condition is assessed. Shipping is excluded.",
+      "sales": [
+        [
+          "256321747636",
+          "2026-08-09",
+          4.99
+        ],
+        [
+          "305249622166",
+          "2026-07-25",
+          7.79
+        ],
+        [
+          "205930293245",
+          "2026-07-18",
+          4.27
+        ],
+        [
+          "116852998519",
+          "2026-04-17",
+          4.67
+        ],
+        [
+          "187976398001",
+          "2026-02-25",
+          4.04
+        ],
+        [
+          "127685745752",
+          "2026-02-22",
+          0.99
+        ],
+        [
+          "175890729540",
+          "2026-02-06",
+          7.99
+        ],
+        [
+          "225776324047",
+          "2026-01-31",
+          5.95
+        ],
+        [
+          "205836444694",
+          "2026-01-20",
+          3.61
+        ],
+        [
+          "256553224544",
+          "2026-01-20",
+          5.99
+        ]
+      ],
+      "excluded": [
+        {
+          "transactionId": "ebay:326740250432",
+          "url": "https://www.ebay.com/itm/326740250432",
+          "reason": "Different cover, finish or printing; not the owned Ramos first-print Cover A."
+        },
+        {
+          "transactionId": "ebay:205715528698",
+          "url": "https://www.ebay.com/itm/205715528698",
+          "reason": "Different cover, finish or printing; not the owned Ramos first-print Cover A."
+        },
+        {
+          "transactionId": "ebay:236048373128",
+          "url": "https://www.ebay.com/itm/236048373128",
+          "reason": "Different cover, finish or printing; not the owned Ramos first-print Cover A."
+        },
+        {
+          "transactionId": "ebay:256321747637",
+          "url": "https://www.ebay.com/itm/256321747637",
+          "reason": "Different cover, finish or printing; not the owned Ramos first-print Cover A."
+        },
+        {
+          "transactionId": "ebay:335227006098",
+          "url": "https://www.ebay.com/itm/335227006098",
+          "reason": "Different cover, finish or printing; not the owned Ramos first-print Cover A."
+        },
+        {
+          "transactionId": "ebay:355176546792",
+          "url": "https://www.ebay.com/itm/355176546792",
+          "reason": "Different cover, finish or printing; not the owned Ramos first-print Cover A."
+        },
+        {
+          "transactionId": "ebay:358325572401",
+          "url": "https://www.ebay.com/itm/358325572401",
+          "reason": "Different cover, finish or printing; not the owned Ramos first-print Cover A."
+        },
+        {
+          "transactionId": "ebay:117071430541",
+          "url": "https://www.ebay.com/itm/117071430541",
+          "reason": "Different cover, finish or printing; not the owned Ramos first-print Cover A."
+        },
+        {
+          "transactionId": "ebay:358199510488",
+          "url": "https://www.ebay.com/itm/358199510488",
+          "reason": "Different cover, finish or printing; not the owned Ramos first-print Cover A."
+        },
+        {
+          "transactionId": "ebay:406631835505",
+          "url": "https://www.ebay.com/itm/406631835505",
+          "reason": "Different cover, finish or printing; not the owned Ramos first-print Cover A."
+        },
+        {
+          "transactionId": "ebay:257320557062",
+          "url": "https://www.ebay.com/itm/257320557062",
+          "reason": "Different cover, finish or printing; not the owned Ramos first-print Cover A."
+        },
+        {
+          "transactionId": "ebay:187304650860",
+          "url": "https://www.ebay.com/itm/187304650860",
+          "reason": "No-ads/no-barcode edition; owned copy has the full printed barcode."
+        },
+        {
+          "transactionId": "ebay:187949117844",
+          "url": "https://www.ebay.com/itm/187949117844",
+          "reason": "No-ads/no-barcode edition; owned copy has the full printed barcode."
+        },
+        {
+          "transactionId": "ebay:800304652365",
+          "url": "https://www.ebay.com/itm/800304652365",
+          "reason": "Generic title does not independently establish the exact Ramos Cover A edition; conservatively excluded."
+        },
+        {
+          "transactionId": "ebay:117218275689",
+          "url": "https://www.ebay.com/itm/117218275689",
+          "reason": "Generic title does not independently establish the exact Ramos Cover A edition; conservatively excluded."
+        },
+        {
+          "transactionId": "ebay:374933264369",
+          "url": "https://www.ebay.com/itm/374933264369",
+          "reason": "Generic title does not independently establish the exact Ramos Cover A edition; conservatively excluded."
+        },
+        {
+          "transactionId": "ebay:188256796547",
+          "url": "https://www.ebay.com/itm/188256796547",
+          "reason": "Generic title does not independently establish the exact Ramos Cover A edition; conservatively excluded."
+        },
+        {
+          "transactionId": "ebay:318030584846",
+          "url": "https://www.ebay.com/itm/318030584846",
+          "reason": "Generic title does not independently establish the exact Ramos Cover A edition; conservatively excluded."
+        },
+        {
+          "transactionId": "ebay:305345940326",
+          "url": "https://www.ebay.com/itm/305345940326",
+          "reason": "Generic title does not independently establish the exact Ramos Cover A edition; conservatively excluded."
+        },
+        {
+          "transactionId": "ebay:177873443657",
+          "url": "https://www.ebay.com/itm/177873443657",
+          "reason": "Generic title does not independently establish the exact Ramos Cover A edition; conservatively excluded."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "raw:15-061"
+      ],
+      "upc": "75960620734300111",
+      "productId": "5768179",
+      "sourceName": "PriceCharting",
+      "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-annual/spider-gwen-annual-1-2023",
+      "identityNote": "Individually inspected owned front Raw_15-061_FRONT.jpg. Contest of Chaos, Gwen versus White Fox artwork and printed UPC 75960620734300111 match GCD and PriceCharting product 5768179. R1c0 artist mark is printed artwork. Condition remains unassessed.",
+      "caveat": "PriceCharting-reported sale rows; completed payment was not independently verified. Seller condition claims describe comparison copies, not the owned book. Median is an edition reference, excluded from accepted totals until owned condition is assessed. Shipping is excluded.",
+      "sales": [
+        [
+          "257403304959",
+          "2026-07-26",
+          4.99
+        ],
+        [
+          "236900628651",
+          "2026-07-04",
+          3
+        ],
+        [
+          "335832205558",
+          "2026-02-16",
+          4.77
+        ],
+        [
+          "389267421547",
+          "2025-11-29",
+          3.99
+        ]
+      ],
+      "excluded": [
+        {
+          "transactionId": "ebay:335832205602",
+          "url": "https://www.ebay.com/itm/335832205602",
+          "reason": "Different artist/finish, convention edition or second printing."
+        },
+        {
+          "transactionId": "ebay:358152507735",
+          "url": "https://www.ebay.com/itm/358152507735",
+          "reason": "Different artist/finish, convention edition or second printing."
+        },
+        {
+          "transactionId": "ebay:198091514950",
+          "url": "https://www.ebay.com/itm/198091514950",
+          "reason": "Different artist/finish, convention edition or second printing."
+        },
+        {
+          "transactionId": "ebay:358065593291",
+          "url": "https://www.ebay.com/itm/358065593291",
+          "reason": "Different artist/finish, convention edition or second printing."
+        },
+        {
+          "transactionId": "ebay:147075577923",
+          "url": "https://www.ebay.com/itm/147075577923",
+          "reason": "Different artist/finish, convention edition or second printing."
+        },
+        {
+          "transactionId": "ebay:257069971458",
+          "url": "https://www.ebay.com/itm/257069971458",
+          "reason": "Different artist/finish, convention edition or second printing."
+        },
+        {
+          "transactionId": "ebay:257187381468",
+          "url": "https://www.ebay.com/itm/257187381468",
+          "reason": "Different artist/finish, convention edition or second printing."
+        },
+        {
+          "transactionId": "ebay:389004774139",
+          "url": "https://www.ebay.com/itm/389004774139",
+          "reason": "Different artist/finish, convention edition or second printing."
+        },
+        {
+          "transactionId": "ebay:387370695693",
+          "url": "https://www.ebay.com/itm/387370695693",
+          "reason": "Different artist/finish, convention edition or second printing."
+        },
+        {
+          "transactionId": "ebay:398392195773",
+          "url": "https://www.ebay.com/itm/398392195773",
+          "reason": "Generic or ambiguous variant description does not independently establish owned R1c0 Cover A; conservatively excluded."
+        },
+        {
+          "transactionId": "ebay:377474063830",
+          "url": "https://www.ebay.com/itm/377474063830",
+          "reason": "Generic or ambiguous variant description does not independently establish owned R1c0 Cover A; conservatively excluded."
+        },
+        {
+          "transactionId": "ebay:404512003008",
+          "url": "https://www.ebay.com/itm/404512003008",
+          "reason": "Generic or ambiguous variant description does not independently establish owned R1c0 Cover A; conservatively excluded."
+        },
+        {
+          "transactionId": "ebay:197830874552",
+          "url": "https://www.ebay.com/itm/197830874552",
+          "reason": "Generic or ambiguous variant description does not independently establish owned R1c0 Cover A; conservatively excluded."
+        },
+        {
+          "transactionId": "ebay:404512000402",
+          "url": "https://www.ebay.com/itm/404512000402",
+          "reason": "Generic or ambiguous variant description does not independently establish owned R1c0 Cover A; conservatively excluded."
+        },
+        {
+          "transactionId": "ebay:157968482792",
+          "url": "https://www.ebay.com/itm/157968482792",
+          "reason": "Generic or ambiguous variant description does not independently establish owned R1c0 Cover A; conservatively excluded."
+        },
+        {
+          "transactionId": "ebay:267669937058",
+          "url": "https://www.ebay.com/itm/267669937058",
+          "reason": "Generic or ambiguous variant description does not independently establish owned R1c0 Cover A; conservatively excluded."
+        },
+        {
+          "transactionId": "ebay:126080365400",
+          "url": "https://www.ebay.com/itm/126080365400",
+          "reason": "Generic or ambiguous variant description does not independently establish owned R1c0 Cover A; conservatively excluded."
+        },
+        {
+          "transactionId": "ebay:145341936138",
+          "url": "https://www.ebay.com/itm/145341936138",
+          "reason": "Generic or ambiguous variant description does not independently establish owned R1c0 Cover A; conservatively excluded."
+        },
+        {
+          "transactionId": "ebay:389559832896",
+          "url": "https://www.ebay.com/itm/389559832896",
+          "reason": "Generic or ambiguous variant description does not independently establish owned R1c0 Cover A; conservatively excluded."
+        },
+        {
+          "transactionId": "ebay:177906586803",
+          "url": "https://www.ebay.com/itm/177906586803",
+          "reason": "Generic or ambiguous variant description does not independently establish owned R1c0 Cover A; conservatively excluded."
+        },
+        {
+          "transactionId": "ebay:204947836507",
+          "url": "https://www.ebay.com/itm/204947836507",
+          "reason": "Generic or ambiguous variant description does not independently establish owned R1c0 Cover A; conservatively excluded."
+        },
+        {
+          "transactionId": "ebay:116937029908",
+          "url": "https://www.ebay.com/itm/116937029908",
+          "reason": "Generic or ambiguous variant description does not independently establish owned R1c0 Cover A; conservatively excluded."
+        },
+        {
+          "transactionId": "ebay:326581450905",
+          "url": "https://www.ebay.com/itm/326581450905",
+          "reason": "Generic or ambiguous variant description does not independently establish owned R1c0 Cover A; conservatively excluded."
+        },
+        {
+          "transactionId": "ebay:315776876456",
+          "url": "https://www.ebay.com/itm/315776876456",
+          "reason": "Generic or ambiguous variant description does not independently establish owned R1c0 Cover A; conservatively excluded."
+        },
+        {
+          "transactionId": "ebay:116480931997",
+          "url": "https://www.ebay.com/itm/116480931997",
+          "reason": "Generic or ambiguous variant description does not independently establish owned R1c0 Cover A; conservatively excluded."
+        },
+        {
+          "transactionId": "ebay:187685752102",
+          "url": "https://www.ebay.com/itm/187685752102",
+          "reason": "Generic or ambiguous variant description does not independently establish owned R1c0 Cover A; conservatively excluded."
+        }
+      ]
+    },
+    {
+      "copyIds": [
+        "Authority:4742106011"
+      ],
+      "upc": "75960621050300111",
+      "sourceName": "eBay sold-search results",
+      "url": "https://www.ebay.com/sch/i.html?_nkw=Ultimate+Wolverine+1+Cappuccio+-virgin+-2nd+-3rd+-CGC&_sacat=0&_from=R40&_trksid=p2334524.m570.l1313&rt=nc&_odkw=Darkwing+Duck+1+Parsons+CGC&_osacat=0&LH_Sold=1",
+      "identityNote": "Existing Authority record identifies Ultimate Wolverine #1 (2025), Cappuccio Cover A, UPC 75960621050300111. Live eBay sold results explicitly identify Cappuccio or Cover A.",
+      "caveat": "Three fixed-price amounts reported by eBay sold search, not independently verified payment records. Original 405477684833 is out of stock with 33 sold at displayed $6.99; 388639767773 has one sold and current price $5.99. Each listing is counted once, not once per cumulative sold unit. Original 820011842608 redirects to product 6074496254 with matching UPC; its $2.50 and sale date are supported by the captured sold-search result only. Comparison copies range VF/NM to NM; owned condition remains unassessed. Shipping excluded. Best Offer, range and multi-book results excluded.",
+      "sales": [
+        [
+          "405477684833",
+          "2026-09-11",
+          6.99
+        ],
+        [
+          "820011842608",
+          "2026-08-23",
+          2.5
+        ],
+        [
+          "388639767773",
+          "2026-08-18",
+          5.99
+        ]
+      ],
+      "excluded": [
+        {
+          "transactionId": "ebay:318792393934",
+          "url": "https://www.ebay.com/itm/318792393934",
+          "reason": "Best Offer shown; actual accepted amount not verified."
+        },
+        {
+          "transactionId": "ebay:327186766491",
+          "url": "https://www.ebay.com/itm/327186766491",
+          "reason": "Best Offer shown; actual accepted amount not verified."
+        },
+        {
+          "transactionId": "ebay:256928099260",
+          "url": "https://www.ebay.com/itm/256928099260",
+          "reason": "Best Offer shown; actual accepted amount not verified."
+        },
+        {
+          "transactionId": "ebay:276817657952",
+          "url": "https://www.ebay.com/itm/276817657952",
+          "reason": "Multiple variations with a price range; no single exact-copy amount."
+        },
+        {
+          "transactionId": "ebay:365999687780",
+          "url": "https://www.ebay.com/itm/365999687780",
+          "reason": "Different issue or issue-selection listing."
+        },
+        {
+          "transactionId": "ebay:366145874254",
+          "url": "https://www.ebay.com/itm/366145874254",
+          "reason": "Different issue or issue-selection listing."
+        },
+        {
+          "transactionId": "ebay:376433307046",
+          "url": "https://www.ebay.com/itm/376433307046",
+          "reason": "Different issue or issue-selection listing."
+        },
+        {
+          "transactionId": "ebay:236902403660",
+          "url": "https://www.ebay.com/itm/236902403660",
+          "reason": "Multi-book lot; individual issue price not established."
+        },
+        {
+          "transactionId": "ebay:158061076935",
+          "url": "https://www.ebay.com/itm/158061076935",
+          "reason": "Multi-book lot; individual issue price not established."
+        }
+      ],
+      "additionalExclusions": [
+        "Ultimate Universe: One Year In #1 is a different title.",
+        "A UK #1-4 lot has no individual issue price."
+      ]
+    }
+  ],
+  "gradedSearches": [
+    {
+      "copyId": "CGC:2733544003",
+      "identity": "Strange Academy #1 Young Variant, SS 9.8, signed Humberto Ramos",
+      "finding": "Exact Ramos-signed Mercari item remains an active $250 offer. Heritage archive includes Young-only signatures and a different SkottieYoung.com edition with two signatures; these are not the owned signature/edition. No matching completed sale accepted.",
+      "sources": [
+        "https://www.mercari.com/us/item/m14132602483/",
+        "https://comics.ha.com/c/search/results.zx?archive_state=5327&dept=1938&layout=gallery&mode=archive&page=72~1&sb=3&si=1&sold_status=1526&term=Skottie+Young"
+      ]
+    },
+    {
+      "copyId": "CGC:4245413009",
+      "identity": "Darkwing Duck #1 Parsons Virgin, Universal 9.8",
+      "finding": "Live PriceCharting product 12669848 has two raw sales and no graded sales. Direct eBay sold search returned zero exact matches; broader fallback covers and 1991 issues were excluded. Sold-out retail offers do not establish a transaction.",
+      "sources": [
+        "https://www.pricecharting.com/game/comic-books-darkwing-duck/darkwing-duck-parsons-virgin-1-2023",
+        "https://www.ebay.com/sch/i.html?_nkw=Darkwing+Duck+1+Parsons+CGC&_sacat=0&_from=R40&rt=nc&LH_Sold=1"
+      ]
+    },
+    {
+      "copyId": "CGC:4273634005",
+      "identity": "Darkwing Duck #1 Parsons trade dress, Universal 9.8",
+      "finding": "Same exact eBay sold search returned no matching Parsons graded listing. Virgin raw records are not a trade-dress graded comparison.",
+      "sources": [
+        "https://www.ebay.com/sch/i.html?_nkw=Darkwing+Duck+1+Parsons+CGC&_sacat=0&_from=R40&rt=nc&LH_Sold=1"
+      ]
+    },
+    {
+      "copyId": "CGC:4350047002",
+      "identity": "Grim #12 Trinity, Universal 9.8",
+      "finding": "ComicBookRealm exact-edition table has zero recorded sales at every grade. A Zoe Lacchei-signed eBay offer uses a different label/signature; excluded.",
+      "sources": [
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/322594/boom-studios-grim-12trinity-trinity-comics-edition",
+        "https://www.ebay.com/itm/197092493799"
+      ]
+    },
+    {
+      "copyId": "CGC:4357017005",
+      "identity": "Mandalorian Season 2 #5 Trinity Virgin B, Universal 9.8",
+      "finding": "HipComic closed listing explicitly says it has not been sold; it is also SS Adi Granov, unlike the owned Universal label. No amount imported.",
+      "sources": [
+        "https://www.hipcomic.com/listing/star-wars-2023-5-cgc-98-ss-signed-adi-granov-trinty-comics-virgin-edition/14346027"
+      ]
+    },
+    {
+      "copyId": "CGC:4381117003",
+      "identity": "w0rldtr33 #5 Comic Corner, Universal 9.8",
+      "finding": "Exact searches led to #1 Comic Corner Lipwei and registry/catalog pages, not a verified #5 same-grade transaction.",
+      "sources": [
+        "https://www.mycomicshop.com/search?AffID=1003187P01&TID=58267103"
+      ]
+    },
+    {
+      "copyId": "CGC:2765925001",
+      "identity": "TMNT / Usagi Yojimbo: WhereWhen #2 SS 9.8, signed Kevin Eastman",
+      "finding": "Searches returned #1 Eastman 1:100, double signatures and #2 raw copies. None establishes the owned #2 single-signature grade-9.8 value.",
+      "sources": [
+        "https://www.mycomicshop.com/search?TID=58106353"
+      ]
+    }
+  ],
+  "additionalRawChecks": [
+    {
+      "copyId": "raw:15-093",
+      "finding": "Identity confirmed as Moon Man #2 Ivan Tao OBJ The Catch virgin from owned cover and original listing photograph. Search result 358173554054 reports August 16 at $16.99, but original listing says ended by seller August 23 because unavailable. Listing 176404709294 shows six sold and $19.95/Best Offer, without actual accepted prices. Price remains unresolved.",
+      "sources": [
+        "https://www.ebay.com/itm/358173554054",
+        "https://www.ebay.com/itm/176404709294"
+      ]
+    },
+    {
+      "copyId": "Authority:1251463037",
+      "finding": "Wolverine: Revenge #2 standard Cover A UPC 75960620995800211: live PriceCharting product 7487738 has 29 mixed rows, largely Red Band/variants. Primary listing 196580542731 was seller-ended as unavailable despite appearing in reported sales; 137524103976 and 405329674031 redirect to a product catalog, and 156431912337 could not be verified. No reference imported.",
+      "sources": [
+        "https://www.pricecharting.com/game/comic-books-wolverine-revenge/wolverine-revenge-2-2024",
+        "https://www.ebay.com/itm/196580542731",
+        "https://www.ebay.com/itm/137524103976",
+        "https://www.ebay.com/itm/405329674031",
+        "https://www.ebay.com/itm/156431912337"
+      ]
+    },
+    {
+      "copyId": "Authority:4845360792",
+      "finding": "Immortal Thor #15 Villalobos trade dress UPC 75960620664301521: available PriceCharting entry is virgin, not owned finish. Direct eBay sold search excluding virgin/CGC returned zero exact matches. Retailer asking price not imported.",
+      "sources": [
+        "https://www.ebay.com/sch/i.html?_nkw=Immortal+Thor+15+Villalobos+-virgin+-CGC&_sacat=0&_from=R40&rt=nc&LH_Sold=1",
+        "https://www.comics.org/issue/2666976/"
+      ]
+    },
+    {
+      "copyId": "raw:15-069",
+      "finding": "Individually inspected front. Moon Man #2 Marco Locati Cover A remains a candidate; available newsstand-labeled table has no sales. Identity not yet saved."
+    },
+    {
+      "copyId": "raw:15-070",
+      "finding": "Individually inspected front with helmet profile and printed Ivan Tao mark. Exact issue and finish remain unresolved."
+    }
+  ],
+  "remainingRaw": [
+    {
+      "copyId": "Authority:1327529703",
+      "title": "Superman",
+      "issue": "6",
+      "variant": "Besch Creator Card Stock Variant",
+      "upc": "76194137950000661",
+      "images": {
+        "front": "Authority_1327529703_FRONT.jpg",
+        "back": "Authority_1327529703_BACK.jpg"
+      }
+    },
+    {
+      "copyId": "Authority:1251463037",
+      "title": "Wolverine: Revenge",
+      "issue": "2",
+      "variant": null,
+      "upc": "75960620995800211",
+      "images": {
+        "front": "Authority_1251463037_FRONT.jpg",
+        "back": "Authority_1251463037_BACK.jpg"
+      }
+    },
+    {
+      "copyId": "Authority:7633260283",
+      "title": "Detective Comics",
+      "issue": "400",
+      "variant": "Blank Facsimile Edition",
+      "upc": "76194138450400121",
+      "images": {
+        "front": "Authority_7633260283_FRONT.jpg",
+        "back": "Authority_7633260283_BACK.jpg"
+      }
+    },
+    {
+      "copyId": "Authority:4845360792",
+      "title": "The Immortal Thor",
+      "issue": "15",
+      "variant": "Villalobos Variant",
+      "upc": "75960620664301521",
+      "images": {
+        "front": "Authority_4845360792_FRONT.jpg",
+        "back": "Authority_4845360792_BACK.jpg"
+      }
+    },
+    {
+      "copyId": "Authority:4841253705",
+      "title": "Wolverine",
+      "issue": "1",
+      "variant": "Adamantium Head \"V\" Variant",
+      "upc": "75960620841800118",
+      "images": {
+        "front": "Authority_4841253705_FRONT.jpg",
+        "back": "Authority_4841253705_BACK.jpg"
+      }
+    },
+    {
+      "copyId": "Authority:8796605910",
+      "title": "From The DC Vault: The Sandman",
+      "issue": "19",
+      "variant": "Remastered Variant",
+      "upc": "76194138359000111",
+      "images": {
+        "front": "Authority_8796605910_FRONT.jpg",
+        "back": "Authority_8796605910_BACK.jpg"
+      }
+    },
+    {
+      "copyId": "Authority:7861079670",
+      "title": "Detective Comics",
+      "issue": "27",
+      "variant": "Foil Facsimile Variant",
+      "upc": "76194138562400131",
+      "images": {
+        "front": "Authority_7861079670_FRONT.jpg",
+        "back": "Authority_7861079670_BACK.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-002",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-002_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-012",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-012_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-013",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-013_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-014",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-014_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-015",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-015_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-059",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-059_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-060",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-060_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-068",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-068_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-069",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-069_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-071",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-071_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-017",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-017_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-082",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-082_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-018",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-018_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-083",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-083_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-025",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-025_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-070",
+      "title": null,
+      "issue": null,
+      "variant": null,
+      "images": {
+        "front": "Raw_15-070_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "raw:15-093",
+      "title": "Moon Man",
+      "issue": "2",
+      "variant": "Ivan Tao Rabbit Comics OBJ The Catch Virgin Variant",
+      "images": {
+        "front": "Raw_15-093_FRONT.jpg"
+      }
+    },
+    {
+      "copyId": "Authority:8364744505",
+      "title": "Detective Comics",
+      "issue": "27",
+      "variant": "Blank Facsimile Edition",
+      "upc": "76194138562400121",
+      "images": {
+        "front": "Authority_8364744505_FRONT.jpg",
+        "back": "Authority_8364744505_BACK.jpg"
+      }
+    },
+    {
+      "copyId": "Authority:0152908938",
+      "title": "Rogue & Gambit",
+      "issue": "1",
+      "variant": "Alex Ross Mystique Timeless Virgin Variant",
+      "upc": "75960620455700151",
+      "images": {
+        "front": "Authority_0152908938_FRONT.jpg",
+        "back": "Authority_0152908938_BACK.jpg"
+      }
+    }
+  ],
+  "result": {
+    "baseline": {
+      "items": 933,
+      "valued": 397,
+      "total": 34552.27,
+      "missing": 536,
+      "starred": 324,
+      "starredTotal": 29862.39,
+      "rawMissing": 429,
+      "rawReferences": 400,
+      "rawReferenceTotal": 2475.61
+    },
+    "after": {
+      "items": 933,
+      "valued": 397,
+      "total": 34552.27,
+      "missing": 536,
+      "starred": 324,
+      "starredTotal": 29862.39,
+      "rawMissing": 429,
+      "rawReferences": 403,
+      "rawReferenceTotal": 2490.81
+    },
+    "addedGraded": 0,
+    "addedRawReferences": 3,
+    "addedValue": 0,
+    "comics": {
+      "items": 696,
+      "valued": 187,
+      "total": 14116.92,
+      "missing": 509,
+      "starred": 143,
+      "starredTotal": 10419.92,
+      "rawMissing": 429,
+      "rawReferences": 403,
+      "rawReferenceTotal": 2490.81
+    },
+    "cards": {
+      "items": 237,
+      "valued": 210,
+      "total": 20435.35,
+      "missing": 27,
+      "starred": 181,
+      "starredTotal": 19442.47,
+      "rawMissing": 0,
+      "rawReferences": 0,
+      "rawReferenceTotal": 0
+    },
+    "bin10": {
+      "items": 23,
+      "valued": 13,
+      "total": 1303.68,
+      "missing": 10,
+      "starred": 13,
+      "starredTotal": 1303.68,
+      "rawMissing": 0,
+      "rawReferences": 0,
+      "rawReferenceTotal": 0
+    },
+    "addedRecords": [
+      {
+        "copyId": "raw:15-056",
+        "container": "Comic Bin #15 (Softslabs)",
+        "item": "Spider-Boy #1",
+        "variant": "Humberto Ramos Cover A - First Printing",
+        "grade": null,
+        "basis": "raw-reference",
+        "value": 4.83,
+        "star": true,
+        "url": "https://www.pricecharting.com/game/comic-books-spider-boy/spider-boy-1-2023"
+      },
+      {
+        "copyId": "raw:15-061",
+        "container": "Comic Bin #15 (Softslabs)",
+        "item": "Spider-Gwen Annual #1",
+        "variant": "R1c0 Cover A - First Printing",
+        "grade": null,
+        "basis": "raw-reference",
+        "value": 4.38,
+        "star": true,
+        "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-annual/spider-gwen-annual-1-2023"
+      },
+      {
+        "copyId": "Authority:4742106011",
+        "container": "Comic Bin #14 (Softslabs)",
+        "item": "Ultimate Wolverine #1",
+        "variant": null,
+        "grade": null,
+        "basis": "raw-reference",
+        "value": 5.99,
+        "star": true,
+        "url": "https://www.ebay.com/sch/i.html?_nkw=Ultimate+Wolverine+1+Cappuccio+-virgin+-2nd+-3rd+-CGC&_sacat=0&_from=R40&_trksid=p2334524.m570.l1313&rt=nc&_odkw=Darkwing+Duck+1+Parsons+CGC&_osacat=0&LH_Sold=1"
+      }
+    ]
+  }
+}

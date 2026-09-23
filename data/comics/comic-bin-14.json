@@ -2176,7 +2176,83 @@
         "capturedAt": "2026-09-07T23:50:45.549Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "early-2026-09-23-Authority-4742106011",
+            "copyId": "Authority:4742106011",
+            "basis": "raw-reference",
+            "value": 5.99,
+            "currency": "USD",
+            "source": {
+              "name": "eBay sold-search results",
+              "url": "https://www.ebay.com/sch/i.html?_nkw=Ultimate+Wolverine+1+Cappuccio+-virgin+-2nd+-3rd+-CGC&_sacat=0&_from=R40&_trksid=p2334524.m570.l1313&rt=nc&_odkw=Darkwing+Duck+1+Parsons+CGC&_osacat=0&LH_Sold=1",
+              "asOf": "2026-09-11",
+              "retrievedAt": "2026-09-23T02:12:21.761Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Ultimate Wolverine",
+                "issue": "1",
+                "issueYear": "2025",
+                "publisher": "Marvel Comics",
+                "variant": "",
+                "upc": "75960621050300111",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "A",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.ebay.com/sch/i.html?_nkw=Ultimate+Wolverine+1+Cappuccio+-virgin+-2nd+-3rd+-CGC&_sacat=0&_from=R40&_trksid=p2334524.m570.l1313&rt=nc&_odkw=Darkwing+Duck+1+Parsons+CGC&_osacat=0&LH_Sold=1",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-23T02:12:21.761Z",
+              "notes": "Existing Authority record identifies Ultimate Wolverine #1 (2025), Cappuccio Cover A, UPC 75960621050300111. Live eBay sold results explicitly identify Cappuccio or Cover A. Reviewed raw-sale reference; transactions describe comparison copies only. Owned condition remains unassessed; no appraisal selected. Three fixed-price amounts reported by eBay sold search, not independently verified payment records. Original 405477684833 is out of stock with 33 sold at displayed $6.99; 388639767773 has one sold and current price $5.99. Each listing is counted once, not once per cumulative sold unit. Original 820011842608 redirects to product 6074496254 with matching UPC; its $2.50 and sale date are supported by the captured sold-search result only. Comparison copies range VF/NM to NM; owned condition remains unassessed. Shipping excluded. Best Offer, range and multi-book results excluded.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:405477684833",
+                  "sourceUrl": "https://www.ebay.com/itm/405477684833",
+                  "soldAt": "2026-09-11",
+                  "value": 6.99,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:820011842608",
+                  "sourceUrl": "https://www.ebay.com/itm/820011842608",
+                  "soldAt": "2026-08-23",
+                  "value": 2.5,
+                  "currency": "USD"
+                },
+                {
+                  "transactionId": "ebay:388639767773",
+                  "sourceUrl": "https://www.ebay.com/itm/388639767773",
+                  "soldAt": "2026-08-18",
+                  "value": 5.99,
+                  "currency": "USD"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three fixed-price amounts reported by eBay sold search, not independently verified payment records. Original 405477684833 is out of stock with 33 sold at displayed $6.99; 388639767773 has one sold and current price $5.99. Each listing is counted once, not once per cumulative sold unit. Original 820011842608 redirects to product 6074496254 with matching UPC; its $2.50 and sale date are supported by the captured sold-search result only. Comparison copies range VF/NM to NM; owned condition remains unassessed. Shipping excluded. Best Offer, range and multi-book results excluded."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_4742106011_FRONT.jpg",
         "back": "Authority_4742106011_BACK.jpg"

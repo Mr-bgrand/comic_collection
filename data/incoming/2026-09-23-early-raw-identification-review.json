@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-23T02:12:21.280Z",
+  "edits": [
+    {
+      "copyId": "raw:15-056",
+      "revision": "15f86ac3c3831dd8fbeda620e9202731b6eaed61e43b2cda3dd290befff017ef",
+      "review": {
+        "identity": {
+          "title": "Spider-Boy",
+          "issue": "1",
+          "issueYear": "2023",
+          "publisher": "Marvel Comics",
+          "variant": "Humberto Ramos Cover A - First Printing",
+          "upc": "75960620785500111"
+        },
+        "evidence": {
+          "url": "https://www.midtowncomics.com/p/2243284-spiderboy-2-cover-a-regular-humberto-ramos-cover/",
+          "notes": "Individually inspected owned front Raw_15-056_FRONT.jpg. Ramos building-side artwork, movie banner and printed UPC 75960620785500111 match Spider-Boy #1 Cover A. Retailer URL is misleadingly named #2, but its rendered heading and UPC are #1. GCD series 205262 barcode catalog also confirms first printing. Printed artist mark is part of the cover, not a separately authenticated autograph. Condition remains unassessed.",
+          "reviewedBy": "Owner-authorized scan and catalog review",
+          "reviewedAt": "2026-09-23T02:12:21.280Z"
+        }
+      }
+    },
+    {
+      "copyId": "raw:15-061",
+      "revision": "15f86ac3c3831dd8fbeda620e9202731b6eaed61e43b2cda3dd290befff017ef",
+      "review": {
+        "identity": {
+          "title": "Spider-Gwen Annual",
+          "issue": "1",
+          "issueYear": "2023",
+          "publisher": "Marvel Comics",
+          "variant": "R1c0 Cover A - First Printing",
+          "upc": "75960620734300111"
+        },
+        "evidence": {
+          "url": "https://my.comics.org/issue/2567058/?display=grid",
+          "notes": "Individually inspected owned front Raw_15-061_FRONT.jpg. Contest of Chaos, Gwen versus White Fox artwork and printed UPC 75960620734300111 match GCD and PriceCharting product 5768179. R1c0 artist mark is printed artwork. Condition remains unassessed.",
+          "reviewedBy": "Owner-authorized scan and catalog review",
+          "reviewedAt": "2026-09-23T02:12:21.280Z"
+        }
+      }
+    },
+    {
+      "copyId": "raw:15-093",
+      "revision": "15f86ac3c3831dd8fbeda620e9202731b6eaed61e43b2cda3dd290befff017ef",
+      "review": {
+        "identity": {
+          "title": "Moon Man",
+          "issue": "2",
+          "issueYear": "2024",
+          "publisher": "Image Comics",
+          "variant": "Ivan Tao Rabbit Comics OBJ The Catch Virgin Variant"
+        },
+        "evidence": {
+          "url": "https://www.ebay.com/itm/358173554054",
+          "notes": "Individually inspected owned front Raw_15-093_FRONT.jpg and original eBay listing photograph: astronaut arches backward diagonally toward an orb, orange trousers, red/blue cosmic background. Artwork matches Moon Man #2 Ivan Tao Rabbit Comics OBJ The Catch virgin, also identified by listing 176404709294. The Moon Man #1 Jumpman spread-leg pose is different. No UPC or condition inferred. Identity only: sold-search and original-listing status conflict, so no price imported.",
+          "reviewedBy": "Owner-authorized scan and catalog review",
+          "reviewedAt": "2026-09-23T02:12:21.280Z"
+        }
+      }
+    }
+  ],
+  "scans": [
+    {
+      "copyId": "raw:15-056",
+      "image": "Raw_15-056_FRONT.jpg",
+      "sha256": "317bc1effac4fcaa85fceb45bd63c73d096dba9250d7023f4b6741212b8aafe3"
+    },
+    {
+      "copyId": "raw:15-061",
+      "image": "Raw_15-061_FRONT.jpg",
+      "sha256": "023b4d9770a48faa43bf74ab9c7af4966aca4e11d893ddbdd47cb2cdb76e3bb7"
+    },
+    {
+      "copyId": "raw:15-093",
+      "image": "Raw_15-093_FRONT.jpg",
+      "sha256": "1ace84a572b394528402ba04bac8815506b20bfca5384409bfd9730e5ca069a8"
+    }
+  ]
+}
