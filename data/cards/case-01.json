@@ -10591,7 +10591,66 @@
         "source": "CGC Cards",
         "url": "https://www.cgccards.com/population-report/sports/football/5/2020-present/59/2023-donruss-donruss/39697/?populationID=13620543"
       },
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "afternoon-2026-09-23-CGC-6025099060",
+            "copyId": "CGC:6025099060",
+            "basis": "guide",
+            "evidenceKind": "guide",
+            "value": 7.5,
+            "currency": "USD",
+            "source": {
+              "name": "Card Ladder guide via Fanatics Collect",
+              "url": "https://www.fanaticscollect.com/buy-now/baeb0f2d-df42-4c6c-be10-a91c09c7071d/dalton-kincaid-rookie-card-2023-donruss-308-cgc-9",
+              "asOf": null,
+              "retrievedAt": "2026-09-23T18:06:03.885Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2023",
+                "brand": "Donruss",
+                "series": "",
+                "subject": "Dalton Kincaid",
+                "cardNumber": "308",
+                "variety": "",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://www.fanaticscollect.com/buy-now/baeb0f2d-df42-4c6c-be10-a91c09c7071d/dalton-kincaid-rookie-card-2023-donruss-308-cgc-9",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-23T18:06:03.885Z",
+              "notes": "Live exact 2023 Donruss #308 Dalton Kincaid CGC 9 listing displays Guide Price by Card Ladder $7.50 separately from the $14.95 seller ask. Owned cert 6025099060 and comparison image cert 6025123227 individually inspected: same base card, CGC MINT 9, not Optic/Prizm or an autograph/parallel. Card Ladder estimate has no dated underlying transactions, grade-comparison methodology or sale-count details exposed on this merchant listing. Recorded as an explicitly weak guide estimate, not sold-comps. No sale date or sale count invented. Photo https://cdn-vault.fanaticscollect.com/cdn.shopify.com/s/files/1/0622/2574/4110/files/medium/0000673618.webp . Seller asking price is excluded."
+            },
+            "provisional": true,
+            "provisionalReason": "Undated Card Ladder guide displayed on exact CGC 9 listing; underlying sales, sample size and methodology are not exposed. Weak estimate, not a verified sale."
+          }
+        ],
+        "selection": {
+          "observationId": "afternoon-2026-09-23-CGC-6025099060",
+          "locked": true,
+          "selectedAt": "2026-09-23T18:06:04.537Z"
+        }
+      },
       "cgc": {
         "gradeText": "9",
         "lookupGrade": "9.0",

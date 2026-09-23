@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-23T18:06:03.885Z",
+  "edits": [
+    {
+      "copyId": "raw:15-018",
+      "revision": "f74e0667e78e2944ff8e03f5996cb601a3c0270010439dc9909078c0d8273006",
+      "review": {
+        "identity": {
+          "title": "Moon Man",
+          "issue": "3",
+          "issueYear": "2024",
+          "publisher": "Image Comics",
+          "variant": "Jim Mahfood Cover C Virgin",
+          "coverCode": "C"
+        },
+        "evidence": {
+          "url": "https://imagecomics.com/comics/releases/moon-man-3",
+          "notes": "Owned front individually matched to Image Comics Cover C image https://cdn.imagecomics.com/assets/i/releases/1016874/_692dd6dba2.jpg : blue/yellow skull halo, astronaut and white beam. Publisher confirms Jim Mahfood and actual July 10, 2024 release. Earlier Tradd Moore guess is excluded. No UPC or condition inferred.",
+          "reviewedBy": "Owner-authorized scan and publisher review",
+          "reviewedAt": "2026-09-23T18:06:03.885Z"
+        }
+      }
+    },
+    {
+      "copyId": "raw:15-083",
+      "revision": "f74e0667e78e2944ff8e03f5996cb601a3c0270010439dc9909078c0d8273006",
+      "review": {
+        "identity": {
+          "title": "Moon Man",
+          "issue": "3",
+          "issueYear": "2024",
+          "publisher": "Image Comics",
+          "variant": "Greg Tocchini Cover B Virgin",
+          "coverCode": "B"
+        },
+        "evidence": {
+          "url": "https://imagecomics.com/comics/releases/moon-man-3",
+          "notes": "Owned front individually matched to Image Comics Cover B image https://cdn.imagecomics.com/assets/i/releases/1016873/_84a4209d12.jpg : floating car, astronaut and debris. Owned scan is upside-down relative to publisher art; scan remains unchanged. Publisher confirms Greg Tocchini and July 10, 2024 release. No UPC or condition inferred.",
+          "reviewedBy": "Owner-authorized scan and publisher review",
+          "reviewedAt": "2026-09-23T18:06:03.885Z"
+        }
+      }
+    }
+  ],
+  "scans": [
+    {
+      "copyId": "raw:15-018",
+      "image": "Raw_15-018_FRONT.jpg",
+      "sha256": "94b795ba6c8ff169523d1e35cd31d3e3b33747780f377f609cd7bc1cb91739de"
+    },
+    {
+      "copyId": "raw:15-083",
+      "image": "Raw_15-083_FRONT.jpg",
+      "sha256": "e3fee5091de1f3c0129e81a7a88d816bc339dc43446d2b95c5d7f4259512ba21"
+    }
+  ]
+}

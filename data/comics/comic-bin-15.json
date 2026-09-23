@@ -19404,11 +19404,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Moon Man",
+      "issue": "3",
+      "variant": "Jim Mahfood Cover C Virgin",
+      "publisher": "Image Comics",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -19420,7 +19420,7 @@
       },
       "authentication": null,
       "identification": {
-        "status": "proposed",
+        "status": "confirmed",
         "proposedAt": "2026-09-08T02:56:52.847Z",
         "proposedBy": "claude-visual-pass",
         "candidates": [
@@ -19432,10 +19432,134 @@
             "confidence": "low",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-23T18:06:03.885Z",
+        "sourceUrl": "https://imagecomics.com/comics/releases/moon-man-3"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Moon Man",
+                "issue": "3",
+                "issueYear": "2024",
+                "publisher": "Image Comics",
+                "variant": "Jim Mahfood Cover C Virgin",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://imagecomics.com/comics/releases/moon-man-3",
+              "notes": "Owned front individually matched to Image Comics Cover C image https://cdn.imagecomics.com/assets/i/releases/1016874/_692dd6dba2.jpg : blue/yellow skull halo, astronaut and white beam. Publisher confirms Jim Mahfood and actual July 10, 2024 release. Earlier Tradd Moore guess is excluded. No UPC or condition inferred.",
+              "reviewedBy": "Owner-authorized scan and publisher review",
+              "reviewedAt": "2026-09-23T18:06:03.885Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-23T18:06:04.061Z",
+        "observations": [
+          {
+            "id": "afternoon-2026-09-23-raw-15-018",
+            "copyId": "raw:15-018",
+            "basis": "raw-reference",
+            "value": 3.19,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting / eBay",
+              "url": "https://www.pricecharting.com/game/comic-books-moon-man/moon-man-mahfood-3-2024",
+              "asOf": "2025-03-08",
+              "retrievedAt": "2026-09-23T18:06:03.885Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Moon Man",
+                "issue": "3",
+                "issueYear": "2024",
+                "publisher": "Image Comics",
+                "variant": "Jim Mahfood Cover C Virgin",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-moon-man/moon-man-mahfood-3-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-23T18:06:03.885Z",
+              "notes": "PriceCharting reports $3.19 on March 8, 2025. Original archive reads ENDED US $3.19 on March 8, and its artwork matches the owned Jim Mahfood Cover C virgin. Listing uses a catalog image, so comparable physical condition cannot be checked. Newer row 375486034275 renders blank and is excluded. Source-reported sale only; original archive does not independently confirm a completed transaction or payment. Old, single comparison. Owned condition unassessed; shipping and tax excluded. No seller image attached to owned record.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:126567441290",
+                  "sourceUrl": "https://www.ebay.com/itm/126567441290?nordt=true&rt=nc",
+                  "soldAt": "2025-03-08",
+                  "value": 3.19,
+                  "currency": "USD",
+                  "imageUrl": "https://i.ebayimg.com/images/g/pLoAAOSw9mpmjEsT/s-l1600.webp"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Single stale source-reported sale; original archive says ended, not sold. Owned condition is unassessed. Reference only, excluded from recorded value."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-018_FRONT.jpg"
       },
@@ -19456,7 +19580,8 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:56:52.441Z"
-      }
+      },
+      "coverCode": "C"
     },
     {
       "id": "raw:15-083",
@@ -19464,11 +19589,11 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
-      "issueYear": null,
+      "title": "Moon Man",
+      "issue": "3",
+      "variant": "Greg Tocchini Cover B Virgin",
+      "publisher": "Image Comics",
+      "issueYear": "2024",
       "holder": "bag-and-board",
       "holderSource": "owner",
       "grader": null,
@@ -19480,7 +19605,7 @@
       },
       "authentication": null,
       "identification": {
-        "status": "proposed",
+        "status": "confirmed",
         "proposedAt": "2026-09-08T02:56:52.855Z",
         "proposedBy": "claude-visual-pass",
         "candidates": [
@@ -19492,10 +19617,137 @@
             "confidence": "low",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-09-23T18:06:03.885Z",
+        "sourceUrl": "https://imagecomics.com/comics/releases/moon-man-3"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Moon Man",
+                "issue": "3",
+                "issueYear": "2024",
+                "publisher": "Image Comics",
+                "variant": "Greg Tocchini Cover B Virgin",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://imagecomics.com/comics/releases/moon-man-3",
+              "notes": "Owned front individually matched to Image Comics Cover B image https://cdn.imagecomics.com/assets/i/releases/1016873/_84a4209d12.jpg : floating car, astronaut and debris. Owned scan is upside-down relative to publisher art; scan remains unchanged. Publisher confirms Greg Tocchini and July 10, 2024 release. No UPC or condition inferred.",
+              "reviewedBy": "Owner-authorized scan and publisher review",
+              "reviewedAt": "2026-09-23T18:06:03.885Z"
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-09-23T18:06:04.062Z",
+        "observations": [
+          {
+            "id": "afternoon-2026-09-23-raw-15-083",
+            "copyId": "raw:15-083",
+            "basis": "raw-reference",
+            "value": 3.69,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting / eBay",
+              "url": "https://www.pricecharting.com/game/comic-books-moon-man/moon-man-3-2024",
+              "asOf": "2024-10-29",
+              "retrievedAt": "2026-09-23T18:06:03.885Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Moon Man",
+                "issue": "3",
+                "issueYear": "2024",
+                "publisher": "Image Comics",
+                "variant": "Greg Tocchini Cover B Virgin",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "B",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-moon-man/moon-man-3-2024",
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-09-23T18:06:03.885Z",
+              "notes": "PriceCharting reports USD $3.69 on October 29, 2024. Original archive reads ENDED GBP 3.00 on October 29. USD amount is the aggregator conversion, not a directly observed dollar transaction or a newly calculated exchange rate. Catalog artwork matches the owned Greg Tocchini Cover B virgin. Newer row 236868207403 renders blank and is excluded; Cover A rows and mixed-table overall guide are excluded. Source-reported sale only; original archive does not independently confirm a completed transaction or payment. Old, single comparison. Owned condition unassessed; shipping and tax excluded. No seller image attached to owned record.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:326184725177",
+                  "sourceUrl": "https://www.ebay.com/itm/326184725177?nordt=true&rt=nc",
+                  "soldAt": "2024-10-29",
+                  "value": 3.69,
+                  "currency": "USD",
+                  "originalAmount": 3,
+                  "originalCurrency": "GBP",
+                  "conversionSource": "PriceCharting reported USD conversion",
+                  "imageUrl": "https://i.ebayimg.com/images/g/GlIAAOSwUnNmg99y/s-l1600.webp"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Single stale source-reported sale; original archive says ended, not sold. Owned condition is unassessed. Reference only, excluded from recorded value."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-083_FRONT.jpg"
       },
@@ -19516,7 +19768,8 @@
       "importSource": {
         "provider": "owner-scan",
         "importedAt": "2026-09-08T02:56:52.441Z"
-      }
+      },
+      "coverCode": "B"
     },
     {
       "id": "raw:15-025",
