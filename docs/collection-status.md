@@ -2,16 +2,16 @@
 
 This is a snapshot of the stored inventory, not a new appraisal or a fresh grader lookup.
 
-**933 objects: 696 comics and 237 cards.**
-907 have front scans; 26 are still missing them.
-20 physical containers hold 884 copies.
+**950 objects: 697 comics and 253 cards.**
+923 have front scans; 27 are still missing them.
+20 physical containers hold 901 copies.
 
 ## Containers
 
 | Container | Stable ID | Copies | Storage |
 | --- | --- | ---: | --- |
 | Bin 01 | `01` | 23 | Physical container |
-| Bin 02 | `02` | 23 | Physical container |
+| Bin 02 | `02` | 24 | Physical container |
 | Bin 03 | `03` | 25 | Physical container |
 | Bin 04 | `04` | 23 | Physical container |
 | Bin 05 | `05` | 25 | Physical container |
@@ -22,7 +22,7 @@ This is a snapshot of the stored inventory, not a new appraisal or a fresh grade
 | Bin 10 | `10` | 23 | Physical container |
 | Bin 11 | `11` | 25 | Physical container |
 | Display Wall | `wall` | 5 | Physical container |
-| Case #1 | `case-01` | 26 | Physical container |
+| Case #1 | `case-01` | 42 | Physical container |
 | Case #2 | `case-02` | 57 | Physical container |
 | Graded PSA Case #3 | `case-03` | 94 | Physical container |
 | Case Wall Display (Office) | `case-wall-office` | 11 | Physical container |
@@ -45,7 +45,7 @@ Find > Raw comics now opens those 96 owner scans directly. Their focus labels an
 record IDs are readable while identification is pending, and Singularity spreads
 them through the full flight instead of clustering their sequential scan IDs.
 
-Case #1 contains 14 TAG cards, 11 CGC cards and one Arena Club card. Case #2 contains 57 TAG cards.
+Case #1 contains 14 TAG cards, 20 CGC cards, seven PSA cards and one Arena Club card. Case #2 contains 57 TAG cards.
 The office card wall contains nine TAG and two PSA cards. PSA Case #3 contains 94
 cards, including bare-number entries 108031205, 114218231 and 24709368. The 49-card
 PSA Vault export remains in external custody. On September 9, the owner assigned
@@ -57,9 +57,9 @@ were moved from the unassigned group; no duplicate copies were created. See the
 
 | Group | Recorded total | Valued | No value yet |
 | --- | ---: | ---: | ---: |
-| Comics | $14,116.92 | 187 | 509 |
-| Cards | $20,435.35 | 210 | 27 |
-| All | $34,552.27 | 397 | 536 |
+| Comics | $14,116.92 | 187 | 510 |
+| Cards | $21,008.35 | 217 | 36 |
+| All | $35,125.27 | 404 | 546 |
 
 45 PSA Vault estimates have no source date. Printing/building does not update
 market prices. TAG's explicit value or owner estimate takes precedence; otherwise
@@ -136,8 +136,11 @@ An afternoon September 22 pass identified five more scans and added $16.37 in
 raw references; see the [afternoon research](valuation-afternoon-2026-09-22.md).
 An early September 23 pass identified three more scans and added three raw references
 ($15.20); see the [early research](valuation-early-2026-09-23.md).
+The September 23 intake added seven PSA cert-page estimates totaling $573.00;
+all carry an asterisk because their supporting sales history was not established.
+These are guide estimates, not independently verified sold comparables.
 403 unconditioned raw references now total $2,490.81 and remain excluded
-from the recorded total. There are 107 graded values outstanding (80 comics, 27 cards),
+from the recorded total. There are 117 graded values outstanding (81 comics, 36 cards),
 plus 429 raw copies awaiting condition assessment. See the
 [pilot report](valuation-pilot-2026-09-13.md) for sources, dates and remaining gaps.
 Inventory growth and newly valued records affect totals; these are not investment returns.
@@ -152,12 +155,14 @@ Inventory growth and newly valued records affect totals; these are not investmen
   their source history remain in `cardScans`. The viewer, its overview textures,
   and the physical-case master sheets use the slab photographs. Source manifests
   and repeat-import instructions are linked in the [viewer guide](prototypes/README.md).
-- Five CGC cards intended for Case #1 remain queued for verified capture:
-  6034330274, 6021634274, 6025099060, 6025067013 and 6032717240. They are not included
-  in stored counts or printed paperwork. Their supplied URLs remain in
-  [the location intake](../data/incoming/2026-09-06-additional-locations.json).
-- Twenty-one PSA cards have no scans on their reviewed cert pages: twenty in
-  Case #3 and cert 62837377 in PSA Vault. Five legacy graded comics also need front
+- The latest intake added seven PSA cards and four CGC cards to Case #1, plus
+  Strange Tales #167 (1968), CGC 9.0, cert 4561341007 at the front of Bin 02.
+  Five previously queued CGC cards were also verified and added to Case #1.
+  All 16 additions with available grader scans have both sides. See the
+  [intake report](intake-case-01-bin-02-2026-09-23.md).
+- Twenty-two PSA cards have no scans on their reviewed cert pages: twenty in
+  Case #3, cert 62837377 in PSA Vault and Shohei Ohtani cert 65424083 in Case #1.
+  Five legacy graded comics also need front
   scans. Use Admin > Photos to attach an exact-copy front/back image.
 - Sixteen owner-scanned raw books in Bin #15 need edition identification.
   Copies 15-003 and 15-004 are verified Spider-Man: Reign 2 #1 (2024), Skottie
@@ -182,7 +187,7 @@ Inventory growth and newly valued records affect totals; these are not investmen
 
 The [current print set](../print/README.md) contains individual labels/sheets,
 a combined 4 x 6 label pack, a duplex Letter master-sheet pack, and a complete
-933-copy collection master list. Combined masters preserve case boundaries with
+950-copy collection master list. Combined masters preserve case boundaries with
 blank reverse pages. Physical packs exclude external/unassigned cards; the complete
 master list includes them with their storage status.
 

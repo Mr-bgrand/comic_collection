@@ -1,0 +1,460 @@
+{
+  "schemaVersion": 1,
+  "requestSource": "data/incoming/2026-09-06-additional-locations.json",
+  "container": {
+    "id": "case-01",
+    "kind": "card",
+    "title": "Case #1",
+    "location": "Case #1",
+    "physical": true,
+    "virtual": false
+  },
+  "records": [
+    {
+      "pageUrl": "https://www.cgccards.com/certlookup/6034330274/10_0/",
+      "capturedAt": "2026-09-23T04:41:46.046Z",
+      "pairs": [
+        [
+          "Cert #",
+          "6034330274"
+        ],
+        [
+          "Year",
+          "2024"
+        ],
+        [
+          "Manufacturer",
+          "Topps"
+        ],
+        [
+          "Card Set",
+          "Topps 50/50"
+        ],
+        [
+          "Card Number",
+          "34"
+        ],
+        [
+          "Player Name",
+          "Shohei Ohtani"
+        ],
+        [
+          "Grade",
+          "GEM MINT 10"
+        ],
+        [
+          "Grade Date",
+          "2025-03-11"
+        ],
+        [
+          "Card Name",
+          "Shohei Ohtani"
+        ],
+        [
+          "Game",
+          "Baseball"
+        ],
+        [
+          "Language",
+          "Not reported"
+        ]
+      ],
+      "population": [
+        {
+          "text": "Total Graded by CGC\nIn GEM MINT 10 Grade: 685\nIn Higher Grades: 10",
+          "url": "https://www.cgccards.com/population-report/sports/baseball/1/2020-present/13/2024-topps-50-50-shohei-ohtani/43323/?populationID=16342606"
+        }
+      ],
+      "scans": [
+        {
+          "label": "Obverse",
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17424981-0433-4c0d-aeee-41f04ac74656/CAR6034330-274_OBV.jpg"
+        },
+        {
+          "label": "Reverse",
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17424981-0433-4c0d-aeee-41f04ac74656/CAR6034330-274_REV.jpg"
+        }
+      ],
+      "rawPairs": [
+        [
+          "Cert #",
+          "6034330274"
+        ],
+        [
+          "Year",
+          "2024"
+        ],
+        [
+          "Manufacturer",
+          "Topps"
+        ],
+        [
+          "Card Set",
+          "50/50"
+        ],
+        [
+          "Card Number",
+          "34"
+        ],
+        [
+          "Player Name",
+          "Shohei Ohtani"
+        ],
+        [
+          "Grade",
+          "GEM MINT 10"
+        ],
+        [
+          "Grade Date",
+          "2025-03-11"
+        ]
+      ],
+      "normalization": {
+        "subject": "Player Name",
+        "category": "CGC population URL sports category",
+        "brand": "Manufacturer plus Card Set, with empty set omitted",
+        "language": "Not supplied by cert page; stored as null"
+      }
+    },
+    {
+      "pageUrl": "https://www.cgccards.com/certlookup/6021634274/10_0/",
+      "capturedAt": "2026-09-23T04:41:55.276Z",
+      "pairs": [
+        [
+          "Cert #",
+          "6021634274"
+        ],
+        [
+          "Card Name",
+          "Machamp"
+        ],
+        [
+          "Game",
+          "Pokémon"
+        ],
+        [
+          "Year",
+          "2017"
+        ],
+        [
+          "Language",
+          "English"
+        ],
+        [
+          "Card Set",
+          "Guardians Rising"
+        ],
+        [
+          "Card Number",
+          "65/145"
+        ],
+        [
+          "Variant 1",
+          "2 Mini-Pack Blister"
+        ],
+        [
+          "Grade",
+          "GEM MINT 10"
+        ],
+        [
+          "Grade Date",
+          "2025-01-23"
+        ]
+      ],
+      "population": [
+        {
+          "text": "Total Graded by CGC\nIn GEM MINT 10 Grade: 1,217\nIn Higher Grades: 206",
+          "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/sun-and-moon/675/guardians-rising/19482/?populationID=2041122"
+        }
+      ],
+      "scans": [
+        {
+          "label": "Obverse",
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17379836-375c-48f9-a4b1-6f32a36147f5/CAR6021634-274_OBV.jpg"
+        },
+        {
+          "label": "Reverse",
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17379836-375c-48f9-a4b1-6f32a36147f5/CAR6021634-274_REV.jpg"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.cgccards.com/certlookup/6025099060/9_0/",
+      "capturedAt": "2026-09-23T04:42:05.430Z",
+      "pairs": [
+        [
+          "Cert #",
+          "6025099060"
+        ],
+        [
+          "Year",
+          "2023"
+        ],
+        [
+          "Manufacturer",
+          "Donruss"
+        ],
+        [
+          "Card Set",
+          "Donruss"
+        ],
+        [
+          "Card Number",
+          "308"
+        ],
+        [
+          "Player Name",
+          "Dalton Kincaid"
+        ],
+        [
+          "Grade",
+          "9"
+        ],
+        [
+          "Grade Date",
+          "2025-01-29"
+        ],
+        [
+          "Card Name",
+          "Dalton Kincaid"
+        ],
+        [
+          "Game",
+          "Football"
+        ],
+        [
+          "Language",
+          "Not reported"
+        ]
+      ],
+      "population": [
+        {
+          "text": "Total Graded by CGC\nIn 9 Grade: 310\nIn Higher Grades: 847",
+          "url": "https://www.cgccards.com/population-report/sports/football/5/2020-present/59/2023-donruss-donruss/39697/?populationID=13620543"
+        }
+      ],
+      "scans": [
+        {
+          "label": "Obverse",
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17384262-809c-4d54-9860-207f2a015de4/CAR6025099-060_OBV.jpg"
+        },
+        {
+          "label": "Reverse",
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17384262-809c-4d54-9860-207f2a015de4/CAR6025099-060_REV.jpg"
+        }
+      ],
+      "rawPairs": [
+        [
+          "Cert #",
+          "6025099060"
+        ],
+        [
+          "Year",
+          "2023"
+        ],
+        [
+          "Manufacturer",
+          "Donruss"
+        ],
+        [
+          "Card Set",
+          ""
+        ],
+        [
+          "Card Number",
+          "308"
+        ],
+        [
+          "Player Name",
+          "Dalton Kincaid"
+        ],
+        [
+          "Grade",
+          "9"
+        ],
+        [
+          "Grade Date",
+          "2025-01-29"
+        ]
+      ],
+      "normalization": {
+        "subject": "Player Name",
+        "category": "CGC population URL sports category",
+        "brand": "Manufacturer plus Card Set, with empty set omitted",
+        "language": "Not supplied by cert page; stored as null"
+      }
+    },
+    {
+      "pageUrl": "https://www.cgccards.com/certlookup/6025067013/9_5/",
+      "capturedAt": "2026-09-23T04:42:14.450Z",
+      "pairs": [
+        [
+          "Cert #",
+          "6025067013"
+        ],
+        [
+          "Year",
+          "2023"
+        ],
+        [
+          "Manufacturer",
+          "Donruss"
+        ],
+        [
+          "Card Set",
+          "Donruss"
+        ],
+        [
+          "Card Number",
+          "318"
+        ],
+        [
+          "Player Name",
+          "Chase Brown"
+        ],
+        [
+          "Grade",
+          "MINT+ 9.5"
+        ],
+        [
+          "Grade Date",
+          "2025-01-29"
+        ],
+        [
+          "Card Name",
+          "Chase Brown"
+        ],
+        [
+          "Game",
+          "Football"
+        ],
+        [
+          "Language",
+          "Not reported"
+        ]
+      ],
+      "population": [
+        {
+          "text": "Total Graded by CGC\nIn MINT+ 9.5 Grade: 203\nIn Higher Grades: 763",
+          "url": "https://www.cgccards.com/population-report/sports/football/5/2020-present/59/2023-donruss-donruss/39697/?populationID=13620171"
+        }
+      ],
+      "scans": [
+        {
+          "label": "Obverse",
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17384321-44d1-4611-b113-4f8cf1091d2f/CAR6025067-013_OBV.jpg"
+        },
+        {
+          "label": "Reverse",
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17384321-44d1-4611-b113-4f8cf1091d2f/CAR6025067-013_REV.jpg"
+        }
+      ],
+      "rawPairs": [
+        [
+          "Cert #",
+          "6025067013"
+        ],
+        [
+          "Year",
+          "2023"
+        ],
+        [
+          "Manufacturer",
+          "Donruss"
+        ],
+        [
+          "Card Set",
+          ""
+        ],
+        [
+          "Card Number",
+          "318"
+        ],
+        [
+          "Player Name",
+          "Chase Brown"
+        ],
+        [
+          "Grade",
+          "MINT+ 9.5"
+        ],
+        [
+          "Grade Date",
+          "2025-01-29"
+        ]
+      ],
+      "normalization": {
+        "subject": "Player Name",
+        "category": "CGC population URL sports category",
+        "brand": "Manufacturer plus Card Set, with empty set omitted",
+        "language": "Not supplied by cert page; stored as null"
+      }
+    },
+    {
+      "pageUrl": "https://www.cgccards.com/certlookup/6032717240/10_0/",
+      "capturedAt": "2026-09-23T04:42:21.767Z",
+      "pairs": [
+        [
+          "Cert #",
+          "6032717240"
+        ],
+        [
+          "Card Name",
+          "Sandslash"
+        ],
+        [
+          "Game",
+          "Pokémon"
+        ],
+        [
+          "Year",
+          "2023"
+        ],
+        [
+          "Language",
+          "Japanese"
+        ],
+        [
+          "Card Set",
+          "Trading Card Game Classic"
+        ],
+        [
+          "Card Number",
+          "009/032"
+        ],
+        [
+          "Variant 1",
+          "Venusaur & Lugia ex Deck"
+        ],
+        [
+          "Variant 2",
+          "Holo"
+        ],
+        [
+          "Grade",
+          "GEM MINT 10"
+        ],
+        [
+          "Grade Date",
+          "2025-03-31"
+        ]
+      ],
+      "population": [
+        {
+          "text": "Total Graded by CGC\nIn GEM MINT 10 Grade: 667\nIn Higher Grades: 339",
+          "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/scarlet-and-violet/842/trading-card-game-classic-clf-cll-clk/20262/?populationID=1490836"
+        }
+      ],
+      "scans": [
+        {
+          "label": "Obverse",
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17446487-86ba-4f28-890c-9acd1a44490a/CAR6032717-240_OBV.jpg"
+        },
+        {
+          "label": "Reverse",
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17446487-86ba-4f28-890c-9acd1a44490a/CAR6032717-240_REV.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 # Collection / Lab
 
-The active full-screen experience uses real inventory and scans. September 9,
-2026 snapshot: **933 objects - 696 comics and 237 cards**, with 907 front scans.
+The active full-screen experience uses real inventory and scans. September 23,
+2026 snapshot: **950 objects - 697 comics and 253 cards**, with 923 front scans.
 See [collection status](../collection-status.md) for containers and unfinished intake.
 
 Open the [published collection](https://mr-bgrand.github.io/comic_collection/review/)
@@ -121,7 +121,7 @@ It creates PDFs and does not send them to a printer.
 
 The [print index](../../print/README.md) contains the 4 x 6 label pack, duplex Letter
 master-sheet pack, complete collection master list, individual PDFs and page
-ranges. Physical paperwork covers 884 copies in 20 containers; the complete list
+ranges. Physical paperwork covers 901 copies in 20 containers; the complete list
 also includes the 49 PSA Vault cards. All 14 original TAG cards are assigned to
 Case #1 and included in its label and master sheets. Keep the blank reverse
 pages in the combined duplex pack.

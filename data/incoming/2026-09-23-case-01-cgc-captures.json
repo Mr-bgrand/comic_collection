@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "container": {
+    "id": "case-01",
+    "kind": "card",
+    "title": "Case #1",
+    "location": "Case #1",
+    "physical": true,
+    "virtual": false
+  },
+  "records": [
+    {
+      "pageUrl": "https://www.cgccards.com/certlookup/1401036680181/9_5/",
+      "capturedAt": "2026-09-23T04:38:50.149Z",
+      "pairs": [
+        [
+          "Cert #",
+          "1401036680181"
+        ],
+        [
+          "Card Name",
+          "Quilava"
+        ],
+        [
+          "Game",
+          "Pokémon"
+        ],
+        [
+          "Year",
+          "1999"
+        ],
+        [
+          "Language",
+          "Japanese"
+        ],
+        [
+          "Card Set",
+          "Neo Premium File"
+        ],
+        [
+          "Grade",
+          "MINT+ 9.5"
+        ],
+        [
+          "Grade Date",
+          "2024-06-27"
+        ]
+      ],
+      "population": [
+        {
+          "text": "Total Graded by CGC\nIn MINT+ 9.5 Grade: 119\nIn Higher Grades: 903",
+          "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/neo/744/neo-premium-file/15985/?populationID=516167"
+        }
+      ],
+      "scans": [
+        {
+          "label": "Obverse",
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/81c56921-29b3-486a-8f54-6b0340b97856/CSG1401036680-181_OBV.jpg"
+        },
+        {
+          "label": "Reverse",
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/81c56921-29b3-486a-8f54-6b0340b97856/CSG1401036680-181_REV.jpg"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.cgccards.com/certlookup/1401011131203/9_0/",
+      "capturedAt": "2026-09-23T04:38:59.235Z",
+      "pairs": [
+        [
+          "Cert #",
+          "1401011131203"
+        ],
+        [
+          "Card Name",
+          "Cacturne"
+        ],
+        [
+          "Game",
+          "Pokémon Topps"
+        ],
+        [
+          "Year",
+          "2003"
+        ],
+        [
+          "Language",
+          "English"
+        ],
+        [
+          "Card Set",
+          "Advanced"
+        ],
+        [
+          "Card Number",
+          "21"
+        ],
+        [
+          "Variant 1",
+          "Silver Foil"
+        ],
+        [
+          "Grade",
+          "9"
+        ],
+        [
+          "Grade Date",
+          "2023-11-28"
+        ]
+      ],
+      "population": [
+        {
+          "text": "Total Graded by CGC\nIn 9 Grade: 4\nIn Higher Grades: 0",
+          "url": "https://www.cgccards.com/population-report/non-sports/pok%C3%A9mon-topps/61/advanced-series/7/advanced/77/?populationID=806464",
+          "rawText": "Total Graded by CGC\nIn 9 Grade: 4\nIn Higher Grades: 0\nTop Pop",
+          "normalization": "Removed trailing Top Pop badge; counts preserved."
+        }
+      ],
+      "scans": [
+        {
+          "label": "Obverse",
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/7fbf899b-0712-44f8-8377-4dc44b2c7768/CRD1401011131-203_OBV.jpg"
+        },
+        {
+          "label": "Reverse",
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/7fbf899b-0712-44f8-8377-4dc44b2c7768/CRD1401011131-203_REV.jpg"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.cgccards.com/certlookup/1401011392237/9_5/",
+      "capturedAt": "2026-09-23T04:39:08.093Z",
+      "pairs": [
+        [
+          "Cert #",
+          "1401011392237"
+        ],
+        [
+          "Card Name",
+          "Mankey"
+        ],
+        [
+          "Game",
+          "Pokémon"
+        ],
+        [
+          "Year",
+          "2008"
+        ],
+        [
+          "Language",
+          "English"
+        ],
+        [
+          "Card Set",
+          "Great Encounters"
+        ],
+        [
+          "Card Number",
+          "79/106"
+        ],
+        [
+          "Variant 1",
+          "Reverse Holo"
+        ],
+        [
+          "Grade",
+          "MINT+ 9.5"
+        ],
+        [
+          "Grade Date",
+          "2023-11-01"
+        ]
+      ],
+      "population": [
+        {
+          "text": "Total Graded by CGC\nIn MINT+ 9.5 Grade: 4\nIn Higher Grades: 31",
+          "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/diamond-and-pearl/1079/great-encounters/15589/?populationID=483910"
+        }
+      ],
+      "scans": [
+        {
+          "label": "Obverse",
+          "url": "https://ccg-imaging-csg-cards-production.s3.amazonaws.com/b4c4e27a-5191-457e-a0d5-ee0812d63bd5/CSG1401011392-237_OBV.jpg"
+        },
+        {
+          "label": "Reverse",
+          "url": "https://ccg-imaging-csg-cards-production.s3.amazonaws.com/b4c4e27a-5191-457e-a0d5-ee0812d63bd5/CSG1401011392-237_REV.jpg"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.cgccards.com/certlookup/6042459106/7_5/",
+      "capturedAt": "2026-09-23T04:39:18.868Z",
+      "pairs": [
+        [
+          "Cert #",
+          "6042459106"
+        ],
+        [
+          "Card Name",
+          "Dodrio"
+        ],
+        [
+          "Game",
+          "Pokémon Meiji"
+        ],
+        [
+          "Year",
+          "1997"
+        ],
+        [
+          "Language",
+          "Japanese"
+        ],
+        [
+          "Card Set",
+          "Promotional Cards"
+        ],
+        [
+          "Variant 1",
+          "Foil"
+        ],
+        [
+          "Grade",
+          "7.5"
+        ],
+        [
+          "Grade Date",
+          "2025-05-16"
+        ]
+      ],
+      "population": [
+        {
+          "text": "Total Graded by CGC\nIn 7.5 Grade: 1\nIn Higher Grades: 5",
+          "url": "https://www.cgccards.com/population-report/non-sports/pok%C3%A9mon-meiji/65/all/165/promotional-cards-1997-type.hp.hand-symbol/110/?populationID=1523783"
+        }
+      ],
+      "scans": [
+        {
+          "label": "Obverse",
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17477475-519f-4c8b-876f-9684953d32b8/CAR6042459-106_OBV.jpg"
+        },
+        {
+          "label": "Reverse",
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17477475-519f-4c8b-876f-9684953d32b8/CAR6042459-106_REV.jpg"
+        }
+      ]
+    }
+  ]
+}

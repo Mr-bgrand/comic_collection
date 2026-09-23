@@ -4,6 +4,71 @@
   "location": "",
   "comics": [
     {
+      "cert": "4561341007",
+      "title": "Strange Tales",
+      "issue": "167",
+      "issueDate": "4/68",
+      "issueYear": "1968",
+      "publisher": "Marvel Comics",
+      "grade": "9.0",
+      "pageQuality": "OFF-WHITE TO WHITE",
+      "gradeDate": "2025-05-12",
+      "labelCategory": "Universal",
+      "artComments": "Jim Steranko and Denny O'Neil stories\nJim Steranko, Joe Sinnott and\nDan Adkins art, Jim Steranko cover",
+      "keyComments": "Yellow Claw appearance.\nDoctor Doom cameo.\nFlag cover.",
+      "population": {
+        "atGrade": 66,
+        "higher": 160,
+        "topPop": false
+      },
+      "images": {
+        "front": "4561341007_OBV.jpg",
+        "back": "4561341007_REV.jpg"
+      },
+      "repairs": [],
+      "certUrl": "https://www.cgccomics.com/certlookup/4561341007/9_0/",
+      "grader": "CGC",
+      "graderNotes": "spine stress lines\nstaining back cover",
+      "fetchedAt": "2026-09-23T04:33:22.981Z",
+      "source": "cgc-cert-page",
+      "importSource": {
+        "file": "data/incoming/2026-09-23-bin-02-cgc-capture.json",
+        "pageUrl": "https://www.cgccomics.com/certlookup/4561341007/9_0/",
+        "capturedAt": "2026-09-23T04:33:22.981Z",
+        "importedAt": "2026-09-23T04:34:54.013Z"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/17476851-1904-48f2-9ab8-b6ea23e49326/CGC4561341-007_OBV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4561341007/9_0/",
+          "side": "front",
+          "kind": "grader-scan",
+          "discoveredAt": "2026-09-23T04:33:22.981Z",
+          "retrievedAt": "2026-09-23T04:34:54.972Z",
+          "sideBasis": "CGC cert viewer link and image title: Obverse",
+          "originalWidth": 1722,
+          "originalHeight": 2687,
+          "sha256": "474d62b5ac37762f3bd91dc01b75751ef7d236533769e4dbab92ca6d172f9f98",
+          "originalFile": "data/originals/4561341007_OBV.jpg",
+          "originalSha256": "83f8644ec9471f7ad1f75ed0e305a5f9596c818394090cd277c6aa624405b645"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/17476851-1904-48f2-9ab8-b6ea23e49326/CGC4561341-007_REV.jpg",
+          "pageUrl": "https://www.cgccomics.com/certlookup/4561341007/9_0/",
+          "side": "back",
+          "kind": "grader-scan",
+          "discoveredAt": "2026-09-23T04:33:22.981Z",
+          "retrievedAt": "2026-09-23T04:34:55.370Z",
+          "sideBasis": "CGC cert viewer link and image title: Reverse",
+          "originalWidth": 1744,
+          "originalHeight": 2716,
+          "sha256": "8dce55e7b02951b47125247267aab21ef3b858e750c1f0c1ba82741f2d678682",
+          "originalFile": "data/originals/4561341007_REV.jpg",
+          "originalSha256": "16aa1eaee9bfe9335c1e185f0ff501d8b8d5a573cdf6fc702f640406fbc09ab3"
+        }
+      }
+    },
+    {
       "cert": "4381117006",
       "title": "w0rldtr33",
       "issue": "4",
@@ -1140,5 +1205,5 @@
       }
     }
   ],
-  "updated": "2026-08-17"
+  "updated": "2026-09-23"
 }

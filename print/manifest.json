@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-23T02:16:05.358Z",
-  "objects": 933,
+  "generatedAt": "2026-09-23T04:49:34.901Z",
+  "objects": 950,
   "physicalContainers": 20,
-  "physicalCopies": 884,
+  "physicalCopies": 901,
   "labels": {
     "file": "all-case-labels-4x6.pdf",
-    "pages": 38,
+    "pages": 39,
     "ranges": [
       {
         "id": "01",
@@ -18,7 +18,7 @@
       {
         "id": "02",
         "title": "Bin 02",
-        "copies": 23,
+        "copies": 24,
         "firstPage": 2,
         "lastPage": 2,
         "blankPage": null
@@ -106,72 +106,72 @@
       {
         "id": "case-01",
         "title": "Case #1",
-        "copies": 26,
+        "copies": 42,
         "firstPage": 13,
-        "lastPage": 13,
+        "lastPage": 14,
         "blankPage": null
       },
       {
         "id": "case-02",
         "title": "Case #2",
         "copies": 57,
-        "firstPage": 14,
-        "lastPage": 16,
+        "firstPage": 15,
+        "lastPage": 17,
         "blankPage": null
       },
       {
         "id": "case-03",
         "title": "Graded PSA Case #3",
         "copies": 94,
-        "firstPage": 17,
-        "lastPage": 20,
+        "firstPage": 18,
+        "lastPage": 21,
         "blankPage": null
       },
       {
         "id": "case-wall-office",
         "title": "Case Wall Display (Office)",
         "copies": 11,
-        "firstPage": 21,
-        "lastPage": 21,
+        "firstPage": 22,
+        "lastPage": 22,
         "blankPage": null
       },
       {
         "id": "comic-bin-13",
         "title": "Comic Bin #13 (Softslabs)",
         "copies": 98,
-        "firstPage": 22,
-        "lastPage": 25,
+        "firstPage": 23,
+        "lastPage": 26,
         "blankPage": null
       },
       {
         "id": "comic-bin-14",
         "title": "Comic Bin #14 (Softslabs)",
         "copies": 97,
-        "firstPage": 26,
-        "lastPage": 29,
+        "firstPage": 27,
+        "lastPage": 30,
         "blankPage": null
       },
       {
         "id": "comic-bin-15",
         "title": "Comic Bin #15 (Softslabs)",
         "copies": 123,
-        "firstPage": 30,
-        "lastPage": 34,
+        "firstPage": 31,
+        "lastPage": 35,
         "blankPage": null
       },
       {
         "id": "comic-case-12",
         "title": "Comic Case #12 (Softslabs)",
         "copies": 111,
-        "firstPage": 35,
-        "lastPage": 38,
+        "firstPage": 36,
+        "lastPage": 39,
         "blankPage": null
       }
     ]
   },
   "sheets": {
     "file": "all-case-master-sheets-letter.pdf",
-    "pages": 76,
+    "pages": 78,
     "duplex": true,
     "ranges": [
       {
@@ -185,7 +185,7 @@
       {
         "id": "02",
         "title": "Bin 02",
-        "copies": 23,
+        "copies": 24,
         "firstPage": 3,
         "lastPage": 4,
         "blankPage": null
@@ -273,65 +273,65 @@
       {
         "id": "case-01",
         "title": "Case #1",
-        "copies": 26,
+        "copies": 42,
         "firstPage": 25,
-        "lastPage": 26,
-        "blankPage": null
+        "lastPage": 27,
+        "blankPage": 28
       },
       {
         "id": "case-02",
         "title": "Case #2",
         "copies": 57,
-        "firstPage": 27,
-        "lastPage": 31,
-        "blankPage": 32
+        "firstPage": 29,
+        "lastPage": 33,
+        "blankPage": 34
       },
       {
         "id": "case-03",
         "title": "Graded PSA Case #3",
         "copies": 94,
-        "firstPage": 33,
-        "lastPage": 39,
-        "blankPage": 40
+        "firstPage": 35,
+        "lastPage": 41,
+        "blankPage": 42
       },
       {
         "id": "case-wall-office",
         "title": "Case Wall Display (Office)",
         "copies": 11,
-        "firstPage": 41,
-        "lastPage": 41,
-        "blankPage": 42
+        "firstPage": 43,
+        "lastPage": 43,
+        "blankPage": 44
       },
       {
         "id": "comic-bin-13",
         "title": "Comic Bin #13 (Softslabs)",
         "copies": 98,
-        "firstPage": 43,
-        "lastPage": 49,
-        "blankPage": 50
+        "firstPage": 45,
+        "lastPage": 51,
+        "blankPage": 52
       },
       {
         "id": "comic-bin-14",
         "title": "Comic Bin #14 (Softslabs)",
         "copies": 97,
-        "firstPage": 51,
-        "lastPage": 57,
-        "blankPage": 58
+        "firstPage": 53,
+        "lastPage": 59,
+        "blankPage": 60
       },
       {
         "id": "comic-bin-15",
         "title": "Comic Bin #15 (Softslabs)",
         "copies": 123,
-        "firstPage": 59,
-        "lastPage": 67,
-        "blankPage": 68
+        "firstPage": 61,
+        "lastPage": 69,
+        "blankPage": 70
       },
       {
         "id": "comic-case-12",
         "title": "Comic Case #12 (Softslabs)",
         "copies": 111,
-        "firstPage": 69,
-        "lastPage": 76,
+        "firstPage": 71,
+        "lastPage": 78,
         "blankPage": null
       }
     ]

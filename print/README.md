@@ -1,12 +1,12 @@
 # Current print set
 
-Generated 2026-09-23 from the stored collection: **933 objects**, including **884 copies in 20 physical containers**.
+Generated 2026-09-23 from the stored collection: **950 objects**, including **901 copies in 20 physical containers**.
 
 | Complete PDF | Paper and settings |
 | --- | --- |
-| [All case labels](all-case-labels-4x6.pdf) | 4 x 6 inches; 38 pages; single-sided; actual size / 100% |
-| [All case master sheets](all-case-master-sheets-letter.pdf) | Letter portrait; 76 pages; double-sided, flip on long edge; actual size / 100% |
-| [Collection master list](collection-master-list.pdf) | Letter landscape; all 933 stored copies, including external storage and unassigned cards |
+| [All case labels](all-case-labels-4x6.pdf) | 4 x 6 inches; 39 pages; single-sided; actual size / 100% |
+| [All case master sheets](all-case-master-sheets-letter.pdf) | Letter portrait; 78 pages; double-sided, flip on long edge; actual size / 100% |
+| [Collection master list](collection-master-list.pdf) | Letter landscape; all 950 stored copies, including external storage and unassigned cards |
 
 The combined master sheets include blank reverse pages where needed so the next case starts on a new physical sheet. Keep those blanks when printing duplex. The individual PDFs below contain only that case's content pages. Labels for larger cases continue onto additional 4 x 6 pages.
 
@@ -21,7 +21,7 @@ Page numbers refer to the combined packs; links open the individual PDFs. Blank 
 | Container | Copies | Label pages | Master pages | Blank reverse |
 | --- | ---: | --- | --- | ---: |
 | Bin 01 | 23 | [1](bin-01-label.pdf) | [1-2](bin-01-sheet.pdf) | - |
-| Bin 02 | 23 | [2](bin-02-label.pdf) | [3-4](bin-02-sheet.pdf) | - |
+| Bin 02 | 24 | [2](bin-02-label.pdf) | [3-4](bin-02-sheet.pdf) | - |
 | Bin 03 | 25 | [3](bin-03-label.pdf) | [5-6](bin-03-sheet.pdf) | - |
 | Bin 04 | 23 | [4](bin-04-label.pdf) | [7-8](bin-04-sheet.pdf) | - |
 | Bin 05 | 25 | [5](bin-05-label.pdf) | [9-10](bin-05-sheet.pdf) | - |
@@ -32,14 +32,14 @@ Page numbers refer to the combined packs; links open the individual PDFs. Blank 
 | Bin 10 | 23 | [10](bin-10-label.pdf) | [19-20](bin-10-sheet.pdf) | - |
 | Bin 11 | 25 | [11](bin-11-label.pdf) | [21-22](bin-11-sheet.pdf) | - |
 | Display Wall | 5 | [12](bin-wall-label.pdf) | [23](bin-wall-sheet.pdf) | 24 |
-| Case #1 | 26 | [13](bin-case-01-label.pdf) | [25-26](bin-case-01-sheet.pdf) | - |
-| Case #2 | 57 | [14-16](bin-case-02-label.pdf) | [27-31](bin-case-02-sheet.pdf) | 32 |
-| Graded PSA Case #3 | 94 | [17-20](bin-case-03-label.pdf) | [33-39](bin-case-03-sheet.pdf) | 40 |
-| Case Wall Display (Office) | 11 | [21](bin-case-wall-office-label.pdf) | [41](bin-case-wall-office-sheet.pdf) | 42 |
-| Comic Bin #13 (Softslabs) | 98 | [22-25](bin-comic-bin-13-label.pdf) | [43-49](bin-comic-bin-13-sheet.pdf) | 50 |
-| Comic Bin #14 (Softslabs) | 97 | [26-29](bin-comic-bin-14-label.pdf) | [51-57](bin-comic-bin-14-sheet.pdf) | 58 |
-| Comic Bin #15 (Softslabs) | 123 | [30-34](bin-comic-bin-15-label.pdf) | [59-67](bin-comic-bin-15-sheet.pdf) | 68 |
-| Comic Case #12 (Softslabs) | 111 | [35-38](bin-comic-case-12-label.pdf) | [69-76](bin-comic-case-12-sheet.pdf) | - |
+| Case #1 | 42 | [13-14](bin-case-01-label.pdf) | [25-27](bin-case-01-sheet.pdf) | 28 |
+| Case #2 | 57 | [15-17](bin-case-02-label.pdf) | [29-33](bin-case-02-sheet.pdf) | 34 |
+| Graded PSA Case #3 | 94 | [18-21](bin-case-03-label.pdf) | [35-41](bin-case-03-sheet.pdf) | 42 |
+| Case Wall Display (Office) | 11 | [22](bin-case-wall-office-label.pdf) | [43](bin-case-wall-office-sheet.pdf) | 44 |
+| Comic Bin #13 (Softslabs) | 98 | [23-26](bin-comic-bin-13-label.pdf) | [45-51](bin-comic-bin-13-sheet.pdf) | 52 |
+| Comic Bin #14 (Softslabs) | 97 | [27-30](bin-comic-bin-14-label.pdf) | [53-59](bin-comic-bin-14-sheet.pdf) | 60 |
+| Comic Bin #15 (Softslabs) | 123 | [31-35](bin-comic-bin-15-label.pdf) | [61-69](bin-comic-bin-15-sheet.pdf) | 70 |
+| Comic Case #12 (Softslabs) | 111 | [36-39](bin-comic-case-12-label.pdf) | [71-78](bin-comic-case-12-sheet.pdf) | - |
 
 ## Refresh
 

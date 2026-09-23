@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "bin": "02",
+  "placement": "first",
+  "pageUrl": "https://www.cgccomics.com/certlookup/4561341007/9_0/",
+  "capturedAt": "2026-09-23T04:33:22.981Z",
+  "pairs": [
+    ["CGC Cert #", "4561341007"],
+    ["Title", "Strange Tales"],
+    ["Issue", "167"],
+    ["Issue Date", "4/68"],
+    ["Issue Year", "1968"],
+    ["Publisher", "Marvel Comics"],
+    ["Grade", "9.0"],
+    ["Page Quality", "OFF-WHITE TO WHITE"],
+    ["Grade Date", "2025-05-12"],
+    ["Label Category", "Universal"],
+    ["Art Comments", "Jim Steranko and Denny O'Neil stories\nJim Steranko, Joe Sinnott and\nDan Adkins art, Jim Steranko cover"],
+    ["Key Comments", "Yellow Claw appearance.\nDoctor Doom cameo.\nFlag cover."],
+    ["Grader Notes", "spine stress lines\nstaining back cover"]
+  ],
+  "populationText": "Total Graded by CGC\nIn 9.0: 66\nIn Higher Grades: 160",
+  "populationUrl": "https://www.cgccomics.com/population-report/comics/1/marvel-comics/5304/strange-tales/44490/0009820/label-categories/?labelCategory=Universal",
+  "scans": [
+    {"label": "Obverse", "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/17476851-1904-48f2-9ab8-b6ea23e49326/CGC4561341-007_OBV.jpg"},
+    {"label": "Reverse", "url": "https://ccg-imaging-cgc-comics-production.s3.amazonaws.com/17476851-1904-48f2-9ab8-b6ea23e49326/CGC4561341-007_REV.jpg"}
+  ]
+}

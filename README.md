@@ -6,8 +6,8 @@ case labels, master sheets, and recorded value history.
 The active experience is [Collection / Lab](https://mr-bgrand.github.io/comic_collection/review/).
 Singularity includes optional looping *Cornfield Chase* audio. Tap Music to enable
 it when needed; hiding controls keeps the soundtrack and flight running.
-The original catalogue remains at the site root. Current snapshot, September 9,
-2026: **933 objects - 696 comics and 237 cards**, with 907 front scans.
+The original catalogue remains at the site root. Current snapshot, September 23,
+2026: **950 objects - 697 comics and 253 cards**, with 923 front scans.
 See [collection status](docs/collection-status.md) for containers and pending intake.
 
 | Output | Where it goes | What it's for |
@@ -115,7 +115,7 @@ Writes ready-to-print files to [`print/`](print/), which is committed to the rep
 | --- | --- |
 | `print/all-case-labels-4x6.pdf` | **4×6, single-sided**, every physical container |
 | `print/all-case-master-sheets-letter.pdf` | **Letter portrait, double-sided, long-edge flip**; each case starts on a fresh sheet |
-| `print/collection-master-list.pdf` | **Letter landscape**, all 933 stored copies including PSA Vault |
+| `print/collection-master-list.pdf` | **Letter landscape**, all 950 stored copies including PSA Vault |
 | `print/bin-<id>-label.pdf` / `bin-<id>-sheet.pdf` | One container's labels or sheets |
 
 Print the **PDFs**, not the HTML. A PDF carries its own page size, so 4×6 comes

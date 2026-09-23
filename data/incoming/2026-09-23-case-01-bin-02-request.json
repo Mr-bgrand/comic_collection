@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "completedAt": "2026-09-23T04:46:07.408Z",
+  "records": [
+    {
+      "cert": "75738340",
+      "grader": "PSA",
+      "kind": "card",
+      "containerId": "case-01",
+      "sourceUrl": "https://www.psacard.com/cert/75738340/psa",
+      "status": "imported",
+      "images": "front-and-back",
+      "requestBatch": "latest-case-01"
+    },
+    {
+      "cert": "65424083",
+      "grader": "PSA",
+      "kind": "card",
+      "containerId": "case-01",
+      "sourceUrl": "https://www.psacard.com/cert/65424083/psa",
+      "status": "imported",
+      "images": "no-scans-on-reviewed-cert-page",
+      "requestBatch": "latest-case-01"
+    },
+    {
+      "cert": "112357836",
+      "grader": "PSA",
+      "kind": "card",
+      "containerId": "case-01",
+      "sourceUrl": "https://www.psacard.com/cert/112357836/psa",
+      "status": "imported",
+      "images": "front-and-back",
+      "requestBatch": "latest-case-01"
+    },
+    {
+      "cert": "139855937",
+      "grader": "PSA",
+      "kind": "card",
+      "containerId": "case-01",
+      "sourceUrl": "https://www.psacard.com/cert/139855937/psa",
+      "status": "imported",
+      "images": "front-and-back",
+      "requestBatch": "latest-case-01"
+    },
+    {
+      "cert": "138607533",
+      "grader": "PSA",
+      "kind": "card",
+      "containerId": "case-01",
+      "sourceUrl": "https://www.psacard.com/cert/138607533/psa",
+      "status": "imported",
+      "images": "front-and-back",
+      "requestBatch": "latest-case-01"
+    },
+    {
+      "cert": "107736899",
+      "grader": "PSA",
+      "kind": "card",
+      "containerId": "case-01",
+      "sourceUrl": "https://www.psacard.com/cert/107736899/psa",
+      "status": "imported",
+      "images": "front-and-back",
+      "requestBatch": "latest-case-01"
+    },
+    {
+      "cert": "127311782",
+      "grader": "PSA",
+      "kind": "card",
+      "containerId": "case-01",
+      "sourceUrl": "https://www.psacard.com/cert/127311782/psa",
+      "status": "imported",
+      "images": "front-and-back",
+      "requestBatch": "latest-case-01"
+    },
+    {
+      "cert": "1401036680181",
+      "grader": "CGC",
+      "kind": "card",
+      "containerId": "case-01",
+      "sourceUrl": "https://www.cgccards.com/certlookup/1401036680181/9_5/",
+      "status": "imported",
+      "images": "front-and-back",
+      "requestBatch": "latest-case-01"
+    },
+    {
+      "cert": "1401011131203",
+      "grader": "CGC",
+      "kind": "card",
+      "containerId": "case-01",
+      "sourceUrl": "https://www.cgccards.com/certlookup/1401011131203/9_0/",
+      "status": "imported",
+      "images": "front-and-back",
+      "requestBatch": "latest-case-01"
+    },
+    {
+      "cert": "1401011392237",
+      "grader": "CGC",
+      "kind": "card",
+      "containerId": "case-01",
+      "sourceUrl": "https://www.cgccards.com/certlookup/1401011392237/9_5/",
+      "status": "imported",
+      "images": "front-and-back",
+      "requestBatch": "latest-case-01"
+    },
+    {
+      "cert": "6042459106",
+      "grader": "CGC",
+      "kind": "card",
+      "containerId": "case-01",
+      "sourceUrl": "https://www.cgccards.com/certlookup/6042459106/7_5/",
+      "status": "imported",
+      "images": "front-and-back",
+      "requestBatch": "latest-case-01"
+    },
+    {
+      "cert": "6034330274",
+      "grader": "CGC",
+      "kind": "card",
+      "containerId": "case-01",
+      "sourceUrl": "https://www.cgccards.com/certlookup/6034330274/10_0/",
+      "status": "imported",
+      "images": "front-and-back",
+      "requestBatch": "earlier-queued-case-01"
+    },
+    {
+      "cert": "6021634274",
+      "grader": "CGC",
+      "kind": "card",
+      "containerId": "case-01",
+      "sourceUrl": "https://www.cgccards.com/certlookup/6021634274/10_0/",
+      "status": "imported",
+      "images": "front-and-back",
+      "requestBatch": "earlier-queued-case-01"
+    },
+    {
+      "cert": "6025099060",
+      "grader": "CGC",
+      "kind": "card",
+      "containerId": "case-01",
+      "sourceUrl": "https://www.cgccards.com/certlookup/6025099060/9_0/",
+      "status": "imported",
+      "images": "front-and-back",
+      "requestBatch": "earlier-queued-case-01"
+    },
+    {
+      "cert": "6025067013",
+      "grader": "CGC",
+      "kind": "card",
+      "containerId": "case-01",
+      "sourceUrl": "https://www.cgccards.com/certlookup/6025067013/9_5/",
+      "status": "imported",
+      "images": "front-and-back",
+      "requestBatch": "earlier-queued-case-01"
+    },
+    {
+      "cert": "6032717240",
+      "grader": "CGC",
+      "kind": "card",
+      "containerId": "case-01",
+      "sourceUrl": "https://www.cgccards.com/certlookup/6032717240/10_0/",
+      "status": "imported",
+      "images": "front-and-back",
+      "requestBatch": "earlier-queued-case-01"
+    },
+    {
+      "cert": "4561341007",
+      "grader": "CGC",
+      "kind": "comic",
+      "containerId": "02",
+      "position": "first",
+      "sourceUrl": "https://www.cgccomics.com/certlookup/4561341007/9_0/",
+      "status": "imported",
+      "images": "front-and-back",
+      "requestBatch": "latest-bin-02"
+    }
+  ]
+}

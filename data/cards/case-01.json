@@ -2,9 +2,9 @@
   "id": "case-01",
   "kind": "card",
   "title": "Case #1",
+  "location": "Case #1",
   "physical": true,
   "virtual": false,
-  "location": "Case #1",
   "cards": [
     {
       "kind": "card",
@@ -9204,6 +9204,1322 @@
             "originalFile": "data/originals/TAG_E1992795_BACK.jpg",
             "originalSha256": "20b97b5a0ab864b6cdc48db440a61245500e86a6f84693a93e7b35f61d9ad4e1"
           }
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "grader": "PSA",
+      "cert": "75738340",
+      "certUrl": "https://www.psacard.com/cert/75738340/psa",
+      "subject": "FLAREON-REV.FOIL",
+      "year": "2013",
+      "brand": "POKEMON BLACK & WHITE PLASMA FREEZE",
+      "cardNumber": "12",
+      "variety": "PLASMA FREEZE",
+      "category": "TCG CARDS",
+      "grade": "8",
+      "gradeDescription": "NM-MT",
+      "holder": "slab",
+      "location": null,
+      "valuation": null,
+      "fmv": {
+        "value": 103,
+        "source": "psa-cert-page",
+        "currency": "USD",
+        "asOf": "2026-09-23",
+        "url": "https://www.psacard.com/cert/75738340/psa",
+        "status": "recorded"
+      },
+      "population": {
+        "atGrade": 54,
+        "higher": 37,
+        "total": null,
+        "asOf": "2026-09-23",
+        "source": "PSA",
+        "url": "https://www.psacard.com/cert/75738340/psa"
+      },
+      "images": {
+        "front": "PSA_75738340_FRONT.jpg",
+        "back": "PSA_75738340_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/2026-09-23-case-01-psa-captures.json",
+        "pageUrl": "https://www.psacard.com/cert/75738340/psa",
+        "capturedAt": "2026-09-23T04:27:56.079Z",
+        "importedAt": "2026-09-23T04:32:37.044Z"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/139950604/small/HJzwjjakdE2gHS19N6Juzg.jpg",
+          "pageUrl": "https://www.psacard.com/cert/75738340/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:27:56.079Z",
+          "retrievedAt": "2026-09-23T04:32:39.705Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 380,
+          "originalHeight": 635,
+          "sha256": "ef78f87b065d72ee9ebf5f1bab02d26ed6ffdb69aafec08dfb9324f35ae0c214"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/139950604/small/PK2Q_HcSMUW0MSGCj3BcSQ.jpg",
+          "pageUrl": "https://www.psacard.com/cert/75738340/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:27:56.079Z",
+          "retrievedAt": "2026-09-23T04:32:41.278Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 380,
+          "originalHeight": 637,
+          "sha256": "1bc194c329198771057426b630b9293ba961e7d19b27be5e74e483d4f6410263"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "grader": "PSA",
+      "cert": "65424083",
+      "certUrl": "https://www.psacard.com/cert/65424083/psa",
+      "subject": "SHOHEI OHTANI",
+      "year": "2018",
+      "brand": "TOPPS UPDATE",
+      "cardNumber": "US1",
+      "variety": null,
+      "category": "BASEBALL CARDS",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "holder": "slab",
+      "location": null,
+      "valuation": null,
+      "fmv": {
+        "value": 187,
+        "source": "psa-cert-page",
+        "currency": "USD",
+        "asOf": "2026-09-23",
+        "url": "https://www.psacard.com/cert/65424083/psa",
+        "status": "recorded"
+      },
+      "population": {
+        "atGrade": 10431,
+        "higher": 17333,
+        "total": null,
+        "asOf": "2026-09-23",
+        "source": "PSA",
+        "url": "https://www.psacard.com/cert/65424083/psa"
+      },
+      "images": {},
+      "scanStatus": "no-scans-on-cert-page",
+      "scanCheckedAt": "2026-09-23T04:32:37.076Z",
+      "scanReview": {
+        "scrolled": true,
+        "rechecked": true,
+        "checkedAt": "2026-09-23T04:28:33.643Z",
+        "notes": "Inspected hero, scrolled to sales section, returned to heading and rechecked; no cert scans present."
+      },
+      "importSource": {
+        "file": "data/incoming/2026-09-23-case-01-psa-captures.json",
+        "pageUrl": "https://www.psacard.com/cert/65424083/psa",
+        "capturedAt": "2026-09-23T04:28:33.643Z",
+        "importedAt": "2026-09-23T04:32:37.044Z"
+      },
+      "imageSources": {}
+    },
+    {
+      "kind": "card",
+      "grader": "PSA",
+      "cert": "112357836",
+      "certUrl": "https://www.psacard.com/cert/112357836/psa",
+      "subject": "MACHAMP-HOLO",
+      "year": "1999",
+      "brand": "POKEMON GAME",
+      "cardNumber": "8",
+      "variety": "1ST EDITION-SHADOWLESS",
+      "category": "TCG CARDS",
+      "grade": "3",
+      "gradeDescription": "VG",
+      "holder": "slab",
+      "location": null,
+      "valuation": null,
+      "fmv": {
+        "value": 56,
+        "source": "psa-cert-page",
+        "currency": "USD",
+        "asOf": "2026-09-23",
+        "url": "https://www.psacard.com/cert/112357836/psa",
+        "status": "recorded"
+      },
+      "population": {
+        "atGrade": 455,
+        "higher": 7005,
+        "total": null,
+        "asOf": "2026-09-23",
+        "source": "PSA",
+        "url": "https://www.psacard.com/cert/112357836/psa"
+      },
+      "images": {
+        "front": "PSA_112357836_FRONT.jpg",
+        "back": "PSA_112357836_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/2026-09-23-case-01-psa-captures.json",
+        "pageUrl": "https://www.psacard.com/cert/112357836/psa",
+        "capturedAt": "2026-09-23T04:28:44.932Z",
+        "importedAt": "2026-09-23T04:32:37.044Z"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/177903147/small/kTrUCedqs0KqsIQfI7VZXA.jpg",
+          "pageUrl": "https://www.psacard.com/cert/112357836/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:28:44.932Z",
+          "retrievedAt": "2026-09-23T04:32:42.840Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 380,
+          "originalHeight": 635,
+          "sha256": "16e1b72bedcf1d851bff5e009b243c8bddf5cffca646e6b3fd4dbb57f40ba024"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/177903147/small/puNJizmNp0WTWVDddAWaIA.jpg",
+          "pageUrl": "https://www.psacard.com/cert/112357836/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:28:44.932Z",
+          "retrievedAt": "2026-09-23T04:32:44.401Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 380,
+          "originalHeight": 649,
+          "sha256": "35071b96ad9731969d0bcce7f7bdf672dfb15324195a6e5be6e811618c60ef80"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "grader": "PSA",
+      "cert": "139855937",
+      "certUrl": "https://www.psacard.com/cert/139855937/psa",
+      "subject": "SNOVER",
+      "year": "2025",
+      "brand": "POKEMON MEG EN-MEGA EVOLUTION",
+      "cardNumber": "140",
+      "variety": "ILLUSTRATION RARE",
+      "category": "TCG CARDS",
+      "grade": "10",
+      "gradeDescription": "GEM MT",
+      "holder": "slab",
+      "location": null,
+      "valuation": null,
+      "fmv": {
+        "value": 31,
+        "source": "psa-cert-page",
+        "currency": "USD",
+        "asOf": "2026-09-23",
+        "url": "https://www.psacard.com/cert/139855937/psa",
+        "status": "recorded"
+      },
+      "population": {
+        "atGrade": 1368,
+        "higher": 0,
+        "total": null,
+        "asOf": "2026-09-23",
+        "source": "PSA",
+        "url": "https://www.psacard.com/cert/139855937/psa"
+      },
+      "images": {
+        "front": "PSA_139855937_FRONT.jpg",
+        "back": "PSA_139855937_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/2026-09-23-case-01-psa-captures.json",
+        "pageUrl": "https://www.psacard.com/cert/139855937/psa",
+        "capturedAt": "2026-09-23T04:28:55.672Z",
+        "importedAt": "2026-09-23T04:32:37.044Z"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/194810733/small/Hr5eUrRjoEyx5RWD05VDew.jpg",
+          "pageUrl": "https://www.psacard.com/cert/139855937/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:28:55.672Z",
+          "retrievedAt": "2026-09-23T04:32:45.984Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 380,
+          "originalHeight": 638,
+          "sha256": "8ace8051da04c7812226ac6a52fa198ea865edb3c2e35aab1921f2162897f45d"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/194810733/small/FRUvylfrrEi9UlfOSxE_UA.jpg",
+          "pageUrl": "https://www.psacard.com/cert/139855937/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:28:55.672Z",
+          "retrievedAt": "2026-09-23T04:32:47.540Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 380,
+          "originalHeight": 639,
+          "sha256": "e29a32eb0e1b40f6b5cf26cb16183d7aea299310d27b147a0efb97098c131be5"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "grader": "PSA",
+      "cert": "138607533",
+      "certUrl": "https://www.psacard.com/cert/138607533/psa",
+      "subject": "UMBREON-GOLD STAR",
+      "year": "2021",
+      "brand": "POKEMON CELEBRATIONS CLASSIC COLLECTION",
+      "cardNumber": "17",
+      "variety": "CLASSIC COLL-POP SERIES 5",
+      "category": "TCG CARDS",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "holder": "slab",
+      "location": null,
+      "valuation": null,
+      "fmv": {
+        "value": 105,
+        "source": "psa-cert-page",
+        "currency": "USD",
+        "asOf": "2026-09-23",
+        "url": "https://www.psacard.com/cert/138607533/psa",
+        "status": "recorded"
+      },
+      "population": {
+        "atGrade": 14664,
+        "higher": 19958,
+        "total": null,
+        "asOf": "2026-09-23",
+        "source": "PSA",
+        "url": "https://www.psacard.com/cert/138607533/psa"
+      },
+      "images": {
+        "front": "PSA_138607533_FRONT.jpg",
+        "back": "PSA_138607533_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/2026-09-23-case-01-psa-captures.json",
+        "pageUrl": "https://www.psacard.com/cert/138607533/psa",
+        "capturedAt": "2026-09-23T04:29:04.850Z",
+        "importedAt": "2026-09-23T04:32:37.044Z"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/193875056/small/opogy7NwgUqbDN08qmxxHA.jpg",
+          "pageUrl": "https://www.psacard.com/cert/138607533/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:29:04.850Z",
+          "retrievedAt": "2026-09-23T04:32:49.100Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 380,
+          "originalHeight": 639,
+          "sha256": "5f6b2125fb85d6c6f908bbea953e6422d05b551d1bafb7ca2c48b54f56852c78"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/193875056/small/2o4-dBR2R0mkQYBh-bcAFQ.jpg",
+          "pageUrl": "https://www.psacard.com/cert/138607533/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:29:04.850Z",
+          "retrievedAt": "2026-09-23T04:32:50.654Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 380,
+          "originalHeight": 637,
+          "sha256": "c41a44554a6856e7e34dda29f087079ad65c9ae97997cab6ba81687dc6909b8e"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "grader": "PSA",
+      "cert": "107736899",
+      "certUrl": "https://www.psacard.com/cert/107736899/psa",
+      "subject": "TERAPAGOS EX",
+      "year": "2024",
+      "brand": "POKEMON SVP EN-SV BLACK STAR PROMO",
+      "cardNumber": "165",
+      "variety": "ULTRA-PREMIUM COLLECTION",
+      "category": "TCG CARDS",
+      "grade": "10",
+      "gradeDescription": "GEM MT",
+      "holder": "slab",
+      "location": null,
+      "valuation": null,
+      "fmv": {
+        "value": 61,
+        "source": "psa-cert-page",
+        "currency": "USD",
+        "asOf": "2026-09-23",
+        "url": "https://www.psacard.com/cert/107736899/psa",
+        "status": "recorded"
+      },
+      "population": {
+        "atGrade": 584,
+        "higher": 0,
+        "total": null,
+        "asOf": "2026-09-23",
+        "source": "PSA",
+        "url": "https://www.psacard.com/cert/107736899/psa"
+      },
+      "images": {
+        "front": "PSA_107736899_FRONT.jpg",
+        "back": "PSA_107736899_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/2026-09-23-case-01-psa-captures.json",
+        "pageUrl": "https://www.psacard.com/cert/107736899/psa",
+        "capturedAt": "2026-09-23T04:29:13.742Z",
+        "importedAt": "2026-09-23T04:32:37.044Z"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/174823014/small/YBhWnw4pCke5WYT71yfM9A.jpg",
+          "pageUrl": "https://www.psacard.com/cert/107736899/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:29:13.742Z",
+          "retrievedAt": "2026-09-23T04:32:52.231Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 380,
+          "originalHeight": 636,
+          "sha256": "bce6905ffe9d872acfaf5731cf6417b58de4754f6fb1f61b7ab71ef1edcf4773"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/174823014/small/mDEJZ-pPlECi30z5amDwtQ.jpg",
+          "pageUrl": "https://www.psacard.com/cert/107736899/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:29:13.742Z",
+          "retrievedAt": "2026-09-23T04:32:53.789Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 380,
+          "originalHeight": 633,
+          "sha256": "a10c05bd637440214d0b855b4bda39866e3677f771c32cdd9d6e97b2b0319de2"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "grader": "PSA",
+      "cert": "127311782",
+      "certUrl": "https://www.psacard.com/cert/127311782/psa",
+      "subject": "DEWOTT",
+      "year": "2025",
+      "brand": "POKEMON WHT EN-WHITE FLARE",
+      "cardNumber": "106",
+      "variety": "ILLUSTRATION RARE",
+      "category": "TCG CARDS",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "holder": "slab",
+      "location": null,
+      "valuation": null,
+      "fmv": {
+        "value": 30,
+        "source": "psa-cert-page",
+        "currency": "USD",
+        "asOf": "2026-09-23",
+        "url": "https://www.psacard.com/cert/127311782/psa",
+        "status": "recorded"
+      },
+      "population": {
+        "atGrade": 304,
+        "higher": 51,
+        "total": null,
+        "asOf": "2026-09-23",
+        "source": "PSA",
+        "url": "https://www.psacard.com/cert/127311782/psa"
+      },
+      "images": {
+        "front": "PSA_127311782_FRONT.jpg",
+        "back": "PSA_127311782_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/2026-09-23-case-01-psa-captures.json",
+        "pageUrl": "https://www.psacard.com/cert/127311782/psa",
+        "capturedAt": "2026-09-23T04:29:26.956Z",
+        "importedAt": "2026-09-23T04:32:37.044Z"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/187206930/small/CyxcIJOk70e9SuxYrp8poQ_ed52d.jpg",
+          "pageUrl": "https://www.psacard.com/cert/127311782/psa",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:29:26.956Z",
+          "retrievedAt": "2026-09-23T04:32:55.370Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 380,
+          "originalHeight": 635,
+          "sha256": "bd35f85cf769b6c81e111214c5b87ce5cbabc3725ed000b3691f82ea6e27111e"
+        },
+        "back": {
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/187206930/small/9Irl9_qySEC8vGUQfIRSpA.jpg",
+          "pageUrl": "https://www.psacard.com/cert/127311782/psa",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:29:26.956Z",
+          "retrievedAt": "2026-09-23T04:32:56.957Z",
+          "sideBasis": "PSA cert viewer: image 1 front, image 2 reverse",
+          "originalWidth": 380,
+          "originalHeight": 639,
+          "sha256": "4309c3146f35376792ad94dd33aea694df4c5a76709f26496b312948da374d92"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "grader": "CGC",
+      "cert": "1401036680181",
+      "subject": "Quilava",
+      "year": "1999",
+      "brand": "Neo Premium File",
+      "category": "Pokémon",
+      "language": "Japanese",
+      "cardNumber": null,
+      "variety": null,
+      "grade": "9.5",
+      "gradeDescription": "MINT+",
+      "gradeDate": "2024-06-27",
+      "holder": "slab",
+      "certUrl": "https://www.cgccards.com/certlookup/1401036680181/9_5/",
+      "population": {
+        "atGrade": 119,
+        "higher": 903,
+        "asOf": "2026-09-23",
+        "source": "CGC Cards",
+        "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/neo/744/neo-premium-file/15985/?populationID=516167"
+      },
+      "valuation": null,
+      "cgc": {
+        "gradeText": "MINT+ 9.5",
+        "lookupGrade": "9.5",
+        "gradeChangedFromLookup": false,
+        "fields": {
+          "Cert #": "1401036680181",
+          "Card Name": "Quilava",
+          "Game": "Pokémon",
+          "Year": "1999",
+          "Language": "Japanese",
+          "Card Set": "Neo Premium File",
+          "Grade": "MINT+ 9.5",
+          "Grade Date": "2024-06-27"
+        },
+        "sourceUrl": "https://www.cgccards.com/certlookup/1401036680181/9_5/",
+        "capturedAt": "2026-09-23T04:38:50.149Z",
+        "scanOrientation": {
+          "reversed": false,
+          "basis": "CGC Cards viewer labels: Obverse / Reverse"
+        }
+      },
+      "images": {
+        "front": "CGC_1401036680181_FRONT.jpg",
+        "back": "CGC_1401036680181_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/2026-09-23-case-01-cgc-captures.json",
+        "importedAt": "2026-09-23T04:40:10.314Z",
+        "capturedAt": "2026-09-23T04:38:50.149Z",
+        "pageUrl": "https://www.cgccards.com/certlookup/1401036680181/9_5/"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/81c56921-29b3-486a-8f54-6b0340b97856/CSG1401036680-181_OBV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/1401036680181/9_5/",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:38:50.149Z",
+          "retrievedAt": "2026-09-23T04:40:14.109Z",
+          "sideBasis": "CGC Cards viewer labels: Obverse / Reverse",
+          "sourceSide": "Obverse",
+          "visuallyReversed": false,
+          "originalWidth": 2082,
+          "originalHeight": 3398,
+          "sha256": "820c15ec3493925141b6489f75dabe394f14c1c0ef533b450d69cf3fe6439731",
+          "originalFile": "data/originals/CGC_1401036680181_FRONT.jpg",
+          "originalSha256": "1d234c75994c427497ea0fffacc19e3683eea50c7065fb1e07c5260a94965a81"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/81c56921-29b3-486a-8f54-6b0340b97856/CSG1401036680-181_REV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/1401036680181/9_5/",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:38:50.149Z",
+          "retrievedAt": "2026-09-23T04:40:16.417Z",
+          "sideBasis": "CGC Cards viewer labels: Obverse / Reverse",
+          "sourceSide": "Reverse",
+          "visuallyReversed": false,
+          "originalWidth": 2082,
+          "originalHeight": 3398,
+          "sha256": "dfd9061fb112452d09a605861f236d7a90ea5eec0e8553184c8c65b2bb7297be",
+          "originalFile": "data/originals/CGC_1401036680181_BACK.jpg",
+          "originalSha256": "59f50639b57dec434c341071cfcd0bd35a1293b0d925af8f3308b72a3f0bdf47"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "grader": "CGC",
+      "cert": "1401011131203",
+      "subject": "Cacturne",
+      "year": "2003",
+      "brand": "Advanced",
+      "category": "Pokémon Topps",
+      "language": "English",
+      "cardNumber": "21",
+      "variety": "Silver Foil",
+      "grade": "9",
+      "gradeDescription": null,
+      "gradeDate": "2023-11-28",
+      "holder": "slab",
+      "certUrl": "https://www.cgccards.com/certlookup/1401011131203/9_0/",
+      "population": {
+        "atGrade": 4,
+        "higher": 0,
+        "asOf": "2026-09-23",
+        "source": "CGC Cards",
+        "url": "https://www.cgccards.com/population-report/non-sports/pok%C3%A9mon-topps/61/advanced-series/7/advanced/77/?populationID=806464"
+      },
+      "valuation": null,
+      "cgc": {
+        "gradeText": "9",
+        "lookupGrade": "9.0",
+        "gradeChangedFromLookup": false,
+        "fields": {
+          "Cert #": "1401011131203",
+          "Card Name": "Cacturne",
+          "Game": "Pokémon Topps",
+          "Year": "2003",
+          "Language": "English",
+          "Card Set": "Advanced",
+          "Card Number": "21",
+          "Variant 1": "Silver Foil",
+          "Grade": "9",
+          "Grade Date": "2023-11-28"
+        },
+        "sourceUrl": "https://www.cgccards.com/certlookup/1401011131203/9_0/",
+        "capturedAt": "2026-09-23T04:38:59.235Z",
+        "scanOrientation": {
+          "reversed": false,
+          "basis": "CGC Cards viewer labels: Obverse / Reverse"
+        }
+      },
+      "images": {
+        "front": "CGC_1401011131203_FRONT.jpg",
+        "back": "CGC_1401011131203_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/2026-09-23-case-01-cgc-captures.json",
+        "importedAt": "2026-09-23T04:40:10.314Z",
+        "capturedAt": "2026-09-23T04:38:59.235Z",
+        "pageUrl": "https://www.cgccards.com/certlookup/1401011131203/9_0/"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/7fbf899b-0712-44f8-8377-4dc44b2c7768/CRD1401011131-203_OBV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/1401011131203/9_0/",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:38:59.235Z",
+          "retrievedAt": "2026-09-23T04:40:18.485Z",
+          "sideBasis": "CGC Cards viewer labels: Obverse / Reverse",
+          "sourceSide": "Obverse",
+          "visuallyReversed": false,
+          "originalWidth": 1949,
+          "originalHeight": 3294,
+          "sha256": "ac278db3aad9b28166a7e858895c838de985ab8312d97a12d33752270e883785",
+          "originalFile": "data/originals/CGC_1401011131203_FRONT.jpg",
+          "originalSha256": "432d9a54be154f4dfdc4dcfacbb81e99fb3f1d2ed87326a4d5c6e1cf3190f5b5"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/7fbf899b-0712-44f8-8377-4dc44b2c7768/CRD1401011131-203_REV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/1401011131203/9_0/",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:38:59.235Z",
+          "retrievedAt": "2026-09-23T04:40:20.617Z",
+          "sideBasis": "CGC Cards viewer labels: Obverse / Reverse",
+          "sourceSide": "Reverse",
+          "visuallyReversed": false,
+          "originalWidth": 1978,
+          "originalHeight": 3304,
+          "sha256": "74a22343fa1bbb52f561249eceb905a232d797daebac0d95ef3adac0d2326cda",
+          "originalFile": "data/originals/CGC_1401011131203_BACK.jpg",
+          "originalSha256": "5990c33e07236ca2fc8cfa8cc087ce257740d4f483f2d53c228d408fd4864abb"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "grader": "CGC",
+      "cert": "1401011392237",
+      "subject": "Mankey",
+      "year": "2008",
+      "brand": "Great Encounters",
+      "category": "Pokémon",
+      "language": "English",
+      "cardNumber": "79/106",
+      "variety": "Reverse Holo",
+      "grade": "9.5",
+      "gradeDescription": "MINT+",
+      "gradeDate": "2023-11-01",
+      "holder": "slab",
+      "certUrl": "https://www.cgccards.com/certlookup/1401011392237/9_5/",
+      "population": {
+        "atGrade": 4,
+        "higher": 31,
+        "asOf": "2026-09-23",
+        "source": "CGC Cards",
+        "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/diamond-and-pearl/1079/great-encounters/15589/?populationID=483910"
+      },
+      "valuation": null,
+      "cgc": {
+        "gradeText": "MINT+ 9.5",
+        "lookupGrade": "9.5",
+        "gradeChangedFromLookup": false,
+        "fields": {
+          "Cert #": "1401011392237",
+          "Card Name": "Mankey",
+          "Game": "Pokémon",
+          "Year": "2008",
+          "Language": "English",
+          "Card Set": "Great Encounters",
+          "Card Number": "79/106",
+          "Variant 1": "Reverse Holo",
+          "Grade": "MINT+ 9.5",
+          "Grade Date": "2023-11-01"
+        },
+        "sourceUrl": "https://www.cgccards.com/certlookup/1401011392237/9_5/",
+        "capturedAt": "2026-09-23T04:39:08.093Z",
+        "scanOrientation": {
+          "reversed": false,
+          "basis": "CGC Cards viewer labels: Obverse / Reverse"
+        }
+      },
+      "images": {
+        "front": "CGC_1401011392237_FRONT.jpg",
+        "back": "CGC_1401011392237_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/2026-09-23-case-01-cgc-captures.json",
+        "importedAt": "2026-09-23T04:40:10.314Z",
+        "capturedAt": "2026-09-23T04:39:08.093Z",
+        "pageUrl": "https://www.cgccards.com/certlookup/1401011392237/9_5/"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-csg-cards-production.s3.amazonaws.com/b4c4e27a-5191-457e-a0d5-ee0812d63bd5/CSG1401011392-237_OBV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/1401011392237/9_5/",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:39:08.093Z",
+          "retrievedAt": "2026-09-23T04:40:23.340Z",
+          "sideBasis": "CGC Cards viewer labels: Obverse / Reverse",
+          "sourceSide": "Obverse",
+          "visuallyReversed": false,
+          "originalWidth": 2101,
+          "originalHeight": 3531,
+          "sha256": "dbebe3b73ab77204ec252eec0145233c8649b0fd7c87fb89537dcf4531e5929b",
+          "originalFile": "data/originals/CGC_1401011392237_FRONT.jpg",
+          "originalSha256": "dbd008c89a7826ab917bcbb5fafbbdf244052e97aa409c05df79f7087af63892"
+        },
+        "back": {
+          "url": "https://ccg-imaging-csg-cards-production.s3.amazonaws.com/b4c4e27a-5191-457e-a0d5-ee0812d63bd5/CSG1401011392-237_REV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/1401011392237/9_5/",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:39:08.093Z",
+          "retrievedAt": "2026-09-23T04:40:25.601Z",
+          "sideBasis": "CGC Cards viewer labels: Obverse / Reverse",
+          "sourceSide": "Reverse",
+          "visuallyReversed": false,
+          "originalWidth": 2101,
+          "originalHeight": 3531,
+          "sha256": "518c386a33e3a416646fae60bb5bc28d589da0ad2968cb9ca78c8cdcacf4cffe",
+          "originalFile": "data/originals/CGC_1401011392237_BACK.jpg",
+          "originalSha256": "a5517eda727b617ccdbfb5d15e164f04fd73823c82e661a94350dff5fe1d369a"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "grader": "CGC",
+      "cert": "6042459106",
+      "subject": "Dodrio",
+      "year": "1997",
+      "brand": "Promotional Cards",
+      "category": "Pokémon Meiji",
+      "language": "Japanese",
+      "cardNumber": null,
+      "variety": "Foil",
+      "grade": "7.5",
+      "gradeDescription": null,
+      "gradeDate": "2025-05-16",
+      "holder": "slab",
+      "certUrl": "https://www.cgccards.com/certlookup/6042459106/7_5/",
+      "population": {
+        "atGrade": 1,
+        "higher": 5,
+        "asOf": "2026-09-23",
+        "source": "CGC Cards",
+        "url": "https://www.cgccards.com/population-report/non-sports/pok%C3%A9mon-meiji/65/all/165/promotional-cards-1997-type.hp.hand-symbol/110/?populationID=1523783"
+      },
+      "valuation": null,
+      "cgc": {
+        "gradeText": "7.5",
+        "lookupGrade": "7.5",
+        "gradeChangedFromLookup": false,
+        "fields": {
+          "Cert #": "6042459106",
+          "Card Name": "Dodrio",
+          "Game": "Pokémon Meiji",
+          "Year": "1997",
+          "Language": "Japanese",
+          "Card Set": "Promotional Cards",
+          "Variant 1": "Foil",
+          "Grade": "7.5",
+          "Grade Date": "2025-05-16"
+        },
+        "sourceUrl": "https://www.cgccards.com/certlookup/6042459106/7_5/",
+        "capturedAt": "2026-09-23T04:39:18.868Z",
+        "scanOrientation": {
+          "reversed": false,
+          "basis": "CGC Cards viewer labels: Obverse / Reverse"
+        }
+      },
+      "images": {
+        "front": "CGC_6042459106_FRONT.jpg",
+        "back": "CGC_6042459106_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/2026-09-23-case-01-cgc-captures.json",
+        "importedAt": "2026-09-23T04:40:10.314Z",
+        "capturedAt": "2026-09-23T04:39:18.868Z",
+        "pageUrl": "https://www.cgccards.com/certlookup/6042459106/7_5/"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17477475-519f-4c8b-876f-9684953d32b8/CAR6042459-106_OBV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/6042459106/7_5/",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:39:18.868Z",
+          "retrievedAt": "2026-09-23T04:40:27.976Z",
+          "sideBasis": "CGC Cards viewer labels: Obverse / Reverse",
+          "sourceSide": "Obverse",
+          "visuallyReversed": false,
+          "originalWidth": 2082,
+          "originalHeight": 3417,
+          "sha256": "51af280eff60f6bc419fbd86ac1fc4565ca799532dad5528f4ae9fe513db647b",
+          "originalFile": "data/originals/CGC_6042459106_FRONT.jpg",
+          "originalSha256": "bb08ec5575430a9d22285cef1ec109ef5695f59d9f28c8d4a6bad22a92668e46"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17477475-519f-4c8b-876f-9684953d32b8/CAR6042459-106_REV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/6042459106/7_5/",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:39:18.868Z",
+          "retrievedAt": "2026-09-23T04:40:29.958Z",
+          "sideBasis": "CGC Cards viewer labels: Obverse / Reverse",
+          "sourceSide": "Reverse",
+          "visuallyReversed": false,
+          "originalWidth": 2082,
+          "originalHeight": 3417,
+          "sha256": "844f4ba954f9c804524fac2abe37fbcd7160dc6a6b7d82159a6fc925a5b9d0ab",
+          "originalFile": "data/originals/CGC_6042459106_BACK.jpg",
+          "originalSha256": "db0b722f34c69bd9dc7f79fff4524eed38d889fd604578f186fe6a1cfa8cc863"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "grader": "CGC",
+      "cert": "6034330274",
+      "subject": "Shohei Ohtani",
+      "year": "2024",
+      "brand": "Topps 50/50",
+      "category": "Baseball",
+      "language": null,
+      "cardNumber": "34",
+      "variety": null,
+      "grade": "10",
+      "gradeDescription": "GEM MINT",
+      "gradeDate": "2025-03-11",
+      "holder": "slab",
+      "certUrl": "https://www.cgccards.com/certlookup/6034330274/10_0/",
+      "population": {
+        "atGrade": 685,
+        "higher": 10,
+        "asOf": "2026-09-23",
+        "source": "CGC Cards",
+        "url": "https://www.cgccards.com/population-report/sports/baseball/1/2020-present/13/2024-topps-50-50-shohei-ohtani/43323/?populationID=16342606"
+      },
+      "valuation": null,
+      "cgc": {
+        "gradeText": "GEM MINT 10",
+        "lookupGrade": "10.0",
+        "gradeChangedFromLookup": false,
+        "fields": {
+          "Cert #": "6034330274",
+          "Year": "2024",
+          "Manufacturer": "Topps",
+          "Card Set": "50/50",
+          "Card Number": "34",
+          "Player Name": "Shohei Ohtani",
+          "Grade": "GEM MINT 10",
+          "Grade Date": "2025-03-11"
+        },
+        "sourceUrl": "https://www.cgccards.com/certlookup/6034330274/10_0/",
+        "capturedAt": "2026-09-23T04:41:46.046Z",
+        "scanOrientation": {
+          "reversed": false,
+          "basis": "CGC Cards viewer labels: Obverse / Reverse"
+        },
+        "normalization": {
+          "subject": "Player Name",
+          "category": "CGC population URL sports category",
+          "brand": "Manufacturer plus Card Set, with empty set omitted",
+          "language": "Not supplied by cert page; stored as null"
+        }
+      },
+      "images": {
+        "front": "CGC_6034330274_FRONT.jpg",
+        "back": "CGC_6034330274_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/2026-09-23-case-01-backlog-cgc-captures.json",
+        "importedAt": "2026-09-23T04:43:28.622Z",
+        "capturedAt": "2026-09-23T04:41:46.046Z",
+        "pageUrl": "https://www.cgccards.com/certlookup/6034330274/10_0/"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17424981-0433-4c0d-aeee-41f04ac74656/CAR6034330-274_OBV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/6034330274/10_0/",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:41:46.046Z",
+          "retrievedAt": "2026-09-23T04:43:31.771Z",
+          "sideBasis": "CGC Cards viewer labels: Obverse / Reverse",
+          "sourceSide": "Obverse",
+          "visuallyReversed": false,
+          "originalWidth": 1959,
+          "originalHeight": 3245,
+          "sha256": "bc5c7c43d045d292f322238c5986db35ea901e621cc5dffc545fb2fb15cb763f",
+          "originalFile": "data/originals/CGC_6034330274_FRONT.jpg",
+          "originalSha256": "a5e0d40f397d36d36618731c719c070ed175f2205bf4d7111050e91b8ed4a9e4"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17424981-0433-4c0d-aeee-41f04ac74656/CAR6034330-274_REV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/6034330274/10_0/",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:41:46.046Z",
+          "retrievedAt": "2026-09-23T04:43:33.665Z",
+          "sideBasis": "CGC Cards viewer labels: Obverse / Reverse",
+          "sourceSide": "Reverse",
+          "visuallyReversed": false,
+          "originalWidth": 1959,
+          "originalHeight": 3245,
+          "sha256": "003fd006daecfc85f9442fe7f090bc66055857fd0fab8047b3afe32aabe1833d",
+          "originalFile": "data/originals/CGC_6034330274_BACK.jpg",
+          "originalSha256": "d76ee0ad8b1dd4b75ad1ee756ec2a6e799b37e1baeb9071f6c450bf7e34bcc78"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "grader": "CGC",
+      "cert": "6021634274",
+      "subject": "Machamp",
+      "year": "2017",
+      "brand": "Guardians Rising",
+      "category": "Pokémon",
+      "language": "English",
+      "cardNumber": "65/145",
+      "variety": "2 Mini-Pack Blister",
+      "grade": "10",
+      "gradeDescription": "GEM MINT",
+      "gradeDate": "2025-01-23",
+      "holder": "slab",
+      "certUrl": "https://www.cgccards.com/certlookup/6021634274/10_0/",
+      "population": {
+        "atGrade": 1217,
+        "higher": 206,
+        "asOf": "2026-09-23",
+        "source": "CGC Cards",
+        "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/sun-and-moon/675/guardians-rising/19482/?populationID=2041122"
+      },
+      "valuation": null,
+      "cgc": {
+        "gradeText": "GEM MINT 10",
+        "lookupGrade": "10.0",
+        "gradeChangedFromLookup": false,
+        "fields": {
+          "Cert #": "6021634274",
+          "Card Name": "Machamp",
+          "Game": "Pokémon",
+          "Year": "2017",
+          "Language": "English",
+          "Card Set": "Guardians Rising",
+          "Card Number": "65/145",
+          "Variant 1": "2 Mini-Pack Blister",
+          "Grade": "GEM MINT 10",
+          "Grade Date": "2025-01-23"
+        },
+        "sourceUrl": "https://www.cgccards.com/certlookup/6021634274/10_0/",
+        "capturedAt": "2026-09-23T04:41:55.276Z",
+        "scanOrientation": {
+          "reversed": false,
+          "basis": "CGC Cards viewer labels: Obverse / Reverse"
+        }
+      },
+      "images": {
+        "front": "CGC_6021634274_FRONT.jpg",
+        "back": "CGC_6021634274_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/2026-09-23-case-01-backlog-cgc-captures.json",
+        "importedAt": "2026-09-23T04:43:28.622Z",
+        "capturedAt": "2026-09-23T04:41:55.276Z",
+        "pageUrl": "https://www.cgccards.com/certlookup/6021634274/10_0/"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17379836-375c-48f9-a4b1-6f32a36147f5/CAR6021634-274_OBV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/6021634274/10_0/",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:41:55.276Z",
+          "retrievedAt": "2026-09-23T04:43:35.643Z",
+          "sideBasis": "CGC Cards viewer labels: Obverse / Reverse",
+          "sourceSide": "Obverse",
+          "visuallyReversed": false,
+          "originalWidth": 1987,
+          "originalHeight": 3304,
+          "sha256": "4ccedb27fe505a220b17ef6d3a1019b7874bd2fb4deb3fc2afe7c8b245d87b5e",
+          "originalFile": "data/originals/CGC_6021634274_FRONT.jpg",
+          "originalSha256": "2181218224e5ad75ab4db27ae312b109aa9f459ccd7db7ea4824505ef93c674b"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17379836-375c-48f9-a4b1-6f32a36147f5/CAR6021634-274_REV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/6021634274/10_0/",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:41:55.276Z",
+          "retrievedAt": "2026-09-23T04:43:37.643Z",
+          "sideBasis": "CGC Cards viewer labels: Obverse / Reverse",
+          "sourceSide": "Reverse",
+          "visuallyReversed": false,
+          "originalWidth": 1987,
+          "originalHeight": 3304,
+          "sha256": "4e819c9d3ea85622fa384f6252149f7d6e0a86bba65fc07a91c1488e3e2308f0",
+          "originalFile": "data/originals/CGC_6021634274_BACK.jpg",
+          "originalSha256": "5aa1aab85c316b047a60a92ba592cc48e62f9b80fe91c8f820285067ad4ebb95"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "grader": "CGC",
+      "cert": "6025099060",
+      "subject": "Dalton Kincaid",
+      "year": "2023",
+      "brand": "Donruss",
+      "category": "Football",
+      "language": null,
+      "cardNumber": "308",
+      "variety": null,
+      "grade": "9",
+      "gradeDescription": null,
+      "gradeDate": "2025-01-29",
+      "holder": "slab",
+      "certUrl": "https://www.cgccards.com/certlookup/6025099060/9_0/",
+      "population": {
+        "atGrade": 310,
+        "higher": 847,
+        "asOf": "2026-09-23",
+        "source": "CGC Cards",
+        "url": "https://www.cgccards.com/population-report/sports/football/5/2020-present/59/2023-donruss-donruss/39697/?populationID=13620543"
+      },
+      "valuation": null,
+      "cgc": {
+        "gradeText": "9",
+        "lookupGrade": "9.0",
+        "gradeChangedFromLookup": false,
+        "fields": {
+          "Cert #": "6025099060",
+          "Year": "2023",
+          "Manufacturer": "Donruss",
+          "Card Set": "",
+          "Card Number": "308",
+          "Player Name": "Dalton Kincaid",
+          "Grade": "9",
+          "Grade Date": "2025-01-29"
+        },
+        "sourceUrl": "https://www.cgccards.com/certlookup/6025099060/9_0/",
+        "capturedAt": "2026-09-23T04:42:05.430Z",
+        "scanOrientation": {
+          "reversed": false,
+          "basis": "CGC Cards viewer labels: Obverse / Reverse"
+        },
+        "normalization": {
+          "subject": "Player Name",
+          "category": "CGC population URL sports category",
+          "brand": "Manufacturer plus Card Set, with empty set omitted",
+          "language": "Not supplied by cert page; stored as null"
+        }
+      },
+      "images": {
+        "front": "CGC_6025099060_FRONT.jpg",
+        "back": "CGC_6025099060_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/2026-09-23-case-01-backlog-cgc-captures.json",
+        "importedAt": "2026-09-23T04:43:28.622Z",
+        "capturedAt": "2026-09-23T04:42:05.430Z",
+        "pageUrl": "https://www.cgccards.com/certlookup/6025099060/9_0/"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17384262-809c-4d54-9860-207f2a015de4/CAR6025099-060_OBV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/6025099060/9_0/",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:42:05.430Z",
+          "retrievedAt": "2026-09-23T04:43:39.648Z",
+          "sideBasis": "CGC Cards viewer labels: Obverse / Reverse",
+          "sourceSide": "Obverse",
+          "visuallyReversed": false,
+          "originalWidth": 1978,
+          "originalHeight": 3285,
+          "sha256": "6d60662bfa61812482e911b37dee9cb3909514d3e629fa6e516f9badcc96a954",
+          "originalFile": "data/originals/CGC_6025099060_FRONT.jpg",
+          "originalSha256": "4dea6d7841c2b8a3036ad0538143f2d501bee3022bc108fd2b12f8e7f50a5a6a"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17384262-809c-4d54-9860-207f2a015de4/CAR6025099-060_REV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/6025099060/9_0/",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:42:05.430Z",
+          "retrievedAt": "2026-09-23T04:43:41.633Z",
+          "sideBasis": "CGC Cards viewer labels: Obverse / Reverse",
+          "sourceSide": "Reverse",
+          "visuallyReversed": false,
+          "originalWidth": 1968,
+          "originalHeight": 3275,
+          "sha256": "a0d86086d69a7f37369134ef1de3bc97c4456dcf9f2e13f5bb27e990200d45b2",
+          "originalFile": "data/originals/CGC_6025099060_BACK.jpg",
+          "originalSha256": "ad3648c651911f4fa5103f019eb7d01f68b79862a998ba3d4f055bcd03b427ff"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "grader": "CGC",
+      "cert": "6025067013",
+      "subject": "Chase Brown",
+      "year": "2023",
+      "brand": "Donruss",
+      "category": "Football",
+      "language": null,
+      "cardNumber": "318",
+      "variety": null,
+      "grade": "9.5",
+      "gradeDescription": "MINT+",
+      "gradeDate": "2025-01-29",
+      "holder": "slab",
+      "certUrl": "https://www.cgccards.com/certlookup/6025067013/9_5/",
+      "population": {
+        "atGrade": 203,
+        "higher": 763,
+        "asOf": "2026-09-23",
+        "source": "CGC Cards",
+        "url": "https://www.cgccards.com/population-report/sports/football/5/2020-present/59/2023-donruss-donruss/39697/?populationID=13620171"
+      },
+      "valuation": null,
+      "cgc": {
+        "gradeText": "MINT+ 9.5",
+        "lookupGrade": "9.5",
+        "gradeChangedFromLookup": false,
+        "fields": {
+          "Cert #": "6025067013",
+          "Year": "2023",
+          "Manufacturer": "Donruss",
+          "Card Set": "",
+          "Card Number": "318",
+          "Player Name": "Chase Brown",
+          "Grade": "MINT+ 9.5",
+          "Grade Date": "2025-01-29"
+        },
+        "sourceUrl": "https://www.cgccards.com/certlookup/6025067013/9_5/",
+        "capturedAt": "2026-09-23T04:42:14.450Z",
+        "scanOrientation": {
+          "reversed": false,
+          "basis": "CGC Cards viewer labels: Obverse / Reverse"
+        },
+        "normalization": {
+          "subject": "Player Name",
+          "category": "CGC population URL sports category",
+          "brand": "Manufacturer plus Card Set, with empty set omitted",
+          "language": "Not supplied by cert page; stored as null"
+        }
+      },
+      "images": {
+        "front": "CGC_6025067013_FRONT.jpg",
+        "back": "CGC_6025067013_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/2026-09-23-case-01-backlog-cgc-captures.json",
+        "importedAt": "2026-09-23T04:43:28.622Z",
+        "capturedAt": "2026-09-23T04:42:14.450Z",
+        "pageUrl": "https://www.cgccards.com/certlookup/6025067013/9_5/"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17384321-44d1-4611-b113-4f8cf1091d2f/CAR6025067-013_OBV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/6025067013/9_5/",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:42:14.450Z",
+          "retrievedAt": "2026-09-23T04:43:43.589Z",
+          "sideBasis": "CGC Cards viewer labels: Obverse / Reverse",
+          "sourceSide": "Obverse",
+          "visuallyReversed": false,
+          "originalWidth": 1978,
+          "originalHeight": 3285,
+          "sha256": "3bbcb4318a8de3dec1658c15e887b3a577532d6bd28089e7b416302ca0883e29",
+          "originalFile": "data/originals/CGC_6025067013_FRONT.jpg",
+          "originalSha256": "8892439b3aa82a086eff7dab73884f3fc4351b7bc1eace723691b863607ab27b"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17384321-44d1-4611-b113-4f8cf1091d2f/CAR6025067-013_REV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/6025067013/9_5/",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:42:14.450Z",
+          "retrievedAt": "2026-09-23T04:43:45.489Z",
+          "sideBasis": "CGC Cards viewer labels: Obverse / Reverse",
+          "sourceSide": "Reverse",
+          "visuallyReversed": false,
+          "originalWidth": 1968,
+          "originalHeight": 3275,
+          "sha256": "2edf4d09d07f147c823864e03f958aef10ed4805ecd110768994fba2b0a06f00",
+          "originalFile": "data/originals/CGC_6025067013_BACK.jpg",
+          "originalSha256": "9e7a19f2897bd8a004f44e07c57107b1c1b44e5748e39d77a38ee11bdd700169"
+        }
+      }
+    },
+    {
+      "kind": "card",
+      "grader": "CGC",
+      "cert": "6032717240",
+      "subject": "Sandslash",
+      "year": "2023",
+      "brand": "Trading Card Game Classic",
+      "category": "Pokémon",
+      "language": "Japanese",
+      "cardNumber": "009/032",
+      "variety": "Venusaur & Lugia ex Deck · Holo",
+      "grade": "10",
+      "gradeDescription": "GEM MINT",
+      "gradeDate": "2025-03-31",
+      "holder": "slab",
+      "certUrl": "https://www.cgccards.com/certlookup/6032717240/10_0/",
+      "population": {
+        "atGrade": 667,
+        "higher": 339,
+        "asOf": "2026-09-23",
+        "source": "CGC Cards",
+        "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/scarlet-and-violet/842/trading-card-game-classic-clf-cll-clk/20262/?populationID=1490836"
+      },
+      "valuation": null,
+      "cgc": {
+        "gradeText": "GEM MINT 10",
+        "lookupGrade": "10.0",
+        "gradeChangedFromLookup": false,
+        "fields": {
+          "Cert #": "6032717240",
+          "Card Name": "Sandslash",
+          "Game": "Pokémon",
+          "Year": "2023",
+          "Language": "Japanese",
+          "Card Set": "Trading Card Game Classic",
+          "Card Number": "009/032",
+          "Variant 1": "Venusaur & Lugia ex Deck",
+          "Variant 2": "Holo",
+          "Grade": "GEM MINT 10",
+          "Grade Date": "2025-03-31"
+        },
+        "sourceUrl": "https://www.cgccards.com/certlookup/6032717240/10_0/",
+        "capturedAt": "2026-09-23T04:42:21.767Z",
+        "scanOrientation": {
+          "reversed": false,
+          "basis": "CGC Cards viewer labels: Obverse / Reverse"
+        }
+      },
+      "images": {
+        "front": "CGC_6032717240_FRONT.jpg",
+        "back": "CGC_6032717240_BACK.jpg"
+      },
+      "scanStatus": "complete",
+      "importSource": {
+        "file": "data/incoming/2026-09-23-case-01-backlog-cgc-captures.json",
+        "importedAt": "2026-09-23T04:43:28.622Z",
+        "capturedAt": "2026-09-23T04:42:21.767Z",
+        "pageUrl": "https://www.cgccards.com/certlookup/6032717240/10_0/"
+      },
+      "imageSources": {
+        "front": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17446487-86ba-4f28-890c-9acd1a44490a/CAR6032717-240_OBV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/6032717240/10_0/",
+          "side": "front",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:42:21.767Z",
+          "retrievedAt": "2026-09-23T04:43:47.479Z",
+          "sideBasis": "CGC Cards viewer labels: Obverse / Reverse",
+          "sourceSide": "Obverse",
+          "visuallyReversed": false,
+          "originalWidth": 1978,
+          "originalHeight": 3285,
+          "sha256": "612a1ab092ef6f2a4ee2be5d920a5af9da8c4ae4632157d61b5bcc5339cd6a61",
+          "originalFile": "data/originals/CGC_6032717240_FRONT.jpg",
+          "originalSha256": "04bea8f1a94f6ec15b9c59688cf8e19632f445f160cd322b3352210ab7035c3a"
+        },
+        "back": {
+          "url": "https://ccg-imaging-cgc-tradingcards-production.s3.amazonaws.com/17446487-86ba-4f28-890c-9acd1a44490a/CAR6032717-240_REV.jpg",
+          "pageUrl": "https://www.cgccards.com/certlookup/6032717240/10_0/",
+          "side": "back",
+          "kind": "plain-scan",
+          "discoveredAt": "2026-09-23T04:42:21.767Z",
+          "retrievedAt": "2026-09-23T04:43:49.504Z",
+          "sideBasis": "CGC Cards viewer labels: Obverse / Reverse",
+          "sourceSide": "Reverse",
+          "visuallyReversed": false,
+          "originalWidth": 1968,
+          "originalHeight": 3275,
+          "sha256": "5dee7fc948dc07bc4cb25d776b771a68762293b74a9a6efc883c5568a9ac8edf",
+          "originalFile": "data/originals/CGC_6032717240_BACK.jpg",
+          "originalSha256": "16d3db8a3e010fb869302e724be9051f2f6203f1c1e827b23b4332589637f581"
         }
       }
     }

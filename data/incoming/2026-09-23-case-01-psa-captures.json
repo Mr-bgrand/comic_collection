@@ -1,0 +1,680 @@
+{
+  "schemaVersion": 1,
+  "container": {
+    "id": "case-01",
+    "kind": "card",
+    "title": "Case #1",
+    "location": "Case #1",
+    "physical": true,
+    "virtual": false
+  },
+  "records": [
+    {
+      "cert": "75738340",
+      "pageUrl": "https://www.psacard.com/cert/75738340/psa",
+      "capturedAt": "2026-09-23T04:27:56.079Z",
+      "fields": {
+        "Cert Number": "75738340",
+        "Item Grade": "NM-MT 8",
+        "Label Type": "W/ FUGITIVE INK TECHNOLOGY",
+        "Reverse Cert/Barcode": "YES",
+        "Year": "2013",
+        "Brand/Title": "POKEMON BLACK & WHITE PLASMA FREEZE",
+        "Subject": "FLAREON-REV.FOIL",
+        "Card Number": "12",
+        "Category": "TCG CARDS",
+        "Variety/Pedigree": "PLASMA FREEZE"
+      },
+      "estimate": {
+        "label": "PSA ESTIMATE",
+        "value": 103,
+        "currency": "USD"
+      },
+      "population": {
+        "atGrade": 54,
+        "higher": 37
+      },
+      "scans": [
+        {
+          "side": "front",
+          "alt": "Cert image 1",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/139950604/small/HJzwjjakdE2gHS19N6Juzg.jpg"
+        },
+        {
+          "side": "back",
+          "alt": "Cert image 2",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/139950604/small/PK2Q_HcSMUW0MSGCj3BcSQ.jpg"
+        }
+      ],
+      "reportedSimilarSales": [
+        {
+          "value": 89.88,
+          "currency": "USD",
+          "soldAt": "2026-08-30",
+          "marketplace": "eBay",
+          "type": "Auction",
+          "grader": "PSA",
+          "grade": "8",
+          "comparableCert": "161382106",
+          "listingId": "287541279254"
+        },
+        {
+          "value": 54,
+          "currency": "USD",
+          "soldAt": "2026-07-27",
+          "marketplace": "eBay",
+          "type": "Auction",
+          "grader": "PSA",
+          "grade": "8",
+          "comparableCert": "152071801",
+          "listingId": "287468640352"
+        },
+        {
+          "value": 119.9,
+          "currency": "USD",
+          "soldAt": "2026-05-03",
+          "marketplace": "eBay",
+          "type": "BestOffer",
+          "grader": "PSA",
+          "grade": "8",
+          "comparableCert": "137398050",
+          "listingId": "277793855256"
+        },
+        {
+          "value": 119.9,
+          "currency": "USD",
+          "soldAt": "2026-05-03",
+          "marketplace": "eBay",
+          "type": "BestOffer",
+          "grader": "PSA",
+          "grade": "8",
+          "comparableCert": "137398049",
+          "listingId": "277793841055"
+        },
+        {
+          "value": 90,
+          "currency": "USD",
+          "soldAt": "2026-03-30",
+          "marketplace": "eBay",
+          "type": "BestOffer",
+          "grader": "PSA",
+          "grade": "8",
+          "comparableCert": "107213920",
+          "listingId": "188156771388"
+        }
+      ],
+      "estimateNote": "Recorded PSA guide estimate, not a calculated median or independently verified completed payment. Similar-sales table is retained as context; no photos from those other certificates are imported."
+    },
+    {
+      "cert": "65424083",
+      "pageUrl": "https://www.psacard.com/cert/65424083/psa",
+      "capturedAt": "2026-09-23T04:28:33.643Z",
+      "fields": {
+        "Cert Number": "65424083",
+        "Item Grade": "MINT 9",
+        "Label Type": "W/ FUGITIVE INK TECHNOLOGY",
+        "Reverse Cert/Barcode": "YES",
+        "Year": "2018",
+        "Brand/Title": "TOPPS UPDATE",
+        "Subject": "SHOHEI OHTANI",
+        "Card Number": "US1",
+        "Category": "BASEBALL CARDS"
+      },
+      "estimate": {
+        "label": "PSA ESTIMATE",
+        "value": 187,
+        "currency": "USD"
+      },
+      "population": {
+        "atGrade": 10431,
+        "higher": 17333
+      },
+      "scans": [],
+      "scanStatus": "no-scans-on-cert-page",
+      "scanReview": {
+        "scrolled": true,
+        "rechecked": true,
+        "checkedAt": "2026-09-23T04:28:33.643Z",
+        "notes": "Inspected hero, scrolled to sales section, returned to heading and rechecked; no cert scans present."
+      },
+      "reportedSimilarSales": [
+        {
+          "value": 119.99,
+          "currency": "USD",
+          "soldAt": "2026-09-21",
+          "marketplace": "eBay",
+          "type": "FixedPrice",
+          "grader": "PSA",
+          "grade": "9",
+          "comparableCert": "68466663",
+          "listingId": "117049873845"
+        },
+        {
+          "value": 202.5,
+          "currency": "USD",
+          "soldAt": "2026-09-21",
+          "marketplace": "eBay",
+          "type": "Auction",
+          "grader": "PSA",
+          "grade": "9",
+          "comparableCert": "151854112",
+          "listingId": "137734352917"
+        },
+        {
+          "value": 192.5,
+          "currency": "USD",
+          "soldAt": "2026-09-21",
+          "marketplace": "eBay",
+          "type": "Auction",
+          "grader": "PSA",
+          "grade": "9",
+          "comparableCert": "157706949",
+          "listingId": "377497838783"
+        },
+        {
+          "value": 188.38,
+          "currency": "USD",
+          "soldAt": "2026-09-21",
+          "marketplace": "eBay",
+          "type": "Auction",
+          "grader": "PSA",
+          "grade": "9",
+          "comparableCert": "160677269",
+          "listingId": "377497487561"
+        },
+        {
+          "value": 199.99,
+          "currency": "USD",
+          "soldAt": "2026-09-20",
+          "marketplace": "eBay",
+          "type": "FixedPrice",
+          "grader": "PSA",
+          "grade": "9",
+          "comparableCert": "158309326",
+          "listingId": "168696658138"
+        }
+      ],
+      "estimateNote": "Recorded PSA guide estimate, not a calculated median or independently verified completed payment. Similar-sales table is retained as context; no photos from those other certificates are imported."
+    },
+    {
+      "cert": "112357836",
+      "pageUrl": "https://www.psacard.com/cert/112357836/psa",
+      "capturedAt": "2026-09-23T04:28:44.932Z",
+      "fields": {
+        "Cert Number": "112357836",
+        "Item Grade": "VG 3",
+        "Label Type": "W/ FUGITIVE INK TECHNOLOGY",
+        "Reverse Cert/Barcode": "YES",
+        "Year": "1999",
+        "Brand/Title": "POKEMON GAME",
+        "Subject": "MACHAMP-HOLO",
+        "Card Number": "8",
+        "Category": "TCG CARDS",
+        "Variety/Pedigree": "1ST EDITION-SHADOWLESS"
+      },
+      "estimate": {
+        "label": "PSA ESTIMATE",
+        "value": 56,
+        "currency": "USD"
+      },
+      "population": {
+        "atGrade": 455,
+        "higher": 7005
+      },
+      "scans": [
+        {
+          "side": "front",
+          "alt": "Cert image 1",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/177903147/small/kTrUCedqs0KqsIQfI7VZXA.jpg"
+        },
+        {
+          "side": "back",
+          "alt": "Cert image 2",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/177903147/small/puNJizmNp0WTWVDddAWaIA.jpg"
+        }
+      ],
+      "reportedSimilarSales": [
+        {
+          "value": 47,
+          "currency": "USD",
+          "soldAt": "2026-09-11",
+          "marketplace": "eBay",
+          "type": "BestOffer",
+          "grader": "PSA",
+          "grade": "3",
+          "comparableCert": "67999210",
+          "listingId": "227498336514"
+        },
+        {
+          "value": 63,
+          "currency": "USD",
+          "soldAt": "2026-09-11",
+          "marketplace": "eBay",
+          "type": "BestOffer",
+          "grader": "PSA",
+          "grade": "3",
+          "comparableCert": "166591510",
+          "listingId": "206546868961"
+        },
+        {
+          "value": 79.98,
+          "currency": "USD",
+          "soldAt": "2026-09-07",
+          "marketplace": "eBay",
+          "type": "FixedPrice",
+          "grader": "PSA",
+          "grade": "3",
+          "comparableCert": "146516680",
+          "listingId": "318573578540"
+        },
+        {
+          "value": 40,
+          "currency": "USD",
+          "soldAt": "2026-09-06",
+          "marketplace": "eBay",
+          "type": "FixedPrice",
+          "grader": "PSA",
+          "grade": "3",
+          "comparableCert": "103172778",
+          "listingId": "398305392110"
+        },
+        {
+          "value": 39,
+          "currency": "USD",
+          "soldAt": "2026-08-11",
+          "marketplace": "eBay",
+          "type": "Auction",
+          "grader": "PSA",
+          "grade": "3",
+          "comparableCert": "152023473",
+          "listingId": "358884307110"
+        }
+      ],
+      "estimateNote": "Recorded PSA guide estimate, not a calculated median or independently verified completed payment. Similar-sales table is retained as context; no photos from those other certificates are imported."
+    },
+    {
+      "cert": "139855937",
+      "pageUrl": "https://www.psacard.com/cert/139855937/psa",
+      "capturedAt": "2026-09-23T04:28:55.672Z",
+      "fields": {
+        "Cert Number": "139855937",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "W/ FUGITIVE INK TECHNOLOGY",
+        "Reverse Cert/Barcode": "YES",
+        "Year": "2025",
+        "Brand/Title": "POKEMON MEG EN-MEGA EVOLUTION",
+        "Subject": "SNOVER",
+        "Card Number": "140",
+        "Category": "TCG CARDS",
+        "Variety/Pedigree": "ILLUSTRATION RARE"
+      },
+      "estimate": {
+        "label": "PSA ESTIMATE",
+        "value": 31,
+        "currency": "USD"
+      },
+      "population": {
+        "atGrade": 1368,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "side": "front",
+          "alt": "Cert image 1",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/194810733/small/Hr5eUrRjoEyx5RWD05VDew.jpg"
+        },
+        {
+          "side": "back",
+          "alt": "Cert image 2",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/194810733/small/FRUvylfrrEi9UlfOSxE_UA.jpg"
+        }
+      ],
+      "reportedSimilarSales": [
+        {
+          "value": 20.4,
+          "currency": "USD",
+          "soldAt": "2026-09-21",
+          "marketplace": "eBay",
+          "type": "Auction",
+          "grader": "PSA",
+          "grade": "10",
+          "comparableCert": "149867951",
+          "listingId": "147576047641"
+        },
+        {
+          "value": 40.69,
+          "currency": "USD",
+          "soldAt": "2026-09-20",
+          "marketplace": "eBay",
+          "type": "Auction",
+          "grader": "PSA",
+          "grade": "10",
+          "comparableCert": "141249985",
+          "listingId": "287595879221"
+        },
+        {
+          "value": 30,
+          "currency": "USD",
+          "soldAt": "2026-09-20",
+          "marketplace": "eBay",
+          "type": "BestOffer",
+          "grader": "PSA",
+          "grade": "10",
+          "comparableCert": "170020337",
+          "listingId": "158295056761"
+        },
+        {
+          "value": 29.52,
+          "currency": "USD",
+          "soldAt": "2026-09-16",
+          "marketplace": "Fanatics Collect",
+          "type": "BestOffer",
+          "grader": "PSA",
+          "grade": "10",
+          "comparableCert": "131537468",
+          "listingId": "fcd813bb-bed4-49e4-9653-9d7d20c1eb11"
+        },
+        {
+          "value": 29,
+          "currency": "USD",
+          "soldAt": "2026-09-13",
+          "marketplace": "eBay",
+          "type": "Auction",
+          "grader": "PSA",
+          "grade": "10",
+          "comparableCert": "153225063",
+          "listingId": "188895568128"
+        }
+      ],
+      "estimateNote": "Recorded PSA guide estimate, not a calculated median or independently verified completed payment. Similar-sales table is retained as context; no photos from those other certificates are imported."
+    },
+    {
+      "cert": "138607533",
+      "pageUrl": "https://www.psacard.com/cert/138607533/psa",
+      "capturedAt": "2026-09-23T04:29:04.850Z",
+      "fields": {
+        "Cert Number": "138607533",
+        "Item Grade": "MINT 9",
+        "Label Type": "W/ FUGITIVE INK TECHNOLOGY",
+        "Reverse Cert/Barcode": "YES",
+        "Year": "2021",
+        "Brand/Title": "POKEMON CELEBRATIONS CLASSIC COLLECTION",
+        "Subject": "UMBREON-GOLD STAR",
+        "Card Number": "17",
+        "Category": "TCG CARDS",
+        "Variety/Pedigree": "CLASSIC COLL-POP SERIES 5"
+      },
+      "estimate": {
+        "label": "PSA ESTIMATE",
+        "value": 105,
+        "currency": "USD"
+      },
+      "population": {
+        "atGrade": 14664,
+        "higher": 19958
+      },
+      "scans": [
+        {
+          "side": "front",
+          "alt": "Cert image 1",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/193875056/small/opogy7NwgUqbDN08qmxxHA.jpg"
+        },
+        {
+          "side": "back",
+          "alt": "Cert image 2",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/193875056/small/2o4-dBR2R0mkQYBh-bcAFQ.jpg"
+        }
+      ],
+      "reportedSimilarSales": [
+        {
+          "value": 177.72,
+          "currency": "USD",
+          "soldAt": "2026-09-21",
+          "marketplace": "eBay",
+          "type": "BestOffer",
+          "grader": "PSA",
+          "grade": "9",
+          "comparableCert": "162950573",
+          "listingId": "327346725058"
+        },
+        {
+          "value": 119.99,
+          "currency": "USD",
+          "soldAt": "2026-09-21",
+          "marketplace": "eBay",
+          "type": "FixedPrice",
+          "grader": "PSA",
+          "grade": "9",
+          "comparableCert": "107675633",
+          "listingId": "237077573890"
+        },
+        {
+          "value": 102.5,
+          "currency": "USD",
+          "soldAt": "2026-09-21",
+          "marketplace": "eBay",
+          "type": "Auction",
+          "grader": "PSA",
+          "grade": "9",
+          "comparableCert": "157556824",
+          "listingId": "407208528337"
+        },
+        {
+          "value": 103.27,
+          "currency": "USD",
+          "soldAt": "2026-09-21",
+          "marketplace": "eBay",
+          "type": "Auction",
+          "grader": "PSA",
+          "grade": "9",
+          "comparableCert": "130289977",
+          "listingId": "287576040526"
+        },
+        {
+          "value": 164.22,
+          "currency": "USD",
+          "soldAt": "2026-09-20",
+          "marketplace": "eBay",
+          "type": "Auction",
+          "grader": "PSA",
+          "grade": "9",
+          "comparableCert": "158534817",
+          "listingId": "137717143257"
+        }
+      ],
+      "estimateNote": "Recorded PSA guide estimate, not a calculated median or independently verified completed payment. Similar-sales table is retained as context; no photos from those other certificates are imported."
+    },
+    {
+      "cert": "107736899",
+      "pageUrl": "https://www.psacard.com/cert/107736899/psa",
+      "capturedAt": "2026-09-23T04:29:13.742Z",
+      "fields": {
+        "Cert Number": "107736899",
+        "Item Grade": "GEM MT 10",
+        "Label Type": "W/ FUGITIVE INK TECHNOLOGY",
+        "Reverse Cert/Barcode": "YES",
+        "Year": "2024",
+        "Brand/Title": "POKEMON SVP EN-SV BLACK STAR PROMO",
+        "Subject": "TERAPAGOS EX",
+        "Card Number": "165",
+        "Category": "TCG CARDS",
+        "Variety/Pedigree": "ULTRA-PREMIUM COLLECTION"
+      },
+      "estimate": {
+        "label": "PSA ESTIMATE",
+        "value": 61,
+        "currency": "USD"
+      },
+      "population": {
+        "atGrade": 584,
+        "higher": 0
+      },
+      "scans": [
+        {
+          "side": "front",
+          "alt": "Cert image 1",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/174823014/small/YBhWnw4pCke5WYT71yfM9A.jpg"
+        },
+        {
+          "side": "back",
+          "alt": "Cert image 2",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/174823014/small/mDEJZ-pPlECi30z5amDwtQ.jpg"
+        }
+      ],
+      "reportedSimilarSales": [
+        {
+          "value": 56,
+          "currency": "USD",
+          "soldAt": "2026-09-18",
+          "marketplace": "Fanatics Collect",
+          "type": "FixedPrice",
+          "grader": "PSA",
+          "grade": "10",
+          "comparableCert": "103491600",
+          "listingId": "82c4916c-7128-460a-9b8a-14a8bc10a0f8"
+        },
+        {
+          "value": 56.55,
+          "currency": "USD",
+          "soldAt": "2026-09-04",
+          "marketplace": "eBay",
+          "type": "Auction",
+          "grader": "PSA",
+          "grade": "10",
+          "comparableCert": "141146494",
+          "listingId": "278317149010"
+        },
+        {
+          "value": 74.95,
+          "currency": "USD",
+          "soldAt": "2026-08-25",
+          "marketplace": "eBay",
+          "type": "FixedPrice",
+          "grader": "PSA",
+          "grade": "10",
+          "comparableCert": "101583950",
+          "listingId": "318761956671"
+        },
+        {
+          "value": 41,
+          "currency": "USD",
+          "soldAt": "2026-07-27",
+          "marketplace": "eBay",
+          "type": "Auction",
+          "grader": "PSA",
+          "grade": "10",
+          "comparableCert": "132793530",
+          "listingId": "236956301714"
+        },
+        {
+          "value": 65,
+          "currency": "USD",
+          "soldAt": "2026-07-14",
+          "marketplace": "eBay",
+          "type": "FixedPrice",
+          "grader": "PSA",
+          "grade": "10",
+          "comparableCert": "117405988",
+          "listingId": "358785759662"
+        }
+      ],
+      "estimateNote": "Recorded PSA guide estimate, not a calculated median or independently verified completed payment. Similar-sales table is retained as context; no photos from those other certificates are imported."
+    },
+    {
+      "cert": "127311782",
+      "pageUrl": "https://www.psacard.com/cert/127311782/psa",
+      "capturedAt": "2026-09-23T04:29:26.956Z",
+      "fields": {
+        "Cert Number": "127311782",
+        "Item Grade": "MINT 9",
+        "Label Type": "W/ FUGITIVE INK TECHNOLOGY",
+        "Reverse Cert/Barcode": "YES",
+        "Year": "2025",
+        "Brand/Title": "POKEMON WHT EN-WHITE FLARE",
+        "Subject": "DEWOTT",
+        "Card Number": "106",
+        "Category": "TCG CARDS",
+        "Variety/Pedigree": "ILLUSTRATION RARE"
+      },
+      "estimate": {
+        "label": "PSA ESTIMATE",
+        "value": 30,
+        "currency": "USD"
+      },
+      "population": {
+        "atGrade": 304,
+        "higher": 51
+      },
+      "scans": [
+        {
+          "side": "front",
+          "alt": "Cert image 1",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/187206930/small/CyxcIJOk70e9SuxYrp8poQ_ed52d.jpg"
+        },
+        {
+          "side": "back",
+          "alt": "Cert image 2",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/cert/187206930/small/9Irl9_qySEC8vGUQfIRSpA.jpg"
+        }
+      ],
+      "reportedSimilarSales": [
+        {
+          "value": 35,
+          "currency": "USD",
+          "soldAt": "2026-09-09",
+          "marketplace": "eBay",
+          "type": "BestOffer",
+          "grader": "PSA",
+          "grade": "9",
+          "comparableCert": "148479950",
+          "listingId": "407181069326"
+        },
+        {
+          "value": 32,
+          "currency": "USD",
+          "soldAt": "2026-09-01",
+          "marketplace": "Fanatics Collect",
+          "type": "FixedPrice",
+          "grader": "PSA",
+          "grade": "9",
+          "comparableCert": "147339143",
+          "listingId": "fc6e623f-a3cc-4aea-90e4-7647d45e5ff9"
+        },
+        {
+          "value": 27,
+          "currency": "USD",
+          "soldAt": "2026-09-01",
+          "marketplace": "eBay",
+          "type": "Auction",
+          "grader": "PSA",
+          "grade": "9",
+          "comparableCert": "150681889",
+          "listingId": "128046282284"
+        },
+        {
+          "value": 31,
+          "currency": "USD",
+          "soldAt": "2026-08-09",
+          "marketplace": "eBay",
+          "type": "Auction",
+          "grader": "PSA",
+          "grade": "9",
+          "comparableCert": "155257274",
+          "listingId": "158133095278"
+        },
+        {
+          "value": 40,
+          "currency": "USD",
+          "soldAt": "2026-07-20",
+          "marketplace": "eBay",
+          "type": "BestOffer",
+          "grader": "PSA",
+          "grade": "9",
+          "comparableCert": "156973295",
+          "listingId": "147329034787"
+        }
+      ],
+      "estimateNote": "Recorded PSA guide estimate, not a calculated median or independently verified completed payment. Similar-sales table is retained as context; no photos from those other certificates are imported."
+    }
+  ]
+}
