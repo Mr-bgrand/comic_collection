@@ -10498,7 +10498,95 @@
         "source": "CGC Cards",
         "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/sun-and-moon/675/guardians-rising/19482/?populationID=2041122"
       },
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "evening-2026-09-23-CGC-6021634274",
+            "copyId": "CGC:6021634274",
+            "basis": "sold-comps",
+            "evidenceKind": "sold-comps",
+            "saleCount": 2,
+            "value": 17.5,
+            "currency": "USD",
+            "source": {
+              "name": "Scrydex / PriceCharting / eBay (source-reported sales)",
+              "url": "https://scrydex.com/pokemon/cards/machamp/sm2-65?variant=holofoil",
+              "asOf": "2026-05-28",
+              "retrievedAt": "2026-09-23T22:11:46.037Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2017",
+                "brand": "Guardians Rising",
+                "series": "",
+                "subject": "Machamp",
+                "cardNumber": "65/145",
+                "variety": "2 Mini-Pack Blister",
+                "language": "English",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "reviewEvidence": {
+              "url": "https://scrydex.com/pokemon/cards/machamp/sm2-65?variant=holofoil",
+              "reviewedBy": "Owner-authorized source and slab-photo review",
+              "reviewedAt": "2026-09-23T22:11:46.037Z",
+              "notes": "Owned front and both original comparison photographs individually inspected: 2017 Guardians Rising #65/145, 2-Pack Blister Cosmos Holo, silver/black CGC GEM MINT 10, not Pristine 10 or regular/reverse holo. Median of two source-reported transactions, $15 and $20, is $17.50. Both original archives say ENDED at the matching amount/date, not SOLD; sale completion/payment is not independently established. Scrydex reports both transactions and PriceCharting corroborates May 5. Listings are distinct and photos show different slab certifications. July 28 item 406101557212 is photo-matched CGC Gem Mint 10 (cert 6021634215), and indexed original says SOLD $22.50 or Best Offer; unknown accepted offer amount is excluded from the calculation. Other-grade, Pristine, zero-price, redirected and unavailable rows excluded. No mixed-table guide or active asking price used. Shipping/tax excluded. Owned images unchanged.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:317983787919",
+                  "sourceUrl": "https://www.ebay.com/itm/317983787919?nordt=true&rt=nc&orig_cvip=true",
+                  "reportedBy": [
+                    "https://scrydex.com/pokemon/cards/machamp/sm2-65?variant=holofoil",
+                    "https://www.pricecharting.com/game/pokemon-guardians-rising/machamp-cosmos-holo-65"
+                  ],
+                  "soldAt": "2026-05-05",
+                  "value": 15,
+                  "currency": "USD",
+                  "verification": "Source-reported sale; original archive ENDED, not independently sold",
+                  "imageUrl": "https://i.ebayimg.com/images/g/0nkAAeSw5nxpsO0t/s-l1600.webp"
+                },
+                {
+                  "transactionId": "ebay:117216641441",
+                  "sourceUrl": "https://www.ebay.com/itm/117216641441?nordt=true&rt=nc&orig_cvip=true",
+                  "reportedBy": [
+                    "https://scrydex.com/pokemon/cards/machamp/sm2-65?variant=holofoil"
+                  ],
+                  "soldAt": "2026-05-28",
+                  "value": 20,
+                  "currency": "USD",
+                  "verification": "Source-reported sale; original archive ENDED, not independently sold",
+                  "comparisonCert": "6021596079",
+                  "imageUrl": "https://i.ebayimg.com/images/g/1-kAAeSwCbZqFfpN/s-l1600.webp"
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Two source-reported sales from May 2026; exact Gem Mint 10 slab photos checked, but original archives only say ended. Completion/payment not independently verified. Thin history; starred estimate."
+          }
+        ],
+        "selection": {
+          "observationId": "evening-2026-09-23-CGC-6021634274",
+          "locked": true,
+          "selectedAt": "2026-09-23T22:11:46.501Z"
+        }
+      },
       "cgc": {
         "gradeText": "GEM MINT 10",
         "lookupGrade": "10.0",

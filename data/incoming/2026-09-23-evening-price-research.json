@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-23",
+  "batch": "evening",
+  "observations": "data/valuation/evening-prices-2026-09-23.json",
+  "acceptedGraded": [{"copyId":"CGC:6021634274","value":17.5,"currency":"USD","provisional":true,"basis":"Median of two source-reported exact CGC Gem Mint 10 transactions, $15 and $20; original archives say ENDED, not independently confirmed sold."}],
+  "rawReferences": [{"copyId":"Authority:0152908938","value":7.5,"currency":"USD","transaction":"ebay:398275818351","basis":"Original SOLD auction with nine bids; owned and seller reverse both show UPC 75960620455700151.","excludedFromRecordedTotal":true}],
+  "exclusionsAndLeads": [
+    {"copyId":"CGC:6021634274","url":"https://www.ebay.com/itm/406101557212?nordt=true&rt=nc&orig_cvip=true","reportedValue":22.5,"reportedDate":"2026-07-28","imageUrl":"https://i.ebayimg.com/images/g/csUAAeSwJGdoj4Ag/s-l1600.webp","comparisonCert":"6021634215","reason":"Indexed original explicitly SOLD $22.50 or Best Offer. Photo matches Cosmos Holo CGC Gem Mint 10. Actual accepted offer amount not established; excluded from median. Live browser later redirected to unrelated CGC 9.5 reverse-holo product."},
+    {"copyId":"CGC:6021634274","url":"https://www.ebay.com/itm/176501666588?nordt=true&rt=nc","reportedValue":49.99,"reason":"PriceCharting CGC 10 row; original browser blank, bare web URL redirects. Exact slab designation not visually established; excluded rather than assuming Gem Mint or Pristine."},
+    {"copyId":"CGC:6021634274","url":"https://www.ebay.com/itm/117159485915?nordt=true&rt=nc&orig_cvip=true","reason":"Redirected to Jangmo-o active listing; not original Machamp comparison."},
+    {"copyId":"CGC:6021634274","url":"https://www.ebay.com/itm/127842549226?nordt=true&rt=nc&orig_cvip=true","reason":"Source reports $10.51 but original ended archive displays $0.00; conflicting price excluded."},
+    {"copyId":"CGC:6021634274","url":"https://www.pricecharting.com/game/pokemon-guardians-rising/machamp-cosmos-holo-65","reason":"Do not use overall grade guide: original designation of every underlying row not established. Pristine, regular holo, reverse holo and other numeric grades excluded. Older January 2026 and August 2025 rows were discovered but not individually verified this pass."},
+    {"copyId":"Authority:0152908938","url":"https://www.pricecharting.com/game/comic-books-rogue-%26-gambit/rogue-%26-gambit-ross-virgin-1-2023","reason":"Catalog UPC ends 00161 (sketch), while sales rows mix color and sketch. Only individual original auction with photo-verified full UPC 00151 used; overall guide excluded."},
+    {"copyId":"Authority:0152908938","url":"https://www.ebay.com/itm/327298285935?nordt=true&rt=nc","reportedValue":8.99,"reason":"Original SOLD visible; only front photo available and full UPC unverified. Not needed for the exact-barcode single-auction reference; excluded from calculation."},
+    {"copyId":"Authority:0152908938","url":"https://www.ebay.com/itm/398341633939?nordt=true&rt=nc","reason":"Archive blank on two reads; excluded."},
+    {"copyId":"TAG:K7814397","url":"https://www.sportscardspro.com/game/football-cards-2024-bowman-chrome-university-1955/ashton-jeanty-fuchsia-refractor-55b-21","reason":"Revisited promising indexed guide, but live page still has zero PSA 10 and TAG 10 sales. Extrapolated grade guide not an exact-grade transaction; same previously recorded gap. Do not repeat without genuinely new evidence."},
+    {"copyId":"PSA:114218230","url":"https://www.sportscardinvestor.com/cards/maason-smith-football/2024-topps-chrome-sapphire-edition-rookie-autographs-red-ra-msm","reason":"Exact parallel page has masked price and does not establish a PSA 10 value."},
+    {"copyId":"PSA:121629672","url":"https://www.sportscardspro.com/game/football-cards-2024-panini-photogenic-rookie-pix/marvin-harrison-jr-red-6","reason":"Zero PSA 10 transactions; raw and Stardust rows cannot substitute for owned Red PSA 10."},
+    {"copyId":"PSA:114218231","urls":["https://www.ebay.com/itm/397501105832","https://www.ebay.com/itm/158178742250"],"reason":"Trey Benson matches are Green /5 and FOTL /28, not owned base Rookie Materials Ink. Active asks excluded."},
+    {"copyIds":["PSA:160521636","PSA:160521637","TAG:J3594287"],"reason":"Fresh Sandy Koufax Sap Green, Coby Mayo Sap Green autograph and Jared Jones base autograph searches yield masked guides or different parallels, not usable matching graded transactions."},
+    {"copyIds":["CGC:4386585001","CGC:4273634005","CGC:4245413009","CGC:2765925001","CGC:4350046013","CGC:4381117003","CGC:4424144001"],"reason":"Exact comic research for The Cull Shrike, Darkwing Duck Parsons, TMNT/Usagi Wherewhen #2 Eastman Signature Series, Grim #11 Frison Qualified, w0rldtr33 #5 Comic Corner and Spectacular Spider-Men #1 Ramos 9.6 found no usable matching graded completed sale. Related issue, cover, label or signature mismatches excluded."},
+    {"copyId":"CGC:2733544003","reason":"Strange Academy #1 Young owned Signature Series is signed by Humberto Ramos. Heritage 122402 lots 14118 (Skottie Young signature) and 14117 (Skottie Young.com edition/two signatures) are not exact comparisons."},
+    {"copyIds":["CGC:4493150004","CGC:4480290003"],"reason":"Fame Michael Jordan owned Bueckert trade covers; Raremarq virgin offer is both a different cover and retail, not a completed sale."},
+    {"copyIds":["Authority:1327529703","Authority:7633260283","Authority:8796605910","Authority:7861079670"],"reason":"Superman #6 Besch Creator, Detective #400 blank facsimile, Sandman #19 Remastered and Detective #27 Batman Day foil searches exposed retail asks/sold-out inventory only. Detective #27 convention Gold Foil, 2022 and 2026 editions excluded."},
+    {"copyIds":["raw:15-069","raw:15-070","raw:15-071","Authority:4845360792"],"reason":"Moon Man #2 Locati/D'Urso/Tocchini official-shop sold-out prices are not transactions. Immortal Thor #15 Villalobos results remain virgin rather than owned trade cover."}
+  ],
+  "nextResearch": [
+    "111 graded items still lack estimates: 80 comics and 31 cards. Pursue new exact-edition, grade, label and signature transaction leads; avoid repeating documented empty searches.",
+    "21 raw copies still lack a reference. All 429 raw copies remain unassessed; 408 references are separate from collection value.",
+    "Machamp: seek newer independently confirmed Gem Mint 10 transactions; exclude Pristine and ambiguous Best Offer amounts.",
+    "Previously unresolved owner scan identities and finish/printing distinctions remain unchanged."
+  ],
+  "safeguards": ["All 950 copies, locations and owned images preserved.","Existing locked estimates unchanged.","Comparison photos only stored in ignored research cache.","Raw reference remains pending and excluded from total.","Protected owner PDF left unchanged."]
+}

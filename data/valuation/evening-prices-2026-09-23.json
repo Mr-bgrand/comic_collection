@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "CGC:6021634274",
+      "revision": "00f158b6257387a62ddb64b742959a6decda1e33bda2b00071246791ec7a0382",
+      "observations": [
+        {
+          "id": "evening-2026-09-23-CGC-6021634274",
+          "copyId": "CGC:6021634274",
+          "basis": "sold-comps",
+          "evidenceKind": "sold-comps",
+          "saleCount": 2,
+          "value": 17.5,
+          "currency": "USD",
+          "source": {
+            "name": "Scrydex / PriceCharting / eBay (source-reported sales)",
+            "url": "https://scrydex.com/pokemon/cards/machamp/sm2-65?variant=holofoil",
+            "asOf": "2026-05-28",
+            "retrievedAt": "2026-09-23T22:11:46.037Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2017",
+              "brand": "Guardians Rising",
+              "series": "",
+              "subject": "Machamp",
+              "cardNumber": "65/145",
+              "variety": "2 Mini-Pack Blister",
+              "language": "English",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://scrydex.com/pokemon/cards/machamp/sm2-65?variant=holofoil",
+            "reviewedBy": "Owner-authorized source and slab-photo review",
+            "reviewedAt": "2026-09-23T22:11:46.037Z",
+            "notes": "Owned front and both original comparison photographs individually inspected: 2017 Guardians Rising #65/145, 2-Pack Blister Cosmos Holo, silver/black CGC GEM MINT 10, not Pristine 10 or regular/reverse holo. Median of two source-reported transactions, $15 and $20, is $17.50. Both original archives say ENDED at the matching amount/date, not SOLD; sale completion/payment is not independently established. Scrydex reports both transactions and PriceCharting corroborates May 5. Listings are distinct and photos show different slab certifications. July 28 item 406101557212 is photo-matched CGC Gem Mint 10 (cert 6021634215), and indexed original says SOLD $22.50 or Best Offer; unknown accepted offer amount is excluded from the calculation. Other-grade, Pristine, zero-price, redirected and unavailable rows excluded. No mixed-table guide or active asking price used. Shipping/tax excluded. Owned images unchanged.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:317983787919",
+                "sourceUrl": "https://www.ebay.com/itm/317983787919?nordt=true&rt=nc&orig_cvip=true",
+                "reportedBy": [
+                  "https://scrydex.com/pokemon/cards/machamp/sm2-65?variant=holofoil",
+                  "https://www.pricecharting.com/game/pokemon-guardians-rising/machamp-cosmos-holo-65"
+                ],
+                "soldAt": "2026-05-05",
+                "value": 15,
+                "currency": "USD",
+                "verification": "Source-reported sale; original archive ENDED, not independently sold",
+                "imageUrl": "https://i.ebayimg.com/images/g/0nkAAeSw5nxpsO0t/s-l1600.webp"
+              },
+              {
+                "transactionId": "ebay:117216641441",
+                "sourceUrl": "https://www.ebay.com/itm/117216641441?nordt=true&rt=nc&orig_cvip=true",
+                "reportedBy": [
+                  "https://scrydex.com/pokemon/cards/machamp/sm2-65?variant=holofoil"
+                ],
+                "soldAt": "2026-05-28",
+                "value": 20,
+                "currency": "USD",
+                "verification": "Source-reported sale; original archive ENDED, not independently sold",
+                "comparisonCert": "6021596079",
+                "imageUrl": "https://i.ebayimg.com/images/g/1-kAAeSwCbZqFfpN/s-l1600.webp"
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Two source-reported sales from May 2026; exact Gem Mint 10 slab photos checked, but original archives only say ended. Completion/payment not independently verified. Thin history; starred estimate."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:0152908938",
+      "revision": "306c1d8ec05293bcc3bc3eac4a019fa9da6a627b7eb93c292794085af11f2063",
+      "observations": [
+        {
+          "id": "evening-2026-09-23-Authority-0152908938",
+          "copyId": "Authority:0152908938",
+          "basis": "raw-reference",
+          "evidenceKind": "sold-comps",
+          "saleCount": 1,
+          "value": 7.5,
+          "currency": "USD",
+          "source": {
+            "name": "eBay completed auction",
+            "url": "https://www.ebay.com/itm/398275818351?nordt=true&rt=nc",
+            "asOf": "2026-08-19",
+            "retrievedAt": "2026-09-23T22:11:46.037Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Rogue & Gambit",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Marvel",
+              "variant": "Alex Ross Mystique Timeless Virgin Variant",
+              "upc": "75960620455700151",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "D",
+              "volume": "2",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.ebay.com/itm/398275818351?nordt=true&rt=nc",
+            "reviewedBy": "Owner-authorized source and full-barcode review",
+            "reviewedAt": "2026-09-23T22:11:46.037Z",
+            "notes": "Original archive explicitly SOLD US $7.50 with 9 bids, Aug 18, 2026 at 19:02:01 PDT (Aug 19 UTC). One Rogue & Gambit #1 (2023), Alex Ross Mystique Timeless Virgin COLOR, first printing. Owned front/reverse and seller front/reverse individually inspected; full UPC 75960620455700151 matches. Seller advertises 9.4 Near Mint, which is seller opinion and is not assigned to owned copy. $7.05 shipping and tax excluded. PriceCharting Ross Virgin table has incorrect sketch UPC 00161 and mixed rows, so neither overall guide nor ambiguous rows used. Owned condition remains unassessed; raw reference pending and excluded from collection total. Seller photos are comparison evidence only.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:398275818351",
+                "sourceUrl": "https://www.ebay.com/itm/398275818351?nordt=true&rt=nc",
+                "soldAt": "2026-08-19T02:02:01Z",
+                "value": 7.5,
+                "currency": "USD",
+                "bidCount": 9,
+                "verification": "Original listing explicitly SOLD; auction amount visible",
+                "upc": "75960620455700151",
+                "sellerCondition": "Seller-described 9.4 Near Mint",
+                "imageUrls": [
+                  "https://i.ebayimg.com/images/g/tGsAAeSwoTxqe8nV/s-l1600.webp",
+                  "https://i.ebayimg.com/images/g/fHUAAeSw6glqe8nV/s-l1600.webp"
+                ]
+              }
+            ]
+          },
+          "provisional": true,
+          "provisionalReason": "Single exact-UPC completed auction. Seller-described near mint is not an assessment of the owned copy. Raw reference only; condition unassessed and excluded from recorded value."
+        }
+      ]
+    }
+  ]
+}

@@ -59,8 +59,8 @@ were moved from the unassigned group; no duplicate copies were created. See the
 | Group | Recorded total | Valued | No value yet |
 | --- | ---: | ---: | ---: |
 | Comics | $14,332.92 | 188 | 509 |
-| Cards | $21,107.12 | 221 | 32 |
-| All | $35,440.04 | 409 | 541 |
+| Cards | $21,124.62 | 222 | 31 |
+| All | $35,457.54 | 410 | 540 |
 
 45 PSA Vault estimates have no source date. Printing/building does not update
 market prices. TAG's explicit value or owner estimate takes precedence; otherwise
@@ -155,8 +155,12 @@ separate stale raw references ($6.88), and accepted a starred $7.50 Card Ladder
 guide estimate for Dalton Kincaid CGC 9; see the
 [afternoon research](valuation-afternoon-2026-09-23.md). No new independently
 verified graded sale was established in this pass.
-407 unconditioned raw references now total $2,506.43 and remain excluded
-from the recorded total. There are 112 graded values outstanding (80 comics, 32 cards),
+An evening September 23 pass added a starred $17.50 Machamp CGC Gem Mint 10
+estimate from two source-reported transactions and a $7.50 raw Mystique reference
+from a completed auction with a matching full UPC; see the
+[evening research](valuation-evening-2026-09-23.md).
+408 unconditioned raw references now total $2,513.93 and remain excluded
+from the recorded total. There are 111 graded values outstanding (80 comics, 31 cards),
 plus 429 raw copies awaiting condition assessment. See the
 [pilot report](valuation-pilot-2026-09-13.md) for sources, dates and remaining gaps.
 Inventory growth and newly valued records affect totals; these are not investment returns.
