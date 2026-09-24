@@ -9991,7 +9991,70 @@
         "capturedAt": "2026-09-07T23:54:06.958Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "night-2026-09-24-Authority-8796605910",
+            "copyId": "Authority:8796605910",
+            "basis": "raw-reference",
+            "evidenceKind": "guide",
+            "value": 5,
+            "currency": "USD",
+            "source": {
+              "name": "Key Collector Comics high-condition guide (unassessed raw reference)",
+              "url": "https://www.keycollectorcomics.com/issue/the-sandman-1-19-2,808626/",
+              "asOf": null,
+              "retrievedAt": "2026-09-24T06:01:58.370Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "From The DC Vault: The Sandman",
+                "issue": "19",
+                "issueYear": "2024",
+                "publisher": "DC Comics",
+                "variant": "Remastered Variant",
+                "upc": "76194138359000111",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.keycollectorcomics.com/issue/the-sandman-1-19-2,808626/",
+              "reviewedBy": "Owner-authorized guide and artwork review",
+              "reviewedAt": "2026-09-24T06:01:58.370Z",
+              "notes": "Charles Vess 2024 Remastered cover; owned front and reverse visually inspected. Owned back UPC 76194138359000111 matches Westfield catalog https://westfieldcomics.com/comic-books/Sandman-19-Remastered--2024/24020207 . Guide specifies April 2, 2024 Remastered edition and exact matching artwork, not original 1990 issue or collected Shakespeare volume. Retail catalog used only for identity; retail $4.99 not used as sale. Live guide shows Low $1, Mid $2 and High $5. Reference uses the published High figure as an explicitly conditional benchmark, not an assessment of this copy. The complete range is retained. No numeric grade is inferred from High. Source exposes no valuation update date, underlying sold transactions, sample count or calculation method; publication date is not a price date. Not a completed-sale estimate. Owned condition remains unassessed; pending and excluded from recorded collection total. No seller/catalog image attached to owned record.",
+              "guideRange": {
+                "low": 1,
+                "mid": 2,
+                "high": 5,
+                "currency": "USD",
+                "selectedBand": "high",
+                "ownedConditionAssessed": false
+              },
+              "imageUrl": "https://image.keycollectorcomics.com/media/8e849b7b-e90f-4b1b-a376-cce86e058c47.jpg?height=675&quality=80&format=webp"
+            },
+            "provisional": true,
+            "provisionalReason": "Undated high-condition guide benchmark with no underlying sales exposed. Full low/mid/high range retained; owned condition unassessed, no numeric grade inferred. Pending raw reference only, excluded from collection value."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_8796605910_FRONT.jpg",
         "back": "Authority_8796605910_BACK.jpg"

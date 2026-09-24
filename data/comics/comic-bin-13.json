@@ -13411,7 +13411,70 @@
         "capturedAt": "2026-09-07T23:35:33.859Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "night-2026-09-24-Authority-1327529703",
+            "copyId": "Authority:1327529703",
+            "basis": "raw-reference",
+            "evidenceKind": "guide",
+            "value": 6,
+            "currency": "USD",
+            "source": {
+              "name": "Key Collector Comics high-condition guide (unassessed raw reference)",
+              "url": "https://www.keycollectorcomics.com/issue/superman-1-6-6,792468/",
+              "asOf": null,
+              "retrievedAt": "2026-09-24T06:01:58.370Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Superman",
+                "issue": "6",
+                "issueYear": "2023",
+                "publisher": "DC Comics",
+                "variant": "Besch Creator Card Stock Variant",
+                "upc": "76194137950000661",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "D",
+                "volume": "7",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.keycollectorcomics.com/issue/superman-1-6-6,792468/",
+              "reviewedBy": "Owner-authorized guide and artwork review",
+              "reviewedAt": "2026-09-24T06:01:58.370Z",
+              "notes": "Rose Besch Creator Card Stock / Artist Spotlight; owned front matches guide art, trade dress and printed $5.99. Indexed guide metadata explicitly gives full UPC 76194137950000661, matching stored Authority UPC. Source release September 19, 2023 agrees with owned on-sale date. Live guide shows Low $1, Mid $2 and High $6. Reference uses the published High figure as an explicitly conditional benchmark, not an assessment of this copy. The complete range is retained. No numeric grade is inferred from High. Source exposes no valuation update date, underlying sold transactions, sample count or calculation method; publication date is not a price date. Not a completed-sale estimate. Owned condition remains unassessed; pending and excluded from recorded collection total. No seller/catalog image attached to owned record.",
+              "guideRange": {
+                "low": 1,
+                "mid": 2,
+                "high": 6,
+                "currency": "USD",
+                "selectedBand": "high",
+                "ownedConditionAssessed": false
+              },
+              "imageUrl": "https://image.keycollectorcomics.com/media/312e2c80-75b1-4c9c-a32e-d39347cc26d1.jpg?height=675&quality=80&format=webp"
+            },
+            "provisional": true,
+            "provisionalReason": "Undated high-condition guide benchmark with no underlying sales exposed. Full low/mid/high range retained; owned condition unassessed, no numeric grade inferred. Pending raw reference only, excluded from collection value."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_1327529703_FRONT.jpg",
         "back": "Authority_1327529703_BACK.jpg"

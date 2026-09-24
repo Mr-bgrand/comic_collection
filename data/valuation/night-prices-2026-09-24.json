@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "Authority:1327529703",
+      "revision": "438b4db99c0baae5eb96ac32c351512044627b6811e662f4279daa688fca7796",
+      "observations": [
+        {
+          "id": "night-2026-09-24-Authority-1327529703",
+          "copyId": "Authority:1327529703",
+          "basis": "raw-reference",
+          "evidenceKind": "guide",
+          "value": 6,
+          "currency": "USD",
+          "source": {
+            "name": "Key Collector Comics high-condition guide (unassessed raw reference)",
+            "url": "https://www.keycollectorcomics.com/issue/superman-1-6-6,792468/",
+            "asOf": null,
+            "retrievedAt": "2026-09-24T06:01:58.370Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Superman",
+              "issue": "6",
+              "issueYear": "2023",
+              "publisher": "DC Comics",
+              "variant": "Besch Creator Card Stock Variant",
+              "upc": "76194137950000661",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "D",
+              "volume": "7",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.keycollectorcomics.com/issue/superman-1-6-6,792468/",
+            "reviewedBy": "Owner-authorized guide and artwork review",
+            "reviewedAt": "2026-09-24T06:01:58.370Z",
+            "notes": "Rose Besch Creator Card Stock / Artist Spotlight; owned front matches guide art, trade dress and printed $5.99. Indexed guide metadata explicitly gives full UPC 76194137950000661, matching stored Authority UPC. Source release September 19, 2023 agrees with owned on-sale date. Live guide shows Low $1, Mid $2 and High $6. Reference uses the published High figure as an explicitly conditional benchmark, not an assessment of this copy. The complete range is retained. No numeric grade is inferred from High. Source exposes no valuation update date, underlying sold transactions, sample count or calculation method; publication date is not a price date. Not a completed-sale estimate. Owned condition remains unassessed; pending and excluded from recorded collection total. No seller/catalog image attached to owned record.",
+            "guideRange": {
+              "low": 1,
+              "mid": 2,
+              "high": 6,
+              "currency": "USD",
+              "selectedBand": "high",
+              "ownedConditionAssessed": false
+            },
+            "imageUrl": "https://image.keycollectorcomics.com/media/312e2c80-75b1-4c9c-a32e-d39347cc26d1.jpg?height=675&quality=80&format=webp"
+          },
+          "provisional": true,
+          "provisionalReason": "Undated high-condition guide benchmark with no underlying sales exposed. Full low/mid/high range retained; owned condition unassessed, no numeric grade inferred. Pending raw reference only, excluded from collection value."
+        }
+      ]
+    },
+    {
+      "copyId": "Authority:8796605910",
+      "revision": "8be9a8be34e3c1683035dc3073fbdb4667c07f08533cf0053530ea7c3eabb4c7",
+      "observations": [
+        {
+          "id": "night-2026-09-24-Authority-8796605910",
+          "copyId": "Authority:8796605910",
+          "basis": "raw-reference",
+          "evidenceKind": "guide",
+          "value": 5,
+          "currency": "USD",
+          "source": {
+            "name": "Key Collector Comics high-condition guide (unassessed raw reference)",
+            "url": "https://www.keycollectorcomics.com/issue/the-sandman-1-19-2,808626/",
+            "asOf": null,
+            "retrievedAt": "2026-09-24T06:01:58.370Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "From The DC Vault: The Sandman",
+              "issue": "19",
+              "issueYear": "2024",
+              "publisher": "DC Comics",
+              "variant": "Remastered Variant",
+              "upc": "76194138359000111",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.keycollectorcomics.com/issue/the-sandman-1-19-2,808626/",
+            "reviewedBy": "Owner-authorized guide and artwork review",
+            "reviewedAt": "2026-09-24T06:01:58.370Z",
+            "notes": "Charles Vess 2024 Remastered cover; owned front and reverse visually inspected. Owned back UPC 76194138359000111 matches Westfield catalog https://westfieldcomics.com/comic-books/Sandman-19-Remastered--2024/24020207 . Guide specifies April 2, 2024 Remastered edition and exact matching artwork, not original 1990 issue or collected Shakespeare volume. Retail catalog used only for identity; retail $4.99 not used as sale. Live guide shows Low $1, Mid $2 and High $5. Reference uses the published High figure as an explicitly conditional benchmark, not an assessment of this copy. The complete range is retained. No numeric grade is inferred from High. Source exposes no valuation update date, underlying sold transactions, sample count or calculation method; publication date is not a price date. Not a completed-sale estimate. Owned condition remains unassessed; pending and excluded from recorded collection total. No seller/catalog image attached to owned record.",
+            "guideRange": {
+              "low": 1,
+              "mid": 2,
+              "high": 5,
+              "currency": "USD",
+              "selectedBand": "high",
+              "ownedConditionAssessed": false
+            },
+            "imageUrl": "https://image.keycollectorcomics.com/media/8e849b7b-e90f-4b1b-a376-cce86e058c47.jpg?height=675&quality=80&format=webp"
+          },
+          "provisional": true,
+          "provisionalReason": "Undated high-condition guide benchmark with no underlying sales exposed. Full low/mid/high range retained; owned condition unassessed, no numeric grade inferred. Pending raw reference only, excluded from collection value."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-069",
+      "revision": "563c48ced03f725dcbe7958e6f26f24faf5e05c6f5bb575184d92cc258d81117",
+      "observations": [
+        {
+          "id": "night-2026-09-24-raw-15-069",
+          "copyId": "raw:15-069",
+          "basis": "raw-reference",
+          "evidenceKind": "guide",
+          "value": 4,
+          "currency": "USD",
+          "source": {
+            "name": "Key Collector Comics high-condition guide (unassessed raw reference)",
+            "url": "https://www.keycollectorcomics.com/issue/moon-man-1-2-3,804873/",
+            "asOf": null,
+            "retrievedAt": "2026-09-24T06:01:58.370Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Moon Man",
+              "issue": "2",
+              "issueYear": "2024",
+              "publisher": "Image Comics",
+              "variant": "Marco Locati Cover A",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "A",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.keycollectorcomics.com/issue/moon-man-1-2-3,804873/",
+            "reviewedBy": "Owner-authorized guide and artwork review",
+            "reviewedAt": "2026-09-24T06:01:58.370Z",
+            "notes": "Marco Locati Cover A trade dress, individually matched to owned front and previously verified publisher identity. Guide explicitly identifies regular Cover A first print, April 17, 2024. Owned front has issue #02 / $3.99, same blue city, astronaut and bright orange energy. No back scan or full UPC available; no UPC added and no physical-condition or indicia assessment inferred. Live guide shows Low $1, Mid $2 and High $4. Reference uses the published High figure as an explicitly conditional benchmark, not an assessment of this copy. The complete range is retained. No numeric grade is inferred from High. Source exposes no valuation update date, underlying sold transactions, sample count or calculation method; publication date is not a price date. Not a completed-sale estimate. Owned condition remains unassessed; pending and excluded from recorded collection total. No seller/catalog image attached to owned record.",
+            "guideRange": {
+              "low": 1,
+              "mid": 2,
+              "high": 4,
+              "currency": "USD",
+              "selectedBand": "high",
+              "ownedConditionAssessed": false
+            },
+            "imageUrl": "https://image.keycollectorcomics.com/media/821bad79-5568-4299-ae27-99a8e97bcfe5.jpg?height=675&quality=80&format=webp"
+          },
+          "provisional": true,
+          "provisionalReason": "Undated high-condition guide benchmark with no underlying sales exposed. Full low/mid/high range retained; owned condition unassessed, no numeric grade inferred. Pending raw reference only, excluded from collection value."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-070",
+      "revision": "563c48ced03f725dcbe7958e6f26f24faf5e05c6f5bb575184d92cc258d81117",
+      "observations": [
+        {
+          "id": "night-2026-09-24-raw-15-070",
+          "copyId": "raw:15-070",
+          "basis": "raw-reference",
+          "evidenceKind": "guide",
+          "value": 3,
+          "currency": "USD",
+          "source": {
+            "name": "Key Collector Comics high-condition guide (unassessed raw reference)",
+            "url": "https://www.keycollectorcomics.com/issue/moon-man-2-1,819194/",
+            "asOf": null,
+            "retrievedAt": "2026-09-24T06:01:58.370Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Moon Man",
+              "issue": "2",
+              "issueYear": "2024",
+              "publisher": "Image Comics",
+              "variant": "Erica D'Urso Cover B Virgin",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "B",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.keycollectorcomics.com/issue/moon-man-2-1,819194/",
+            "reviewedBy": "Owner-authorized guide and artwork review",
+            "reviewedAt": "2026-09-24T06:01:58.370Z",
+            "notes": "Erica D'Urso Cover B virgin helmet profile with orange/gold rays and Igor Monti color credit; individually matched to owned front and previously verified publisher identity. Use this April 17, 2024 guide, not the March 27 entry 805528 showing different reaching-astronaut artwork and $4 high guide. No back scan or full UPC available; no UPC added and no physical-condition or indicia assessment inferred. Live guide shows Low $1, Mid $2 and High $3. Reference uses the published High figure as an explicitly conditional benchmark, not an assessment of this copy. The complete range is retained. No numeric grade is inferred from High. Source exposes no valuation update date, underlying sold transactions, sample count or calculation method; publication date is not a price date. Not a completed-sale estimate. Owned condition remains unassessed; pending and excluded from recorded collection total. No seller/catalog image attached to owned record.",
+            "guideRange": {
+              "low": 1,
+              "mid": 2,
+              "high": 3,
+              "currency": "USD",
+              "selectedBand": "high",
+              "ownedConditionAssessed": false
+            },
+            "imageUrl": "https://image.keycollectorcomics.com/media/b1715149825525mm_2.jpg?height=675&quality=80&format=webp"
+          },
+          "provisional": true,
+          "provisionalReason": "Undated high-condition guide benchmark with no underlying sales exposed. Full low/mid/high range retained; owned condition unassessed, no numeric grade inferred. Pending raw reference only, excluded from collection value."
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-071",
+      "revision": "563c48ced03f725dcbe7958e6f26f24faf5e05c6f5bb575184d92cc258d81117",
+      "observations": [
+        {
+          "id": "night-2026-09-24-raw-15-071",
+          "copyId": "raw:15-071",
+          "basis": "raw-reference",
+          "evidenceKind": "guide",
+          "value": 4,
+          "currency": "USD",
+          "source": {
+            "name": "Key Collector Comics high-condition guide (unassessed raw reference)",
+            "url": "https://www.keycollectorcomics.com/issue/moon-man-1-2-2,804874/",
+            "asOf": null,
+            "retrievedAt": "2026-09-24T06:01:58.370Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Moon Man",
+              "issue": "2",
+              "issueYear": "2024",
+              "publisher": "Image Comics",
+              "variant": "Greg Tocchini Cover C Virgin",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "C",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "reviewEvidence": {
+            "url": "https://www.keycollectorcomics.com/issue/moon-man-1-2-2,804874/",
+            "reviewedBy": "Owner-authorized guide and artwork review",
+            "reviewedAt": "2026-09-24T06:01:58.370Z",
+            "notes": "Greg Tocchini Cover C virgin with inverted vehicles, city debris and small astronaut; individually matched to owned front and previously verified publisher identity. Guide specifies April 17, 2024 and Greg Tocchini. No back scan or full UPC available; no UPC added and no physical-condition or indicia assessment inferred. Live guide shows Low $1, Mid $2 and High $4. Reference uses the published High figure as an explicitly conditional benchmark, not an assessment of this copy. The complete range is retained. No numeric grade is inferred from High. Source exposes no valuation update date, underlying sold transactions, sample count or calculation method; publication date is not a price date. Not a completed-sale estimate. Owned condition remains unassessed; pending and excluded from recorded collection total. No seller/catalog image attached to owned record.",
+            "guideRange": {
+              "low": 1,
+              "mid": 2,
+              "high": 4,
+              "currency": "USD",
+              "selectedBand": "high",
+              "ownedConditionAssessed": false
+            },
+            "imageUrl": "https://image.keycollectorcomics.com/media/105342bf-a758-4b81-a359-2f35fbae2fbe.jpg?height=675&quality=80&format=webp"
+          },
+          "provisional": true,
+          "provisionalReason": "Undated high-condition guide benchmark with no underlying sales exposed. Full low/mid/high range retained; owned condition unassessed, no numeric grade inferred. Pending raw reference only, excluded from collection value."
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-# Collection status - September 23, 2026 (UTC)
+# Collection status - September 24, 2026 (UTC)
 
 This is a snapshot of the stored inventory, not a new appraisal or a fresh grader lookup.
 
@@ -159,9 +159,12 @@ An evening September 23 pass added a starred $17.50 Machamp CGC Gem Mint 10
 estimate from two source-reported transactions and a $7.50 raw Mystique reference
 from a completed auction with a matching full UPC; see the
 [evening research](valuation-evening-2026-09-23.md).
-408 unconditioned raw references now total $2,513.93 and remain excluded
+An early September 24 pass added five conditional high-band raw guide references
+($22) from Key Collector Comics, retaining their full low/mid/high ranges. No new
+graded value was accepted; see the [night research](valuation-night-2026-09-24.md).
+413 unconditioned raw references now total $2,535.93 and remain excluded
 from the recorded total. There are 111 graded values outstanding (80 comics, 31 cards),
-plus 429 raw copies awaiting condition assessment. See the
+plus 429 raw copies awaiting condition assessment (16 still lack any reference). See the
 [pilot report](valuation-pilot-2026-09-13.md) for sources, dates and remaining gaps.
 Inventory growth and newly valued records affect totals; these are not investment returns.
 
