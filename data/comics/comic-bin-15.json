@@ -24809,7 +24809,69 @@
             }
           }
         ],
-        "legacyInvalidatedAt": "2026-09-23T02:12:21.401Z"
+        "legacyInvalidatedAt": "2026-09-23T02:12:21.401Z",
+        "observations": [
+          {
+            "id": "night-2026-09-25-raw-15-093",
+            "copyId": "raw:15-093",
+            "basis": "raw-reference",
+            "evidenceKind": "guide",
+            "value": 3,
+            "currency": "USD",
+            "source": {
+              "name": "Key Collector Comics high-condition guide (unassessed raw reference)",
+              "url": "https://www.keycollectorcomics.com/issue/moon-man-2,818945/",
+              "asOf": null,
+              "retrievedAt": "2026-09-25T05:03:09.886Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Moon Man",
+                "issue": "2",
+                "issueYear": "2024",
+                "publisher": "Image Comics",
+                "variant": "Ivan Tao Rabbit Comics OBJ The Catch Virgin Variant",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.keycollectorcomics.com/issue/moon-man-2,818945/",
+              "reviewedBy": "Owner-authorized guide and artwork review",
+              "reviewedAt": "2026-09-25T05:03:09.886Z",
+              "notes": "Owned Raw_15-093_FRONT.jpg individually compared with guide artwork: same arched astronaut, yellow trousers, blue/pink field and moon, without trade dress. Consistent with previously verified Moon Man #2 Ivan Tao Rabbit Comics OBJ The Catch virgin identity. Use entry 818945; entry 819195 also credits Tao but shows a different floating astronaut and is excluded. No back/indicia or full UPC available; none invented. Guide low $1 / mid $2 / high $3. High band is a conditional benchmark, not an assessment of this copy. No valuation date, underlying transactions, sample count or calculation methodology exposed. Guide publication date is not a sale date. Pending unassessed raw reference excluded from recorded total.",
+              "guideRange": {
+                "low": 1,
+                "mid": 2,
+                "high": 3,
+                "currency": "USD",
+                "selectedBand": "high",
+                "ownedConditionAssessed": false
+              },
+              "imageUrl": "https://image.keycollectorcomics.com/media/b1714373935170mm2.jpg?format=webp&height=675&quality=80"
+            },
+            "provisional": true,
+            "provisionalReason": "Undated guide without exposed sales history. Conditional high-band reference only; owned condition unassessed, excluded from recorded total."
+          }
+        ],
+        "selection": null
       },
       "images": {
         "front": "Raw_15-093_FRONT.jpg"
