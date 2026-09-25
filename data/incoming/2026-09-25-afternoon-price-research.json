@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtDate": "2026-09-25",
+  "batch": "afternoon",
+  "outcome": "No new supported price. Owned Chourio back scan narrows future research to Orange /199, serial072/199, rather than Orange Velocity.",
+  "ownedScanReview": {"copyId":"TAG:H5133767","front":"TAG_H5133767_SLAB_FRONT.jpg","back":"TAG_H5133767_SLAB_BACK.jpg","finding":"Label says 2024 Donruss193 Optic Rated Prospect Orange, TAG10. Reverse visibly stamped072/199. Record identity preserved; no price inferred."},
+  "directPages": [
+    {"url":"https://www.ebay.com/itm/389080826333","comparableCert":"99133016","displayedPrice":65.99,"saleDate":null,"finding":"Active PSA10 Orange Velocity offer; wrong parallel for owned serial072/199 Orange. No fallback imported."},
+    {"url":"https://www.sportscardinvestor.com/cards/jackson-chourio-baseball/2024-donruss-optic-193","finding":"Catalog explicitly separates Optic Orange/199 from Optic Orange Velocity. Base card page is not a price for either parallel."},
+    {"url":"https://www.ebay.com/itm/277382244197","displayedPrice":25,"saleDate":null,"finding":"Active Detective27 foil facsimile offer, not sold. UPC listed Does not apply; no reference imported."},
+    {"url":"https://comicbookrealm.com/cgc-analyzer/comic/id/311051/image-comics-w0rldtr33-1","finding":"Comic Corner edition analyzer is issue1. Not owned missing issue5 CGC4381117003; its120 estimate cannot substitute."},
+    {"url":"https://www.comiclink.com/results/generate_highlights.asp?output=2024-Summer-Comics","finding":"Detective400 CGC9.0 sale940 is not raw2024 blank facsimile. Archive highlights inspected, not exhaustive archive search."},
+    {"url":"https://comics.ha.com/comic-issue-index/detective-comics.s?id=23543","finding":"Original1970 Detective400 issue archive; not the owned2024 blank facsimile. No comparison imported."}
+  ],
+  "indexedOnly": [
+    {"url":"https://www.midtowncomics.com/product/2343577","upc":"76194138450400121","finding":"Exact Detective400 blank coverC catalog; near-mint5.75 is asking price, not sale."},
+    {"url":"https://www.midtowncomics.com/product/2343492","upc":"76194138562400131","finding":"Exact Detective27 BatmanDay2024 foil coverC catalog;9.45near-mint asking price not sale."},
+    {"url":"https://shop.theaddiction.co/products/addiction-nycc-cgc-signature-series","finding":"Multiple signed cover/grade options. Selected400 price is Artgerm9.9, not owned Mack virgin9.8; neither a sale nor exact edition."},
+    {"url":"https://www.ebay.com/shop/ethans-ho-oh-psa-9?_nkw=ethans+ho+oh+psa+9","finding":"Results include raw020/063 and different086/063,090/063 cards; no exact same-grade sale."}
+  ],
+  "failedRetrievals": [
+    {"url":"https://www.sportscardinvestor.com/cards/jackson-chourio-baseball/2024-donruss-optic-orange-193","reason":"Exact parallel link discovered in catalog, web retrieval405; value/history not reviewed."},
+    {"url":"https://www.mycomicshop.com/search?q=Detective+Comics+400+facsimile&pubid=&PubRng=","reason":"Web tool internal error; no original auction verified."}
+  ],
+  "nextResearch": [
+    "Read exact Chourio Optic Orange193 /199 catalog in rendered browser and inspect PSA10 history; source link above is grounded. Exclude Orange Velocity cert99133016 and Bowman BCP76 serial193/199.",
+    "Seek completed raw Detective27 coverC UPC76194138562400131 or Detective400 blank UPC76194138450400121; do not reuse original vintage issue archives or retailer asks.",
+    "For w0rldtr33 Comic Corner, require issue5 rather than the issue1/2 tables surfaced by search."
+  ],
+  "remaining": {"gradedMissing":111,"rawUnassessed":429,"rawReferences":415,"rawWithoutReference":14,"rawReferenceTotal":2581.93,"recordedTotal":35457.54}
+}
