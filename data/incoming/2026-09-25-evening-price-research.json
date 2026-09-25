@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtDate": "2026-09-25",
+  "batch": "evening-21UTC",
+  "outcome": "New Jared Jones PSA10 transaction leads saved; original transactions unavailable. No valuation imported.",
+  "directPages": [
+    {"copyId":"TAG:H5133767","url":"https://www.sportscardinvestor.com/cards/jackson-chourio-baseball/2024-donruss-optic-orange-193/psa-10","access":"rendered browser","finding":"Exact Orange /199 PSA10 selected. Loaded history explicitly says No sales found. Raw history exists but cannot price TAG10. Prior failed-retrieval lead resolved."},
+    {"copyId":"TAG:J3594287","url":"https://www.sportscardinvestor.com/cards/jared-jones-baseball/2024-topps-chrome-update-autographs-ra-jj/psa-10","access":"rendered browser","finding":"Selected base Autographs then PSA10 using catalog links. Recent leads below; table also includes an explicitly Sapphire sale, so aggregate and unverified rows are not accepted."},
+    {"copyId":"CGC:4418876010","url":"https://www.pricecharting.com/game/comic-books-marvel-previews/marvel-previews-26-2023","finding":"Correct-year catalog has zero 8.0 sold listings. Displayed 11.92 is modeled, not an exact-grade transaction; no import. Search also returned unrelated 2005 issue26 and issue95."},
+    {"copyId":"CGC:4418876010","url":"https://comicbookrealm.com/series/66698/623363/marvel-comics-marvel-previews-vol-6-issue-26","finding":"Catalog opened; retrieved content did not establish an exact CGC8.0 sale. General analyzer navigation is not issue-specific evidence."},
+    {"copyId":"CGC:4395549003","url":"https://ww.mycomicshop.com/search?TID=62827287&mingr=0","finding":"Indexed Killer Kare Bears series lead opened to No results found. No 420 Foil Edition B CGC9.8 result verified."},
+    {"copyId":"raw15-002","url":"https://rabbitcomics.com/products/orbit-eminem-1-caio-cacau-excluisve-variant-preorder","finding":"Retailer catalog distinguishes regular trade dress (600 copies), RAPBOY trade, virgin, foil, metal and retailer appreciation. Selected trade price20 and Sold out are retail availability, not proof of a transaction. Use catalog to resolve edition only; no reference imported."}
+  ],
+  "jaredJonesLeads": [
+    {"id":"336701363630","url":"https://www.ebay.com/itm/336701363630","reportedPrice":85,"reportedSaleDate":"2026-07-24","currency":"USD","comparableCert":null,"verification":"Original URL opened in browser but shows product catalog20073116592, featuring unrelated active169.99 listing407223967156. Original sold state/photos/cert not recovered."},
+    {"id":"377322664529","url":"https://www.ebay.com/itm/377322664529","reportedPrice":77,"reportedSaleDate":"2026-07-11","currency":"USD","comparableCert":null,"verification":"Same replacement product catalog; no original transaction verified."},
+    {"id":"377251317709","url":"https://www.ebay.com/itm/377251317709","reportedPrice":78,"reportedSaleDate":"2026-06-15","currency":"USD","comparableCert":null,"verification":"Same replacement product catalog; no original transaction verified."},
+    {"id":"146932961508","url":"https://www.ebay.com/itm/146932961508","reportedPrice":45,"reportedSaleDate":"2025-11-04","currency":"USD","comparableCert":null,"verification":"Browser now shows Refractor /499 product7073128980 and PSA9 active listing117367376938. Original parallel/grade cannot be verified; exclude."},
+    {"id":"336113134353","url":"https://www.ebay.com/itm/336113134353","reportedPrice":85,"reportedSaleDate":"2025-08-16","verification":"SCI title explicitly Sapphire. Wrong edition; excluded without opening original."},
+    {"id":"316921994080","url":"https://www.ebay.com/itm/316921994080","reportedPrice":75,"reportedSaleDate":"2025-06-22","verification":"SCI-only older lead; original not checked this run."},
+    {"id":"167421197991","url":"https://www.ebay.com/itm/167421197991","reportedPrice":79.95,"reportedSaleDate":"2025-04-03","verification":"SCI-only older lead; original not checked this run."}
+  ],
+  "indexedOnly": [
+    {"url":"https://www.ebay.com/itm/306812902676","copyId":"raw15-082","finding":"Michael J Fox Waite Sports Almanac CGC9.8, not owned unassessed raw. Web open failed; no sale status established."},
+    {"url":"https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MzUxNTk3NTQ0","copyId":"raw15-002","finding":"Retailer Appreciation variant is not regular trade. Unavailable and seller total37Sold do not establish item sold75."},
+    {"url":"https://www.sportscardspro.com/search-products?q=marvin+harrison+jr+red+optic+rated+rookie+preview+393&type=prices","copyId":"PSA:121629672","finding":"Search index includes exact Rookie Pix Red6 /49 row but no verified PSA10 transaction. Detail remains a lead."},
+    {"url":"https://www.comc.com/Players/Baseball/Jared_Jones_MLB_RHP_Born_2001/c121907%2C_RR%2CvList%2Ci50","finding":"PSA10 Purple /250 and raw base autograph asking listings; no exact completed base PSA10 sale."}
+  ],
+  "searchCoverage": [
+    "Full UPC queries for Detective400 blank76194138450400121 and Detective27 foil76194138562400131 yielded retail catalog results, no new transaction.",
+    "Targeted site searches for ComicLink Marvel Previews26 and Heritage Orbit Eminem did not yield exact auction lots; this is not an exhaustive archive check.",
+    "Henry Davis Sapphire Yellow PSA10 query did not yield an exact usable result; 2024 cards are not owned2021BDC48."
+  ],
+  "nextResearch": [
+    "Investigate retained sale thumbnails or archived exact Jared Jones transaction details for336701363630,377322664529,377251317709; compare certs for independence. Do not treat current replacement catalog photographs as original evidence.",
+    "Use exact Marvin Harrison Rookie Pix Red6 /49 catalog detail, check PSA10 history before using displayed model.",
+    "Match raw15-002 owned cover and finish against Rabbit catalog options; no condition inference and no retailer price as sold evidence.",
+    "Deprioritize Chourio exact SCI PSA10 until new history appears; raw and Orange Velocity values are inapplicable."
+  ],
+  "remaining":{"gradedMissing":111,"rawUnassessed":429,"rawReferences":415,"rawWithoutReference":14,"recordedTotal":35457.54}
+}
