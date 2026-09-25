@@ -5689,7 +5689,88 @@
         "capturedAt": "2026-09-07T23:52:31.697Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "noon-2026-09-25-wolverine-4841253705",
+            "copyId": "Authority:4841253705",
+            "basis": "raw-reference",
+            "evidenceKind": "sold-comps",
+            "saleCount": 1,
+            "value": 43,
+            "currency": "USD",
+            "source": {
+              "name": "eBay completed auction (unassessed raw reference)",
+              "url": "https://www.ebay.com/itm/336672292362",
+              "asOf": "2026-07-12",
+              "retrievedAt": "2026-09-25T13:03:52.658Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Wolverine",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Adamantium Head \"V\" Variant",
+                "upc": "75960620841800118",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "L",
+                "volume": "8",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "reviewEvidence": {
+              "url": "https://www.ebay.com/itm/336672292362",
+              "reviewedBy": "Owner-authorized completed-sale and full-UPC review",
+              "reviewedAt": "2026-09-25T13:03:52.658Z",
+              "notes": "Original eBay page explicitly SOLD, nine bids, US$43 item price plus $3.99 shipping. Displayed end July11,2026 19:25 PDT equals July12 UTC, agreeing with PriceCharting. Unsigned single raw first-print Wolverine1(2024), Patrick Gleason 1:100 Adamantium Head virgin. Both seller photos individually inspected and compared with owned front/back; rear barcode75960620841800118 matches exactly. No condition inferred for owned copy. Seller uses Brand New, not a numeric grade. Earlier $58 auction327235904195 July4 PDT uses identical seller/photos: retained as corroboration but excluded from independent count due possible relisting. No mixed PriceCharting guide or KeyCollector conflicting eighth-print description used. One small-sample conditional reference only, pending and excluded from collection total.",
+              "transactions": [
+                {
+                  "id": "336672292362",
+                  "url": "https://www.ebay.com/itm/336672292362",
+                  "price": 43,
+                  "currency": "USD",
+                  "shipping": 3.99,
+                  "soldAt": "2026-07-12T02:25:00Z",
+                  "displayedSoldAt": "Jul 11, 2026 19:25:00 PDT",
+                  "bids": 9,
+                  "seller": "lagom-prime",
+                  "condition": "Brand New (seller description)",
+                  "upc": "75960620841800118",
+                  "frontImage": "https://i.ebayimg.com/images/g/GqkAAeSw10RqEl9M/s-l1600.webp",
+                  "backImage": "https://i.ebayimg.com/images/g/JMwAAeSw9aNqEl9M/s-l960.webp"
+                }
+              ],
+              "excluded": [
+                {
+                  "id": "327235904195",
+                  "url": "https://www.ebay.com/itm/327235904195",
+                  "price": 58,
+                  "soldAt": "2026-07-05T01:41:32Z",
+                  "reason": "Same seller and identical photographs; independence of physical copy not established. Not averaged or counted."
+                }
+              ]
+            },
+            "provisional": true,
+            "provisionalReason": "Single verified auction, small sample; seller condition is not an assessment of the owned copy. Raw reference remains excluded from recorded total."
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_4841253705_FRONT.jpg",
         "back": "Authority_4841253705_BACK.jpg"

@@ -1,0 +1,25 @@
+{
+  "schemaVersion":1,
+  "retrievedAtDate":"2026-09-25",
+  "batch":"noon",
+  "observations":"data/valuation/noon-prices-2026-09-25.json",
+  "outcome":"One pending $43 raw sold reference; no accepted value changes.",
+  "directPages":[
+    {"url":"https://www.ebay.com/itm/336672292362","transactionId":"336672292362","price":43,"shipping":3.99,"currency":"USD","saleDate":"2026-07-12","soldAt":"2026-07-12T02:25:00Z","displayedSoldAt":"Jul 11, 2026 19:25:00 PDT","copyId":"Authority:4841253705","finding":"SOLD,9 bids,single,unsigned,first-print virgin. Both seller images visually compared; backUPC75960620841800118 exactly matches owned. Small-sample conditional reference only."},
+    {"url":"https://www.ebay.com/itm/327235904195","transactionId":"327235904195","price":58,"saleDate":"2026-07-05","soldAt":"2026-07-05T01:41:32Z","finding":"SOLD8bids; same seller and identical photos as latest43 sale. Not counted independently; possible relisting."},
+    {"url":"https://www.pricecharting.com/game/comic-books-wolverine/wolverine-gleason-adamantium-virgin-1-2024","finding":"Lead discovery only; aggregate raw table mixes PSAfoil and signed/remarqued copies. Guide not imported."},
+    {"url":"https://comicbookrealm.com/cgc-analyzer/comic/id/306588/dynamite-entertainment-darkwing-duck-1parsons-b-parsons-virgin-edition","finding":"No recorded exact-grade sales; recheck yields no new evidence."},
+    {"url":"https://geekedoutcomics.com/products/darkwing-duck-1-casey-parsons-cgc-9-8-exclusive-cover-dynamite-2023","finding":"Retail sold-out offer is not a completed-sale record; no import."},
+    {"url":"https://www.ebay.com/itm/115990398243","finding":"Active75USD KyleWillis art-print offer with different Spider-Man/Venom artwork. Not raw15-059 identity or price evidence."}
+  ],
+  "indexedOnly":[
+    {"url":"https://www.ebay.com/itm/196047212717","finding":"FanExpo foil mosaic sketchbook69.99asking; not confirmed SDCC item raw15-059."},
+    {"url":"https://www.mycomicshop.com/search?mingr=0&q=Spider-Men+1","finding":"NauckCGC9.6offer63.17 is different cover from ownedRamos; no sale."},
+    {"url":"https://www.mycomicshop.com/search?TID=58106353","finding":"WhereWhen1 and raw/other covers are not owned2singleEastmanSS9.8."}
+  ],
+  "unverifiedTransactionLeads":[{"url":"https://www.ebay.com/itm/227353668541","reportedPrice":98,"reportedDate":"2026-07-17","finding":"PriceCharting lead; web fetch restricted, original browser not inspected. Not used."}],
+  "failedRetrievals":[{"url":"https://prhcomics.com/wp-content/uploads/2024/05/2024_June_PRH-Panels-Catalog-PDF.pdf","reason":"Web fetch content length exceeds limit; not reviewed."}],
+  "searchesWithoutExactEvidence":["ComicLink Wretches", "Heritage Grim11", "Wilwolf BloodRed PSA10", "Cull Shrike CGC", "WhereWhen2 CGC9.8 sold"],
+  "nextResearch":["Find a Wolverine virgin sold copy from a different seller/photos to strengthen the small-sample reference; do not count the58 re-used-photo result independently.", "Identify raw15-059 format and publication from reverse/indicia evidence; do not promote a Spider-Boy proposal or price it from art prints.", "Resolve raw15-060 finish/printing beyond matching TaylorSwift Defendini front art.", "Continue other unpriced grader/label-exact items; retail offers and unrelated archive results remain excluded."],
+  "remaining":{"gradedMissing":111,"rawUnassessed":429,"rawReferences":415,"rawWithoutReference":14,"rawReferenceTotal":2581.93,"recordedTotal":35457.54}
+}
