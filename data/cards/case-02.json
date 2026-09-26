@@ -4273,7 +4273,110 @@
       "certUrl": "https://my.taggrading.com/card/J3594287",
       "gradeDate": "2025-03-18",
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "night-2026-09-26-jones-J3594287",
+            "copyId": "TAG:J3594287",
+            "basis": "psa-comparison",
+            "evidenceKind": "sold-comps",
+            "saleCount": 2,
+            "value": 81,
+            "currency": "USD",
+            "source": {
+              "name": "eBay sold listings / same-grade PSA comparison",
+              "url": "https://www.ebay.com/itm/336701363630?nordt=true&rt=nc&orig_cvip=true",
+              "asOf": "2026-07-24",
+              "retrievedAt": "2026-09-26T01:03:29.709Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "TOPPS CHROME UPDATE",
+                "series": "TOPPS CHROME UPDATE",
+                "subject": "JARED JONES",
+                "cardNumber": "RA-JJ",
+                "variety": "AUTOGRAPHS",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "PSA",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Two completed sales; small sample and owner-authorized PSA10 comparison for TAG10, not a direct TAG market price.",
+            "reviewEvidence": {
+              "url": "https://www.ebay.com/itm/336701363630?nordt=true&rt=nc&orig_cvip=true",
+              "reviewedAt": "2026-09-26T01:03:29.709Z",
+              "reviewedBy": "Owner-authorized exact-card and slab-photo review",
+              "notes": "Recovered original eBay archive using existing repository archive URL pattern and See original listing. Both archives explicitly SOLD. July24 shows accepted85 with original99.99 displayed; corroborated by Sports Card Investor. July11 auction77 with27bids. Distinct slab certs112695768 and104952265 individually inspected against owned TAG front: 2024 Topps Chrome Update RA-JJ base autograph, PSA10, no colored or numbered parallel. Midpoint81 excludes shipping/tax. No reliable direct TAG10 sale found in targeted search. Existing locked values unchanged. The mixed SCI table is not used as an aggregate; Sapphire and Refractor comparisons excluded.",
+              "transactions": [
+                {
+                  "id": "336701363630",
+                  "url": "https://www.ebay.com/itm/336701363630?nordt=true&rt=nc&orig_cvip=true",
+                  "price": 85,
+                  "currency": "USD",
+                  "saleDate": "2026-07-24",
+                  "displayedTime": "Fri Jul24 5:05PM (summary; timezone not shown)",
+                  "seller": "rampage_cards11",
+                  "comparisonCert": "112695768",
+                  "shipping": 3.99,
+                  "saleType": "Best offer accepted; sold85 and former99.99 both displayed",
+                  "imageUrl": "https://i.ebayimg.com/images/g/4LUAAeSw459qX~-v/s-l500.webp"
+                },
+                {
+                  "id": "377322664529",
+                  "url": "https://www.ebay.com/itm/377322664529?nordt=true&rt=nc&orig_cvip=true",
+                  "price": 77,
+                  "currency": "USD",
+                  "soldAt": "2026-07-12T01:18:00Z",
+                  "displayedSoldAt": "Jul11,2026 18:18:00 PDT",
+                  "seller": "dcsports87",
+                  "comparisonCert": "104952265",
+                  "shipping": 4.99,
+                  "bids": 27,
+                  "imageUrl": "https://i.ebayimg.com/images/g/TzIAAeSwxoRqS8hu/s-l500.webp"
+                }
+              ],
+              "excluded": [
+                {
+                  "id": "336113134353",
+                  "reason": "Sapphire edition, wrong set"
+                },
+                {
+                  "id": "146932961508",
+                  "reason": "Refractor catalog destination; original identity not verified"
+                },
+                {
+                  "id": "377251317709",
+                  "reason": "June transaction not needed; original cert independence not inspected"
+                }
+              ],
+              "corroboratingUrl": "https://www.sportscardinvestor.com/cards/jared-jones-baseball/2024-topps-chrome-update-autographs-ra-jj/psa-10"
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "night-2026-09-26-jones-J3594287",
+          "locked": true,
+          "selectedAt": "2026-09-26T01:03:30.207Z"
+        }
+      },
       "population": {
         "atGrade": 1,
         "total": 1,

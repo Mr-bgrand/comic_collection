@@ -1,0 +1,21 @@
+{
+  "schemaVersion":1,
+  "retrievedAtDate":"2026-09-26",
+  "batch":"01UTC",
+  "acceptedEvidence":"data/valuation/night-prices-2026-09-26.json",
+  "resolvedLeads":["336701363630 and377322664529 original sold pages recovered via nordt=true&rt=nc&orig_cvip=true and See original listing. Both photo-matched, distinct PSA10 certs; midpoint81 accepted for TAG:J3594287."],
+  "directPages":[
+    {"url":"https://www.comics.org/issue/2655261/?display=grid","copyId":"Authority:7633260283","finding":"Blank2024facsimile UPC76194138450400121; blank cardstock over base cover. Owned front/back individually viewed; no condition assigned."},
+    {"url":"https://www.keycollectorcomics.com/issue/detective-comics-1-400-3,823238/","finding":"Blank2024 guide low1/mid2/high5, no market trends. Illustration versus owned jacket unresolved; no numeric reference imported."},
+    {"url":"https://www.ebay.com/itm/186663931359","finding":"Active4.29OBO; item specifics list wrong issue1 and mixed artists. Not completed sale."},
+    {"url":"https://www.pricecharting.com/game/comic-books-darkwing-duck/darkwing-duck-parsons-virgin-1-2023","copyId":"CGC:4245413009","finding":"No exact9.8sold history established; no import."},
+    {"url":"https://www.sportscardspro.com/search-products?q=marvin+harrison+jr+red+optic+rated+rookie+preview+393&type=prices","finding":"Previously indexed Rookie Pix row not present in fetched content. Detail and PSA10 evidence still unchecked."}
+  ],
+  "indexedOnly":[
+    {"url":"https://wilshrike.com/collections/all?page=44","copyId":"CGC:4386585001","finding":"Cull virgin cover retailer sold-out20GBP starting price; no CGC9.8transaction."},
+    {"url":"https://underdogcomicshop.com/products/the-cull-1-will-shrike-variant-preorder","finding":"Retail edition lead only."},
+    {"url":"https://www.ebay.com/itm/256243652735","copyId":"CGC:4273634005","finding":"Raw Parsons trade listing, not verified graded sale."}
+  ],
+  "nextResearch":["Use retained original archive parameters for saved eBay leads before concluding a catalog redirect erased evidence.","For JaredJones June15lead377251317709, inspect original slab cert before counting a third independent sale. Current81estimate uses only two verified copies.","Detective400blank GCDUPC is confirmed but cover/jacket visual distinction still needs resolution before conditional guide import.","CullShrike requires CGC9.8universal; DarkwingParsons trade and virgin must remain separate."],
+  "remaining":{"gradedMissing":110,"rawReferences":415,"rawWithoutReference":14,"rawUnassessed":429,"recordedTotal":35538.54}
+}
