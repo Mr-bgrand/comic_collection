@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtDate": "2026-09-26",
+  "batch": "21UTC",
+  "outcome": "No qualifying new values. Search-only results distinguished from opened pages.",
+  "directPages": [
+    {
+      "copyId": "PSA:114218231",
+      "url": "https://www.cardcenteringtool.com/players/football/trey-benson",
+      "finding": "Opened Midpoint 231-card catalog. No RMI entry found. Obsidian Black Color Blast prices belong to another insert; no matching Rookie Materials Ink PSA9 transaction."
+    },
+    {
+      "copyId": "raw:15-017",
+      "url": "https://comickingdomcreative.com/collections/tidal-wave/products/fame-michael-jordan-ck-exclusive-fan-expo-chicago-goodfellas-homage-damaged-copy-caio-cacau",
+      "finding": "Publisher retailer offers damaged copies from6USD, not completed sales. Distinguishes250trade,125blackvirgin,125redvirgin plus25foil and25metal of each. Confirms finish ambiguity remains; seller estimated condition not transferred to owned copy."
+    },
+    {
+      "copyId": "CGC:4214394003",
+      "url": "https://www.santanacollectibles.com/shop/p/exiled-1-metal-akira-homage",
+      "finding": "SMZ Alex Riegel Metal Akira homage65USD active raw offer. Owned is CGC9.8Qualified foil; wrong finish, grade/label, and transaction status."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "PSA:114218231",
+      "url": "https://www.hobbyscan.com/card/70246",
+      "finding": "RJJ-TBN Blue Ice, wrong insert/parallel; model pricing not adopted."
+    },
+    {
+      "copyId": "CGC:4418876010",
+      "url": "https://www.ebay.com/itm/366686273307",
+      "transactionId": "366686273307",
+      "comparableCert": "4396380019",
+      "finding": "MyComicShop newly listed MarvelPreviews26CGC9.6. Owned8.0; wrong grade and active listing, not sale. Do not use seller aggregate items-sold count."
+    },
+    {
+      "copyId": "raw:15-017",
+      "url": "https://www.ebay.com/itm/376347457630",
+      "finding": "19USD active black trade cover, wrong red virgin and no sale."
+    },
+    {
+      "copyId": "raw:15-017",
+      "url": "https://www.ebay.ca/itm/198314571473",
+      "finding": "17.60CAD active offer, three available; recent-sales-price wording explains discount, not a verified transaction."
+    },
+    {
+      "copyId": "TAG:Y6882653",
+      "url": "https://www.sportscardspro.com/game/football-cards-2025-topps-chrome-rookie-autograph/seth-henigan-red-sapphire-ra-sh",
+      "finding": "2025autographRA-SH is wrong year/set/card for owned2024BowmanUniversity162RedSapphire."
+    }
+  ],
+  "searchOnly": [
+    "MaasonSmithRedSapphirePSA10 did not yield a qualifying original sale.",
+    "CantoII CBCS search did not establish new evidence. Reflections search repeated an exhausted gap; stopped after reading prior exclusions.",
+    "Targeted MyComicShop Exiled, ComicConnect DarkwingParsons, ComicLink MarvelPreviews and CGCAnalyzer SpiderMan4 searches returned no exact sale; no claim these archives were directly inspected."
+  ],
+  "remaining": {
+    "gradedMissing": 110,
+    "rawReferences": 415,
+    "rawWithoutReference": 14,
+    "rawUnassessed": 429,
+    "recordedTotal": 35538.54
+  },
+  "nextResearch": [
+    "Palkia307189738518 remains September29-or-later follow-up.",
+    "Avoid generic Reflections/Canto queries; require newly discovered transaction links.",
+    "Raw Jordan needs physical finish confirmation; black-cover auction and damaged retailer offers cannot resolve its value."
+  ]
+}
