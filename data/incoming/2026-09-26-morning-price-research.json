@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtDate": "2026-09-26",
+  "batch": "09UTC",
+  "outcome": "No supported new amount; evidence and exclusions only.",
+  "directPages": [
+    {"copyId":"CGC:4350046015","url":"https://www.pricecharting.com/game/comic-books-gone/gone-jock-1-2023","finding":"Catalog5944682 is mixed regular Jock covers, hardcover, lots and ashcan. Zero9.2sales; displayed17.28 is modeled. Only9.8sale is regular CoverA, not owned ashcan. RawVF ashcan2.89 dated2024-07-22 is not graded comparison. Exclude entire aggregate."},
+    {"copyId":"CGC:4350046004","url":"https://www.ebay.com/itm/116506412480","transactionId":"116506412480","finding":"Active400USD/OBO Sakai/Saladeen signed CGC9.8 SDCCGold, not universal owned copy. Seller topshelfnerd. No sale date/realized price established; exclude."},
+    {"copyIds":["raw:15-025","raw:15-060"],"url":"https://www.ebay.com/itm/236076474243","transactionId":"236076474243","finding":"Unknown Comics X variant active11USD with6sold. Historical prices/dates not disclosed; cannot treat current11 as six completed11sales. Regular owned15-025 front individually viewed: blue dress, gold star, microphone and title; existing confirmed regular-cover identity preserved. Xmontage is separate15-060. Listing image fetch failed, so no new visual equivalence claimed."},
+    {"copyId":"raw:15-025","url":"https://www.mycomicshop.com/search?ItemID=61871614","finding":"UnknownEditionA CGC9.9 cert4490253002 active107.99/OBO, not raw completed sale. No import."},
+    {"copyIds":["raw:15-012","raw:15-013","raw:15-015"],"url":"https://comickingdomcreative.com/products/tribute-kobe-bryant-ck-shared-exclusive-wu-tang-clan-homage-sajad-shah","finding":"Creator retailer confirms600trade,300virgin,35foil and35metal EACH trade/virgin plus40retailer-appreciation virgins. Live selected retail13USD reduced26 with8available, not sale history. Distinct finishes remain unresolved for owned copies; do not assign one default variant price."}
+  ],
+  "indexedOnly": [
+    {"url":"https://www.pricecharting.com/fr/game/comic-books-the-kingdom/the-kingdom-1-1999","finding":"Wrong Kingdom1999 catalog includes KobeComicKingdom9.8 sale54.99 dated2025-01-01. Owned CGC4526002009 is9.6virgin. Underlying transaction and cover not inspected; no interpolation."},
+    {"url":"https://unknowncomicbooks.com/products/female-force-taylor-swift-unknown-comics-steven-defendini-exclusive-x-virgin-var-03-27-2024","finding":"Xvirgin retailer SKU SIG003975UC; not trade-dress owned variants. Asking25 not used."},
+    {"url":"https://comics.ha.com/itm/video-games/nintendo/back-to-the-future-cgc-92-a-ltb-sealed-publisher-reseal-oval-soq-tm-nes-ljn-1989-usa/a/312508-69003.s","finding":"Heritage result is NES video game, not ArtistEdition comic. Exclude."}
+  ],
+  "searchesWithoutMatchingResult":["Gone ashcan CGC on MyComicShop; Gone ashcan on ComicLink; Gone ashcan CGCAnalyzer; KobeComicKingdom9.6. No exact completed transaction established."],
+  "existingEvidenceConsulted":"Grim12Trinity CGCAnalyzer322594 already checked September23 with zero sales; no redundant table lookup performed.",
+  "nextResearch":["Do not use GoneJock5944682 aggregate for ashcan.","RawKobe finish/retailer-appreciation distinction needs back/edition evidence, not a guessed condition or default retail price.","TaylorSwiftX eBay236076474243 requires actual historical transaction amounts and exact cover match; current multi-quantity price insufficient.","Prior JaredJonesJune15 archive lead remains unchecked; accepted81 stays locked."],
+  "remaining":{"gradedMissing":110,"rawReferences":415,"rawWithoutReference":14,"rawUnassessed":429,"recordedTotal":35538.54}
+}
