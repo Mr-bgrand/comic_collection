@@ -1,0 +1,22 @@
+{
+  "schemaVersion":1,
+  "retrievedAtDate":"2026-09-26",
+  "batch":"13UTC",
+  "outcome":"No accepted or raw-reference amounts changed; actionable future auction lead saved.",
+  "browserVerified":[
+    {"copyId":"TAG:J3594287","url":"https://www.ebay.com/itm/377251317709?nordt=true&rt=nc&orig_cvip=true","transactionId":"377251317709","seller":"dcsports87","finding":"Original titled June archive now reachable, but ENDED US0.00 placeholder, Mon Jun15 05:57PM; no original-listing control or cert details exposed. SCI-reported78 cannot be independently verified or counted as third distinct copy. Locked81 unchanged. Retire this archive lead unless new evidence appears."},
+    {"copyId":"Authority:4845360792","url":"https://www.ebay.com/itm/196675201411?nordt=true&rt=nc&orig_cvip=true","transactionId":"196675201411","seller":"deslok1999","finding":"Recovered title-specific archive shows ENDED3.75, FriSep19 05:33PM, without sold confirmation/year. Previously indexed sale date2025-03-28 differs. No full UPC/printing visible here, no source date harmonization assumed. Raw reference not imported."},
+    {"copyId":"TAG:D6943986","url":"https://www.ebay.com/itm/307189738518","transactionId":"307189738518","seller":"PSA","comparableCert":"157420110","grader":"PSA","grade":"7","finding":"Exact English2022AstralRadiance040 OriginFormePalkiaVSTAR PSA7, active auction19.95USD, zero bids, ends Monday06:59PM with2d12h remaining. Shipping5.99 excluded. Active minimum is not a sale. Item specifics read; slab image still needs comparison before future use.","recheckNotBefore":"2026-09-29","nextAction":"Read original auction after close; require affirmative sold and realized amount, inspect slab photo and confirm exact card before owner-authorized TAG7/PSA7 comparison."},
+    {"copyId":"TAG:E3314397","url":"https://slabverdict.com/prices/cleffa-sv03-obsidian-flames-en-202/","finding":"Fully rendered English202/197 page exposes TAG8.5 chart checkbox via +18more. Selected it, but no transaction-level amounts/dates/IDs appeared in text. Visible sold ladder only summarizes common grades. Newly listed eBay section explicitly asking prices; not used."}
+  ],
+  "directPages":[
+    {"copyId":"TAG:E3314397","url":"https://tcgvaluescanner.com/cards/pokemon/2023-pokemon-scarlet-and-violet-obsidian-flames/cleffa-number-202-e6dae0c7/","finding":"TAG8.5 estimated20USD, snapshotJul25,2026. No underlying matching transaction IDs, certs or sale dates; save guide lead only, no import."},
+    {"copyId":"TAG:E3314397","url":"https://cardmasters.pl/karty/obsidian-flames-sv03/cleffa-sv03-202","finding":"English202/197; TAG8.5 listed78PLN and3sales, retrievedSep26. Claims30day sold median globally converted; individual transactions and original currency amounts absent. Page methodology says only >=3sales displayed while other rows show1/2, so do not assume independent corroboration or convert into accepted USD value."}
+  ],
+  "indexedOnly":[
+    {"copyId":"TAG:D6943986","url":"https://www.tcgberg.com/cards/origin-forme-palkia-vstar-40-astral-radiance-holo","finding":"PSA7 model18USD, very-low confidence9. No direct PSA7 transaction established; not used."},
+    {"copyId":"TAG:L3302729","url":"https://www.pokevalues.com/card/mamoswine-ex-journey-together-174","finding":"PSA8/9/10 and CGC9.5 surfaced, not TAG8.5 or PSA8.5. Do not interpolate."}
+  ],
+  "remaining":{"gradedMissing":110,"rawReferences":415,"rawWithoutReference":14,"rawUnassessed":429,"recordedTotal":35538.54},
+  "nextResearch":["Prioritize Palkia307189738518 after2026-09-29; do not recheck before close.","Cleffa TAG8.5 guide sources need underlying original sales; charts/aggregate medians are not three independently verified transactions.","Do not repeat JuneJones or Thor196675201411 archive navigation absent new evidence; both recovered but insufficient."]
+}
