@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtDate": "2026-09-26",
+  "batch": "05UTC",
+  "outcome": "Research only; no supported new valuation or raw reference imported.",
+  "directPages": [
+    {
+      "copyId": "PSA:160521636",
+      "url": "https://www.sportscardinvestor.com/cards/sandy-koufax-baseball/2025-topps-bob-ross-the-joy-of-baseball-sap-green-71/psa-9",
+      "method": "Fully rendered browser page",
+      "finding": "Exact Sandy Koufax 2025 Bob Ross #71 Sap Green /75 PSA 9 heading; Recent Sales explicitly says No sales found. Resolves prior masked guide lead. No price inferred from other grades or colors."
+    },
+    {
+      "copyId": "Authority:7861079670",
+      "url": "https://www.g-mart.com/static/g0724DC133.html",
+      "finding": "Cover C Bob Kane Foil, Batman Day 2024, full UPC 76194138562400131 and Lunar 0724DC133. Cover price 9.99; active Add to Cart 20 USD. Identity corroboration only, not a completed sale or condition assessment."
+    },
+    {
+      "copyId": "Authority:7861079670",
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/345689/dc-comics-detective-comics-27",
+      "finding": "Misleading search heading: actual detail identifies 27c special reprint of 1939 and 2014 material; sidebar distinguishes Batman Day foil. Recorded sales 0; Right now on eBay asks mix other editions. Reject as owned foil reference."
+    },
+    {
+      "copyId": "Authority:7861079670",
+      "url": "https://www.mycomicshop.com/search?mingr=0&q=batman+27",
+      "finding": "Opened mixed issue search. Index identifies Batman Day 2024 #27C with active NM9.4 22 USD offer; no completed transaction established. Indexed stock is not sale evidence."
+    }
+  ],
+  "failedFetches": [
+    "https://www.sportscardspro.com/de/search-products?q=henry+davis+green+bd+48&type=prices",
+    "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-sapphire/henry-davis-yellow-bdc-48",
+    "https://www.comics.org/issue/2658753/"
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "TAG:L4878840",
+      "url": "https://www.fanaticscollect.com/buy-now/e715d1c4-27bc-43f6-90da-2c58d2a4146e",
+      "finding": "Exact 2021 Sapphire Yellow /99 card but PSA9 buy-now 71, wrong grade and not sold."
+    },
+    {
+      "copyId": "TAG:L4878840",
+      "url": "https://www.ebay.com/itm/398424995246",
+      "finding": "2022 BDC7 Yellow PSA10 active 37.99, wrong year/card. Yellow Lava /75 eBay catalog 26055905863 also wrong parallel."
+    },
+    {
+      "copyId": "PSA:160521637",
+      "url": "https://onlygreats.com/hottest-sports-cards/coby-mayo/",
+      "finding": "Raw Bob Ross autograph Sap Green 32/75 auction still running in indexed snapshot. Bid is not realized price; no PSA10 comparison established."
+    },
+    {
+      "copyId": "CGC:6042459106",
+      "url": "https://www.ebay.com/itm/377249345288",
+      "finding": "Dodrio Meiji raw LP listing. CGC7.5 mention comes from feedback about Electrike, not Dodrio. Exclude."
+    }
+  ],
+  "queriesWithoutNewEvidence": [
+    "Reflections 14 CBCS9.8; repeats known Kabuki Reflections gap. Do not repeat generic Reflections query.",
+    "Cacturne21 Silver CGC9; no exact completed result established."
+  ],
+  "nextResearch": [
+    "Deprioritize Koufax exact SCI PSA9 until history changes; masked page is now resolved as no sales.",
+    "Detective27 foil identity now corroborated by full-UPC retailer; reconcile prior Key Collector illustration discrepancy before any conditional guide import. Retail20 is not market value.",
+    "Saved Jared Jones June15 original archive remains unchecked; only add stronger evidence for review because accepted81 is locked.",
+    "Use saved transaction-level leads and owned scans before repeating broad remaining-item searches."
+  ],
+  "remaining": {"gradedMissing":110,"rawReferences":415,"rawWithoutReference":14,"rawUnassessed":429,"recordedTotal":35538.54}
+}
