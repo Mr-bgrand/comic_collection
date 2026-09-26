@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtDate": "2026-09-26",
+  "batch": "17UTC",
+  "outcome": "Research evidence only; no accepted prices or raw references changed.",
+  "directPages": [
+    {"copyId":"CGC:1401011392237","url":"https://scrydex.com/pokemon/cards/mankey/dp4-79","finding":"Recent Sales History reports exact 2008 Great Encounters English Reverse Holo Mankey79 CGC9.5, 11USD on2025-03-24, linked eBay376068568063. Single stale secondary-source sale, not an independently verified realization. Separate regular-card and other-grade rows excluded.","reportedSaleDate":"2025-03-24","reportedAmount":11,"currency":"USD","transactionId":"376068568063","comparableCert":null,"selected":false},
+    {"copyId":"CGC:4424144001","url":"https://comicbookrealm.com/cgc-analyzer/comic/id/342019/marvel-comics-spectacular-spider-men-1","finding":"Correct2024Ramos variant Universal; Recorded Sales1, 9.8 sold40USD March28,2025. No9.6 sale/value. Wrong grade excluded; no interpolation."},
+    {"copyId":"CGC:4424144001","url":"https://www.ebay.com/itm/157017737261","finding":"Ended by seller May13 at7:45PM because no longer available;249 asking, signed Delgado/Nakayama/Ramos/Olazaba. Not sold and wrong signature status for owned Universal9.6."},
+    {"copyId":"raw:15-014","url":"https://denver.hibid.com/lot/238726939/tribute--tupac-shakur----variant","finding":"Revisited existing lead: lot7 SaintOneComics, auctionMarch20-31,2025, PriceRealized12USD, Cacau Crow trade dress limited600. Terms list18% buyer premium but PaymentInfo18.5%; final buyer total unresolved. Prior saved image comparison notes extra bottom credit block absent owned front. Owned scan viewed again; printing/finish still unresolved. No reference imported.","reportedAmount":12,"currency":"USD","lot":"7","selected":false,"ownedImage":"data/images/Raw_15-014_FRONT.jpg"}
+  ],
+  "browserVerified": [
+    {"copyId":"CGC:1401011392237","url":"https://www.ebay.com/itm/376068568063?nordt=true&orig_cvip=true&rt=nc","transactionId":"376068568063","seller":"probstein123","finding":"Original matching title survives, but archive shows ENDED US0.00 MonMar24 7:10PM. No visible sold amount or original-listing control. Zero is a placeholder, not a sale. Cannot independently validate secondary11USD; preserve research lead, no acceptance."}
+  ],
+  "indexedOnly": [
+    {"url":"https://comicbookrealm.com/cgc-analyzer/comic/id/110788/marvel-comics-spider-men-1b-ramos-variant-cover","finding":"2012Spider-Men, wrong series/year for Spectacular2024; excluded."},
+    {"url":"https://www.ha.com/c/search/results.zx?archive_state=5327&layout=gallery&mode=archive&page=72~6&sb=1&si=2&sold_status=1526&term=Back+to+the+Future","finding":"Artist Edition1CGC9.8SignatureSeriesMichaelJFox, wrong grade/label for owned9.2Universal. Archive not opened."},
+    {"url":"https://www.sportscardinvestor.com/cards/mankey-pokemon/2008-diamond-pearl-great-encounters-base-079-106/cgc-9.5","finding":"Base card listing; reverse-holo identity not verified, not used."},
+    {"url":"https://www.pokevalues.com/card/mankey-great-encounters-79","finding":"CGC9.5 population surfaced but displayed prices PSA; no cross-grader equivalence authorized for CGC."},
+    {"url":"https://www.pokeprices.io/set/Great%20Encounters/card/mankey-reverse-holo-79","finding":"Raw and PSA9/10 prices surfaced, not exact CGC9.5 transaction."}
+  ],
+  "searchOnly": ["Blaine Japanese nonholo CGC9 returned other Blaine Pokemon rather than exact trainer.","Cacturne Topps silver returned Platinum cards and animation artwork; no exact transaction verified.","Killer Kare Bears420, EminemPunisher and TaylorDefendini auction searches did not establish a new matching realized sale."],
+  "remaining": {"gradedMissing":110,"rawReferences":415,"rawWithoutReference":14,"rawUnassessed":429,"recordedTotal":35538.54},
+  "nextResearch": ["Do not reopen Mankey376068568063 unless new evidence appears; exact stale11USD secondary sale retained for review but original price is gone.","Palkia307189738518 remains future task for September29 or later, not checked this run.","Prioritize other exact transaction leads; Spectacular9.6 has no CGC Analyzer sales, and raw Tupac requires credit-block/edition reconciliation before using existing12USD lot."]
+}
