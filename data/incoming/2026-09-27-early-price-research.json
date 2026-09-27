@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtDate": "2026-09-27",
+  "batch": "05UTC",
+  "outcome": "Research only; no supported new values.",
+  "directPages": [
+    {
+      "copyId": "CGC:6025067013",
+      "url": "https://www.mercari.com/us/item/m40603260822/",
+      "listingId": "m40603260822",
+      "finding": "ChaseBrown2023DonrussCGC9.5 offered25USD, Add to cart. Seller matteh210 has25sales total; not item sale confirmation. Excluded."
+    },
+    {
+      "copyId": "TAG:D1216494",
+      "url": "https://www.ebay.com/p/25055892233",
+      "finding": "Catalog displays JacksonMerrill2021SapphireBDC119PSA8 offered29.99USD plus5.99shipping by StarbuckCardCompany. BuyItNow, not realized sale. PSA8 fallback requires actual sale; no import."
+    },
+    {
+      "copyId": "Authority:7633260283",
+      "url": "https://www.seibertron.com/shop/detective-comics-400-facsimile-cvr-c-blank-sketch-dc-comics-2024-ptg-0724dc218/188233536490/",
+      "finding": "Indexed exact blank-cover title, but opened page says No result. No price/completion verified."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "url": "https://www.hipcomic.com/price-guide/us/dc-comics/comic/detective-comics-1937/400/",
+      "finding": "Parent1970guide includes2024blankvariant6.5reference2.34. Original183.67not applicable. No raw condition inferred; separate variant identity requires direct verification."
+    },
+    {
+      "url": "https://arthurscardsandcollectibles.com/blogs/fanatics-collect-auction-results-market-notes/fanatics-collect-auction-241-results-nolan-ryan-roger-clemens-bo-jackson",
+      "finding": "ChaseBrownCGC9.5reported8.40buyer/7hammer is PrizmDraftPicksSilver, not ownedDonruss318. Wrong set excluded."
+    },
+    {
+      "url": "https://www.ebay.com/itm/327332887637",
+      "finding": "BlaineCGC9sold result is HoloGymDeck, not owned nonholo. No use."
+    }
+  ],
+  "searchOnly": [
+    "ObiWanMomokoCGC8, DarthVader29EastSide9.6 and AddictionMackNYCC9.8 searches established no exact realized sale.",
+    "CGCAnalyzer ObiWanMomoko search returned no result; no archive page inspected."
+  ],
+  "remaining": {
+    "gradedMissing": 110,
+    "rawReferences": 415,
+    "rawWithoutReference": 14,
+    "recordedTotal": 35538.54
+  },
+  "nextResearch": [
+    "Palkia307189738518 still waits untilSeptember29.",
+    "Do not revisit active ChaseBrownMercari or Merrill catalog absent a change in sale status.",
+    "Detective400blank HipComic variant is an identification/conditional-guide lead only; original1970values must be excluded."
+  ]
+}
