@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtDate": "2026-09-27",
+  "batch": "21UTC",
+  "outcome": "No qualifying new price; saved exact-edition evidence and exclusions.",
+  "directPages": [
+    {
+      "copyId": "CGC:3760617001",
+      "url": "https://comics.ha.com/itm/modern-age-1980-present-/superhero/white-widow-2-variant-covers-signature-series-group-of-3-absolute-comics-group-2019-cgc-nm-mt-98-total-3-c/a/122401-11956.s",
+      "auction": "122401",
+      "lot": "11956",
+      "saleDate": "2024-01-02",
+      "reportedPriceUSD": 129,
+      "comparableCert": "2704214001",
+      "decision": "Excluded: three different White Widow #2 SS 9.8 variants in one lot. Cannot allocate lot price to owned Rebel Killer. Description specifies Tyndall signature June 18, 2022; no individual price."
+    },
+    {
+      "copyId": "CGC:4273634010",
+      "url": "https://www.pricecharting.com/fr/game/comic-books-transformersback-to-the-future/the-transformers-back-to-the-future-4-2021",
+      "decision": "Opened. Panda variant CGC 9.6 sales indexed for October 23, 2023 ($23.50) and March 7, 2022 ($28); wrong grade for owned Universal 8.5. Original transactions not inspected; neither amount used."
+    },
+    {
+      "copyId": "PSA:121629672",
+      "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-photogenic-rookie-pix/marvin-harrison-jr-red-6",
+      "decision": "Opened exact Red #6 guide: zero PSA 10 sold listings. Raw section includes Stardust wording; no inference from raw or other grades."
+    },
+    {
+      "copyId": "PSA:121297944",
+      "url": "https://www.ebay.com/itm/146545741673",
+      "listingId": "146545741673",
+      "seller": "steelers2475",
+      "decision": "Opened 2024 Will Johnson Sapphire Orange PSA 10 listing: $139 or Best Offer, Buy It Now. Asking price only. No verified transaction or comparable certificate recorded."
+    },
+    {
+      "copyId": "Authority:8364744505",
+      "url": "https://www.comics.org/issue/2658767/",
+      "upc": "76194138562400121",
+      "decision": "Opened GCD: Detective Comics 27 Batman Day Special Edition, Blank Cardstock Cover, on sale September 21, 2024, November cover date. Exact full UPC corroborates edition. $8.99 is cover price, not resale value. Blank cover overlays base cover; no owned condition inferred."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "PSA:114218230",
+      "url": "https://www.sportscardspro.com/game/football-cards-2022-bowman-chrome-university/maason-smith-autograph-red-9",
+      "decision": "2022 Bowman #9 Red auto PSA 10 is wrong year/set/card number for owned 2024 Sapphire RA-MSM."
+    },
+    {
+      "copyId": "PSA:121297944",
+      "url": "https://www.fanaticscollect.com/weekly/a979dcf6-4ab9-11ef-923a-0a58a9feac02/2023-bowman-u-chrome-sapphire-orange-will-johnson-rookie-auto-25-pa-wil-psa-10",
+      "decision": "$240 including premium, August 26, 2024, WA136 lot 4605 is 2023 autograph PA-WIL; wrong year and insert for owned 2024 non-auto #183."
+    },
+    {
+      "copyId": "raw:15-025 / raw:15-060",
+      "url": "https://vintageantiquesgifts.com/products/female-force-taylor-swift-unknown-comics-steven-defendini-exclusive-x-virgin-var-03-27-2024",
+      "decision": "Retail X Virgin variant is not either owned trade-dress version. Sold-out retail status does not establish transaction."
+    },
+    {
+      "copyId": "raw:15-017",
+      "url": "https://www.ebay.com/itm/376347457630",
+      "decision": "Black trade Goodfellas Cacau at $19 asking price: wrong color and trade dress for owned red virgin. Prior HiBid black-virgin lot remains excluded and was not reopened."
+    }
+  ],
+  "failedPages": [
+    {
+      "copyId": "CGC:1401011131203",
+      "url": "https://www.sportscardinvestor.com/cards/cacturne-pokemon/2003-topps-advanced-foil-21",
+      "failure": "Open returned 405. Search snippet alone exposes no exact CGC 9 sale."
+    },
+    {
+      "copyId": "Authority:7861079670",
+      "url": "https://www.ebay.com/itm/277382244197",
+      "failure": "Open returned internal error. Generic 2024 foil title does not establish full UPC or completed sale; unverified lead."
+    }
+  ],
+  "searchOnly": [
+    "Exact full-UPC raw Batman facsimile queries did not establish a completed transaction. Gold Foil Ultimate Edition results were excluded as other editions.",
+    "Exact Transformers/Back to the Future #4 CGC 8.5 queries did not yield a matching transaction."
+  ],
+  "remaining": {
+    "gradedMissing": 110,
+    "rawReferences": 415,
+    "rawWithoutReference": 14,
+    "recordedTotal": 35538.54
+  },
+  "nextResearch": [
+    "Original Palkia auction follow-up remains September 29 or later, not due yet.",
+    "Use GCD 2658767 full UPC to reject earlier facsimiles and gold convention variants.",
+    "Do not recheck the White Widow lot, Will Johnson asking price or wrong-year autograph without a new transaction lead."
+  ]
+}
