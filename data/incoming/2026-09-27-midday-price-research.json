@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtDate": "2026-09-27",
+  "batch": "13UTC",
+  "outcome": "Visual identity review; no accepted or selected reference changes.",
+  "visualReview": [
+    {
+      "copyId": "Authority:7633260283",
+      "ownedImages": [
+        "data/images/Authority_7633260283_FRONT.jpg",
+        "data/images/Authority_7633260283_BACK.jpg"
+      ],
+      "catalogImage": "https://www.midtowncomics.com/images/PRODUCT/XL/2343577_xl.jpg",
+      "upc": "76194138450400121",
+      "finding": "Viewed both owned sides separately and downloaded/viewed Midtown catalog. Owned front has pale covering with faint underlying title/banner art; catalog has teal blank drawing area and printed title. Owned reverse is pale. Labels match issue and UPC. Cannot determine outer layer material or removal status from photos; no condition inferred. Existing HipComic2.34-at6.5 lead remains provisional, not selected."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "CGC:4471692012",
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/160604/marvel-comics-spider-gwen-1comic-block-comic-block-edition",
+      "finding": "9.0 sale20USD is2016ComicBlockedition; owned2023JeehyungLeeVariantEdition, exclude."
+    },
+    {
+      "copyId": "CGC:4471692012",
+      "url": "https://www.ebay.com/itm/336528177588",
+      "finding": "Matching2023LeeCoverB title but rawVF/NM seller grade, not certifiedCGC9.0. No graded estimate."
+    },
+    {
+      "copyId": "CGC:4418876012",
+      "url": "https://www.ebay.com/itm/317498337555",
+      "finding": "GleasonVirginEditionC result is9.8SignatureSeries, not ownedUniversal9.6."
+    },
+    {
+      "copyId": "CGC:4418876012",
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/343808/marvel-comics-the-incredible-hulk-11b-variant-edition",
+      "finding": "Search match from unrelated issue11page advertising Hulk1; not exact issue1 grade history."
+    }
+  ],
+  "searchOnly": [
+    "Batman655WhatnotSpecialEditionC search returned registry placeholders, no exact9.9 transaction.",
+    "SpiderGwen Maer/Saowee/LeeVirgin pricing pages are different cover identities from owned Lee trade; not opened or adopted."
+  ],
+  "remaining": {
+    "gradedMissing": 110,
+    "rawReferences": 415,
+    "rawWithoutReference": 14,
+    "recordedTotal": 35538.54
+  },
+  "nextResearch": [
+    "Do not repeat Detective400 image comparison; outer covering unresolved. Future physical clarification could support conditional guide selection.",
+    "SpiderGwen4471692012 requires2023Lee trade CGC9.0, not2016ComicBlock orLeeVirgin.",
+    "Palkia remains September29-or-later follow-up."
+  ]
+}
