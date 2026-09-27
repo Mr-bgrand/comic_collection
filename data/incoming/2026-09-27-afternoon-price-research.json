@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtDate": "2026-09-27",
+  "batch": "17UTC",
+  "outcome": "Raw identity corroboration only; no accepted prices.",
+  "directPages": [
+    {
+      "copyId": "raw:15-082",
+      "url": "https://club.clz.com/t/added-add-comics-to-core/13120",
+      "sourceDate": "2025-07-19",
+      "imageUrl": "https://club-cdn.clz.com/original/3X/2/b/2be9e8e9ce2c6b5e15265bfbe2c8f41d0eb433a0.jpeg",
+      "ownedImage": "data/images/Raw_15-082_FRONT.jpg",
+      "finding": "Read community catalog submission and separately viewed its linked photo alongside the owned front. Sports Almanac typography, athlete layout and foil artwork match. Contributor identifies Fame: Michael J. Fox, Official Pix/Trinity, Matthew Waite, limited to 500 foil copies; CLZ staff says entries were added August 4, 2025. Secondary identity corroboration only; print-run claim is not independently publisher-verified. No sale, grade or owned condition inferred."
+    },
+    {
+      "copyId": "CGC:4357017005",
+      "url": "https://www.hipcomic.com/listing/star-wars-2023-5-cgc-98-ss-signed-adi-granov-trinty-comics-virgin-edition/14346027",
+      "listingId": "14346027",
+      "finding": "Closed listing with a C$187.50 asking price; Sales History explicitly says not sold. Signed Adi Granov Signature Series versus owned Universal 9.8; excluded."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "CGC:2733544003",
+      "url": "https://comics.ha.com/itm/modern-age-1980-present-/superhero/strange-academy-1-ramos-variant-cover-marvel-2020-cgc-nm-mt-98-white-pages/a/122436-12065.s",
+      "finding": "$324 on September 3, 2024 is for the Ramos variant cover, Universal label, not the Young cover signed by Ramos. Wrong cover and label; not used."
+    },
+    {
+      "copyId": "CGC:2733544003",
+      "url": "https://www.mycomicshop.com/search?ItemID=62155280",
+      "finding": "$17 winning bid on October 27, 2025 belongs to issue 6A, not owned issue 1."
+    },
+    {
+      "copyId": "CGC:4350047001",
+      "url": "https://www.ebay.com/itm/116844309709",
+      "finding": "Final Boss #1 SS 9.8 foil asking-price listing, not owned Final Boss #3 SMZ foil Universal 9.2."
+    }
+  ],
+  "searchOnly": [
+    "Final Boss #3 exact 9.2 search did not yield a qualifying sale.",
+    "Sports Almanac Waite sold query yielded identity evidence, no transaction."
+  ],
+  "remaining": {
+    "gradedMissing": 110,
+    "rawReferences": 415,
+    "rawWithoutReference": 14,
+    "recordedTotal": 35538.54
+  },
+  "nextResearch": [
+    "Fox foil artwork corroborated; seek an exact raw sale under Fame: Michael J. Fox / Official Pix Foil / Sports Almanac, avoiding grading or signature premiums.",
+    "Palkia auction remains a September 29 or later follow-up.",
+    "Do not reuse Mandalorian HipComic listing 14346027 as a completed sale."
+  ]
+}
