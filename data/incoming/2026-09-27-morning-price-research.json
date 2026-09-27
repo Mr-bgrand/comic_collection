@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtDate": "2026-09-27",
+  "batch": "09UTC",
+  "outcome": "Provisional raw guide evidence saved; no accepted value or selected raw reference changed.",
+  "directPages": [
+    {
+      "copyId": "Authority:7633260283",
+      "url": "https://www.hipcomic.com/price-guide/us/dc-comics/comic/detective-comics-1937/400/facsimile-edition-blank-cover/?grade=6.5&resolution=Y",
+      "amount": 2.34,
+      "currency": "USD",
+      "basis": "conditional guide only",
+      "sourceGrade": "6.5 FN+",
+      "starred": true,
+      "saleDate": null,
+      "transactionId": null,
+      "finding": "Followed explicit blank-facsimile2024 variant link from parent1970page. Variant page confirms2.34 guide at6.5; no individual sales, UPC or printing evidence on guide. Owned condition unassessed; no adoption into total or selected raw-reference count. Cover/jacket discrepancy remains pending."
+    },
+    {
+      "copyId": "Authority:7633260283",
+      "url": "https://www.midtowncomics.com/p/2343577-detective-comics-400-facsimile-edition-cover-c-variant-blank-cover/",
+      "upc": "76194138450400121",
+      "catalogCode": "UCS24070218/0724DC218",
+      "finding": "Full UPC matches inventory; CoverCBlank, September4,2024. Asking grades1.79-5.75 not sales. Catalog artwork URL saved, not visually compared this run.",
+      "imageUrl": "https://www.midtowncomics.com/images/PRODUCT/XL/2343577_xl.jpg"
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "TAG:R1562007",
+      "url": "https://www.ebay.com/itm/146603104773",
+      "finding": "BradyCookPSA10Orange249.99 asking is SapphireSelectionsSS insert, not owned ProspectAutographPA-BCO. Exclude."
+    },
+    {
+      "copyId": "TAG:R1562007",
+      "url": "https://www.ebay.com/itm/257449358016",
+      "finding": "2024SapphireOrangeautoPSA9; wrong numeric grade for TAG10."
+    },
+    {
+      "copyId": "TAG:E4095241",
+      "url": "https://www.sportscardinvestor.com/cards/bubba-chandler-baseball/2025-bowman-chrome-sapphire-edition-prospects-padparadscha-bcp-171",
+      "finding": "2025BCP171Padparadscha result not owned2021BDC41baseSapphireTAG7."
+    }
+  ],
+  "searchOnly": [
+    "KoreanPikachu173PSA6 returned discussion and language/grade mismatches, no exact realized transaction."
+  ],
+  "remaining": {
+    "gradedMissing": 110,
+    "rawReferences": 415,
+    "rawWithoutReference": 14,
+    "recordedTotal": 35538.54
+  },
+  "nextResearch": [
+    "Use direct HipComic blank-facsimile URL, never parent1970price; match catalog artwork to owned blank jacket before promoting reference.",
+    "BradyCook comparisons must be PA-BCO ProspectAutograph, not SS-BC Selections or1955 insert.",
+    "Palkia auction remains September29-or-later follow-up."
+  ]
+}
