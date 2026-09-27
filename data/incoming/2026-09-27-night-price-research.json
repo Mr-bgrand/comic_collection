@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtDate": "2026-09-27",
+  "batch": "01UTC",
+  "outcome": "No accepted values; new Magneton aggregate lead requires transactions.",
+  "directPages": [
+    {
+      "copyId": "TAG:M9505930",
+      "url": "https://thecompslab.com/en/pokemon/svp-black-star-promos/magneton-159",
+      "reportedAmount": 14.97,
+      "currency": "USD",
+      "sourceAsOf": "2026-09-03",
+      "finding": "Holo printing TAG8.5 estimate14.97; page explicitly says aggregated market data, not individual verified sales. PokemonCenterStamp separate. No sale date, transaction or cert; unselected lead only."
+    },
+    {
+      "copyId": "TAG:M9505930",
+      "url": "https://app.setlot.com/catalog/pokemon/promo/magneton-159",
+      "finding": "14.97 appears as generic Grade8 with one sale April19,2026, not labeled TAG8.5. Other tiers include CGC8.5 and implausible CGC9.6. Cannot independently corroborate TheCompsLab exact grader/grade from same amount; underlying transaction needed."
+    },
+    {
+      "copyId": "TAG:M9505930",
+      "url": "https://www.pricecharting.com/game/pokemon-promo/magneton-159",
+      "finding": "Opened sales table; grade8 includes BGS8.5 and CGC8.5 plus PSA8 and PokemonCenter variants. No verified TAG8.5 transaction extracted; neither nearby numeric grades nor other graders used."
+    },
+    {
+      "copyId": "Authority:7861079670",
+      "url": "https://www.comiclink.com/auctions/item.asp?id=1752064",
+      "finding": "Opened archive is NewZealandMint35g .999FineSilver replica CGC9.8, auction endedApril8,2024. Wrong object, not owned raw2024foilcomic. Exclude."
+    },
+    {
+      "copyId": "raw:15-025",
+      "url": "https://www.hipcomic.com/listing/female-force-taylor-swift-steven-defendini-exclusive-trade-dress-variant-nm/14824022",
+      "finding": "Revisited known closed32.99listing; explicit history says not sold. No new evidence; do not repeat."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "url": "https://www.barnebys.se/auktioner/objekt/immortal-thor-14-15-pablo-villalobos-variant-16-tExc9kr-620245387",
+      "finding": "Multiple-issue graded lot, starting57SEK and endedAugust9,2025; no single raw Thor15 realized amount."
+    },
+    {
+      "url": "https://www.fanaticscollect.com/buy-now/1ac8f2f6-792f-48bb-b3af-ba1205a2a96c/2024-pokemon-scarlet-violet-promo-surging-sparks-etb-magneton-159-cgc-85-nm-mt",
+      "finding": "CGC8.5 buy-now, wrong grader and active offer."
+    }
+  ],
+  "failedFetches": [
+    {
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/306588/dynamite-entertainment-darkwing-duck-1parsons-b-parsons-virgin-edition",
+      "finding": "Timeout; prior report already recorded no exact-grade sales. No new page verification."
+    },
+    {
+      "url": "https://www.ebay.com/itm/326461384557",
+      "finding": "404; prior saved image identifies MetalA versus owned MetalB. Existing exclusion remains."
+    }
+  ],
+  "searchOnly": [
+    "BoBonesLunarGoldTAG9 yielded no matching transaction.",
+    "WretchesMomoko metal and Flash123convention searches yielded other finishes/editions or signatures."
+  ],
+  "remaining": {
+    "gradedMissing": 110,
+    "rawReferences": 415,
+    "rawWithoutReference": 14,
+    "rawUnassessed": 429,
+    "recordedTotal": 35538.54
+  },
+  "nextResearch": [
+    "Magneton14.97 needs an original TAG8.5 transaction; generic Grade8 is not corroboration.",
+    "Palkia auction follow-up September29 or later.",
+    "Read saved exclusions before reopening TaylorMetalA, HipComic14824022 or Darkwing306588."
+  ]
+}
