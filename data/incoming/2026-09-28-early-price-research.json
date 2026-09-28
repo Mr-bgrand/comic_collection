@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtDate": "2026-09-28",
+  "batch": "05UTC",
+  "outcome": "New provisional raw sale evidence; no accepted value or selected reference changed.",
+  "directPages": [
+    {
+      "copyId": "raw:15-002",
+      "url": "https://www.ebay.com/itm/227306554623",
+      "transactionId": "227306554623",
+      "seller": "Amazing Rare Cards",
+      "saleDateText": "Sat, Jun 13 at 11:01 PM",
+      "saleYearInferred": 2026,
+      "saleYearBasis": "Weekday and page context; year not explicitly printed in sold banner.",
+      "price": 49.99,
+      "currency": "CAD",
+      "displayedApproximateUSD": 35.73,
+      "shippingExcluded": true,
+      "ownedImage": "data/images/Raw_15-002_FRONT.jpg",
+      "evidenceStrength": "provisional*",
+      "decision": "Original page explicitly says Sold. Title identifies 2024 Orbit: Eminem #1 Caio Cacau Comic Kingdom trade dress /600; unsigned. Owned front visually inspected and shows Orbit trade dress and Cacau artwork, but listing photos could not be retrieved: image links resolved incorrectly to /itm/0 and /itm/1, and public HTML fetch supplied no image URLs. Exact printing, year, finish and full UPC remain unverified. Retain CAD sale as provisional reference evidence only; do not select or add to collection total. Displayed USD is a page conversion, not verified sale-date FX."
+    },
+    {
+      "copyId": "TAG:L3302729",
+      "url": "https://folio.fyi/licences/pokemon/en/journey-together/mamoswine-ex-174",
+      "decision": "Opened exact card page: 8.5 result in search is population, not sale. Price rows cover PSA 10, CGC 9, TAG 10 and ACE 9; no TAG 8.5 or PSA 8.5 transaction. No cross-grade inference."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "TAG:Y6882653",
+      "url": "https://www.mercari.com/us/shop/memphis-tigers-sports-trading-cards/",
+      "decision": "Henigan PSA 10 result is Padparadscha 1/1 asking price, not owned Sapphire Red /5."
+    },
+    {
+      "copyId": "raw:15-002",
+      "url": "https://www.ebay.com/itm/256771712992",
+      "decision": "Sold $89 result is Virgin Foil RAPBOY /35, not owned trade dress. Not opened or used."
+    },
+    {
+      "copyId": "raw:15-002",
+      "url": "https://www.ebay.com/itm/127776215425",
+      "decision": "Sold $79.99 result is CGC 9.8; not a raw comparable. Not opened or used."
+    }
+  ],
+  "searchOnly": [
+    "Exact search for Supergirl transaction 389559040607 did not recover independent identity evidence. Prior unresolved Hughes versus Nakayama lead remains pending.",
+    "Warner/Murray exact PSA 8 search returned checklists and raw/Blue-parallel guides without a qualifying transaction."
+  ],
+  "remaining": {
+    "gradedMissing": 110,
+    "rawReferences": 415,
+    "rawWithoutReference": 14,
+    "recordedTotal": 35538.54
+  },
+  "nextResearch": [
+    "Recover original Eminem listing photos or an exact catalog/indicia match before selecting the provisional reference. Preserve original CAD amount; do not use current FX as historical FX.",
+    "Do not interpret Mamoswine PSA 8.5 population as a price.",
+    "Palkia follow-up remains September 29 or later."
+  ]
+}
