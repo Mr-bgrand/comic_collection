@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtDate": "2026-09-28",
+  "batch": "13UTC",
+  "outcome": "No accepted values or selected raw references. New archive checked; exact editions remain unmatched.",
+  "ownedIdentity": {
+    "copyIds": [
+      "CGC:4493150004",
+      "CGC:4480290003"
+    ],
+    "finding": "Bueckert Variant Cover, Universal 9.8. Viewed 4493150004_OBV.jpg: trade dress, M.J. title and credits; not virgin. Second copy metadata matches but scan not reviewed this batch."
+  },
+  "directPages": [
+    {
+      "url": "https://www.raremarq.com/auctions/fame-michael-jordan-nn-1-of-11-cgc-9-8-fanexpo-chicago-exclusive-spot-foil-virgin-ltd-50-copies",
+      "comparableCert": "4508248017",
+      "seller": "flyindutchmaster",
+      "saleDate": "2026-04-07",
+      "price": 100,
+      "currency": "USD",
+      "shippingExcluded": 10,
+      "reasonExcluded": "Spot Foil Virgin /50; wrong edition for owned trade dress."
+    },
+    {
+      "url": "https://www.raremarq.com/auctions/fame-michael-jordan-nn-1-of-39-cgc-9-8-bueckert-exclusive-virgin-ltd-300-copies-e-t-homage",
+      "comparableCert": "4491747010",
+      "seller": "flyindutchmaster",
+      "saleDate": "2026-04-07",
+      "price": 100,
+      "currency": "USD",
+      "shippingExcluded": 10,
+      "reasonExcluded": "Bueckert Virgin /300; same artist and grade but wrong edition. Archive grouped median mixes variants."
+    },
+    {
+      "url": "https://www.raremarq.com/auctions/fame-michael-jordan-nn-1-of-21-cgc-9-8-fanexpo-chicago-exclusive-ltd-150-copies",
+      "comparableCert": "4508248014",
+      "seller": "flyindutchmaster",
+      "saleDate": "2026-04-07",
+      "price": 100,
+      "currency": "USD",
+      "shippingExcluded": 10,
+      "reasonExcluded": "Comic Kingdom Virgin /150, Dark Knight Returns homage; wrong artwork and edition."
+    },
+    {
+      "url": "https://www.mycomicshop.com/search?ItemID=63069795",
+      "listingId": "63069795",
+      "comparableCert": "4552154014",
+      "finding": "Search result says SOLD $160; opened extract instead shows $145 Add to cart, with older cached page context. Source-status discrepancy; sale date unavailable.",
+      "reasonExcluded": "Spot foil virgin numbered 9/25, wrong edition regardless of sale status."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "url": "https://app.setlot.com/catalog/pokemon/japanese-challenge-from-the-darkness/blaine",
+      "copyId": "CGC:6001871064",
+      "finding": "Previously recorded $8.40 aggregate still has no original transaction verification; no new evidence."
+    },
+    {
+      "url": "https://onlygreats.com/hottest-sports-cards/coby-mayo/",
+      "finding": "Results mix Bowman and raw Bob Ross listings; no exact Bob Ross auto Sap Green PSA 10 completed sale established."
+    },
+    {
+      "url": "https://rabbitcomics.com/products/fame-michael-jordan-1-sheldon-bueckert-et-homage-trade-variant-cgc-9-8",
+      "finding": "Sold-out retail $79.99 does not document a transaction."
+    },
+    {
+      "url": "https://exchangecollectibles.com/products/fame-michael-jordan-1-trade-dress-cgc-9-8",
+      "finding": "$59 preorder/asking price, not a completed sale."
+    }
+  ],
+  "searchOnly": [
+    "Blaine nonholo original Fanatics transaction not recovered.",
+    "Arena Club Turo 9.5 and Coby Mayo exact-grade searches found no qualifying sale.",
+    "Raw Taylor Defendini X trade, Michael J. Fox and Taylor Raremarq queries found no exact completed sale. Original sketch art results excluded.",
+    "w0rldtr33 No Mass 9.6 and Spectral 8.5 searches found no qualifying sale."
+  ],
+  "nextLeads": [
+    "Raremarq is now checked for Jordan; do not apply its cross-variant medians. Exact Bueckert trade transaction still needed.",
+    "Recheck Palkia eBay 307189738518 on September 29 or later after auction ends; current listing is not a sale."
+  ],
+  "remaining": {
+    "gradedMissing": 110,
+    "rawReferences": 415,
+    "rawWithoutReference": 14,
+    "recordedTotal": 35538.54
+  },
+  "artifactDecision": "Research only; viewer and PDF inputs unchanged. Existing print files preserved."
+}
