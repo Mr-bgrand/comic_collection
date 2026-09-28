@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtDate": "2026-09-28",
+  "batch": "17UTC",
+  "outcome": "No supported missing graded estimate or newly selected raw reference.",
+  "directPages": [
+    {
+      "copyId": "TAG:R1562007",
+      "url": "https://www.ebay.com/itm/146603104773",
+      "listingId": "146603104773",
+      "comparableCert": "110980543",
+      "finding": "PSA 10 Sapphire Selections SS-BC Orange auto asking $249.99, not owned Prospect Autographs PA-BCO. Wrong insert and no sale."
+    },
+    {
+      "copyId": "TAG:H5133767",
+      "url": "https://www.ebay.com/itm/389080826333",
+      "listingId": "389080826333",
+      "finding": "Indexed $65.99 PSA 10 Orange Velocity offer; direct open redirects to product 26069579930. No completed transaction verified; Orange Velocity identity not assumed equivalent to owned Orange."
+    },
+    {
+      "copyId": "CGC:4198680009",
+      "url": "https://www.ebay.com/itm/178508820434",
+      "listingId": "178508820434",
+      "seller": "Sales of Suspense",
+      "finding": "Cassaday Spider-Man #4 advertised 9.4 is seller-assessed raw condition, not CGC certification. $15 active Buy It Now; excluded."
+    },
+    {
+      "copyId": "CGC:4245413015",
+      "url": "https://www.hipcomic.com/price-guide/us/marvel/comic/the-amazing-spider-man-2022/20/nakayama-cover/?grade=9.8&resolution=Y",
+      "finding": "Guide is raw 9.8; visible 9.6 listing is Signature Series asking CA$250. Neither supports owned Universal 9.6."
+    },
+    {
+      "copyId": "Authority:4845360792",
+      "url": "https://www.pricecharting.com/game/comic-books-immortal-thor/immortal-thor-villalobos-15-2024",
+      "finding": "Exact catalog UPC 75960620664301521. Historical raw rows include a two-book lot and incentive cover; aggregate remains unsuitable.",
+      "provisionalLead": {
+        "listingId": "176551427435",
+        "reportedSaleDate": "2024-08-31",
+        "reportedUSD": 6.79,
+        "source": "PriceCharting reported transaction, not independently verified",
+        "status": "unselected",
+        "asterisk": true,
+        "reason": "Original eBay link and clean URL inaccessible; edition photos and completed sale cannot be confirmed. Stale history; owned condition unassessed."
+      },
+      "previouslyChecked": [
+        "166958100910",
+        "204915874747"
+      ],
+      "attempt": "Linked URLs failed; earlier browser ended-only findings retained, no new verification claimed."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "TAG:L4878840",
+      "url": "https://www.fanaticscollect.com/buy-now/e715d1c4-27bc-43f6-90da-2c58d2a4146e",
+      "finding": "Exact 2021 BDC-48 Yellow but PSA 9 asking $71, not needed same-grade 10."
+    },
+    {
+      "copyId": "CGC:4381117003",
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/322786/image-comics-w0rldtr33-4tcc-the-comic-corner-edition",
+      "finding": "Comic Corner CGC 9.8 recorded sales belong to issue 4, not owned issue 5. Excluded without opening."
+    },
+    {
+      "copyId": "Authority:4845360792",
+      "url": "https://www.mycomicshop.com/search?q=immortal+Thor+15",
+      "finding": "15B Villalobos NM $4 / VF $3.20 are retail offers, not completed sales."
+    }
+  ],
+  "searchOnly": [
+    "Henry Davis exact 2021 Yellow PSA 10 Fanatics query did not recover a completed transaction; 2024 #7 results are different cards.",
+    "Cull Shrike MyComicShop and Addiction Mack ComicBookRealm queries returned no exact graded transaction.",
+    "Taylor Swift Metal Edition B and w0rldtr33 #5 Marcano searches established no exact new graded sale."
+  ],
+  "nextLeads": [
+    "Thor eBay 176551427435 needs preserved original photos and affirmative sold status before selecting a raw reference. Do not retry other retired Thor ended-only listings without new evidence.",
+    "Palkia eBay 307189738518 remains a September 29-or-later follow-up after auction close."
+  ],
+  "remaining": {
+    "gradedMissing": 110,
+    "rawReferences": 415,
+    "rawWithoutReference": 14,
+    "recordedTotal": 35538.54
+  },
+  "artifactDecision": "No inventory or valuation input changed; viewer and PDFs preserved."
+}
