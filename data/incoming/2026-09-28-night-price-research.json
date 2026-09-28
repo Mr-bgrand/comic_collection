@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtDate": "2026-09-28",
+  "batch": "01UTC",
+  "outcome": "No accepted prices; recorded new transaction lead with unresolved cover identity.",
+  "directPages": [
+    {
+      "copyId": "CGC:4350046021",
+      "url": "https://www.pricecharting.com/game/comic-books-supergirl-and-the-legion-of-super-heroes/supergirl-and-the-legion-of-super-heroes-whatnot-hughes-foil-23-2023",
+      "reportedSaleDate": "2026-01-31",
+      "reportedPriceUSD": 59.95,
+      "transactionId": "389559040607",
+      "originalUrl": "https://www.ebay.com/itm/389559040607",
+      "decision": "Unselected lead only. Catalog says Hughes, owned CGC metadata says David Nakayama Whatnot Special Foil Edition B. Sales title does not identify artist or B. Original listing failed both affiliate and clean URL opens. Cannot verify matching artwork, label, comparable cert or sold status. Catalog also contains a poster among raw sales; do not use aggregate."
+    },
+    {
+      "copyId": "TAG:C5407435",
+      "url": "https://taggrading.com/products/bo-bones-art-card-drop-ltd-ed-serialized-copy",
+      "decision": "Official creator product page confirms 2025 World Scaries 2 Manga Bo Bones and Lunar Gold Holo /25. Product delivers a random parallel with several grading options; no exact TAG 9 Lunar Gold completed resale supplied. No price inferred from bundle or grade guarantee."
+    },
+    {
+      "copyId": "CGC:4089841007",
+      "url": "https://www.ebay.com/itm/224695400182",
+      "transactionId": "224695400182",
+      "seller": "wickedhotchowda",
+      "decision": "Opened: $99.95 or Best Offer with Buy It Now. Virgin Special Edition title does not establish owned Metal edition; asking price excluded regardless."
+    },
+    {
+      "copyId": "CGC:4350047002",
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/322594/boom-studios-grim-12trinity-trinity-comics-edition",
+      "decision": "Universal Trinity Zoe Lacchei virgin category reports zero recorded sales. Rechecked inadvertently; earlier September 23 report already captured this. Do not repeat absent new evidence."
+    },
+    {
+      "copyId": "raw:15-059",
+      "url": "https://artofkylewillis.com/",
+      "ownedImage": "data/images/Raw_15-059_FRONT.jpg",
+      "decision": "Opened artist site and viewed owned scan. Front shows foil collage bridge artwork, signature and SDCC logo; site text did not resolve exact format/edition. Do not infer condition or comic-versus-print format."
+    },
+    {
+      "copyId": "raw:15-059",
+      "url": "https://www.pricecharting.com/nl/game/comic-books-mosaic-scrapbook/mosaic-scrapbook-willis-virgin-1-2023",
+      "decision": "Opened catalog mixes Spider-Boy, Wolverine and Batman homages. $98 reported November 30, 2023 is CGC 9.8 Spider-Boy, not an ungraded SDCC edition match. Not usable as raw reference; no original transaction verified."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "Authority:4845360792",
+      "url": "https://gabescave.com/collections/all/cover-artist-pablo-villalobos",
+      "upc": "75960620664301521",
+      "decision": "Retail catalog snippet identifies JUL240824 and exact UPC for Immortal Thor #15 Villalobos trade. $4.99 sold-out retail price is not a transaction; no new raw value."
+    }
+  ],
+  "searchesWithoutQualifyingResult": [
+    "Fanatics Trey Benson Obsidian PSA 9 returned wrong insert or set results, not base Rookie Materials Ink.",
+    "Warner/Murray Eclipsing Legends PSA 8 and Bo Bones Lunar Gold resale searches produced no qualifying transaction.",
+    "Killer Kare Bears 420, Boys ComicTom 9.9 and HiBid Kyle Willis searches did not establish exact completed sales."
+  ],
+  "remaining": {
+    "gradedMissing": 110,
+    "rawWithoutReference": 14,
+    "rawReferences": 415,
+    "recordedTotal": 35538.54
+  },
+  "nextResearch": [
+    "Seek an archived image or comparable certificate for eBay 389559040607 before treating it as Nakayama Edition B; do not substitute Hughes.",
+    "Raw 15-059 still needs reverse/indicia or exact SDCC publisher catalog; known Fan Expo asking-price listing is not sufficient.",
+    "Palkia auction follow-up remains September 29 or later.",
+    "Avoid repeatedly opening Grim 322594 or broadly searching exhausted rare variants without a new transaction lead."
+  ]
+}
