@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtDate": "2026-09-28",
+  "batch": "09UTC",
+  "outcome": "No accepted values. Browser follow-up adds source-status uncertainty to provisional Eminem sale.",
+  "directPages": [
+    {
+      "copyId": "raw:15-002",
+      "url": "https://www.ebay.com/itm/227306554623",
+      "archiveUrl": "https://www.ebay.com/itm/227306554623?nordt=true&orig_cvip=true&rt=nc",
+      "method": "Rendered browser, both URLs",
+      "finding": "Both live pages showed only ENDED C$49.99 June 13 11:01 PM summary, without original gallery. Earlier web-indexed page explicitly said sold. Record this discrepancy; neither proves transaction cancellation, but live sale status and photos cannot be corroborated. Provisional reference remains unselected."
+    },
+    {
+      "copyId": "CGC:4214394003",
+      "url": "https://www.mercari.com/us/item/m82156659569/",
+      "listingId": "m82156659569",
+      "seller": "cmicheletaylor",
+      "finding": "Opened Exiled SMZ Virgin CGC 9.8 listing: $75 asking price with Add to cart/Buy now. No completed sale. Owned Qualified foil label/edition not established by this listing."
+    },
+    {
+      "copyIds": [
+        "raw:15-012",
+        "raw:15-013",
+        "raw:15-015"
+      ],
+      "url": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6NDIxMjg4MzI5",
+      "seller": "atlcomicscards",
+      "finding": "Opened Kobe Shah Wu Tang foil /35 listing: $64, one available, Buy now. Seller total 20.4K sold is not this item sale history. Owned finishes remain unresolved; no reference selected."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyIds": [
+        "raw:15-012",
+        "raw:15-013",
+        "raw:15-015"
+      ],
+      "url": "https://www.ebay.com/itm/297920862598",
+      "finding": "PSA 9.8 Kobe virgin listing ended because no longer available; $199.99 is not a confirmed sale and not an ungraded comparable."
+    },
+    {
+      "copyId": "CGC:4245413012",
+      "url": "https://www.comiclink.com/results/generate_highlights.asp?output=2023-Fall-Comics",
+      "finding": "Search excerpt couples Amazing Fantasy #1000 with unrelated 9.0 entries. Actual indexed #1000 result is CGC 9.8 at $3400, not owned 9.0. Not opened or used."
+    },
+    {
+      "copyIds": [
+        "CGC:4471692001",
+        "CGC:4471692002"
+      ],
+      "url": "https://bigtimecollectibles.com/products/fame-mike-tyson-matthew-waite-pacquiao-foil-edition-30-100-cgc-9-9-mint-c79",
+      "finding": "Retail result is CGC 9.9, not owned 9.8; no completed sale established."
+    }
+  ],
+  "searchOnly": [
+    "Exact Eminem transaction-number query recovered no independent photo evidence.",
+    "Qualified Grim #11, w0rldtr33 Comic Mint 9.9 and Marvel Voices Su 9.4 searches established no new exact completed transaction."
+  ],
+  "remaining": {
+    "gradedMissing": 110,
+    "rawReferences": 415,
+    "rawWithoutReference": 14,
+    "recordedTotal": 35538.54
+  },
+  "nextResearch": [
+    "Do not repeatedly reopen the Eminem expired summary; need independently preserved original photos or seller archive.",
+    "Palkia follow-up remains September 29 or later.",
+    "Prioritize genuinely new transaction links; repeated broad rare-variant searches are exhausted."
+  ]
+}
