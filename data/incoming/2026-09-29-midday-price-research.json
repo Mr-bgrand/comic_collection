@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-09-29T13:05:12.086Z",
+  "batch": "13UTC",
+  "accepted": [],
+  "checked": [
+    {
+      "copyId": "TAG:K7814397",
+      "url": "https://www.sportscardspro.com/game/football-cards-2024-bowman-chrome-university-1955/ashton-jeanty-fuchsia-refractor-55b-21",
+      "finding": "Exact Fuchsia55B-21 page currently displays PSA10 estimate95.42 but explicitly zero PSA10 transactions. Only raw transactions. Do not accept an extrapolated estimate as sold-comps. Base and Black parallels excluded."
+    },
+    {
+      "copyId": "TAG:H5133767",
+      "url": "https://www.ebay.com/itm/389080826333",
+      "comparisonCert": "99133016",
+      "finding": "Search extract shows PSA10 Orange Velocity193 at65.99 or Best Offer, seller macar-1706. Direct open redirects generic product26069579930. No sold price/date verified. TAG identity says Orange; velocity equivalence still requires slab/parallel verification."
+    },
+    {
+      "copyId": "CGC:4350047006",
+      "url": "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-fullerton-5-2023",
+      "finding": "Exact Fullerton cover page: six raw transactions, zero9.8. January15,2026 raw35USD does not support graded9.8 estimate."
+    },
+    {
+      "copyId": "CGC:4401613003",
+      "url": "https://www.pricecharting.com/game/comic-books-arcade-kings/arcade-kings-marcano-1-2023",
+      "finding": "Marcano page: four raw transactions, zero9.8; some raw rows explicitly preorder. No CGC9.8 estimate."
+    },
+    {
+      "copyId": "CGC:4386585001",
+      "url": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6NTc3MjE5MjQy",
+      "finding": "Search extract raw Shrike virgin listing20USD unavailable, not confirmed sale; wrong grade basis. Retailer Underdog27 is current raw offer, not CGC9.8 sale.",
+      "additionalUrl": "https://underdogcomicshop.com/products/the-cull-1-will-shrike-variant-preorder"
+    },
+    {
+      "copyId": "raw:15-014",
+      "url": "https://denver.hibid.com/lot/238726939/tribute--tupac-shakur----variant",
+      "transactionId": "238726939",
+      "lot": "7",
+      "auction": "629485",
+      "auctioneer": "Saint One Comics",
+      "reportedPrice": 12,
+      "currency": "USD",
+      "auctionEndDate": "2025-03-31",
+      "finding": "Live rendered browser confirms Price Realized12USD, Cacau Crow trade600. This lead was already identified Sep23; existing owned-scan review notes additional bottom credits on auction copy absent from owned scan. Remains unselected, no repeated acceptance. Terms contradict18% vs18.5% premium; do not invent all-in amount."
+    },
+    {
+      "copyId": "raw:15-060",
+      "url": "https://www.ebay.com/itm/236096377376",
+      "finding": "Direct page is Dazzler/X-Men130 limited100,74.99 active,2available1sold. No historical unit price/date. Owned Raw_15-060_FRONT.jpg inspected this run: Defendini23 signature, multicolor X montage with bottom Taylor Swift title, not Dazzler130. Excluded; full UPC/edition/printing remain unresolved."
+    }
+  ],
+  "searches": [
+    {
+      "query": "Arcade Kings Bird City site:mycomicshop.com",
+      "outcome": "No matching completed lot surfaced."
+    },
+    {
+      "query": "The Cull Shrike site:ha.com",
+      "outcome": "No matching lot surfaced; archive lot not inspected."
+    },
+    {
+      "query": "Arcade Kings Marcano site:comiclink.com",
+      "outcome": "No matching lot surfaced; archive lot not inspected."
+    },
+    {
+      "query": "w0rldtr33 Fullerton site:comicbookrealm.com/cgc-analyzer",
+      "outcome": "No matching analyzer page surfaced."
+    }
+  ],
+  "nextLeads": [
+    "Rotate to missing Spider-Man4 variant9.4, Spectacular Spider-Men1 Ramos9.6, and Usagi Ice and Snow goldfoil9.8 next batch, after checking prior exclusions.",
+    "Do not reuse Jeanty estimated PSA10 ladder as sale evidence without transaction support.",
+    "Raw15-060: seek primary Defendini X montage trade edition and back UPC/printing; exclude Dazzler130 results.",
+    "Raw15-014: no more repeated searches of HiBid238726939 until edition mismatch can be resolved."
+  ],
+  "unchanged": {
+    "objects": 951,
+    "valued": 412,
+    "totalUSD": 35761.04,
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "selectedRawReferences": 415
+  }
+}
