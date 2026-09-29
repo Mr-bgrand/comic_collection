@@ -7,7 +7,7 @@
     "virtual": true,
     "location": "Stored at PSA"
   },
-  "status": "pending-certificate-verification",
+  "status": "imported",
   "records": [
     {
       "kind": "card",
@@ -16,10 +16,27 @@
       "certUrl": "https://www.psacard.com/cert/166711208/psa",
       "source": "owner",
       "ownerStatement": "Newly graded card stored at PSA Vault",
-      "lookupStatus": "blocked-by-security-verification",
-      "verifiedIdentity": null,
-      "verifiedGrade": null,
-      "scans": []
+      "lookupStatus": "verified-from-owner-supplied-certificate-details-and-slab-images",
+      "verifiedIdentity": {
+        "year": "2026",
+        "brand": "ONE PIECE ST30-STARTER DECK EX LUFFY & ACE",
+        "subject": "LUFFY & ACE",
+        "cardNumber": "001",
+        "variety": "BLACK & WHITE ALT ART"
+      },
+      "verifiedGrade": "10",
+      "scans": [
+        {
+          "side": "front",
+          "file": "data/originals/PSA_166711208_FRONT.png",
+          "sha256": "2a141e8614fe8b92772643e5c3587cea68694f5e87c0a90305bf70ec2fc208e7"
+        },
+        {
+          "side": "back",
+          "file": "data/originals/PSA_166711208_BACK.png",
+          "sha256": "f7e3c160a57ed03680a7cf810e744723214a35d69bb768df17b89821e5252d1f"
+        }
+      ]
     }
   ],
   "research": {
@@ -27,7 +44,8 @@
     "certificatePage": "Rendered browser remained on PSA's Cloudflare Performing security verification screen; no certificate details or scans were accessible.",
     "webLookup": "Direct web lookup inaccessible; exact certificate search returned no results.",
     "duplicateCheck": "Certificate not present in data/cards at time of request.",
-    "nextStep": "Retry the public certificate page; verify identity and grade, scroll and recheck lazy-loaded scans, then append to the existing PSA Vault container. Accept only PSA certificate-image host scans, never similar-item eBay images.",
-    "inventoryImpact": "Pending request only. No guessed identity, grade, images or value added to published inventory."
-  }
+    "nextStep": "Complete: imported from owner-provided details and cert-matching slab images.",
+    "inventoryImpact": "Added one PSA Vault card with both images; value remains unknown."
+  },
+  "completedAt": "2026-09-29T02:51:31.231Z"
 }

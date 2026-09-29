@@ -3451,6 +3451,78 @@
           "sha256": "17ee1bc11304d376f0179077166aafd0b2fe8bd2a41bbf424e86e59ceafe3508"
         }
       }
+    },
+    {
+      "kind": "card",
+      "cert": "166711208",
+      "grader": "PSA",
+      "grade": "10",
+      "gradeDescription": "GEM MT",
+      "year": "2026",
+      "brand": "ONE PIECE ST30-STARTER DECK EX LUFFY & ACE",
+      "subject": "LUFFY & ACE",
+      "cardNumber": "001",
+      "variety": "BLACK & WHITE ALT ART",
+      "serial": null,
+      "category": "TCG Cards",
+      "certUrl": "https://www.psacard.com/cert/166711208/psa",
+      "holder": "slab",
+      "fmv": null,
+      "valuation": null,
+      "vault": {
+        "status": "Vaulted",
+        "source": "owner-confirmed",
+        "confirmedAt": "2026-09-29T02:51:31.231Z",
+        "inLatestExport": false
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/2026-09-28-psa-vault-166711208-request.json",
+        "source": "owner-supplied-certificate-details-and-slab-images",
+        "importedAt": "2026-09-29T02:51:31.231Z"
+      },
+      "psa": {
+        "labelType": "w/ Fugitive Ink Technology",
+        "reverseCertBarcode": true
+      },
+      "images": {
+        "front": "PSA_166711208_FRONT.jpg",
+        "back": "PSA_166711208_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-photo",
+          "source": "owner-supplied-slab-image",
+          "pageUrl": "https://www.psacard.com/cert/166711208/psa",
+          "side": "front",
+          "sideBasis": "Owner-provided front and reverse slab images; visible cert 166711208 matches on both sides",
+          "originalFile": "data/originals/PSA_166711208_FRONT.png",
+          "originalWidth": 1430,
+          "originalHeight": 2400,
+          "originalSha256": "2a141e8614fe8b92772643e5c3587cea68694f5e87c0a90305bf70ec2fc208e7",
+          "sha256": "2558f15a66e7c597ed435120ad2f54e074ad4b4912790f445861606a934addcb",
+          "retrievedAt": "2026-09-29T02:51:31.231Z"
+        },
+        "back": {
+          "kind": "owner-photo",
+          "source": "owner-supplied-slab-image",
+          "pageUrl": "https://www.psacard.com/cert/166711208/psa",
+          "side": "back",
+          "sideBasis": "Owner-provided front and reverse slab images; visible cert 166711208 matches on both sides",
+          "originalFile": "data/originals/PSA_166711208_BACK.png",
+          "originalWidth": 1428,
+          "originalHeight": 2400,
+          "originalSha256": "f7e3c160a57ed03680a7cf810e744723214a35d69bb768df17b89821e5252d1f",
+          "sha256": "89a94142ad0b612d7efa87ac1a4ac7e66efb4605de346139ab9a809e1ef471c7",
+          "retrievedAt": "2026-09-29T02:51:31.231Z"
+        }
+      },
+      "scanStatus": "complete"
     }
   ],
   "id": "psa-vault",
