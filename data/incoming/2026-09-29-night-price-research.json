@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtDate": "2026-09-29",
+  "batch": "01UTC",
+  "outcome": "No qualifying new estimate; exact-grade and sale-status gaps recorded.",
+  "directPages": [
+    {
+      "copyId": "CGC:4245549001",
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/145590/idw-publishing-back-to-the-future-1e-artist-edition",
+      "finding": "Artist Edition Universal table has no recorded 9.2 sale. Historical 9.4/9.6/9.8 entries cannot be applied to owned9.2. Opened extract appears older cached data; not evidence of current market absence."
+    },
+    {
+      "copyId": "raw:15-025",
+      "url": "https://www.hipcomic.com/listing/female-force-taylor-swift-steven-defendini-exclusive-trade-dress-variant-nm/14824022",
+      "listingId": "14824022",
+      "seller": "shauk786",
+      "finding": "Closed32.99 listing explicitly states not sold in Sales History. No reference selected."
+    }
+  ],
+  "failedOpen": [
+    {
+      "copyId": "TAG:D6943986",
+      "url": "https://www.ebay.com/itm/307189738518",
+      "finding": "Timeout. At01UTC September29 the previously recorded Monday18:59PDT close has not yet passed; no sale status inferred. Recheck after02UTC."
+    },
+    {
+      "copyId": "raw:15-060",
+      "url": "https://www.ebay.com/itm/236076474243",
+      "finding": "Original open failed. Search shows11USD active multi-quantity offer with6sold, but no historical unit prices/dates. No completed11USD sale asserted."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "PSA:114218224",
+      "url": "https://www.ebay.com/p/4075874157",
+      "finding": "Warner/Murray PSA8 product page shows18.75 active Buy It Now offer from GCardzz; not sale evidence. Seller identity/ownership not inferred."
+    },
+    {
+      "copyId": "CGC:4526002006",
+      "url": "https://rabbitcomics.com/collections/do-you-pooh",
+      "finding": "Brock Poohdy sold-out99.99 is Signature Series9.6, not owned Universal9.8; retail status not transaction."
+    },
+    {
+      "copyId": "PSA:114218231",
+      "url": "https://www.ebay.com/itm/205721044716",
+      "finding": "Trey Benson13-card lot contains Obsidian auto; unrelated PSA9 mention in feedback. No individual graded match."
+    }
+  ],
+  "searchOnly": [
+    "Killer Kare Bears420Foil B9.8 query found no qualifying transaction.",
+    "Sandy Koufax Sap Green PSA9 query only recovered known guide and unrelated autograph parallels; no new exact transaction."
+  ],
+  "nextLeads": [
+    "Palkia307189738518: recheck after2026-09-29T02:00Z, require affirmative sold status and realized amount.",
+    "Do not treat HipComic14824022 closure as sold or eBay236076474243 current11USD as six historical sale prices."
+  ],
+  "remaining": {
+    "gradedMissing": 110,
+    "rawReferences": 415,
+    "rawWithoutReference": 14,
+    "recordedTotal": 35538.54
+  },
+  "artifactDecision": "No valuation or inventory inputs changed; viewer and PDFs preserved."
+}
