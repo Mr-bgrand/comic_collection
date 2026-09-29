@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-09-29T05:05:55.808Z",
+  "batch": "05UTC",
+  "accepted": [
+    {
+      "copyId": "PSA:166711208",
+      "value": 222.5,
+      "currency": "USD",
+      "provisional": true,
+      "evidenceFile": "data/valuation/overnight-prices-2026-09-29.json"
+    }
+  ],
+  "checked": [
+    {
+      "copyId": "TAG:D6943986",
+      "url": "https://www.ebay.com/itm/307189738518",
+      "comparisonCert": "157420110",
+      "finding": "After scheduled close, live browser redirected to generic product14054092123. Web extract still showed19.95/zero bids/countdown58m17s, evidently stale relative to live page. Neither proves sale. Do not promote19.95 to value."
+    },
+    {
+      "copyId": "Authority:7861079670",
+      "url": "https://phoenix-auctions.com/sold-listings-july-charity-auction/",
+      "saleDate": "2025-08-03",
+      "value": 9,
+      "currency": "GBP",
+      "premiumIncluded": true,
+      "finding": "Confirmed auction results list Detective Comics27 Foil Facsimile Variant raw at9GBP including premium. No item-level UPC, printing, year or scan supplied; save unselected identity lead, not a recorded value or selected raw reference."
+    },
+    {
+      "copyId": "raw:15-025",
+      "url": "https://www.mycomicshop.com/graphicnovels/item?mingr=0&tid=60467885",
+      "finding": "Indexed Unknown Comics A Defendini trade identity and active40USD eBay offer; no completed-sale price. No raw condition inferred."
+    },
+    {
+      "copyId": "raw:15-082",
+      "url": "https://officialpix.myshopify.com/products/sports-almanac-michael-j-fox",
+      "finding": "Indexed599.99 sold-out retailer item is Back to the Future1 Not-Grays Alternate Time Line signed Michael J Fox CGC9.8, not owned raw Fame edition. Excluded."
+    },
+    {
+      "copyId": "raw:15-082",
+      "url": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE0NTU1NzU5OQ%3D%3D",
+      "finding": "Indexed2000USD active Fame Sports Almanac signed Michael J Fox CGC9.8; asking price and wrong grading/signature basis for raw reference."
+    },
+    {
+      "copyId": "CGC:4245413012",
+      "url": "https://www.comiclink.com/results/generate_highlights.asp?output=2023-Fall-Comics",
+      "finding": "Direct archive Amazing Fantasy1000 sold3400 atCGC9.8; search9.0 text belonged to other titles. Wrong numerical grade; edition unspecified. Excluded."
+    },
+    {
+      "copyId": "Authority:4845360792",
+      "url": "https://www.pricecharting.com/game/comic-books-immortal-thor/immortal-thor-villalobos-virgin-15-2024",
+      "finding": "Indexed7.16 entry is1:50 virgin; owned Villalobos trade. Wrong edition, excluded."
+    }
+  ],
+  "searchOnly": [
+    {
+      "query": "\"Grim\" \"Webstore\" \"9.8\" sold",
+      "finding": "No qualifying result surfaced."
+    },
+    {
+      "query": "\"The Cull\" \"Shrike\" \"9.8\" sold",
+      "finding": "No qualifying result surfaced."
+    }
+  ],
+  "nextLeads": [
+    {
+      "copyId": "Authority:7861079670",
+      "action": "Find Phoenix original lot or scan to establish UPC/printing before using9GBP result."
+    },
+    {
+      "copyId": "PSA:166711208",
+      "action": "Additional original English PSA10 sales from PriceCharting remain leads; inspect certs and final sale status before increasing confidence."
+    }
+  ],
+  "notCheckedThisRun": [
+    "GoCollect authenticated tables",
+    "Heritage exact-item archive",
+    "ComicBookRealm new analyzer pages"
+  ],
+  "totals": {
+    "objects": 951,
+    "valued": 412,
+    "recordedUSD": 35761.04,
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "selectedRawReferences": 415,
+    "rawReferencesExcludedFromTotal": true
+  }
+}

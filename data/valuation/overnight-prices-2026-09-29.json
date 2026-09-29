@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "PSA:166711208",
+      "revision": "e185af527972cd1f193423a78013c7c661f5d3f1737adae342799281d19dd400",
+      "observations": [
+        {
+          "id": "overnight-2026-09-29-luffy-166711208",
+          "copyId": "PSA:166711208",
+          "basis": "sold-comps",
+          "evidenceKind": "sold-comps",
+          "saleCount": 1,
+          "value": 222.5,
+          "currency": "USD",
+          "source": {
+            "name": "eBay completed auction",
+            "url": "https://www.ebay.com/itm/800650657187",
+            "asOf": "2026-09-19",
+            "retrievedAt": "2026-09-29T05:04:57.269Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2026",
+              "brand": "ONE PIECE ST30-STARTER DECK EX LUFFY & ACE",
+              "series": "",
+              "subject": "LUFFY & ACE",
+              "cardNumber": "001",
+              "variety": "BLACK & WHITE ALT ART",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Single verified completed sale; limited sales history. Price excludes shipping and tax.",
+          "reviewEvidence": {
+            "url": "https://www.ebay.com/itm/800650657187",
+            "reviewedAt": "2026-09-29T05:04:57.269Z",
+            "reviewedBy": "Owner-authorized exact-card and slab-image review",
+            "notes": "Rendered original eBay archive explicitly SOLD for USD222.50 with19 bids. Front slab image visually matches owned English 2026 ST30-001 Black & White Alt Art; PSA10 cert169751301 is distinct from owned166711208. PriceCharting linked this listing beside243.50, but original auction shows222.50; use original evidence. Other language and generic product-page prices excluded.",
+            "transactions": [
+              {
+                "id": "800650657187",
+                "url": "https://www.ebay.com/itm/800650657187",
+                "price": 222.5,
+                "currency": "USD",
+                "saleDate": "2026-09-19",
+                "soldAt": "2026-09-20T02:00:01Z",
+                "displayedSoldAt": "Sep19,2026 19:00:01 PDT",
+                "seller": "jboyk21",
+                "comparisonCert": "169751301",
+                "bids": 19,
+                "shipping": 9.99,
+                "imageUrl": "https://i.ebayimg.com/images/g/RXMAAeSwYHhqpWLp/s-l1600.webp"
+              }
+            ],
+            "excluded": [
+              {
+                "id": "117406357303",
+                "reason": "Original redirects to generic product7093982900; no completed sale verified."
+              },
+              {
+                "id": "800558359358",
+                "reason": "Japanese-language edition; owned card is English."
+              }
+            ],
+            "corroboratingUrl": "https://www.pricecharting.com/game/one-piece-starter-deck-ex-30-luffy-%26-ace/luffy-%26-ace-alternate-art-st30-001"
+          }
+        }
+      ]
+    }
+  ]
+}
