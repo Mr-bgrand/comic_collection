@@ -1,12 +1,12 @@
 # Current print set
 
-Generated 2026-09-26 from the stored collection: **950 objects**, including **901 copies in 20 physical containers**.
+Generated 2026-09-29 from the stored collection: **951 objects**, including **901 copies in 20 physical containers**.
 
 | Complete PDF | Paper and settings |
 | --- | --- |
 | [All case labels](all-case-labels-4x6.pdf) | 4 x 6 inches; 39 pages; single-sided; actual size / 100% |
 | [All case master sheets](all-case-master-sheets-letter.pdf) | Letter portrait; 78 pages; double-sided, flip on long edge; actual size / 100% |
-| [Collection master list](collection-master-list.pdf) | Letter landscape; all 950 stored copies, including external storage and unassigned cards |
+| [Collection master list](collection-master-list.pdf) | Letter landscape; all 951 stored copies, including external storage and unassigned cards |
 
 The combined master sheets include blank reverse pages where needed so the next case starts on a new physical sheet. Keep those blanks when printing duplex. The individual PDFs below contain only that case's content pages. Labels for larger cases continue onto additional 4 x 6 pages.
 
