@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-09-29T09:06:27.741Z",
+  "batch": "09UTC",
+  "accepted": [],
+  "checked": [
+    {
+      "copyId": "CGC:4350046013",
+      "url": "https://www.hipcomic.com/listing/grim-11-jenny-frison-sdcc-virgin-editioncgc-98/14387944",
+      "transactionId": "14387944",
+      "value": 16.5,
+      "currency": "USD",
+      "displayedSaleDate": "02/03/2024 17:45:00",
+      "seller": "Cvninja",
+      "comparisonCert": "4337766025",
+      "imageUrl": "https://img.hipcomic.com/p/04431c14f543422909d85fab4b8b8a70-800.jpg",
+      "finding": "Completed sale confirmed in Sales History. Downloaded slab image visually shows Universal 9.8, Frison Sketch Cover. Owned copy is Qualified 9.8. Excluded for label mismatch; no estimate accepted."
+    },
+    {
+      "copyId": "CGC:4350046013",
+      "url": "https://www.mycomicshop.com/search?cgc=y&mingr=20&tid=55824189",
+      "comparisonCert": "4363700009",
+      "finding": "Search-indexed item60408340 is available stock at66.49, plus premium, not completed sale. Other auction rows are issue25, not11. Excluded."
+    },
+    {
+      "copyId": "CGC:4480291001",
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/324878/dc-comics-wonder-woman-1h-besch-variant-cover",
+      "finding": "Opened analyzer reports Universal/Modern, 24 sales at9.8, last sale2025-12-30, estimated45USD. Owned label is CGCxJSA; signature/authentication mismatch. Estimate excluded."
+    },
+    {
+      "copyId": "CGC:4480291001",
+      "url": "https://www.pricecharting.com/game/comic-books-wonder-woman/wonder-woman-besch-1-2023",
+      "transactions": [
+        {
+          "id": "235735681775",
+          "url": "https://www.ebay.com/itm/235735681775",
+          "reportedSaleDate": "2025-05-31",
+          "reportedPrice": 45
+        },
+        {
+          "id": "235401577789",
+          "url": "https://www.ebay.com/itm/235401577789",
+          "reportedSaleDate": "2024-09-06",
+          "reportedPrice": 45
+        }
+      ],
+      "finding": "Aggregator entries lack matching CGCxJSA authentication; original links failed fetch. Table also mixes other years/80th Anniversary. No current matched estimate."
+    },
+    {
+      "copyIds": [
+        "CGC:4245413009",
+        "CGC:4273634005"
+      ],
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/306588/dynamite-entertainment-darkwing-duck-1parsons-b-parsons-virgin-edition",
+      "finding": "Parsons virgin recorded sales0; right-now eBay94.99 is asking price. No comparable transaction."
+    },
+    {
+      "copyId": "CGC:4245413009",
+      "url": "https://www.pricecharting.com/game/comic-books-darkwing-duck/darkwing-duck-parsons-virgin-1-2023",
+      "finding": "No9.8sales. Raw25USD May27,2026 and19.95 March13,2026 do not support graded9.8 value."
+    },
+    {
+      "copyIds": [
+        "CGC:4245413009",
+        "CGC:4273634005"
+      ],
+      "url": "https://geekedoutcomics.com/products/darkwing-duck-1-casey-parsons-cgc-9-8-exclusive-cover-dynamite-2023",
+      "finding": "Indexed45USD sold-out retail stock is not documented completed transaction."
+    },
+    {
+      "copyId": "raw:15-002",
+      "url": "https://www.ebay.com/itm/256771712992",
+      "finding": "Indexed sold89USD Orbit Eminem Cacau is VIRGIN FOIL limited35; owned copy is trade dress. Wrong variant, excluded. Multiple quantity/best-offer caveats also prevent assuming unit proceeds."
+    },
+    {
+      "copyIds": [
+        "raw:15-012",
+        "raw:15-013",
+        "raw:15-015"
+      ],
+      "url": "https://comickingdomcreative.com/collections/tidal-wave/products/tribute-kobe-bryant-ck-shared-exclusive-wu-tang-clan-homage-sajad-shah",
+      "finding": "Primary retailer documents600trade,300virgin,35foil and35metal EACH trade/virgin,40retailer-appreciation virgins. Existing Sep23 scan review already matched artwork; finish remains unresolved.26USD current offer is not sale or selected raw reference."
+    }
+  ],
+  "searchesWithoutQualifyingEvidence": [
+    {
+      "copyId": "CGC:4089841007",
+      "query": "Wretches Momoko metal auction / site:comiclink.com",
+      "result": "Only raw/virgin/signed offers and unrelated results; no exact completed metal9.8 sale."
+    },
+    {
+      "copyId": "CBCS:21-45DB4BC-045",
+      "query": "Reflections 14 CBCS 9.8 auction",
+      "result": "No exact transaction surfaced."
+    },
+    {
+      "copyId": "CGC:4480291001",
+      "query": "site:ha.com Wonder Woman Besch 2023; Wonder Woman Besch JSA sold9.8",
+      "result": "No matching JSA transaction surfaced; no Heritage lot inspected."
+    },
+    {
+      "copyIds": [
+        "CGC:4245413009",
+        "CGC:4273634005"
+      ],
+      "query": "site:mycomicshop.com Darkwing Duck Parsons",
+      "result": "No matching completed auction surfaced."
+    }
+  ],
+  "nextLeads": [
+    "For Grim seek Qualified9.8 only; do not reuse HipComic Universal sale.",
+    "For Wonder Woman inspect owned signature details and seek matching CGCxJSA instead of Universal or witnessed SS.",
+    "Kobe virgin finish requires evidence beyond front artwork; preserve unknown finish and unassessed condition.",
+    "Other candidates: new missing graded items outside this batch; retain raw UPC/printing/finish gates."
+  ],
+  "unchanged": {
+    "objects": 951,
+    "valued": 412,
+    "totalUSD": 35761.04,
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "selectedRawReferences": 415
+  }
+}
