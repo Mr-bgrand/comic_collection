@@ -1,0 +1,23 @@
+{
+  "schemaVersion":1,
+  "retrievedAtDate":"2026-09-30",
+  "batch":"17UTC",
+  "outcome":"No supported new estimate; scan identity and source exclusions saved.",
+  "scanReview":[
+    {"copyId":"CGC:4471693002","path":"data/images/4471693002_OBV.jpg","finding":"Kyle Willis Sketch Cover Collection1 Circle of Madness Foil, CGCxJSA9.8. Label identifies Kyle Willis autograph; Joker artwork, pink spiral, SDCC logo. Comparisons must match authenticated autograph."},
+    {"copyId":"CGC:4471693001","path":"data/images/4471693001_OBV.jpg","finding":"Supergirl and Legion23 Whatnot Special Foil B, CGCxJSA9.8. Label identifies David Nakayama autograph. Unsigned Universal sales excluded."},
+    {"copyId":"CGC:4526002007","path":"data/images/4526002007_OBV.jpg","finding":"Universal9.8 Cacau Virgin Tupac: spotlight overhead, large crow at bottom. Label says No Date; stored1900 is not evidence of publication year."}
+  ],
+  "directPages":[
+    {"copyId":"CGC:4526002007","url":"https://exchangecollectibles.com/products/tribute-topac-shakur-1-virgin-cgc-9-8","finding":"CGC9.8 Crow homage virgin300-copy edition USD79 retail offer with grading wait; no completed sale or comparable cert."},
+    {"copyId":"raw:15-082","url":"https://club.clz.com/t/added-add-comics-to-core/13120","finding":"Community submission dated July19 2025 describes Official Pix/Trinity Matthew Waite500-copy foil. Identification lead only; no price, UPC, printing or completed transaction. Not sufficient to adopt print-run metadata without corroboration."}
+  ],
+  "indexedOnly":[
+    {"copyId":"CGC:4471693001","url":"https://www.mycomicshop.com/search?auctionstatus=notended&dsp=issuegallery&mingr=0&p=104","listingId":"65273551","comparableCert":"4322049001","finding":"Whatnot Special Edition B9.8 auction catalog entry startsAug24; no realized result or authenticated Nakayama signature established. Not valuation evidence."},
+    {"copyId":"raw:15-082","url":"https://www.ebay.com/itm/306812902676","listingId":"306812902676","finding":"FameFox SportsAlmanac foil500 CGC9.8; graded result cannot value raw unassessed book. Original not opened."}
+  ],
+  "searchOnly":["Exact Tupac CacauVirgin9.8 sold query found retail offers, no completed result.","KyleWillis CircleMadness foil9.8 query did not expose an exact CGCxJSA transaction.","Supergirl WhatnotSpecialFoilB searches exposed registry and auction catalog, not exact signed result."],
+  "nextLeads":["Research low-documented SpiderGwen Spectral CGC4273634009 grade8.5 and SIKTCPenInk4350046008 FoilA9.6 next.","Do not use unsigned Supergirl or other KyleWillis sketchbooks as signed comparisons."],
+  "remaining":{"gradedMissing":110,"rawUnassessed":429,"rawReferences":415,"rawWithoutReference":14,"recordedTotal":35761.04},
+  "artifactDecision":"Research only; inventory, viewer and PDF inputs unchanged."
+}
