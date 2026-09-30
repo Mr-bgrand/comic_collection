@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtDate": "2026-09-30",
+  "batch": "21UTC",
+  "outcome": "No supported new estimate. Exact-grade gaps and raw transaction exclusions retained.",
+  "directPages": [
+    {"copyId":"CGC:4350046008","url":"https://comicbookrealm.com/cgc-analyzer/comic/id/318337/boom-studios-something-is-killing-the-children-1boom-boom-studios-foil-edition-a","finding":"Exact Foil Edition A, Universal/Modern, Andrew K. Currey sketch cover/red foil logo. Public table reports 21 sales at 9.8, last June 14 2025, estimated value USD65. The owned 9.6 row has no sales/value. Public nonmember data is delayed; no grade interpolation or accepted estimate."},
+    {"copyId":"CGC:4350046008","url":"https://www.comiclink.com/Auctions/allsub.asp?FROM=&Focused=1&TO=&id=48245","finding":"Current catalog includes Foil A CGC9.8 Signature Series signed Currey and Tynion July23 2023; scheduled close October5 2026. Wrong grade and signature, no realized result. Do not reuse after close for owned Universal9.6."},
+    {"copyId":"Authority:4845360792","url":"https://www.ebay.com/itm/365096566801","listingId":"365096566801","seller":"Ron's Comic Closet","finding":"Immortal Thor15 Villalobos active USD4.99 offer, four available and one sold. Historical paid price/date not disclosed; the current offer cannot establish a completed sale. No raw reference accepted."}
+  ],
+  "indexedOnly": [
+    {"copyId":"CGC:4273634009","url":"https://www.pricecharting.com/es/game/comic-books-spider-gwen-shadow-clones/spider-gwen-shadow-clones-1-2023","finding":"Mixed variant page surfaces Spectral trade9.8 USD66.50 and virgin9.8 USD73 on September26 2023. Owned Spectral trade8.5; exclude wrong grades and virgin edition."},
+    {"copyId":"Authority:4845360792","url":"https://www.barnebys.se/auktioner/objekt/immortal-thor-14-15-pablo-villalobos-variant-16-tExc9kr-620245387","finding":"August9 2025 multiissue14/15/16 lot, SEK57 starting estimate. Neither single-book nor realized-price evidence."},
+    {"copyId":"Authority:4845360792","url":"https://my.comics.org/issue/2666976/","finding":"GCD indexed Villalobos cover barcode75960620664301521 matches owned trade UPC. Identification corroboration only; original not opened and no price evidence."},
+    {"copyId":"CGC:4350046008","url":"https://www.pricecharting.com/nl/game/comic-books-something-is-killing-the-children-pen-%26-ink/something-is-killing-the-children-pen-and-ink-curry-sketch-1-2023","finding":"Indexed FoilA9.8 USD63.99 August27 2025 and other9.8 records, some signed; no exact9.6. Original transactions not opened."}
+  ],
+  "nextLeads": [
+    "Choose different missing graded records next; the exact public CBR FoilA table has no9.6 evidence, so do not repeat immediately.",
+    "SpiderGwen Spectral trade8.5 still needs an exact-grade transaction; virgin and9.8 comparisons are excluded.",
+    "Thor15 trade needs a completed single-book transaction with paid amount, not active multiquantity counters.",
+    "Raw15-017 Jordan Goodfellas red virgin finish remains unresolved; identify finish before price selection."
+  ],
+  "remaining":{"gradedMissing":110,"rawUnassessed":429,"rawReferences":415,"rawWithoutReference":14,"recordedTotal":35761.04},
+  "artifactDecision":"Research only. Inventory, valuation and viewer/PDF inputs unchanged; existing artifacts retained, including protected updated label PDF."
+}
