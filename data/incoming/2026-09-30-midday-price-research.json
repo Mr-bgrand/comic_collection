@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtDate": "2026-09-30",
+  "batch": "13UTC",
+  "outcome": "No supported new values. Confirmed image-to-certificate mismatch requiring replacement scans or verified grader images.",
+  "scanReview": [
+    {"copyId":"CGC:4350046020","path":"data/images/4350046020_OBV.jpg","finding":"Universal9.9 Magic Pooh vs Air Pooh Foil Edition B,2023. Label specifies Speckled foil and AP3 printed on cover. Exclude ordinary numbered Magma/Lava and signature editions."},
+    {"copyId":"CGC:4214394001","paths":["data/images/4214394001_OBV.jpg","data/images/4214394001_REV.jpg"],"finding":"Both images show cert4350046020,2023 Magic Pooh vs Air Pooh Foil Edition B9.9. Stored record4214394001 describes2021 SMZ Comics Convention Metal Edition B9.9. Cannot use these images to identify or value4214394001. Images/record preserved pending verified replacement; do not merge or delete inventory."},
+    {"copyId":"CGC:4401613001","path":"data/images/4401613001_OBV.jpg","finding":"Universal9.6 Dunk Edition B,2023,SMZ virgin; manufactured22/24 label and visible22/24 cover. Kobe-style jersey8 dunk artwork."}
+  ],
+  "indexedOnly": [
+    {"copyId":"CGC:4350046020","url":"https://www.pricecharting.com/game/comic-books-do-you-pooh/do-you-pooh-jordan-1-2022","finding":"Mixed page includes raw Magma8/20 reported37.50 on2024-12-16 and Lava5/20 reported37.50 on2024-11-23. Neither matches owned AP3 Speckled CGC9.9; excluded, originals not checked."},
+    {"copyId":"CGC:4350046020","url":"https://www.mycomicshop.com/search?TID=39350765","finding":"Search shows100USD Confetti trade12/20 and135USD9.4foil20/20 offers; not owned9.9SpeckledAP3 and not verified auctions."},
+    {"copyId":"raw:15-082","url":"https://www.ebay.com/itm/257012632582","listingId":"257012632582","seller":"DARKDEVIL COLLECTIBLES","finding":"MichaelJFox Almanac foil7/30 signed CGC9.8,2000USD active ask; not unsigned raw reference."}
+  ],
+  "failedOpen": [{"url":"https://www.cgccomics.com/certlookup/4214394001/","finding":"Unavailable through web tool; no replacement grader scans obtained."}],
+  "searchOnly": ["DoYouPooh Dunk MyComicShop: no exact9.6 transaction.","DoYouPooh SMZ Heritage: no exact MetalB9.9 transaction.","FoxAlmanac HipComic: no usable unsigned raw transaction."],
+  "nextLeads": ["Obtain correct front/back images of4214394001 before artwork-based research. Current files show4350046020.","Search4350046020 specifically as Speckled AP3 and4401613001 as DunkB22/24; exclude signed and other foil finishes."],
+  "remaining":{"gradedMissing":110,"rawUnassessed":429,"rawReferences":415,"rawWithoutReference":14,"recordedTotal":35761.04},
+  "artifactDecision":"No inventory or value change. Viewer and print PDFs preserved."
+}
