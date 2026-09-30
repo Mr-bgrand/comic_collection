@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtDate": "2026-09-30",
+  "batch": "09UTC",
+  "outcome": "No supported exact-grade estimates or selected raw references.",
+  "directPages": [
+    {"copyId":"CGC:4245413023","url":"https://comicbookrealm.com/cgc-analyzer/comic/id/302609/dc-comics-the-flash-123facsimile-megacon-comic-mint-convention-edition","finding":"31 sales at 9.8, last September 7 2026, guide USD50. No 9.6 history for owned grade. Search cache had 29 sales; live page supersedes cache."},
+    {"copyId":"CBCS:21-2EC8B4A-002","url":"https://www.ebay.com/itm/165474970690","listingId":"165474970690","seller":"hobbyheroig","finding":"CBCS9.8 Momoko Virgin Error signed Booher, not owned witnessed Peach Momoko. USD199.99 asking, no completed sale."},
+    {"copyId":"raw:15-060","url":"https://vintageantiquesgifts.com/products/female-force-taylor-swift-unknown-comics-steven-defendini-exclusive-x-virgin-var-03-27-2024","finding":"X Virgin USD25 sold-out retailer entry, not owned X trade or a completed transaction."}
+  ],
+  "indexedOnly": [
+    {"copyId":"CGC:4357017002","url":"https://comicbookrealm.com/cgc-analyzer/comic/id/327348/marvel-comics-x-men-27trinity-nycc-b-trinity-comics-sketch-edition","finding":"Trinity Sketch has two9.8 sales, last September1 2026, USD150 guide; no9.6 history. Direct open failed."},
+    {"copyId":"CGC:4357017004","url":"https://comicbookrealm.com/cgc-analyzer/comic/id/327534/boom-studios-something-is-killing-the-children-33","finding":"Scotts Collectables Virgin, not Trinity Convention;9.8 USD110 not owned9.6."},
+    {"copyIds":["CGC:4381117012","CGC:4381117011"],"url":"https://comicspriceguide.com/titles/w0rldtr33/5B/pisrcpv","finding":"Lists Near Mint exclusives without visible pricing; base B UPC cannot identify owned Near Mint editions."},
+    {"copyId":"CGC:4350046005","url":"https://www.mycomicshop.com/bidhistory?ItemID=64999513","finding":"2026 issue1 Shattered raw9.4, not2023 issue9 Convention Foil CGC9.4."}
+  ],
+  "searchOnly": [
+    "CGC4480290001 Mike Tyson Crush9.8: no exact transaction.",
+    "CGC4381117005 and4381117004 w0rldtr33 third-print No Masss: registry and other issues only.",
+    "raw15-025 Taylor Swift trade: known unsold HipComic14824022 resurfaced; not reopened."
+  ],
+  "nextLeads": ["Rotate to CGC4350046020 Magic Pooh vs Air Pooh Foil B9.9,4214394001 SMZ Convention Metal B9.9,4401613001 Dunk B9.6; require exact labels and completed results."],
+  "remaining":{"gradedMissing":110,"rawUnassessed":429,"rawReferences":415,"rawWithoutReference":14,"recordedTotal":35761.04},
+  "artifactDecision":"Research only. No viewer or print inputs changed."
+}
