@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtDate": "2026-09-30",
+  "batch": "05UTC",
+  "outcome": "No supported new estimates; original inventory and accepted selections preserved.",
+  "directPages": [
+    {
+      "copyId": "PSA:121629672",
+      "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-photogenic-rookie-pix/marvin-harrison-jr-red-6",
+      "finding": "Exact Red6 catalog still has zero PSA10 transactions; raw Stardust row not interchangeable."
+    },
+    {
+      "copyId": "CGC:4245413012",
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/290427/marvel-comics-amazing-fantasy-1000-1000-2nd-print-second-printing",
+      "finding": "9.0 table20USD with last sale2023-02-11 belongs to Second Printing. Owned record is regular2022issue; cannot substitute. Transaction ID/comparable cert not exposed."
+    },
+    {
+      "copyId": "raw:15-002",
+      "url": "https://rabbitcomics.com/products/orbit-eminem-1-caio-cacau-excluisve-variant-preorder",
+      "finding": "Catalog separates regular trade, Rapboy trade, foil and metal. Retail sold-out state not transaction. Saved owned identity is white-shirt Punisher homage regular trade, explicitly not green Rapboy."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "raw:15-002",
+      "url": "https://www.ebay.com/itm/236528634106",
+      "listingId": "236528634106",
+      "seller": "roudycomics",
+      "reportedSaleDate": "2026-06-28",
+      "reportedUSD": 32.5,
+      "finding": "Rapboy trade sold lead; wrong artwork compared to saved owned scan review. Original fetch404; no independent transaction or offer amount verification."
+    },
+    {
+      "copyId": "raw:15-002",
+      "url": "https://www.mercari.com/us/shop/independent-publisher-comics/",
+      "finding": "SOLD Rapboy trade FOIL publishercopy CE4 displayed25.50; different artwork/finish, no individual transaction date/ID recovered."
+    },
+    {
+      "copyId": "CGC:4245413012",
+      "url": "https://www.comiclink.com/results/generate_highlights.asp?output=2023-10Premium",
+      "finding": "3010USD headline is9.6, not9.0; no exact edition/label assumed."
+    },
+    {
+      "copyId": "PSA:114218231",
+      "url": "https://www.sportscardinvestor.com/cards/trey-benson-football/2024-obsidian-black-color-blast-15/psa-9",
+      "finding": "BlackColorBlast15 is not RookieMaterialsInk RMI-TBN; excluded."
+    }
+  ],
+  "failedOpen": [
+    {
+      "url": "https://www.mycomicshop.com/search?q=amazing+Fantasy+1000",
+      "finding": "Fetch error; no auction results claimed."
+    }
+  ],
+  "searchOnly": [
+    "MarvelPreviews26 CGC8.0 returned issue95 mismatch, no exact new transaction.",
+    "BruceWillisSDCCfoil query did not expose a new exact sale.",
+    "Eminem regular Punisher trade search returned Rapboy and retailer catalogs."
+  ],
+  "nextLeads": [
+    "Keep Eminem Rapboy236528634106 and Mercari publisherfoil excluded.",
+    "Future AmazingFantasy1000 evidence must be regular first-printUniversal9.0, not secondprint or Campbell variants."
+  ],
+  "remaining": {
+    "gradedMissing": 110,
+    "rawUnassessed": 429,
+    "rawReferences": 415,
+    "rawWithoutReference": 14,
+    "recordedTotal": 35761.04
+  },
+  "artifactDecision": "No viewer or print inputs changed; no regeneration necessary. Protected alternatePDF SHA256 verified unchanged. Previous main deployment9505ab7 workflow36653199887 succeeded."
+}
