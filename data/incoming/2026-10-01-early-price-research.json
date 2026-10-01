@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtDate": "2026-10-01",
+  "batch": "01UTC",
+  "accepted": [],
+  "directPages": [
+    {"copyId":"CGC:4198680004","url":"https://www.mycomicshop.com/search?q=Star+Wars+29","comparableCert":"4185057010","finding":"Darth Vader29 EASTSIDE section: Universal CGC9.8 USD55 Add to cart, consignment with3% premium. Correct Rahzzah virgin edition but wrong grade and retail offer; owned9.6 remains missing. Other series/issue29 entries excluded."},
+    {"copyId":"CGC:4273634004","url":"https://www.pricecharting.com/game/comic-books-star-wars-obi-wan/star-wars-obi-wan-momoko-1-2022","finding":"2022 Momoko1 page explicitly has zero8.0 sold listings despite displaying USD9.24 calculated guide. OwnedUniversal8.0 cannot be valued from raw or9.8 transactions. Display changed between cached responses; no observation imported."},
+    {"copyId":"PSA:160521636","url":"https://www.sportscardspro.com/game/baseball-cards-2025-topps-x-bob-ross/sandy-koufax-sap-green-71","finding":"Exact2025 SapGreen71 page exposes3raw and1PSA10 transactions, zeroGrade9 and noGrade9 amount. OwnedPSA9 not supported. Supersedes earlier SCI placeholder-only lead; no need to repeat immediately."}
+  ],
+  "indexedOnly": [
+    {"copyId":"raw:15-025","url":"https://www.ebay.ca/itm/168353436933","listingId":"168353436933","finding":"FuelVintage Defendini trade listing CAD34.90 or Best Offer, indexed as active. Direct open failed. No verified transaction, fullUPC or printing; no raw reference accepted."},
+    {"copyId":"raw:15-017","url":"https://www.ebay.com/itm/296646637738","listingId":"296646637738","finding":"ComicChix redGoodfellas metal USD99.99 offer. Ownedredvirgin finish remains unresolved. Do not equate metal price with ordinary or foil red cover."},
+    {"copyId":"CGC:4381117003","url":"https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-marcano-virgin-1-2023","finding":"Marcano CGC9.8 USD49.99 February6 2024 and USD50 September3 2023 are issue1, not ownedissue5. Wrong issue excluded."},
+    {"copyId":"CGC:4381117003","url":"https://www.ebay.com.au/usr/thicccboycomics?_pgn=3","finding":"Issue5 ComicCorner NYCC150 signedTynion9.6 retail listing; ownedUniversal9.8 differs in signature and grade."}
+  ],
+  "searchOnly": [
+    {"copyId":"CGC:4203411005","query":"Whatnot Publishing Sampler Kickstradomis Red Lava CGC10 sold","finding":"No exact completed result surfaced; no archive lot inspected."},
+    {"copyId":"TAG:V3539115","query":"2021 Bubba Chandler CDA-BC Gold Wave PSA8 sold","finding":"Category indexes show Gold PSA8 and GoldWavePSA9; no exact GoldWavePSA8 transaction. OrdinaryGold must not substitute for GoldWave."},
+    {"copyId":"CGC:4386585001","query":"The Cull Shrike CGC sold / CGC Analyzer","finding":"Raw cover-select and retailer results only; prior Whatnot/Underdog exclusions preserved."},
+    {"copyId":"raw:15-025","query":"Taylor Swift Defendini auction results trade","finding":"CGC forum November2024 auction promotion reports interimCGC9.9 bidUSD54, not raw or final result. Existing unsoldHipComic14824022 not reopened."}
+  ],
+  "nextLeads":[
+    "Prioritize least-mentioned missing certs: Batman655WhatnotC CGC4386585003grade9.9; w0rldtr331ComicMint CGC4350046017grade9.9; DoYouPoohWhatnotNYCCFoilA CGC4177706003grade9.8; BoysSpecialComicTomFoil CGC4350046019grade9.9.",
+    "Read complete inventory and prior evidence before searching; record scarce-grade gaps without interpolating.",
+    "RawJordanredvirgin still needs finish verification; keep metal/foil and ordinary paper separate."
+  ],
+  "remaining":{"gradedMissing":110,"rawUnassessed":429,"rawReferences":415,"rawWithoutReference":14,"recordedTotal":35761.04},
+  "artifactDecision":"Research documentation only; no inventory or valuation input changes, so viewer and print artifacts retained."
+}
