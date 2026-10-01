@@ -1,0 +1,26 @@
+{
+  "schemaVersion":1,
+  "retrievedAtDate":"2026-10-01",
+  "batch":"05UTC",
+  "accepted":[],
+  "scanReview":[
+    {"copyId":"CGC:4177706003","path":"data/images/4177706003_OBV.jpg","finding":"Owned label matches cert4177706003, Universal9.8,2022. Label explicitly says Whatnot NYCC Magma Edition A, manufactured with29/100 printed on cover. Batman battle-damage homage with NYCC logo;29/100 visible bottom right. Inventory says Whatnot NYCC Foil Edition A. Preserve discrepancy for metadata review; search using specific Magma designation and do not use generic foil comparisons."},
+    {"copyId":"raw:15-059","path":"data/images/Raw_15-059_FRONT.jpg","finding":"Spider-Man collage over Golden Gate Bridge, SDCC logo, Kyle Willis signature-like mark, foil effect. Not Bruce Willis. The September30 overnight research BruceWillis query is irrelevant and must not steer future searches. Existing proposed Spider-Boy identity remains unconfirmed; comic versus print format still unresolved, no reverse/indicia. Condition not inferred."}
+  ],
+  "directPages":[
+    {"copyId":"CGC:4350046019","url":"https://www.ebay.com/itm/155899887653","listingId":"155899887653","comparableCert":"4331636006","seller":"carlosmvega","finding":"Zoe Lacchei Starlight SDCC9.9 listing USD395/OBO BuyItNow. Item specifics say trade dress; owned is virgin foil. Active offer, not completed transaction, no value accepted."},
+    {"copyId":"CGC:4386585003","url":"https://www.whatnot.com/en-GB/listing/TGlzdGluZ05vZGU6MTQxNjk1MjYx","finding":"WhatnotSpecialC Batman655 CGC9.8 USD300 unavailable. No sold date or actual paid amount, wrong numerical grade for owned9.9."}
+  ],
+  "indexedOnly":[
+    {"copyId":"CGC:4350046019","url":"https://comicbookrealm.com/cgc-analyzer/comic/id/323422/dynamite-entertainment-the-boys-1comictom-e-royle-foil-edition","finding":"Royle Foil catalog is not owned Zoe Lacchei cover. Its empty sales table cannot describe the owned edition."},
+    {"copyId":"raw:15-059","url":"https://www.ebay.com/itm/397377271142","listingId":"397377271142","finding":"KyleWillis SpiderMan SDCC signed and remarked USD200/OBO offer. No completed transaction or owned-format match established; original not opened."},
+    {"copyId":"raw:15-059","url":"https://www.mercari.com/us/item/m72324277874/","finding":"USD72.21 active offer explicitly described as an art print, not comic. No sale or verified match to owned object; retain format question. Do not assign this amount."}
+  ],
+  "searchOnly":[
+    {"copyId":"CGC:4350046017","query":"w0rldtr33 ComicMint MattWilson9.9 sold and MyComicShop","finding":"No exact completed sale surfaced; no matching auction lot inspected."},
+    {"copyId":"CGC:4177706003","query":"DoYouPooh WhatnotNYCC MagmaEditionA2022 sold","finding":"No exact transaction; signed2021NYCC,2023NightwingCBCS and otherhomages excluded. Heritage indexedNYCC groupof4 is not a single matching book."}
+  ],
+  "nextLeads":["Resolve CGC4177706003 Magma-versus-Foil metadata using owned label and current cert page before importing a comparison.","Continue least-researched cards TAGG7325430 WilwolfBloodRedHolo10 and TAGU5165558 JaredJonesPrism8.5; exact numericalgrade only.","Raw15-059 is KyleWillis Spider-Man SDCC collage; never BruceWillis. Need format evidence, not another art-print asking price."],
+  "remaining":{"gradedMissing":110,"rawUnassessed":429,"rawReferences":415,"rawWithoutReference":14,"recordedTotal":35761.04},
+  "artifactDecision":"Research only; inventory and valuation inputs unchanged. Existing viewer and print outputs retained."
+}
