@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtDate": "2026-10-01",
+  "batch": "13UTC",
+  "accepted": [],
+  "directPages": [
+    {
+      "cert": "6025067013",
+      "identity": "2023 Donruss Chase Brown #318 base, CGC 9.5",
+      "url": "https://www.sportscardspro.com/game/football-cards-2023-panini-donruss/chase-brown-318",
+      "finding": "Aggregator reports CGC 9.5 transactions dated September 25, 2026 ($9.99) and December 26, 2025 ($5.57). Original listings checked separately; both redirect to a product page. These remain unverified secondary transaction leads, not accepted estimates.",
+      "leads": [
+        {"transactionId": "117417924797", "reportedSaleDate": "2026-09-25", "reportedAmount": 9.99, "currency": "USD", "url": "https://www.ebay.com/itm/117417924797", "comparableCert": null},
+        {"transactionId": "306663100257", "reportedSaleDate": "2025-12-26", "reportedAmount": 5.57, "currency": "USD", "url": "https://www.ebay.com/itm/306663100257", "comparableCert": null}
+      ]
+    },
+    {
+      "authorityId": "4845360792",
+      "identity": "Immortal Thor #15 Villalobos trade cover, UPC 75960620664301521; owned condition unassessed",
+      "url": "https://www.mycomicshop.com/search?q=immortal+Thor+15",
+      "finding": "Direct catalog lists #15B Villalobos trade at NM $9 and VF $4.80 as available retail offers. Neither is a completed auction. Catalog does not expose full UPC in the retrieved text. #15E 1:50 virgin is a different edition. No raw reference accepted and no condition inferred."
+    }
+  ],
+  "failedOriginals": [
+    {
+      "urls": ["https://www.ebay.com/itm/117417924797", "https://www.ebay.com/itm/306663100257"],
+      "redirectUrl": "https://www.ebay.com/p/15064278132",
+      "finding": "Web retrieval timed out. Actual browser navigation for each original reached the same general Chase Brown product page with a current $11.99 Buy It Now offer. That offer is not either claimed sale. Original paid price, sale status, comparable certificate and transaction images remain unverified."
+    }
+  ],
+  "searchOnly": [
+    {
+      "cert": "1401011392237",
+      "identity": "2008 Great Encounters Mankey #79/106 English reverse holo, CGC 9.5 MINT+",
+      "url": "https://www.sportscardinvestor.com/cards/mankey-pokemon/2008-diamond-pearl-great-encounters-base-079-106/cgc-9.5",
+      "finding": "Search surfaced base-card page, not owned reverse holo; zero placeholder is not a transaction. Original not opened. Prior Scrydex $11 claim remains unverified and was not reaccepted."
+    },
+    {
+      "cert": "6042459106",
+      "identity": "1997 Japanese Meiji promotional Dodrio foil, CGC 7.5",
+      "finding": "Focused exact-card/grade search did not produce a matching sale. Broad Whatnot result referred to Rhydon 7.5, a different card; no original opened or amount accepted."
+    }
+  ],
+  "nextLeads": [
+    "Chase Brown: pursue archived original transaction evidence for 117417924797 or 306663100257 only if newly accessible; do not recheck the generic product page as a sale.",
+    "Dodrio and Mankey need exact foil/finish and numerical-grade transactions; do not substitute base, adjacent grades or old CGC Gem Mint terminology.",
+    "Next batch: reconcile owned Do You Pooh cert 4177706003 Magma Edition A label with stored Foil Edition A before researching that variant; use prior October 1 dawn scan evidence.",
+    "Raw Thor still needs exact trade-edition completed-sale evidence and condition assessment. MyComicShop retail stock is not an auction result."
+  ],
+  "remaining": {"gradedMissing": 110, "rawUnassessed": 429, "rawReferences": 415, "rawWithoutReference": 14, "recordedTotal": 35761.04},
+  "artifactDecision": "Research only; inventory and valuation inputs unchanged. Existing viewer and print PDFs retained, including protected all-case-labels-4x6-updated.pdf."
+}
