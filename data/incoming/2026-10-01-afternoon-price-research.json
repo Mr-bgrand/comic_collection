@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtDate": "2026-10-01",
+  "batch": "17UTC",
+  "accepted": [],
+  "directPages": [
+    {
+      "copyId": "CGC:4177706003",
+      "url": "https://www.pricecharting.com/game/comic-books-do-you-pooh/do-you-pooh-marat-1-2017",
+      "finding": "New secondary transaction lead: Battle Damage Batpooh Magma foil 6/100, CGC 9.8, reported $44 on 2023-08-31. Mixed Marat catalog incorrectly groups many years and editions; overall guide excluded. Owned scan previously identified 29/100 Magma Edition A, while inventory says Foil Edition A. Exact comparative label and signature status still require verification.",
+      "transactionId": "256193505663",
+      "reportedSaleDate": "2023-08-31",
+      "reportedAmount": 44,
+      "currency": "USD",
+      "comparableCert": null
+    },
+    {
+      "copyId": "CGC:4177706003",
+      "url": "https://www.ebay.com/itm/276210173825",
+      "finding": "Direct listing: unsigned 2022 NYCC Battle Damaged Batman homage Magma foil 13/100, $58.99 or Best Offer, Buy It Now. Retail offer, not sale, and not graded 9.8. Supports terminology only; no valuation accepted."
+    },
+    {
+      "copyId": "raw:15-059",
+      "url": "https://www.ebay.com/itm/115990398243",
+      "finding": "New direct listing explicitly describes Kyle Willis SDCC Spider-Man foil as signed art print, 2023, active $75 or Best Offer. Does not establish the format or exact edition of the owned Golden Gate Bridge collage. No UPC, printing or owned condition established. Exclude asking price and art-print substitution."
+    }
+  ],
+  "failedOriginals": [
+    {
+      "url": "https://www.ebay.com/itm/256193505663",
+      "finding": "Original transaction inaccessible through web tool. $44 remains an unverified, stale secondary report; do not accept without label/edition evidence."
+    },
+    {
+      "url": "https://www.cgccomics.com/certlookup/4177706003/",
+      "finding": "Certificate lookup returned retrieval error; current page not verified. Magma-versus-Foil inventory discrepancy remains open."
+    }
+  ],
+  "searchOnly": [
+    {
+      "copyId": "CGC:4418876012",
+      "finding": "Incredible Hulk Gleason Virgin results mix Edition A elemental 1:100 and Edition C. Indexed CGC 9.8 rows do not value owned Edition C 9.6.",
+      "urls": [
+        "https://www.pricecharting.com/de/game/comic-books-incredible-hulk/the-incredible-hulk-gleason-virgin-1-2023",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/316631/marvel-comics-incredible-hulk-1"
+      ]
+    },
+    {
+      "copyId": "CGC:4386585004",
+      "url": "https://www.ebay.com/itm/257182162605",
+      "finding": "Indexed Mack Embossed CGC 9.8 is not owned NYCC Mack Virgin. Original not opened; prior publisher embossed exclusion preserved."
+    },
+    {
+      "copyId": "CGC:4386585001",
+      "finding": "Cull Shrike exact-grade query did not produce a usable new transaction; prior retailer exclusions retained."
+    },
+    {
+      "finding": "Heritage exact Thor15 Villalobos and ComicBookRealm Magma searches did not surface exact matching auction records. ComicLink Hulk search surfaced a future October2 listing for Edition A, not owned Edition C. No matching archive lot inspected or claimed checked.",
+      "url": "https://www.comiclink.com/Auctions/cgcallsub.asp?FROM=&Focused=1&Graded=CGC&TO=&id=4958"
+    }
+  ],
+  "nextLeads": [
+    "Batpooh transaction256193505663 is a newly saved stale secondary lead; verify exact label/cover and paid amount if original or archive becomes available.",
+    "Do not reuse generic Marat guide or Hulk Virgin mixed-edition guide.",
+    "Raw15-059 needs physical-format/back or indicia evidence; signed art-print retail listings cannot determine comic identity."
+  ],
+  "remaining": {
+    "gradedMissing": 110,
+    "rawUnassessed": 429,
+    "rawReferences": 415,
+    "rawWithoutReference": 14,
+    "recordedTotal": 35761.04
+  },
+  "artifactDecision": "Research-only batch. No inventory or valuation edits; retain viewer and PDFs because inputs are unchanged."
+}
