@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-02T21:03:09.455Z",
+  "batch": "21UTC",
+  "accepted": [],
+  "directPages": [
+    {
+      "copyId": "CGC:4245413012",
+      "url": "https://www.comiclink.com/results/generate_highlights.asp?output=2023-Fall-Comics",
+      "finding": "Original Fall2023 highlights associates AmazingFantasy1000 with CGC9.8 and3400USD, not9.0. Search snippet combined nearby grades. Exact edition/label/cert and sale date not exposed; exclude."
+    },
+    {
+      "copyId": "CGC:4245413015",
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/307124/marvel-comics-amazing-spider-man-20",
+      "finding": "Universal Nakayama20 table has10 recorded9.8sales, lastAug30,2026;9.6row has no sale or estimate. Advertising listings below table include other variants and SS, not recorded9.6transactions."
+    },
+    {
+      "copyId": "Authority:7633260283",
+      "url": "https://www.atomcomics.pl/pl/p/DETECTIVE-COMICS-400-FACSIMILE-EDITION-CVR-C-BLANK-VAR/245577",
+      "upc": "76194138450400121",
+      "finding": "Direct retailer confirms CoverCBlank, code0724DC218, September4,2024,32pages, English. In-stock20.99PLN offer is not completed sale. Owned condition remains unassessed; no reference selected."
+    }
+  ],
+  "searchOnly": [
+    {
+      "copyId": "CGC:4418876010",
+      "query": "Marvel Previews26 CGC8.0",
+      "finding": "Returned issue95CGC8.0 instead; no exact new transaction."
+    }
+  ],
+  "previousResearchReviewed": [
+    "2026-09-30-overnight-price-research.json",
+    "2026-09-28-afternoon-price-research.json"
+  ],
+  "nextLeads": [
+    "Do not reuse ComicLink Fall2023 mixed snippet as9.0AmazingFantasy1000 evidence.",
+    "Nakayama307124 has no9.6sale; defer repeat query until new transaction evidence appears.",
+    "Detective400blank identity has multiple full-UPC confirmations; unresolved market evidence and owned condition should not be confused with an identification gap."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifacts": "Research-only update; viewer and PDF inputs unchanged. Protected PDF preserved."
+}
