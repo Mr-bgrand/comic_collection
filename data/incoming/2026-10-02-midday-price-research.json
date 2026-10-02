@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-02T13:03:43.551Z",
+  "batch": "13UTC",
+  "accepted": [],
+  "ownedScans": [
+    {
+      "copyId": "CGC:4137946001",
+      "path": "data/images/4137946001_OBV.jpg",
+      "finding": "Visually verified CGC Universal9.4 cert4137946001, Marvel2016, Second Printing; cover is Engines of Vengeance collected edition. Existing keyComments says collects1-5. Exclude2014individual#1 even when same grade/printing."
+    },
+    {
+      "copyId": "raw:15-059",
+      "path": "data/images/Raw_15-059_FRONT.jpg",
+      "finding": "Foil collage, Golden Gate Bridge, small blue masked character alongside red/blue Spider-Man, SDCC logo and Kyle Willis lettering. Front does not establish publisher, issue, UPC, interior format, signature authenticity or condition."
+    }
+  ],
+  "directPages": [
+    {
+      "copyId": "CGC:3760617001",
+      "url": "https://www.mycomicshop.com/search?IID=64949342",
+      "comparableCert": "4681385010",
+      "finding": "Refreshed direct page149.99USD AddToCart plus3% premium, replacing indexed189.99. Active offer, not sale; owned is Signature Series, comparable signature status not verified."
+    },
+    {
+      "copyId": "raw:15-059",
+      "url": "https://www.ebay.com/itm/397377271142",
+      "transactionId": "397377271142",
+      "finding": "Seller titles SDCC signed/remarked comic; active200USD/OBO. Not completed sale; remark and format not established for owned copy."
+    },
+    {
+      "copyId": "raw:15-059",
+      "url": "https://www.ebay.com/itm/196047212717",
+      "transactionId": "196047212717",
+      "finding": "Seller calls similar Golden Gate artwork Kyle Willis Sketchbook FanExpo foil mosaic16/100; active69.99USD/OBO. Different event branding/edition cannot establish owned SDCC format or value."
+    },
+    {
+      "copyId": "raw:15-059",
+      "url": "https://www.keycollectorcomics.com/artist/kyle-willis/",
+      "finding": "Catalog has Before and After1 foil sketchbook, NYCC2023 limited100. This is context only; no evidence it matches owned SDCC item."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "raw:15-059",
+      "url": "https://www.ebay.com/itm/227328549359",
+      "transactionId": "227328549359",
+      "finding": "Seller calls similar mosaic Spider-Boy1Marvel2025FanExpo,54.95USD/OBO. Inconsistent seller naming and different event: identity lead only, not a sale."
+    },
+    {
+      "copyId": "CGC:4137946001",
+      "url": "https://www.mycomicshop.com/search?maxyr=2014&minyr=2012&q=Ghost++1",
+      "comparableCert": "4169105015",
+      "finding": "2014individual#1F second-print CGC9.4 active70USD; wrong edition, not sale."
+    }
+  ],
+  "priorEvidenceReviewed": [
+    "2026-10-02-morning-price-research.json",
+    "2026-09-27-evening-price-research.json",
+    "2026-09-29-midday-price-research.json"
+  ],
+  "nextLeads": [
+    "GhostRider searches must include collected edition/TPB2016; do not use2014#1second-print comps.",
+    "raw15-059 needs reverse/interior evidence of sketchbook vs art print vs comic and SDCC edition; seller titles alone insufficient. Preserve proposed identity, do not promote to verified.",
+    "WhiteWidow owned SS requires signature match; Heritage122401lot11956 remains excluded mixed3-book lot.",
+    "ArcadeKings search repeated prior empty result; defer until a new exact graded transaction surfaces."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifacts": "No inventory or valuation changes; viewer and PDFs unchanged and preserved."
+}
