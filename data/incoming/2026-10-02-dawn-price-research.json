@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtDate": "2026-10-02",
+  "batch": "05UTC",
+  "accepted": [],
+  "directPages": [
+    {
+      "copyId": "TAG:E3314397",
+      "url": "https://www.pokevalues.com/card/cleffa-obsidian-flames-202",
+      "finding": "Indexed description reported PSA8.5 $24.99, but refreshed direct page did not expose a matching PSA8.5 transaction. Visible transactions are raw, PSA8/9/10 and other graders. No guide imported."
+    },
+    {
+      "copyIds": [
+        "raw:15-012",
+        "raw:15-013",
+        "raw:15-015"
+      ],
+      "url": "https://exchangecollectibles.com/collections/ungraded-comics/products/tribute-kobe-bryant-1-virgin-wu-tang-homage",
+      "finding": "Direct retailer describes Sajad Shah Wu-Tang Forever homage, virgin, limited600, $25 AddToCart. Identity lead only: no completed sale, full UPC or owned finish verification. Separate $15 trade listing and metal eBay listing cannot be substituted."
+    }
+  ],
+  "failedOriginals": [
+    {
+      "copyId": "TAG:M9505930",
+      "url": "https://www.greatamericansportscards.com/products/2024-pokemon-svp-en-sv-black-star-promo-159-magneton-surging-sparks-psa-8-5",
+      "finding": "Indexed PSA8.5 $15 sold-out retail offer, original404. No transaction date, paid amount or cert verified. Sold-out not treated as completed sale."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "TAG:M9505930",
+      "url": "https://www.fanaticscollect.com/weekly/777338ac-56b0-11f0-a359-0a58a9feac02/2024-pokemon-sv-black-star-promo-surging-sparks-etb-magneton-159-cgc-85-nm-mt",
+      "transactionId": "WA182-9910",
+      "reportedSaleDate": "2025-07-14",
+      "reportedAmount": 25.2,
+      "currency": "USD",
+      "finding": "Auction result indexed with10bids and buyer premium included, but CGC8.5 is wrong grader for ownedTAG8.5. Only same-gradePSA fallback authorized. Original not opened."
+    },
+    {
+      "copyId": "TAG:M9505930",
+      "url": "https://www.fanaticscollect.com/buy-now/1ac8f2f6-792f-48bb-b3af-ba1205a2a96c",
+      "reportedSaleDate": "2026-07-06",
+      "reportedAmount": 12,
+      "currency": "USD",
+      "finding": "Indexed now says SOLD, correcting prior active-status lead. Still CGC8.5, not permittedTAG/PSA comparison. No acceptance; original not reopened."
+    },
+    {
+      "copyIds": [
+        "raw:15-012",
+        "raw:15-013",
+        "raw:15-015"
+      ],
+      "url": "https://www.ebay.com/itm/305725683042",
+      "finding": "Metal Wu-Tang virgin listing; owned finish not verified. No original opened or sale claimed."
+    }
+  ],
+  "searchOnly": [
+    {
+      "query": "Kobe Bryant Wu-Tang site:comics.ha.com; Kobe Bryant Wu-Tang site:comiclink.com",
+      "finding": "No matching completed archive lot surfaced; no archive detail page inspected."
+    }
+  ],
+  "nextLeads": [
+    "Magneton PSA8.5 retailer lead needs original transaction evidence; CGC8.5 sales are excluded under current owner rule.",
+    "Cleffa PSA8.5 guide needs traceable original transaction, not neighboring-grade data.",
+    "Kobe virgin retailer now saved with600-copy wording; resolve owned finish and compare publisher edition descriptions before valuation."
+  ],
+  "remaining": {
+    "gradedMissing": 110,
+    "rawUnassessed": 429,
+    "rawReferences": 415,
+    "rawWithoutReference": 14,
+    "recordedTotal": 35761.04
+  },
+  "artifactDecision": "Research-only; no inventory/valuation change. Existing viewer and print PDFs retained."
+}
