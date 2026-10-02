@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-02T10:13:03.676Z",
+  "batch": "09UTC",
+  "accepted": [],
+  "checked": [
+    {
+      "copyIds": [
+        "CGC:4603826010",
+        "raw:15-082"
+      ],
+      "url": "https://www.ebay.com/itm/306890416955",
+      "transactionId": "306890416955",
+      "finding": "Direct page: unsigned Matthew Waite Official Pix Sports Almanac foil limited500, CGC9.8, USD666.97 or Best Offer, two available, BuyItNow. Asking price only; no completed transaction or comparable cert verified. Graded offer cannot establish raw condition or value."
+    }
+  ],
+  "searchesWithoutNewEvidence": [
+    {
+      "copyId": "CGC:4137946001",
+      "queries": [
+        "Ghost Rider Engines of Vengeance 9.4 2016",
+        "All-New Ghost Rider Engines of Vengeance CGC",
+        "site.comiclink.com Ghost Rider Second Printing"
+      ],
+      "finding": "Results concern2014 individual issues,1990GhostRider orThanos. None verifies owned2016 second-print Engines of Vengeance9.4."
+    },
+    {
+      "copyId": "CGC:4177706002",
+      "queries": [
+        "Do You Pooh Green Crystal 9.8",
+        "Do You Pooh Green Crystal sold"
+      ],
+      "finding": "No matching completed transaction surfaced."
+    },
+    {
+      "copyId": "CGC:4350046004",
+      "queries": [
+        "Usagi Ice and Snow Gold Foil 9.8 sold",
+        "site.mycomicshop.com Usagi Gold Foil auction",
+        "Usagi SDCC gold 9.8 sold auction"
+      ],
+      "finding": "Results include raw Usagi in mixed PriceCharting2019catalog, NYCCChalkGirl and SpaceUsagi variants. None accepted as owned SDCCPreview GoldFoil9.8."
+    }
+  ],
+  "nextLeads": [
+    "Fox original306890416955 is an active offer, not a sale; do not repeat as completed evidence.",
+    "For GhostRider4137946001 inspect owned label/format before further title searches; results conflated collected editions with2014individual issues.",
+    "RawFox082 still requires exact finish/UPC and a completed unsigned raw comparison; CGC9.8 offers and spotfoil/30 are not substitutes."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research-only exclusions; inventory, viewer and print inputs unchanged. Existing PDFs preserved; no regeneration required."
+}
