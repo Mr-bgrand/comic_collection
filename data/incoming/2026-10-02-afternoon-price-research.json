@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-02T17:02:51.175Z",
+  "batch": "17UTC",
+  "accepted": [],
+  "newLead": {
+    "copyId": "TAG:D1216494",
+    "url": "https://www.ebay.com/itm/407223123738",
+    "transactionId": "407223123738",
+    "reportedComparableCert": "1000689860",
+    "finding": "Indexed 2021BowmanDraftSapphire BDC119 JacksonMerrill PSA8, seller dylanc88,25USD/OBO, zero bids with time remaining. Direct web open failed; HTTP403 on independent fetch. No completed date or paid amount verified; certificate not visually verified. Potential authorized same-grade PSA fallback only after exact identity and affirmative sold result verified."
+  },
+  "directPages": [
+    {
+      "copyId": "raw:15-060",
+      "url": "https://www.ebay.com/itm/176488614799",
+      "transactionId": "176488614799",
+      "finding": "Direct page48USD/OBO BuyItNow, seller82bfell, VeryGood seller condition. Active offer, no sale. Exact X-trade cover/UPC not verified; no owned condition inferred."
+    },
+    {
+      "copyId": "PSA:114218224",
+      "url": "https://www.ebay.com/p/4075874157",
+      "finding": "Opened product page; prior research already excluded active18.75 offer. No new completed transaction established."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "TAG:L3302729",
+      "url": "https://www.pokevalues.com/card/mamoswine-ex-journey-together-174",
+      "finding": "PSA8.5population1 appears but visible prices/transactions are8,9,10orCGC9.5. Population does not establish a price; no interpolation."
+    },
+    {
+      "copyId": "TAG:E4095241",
+      "url": "https://www.comc.com/Teams/Baseball/Pittsburgh_Pirates/c1163%2C_AUTO%2Ci12",
+      "finding": "PSA7 BubbaChandler result is GoldAutographCDA-BC/50, not owned2021BDC41baseSapphire. Wrong edition and asking price."
+    }
+  ],
+  "searchOnly": [
+    {
+      "copyId": "PSA:114218231",
+      "finding": "Exact RookieMaterialsInk PSA9 search returned previously excluded397501105832 Green/5, cert114417887. No base completed sale."
+    },
+    {
+      "copyId": "CGC:6001871064",
+      "finding": "Search returned English2000Blaine100 and Japanese BlainesNinetales, not Japanese1999 nonholoBlaineCGC9."
+    }
+  ],
+  "nextLeads": [
+    "407223123738 is a new exact-grade lead, but cannot be accepted from cached active-auction extract. Recheck only when original available; inspect slab identity and sold amount/date.",
+    "Do not reuse Taylor176488614799 current48USD as a sale or its seller condition as owned condition."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research only. No inventory, viewer or PDF input changes. Preserve existing artifacts."
+}
