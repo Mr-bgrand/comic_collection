@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-03T09:03:40.459Z",
+  "batch": "09UTC",
+  "accepted": [],
+  "rawReferenceEvidence": [
+    {
+      "copyId": "Authority:7633260283",
+      "title": "Detective Comics #400, 2024 blank facsimile, cover C",
+      "upc": "76194138450400121",
+      "url": "https://www.keycollectorcomics.com/issue/detective-comics-1-400-3,823238/",
+      "type": "price-guide-reference",
+      "currency": "USD",
+      "low": 1,
+      "mid": 2,
+      "high": 5,
+      "asterisk": true,
+      "condition": "unassessed",
+      "saleDate": null,
+      "transactionId": null,
+      "reason": "Exact blank 2024 edition guide; no market trends or underlying sales shown. Condition buckets are source references only, not an assessment of the owned copy. No point estimate selected or included in collection total.",
+      "identityEvidence": {
+        "url": "https://www.comics.org/issue/2655261/?issue_detail=2",
+        "finding": "Full UPC matches inventory, November 2024 blank cardstock facsimile; on-sale September 4, 2024. Cover artist unspecified for blank edition.",
+        "ownedScan": "data/images/Authority_7633260283_FRONT.jpg",
+        "scanFinding": "Reviewed front: Authority label identifies 2024 #400C Blank Facsimile, cover is blank. No condition inferred."
+      }
+    }
+  ],
+  "directPages": [
+    {
+      "copyId": "Authority:7633260283",
+      "url": "https://www.hipcomic.com/listing/detective-comics-400-facsimile-foil-blank-variant-3-cover-set-1st-man-bat/18891014",
+      "transactionId": "18891014",
+      "finding": "19.99 USD three-cover set, seller Comiclord. Sales History explicitly says not sold. Excluded as unsold lot."
+    },
+    {
+      "copyId": "CGC:4350047002",
+      "url": "https://www.ebay.com/itm/197092493799",
+      "transactionId": "197092493799",
+      "finding": "Retrieved page presents Buy It Now 140 USD, watchworkz, CGC 9.8 Signature Series Zoe Lacchei. Owned Grim #12 Trinity is Universal 9.8. Excluded for label mismatch and no verified transaction; search index and direct page differ in ended-date presentation."
+    },
+    {
+      "copyId": "CGC:4381117003",
+      "url": "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-5-2023",
+      "originalUrl": "https://www.ebay.com/itm/336121790038",
+      "transactionId": "336121790038",
+      "reportedSaleDate": "2025-10-22",
+      "reportedPriceUSD": 79.99,
+      "finding": "Followed aggregator row to original eBay ID; original inaccessible. Row names Comic Corner Convention Edition; owned record names Comic Corner Edition. Registry lists them separately. Cannot confirm edition, label or cert; amount not accepted."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyIds": [
+        "CGC:4245413009",
+        "CGC:4273634005"
+      ],
+      "url": "https://geekedoutcomics.com/products/darkwing-duck-1-casey-parsons-cgc-9-8-exclusive-cover-dynamite-2023",
+      "finding": "Repeated known sold-out 45 USD retailer offer; no transaction history. Not a new comp."
+    },
+    {
+      "copyId": "CGC:4350047002",
+      "url": "https://trinity-comics.com/products/grim-12-trinity-comics-exclusive-by-zoe-lacchei",
+      "finding": "Retail options include unsigned, SS and blue label. 29.99 default price is not a graded completed sale; body also inconsistently says issue11."
+    }
+  ],
+  "searchOnly": [
+    {
+      "queries": [
+        "site:mycomicshop.com Grim Trinity 12",
+        "site:ha.com Arcade Kings Bird City",
+        "site:comiclink.com Darkwing Duck Parsons"
+      ],
+      "finding": "No exact completed auction surfaced. No Heritage or ComicLink lot inspected; MyComicShop results were unrelated."
+    },
+    {
+      "queries": [
+        "The Cull Shrike 9.8",
+        "Wretches Momoko metal sold",
+        "Arcade Kings Bird City sold 9.8"
+      ],
+      "finding": "Raw/active listings or unrelated results; no qualifying completed graded transaction."
+    }
+  ],
+  "nextLeads": [
+    "Keep Detective400 guide range separate and starred until documented single-copy sales and owned condition are available. Do not divide the unsold HipComic set price.",
+    "Only revisit336121790038 if original imagery becomes accessible; distinguish Comic Corner Convention from Comic Corner Edition.",
+    "Grim12 requires Universal9.8, not the Zoe Lacchei Signature Series listing. Avoid repeating sold-out Darkwing45 offer."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research-only evidence file; no inventory or selected reference changed, so viewer and PDF inputs are unchanged and existing PDFs are preserved."
+}
