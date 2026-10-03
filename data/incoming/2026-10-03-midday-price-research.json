@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-03T13:02:47.728Z",
+  "batch": "13UTC",
+  "accepted": [],
+  "directPages": [
+    {
+      "copyId": "TAG:D6943986",
+      "url": "https://www.ebay.com/itm/307189738518",
+      "transactionId": "307189738518",
+      "comparableCert": "157420110",
+      "finding": "Original now readable. Exact Astral Radiance Origin Forme Palkia VSTAR040 PSA7 candidate for authorized TAG7 fallback. Retrieved page is cached four days old, shows19.95USD,0bids,58m17s remaining. No verified completed sale or realized price. Cert is textual item-specific evidence, image not inspected. Do not infer sale from elapsed auction time."
+    },
+    {
+      "copyId": "Authority:8364744505",
+      "url": "https://www.raremarq.com/comics/detective-comics-batman-day-special-edition-27-2024",
+      "finding": "Sold section explicitly says no settled sales. General issue page contains graded collection copies, not a verified raw blank-cover comparison. No reference price."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "CGC:4245549001",
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/145590/idw-publishing-back-to-the-future-1e-artist-edition",
+      "finding": "Fresh index reports32sales but9.2 row remains empty. Other-grade totals do not value owned Artist Edition Universal9.2."
+    },
+    {
+      "copyId": "CGC:4245549001",
+      "url": "https://www.ha.com/c/search/results.zx?archive_state=5327&layout=gallery&mode=archive&page=72~6&sb=1&si=2&sold_status=1526&term=Back+to+the+Future",
+      "auction": "122515",
+      "lot": "15871",
+      "reportedSaleDate": "2025-04-15",
+      "reportedPriceUSD": 480,
+      "finding": "Search archive snippet is Michael J Fox Signature Series9.8, not owned Universal9.2. Lot not opened; excluded."
+    },
+    {
+      "copyId": "Authority:8364744505",
+      "url": "https://shop.thirdeyecomics.com/products/batman-day-2024-detective-comics-27-facsimile-edition-cvr-b-blank-var",
+      "upc": "76194138562400121",
+      "finding": "Exact fullUPC and coverB blank,8.99USD Add to cart retail offer only. No completed transaction."
+    },
+    {
+      "copyId": "Authority:8364744505",
+      "url": "https://www.ebay.com/itm/296610221247",
+      "transactionId": "296610221247",
+      "finding": "Indexed out of stock6sold MAIN/FOIL/BLANK set. Lot and no single-copy historical unit price; excluded."
+    },
+    {
+      "copyId": "Authority:8364744505",
+      "url": "https://www.ebay.com/itm/267052790936",
+      "transactionId": "267052790936",
+      "finding": "Indexed NYCC2024 BLACK blank limited edition,9available1sold. Wrong blank edition and no historical price; excluded."
+    }
+  ],
+  "searchOnly": [
+    {
+      "copyId": "CGC:4273634010",
+      "query": "Transformers/Back to the Future 8.5",
+      "finding": "Review scores, other issues, and catalog stock; no owned2021issue4ChrisPanda Universal8.5 sale."
+    },
+    {
+      "copyId": "CGC:4198680001",
+      "queries": [
+        "Back to the Future Local Comic Shop Day 7.5",
+        "site:mycomicshop.com Back to the Future Local Comic Shop Day"
+      ],
+      "finding": "No exact Universal7.5 completed sale surfaced; no MyComicShop auction lot inspected."
+    },
+    {
+      "copyId": "CGC:4424144008",
+      "queries": [
+        "Marvel Voices Su9.4 sold",
+        "Marvels Voices Spider-Verse Su9.4"
+      ],
+      "finding": "Generic issue guide and unrelated entries, no Su virgin sketch Universal9.4 transaction."
+    }
+  ],
+  "nextLeads": [
+    "Palkia307189738518 now has textual cert157420110; revisit only with fresh ended/sold evidence. Cached countdown must not prompt repeated hourly checks.",
+    "Raw Detective27 blank requires single-copy matching2024coverB sale, not NYCCblack blank, signed remarks or three-cover sets.",
+    "Back to the Future Artist Edition9.2 remains unsupported despite new higher-grade analyzer rows."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research-only. No accepted estimate or selected raw reference; inventory/viewer/PDF inputs unchanged. Preserve existing generated artifacts."
+}
