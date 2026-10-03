@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-03T17:02:56.345Z",
+  "batch": "17UTC",
+  "accepted": [],
+  "directPages": [
+    {
+      "copyId": "CGC:6001871064",
+      "url": "https://www.ebay.ca/itm/407247001522",
+      "transactionId": "407247001522",
+      "seller": "Pokemon_card_collector1996",
+      "finding": "Active Buy It Now CAD72.15 (CAD67.10 coupon). Japanese Blaine CGC9 but specifics say Holo, unlike owned Non-Holo. No completed sale or cert verified. Excluded."
+    },
+    {
+      "copyId": "TAG:C5407435",
+      "url": "https://taggrading.com/products/bo-bones-art-card-drop-ltd-ed-serialized-copy",
+      "finding": "Primary manufacturer confirms Lunar Gold Holo edition /25, distinct from Sapphire /121, Harvest /50, Blood Red /5. Random-edition retail purchase and encapsulation options do not establish a grade9 resale value."
+    },
+    {
+      "copyId": "raw:15-025",
+      "url": "https://www.mycomicshop.com/search?TID=60467885&mingr=0&minyr=2008",
+      "finding": "Unknown Comics Edition A CGC9.9 cert4490253002 offered99.99USD/OBO plus3% premium. Not a raw completed sale. External eBay trade40USD link resolves to336369670296; original inaccessible. No fullUPC/printing or realizedprice verified."
+    },
+    {
+      "copyId": "raw:15-025",
+      "url": "https://comics.ha.com/itm/modern-age-1980-present-/miscellaneous/female-force-taylor-swift-nn-shambu-variant-cover-b-tidalwave-comics-no-date-cgc-mt-100-white-pages/a/122521-17706.s",
+      "auction": "122521",
+      "lot": "17706",
+      "saleDate": "2025-05-27",
+      "reportedPriceUSD": 372,
+      "buyerPremiumPercent": 20,
+      "comparableCert": "4440619025",
+      "finding": "Actual completed Heritage sale, but Shambu Variant CoverB CGC10.0. Owned raw Steven Defendini trade differs in artist/edition/grading; excluded, not scaled to raw."
+    }
+  ],
+  "failedOpen": [
+    {
+      "copyId": "raw:15-025",
+      "url": "https://www.ebay.com/itm/336369670296",
+      "transactionId": "336369670296",
+      "finding": "MCS affiliate link timed out; canonical original inaccessible. Keep as unverified active-offer lead only."
+    },
+    {
+      "copyId": "CGC:1401011131203",
+      "url": "https://www.pricecharting.com/game/pokemon-2003-topps-advanced/cacturne-foil-21",
+      "finding": "503; index shows raw heavily-played foil12.49USD, not an exactCGC9transaction."
+    }
+  ],
+  "searchOnly": [
+    {
+      "copyId": "CGC:1401011131203",
+      "queries": [
+        "Cacturne Silver CGC9 Topps",
+        "Cacturne Topps silver foil sold",
+        "Cacturne Topps CGC9 auction"
+      ],
+      "finding": "Raw foil/standard and unrelated EX cards; no exact CGC9 silver-foil sale. Base guide and population counts not values."
+    },
+    {
+      "copyId": "TAG:C5407435",
+      "queries": [
+        "Bo Bones Lunar Gold9",
+        "Bo Bones Lunar sold",
+        "Bo Bones TAG9 sold"
+      ],
+      "finding": "Manufacturer only; no exact grade9 completed transaction surfaced."
+    },
+    {
+      "copyId": "raw:15-025",
+      "query": "site:comiclink.com Taylor Swift",
+      "finding": "No exact ComicLink lot surfaced; no lot opened. Known unsold HipComic14824022 was not reopened."
+    }
+  ],
+  "nextLeads": [
+    "Blaine407247001522 excluded as active and listed Holo; do not reuse for Non-Holo.",
+    "Taylor336369670296 requires original sale status and full edition confirmation before use; MCS external links are advertisements, not auction results.",
+    "Bo Bones grade9 must match Lunar Gold /25; manufacturer random-drop price is not a resale comp."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research-only exclusions; no inventory or selected-reference change. Viewer and print inputs unchanged; PDFs preserved."
+}
