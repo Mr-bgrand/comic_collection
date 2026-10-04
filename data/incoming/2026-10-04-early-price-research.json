@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-04T01:06:32.756Z",
+  "batch": "01UTC",
+  "accepted": [],
+  "directPages": [
+    {
+      "copyId": "Authority:4845360792",
+      "url": "https://www.pricecharting.com/game/comic-books-immortal-thor/immortal-thor-villalobos-15-2024",
+      "finding": "Fetched page HTML. UPC 75960620664301521 matches owned record. New sale-row lead 335707983486 reports USD7.99 on 2024-12-09, titled CVR P Pablo Villalobos Incentive Variant VF/NM. Original eBay open failed; variant designation needs reconciliation with owned trade edition. Unverified, stale, starred research lead only; not a selected raw reference.",
+      "transactionId": "335707983486",
+      "reportedSaleDate": "2024-12-09",
+      "reportedAmount": 7.99,
+      "currency": "USD",
+      "asterisk": true
+    }
+  ],
+  "attemptedPages": [
+    {
+      "url": "https://www.ebay.com/itm/335707983486",
+      "finding": "Direct open returned InternalError. No original transaction, photos, UPC or realized payment verified."
+    },
+    {
+      "copyId": "CGC:4350046005",
+      "url": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTM0MTEwNTMz",
+      "finding": "Direct open InternalError. Index describes signed Ryan Ottley SDCC Invincible9 grade9.4 with one available. Signature mismatch with owned Universal; seller sold-count is not item sale evidence."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "Authority:4845360792",
+      "url": "https://gabescave.com/collections/all/cover-artist-pablo-villalobos",
+      "finding": "Immortal Thor15 Villalobos USD4.99 sold-out retail, SKU JUL240824, UPC75960620664301521. Identity context only; not a completed transaction."
+    },
+    {
+      "copyId": "CGC:4350046005",
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/65877/image-comics-invincible-9",
+      "finding": "2004 original issue9, not 2023 Convention Foil. Related signed9.8 advertising also excluded."
+    },
+    {
+      "copyId": "CGC:4245413023",
+      "url": "https://www.hipcomic.com/listing/millennium-edition-flash-123-cgc-ss-96-signed-joe-giella-1st-jay-barry-meet/5130818",
+      "finding": "Millennium Edition Signature Series9.6 Giella; wrong edition and signature for owned 2022 Comic Mint Convention Universal9.6."
+    }
+  ],
+  "searchOnly": [
+    {
+      "copyIds": [
+        "CGC:4350046015",
+        "CGC:4245413023"
+      ],
+      "queries": [
+        "Gone Ashcan CGC auction sold",
+        "Flash 123 Convention 9.6 auction"
+      ],
+      "finding": "Gone results mixed ordinary issues, hardcover and unrelated ashcans; no exact Jock Ashcan CGC9.2 completed sale. Flash results historical1961 or Millennium signed editions; no exact owned2022 Universal9.6 sale."
+    }
+  ],
+  "nextLeads": [
+    "Thor335707983486 is new but unverified: inspect original photos and full UPC before considering a provisional reference. Do not equate CVR P incentive with owned trade without evidence.",
+    "Thor126546963972 is a RossA/VillalobosB set, not a single copy. Previously checked196675201411,166958100910,204915874747 and176551427435 remain excluded or inaccessible; avoid repeating without new evidence.",
+    "Invincible Whatnot signed listing is neither an unsigned comp nor proof of sale.",
+    "Gone Ashcan9.2 and Flash2022Convention9.6 still require exact completed records; other grades and issues are excluded."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research-only; no inventory, selected reference, viewer or print inputs changed. Existing PDFs preserved."
+}
