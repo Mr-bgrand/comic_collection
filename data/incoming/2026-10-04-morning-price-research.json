@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-04T09:02:21.675Z",
+  "batch": "09UTC",
+  "accepted": [],
+  "directPages": [
+    {
+      "copyId": "CBCS:21-2EC8B4A-002",
+      "url": "https://www.ebay.com/itm/256079603472",
+      "transactionId": "256079603472",
+      "finding": "Active USD140 or Best Offer. Title CBCS9.4 signed Momoko; specifics say9.6 CGC cert4191020012. Neither matches ownedCBCS9.8; conflicting metadata and no completed sale."
+    },
+    {
+      "copyIds": [
+        "Authority:1817179410",
+        "Authority:8310372021"
+      ],
+      "url": "https://www.pricecharting.com/game/comic-books-spine-tingling-spider-man/spine-tingling-spider-man-momoko-0-2023",
+      "finding": "Fetched current HTML. Two new reported raw sale leads below. Existing selected references left untouched; owned condition unassessed. Owned UPC75960620662900021,2023Momoko cover. Original comparison UPC and printing not verified."
+    }
+  ],
+  "unverifiedLeads": [
+    {
+      "copyIds": [
+        "Authority:1817179410",
+        "Authority:8310372021"
+      ],
+      "url": "https://www.ebay.com/itm/287550211442",
+      "transactionId": "287550211442",
+      "reportedSaleDate": "2026-10-02",
+      "reportedUSD": 15.95,
+      "asterisk": true,
+      "finding": "PriceCharting row describes Momoko variant NM2023. Direct original open InternalError. Reported sale only; no original transaction, fullUPC or condition verification."
+    },
+    {
+      "copyIds": [
+        "Authority:1817179410",
+        "Authority:8310372021"
+      ],
+      "url": "https://www.ebay.com/itm/128010884788",
+      "transactionId": "128010884788",
+      "reportedSaleDate": "2026-08-13",
+      "reportedUSD": 19.99,
+      "asterisk": true,
+      "finding": "PriceCharting row describes Marvel Spine-Tingling Spider-Man0Momoko. Direct original open InternalError. Not imported or accepted."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "Authority:7855256189",
+      "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-chang-8-2023",
+      "finding": "Catalog UPC75960620483000831 matches owned Chang HellfireGala8. Indexed4.95April3,2025 row has2021 in title versus2023catalog. Original not checked this run; identity context only."
+    },
+    {
+      "copyId": "CGC:2733544003",
+      "url": "https://www.pricecharting.com/game/comic-books-strange-academy/strange-academy-young-1-2020",
+      "finding": "Young/Ramos in sale titles denotes creators and does not establish owned Young-cover Ramos signature. Mixed unsigned/CBCS rows not accepted."
+    }
+  ],
+  "searchOnly": [
+    {
+      "query": "Canto Gotham CBCS Momoko sold",
+      "finding": "No exact completed witnessed-Momoko CBCS9.8 comparison established."
+    },
+    {
+      "query": "Strange Academy Young Ramos9.8 sold",
+      "finding": "Known wrong Walmart,SkottieYoung.com and other-signature results resurfaced; originals not reopened."
+    }
+  ],
+  "nextLeads": [
+    "SpineTingling0 newIDs287550211442 and128010884788 require original fullUPC/printing and transaction verification. Keep reported amounts starred and separate from owned totals.",
+    "Do not reuse Canto256079603472 as grade9.8 sale; title/specifications conflict and offer is active.",
+    "MilesChang8 original transaction remains a lead to inspect, not checked sale evidence."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research-only; no inventory, selected reference, viewer or print inputs changed. PDFs preserved."
+}
