@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-05T09:02:14.362Z",
+  "batch": "09UTC",
+  "accepted": [],
+  "directPages": [
+    {
+      "copyId": "CGC:1401011392237",
+      "url": "https://www.pricecharting.com/game/pokemon-great-encounters/mankey-reverse-holo-79",
+      "transactionId": "376068568063",
+      "reportedSaleDate": "2025-03-25",
+      "reportedUSD": 10.5,
+      "finding": "Exact CGC 9.5 reverse holo title. Newly compared secondary report conflicts with Scrydex 11 USD dated March 24 for the same transaction. Not two independent sales. CGC 9 row at 9.50 USD excluded as wrong grade."
+    },
+    {
+      "copyId": "CGC:1401011392237",
+      "url": "https://scrydex.com/pokemon/cards/mankey/dp4-79",
+      "transactionId": "376068568063",
+      "reportedSaleDate": "2025-03-24",
+      "reportedUSD": 11,
+      "asterisk": true,
+      "finding": "Same stale secondary sale previously saved September 26. Follow-through link returned InternalError today. Prior original archive had ENDED 0.00 placeholder; conflicting secondary amounts remain unresolved. Do not accept or average."
+    },
+    {
+      "copyId": "Authority:7721743138",
+      "url": "https://www.pricecharting.com/game/comic-books-immortal-thor/immortal-thor-momoko-1-2023",
+      "finding": "Fetched raw table for Miss Minutes trade variant; owned UPC 75960620664300131. Two recent original listing IDs extracted below. Full UPC/printing verification on originals unavailable; owned condition not assessed."
+    }
+  ],
+  "unverifiedLeads": [
+    {
+      "copyId": "Authority:7721743138",
+      "url": "https://www.ebay.com/itm/386012188933",
+      "transactionId": "386012188933",
+      "reportedSaleDate": "2026-09-24",
+      "reportedUSD": 6.99,
+      "asterisk": true,
+      "finding": "Aggregator title Cvr C Momoko first print NM; original inaccessible."
+    },
+    {
+      "copyId": "Authority:7721743138",
+      "url": "https://www.ebay.com/itm/205781377942",
+      "transactionId": "205781377942",
+      "reportedSaleDate": "2026-08-14",
+      "reportedUSD": 3.99,
+      "asterisk": true,
+      "finding": "Aggregator title Miss Minutes NM; original inaccessible."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "url": "https://www.ebay.com/itm/305109626868",
+      "transactionId": "305109626868",
+      "finding": "Search index says sold May 29 at 5.25 USD or Best Offer, raw first print. Initial open provided no usable confirmation; subsequent retrieval 404. No verified paid amount or UPC."
+    },
+    {
+      "url": "https://www.ebay.com/itm/168277838780",
+      "finding": "Virgin 1:25 sold result excluded from trade variant."
+    },
+    {
+      "url": "https://www.ebay.com/itm/205567666082",
+      "finding": "CGC 9.8 result excluded from unassessed raw copy."
+    }
+  ],
+  "searchOnly": [
+    {
+      "copyId": "CGC:1401011131203",
+      "query": "Cacturne Topps CGC 9",
+      "finding": "Results included base-card guide and unrelated stickers; no Silver Foil CGC 9 completed comparable established."
+    },
+    {
+      "copyId": "CGC:6042459106",
+      "query": "Dodrio Meiji 7.5 CGC",
+      "finding": "Results included raw LP Dodrio, CGC 8 Bandai and Rhydon Meiji 7.5; none matches owned graded item."
+    }
+  ],
+  "nextLeads": [
+    "Mankey 376068568063: reconcile 10.50/March25 versus 11/March24 secondary reports only if new original evidence emerges. Do not count twice.",
+    "Thor raw 386012188933 and 205781377942 require original UPC, printing and transaction evidence; no accepted price yet."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research-only. Selected observations, viewer and print inputs unchanged; PDFs preserved."
+}
