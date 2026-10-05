@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-05T21:01:16.433Z",
+  "batch": "21UTC",
+  "accepted": [],
+  "directPages": [
+    {
+      "copyId": "Authority:2906721269",
+      "url": "https://www.ebay.com/itm/256965111693",
+      "transactionId": "256965111693",
+      "seller": "Random Stacks Comics",
+      "finding": "Out of stock, 4 sold, this-item feedback supports purchases. Display5.99USD or Best Offer does not disclose historical paid amounts or dates. Uncertified, unsigned, Momoko issue2; fullUPC/printing not in retrieved specifics. No price accepted.",
+      "saleDate": null
+    },
+    {
+      "copyId": "Authority:2906721269",
+      "url": "https://www.pricecharting.com/game/comic-books-venom-war/venom-war-momoko-2-2024",
+      "finding": "Fetched table and extracted two recent raw sale IDs below. OwnedUPC75960620887600231. Originals inaccessible; no condition assigned."
+    }
+  ],
+  "unverifiedLeads": [
+    {
+      "copyId": "Authority:2906721269",
+      "url": "https://www.ebay.com/itm/158044900759",
+      "transactionId": "158044900759",
+      "reportedSaleDate": "2026-07-06",
+      "reportedUSD": 4.99,
+      "asterisk": true,
+      "finding": "Secondary Momoko raw sale row; original inaccessible, fullUPC/printing and paid transaction unverified."
+    },
+    {
+      "copyId": "Authority:2906721269",
+      "url": "https://www.ebay.com/itm/137253646952",
+      "transactionId": "137253646952",
+      "reportedSaleDate": "2026-05-02",
+      "reportedUSD": 4.5,
+      "asterisk": true,
+      "finding": "Secondary Momoko raw sale row; original inaccessible, fullUPC/printing and paid transaction unverified."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "PSA:121629672",
+      "url": "https://www.ebay.com/itm/357423447288",
+      "comparableListingId": "358067918945",
+      "finding": "Search result feedback references Rookie Pix Red /49 PSA9, not ownedPSA10. Did not open unrelated Stroud listing or substitute grade."
+    },
+    {
+      "copyId": "PSA:114218230",
+      "url": "https://www.ebay.com/p/18076714527",
+      "finding": "Sold-out product page is Red Geometric, not verified Sapphire Red PSA10 transaction."
+    }
+  ],
+  "searchOnly": [
+    {
+      "copyIds": [
+        "PSA:114218230",
+        "PSA:121629672"
+      ],
+      "queries": [
+        "Maason Smith sapphire red PSA10",
+        "Maason Smith RA-MSM red sold PSA",
+        "Marvin Harrison Rookie Pix red PSA10 sold"
+      ],
+      "finding": "Known masked SCI guide and SCP zero-PSA10 page resurfaced. No new exact graded transaction established; did not reopen unchanged guides."
+    }
+  ],
+  "nextLeads": [
+    "VenomWar2Momoko256965111693 confirms purchases but not historical amounts; require transaction price/date and full UPC before selection.",
+    "Two new aggregator raw IDs remain unverified, separate from total.",
+    "Exclude Marvin PSA9 and Maason RedGeometric from owned PSA10/Sapphire comparisons."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research-only; selected references and inventory unchanged, viewer and print inputs unchanged. PDFs preserved."
+}
