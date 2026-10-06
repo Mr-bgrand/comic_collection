@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-06T01:01:25.879Z",
+  "batch": "01UTC",
+  "accepted": [],
+  "directPages": [
+    {
+      "copyId": "Authority:3411274401",
+      "url": "https://www.pricecharting.com/game/comic-books-harley-quinn/harley-quinn-howell-32-2023",
+      "finding": "Fetched exact Howell variant raw-sale table. Catalog UPC76194137281503251 matches owned record. Two newest reported sales are stale2025rows; original listings inaccessible. Owned condition remains unassessed."
+    }
+  ],
+  "unverifiedLeads": [
+    {
+      "copyId": "Authority:3411274401",
+      "url": "https://www.ebay.com/itm/295999781497",
+      "transactionId": "295999781497",
+      "reportedSaleDate": "2025-04-09",
+      "reportedUSD": 53.99,
+      "asterisk": true,
+      "finding": "Reported Howell1:50 raw sale; original InternalError. Full UPC/printing at transaction level and price cannot be independently verified."
+    },
+    {
+      "copyId": "Authority:3411274401",
+      "url": "https://www.ebay.com/itm/335416438373",
+      "transactionId": "335416438373",
+      "reportedSaleDate": "2025-03-26",
+      "reportedUSD": 44.99,
+      "asterisk": true,
+      "finding": "Reported Howell1:50 raw sale; original InternalError. Full UPC/printing at transaction level and price cannot be independently verified."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "CGC:4350047006",
+      "url": "https://bigtimecollectibles.com/collections/btc-signature-series",
+      "finding": "Fullerton1:100 offering starts360USD in Signature Series catalog; not a documented Universal9.8 sale."
+    },
+    {
+      "copyId": "CGC:4350047006",
+      "url": "https://www.keycollectorcomics.com/issue/w0rldtr33-1-5%2C789301/",
+      "finding": "Fullerton1:100 identified; graded prices masked and no market trends. No value accepted."
+    },
+    {
+      "copyId": "CGC:4350046008",
+      "url": "https://www.keycollectorcomics.com/issue/issue-432%2C799952/",
+      "finding": "Search surfaced FanExpoJennyFrison foil convention entry, not owned AndrewCurrey BoomFoilA. Excluded."
+    }
+  ],
+  "searchOnly": [
+    {
+      "copyId": "CGC:4350047006",
+      "queries": [
+        "w0rldtr33 5 Walsh CGC9.8 sold",
+        "w0rldtr33 5 Fullerton CGC9.8 sold"
+      ],
+      "finding": "Initial Walsh query was a cover mismatch; prior saved record identifies owned CoverE as Fullerton. Corrected search yielded retail/premium-guide results, no exact completed Universal9.8 transaction. Do not use Walsh140USD retail lead."
+    },
+    {
+      "copyId": "CGC:4350046008",
+      "queries": [
+        "Pen & Ink Foil9.6 sold",
+        "Something is Killing Pen Foil CGC9.6"
+      ],
+      "finding": "Raw seller9.6+, otherissues, FrisonFanExpo and SignatureSeries results; no exact ownedFoilA Universal9.6. Known wronggrade/signed ComicLink lot not reopened."
+    }
+  ],
+  "nextLeads": [
+    "HarleyHowell295999781497/335416438373 need original verification; remain stale starred raw leads, separate from collection total.",
+    "w0rldtr33CoverE is Fullerton1:100; Walsh is a different variant.",
+    "Do not revisit known SIKTCPenInk signed9.8 auction for ownedUniversal9.6."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research-only; selected references, inventory and viewer/print inputs unchanged. PDFs preserved."
+}
