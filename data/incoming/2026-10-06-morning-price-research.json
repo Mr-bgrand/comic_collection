@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-06T09:01:32.777Z",
+  "batch": "09UTC",
+  "accepted": [],
+  "directPages": [
+    {
+      "copyId": "Authority:8715449494",
+      "url": "https://www.pricecharting.com/game/comic-books-dark-x-men/dark-x-men-young-3-2023",
+      "finding": "Fetched raw sale rows for Young variant. Owned full UPC 75960620616200321. Original transaction UPC, printing and paid amounts not independently verified."
+    }
+  ],
+  "unverifiedLeads": [
+    {
+      "copyId": "Authority:8715449494",
+      "transactionId": "287546993171",
+      "url": "https://www.ebay.com/itm/287546993171",
+      "reportedSaleDate": "2026-09-04",
+      "reportedUSD": 9.35,
+      "asterisk": true,
+      "finding": "PriceCharting reported raw Young variant sale. Direct eBay open Internal Error. Not accepted; owned condition remains unassessed."
+    },
+    {
+      "copyId": "Authority:8715449494",
+      "transactionId": "297329475197",
+      "url": "https://www.ebay.com/itm/297329475197",
+      "reportedSaleDate": "2026-07-06",
+      "reportedUSD": 2.99,
+      "asterisk": true,
+      "finding": "PriceCharting reported raw Young variant sale. Direct eBay open Internal Error. Not accepted; owned condition remains unassessed."
+    },
+    {
+      "copyId": "Authority:8715449494",
+      "transactionId": "305219008616",
+      "url": "https://www.ebay.com/itm/305219008616",
+      "reportedSaleDate": "2026-05-31",
+      "reportedUSD": 7.79,
+      "asterisk": true,
+      "finding": "PriceCharting reported raw Young variant sale. Direct eBay open Internal Error. Not accepted; owned condition remains unassessed."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "Authority:8871359406",
+      "url": "https://www.catawiki.com/en/u/27676819-user-038990d57322",
+      "finding": "Indexed seller page includes Parrillo issue 1 CGC 9.8 in a three-book graded lot with current bid EUR150. Wrong format and no individual realized price. Excluded; direct auction not checked."
+    },
+    {
+      "copyId": "CGC:4381117004",
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/324803/image-comics-w0rldtr33-5oshred-no-masss-comics-edition",
+      "finding": "Issue 5 Oshred 9.8 history is wrong issue/cover/grade for owned issue 1 third-print Amparo CGC9.6. Excluded; indexed only."
+    }
+  ],
+  "searchOnly": [
+    {
+      "copyId": "CGC:4381117011",
+      "query": "w0rldtr33 Farr 9.4",
+      "finding": "No exact Near Mint Comics Farr virgin CGC9.4 completed sale established. Standard raw issue 5 NM9.4 and Shrike virgin results excluded."
+    },
+    {
+      "copyId": "CGC:4381117004",
+      "query": "w0rldtr33 No Masss 9.6",
+      "finding": "Unrelated New Mutants/Deadpool feedback references issue3 CGC9.8, not owned issue1 Amparo third printing9.6. No exact transaction."
+    }
+  ],
+  "nextLeads": [
+    "Dark X-Men Young reported transactions require original evidence with exact full UPC/printing; retain existing raw reference and leave collection total unchanged.",
+    "Do not reopen previously failed Spine-Tingling Parrillo transaction IDs without new access. Catawiki mixed graded lot cannot price the owned raw copy.",
+    "w0rldtr33 third-print Amparo and Farr virgin require exact grader/grade completed sales; stop reusing broad No Masss queries returning unrelated issues."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research-only: no inventory or selected reference changes. Viewer and print inputs unchanged; PDFs preserved."
+}
