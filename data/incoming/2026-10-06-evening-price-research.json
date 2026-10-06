@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-06T21:01:09.147Z",
+  "batch": "21UTC",
+  "accepted": [],
+  "directPages": [
+    {
+      "copyId": "Authority:7224187984",
+      "url": "https://www.hipcomic.com/listing/deadpool-vol-8-8-cover-b-variant-david-lopez-marvel-2023-eb128/13202426",
+      "finding": "Closed USD3 listing explicitly has not been sold. Seller uses stock photos and generic9.2 condition. Excluded as unsold; not evidence of owned condition."
+    },
+    {
+      "copyId": "Authority:0131115123",
+      "url": "https://www.pricecharting.com/game/comic-books-knight-terrors-batman/knight-terrors-batman-nguyen-1-2023",
+      "finding": "Fetched reported raw Nguyen sales. Catalog graded rows also contain SDCC foil, so finish must be checked per transaction. Owned UPC76194138094000161 Midnight variant."
+    },
+    {
+      "copyId": "Authority:7224187984",
+      "url": "https://www.pricecharting.com/game/comic-books-deadpool/deadpool-lopez-8-2023",
+      "finding": "Fetched reported Lopez sales; most recent is stale February2025. Owned UPC75960620089400821; transaction UPC/printing unverified."
+    }
+  ],
+  "unverifiedLeads": [
+    {
+      "copyId": "Authority:0131115123",
+      "transactionId": "205869173991",
+      "url": "https://www.ebay.com/itm/205869173991",
+      "reportedSaleDate": "2026-03-16",
+      "reportedUSD": 4.49,
+      "asterisk": true,
+      "finding": "Secondary PriceCharting report; original eBay open Internal Error. Not accepted. Condition remains unassessed."
+    },
+    {
+      "copyId": "Authority:0131115123",
+      "transactionId": "406106314171",
+      "url": "https://www.ebay.com/itm/406106314171",
+      "reportedSaleDate": "2025-08-11",
+      "reportedUSD": 1.99,
+      "asterisk": true,
+      "finding": "Secondary PriceCharting report; original eBay open Internal Error. Not accepted. Condition remains unassessed."
+    },
+    {
+      "copyId": "Authority:7224187984",
+      "transactionId": "196327643072",
+      "url": "https://www.ebay.com/itm/196327643072",
+      "reportedSaleDate": "2025-02-19",
+      "reportedUSD": 3.99,
+      "asterisk": true,
+      "finding": "Secondary PriceCharting report; original eBay open Internal Error. Not accepted. Condition remains unassessed."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "Authority:7224187984",
+      "url": "https://www.comics.org/issue/2553926/",
+      "finding": "Indexed Deadpool8DavidLopezvariant. Direct open Internal Error; no additional UPC verification."
+    },
+    {
+      "copyId": "CGC:4480290002",
+      "url": "https://www.comictom.com/collections/all?page=26",
+      "finding": "Disputed3CGC9.8 retail result is wrong issue for owned Disputed1ComicTom101. Not opened."
+    }
+  ],
+  "searchOnly": [
+    {
+      "copyId": "CGC:4480290002",
+      "queries": [
+        "Disputed ComicTom101 9.8 sold",
+        "Disputed ComicTom101 site:comicbookrealm.com/cgc-analyzer",
+        "Disputed 1 9.8 auction -site:ebay.com/shop"
+      ],
+      "finding": "No exact completed CGC9.8 transaction established. MicoSuayan variants and issue3 excluded. Known marketplace-category result from prior reports not reopened."
+    }
+  ],
+  "nextLeads": [
+    "Nguyen Midnight raw transaction must distinguish regular cardstock from SDCC foil; no mixed-finish estimate.",
+    "Deadpool Lopez lacks recent verified original sale; closed HipComic13202426 is explicitly unsold.",
+    "DisputedComicTom101CGC9.8 needs a new exact transaction, not retail issue3 or MicoSuayan substitutes."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research-only; no inventory or selected reference changes. Viewer and PDF inputs unchanged; protected PDF preserved."
+}
