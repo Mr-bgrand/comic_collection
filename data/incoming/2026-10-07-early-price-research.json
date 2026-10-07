@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-07T01:01:06.581Z",
+  "batch": "01UTC",
+  "accepted": [],
+  "directPages": [
+    {
+      "copyId": "Authority:9323536015",
+      "url": "https://www.pricecharting.com/game/comic-books-city-boy/city-boy-lee-3-2023",
+      "finding": "Fetched Creees Lee raw sale rows; owned UPC76194137799500321. Transaction UPC/printing not verified."
+    },
+    {
+      "copyId": "Authority:6653170836",
+      "url": "https://www.pricecharting.com/game/comic-books-x-men-hellfire-gala-2023/x-men-hellfire-gala-2023-duarte-1-2023",
+      "finding": "Fetched Duarte Howard the Duck raw sale rows; owned UPC75960620574500181. Transaction UPC/printing not verified."
+    },
+    {
+      "copyId": "CGC:4089841007",
+      "url": "https://www.raremarq.com/sold-prices?artist=Peach+Momoko&category_id=271&sale_format=auction",
+      "finding": "Direct settled-sale archive returned two Momoko CGC9.8 books, Clone Wars1 and Last Witch1, not Wretches Metal. No exact match; source broadened, no price transferred."
+    }
+  ],
+  "unverifiedLeads": [
+    {
+      "copyId": "Authority:9323536015",
+      "transactionId": "175866030977",
+      "url": "https://www.ebay.com/itm/175866030977",
+      "reportedSaleDate": "2026-07-28",
+      "reportedUSD": 3,
+      "asterisk": true,
+      "finding": "Secondary PriceCharting report only; direct eBay open Internal Error. Not accepted; owned condition unassessed."
+    },
+    {
+      "copyId": "Authority:9323536015",
+      "transactionId": "134671199908",
+      "url": "https://www.ebay.com/itm/134671199908",
+      "reportedSaleDate": "2026-05-28",
+      "reportedUSD": 6.44,
+      "asterisk": true,
+      "finding": "Secondary PriceCharting report only; direct eBay open Internal Error. Not accepted; owned condition unassessed."
+    },
+    {
+      "copyId": "Authority:6653170836",
+      "transactionId": "235103556642",
+      "url": "https://www.ebay.com/itm/235103556642",
+      "reportedSaleDate": "2026-09-09",
+      "reportedUSD": 8.99,
+      "asterisk": true,
+      "finding": "Secondary PriceCharting report only; direct eBay open Internal Error. Not accepted; owned condition unassessed."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "Authority:9323536015",
+      "url": "https://static.dc.com/2023-04/DCConnect_36.pdf",
+      "finding": "Official DC solicitation identifies Creees Lee cardstock variant, separate from Mike Choi1:25. Cover price is not market value. PDF not opened."
+    },
+    {
+      "copyId": "Authority:6653170836",
+      "url": "https://www.comics.org/issue/2562812/",
+      "finding": "Indexed Duarte Howard the Duck variant identity; direct page not checked."
+    },
+    {
+      "copyId": "CGC:4245413002",
+      "url": "https://www.pricecharting.com/nl/game/comic-books-spider-gwen-shadow-clones/spider-gwen-shadow-clones-stelfreeze-1-2023",
+      "finding": "Exact cover catalog surfaced but no matching CGC9.0 transaction in retrieved results; raw and9.8 results cannot substitute."
+    }
+  ],
+  "searchOnly": [
+    {
+      "copyId": "CGC:4089841007",
+      "query": "Wretches Momoko Metal CGC 9.8 auction price",
+      "finding": "No exact Universal metal9.8 sale established; Wytches and other Momoko titles excluded."
+    },
+    {
+      "copyId": "CGC:4245413002",
+      "query": "Spider Gwen Shadow Clones Stelfreeze CGC 9.0 sales",
+      "finding": "No exact grade transaction established; Villa and Land variant results excluded."
+    }
+  ],
+  "nextLeads": [
+    "Raremarq settled-sale archive is accessible but checked Momoko filter has no Wretches Metal result; future exact new listings may help.",
+    "City Boy3 Lee must mean Creees Lee cardstock, not Mike Choi1:25 or Inhyuk Lee issue1. Verify full UPC at transaction level.",
+    "Duarte raw reference remains separate from collection total; original transaction still inaccessible."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research-only; no inventory or selected reference changes. Viewer and PDF inputs unchanged; protected PDF preserved."
+}
