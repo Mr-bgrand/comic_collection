@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-07T17:02:23.925Z",
+  "batch": "17UTC",
+  "accepted": [],
+  "directPages": [
+    {
+      "copyId": "Authority:8274578327",
+      "url": "https://www.keycollectorcomics.com/issue/knight-terrors-1-3-7,789720/",
+      "finding": "Cover A identity corroborated: UPC76194138070400311, Ivan Reis and Danny Miki. Guide ranges lack transaction-level support; not imported."
+    },
+    {
+      "copyId": "CGC:6025067013",
+      "url": "https://www.ebay.com/itm/297390716451",
+      "finding": "Still active $24.99 Buy It Now, not sold; this is a recheck of previously excluded evidence, not a new comparable."
+    },
+    {
+      "copyId": "CGC:6025067013",
+      "url": "https://www.mercari.com/us/item/m40603260822/",
+      "finding": "Still active $25 Add to cart, Matt Hernandez/ matteh210. Previously known asking-price lead; not new sale evidence."
+    },
+    {
+      "copyId": "Authority:9720335865",
+      "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-9-2023",
+      "finding": "Fetched history. Row167760829272 ($3.50,2026-05-18) is Mercado variant, excluded from Ruan Cover A. Two generic-title rows need original images."
+    },
+    {
+      "copyId": "Authority:8274578327",
+      "url": "https://www.pricecharting.com/game/comic-books-knight-terrors/knight-terrors-3-2023",
+      "finding": "Fetched history. Reported Cover A and generic issue3 sales retained below; no owned condition inferred."
+    }
+  ],
+  "unverifiedLeads": [
+    {
+      "copyId": "Authority:9720335865",
+      "sourceUrl": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-9-2023",
+      "transactionId": "305061935811",
+      "url": "https://www.ebay.com/itm/305061935811",
+      "reportedSaleDate": "2026-09-10",
+      "reportedPriceUSD": 1.5,
+      "weakHistory": true,
+      "status": "Original returned Internal Error. Paid amount, full UPC/printing and item condition not independently verified. Research only; excluded from collection total."
+    },
+    {
+      "copyId": "Authority:9720335865",
+      "sourceUrl": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-9-2023",
+      "transactionId": "145247723276",
+      "url": "https://www.ebay.com/itm/145247723276",
+      "reportedSaleDate": "2026-08-17",
+      "reportedPriceUSD": 4.24,
+      "weakHistory": true,
+      "status": "Original returned Internal Error. Paid amount, full UPC/printing and item condition not independently verified. Research only; excluded from collection total."
+    },
+    {
+      "copyId": "Authority:8274578327",
+      "sourceUrl": "https://www.pricecharting.com/game/comic-books-knight-terrors/knight-terrors-3-2023",
+      "transactionId": "158000237645",
+      "url": "https://www.ebay.com/itm/158000237645",
+      "reportedSaleDate": "2026-06-21",
+      "reportedPriceUSD": 1.99,
+      "weakHistory": true,
+      "status": "Original returned Internal Error. Paid amount, full UPC/printing and item condition not independently verified. Research only; excluded from collection total."
+    },
+    {
+      "copyId": "Authority:8274578327",
+      "sourceUrl": "https://www.pricecharting.com/game/comic-books-knight-terrors/knight-terrors-3-2023",
+      "transactionId": "117214505039",
+      "url": "https://www.ebay.com/itm/117214505039",
+      "reportedSaleDate": "2026-05-30",
+      "reportedPriceUSD": 0.5,
+      "weakHistory": true,
+      "status": "Original returned Internal Error. Paid amount, full UPC/printing and item condition not independently verified. Research only; excluded from collection total."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "Authority:9720335865",
+      "url": "https://westfieldcomics.com/comic-books/Miles-Morales-Spider-Man-9/23051274",
+      "finding": "Dike Ruan and UPC75960620483000911 match; $1.99 is retail asking price."
+    },
+    {
+      "copyId": "Authority:8274578327",
+      "url": "https://www.pricecharting.com/game/comic-books-knight-terrors/knight-terrors-reis-3-2023",
+      "finding": "Alternate Reis catalog mixes Cover A, neon Cover D and 1:100 black-and-white. Do not use aggregate for owned Cover A. September9 $3.99 Cover A row is a further unverified lead; original not checked this run."
+    },
+    {
+      "copyId": "CGC:6042459106",
+      "url": "https://www.fanaticscollect.com/buy-now/2615e988-6091-4f19-81c1-b36aa028bfe4/1997-pokemon-japanese-meiji-promo-foil-dodrio-cgc-6-exmt",
+      "finding": "CGC6 buy-now listing, wrong grade for owned7.5; excluded."
+    }
+  ],
+  "searchOnly": [
+    {
+      "copyId": "CGC:6025067013",
+      "queries": [
+        "Chase Brown 318 CGC9.5 sold",
+        "Chase Brown Donruss CGC 9.5"
+      ],
+      "finding": "Fanatics auction recap offers Prizm Draft Picks Silver118CGC9.5, wrong set. No supported exact completed sale."
+    },
+    {
+      "copyId": "CGC:6042459106",
+      "queries": [
+        "Dodrio Meiji 7.5 sold",
+        "Dodrio Meiji CGC sold auction"
+      ],
+      "finding": "No exact completed transaction; Heritage JungleSGC9.5 and MeijiCGC6 excluded."
+    },
+    {
+      "queries": [
+        "site.mycomicshop.com Knight Terrors 3A Winning Bid",
+        "Knight Terrors3 sold Reis auction",
+        "Miles Morales9 Ruan auction results"
+      ],
+      "finding": "No exact completed auction established. Indexed Reis catalog is mixed variants."
+    }
+  ],
+  "nextLeads": [
+    "Retrieve original September9 Cover A row from alternate Knight Terrors Reis catalog; exclude all neon and black-and-white variants.",
+    "Choose different missing graded items next; do not reopen ChaseBrown297390716451 or Mercarim40603260822 without evidence of a sale-status change."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research-only; valuation/viewer/print inputs unchanged, no regeneration needed. Protected PDF preserved. Prior main f1d5e5e Pages deployment verified success."
+}
