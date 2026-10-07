@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-07T05:01:21.296Z",
+  "batch": "05UTC",
+  "accepted": [],
+  "directPages": [
+    {
+      "copyId": "CGC:4273634005",
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/306586/dynamite-entertainment-darkwing-duck-1parsons-a-parsons-variant-cover",
+      "finding": "Exact Parsons Universal catalog displays zero recorded sales, including9.8. Adjacent virgin and1991 offers excluded. Public data is delayed, so this is not proof no sales exist."
+    },
+    {
+      "copyId": "Authority:3960999612",
+      "url": "https://www.pricecharting.com/game/comic-books-knight-terrors-catwoman/knight-terrors-catwoman-lotay-1-2023",
+      "finding": "Fetched recent reported raw sales; catalog UPC76194138096400121 matches owned record, but original transaction identity unverified."
+    },
+    {
+      "copyId": "Authority:8277838860",
+      "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-cheung-8-2023",
+      "finding": "Fetched reported Cheung raw sales; owned UPC75960620483000821. Original transaction identity unverified."
+    }
+  ],
+  "unverifiedLeads": [
+    {
+      "copyId": "Authority:3960999612",
+      "transactionId": "126019252891",
+      "url": "https://www.ebay.com/itm/126019252891",
+      "reportedSaleDate": "2026-09-28",
+      "reportedUSD": 5.19,
+      "asterisk": true,
+      "finding": "Secondary PriceCharting report; direct original eBay open Internal Error. Transaction UPC/printing unverified; owned condition unassessed."
+    },
+    {
+      "copyId": "Authority:3960999612",
+      "transactionId": "305047273777",
+      "url": "https://www.ebay.com/itm/305047273777",
+      "reportedSaleDate": "2026-09-17",
+      "reportedUSD": 7.79,
+      "asterisk": true,
+      "finding": "Secondary PriceCharting report; direct original eBay open Internal Error. Transaction UPC/printing unverified; owned condition unassessed."
+    },
+    {
+      "copyId": "Authority:8277838860",
+      "transactionId": "305415613626",
+      "url": "https://www.ebay.com/itm/305415613626",
+      "reportedSaleDate": "2026-07-29",
+      "reportedUSD": 2.3,
+      "asterisk": true,
+      "finding": "Secondary PriceCharting report; direct original eBay open Internal Error. Transaction UPC/printing unverified; owned condition unassessed."
+    },
+    {
+      "copyId": "Authority:8277838860",
+      "transactionId": "188442626325",
+      "url": "https://www.ebay.com/itm/188442626325",
+      "reportedSaleDate": "2026-06-07",
+      "reportedUSD": 1.29,
+      "asterisk": true,
+      "finding": "Secondary PriceCharting report; direct original eBay open Internal Error. Transaction UPC/printing unverified; owned condition unassessed."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "Authority:3960999612",
+      "url": "https://www.comics.org/series/201857/details/?sort=barcode",
+      "finding": "Indexed Lotay cardstock issue1 matches full UPC76194138096400121; direct page not checked."
+    },
+    {
+      "copyId": "CGC:4245413023",
+      "url": "https://www.mycomicshop.com/search?q=Flash+123",
+      "finding": "Search surfaced1997newsstand9.6 offer, not owned2022ComicMintfoil. Excluded without direct open."
+    }
+  ],
+  "searchOnly": [
+    {
+      "copyId": "CGC:4273634005",
+      "query": "Darkwing Duck Parsons CGC auction",
+      "finding": "Virgin raw, signed retail and known sold-out store listing surfaced; no exact trade-dress Universal9.8 completed sale. Known failed leads not reopened."
+    },
+    {
+      "copyId": "CGC:4245413023",
+      "query": "Flash 123 Comic Mint 9.6 sold",
+      "finding": "No new exact transaction; prior September30direct analyzer already showed no9.6 sales. Cached9.8history not reused."
+    }
+  ],
+  "nextLeads": [
+    "Verify Catwoman Lotay and Miles Cheung original transactions when accessible; no transfer of seller condition to owned copies.",
+    "Darkwing Parsons needs trade-dress Universal9.8 completed sale; public analyzer zero is a source gap, not zero value.",
+    "FlashComicMint9.6 must exclude1997issue123 and MillenniumSignatureSeries."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research-only; no inventory or selected reference changes. Viewer and PDF inputs unchanged; protected PDF preserved."
+}
