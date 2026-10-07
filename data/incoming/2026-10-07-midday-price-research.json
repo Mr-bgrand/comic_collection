@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-07T13:04:45.570Z",
+  "batch": "13UTC",
+  "accepted": [],
+  "directPages": [
+    {
+      "copyId": "Authority:5336296077",
+      "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-manhanini-9-2023",
+      "finding": "Manhanini variant catalog checked. Two recent reported sales retained below as unverified leads; March 25 2026 row at $7.49 explicitly combines Cover A and Manhanini and is excluded as a lot."
+    },
+    {
+      "copyId": "Authority:4490226376",
+      "url": "https://www.pricecharting.com/game/comic-books-star-wars-darth-vader/star-wars-darth-vader-37-2023",
+      "finding": "Catalog UPC 75960609601503711 matches owned Yu Cover A, but recent rows 206319912064 ($3.56, 2026-08-02) and 235976554349 ($4.56, 2026-06-25) explicitly describe Clone Wars variants. Excluded as wrong cover; aggregate is not clean exact-cover evidence."
+    }
+  ],
+  "unverifiedLeads": [
+    {
+      "copyId": "Authority:5336296077",
+      "sourceUrl": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-manhanini-9-2023",
+      "url": "https://www.ebay.com/itm/115882197113",
+      "transactionId": "115882197113",
+      "reportedSaleDate": "2026-09-22",
+      "reportedPriceUSD": 3.95,
+      "status": "Original eBay link returned Internal Error. Full UPC/printing, condition and paid amount not independently verified. Not accepted; owned condition remains unassessed.",
+      "weakHistory": true
+    },
+    {
+      "copyId": "Authority:5336296077",
+      "sourceUrl": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-manhanini-9-2023",
+      "url": "https://www.ebay.com/itm/800457082913",
+      "transactionId": "800457082913",
+      "reportedSaleDate": "2026-08-11",
+      "reportedPriceUSD": 1.99,
+      "status": "Original eBay link returned Internal Error. Full UPC/printing, condition and paid amount not independently verified. Not accepted; owned condition remains unassessed.",
+      "weakHistory": true
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "Authority:4490226376",
+      "url": "https://www.marvel.com/comics/issue/103068/read",
+      "finding": "Publisher index confirms August 16 2023, Leinil Francis Yu and UPC75960609601503711. Direct open failed."
+    },
+    {
+      "copyId": "Authority:5336296077",
+      "url": "https://www.midtowncomics.com/product/2216083",
+      "finding": "Index identifies Mateus Manhanini Cover B with UPC75960620483000921; identity only."
+    },
+    {
+      "copyId": "CGC:1401011131203",
+      "url": "https://www.sportscardinvestor.com/cards/cacturne-pokemon/2003-topps-advanced-base-21",
+      "finding": "Base edition/raw evidence and grade menu; does not document an exact Silver Foil CGC9 transaction. Excluded."
+    },
+    {
+      "copyId": "Authority:4490226376",
+      "url": "https://www.mycomicshop.com/search?ItemID=64241610&outbidbyproxy=1",
+      "finding": "Actual indexed $37 auction is 2015 issue1G Skottie Young CGC9.6, cert4645033009, ended2026-02-24. Wrong issue/year/format, excluded."
+    }
+  ],
+  "searchOnly": [
+    {
+      "copyId": "CGC:6001871064",
+      "queries": [
+        "Blaine non holo CGC 9 sold"
+      ],
+      "finding": "English2000 #100 offers do not match Japanese1999 non-holo. No supported new exact transaction."
+    },
+    {
+      "copyId": "CGC:1401011131203",
+      "queries": [
+        "Cacturne silver CGC 9 sold",
+        "Cacturne Topps CGC 9 auction"
+      ],
+      "finding": "EX Emerald, Base Topps, stickers and other set results excluded."
+    },
+    {
+      "copyId": "ArenaClub:8AC002362928",
+      "queries": [
+        "Professor Turo Arena Club 9.5",
+        "Professor Turo Arena 9.5 sold"
+      ],
+      "finding": "No exact completed-sale result. PSA fallback is not authorized for Arena Club."
+    }
+  ],
+  "nextLeads": [
+    "Check Miles Morales9 Ruan UPC75960620483000911 and Knight Terrors3 Reis UPC76194138070400311 next; inventory inspected only in this batch.",
+    "Recover Manhanini original sale images only via new accessible archive; do not repeat failed links without a new access path.",
+    "Darth Vader37 requires Yu Cover A transaction-level evidence; filter out Clone Wars and ROTJ variants."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research-only. No accepted observations, selected raw references, inventory, viewer or PDF inputs changed; regeneration would not add new valuation content. Protected PDF preserved."
+}
