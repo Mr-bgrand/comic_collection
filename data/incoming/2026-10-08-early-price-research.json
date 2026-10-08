@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-08T01:01:18.845Z",
+  "batch": "01UTC",
+  "accepted": [],
+  "directPages": [
+    {
+      "copyId": "Authority:5356989824",
+      "url": "https://www.ebay.com/itm/126102506628",
+      "transactionId": "126102506628",
+      "seller": "Evil Lair Comics and Collectibles",
+      "finding": "Active3.99USD or best offer; lastone and1sold. Firstprinting seller field, but no dated paid amount or fullUPC. PC reports3.99 on2026-10-01; original does not independently verify transaction."
+    },
+    {
+      "copyId": "Authority:5356989824",
+      "url": "https://www.ebay.com/itm/158330188292",
+      "transactionId": "158330188292",
+      "seller": "PLAY THE GAME READ THE STORY",
+      "finding": "Active1.49USD or best offer;6available11sold. PC reports1.49 on2026-09-26; current offer/soldcount not proof of that dated paid amount."
+    },
+    {
+      "copyId": "Authority:5356989824",
+      "url": "https://www.pricecharting.com/game/comic-books-what-if-dark-carnage/what-if-dark-carnage-1-2023",
+      "finding": "Fetched reported sales and retained original-listing limitations above. Owned PhilipTan CoverA UPC75960620633900111 condition unassessed."
+    },
+    {
+      "copyId": "Authority:3297623591",
+      "url": "https://www.pricecharting.com/game/comic-books-black-panther/black-panther-mr-garcin-1-2023",
+      "finding": "Fetched MrGarcin history; two recent reported sales below. Owned UPC75960620503500191 condition unassessed."
+    }
+  ],
+  "unverifiedLeads": [
+    {
+      "copyId": "Authority:3297623591",
+      "sourceUrl": "https://www.pricecharting.com/game/comic-books-black-panther/black-panther-mr-garcin-1-2023",
+      "url": "https://www.ebay.com/itm/257403304285",
+      "transactionId": "257403304285",
+      "reportedSaleDate": "2026-10-02",
+      "reportedPriceUSD": 4.99,
+      "weakHistory": true,
+      "status": "Original Internal Error. FullUPC, printing and condition not verified on original; no accepted estimate."
+    },
+    {
+      "copyId": "Authority:3297623591",
+      "sourceUrl": "https://www.pricecharting.com/game/comic-books-black-panther/black-panther-mr-garcin-1-2023",
+      "url": "https://www.ebay.com/itm/177336370047",
+      "transactionId": "177336370047",
+      "reportedSaleDate": "2026-09-22",
+      "reportedPriceUSD": 4.99,
+      "weakHistory": true,
+      "status": "Original Internal Error. FullUPC, printing and condition not verified on original; no accepted estimate."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "Authority:5356989824",
+      "url": "https://www.marvel.com/comics/issue/108032/what_if._dark_carnage_1_2023_1",
+      "finding": "Publisher index confirms PhilipTan CoverA, September20,2023, UPC75960620633900111. No pricing evidence."
+    },
+    {
+      "copyId": "CGC:4480290001",
+      "url": "https://www.ebay.com/itm/205090432405",
+      "finding": "CrushCollectibles PunchOut /120 is uncertified seller9.4; not owned UniversalCGC9.8. Identity lead only, scan match still needed."
+    },
+    {
+      "copyId": "CGC:4381117005",
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/324803/image-comics-w0rldtr33-5oshred-no-masss-comics-edition",
+      "finding": "Issue5 Oshred history is not issue1 thirdprinting S.RedAmparo; excluded."
+    }
+  ],
+  "searchOnly": [
+    {
+      "copyId": "CGC:4381117005",
+      "queries": [
+        "w0rldtr33 No Masss 9.8 sold",
+        "w0rldtr33 third Amparo 9.8"
+      ],
+      "finding": "Issue2 Oshred, issue3 and issue5 results not comparable. No exact graded transaction."
+    },
+    {
+      "copyId": "CGC:4480290001",
+      "queries": [
+        "Fame Mike Tyson Crush 9.8 sold",
+        "Mike Tyson Crush Collectibles comic"
+      ],
+      "finding": "No exact9.8 transaction; raw listing and unrelated magazine excluded. NoDate inventory1900 is placeholder, not sale-search year."
+    },
+    {
+      "queries": [
+        "site.mycomicshop.com What If Dark Carnage Winning Bid"
+      ],
+      "finding": "No exact completed auction established."
+    }
+  ],
+  "nextLeads": [
+    "Fresh low-coverage raw candidates: AvengersTwilight1SkottieYoung Authority6741967651 and GODS1Momoko Authority2896359526.",
+    "Fresh graded candidates: KobeBryantComicKingdomVirgin4526002009CGC9.6 and TupacCacauVirgin4526002008CGC9.6; inspect prior title-based notes and owned scans.",
+    "Do not treat Carnage soldcount as dated paid-price history."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research-only. No inventory/reference selection or rendering inputs changed; viewer/PDF regeneration unnecessary. Protected PDF preserved."
+}
