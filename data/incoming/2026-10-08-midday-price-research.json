@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-08T13:04:18.640Z",
+  "batch": "13UTC",
+  "accepted": [],
+  "directPages": [
+    {
+      "copyId": "Authority:3559385072",
+      "url": "https://www.pricecharting.com/game/comic-books-return-of-superman-30th-anniversary-special/return-of-superman-30th-anniversary-special-wilkins-1-2023",
+      "finding": "Fetched recent reported raw history; originals checked below."
+    },
+    {
+      "copyId": "Authority:8178795398",
+      "url": "https://www.pricecharting.com/game/comic-books-return-of-superman-30th-anniversary-special/return-of-superman-30th-anniversary-special-jurgens-foil-1-2023",
+      "finding": "Fetched reported foil raw history; originals failed."
+    },
+    {
+      "copyId": "Authority:3559385072",
+      "url": "https://www.ebay.com/itm/305234713972",
+      "transactionId": "305234713972",
+      "seller": "Mark Down Comics",
+      "finding": "Active9.39USD; lastone1sold. Firstprinting DaveWilkinsCoverC fields. No dated realized price; item feedback more than a year old. PC fetch reports9.39 on2026-09-23 while web index shows2025-01-25 for same title/amount. Dates not reconciled; no acceptance."
+    }
+  ],
+  "unverifiedLeads": [
+    {
+      "copyId": "Authority:3559385072",
+      "sourceUrl": "https://www.pricecharting.com/game/comic-books-return-of-superman-30th-anniversary-special/return-of-superman-30th-anniversary-special-wilkins-1-2023",
+      "url": "https://www.ebay.com/itm/364551569424",
+      "transactionId": "364551569424",
+      "reportedSaleDate": "2026-09-26",
+      "reportedPriceUSD": 9.99,
+      "weakHistory": true,
+      "status": "Original Internal Error. UPC/printing, condition and paid price not independently verified; older foil records weak/stale. Owned condition unassessed; outside total."
+    },
+    {
+      "copyId": "Authority:8178795398",
+      "sourceUrl": "https://www.pricecharting.com/game/comic-books-return-of-superman-30th-anniversary-special/return-of-superman-30th-anniversary-special-jurgens-foil-1-2023",
+      "url": "https://www.ebay.com/itm/176000910261",
+      "transactionId": "176000910261",
+      "reportedSaleDate": "2026-02-21",
+      "reportedPriceUSD": 10.99,
+      "weakHistory": true,
+      "status": "Original Internal Error. UPC/printing, condition and paid price not independently verified; older foil records weak/stale. Owned condition unassessed; outside total."
+    },
+    {
+      "copyId": "Authority:8178795398",
+      "sourceUrl": "https://www.pricecharting.com/game/comic-books-return-of-superman-30th-anniversary-special/return-of-superman-30th-anniversary-special-jurgens-foil-1-2023",
+      "url": "https://www.ebay.com/itm/326487979956",
+      "transactionId": "326487979956",
+      "reportedSaleDate": "2025-05-17",
+      "reportedPriceUSD": 9.99,
+      "weakHistory": true,
+      "status": "Original Internal Error. UPC/printing, condition and paid price not independently verified; older foil records weak/stale. Owned condition unassessed; outside total."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "Authority:3559385072",
+      "url": "https://neighborhoodcomics.com/products/0823dc193-return-of-superman-30th-anniversary-special-1",
+      "finding": "WilkinsCoverC UPC76194138207400121 identity support only."
+    },
+    {
+      "copyId": "Authority:8178795398",
+      "url": "https://www.ebay.com/p/2335109659",
+      "finding": "Jurgens/Breeding foil catalog UPC76194138207400181; soldout catalog supplies no transaction."
+    },
+    {
+      "copyId": "CGC:4386585003",
+      "url": "https://notes.www.collectors-society.com/registry/comics/SlotScoreDetail.aspx?SlotID=339526",
+      "finding": "WhatnotSpecialC registry scores are points, not prices."
+    },
+    {
+      "copyId": "CGC:4386585003",
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/320209/dc-comics-batman-655sdcc-b-convention-sketch-edition",
+      "finding": "ConventionSketchEdition and SS9.8 sidebar do not match UniversalWhatnotC9.9; excluded."
+    }
+  ],
+  "searchOnly": [
+    {
+      "copyId": "CGC:4203411005",
+      "queries": [
+        "Whatnot Publishing Sampler Red Lava 10",
+        "Kickstradomis Red Lava CGC sold"
+      ],
+      "finding": "No exact Universal10 transaction. Unrelated JordanRedLava and sketch9.8 excluded."
+    },
+    {
+      "copyId": "CGC:4386585003",
+      "queries": [
+        "Batman655 Whatnot9.9 sold",
+        "Batman655 Kirkham9.9 auction"
+      ],
+      "finding": "No exact Universal9.9 transaction; SS9.8 sketches and registry point tables excluded."
+    },
+    {
+      "queries": [
+        "site.mycomicshop.com Return of Superman Wilkins auction"
+      ],
+      "finding": "Generic active auction group only, no exact completed archive identified."
+    }
+  ],
+  "nextLeads": [
+    "Move to fresh raw titles beyond ReturnSuperman after completing these cover checks.",
+    "Keep305234713972 as unresolved date/paid-price evidence; do not treat current asking price and soldcount as dated sale."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research-only; no valuation or selected-reference changes. Viewer/PDF inputs unchanged, no regeneration needed. Protected PDF preserved."
+}
