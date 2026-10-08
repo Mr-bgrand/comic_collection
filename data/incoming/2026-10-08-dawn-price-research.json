@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-08T05:01:18.867Z",
+  "batch": "05UTC",
+  "accepted": [],
+  "directPages": [
+    {
+      "copyId": "Authority:6741967651",
+      "url": "https://www.pricecharting.com/game/comic-books-avengers-twilight/avengers-twilight-young-1-2024",
+      "finding": "Fetched Young issue1 history; original verification attempts below failed. Owned UPC75960609592600141, firstprint SkottieYoung, condition unassessed."
+    },
+    {
+      "copyId": "Authority:2896359526",
+      "url": "https://www.pricecharting.com/game/comic-books-gods/gods-momoko-1-2023",
+      "finding": "Fetched Momoko issue1 history; original verification attempts below failed. Owned UPC75960620497700141, firstprint Momoko, condition unassessed."
+    }
+  ],
+  "unverifiedLeads": [
+    {
+      "copyId": "Authority:6741967651",
+      "sourceUrl": "https://www.pricecharting.com/game/comic-books-avengers-twilight/avengers-twilight-young-1-2024",
+      "transactionId": "235392386755",
+      "url": "https://www.ebay.com/itm/235392386755",
+      "reportedSaleDate": "2026-09-24",
+      "reportedPriceUSD": 6.24,
+      "weakHistory": true,
+      "status": "Original returned Internal Error. Paid amount, original UPC/printing and condition not independently verified. Research evidence only, outside collection total."
+    },
+    {
+      "copyId": "Authority:6741967651",
+      "sourceUrl": "https://www.pricecharting.com/game/comic-books-avengers-twilight/avengers-twilight-young-1-2024",
+      "transactionId": "176228785766",
+      "url": "https://www.ebay.com/itm/176228785766",
+      "reportedSaleDate": "2026-08-27",
+      "reportedPriceUSD": 6.99,
+      "weakHistory": true,
+      "status": "Original returned Internal Error. Paid amount, original UPC/printing and condition not independently verified. Research evidence only, outside collection total."
+    },
+    {
+      "copyId": "Authority:2896359526",
+      "sourceUrl": "https://www.pricecharting.com/game/comic-books-gods/gods-momoko-1-2023",
+      "transactionId": "325835788146",
+      "url": "https://www.ebay.com/itm/325835788146",
+      "reportedSaleDate": "2026-10-04",
+      "reportedPriceUSD": 9.99,
+      "weakHistory": true,
+      "status": "Original returned Internal Error. Paid amount, original UPC/printing and condition not independently verified. Research evidence only, outside collection total."
+    },
+    {
+      "copyId": "Authority:2896359526",
+      "sourceUrl": "https://www.pricecharting.com/game/comic-books-gods/gods-momoko-1-2023",
+      "transactionId": "375018992564",
+      "url": "https://www.ebay.com/itm/375018992564",
+      "reportedSaleDate": "2026-09-08",
+      "reportedPriceUSD": 15.99,
+      "weakHistory": true,
+      "status": "Original returned Internal Error. Paid amount, original UPC/printing and condition not independently verified. Research evidence only, outside collection total."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "Authority:6741967651",
+      "url": "https://www.marvel.com/comics/issue/114123/avengers_twilight_2024_1_variant",
+      "finding": "Publisher index identifies SkottieYoung and fullUPC75960609592600141, releaseJanuary17,2024; identity evidence only."
+    },
+    {
+      "copyId": "Authority:2896359526",
+      "url": "https://comicpreviews.com/products/gods-1-peach-momoko-variant",
+      "finding": "Firstprinting Momoko, fullUPC75960620497700141, releaseOctober4,2023. Retail9.99 not completed sale."
+    },
+    {
+      "copyId": "CGC:4526002008",
+      "url": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6Mzc2ODMxMjAz",
+      "finding": "Cacau trade limited600, unavailable. Wrong trade/virgin edition; seller soldcount not transaction evidence."
+    },
+    {
+      "copyId": "CGC:4526002009",
+      "url": "https://bookshop.org/p/books/tribute-kobe-bryant-michael-frizell/4f96571ae9888811",
+      "finding": "Ungraded retail paperback, dimension9.6inches is notCGC9.6. Excluded."
+    }
+  ],
+  "searchOnly": [
+    {
+      "copyId": "CGC:4526002009",
+      "queries": [
+        "Tribute Kobe Comic Kingdom 9.6",
+        "Kobe Bryant Martinena 9.6 comic"
+      ],
+      "finding": "No exact Universal9.6 ComicKingdomVirgin sale. Earlier9.8 lead excluded, not rechecked."
+    },
+    {
+      "copyId": "CGC:4526002008",
+      "queries": [
+        "Tupac Cacau 9.6",
+        "Tupac Shakur Cacau auction sold"
+      ],
+      "finding": "Trade/metal9.8 and raw variants do not match Universal9.6virgin."
+    },
+    {
+      "queries": [
+        "site.mycomicshop.com GODS Momoko Winning Bid",
+        "site.comiclink.com Avengers Twilight"
+      ],
+      "finding": "No exact completed-sale result; no auction page identified to open."
+    }
+  ],
+  "nextLeads": [
+    "Inspect Superman9 JaninSanta Authority7331534745 and ReturnSuperman30th Jurgens/Wilkins/foil variants next.",
+    "Search by cert and exact cover scan for rare ComicKingdomUniversal9.6 items only when new evidence emerges; do not substitute9.8."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research-only. No accepted values or raw-reference selections changed; no viewer/PDF input changes requiring regeneration. Protected PDF preserved."
+}
