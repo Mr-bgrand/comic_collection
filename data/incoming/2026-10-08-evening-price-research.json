@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-08T21:04:18.678Z",
+  "batch": "21UTC",
+  "accepted": [],
+  "directPages": [
+    {
+      "copyIds": [
+        "Authority:6417207368",
+        "Authority:6592229462"
+      ],
+      "url": "https://www.pricecharting.com/game/comic-books-return-of-superman-30th-anniversary-special/return-of-superman-30th-anniversary-special-giang-1-2023",
+      "finding": "Fetched individual transaction leads. Owned copies share UPC 76194138207400141, John Giang Cyborg die-cut. Existing unassessed reference retained."
+    },
+    {
+      "copyId": "Authority:9125336146",
+      "url": "https://www.ebay.com/itm/820147832296",
+      "imageUrl": "https://i.ebayimg.com/thumbs/images/g/JiAAAeSwsUpqmxPi/s-l500.jpg",
+      "ownedImage": "data/images/Authority_9125336146_FRONT.jpg",
+      "finding": "Sale photo visually matches owned Nakayama foil artwork, composition and DNA signature. This supports title rather than erroneous Granov specifics. No sale barcode/back/indicia supplied in the single-photo listing, so full UPC and printing remain unverified. No condition inferred.",
+      "transactionId": "820147832296",
+      "saleDate": "2026-09-26",
+      "priceUSD": 1.79,
+      "shippingUSD": 5.99,
+      "status": "weak*; completed sale, exact printing pending"
+    }
+  ],
+  "unverifiedLeads": [
+    {
+      "copyIds": [
+        "Authority:6417207368",
+        "Authority:6592229462"
+      ],
+      "transactionId": "188056056038",
+      "url": "https://www.ebay.com/itm/188056056038",
+      "reportedSaleDate": "2026-10-02",
+      "reportedPriceUSD": 7.99,
+      "status": "Original page fetch failed; aggregator-only*"
+    },
+    {
+      "copyIds": [
+        "Authority:6417207368",
+        "Authority:6592229462"
+      ],
+      "transactionId": "364551568473",
+      "url": "https://www.ebay.com/itm/364551568473",
+      "reportedSaleDate": "2026-09-26",
+      "reportedPriceUSD": 9.99,
+      "status": "Original page fetch failed; aggregator-only*"
+    },
+    {
+      "copyIds": [
+        "Authority:6417207368",
+        "Authority:6592229462"
+      ],
+      "transactionId": "305234714018",
+      "url": "https://www.ebay.com/itm/305234714018",
+      "reportedSaleDate": "2026-02-05",
+      "reportedPriceUSD": 9.39,
+      "status": "Original page fetch failed; aggregator-only*"
+    },
+    {
+      "copyIds": [
+        "Authority:6417207368",
+        "Authority:6592229462"
+      ],
+      "transactionId": "326104405891",
+      "url": "https://www.ebay.com/itm/326104405891",
+      "reportedSaleDate": "2026-01-05",
+      "reportedPriceUSD": 9.99,
+      "status": "Original page not checked; older aggregator lead*"
+    }
+  ],
+  "indexedOnly": [
+    {
+      "url": "https://www.midtowncomics.com/product/2245413",
+      "finding": "Catalog associates full UPC with Giang Cyborg die-cut cover B; no completed sale evidence."
+    },
+    {
+      "url": "https://www.comic-odyssey.com/product/return-of-superman-30th-anniversary-special-1-os-cvr-b-dcut",
+      "finding": "Same UPC/cover catalog; unavailable is not a sold price."
+    },
+    {
+      "copyId": "CGC:4401613001",
+      "url": "https://www.ha.com/c/search/results.zx?layout=gallery&live_state=5318~5319~5320~5321~5324&mode=live&page=48~7&sb=1&si=2&term=do",
+      "finding": "Indexed Pooh four-book CGC9.8 group auction122617 lot17571 is wrong grade and a lot; excluded. No individual DunkB9.6 result."
+    }
+  ],
+  "searchOnly": [
+    "site:ha.com \"X-Men\" \"27\" \"Trinity\" \"9.6\"",
+    "site:comiclink.com \"Do You Pooh\" \"Dunk\"",
+    "\"76194138207400141\"",
+    "site:comiclink.com \"X-Men\" \"Trinity\" \"Sketch\"",
+    "site:ha.com \"Do You Pooh\" \"Dunk\""
+  ],
+  "gradedFindings": [
+    {
+      "copyId": "CGC:4357017002",
+      "finding": "Heritage and ComicLink targeted indexed searches yielded unrelated issues/original-art pages, no exact sketch CGC9.6 result. Archive internal search not exhaustively checked."
+    },
+    {
+      "copyId": "CGC:4401613001",
+      "finding": "No exact individual DunkB CGC9.6 completed result in targeted archive searches."
+    }
+  ],
+  "nextLeads": [
+    "Captain Marvel seller barcode/indicia needed before exact-printing confirmation; visual cover match now completed, do not repeat it.",
+    "Giang transactions retain IDs for a later accessible original-page check; do not retry unchanged failures next run.",
+    "Choose a fresh low-coverage raw title and graded card for next batch."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research-only changes. No inventory or rendering inputs changed; no viewer/PDF regeneration. Protected PDF unchanged."
+}
