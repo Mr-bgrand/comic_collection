@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-09T09:07:53.948Z",
+  "batch": "09UTC",
+  "accepted": [],
+  "subjects": [
+    {
+      "copyId": "Authority:9769296715",
+      "identity": "Shadows of Starlight1 Phil Noto cover A, UPC75960620763300111",
+      "source": "https://www.pricecharting.com/game/comic-books-star-wars-the-high-republic-shadows-of-starlight/star-wars-the-high-republic-shadows-of-starlight-1-2023",
+      "finding": "Fresh September21 lead beyond existing September8 reference. Original unavailable. Noto virgin 1:100 excluded."
+    },
+    {
+      "copyId": "Authority:4414578796",
+      "identity": "Harley Quinn Black White Redder1 Bruno Redondo, UPC76194137938800111",
+      "source": "https://www.pricecharting.com/game/comic-books-harley-quinn-black-%2B-white-%2B-redder/harley-quinn-black-%2B-white-%2B-redder-1-2023",
+      "finding": "Two new potential raw leads; original pages unavailable. September21 row225644194380 explicitly Tom Reilly1:50 coverE, excluded."
+    },
+    {
+      "copyId": "TAG:G7325430",
+      "identity": "2025 World Scaries LA vs TOR Wilwolf Blood Red Holo TAG10",
+      "finding": "Inventory confirms cert ends5430, not5435. No exact TAG10 or PSA10 fallback completed result in targeted searches."
+    }
+  ],
+  "unverifiedLeads": [
+    {
+      "transactionId": "237067758103",
+      "url": "https://www.ebay.com/itm/237067758103",
+      "reportedSaleDate": "2026-09-21",
+      "reportedPriceUSD": 0.99,
+      "status": "Original unavailable via web tool; aggregator-only weak evidence*; full sale UPC/printing not independently verified"
+    },
+    {
+      "transactionId": "314812359809",
+      "url": "https://www.ebay.com/itm/314812359809",
+      "reportedSaleDate": "2026-10-02",
+      "reportedPriceUSD": 9.22,
+      "status": "Original unavailable via web tool; aggregator-only weak evidence*; full sale UPC/printing not independently verified"
+    },
+    {
+      "transactionId": "267654930653",
+      "url": "https://www.ebay.com/itm/267654930653",
+      "reportedSaleDate": "2026-08-19",
+      "reportedPriceUSD": 3,
+      "status": "Original unavailable via web tool; aggregator-only weak evidence*; full sale UPC/printing not independently verified"
+    }
+  ],
+  "indexedOnly": [
+    {
+      "url": "https://taggrading.com/products/wilwolf-art-card-drop-ltd-ed-serialized",
+      "finding": "Official catalog lists Blood Red /5 but randomized variant and encapsulation options from50USD. Sold-out retail release is not exact Blood Red TAG10 secondary sale; excluded from valuation."
+    },
+    {
+      "url": "https://www.mycomicshop.com/search?tid=58959442",
+      "finding": "Catalog lead only, not directly opened this run. No auction-result claim."
+    },
+    {
+      "url": "https://www.ebay.com/itm/315692388229",
+      "finding": "Noto1:100 variant, not owned coverA."
+    }
+  ],
+  "searchOnly": [
+    "\"Wilwolf\" \"Blood Red\" \"PSA 10\"",
+    "\"Wilwolf\" \"Blood Red\" \"TAG\" sold",
+    "\"Wilwolf\" \"Blood Red\" ebay sold 10",
+    "site:mycomicshop.com \"Harley Quinn Black White Redder\" \"1A\"",
+    "\"Shadows of Starlight\" \"1\" \"Noto\" \"sold\""
+  ],
+  "nextLeads": [
+    "Fresh raw titles: Groot3 Garbett UPC75960620627800311 and Miles Morales8 Ruan UPC75960620483000811.",
+    "Harley sources mix variants; require Redondo coverA and full barcode before new reference selection.",
+    "Wilwolf exact limited /5 grade10 market gap remains; randomized retail price cannot fill it."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research-only changes; no valuation/rendering inputs changed. Viewer/PDF regeneration unnecessary. Protected PDF preserved."
+}
