@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-09T05:10:19.457Z",
+  "batch": "05UTC",
+  "accepted": [],
+  "subjects": [
+    {
+      "copyId": "Authority:4526058008",
+      "identity": "Flash #1 Rose Besch cardstock, UPC 76194138164000181",
+      "source": "https://www.pricecharting.com/game/comic-books-flash/flash-besch-1-2023",
+      "finding": "History unchanged from saved September18 reference. Two original transaction checks below failed; existing provisional reference not replaced."
+    },
+    {
+      "copyId": "Authority:4433558518",
+      "identity": "Marvel Unleashed #2 Ron Lim Lucky, UPC 75960620134100221",
+      "source": "https://www.pricecharting.com/game/comic-books-marvel-unleashed/marvel-unleashed-lim-lucky-2-2023",
+      "finding": "Fetched two dated transaction leads, both originals failed. Preserve as aggregator-only weak evidence*."
+    },
+    {
+      "copyId": "TAG:E4095241",
+      "identity": "2021 Bowman Draft Sapphire Bubba Chandler BDC-41, base Sapphire, TAG7",
+      "finding": "No matching TAG7 or authorized same-grade PSA7 sale found in searches. Green/50, Yellow, Chrome Refractor and CDA-BC autographs excluded."
+    }
+  ],
+  "unverifiedLeads": [
+    {
+      "transactionId": "318382932508",
+      "url": "https://www.ebay.com/itm/318382932508",
+      "reportedSaleDate": "2026-08-06",
+      "reportedPriceUSD": 7.77,
+      "status": "Original fetch failed; aggregator-only*"
+    },
+    {
+      "transactionId": "358673023571",
+      "url": "https://www.ebay.com/itm/358673023571",
+      "reportedSaleDate": "2026-06-20",
+      "reportedPriceUSD": 2.35,
+      "status": "Original fetch failed; aggregator-only*"
+    },
+    {
+      "transactionId": "286012988869",
+      "url": "https://www.ebay.com/itm/286012988869",
+      "reportedSaleDate": "2026-04-22",
+      "reportedPriceUSD": 2.75,
+      "status": "Original fetch failed; aggregator-only*"
+    },
+    {
+      "transactionId": "325828723597",
+      "url": "https://www.ebay.com/itm/325828723597",
+      "reportedSaleDate": "2025-12-27",
+      "reportedPriceUSD": 4.99,
+      "status": "Original fetch failed; aggregator-only*"
+    }
+  ],
+  "directPages": [
+    {
+      "url": "https://www.mycomicshop.com/search?TID=59081353",
+      "finding": "Series catalog and active retail inventory, not realized auction history. Lucky and Throg Ron Lim covers require separate matching; no accepted sale."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "url": "https://svsportscards.com/collections/baseball?filter.v.availability=1&page=5",
+      "finding": "Chandler Green13/50 and generic raw-condition PSA7 wording, not a graded base Sapphire PSA7 comparable."
+    },
+    {
+      "url": "https://www.ebay.com/itm/317121873559",
+      "finding": "CDA-BC Gold Refractor autograph PSA7, wrong card/parallel."
+    },
+    {
+      "url": "https://www.hipcomic.com/listing/marvel-unleashed-2-cgc-98-throg-thor-frog-of-thunder-variant-ron-lim-2023/13881919",
+      "finding": "Unsold CGC9.8 Throg cover, wrong cover and raw/graded status; excluded."
+    }
+  ],
+  "searchOnly": [
+    "\"Bubba Chandler\" \"Sapphire\" \"PSA 7\"",
+    "\"Bubba Chandler\" \"Sapphire\" \"TAG 7\"",
+    "\"Marvel Unleashed\" \"2\" \"Lim\" sold",
+    "\"2021\" \"BDC-41\" \"PSA 7\"",
+    "site:mycomicshop.com \"Marvel Unleashed\" \"2B\""
+  ],
+  "scope": "Direct PriceCharting/eBay attempts/MyComicShop catalog; indexed card searches. No new Heritage, ComicLink, CBR or GoCollect checks this run.",
+  "nextLeads": [
+    "Fresh raw titles: Star Wars Shadows of Starlight1 UPC75960620763300111 and Harley Black White Redder1 Redondo UPC76194137938800111.",
+    "Do not repeat Flash same two failed originals immediately; transaction history unchanged.",
+    "Chandler base Sapphire7 still requires exact grader/grade sale; no extrapolation from raw or different parallels."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research-only update; no valuation or rendering input changed. Viewer/PDF regeneration unnecessary. Protected PDF preserved."
+}
