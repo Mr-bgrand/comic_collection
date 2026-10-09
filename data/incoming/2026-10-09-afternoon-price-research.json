@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-09T17:05:42.718Z",
+  "batch": "17UTC",
+  "accepted": [],
+  "subjects": [
+    {
+      "copyId": "Authority:1153548610",
+      "identity": "Amazing Spider-Man29 Nakayama Hellfire Gala UPC75960620200302931",
+      "source": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-nakayama-29-2023"
+    },
+    {
+      "copyId": "Authority:9454763603",
+      "identity": "Knight Terrors Batman1 Mattina UPC76194138094000121",
+      "source": "https://www.pricecharting.com/game/comic-books-knight-terrors-batman/knight-terrors-batman-mattina-1-2023"
+    }
+  ],
+  "unverifiedLeads": [
+    {
+      "transactionId": "800247652542",
+      "url": "https://www.ebay.com/itm/800247652542",
+      "reportedSaleDate": "2026-08-05",
+      "reportedPriceUSD": 3.99,
+      "status": "Original fetch failed; aggregator-only*; full sale UPC/printing not verified"
+    },
+    {
+      "transactionId": "407048773073",
+      "url": "https://www.ebay.com/itm/407048773073",
+      "reportedSaleDate": "2026-07-11",
+      "reportedPriceUSD": 11.99,
+      "status": "Original fetch failed; aggregator-only*; full sale UPC/printing not verified"
+    },
+    {
+      "transactionId": "205917252031",
+      "url": "https://www.ebay.com/itm/205917252031",
+      "reportedSaleDate": "2026-09-07",
+      "reportedPriceUSD": 2.86,
+      "status": "Original fetch failed; aggregator-only*; full sale UPC/printing not verified"
+    },
+    {
+      "transactionId": "227452351183",
+      "url": "https://www.ebay.com/itm/227452351183",
+      "reportedSaleDate": "2026-08-30",
+      "reportedPriceUSD": 3.36,
+      "status": "Original fetch failed; aggregator-only*; full sale UPC/printing not verified"
+    }
+  ],
+  "directPages": [
+    {
+      "copyId": "PSA:121629672",
+      "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-photogenic-rookie-pix/marvin-harrison-jr-red-6",
+      "finding": "Red Rookie Pix6 guide has no supported PSA10 price. Raw rows include Stardust wording, requiring parallel confirmation. No grade substitution accepted."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "url": "https://www.ebay.com/itm/357423447288",
+      "finding": "Harrison358067918945 in feedback is PSA9 Red/49, not owned PSA10; excluded."
+    },
+    {
+      "url": "https://www.mycomicshop.com/search?AffID=1709698P01&q=Knight+Terrors%3A+Batman+1",
+      "finding": "Mattina coverB retail and active third-party offers, not completed auction history."
+    },
+    {
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/318063/marvel-comics-the-amazing-spider-man-29",
+      "finding": "Indexed right-now-on-eBay sidebar includes signed/virgin graded variants and1965 issues; not raw Hellfire Gala sale evidence."
+    }
+  ],
+  "searchOnly": [
+    "\"Marvin Harrison\" \"Rookie Pix\" \"Red\" \"PSA 10\"",
+    "site:ha.com \"Marvin Harrison\" \"Photogenic\"",
+    "site:mycomicshop.com \"Knight Terrors Batman\" \"1B\"",
+    "site:comicbookrealm.com \"Amazing Spider-Man\" \"29\" \"Nakayama\" \"2023\""
+  ],
+  "nextLeads": [
+    "Fresh raw next: Knight Terrors First Blood1 UPC76194138064300111 and Strange Academy Miles Morales1 UPC75960620695700111.",
+    "Harrison exact PSA10 Red Rookie Pix6 still lacks sale; PSA9 transaction358067918945 is an exclusion, not an acceptance lead."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research-only changes; no selected values or rendering input changed. Viewer/PDF regeneration unnecessary. Protected PDF preserved."
+}
