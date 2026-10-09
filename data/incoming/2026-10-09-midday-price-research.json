@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-09T13:10:15.458Z",
+  "batch": "13UTC",
+  "accepted": [],
+  "subjects": [
+    {
+      "copyId": "Authority:3029709213",
+      "identity": "Groot3 Lee Garbett UPC75960620627800311",
+      "source": "https://www.pricecharting.com/game/comic-books-groot/groot-3-2023"
+    },
+    {
+      "copyId": "Authority:3898761223",
+      "identity": "Miles Morales8 Dike Ruan UPC75960620483000811",
+      "source": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-8-2023"
+    },
+    {
+      "copyId": "PSA:121297947",
+      "identity": "2023 Korean151 Pikachu173 Art Rare PSA6",
+      "finding": "No exact-grade/language completed sale in targeted searches; Korean2010 World Promo PSA6, Japanese cards, Korean PSA10 and raw listings excluded."
+    }
+  ],
+  "unverifiedLeads": [
+    {
+      "transactionId": "366638849337",
+      "url": "https://www.ebay.com/itm/366638849337",
+      "reportedSaleDate": "2026-09-07",
+      "reportedPriceUSD": 1,
+      "status": "Original page fetch failed; aggregator-only*; sale full UPC/printing unverified"
+    },
+    {
+      "transactionId": "358492442735",
+      "url": "https://www.ebay.com/itm/358492442735",
+      "reportedSaleDate": "2026-06-19",
+      "reportedPriceUSD": 5.25,
+      "status": "Original page fetch failed; aggregator-only*; sale full UPC/printing unverified"
+    },
+    {
+      "transactionId": "226338626612",
+      "url": "https://www.ebay.com/itm/226338626612",
+      "reportedSaleDate": "2026-08-13",
+      "reportedPriceUSD": 11.99,
+      "status": "Original page fetch failed; aggregator-only*; sale full UPC/printing unverified"
+    }
+  ],
+  "directPages": [
+    {
+      "url": "https://www.ebay.com/itm/155661279765",
+      "transactionId": "155661279765",
+      "reportedSaleDate": "2026-09-10",
+      "reportedPriceUSD": 2.49,
+      "finding": "The Comic Vault LLC active2.49USD listing, nine available/three sold, no dated paid transaction. UPC says does not apply. Undated soldcount cannot independently verify aggregator date/amount. Not accepted."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "url": "https://www.mycomicshop.com/search?q=Groot+3",
+      "finding": "Catalog/active third-party inventory lead, no auction result checked."
+    },
+    {
+      "url": "https://trademeup.eu/de/cards/pokemon/pwcp/pw-3-pikachu-korean",
+      "finding": "2010 World Collection Korean PSA6 is different card; excluded."
+    },
+    {
+      "url": "https://www.ebay.co.uk/str/flylospulls",
+      "finding": "Korean173 PSA10 listing, wrong grade."
+    },
+    {
+      "url": "https://www.ebay.com/usr/adamkp83",
+      "finding": "Korean173 raw listing; PSA6 search words belong to another item."
+    }
+  ],
+  "searchOnly": [
+    "\"Pikachu\" \"173\" \"Korean\" \"PSA 6\"",
+    "\"Groot\" \"3\" \"Garbett\" sold comic",
+    "\"Pikachu\" \"Korean\" \"173\" \"EX-MT\"",
+    "site:ha.com \"Pikachu\" \"Korean\" \"6\" \"173\""
+  ],
+  "scope": "Fetched two PriceCharting histories, attempted four original eBay pages, searched exact Pikachu and Heritage indexed results. MyComicShop remains indexed-only this run.",
+  "nextLeads": [
+    "Fresh raw next: Amazing Spider-Man29 Nakayama Hellfire UPC75960620200302931 and Knight Terrors Batman1 Mattina UPC76194138094000121.",
+    "Do not repeat the same Groot original-page failures next run.",
+    "Pikachu Korean151 PSA6 still needs exact sale; no cross-language or grade substitution."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "No selected value or rendering input changed; research-only batch. No viewer/PDF regeneration required. Protected PDF preserved."
+}
