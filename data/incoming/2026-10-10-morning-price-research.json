@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-10T09:15:34.050Z",
+  "batch": "09UTC",
+  "accepted": [],
+  "unverifiedLeads": [
+    {
+      "copyId": "CGC:6001871064",
+      "source": "https://www.pricecharting.com/game/pokemon-japanese-challenge-from-the-darkness/blaine",
+      "finding": "Direct page lists Fanatics FIXED CGC9 trainer rows Sep22,2026 $12 and Jul4,2026 $10. Both source anchors are #, no original transactionID/cert or non-holo confirmation. Not accepted; weak undocumented history*."
+    },
+    {
+      "copyId": "CGC:6001871064",
+      "source": "https://app.setlot.com/catalog/pokemon/japanese-challenge-from-the-darkness/blaine",
+      "reportedSaleDate": "2026-07-20",
+      "reportedPriceUSD": 8.4,
+      "finding": "Direct page reports Japanese1999Blaine CGC9MINT but no original marketplace link/ID/cert or non-holo confirmation. Page includes unrelated Blaine Pokemon species; aggregate excluded. Weak undocumented lead*."
+    },
+    {
+      "copyId": "Authority:7390387012",
+      "identity": "MandalorianSeason2 #1 Yagawa trade UPC75960620598100151",
+      "source": "https://www.pricecharting.com/game/comic-books-star-wars-the-mandalorian-season-2/star-wars-the-mandalorian-season-2-yagawa-1-2023",
+      "transactionId": "125984258584",
+      "url": "https://www.ebay.com/itm/125984258584",
+      "reportedSaleDate": "2026-09-28",
+      "reportedPriceUSD": 7.99,
+      "finding": "Direct guide checked; original failed. Full saleUPC/printing unverified. Aggregator-only*; no reference update."
+    },
+    {
+      "copyId": "Authority:5015166144",
+      "identity": "Steelworks1 Basri cardstock UPC76194138015500141",
+      "source": "https://www.pricecharting.com/game/comic-books-steelworks/steelworks-basri-1-2023",
+      "transactionId": "177379264645",
+      "url": "https://www.ebay.com/itm/177379264645",
+      "reportedSaleDate": "2025-09-10",
+      "reportedPriceUSD": 0.49,
+      "finding": "Direct guide checked; original failed. Stale weak history*; no new raw reference."
+    }
+  ],
+  "exclusions": [
+    {
+      "transactionId": "327332887637",
+      "reportedSaleDate": "2026-09-01",
+      "reportedPriceUSD": 89.99,
+      "reason": "CGC9 GurenTownDeck HOLO, wrong variety for owned non-holo. Indexed and direct guide row only; original not opened."
+    },
+    {
+      "transactionId": "336407777849",
+      "reason": "CGC9.5 wrong grade; guide row only."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "url": "https://www.mycomicshop.com/search?TID=58717153",
+      "finding": "Steelworks search yields issue3 Sampere auction, wrong issue/cover; not inspected directly."
+    },
+    {
+      "url": "https://gocollect.com/blog/comiclist-new-comic-book-releases-list-for-06-21-2023-csv",
+      "finding": "Release list identifies Yagawa UPC75960620598100151; not market sale."
+    }
+  ],
+  "searchOnly": [
+    "Blaine Non-Holo CGC9 Japanese sold",
+    "Blaine1999Japanese CGC9 trainer",
+    "Steelworks Basri auction sold",
+    "site:mycomicshop.com Steelworks Basri auction",
+    "site:comicbookrealm.com Steelworks Basri",
+    "Mandalorian Yagawa75960620598100151"
+  ],
+  "nextLeads": [
+    "Find original Fanatics sale/cert for Blaine trainer; source anchors unavailable. Do not accept mixed-card aggregator median.",
+    "Next raw inventory candidates BlackPanther1 MrGarcin UPC75960620503500191 and ASM27 SciarroneDisney100 UPC75960620200302721; check prior ledgers before original-page requests."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "No inventory or rendering inputs changed. Viewer/PDF regeneration unnecessary; protected PDF preserved."
+}
