@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-10T17:22:16.081Z",
+  "batch": "17UTC",
+  "accepted": [],
+  "directPages": [
+    {
+      "copyId": "CGC:4350047002",
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/322594/boom-studios-grim-12trinity-trinity-comics-edition",
+      "finding": "Exact Universal Trinity ZoeLacchei virgin homage; recorded sales0,9.8 no value. Active unrelated sidebar offers excluded."
+    },
+    {
+      "copyId": "CGC:4350046005",
+      "url": "https://www.pricecharting.com/game/comic-books-invincible/invincible-sdcc-eve-9-2023",
+      "finding": "Raw and9.8 transactions, no9.4 value. Mixed color/BW rows. No grade extrapolation; no accepted estimate."
+    },
+    {
+      "copyId": "Authority:3411274401",
+      "identity": "HarleyQuinn32Howell UPC76194137281503251",
+      "url": "https://www.pricecharting.com/game/comic-books-harley-quinn/harley-quinn-howell-32-2023",
+      "finding": "Newest row Apr9,2025 $53.99 transaction295999781497; stale*. Prior October6 research found; no original recheck."
+    },
+    {
+      "copyId": "Authority:2876439667",
+      "identity": "JeanGrey2Simonson UPC75960620618600217",
+      "url": "https://www.pricecharting.com/game/comic-books-jean-grey/jean-grey-simonson-2-2023",
+      "finding": "Newest row Sep6,2026 $.99 transaction407179144760; prior October6 research found, no repeated original. Guide-only*; reference unchanged."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "url": "https://www.ebay.com/itm/197092493799",
+      "finding": "Grim12Trinity9.8 SignatureSeries not owned Universal; known exclusion, not reopened."
+    }
+  ],
+  "searchOnly": [
+    "Invincible9 ConventionFoil9.4 sold",
+    "Grim12 Trinity9.8 auction",
+    "site:comics.ha.com Invincible9 Foil",
+    "site:comiclink.com Grim12",
+    "site:mycomicshop.com Grim12 Trinity",
+    "site:comicbookrealm.com Grim12 Trinity"
+  ],
+  "nextLeads": [
+    "Exact Grim12 CBR catalog has no sales; do not recycle signed197092493799.",
+    "Invincible9 Universal9.4 ConventionFoil remains gap; original2004 and2023sketch/SS excluded.",
+    "Inventory inspected only: Authority1327529703 Superman6Besch UPC76194137950000661; Authority6974822820 WorldsFinest20Magog UPC76194137521202051. Check prior ledger before next research."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research only; no rendering inputs changed; protectedPDF unchanged."
+}
