@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-10T13:18:36.626Z",
+  "batch": "13UTC",
+  "accepted": [],
+  "unverifiedLeads": [
+    {
+      "copyId": "Authority:5588237005",
+      "identity": "BlackPanther1 MrGarcin UPC75960620503500191",
+      "source": "https://www.pricecharting.com/game/comic-books-black-panther/black-panther-mr-garcin-1-2023",
+      "transactionId": "257403304285",
+      "url": "https://www.ebay.com/itm/257403304285",
+      "reportedSaleDate": "2026-10-02",
+      "reportedPriceUSD": 4.99,
+      "status": "Direct guide checked; original unavailable. Full saleUPC/printing not verified. Aggregator-only*; reference unchanged."
+    },
+    {
+      "copyId": "Authority:5588237005",
+      "identity": "BlackPanther1 MrGarcin UPC75960620503500191",
+      "source": "https://www.pricecharting.com/game/comic-books-black-panther/black-panther-mr-garcin-1-2023",
+      "transactionId": "177336370047",
+      "url": "https://www.ebay.com/itm/177336370047",
+      "reportedSaleDate": "2026-09-22",
+      "reportedPriceUSD": 4.99,
+      "status": "Direct guide checked; original unavailable. Full saleUPC/printing not verified. Aggregator-only*; reference unchanged."
+    }
+  ],
+  "directPages": [
+    {
+      "copyId": "Authority:2095418943",
+      "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-sciarrone-27-2023",
+      "finding": "Newest raw row remains Sep2,2026 $5.99 transaction146676367251; no new evidence beyond existing observation."
+    },
+    {
+      "copyId": "Authority:2095418943",
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/316152/marvel-comics-amazing-spider-man-27",
+      "finding": "Sciarrone Disney100 identity matches;114 recorded graded sales; raw value requires membership. CGC9.8 estimated55 and9.6 estimated45 cannot value owned unassessed raw copy. Active sidebar offers excluded."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "copyId": "CGC:6025067013",
+      "url": "https://www.sportscardspro.com/game/football-cards-2023-panini-donruss/chase-brown-318",
+      "finding": "Same Sep25,2026 $9.99 and Dec26,2025 $5.57 CGC9.5 leads previously researched Oct1. No original recheck; prior redirects remain unresolved."
+    },
+    {
+      "url": "https://arthurscardsandcollectibles.com/blogs/fanatics-collect-auction-results-market-notes/fanatics-collect-auction-241-results-nolan-ryan-roger-clemens-bo-jackson",
+      "finding": "ChaseBrown PrizmDraftPicksSilverCGC9.5 and OpticBestTuddysCGC8.5 wrong sets; excluded."
+    },
+    {
+      "url": "https://www.mycomicshop.com/comicbooks/item?IVGroupID=35919314&p=8",
+      "finding": "BlackPantherGarcin offers5USD asking; not auction result."
+    }
+  ],
+  "searchOnly": [
+    "ChaseBrown Donruss CGC9.5 sold",
+    "site:mycomicshop.com BlackPanther Garcin auction",
+    "site:comicbookrealm.com Spider-Man27 Sciarrone"
+  ],
+  "nextLeads": [
+    "BlackPanther originals257403304285/177336370047 unavailable; recover only through a new archive route.",
+    "ChaseBrown known source redirects/active offerings remain gaps; do not repeat without new transaction.",
+    "Select new graded comic from inventory missing estimates and check exact variant in Heritage or ComicLink; this batch only searched graded card."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research-only, rendering inputs unchanged; PDFs preserved."
+}
