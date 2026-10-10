@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-10T21:22:22.078Z",
+  "batch": "21UTC",
+  "accepted": [],
+  "unverifiedLeads": [
+    {
+      "copyId": "Authority:6974822820",
+      "identity": "WorldsFinest20 MagogHelmetEmbossedFoil UPC76194137521202051",
+      "source": "https://www.pricecharting.com/game/comic-books-batman-superman-world%27s-finest/batman-superman-world%27s-finest-magog-20-2023",
+      "transactionId": "256552283127",
+      "url": "https://www.ebay.com/itm/256552283127",
+      "reportedSaleDate": "2026-10-06",
+      "reportedPriceUSD": 6.54,
+      "finding": "Direct guide checked; original failed. Full saleUPC/printing unverified. Aggregator-only*; no reference update."
+    },
+    {
+      "copyId": "Authority:1327529703",
+      "identity": "Superman6Besch UPC76194137950000661",
+      "source": "https://www.pricecharting.com/game/comic-books-superman/superman-6-2019",
+      "transactionId": "336170323546",
+      "url": "https://www.ebay.com/itm/336170323546",
+      "reportedSaleDate": "2025-09-14",
+      "reportedPriceUSD": 1.25,
+      "finding": "Direct guide row says RoseBesch but catalog2019 conflicts with owned2023. Original failed; identity unresolved, stale*. Excluded pending actual image/fullUPC."
+    }
+  ],
+  "directPages": [
+    {
+      "copyId": "Authority:1327529703",
+      "url": "https://www.ebay.com/itm/295878729289",
+      "seller": "ComicChix",
+      "finding": "Active13.99USD,2available4sold,2023RoseBesch,UPCdoesnotapply. No dated paid amount; asking excluded."
+    },
+    {
+      "copyId": "CGC:4350047006",
+      "url": "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-fullerton-5-2023",
+      "finding": "Exact Fullerton guide opened; no supported CGC9.8 comparable established. Raw history cannot substitute for owned Universal9.8."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "url": "https://shop.thirdeyecomics.com/products/superman-6-cvr-d-rose-besch-creator-card-stock-var",
+      "finding": "FullUPC76194137950000661 RoseBesch corroborated;9.99soldout retail not sale evidence."
+    },
+    {
+      "url": "https://www.mycomicshop.com/search?q=superman+%282023+DC%29+6",
+      "finding": "Retail/active eBay results, not completed auctions."
+    }
+  ],
+  "searchOnly": [
+    "76194137950000661 sold",
+    "w0rldtr33 5 Fullerton9.8 sold",
+    "site:mycomicshop.com WorldsFinest20Magog auction",
+    "site:comicbookrealm.com w0rldtr335Fullerton",
+    "Superman6Besch sold2023",
+    "site:comics.ha.com w0rldtr335",
+    "site:comiclink.com w0rldtr335"
+  ],
+  "nextLeads": [
+    "Superman336170323546 requires original identity evidence; wrong-year catalog cannot be imported as exact.",
+    "Magog256552283127 new reported sale retained separately; do not repeat failed fetch without alternative archive.",
+    "Continue other raw titles beyond bin13 and graded FinalBoss3SMZFoil9.2; inspect previous research first."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "No inventory or rendering inputs changed; viewer/PDFs retained."
+}
