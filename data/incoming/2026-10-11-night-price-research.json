@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-11T21:26:12.415Z",
+  "batch": "21UTC",
+  "accepted": [],
+  "subjects": [
+    {
+      "copyId": "Authority:5026340044",
+      "identity": "City Boy3, Minkyu Jung coverA, UPC76194137799500311, raw unassessed"
+    },
+    {
+      "copyId": "Authority:7050130274",
+      "identity": "Marvel Unleashed2 Baldeon UPC75960620134100211, raw unassessed"
+    },
+    {
+      "copyId": "CGC:4471692012",
+      "identity": "Spider-Gwen Annual1 2023 Lee trade Universal9.0"
+    }
+  ],
+  "directPages": [
+    {
+      "url": "https://www.ebay.com/itm/305052661274",
+      "transactionId": "305052661274",
+      "finding": "Cached active USD3.19 offer, two sold, no dated paid transaction or fullUPC. Seller-provided prior price is not a verified sale. History undocumented*."
+    },
+    {
+      "url": "https://www.ebay.com/itm/206017905215",
+      "transactionId": "206017905215",
+      "finding": "Active USD4.24 Buy It Now; asking price excluded."
+    },
+    {
+      "url": "https://www.ebay.com/itm/195944554119",
+      "transactionId": "195944554119",
+      "finding": "Active USD4.99, one sold; uncertified unsigned. No dated paid transaction; history undocumented*."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "url": "https://www.midtowncomics.com/p/2217798-city-boy-3-cover-a-regular-minkyu-jung-cover/",
+      "finding": "Jung regular coverA, fullUPC76194137799500311; identity corroboration only."
+    },
+    {
+      "url": "https://www.pricecharting.com/game/comic-books-city-boy/city-boy-3-2023",
+      "finding": "May28,2026 USD5.51 and January4 USD1.99 reported raw rows; no originals recovered. Guide UPC truncated; unverified history*."
+    },
+    {
+      "url": "https://ww.mycomicshop.com/ajax/tab_census?IVID=59443387",
+      "finding": "2023 Variant Edition Universal9.0 population five. Census, not sales evidence."
+    },
+    {
+      "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-annual/spider-gwen-annual-lee-1-2023",
+      "finding": "Index exposes9.8 transaction rows, not a9.0 transaction. Displayed9.0 guide14.50 lacks supporting exact-grade transaction; not accepted."
+    },
+    {
+      "url": "https://www.ebay.com/itm/117162736544",
+      "finding": "Marvel Unleashed lead repeats October6 result; not reopened without new transaction evidence."
+    }
+  ],
+  "previousResearchReviewed": [
+    "2026-10-11-evening-price-research.json context",
+    "Matching October6 dawn and September27/October3/October6 Spider-Gwen research"
+  ],
+  "nextLeads": [
+    "CityBoy original195944554119/305052661274/206017905215 are active-offer exclusions; seek dated completed single-copy sale with fullUPC and printing.",
+    "Unopened CityBoy225705880336/285410819693/186020874039 remain leads only, not evidence.",
+    "Spider-Gwen9.0 census and modeled guide do not establish an exact-grade transaction. Avoid2016ComicBlock and2023LeeVirgin."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research only; no inventory, selected-reference or rendering-input changes. Existing viewer and PDFs preserved."
+}
