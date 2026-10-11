@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-11T01:24:28.028Z",
+  "batch": "01UTC",
+  "accepted": [],
+  "subjects": [
+    {
+      "copyId": "CGC:4350047001",
+      "identity": "FinalBoss3 2023 SMZComicsFoil MaratMychaels virgin Universal9.2",
+      "finding": "Exact-grade and archive searches found no supported match. FinalBoss1KirkhamFoil9.8, issue3DavidMackFoil and2026Chokoo issue3 excluded. No extrapolation."
+    },
+    {
+      "copyIds": [
+        "Authority:6729153984",
+        "Authority:1886089226"
+      ],
+      "identity": "SpiderWoman7 MomokoBlackCostume UPC75960620783100721",
+      "source": "https://www.pricecharting.com/game/comic-books-spider-woman/spider-woman-momoko-7-2024",
+      "finding": "Initial web page accessible but cached last-year rows; detailed follow-up403. Shell fetch supplied no sale rows. No new transaction evidence; second-print1:25virgin and2021edition excluded."
+    },
+    {
+      "copyIds": [
+        "Authority:0636835348",
+        "Authority:7048492185"
+      ],
+      "identity": "UltimateXMen2 Momoko UPC75960620798500241",
+      "source": "https://www.pricecharting.com/game/comic-books-ultimate-x-men/ultimate-x-men-momoko-2-2024",
+      "finding": "Initial web open accessible; detailed follow-up403. Shell fetch no sale rows. No new verified transaction."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "url": "https://www.marvel.com/comics/issue/116607/ultimate_x-men_2024_2_variant",
+      "finding": "Publisher confirms fullUPC75960620798500241; identification only."
+    },
+    {
+      "url": "https://www.comics.org/series/203438/details/",
+      "finding": "FinalBoss3 listed DavidMack andStreetLevelHerofoil; not ownedMychaelsSMZ."
+    },
+    {
+      "url": "https://www.pricecharting.com/game/comic-books-final-boss/final-boss-kirkham-foil-1-2022",
+      "finding": "Issue1KirkhamFoilCGC9.8 sales not applicable to issue3Mychaels9.2."
+    }
+  ],
+  "searchOnly": [
+    "FinalBoss3SMZ9.2",
+    "FinalBossSMZFoil sold",
+    "site:comics.ha.com FinalBoss3",
+    "site:comiclink.com FinalBoss",
+    "FinalBoss3Mychaelsfoil",
+    "site:comicbookrealm.com FinalBoss3SMZ",
+    "SpiderWoman7Momoko sold2024",
+    "UltimateXMen2 75960620798500241"
+  ],
+  "nextLeads": [
+    "Raw guide access403 on follow-up; use different sale archives rather than retrying these same requests.",
+    "Next inspected-only raw: Authority9132445350 ASM48Momoko UPC75960620200304831; Authority1472563751 MilesMorales19Vecchio UPC75960620483001921.",
+    "FinalBoss3MychaelsSMZ9.2 still needs exact sale; retain cover/issue exclusions."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "No values or rendering inputs changed; viewer/PDFs preserved."
+}
