@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-12T13:33:06.687Z",
+  "batch": "13UTC",
+  "accepted": [],
+  "subjects": [
+    {
+      "copyId": "Authority:3237468880",
+      "identity": "Dark X-Men 3 Skottie Young Cover B, UPC 75960620616200321, raw unassessed"
+    },
+    {
+      "copyId": "Authority:5997731356",
+      "identity": "Return of Superman 30th Anniversary Special 1 Dan Jurgens Foil, UPC 76194138207400181, raw unassessed"
+    },
+    {
+      "copyId": "Authority:8431632234",
+      "identity": "Return of Superman 30th Anniversary Special 1 Dave Wilkins Steel Die-Cut, UPC 76194138207400121, raw unassessed"
+    },
+    {
+      "copyId": "TAG:E4095241",
+      "identity": "Bubba Chandler 2021 Bowman Draft Sapphire base BDC-41 TAG 7; exact PSA 7 fallback permitted"
+    },
+    {
+      "copyId": "PSA:121297947",
+      "identity": "Pikachu 173 Art Rare 2023 Korean SV2a Pokemon 151 PSA 6"
+    }
+  ],
+  "directPages": [
+    {
+      "url": "https://comicbookrealm.com/series/81923/622726/marvel-comics-dark-x-men-vol-2-issue-3",
+      "finding": "Page opened but extracted content contains navigation and unrelated active advertisements; no exact Young variant sales or analyzer results exposed. Do not mistake ads for comparables."
+    },
+    {
+      "url": "https://www.mycomicshop.com/search?q=Superman+Special++1",
+      "finding": "Return of Superman 1C Wilkins VF+ 8.5 USD 8.49 add-to-cart inventory; retail asking price, not completed auction. Death of Superman and other specials on same page excluded."
+    },
+    {
+      "url": "https://www.pricecharting.com/game/comic-books-dark-x-men/dark-x-men-young-3-2023",
+      "finding": "Cached page opened; follow-up find failed. No original completed transaction verified."
+    }
+  ],
+  "failedOpens": [
+    {
+      "url": "https://www.ebay.com/itm/375018947895",
+      "transactionId": "375018947895",
+      "finding": "Internal fetch error. Indexed title identifies Young first print unsigned single; sale date and paid price unverified*."
+    },
+    {
+      "url": "https://www.pricecharting.com/game/comic-books-return-of-superman-30th-anniversary-special/return-of-superman-30th-anniversary-special-wilkins-1-2023",
+      "finding": "Internal fetch error; indexed history only*."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "url": "https://www.midtowncomics.com/product/2243372",
+      "finding": "Young Cover B, AUG230765 and full UPC 75960620616200321 identity corroboration; not a sale."
+    },
+    {
+      "url": "https://www.ebay.com/p/2335109659",
+      "finding": "Jurgens and Breeding foil UPC 76194138207400181 identity corroboration. Catalog sold-out status is not a completed sale."
+    },
+    {
+      "url": "https://neighborhoodcomics.com/products/0823dc193-return-of-superman-30th-anniversary-special-1",
+      "finding": "Wilkins cover C SKU 0823DC193, UPC 76194138207400121 identity corroboration only."
+    },
+    {
+      "url": "https://www.ebay.com/itm/318071117236",
+      "transactionId": "318071117236",
+      "finding": "Young CGC SS/JSA 9.8 signed asking offer; excluded from raw unsigned comparison."
+    },
+    {
+      "url": "https://www.ebay.com/itm/166408962240",
+      "transactionId": "166408962240",
+      "finding": "B/C/D/E selection listing; no specific completed Wilkins transaction verified."
+    },
+    {
+      "url": "https://www.pricecharting.com/game/comic-books-return-of-superman-30th-anniversary-special/return-of-superman-30th-anniversary-special-wilkins-1-2023",
+      "reportedRows": [
+        {
+          "date": "2023-12-18",
+          "usd": 13
+        },
+        {
+          "date": "2023-11-01",
+          "usd": 9.99
+        }
+      ],
+      "finding": "Stale undocumented raw history*, no original IDs recovered. Graded 9.8 rows excluded from raw comparison."
+    },
+    {
+      "url": "https://www.ebay.com/itm/317121873559",
+      "transactionId": "317121873559",
+      "finding": "Chandler CDA-BC gold autograph /50 PSA 7, wrong card and parallel; excluded."
+    },
+    {
+      "url": "https://assetra.co/comps/2023-detective-pikachu-pokemon-korean-sv-p-promo-no-051-55169?grade=MINT+9&grader=PSA&iden=2197333",
+      "finding": "Detective Pikachu promo 051 result mixes recommendation text; not a verified Korean 173 PSA 6 transaction."
+    }
+  ],
+  "searchOnly": [
+    {
+      "query": "\"Bubba Chandler\" \"Sapphire\" \"PSA 7\"",
+      "finding": "No exact new sale. Prior SV Sports green /50 raw-condition wording recurred; not reopened."
+    },
+    {
+      "query": "\"Pikachu\" \"173\" \"Korean\" \"PSA 6\" sold",
+      "finding": "Wrong cards, languages and grades; no exact new transaction."
+    },
+    {
+      "query": "\"Bubba Chandler\" \"2021\" \"Sapphire\" \"7\" site:fanaticscollect.com",
+      "finding": "No exact result surfaced; no Fanatics archive page inspected."
+    },
+    {
+      "query": "\"Pikachu\" \"Korean\" \"173\" site:ha.com",
+      "finding": "No exact Heritage result surfaced; no Heritage page inspected."
+    },
+    {
+      "query": "\"Return of Superman\" \"30th\" \"auction\" site:mycomicshop.com",
+      "finding": "Catalog inventory surfaced and opened, not completed auction history."
+    }
+  ],
+  "nextLeads": [
+    "Recover original raw transaction IDs for Young Dark X-Men 3 and Wilkins Return of Superman; validate full UPC/printing before provisional import.",
+    "Jurgens foil: find exact single-copy completed transaction, separate from 1993 SkyBox cards and other 30th anniversary specials.",
+    "Chandler: exact base Sapphire BDC-41 TAG 7 or PSA 7 original sale still missing; do not repeat green /50 raw-condition or gold autograph searches.",
+    "Korean Pikachu 173 PSA 6: retain grade/language gap; Heritage search returned no candidate."
+  ],
+  "unchanged": "No accepted values, raw references, condition assignments or totals changed.",
+  "artifactDecision": "Research-only documents. Viewer and PDF inputs unchanged; existing outputs retained. Protected PDF untouched."
+}
