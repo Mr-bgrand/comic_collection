@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-12T05:25:14.971Z",
+  "batch": "05UTC",
+  "accepted": [],
+  "subjects": [
+    {
+      "copyId": "Authority:9651014888",
+      "identity": "Dark X-Men1 Ross connecting cover, UPC75960620616200121, raw unassessed"
+    },
+    {
+      "copyId": "Authority:1801215285",
+      "identity": "Incredible Hulk3 Miller trade cover, UPC75960620663600331, raw unassessed"
+    },
+    {
+      "copyId": "CGC:4526002006",
+      "identity": "Do You Pooh1 Brock Poohdy EditionB virgin, Universal9.8"
+    }
+  ],
+  "directPages": [
+    {
+      "url": "https://www.pricecharting.com/game/comic-books-dark-x-men/dark-x-men-ross-1-2023",
+      "finding": "Cached guide opened; no new original raw transaction verified. Follow-up find did not expose2026 rows."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "url": "https://www.ebay.com/itm/406876195836",
+      "transactionId": "406876195836",
+      "comparableCert": "4714683021",
+      "reportedSaleDate": "2026-08-11",
+      "reportedUSD": 58.49,
+      "finding": "CGC9.8 Ross virgin; wrong edition and graded status for owned raw connecting cover. Excluded without opening."
+    },
+    {
+      "url": "https://www.ebay.com/itm/266557927157",
+      "transactionId": "266557927157",
+      "finding": "Four-book connecting set, not single copy; excluded."
+    },
+    {
+      "url": "https://www.midtowncomics.com/product/2224884",
+      "finding": "Miller trade coverC fullUPC75960620663600331/JUN231021; identity corroboration only. Retail prices not completed sales."
+    },
+    {
+      "url": "https://my.comics.org/series/201474/details/timeline/",
+      "finding": "Miller virgin is UPC75960620663600316, different from owned00331."
+    },
+    {
+      "url": "https://www.pricecharting.com/game/comic-books-incredible-hulk/the-incredible-hulk-miller-3-2023",
+      "finding": "FullUPC matches; indexed guide lacks independently verified original transaction. Undocumented history*, no reference imported."
+    },
+    {
+      "url": "https://www.ebay.com/usr/a_n_d_comics_n_more",
+      "finding": "Brock Poohdy metal10/10 signed Mychaels offer; different finish and signature. Not completed sale."
+    }
+  ],
+  "searchOnly": [
+    {
+      "query": "Brock Poohdy 9.8 auction; Brock Poohdy CGC; Brock Poohdy",
+      "finding": "Previously excluded RabbitComics sold-outSS9.6 and signed metal offer returned. No exact Universal9.8 EditionB completed sale located."
+    }
+  ],
+  "previousResearchReviewed": [
+    "2026-10-12-overnight-price-research.json continuity",
+    "September21/29 and October1 BrockPoohdy ledger matches"
+  ],
+  "nextLeads": [
+    "DarkXMen Ross original must be single raw connecting trade cover00121; exclude virgin graded406876195836 and set266557927157.",
+    "Hulk3Miller originals still needed: match00331, exclude virgin00316 and multi-issue selector166264029222.",
+    "BrockPoohdy metal signed andSS9.6 offers are established exclusions; no more repeats absent new evidence."
+  ],
+  "unchanged": {
+    "missingGraded": 110,
+    "unassessedRaw": 429,
+    "totalUSD": 35761.04
+  },
+  "artifactDecision": "Research only. No inventory, selected-reference or rendering-input changes; existing viewer and PDFs preserved."
+}
