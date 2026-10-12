@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-12T21:31:33.119Z",
+  "batch": "21UTC",
+  "accepted": [],
+  "subjects": [
+    {
+      "copyIds": [
+        "Authority:5756089877",
+        "Authority:2464434782",
+        "Authority:7146078078"
+      ],
+      "identity": "Miles Morales Spider-Man 7 Sara Pichelli Ultimate Last Look, UPC 75960620483000731, raw unassessed"
+    },
+    {
+      "copyId": "Authority:5026799695",
+      "identity": "Ultimate Invasion 1 John Tyler Christopher Negative Space, UPC 75960620234800161, raw unassessed"
+    },
+    {
+      "copyId": "CGC:4418876012",
+      "identity": "Incredible Hulk 1 Gleason Virgin Edition C, Universal 9.6"
+    }
+  ],
+  "directPages": [
+    {
+      "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-pichelli-7-2023",
+      "finding": "Recovered three dated raw leads; all require original identity validation. Graded rows not raw comparables."
+    },
+    {
+      "url": "https://www.ebay.com/itm/305415636260",
+      "transactionId": "305415636260",
+      "reportedSaleDate": "2026-01-24",
+      "originalDisplayedSaleDate": "Fri Jan 23 7:03 PM; year inferred as 2026 from aggregator and weekday, timezone not shown",
+      "usd": 3,
+      "shippingUSD": 5.25,
+      "seller": "TheLair:where collectors dwell",
+      "finding": "Original cached page explicitly SOLD, out of stock / two sold. UPC Does not apply; exact printing/full UPC not verified. Supported transaction evidence retained separately, no raw-reference import until identity resolved. Stale single-listing evidence*.",
+      "imageLead": "https://i.ebayimg.com/thumbs/images/g/8A4AAOSwn1tl27EH/s-l500.jpg"
+    },
+    {
+      "url": "https://www.ebay.com/itm/168325505924",
+      "transactionId": "168325505924",
+      "finding": "Ultimate Invasion first-print Negative Space active USD 5.99 Buy It Now, not completed."
+    },
+    {
+      "url": "https://www.ebay.com/itm/377138867150",
+      "transactionId": "377138867150",
+      "finding": "Redirected to product 28061958210; no original paid transaction verified."
+    }
+  ],
+  "failedOriginals": [
+    {
+      "url": "https://www.ebay.com/itm/155621492304",
+      "transactionId": "155621492304",
+      "reportedSaleDate": "2026-09-10",
+      "reportedUSD": 2.49,
+      "finding": "Affiliate and clean original fetch failed; aggregator-only*."
+    },
+    {
+      "url": "https://www.ebay.com/itm/326052945511",
+      "transactionId": "326052945511",
+      "reportedSaleDate": "2025-12-06",
+      "reportedUSD": 2.72,
+      "finding": "Affiliate and clean original fetch failed; aggregator-only*, stale."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "url": "https://www.midtowncomics.com/product/2208198",
+      "finding": "UPC 75960620234800161 / APR230635 / John Tyler Christopher Negative Space corroborated. Called Cover E here, Cover F by G-Mart; UPC identity takes precedence over retailer letter."
+    },
+    {
+      "url": "https://www.g-mart.com/static/f231284.html",
+      "finding": "First printing Negative Space, full UPC 75960620234800161; identity only."
+    },
+    {
+      "url": "https://shop.thirdeyecomics.com/products/apr230706-miles-morales-spider-man-7-pichelli-ult-last-look-var",
+      "finding": "Pichelli variant APR230706, full UPC 75960620483000731. Retail sold-out status not a sale."
+    },
+    {
+      "url": "https://www.comiclink.com/Auctions/allsub.asp?FROM=&Focused=1++&TO=&id=4958&pg=2",
+      "finding": "Ended Oct 2 2026 Hulk v2023 #1 Gleason Virgin Edition A CGC 9.8, five bids, price sign-in. Wrong edition and grade; excluded without opening."
+    },
+    {
+      "url": "https://www.ebay.com/itm/188162137903",
+      "transactionId": "188162137903",
+      "finding": "Sold June 21 full-run 1-42 plus annual lot; not individual Pichelli 7."
+    },
+    {
+      "url": "https://www.ebay.com/itm/326739009210",
+      "transactionId": "326739009210",
+      "finding": "Ultimate Invasion USD 9.99 OBO active offer, not completed."
+    },
+    {
+      "url": "https://www.ebay.com/itm/366675261265",
+      "transactionId": "366675261265",
+      "finding": "Ultimate Invasion USD 12 OBO active offer, not completed."
+    }
+  ],
+  "searchOnly": [
+    {
+      "query": "\"Incredible Hulk\" \"Gleason\" \"Edition C\" \"9.6\"",
+      "finding": "No exact completed transaction established; Edition A elemental, signed copies and 9.8 excluded."
+    },
+    {
+      "query": "\"Incredible Hulk\" \"Gleason\" \"Edition C\" site:mycomicshop.com",
+      "finding": "No exact result surfaced; no auction lot inspected. Prior ComicBookRealm issue 11 ad mismatch and eBay 317498337555 SS9.8 excluded in September 27 ledger, not reopened."
+    }
+  ],
+  "nextLeads": [
+    "Pichelli 305415636260 is confirmed SOLD at USD 3 but full UPC/printing still needs visual verification; retained image lead has not been visually inspected. Compare owned scans without assigning condition.",
+    "Pichelli 155621492304 and 326052945511 original access failed; do not claim verified transactions.",
+    "Ultimate Invasion requires completed single first-print Negative Space sale; cover E/F letter varies by retailer, match UPC.",
+    "Hulk Edition C Universal 9.6 gap persists; October 2 ComicLink Edition A 9.8 is excluded."
+  ],
+  "unchanged": "No accepted values, raw references, condition assessments or totals changed.",
+  "artifactDecision": "Research-only evidence/report; viewer and PDF inputs unchanged. Protected PDF retained."
+}
