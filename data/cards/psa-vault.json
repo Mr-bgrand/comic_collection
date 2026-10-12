@@ -3610,6 +3610,1581 @@
         }
       },
       "scanStatus": "complete"
+    },
+    {
+      "kind": "card",
+      "cert": "169169652",
+      "grader": "PSA",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "year": "2025",
+      "brand": "TOPPS COSMIC CHROME DUAL STAR CLUSTERS",
+      "subject": "SHOHEI OHTANI/MOOKIE BETTS",
+      "cardNumber": "4",
+      "variety": "GREEN SPACE DUST",
+      "serial": null,
+      "category": "BASEBALL CARDS",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/169169652/psa",
+      "fmv": null,
+      "valuation": null,
+      "vault": {
+        "status": "Vaulted",
+        "afterService": "Sent to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-12T22:08:27.501Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/psa-169169652-169169676/owner-submission.json",
+        "importedAt": "2026-10-12T22:09:13.831Z"
+      },
+      "images": {
+        "front": "PSA_169169652_FRONT.jpg",
+        "back": "PSA_169169652_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-96c27ddc3194.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169652/psa",
+          "side": "front",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1435,
+          "originalHeight": 2400,
+          "sha256": "8422995e6a3744138a752b46b816e82a3d3c85f562e1038c9586ac9b5473a822"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-96c27ddc3194.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169652/psa",
+          "side": "back",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1432,
+          "originalHeight": 2400,
+          "sha256": "1014942a822f80f4483cc88f794a1df6fc32a67393b0f87409b1aac880d2ea49"
+        }
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "kind": "card",
+      "cert": "169169653",
+      "grader": "PSA",
+      "grade": "10",
+      "gradeDescription": "GEM MINT",
+      "year": "2026",
+      "brand": "POKEMON MEP EN-ME BLACK STAR PROMO",
+      "subject": "POPPLIO",
+      "cardNumber": "045",
+      "variety": "FIRST PARTNER ILLUSTRATION COLLECTION SERIES 1",
+      "serial": null,
+      "category": "TCG Cards",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/169169653/psa",
+      "fmv": null,
+      "valuation": null,
+      "vault": {
+        "status": "Vaulted",
+        "afterService": "Sent to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-12T22:08:27.501Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/psa-169169652-169169676/owner-submission.json",
+        "importedAt": "2026-10-12T22:09:13.831Z"
+      },
+      "images": {
+        "front": "PSA_169169653_FRONT.jpg",
+        "back": "PSA_169169653_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-a2dad72c318a.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169653/psa",
+          "side": "front",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1434,
+          "originalHeight": 2400,
+          "sha256": "63f5a7e94e101d5c1c1ccef62d643b3ee7d949f43bd3555e135e087843b0cf23"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-a2dad72c318a.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169653/psa",
+          "side": "back",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1426,
+          "originalHeight": 2400,
+          "sha256": "7a58c973e8b86334b7481321f26b0c87d14408f34afcd3f8c0c92899a8985879"
+        }
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "kind": "card",
+      "cert": "169169654",
+      "grader": "PSA",
+      "grade": "10",
+      "gradeDescription": "GEM MINT",
+      "year": "2026",
+      "brand": "POKEMON MEP EN-ME BLACK STAR PROMO",
+      "subject": "ROWLET",
+      "cardNumber": "043",
+      "variety": "FIRST PARTNER ILLUSTRATION COLLECTION SERIES 1",
+      "serial": null,
+      "category": "TCG Cards",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/169169654/psa",
+      "fmv": null,
+      "valuation": null,
+      "vault": {
+        "status": "Vaulted",
+        "afterService": "Sent to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-12T22:08:27.501Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/psa-169169652-169169676/owner-submission.json",
+        "importedAt": "2026-10-12T22:09:13.831Z"
+      },
+      "images": {
+        "front": "PSA_169169654_FRONT.jpg",
+        "back": "PSA_169169654_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-c3b9ec9edd38.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169654/psa",
+          "side": "front",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1434,
+          "originalHeight": 2400,
+          "sha256": "4a78ef5bfc2eb36beb481b3dc7311f8ceca457aeed7731c1e79f8df2098b4e63"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-c3b9ec9edd38.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169654/psa",
+          "side": "back",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1423,
+          "originalHeight": 2400,
+          "sha256": "3fe5a30e9566b4fdb05d802c90a970a15bc5c2b1b826ebc88e8631bb1aa29511"
+        }
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "kind": "card",
+      "cert": "169169655",
+      "grader": "PSA",
+      "grade": "10",
+      "gradeDescription": "GEM MINT",
+      "year": "2026",
+      "brand": "POKEMON MEP EN-ME BLACK STAR PROMO",
+      "subject": "LITTEN",
+      "cardNumber": "044",
+      "variety": "FIRST PARTNER ILLUSTRATION COLLECTION SERIES 1",
+      "serial": null,
+      "category": "TCG Cards",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/169169655/psa",
+      "fmv": null,
+      "valuation": null,
+      "vault": {
+        "status": "Vaulted",
+        "afterService": "Sent to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-12T22:08:27.501Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/psa-169169652-169169676/owner-submission.json",
+        "importedAt": "2026-10-12T22:09:13.831Z"
+      },
+      "images": {
+        "front": "PSA_169169655_FRONT.jpg",
+        "back": "PSA_169169655_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-21b9fbb366ca.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169655/psa",
+          "side": "front",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1433,
+          "originalHeight": 2400,
+          "sha256": "b7e592dd472d5a4f23bf2d4ca15ed45226e4ba1b2aaa5d5d685f14e210b08e76"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-21b9fbb366ca.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169655/psa",
+          "side": "back",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1427,
+          "originalHeight": 2400,
+          "sha256": "d0974232e757ffffd1d8ddb38c1ff5979fbab2e322e0947d07c8cad6c1c4a5ff"
+        }
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "kind": "card",
+      "cert": "169169656",
+      "grader": "PSA",
+      "grade": "8",
+      "gradeDescription": "NEAR MINT-MINT",
+      "year": "2026",
+      "brand": "POKEMON MEP EN-ME BLACK STAR PROMO",
+      "subject": "PIPLUP",
+      "cardNumber": "042",
+      "variety": "FIRST PARTNER ILLUSTRATION COLLECTION SERIES 1",
+      "serial": null,
+      "category": "TCG Cards",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/169169656/psa",
+      "fmv": null,
+      "valuation": null,
+      "vault": {
+        "status": "Vaulted",
+        "afterService": "Sent to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-12T22:08:27.501Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/psa-169169652-169169676/owner-submission.json",
+        "importedAt": "2026-10-12T22:09:13.831Z"
+      },
+      "images": {
+        "front": "PSA_169169656_FRONT.jpg",
+        "back": "PSA_169169656_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-a242628a9889.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169656/psa",
+          "side": "front",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1437,
+          "originalHeight": 2400,
+          "sha256": "f5dcc4ac152438ee1fabf6a2bf6639580914c4f527ece202b56867c55122a7ee"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-a242628a9889.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169656/psa",
+          "side": "back",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1427,
+          "originalHeight": 2400,
+          "sha256": "e7904fab3d70909f8724a37f3ee6fccd80ad73a8db3be44bc2b3d0d61388eae5"
+        }
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "kind": "card",
+      "cert": "169169657",
+      "grader": "PSA",
+      "grade": "10",
+      "gradeDescription": "GEM MINT",
+      "year": "2026",
+      "brand": "POKEMON MEP EN-ME BLACK STAR PROMO",
+      "subject": "BULBASAUR",
+      "cardNumber": "037",
+      "variety": "FIRST PARTNER ILLUSTRATION COLLECTION SERIES 1",
+      "serial": null,
+      "category": "TCG Cards",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/169169657/psa",
+      "fmv": null,
+      "valuation": null,
+      "vault": {
+        "status": "Vaulted",
+        "afterService": "Sent to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-12T22:08:27.501Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/psa-169169652-169169676/owner-submission.json",
+        "importedAt": "2026-10-12T22:09:13.831Z"
+      },
+      "images": {
+        "front": "PSA_169169657_FRONT.jpg",
+        "back": "PSA_169169657_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-e05dc7a0fd78.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169657/psa",
+          "side": "front",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1431,
+          "originalHeight": 2400,
+          "sha256": "93851eb0a63001702006156872cac7d4d9abdb2ee1c4b1b4f8d2c3305a134992"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-e05dc7a0fd78.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169657/psa",
+          "side": "back",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1422,
+          "originalHeight": 2400,
+          "sha256": "74499467a0934a74b7b97dcfa7e2054937b8587889bc19e02a9b18bcf7bf0619"
+        }
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "kind": "card",
+      "cert": "169169658",
+      "grader": "PSA",
+      "grade": "10",
+      "gradeDescription": "GEM MINT",
+      "year": "2025",
+      "brand": "POKEMON MEG EN-MEGA EVOLUTION",
+      "subject": "MEGA LATIAS EX",
+      "cardNumber": "181",
+      "variety": "SPECIAL ILLUSTRATION RARE",
+      "serial": null,
+      "category": "TCG Cards",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/169169658/psa",
+      "fmv": null,
+      "valuation": null,
+      "vault": {
+        "status": "Vaulted",
+        "afterService": "Sent to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-12T22:08:27.501Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/psa-169169652-169169676/owner-submission.json",
+        "importedAt": "2026-10-12T22:09:13.831Z"
+      },
+      "images": {
+        "front": "PSA_169169658_FRONT.jpg",
+        "back": "PSA_169169658_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-11e61d09faef.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169658/psa",
+          "side": "front",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1429,
+          "originalHeight": 2400,
+          "sha256": "99dda4298d8900cbc19302986e7e22f322b77caf45dc5d5c5ee9df0d6b92c994"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-11e61d09faef.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169658/psa",
+          "side": "back",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1424,
+          "originalHeight": 2400,
+          "sha256": "5f25238a96bd4fab1e17c15929adcad9438956ea4ed8bbcbf4f6840c096ebf80"
+        }
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "kind": "card",
+      "cert": "169169659",
+      "grader": "PSA",
+      "grade": "10",
+      "gradeDescription": "GEM MINT",
+      "year": "2025",
+      "brand": "POKEMON PFL EN-PHANTASMAL FLAMES",
+      "subject": "DAWN",
+      "cardNumber": "118",
+      "variety": "ULTRA RARE",
+      "serial": null,
+      "category": "TCG Cards",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/169169659/psa",
+      "fmv": null,
+      "valuation": null,
+      "vault": {
+        "status": "Vaulted",
+        "afterService": "Sent to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-12T22:08:27.501Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/psa-169169652-169169676/owner-submission.json",
+        "importedAt": "2026-10-12T22:09:13.831Z"
+      },
+      "images": {
+        "front": "PSA_169169659_FRONT.jpg",
+        "back": "PSA_169169659_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-6b1a25454cc5.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169659/psa",
+          "side": "front",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1437,
+          "originalHeight": 2400,
+          "sha256": "872f5a777860041eac6a98b14679fba5adee3a510b9e68b08443146df5819add"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-6b1a25454cc5.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169659/psa",
+          "side": "back",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1435,
+          "originalHeight": 2400,
+          "sha256": "4e77e9ef23dd2363c72f8778ff44590e4073f6bab3ab014949bfbafc7eea54b3"
+        }
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "kind": "card",
+      "cert": "169169660",
+      "grader": "PSA",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "year": "2023",
+      "brand": "POKEMON MEW EN-151",
+      "subject": "ZAPDOS EX",
+      "cardNumber": "202",
+      "variety": "SPECIAL ILLUSTRATION RARE",
+      "serial": null,
+      "category": "TCG Cards",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/169169660/psa",
+      "fmv": null,
+      "valuation": null,
+      "vault": {
+        "status": "Vaulted",
+        "afterService": "Sent to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-12T22:08:27.501Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/psa-169169652-169169676/owner-submission.json",
+        "importedAt": "2026-10-12T22:09:13.831Z"
+      },
+      "images": {
+        "front": "PSA_169169660_FRONT.jpg",
+        "back": "PSA_169169660_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-9edd440c43a5.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169660/psa",
+          "side": "front",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1431,
+          "originalHeight": 2400,
+          "sha256": "b2225f35c7a98820ad0ba7e2156502c7c961f38402a674f6d0380a4c2cce3bb0"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-9edd440c43a5.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169660/psa",
+          "side": "back",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1427,
+          "originalHeight": 2400,
+          "sha256": "0f6db1cca372efe4fc3e8fd0fae58d9bd84d4c2458e7e45f5a268c5ce8a82f59"
+        }
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "kind": "card",
+      "cert": "169169661",
+      "grader": "PSA",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "year": "2023",
+      "brand": "POKEMON PAR EN-PARADOX RIFT",
+      "subject": "MANTYKE",
+      "cardNumber": "189",
+      "variety": "ILLUSTRATION RARE",
+      "serial": null,
+      "category": "TCG Cards",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/169169661/psa",
+      "fmv": null,
+      "valuation": null,
+      "vault": {
+        "status": "Vaulted",
+        "afterService": "Sent to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-12T22:08:27.501Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/psa-169169652-169169676/owner-submission.json",
+        "importedAt": "2026-10-12T22:09:13.831Z"
+      },
+      "images": {
+        "front": "PSA_169169661_FRONT.jpg",
+        "back": "PSA_169169661_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-3c69bb067c3a.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169661/psa",
+          "side": "front",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1430,
+          "originalHeight": 2400,
+          "sha256": "e4d730e0e2a3f2425531bb9e213326b224018dca69b4ad0887edccad8bc99cf9"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-3c69bb067c3a.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169661/psa",
+          "side": "back",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1436,
+          "originalHeight": 2400,
+          "sha256": "1503be72b37adb60871e44ffc8d02bafce2a9b018ad3542afcde834264f9048c"
+        }
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "kind": "card",
+      "cert": "169169662",
+      "grader": "PSA",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "year": "2024",
+      "brand": "POKEMON SSP EN-SURGING SPARKS",
+      "subject": "PHANPY",
+      "cardNumber": "205",
+      "variety": "ILLUSTRATION RARE",
+      "serial": null,
+      "category": "TCG Cards",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/169169662/psa",
+      "fmv": null,
+      "valuation": null,
+      "vault": {
+        "status": "Vaulted",
+        "afterService": "Sent to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-12T22:08:27.501Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/psa-169169652-169169676/owner-submission.json",
+        "importedAt": "2026-10-12T22:09:13.831Z"
+      },
+      "images": {
+        "front": "PSA_169169662_FRONT.jpg",
+        "back": "PSA_169169662_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-88a3e5ff7e41.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169662/psa",
+          "side": "front",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1433,
+          "originalHeight": 2400,
+          "sha256": "aadd241e46e4c38f035edb96aeb749888aaaaa670a58f6b8dfc6e5ecd5fac57e"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-88a3e5ff7e41.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169662/psa",
+          "side": "back",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1427,
+          "originalHeight": 2400,
+          "sha256": "bf76e2aabe17a71100792b8c643ecce3ba105354f146b0cee72f11372638abe7"
+        }
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "kind": "card",
+      "cert": "169169663",
+      "grader": "PSA",
+      "grade": "8",
+      "gradeDescription": "NEAR MINT-MINT",
+      "year": "2024",
+      "brand": "POKEMON TEF EN-TEMPORAL FORCES",
+      "subject": "GENGAR EX",
+      "cardNumber": "193",
+      "variety": "ULTRA RARE",
+      "serial": null,
+      "category": "TCG Cards",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/169169663/psa",
+      "fmv": null,
+      "valuation": null,
+      "vault": {
+        "status": "Vaulted",
+        "afterService": "Sent to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-12T22:08:27.501Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/psa-169169652-169169676/owner-submission.json",
+        "importedAt": "2026-10-12T22:09:13.831Z"
+      },
+      "images": {
+        "front": "PSA_169169663_FRONT.jpg",
+        "back": "PSA_169169663_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-e3f9a7878802.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169663/psa",
+          "side": "front",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1434,
+          "originalHeight": 2400,
+          "sha256": "87b6af87a673069f62cce4899a2c105361a3b920e89de8d9b1de96488d7f5bd7"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-e3f9a7878802.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169663/psa",
+          "side": "back",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1422,
+          "originalHeight": 2400,
+          "sha256": "78223af0ece06042c26adff6ae456115682f5a2d06e525040a8d90faba0864ba"
+        }
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "kind": "card",
+      "cert": "169169664",
+      "grader": "PSA",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "year": "2023",
+      "brand": "POKEMON PAR EN-PARADOX RIFT",
+      "subject": "BRUTE BONNET",
+      "cardNumber": "207",
+      "variety": "ILLUSTRATION RARE",
+      "serial": null,
+      "category": "TCG Cards",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/169169664/psa",
+      "fmv": null,
+      "valuation": null,
+      "vault": {
+        "status": "Vaulted",
+        "afterService": "Sent to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-12T22:08:27.501Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/psa-169169652-169169676/owner-submission.json",
+        "importedAt": "2026-10-12T22:09:13.831Z"
+      },
+      "images": {
+        "front": "PSA_169169664_FRONT.jpg",
+        "back": "PSA_169169664_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-7f0b269e7435.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169664/psa",
+          "side": "front",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1433,
+          "originalHeight": 2400,
+          "sha256": "4581d39fac931696c6fa028df9e631347759f81d4b6827c709fcf2c3084194bc"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-7f0b269e7435.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169664/psa",
+          "side": "back",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1435,
+          "originalHeight": 2400,
+          "sha256": "1e3cc76efcc2a10741595dc6a76e11fd0ea9e49fe7d72d86fa69ca7a9de28c2d"
+        }
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "kind": "card",
+      "cert": "169169665",
+      "grader": "PSA",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "year": "2025",
+      "brand": "POKEMON PRE EN-PRISMATIC EVOLUTIONS",
+      "subject": "PECHARUNT EX",
+      "cardNumber": "163",
+      "variety": "SPECIAL ILLUSTRATION RARE",
+      "serial": null,
+      "category": "TCG Cards",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/169169665/psa",
+      "fmv": null,
+      "valuation": null,
+      "vault": {
+        "status": "Vaulted",
+        "afterService": "Sent to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-12T22:08:27.501Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/psa-169169652-169169676/owner-submission.json",
+        "importedAt": "2026-10-12T22:09:13.831Z"
+      },
+      "images": {
+        "front": "PSA_169169665_FRONT.jpg",
+        "back": "PSA_169169665_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-101899b577df.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169665/psa",
+          "side": "front",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1432,
+          "originalHeight": 2400,
+          "sha256": "5541c3b11ea04d1886ebdad7f1476fa080d970827b2853a8617c36e2a6bacb21"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-101899b577df.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169665/psa",
+          "side": "back",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1432,
+          "originalHeight": 2400,
+          "sha256": "6baee8cd25d29d07709d1c1288906233758761d25bead065f8a540314448edc6"
+        }
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "kind": "card",
+      "cert": "169169666",
+      "grader": "PSA",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "year": "2025",
+      "brand": "POKEMON PFL EN-PHANTASMAL FLAMES",
+      "subject": "MEGA CHARIZARD X EX",
+      "cardNumber": "109",
+      "variety": "ULTRA RARE",
+      "serial": null,
+      "category": "TCG Cards",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/169169666/psa",
+      "fmv": null,
+      "valuation": null,
+      "vault": {
+        "status": "Vaulted",
+        "afterService": "Sent to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-12T22:08:27.501Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/psa-169169652-169169676/owner-submission.json",
+        "importedAt": "2026-10-12T22:09:13.831Z"
+      },
+      "images": {
+        "front": "PSA_169169666_FRONT.jpg",
+        "back": "PSA_169169666_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-0c1f83d5074f.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169666/psa",
+          "side": "front",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1438,
+          "originalHeight": 2400,
+          "sha256": "1398091a2a0f79e73c5f8a77b694dc942c7b0a0a73047427c61a46bbd51ee7f9"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-0c1f83d5074f.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169666/psa",
+          "side": "back",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1424,
+          "originalHeight": 2400,
+          "sha256": "ab59cdc016abe83db30f5039f638b9d65e5103f4db488a2a6432aff01c987cc8"
+        }
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "kind": "card",
+      "cert": "169169667",
+      "grader": "PSA",
+      "grade": "8",
+      "gradeDescription": "NEAR MINT-MINT",
+      "year": "2025",
+      "brand": "POKEMON SVP EN-SV BLACK STAR PROMO",
+      "subject": "N'S ZORUA",
+      "cardNumber": "189",
+      "variety": "JOURNEY TOGETHER ELITE TRAINER BOX",
+      "serial": null,
+      "category": "TCG Cards",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/169169667/psa",
+      "fmv": null,
+      "valuation": null,
+      "vault": {
+        "status": "Vaulted",
+        "afterService": "Sent to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-12T22:08:27.501Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/psa-169169652-169169676/owner-submission.json",
+        "importedAt": "2026-10-12T22:09:13.831Z"
+      },
+      "images": {
+        "front": "PSA_169169667_FRONT.jpg",
+        "back": "PSA_169169667_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-59b69fc2f562.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169667/psa",
+          "side": "front",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1432,
+          "originalHeight": 2400,
+          "sha256": "0172314e4cb446b8ac5ec598d26d11eedaacadaf5c8e6f13e0813098b9a51380"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-59b69fc2f562.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169667/psa",
+          "side": "back",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1432,
+          "originalHeight": 2400,
+          "sha256": "21d9808ff7d6630f7f93a652dcb8066e02074ec9402b3dbf78b8d22cbcef0f5f"
+        }
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "kind": "card",
+      "cert": "169169668",
+      "grader": "PSA",
+      "grade": "10",
+      "gradeDescription": "GEM MINT",
+      "year": "2025",
+      "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+      "subject": "REGGIE JACKSON",
+      "cardNumber": "61",
+      "variety": "PAINT SPLATTER",
+      "serial": null,
+      "category": "BASEBALL CARDS",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/169169668/psa",
+      "fmv": null,
+      "valuation": null,
+      "vault": {
+        "status": "Vaulted",
+        "afterService": "Sent to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-12T22:08:27.501Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/psa-169169652-169169676/owner-submission.json",
+        "importedAt": "2026-10-12T22:09:13.831Z"
+      },
+      "images": {
+        "front": "PSA_169169668_FRONT.jpg",
+        "back": "PSA_169169668_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-0d59b2fda483.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169668/psa",
+          "side": "front",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1434,
+          "originalHeight": 2400,
+          "sha256": "80136add444c9323c7b956f3050ed36f008ba04dca324ff62353bc80208fac17"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-0d59b2fda483.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169668/psa",
+          "side": "back",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1426,
+          "originalHeight": 2400,
+          "sha256": "4d86d78d31eafbeb6a774b95f030c456d17688b26eae5c6b4f0e46e989b94ecc"
+        }
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "kind": "card",
+      "cert": "169169669",
+      "grader": "PSA",
+      "grade": "10",
+      "gradeDescription": "GEM MINT",
+      "year": "2025",
+      "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+      "subject": "PAUL SKENES",
+      "cardNumber": "9",
+      "variety": null,
+      "serial": null,
+      "category": "BASEBALL CARDS",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/169169669/psa",
+      "fmv": null,
+      "valuation": null,
+      "vault": {
+        "status": "Vaulted",
+        "afterService": "Sent to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-12T22:08:27.501Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/psa-169169652-169169676/owner-submission.json",
+        "importedAt": "2026-10-12T22:09:13.831Z"
+      },
+      "images": {
+        "front": "PSA_169169669_FRONT.jpg",
+        "back": "PSA_169169669_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-293540d1cf60.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169669/psa",
+          "side": "front",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1440,
+          "originalHeight": 2400,
+          "sha256": "76cb82af2d199c9b2d05a42cd213f7f73c2a2cd3ed0e0c72466554ddee2c6a1e"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-293540d1cf60.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169669/psa",
+          "side": "back",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1429,
+          "originalHeight": 2400,
+          "sha256": "26a09651a112c98d889e8f03ddfb343b748c2cd5befcc9aeef9d6dec751f3f18"
+        }
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "kind": "card",
+      "cert": "169169670",
+      "grader": "PSA",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "year": "2025",
+      "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+      "subject": "KEN GRIFFEY JR.",
+      "cardNumber": "54",
+      "variety": null,
+      "serial": null,
+      "category": "BASEBALL CARDS",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/169169670/psa",
+      "fmv": null,
+      "valuation": null,
+      "vault": {
+        "status": "Vaulted",
+        "afterService": "Sent to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-12T22:08:27.501Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/psa-169169652-169169676/owner-submission.json",
+        "importedAt": "2026-10-12T22:09:13.831Z"
+      },
+      "images": {
+        "front": "PSA_169169670_FRONT.jpg",
+        "back": "PSA_169169670_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-51e9f6ac5575.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169670/psa",
+          "side": "front",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1438,
+          "originalHeight": 2400,
+          "sha256": "f3198fd6f07c20a940411092ae733e2120a8c47ae7282c7cd74202ba28659c8a"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-51e9f6ac5575.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169670/psa",
+          "side": "back",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1428,
+          "originalHeight": 2400,
+          "sha256": "a30d1251bba7d8efe0fdb0f2f97222f1032f34279fd520aa5345679f2bc693f5"
+        }
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "kind": "card",
+      "cert": "169169671",
+      "grader": "PSA",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "year": "2025",
+      "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+      "subject": "MOOKIE BETTS",
+      "cardNumber": "10",
+      "variety": null,
+      "serial": null,
+      "category": "BASEBALL CARDS",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/169169671/psa",
+      "fmv": null,
+      "valuation": null,
+      "vault": {
+        "status": "Vaulted",
+        "afterService": "Sent to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-12T22:08:27.501Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/psa-169169652-169169676/owner-submission.json",
+        "importedAt": "2026-10-12T22:09:13.831Z"
+      },
+      "images": {
+        "front": "PSA_169169671_FRONT.jpg",
+        "back": "PSA_169169671_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-06c1be588fdc.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169671/psa",
+          "side": "front",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1435,
+          "originalHeight": 2400,
+          "sha256": "972760fa77e0d72e41df4148099525c38e12bb274662493f1be123c172f561b0"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-06c1be588fdc.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169671/psa",
+          "side": "back",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1424,
+          "originalHeight": 2400,
+          "sha256": "cec0e002fd528be7c5b4c0972193595dc1caf44735837aa35351831c174f1a02"
+        }
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "kind": "card",
+      "cert": "169169672",
+      "grader": "PSA",
+      "grade": "10",
+      "gradeDescription": "GEM MINT",
+      "year": "2025",
+      "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+      "subject": "AARON JUDGE",
+      "cardNumber": "34",
+      "variety": null,
+      "serial": null,
+      "category": "BASEBALL CARDS",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/169169672/psa",
+      "fmv": null,
+      "valuation": null,
+      "vault": {
+        "status": "Vaulted",
+        "afterService": "Sent to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-12T22:08:27.501Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/psa-169169652-169169676/owner-submission.json",
+        "importedAt": "2026-10-12T22:09:13.831Z"
+      },
+      "images": {
+        "front": "PSA_169169672_FRONT.jpg",
+        "back": "PSA_169169672_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-e1e05c1ab173.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169672/psa",
+          "side": "front",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1434,
+          "originalHeight": 2400,
+          "sha256": "d2256730faf8176495889e4e32a15b277bb99ccf1f11808d3b2bf3a0ae412e8c"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-e1e05c1ab173.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169672/psa",
+          "side": "back",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1430,
+          "originalHeight": 2400,
+          "sha256": "0a735e575dbd5905cca6f63682891516acb6240bf26d07123ba1e5fe46d5ad15"
+        }
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "kind": "card",
+      "cert": "169169673",
+      "grader": "PSA",
+      "grade": "10",
+      "gradeDescription": "GEM MINT",
+      "year": "2025",
+      "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+      "subject": "DJ HERZ",
+      "cardNumber": "76H",
+      "variety": "AUTOGRAPH-PAINT SPLATTER",
+      "serial": null,
+      "category": "BASEBALL CARDS",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/169169673/psa",
+      "fmv": null,
+      "valuation": null,
+      "vault": {
+        "status": "Vaulted",
+        "afterService": "Sent to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-12T22:08:27.501Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/psa-169169652-169169676/owner-submission.json",
+        "importedAt": "2026-10-12T22:09:13.831Z"
+      },
+      "images": {
+        "front": "PSA_169169673_FRONT.jpg",
+        "back": "PSA_169169673_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-b552d2c5d63b.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169673/psa",
+          "side": "front",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1436,
+          "originalHeight": 2400,
+          "sha256": "79cfbf7975dde07aa1b364abf3f1888f94941927a62314448bd3672ea4f4cc69"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-b552d2c5d63b.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169673/psa",
+          "side": "back",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1426,
+          "originalHeight": 2400,
+          "sha256": "906a60badd03fee746380599071c0fb73a06e3e5ccb0ce6435f8375d756bb935"
+        }
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "kind": "card",
+      "cert": "169169674",
+      "grader": "PSA",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "year": "2025",
+      "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+      "subject": "BEN RICE",
+      "cardNumber": "84",
+      "variety": "INDIAN YELLOW",
+      "serial": null,
+      "category": "BASEBALL CARDS",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/169169674/psa",
+      "fmv": null,
+      "valuation": null,
+      "vault": {
+        "status": "Vaulted",
+        "afterService": "Sent to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-12T22:08:27.501Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/psa-169169652-169169676/owner-submission.json",
+        "importedAt": "2026-10-12T22:09:13.831Z"
+      },
+      "images": {
+        "front": "PSA_169169674_FRONT.jpg",
+        "back": "PSA_169169674_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-b9038efdc06d.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169674/psa",
+          "side": "front",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1442,
+          "originalHeight": 2400,
+          "sha256": "4f28e0c31b652f2bc7780a35578b33375ca3ef0a5e84dcb1bfb91e8cf241e63f"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-b9038efdc06d.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169674/psa",
+          "side": "back",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1422,
+          "originalHeight": 2400,
+          "sha256": "09acb8977b025a957fdf154726f545e403ebf8d23d169a16242128afe2f62300"
+        }
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "kind": "card",
+      "cert": "169169675",
+      "grader": "PSA",
+      "grade": "10",
+      "gradeDescription": "GEM MINT",
+      "year": "2025",
+      "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+      "subject": "ICHIRO",
+      "cardNumber": "69",
+      "variety": null,
+      "serial": null,
+      "category": "BASEBALL CARDS",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/169169675/psa",
+      "fmv": null,
+      "valuation": null,
+      "vault": {
+        "status": "Vaulted",
+        "afterService": "Sent to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-12T22:08:27.501Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/psa-169169652-169169676/owner-submission.json",
+        "importedAt": "2026-10-12T22:09:13.831Z"
+      },
+      "images": {
+        "front": "PSA_169169675_FRONT.jpg",
+        "back": "PSA_169169675_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-00ea7075f69f.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169675/psa",
+          "side": "front",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1449,
+          "originalHeight": 2400,
+          "sha256": "2440a9c44a150c4443bd077a94e40faf48570c05dd26ab2c6381cca90e4ea323"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-00ea7075f69f.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169675/psa",
+          "side": "back",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1430,
+          "originalHeight": 2400,
+          "sha256": "e6e8fac3d60b2dd9a91bea2d8c17c515fd6b47e3ab4aa8848bd3aad414e21968"
+        }
+      },
+      "scanStatus": "complete"
+    },
+    {
+      "kind": "card",
+      "cert": "169169676",
+      "grader": "PSA",
+      "grade": "9",
+      "gradeDescription": "MINT",
+      "year": "2025",
+      "brand": "GUNDAM NEWTYPE RISING",
+      "subject": "OVERFLOWING AFFECTION",
+      "cardNumber": "118",
+      "variety": "UNCOMMON+",
+      "serial": null,
+      "category": "TCG Cards",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/169169676/psa",
+      "fmv": null,
+      "valuation": null,
+      "vault": {
+        "status": "Vaulted",
+        "afterService": "Sent to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-12T22:08:27.501Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/psa-169169652-169169676/owner-submission.json",
+        "importedAt": "2026-10-12T22:09:13.831Z"
+      },
+      "images": {
+        "front": "PSA_169169676_FRONT.jpg",
+        "back": "PSA_169169676_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-42f7dfaf5f56.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169676/psa",
+          "side": "front",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1431,
+          "originalHeight": 2400,
+          "sha256": "aacd248971e8304c2a7d353ca3565f88ec4872b2fc090612cc0c282ed6670754"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-42f7dfaf5f56.zip",
+          "pageUrl": "https://www.psacard.com/cert/169169676/psa",
+          "side": "back",
+          "sideBasis": "PSA archive entry includes matching cert and Front/Back designation; front label visually reviewed",
+          "retrievedAt": "2026-10-12T22:09:13.831Z",
+          "originalWidth": 1430,
+          "originalHeight": 2400,
+          "sha256": "5156e88bfc4f22934f5da3204f8188980c7a201e83ad3ff489f24aa2f2b1931d"
+        }
+      },
+      "scanStatus": "complete"
     }
   ],
   "id": "psa-vault",
