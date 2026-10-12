@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-12T09:28:25.284Z",
+  "batch": "09UTC",
+  "accepted": [],
+  "subjects": [
+    {
+      "copyIds": [
+        "Authority:9364212668",
+        "Authority:5819648189",
+        "Authority:0722910234"
+      ],
+      "identity": "Miles Morales Spider-Man 7 Taurin Clarke Connecting, raw unassessed, UPC 75960620483000721"
+    },
+    {
+      "copyId": "Authority:3396613329",
+      "identity": "Batman 137 Salvador Larroca Cover F 1:25, raw unassessed, UPC 76194134182813741"
+    },
+    {
+      "copyId": "CGC:4471692006",
+      "identity": "Spider-Man 7 Panini Mexican El Quinto Mundo, Ramos foil 2024, Universal 9.8"
+    }
+  ],
+  "directPages": [
+    {
+      "url": "https://www.ebay.com/itm/325800140919",
+      "transactionId": "325800140919",
+      "finding": "Cached active USD 9.99 offer, three available; UPC Does not apply. Not completed; excluded."
+    },
+    {
+      "url": "https://www.ebay.com/itm/325802929286",
+      "transactionId": "325802929286",
+      "finding": "Stale cached Buy It Now USD 19.99 offer, seller jonscomicsntoys; SKU 0723DC021 and full UPC 76194134182813741 corroborate Larroca variant identity. Issue-specific field incorrectly says 13. Not a completed sale; excluded."
+    },
+    {
+      "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-clarke-7-2023",
+      "finding": "Cached guide opened initially; find and subsequent open failed. Original transaction IDs not recovered. Indexed history remains unverified*."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "url": "https://www.midtowncomics.com/p/2233077-batman-vol-3-137-cover-f-incentive-salvador-larroca-card-stock-variant-cover-the-gotham-war-part-2/",
+      "finding": "Cover F 1:25 Larroca, SKU 0723DC021 and full UPC identity corroboration only."
+    },
+    {
+      "url": "https://shop.thirdeyecomics.com/products/batman-137-cvr-f-inc-1-25-salvador-larroca-card-stock-var-batman-catwoman-the-gotham-war",
+      "finding": "Matching Larroca full UPC; retail or sold-out status is not transaction evidence."
+    },
+    {
+      "url": "https://www.pricecharting.com/game/comic-books-batman/batman-larroca-137-2023",
+      "finding": "Matching UPC indexed; guide value not accepted without original sale."
+    },
+    {
+      "url": "https://www.pricecharting.com/game/comic-books-miles-morales-spider-man/miles-morales-spider-man-clarke-7-2023",
+      "reportedRows": [
+        {
+          "date": "2025-07-06",
+          "usd": 1
+        },
+        {
+          "date": "2025-04-27",
+          "usd": 2.99
+        },
+        {
+          "date": "2025-04-20",
+          "usd": 8.95
+        },
+        {
+          "date": "2024-04-26",
+          "usd": 3
+        }
+      ],
+      "finding": "Stale undocumented history*; no original transaction IDs or full UPC verified for these sales. No reference imported."
+    },
+    {
+      "url": "https://www.ebay.com/itm/295889728881",
+      "transactionId": "295889728881",
+      "finding": "Clarke issue 7 first printing single, active USD 12.99 offer; UPC Does not apply. Asking price excluded."
+    },
+    {
+      "url": "https://www.ebay.com/itm/196351260680",
+      "transactionId": "196351260680",
+      "finding": "Clarke issue 7 active USD 4.99 offer; not completed."
+    },
+    {
+      "url": "https://www.comiclink.com/auctions/item.asp?id=1914144&itemType=0",
+      "finding": "ASM 300 Mexican reprint 2022 CGC 9.8; wrong issue for owned Spider-Man 7. Not opened."
+    }
+  ],
+  "searchOnly": [
+    {
+      "query": "\"Spider-Man\" \"El Quinto Mundo\" \"9.8\" sold",
+      "finding": "No exact newly supported transaction; wrong-issue archive results excluded."
+    },
+    {
+      "query": "\"Spider-Man\" \"7\" \"El Quinto Mundo\" auction CGC",
+      "finding": "No exact verified transaction. Previously excluded MCS 63133952 and 62076378 read in saved October 6 report, not reopened."
+    },
+    {
+      "query": "\"Spider-Man\" \"El Quinto Mundo\" \"7\" site:comics.ha.com",
+      "finding": "No exact Heritage result surfaced; no archive page opened."
+    },
+    {
+      "query": "\"Miles Morales\" \"7B\" site:mycomicshop.com",
+      "finding": "Returned 2019-series TID 47513452, wrong series. Not opened."
+    },
+    {
+      "query": "\"Miles Morales\" \"7\" \"Clarke\" site:ebay.com/itm sold",
+      "finding": "Matching issue offers 295889728881 and 196351260680; no verified completed sale."
+    }
+  ],
+  "nextLeads": [
+    "Recover original IDs for the indexed Miles 7 Clarke raw history before accepting any provisional reference. Require full UPC and printing match; assess no owned condition from cover.",
+    "Seek exact Spider-Man 7 Panini Ramos El Quinto Mundo Universal 9.8 transaction. MCS prior wrong-issue lots are exhausted; ComicBookRealm exact analyzer remains to locate.",
+    "Batman Larroca full UPC is corroborated; seek a completed single-copy transaction, not current retail offers."
+  ],
+  "unchanged": "No estimates, accepted values, raw references, condition assignments or collection totals changed.",
+  "artifactDecision": "Research-only ledger and report; rendering inputs unchanged, so viewer and print PDFs retained. Protected all-case-labels-4x6-updated.pdf left untouched."
+}
