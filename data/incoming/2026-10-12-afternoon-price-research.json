@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-12T17:34:25.845Z",
+  "batch": "17UTC",
+  "accepted": [],
+  "subjects": [
+    {
+      "copyId": "Authority:0684669238",
+      "identity": "Harley Quinn Black + White + Redder 1 Guillem March, UPC 76194137938800131, raw unassessed"
+    },
+    {
+      "copyId": "Authority:3894566865",
+      "identity": "Marvel Unleashed 1 David Baldeon Cover A, UPC 75960620134100111, raw unassessed"
+    },
+    {
+      "copyId": "CGC:4386585001",
+      "identity": "The Cull 1 Shrike variant, Universal 9.8"
+    }
+  ],
+  "directPages": [
+    {
+      "url": "https://www.ebay.com/itm/175824636249",
+      "transactionId": "175824636249",
+      "finding": "Initially returned cached item; follow-up redirected to catalog 24061830706 with current USD 3.25 offer. No original completed price or date verified."
+    },
+    {
+      "url": "https://www.ebay.com/itm/235146738024",
+      "transactionId": "235146738024",
+      "finding": "Greenpath Comics active USD 4.99 Buy It Now, unsigned single Baldeon cover A. Not completed; excluded."
+    },
+    {
+      "url": "https://www.mycomicshop.com/search?TID=58959442",
+      "finding": "March 1C two NM USD 4 add-to-cart offers, not auction results. Neighboring Artgerm and foil graded listings excluded."
+    }
+  ],
+  "failedOpens": [
+    {
+      "url": "https://www.marvel.com/comics/issue/93812/marvel_unleashed_2023_1",
+      "finding": "Direct fetch failed; indexed publisher evidence only."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "url": "https://www.marvel.com/comics/issue/93812/marvel_unleashed_2023_1",
+      "finding": "Publisher index corroborates David Baldeon cover, August 23 2023 release and full UPC 75960620134100111; no valuation evidence."
+    },
+    {
+      "url": "https://www.g-mart.com/static/f232623.html",
+      "finding": "March Cover C, SKU 0523DC193, full UPC 76194137938800131. Retail evidence only."
+    },
+    {
+      "url": "https://www.ebay.com/itm/117419690772",
+      "transactionId": "117419690772",
+      "finding": "Legendary Comics USD 4.24 active offer. Seller NM 9.4 description is not owned condition or certified grade."
+    },
+    {
+      "url": "https://www.ebay.com/itm/235404239689",
+      "transactionId": "235404239689",
+      "finding": "Cab Comics and Gaming USD 3.29 active first-print Baldeon offer; not completed."
+    },
+    {
+      "url": "https://www.ebay.com/itm/166932100549",
+      "transactionId": "166932100549",
+      "finding": "March variant USD 8.95 OBO, ten available; not completed."
+    },
+    {
+      "url": "https://www.mercari.com/us/shop/batman-black-and-white-comics/",
+      "finding": "Category index reports SOLD Harley Black White Redder 1 USD 2.99, but exact variant, full UPC, date and transaction ID unverified*. Lead only; no import."
+    }
+  ],
+  "searchOnly": [
+    {
+      "query": "\"The Cull\" \"Shrike\" \"9.8\" auction",
+      "finding": "No exact graded result; generic eBay category combines raw Shrike and unrelated graded titles."
+    },
+    {
+      "query": "\"The Cull\" \"Shrike\" site:comiclink.com",
+      "finding": "No exact result surfaced; no ComicLink lot opened."
+    },
+    {
+      "query": "\"The Cull\" \"Shrike\" site:comicbookrealm.com",
+      "finding": "No exact result surfaced; no CGC Analyzer record located."
+    },
+    {
+      "query": "\"The Cull\" \"Shrike\" CGC sale -site:ebay.com",
+      "finding": "Previously excluded Whatnot raw unavailable USD 20 and Underdog raw retailer offer recurred. Read September 29 ledger; did not reopen these sources."
+    }
+  ],
+  "nextLeads": [
+    "Mercari Harley USD 2.99 category result requires original item URL, March artwork/full UPC and sale details before any reference.",
+    "Marvel Unleashed Baldeon: find completed single-copy first-print sale; checked active listings are exhausted.",
+    "Cull Shrike Universal 9.8 remains an exact-grade transaction gap; do not repeat raw Whatnot/Underdog or modeled guide estimate."
+  ],
+  "unchanged": "No value, raw reference, owned condition or total changes.",
+  "artifactDecision": "Research-only notes; rendering inputs unchanged, viewer and print PDFs retained. Protected PDF untouched."
+}
