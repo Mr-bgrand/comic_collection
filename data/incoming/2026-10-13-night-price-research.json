@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-13T01:40:05.550Z",
+  "batch": "01UTC",
+  "accepted": [
+    "PSA:169169659"
+  ],
+  "rawReferences": [
+    "Authority:5756089877",
+    "Authority:2464434782",
+    "Authority:7146078078"
+  ],
+  "directPages": [
+    {
+      "url": "https://www.fanaticscollect.com/buy-now/1d463ad7-8abd-45aa-a061-513e24816050",
+      "copyId": "PSA:169169659",
+      "transactionId": "1d463ad7-8abd-45aa-a061-513e24816050",
+      "comparableCert": "148427071",
+      "saleDate": "2026-09-09",
+      "usd": 49,
+      "finding": "Explicit SOLD, exact Dawn 118 English Phantasmal Flames PSA10. One-sale provisional estimate*. Other history rows Oct5 $43.20, Sep28 $37.20, Jul6 $44.40 lack individual transaction IDs; excluded from count."
+    },
+    {
+      "url": "https://www.ebay.com/itm/305415636260",
+      "transactionId": "305415636260",
+      "finding": "Sold page checked in prior evening ledger; current retry returns404. Prior SOLD USD3, shipping5.25; displayed FriJan23 7:03PM year inferred2026; aggregator Jan24. Today sale image retrieved and visually compared with owned Authority5756089877. FullUPC75960620483000731 and cover/supplement00731 match. Stale single-sale reference*, unassessed condition; applies to three identical catalogued copies."
+    },
+    {
+      "url": "https://i.ebayimg.com/thumbs/images/g/8A4AAOSwn1tl27EH/s-l500.jpg",
+      "saved": "data/incoming/2026-10-13-pichelli-305415636260.jpg",
+      "sha256": "899c391a06a774d87546ceefe4259dd27a52d6efef553f219d48625aedcbad91",
+      "finding": "Downloaded via shell after web image retrieval failed; visually inspected with owned front scan. No condition assessment."
+    },
+    {
+      "url": "https://www.pricecharting.com/game/pokemon-paradox-rift/mantyke-189",
+      "copyId": "PSA:169169661",
+      "finding": "PSA9 candidate sales recovered: 298724614191 Oct7 2026 $21.50;307208209380 Oct10 $39.50. Affiliate and clean original fetches failed. Aggregator-only*, not imported. ACE9 excluded."
+    },
+    {
+      "url": "https://www.pokevalues.com/card/dawn-phantasmal-flames-118",
+      "finding": "Lead source for verified Fanatics sale. eBay links for cert151397845 $46 and151397870 $33 Sep7 failed; not counted."
+    },
+    {
+      "url": "https://www.gundamvalues.com/card/overflowing-affection-u-newtype-rising-gd01-118",
+      "copyId": "PSA:169169676",
+      "finding": "Only Japanese raw and PSA10 rows shown; no exact PSA9 comparison. Beta and SteelRequiem excluded."
+    },
+    {
+      "url": "https://www.mycomicshop.com/search?TID=57388763",
+      "finding": "Pichelli7C retail NM$4 and CGC9.6$33; not completed auction sales."
+    }
+  ],
+  "searches": [
+    {
+      "query": "site:comics.ha.com Miles Morales Pichelli 7",
+      "finding": "Wrong UltimateFallout4 secondprint result; no exact raw transaction."
+    },
+    {
+      "query": "site:comiclink.com Miles Morales Pichelli 7",
+      "finding": "No exact result surfaced; archive not comprehensively searched."
+    },
+    {
+      "query": "site:comicbookrealm.com Miles Morales 2023 7 Pichelli",
+      "finding": "Unrelated issues and advertisement matches; no exact CGC Analyzer page checked."
+    },
+    {
+      "query": "site:ebay.com/itm Overflowing Affection PSA9 Newtype",
+      "finding": "Feedback text contaminates search hits. 298480066111 PSA10,128084950673 JapanesePSA10, eBay shop BetaPSA9 all excluded."
+    }
+  ],
+  "nextLeads": [
+    "Mantyke originals 298724614191 and307208209380 require accessible completed evidence before acceptance; avoid repeating failed fetches without new route.",
+    "Dawn obtain additional distinct PSA10 completed transactions; preserve locked $49* until review.",
+    "Gundam English NewtypeRising U+ PSA9 direct sales remain missing; do not substitute Beta,Japanese,PSA10.",
+    "Pichelli exact identity gap resolved by saved photograph; seek newer completed full-UPC sales instead of rechecking old failed originals."
+  ],
+  "unchanged": "No raw condition assigned. No existing locked value overwritten. Physical case print content unchanged; regenerate collection master for Dawn."
+}

@@ -4068,7 +4068,76 @@
       "holder": "slab",
       "certUrl": "https://www.psacard.com/cert/169169659/psa",
       "fmv": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "night-2026-10-13-PSA-169169659",
+            "copyId": "PSA:169169659",
+            "basis": "sold-comps",
+            "saleCount": 1,
+            "value": 49,
+            "currency": "USD",
+            "source": {
+              "name": "Fanatics Collect",
+              "url": "https://www.fanaticscollect.com/buy-now/1d463ad7-8abd-45aa-a061-513e24816050",
+              "asOf": "2026-09-09",
+              "retrievedAt": "2026-10-13T01:38:47.030Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2025",
+                "brand": "POKEMON PFL EN-PHANTASMAL FLAMES",
+                "series": "",
+                "subject": "DAWN",
+                "cardNumber": "118",
+                "variety": "ULTRA RARE",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "PSA",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Single documented completed sale*; provisional estimate pending broader sales support.",
+            "reviewEvidence": {
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-10-13T01:38:47.030Z",
+              "url": "https://www.fanaticscollect.com/buy-now/1d463ad7-8abd-45aa-a061-513e24816050",
+              "notes": "Direct Fanatics page explicitly SOLD Sep 9, 2026, USD 49; PSA 10 Dawn #118, 2025 Phantasmal Flames, comparable cert 148427071. Single documented completed sale*. Other sales-history amounts lack individual transaction IDs and are excluded from sale count. No existing accepted value.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "fanatics:1d463ad7-8abd-45aa-a061-513e24816050",
+                  "sourceUrl": "https://www.fanaticscollect.com/buy-now/1d463ad7-8abd-45aa-a061-513e24816050",
+                  "soldAt": "2026-09-09",
+                  "value": 49,
+                  "currency": "USD",
+                  "comparableCert": "148427071"
+                }
+              ]
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "night-2026-10-13-PSA-169169659",
+          "locked": true,
+          "selectedAt": "2026-10-13T01:38:55.059Z"
+        }
+      },
       "vault": {
         "status": "Vaulted",
         "afterService": "Sent to Vault",

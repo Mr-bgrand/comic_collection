@@ -9371,6 +9371,65 @@
             },
             "provisional": true,
             "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three exact Sara Pichelli Ultimate Last Look variant raw sales within the past year. Seller condition descriptions apply only to comparable copies."
+          },
+          {
+            "id": "night-2026-10-13-Authority-5756089877",
+            "copyId": "Authority:5756089877",
+            "basis": "raw-reference",
+            "value": 3,
+            "currency": "USD",
+            "source": {
+              "name": "eBay",
+              "url": "https://www.ebay.com/itm/305415636260",
+              "asOf": "2026-01-24",
+              "retrievedAt": "2026-10-13T01:38:47.030Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Miles Morales: Spider-Man",
+                "issue": "7",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Sara Pichelli Ultimate Last Look Variant",
+                "upc": "75960620483000731",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "provisional": true,
+            "provisionalReason": "Single stale completed sale*; owned raw condition unassessed, reference only and excluded from collection total.",
+            "reviewEvidence": {
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-10-13T01:38:47.030Z",
+              "url": "https://www.ebay.com/itm/305415636260",
+              "notes": "Sold listing photograph visually matches owned Pichelli Ultimate Last Look cover; full UPC 75960620483000731 including supplement 00731 visible in sale photo and owned scan 5756089877. Same edition/first-print barcode. USD 3 item price, shipping USD 5.25 separate. Original displayed Fri Jan 23 7:03 PM, year inferred 2026; aggregator date Jan 24 may reflect timezone. Single stale sale*. Other two owned records carry identical full UPC/cover identity. No condition inferred.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:305415636260",
+                  "sourceUrl": "https://www.ebay.com/itm/305415636260",
+                  "soldAt": "2026-01-24",
+                  "value": 3,
+                  "currency": "USD",
+                  "shippingUSD": 5.25
+                }
+              ]
+            }
           }
         ],
         "selection": null
@@ -9544,6 +9603,65 @@
             },
             "provisional": true,
             "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three exact Sara Pichelli Ultimate Last Look variant raw sales within the past year. Seller condition descriptions apply only to comparable copies."
+          },
+          {
+            "id": "night-2026-10-13-Authority-2464434782",
+            "copyId": "Authority:2464434782",
+            "basis": "raw-reference",
+            "value": 3,
+            "currency": "USD",
+            "source": {
+              "name": "eBay",
+              "url": "https://www.ebay.com/itm/305415636260",
+              "asOf": "2026-01-24",
+              "retrievedAt": "2026-10-13T01:38:47.030Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Miles Morales: Spider-Man",
+                "issue": "7",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Sara Pichelli Ultimate Last Look Variant",
+                "upc": "75960620483000731",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "provisional": true,
+            "provisionalReason": "Single stale completed sale*; owned raw condition unassessed, reference only and excluded from collection total.",
+            "reviewEvidence": {
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-10-13T01:38:47.030Z",
+              "url": "https://www.ebay.com/itm/305415636260",
+              "notes": "Sold listing photograph visually matches owned Pichelli Ultimate Last Look cover; full UPC 75960620483000731 including supplement 00731 visible in sale photo and owned scan 5756089877. Same edition/first-print barcode. USD 3 item price, shipping USD 5.25 separate. Original displayed Fri Jan 23 7:03 PM, year inferred 2026; aggregator date Jan 24 may reflect timezone. Single stale sale*. Other two owned records carry identical full UPC/cover identity. No condition inferred.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:305415636260",
+                  "sourceUrl": "https://www.ebay.com/itm/305415636260",
+                  "soldAt": "2026-01-24",
+                  "value": 3,
+                  "currency": "USD",
+                  "shippingUSD": 5.25
+                }
+              ]
+            }
           }
         ],
         "selection": null
@@ -9717,6 +9835,65 @@
             },
             "provisional": true,
             "provisionalReason": "Owned raw condition is unassessed; this is not a copy-specific appraisal. Three exact Sara Pichelli Ultimate Last Look variant raw sales within the past year. Seller condition descriptions apply only to comparable copies."
+          },
+          {
+            "id": "night-2026-10-13-Authority-7146078078",
+            "copyId": "Authority:7146078078",
+            "basis": "raw-reference",
+            "value": 3,
+            "currency": "USD",
+            "source": {
+              "name": "eBay",
+              "url": "https://www.ebay.com/itm/305415636260",
+              "asOf": "2026-01-24",
+              "retrievedAt": "2026-10-13T01:38:47.030Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Miles Morales: Spider-Man",
+                "issue": "7",
+                "issueYear": "2023",
+                "publisher": "Marvel",
+                "variant": "Sara Pichelli Ultimate Last Look Variant",
+                "upc": "75960620483000731",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "2",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "provisional": true,
+            "provisionalReason": "Single stale completed sale*; owned raw condition unassessed, reference only and excluded from collection total.",
+            "reviewEvidence": {
+              "reviewedBy": "Owner-authorized source review",
+              "reviewedAt": "2026-10-13T01:38:47.030Z",
+              "url": "https://www.ebay.com/itm/305415636260",
+              "notes": "Sold listing photograph visually matches owned Pichelli Ultimate Last Look cover; full UPC 75960620483000731 including supplement 00731 visible in sale photo and owned scan 5756089877. Same edition/first-print barcode. USD 3 item price, shipping USD 5.25 separate. Original displayed Fri Jan 23 7:03 PM, year inferred 2026; aggregator date Jan 24 may reflect timezone. Single stale sale*. Other two owned records carry identical full UPC/cover identity. No condition inferred.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:305415636260",
+                  "sourceUrl": "https://www.ebay.com/itm/305415636260",
+                  "soldAt": "2026-01-24",
+                  "value": 3,
+                  "currency": "USD",
+                  "shippingUSD": 5.25
+                }
+              ]
+            }
           }
         ],
         "selection": null
