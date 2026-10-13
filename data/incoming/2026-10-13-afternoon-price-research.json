@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-13T17:37:11.314Z",
+  "batch": "17UTC",
+  "accepted": [
+    "PSA:169169665"
+  ],
+  "subjects": [
+    "PSA:169169665",
+    "PSA:169169671",
+    "raw:15-002"
+  ],
+  "directPages": [
+    {
+      "url": "https://www.pricecharting.com/game/pokemon-prismatic-evolutions/pecharunt-ex-163",
+      "copyId": "PSA:169169665",
+      "transactions": [
+        {
+          "transactionId": "ebay:336747661139",
+          "sourceUrl": "https://www.ebay.com/itm/336747661139",
+          "soldAt": "2026-08-28",
+          "value": 30,
+          "currency": "USD",
+          "comparableCert": null,
+          "reportedBy": "PriceCharting explicit PSA9 sale titles; originals not independently verified"
+        },
+        {
+          "transactionId": "ebay:800469121261",
+          "sourceUrl": "https://www.ebay.com/itm/800469121261",
+          "soldAt": "2026-08-13",
+          "value": 50,
+          "currency": "USD",
+          "comparableCert": null,
+          "reportedBy": "PriceCharting explicit PSA9 sale titles; originals not independently verified"
+        },
+        {
+          "transactionId": "ebay:298531674214",
+          "sourceUrl": "https://www.ebay.com/itm/298531674214",
+          "soldAt": "2026-08-02",
+          "value": 25,
+          "currency": "USD",
+          "comparableCert": null,
+          "reportedBy": "PriceCharting explicit PSA9 sale titles; originals not independently verified"
+        },
+        {
+          "transactionId": "ebay:168489749479",
+          "sourceUrl": "https://www.ebay.com/itm/168489749479",
+          "soldAt": "2026-07-17",
+          "value": 28.48,
+          "currency": "USD",
+          "comparableCert": null,
+          "reportedBy": "PriceCharting explicit PSA9 sale titles; originals not independently verified"
+        },
+        {
+          "transactionId": "ebay:297306859030",
+          "sourceUrl": "https://www.ebay.com/itm/297306859030",
+          "soldAt": "2026-07-04",
+          "value": 50,
+          "currency": "USD",
+          "comparableCert": null,
+          "reportedBy": "PriceCharting explicit PSA9 sale titles; originals not independently verified"
+        }
+      ],
+      "finding": "Exact English2025PrismaticEvolutions Pecharunt ex163PSA9. Median of five most recent unambiguous PSA9-titled rows is30USD. September2row says163and165/131, excluded pending original identity. BGS9,CGC9 andPSA10 excluded. Original links for three newest rows inaccessible; comparable certificates unavailable. May12,2025Fanatics34.80includingpremium is stale context, not included in median. Undated Fanatics SOLD15and31not assigned dates from separate history widgets."
+    },
+    {
+      "url": "https://www.fanaticscollect.com/weekly/1ff0eeae-26e4-11f0-bdad-0a58a9feac02/2025-pokemon-sv-prismatic-evolutions-sir-pecharunt-ex-163-psa-9-mint",
+      "soldAt": "2025-05-12",
+      "value": 34.8,
+      "currency": "USD",
+      "comparableCert": "111252253",
+      "auction": "WA173",
+      "lot": "10281F1",
+      "finding": "11bids, includes buyer premium. ExactPSA9 but stale*, excluded from current median."
+    },
+    {
+      "url": "https://www.fanaticscollect.com/buy-now/eb7eceb3-7b82-431b-815a-9ec0edfddea7/2025-pokemon-sv-prismatic-evolutions-sir-pecharunt-ex-163-psa-9-mint",
+      "value": 15,
+      "currency": "USD",
+      "comparableCert": "109916389",
+      "soldAt": null,
+      "finding": "SOLD15 but no explicit listing date; separate history not assigned to this transaction."
+    },
+    {
+      "url": "https://www.fanaticscollect.com/buy-now/2ea9adc3-d282-4f1c-bc9f-487fb33d7a1d/2025-pokemon-scarlet-violet-prismatic-evolutions-sir-pecharunt-ex-163-psa-9-mint",
+      "value": 31,
+      "currency": "USD",
+      "comparableCert": "111280339",
+      "soldAt": null,
+      "finding": "SOLD31 but separateNov10/Nov2history not sufficient to assign this transaction a date."
+    },
+    {
+      "url": "https://www.misprint.com/card/100031233",
+      "finding": "Opened alternate sale-history page; indexedAug2PSA9row not recovered in direct text; no data imported."
+    }
+  ],
+  "searchOnly": [
+    {
+      "query": "2025 Bob Ross Mookie Betts10 PSA9 sold",
+      "finding": "No exact base10PSA9completed sale surfaced. BatOnBallBOB13,10Aautographs,PrussianBlue,SapGreen,IndianYellow andMidnightBlack excluded."
+    },
+    {
+      "query": "Orbit Eminem Punisher site:mycomicshop.com / site:comics.ha.com / site:comiclink.com",
+      "finding": "No exact completed sale surfaced; MCS direct search failed. Heritage/ComicLink archives not comprehensively checked."
+    },
+    {
+      "query": "Orbit Eminem Punisher site:comicbookrealm.com/cgc-analyzer",
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/97906/marvel-comics-eminempunisher-kill-you-nn",
+      "finding": "Index is unrelated2009MarvelKillYou; Orbit ads are asking prices. Analyzer not opened, no relevant auction history verified."
+    }
+  ],
+  "indexedExclusions": [
+    {
+      "url": "https://theclector.com/cards/baseball/mlb/topps/2025/bob-ross/bat-on-ball/mookie-betts-42561/5211577",
+      "finding": "PSA9reported42USD Sep6 isBOB13insert, wrong card forownedbase10."
+    },
+    {
+      "url": "https://www.mercari.com/us/shop/independent-publisher-comics/",
+      "finding": "Previously excluded Rapboy foil publishercopy CE4resurfaced; not reopened."
+    },
+    {
+      "url": "https://www.pricecharting.com/nl/game/comic-books-eminempunisher/eminempunisher-2009",
+      "finding": "Mixed2009catalog contains Orbit rows; product aggregate not valid for owned edition. Previously known mismatch not reopened."
+    }
+  ],
+  "ownedScanReview": {
+    "copyId": "raw:15-002",
+    "path": "data/images/Raw_15-002_FRONT.jpg",
+    "finding": "Inspected owned white-shirt Punisher homage trade front with CaioCacau signature. No fullUPC or indicia/printing visible; only front scan stored. No condition inferred, no reference imported."
+  },
+  "failedOriginals": [
+    "https://www.ebay.com/itm/336747661139",
+    "https://www.ebay.com/itm/800469121261",
+    "https://www.ebay.com/itm/298531674214",
+    "https://www.psacard.com/cert/111252253/psa",
+    "https://www.psacard.com/cert/109916389/psa",
+    "https://www.psacard.com/cert/111280339/psa",
+    "https://www.mycomicshop.com/search?q=Orbit+Eminem"
+  ],
+  "nextLeads": [
+    "Pecharunt: seek original certificates/transactions and resolveSeptember2title163versus165before including; keep accepted30provisional until reviewed.",
+    "Mookie: exact2025BobRossbase10PSA9 only; noBOB13orparallel substitutions.",
+    "Eminem: back/indicia/fullUPC evidence remains required; regular white-shirt trade, notRapboy/foil/metal. No new price supported."
+  ]
+}
