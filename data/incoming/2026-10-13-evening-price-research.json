@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-13T21:42:51.955Z",
+  "batch": "21UTC",
+  "accepted": [
+    "PSA:169169666"
+  ],
+  "subjects": [
+    "PSA:169169666",
+    "PSA:169169663",
+    "raw:15-025"
+  ],
+  "directPages": [
+    {
+      "copyId": "PSA:169169666",
+      "transactions": [
+        {
+          "transactionId": "fanatics:1ca8317a-8ba2-11f1-89ed-0a75b240a311",
+          "sourceUrl": "https://www.fanaticscollect.com/weekly/1ca8317a-8ba2-11f1-89ed-0a75b240a311/2025-pokemon-mega-evolution-phantasmal-flames-full-art-mega-charizard-x-ex-109-psa-9-mint",
+          "soldAt": "2026-08-17",
+          "value": 34.8,
+          "currency": "USD",
+          "comparableCert": "155548376",
+          "auction": "WA239",
+          "lot": "17662",
+          "bids": 6,
+          "includesBuyerPremium": true
+        },
+        {
+          "transactionId": "fanatics:1164cccb-11a2-4c8e-9577-7178e287ed7c",
+          "sourceUrl": "https://www.fanaticscollect.com/buy-now/1164cccb-11a2-4c8e-9577-7178e287ed7c",
+          "soldAt": "2026-07-16",
+          "value": 45,
+          "currency": "USD",
+          "comparableCert": "151082055"
+        },
+        {
+          "transactionId": "fanatics:e1cc41dc-7566-11f1-bc5f-0a58a9feac02",
+          "sourceUrl": "https://www.fanaticscollect.com/weekly/e1cc41dc-7566-11f1-bc5f-0a58a9feac02",
+          "soldAt": "2026-07-13",
+          "value": 40.8,
+          "currency": "USD",
+          "comparableCert": "157603723",
+          "auction": "WA234",
+          "lot": "15347",
+          "bids": 11,
+          "includesBuyerPremium": true
+        }
+      ],
+      "finding": "Exact English 2025 Phantasmal Flames Mega Charizard X ex109 PSA9. Three directly opened dated sold pages with comparable certificates; median40.80USD. Auction amounts include buyer premium. Thin July/August sample*, not a current guaranteed price. Newer separate history rows Oct13 34,Oct12 31.20,Oct2 45,Sep28 38.40,Sep14 33.60 lack individual transaction links and are excluded pending verification. Indexed stale WA239 lot17503 starting5 replaced by current direct SOLD34.80 lot17662."
+    },
+    {
+      "url": "https://www.fanaticscollect.com/weekly/6c99b0e6-b340-11ef-acea-023c03bee201/2024-pokemon-sv-temporal-forces-full-art-gengar-ex-193-psa-8-nm-mt",
+      "copyId": "PSA:169169663",
+      "soldAt": "2024-12-16",
+      "value": 21.6,
+      "currency": "USD",
+      "includesBuyerPremium": true,
+      "comparableCert": "99219884",
+      "auction": "WA152",
+      "lot": "9842F1",
+      "finding": "Exact PSA8 completed auction, seven bids, but stale*. Not used for current estimate while newer evidence remains to verify."
+    },
+    {
+      "url": "https://www.pricecharting.com/game/pokemon-temporal-forces/gengar-ex-193",
+      "copyId": "PSA:169169663",
+      "finding": "New PSA8 reported sales Sep28 45USD,Sep25 41.17,Sep24 48,Sep22 50,Sep16 41. Original links forSep16/Sep4 failed without recovered IDs; no imported estimate. Other graders/PSA8.5 excluded."
+    },
+    {
+      "url": "https://www.ebay.com/itm/137773345266",
+      "copyId": "raw:15-025",
+      "finding": "Seller ended Oct4,2026 because unavailable;10USD displayed is not a confirmed sold price. No fullUPC."
+    },
+    {
+      "url": "https://www.ebay.ca/itm/168353436933",
+      "copyId": "raw:15-025",
+      "finding": "Seller ended Jul19 because unavailable.34.90CAD OBO, not completed sale. Trade edition title; no UPC in text. No condition assigned to owned copy."
+    }
+  ],
+  "indexedExclusions": [
+    {
+      "url": "https://www.ebay.com/itm/326461384557",
+      "finding": "Sold100USD June5 lead is CGC9.8 virgin metal X, wrong edition and grading for owned raw trade; not opened."
+    },
+    {
+      "url": "https://www.fanaticscollect.com/buy-now/61792240-a5b5-486b-bd24-774bdf8d71ed/2025-pokemon-mega-evolution-phantasmal-flames-full-art-mega-charizard-x-ex-109-psa-9-mint",
+      "finding": "Unavailable59.99 guide, not sold; excluded."
+    },
+    {
+      "url": "https://www.fanaticscollect.com/buy-now/bbbb2c77-5cbb-4cb6-b6c8-e2c95e3f5e11/2024-pokemon-scarlet-violet-temporal-forces-full-art-gengar-ex-193-psa-8-nm-mt",
+      "finding": "Gengar24 guide unavailable; separate history cannot establish individual transaction. Not opened."
+    }
+  ],
+  "searchOnly": [
+    {
+      "query": "Taylor Swift Defendini site:comicbookrealm.com/cgc-analyzer / site:comiclink.com",
+      "finding": "No exact raw completed sale surfaced; neither archive comprehensively checked. Prior MCS60467885 retail and Heritage122521/17706 Shambu CGC10 mismatch not reopened."
+    },
+    {
+      "query": "Fame Michael J Fox Official Pix sold",
+      "finding": "No new exact raw completed result surfaced. Prior306812902676CGC9.8 mismatch not reopened."
+    }
+  ],
+  "failedOriginals": [
+    "https://www.psacard.com/cert/155548376/psa",
+    "https://www.psacard.com/cert/99219884/psa"
+  ],
+  "nextLeads": [
+    "Charizard: prioritize individual October Fanatics auction records behind recent history; direct July/August evidence supports only provisional40.80. Do not overwrite locked selection automatically.",
+    "Gengar: recover originalSeptember PSA8transactions and certs; do not use stale2024auction as current estimate.",
+    "Taylor: seller-ended137773345266and168353436933are exclusions, not sold comps. FullUPC/printing still needed; raw condition unassessed."
+  ],
+  "rawReferenceAdded": false
+}

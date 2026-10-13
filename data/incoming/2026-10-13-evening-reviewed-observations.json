@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "PSA:169169666",
+      "revision": "54b3b90472e79982a517dfc1415edac2f93cee0dfca6f7f802375bc9820ca46b",
+      "observations": [
+        {
+          "id": "evening-2026-10-13-PSA-169169666",
+          "copyId": "PSA:169169666",
+          "basis": "sold-comps",
+          "value": 40.8,
+          "currency": "USD",
+          "saleCount": 3,
+          "source": {
+            "name": "Fanatics Collect completed sales",
+            "url": "https://www.fanaticscollect.com/weekly/1ca8317a-8ba2-11f1-89ed-0a75b240a311/2025-pokemon-mega-evolution-phantasmal-flames-full-art-mega-charizard-x-ex-109-psa-9-mint",
+            "asOf": "2026-08-17",
+            "retrievedAt": "2026-10-13T21:42:51.955Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2025",
+              "brand": "POKEMON PFL EN-PHANTASMAL FLAMES",
+              "series": "",
+              "subject": "MEGA CHARIZARD X EX",
+              "cardNumber": "109",
+              "variety": "ULTRA RARE",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Thin July/August sample of three completed sales*; newer history rows lack individually verified transaction links.",
+          "reviewEvidence": {
+            "url": "https://www.fanaticscollect.com/weekly/1ca8317a-8ba2-11f1-89ed-0a75b240a311/2025-pokemon-mega-evolution-phantasmal-flames-full-art-mega-charizard-x-ex-109-psa-9-mint",
+            "reviewedAt": "2026-10-13T21:42:51.955Z",
+            "reviewedBy": "Owner-authorized source review",
+            "notes": "Exact English 2025 Phantasmal Flames Mega Charizard X ex109 PSA9. Three directly opened dated sold pages with comparable certificates; median40.80USD. Auction amounts include buyer premium. Thin July/August sample*, not a current guaranteed price. Newer separate history rows Oct13 34,Oct12 31.20,Oct2 45,Sep28 38.40,Sep14 33.60 lack individual transaction links and are excluded pending verification. Indexed stale WA239 lot17503 starting5 replaced by current direct SOLD34.80 lot17662.",
+            "referenceTransactions": [
+              {
+                "transactionId": "fanatics:1ca8317a-8ba2-11f1-89ed-0a75b240a311",
+                "sourceUrl": "https://www.fanaticscollect.com/weekly/1ca8317a-8ba2-11f1-89ed-0a75b240a311/2025-pokemon-mega-evolution-phantasmal-flames-full-art-mega-charizard-x-ex-109-psa-9-mint",
+                "soldAt": "2026-08-17",
+                "value": 34.8,
+                "currency": "USD",
+                "comparableCert": "155548376",
+                "auction": "WA239",
+                "lot": "17662",
+                "bids": 6,
+                "includesBuyerPremium": true
+              },
+              {
+                "transactionId": "fanatics:1164cccb-11a2-4c8e-9577-7178e287ed7c",
+                "sourceUrl": "https://www.fanaticscollect.com/buy-now/1164cccb-11a2-4c8e-9577-7178e287ed7c",
+                "soldAt": "2026-07-16",
+                "value": 45,
+                "currency": "USD",
+                "comparableCert": "151082055"
+              },
+              {
+                "transactionId": "fanatics:e1cc41dc-7566-11f1-bc5f-0a58a9feac02",
+                "sourceUrl": "https://www.fanaticscollect.com/weekly/e1cc41dc-7566-11f1-bc5f-0a58a9feac02",
+                "soldAt": "2026-07-13",
+                "value": 40.8,
+                "currency": "USD",
+                "comparableCert": "157603723",
+                "auction": "WA234",
+                "lot": "15347",
+                "bids": 11,
+                "includesBuyerPremium": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

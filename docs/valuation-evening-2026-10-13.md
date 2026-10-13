@@ -1,0 +1,13 @@
+# Valuation research - October 13, 2026, 21 UTC
+
+Added Mega Charizard X ex #109 PSA 9 (169169666) at $40.80*, the median of three directly opened, dated Fanatics Collect completed sales: $40.80 on July 13, $45 on July 16, and $34.80 on August 17, 2026. Auction amounts include buyer premium. Comparable certificates, transaction URLs, dates and auction lots are preserved in the reviewed evidence. The asterisk marks a thin July/August sample. Newer September/October history-widget rows lack individually verified transaction links and were excluded. Reviewed observation import and separate explicit acceptance were completed; no existing locked value was replaced.
+
+Gengar ex #193 PSA 8 remains unvalued. The direct $21.60 Fanatics auction is dated December 16, 2024 and is stale context. Newer PriceCharting PSA 8 rows remain leads because original transaction IDs could not be recovered. Other graders and numeric grades were excluded.
+
+Female Force: Taylor Swift #1 Steven Defendini Unknown Comics trade remains unassessed and without a new raw reference. Original eBay listings 137773345266 and 168353436933 were ended by their sellers because unavailable; their displayed prices are not completed sales. Full UPC and printing remain unresolved. The indexed CGC 9.8 virgin metal X sale is a different edition. Targeted ComicBookRealm Analyzer/ComicLink searches yielded no exact result; this was not a comprehensive archive check. Prior MyComicShop retail and Heritage wrong-artist/grade results were not reopened. No new exact Fame: Michael J. Fox Official Pix completed result surfaced. No owned scans were newly inspected in this batch.
+
+[Evidence, checked sources, exclusions and next leads](../data/incoming/2026-10-13-evening-price-research.json) and [reviewed observation](../data/incoming/2026-10-13-evening-reviewed-observations.json). Prioritize individual recent Charizard transactions for a stronger alternative for review, recover September Gengar PSA 8 originals, and resolve Taylor Swift UPC/printing before a raw reference. Raw references remain outside the recorded total.
+
+Recorded total: $36,262.63; 419 valued copies among 976 objects. The other 74 Vault records are unchanged. All 428 tests passed. Master PDF page 47 was visually inspected and its value, certificate and source date checked. Physical case sheets have unchanged inputs. Protected alternate-label PDF SHA256 remains 34E973523968FE1C821CA77A3D453CE8DD9BA29F8DE007F1ABFA07959DA5600F.
+
+Viewer build succeeded for all 976 objects; the exact cert record displays value 40.8 with an asterisk and source date 2026-08-17.
