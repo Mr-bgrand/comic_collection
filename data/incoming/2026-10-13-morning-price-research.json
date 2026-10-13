@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-13T09:33:16.124Z",
+  "batch": "09UTC",
+  "accepted": [
+    "PSA:169169669"
+  ],
+  "subjects": [
+    "PSA:169169669",
+    "PSA:169169675",
+    "Authority:4845360792",
+    "Authority:7633260283"
+  ],
+  "directPages": [
+    {
+      "url": "https://www.psacard.com/cert/138131289/psa",
+      "copyId": "PSA:169169669",
+      "transactions": [
+        {
+          "transactionId": "ebay:820211768585",
+          "comparableCert": "152073983",
+          "soldAt": "2026-10-08",
+          "value": 145,
+          "currency": "USD",
+          "type": "BestOffer",
+          "sourceUrl": "https://www.ebay.com/itm/820211768585",
+          "reportedBy": "PSA similar-item sales history; originals not verified"
+        },
+        {
+          "transactionId": "ebay:206488646777",
+          "comparableCert": "158659703",
+          "soldAt": "2026-09-21",
+          "value": 191,
+          "currency": "USD",
+          "type": "BestOffer",
+          "sourceUrl": "https://www.ebay.com/itm/206488646777",
+          "reportedBy": "PSA similar-item sales history; originals not verified"
+        },
+        {
+          "transactionId": "ebay:298591259637",
+          "comparableCert": "149450023",
+          "soldAt": "2026-09-18",
+          "value": 179,
+          "currency": "USD",
+          "type": "BestOffer",
+          "sourceUrl": "https://www.ebay.com/itm/298591259637",
+          "reportedBy": "PSA similar-item sales history; originals not verified"
+        },
+        {
+          "transactionId": "ebay:298664656763",
+          "comparableCert": "152900019",
+          "soldAt": "2026-09-17",
+          "value": 180,
+          "currency": "USD",
+          "type": "BestOffer",
+          "sourceUrl": "https://www.ebay.com/itm/298664656763",
+          "reportedBy": "PSA similar-item sales history; originals not verified"
+        },
+        {
+          "transactionId": "ebay:158247455400",
+          "comparableCert": "137235267",
+          "soldAt": "2026-09-12",
+          "value": 175,
+          "currency": "USD",
+          "type": "BestOffer",
+          "sourceUrl": "https://www.ebay.com/itm/158247455400",
+          "reportedBy": "PSA similar-item sales history; originals not verified"
+        }
+      ],
+      "finding": "Exact 2025 Topps X Bob Ross The Joy of Baseball base Paul Skenes #9 PSA10. Median of five reported sales 145,175,179,180,191 =179. PSA guide estimate134 not used. Direct Fanatics SOLD200 undated, with separate April2 history row, excluded from dated median. Two eBay originals failed to load."
+    },
+    {
+      "url": "https://www.fanaticscollect.com/buy-now/7b958c5d-2b29-4e56-a4cf-8f16c4860b58/2025-topps-x-bob-ross-the-joy-of-baseball-paul-skenes-9-psa-10-gem-mint",
+      "finding": "SOLD200USD comparable cert138131289 but no explicit listing sale date; separate history Aug18 194 andApr2 200 not treated as dated individual transactions."
+    },
+    {
+      "url": "https://www.ebay.com/itm/318797778388",
+      "copyId": "PSA:169169675",
+      "finding": "Exact base69 PSA10 active89.99USD OBO, not completed. Category page showed94.99 stale asking price; neither usable."
+    },
+    {
+      "url": "https://www.mycomicshop.com/search?TID=59081116&mingr=0",
+      "copyId": "Authority:4845360792",
+      "finding": "15B PabloVillalobos retail NM9USD andVF4.80USD, not completed auction results. FullUPC75960620664301521 owned trade; no virgin substitution."
+    },
+    {
+      "url": "https://www.ebay.com/itm/186663931359",
+      "copyId": "Authority:7633260283",
+      "finding": "Detective400 blank2024 active4.29USD OBO, not completed; sale date null."
+    },
+    {
+      "url": "https://www.mycomicshop.com/search?mingr=0&q=DETECTIVE+400",
+      "copyId": "Authority:7633260283",
+      "finding": "400C2024 blank retailNM4.30USD. 1970 CGC5.5 auction active160USD unrelated; excluded. Owned UPC76194138450400121."
+    }
+  ],
+  "indexedExclusions": [
+    {
+      "url": "https://www.ebay.com/itm/298740544310",
+      "finding": "Ichiro69-SP BeautyIsEverywhere PSA10 wrong edition."
+    },
+    {
+      "url": "https://www.ebay.com/itm/227450332067",
+      "finding": "Detective400 A+Blank set active8.96USD OBO; lot excluded."
+    },
+    {
+      "url": "https://www.ebay.com/itm/387430446628",
+      "finding": "Three-cover set active19.99USD, two sold count not exact single sale evidence."
+    }
+  ],
+  "searchOnly": [
+    {
+      "query": "Immortal Thor15 Villalobos site:comicbookrealm.com/cgc-analyzer",
+      "finding": "No exact analyzer surfaced; no analyzer record opened."
+    },
+    {
+      "query": "Immortal Thor15 Villalobos site:comics.ha.com / site:comiclink.com",
+      "finding": "No exact result; archives not comprehensively searched."
+    }
+  ],
+  "failedOriginals": [
+    "https://www.ebay.com/itm/820211768585",
+    "https://www.ebay.com/itm/298591259637",
+    "https://www.psacard.com/cert/169169675/psa"
+  ],
+  "nextLeads": [
+    "Skenes: original best-offer evidence or auction records could strengthen provisional179; keep locked until reviewed.",
+    "Ichiro: exact base69 PSA10 completed sales remain missing; do not use69-SP,paint splatter,or parallel.",
+    "Thor15: retain prior335707983486 incentive/trade identity gap; do not repeat failed fetch without new route.",
+    "Detective400blank: retail and mixed sets excluded; need a dated single-copy completed transaction with fullUPC."
+  ],
+  "unchanged": "Both raw copies remain condition-unassessed without new reference; existing accepted values preserved."
+}
