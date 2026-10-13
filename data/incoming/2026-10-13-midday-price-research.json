@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-13T13:41:30.854Z",
+  "batch": "13UTC",
+  "accepted": [
+    "PSA:169169672"
+  ],
+  "subjects": [
+    "PSA:169169672",
+    "PSA:169169670",
+    "Authority:7861079670",
+    "Authority:8364744505"
+  ],
+  "directPages": [
+    {
+      "url": "https://www.psacard.com/en-CA/cert/157994247/psa",
+      "copyId": "PSA:169169672",
+      "finding": "Exact 2025 Topps X Bob Ross The Joy of Baseball base Aaron Judge #34 PSA10. Median of five latest PSA-reported sales is140USD. Original auction377547900035 and best-offer237041439980 inaccessible. PSA guide125 not used. Fanatics dated Aug8 sale200USD is older than the five October transactions and retained separately, not included in median.",
+      "transactions": [
+        {
+          "transactionId": "ebay:860037899349",
+          "comparableCert": "138428017",
+          "soldAt": "2026-10-12",
+          "value": 130,
+          "currency": "USD",
+          "type": "BestOffer",
+          "sourceUrl": "https://www.ebay.com/itm/860037899349",
+          "reportedBy": "PSA similar-item sales history; original transaction not independently verified"
+        },
+        {
+          "transactionId": "ebay:377547900035",
+          "comparableCert": "158618715",
+          "soldAt": "2026-10-12",
+          "value": 121.5,
+          "currency": "USD",
+          "type": "Auction",
+          "sourceUrl": "https://www.ebay.com/itm/377547900035",
+          "reportedBy": "PSA similar-item sales history; original transaction not independently verified"
+        },
+        {
+          "transactionId": "ebay:237041439980",
+          "comparableCert": "157221827",
+          "soldAt": "2026-10-07",
+          "value": 140,
+          "currency": "USD",
+          "type": "BestOffer",
+          "sourceUrl": "https://www.ebay.com/itm/237041439980",
+          "reportedBy": "PSA similar-item sales history; original transaction not independently verified"
+        },
+        {
+          "transactionId": "ebay:257773679066",
+          "comparableCert": "153100956",
+          "soldAt": "2026-10-04",
+          "value": 159.99,
+          "currency": "USD",
+          "type": "BestOffer",
+          "sourceUrl": "https://www.ebay.com/itm/257773679066",
+          "reportedBy": "PSA similar-item sales history; original transaction not independently verified"
+        },
+        {
+          "transactionId": "ebay:257773679071",
+          "comparableCert": "153100955",
+          "soldAt": "2026-10-01",
+          "value": 145,
+          "currency": "USD",
+          "type": "BestOffer",
+          "sourceUrl": "https://www.ebay.com/itm/257773679071",
+          "reportedBy": "PSA similar-item sales history; original transaction not independently verified"
+        }
+      ]
+    },
+    {
+      "url": "https://www.fanaticscollect.com/buy-now/1fdd8380-39ed-4d5c-9f2f-465b36fb786d",
+      "copyId": "PSA:169169672",
+      "transactionId": "fanatics:1fdd8380-39ed-4d5c-9f2f-465b36fb786d",
+      "soldAt": "2026-08-08",
+      "value": 200,
+      "currency": "USD",
+      "comparableCert": null,
+      "finding": "Exact base34PSA10 title, direct SOLD date and price. Cert not exposed. Older than latest five October transactions, excluded from recent median."
+    },
+    {
+      "url": "https://www.ebay.com/itm/188932037453",
+      "copyId": "PSA:169169670",
+      "comparableCert": "155798136",
+      "finding": "Active60.99USD plus5.50shipping, not sold. Conflicting seller autograph fields; no estimate."
+    },
+    {
+      "url": "https://www.sportscardspro.com/game/baseball-cards-2025-topps-x-bob-ross/ken-griffey-jr-54",
+      "copyId": "PSA:169169670",
+      "reportedSaleDate": "2026-05-05",
+      "reportedValueUSD": 50,
+      "transactionId": null,
+      "comparableCert": null,
+      "finding": "One explicit base54PSA9 reported50USD sale;60USD also displayed. Original link click failed without usable ID; direct HTML fetch did not expose row. Weak undocumented lead*, not imported."
+    },
+    {
+      "url": "https://www.mycomicshop.com/search?q=detective+comics+27",
+      "finding": "2024 Batman Day27B blank and27C BobKane foil both out of stock, only8.99/9.99cover prices; no completed transaction. 2026blank7.99retail,2022ComicMint,1939original,2014editions and silver replica excluded."
+    }
+  ],
+  "indexedExclusions": [
+    {
+      "url": "https://www.comiclink.com/auctions/item.asp?back=%2FAUCTIONS%2FPREVIEW.ASP%3Fcode%3D2024mar%23Item_1752063&id=1752063&itemType=0",
+      "finding": "1752063 is NewZealandMint35g .999silver cover replica CGC9.8, not a raw2024comic. Direct simplified URL failed; indexed description only."
+    },
+    {
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/356376/dc-comics-detective-comics-27nycc-convention-edition",
+      "finding": "Search result is convention/SoHo edition and mixed-set ads, not owned BatmanDay blank/foil. Analyzer not opened."
+    },
+    {
+      "url": "https://comics.ha.com/itm/modern-age-1980-present-/superhero/batman-related-cgc-graded-group-of-5-dc-2021-22-total-5-comic-books-/a/122409-17771.s",
+      "finding": "Indexed unrelated graded five-book lot; excluded, not opened."
+    }
+  ],
+  "searchOnly": [
+    {
+      "query": "Detective Comics27 2024 foil site:comics.ha.com / site:comiclink.com",
+      "finding": "No exact raw edition result. Not a comprehensive archive check."
+    },
+    {
+      "query": "76194138562400121 ebay / 76194138562400131 sold",
+      "finding": "No new verified exact single-copy completed sale."
+    }
+  ],
+  "ownedScanReview": [
+    {
+      "copyId": "Authority:7861079670",
+      "path": "data/images/Authority_7861079670_FRONT.jpg",
+      "finding": "Visually inspected owned scan: Authority label2024#27C FoilFacsimileVariant BatmanDay2024; BobKane cover,9.99cover price. StoredUPC76194138562400131. No condition inferred."
+    },
+    {
+      "copyId": "Authority:8364744505",
+      "path": "data/images/Authority_8364744505_BACK.jpg",
+      "finding": "Visually inspected blank reverse and Authoritylabel release09/18/2024; storedUPC76194138562400121. No condition inferred. Full printing information still needs indicia if comparable cannot establish it."
+    }
+  ],
+  "failedOriginals": [
+    "https://www.ebay.com/itm/377547900035",
+    "https://www.ebay.com/itm/237041439980",
+    "https://www.psacard.com/cert/155798136/psa",
+    "https://my.comics.org/issue/2658753/",
+    "https://www.comiclink.com/auctions/item.asp?id=1752063&itemType=0"
+  ],
+  "nextLeads": [
+    "Judge: retain original October transaction verification as strengthening lead; do not overwrite accepted estimate automatically.",
+    "Griffey: obtain transactionID and original May5PSA9sale or newer exactbase54PSA9completed auction; do not useEasel/TitaniumWhite/PaintSplatter.",
+    "Detective27: require2024BatmanDayUPC00121blank or00131foil exact single-copy completed sale. Exclude2026reprint,2022ComicMint,NYCCblackblank,metalreplica,and mixed sets. Prior HipComic17402353 and eBay296610221247 remain exclusions/unverified leads; not reopened."
+  ],
+  "unchanged": "Raw condition unassessed; neither raw reference nor Griffey estimate added. Existing locked values preserved."
+}
