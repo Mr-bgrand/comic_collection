@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-13T05:34:21.000Z",
+  "batch": "05UTC",
+  "accepted": [
+    "PSA:169169662",
+    "PSA:169169664"
+  ],
+  "directPages": [
+    {
+      "copyId": "PSA:169169662",
+      "url": "https://www.fanaticscollect.com/weekly/0903b292-73c5-11f1-b382-0a58a9feac02/2024-pokemon-scarlet-violet-surging-sparks-ir-phanpy-205-psa-9-mint",
+      "value": 22.8,
+      "reason": "Single dated completed auction*; comparable certification number not exposed in accessible page. Exact 2024 English Surging Sparks Phanpy #205 Illustration Rare PSA9, completed auction including premium. Undated $20 buy-now sale excluded.",
+      "transactions": [
+        {
+          "transactionId": "fanatics:0903b292-73c5-11f1-b382-0a58a9feac02",
+          "lot": "WA234:14351",
+          "comparableCert": null,
+          "soldAt": "2026-07-13",
+          "value": 22.8,
+          "currency": "USD",
+          "sourceUrl": "https://www.fanaticscollect.com/weekly/0903b292-73c5-11f1-b382-0a58a9feac02/2024-pokemon-scarlet-violet-surging-sparks-ir-phanpy-205-psa-9-mint",
+          "buyerPremiumIncluded": true,
+          "bids": 6
+        }
+      ]
+    },
+    {
+      "copyId": "PSA:169169664",
+      "url": "https://www.psacard.com/cert/153542762/psa",
+      "value": 39.99,
+      "reason": "PSA-reported sales history*; five exact PSA9 transactions with IDs and comparable certs, original eBay pages not verified. Median of 30,30.32,39.99,40,40. Search index displayed newer dates than direct page; only the five directly retrieved rows used. Undated Fanatics $18 excluded.",
+      "transactions": [
+        {
+          "transactionId": "ebay:318644206655",
+          "comparableCert": "125268874",
+          "soldAt": "2026-08-06",
+          "value": 40,
+          "type": "BestOffer",
+          "currency": "USD",
+          "sourceUrl": "https://www.ebay.com/itm/318644206655",
+          "reportedBy": "PSA similar-item sales history; originals not verified"
+        },
+        {
+          "transactionId": "ebay:158111296774",
+          "comparableCert": "152109945",
+          "soldAt": "2026-08-02",
+          "value": 40,
+          "type": "BestOffer",
+          "currency": "USD",
+          "sourceUrl": "https://www.ebay.com/itm/158111296774",
+          "reportedBy": "PSA similar-item sales history; originals not verified"
+        },
+        {
+          "transactionId": "ebay:127992471272",
+          "comparableCert": "149502540",
+          "soldAt": "2026-07-30",
+          "value": 30,
+          "type": "Auction",
+          "currency": "USD",
+          "sourceUrl": "https://www.ebay.com/itm/127992471272",
+          "reportedBy": "PSA similar-item sales history; originals not verified"
+        },
+        {
+          "transactionId": "ebay:377364501879",
+          "comparableCert": "92415392",
+          "soldAt": "2026-07-29",
+          "value": 30.32,
+          "type": "Auction",
+          "currency": "USD",
+          "sourceUrl": "https://www.ebay.com/itm/377364501879",
+          "reportedBy": "PSA similar-item sales history; originals not verified"
+        },
+        {
+          "transactionId": "ebay:286403594660",
+          "comparableCert": "84811533",
+          "soldAt": "2026-07-24",
+          "value": 39.99,
+          "type": "FixedPrice",
+          "currency": "USD",
+          "sourceUrl": "https://www.ebay.com/itm/286403594660",
+          "reportedBy": "PSA similar-item sales history; originals not verified"
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://www.fanaticscollect.com/buy-now/f31d5150-3539-4d4c-87ef-f663ea43ad1e/2024-pokemon-scarlet-violet-surging-sparks-ir-phanpy-205-psa-9-mint",
+      "finding": "Direct SOLD $20, cert108246967, date absent. Not included in dated estimate."
+    },
+    {
+      "url": "https://www.fanaticscollect.com/buy-now/e8c8756b-d4be-48de-8222-ad1aac70d17c/2023-pokemon-scarlet-violet-paradox-rift-ir-brute-bonnet-207-psa-9-mint",
+      "finding": "Direct SOLD $18, cert126112900, date absent. Not blended with dated PSA-reported sales. History rows lack individual lot IDs."
+    }
+  ],
+  "rawResearch": {
+    "copyId": "Authority:9125336146",
+    "identity": "Captain Marvel1 Nakayama Foil, UPC75960620774900131, raw unassessed",
+    "checked": [
+      {
+        "url": "https://www.pricecharting.com/game/comic-books-captain-marvel/captain-marvel-nakayama-foil-1-2023",
+        "finding": "Full product UPC matches. New candidate originals236980068326 Aug8 2026 $7,128009334273 Aug6 $7.13 both affiliate and clean fetch failed. Aggregator-only*, full seller UPC/printing unverified; no new reference."
+      },
+      {
+        "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/329893/marvel-comics-captain-marvel-1c-nakayama-variant-cover",
+        "finding": "Index shows exact Nakayama foil CGC title,22 recorded sales, but no transaction rows. Direct timeout; ads are asking prices, not raw sales."
+      },
+      {
+        "url": "https://www.mycomicshop.com/comicbooks/item?IVGroupID=59249563&br=0",
+        "finding": "Index 1C Fine $2.65 retail only; direct fetch failed."
+      }
+    ],
+    "indexedExclusions": [
+      {
+        "url": "https://www.mycomicshop.com/search?ItemID=63940170",
+        "finding": "Ended Dec22 2025 $29, cert4401268007, Christopher1H CGC9.8. Wrong cover and graded vs owned raw."
+      },
+      {
+        "url": "https://www.catawiki.com/en/l/104429175-captain-marvel-1-2023-foil-edition-1st-app-key-issue-sold-out-signed-by-david-nakayama-with-coa-1-signed-comic-2023",
+        "finding": "Signed with COA, excluded."
+      }
+    ],
+    "archiveQueries": [
+      {
+        "query": "site:comics.ha.com Captain Marvel Nakayama 2023",
+        "finding": "No exact result surfaced."
+      },
+      {
+        "query": "site:comiclink.com Captain Marvel Nakayama 2023",
+        "finding": "No exact result surfaced."
+      }
+    ],
+    "priorLead": "820147832296 sold$1.79 from prior run: cover already matched; full UPC/printing still needs seller barcode/indicia. Did not repeat prior visual check."
+  },
+  "failedOriginals": [
+    "https://www.ebay.com/itm/377439551769",
+    "https://www.ebay.com/itm/127992471272",
+    "https://www.ebay.com/itm/377364501879"
+  ],
+  "nextLeads": [
+    "Phanpy: recover auction comparable cert from Fanatics scan when available; seek additional dated PSA9 sales.",
+    "BruteBonnet: verify newer PSA indexed eBay377439551769 Aug27$49 cert118631922 or286672604644 Sep1$49.90 cert111332884; current original fetch failed for first. Saved alternative leads only, not included in median.",
+    "CaptainMarvel: seek seller barcode/indicia or a new exact full-UPC completed sale; do not repeat failed originals without a new retrieval route."
+  ],
+  "constraints": "No locked existing value replaced. No raw condition inferred. No new raw reference imported."
+}

@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "PSA:169169662",
+      "revision": "a007a993effdc54c8bc84e6b9f472996e59775ebcbb2f85330dc402a0f376d6d",
+      "observations": [
+        {
+          "id": "early-2026-10-13-PSA-169169662",
+          "copyId": "PSA:169169662",
+          "basis": "sold-comps",
+          "value": 22.8,
+          "currency": "USD",
+          "saleCount": 1,
+          "source": {
+            "name": "Fanatics Collect",
+            "url": "https://www.fanaticscollect.com/weekly/0903b292-73c5-11f1-b382-0a58a9feac02/2024-pokemon-scarlet-violet-surging-sparks-ir-phanpy-205-psa-9-mint",
+            "asOf": "2026-07-13",
+            "retrievedAt": "2026-10-13T05:33:20.619Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "POKEMON SSP EN-SURGING SPARKS",
+              "series": "",
+              "subject": "PHANPY",
+              "cardNumber": "205",
+              "variety": "ILLUSTRATION RARE",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Single dated completed auction*; comparable certification number not exposed in accessible page.",
+          "reviewEvidence": {
+            "url": "https://www.fanaticscollect.com/weekly/0903b292-73c5-11f1-b382-0a58a9feac02/2024-pokemon-scarlet-violet-surging-sparks-ir-phanpy-205-psa-9-mint",
+            "reviewedAt": "2026-10-13T05:33:20.619Z",
+            "reviewedBy": "Owner-authorized source review",
+            "notes": "Single dated completed auction*; comparable certification number not exposed in accessible page. Exact 2024 English Surging Sparks Phanpy #205 Illustration Rare PSA9, completed auction including premium. Undated $20 buy-now sale excluded.",
+            "referenceTransactions": [
+              {
+                "transactionId": "fanatics:0903b292-73c5-11f1-b382-0a58a9feac02",
+                "lot": "WA234:14351",
+                "comparableCert": null,
+                "soldAt": "2026-07-13",
+                "value": 22.8,
+                "currency": "USD",
+                "sourceUrl": "https://www.fanaticscollect.com/weekly/0903b292-73c5-11f1-b382-0a58a9feac02/2024-pokemon-scarlet-violet-surging-sparks-ir-phanpy-205-psa-9-mint",
+                "buyerPremiumIncluded": true,
+                "bids": 6
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "PSA:169169664",
+      "revision": "a007a993effdc54c8bc84e6b9f472996e59775ebcbb2f85330dc402a0f376d6d",
+      "observations": [
+        {
+          "id": "early-2026-10-13-PSA-169169664",
+          "copyId": "PSA:169169664",
+          "basis": "sold-comps",
+          "value": 39.99,
+          "currency": "USD",
+          "saleCount": 5,
+          "source": {
+            "name": "PSA sales history",
+            "url": "https://www.psacard.com/cert/153542762/psa",
+            "asOf": "2026-08-06",
+            "retrievedAt": "2026-10-13T05:33:20.619Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2023",
+              "brand": "POKEMON PAR EN-PARADOX RIFT",
+              "series": "",
+              "subject": "BRUTE BONNET",
+              "cardNumber": "207",
+              "variety": "ILLUSTRATION RARE",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "PSA-reported sales history*; five exact PSA9 transactions with IDs and comparable certs, original eBay pages not verified.",
+          "reviewEvidence": {
+            "url": "https://www.psacard.com/cert/153542762/psa",
+            "reviewedAt": "2026-10-13T05:33:20.619Z",
+            "reviewedBy": "Owner-authorized source review",
+            "notes": "PSA-reported sales history*; five exact PSA9 transactions with IDs and comparable certs, original eBay pages not verified. Median of 30,30.32,39.99,40,40. Search index displayed newer dates than direct page; only the five directly retrieved rows used. Undated Fanatics $18 excluded.",
+            "referenceTransactions": [
+              {
+                "transactionId": "ebay:318644206655",
+                "comparableCert": "125268874",
+                "soldAt": "2026-08-06",
+                "value": 40,
+                "type": "BestOffer",
+                "currency": "USD",
+                "sourceUrl": "https://www.ebay.com/itm/318644206655",
+                "reportedBy": "PSA similar-item sales history; originals not verified"
+              },
+              {
+                "transactionId": "ebay:158111296774",
+                "comparableCert": "152109945",
+                "soldAt": "2026-08-02",
+                "value": 40,
+                "type": "BestOffer",
+                "currency": "USD",
+                "sourceUrl": "https://www.ebay.com/itm/158111296774",
+                "reportedBy": "PSA similar-item sales history; originals not verified"
+              },
+              {
+                "transactionId": "ebay:127992471272",
+                "comparableCert": "149502540",
+                "soldAt": "2026-07-30",
+                "value": 30,
+                "type": "Auction",
+                "currency": "USD",
+                "sourceUrl": "https://www.ebay.com/itm/127992471272",
+                "reportedBy": "PSA similar-item sales history; originals not verified"
+              },
+              {
+                "transactionId": "ebay:377364501879",
+                "comparableCert": "92415392",
+                "soldAt": "2026-07-29",
+                "value": 30.32,
+                "type": "Auction",
+                "currency": "USD",
+                "sourceUrl": "https://www.ebay.com/itm/377364501879",
+                "reportedBy": "PSA similar-item sales history; originals not verified"
+              },
+              {
+                "transactionId": "ebay:286403594660",
+                "comparableCert": "84811533",
+                "soldAt": "2026-07-24",
+                "value": 39.99,
+                "type": "FixedPrice",
+                "currency": "USD",
+                "sourceUrl": "https://www.ebay.com/itm/286403594660",
+                "reportedBy": "PSA similar-item sales history; originals not verified"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
