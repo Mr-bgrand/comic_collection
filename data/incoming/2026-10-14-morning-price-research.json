@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-14T09:53:59.896Z",
+  "batch": "2026-10-14-morning",
+  "graded": [
+    {
+      "copyId": "PSA:169169657",
+      "estimate": 73.37,
+      "provisional": true,
+      "source": "https://www.psacard.com/cert/163320082/psa",
+      "transactions": [
+        {
+          "transactionId": "ebay:267808344205",
+          "sourceUrl": "https://www.ebay.com/itm/267808344205",
+          "value": 80,
+          "currency": "USD",
+          "soldAt": "2026-10-11",
+          "comparableCert": "168519363",
+          "saleType": "BestOffer",
+          "originalCheck": "InternalError; not independently verified"
+        },
+        {
+          "transactionId": "ebay:117443397220",
+          "sourceUrl": "https://www.ebay.com/itm/117443397220",
+          "value": 73.37,
+          "currency": "USD",
+          "soldAt": "2026-10-11",
+          "comparableCert": "169278071",
+          "saleType": "Auction",
+          "originalCheck": "InternalError; not independently verified"
+        },
+        {
+          "transactionId": "ebay:128116386215",
+          "sourceUrl": "https://www.ebay.com/itm/128116386215",
+          "value": 66.9,
+          "currency": "USD",
+          "soldAt": "2026-10-11",
+          "comparableCert": "163935381",
+          "saleType": "Auction",
+          "originalCheck": "InternalError; not independently verified"
+        },
+        {
+          "transactionId": "ebay:117443396360",
+          "sourceUrl": "https://www.ebay.com/itm/117443396360",
+          "value": 71,
+          "currency": "USD",
+          "soldAt": "2026-10-11",
+          "comparableCert": "169278068",
+          "saleType": "Auction",
+          "originalCheck": "InternalError; not independently verified"
+        },
+        {
+          "transactionId": "ebay:298724446096",
+          "sourceUrl": "https://www.ebay.com/itm/298724446096",
+          "value": 77.23,
+          "currency": "USD",
+          "soldAt": "2026-10-11",
+          "comparableCert": "167889587",
+          "saleType": "Auction",
+          "originalCheck": "InternalError; not independently verified"
+        }
+      ],
+      "excluded": [
+        {
+          "url": "https://www.fanaticscollect.com/buy-now/a03cd492-8ae9-404a-b57a-81a66226e525/2026-pokemon-mega-evolution-promo-first-partner-illustration-s1-full-art-bulbasaur-37-psa-10",
+          "status": "Direct completed sale",
+          "soldAt": "2026-09-14",
+          "value": 120,
+          "currency": "USD",
+          "comparableCert": "163148762",
+          "reason": "Older than selected October11 window; history widget dates not assigned to this transaction"
+        },
+        {
+          "url": "https://www.ebay.ca/itm/287618786481",
+          "status": "Direct SOLD October1 2026 12:19",
+          "value": 129.99,
+          "currency": "CAD",
+          "reason": "Title Bulbasaur PSA10 conflicts with item specifics Umbreon ex Prismatic Evolutions2025; comparable cert unavailable; no currency conversion"
+        },
+        {
+          "status": "Search snippets only",
+          "transactionIds": [
+            "117447803673",
+            "137794560023",
+            "880008107792",
+            "820218997346",
+            "820229578850"
+          ],
+          "reason": "Newer Oct12/13 snippet rows not in directly opened PSA page; excluded"
+        }
+      ],
+      "next": "Recover original October11 listings or directly verify newer exact PSA10 sales."
+    },
+    {
+      "copyId": "PSA:169169656",
+      "status": "Unvalued",
+      "checked": [
+        {
+          "url": "https://www.gamestop.com/graded-trading-cards/pokemon-cards/products/2026-pokemon-mep-en-me-black-star-promo-042-piplup-first-partner-illustration-collection-series-1-psa-8/PSA165056883",
+          "status": "Search indexed retail offer11.99; not completed"
+        },
+        {
+          "url": "https://www.psacard.com/cert/165056883/psa",
+          "status": "Direct InternalError"
+        }
+      ],
+      "search": "Fanatics exact Piplup042 PSA8 search surfaced no usable completed match",
+      "next": "Exact PSA8 completed transaction; exclude PSA10 and raw results."
+    }
+  ],
+  "raw": [
+    {
+      "copyId": "Authority:4845360792",
+      "title": "Immortal Thor15 Villalobos trade",
+      "upc": "75960620664301521",
+      "condition": "unassessed",
+      "reference": null,
+      "checked": [
+        {
+          "url": "https://www.pricecharting.com/game/comic-books-immortal-thor/immortal-thor-villalobos-15-2024",
+          "status": "Direct full UPC matches; latest row March28 2025 3.75, stale; no new estimate. Older CVRP and sets excluded."
+        },
+        {
+          "url": "https://www.ebay.com/itm/256635546399",
+          "status": "Direct active3.99 offer, seller away untilOctober16; no sold date or UPC text; excluded"
+        }
+      ],
+      "ownedScan": {
+        "path": "data/images/Authority_4845360792_FRONT.jpg",
+        "finding": "Trade dress and Authority15D Villalobos label corroborate cover identity. Tiny barcode not fully legible; full UPC from stored record and catalog. Printing not confirmed from indicia. No condition inferred."
+      },
+      "archiveSearches": {
+        "MyComicShop": "Targeted search; no exact completed match surfaced",
+        "Heritage": "Targeted search; no exact completed match surfaced",
+        "ComicLink": "Search surfaced Annual1 original Simonson artwork1826120, wrong item; not opened",
+        "ComicBookRealm": "Not rechecked this batch"
+      },
+      "next": "Dated exact trade edition completed sale with full UPC, printing confirmation from indicia and condition assessment before valuation."
+    }
+  ]
+}
