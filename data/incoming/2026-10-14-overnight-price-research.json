@@ -1,0 +1,195 @@
+{
+  "retrievedAt": "2026-10-14T01:39:49.269Z",
+  "copyIds": [
+    "PSA:169169660",
+    "PSA:169169658"
+  ],
+  "acceptedCandidates": [
+    {
+      "copyId": "PSA:169169660",
+      "value": 85,
+      "source": {
+        "name": "PSA sales history",
+        "url": "https://www.psacard.com/cert/159773917/psa",
+        "asOf": "2026-10-12",
+        "retrievedAt": "2026-10-14T01:39:49.269Z"
+      },
+      "transactions": [
+        {
+          "transactionId": "ebay:407260652233",
+          "sourceUrl": "https://www.ebay.com/itm/407260652233",
+          "value": 89,
+          "currency": "USD",
+          "comparableCert": "102673856",
+          "soldAt": "2026-10-12",
+          "saleType": "Auction"
+        },
+        {
+          "transactionId": "ebay:298725940823",
+          "sourceUrl": "https://www.ebay.com/itm/298725940823",
+          "value": 82,
+          "currency": "USD",
+          "comparableCert": "166122498",
+          "soldAt": "2026-10-12",
+          "saleType": "Auction"
+        },
+        {
+          "transactionId": "ebay:287622538339",
+          "sourceUrl": "https://www.ebay.com/itm/287622538339",
+          "value": 85,
+          "currency": "USD",
+          "comparableCert": "162679594",
+          "soldAt": "2026-10-12",
+          "saleType": "Auction"
+        },
+        {
+          "transactionId": "ebay:137833351263",
+          "sourceUrl": "https://www.ebay.com/itm/137833351263",
+          "value": 80,
+          "currency": "USD",
+          "comparableCert": "154972332",
+          "soldAt": "2026-10-11",
+          "saleType": "BestOffer"
+        },
+        {
+          "transactionId": "ebay:168749013337",
+          "sourceUrl": "https://www.ebay.com/itm/168749013337",
+          "value": 94.54,
+          "currency": "USD",
+          "comparableCert": "86011714",
+          "soldAt": "2026-10-11",
+          "saleType": "FixedPrice"
+        }
+      ]
+    },
+    {
+      "copyId": "PSA:169169658",
+      "value": 158,
+      "source": {
+        "name": "PSA sales history",
+        "url": "https://www.psacard.com/cert/152561413/psa",
+        "asOf": "2026-10-12",
+        "retrievedAt": "2026-10-14T01:39:49.269Z"
+      },
+      "transactions": [
+        {
+          "transactionId": "ebay:920011669835",
+          "sourceUrl": "https://www.ebay.com/itm/920011669835",
+          "value": 185.16,
+          "currency": "USD",
+          "comparableCert": "152154815",
+          "soldAt": "2026-10-12",
+          "saleType": "FixedPrice"
+        },
+        {
+          "transactionId": "ebay:307210470485",
+          "sourceUrl": "https://www.ebay.com/itm/307210470485",
+          "value": 150,
+          "currency": "USD",
+          "comparableCert": "169186415",
+          "soldAt": "2026-10-12",
+          "saleType": "Auction"
+        },
+        {
+          "transactionId": "ebay:307203937539",
+          "sourceUrl": "https://www.ebay.com/itm/307203937539",
+          "value": 158,
+          "currency": "USD",
+          "comparableCert": "171552197",
+          "soldAt": "2026-10-12",
+          "saleType": "Auction"
+        },
+        {
+          "transactionId": "ebay:278427115457",
+          "sourceUrl": "https://www.ebay.com/itm/278427115457",
+          "value": 145.5,
+          "currency": "USD",
+          "comparableCert": "141806482",
+          "soldAt": "2026-10-12",
+          "saleType": "Auction"
+        },
+        {
+          "transactionId": "ebay:117443440450",
+          "sourceUrl": "https://www.ebay.com/itm/117443440450",
+          "value": 178,
+          "currency": "USD",
+          "comparableCert": "169186404",
+          "soldAt": "2026-10-12",
+          "saleType": "Auction"
+        }
+      ]
+    }
+  ],
+  "failedOriginals": [
+    "https://www.ebay.com/itm/407260652233",
+    "https://www.ebay.com/itm/298725940823",
+    "https://www.ebay.com/itm/287622538339",
+    "https://www.ebay.com/itm/137833351263",
+    "https://www.ebay.com/itm/168749013337",
+    "https://www.ebay.com/itm/307210470485",
+    "https://www.ebay.com/itm/307203937539",
+    "https://www.ebay.com/itm/198330078472"
+  ],
+  "checked": [
+    {
+      "url": "https://www.psacard.com/cert/133220376/psa",
+      "finding": "Search index reported October12 rows but initial direct page showed September6 history. Excluded this older view; separate directly opened cert152561413 showed all five October12 rows."
+    },
+    {
+      "url": "https://www.fanaticscollect.com/buy-now/93af4898-20a5-4894-94b1-5b2b8ecae612/2023-pokemon-scarlet-violet-151-sir-zapdos-ex-202-psa-9-mint",
+      "finding": "SOLD65USD, cert111252244, no transaction sale date. Separate Sep14/Aug31 history not assigned to this transaction. Excluded."
+    },
+    {
+      "url": "https://denver.hibid.com/lot/238726939/tribute--tupac-shakur----variant",
+      "copyId": "raw:15-014",
+      "finding": "Rechecked prior lead, not new evidence: March31,2025 lot7,12USD price realized. Terms18% versus payment18.5% premium conflict. Prior owned-front review found bottom credit-block mismatch; fullUPC, printing and finish unresolved. Stale/identity gap*, no raw reference. Do not repeat until identity resolved."
+    },
+    {
+      "url": "https://comickingdomcreative.com/products/tribute-tupac-shakur-ck-shared-exclusive-crow-homage-caio-cacau",
+      "finding": "Retail26USD, not completed. Trade600/virgin300 plus foil/metal35 versions demonstrate finish ambiguity."
+    }
+  ],
+  "indexedOnly": [
+    {
+      "url": "https://www.ebay.com/itm/157985475253",
+      "finding": "Kobe Shah retailer appreciation limited50 asking38.25, wrong/unconfirmed edition."
+    },
+    {
+      "url": "https://www.ebay.com/itm/395989752805",
+      "finding": "Kobe trade asking15, owned virgin mismatch."
+    },
+    {
+      "url": "https://www.ebay.com/itm/256692361061",
+      "finding": "Kobe trade asking8.49, owned virgin mismatch."
+    },
+    {
+      "url": "https://www.ebay.com/itm/297920862598",
+      "finding": "Kobe PSA9.8 asking199.99, wrong raw/graded state."
+    },
+    {
+      "url": "https://www.mycomicshop.com/search?mingr=0&q=DETECTIVE+400",
+      "finding": "Blank facsimile400C retail4.30, original1970CGC5.5 current auction134. Neither is a completed exact raw comparable."
+    }
+  ],
+  "searchOnly": [
+    {
+      "query": "Tupac Cacau site:mycomicshop.com / Kobe Bryant Shah site:comics.ha.com",
+      "finding": "No exact matching completed result surfaced."
+    },
+    {
+      "query": "Kobe Bryant Shah site:comicbookrealm.com/cgc-analyzer",
+      "finding": "Unrelated Willie Comics8 analyzer with marketplace ads; excluded, archive not comprehensively checked."
+    },
+    {
+      "query": "76194138450400121 sold / 76194138562400121 ebay sold",
+      "finding": "No exact completed sale surfaced. Detective27blank catalog identity only."
+    }
+  ],
+  "rawReferenceAdded": false,
+  "ownedScansNewlyInspected": false,
+  "nextLeads": [
+    "Verify original eBay images/completion for the ten PSA-reported transactions; do not overwrite locked selections automatically.",
+    "Kobe virgin finish/UPC and Tupac bottom credit block/finish/UPC require better identity evidence; no repeat of old auction leads until resolved.",
+    "MyComicShop auction archives and ComicLink exact raw edition searches remain to check; retail snippets are not completed results."
+  ]
+}
