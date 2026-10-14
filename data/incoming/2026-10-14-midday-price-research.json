@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-14T13:49:36.970Z",
+  "batch": "2026-10-14-midday",
+  "accepted": [
+    "PSA:169169661"
+  ],
+  "checked": [
+    {
+      "url": "https://www.fanaticscollect.com/buy-now/d818a015-fe83-4f4c-bba4-9913c052d501",
+      "copyId": "PSA:169169661",
+      "finding": "Direct SOLD August2 2026,30USD,PSA9cert95667203; one-sale provisional estimate*.",
+      "transaction": {
+        "transactionId": "fanatics:d818a015-fe83-4f4c-bba4-9913c052d501",
+        "sourceUrl": "https://www.fanaticscollect.com/buy-now/d818a015-fe83-4f4c-bba4-9913c052d501",
+        "value": 30,
+        "currency": "USD",
+        "soldAt": "2026-08-02",
+        "comparableCert": "95667203",
+        "saleType": "BestOffer (PSA attribution; direct seller confirms SOLD)"
+      }
+    },
+    {
+      "url": "https://www.psacard.com/cert/127014107/psa",
+      "finding": "Exact Mantyke189 PSA9; direct page shows July/August history and29 guide. Same Fanatics transaction datedAug3 (one-day discrepancy); direct seller date used. Other eBay reported rows36658358004532USD Aug3 cert97669744;17834600032937USD Jul29 cert124925429;37734182909336USD Jul20 cert124094502;29850140251638.99USD Jul18 cert116788881. Originals not checked and not used."
+    },
+    {
+      "url": "https://www.fanaticscollect.com/buy-now/82f00054-5623-460c-97a5-fb9a6d332d0c/2023-pokemon-scarlet-violet-paradox-rift-full-art-mantyke-189-psa-9-mint",
+      "finding": "Direct SOLD25USD cert119288096, history September25 2025; older, excluded."
+    },
+    {
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/1648/dc-comics-detective-comics-400",
+      "copyId": "Authority:7633260283",
+      "finding": "Direct page is June1970 original CGC Analyzer. Related facsimile blank thumbnails and marketplace offers do not make the original issue sales applicable. Excluded all values."
+    },
+    {
+      "url": "https://www.atomcomics.pl/pl/p/DETECTIVE-COMICS-400-FACSIMILE-EDITION-CVR-C-BLANK-VAR/245577",
+      "finding": "Search snippet corroborates fullUPC76194138450400121,English September4 2024 blank coverC and retail20.99PLN. Direct page opened but fullUPC unavailable in extracted text; not independently verified from direct extraction. Retail price excluded."
+    }
+  ],
+  "searches": [
+    {
+      "query": "Mantyke189 PSA9 sold",
+      "finding": "New Fanatics original and PSA cert recovered; saved failed October originals298724614191/307208209380 not repeated."
+    },
+    {
+      "query": "Overflowing Affection PSA9 sold",
+      "copyId": "PSA:169169676",
+      "finding": "GundamValues mixed printing overview and SteelRequiem; TCGIndex EditionBeta. No new exact NewtypeRising English U+ PSA9 completed transaction. Search only; earlier exact page not rechecked."
+    },
+    {
+      "query": "76194138450400121 sold",
+      "finding": "Retail catalogs, no supported completed sale."
+    },
+    {
+      "query": "site:mycomicshop.com Detective400 Blank auction",
+      "finding": "1970 auction and previously examined retail catalog; search only, no new exact completed result."
+    },
+    {
+      "query": "site:comiclink.com Detective400 facsimile",
+      "finding": "Unrelated general listing page; search only, no exact archive opened."
+    },
+    {
+      "query": "site:comics.ha.com Detective400 2024",
+      "url": "https://comics.ha.com/comic-issue-index/detective-comics.s?id=23543",
+      "finding": "Search index exposes1970 originals and unrelated artwork/lots; excluded; direct archive not opened."
+    },
+    {
+      "query": "site:ebay.com/itm Detective400 blank",
+      "url": "https://www.ebay.com/itm/186134127452",
+      "finding": "Search result multi-variant choose listing, sold count277 not dated exact blank transaction. Not opened or used."
+    }
+  ],
+  "raw": {
+    "copyId": "Authority:7633260283",
+    "upc": "76194138450400121",
+    "edition": "2024 blank facsimile coverC",
+    "coverArtist": "Blank cover; no cover artist assigned",
+    "condition": "unassessed",
+    "reference": null,
+    "identity": "Prior September26/27 owned-scan review and full-UPC catalog corroboration retained. No new scan review or printing assertion this batch."
+  },
+  "nextLeads": [
+    "Mantyke: find additional recent exact PSA9 completed sales; recover previously failed October originals only via a new route. Preserve accepted30* until stronger evidence reviewed.",
+    "Gundam: exact English NewtypeRising118 U+ PSA9, excluding Beta,SteelRequiem,Japanese and PSA10.",
+    "Detective400: exact blank2024 UPC76194138450400121 completed sale, not original1970 Analyzer. No current actionable sale lead; avoid repeating catalog asks."
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "PSA:169169661",
+      "revision": "fe411619e3317610f8f57bcd0757b1bec594c867ba04f35133402218deaa1723",
+      "observations": [
+        {
+          "id": "midday-2026-10-14-PSA-169169661",
+          "copyId": "PSA:169169661",
+          "basis": "sold-comps",
+          "value": 30,
+          "currency": "USD",
+          "saleCount": 1,
+          "source": {
+            "name": "Fanatics Collect",
+            "url": "https://www.fanaticscollect.com/buy-now/d818a015-fe83-4f4c-bba4-9913c052d501",
+            "asOf": "2026-08-02",
+            "retrievedAt": "2026-10-14T13:49:36.970Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2023",
+              "brand": "POKEMON PAR EN-PARADOX RIFT",
+              "series": "",
+              "subject": "MANTYKE",
+              "cardNumber": "189",
+              "variety": "ILLUSTRATION RARE",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Single older completed sale from August 2, 2026*.",
+          "reviewEvidence": {
+            "url": "https://www.fanaticscollect.com/buy-now/d818a015-fe83-4f4c-bba4-9913c052d501",
+            "reviewedAt": "2026-10-14T13:49:36.970Z",
+            "reviewedBy": "Owner-authorized source review",
+            "notes": "Direct Fanatics page explicitly SOLD Aug2 2026 for30USD, exact English Mantyke189 ParadoxRift PSA9 cert95667203. PSA127014107 reports same transaction Aug3; direct seller date takes precedence. Older September2025 sale excluded. Previously failed October eBay originals not retried.",
+            "referenceTransactions": [
+              {
+                "transactionId": "fanatics:d818a015-fe83-4f4c-bba4-9913c052d501",
+                "sourceUrl": "https://www.fanaticscollect.com/buy-now/d818a015-fe83-4f4c-bba4-9913c052d501",
+                "value": 30,
+                "currency": "USD",
+                "soldAt": "2026-08-02",
+                "comparableCert": "95667203",
+                "saleType": "BestOffer (PSA attribution; direct seller confirms SOLD)"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
