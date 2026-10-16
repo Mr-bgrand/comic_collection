@@ -3913,7 +3913,77 @@
       "holder": "slab",
       "certUrl": "https://www.psacard.com/cert/169169655/psa",
       "fmv": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-10-16-morning-PSA-169169655",
+            "copyId": "PSA:169169655",
+            "basis": "sold-comps",
+            "value": 50,
+            "currency": "USD",
+            "saleCount": 1,
+            "source": {
+              "name": "Fanatics Collect",
+              "url": "https://www.fanaticscollect.com/buy-now/c6876ae8-39a9-4451-a38c-9fd6a4a09b8e/2026-pokemon-mega-promo-first-partner-illustration-s1-full-art-litten-44-psa-10-gem-mint",
+              "asOf": "2026-09-09",
+              "retrievedAt": "2026-10-16T10:04:07.673Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2026",
+                "brand": "POKEMON MEP EN-ME BLACK STAR PROMO",
+                "series": "",
+                "subject": "LITTEN",
+                "cardNumber": "044",
+                "variety": "FIRST PARTNER ILLUSTRATION COLLECTION SERIES 1",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "PSA",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Single older completed sale, September 9, 2026*. Newer reported prices remain unverified.",
+            "reviewEvidence": {
+              "url": "https://www.fanaticscollect.com/buy-now/c6876ae8-39a9-4451-a38c-9fd6a4a09b8e/2026-pokemon-mega-promo-first-partner-illustration-s1-full-art-litten-44-psa-10-gem-mint",
+              "reviewedAt": "2026-10-16T10:04:07.673Z",
+              "reviewedBy": "Owner-authorized source review",
+              "notes": "Direct listing explicitly SOLD Sep9,2026 for50USD; exact2026 English MEP044 First Partner Illustration Series1 PSA10, cert165022451. Generic Oct6 history33 rows lack individual transaction identity and are excluded. Newer eBay117441323775 soldOct14 displays45 or Best Offer; paid amount unconfirmed, excluded.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "fanatics:c6876ae8-39a9-4451-a38c-9fd6a4a09b8e",
+                  "sourceUrl": "https://www.fanaticscollect.com/buy-now/c6876ae8-39a9-4451-a38c-9fd6a4a09b8e/2026-pokemon-mega-promo-first-partner-illustration-s1-full-art-litten-44-psa-10-gem-mint",
+                  "value": 50,
+                  "currency": "USD",
+                  "soldAt": "2026-09-09",
+                  "comparableCert": "165022451",
+                  "saleType": "Buy Now sold listing"
+                }
+              ]
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-10-16-morning-PSA-169169655",
+          "locked": true,
+          "selectedAt": "2026-10-16T10:04:08.257Z"
+        }
+      },
       "vault": {
         "status": "Vaulted",
         "afterService": "Sent to Vault",

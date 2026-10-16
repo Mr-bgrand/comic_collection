@@ -1,0 +1,14 @@
+{
+ "schemaVersion":1,
+ "retrievedAt":"2026-10-16T10:02:35.772Z",
+ "accepted":[{"copyId":"PSA:169169655","value":50,"provisional":true,"url":"https://www.fanaticscollect.com/buy-now/c6876ae8-39a9-4451-a38c-9fd6a4a09b8e/2026-pokemon-mega-promo-first-partner-illustration-s1-full-art-litten-44-psa-10-gem-mint","soldAt":"2026-09-09","comparableCert":"165022451","finding":"Direct SOLD header confirms date,50USD,PSA10,2026MEP044 First Partner Illustration Series1. Single older sale*. Generic Oct6 $33 history has no individual identifiers and is excluded."}],
+ "directChecks":[
+ {"url":"https://www.ebay.com/itm/117441323775","transactionId":"117441323775","comparableCert":"171482117","soldAt":"2026-10-14","finding":"Exact LittenPSA10 sold header but displayed45USD or Best Offer. Realized amount unconfirmed; not used."},
+ {"url":"https://www.psacard.com/cert/171482117/psa","finding":"Internal Error; no corroboration."},
+ {"url":"https://www.ebay.com/itm/298674198034","finding":"Internal Error. PSA search snippet reported29USD Sep23,2026 cert170997878, not verified at original; excluded."},
+ {"url":"https://www.pricecharting.com/game/comic-books-power-girl/power-girl-hill-12-2024","copyId":"Authority:2191262622","finding":"FullUPC76194138173201221 Hill B cardstock matches existing raw reference. Latest displayed Aug12,2026 6.71 and Jun28 4.99 already saved. No newer transaction; existing4.84 raw reference retained outside total; condition unassessed."},
+ {"url":"https://www.mycomicshop.com/search?TID=59326638&mingr=0","finding":"Series catalog opened. No exact Hill12B completed auction established; indexed out of stock does not prove transaction."}
+ ],
+ "searchOnly":[{"query":"Power Girl12ChumaHill site:comics.ha.com","finding":"No exact completed lot surfaced; no Heritage lot opened."},{"url":"https://comicbookrealm.com/cgc-analyzer/comic/id/360175/dc-comics-power-girl-12c-segovia-variant-cover","finding":"Search result is Segovia12C with related Hill thumbnail; wrong cover and grading basis for owned rawB. Not opened."}],
+ "nextLeads":["Litten: confirm paid amount for117441323775 or obtain identified Oct6 Fanatics33 transaction. Do not count repeated generic history rows as independent sales.","PowerGirl12B: newer dated single-copy first-print sale with UPC76194138173201221; avoid Segovia12C. Existing reference retained."]
+}
