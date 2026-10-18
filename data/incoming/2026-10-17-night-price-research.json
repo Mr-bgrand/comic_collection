@@ -1,0 +1,22 @@
+{
+ "retrievedAt":"2026-10-18T02:09:44.555Z",
+ "batch":"2026-10-17-night",
+ "accepted":{"copyId":"PSA:169169654","value":46,"currency":"USD","provisional":true,"sourceUrl":"https://www.psacard.com/cert/160483552/psa","transactionId":"ebay:117441825359","soldAt":"2026-10-13","comparableCert":"163506676","basis":"Direct PSA page reports exact English Rowlet043 First Partner Illustration Series1 PSA10 eBay auction. Original eBay and comparable cert retrieval failed; single reported sale marked*."},
+ "directChecks":[
+  {"url":"https://www.ebay.com/itm/117441825359","finding":"InternalError; original auction not independently verified."},
+  {"url":"https://www.psacard.com/cert/163506676/psa","finding":"InternalError; comparable certificate is PSA sale-history reported only."},
+  {"url":"https://www.ebay.com/itm/147628792174","finding":"InternalError; PSA reports40USD fixed-price October13 cert162231909, excluded from estimate because offer terms unverified."},
+  {"url":"https://www.ebay.com/itm/298714740526","finding":"Inaccessible; PSA reports50USD fixed-price October13 cert159581787. Excluded from estimate. Direct cert159581787 also inaccessible."},
+  {"url":"https://www.ebay.com/itm/237028220710","finding":"Previously inaccessible listing now redirects to generic product15091790740; no original transaction recovered."},
+  {"url":"https://www.catawiki.com/en/l/106216469-pokemon-1-graded-card-rowlet-043-first-partner-psa-10","finding":"Prior EUR71 lead rechecked; remains excluded for absolute date, cert/language and fee gaps. Not counted as new sale."},
+  {"url":"https://www.ebay.com/itm/366700450665","copyId":"PSA:169169656","finding":"New exact Piplup042 PSA8 lead, direct timeout. No original paid amount/date/cert verified."},
+  {"url":"https://exchangecollectibles.com/products/tribute-topac-shakur-1-trade-dress","copyId":"raw:15-014","finding":"Direct retailer15USD Add to Cart, Cacau Crow trade limited600; asking price only. No fullUPC or owned finish/printing resolution."}
+ ],
+ "searchOnly":[
+  {"query":"Piplup042PSA8auction","finding":"Lastsold UK indexed October7 PSA8 row7.83GBP; PC indexed16.50USD PSA8 row, Pokett PSA8 summary12.45. Original IDs/certs not established for these summaries. No accepted estimate; do not use cross-grade modeled ladder."},
+  {"query":"Tupac Cacau MyComicShop; Tupac Crow ComicLink; Tribute Tupac Crow Heritage","finding":"No exact completed archive lot surfaced or opened. CBR NewWave5 analyzer result contains unrelated Tupac sidebar, excluded. Whatnot CE1CGC9.8limited5 is asking99USD and wrong edition/graded state."},
+  {"url":"https://bigtimecollectibles.com/products/tribute-tupac-shakur-1-caio-cacau-crow-homage-options","finding":"Indexed trade/virgin/foil/metal options confirm finish ambiguity; soldout is not a documented transaction."}
+ ],
+ "nextLeads":["Rowlet: recover original auction117441825359 and comparable cert163506676; seek additional direct completed transactions before removing asterisk.","Piplup: recover original366700450665 or individual October7/10 PSA8 history with cert, date and paid amount.","Tupac raw15-014: finish, fullUPC and printing remain unresolved. Existing HiBid238726939 has bottom-credit mismatch and premium ambiguity; not reopened. Need reverse/indicia or distinguishing finish evidence, not condition inferred from front."],
+ "outcome":"Reviewed import and separate explicit acceptance for missing Rowlet only. Locked values preserved. Piplup unchanged and raw Tupac remains unassessed with no reference in total."
+}
