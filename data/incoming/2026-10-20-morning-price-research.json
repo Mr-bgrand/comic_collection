@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-20T10:26:07.974Z",
+  "accepted": [{"copyId":"PSA:169169667","value":13.75,"currency":"USD","asterisk":true,"method":"Mean of two recent PSA-reported exact-grade auctions: 15.50 and 12.00."}],
+  "directChecks": [
+    {"url":"https://www.psacard.com/cert/120823602/psa","finding":"English 2025 SVP189 Journey Together ETB PSA8. Reports auction307191191844 October3,2026 15.50USD cert172102218; auction307170684404 September19,2026 12USD cert170868617. Used with provisional asterisk."},
+    {"url":"https://www.ebay.com/itm/307191191844","finding":"Redirect to generic product21077788078; current PSA7 offer is not original transaction."},
+    {"url":"https://www.ebay.com/itm/307170684404","finding":"Retrieval failed."},
+    {"url":"https://www.psacard.com/cert/172102218/psa","finding":"Retrieval failed."},
+    {"url":"https://www.ebay.ca/itm/306556028026","transactionId":"306556028026","comparableCert":"120323709","reportedSaleDate":"2026-07-28","displayedUSD":24,"finding":"SOLD banner and exact PSA8 English ETB189 identity. No BestOffer wording in retrieved page. Older fixed-price observation retained as context, excluded from recent auction average."}
+  ],
+  "excludedSourceRows": [
+    {"transactionId":"168786669444","reportedSaleDate":"2026-10-18","reportedUSD":16.27,"comparableCert":"118005802","saleType":"BestOffer","finding":"PSA source row only; original terms not checked, excluded from estimate."},
+    {"transactionId":"840006570714","reportedSaleDate":"2026-10-10","reportedUSD":7.27,"comparableCert":"135046960","saleType":"FixedPrice","finding":"PSA source row only; original terms not checked, excluded from estimate."}
+  ],
+  "searchOnly": [
+    {"copyId":"PSA:169169663","query":"Gengar193PSA8sold","finding":"Same September24/25 reported41.17 lead and modeled56 estimate. Prior original407220842402 product redirect not repeated. Other sets and PSA9/10 excluded."},
+    {"copyId":"Authority:0684669238","query":"76194137938800131 ebay; Harley Redder March sold","finding":"Prior175824636249 product redirect reappeared; catalog supports UPC and artist but offers3.75/4.99/5 are asking prices. No new completed sale."},
+    {"query":"Harley Redder March site:comicbookrealm.com; site:comics.ha.com; site:comiclink.com","finding":"CBR results unrelated issue pages containing active sidebar offers. No exact archive lot located. Search checks only, no direct auction archive opened."}
+  ],
+  "priorWorkReviewed": ["data/originals/2026-10-14-evening-no-change-research.json","data/originals/2026-10-16-midday-no-change-research.json","data/incoming/2026-10-12-afternoon-price-research.json"],
+  "nextLeads": [
+    "N's Zorua: original auction/cert recovery would strengthen accepted provisional13.75; newer fixed/offer rows remain unreviewed alternatives.",
+    "Gengar193PSA8: need original September sale/cert; do not adopt mixed-grade or modeled estimate.",
+    "HarleyRedder1March: exact completed single-copy fullUPC00131 and printing required; raw condition remains unassessed. Prior MCS1C retail4USD is not auction evidence."
+  ]
+}

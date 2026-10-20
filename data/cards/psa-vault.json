@@ -5648,7 +5648,86 @@
       "holder": "slab",
       "certUrl": "https://www.psacard.com/cert/169169667/psa",
       "fmv": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-10-20-morning-PSA-169169667",
+            "copyId": "PSA:169169667",
+            "basis": "sold-comps",
+            "value": 13.75,
+            "currency": "USD",
+            "saleCount": 2,
+            "source": {
+              "name": "PSA reported eBay auctions",
+              "url": "https://www.psacard.com/cert/120823602/psa",
+              "asOf": "2026-10-03",
+              "retrievedAt": "2026-10-20T10:26:07.974Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2025",
+                "brand": "POKEMON SVP EN-SV BLACK STAR PROMO",
+                "series": "",
+                "subject": "N'S ZORUA",
+                "cardNumber": "189",
+                "variety": "JOURNEY TOGETHER ELITE TRAINER BOX",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "8",
+              "grader": "PSA",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Two PSA-reported auctions*. Original auction pages unavailable or redirected; comparable certificate could not be retrieved. Payment not independently verified.",
+            "reviewEvidence": {
+              "url": "https://www.psacard.com/cert/120823602/psa",
+              "reviewedAt": "2026-10-20T10:26:07.974Z",
+              "reviewedBy": "Owner-authorized source review",
+              "notes": "Direct PSA source matches English2025SVP189 JourneyTogetherETB PSA8. Mean of reported auctions15.50Oct3 and12Sep19 =13.75USD. Original307191191844 redirects to generic product;307170684404 and comparable172102218 requests fail. Exclude PokemonCenter stamped edition. Recent BestOffer16.27Oct18 and FixedPrice7.27Oct10 excluded pending original terms. Older24USDJuly28 original306556028026 confirms SOLD and cert120323709 but not included in recent auction average. Prior14USD Fanatics lead remains undated at listing level.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:307191191844",
+                  "sourceUrl": "https://www.ebay.com/itm/307191191844",
+                  "value": 15.5,
+                  "currency": "USD",
+                  "soldAt": "2026-10-03",
+                  "comparableCert": "172102218",
+                  "saleType": "Auction reported by PSA"
+                },
+                {
+                  "transactionId": "ebay:307170684404",
+                  "sourceUrl": "https://www.ebay.com/itm/307170684404",
+                  "value": 12,
+                  "currency": "USD",
+                  "soldAt": "2026-09-19",
+                  "comparableCert": "170868617",
+                  "saleType": "Auction reported by PSA"
+                }
+              ]
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-10-20-morning-PSA-169169667",
+          "locked": true,
+          "selectedAt": "2026-10-20T10:27:23.762Z"
+        }
+      },
       "vault": {
         "status": "Vaulted",
         "afterService": "Sent to Vault",
