@@ -28,7 +28,7 @@ for(let i=0;i<flat.length;i++) {
   const {c,b}=flat[i];
   const ownerRaw=c.id?.startsWith('raw:')||c.holder==='bag-and-board';
   const short=c.kind==='card'?(c.displaySubject||c.subject):!c.title&&ownerRaw?'Raw comic · '+(c.id||'Unidentified').replace(/^raw:/,''):displayTitle({...c,variant:null});
-  const isCard=c.kind==='card',isLoose=b.physical===false,localScans=isCard||!Object.hasOwn(b,'bin')||Object.values(c.imageSources||{}).some(s=>s?.kind==='owner-photo');
+  const isCard=c.kind==='card',isLoose=b.physical===false||b.virtual===true,localScans=isCard||!Object.hasOwn(b,'bin')||Object.values(c.imageSources||{}).some(s=>s?.kind==='owner-photo');
   const small=c.images?.front && ['data/wall/','data/medium/','data/images/'].map(p=>p+c.images.front).find(existsSync);
   const fallback=!small?await sharp(pendingScan(c)).jpeg({quality:90}).toBuffer():null;
   let palette='#93bedd';
