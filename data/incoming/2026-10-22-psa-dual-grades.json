@@ -1,0 +1,46 @@
+{
+  "source": "Owner grading-results table and PSA scan archives",
+  "retrievedAt": "2026-10-23T05:05:34.723Z",
+  "notes": "Scientific-notation certs recovered from archive names and verified on slab labels. Separate card/autograph grades. Send to Vault is not confirmation of completed vault intake. No values inferred.",
+  "cards": [
+    {
+      "cert": "173415132",
+      "archive": "a56e60c2fec2",
+      "year": "2026",
+      "brand": "TOPPS CHROME CHROMOGRAPHS",
+      "subject": "JACOB MISIOROWSKI",
+      "cardNumber": "CHR-JM",
+      "variety": null,
+      "grade": "8",
+      "autographGrade": "10",
+      "serial": "43/50",
+      "category": "BASEBALL CARDS"
+    },
+    {
+      "cert": "173415133",
+      "archive": "f84ba5996a6c",
+      "year": "2025",
+      "brand": "TOPPS SIGNATURE CLASS SIGNATURE CLASSICS",
+      "subject": "BO NIX",
+      "cardNumber": "SC-BN",
+      "variety": "ORANGE REFRACTOR",
+      "grade": "10",
+      "autographGrade": "8",
+      "serial": "42/50",
+      "category": "FOOTBALL CARDS"
+    },
+    {
+      "cert": "173415134",
+      "archive": "a7fd0d59c9f4",
+      "year": "2025",
+      "brand": "TOPPS SIGNATURE CLASS",
+      "subject": "JAXSON DART",
+      "cardNumber": "106",
+      "variety": "AUTOGRAPH",
+      "grade": "8",
+      "autographGrade": "10",
+      "serial": null,
+      "category": "FOOTBALL CARDS"
+    }
+  ]
+}

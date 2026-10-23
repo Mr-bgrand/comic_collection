@@ -45,7 +45,7 @@ export function graderOf(comic) {
 /** "CGC 9.8" — the form a collector actually reads and searches for. */
 export function gradeLabel(comic) {
   if (comic?.grading?.status === 'raw') return comic.authentication?.label || 'Raw · ungraded';
-  return `${graderOf(comic)} ${comic?.grade ?? ''}`.trim();
+  return [`${graderOf(comic)} ${comic?.grade ?? ''}`.trim(), comic?.autographGrade ? `Auto ${comic.autographGrade}` : null].filter(Boolean).join(' · ');
 }
 
 function certificateLabel(comic) {

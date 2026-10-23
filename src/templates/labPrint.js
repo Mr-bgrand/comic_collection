@@ -18,7 +18,7 @@ export function renderCollectionMaster(collection) {
   }
   const rows = entries.map(({ comic: c, group: b }, i) => {
     const physical = !!b.bin || b.physical === true && !b.virtual;
-    const container = physical ? b.title || `Bin ${b.bin}` : b.virtual ? `${b.title} · ${b.location || 'External storage'}` : c.location || b.location || 'Location not recorded';
+    const container = physical ? b.title || `Bin ${b.bin}` : c.location || (b.virtual ? `${b.title} · ${b.location || 'External storage'}` : b.location || 'Location not recorded');
     const identity = c.provider === 'Authority' ? `Authority ID ${c.providerId || c.cert}` : c.grading?.status === 'raw' ? `Owner scan ${c.id || ''}` : `${graderOf(c)} ${c.cert || ''}`;
     const value = effectiveValue(c);
     const basis = valuationSourceText(c,{includeCaution:false});

@@ -6562,6 +6562,216 @@
         }
       },
       "scanStatus": "complete"
+    },
+    {
+      "kind": "card",
+      "grader": "PSA",
+      "cert": "173415132",
+      "year": "2026",
+      "brand": "TOPPS CHROME CHROMOGRAPHS",
+      "subject": "JACOB MISIOROWSKI",
+      "cardNumber": "CHR-JM",
+      "variety": null,
+      "grade": "8",
+      "autographGrade": "10",
+      "serial": "43/50",
+      "category": "BASEBALL CARDS",
+      "gradeDescription": "NEAR MINT-MINT",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/173415132/psa",
+      "fmv": null,
+      "valuation": null,
+      "signatures": [
+        {
+          "name": "JACOB MISIOROWSKI · PSA/DNA Auto 10"
+        }
+      ],
+      "vault": {
+        "status": "Send to Vault",
+        "afterService": "Send to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-23T05:05:34.723Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/2026-10-22-psa-dual-grades.json",
+        "importedAt": "2026-10-23T05:05:34.723Z"
+      },
+      "images": {
+        "front": "PSA_173415132_FRONT.jpg",
+        "back": "PSA_173415132_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-a56e60c2fec2.zip",
+          "pageUrl": "https://www.psacard.com/cert/173415132/psa",
+          "side": "front",
+          "sideBasis": "Matching cert and side in archive filename; front slab label visually verified",
+          "retrievedAt": "2026-10-23T05:05:34.723Z",
+          "originalWidth": 1429,
+          "originalHeight": 2400,
+          "sha256": "489621e0fd82613cc4ebf7737bd63c21384615a00e9a8342661088119fb0b621"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-a56e60c2fec2.zip",
+          "pageUrl": "https://www.psacard.com/cert/173415132/psa",
+          "side": "back",
+          "sideBasis": "Matching cert and side in archive filename; front slab label visually verified",
+          "retrievedAt": "2026-10-23T05:05:34.723Z",
+          "originalWidth": 1427,
+          "originalHeight": 2400,
+          "sha256": "b3639537d6c3633dda52701a0ea91924d5bd032b58ca5f6e3ef2966334eca089"
+        }
+      },
+      "scanStatus": "complete",
+      "location": "PSA — Send to Vault (intake unconfirmed)"
+    },
+    {
+      "kind": "card",
+      "grader": "PSA",
+      "cert": "173415133",
+      "year": "2025",
+      "brand": "TOPPS SIGNATURE CLASS SIGNATURE CLASSICS",
+      "subject": "BO NIX",
+      "cardNumber": "SC-BN",
+      "variety": "ORANGE REFRACTOR",
+      "grade": "10",
+      "autographGrade": "8",
+      "serial": "42/50",
+      "category": "FOOTBALL CARDS",
+      "gradeDescription": "GEM MINT",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/173415133/psa",
+      "fmv": null,
+      "valuation": null,
+      "signatures": [
+        {
+          "name": "BO NIX · PSA/DNA Auto 8"
+        }
+      ],
+      "vault": {
+        "status": "Send to Vault",
+        "afterService": "Send to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-23T05:05:34.723Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/2026-10-22-psa-dual-grades.json",
+        "importedAt": "2026-10-23T05:05:34.723Z"
+      },
+      "images": {
+        "front": "PSA_173415133_FRONT.jpg",
+        "back": "PSA_173415133_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-f84ba5996a6c.zip",
+          "pageUrl": "https://www.psacard.com/cert/173415133/psa",
+          "side": "front",
+          "sideBasis": "Matching cert and side in archive filename; front slab label visually verified",
+          "retrievedAt": "2026-10-23T05:05:34.723Z",
+          "originalWidth": 1431,
+          "originalHeight": 2400,
+          "sha256": "765c1f1e39c09b18d8f50e7d5281a019dc1fecdfc6d8e67d37ea05b08babe77d"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-f84ba5996a6c.zip",
+          "pageUrl": "https://www.psacard.com/cert/173415133/psa",
+          "side": "back",
+          "sideBasis": "Matching cert and side in archive filename; front slab label visually verified",
+          "retrievedAt": "2026-10-23T05:05:34.723Z",
+          "originalWidth": 1434,
+          "originalHeight": 2400,
+          "sha256": "7b69936a2ae118f35473aeb47f572d1d00d56c3976d6f80d555e3d39fe9e72ea"
+        }
+      },
+      "scanStatus": "complete",
+      "location": "PSA — Send to Vault (intake unconfirmed)"
+    },
+    {
+      "kind": "card",
+      "grader": "PSA",
+      "cert": "173415134",
+      "year": "2025",
+      "brand": "TOPPS SIGNATURE CLASS",
+      "subject": "JAXSON DART",
+      "cardNumber": "106",
+      "variety": "AUTOGRAPH",
+      "grade": "8",
+      "autographGrade": "10",
+      "serial": null,
+      "category": "FOOTBALL CARDS",
+      "gradeDescription": "NEAR MINT-MINT",
+      "holder": "slab",
+      "certUrl": "https://www.psacard.com/cert/173415134/psa",
+      "fmv": null,
+      "valuation": null,
+      "signatures": [
+        {
+          "name": "JAXSON DART · PSA/DNA Auto 10"
+        }
+      ],
+      "vault": {
+        "status": "Send to Vault",
+        "afterService": "Send to Vault",
+        "source": "owner-supplied PSA grading results",
+        "confirmedAt": "2026-10-23T05:05:34.723Z"
+      },
+      "acquisition": {
+        "cost": null,
+        "date": null,
+        "source": null,
+        "notes": null
+      },
+      "importSource": {
+        "file": "data/incoming/2026-10-22-psa-dual-grades.json",
+        "importedAt": "2026-10-23T05:05:34.723Z"
+      },
+      "images": {
+        "front": "PSA_173415134_FRONT.jpg",
+        "back": "PSA_173415134_BACK.jpg"
+      },
+      "imageSources": {
+        "front": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-a7fd0d59c9f4.zip",
+          "pageUrl": "https://www.psacard.com/cert/173415134/psa",
+          "side": "front",
+          "sideBasis": "Matching cert and side in archive filename; front slab label visually verified",
+          "retrievedAt": "2026-10-23T05:05:34.723Z",
+          "originalWidth": 1431,
+          "originalHeight": 2400,
+          "sha256": "cec1a955d9f20129ef0fe8a5391cb8a65622c439a4634191df8f02dd7b53418c"
+        },
+        "back": {
+          "kind": "owner-supplied-psa-archive",
+          "url": "https://d1htnxwo4o0jhw.cloudfront.net/downloads/collectors-images-a7fd0d59c9f4.zip",
+          "pageUrl": "https://www.psacard.com/cert/173415134/psa",
+          "side": "back",
+          "sideBasis": "Matching cert and side in archive filename; front slab label visually verified",
+          "retrievedAt": "2026-10-23T05:05:34.723Z",
+          "originalWidth": 1427,
+          "originalHeight": 2400,
+          "sha256": "7011e28f3c89ff4fa0183cfbf0f3582e2ea41cd29ca5edba1eefe854957b3d95"
+        }
+      },
+      "scanStatus": "complete",
+      "location": "PSA — Send to Vault (intake unconfirmed)"
     }
   ],
   "id": "psa-vault",
