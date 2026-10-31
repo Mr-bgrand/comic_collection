@@ -5,6 +5,12 @@ export function formation(mode, records, aspect=1.7, anchor=0) {
   const boxes=new Map(boxKeys.map(key=>[key,records.filter(c=>c.bin===key)]));
   const used=new Map();
   return records.map((c,i)=>{
+    if(mode==='globe') {
+      const radius=Math.max(6.4,Math.sqrt(n*.22)),y=1-2*(i+.5)/n;
+      const ring=Math.sqrt(1-y*y),angle=i*Math.PI*(3-Math.sqrt(5));
+      return {x:Math.cos(angle)*ring*radius,y:y*radius,z:Math.sin(angle)*ring*radius-4,
+        rx:-Math.asin(y),ry:Math.atan2(Math.cos(angle),Math.sin(angle)),rz:0,scale:1};
+    }
     if(mode==='spotlight') {
       const cols=aspect<.8?5:11,rows=Math.ceil(n/cols),row=Math.floor(i/cols),col=i%cols-(Math.min(cols,n)-1)/2;
       return {x:col*1.64,y:((rows-1)/2-row)*2.62,z:-4,rx:0,ry:0,rz:0,scale:1.48};
@@ -24,6 +30,11 @@ export function formation(mode, records, aspect=1.7, anchor=0) {
   });
 }
 export function cameraDistance(mode,aspect,count) {
+  if(mode==='globe') {
+    const radius=Math.max(6.4,Math.sqrt(count*.22));
+    const halfFov=Math.atan(Math.tan(21*Math.PI/180)*Math.min(1,Math.max(.3,aspect)));
+    return (radius+1.2)/Math.sin(halfFov)-4;
+  }
   if(mode==='spotlight')return 12;
   if(mode==='wall') {
     const cols=Math.max(5,Math.ceil(Math.sqrt(count*Math.max(.4,aspect)*1.62))),rows=Math.ceil(count/cols);

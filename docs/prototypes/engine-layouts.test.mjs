@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {formation,cameraDistance} from './engine-layouts.mjs';
 const records=[...Array.from({length:244},(_,i)=>({id:'CGC:'+i,kind:'comic',bin:i<239?String(Math.floor(i/25)):'wall'})),...Array.from({length:49},(_,i)=>({id:'PSA:'+i,kind:'card',bin:'psa-vault',virtual:true}))];
-for(const aspect of [.46,1.77]) for(const mode of ['orbit','wall','longbox','spotlight']) {
+for(const aspect of [.46,1.77]) for(const mode of ['orbit','wall','longbox','spotlight','globe']) {
   test(`${mode} at aspect ${aspect} keeps every object finite and separated`,()=>{
     const layout=formation(mode,records,aspect);assert.equal(layout.length,293);
     assert.equal(new Set(layout.map(p=>[p.x,p.y,p.z].join(','))).size,293);
@@ -20,4 +20,14 @@ test('spotlight keeps its wall order and positions when any copy is selected',()
   const original=formation('spotlight',records,1.77,0);
   for(const selected of [0,23,244,292])assert.deepEqual(formation('spotlight',records,1.77,selected),original);
   assert.ok(original[0].y>original.at(-1).y);
+});
+
+test('globe covers a sphere with outward facing copies and fits narrow screens',()=>{
+ const poses=formation('globe',records),radius=Math.max(6.4,Math.sqrt(records.length*.22));
+ for(const p of poses){
+   assert.ok(Math.abs(Math.hypot(p.x,p.y,p.z+4)-radius)<1e-9);
+   const normal=[Math.sin(p.ry)*Math.cos(p.rx),-Math.sin(p.rx),Math.cos(p.ry)*Math.cos(p.rx)];
+   assert.ok(normal[0]*p.x+normal[1]*p.y+normal[2]*(p.z+4)>radius-.000001);
+ }
+ assert.ok(cameraDistance('globe',.46,records.length)>cameraDistance('globe',1.77,records.length));
 });
