@@ -2,7 +2,7 @@
 export function historyCategories(snapshot) {
  return [['Market estimates','marketTotal'],['PSA comparisons for TAG','comparisonTotal'],['Owner estimates','ownerTotal'],['Provisional raw · excluded','provisionalTotal']].map(([label,key])=>({label,value:snapshot.categoryVersion===1&&Number.isFinite(snapshot[key])?snapshot[key]:null}));
 }
-export function mountValueHistory({history,onOpen=()=>{},onUnvalued=()=>{}}) {
+export function mountValueHistory({history,canOpen=()=>true,onOpen=()=>{},onUnvalued=()=>{}}) {
   const $=id=>document.getElementById(id),ns='http://www.w3.org/2000/svg',snapshots=history.snapshots;
   const current=history.current||snapshots.at(-1),money=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:2,minimumFractionDigits:0}).format(n);
   const date=(at,full=false)=>new Intl.DateTimeFormat('en-US',{month:'short',day:'numeric',...(full?{year:'numeric',hour:'numeric',minute:'2-digit'}:{}),timeZone:history.timeZone}).format(new Date(at));
@@ -44,6 +44,6 @@ export function mountValueHistory({history,onOpen=()=>{},onUnvalued=()=>{}}) {
   function pointAt(e){const bounds=chart.getBoundingClientRect(),x=(e.clientX-bounds.left)/bounds.width*640;let nearest=0;for(let i=1;i<points.length;i++)if(Math.abs(points[i].x-x)<Math.abs(points[nearest].x-x))nearest=i;select(nearest);}
   chart.onpointerdown=e=>{dragging=true;chart.setPointerCapture(e.pointerId);pointAt(e);};chart.onpointermove=e=>{if(dragging||e.pointerType==='mouse')pointAt(e);};chart.onpointerup=chart.onpointercancel=()=>{dragging=false;};
   for(const s of snapshots){const row=document.createElement('tr');for(const text of [date(s.observedAt,true),s.valued?money(s.total)+(s.limitedHistoryCount?'*':''):'Unknown',String(s.valued),String(s.count)]){const cell=document.createElement('td');cell.textContent=text;row.append(cell);}$('value-rows').append(row);}
-  $('collection-value').onclick=()=>{onOpen();select(snapshots.length-1);$('value-dialog').showModal();};
+  $('collection-value').onclick=()=>{if(!canOpen())return;onOpen();select(snapshots.length-1);$('value-dialog').showModal();};
   select(snapshots.length-1);
 }

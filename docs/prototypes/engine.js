@@ -11,7 +11,7 @@ const payload=JSON.parse(document.getElementById('engine-data').textContent);
 const records=payload.records, $=id=>document.getElementById(id), app=$('engine');
 const money=v=>v===null?'Not yet valued':'$'+v.toLocaleString('en-US');
 const reduced=matchMedia('(prefers-reduced-motion: reduce)');
-let quiet=reduced.matches, selected=0, mode='orbit', inspecting=true, exploded=false, separation=1, flipped=false, graphics=null,scope='all',tourOn=false;
+let quiet=false, selected=0, mode='wall', inspecting=false, exploded=false, separation=1, flipped=false, graphics=null,scope='all',tourOn=false;
 let rendererFailed=false,unvaluedOnly=false,valueFilter=null,caseFilter=null,lastResultsScroll=0;
 let insideCase=false,arrivalPlaying=false,arrivalElapsed=0,arrivalTime=0,ambient=false;
 let musicStorage;try{musicStorage=localStorage;}catch{}
@@ -33,7 +33,9 @@ function asset(c,side) {
   return url;
 }
 const visibleIndices=()=>records.map((c,i)=>({c,i})).filter(({c})=>scope==='all'||c.kind===scope).map(({i})=>i);
-const sourceText=c=>c.source?c.source+(c.valueCaution?' · * Estimate: '+c.valueCaution:'')+' · '+(c.date?'Source as of '+c.date:'Source undated'):c.provisional?'Provisional raw reference '+money(c.provisional.value)+' · '+c.provisional.source+' · '+(c.provisional.date||'Source undated')+' · excluded from totals':'No value recorded';
+let valuesUnlocked=false;
+const displayValue=c=>valuesUnlocked?(c.valueText||money(c.value)):'Hidden · click to unlock';
+const sourceText=c=>!valuesUnlocked?'Values hidden':c.source?c.source+(c.valueCaution?' · * Estimate: '+c.valueCaution:'')+' · '+(c.date?'Source as of '+c.date:'Source undated'):c.provisional?'Provisional raw reference '+money(c.provisional.value)+' · '+c.provisional.source+' · '+(c.provisional.date||'Source undated')+' · excluded from totals':'No value recorded';
 function updateScope(){document.querySelectorAll('[data-scope]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.scope===scope)));}
 function stopTour(){tourOn=false;$('tour').setAttribute('aria-pressed','false');text('tour','Play tour ▷');if(arrivalPlaying){arrivalPlaying=false;arrivalElapsed=ARRIVAL_REST;syncArrival();}}
 function syncArrival(){text('arrival-play',arrivalPlaying?'Pause Ⅱ':'Resume ▷');$('arrival-play').setAttribute('aria-pressed',String(arrivalPlaying));text('arrival-state',quiet?'STILL / MOTION OFF':arrivalPlaying?'CONTINUOUS FLIGHT':'PAUSED / YOUR MOMENT');syncSoundtrack();}
@@ -44,7 +46,7 @@ function updateFocus() {
   const c=records[selected];
   text('item-index',String(selected+1).padStart(3,'0'));
   text('focus-label','IN FOCUS');
-  text('item-title',c.short);text('item-variant',c.variant);text('item-grade',c.grade);text('item-bin',c.container+(c.virtual?' · '+(c.storage||'External storage'):''));text('item-value',(c.valueText||money(c.value)));
+  text('item-title',c.short);text('item-variant',c.variant);text('item-grade',c.grade);text('item-bin',c.container+(c.virtual?' · '+(c.storage||'External storage'):''));text('item-value',displayValue(c));
   text('item-source',sourceText(c));$('scan-notice').hidden=c.hasScan;text('scan-notice',c.scanStatus==='no-scans-on-cert-page'?'No scans on PSA cert page':'Scan pending · record imported');
   const indices=browseIndices();text('object-count',indices.includes(selected)?String(indices.indexOf(selected)+1).padStart(3,'0')+' / '+indices.length:'UNSCANNED');
   $('explode').disabled=!c.hasScan;$('explode').title=c.hasScan?'Study front and reverse scans together':'Study will be available when the scans are retrieved';
@@ -100,7 +102,7 @@ $('tour').onclick=()=>{tourOn=!tourOn;if(tourOn){quiet=false;motion();}text('tou
 $('wall-zoom-in').onclick=()=>{stopTour();graphics?.zoomWall(.8);};
 $('wall-zoom-out').onclick=()=>{stopTour();graphics?.zoomWall(1.25);};
 $('wall-center').onclick=()=>{stopTour();inspecting=false;exploded=false;updateFocus();graphics?.arrange(true);};
-$('home').onclick=()=>arrange('orbit');$('previous').onclick=()=>{stopTour();nextObject(-1);};$('next').onclick=()=>{stopTour();nextObject(1);};
+$('home').onclick=()=>arrange('wall');$('previous').onclick=()=>{stopTour();nextObject(-1);};$('next').onclick=()=>{stopTour();nextObject(1);};
 $('explode').onclick=toggleExplosion;$('flip').onclick=()=>{stopTour();if(!records[selected].images.back)return;flipped=!flipped;exploded=false;updateFocus();graphics?.resetHero();};
 $('inspect-toggle').onclick=()=>{if(inspecting)leaveInspection();else choose(selected);};
 $('case-leave').onclick=leaveInspection;$('case-enter').onclick=()=>choose(selected);
@@ -116,10 +118,10 @@ function openRecord() {
   $('record-details').replaceChildren();
   for(const [label,value] of c.details||[]){if(!value)continue;const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=label;dd.textContent=value;$('record-details').append(dt,dd);}
   $('record-details').hidden=!c.details?.length;
-  text('record-cert',c.cert||c.id);text('record-bin',c.container+(c.virtual?' · '+(c.storage||'External storage'):''));text('record-value',(c.valueText||money(c.value)));text('record-source',sourceText(c)+(c.importedAt?' · imported '+c.importedAt:''));
+  text('record-cert',c.cert||c.id);text('record-bin',c.container+(c.virtual?' · '+(c.storage||'External storage'):''));text('record-value',displayValue(c));text('record-source',sourceText(c)+(c.importedAt?' · imported '+c.importedAt:''));
   $('record-scan-notice').hidden=c.hasScan;text('record-scan-notice',c.scanStatus==='no-scans-on-cert-page'?'PSA currently supplies no scans for this cert. Your imported record is retained; no similar-card photo has been substituted.':'Scans are pending retrieval from the certification page. The collection record is already imported.');
   for(const side of ['front','back']) {const img=$('record-'+side),url=c.images[side]?asset(c,side):null;img.hidden=!url;if(url){img.src=url;img.alt=c.short+' '+side+' scan';img.onerror=()=>{img.hidden=true;};}}
-  link('verify-link',c.verify);link('value-link',c.evidence);link('bin-link',c.href);$('record-dialog').showModal();
+  link('verify-link',c.verify);link('value-link',valuesUnlocked?c.evidence:null);link('bin-link',c.href);$('record-dialog').showModal();
 }
 $('record').onclick=openRecord;
 const shortcuts=searchShortcuts(records);
@@ -144,7 +146,7 @@ function search() {
   for(const {c,i} of matches) {
     const button=document.createElement('button');button.className='result';const identity=document.createElement('span');identity.textContent=c.title;
     const meta=document.createElement('small');meta.textContent=c.grade+' · '+c.container+' · '+(c.cert||c.id);identity.append(meta);
-    const price=document.createElement('span');price.textContent=(c.valueText||money(c.value))+' ↗';button.append(identity,price);
+    const price=document.createElement('span');price.textContent=displayValue(c)+' ↗';button.append(identity,price);
     button.onclick=()=>{$('search-dialog').close();choose(i);if(rendererFailed)openRecord();};$('results').append(button);
   }
   if(!matches.length){const p=document.createElement('p');p.textContent='No matching objects. Try a title or certification number.';$('results').append(p);}
@@ -183,9 +185,28 @@ document.addEventListener('keydown',e=>{
   if(e.key.toLowerCase()==='h'&&mode==='singularity'){e.preventDefault();setAmbient(!ambient);}
   if(e.code==='Space'){e.preventDefault();if(mode==='singularity')$('arrival-play').click();else if(inspecting)leaveInspection();else choose(selected);}
 });
-updateFocus();
+arrange('wall');
 mountAdmin({payload,onOpen:stopTour,onBinChange:bin=>{for(const c of records)if(c.bin===bin.id){c.container=bin.title;c.storage=bin.location;}updateFocus();}});
-mountValueHistory({history:payload.valueHistory,onOpen:stopTour,onUnvalued:()=>openSearch({unvalued:true})});
+mountValueHistory({history:payload.valueHistory,canOpen:unlockValues,onOpen:stopTour,onUnvalued:()=>openSearch({unvalued:true})});
+const miniTotal=$('value-mini-total').textContent;
+$('value-mini-total').textContent='Hidden · unlock';
+$('value-mini-chart').style.visibility='hidden';
+function unlockValues(){
+  if(valuesUnlocked)return true;
+  const code=window.prompt('Enter passcode to show collection values');
+  if(code===null)return false;
+  if(code!=='1115'){window.alert('Incorrect passcode. Values remain hidden.');return false;}
+  valuesUnlocked=true;
+  $('value-mini-total').textContent=miniTotal;
+  $('value-mini-chart').style.visibility='';
+  updateFocus();search();
+  if($('record-dialog').open){text('record-value',displayValue(records[selected]));text('record-source',sourceText(records[selected]));link('value-link',records[selected].evidence);}
+  return true;
+}
+for(const id of ['item-value','record-value']){
+  const el=$(id);el.tabIndex=0;el.setAttribute('role','button');el.setAttribute('aria-label','Unlock recorded values');
+  el.onclick=unlockValues;el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();e.stopPropagation();unlockValues();}};
+}
 const linkedCase=new URLSearchParams(location.search).get('case');
 if(linkedCase&&records.some(c=>c.bin===linkedCase)){openSearch();caseFilter=linkedCase;$('query').value=records.find(c=>c.bin===linkedCase).container;search();}
 
