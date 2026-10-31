@@ -16,8 +16,10 @@ let rendererFailed=false,unvaluedOnly=false,valueFilter=null,caseFilter=null,las
 let insideCase=false,arrivalPlaying=false,arrivalElapsed=0,arrivalTime=0,ambient=false;
 let musicStorage;try{musicStorage=localStorage;}catch{}
 const soundtrack=createSoundtrack({audio:$('singularity-audio'),button:$('music-toggle'),source:payload.soundtrack?.src,storage:musicStorage});
-function syncSoundtrack(){soundtrack.setPlayback({active:mode==='singularity',playing:arrivalPlaying,quiet,hidden:document.hidden});}
+function syncSoundtrack(){soundtrack.setPlayback({active:true,playing:true});}
 document.addEventListener('visibilitychange',syncSoundtrack);
+document.addEventListener('click',e=>{if(!e.target.closest('#music-toggle'))soundtrack.retry();});
+document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&!e.target.closest('#music-toggle'))soundtrack.retry();});
 addEventListener('pagehide',()=>soundtrack.setPlayback({active:false,playing:false}));
 addEventListener('pageshow',syncSoundtrack);
 const arrivalQueues=Object.fromEntries(['all','comic','card'].map(s=>[s,arrivalSequence(records,s)]));
@@ -54,6 +56,10 @@ function updateFocus() {
   app.dataset.holder=c.holder||'slab';
   app.classList.toggle('overview',!inspecting);app.classList.toggle('exploded',exploded&&inspecting);
   app.dataset.formation=mode;
+  $('close-inspection').hidden=!inspecting||mode==='singularity'||ambient;
+  const returnView=({wall:'Wall',globe:'Globe',orbit:'Orbit',longbox:'Longbox',spotlight:'Spotlight'})[mode]||'collection';
+  text('close-inspection','× Back to '+returnView);
+  $('close-inspection').setAttribute('aria-label','Close opened copy and return to '+returnView);
   $('focus-panel').inert=!inspecting||ambient;$('object-tools').inert=!inspecting||ambient;
   $('scene-caption').setAttribute('aria-hidden',String(inspecting||mode!=='orbit'));
   $('explode').setAttribute('aria-pressed',String(exploded));$('flip').setAttribute('aria-pressed',String(flipped));
@@ -105,6 +111,7 @@ $('wall-zoom-out').onclick=()=>{stopTour();graphics?.zoomWall(1.25);};
 $('wall-center').onclick=()=>{stopTour();inspecting=false;exploded=false;updateFocus();graphics?.arrange(true);};
 $('home').onclick=()=>arrange('globe');$('previous').onclick=()=>{stopTour();nextObject(-1);};$('next').onclick=()=>{stopTour();nextObject(1);};
 $('explode').onclick=toggleExplosion;$('flip').onclick=()=>{stopTour();if(!records[selected].images.back)return;flipped=!flipped;exploded=false;updateFocus();graphics?.resetHero();};
+$('close-inspection').onclick=()=>{leaveInspection();document.querySelector('button[data-formation="'+mode+'"]').focus({preventScroll:true});};
 $('inspect-toggle').onclick=()=>{if(inspecting)leaveInspection();else choose(selected);};
 $('case-leave').onclick=leaveInspection;$('case-enter').onclick=()=>choose(selected);
 $('arrival-play').onclick=()=>{if(arrivalPlaying)stopTour();else if(arrivalQueues[scope].length){arrivalPlaying=true;quiet=false;motion();arrivalElapsed=ARRIVAL_REST;syncArrival();soundtrack.retry();}};

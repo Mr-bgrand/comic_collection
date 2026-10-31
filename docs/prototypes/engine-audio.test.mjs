@@ -26,11 +26,12 @@ test('music loads on demand, loops, and retains its position through repeated sc
   controller.setPlayback({ ...play, playing: false }); assert.equal(audio.paused, true);
   controller.setPlayback(play); await flush(); assert.equal(audio.paused, false); assert.equal(audio.currentTime, 43);
 });
-test('leaving the scene, reduced motion, and backgrounding pause music without changing its enabled preference', async () => {
+test('motion settings and background tabs keep music playing without restarting', async () => {
   const { audio, button, controller, play } = setup();
-  for (const pause of [{ active: false }, { quiet: true }, { hidden: true }]) {
+  for (const pause of [{ quiet: true }, { hidden: true }, { quiet: true, hidden: true }]) {
     controller.setPlayback(play); await flush(); assert.equal(audio.paused, false);
-    controller.setPlayback({ ...play, ...pause }); assert.equal(audio.paused, true);
+    controller.setPlayback({ ...play, ...pause }); assert.equal(audio.paused, false);
+    assert.equal(audio.calls, 1); assert.equal(audio.currentTime, 43);
     assert.equal(button['aria-pressed'], 'true');
   }
   controller.setPlayback(play); await flush(); assert.equal(audio.paused, false);

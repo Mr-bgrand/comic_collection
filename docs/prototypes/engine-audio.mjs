@@ -1,19 +1,19 @@
-/** One looping soundtrack. Scene visibility and transport own playback, never HUD visibility. */
+/** One looping soundtrack. Playback continues across views and background tabs. */
 export function createSoundtrack({ audio, button, source, storage, onChange = () => {} }) {
   const key = 'collection-singularity-music';
   let enabled = true;
   try { enabled = storage?.getItem(key) !== 'off'; } catch {}
-  let active = false, running = false, visible = true, pending = false, issue = '', generation = 0;
+  let active = false, running = false, pending = false, issue = '', generation = 0;
   audio.loop = true;
   audio.preload = 'none';
   audio.volume = .65;
-  const wanted = () => Boolean(source && enabled && active && running && visible);
+  const wanted = () => Boolean(source && enabled && active && running);
   function render() {
     const state = !enabled ? 'off' : issue || (pending ? 'loading' : !audio.paused ? 'playing' : 'ready');
     button.textContent = ({ off: 'Music off', blocked: 'Music play ▷', error: 'Music retry ↻', loading: 'Music loading', playing: 'Music on ♪', ready: 'Music ready ♪' })[state];
     button.setAttribute('aria-pressed', String(enabled && !issue));
     button.setAttribute('aria-label', issue ? 'Play Cornfield Chase' : enabled ? 'Turn music off' : 'Turn music on');
-    button.title = issue === 'error' ? 'Audio could not load. Tap to retry.' : issue === 'blocked' ? 'Tap to play Cornfield Chase · Hans Zimmer' : 'Cornfield Chase · Hans Zimmer. Music follows Singularity playback.';
+    button.title = issue === 'error' ? 'Audio could not load. Tap to retry.' : issue === 'blocked' ? 'Tap to play Cornfield Chase · Hans Zimmer' : 'Cornfield Chase · Hans Zimmer. Music continues across all views.';
     button.dataset.state = state;
     onChange(state);
   }
@@ -39,7 +39,7 @@ export function createSoundtrack({ audio, button, source, storage, onChange = ()
     });
   }
   function setPlayback({ active: nextActive, playing, quiet = false, hidden = false }) {
-    active = nextActive; running = playing && !quiet; visible = !hidden;
+    active = nextActive; running = playing;
     sync();
   }
   function retry() { issue = ''; if (audio.error) audio.load(); sync(); }
