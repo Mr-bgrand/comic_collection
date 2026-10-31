@@ -11,7 +11,7 @@ const payload=JSON.parse(document.getElementById('engine-data').textContent);
 const records=payload.records, $=id=>document.getElementById(id), app=$('engine');
 const money=v=>v===null?'Not yet valued':'$'+v.toLocaleString('en-US');
 const reduced=matchMedia('(prefers-reduced-motion: reduce)');
-let quiet=false, selected=0, mode='wall', inspecting=false, exploded=false, separation=1, flipped=false, graphics=null,scope='all',tourOn=false;
+let quiet=false, selected=0, mode='globe', inspecting=false, exploded=false, separation=1, flipped=false, graphics=null,scope='all',tourOn=false;
 let rendererFailed=false,unvaluedOnly=false,valueFilter=null,caseFilter=null,lastResultsScroll=0;
 let insideCase=false,arrivalPlaying=false,arrivalElapsed=0,arrivalTime=0,ambient=false;
 let musicStorage;try{musicStorage=localStorage;}catch{}
@@ -103,7 +103,7 @@ $('tour').onclick=()=>{tourOn=!tourOn;if(tourOn){quiet=false;motion();}text('tou
 $('wall-zoom-in').onclick=()=>{stopTour();graphics?.zoomWall(.8);};
 $('wall-zoom-out').onclick=()=>{stopTour();graphics?.zoomWall(1.25);};
 $('wall-center').onclick=()=>{stopTour();inspecting=false;exploded=false;updateFocus();graphics?.arrange(true);};
-$('home').onclick=()=>arrange('wall');$('previous').onclick=()=>{stopTour();nextObject(-1);};$('next').onclick=()=>{stopTour();nextObject(1);};
+$('home').onclick=()=>arrange('globe');$('previous').onclick=()=>{stopTour();nextObject(-1);};$('next').onclick=()=>{stopTour();nextObject(1);};
 $('explode').onclick=toggleExplosion;$('flip').onclick=()=>{stopTour();if(!records[selected].images.back)return;flipped=!flipped;exploded=false;updateFocus();graphics?.resetHero();};
 $('inspect-toggle').onclick=()=>{if(inspecting)leaveInspection();else choose(selected);};
 $('case-leave').onclick=leaveInspection;$('case-enter').onclick=()=>choose(selected);
@@ -186,7 +186,7 @@ document.addEventListener('keydown',e=>{
   if(e.key.toLowerCase()==='h'&&mode==='singularity'){e.preventDefault();setAmbient(!ambient);}
   if(e.code==='Space'){e.preventDefault();if(mode==='singularity')$('arrival-play').click();else if(inspecting)leaveInspection();else choose(selected);}
 });
-arrange('wall');
+arrange('globe');
 mountAdmin({payload,onOpen:stopTour,onBinChange:bin=>{for(const c of records)if(c.bin===bin.id){c.container=bin.title;c.storage=bin.location;}updateFocus();}});
 mountValueHistory({history:payload.valueHistory,canOpen:unlockValues,onOpen:stopTour,onUnvalued:()=>openSearch({unvalued:true})});
 const miniTotal=$('value-mini-total').textContent;
