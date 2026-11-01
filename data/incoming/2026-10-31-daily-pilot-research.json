@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "localResearchDate": "2026-10-31",
+  "retrievedAt": "2026-11-01T00:15:59Z",
+  "targetNewPrices": 10,
+  "reviewedCopyIds": ["PSA:169169675", "PSA:169169663", "PSA:169169656", "TAG:H5738313", "TAG:D6943986", "CGC:2733544003", "CGC:2765925001", "CGC:4480291001", "CGC:4350046013", "CGC:4273634005", "PSA:169169670", "PSA:169169671", "raw:15-025"],
+  "accepted": [{"copyId":"PSA:169169663","value":61,"currency":"USD","asterisk":true,"method":"Median of three recent exact PSA 8 secondary reported sales; original terms/certs unavailable."}],
+  "counts": {"researched":13,"newPrices":1,"newRawReferences":0,"unresolved":12,"valuedAfter":428,"unpricedAfter":551,"gradedMissingAfter":122},
+  "directChecks": [
+    {"url":"https://www.pricecharting.com/game/pokemon-temporal-forces/gengar-ex-193","finding":"Exact PSA8 rows51 Oct28,61 Oct16,75 Oct12. PSA8.5/CGC8.5 excluded. Three transaction URLs preserved in reviewed observation. Originals unavailable; provisional secondary evidence only."},
+    {"url":"https://www.ebay.com/itm/860070072383","finding":"Retrieval failed; reported Oct28 51USD, comparable cert unknown."},
+    {"url":"https://www.ebay.com/itm/267807958209","finding":"Retrieval failed; reported Oct16 61USD, comparable cert unknown. CollectSherpa date differs by one day; not another transaction."},
+    {"url":"https://www.ebay.com/itm/377155662036","finding":"Retrieval failed; reported Oct12 75USD, comparable cert unknown."},
+    {"url":"https://www.fanaticscollect.com/weekly/6c99b0e6-b340-11ef-acea-023c03bee201/2024-pokemon-sv-temporal-forces-full-art-gengar-ex-193-psa-8-nm-mt","transactionId":"WA152:9842F1","comparableCert":"99219884","soldAt":"2024-12-16","value":21.6,"currency":"USD","finding":"Verified archived sale including buyer premium. Stale; excluded from current estimate. PSA comparable cert retrieval failed."},
+    {"url":"https://www.sportscardspro.com/game/baseball-cards-2025-topps-x-bob-ross/ichiro-69","finding":"Oct17 79.99 row318797778388 previously established asking. May11 85 row397904543870 original inaccessible. No acceptance."},
+    {"url":"https://www.ebay.com/itm/397904543870","finding":"Unavailable."},
+    {"url":"https://www.psacard.com/en-CA/cert/166506858/psa","finding":"Piplup042 comparable page grade10 sales not PSA8. Owned cert169169656 request failed. GameStop165056883 indexed11.99outofstock excluded as catalog only."},
+    {"url":"https://www.ebay.com/itm/116926539130","transactionId":"116926539130","comparableCert":"115059821","finding":"HoOh020PSA9 active60USD BuyItNow. Excluded; no reliable directTAG9 value found."},
+    {"url":"https://www.ebay.com/itm/307189738518","transactionId":"307189738518","comparableCert":"157420110","endedAt":"2026-09-28","finding":"Palkia040PSA7 ended with0bids19.95USD. Not sold. Scrydex indexedOct25sameamount/title not corroborated; no fallback accepted."},
+    {"url":"https://scrydex.com/pokemon/cards/origin-forme-palkia-vstar/swsh10-40?variant=holofoil","finding":"Direct request timeout; indexed report only. Do not claim full page inspected."},
+    {"url":"https://www.sportscardspro.com/game/baseball-cards-2025-topps-x-bob-ross/ken-griffey-jr-54","finding":"October23 PSA9 row53USD explicitly54-SP wrongvariant. May5 50/60bestoffer198315005042 original affiliate failed. No paidamount verified."},
+    {"url":"https://www.sportscardspro.com/game/baseball-cards-2025-topps-x-bob-ross/mookie-betts-10","finding":"July15 PSA9 reported29.95USD137026505565; original inaccessible. Weak older single-sale lead remains unaccepted."},
+    {"url":"https://www.ebay.com/itm/137026505565","finding":"Unavailable."},
+    {"url":"https://www.hipcomic.com/listing/grim-11-jenny-frison-sdcc-virgin-editioncgc-98/14387944","transactionId":"14387944","finding":"Indexed sales history16.50Feb3,2024; direct retrieval limited. Qualified label match not established; excluded."},
+    {"url":"https://comicbookrealm.com/cgc-analyzer/comic/id/306588/dynamite-entertainment-darkwing-duck-1parsons-b-parsons-virgin-edition","finding":"Virgin designation wrong for owned trade; zero recorded sales. Asking sidebar excluded."},
+    {"url":"https://www.mycomicshop.com/search?tid=60467885","finding":"TaylorSwift Unknown.A catalog distinguishes variant; gradedoffers not rawcompleted evidence. FullUPC/printing not established. Rawcondition unassessed."}
+  ],
+  "searchOnly": [
+    {"copyId":"CGC:2733544003","finding":"Heritage Young/Ramos search yielded differentedition,SkottieYoungsigner,multiplesignatures/group lots. Owned Youngvariant Ramos-onlySS9.8; no match. ComicLink/MCS queries no matching transaction."},
+    {"copyId":"CGC:2765925001","finding":"Heritage7374lot97147 is Wherewhen2 originalcoverart; MCS65120494 is issue4 BishopSSsketch. Neither owned2SakaiwraparoundEastmanSS9.8."},
+    {"copyId":"CGC:4480291001","url":"https://www.ebay.com/itm/257306989348","finding":"Indexed139.99OBO RoseBeschSS9.8; ownedCGCxJSA requires signer review. Universal60retailnotmatchingcompleted."},
+    {"copyId":"CGC:4273634005","url":"https://geekedoutcomics.com/products/darkwing-duck-1-casey-parsons-cgc-9-8-exclusive-cover-dynamite-2023","finding":"45USD soldoutcatalog not completed transaction. ComicLink exactParsons query yielded no matching lot."},
+    {"copyId":"raw:15-025","finding":"DefendiniXvirgin/chrome retail results wrongedition. FullUPC query did not resolve ownedtradeprinting; priorownedscan work retained."}
+  ],
+  "nextLeads": [
+    "Recover original three Gengar transactions/certs to strengthen61star; retain dates as reported and do not imply independent payment verification.",
+    "Exclude Palkia307189738518 zero-bid auction from future comps; seek differentTAG7orPSA7transaction.",
+    "Exclude Griffey54-SP from base54; recover actualpaidamount for198315005042 before use.",
+    "Require signature/label match for StrangeAcademy,Wherewhen,WonderWoman,Grim.",
+    "RawTaylor needs fullUPC/printing/back-indicia confirmation and a completedtradecopy; virgin/chromeprices cannot substitute.",
+    "Nextdailybatch should select different unresolved items unless new evidence opens one of these leads. Target10 is not permission to invent prices."
+  ],
+  "preservation":"Existing locked prices unchanged; unassessed raw references excluded from total; protected alternate-labelPDF untouched."
+}

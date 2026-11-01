@@ -5086,7 +5086,95 @@
       "holder": "slab",
       "certUrl": "https://www.psacard.com/cert/169169663/psa",
       "fmv": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-10-31-daily-pilot-PSA-169169663",
+            "copyId": "PSA:169169663",
+            "basis": "sold-comps",
+            "value": 61,
+            "currency": "USD",
+            "saleCount": 3,
+            "source": {
+              "name": "PriceCharting reported exact PSA 8 sales",
+              "url": "https://www.pricecharting.com/game/pokemon-temporal-forces/gengar-ex-193",
+              "asOf": "2026-10-28",
+              "retrievedAt": "2026-11-01T00:16:12.924Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "POKEMON TEF EN-TEMPORAL FORCES",
+                "series": "",
+                "subject": "GENGAR EX",
+                "cardNumber": "193",
+                "variety": "ULTRA RARE",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "8",
+              "grader": "PSA",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Three secondary reported sales*. Original eBay pages unavailable; certificates and payment terms not independently verified. Median of exact PSA 8 rows, not the mixed-grade guide.",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/pokemon-temporal-forces/gengar-ex-193",
+              "reviewedAt": "2026-11-01T00:16:12.924Z",
+              "reviewedBy": "Owner-authorized source review",
+              "notes": "English 2024 Temporal Forces Gengar ex 193 Ultra Rare PSA8. Median of reported51,61,75USD =61. Excluded PSA8.5 and CGC8.5 rows from same bucket. CollectSherpa dates61 row October15 instead of PriceCharting October16; use source-reported dates and do not count as separate sale. Fanatics WA152 lot9842F1 cert99219884 soldDecember16,2024 for21.60 including premium is stale and excluded. No original listing payment verification claimed.",
+              "referenceTransactions": [
+                {
+                  "transactionId": "ebay:860070072383",
+                  "sourceUrl": "https://www.ebay.com/itm/860070072383",
+                  "value": 51,
+                  "currency": "USD",
+                  "soldAt": "2026-10-28",
+                  "comparableCert": null,
+                  "saleType": "Reported sold listing; original unavailable"
+                },
+                {
+                  "transactionId": "ebay:267807958209",
+                  "sourceUrl": "https://www.ebay.com/itm/267807958209",
+                  "value": 61,
+                  "currency": "USD",
+                  "soldAt": "2026-10-16",
+                  "comparableCert": null,
+                  "saleType": "Reported sold listing; original unavailable"
+                },
+                {
+                  "transactionId": "ebay:377155662036",
+                  "sourceUrl": "https://www.ebay.com/itm/377155662036",
+                  "value": 75,
+                  "currency": "USD",
+                  "soldAt": "2026-10-12",
+                  "comparableCert": null,
+                  "saleType": "Reported sold listing; original unavailable"
+                }
+              ]
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-10-31-daily-pilot-PSA-169169663",
+          "locked": true,
+          "selectedAt": "2026-11-01T00:16:13.408Z"
+        }
+      },
       "vault": {
         "status": "Vaulted",
         "afterService": "Sent to Vault",
