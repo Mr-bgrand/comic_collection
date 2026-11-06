@@ -3290,7 +3290,70 @@
         "capturedAt": "2026-09-07T23:51:03.036Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-06-daily-raw-Authority-7633260283",
+            "copyId": "Authority:7633260283",
+            "basis": "raw-reference",
+            "value": 5.75,
+            "currency": "USD",
+            "source": {
+              "name": "Midtown Comics asking-price reference*",
+              "url": "https://www.midtowncomics.com/p/2343577-detective-comics-400-facsimile-edition-cover-c-variant-blank-cover/",
+              "asOf": null,
+              "retrievedAt": "2026-11-06T16:01:33.924Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Detective Comics",
+                "issue": "400",
+                "issueYear": "2024",
+                "publisher": "DC Comics",
+                "variant": "Blank Facsimile Edition",
+                "upc": "76194138450400121",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "provisional": true,
+            "provisionalReason": "Estimated from asking prices; not confirmed sales. Seller Near Mint reference only; owned raw condition unassessed. Outside collection total. Availability not independently checked at checkout; shipping/tax excluded.",
+            "reviewEvidence": {
+              "url": "https://www.midtowncomics.com/p/2343577-detective-comics-400-facsimile-edition-cover-c-variant-blank-cover/",
+              "reviewedAt": "2026-11-06T16:01:33.924Z",
+              "reviewedBy": "Owner-authorized source review",
+              "notes": "2024 Detective Comics400 facsimile CoverC blank. Owned scan confirms blank edition and Authority400C label. Full UPC matches inventory; exclude1970 original and CoverB foil. Blank cover has no cover artist. Direct product page displays Near Mint asking price; no condition inferred from owned front scan. Printing matched by full UPC, no later-print designation.",
+              "listingEvidence": {
+                "listingId": "midtown:2343577",
+                "askingPricesUSD": [
+                  5.75
+                ],
+                "soldAt": null,
+                "access": "direct product page",
+                "sellerCondition": "Near Mint",
+                "upc": "76194138450400121"
+              }
+            }
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_7633260283_FRONT.jpg",
         "back": "Authority_7633260283_BACK.jpg"
@@ -5030,7 +5093,70 @@
         "capturedAt": "2026-09-07T23:52:02.324Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-06-daily-raw-Authority-4845360792",
+            "copyId": "Authority:4845360792",
+            "basis": "raw-reference",
+            "value": 5.11,
+            "currency": "USD",
+            "source": {
+              "name": "Midtown Comics asking-price reference*",
+              "url": "https://www.midtowncomics.com/p/2345098-immortal-thor-15-cover-d-variant-pablo-villalobos-cover/",
+              "asOf": null,
+              "retrievedAt": "2026-11-06T16:01:33.924Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Immortal Thor",
+                "issue": "15",
+                "issueYear": "2024",
+                "publisher": "Marvel Comics",
+                "variant": "Villalobos Variant",
+                "upc": "75960620664301521",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "D",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "provisional": true,
+            "provisionalReason": "Estimated from asking prices; not confirmed sales. Seller Near Mint reference only; owned raw condition unassessed. Outside collection total. Availability not independently checked at checkout; shipping/tax excluded.",
+            "reviewEvidence": {
+              "url": "https://www.midtowncomics.com/p/2345098-immortal-thor-15-cover-d-variant-pablo-villalobos-cover/",
+              "reviewedAt": "2026-11-06T16:01:33.924Z",
+              "reviewedBy": "Owner-authorized source review",
+              "notes": "2024 Immortal Thor15 CoverD Pablo Villalobos trade dress. Owned scan visually matches title, issue and artist/cover; full catalog UPC matches inventory. Exclude CoverE virgin and other covers. Direct product page displays Near Mint asking price; no condition inferred from owned front scan. Printing matched by full UPC, no later-print designation.",
+              "listingEvidence": {
+                "listingId": "midtown:2345098",
+                "askingPricesUSD": [
+                  5.11
+                ],
+                "soldAt": null,
+                "access": "direct product page",
+                "sellerCondition": "Near Mint",
+                "upc": "75960620664301521"
+              }
+            }
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_4845360792_FRONT.jpg",
         "back": "Authority_4845360792_BACK.jpg"
