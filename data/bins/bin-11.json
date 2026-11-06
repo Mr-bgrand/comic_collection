@@ -664,7 +664,80 @@
           "date": "2022-06-17",
           "witnessed": true
         }
-      ]
+      ],
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-06-ramos-CGC-2733544003",
+            "copyId": "CGC:2733544003",
+            "basis": "owner",
+            "value": 210,
+            "currency": "USD",
+            "source": {
+              "name": "Listing-based owner estimate*",
+              "url": "https://www.ebay.com/itm/115868930169",
+              "asOf": null,
+              "retrievedAt": "2026-11-06T22:55:54.140Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Strange Academy",
+                "issue": "1",
+                "issueYear": "2020",
+                "publisher": "Marvel Comics",
+                "variant": "Young Variant Cover",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Signature Series",
+                "labelType": "",
+                "signatures": [
+                  {
+                    "date": "2022-06-17",
+                    "name": "Humberto Ramos",
+                    "witnessed": true
+                  }
+                ],
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Estimated from asking prices; not confirmed sales. direct eBay listing and inspected slab photo. Shipping and tax excluded.",
+            "reviewEvidence": {
+              "url": "https://www.ebay.com/itm/115868930169",
+              "reviewedAt": "2026-11-06T22:55:54.140Z",
+              "reviewedBy": "Owner-authorized listing estimate review",
+              "notes": "Direct Buy It Now USD209.99 rounded210. Photo visually confirms CGC Signature Series9.8 Young Variant Cover, signed only Humberto Ramos6/17/22; comparable2733543021. Same signing date as owned2733544003. Seller psychocrazy. Item-specific Signed By Donny Cates is contradicted by actual slab label; label and title establish Ramos. Image https://i.ebayimg.com/images/g/v74AAOSwenlkvfur/s-l1600.jpg. Exclude unsigned Young, second print, Ramos cover, Skottie-only and double signatures. No sale claimed.",
+              "listingEvidence": {
+                "listingId": "115868930169",
+                "comparableCert": "2733543021",
+                "askingPricesUSD": [
+                  209.99
+                ],
+                "soldAt": null,
+                "access": "direct eBay listing and inspected slab photo"
+              }
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-06-ramos-CGC-2733544003",
+          "locked": true,
+          "selectedAt": "2026-11-06T22:55:54.704Z"
+        }
+      }
     },
     {
       "cert": "2757895001",

@@ -1,0 +1,62 @@
+{
+  "retrievedAt": "2026-11-06T22:55:54.140Z",
+  "policy": "Owner authorized asking-price estimates marked * and included in total. Exact editions/grades, no locked replacements. Shipping/tax excluded; sale dates null for listings.",
+  "entries": [
+    {
+      "copyId": "CGC:2733544003",
+      "value": 210,
+      "batch": 1,
+      "url": "https://www.ebay.com/itm/115868930169",
+      "notes": "Direct Buy It Now USD209.99 rounded210. Photo visually confirms CGC Signature Series9.8 Young Variant Cover, signed only Humberto Ramos6/17/22; comparable2733543021. Same signing date as owned2733544003. Seller psychocrazy. Item-specific Signed By Donny Cates is contradicted by actual slab label; label and title establish Ramos. Image https://i.ebayimg.com/images/g/v74AAOSwenlkvfur/s-l1600.jpg. Exclude unsigned Young, second print, Ramos cover, Skottie-only and double signatures. No sale claimed.",
+      "access": "direct eBay listing and inspected slab photo",
+      "listingId": "115868930169",
+      "comparableCert": "2733543021",
+      "asks": [
+        209.99
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "copyId": "CGC:4273634005",
+      "reason": "Parsons trade dress CGC9.8: Geeked Out Comics45USD sold out, excluded as current ask; CBR94.99 advertisement is virgin edition, wrong cover.",
+      "url": "https://geekedoutcomics.com/products/darkwing-duck-1-casey-parsons-cgc-9-8-exclusive-cover-dynamite-2023"
+    },
+    {
+      "copyId": "PSA:169169675",
+      "reason": "Ichiro69 PSA10 results are Paint Splatter, Easel or Beauty Is Everywhere, not owned base.",
+      "url": "https://www.ebay.com/itm/257323613557"
+    },
+    {
+      "copyId": "TAG:D6943986",
+      "reason": "Same-grade PSA7 fallback lead19.95 contradicted: direct eBay307189738518 ended September28,2026 with0bids, cert157420110. Not current ask or confirmed sale. Scrydex/Hoshino October25 and PokeDealFinder November3 dates unverified. GG67 excluded.",
+      "url": "https://www.ebay.com/itm/307189738518"
+    },
+    {
+      "copyId": "TAG:L4878840",
+      "reason": "HenryDavis SapphireYellow/99 TAG10: PSA9 Fanatics is wrong grade; YellowFoil/75 and Lava/75 are wrong parallels. Exact SportsCardsPro page inaccessible; no reliable exact PSA10/TAG10 price.",
+      "url": "https://www.fanaticscollect.com/buy-now/e715d1c4-27bc-43f6-90da-2c58d2a4146e"
+    },
+    {
+      "copyId": "TAG:H5133767",
+      "reason": "Chourio193Orange TAG10: indexed PSA10OrangeVelocity24USD is different parallel and opening bid, excluded.",
+      "url": "https://www.ebay.com/b/2024-Panini-Donruss-Jackson-Chourio-193/212/bn_7123971871"
+    },
+    {
+      "copyId": "CGC:4350046002",
+      "reason": "w0rldtr33#3CBNS CGC9.8: indexed Gaydos raw sales and registry only; CBNS#2listing wrong issue.",
+      "url": "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-gaydos-3-2023"
+    },
+    {
+      "copyId": "CGC:4381117005",
+      "reason": "w0rldtr33#1thirdprintNoMasss CGC9.8: MCS indexed200USD is issue2, not exact issue/printing.",
+      "url": "https://www.mycomicshop.com/comicbooks/item?TID=58267103"
+    },
+    {
+      "copyId": "PSA:169169671",
+      "reason": "MookieBetts BobRossbase10 PSA9: indexed BatOnBall and IndianYellow are different cards/parallels.",
+      "url": "https://www.ebay.com/itm/198297519679"
+    }
+  ],
+  "sourceAccess": "Strange Academy listing and photo directly inspected; Palkia direct listing inspected. Other candidates search-index evidence only; no completed-sale verification. Unchecked original transactions remain leads."
+}
