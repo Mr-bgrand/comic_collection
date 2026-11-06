@@ -1,0 +1,45 @@
+{
+  "retrievedAt": "2026-11-06T08:31:42.193Z",
+  "policy": "Owner authorized asking-price estimates marked * and included in total. Exact editions/grades, no locked replacements. Shipping/tax excluded; sale dates null for listings.",
+  "entries": [
+    {
+      "copyId": "CGC:6025067013",
+      "value": 25,
+      "batch": 1,
+      "url": "https://www.ebay.com/itm/297390716451",
+      "notes": "Direct Buy It Now24.99USD rounded25.2023 Panini Donruss Rated Rookie318 Chase Brown base CGC9.5. Comparable cert6025058003. Seller Molla Sports Cards Plus. No completed sale claimed.",
+      "access": "direct listing",
+      "listingId": "297390716451",
+      "comparableCert": "6025058003",
+      "asks": [
+        24.99
+      ]
+    },
+    {
+      "copyId": "TAG:K7814397",
+      "value": 75,
+      "batch": 1,
+      "url": "https://www.ebay.com/p/22073759812?iid=117021576036",
+      "basis": "psa-comparison",
+      "matchGrader": "PSA",
+      "notes": "Selected eBay offer117021576036 from Card Shark Corner asks75USD plus6shipping excluded.2024 Bowman Chrome University1955 Bowman55B-21 Ashton Jeanty Fuchsia/150 PSA10. Owner-authorized same-numeric-grade PSA fallback for TAG10; no reliable direct TAG evidence found. Direct item URL initially inaccessible; selected product offer exposes title and price. Cert unavailable. Base product offer45 is raw and excluded.",
+      "access": "selected eBay product offer; PSA fallback",
+      "listingId": "117021576036",
+      "asks": [
+        75
+      ]
+    },
+    {
+      "copyId": "CGC:4418876012",
+      "value": 115,
+      "batch": 1,
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/316631/marvel-comics-incredible-hulk-1",
+      "notes": "Retrieved CBR advertisement and MyComicShop affiliate listing both show Incredible Hulk1 Marvel2023 Gleason Virgin Edition C CGC NM+9.6 at115USD. Same syndicated eBay listing198533427706, not independent comparables. Secondary URL https://www.mycomicshop.com/search?q=Incredible+Hulk+%231 links this item. Direct https://www.ebay.com/itm/198533427706 inaccessible; current availability and cert unverified. Match uses exact advertised title, not surrounding MCS second-print catalog description or CBR sales table. Exclude ordinary Gleason90, signed9.8 and other colors/ratios.",
+      "access": "secondary listing advertisement; direct item unavailable",
+      "listingId": "198533427706",
+      "asks": [
+        115
+      ]
+    }
+  ]
+}

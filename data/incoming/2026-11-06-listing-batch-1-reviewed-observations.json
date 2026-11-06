@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "CGC:6025067013",
+      "revision": "295da8aa3d57d4b9bc2f79d759532839806ee0ff6a99b0cddd96842a6895fc34",
+      "observations": [
+        {
+          "id": "2026-11-06-listing-CGC-6025067013",
+          "copyId": "CGC:6025067013",
+          "basis": "owner",
+          "value": 25,
+          "currency": "USD",
+          "source": {
+            "name": "Listing-based owner estimate*",
+            "url": "https://www.ebay.com/itm/297390716451",
+            "asOf": null,
+            "retrievedAt": "2026-11-06T08:31:42.193Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2023",
+              "brand": "Donruss",
+              "series": "",
+              "subject": "Chase Brown",
+              "cardNumber": "318",
+              "variety": "",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9.5",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Estimated from asking prices; not confirmed sales. direct listing. Shipping and tax excluded.",
+          "reviewEvidence": {
+            "url": "https://www.ebay.com/itm/297390716451",
+            "reviewedAt": "2026-11-06T08:31:42.193Z",
+            "reviewedBy": "Owner-authorized listing estimate review",
+            "notes": "Direct Buy It Now24.99USD rounded25.2023 Panini Donruss Rated Rookie318 Chase Brown base CGC9.5. Comparable cert6025058003. Seller Molla Sports Cards Plus. No completed sale claimed.",
+            "listingEvidence": {
+              "listingId": "297390716451",
+              "comparableCert": "6025058003",
+              "askingPricesUSD": [
+                24.99
+              ],
+              "soldAt": null,
+              "access": "direct listing"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:K7814397",
+      "revision": "23bb114f6a3890b4162b8b3e0cd3c56c46286d7ea5a03c4fe0cdadfa46671127",
+      "observations": [
+        {
+          "id": "2026-11-06-listing-TAG-K7814397",
+          "copyId": "TAG:K7814397",
+          "basis": "psa-comparison",
+          "value": 75,
+          "currency": "USD",
+          "source": {
+            "name": "Listing-based PSA comparison estimate*",
+            "url": "https://www.ebay.com/p/22073759812?iid=117021576036",
+            "asOf": null,
+            "retrievedAt": "2026-11-06T08:31:42.193Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "BOWMAN UNIVERSITY CHROME",
+              "series": "BOWMAN UNIVERSITY CHROME",
+              "subject": "ASHTON JEANTY",
+              "cardNumber": "55B-21",
+              "variety": "1955 BOWMAN · FUCHSIA REFRACTOR",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Estimated from asking prices; not confirmed sales. selected eBay product offer; PSA fallback. Shipping and tax excluded.",
+          "reviewEvidence": {
+            "url": "https://www.ebay.com/p/22073759812?iid=117021576036",
+            "reviewedAt": "2026-11-06T08:31:42.193Z",
+            "reviewedBy": "Owner-authorized listing estimate review",
+            "notes": "Selected eBay offer117021576036 from Card Shark Corner asks75USD plus6shipping excluded.2024 Bowman Chrome University1955 Bowman55B-21 Ashton Jeanty Fuchsia/150 PSA10. Owner-authorized same-numeric-grade PSA fallback for TAG10; no reliable direct TAG evidence found. Direct item URL initially inaccessible; selected product offer exposes title and price. Cert unavailable. Base product offer45 is raw and excluded.",
+            "listingEvidence": {
+              "listingId": "117021576036",
+              "comparableCert": null,
+              "askingPricesUSD": [
+                75
+              ],
+              "soldAt": null,
+              "access": "selected eBay product offer; PSA fallback"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4418876012",
+      "revision": "798b1df10ac739e048d498d21bd318e60b1a0352a7ac77a2a451d0dd41a0fed2",
+      "observations": [
+        {
+          "id": "2026-11-06-listing-CGC-4418876012",
+          "copyId": "CGC:4418876012",
+          "basis": "owner",
+          "value": 115,
+          "currency": "USD",
+          "source": {
+            "name": "Listing-based owner estimate*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/316631/marvel-comics-incredible-hulk-1",
+            "asOf": null,
+            "retrievedAt": "2026-11-06T08:31:42.193Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Incredible Hulk",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "Gleason \"Virgin\" Edition C",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.6",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Estimated from asking prices; not confirmed sales. secondary listing advertisement; direct item unavailable. Shipping and tax excluded.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/316631/marvel-comics-incredible-hulk-1",
+            "reviewedAt": "2026-11-06T08:31:42.193Z",
+            "reviewedBy": "Owner-authorized listing estimate review",
+            "notes": "Retrieved CBR advertisement and MyComicShop affiliate listing both show Incredible Hulk1 Marvel2023 Gleason Virgin Edition C CGC NM+9.6 at115USD. Same syndicated eBay listing198533427706, not independent comparables. Secondary URL https://www.mycomicshop.com/search?q=Incredible+Hulk+%231 links this item. Direct https://www.ebay.com/itm/198533427706 inaccessible; current availability and cert unverified. Match uses exact advertised title, not surrounding MCS second-print catalog description or CBR sales table. Exclude ordinary Gleason90, signed9.8 and other colors/ratios.",
+            "listingEvidence": {
+              "listingId": "198533427706",
+              "comparableCert": null,
+              "askingPricesUSD": [
+                115
+              ],
+              "soldAt": null,
+              "access": "secondary listing advertisement; direct item unavailable"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

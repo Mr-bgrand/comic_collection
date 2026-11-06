@@ -478,6 +478,73 @@
         "url": "https://gocollect.com/app/comic/incredible-hulk-1-gleason-virgin-edition",
         "status": "no-sales",
         "fetchedAt": "2026-08-17T04:19:40.234Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-06-listing-CGC-4418876012",
+            "copyId": "CGC:4418876012",
+            "basis": "owner",
+            "value": 115,
+            "currency": "USD",
+            "source": {
+              "name": "Listing-based owner estimate*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/316631/marvel-comics-incredible-hulk-1",
+              "asOf": null,
+              "retrievedAt": "2026-11-06T08:31:42.193Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Incredible Hulk",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Gleason \"Virgin\" Edition C",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.6",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Estimated from asking prices; not confirmed sales. secondary listing advertisement; direct item unavailable. Shipping and tax excluded.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/316631/marvel-comics-incredible-hulk-1",
+              "reviewedAt": "2026-11-06T08:31:42.193Z",
+              "reviewedBy": "Owner-authorized listing estimate review",
+              "notes": "Retrieved CBR advertisement and MyComicShop affiliate listing both show Incredible Hulk1 Marvel2023 Gleason Virgin Edition C CGC NM+9.6 at115USD. Same syndicated eBay listing198533427706, not independent comparables. Secondary URL https://www.mycomicshop.com/search?q=Incredible+Hulk+%231 links this item. Direct https://www.ebay.com/itm/198533427706 inaccessible; current availability and cert unverified. Match uses exact advertised title, not surrounding MCS second-print catalog description or CBR sales table. Exclude ordinary Gleason90, signed9.8 and other colors/ratios.",
+              "listingEvidence": {
+                "listingId": "198533427706",
+                "comparableCert": null,
+                "askingPricesUSD": [
+                  115
+                ],
+                "soldAt": null,
+                "access": "secondary listing advertisement; direct item unavailable"
+              }
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-06-listing-CGC-4418876012",
+          "locked": true,
+          "selectedAt": "2026-11-06T08:31:43.424Z"
+        }
       }
     },
     {
