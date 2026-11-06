@@ -510,7 +510,74 @@
       "certUrl": "https://my.taggrading.com/card/D1216494",
       "gradeDate": "2025-04-11",
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-05-listing-TAG-D1216494",
+            "copyId": "TAG:D1216494",
+            "basis": "psa-comparison",
+            "value": 30,
+            "currency": "USD",
+            "source": {
+              "name": "Listing-based PSA comparison estimate*",
+              "url": "https://www.ebay.com/itm/137114890993",
+              "asOf": null,
+              "retrievedAt": "2026-11-06T05:14:06.662Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2021",
+                "brand": "BOWMAN DRAFT SAPPHIRE EDITION",
+                "series": "BOWMAN DRAFT SAPPHIRE EDITION",
+                "subject": "JACKSON MERRILL",
+                "cardNumber": "BDC-119",
+                "variety": "",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "8",
+              "grader": "PSA",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Estimated from asking prices; not confirmed sales. direct listing; PSA fallback. Shipping and tax excluded.",
+            "reviewEvidence": {
+              "url": "https://www.ebay.com/itm/137114890993",
+              "reviewedAt": "2026-11-06T05:14:06.662Z",
+              "reviewedBy": "Owner-authorized listing estimate review",
+              "notes": "Direct29.99USD or Best Offer rounded30.2021 Bowman Draft Sapphire BDC119 Jackson Merrill base PSA8 cert125150996. Owner-authorized same-numeric-grade PSA fallback for owned TAG8; no reliable direct TAG value found. Original407223123738 redirects to catalog; clicked current detail137114890993. Do not treat PSA as TAG sale. Isaac Frye pictured is catalog identity note for this BDC119 card.",
+              "listingEvidence": {
+                "listingId": "137114890993",
+                "comparableCert": "125150996",
+                "askingPricesUSD": [
+                  29.99
+                ],
+                "soldAt": null,
+                "access": "direct listing; PSA fallback"
+              }
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-05-listing-TAG-D1216494",
+          "locked": true,
+          "selectedAt": "2026-11-06T05:14:09.132Z"
+        }
+      },
       "population": {
         "atGrade": 1,
         "total": 1,

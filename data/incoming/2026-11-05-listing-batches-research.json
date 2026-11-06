@@ -1,0 +1,80 @@
+{
+  "retrievedAt": "2026-11-06T05:14:06.662Z",
+  "policy": "Owner authorized asking-price estimates marked * and included in total. Exact editions/grades, no locked replacements. Shipping/tax excluded; sale dates null for listings.",
+  "entries": [
+    {
+      "copyId": "CGC:4386585001",
+      "value": 90,
+      "batch": 1,
+      "url": "https://www.ebay.com/sch/i.html?_nkw=The+Cull+1+Shrike+CGC+9.8",
+      "notes": "Owner-supplied screenshot shows matching Wil Shrike virgin CGC9.8 offers107.31 and approximately79USD. Rounded owner estimate90USD; lower listing partially obscured. Exclude59.99 Cover C, different art. Screenshot FF0E9E56-13EA-46F0-A3AE-5BAB12595FE0/1-Photo-1.jpg; individual item IDs and certs unavailable. Search page is discovery URL, not a transaction. Screenshot date not established.",
+      "access": "owner screenshot",
+      "asks": [
+        107.31,
+        79
+      ]
+    },
+    {
+      "copyId": "CGC:4245413009",
+      "value": 95,
+      "batch": 1,
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/306586/dynamite-entertainment-darkwing-duck-1parsons-a-parsons-variant-cover",
+      "notes": "Directly retrieved sidebar advertises Darkwing Duck1 Casey Parsons Exclusive Virgin Variant Disney CGC9.8 at94.99USD; rounded95. This is a listing sidebar, not analyzer sales or the trade edition represented by page heading. Individual listing ID, cert and current availability unverified. Excluded raw19.99 and sold-out retailer45 offers. Owned Universal9.8 Parsons Virgin record matches advertised title.",
+      "access": "secondary listing sidebar",
+      "asks": [
+        94.99
+      ]
+    },
+    {
+      "copyId": "PSA:169169670",
+      "value": 61,
+      "batch": 2,
+      "url": "https://www.ebay.com/itm/188932037453",
+      "notes": "Direct eBay Buy It Now60.99USD rounded61.2025 Topps x Bob Ross Ken Griffey Jr54 base PSA9; comparable cert155798136. Excluded Titanium White/35 and Beauty Is Everywhere54-SP. Listing image alt text mentions autograph but title and base54 label/specifics identify base card; no autograph premium assigned.",
+      "access": "direct listing",
+      "listingId": "188932037453",
+      "comparableCert": "155798136",
+      "asks": [
+        60.99
+      ]
+    },
+    {
+      "copyId": "PSA:121297944",
+      "value": 139,
+      "batch": 2,
+      "url": "https://www.ebay.com/itm/146545741673",
+      "notes": "Direct eBay139USD or Best Offer.2024 Bowman University Chrome Sapphire Will Johnson Orange/25 PSA10. Owned183 serial13/25; same parallel/print run, no serial premium. Comparable certificate unavailable in extracted page. No completed sale or accepted offer claimed.",
+      "access": "direct listing",
+      "listingId": "146545741673",
+      "asks": [
+        139
+      ]
+    },
+    {
+      "copyId": "TAG:D1216494",
+      "value": 30,
+      "batch": 3,
+      "url": "https://www.ebay.com/itm/137114890993",
+      "basis": "psa-comparison",
+      "matchGrader": "PSA",
+      "notes": "Direct29.99USD or Best Offer rounded30.2021 Bowman Draft Sapphire BDC119 Jackson Merrill base PSA8 cert125150996. Owner-authorized same-numeric-grade PSA fallback for owned TAG8; no reliable direct TAG value found. Original407223123738 redirects to catalog; clicked current detail137114890993. Do not treat PSA as TAG sale. Isaac Frye pictured is catalog identity note for this BDC119 card.",
+      "access": "direct listing; PSA fallback",
+      "listingId": "137114890993",
+      "comparableCert": "125150996",
+      "asks": [
+        29.99
+      ]
+    },
+    {
+      "copyId": "TAG:E3314397",
+      "value": 26,
+      "batch": 3,
+      "url": "https://www.ebay.com/b/Pokemon-Pokemon-TCG-8-5-Graded-Individual-Collectible-Card-Game-Cards/183454/bn_93430986",
+      "notes": "Search-indexed eBay category entry explicitly2023 Cleffa TAG8.5 202/197 Illustration Rare Full Art25.99USD OBO; rounded26. Direct category retrieval returned a different cached set without this row. Individual item ID/cert and current availability unverified. Indexed asking evidence only, not sale. Replaces no accepted value; prior pending PSA8.5 observation remains unselected.",
+      "access": "indexed listing; direct cache differs",
+      "asks": [
+        25.99
+      ]
+    }
+  ]
+}

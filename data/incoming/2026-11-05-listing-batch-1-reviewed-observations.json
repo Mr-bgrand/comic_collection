@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "CGC:4386585001",
+      "revision": "fd650d5472dadeb2bc3818a6bb25e10642a7aa57c4bd31cf896c9e2e33e64e68",
+      "observations": [
+        {
+          "id": "2026-11-05-listing-CGC-4386585001",
+          "copyId": "CGC:4386585001",
+          "basis": "owner",
+          "value": 90,
+          "currency": "USD",
+          "source": {
+            "name": "Listing-based owner estimate*",
+            "url": "https://www.ebay.com/sch/i.html?_nkw=The+Cull+1+Shrike+CGC+9.8",
+            "asOf": null,
+            "retrievedAt": "2026-11-06T05:14:06.662Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "The Cull",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Image Comics",
+              "variant": "Shrike Variant Cover",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Estimated from asking prices; not confirmed sales. owner screenshot. Shipping and tax excluded.",
+          "reviewEvidence": {
+            "url": "https://www.ebay.com/sch/i.html?_nkw=The+Cull+1+Shrike+CGC+9.8",
+            "reviewedAt": "2026-11-06T05:14:06.662Z",
+            "reviewedBy": "Owner-authorized listing estimate review",
+            "notes": "Owner-supplied screenshot shows matching Wil Shrike virgin CGC9.8 offers107.31 and approximately79USD. Rounded owner estimate90USD; lower listing partially obscured. Exclude59.99 Cover C, different art. Screenshot FF0E9E56-13EA-46F0-A3AE-5BAB12595FE0/1-Photo-1.jpg; individual item IDs and certs unavailable. Search page is discovery URL, not a transaction. Screenshot date not established.",
+            "listingEvidence": {
+              "listingId": null,
+              "comparableCert": null,
+              "askingPricesUSD": [
+                107.31,
+                79
+              ],
+              "soldAt": null,
+              "access": "owner screenshot"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4245413009",
+      "revision": "266d063be6bdfc83be40113094ca9e19172b8559038f036de9b938e3436bce2f",
+      "observations": [
+        {
+          "id": "2026-11-05-listing-CGC-4245413009",
+          "copyId": "CGC:4245413009",
+          "basis": "owner",
+          "value": 95,
+          "currency": "USD",
+          "source": {
+            "name": "Listing-based owner estimate*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/306586/dynamite-entertainment-darkwing-duck-1parsons-a-parsons-variant-cover",
+            "asOf": null,
+            "retrievedAt": "2026-11-06T05:14:06.662Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Darkwing Duck",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Dynamite Entertainment",
+              "variant": "Parsons \"Virgin\" Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Estimated from asking prices; not confirmed sales. secondary listing sidebar. Shipping and tax excluded.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/306586/dynamite-entertainment-darkwing-duck-1parsons-a-parsons-variant-cover",
+            "reviewedAt": "2026-11-06T05:14:06.662Z",
+            "reviewedBy": "Owner-authorized listing estimate review",
+            "notes": "Directly retrieved sidebar advertises Darkwing Duck1 Casey Parsons Exclusive Virgin Variant Disney CGC9.8 at94.99USD; rounded95. This is a listing sidebar, not analyzer sales or the trade edition represented by page heading. Individual listing ID, cert and current availability unverified. Excluded raw19.99 and sold-out retailer45 offers. Owned Universal9.8 Parsons Virgin record matches advertised title.",
+            "listingEvidence": {
+              "listingId": null,
+              "comparableCert": null,
+              "askingPricesUSD": [
+                94.99
+              ],
+              "soldAt": null,
+              "access": "secondary listing sidebar"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

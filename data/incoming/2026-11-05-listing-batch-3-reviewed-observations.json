@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "TAG:D1216494",
+      "revision": "4cf159ea9507daada2981075507fb2c5c962482078c2f42bf37068f1611f254d",
+      "observations": [
+        {
+          "id": "2026-11-05-listing-TAG-D1216494",
+          "copyId": "TAG:D1216494",
+          "basis": "psa-comparison",
+          "value": 30,
+          "currency": "USD",
+          "source": {
+            "name": "Listing-based PSA comparison estimate*",
+            "url": "https://www.ebay.com/itm/137114890993",
+            "asOf": null,
+            "retrievedAt": "2026-11-06T05:14:06.662Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2021",
+              "brand": "BOWMAN DRAFT SAPPHIRE EDITION",
+              "series": "BOWMAN DRAFT SAPPHIRE EDITION",
+              "subject": "JACKSON MERRILL",
+              "cardNumber": "BDC-119",
+              "variety": "",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "8",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Estimated from asking prices; not confirmed sales. direct listing; PSA fallback. Shipping and tax excluded.",
+          "reviewEvidence": {
+            "url": "https://www.ebay.com/itm/137114890993",
+            "reviewedAt": "2026-11-06T05:14:06.662Z",
+            "reviewedBy": "Owner-authorized listing estimate review",
+            "notes": "Direct29.99USD or Best Offer rounded30.2021 Bowman Draft Sapphire BDC119 Jackson Merrill base PSA8 cert125150996. Owner-authorized same-numeric-grade PSA fallback for owned TAG8; no reliable direct TAG value found. Original407223123738 redirects to catalog; clicked current detail137114890993. Do not treat PSA as TAG sale. Isaac Frye pictured is catalog identity note for this BDC119 card.",
+            "listingEvidence": {
+              "listingId": "137114890993",
+              "comparableCert": "125150996",
+              "askingPricesUSD": [
+                29.99
+              ],
+              "soldAt": null,
+              "access": "direct listing; PSA fallback"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:E3314397",
+      "revision": "fa41b25da1cc088151d6c3aaa76f370dda755af7f21a475266eda76202279e8e",
+      "observations": [
+        {
+          "id": "2026-11-05-listing-TAG-E3314397",
+          "copyId": "TAG:E3314397",
+          "basis": "owner",
+          "value": 26,
+          "currency": "USD",
+          "source": {
+            "name": "Listing-based owner estimate*",
+            "url": "https://www.ebay.com/b/Pokemon-Pokemon-TCG-8-5-Graded-Individual-Collectible-Card-Game-Cards/183454/bn_93430986",
+            "asOf": null,
+            "retrievedAt": "2026-11-06T05:14:06.662Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2023",
+              "brand": "OBSIDIAN FLAMES",
+              "series": "POKÉMON SCARLET & VIOLET",
+              "subject": "CLEFFA",
+              "cardNumber": "202/197",
+              "variety": "ILLUSTRATION RARE",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "8.5",
+            "grader": "TAG",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Estimated from asking prices; not confirmed sales. indexed listing; direct cache differs. Shipping and tax excluded.",
+          "reviewEvidence": {
+            "url": "https://www.ebay.com/b/Pokemon-Pokemon-TCG-8-5-Graded-Individual-Collectible-Card-Game-Cards/183454/bn_93430986",
+            "reviewedAt": "2026-11-06T05:14:06.662Z",
+            "reviewedBy": "Owner-authorized listing estimate review",
+            "notes": "Search-indexed eBay category entry explicitly2023 Cleffa TAG8.5 202/197 Illustration Rare Full Art25.99USD OBO; rounded26. Direct category retrieval returned a different cached set without this row. Individual item ID/cert and current availability unverified. Indexed asking evidence only, not sale. Replaces no accepted value; prior pending PSA8.5 observation remains unselected.",
+            "listingEvidence": {
+              "listingId": null,
+              "comparableCert": null,
+              "askingPricesUSD": [
+                25.99
+              ],
+              "soldAt": null,
+              "access": "indexed listing; direct cache differs"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
