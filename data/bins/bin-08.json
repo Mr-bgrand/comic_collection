@@ -578,7 +578,74 @@
         "status": "not-listed",
         "fetchedAt": "2026-08-22T07:24:24.798Z"
       },
-      "imageSource": "owner"
+      "imageSource": "owner",
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-06-listing-2-CGC-4089841007",
+            "copyId": "CGC:4089841007",
+            "basis": "owner",
+            "value": 300,
+            "currency": "USD",
+            "source": {
+              "name": "Listing-based owner estimate*",
+              "url": "https://www.ebay.ca/itm/287145886500",
+              "asOf": null,
+              "retrievedAt": "2026-11-06T08:43:21.398Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Wretches",
+                "issue": "1",
+                "issueYear": "2022",
+                "publisher": "Scout Comics",
+                "variant": "Momoko Metal Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Estimated from asking prices; not confirmed sales. direct listing. Shipping and tax excluded.",
+            "reviewEvidence": {
+              "url": "https://www.ebay.ca/itm/287145886500",
+              "reviewedAt": "2026-11-06T08:43:21.398Z",
+              "reviewedBy": "Owner-authorized listing estimate review",
+              "notes": "Direct listing explicitly US300USD OBO (Canadian display conversion excluded).2022 Wretches1 Peach Momoko Metal Virgin edition CGC9.8, unsigned. Comparable cert4694004024, seller ComicTom101; owned record is Momoko Metal Edition Universal9.8, ComicTom101/MillGeek exclusive. Exclude ordinary paper signed Momoko copy. Asking price only; no accepted offer or completed sale.",
+              "listingEvidence": {
+                "listingId": "287145886500",
+                "comparableCert": "4694004024",
+                "askingPricesUSD": [
+                  300
+                ],
+                "soldAt": null,
+                "access": "direct listing"
+              }
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-06-listing-2-CGC-4089841007",
+          "locked": true,
+          "selectedAt": "2026-11-06T08:43:22.075Z"
+        }
+      }
     },
     {
       "cert": "4245413009",

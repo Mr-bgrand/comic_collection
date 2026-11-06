@@ -24,7 +24,74 @@
       "certUrl": "https://my.taggrading.com/card/H5738313",
       "gradeDate": "2025-06-24",
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-06-listing-2-TAG-H5738313",
+            "copyId": "TAG:H5738313",
+            "basis": "psa-comparison",
+            "value": 60,
+            "currency": "USD",
+            "source": {
+              "name": "Listing-based PSA comparison estimate*",
+              "url": "https://www.ebay.com/itm/116926539130",
+              "asOf": null,
+              "retrievedAt": "2026-11-06T08:43:21.398Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2025",
+                "brand": "HEAT WAVE ARENA",
+                "series": "POKÉMON SCARLET & VIOLET JAPANESE",
+                "subject": "ヒビキのホウオウ ETHAN'S HO-OH EX",
+                "cardNumber": "020/063",
+                "variety": "DOUBLE RARE",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Estimated from asking prices; not confirmed sales. direct listing; PSA fallback. Shipping and tax excluded.",
+            "reviewEvidence": {
+              "url": "https://www.ebay.com/itm/116926539130",
+              "reviewedAt": "2026-11-06T08:43:21.398Z",
+              "reviewedBy": "Owner-authorized listing estimate review",
+              "notes": "Direct Buy It Now60USD.2025 Japanese SV9a Heat Wave Arena020 Ethans Ho-Oh ex Double Rare PSA9, comparable cert115059821, seller PSA. Authorized same-numeric-grade PSA fallback for owned Japanese TAG9; exact TAG search found no reliable direct value. Exclude English Destined Rivals230, Korean020 and PGS9.5 advertised as same as PSA9. Sole asking-price reference, not market consensus or sale.",
+              "listingEvidence": {
+                "listingId": "116926539130",
+                "comparableCert": "115059821",
+                "askingPricesUSD": [
+                  60
+                ],
+                "soldAt": null,
+                "access": "direct listing; PSA fallback"
+              }
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-06-listing-2-TAG-H5738313",
+          "locked": true,
+          "selectedAt": "2026-11-06T08:43:22.273Z"
+        }
+      },
       "population": {
         "atGrade": 4,
         "total": 12,

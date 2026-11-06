@@ -1,0 +1,34 @@
+{
+  "retrievedAt": "2026-11-06T08:43:21.398Z",
+  "policy": "Owner authorized asking-price estimates marked * and included in total. Exact editions/grades, no locked replacements. Shipping/tax excluded; sale dates null for listings.",
+  "entries": [
+    {
+      "copyId": "CGC:4089841007",
+      "value": 300,
+      "batch": 2,
+      "url": "https://www.ebay.ca/itm/287145886500",
+      "notes": "Direct listing explicitly US300USD OBO (Canadian display conversion excluded).2022 Wretches1 Peach Momoko Metal Virgin edition CGC9.8, unsigned. Comparable cert4694004024, seller ComicTom101; owned record is Momoko Metal Edition Universal9.8, ComicTom101/MillGeek exclusive. Exclude ordinary paper signed Momoko copy. Asking price only; no accepted offer or completed sale.",
+      "access": "direct listing",
+      "listingId": "287145886500",
+      "comparableCert": "4694004024",
+      "asks": [
+        300
+      ]
+    },
+    {
+      "copyId": "TAG:H5738313",
+      "value": 60,
+      "batch": 2,
+      "url": "https://www.ebay.com/itm/116926539130",
+      "basis": "psa-comparison",
+      "matchGrader": "PSA",
+      "notes": "Direct Buy It Now60USD.2025 Japanese SV9a Heat Wave Arena020 Ethans Ho-Oh ex Double Rare PSA9, comparable cert115059821, seller PSA. Authorized same-numeric-grade PSA fallback for owned Japanese TAG9; exact TAG search found no reliable direct value. Exclude English Destined Rivals230, Korean020 and PGS9.5 advertised as same as PSA9. Sole asking-price reference, not market consensus or sale.",
+      "access": "direct listing; PSA fallback",
+      "listingId": "116926539130",
+      "comparableCert": "115059821",
+      "asks": [
+        60
+      ]
+    }
+  ]
+}
