@@ -250,6 +250,32 @@
       "copyId": "TAG:L4878840",
       "checked": "Search index",
       "finding": "HenryDavisYellow149.99 is Grade9, not PSA10; excluded."
+    },
+    {
+      "copyId": "CGC:4381117003",
+      "finding": "w0rldtr33 5 ComicCorner: registry and raw69 only; no exact graded price.",
+      "checked": "Targeted search-index results",
+      "accepted": false
+    },
+    {
+      "copyId": "CGC:4350046002",
+      "finding": "w0rldtr33 3 CBNS: results issue1 recalled edition, excluded.",
+      "checked": "Targeted search-index results",
+      "accepted": false
+    },
+    {
+      "copyId": "CGC:4273634004",
+      "finding": "DarkwingDuck Parsons9.8 GeekedOut45 marked sold out; not current asking evidence. PC virgin page has only raw transactions.",
+      "checked": "Targeted search-index results",
+      "accepted": false
+    },
+    {
+      "copyId": "CGC:4386585004",
+      "finding": "Direct eBay257182162605150 photo inspected: cert4361027020 NYCC Mack Embossed Edition, not owned NYCC Mack Virgin. Excluded despite same artist/grade.",
+      "url": "https://www.ebay.com/itm/257182162605",
+      "image": "https://i.ebayimg.com/images/g/QaMAAeSw0eFpAmcn/s-l1600.webp",
+      "checked": "Direct eBay page and slab photo",
+      "accepted": false
     }
   ]
 }
