@@ -1,0 +1,255 @@
+{
+  "retrievedAt": "2026-11-07T00:31:08.552Z",
+  "entries": [
+    {
+      "copyId": "CGC:4357017005",
+      "value": 55,
+      "basis": "sold-comps",
+      "saleCount": 1,
+      "asOf": "2024-04-06",
+      "url": "https://www.pricecharting.com/es/game/comic-books-star-wars-the-mandalorian-season-2/star-wars-the-mandalorian-season-2-5-2023",
+      "reason": "Stale single secondary-reported sale; original eBay unavailable. Exact Gist Trinity Virgin Edition B CGC9.8 row only, not the mixed-edition guide.",
+      "transactions": [
+        {
+          "date": "2024-04-06",
+          "amount": 55,
+          "id": "256437266831",
+          "url": "https://www.ebay.com/itm/256437266831",
+          "comparableCert": null
+        }
+      ],
+      "notes": "PriceCharting specifically names Gist Trinity Virgin Edition B. Indexed eBay shop asks70/69.95 do not explicitly identify Edition B and are excluded from calculation; CBR ads119.99 likewise excluded. Granov, season1, CBCS and signed copies excluded."
+    },
+    {
+      "copyId": "PSA:169169656",
+      "value": 16.5,
+      "basis": "sold-comps",
+      "saleCount": 1,
+      "asOf": "2026-10-14",
+      "url": "https://www.pricecharting.com/game/pokemon-promo/piplup-42",
+      "reason": "Single secondary-reported PSA8 sale; original transaction inaccessible and comparable cert unavailable.",
+      "transactions": [
+        {
+          "date": "2026-10-14",
+          "amount": 16.5,
+          "id": "298735975959",
+          "url": "https://www.ebay.com/itm/298735975959",
+          "comparableCert": null
+        }
+      ],
+      "notes": "Exact 2026 English First Partner Illustration Collection Piplup042 PSA8. CollectSherpa repeats16.50 datedOct13 instead ofOct14; retain source discrepancy. PC FanaticsNov4 PSA8 $19 has no transaction link and is context only. Mixed Grade8 guide, CGC/BGS, PSA9/10 and out-of-stock GameStop11.99 excluded."
+    },
+    {
+      "copyId": "PSA:169169676",
+      "value": 320,
+      "basis": "sold-comps",
+      "saleCount": 3,
+      "asOf": "2026-07-30",
+      "url": "https://www.pricecharting.com/game/gundam-newtype-rising/overflowing-affection-alternate-art-gd01-118",
+      "reason": "Median of three secondary-reported exact PSA9 sales; original eBay records inaccessible. Thin older history, not independently confirmed transactions.",
+      "transactions": [
+        {
+          "date": "2026-07-30",
+          "amount": 349.99,
+          "id": "358743889081",
+          "url": "https://www.ebay.com/itm/358743889081",
+          "comparableCert": null
+        },
+        {
+          "date": "2026-06-01",
+          "amount": 240,
+          "id": "358584692672",
+          "url": "https://www.ebay.com/itm/358584692672",
+          "comparableCert": null
+        },
+        {
+          "date": "2026-05-22",
+          "amount": 320,
+          "id": "358449561057",
+          "url": "https://www.ebay.com/itm/358449561057",
+          "comparableCert": null
+        }
+      ],
+      "notes": "Exact2025 Gundam Newtype Rising118 Uncommon+ PSA9. June1 uses reported accepted offer240, not struck-through320 ask. Median320. Edition Beta, PSA10, BGS9.5 and blended Grade9 guide excluded."
+    },
+    {
+      "copyId": "PSA:114218224",
+      "value": 18.75,
+      "basis": "owner",
+      "asOf": null,
+      "url": "https://www.ebay.com/itm/187600421462",
+      "reason": "Estimated from asking prices; not confirmed sales. Seller GCardzz may be owner-associated; this is an asking-price reference, not independent market corroboration. Shipping/tax excluded.",
+      "listingId": "187600421462",
+      "notes": "Direct current eBay18.75orBestOffer, sellerGCardzz ChandlerAZ. Exact2024 Obsidian Eclipsing Legends9 Warner/Murray base PSA8. Shipping1.25 excluded. Comparable cert not read; seller association explicitly disclosed."
+    }
+  ],
+  "unresolved": [
+    {
+      "copyId": "CGC:4350046013",
+      "title": "Grim11 Frison Sketch Qualified9.8",
+      "reason": "Search results were Signature Series, not Qualified.",
+      "checked": "Targeted web search results; eBay358248440412 directly opened. Other exclusions based on indexed descriptions unless noted.",
+      "nextLead": "Exact available listing or completed transaction; do not repeat excluded variants."
+    },
+    {
+      "copyId": "CGC:4480291001",
+      "title": "WonderWoman1 Besch CGCxJSA9.8",
+      "reason": "Universal and Signature Series offers excluded; matching signature/category unresolved.",
+      "checked": "Targeted web search results; eBay358248440412 directly opened. Other exclusions based on indexed descriptions unless noted.",
+      "nextLead": "Exact available listing or completed transaction; do not repeat excluded variants."
+    },
+    {
+      "copyId": "CGC:4350046004",
+      "title": "UsagiIceSnow SDCCPreview GoldFoil9.8",
+      "reason": "Double-signed and ChalkGirl variants excluded.",
+      "checked": "Targeted web search results; eBay358248440412 directly opened. Other exclusions based on indexed descriptions unless noted.",
+      "nextLead": "Exact available listing or completed transaction; do not repeat excluded variants."
+    },
+    {
+      "copyId": "CGC:4401613003",
+      "title": "ArcadeKings1 BirdCity AnnaMarcanoVirgin9.8",
+      "reason": "No exact offer found in search.",
+      "checked": "Targeted web search results; eBay358248440412 directly opened. Other exclusions based on indexed descriptions unless noted.",
+      "nextLead": "Exact available listing or completed transaction; do not repeat excluded variants."
+    },
+    {
+      "copyId": "CGC:4350047002",
+      "title": "Grim12 Trinity9.8",
+      "reason": "eBay197092493799 signed; ownedUniversal.",
+      "checked": "Targeted web search results; eBay358248440412 directly opened. Other exclusions based on indexed descriptions unless noted.",
+      "nextLead": "Exact available listing or completed transaction; do not repeat excluded variants."
+    },
+    {
+      "copyId": "ArenaClub:8AC002362928",
+      "title": "ProfessorTuro257 9.5",
+      "reason": "No exact grader/grade result.",
+      "checked": "Targeted web search results; eBay358248440412 directly opened. Other exclusions based on indexed descriptions unless noted.",
+      "nextLead": "Exact available listing or completed transaction; do not repeat excluded variants."
+    },
+    {
+      "copyId": "CBCS:21-45DB4BC-045",
+      "title": "Reflections14 CBCS9.8",
+      "reason": "No exact result.",
+      "checked": "Targeted web search results; eBay358248440412 directly opened. Other exclusions based on indexed descriptions unless noted.",
+      "nextLead": "Exact available listing or completed transaction; do not repeat excluded variants."
+    },
+    {
+      "copyId": "CGC:4214394003",
+      "title": "Exiled1 SMZFoil9.8",
+      "reason": "Mercari m82156659569 virgin75 is not foil.",
+      "checked": "Targeted web search results; eBay358248440412 directly opened. Other exclusions based on indexed descriptions unless noted.",
+      "nextLead": "Exact available listing or completed transaction; do not repeat excluded variants."
+    },
+    {
+      "copyId": "CGC:4350046025",
+      "title": "DoYouPooh Donkey9.8",
+      "reason": "Raw and other signed editions excluded.",
+      "checked": "Targeted web search results; eBay358248440412 directly opened. Other exclusions based on indexed descriptions unless noted.",
+      "nextLead": "Exact available listing or completed transaction; do not repeat excluded variants."
+    },
+    {
+      "copyId": "PSA:114218231",
+      "title": "TreyBenson RMITBN9",
+      "reason": "eBay397501105832 Green/5 wrong parallel.",
+      "checked": "Targeted web search results; eBay358248440412 directly opened. Other exclusions based on indexed descriptions unless noted.",
+      "nextLead": "Exact available listing or completed transaction; do not repeat excluded variants."
+    },
+    {
+      "copyId": "CGC:6001871064",
+      "title": "Blaine Gym2 nonholo9",
+      "reason": "eBay327332887637 holo excluded.",
+      "checked": "Targeted web search results; eBay358248440412 directly opened. Other exclusions based on indexed descriptions unless noted.",
+      "nextLead": "Exact available listing or completed transaction; do not repeat excluded variants."
+    },
+    {
+      "copyId": "TAG:L3302729",
+      "title": "Mamoswine174 8.5",
+      "reason": "No exact same-grade result.",
+      "checked": "Targeted web search results; eBay358248440412 directly opened. Other exclusions based on indexed descriptions unless noted.",
+      "nextLead": "Exact available listing or completed transaction; do not repeat excluded variants."
+    },
+    {
+      "copyId": "TAG:M9505930",
+      "title": "Magneton159 8.5",
+      "reason": "PokemonCenter stamp and model with0sales excluded.",
+      "checked": "Targeted web search results; eBay358248440412 directly opened. Other exclusions based on indexed descriptions unless noted.",
+      "nextLead": "Exact available listing or completed transaction; do not repeat excluded variants."
+    },
+    {
+      "copyId": "CGC:4418876003",
+      "title": "TaylorSwift UnknownMetalB9.8",
+      "reason": "eBay298195052393 MetalA and286548512144 YonamiMetalB wrong editions.",
+      "checked": "Targeted web search results; eBay358248440412 directly opened. Other exclusions based on indexed descriptions unless noted.",
+      "nextLead": "Exact available listing or completed transaction; do not repeat excluded variants."
+    },
+    {
+      "copyId": "CGC:4395549003",
+      "title": "KillerKareBears420FoilB9.8",
+      "reason": "No exact result.",
+      "checked": "Targeted web search results; eBay358248440412 directly opened. Other exclusions based on indexed descriptions unless noted.",
+      "nextLead": "Exact available listing or completed transaction; do not repeat excluded variants."
+    },
+    {
+      "copyId": "CGC:4480290001",
+      "title": "MikeTysonCrush9.8",
+      "reason": "Registry result only.",
+      "checked": "Targeted web search results; eBay358248440412 directly opened. Other exclusions based on indexed descriptions unless noted.",
+      "nextLead": "Exact available listing or completed transaction; do not repeat excluded variants."
+    },
+    {
+      "copyId": "CGC:4480290002",
+      "title": "Disputed1ComicTom9.8",
+      "reason": "Metal9.6 wrong edition/grade.",
+      "checked": "Targeted web search results; eBay358248440412 directly opened. Other exclusions based on indexed descriptions unless noted.",
+      "nextLead": "Exact available listing or completed transaction; do not repeat excluded variants."
+    },
+    {
+      "copyId": "CGC:4480290003",
+      "title": "FameMichaelJordan Bueckert9.8",
+      "reason": "eBay35824844041290 explicitly out of stock; Raremarq100, MCS6461286389 and Exchange79 are virgin editions, excluded.",
+      "checked": "Targeted web search results; eBay358248440412 directly opened. Other exclusions based on indexed descriptions unless noted.",
+      "nextLead": "Exact available listing or completed transaction; do not repeat excluded variants."
+    },
+    {
+      "copyId": "CGC:4493150004",
+      "title": "FameMichaelJordan Bueckert9.8",
+      "reason": "Same evidence gap as4480290003.",
+      "checked": "Targeted web search results; eBay358248440412 directly opened. Other exclusions based on indexed descriptions unless noted.",
+      "nextLead": "Exact available listing or completed transaction; do not repeat excluded variants."
+    }
+  ],
+  "followupLeads": [
+    {
+      "copyId": "TAG:D6943986",
+      "url": "https://pokedealfinder.uk/cards/astral-radiance/040189-origin-forme-palkia-vstar/",
+      "checked": "Direct page",
+      "finding": "Reports PSA7 sales20.50 and19.95 Nov3 2026 but no original IDs or certs. Same-grade PSA fallback candidate; seek original corroboration before selecting this new aggregator.",
+      "accepted": false
+    },
+    {
+      "copyId": "TAG:H5133767",
+      "checked": "Search index",
+      "finding": "Orange Velocity PSA10 $24 starting auction is wrong parallel vs Orange; excluded."
+    },
+    {
+      "copyId": "PSA:169169674",
+      "checked": "Search index",
+      "finding": "BenRice basePSA9 not IndianYellow; excluded."
+    },
+    {
+      "copyId": "PSA:169169675",
+      "checked": "Search index",
+      "finding": "Ichiro BeautyIsEverywhereSP and PaintSplatter not base; excluded."
+    },
+    {
+      "copyId": "PSA:169169671",
+      "checked": "Search index",
+      "finding": "MookieBetts IndianYellow/PrussianBlue/TitaniumWhite not base; excluded."
+    },
+    {
+      "copyId": "TAG:L4878840",
+      "checked": "Search index",
+      "finding": "HenryDavisYellow149.99 is Grade9, not PSA10; excluded."
+    }
+  ]
+}

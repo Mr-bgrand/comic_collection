@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "CGC:4357017005",
+      "revision": "8df0d7fb17ea8467ebafa4ccc853f2a4750683618d155e2cc99e2865a7ad9766",
+      "observations": [
+        {
+          "id": "2026-11-06-loop-CGC-4357017005",
+          "copyId": "CGC:4357017005",
+          "basis": "sold-comps",
+          "value": 55,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting reported-sale estimate*",
+            "url": "https://www.pricecharting.com/es/game/comic-books-star-wars-the-mandalorian-season-2/star-wars-the-mandalorian-season-2-5-2023",
+            "asOf": "2024-04-06",
+            "retrievedAt": "2026-11-07T00:31:08.552Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Star Wars: The Mandalorian Season 2",
+              "issue": "5",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "Trinity Comics \"Virgin\" Edition B",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Stale single secondary-reported sale; original eBay unavailable. Exact Gist Trinity Virgin Edition B CGC9.8 row only, not the mixed-edition guide.",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/es/game/comic-books-star-wars-the-mandalorian-season-2/star-wars-the-mandalorian-season-2-5-2023",
+            "reviewedAt": "2026-11-07T00:31:08.552Z",
+            "reviewedBy": "Owner-authorized provisional estimate review",
+            "notes": "PriceCharting specifically names Gist Trinity Virgin Edition B. Indexed eBay shop asks70/69.95 do not explicitly identify Edition B and are excluded from calculation; CBR ads119.99 likewise excluded. Granov, season1, CBCS and signed copies excluded.",
+            "transactions": [
+              {
+                "date": "2024-04-06",
+                "amount": 55,
+                "id": "256437266831",
+                "url": "https://www.ebay.com/itm/256437266831",
+                "comparableCert": null
+              }
+            ],
+            "listingId": null
+          },
+          "saleCount": 1
+        }
+      ]
+    },
+    {
+      "copyId": "PSA:169169656",
+      "revision": "13f7ffa4618e3d485b6f29ad368bba0c75a38b9914f101e032cb28cee6bbdaaf",
+      "observations": [
+        {
+          "id": "2026-11-06-loop-PSA-169169656",
+          "copyId": "PSA:169169656",
+          "basis": "sold-comps",
+          "value": 16.5,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting reported-sale estimate*",
+            "url": "https://www.pricecharting.com/game/pokemon-promo/piplup-42",
+            "asOf": "2026-10-14",
+            "retrievedAt": "2026-11-07T00:31:08.552Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2026",
+              "brand": "POKEMON MEP EN-ME BLACK STAR PROMO",
+              "series": "",
+              "subject": "PIPLUP",
+              "cardNumber": "042",
+              "variety": "FIRST PARTNER ILLUSTRATION COLLECTION SERIES 1",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "8",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Single secondary-reported PSA8 sale; original transaction inaccessible and comparable cert unavailable.",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-promo/piplup-42",
+            "reviewedAt": "2026-11-07T00:31:08.552Z",
+            "reviewedBy": "Owner-authorized provisional estimate review",
+            "notes": "Exact 2026 English First Partner Illustration Collection Piplup042 PSA8. CollectSherpa repeats16.50 datedOct13 instead ofOct14; retain source discrepancy. PC FanaticsNov4 PSA8 $19 has no transaction link and is context only. Mixed Grade8 guide, CGC/BGS, PSA9/10 and out-of-stock GameStop11.99 excluded.",
+            "transactions": [
+              {
+                "date": "2026-10-14",
+                "amount": 16.5,
+                "id": "298735975959",
+                "url": "https://www.ebay.com/itm/298735975959",
+                "comparableCert": null
+              }
+            ],
+            "listingId": null
+          },
+          "saleCount": 1
+        }
+      ]
+    },
+    {
+      "copyId": "PSA:169169676",
+      "revision": "13f7ffa4618e3d485b6f29ad368bba0c75a38b9914f101e032cb28cee6bbdaaf",
+      "observations": [
+        {
+          "id": "2026-11-06-loop-PSA-169169676",
+          "copyId": "PSA:169169676",
+          "basis": "sold-comps",
+          "value": 320,
+          "currency": "USD",
+          "source": {
+            "name": "PriceCharting reported-sale estimate*",
+            "url": "https://www.pricecharting.com/game/gundam-newtype-rising/overflowing-affection-alternate-art-gd01-118",
+            "asOf": "2026-07-30",
+            "retrievedAt": "2026-11-07T00:31:08.552Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2025",
+              "brand": "GUNDAM NEWTYPE RISING",
+              "series": "",
+              "subject": "OVERFLOWING AFFECTION",
+              "cardNumber": "118",
+              "variety": "UNCOMMON+",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Median of three secondary-reported exact PSA9 sales; original eBay records inaccessible. Thin older history, not independently confirmed transactions.",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/gundam-newtype-rising/overflowing-affection-alternate-art-gd01-118",
+            "reviewedAt": "2026-11-07T00:31:08.552Z",
+            "reviewedBy": "Owner-authorized provisional estimate review",
+            "notes": "Exact2025 Gundam Newtype Rising118 Uncommon+ PSA9. June1 uses reported accepted offer240, not struck-through320 ask. Median320. Edition Beta, PSA10, BGS9.5 and blended Grade9 guide excluded.",
+            "transactions": [
+              {
+                "date": "2026-07-30",
+                "amount": 349.99,
+                "id": "358743889081",
+                "url": "https://www.ebay.com/itm/358743889081",
+                "comparableCert": null
+              },
+              {
+                "date": "2026-06-01",
+                "amount": 240,
+                "id": "358584692672",
+                "url": "https://www.ebay.com/itm/358584692672",
+                "comparableCert": null
+              },
+              {
+                "date": "2026-05-22",
+                "amount": 320,
+                "id": "358449561057",
+                "url": "https://www.ebay.com/itm/358449561057",
+                "comparableCert": null
+              }
+            ],
+            "listingId": null
+          },
+          "saleCount": 3
+        }
+      ]
+    },
+    {
+      "copyId": "PSA:114218224",
+      "revision": "2853c6343473a475b46fd5d82c47143d72fb7dcad60aa7919a035c3dacb9c317",
+      "observations": [
+        {
+          "id": "2026-11-06-loop-PSA-114218224",
+          "copyId": "PSA:114218224",
+          "basis": "owner",
+          "value": 18.75,
+          "currency": "USD",
+          "source": {
+            "name": "Listing-based owner estimate*",
+            "url": "https://www.ebay.com/itm/187600421462",
+            "asOf": null,
+            "retrievedAt": "2026-11-07T00:31:08.552Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "PANINI OBSIDIAN ECLIPSING LEGENDS",
+              "series": "",
+              "subject": "WARNER/MURRAY",
+              "cardNumber": "9",
+              "variety": "",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "8",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Estimated from asking prices; not confirmed sales. Seller GCardzz may be owner-associated; this is an asking-price reference, not independent market corroboration. Shipping/tax excluded.",
+          "reviewEvidence": {
+            "url": "https://www.ebay.com/itm/187600421462",
+            "reviewedAt": "2026-11-07T00:31:08.552Z",
+            "reviewedBy": "Owner-authorized provisional estimate review",
+            "notes": "Direct current eBay18.75orBestOffer, sellerGCardzz ChandlerAZ. Exact2024 Obsidian Eclipsing Legends9 Warner/Murray base PSA8. Shipping1.25 excluded. Comparable cert not read; seller association explicitly disclosed.",
+            "transactions": [],
+            "listingId": "187600421462"
+          }
+        }
+      ]
+    }
+  ]
+}

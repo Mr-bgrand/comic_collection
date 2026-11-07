@@ -141,6 +141,75 @@
         "url": "https://gocollect.com/app/comic/star-wars-mandalorian-season-2-5-trinity-comics-virgin-edition-b",
         "status": "no-sales",
         "fetchedAt": "2026-08-27T05:50:35.403Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-06-loop-CGC-4357017005",
+            "copyId": "CGC:4357017005",
+            "basis": "sold-comps",
+            "value": 55,
+            "currency": "USD",
+            "source": {
+              "name": "PriceCharting reported-sale estimate*",
+              "url": "https://www.pricecharting.com/es/game/comic-books-star-wars-the-mandalorian-season-2/star-wars-the-mandalorian-season-2-5-2023",
+              "asOf": "2024-04-06",
+              "retrievedAt": "2026-11-07T00:31:08.552Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Star Wars: The Mandalorian Season 2",
+                "issue": "5",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Trinity Comics \"Virgin\" Edition B",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Stale single secondary-reported sale; original eBay unavailable. Exact Gist Trinity Virgin Edition B CGC9.8 row only, not the mixed-edition guide.",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/es/game/comic-books-star-wars-the-mandalorian-season-2/star-wars-the-mandalorian-season-2-5-2023",
+              "reviewedAt": "2026-11-07T00:31:08.552Z",
+              "reviewedBy": "Owner-authorized provisional estimate review",
+              "notes": "PriceCharting specifically names Gist Trinity Virgin Edition B. Indexed eBay shop asks70/69.95 do not explicitly identify Edition B and are excluded from calculation; CBR ads119.99 likewise excluded. Granov, season1, CBCS and signed copies excluded.",
+              "transactions": [
+                {
+                  "date": "2024-04-06",
+                  "amount": 55,
+                  "id": "256437266831",
+                  "url": "https://www.ebay.com/itm/256437266831",
+                  "comparableCert": null
+                }
+              ],
+              "listingId": null
+            },
+            "saleCount": 1
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-06-loop-CGC-4357017005",
+          "locked": true,
+          "selectedAt": "2026-11-07T00:31:09.365Z"
+        }
       }
     },
     {
