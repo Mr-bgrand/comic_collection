@@ -5086,7 +5086,70 @@
         "capturedAt": "2026-09-08T00:08:08.772Z"
       },
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-08-daily-raw-Authority-7861079670",
+            "copyId": "Authority:7861079670",
+            "basis": "raw-reference",
+            "value": 9.45,
+            "currency": "USD",
+            "source": {
+              "name": "Midtown Comics asking-price reference*",
+              "url": "https://www.midtowncomics.com/product/2343492",
+              "asOf": null,
+              "retrievedAt": "2026-11-08T16:00:52.290Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Detective Comics",
+                "issue": "27",
+                "issueYear": "2024",
+                "publisher": "DC Comics",
+                "variant": "Foil Facsimile Variant",
+                "upc": "76194138562400131",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "C",
+                "volume": "1",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "provisional": true,
+            "provisionalReason": "Estimated from asking prices; not confirmed sales. Seller Near Mint reference only; owned raw condition unassessed. Outside collection total. Availability not independently checked at checkout; shipping/tax excluded.",
+            "reviewEvidence": {
+              "url": "https://www.midtowncomics.com/product/2343492",
+              "reviewedAt": "2026-11-08T16:00:52.290Z",
+              "reviewedBy": "Owner-authorized source review",
+              "notes": "2024 Batman Day Detective Comics27 facsimile CoverC Bob Kane foil. Owned front and Authority27C label visually confirm edition. Full UPC matches inventory. Direct page refreshed9.45; older indexed6.30 promotion not used. Exclude original1939, other facsimiles and other covers. Direct product page displays Near Mint asking price; no condition inferred from owned front scan. Printing matched by full UPC, no later-print designation.",
+              "listingEvidence": {
+                "listingId": "midtown:2343492",
+                "askingPricesUSD": [
+                  9.45
+                ],
+                "soldAt": null,
+                "access": "direct product page",
+                "sellerCondition": "Near Mint",
+                "upc": "76194138562400131"
+              }
+            }
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Authority_7861079670_FRONT.jpg",
         "back": "Authority_7861079670_BACK.jpg"

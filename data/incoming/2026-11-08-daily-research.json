@@ -1,0 +1,101 @@
+{
+  "retrievedAt": "2026-11-08T16:01:37.955Z",
+  "copiesResearched": 12,
+  "pricesAdded": 0,
+  "referencesAdded": 2,
+  "unresolved": [
+    {
+      "copyId": "CGC:1401011131203",
+      "title": "Cacturne21 SilverFoil CGC9",
+      "reason": "Catalog results only, no exact graded offer.",
+      "url": "https://collectorita.com/sets/3977/GRANDMASTER",
+      "access": "targeted search index; not direct listing inspection",
+      "nextLead": "Exact available slab/transaction; rotate before repeating exclusions."
+    },
+    {
+      "copyId": "CGC:1401011392237",
+      "title": "Mankey79 reverse CGC9.5",
+      "reason": "Secondary models10.50/11 disagree with combinedCGC/BGS55; original transactions not located. eBay and Fanatics results Legendary81 or ShinyTreasure100 are wrong sets.",
+      "url": "https://holofile.app/pokemon/sets/diamond-pearl/great-encounters/79-mankey",
+      "access": "targeted search index; not direct listing inspection",
+      "nextLead": "Exact available slab/transaction; rotate before repeating exclusions."
+    },
+    {
+      "copyId": "CGC:6042459106",
+      "title": "Dodrio Meiji1997foil7.5",
+      "reason": "Carddass85/Jungle results excluded; no Meiji7.5 match.",
+      "url": null,
+      "access": "targeted search index; not direct listing inspection",
+      "nextLead": "Exact available slab/transaction; rotate before repeating exclusions."
+    },
+    {
+      "copyId": "CGC:3760617001",
+      "title": "WhiteWidow2 RebelKillerSS9.8",
+      "reason": "Heritage lot11956 bundles3 different variants; cannot allocate lot price. Owned signer absent and no owned scan; requires signer identification.",
+      "url": "https://comics.ha.com/itm/modern-age-1980-present-/superhero/white-widow-2-variant-covers-signature-series-group-of-3-absolute-comics-group-2019-cgc-nm-mt-98-total-3-c/a/122401-11956.s",
+      "access": "targeted search index; not direct listing inspection",
+      "nextLead": "Exact available slab/transaction; rotate before repeating exclusions."
+    },
+    {
+      "copyId": "CGC:2691440008",
+      "title": "Revolution1 SharperSS9.8",
+      "reason": "No exact result; existing blank-sketch guide is wrong edition; signer identification needed.",
+      "url": null,
+      "access": "targeted search index; not direct listing inspection",
+      "nextLead": "Exact available slab/transaction; rotate before repeating exclusions."
+    },
+    {
+      "copyId": "CGC:4471692001",
+      "title": "MikeTyson WaiteFoilB9.8",
+      "reason": "eBay277371219358 FoilF160GBP wrongedition. Hawkins options not a confirmedFoilB9.8 in-hand offer.",
+      "url": "https://www.ebay.co.uk/itm/277371219358",
+      "access": "targeted search index; not direct listing inspection",
+      "nextLead": "Exact available slab/transaction; rotate before repeating exclusions."
+    },
+    {
+      "copyId": "CGC:4526002007",
+      "title": "Tupac CacauVirgin9.8",
+      "reason": "Exchange79 exact-title offer has up-to5-month grading fulfillment, not confirmed existing slab/cert. Saved as weak delayed-fulfillment lead, not accepted.",
+      "url": "https://exchangecollectibles.com/products/tribute-topac-shakur-1-virgin-cgc-9-8",
+      "access": "direct product page",
+      "nextLead": "Exact available slab/transaction; rotate before repeating exclusions."
+    },
+    {
+      "copyId": "CGC:2765925001",
+      "title": "Wherewhen2 EastmanSS9.8",
+      "reason": "Issue1 dual-signed set, issue2 unsigned1:100 and rawEastman variant are excluded.",
+      "url": "https://www.ebay.com/itm/204685901598",
+      "access": "targeted search index; not direct listing inspection",
+      "nextLead": "Exact available slab/transaction; rotate before repeating exclusions."
+    },
+    {
+      "copyId": "TAG:V3539115",
+      "title": "BubbaChandler GoldWaveAuto8",
+      "reason": "PSA9 GoldWave found, no exact PSA8 or TAG8.",
+      "url": "https://www.ebay.com/b/2021-Bowman-Draft-Bubba-Chandler-CDA-BC/212/bn_7123885207",
+      "access": "targeted search index; not direct listing inspection",
+      "nextLead": "Exact available slab/transaction; rotate before repeating exclusions."
+    },
+    {
+      "copyId": "TAG:U5165558",
+      "title": "JaredJonesUSC43Prism8.5",
+      "reason": "No exact TAG8.5 or same-grade PSA result.",
+      "url": null,
+      "access": "targeted search index; not direct listing inspection",
+      "nextLead": "Exact available slab/transaction; rotate before repeating exclusions."
+    }
+  ],
+  "rawEvidence": "data/incoming/2026-11-08-daily-raw-references.json",
+  "rawChecked": [
+    "https://www.midtowncomics.com/product/2343491",
+    "https://www.midtowncomics.com/product/2343492"
+  ],
+  "otherRawIndexed": [
+    "https://www.g-mart.com/static/g0724DC133.html",
+    "https://legacycomics.com/product/batman-day-2024-detective-comics-27-facsimile-edition-foil-variant-cover-c/"
+  ],
+  "notChecked": [
+    "ComicLink archive",
+    "PSA auction archive"
+  ]
+}
