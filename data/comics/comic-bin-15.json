@@ -20056,7 +20056,62 @@
             }
           }
         ],
-        "legacyInvalidatedAt": "2026-09-23T06:14:00.454Z"
+        "legacyInvalidatedAt": "2026-09-23T06:14:00.454Z",
+        "observations": [
+          {
+            "id": "2026-11-08-continue-raw-15-025",
+            "copyId": "raw:15-025",
+            "basis": "raw-reference",
+            "value": 40,
+            "currency": "USD",
+            "source": {
+              "name": "eBay raw asking reference*",
+              "url": "https://www.ebay.com/itm/336369670296",
+              "asOf": null,
+              "retrievedAt": "2026-11-09T01:50:02.232Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Female Force: Taylor Swift",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "TidalWave Productions",
+                "variant": "Steven Defendini Unknown Comics Exclusive Trade Dress",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "provisional": true,
+            "provisionalReason": "Estimated from asking prices; not confirmed sales. Seller NM title / Like New condition reference; owned raw condition unassessed, outside collection total. Shipping/tax excluded. UPC and printing not independently verified from front-only owned scan; exact cover match supports provisional reference only.",
+            "reviewEvidence": {
+              "url": "https://www.ebay.com/itm/336369670296",
+              "reviewedAt": "2026-11-09T01:50:02.232Z",
+              "reviewedBy": "Owner-authorized provisional review",
+              "notes": "Direct eBay drpistachio USD40 Buy It Now. Owned front and full listing image visually match white-bordered Steven Defendini Unknown Comics trade dress: blue dress, gold star, microphone, blue title, Female Force/TidalWave logos. Not X montage, virgin or chrome. No condition inferred. No later-print designation found. HipComic14824022 closed not sold excluded. MyComicShop syndicated40 was lead; direct original checked.",
+              "listingId": "336369670296",
+              "comparableCert": null,
+              "soldAt": null
+            }
+          }
+        ],
+        "selection": null
       },
       "images": {
         "front": "Raw_15-025_FRONT.jpg"

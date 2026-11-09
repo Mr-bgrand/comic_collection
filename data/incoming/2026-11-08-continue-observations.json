@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "PSA:169169652",
+      "revision": "d74d1de3fe46a88ea6d24acb5f0d0418f2fe1e245e394f9641f33d9385c629d0",
+      "observations": [
+        {
+          "id": "2026-11-08-continue-PSA-169169652",
+          "copyId": "PSA:169169652",
+          "basis": "owner",
+          "value": 275,
+          "currency": "USD",
+          "source": {
+            "name": "Indexed eBay asking estimate*",
+            "url": "https://www.ebay.com/shop/constellation?_nkw=constellation",
+            "asOf": null,
+            "retrievedAt": "2026-11-09T01:50:02.232Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2025",
+              "brand": "TOPPS COSMIC CHROME DUAL STAR CLUSTERS",
+              "series": "",
+              "subject": "SHOHEI OHTANI/MOOKIE BETTS",
+              "cardNumber": "4",
+              "variety": "GREEN SPACE DUST",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Estimated from asking prices; not confirmed sales. Indexed eBay exact-title PSA9 Green /75 asking price; direct shop page retrieval returned a different cached result without this item. Current availability uncertain; original item ID, comparable cert and serial numerator unavailable. Shipping/tax excluded.",
+          "reviewEvidence": {
+            "url": "https://www.ebay.com/shop/constellation?_nkw=constellation",
+            "reviewedAt": "2026-11-09T01:50:02.232Z",
+            "reviewedBy": "Owner-authorized provisional review",
+            "notes": "Indexed title: Topps Cosmic Chrome 2025 Ohtani Betts Star Clusters #DSC-4 Green /75 Psa 9; USD275 or Best Offer. Green /75 corresponds to Green Space Dust. Exact owned year/set/players/parallel/numeric grade; no autograph. Canadian index repeats title in CAD but not used. Whatnot exact PSA9 $250 explicitly unavailable, excluded. Raw eBay278222878877 and Gold Interstellar PSA9 excluded.",
+            "listingId": null,
+            "comparableCert": null,
+            "soldAt": null
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-025",
+      "revision": "0c38540365274c9a176eb4b51f4edbf2c5c131b2d43f15f3d68d0b057b33ad2b",
+      "observations": [
+        {
+          "id": "2026-11-08-continue-raw-15-025",
+          "copyId": "raw:15-025",
+          "basis": "raw-reference",
+          "value": 40,
+          "currency": "USD",
+          "source": {
+            "name": "eBay raw asking reference*",
+            "url": "https://www.ebay.com/itm/336369670296",
+            "asOf": null,
+            "retrievedAt": "2026-11-09T01:50:02.232Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Female Force: Taylor Swift",
+              "issue": "1",
+              "issueYear": "2024",
+              "publisher": "TidalWave Productions",
+              "variant": "Steven Defendini Unknown Comics Exclusive Trade Dress",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Estimated from asking prices; not confirmed sales. Seller NM title / Like New condition reference; owned raw condition unassessed, outside collection total. Shipping/tax excluded. UPC and printing not independently verified from front-only owned scan; exact cover match supports provisional reference only.",
+          "reviewEvidence": {
+            "url": "https://www.ebay.com/itm/336369670296",
+            "reviewedAt": "2026-11-09T01:50:02.232Z",
+            "reviewedBy": "Owner-authorized provisional review",
+            "notes": "Direct eBay drpistachio USD40 Buy It Now. Owned front and full listing image visually match white-bordered Steven Defendini Unknown Comics trade dress: blue dress, gold star, microphone, blue title, Female Force/TidalWave logos. Not X montage, virgin or chrome. No condition inferred. No later-print designation found. HipComic14824022 closed not sold excluded. MyComicShop syndicated40 was lead; direct original checked.",
+            "listingId": "336369670296",
+            "comparableCert": null,
+            "soldAt": null
+          }
+        }
+      ]
+    }
+  ]
+}

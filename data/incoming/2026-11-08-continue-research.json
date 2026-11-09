@@ -1,0 +1,51 @@
+{
+  "retrievedAt": "2026-11-09T01:50:02.232Z",
+  "entries": [
+    {
+      "copyId": "PSA:169169652",
+      "basis": "owner",
+      "value": 275,
+      "url": "https://www.ebay.com/shop/constellation?_nkw=constellation",
+      "reason": "Estimated from asking prices; not confirmed sales. Indexed eBay exact-title PSA9 Green /75 asking price; direct shop page retrieval returned a different cached result without this item. Current availability uncertain; original item ID, comparable cert and serial numerator unavailable. Shipping/tax excluded.",
+      "notes": "Indexed title: Topps Cosmic Chrome 2025 Ohtani Betts Star Clusters #DSC-4 Green /75 Psa 9; USD275 or Best Offer. Green /75 corresponds to Green Space Dust. Exact owned year/set/players/parallel/numeric grade; no autograph. Canadian index repeats title in CAD but not used. Whatnot exact PSA9 $250 explicitly unavailable, excluded. Raw eBay278222878877 and Gold Interstellar PSA9 excluded."
+    },
+    {
+      "copyId": "raw:15-025",
+      "basis": "raw-reference",
+      "value": 40,
+      "url": "https://www.ebay.com/itm/336369670296",
+      "listingId": "336369670296",
+      "reason": "Estimated from asking prices; not confirmed sales. Seller NM title / Like New condition reference; owned raw condition unassessed, outside collection total. Shipping/tax excluded. UPC and printing not independently verified from front-only owned scan; exact cover match supports provisional reference only.",
+      "notes": "Direct eBay drpistachio USD40 Buy It Now. Owned front and full listing image visually match white-bordered Steven Defendini Unknown Comics trade dress: blue dress, gold star, microphone, blue title, Female Force/TidalWave logos. Not X montage, virgin or chrome. No condition inferred. No later-print designation found. HipComic14824022 closed not sold excluded. MyComicShop syndicated40 was lead; direct original checked."
+    }
+  ],
+  "unresolved": [
+    {
+      "title": "Do You Pooh Brock Poohdy CGC9.8",
+      "reason": "Targeted search returned no exact offer."
+    },
+    {
+      "title": "Taylor Swift Unknown Comics Foil B / Metal B CGC9.8",
+      "reason": "Indexed Ringo EditionA/B nonfoil and MetalA offers are different editions.",
+      "url": "https://www.ebay.com/str/ringoscomics"
+    },
+    {
+      "title": "Reggie Jackson Bob Ross Paint Splatter PSA10",
+      "reason": "Targeted search returned raw or other parallels only."
+    },
+    {
+      "title": "Sandy Koufax2025 Bob Ross71 Sap Green PSA9",
+      "reason": "BasePSA9 auction is wrong parallel."
+    },
+    {
+      "title": "Orbit Eminem Cacau Punisher trade raw:15-002",
+      "reason": "Rabbit20 listing explicitly sold out/preorder, excluded.",
+      "url": "https://rabbitcomics.com/products/orbit-eminem-1-caio-cacau-excluisve-variant-preorder"
+    }
+  ],
+  "uncheckedLeads": [
+    "PSA auction records for exact Ohtani/Betts green PSA9",
+    "Original eBay listing for indexed275 offer",
+    "Additional exact Eminem trade retailer stock"
+  ]
+}
