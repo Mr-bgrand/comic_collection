@@ -1,0 +1,104 @@
+{
+  "retrievedAt": "2026-11-11T16:04:49.966Z",
+  "copiesResearched": 12,
+  "pricesAdded": 1,
+  "referencesAdded": 0,
+  "accepted": [
+    {
+      "copyId": "PSA:169169673",
+      "value": 101.77,
+      "observationId": "2026-11-11-daily-PSA-169169673",
+      "url": "https://www.sportscardspro.com/game/baseball-cards-2025-topps-x-bob-ross-autograph/dj-herz-paint-splatter-76"
+    }
+  ],
+  "unresolved": [
+    {
+      "copyId": "PSA:169169671",
+      "title": "Mookie Betts Bob Ross base PSA9",
+      "reason": "Final eBay auction page inaccessible; earlier bid/ask is not a final transaction.",
+      "url": "https://www.ebay.com/itm/900048731326",
+      "checked": "direct fetch failed"
+    },
+    {
+      "copyId": "PSA:169169674",
+      "title": "Ben Rice84 Indian Yellow PSA9",
+      "reason": "Search returned base or autograph PSA10; no exact PSA9.",
+      "url": "https://www.sportscardspro.com/search-products?q=ben+rice+indian+yellow+84a&type=prices",
+      "checked": "search index"
+    },
+    {
+      "copyId": "CGC:4137946001",
+      "title": "All-New Ghost Rider Engines of Vengeance1 second printing9.4",
+      "reason": "Owned record is 2016 collected edition #1-5; 2014 single-issue second-print comparisons excluded.",
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/131143/marvel-comics-all-new-ghost-rider-1-2nd-print-second-printing",
+      "checked": "search index; MyComicShop direct retrieval timed out"
+    },
+    {
+      "copyId": "CGC:4350046019",
+      "title": "Boys Special1 ComicTom Foil9.9",
+      "reason": "John Royle trade CGC9.9 cert4682013015 $250 is not owned Zoe Lacchei virgin SDCC2023.",
+      "url": "https://www.ebay.com/itm/287128113947",
+      "checked": "search index"
+    },
+    {
+      "copyId": "CGC:4395549003",
+      "title": "Killer Kare Bears420 FoilB9.8",
+      "reason": "Targeted search found no exact evidence.",
+      "url": null,
+      "checked": "search results"
+    },
+    {
+      "copyId": "CGC:4350046025",
+      "title": "Do You Pooh Donkey Pooh9.8",
+      "reason": "Targeted search found no exact evidence.",
+      "url": null,
+      "checked": "search results"
+    },
+    {
+      "copyId": "CGC:4386585003",
+      "title": "Batman655 WhatnotC9.9",
+      "reason": "Index reports one Universal9.9 but no9.9 sale. WhatnotA9.8 excluded.",
+      "url": "https://gocollect.com/comic/batman-655-4",
+      "checked": "search index"
+    },
+    {
+      "copyId": "CGC:4273634009",
+      "title": "Spider-Gwen Shadow Clones1 Spectral8.5",
+      "reason": "No exact match in targeted search.",
+      "url": null,
+      "checked": "search results"
+    },
+    {
+      "copyId": "CGC:4350047001",
+      "title": "Final Boss3 SMZ Foil9.2",
+      "reason": "No exact match in targeted search.",
+      "url": null,
+      "checked": "search results"
+    },
+    {
+      "copyId": "CGC:4418876005",
+      "title": "X-Men27 Trinity9.4",
+      "reason": "Sketch9.8 $150, registry9.8 and Classic27 excluded.",
+      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/327348/marvel-comics-x-men-27trinity-nycc-b-trinity-comics-sketch-edition",
+      "checked": "search index"
+    },
+    {
+      "copyId": "CGC:4273634010",
+      "title": "Transformers Back to Future4 variant8.5",
+      "reason": "MCS $32 VF+8.5 is raw issue3RI, not CGC issue4.",
+      "url": "https://www.mycomicshop.com/search?TID=51726053",
+      "checked": "search index"
+    }
+  ],
+  "uncheckedLeads": [
+    "Boys Zoe Lacchei SDCC9.9 historical eBay155899887653 photos: resolve trade-dress metadata discrepancy before considering old $395 ask",
+    "PSA auction records/Fanatics exact DJ Herz Paint Splatter10 corroboration",
+    "Heritage/ComicLink exact collected Ghost Rider second printing9.4"
+  ],
+  "remaining": {
+    "graded": 104,
+    "comics": 74,
+    "cards": 30,
+    "rawWithoutReference": 9
+  }
+}
