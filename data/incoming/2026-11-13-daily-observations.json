@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "CGC:4424144001",
+      "revision": "9750e92a43355e7ee9b064fd9459119c38d66418080d4018788075cc3469d87d",
+      "observations": [
+        {
+          "id": "2026-11-13-daily-CGC-4424144001",
+          "copyId": "CGC:4424144001",
+          "basis": "sold-comps",
+          "value": 45,
+          "currency": "USD",
+          "saleCount": 1,
+          "source": {
+            "name": "PriceCharting reported-sale estimate*",
+            "url": "https://www.pricecharting.com/game/comic-books-spectacular-spider-men/spectacular-spider-men-1-2024",
+            "asOf": "2026-08-31",
+            "retrievedAt": "2026-11-13T16:02:40.013Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Spectacular Spider-Men",
+              "issue": "1",
+              "issueYear": "2024",
+              "publisher": "Marvel Comics",
+              "variant": "Ramos Variant Cover",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.6",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Single secondary-reported CGC9.6 Ramos variant sale. Original eBay page inaccessible, comparable certificate and full UPC unavailable. Variant/grade match rests on reported title and same-title ComicBookRealm listing. Shipping/tax excluded; not independently confirmed sale.",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-spectacular-spider-men/spectacular-spider-men-1-2024",
+            "reviewedAt": "2026-11-13T16:02:40.013Z",
+            "reviewedBy": "Owner-authorized source review",
+            "notes": "Opened PriceCharting table reports August31,2026 $45 for Marvel The Spectacular Spider-Men #1 Ramos Variant CGC Graded9.6 (2024), with former49.99 displayed. Indexed ComicBookRealm exact Ramos Variant Cover catalog342019 contains same-title49.99 asking listing; direct CBR fetch403. Use reported45 sale, not stale49.99 ask. Generic PriceCharting catalog mixes editions: excluded28.77 second printing9.6,35 Ramos9.4, foil9.9 and all9.8. No autograph designation on comparison title; owned Universal. Catalog-level UPC for standard cover not assigned to this variant.",
+            "transactions": [
+              {
+                "url": "https://www.ebay.com/itm/298543758397",
+                "transactionId": "298543758397",
+                "soldAt": "2026-08-31",
+                "value": 45,
+                "comparableCert": null,
+                "evidence": "Secondary reported sale; original inaccessible"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

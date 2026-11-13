@@ -1,0 +1,105 @@
+{
+  "retrievedAt": "2026-11-13T16:02:40.013Z",
+  "copiesResearched": 12,
+  "pricesAdded": 1,
+  "referencesAdded": 0,
+  "accepted": [
+    {
+      "copyId": "CGC:4424144001",
+      "value": 45,
+      "url": "https://www.pricecharting.com/game/comic-books-spectacular-spider-men/spectacular-spider-men-1-2024",
+      "original": "https://www.ebay.com/itm/298543758397",
+      "access": "PriceCharting direct; eBay inaccessible; CBR indexed only"
+    }
+  ],
+  "unresolved": [
+    {
+      "copyId": "TAG:R1562007",
+      "title": "Brady Cook2024 Sapphire PA-BCO Orange TAG10",
+      "reason": "PSA10 SS-BC249.99 cert110980543 is Sapphire Selections, wrong subset;2023 PA-BRC wrongyear. TAG query no exact result.",
+      "url": "https://www.ebay.com/itm/146603104773",
+      "checked": "Targeted search index; original listing not directly inspected"
+    },
+    {
+      "copyId": "TAG:Y6882653",
+      "title": "Seth Henigan2024 Sapphire162Red TAG10",
+      "reason": "2025Topps RA-SH autograph73.50 is different set/year/card. No exact TAG or PSA10 result.",
+      "url": "https://www.sportscardspro.com/game/football-cards-2025-topps-chrome-rookie-autograph/seth-henigan-red-sapphire-ra-sh",
+      "checked": "Targeted search index; original listing not directly inspected"
+    },
+    {
+      "copyId": "CGC:3760617001",
+      "title": "White Widow2 Rebel Killer SS9.8",
+      "reason": "Heritage129 Jan2,2024 lot11956 contains3different books; cannot allocate. MCS189.99 cert4681385010 lacks matching signer. Owned signer still unknown.",
+      "url": "https://comics.ha.com/itm/modern-age-1980-present-/superhero/white-widow-2-variant-covers-signature-series-group-of-3-absolute-comics-group-2019-cgc-nm-mt-98-total-3-c/a/122401-11956.s",
+      "checked": "Targeted search index; original listing not directly inspected"
+    },
+    {
+      "copyId": "CGC:4214394003",
+      "title": "Exiled1 SMZ Foil Qualified9.8",
+      "reason": "Mercari virgin comparison does not establish foil and Qualified match.",
+      "url": "https://www.mercari.com/us/item/m82156659569/",
+      "checked": "Targeted search index; original listing not directly inspected"
+    },
+    {
+      "copyId": "CGC:6042459106",
+      "title": "Dodrio1997MeijiFoil7.5",
+      "reason": "Carddass85 reported16/17 is wrong set; Sealdass/Jungle excluded.",
+      "url": "https://www.pricecharting.com/game/pokemon-japanese-1997-carddass/dodrio-85",
+      "checked": "Targeted search index; original listing not directly inspected"
+    },
+    {
+      "copyId": "ArenaClub:8AC002362928",
+      "title": "Professor Turo257 ArenaClub9.5",
+      "reason": "No exact ArenaClub9.5 result in targeted query.",
+      "url": null,
+      "checked": "Targeted search index; original listing not directly inspected"
+    },
+    {
+      "copyId": "CGC:4245413015",
+      "title": "ASM20 Nakayama9.6",
+      "reason": "PriceCharting no9.6 value; Mercari9.6SS signed virgin differs.",
+      "url": "https://www.pricecharting.com/game/comic-books-amazing-spider-man/amazing-spider-man-nakayama-20-2023",
+      "checked": "Targeted search index; original listing not directly inspected"
+    },
+    {
+      "copyId": "CGC:4198680004",
+      "title": "Darth Vader29 East Side9.6",
+      "reason": "Registry not sale; no exact9.6 result.",
+      "url": null,
+      "checked": "Targeted search index; original listing not directly inspected"
+    },
+    {
+      "copyId": "CGC:4350046005",
+      "title": "Invincible9 ConventionFoil9.4",
+      "reason": "Issue1 foil2026 raw9.4 results wrong issue/year/holder.",
+      "url": null,
+      "checked": "Targeted search index; original listing not directly inspected"
+    },
+    {
+      "copyId": "CGC:4198680009",
+      "title": "SpiderMan4 Cassaday9.4",
+      "reason": "No exact priced result.",
+      "url": null,
+      "checked": "Targeted search index; original listing not directly inspected"
+    },
+    {
+      "copyId": "CGC:4350046008",
+      "title": "SIKTC PenInk1 BoomFoilA9.6",
+      "reason": "House of Slaughter Currey signed gilded9.6 is wrong title and label.",
+      "url": "https://www.hipcomic.com/category/comic-books/100/?amppage=114&details_publisher=boom-studios&limit=48&show_only=on_sale&sort=price_desc",
+      "checked": "Targeted search index; original listing not directly inspected"
+    }
+  ],
+  "uncheckedLeads": [
+    "Original eBay298543758397 scan/cert corroboration",
+    "WhiteWidow owned signature identity before matching SS offer",
+    "Exact BradyCook PA-BCO Orange PSA10 Fanatics/PSA archive"
+  ],
+  "remaining": {
+    "graded": 103,
+    "comics": 73,
+    "cards": 30,
+    "rawWithoutReference": 9
+  }
+}
