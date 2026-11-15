@@ -1,0 +1,16 @@
+# Deeper pricing batch 2 — November 15, 2026
+
+4 supported missing graded estimates imported and explicitly accepted. All marked with an asterisk and included in the recorded total. Existing accepted prices remain locked.
+
+| Copy | Item | Estimate | Evidence and limits |
+|---|---|---:|---|
+| CGC:4471692012 | Spider-Gwen Annual Variant Edition | $15.00* | [Source](https://comicbookrealm.com/cgc-analyzer/comic/id/323427/marvel-comics-spider-gwen-annual-1) — Weak secondary CGC grade-specific guide estimate, not a verified sale price. Exact JeehyungLee trade VariantEdition Universal/Modern9.0; guide15 nottransaction.1recorded9.0sale. Virgin edition not used. Last reported sale 2024-11-23; 1 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed. |
+| CGC:4471692002 | Fame: Mike Tyson Waite Foil Edition C | $55.00* | [Source](https://comicbookrealm.com/cgc-analyzer/comic/id/351082/tidalwave-comics-fame-mike-tyson-nn) — Weak secondary CGC grade-specific guide estimate, not a verified sale price. Chrome cert-search4471692002 -> analyze exact WaiteFoilEditionC. Universal/Modern. Grade9.8 row2recordedsales, Estimated Value55USD. Title/grade/category confirmed ownedcertificate and previously inspected foilcover. 30daydelayed secondary estimated guide value, NOT individual saleprice. Underlying sales not inspected (premium). Stale lastreportedactivity March2025. Mark provisional*. Last reported sale 2025-03-15; 2 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed. |
+| CGC:4350046025 | Do You Pooh? Donkey Pooh Edition | $70.00* | [Source](https://comicbookrealm.com/cgc-analyzer/comic/id/330887/counterpoint-do-you-pooh-1) — Weak secondary CGC grade-specific guide estimate, not a verified sale price. Exact variant andgrade9.8. Displayed EstimatedValue not individual saleprice. Transaction/cert notvisible withoutmembership; weak historical guide. Last reported sale 2024-03-03; 1 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed. |
+| CGC:4480290002 | The Disputed ComicTom101 Edition | $50.00* | [Source](https://comicbookrealm.com/cgc-analyzer/comic/id/358736/the-h-co-llc-the-disputed-1) — Weak secondary CGC grade-specific guide estimate, not a verified sale price. Exact variant andgrade9.8. Displayed EstimatedValue not individual saleprice. Transaction/cert notvisible withoutmembership; weak historical guide. Last reported sale 2024-09-21; 1 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed. |
+
+**Coverage: 468 valued, 423 separate raw references. Remaining: 82 graded (58 comics, 24 cards) and 6 raw reference gaps.**
+
+[Detailed research](../data/incoming/2026-11-15-deeper-batch2-research.json) preserves checked sources, rejected variants, access failures, and pending leads. No archive is claimed exhausted. Certificate-based ComicBookRealm search exposes variant pages missed by ordinary title searches; guide estimates are not reported as sale amounts.
+
+Validation: 432 tests passed. Viewer rebuilt and all four accepted starred values verified; master PDF regenerated and page 9 visually checked. Unrelated records and protected labels PDF preserved. Previous seven-item batch deployment verified live before this batch.

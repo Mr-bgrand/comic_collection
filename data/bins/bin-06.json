@@ -802,6 +802,67 @@
         "url": null,
         "status": "not-listed",
         "fetchedAt": "2026-08-21T05:09:02.708Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-15-deeper2-CGC-4350046025",
+            "copyId": "CGC:4350046025",
+            "basis": "guide",
+            "value": 70,
+            "currency": "USD",
+            "source": {
+              "name": "ComicBookRealm grade-specific guide*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/330887/counterpoint-do-you-pooh-1",
+              "asOf": "2024-03-03",
+              "retrievedAt": "2026-11-15T23:43:33.154Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Do You Pooh?",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Counterpoint",
+                "variant": "Donkey Pooh Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Weak secondary CGC grade-specific guide estimate, not a verified sale price. Exact variant andgrade9.8. Displayed EstimatedValue not individual saleprice. Transaction/cert notvisible withoutmembership; weak historical guide. Last reported sale 2024-03-03; 1 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/330887/counterpoint-do-you-pooh-1",
+              "reviewedAt": "2026-11-15T23:43:33.154Z",
+              "reviewedBy": "Owner-authorized certificate and variant guide review",
+              "notes": "Weak secondary CGC grade-specific guide estimate, not a verified sale price. Exact variant andgrade9.8. Displayed EstimatedValue not individual saleprice. Transaction/cert notvisible withoutmembership; weak historical guide. Last reported sale 2024-03-03; 1 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed.",
+              "reportedSales": 1,
+              "lastReportedSale": "2024-03-03",
+              "comparableCert": null
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-15-deeper2-CGC-4350046025",
+          "locked": true,
+          "selectedAt": "2026-11-15T23:43:33.900Z"
+        }
       }
     },
     {

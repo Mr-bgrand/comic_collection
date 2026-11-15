@@ -367,6 +367,67 @@
         "url": "https://gocollect.com/app/comic/spider-gwen-annual-1-jeehyung-lee-spider-gwen-var",
         "status": "no-sales",
         "fetchedAt": "2026-08-20T15:14:13.928Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-15-deeper2-CGC-4471692012",
+            "copyId": "CGC:4471692012",
+            "basis": "guide",
+            "value": 15,
+            "currency": "USD",
+            "source": {
+              "name": "ComicBookRealm grade-specific guide*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/323427/marvel-comics-spider-gwen-annual-1",
+              "asOf": "2024-11-23",
+              "retrievedAt": "2026-11-15T23:42:31.542Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spider-Gwen Annual",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Variant Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.0",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Weak secondary CGC grade-specific guide estimate, not a verified sale price. Exact JeehyungLee trade VariantEdition Universal/Modern9.0; guide15 nottransaction.1recorded9.0sale. Virgin edition not used. Last reported sale 2024-11-23; 1 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/323427/marvel-comics-spider-gwen-annual-1",
+              "reviewedAt": "2026-11-15T23:42:31.542Z",
+              "reviewedBy": "Owner-authorized certificate and variant guide review",
+              "notes": "Weak secondary CGC grade-specific guide estimate, not a verified sale price. Exact JeehyungLee trade VariantEdition Universal/Modern9.0; guide15 nottransaction.1recorded9.0sale. Virgin edition not used. Last reported sale 2024-11-23; 1 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed.",
+              "reportedSales": 1,
+              "lastReportedSale": "2024-11-23",
+              "comparableCert": null
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-15-deeper2-CGC-4471692012",
+          "locked": true,
+          "selectedAt": "2026-11-15T23:42:32.252Z"
+        }
       }
     },
     {
@@ -927,6 +988,67 @@
         "url": null,
         "status": "not-listed",
         "fetchedAt": "2026-08-20T15:16:28.656Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-15-deeper2-CGC-4480290002",
+            "copyId": "CGC:4480290002",
+            "basis": "guide",
+            "value": 50,
+            "currency": "USD",
+            "source": {
+              "name": "ComicBookRealm grade-specific guide*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/358736/the-h-co-llc-the-disputed-1",
+              "asOf": "2024-09-21",
+              "retrievedAt": "2026-11-15T23:43:33.154Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Disputed",
+                "issue": "1",
+                "issueYear": "2024",
+                "publisher": "The H Co., LLC",
+                "variant": "ComicTom101 Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Weak secondary CGC grade-specific guide estimate, not a verified sale price. Exact variant andgrade9.8. Displayed EstimatedValue not individual saleprice. Transaction/cert notvisible withoutmembership; weak historical guide. Last reported sale 2024-09-21; 1 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/358736/the-h-co-llc-the-disputed-1",
+              "reviewedAt": "2026-11-15T23:43:33.154Z",
+              "reviewedBy": "Owner-authorized certificate and variant guide review",
+              "notes": "Weak secondary CGC grade-specific guide estimate, not a verified sale price. Exact variant andgrade9.8. Displayed EstimatedValue not individual saleprice. Transaction/cert notvisible withoutmembership; weak historical guide. Last reported sale 2024-09-21; 1 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed.",
+              "reportedSales": 1,
+              "lastReportedSale": "2024-09-21",
+              "comparableCert": null
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-15-deeper2-CGC-4480290002",
+          "locked": true,
+          "selectedAt": "2026-11-15T23:43:34.614Z"
+        }
       }
     },
     {

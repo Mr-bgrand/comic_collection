@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "CGC:4471692012",
+      "revision": "386f078d1a627239cb499dc4f575fd74e1ac600b28492196f2937170ec25cf37",
+      "observations": [
+        {
+          "id": "2026-11-15-deeper2-CGC-4471692012",
+          "copyId": "CGC:4471692012",
+          "basis": "guide",
+          "value": 15,
+          "currency": "USD",
+          "source": {
+            "name": "ComicBookRealm grade-specific guide*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/323427/marvel-comics-spider-gwen-annual-1",
+            "asOf": "2024-11-23",
+            "retrievedAt": "2026-11-15T23:42:31.542Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Spider-Gwen Annual",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "Variant Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.0",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Weak secondary CGC grade-specific guide estimate, not a verified sale price. Exact JeehyungLee trade VariantEdition Universal/Modern9.0; guide15 nottransaction.1recorded9.0sale. Virgin edition not used. Last reported sale 2024-11-23; 1 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/323427/marvel-comics-spider-gwen-annual-1",
+            "reviewedAt": "2026-11-15T23:42:31.542Z",
+            "reviewedBy": "Owner-authorized certificate and variant guide review",
+            "notes": "Weak secondary CGC grade-specific guide estimate, not a verified sale price. Exact JeehyungLee trade VariantEdition Universal/Modern9.0; guide15 nottransaction.1recorded9.0sale. Virgin edition not used. Last reported sale 2024-11-23; 1 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed.",
+            "reportedSales": 1,
+            "lastReportedSale": "2024-11-23",
+            "comparableCert": null
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4471692002",
+      "revision": "9594e951cb123d466d3bd57e78532bb151d2906e7331ea0688daba126ba7d1ea",
+      "observations": [
+        {
+          "id": "2026-11-15-deeper2-CGC-4471692002",
+          "copyId": "CGC:4471692002",
+          "basis": "guide",
+          "value": 55,
+          "currency": "USD",
+          "source": {
+            "name": "ComicBookRealm grade-specific guide*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/351082/tidalwave-comics-fame-mike-tyson-nn",
+            "asOf": "2025-03-15",
+            "retrievedAt": "2026-11-15T23:42:31.542Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Fame: Mike Tyson",
+              "issue": "nn",
+              "issueYear": "1900",
+              "publisher": "TidalWave Comics",
+              "variant": "Waite Foil Edition C",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Weak secondary CGC grade-specific guide estimate, not a verified sale price. Chrome cert-search4471692002 -> analyze exact WaiteFoilEditionC. Universal/Modern. Grade9.8 row2recordedsales, Estimated Value55USD. Title/grade/category confirmed ownedcertificate and previously inspected foilcover. 30daydelayed secondary estimated guide value, NOT individual saleprice. Underlying sales not inspected (premium). Stale lastreportedactivity March2025. Mark provisional*. Last reported sale 2025-03-15; 2 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/351082/tidalwave-comics-fame-mike-tyson-nn",
+            "reviewedAt": "2026-11-15T23:42:31.542Z",
+            "reviewedBy": "Owner-authorized certificate and variant guide review",
+            "notes": "Weak secondary CGC grade-specific guide estimate, not a verified sale price. Chrome cert-search4471692002 -> analyze exact WaiteFoilEditionC. Universal/Modern. Grade9.8 row2recordedsales, Estimated Value55USD. Title/grade/category confirmed ownedcertificate and previously inspected foilcover. 30daydelayed secondary estimated guide value, NOT individual saleprice. Underlying sales not inspected (premium). Stale lastreportedactivity March2025. Mark provisional*. Last reported sale 2025-03-15; 2 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed.",
+            "reportedSales": 2,
+            "lastReportedSale": "2025-03-15",
+            "comparableCert": null
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4350046025",
+      "revision": "e4157f558efdd89f1fac102f9b71eec56ae4d282c73e28dde4abb79eba2a4375",
+      "observations": [
+        {
+          "id": "2026-11-15-deeper2-CGC-4350046025",
+          "copyId": "CGC:4350046025",
+          "basis": "guide",
+          "value": 70,
+          "currency": "USD",
+          "source": {
+            "name": "ComicBookRealm grade-specific guide*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/330887/counterpoint-do-you-pooh-1",
+            "asOf": "2024-03-03",
+            "retrievedAt": "2026-11-15T23:43:33.154Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Do You Pooh?",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Counterpoint",
+              "variant": "Donkey Pooh Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Weak secondary CGC grade-specific guide estimate, not a verified sale price. Exact variant andgrade9.8. Displayed EstimatedValue not individual saleprice. Transaction/cert notvisible withoutmembership; weak historical guide. Last reported sale 2024-03-03; 1 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/330887/counterpoint-do-you-pooh-1",
+            "reviewedAt": "2026-11-15T23:43:33.154Z",
+            "reviewedBy": "Owner-authorized certificate and variant guide review",
+            "notes": "Weak secondary CGC grade-specific guide estimate, not a verified sale price. Exact variant andgrade9.8. Displayed EstimatedValue not individual saleprice. Transaction/cert notvisible withoutmembership; weak historical guide. Last reported sale 2024-03-03; 1 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed.",
+            "reportedSales": 1,
+            "lastReportedSale": "2024-03-03",
+            "comparableCert": null
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4480290002",
+      "revision": "091db4754385f7a7ea892ec440d8d0de9967206fb40c30e42101d031d381ffe3",
+      "observations": [
+        {
+          "id": "2026-11-15-deeper2-CGC-4480290002",
+          "copyId": "CGC:4480290002",
+          "basis": "guide",
+          "value": 50,
+          "currency": "USD",
+          "source": {
+            "name": "ComicBookRealm grade-specific guide*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/358736/the-h-co-llc-the-disputed-1",
+            "asOf": "2024-09-21",
+            "retrievedAt": "2026-11-15T23:43:33.154Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "The Disputed",
+              "issue": "1",
+              "issueYear": "2024",
+              "publisher": "The H Co., LLC",
+              "variant": "ComicTom101 Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Weak secondary CGC grade-specific guide estimate, not a verified sale price. Exact variant andgrade9.8. Displayed EstimatedValue not individual saleprice. Transaction/cert notvisible withoutmembership; weak historical guide. Last reported sale 2024-09-21; 1 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/358736/the-h-co-llc-the-disputed-1",
+            "reviewedAt": "2026-11-15T23:43:33.154Z",
+            "reviewedBy": "Owner-authorized certificate and variant guide review",
+            "notes": "Weak secondary CGC grade-specific guide estimate, not a verified sale price. Exact variant andgrade9.8. Displayed EstimatedValue not individual saleprice. Transaction/cert notvisible withoutmembership; weak historical guide. Last reported sale 2024-09-21; 1 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed.",
+            "reportedSales": 1,
+            "lastReportedSale": "2024-09-21",
+            "comparableCert": null
+          }
+        }
+      ]
+    }
+  ]
+}
