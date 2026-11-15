@@ -600,6 +600,67 @@
         "url": null,
         "status": "not-listed",
         "fetchedAt": "2026-08-17T05:39:16.692Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-15-oshred-visual-match",
+            "copyId": "CGC:4381117005",
+            "basis": "owner",
+            "value": 115,
+            "currency": "USD",
+            "source": {
+              "name": "eBay visually matched asking estimate*",
+              "url": "https://www.ebay.com/itm/186072192854",
+              "asOf": null,
+              "retrievedAt": "2026-11-15T22:14:41.622Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "w0rldtr33",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Image Comics",
+                "variant": "Third Printing/No Masss Comics Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Estimated from asking prices; not confirmed sales. One live USD115 or Best Offer listing, visually matched to owned cover and Universal9.8 slab label. Shipping/tax excluded. Seller states250 copies; production count not independently audited.",
+            "reviewEvidence": {
+              "url": "https://www.ebay.com/itm/186072192854",
+              "reviewedAt": "2026-11-15T22:14:41.622Z",
+              "reviewedBy": "Owner-authorized visual listing review",
+              "listingId": "186072192854",
+              "comparableCert": "4317236006",
+              "soldAt": null,
+              "notes": "Owner supplied overlooked listing. Web fetch inaccessible; in-app browser successfully opened actual listing and displayed USD115 or Best Offer with buy-now option. Downloaded primary1600px photo: Universal9.8, Third Printing/No Masss Comics Edition, Image7/23, S.RedAmparo cover, cert4317236006. Compared with owned4381117005 front: matching white-haired tattooed woman, black spikes, screaming red profile. Seller calls it Oshred Virgin Third Print SDCC2023 LE250 Masss w/COA. Shipping20.45 excluded. Stale/category index39 with bid/ended wording not used. Generic Oshred PriceCharting mixes444-copy editions; no generic modeled value used. Same edition9.6 owned4381117004 remains unpriced."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-15-oshred-visual-match",
+          "locked": true,
+          "selectedAt": "2026-11-15T22:14:42.219Z"
+        }
       }
     },
     {

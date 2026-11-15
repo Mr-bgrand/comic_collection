@@ -1,5 +1,7 @@
 # Full backlog pass — November 15, 2026
 
+**Correction:** This was primarily a text-search pass, not an exhaustive cover/alias search. Owner-supplied eBay186072192854 revealed an overlooked exact Oshred/No Masss9.8 listing. Accepted115* after live browser and slab-photo verification; remaining graded count now98. All other text-only comic gaps require the [cover-first method](valuation-cover-research-method.md).
+
 The 10-item daily target has been removed. The scheduled task now requests sustained full-backlog passes with no item cap, retaining daily execution.
 
 All111 outstanding copies were reviewed:73 graded comics,29 cards and9 raw books. This pass added3 graded estimates and2 raw references. It does not complete collection pricing:99 graded copies and7 raw copies still lack a usable price/reference.
@@ -35,7 +37,7 @@ Asking estimates are not confirmed sales. Raw references remain outside the reco
 | CGC:4381117003 | w0rldtr33 #5 : The Comic Corner Edition | CGC 9.8 | Opened exact MarcanoVirgin catalog: zero9.8 sales. NYCCColorSplash /150115 and94.30 are different convention edition; owned standard /300. |
 | CGC:4381117012 | w0rldtr33 #5 : Near Mint Comics Edition | CGC 8.0 | Exact available same-grade edition and label evidence required. |
 | CGC:4381117011 | w0rldtr33 #5 : Near Mint Comics Edition | CGC 9.4 | Exact available same-grade edition and label evidence required. |
-| CGC:4381117005 | w0rldtr33 #1 : Third Printing/No Masss Comics Edition | CGC 9.8 | No Masss1 CGC9.8 query returns registry only; no new priced match. |
+| CGC:4381117005 | w0rldtr331 Third Printing/No Masss — Oshred Virgin SDCC250 | CGC9.8 | RESOLVED:115* live asking estimate; listing186072192854, comparable4317236006, photos matched |
 | CGC:4381117004 | w0rldtr33 #1 : Third Printing/No Masss Comics Edition | CGC 9.6 | Registry standard thirdprinting or secondprintMomoko differs; no exact ask/sale. |
 | CGC:4386585004 | The Addiction #1 : NYCC Mack "Virgin" Edition | CGC 9.8 | Fresh exact NYCC Mack9.8 search still returns embossed150 listing257182162605 and Signature Series selectable products; not proven owned virgin. |
 | CGC:4203411005 | Whatnot Publishing Sampler #1 : Kickstradomis Red Lava Edition | CGC 10 | No exact CGC10 price surfaced. |
