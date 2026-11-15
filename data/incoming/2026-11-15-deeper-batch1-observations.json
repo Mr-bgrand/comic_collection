@@ -1,0 +1,414 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "PSA:169169675",
+      "revision": "bef913431e2b8287dd6dbdd8c74fbd67b8bbcfa763380a89f73c5525751ed591",
+      "observations": [
+        {
+          "id": "2026-11-15-deeper1-PSA-169169675",
+          "copyId": "PSA:169169675",
+          "basis": "owner",
+          "value": 149.99,
+          "currency": "USD",
+          "source": {
+            "name": "eBay photo-matched asking estimate*",
+            "url": "https://www.ebay.com/itm/237019657493",
+            "asOf": null,
+            "retrievedAt": "2026-11-15T23:34:24.333Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2025",
+              "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+              "series": "",
+              "subject": "ICHIRO",
+              "cardNumber": "69",
+              "variety": "",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Estimated from asking prices; not confirmed sales. Exact 2025 Topps X Bob Ross base69 Ichiro PSA10. Actual label and white-border ocean artwork compared to owned scan; shipping4.99 and tax excluded. Alternate same-title ask150 not used.",
+          "reviewEvidence": {
+            "url": "https://www.ebay.com/itm/237019657493",
+            "reviewedAt": "2026-11-15T23:34:24.333Z",
+            "reviewedBy": "Owner-authorized deeper cover and source review",
+            "listingId": "237019657493",
+            "comparableCert": "159755671",
+            "soldAt": null,
+            "notes": "Estimated from asking prices; not confirmed sales. Exact 2025 Topps X Bob Ross base69 Ichiro PSA10. Actual label and white-border ocean artwork compared to owned scan; shipping4.99 and tax excluded. Alternate same-title ask150 not used."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "PSA:169169671",
+      "revision": "bef913431e2b8287dd6dbdd8c74fbd67b8bbcfa763380a89f73c5525751ed591",
+      "observations": [
+        {
+          "id": "2026-11-15-deeper1-PSA-169169671",
+          "copyId": "PSA:169169671",
+          "basis": "sold-comps",
+          "value": 29.95,
+          "currency": "USD",
+          "saleCount": 1,
+          "source": {
+            "name": "SportsCardsPro individual reported sale*",
+            "url": "https://www.sportscardspro.com/game/baseball-cards-2025-topps-x-bob-ross/mookie-betts-10",
+            "asOf": "2026-07-15",
+            "retrievedAt": "2026-11-15T23:34:24.333Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2025",
+              "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+              "series": "",
+              "subject": "MOOKIE BETTS",
+              "cardNumber": "10",
+              "variety": "",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "One secondary reported sale, July15,2026, exact2025 base10 Mookie Betts PSA9. Original eBay browser redirects to base catalog, so original photo/cert unavailable. No aggregate guide or parallel mixed into estimate. Shipping/tax not added.",
+          "reviewEvidence": {
+            "url": "https://www.sportscardspro.com/game/baseball-cards-2025-topps-x-bob-ross/mookie-betts-10",
+            "reviewedAt": "2026-11-15T23:34:24.333Z",
+            "reviewedBy": "Owner-authorized deeper cover and source review",
+            "listingId": "137026505565",
+            "comparableCert": null,
+            "soldAt": "2026-07-15",
+            "notes": "One secondary reported sale, July15,2026, exact2025 base10 Mookie Betts PSA9. Original eBay browser redirects to base catalog, so original photo/cert unavailable. No aggregate guide or parallel mixed into estimate. Shipping/tax not added."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4245413012",
+      "revision": "983acbaa71b8675adb68c4f4de2ce0c59be8a27a7e640e373b2840f47004c69f",
+      "observations": [
+        {
+          "id": "2026-11-15-deeper1-CGC-4245413012",
+          "copyId": "CGC:4245413012",
+          "basis": "guide",
+          "value": 25,
+          "currency": "USD",
+          "source": {
+            "name": "ComicBookRealm stale CGC9.0 guide*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/284103/marvel-comics-amazing-fantasy-1000-1000",
+            "asOf": "2022-11-11",
+            "retrievedAt": "2026-11-15T23:34:24.333Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Amazing Fantasy",
+              "issue": "1000",
+              "issueYear": "2022",
+              "publisher": "Marvel Comics",
+              "variant": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.0",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Weak stale secondary grade-specific guide. Live browser grade9.0 Universal/Modern row for standard John Romita Jr Amazing Fantasy1000 shows Estimated Value25 and one reported sale lastNov11,2022. The25 is a guide estimate, NOT a verified transaction price. Individual sale record/cert unavailable. Exact standard cover identity checked; no alternate variant used.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/284103/marvel-comics-amazing-fantasy-1000-1000",
+            "reviewedAt": "2026-11-15T23:34:24.333Z",
+            "reviewedBy": "Owner-authorized deeper cover and source review",
+            "listingId": null,
+            "comparableCert": null,
+            "soldAt": null,
+            "notes": "Weak stale secondary grade-specific guide. Live browser grade9.0 Universal/Modern row for standard John Romita Jr Amazing Fantasy1000 shows Estimated Value25 and one reported sale lastNov11,2022. The25 is a guide estimate, NOT a verified transaction price. Individual sale record/cert unavailable. Exact standard cover identity checked; no alternate variant used."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4350047006",
+      "revision": "7da0bf71ddba11429556ab51823534d65fdd837d546b8eace7ac113b08c3655f",
+      "observations": [
+        {
+          "id": "2026-11-15-deeper1-CGC-4350047006",
+          "copyId": "CGC:4350047006",
+          "basis": "owner",
+          "value": 300,
+          "currency": "USD",
+          "source": {
+            "name": "BeachBum stale-preorder asking estimate*",
+            "url": "https://beachbumcomics.com/products/w0rldtr33-5-fullerton-1-100-retailer-incentive-variant-cgc-9-8",
+            "asOf": null,
+            "retrievedAt": "2026-11-15T23:34:24.333Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "w0rldtr33",
+              "issue": "5",
+              "issueYear": "2023",
+              "publisher": "Image Comics",
+              "variant": "Variant Cover E",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Estimated from asking prices; not confirmed sales. Live retailer page Nov15 offers300USD with enabled PRE-ORDER; single product exact Fullerton1:100 CoverE CGC9.8 BLUE LABEL PRE-SALE shown on artwork. Stock illustration matches owned cover; no actual slab/cert. Description still promises December2023 delivery: stale offer wording, physical stock and fulfillment unverified. Not claimed in stock. ProductJSON blocked; no available:true assertion. Shipping/tax excluded.",
+          "reviewEvidence": {
+            "url": "https://beachbumcomics.com/products/w0rldtr33-5-fullerton-1-100-retailer-incentive-variant-cgc-9-8",
+            "reviewedAt": "2026-11-15T23:34:24.333Z",
+            "reviewedBy": "Owner-authorized deeper cover and source review",
+            "listingId": null,
+            "comparableCert": null,
+            "soldAt": null,
+            "notes": "Estimated from asking prices; not confirmed sales. Live retailer page Nov15 offers300USD with enabled PRE-ORDER; single product exact Fullerton1:100 CoverE CGC9.8 BLUE LABEL PRE-SALE shown on artwork. Stock illustration matches owned cover; no actual slab/cert. Description still promises December2023 delivery: stale offer wording, physical stock and fulfillment unverified. Not claimed in stock. ProductJSON blocked; no available:true assertion. Shipping/tax excluded."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4418876003",
+      "revision": "52c8ed71368d34060e7521ef27ccc228560de4401715a0ffc71bf1685e52463f",
+      "observations": [
+        {
+          "id": "2026-11-15-deeper1-CGC-4418876003",
+          "copyId": "CGC:4418876003",
+          "basis": "guide",
+          "value": 115,
+          "currency": "USD",
+          "source": {
+            "name": "ComicBookRealm grade-specific guide*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/343536/tidalwave-comics-female-force-taylor-swift-nn",
+            "asOf": "2025-08-02",
+            "retrievedAt": "2026-11-15T23:35:21.477Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Female Force: Taylor Swift",
+              "issue": "nn",
+              "issueYear": "1900",
+              "publisher": "TidalWave Comics",
+              "variant": "Unknown Comics Metal Edition B",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Weak secondary CGC grade-specific guide estimate, not a verified sale price. Exact UnknownComics MetalB Universal/Modern Defendini grade9.8 page. Estimated Value115 not verified sale; actual transactions/certs behindmembership. Separate9.9row excluded. Last reported sale 2025-08-02; 4 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/343536/tidalwave-comics-female-force-taylor-swift-nn",
+            "reviewedAt": "2026-11-15T23:35:21.477Z",
+            "reviewedBy": "Owner-authorized certificate and variant guide review",
+            "notes": "Weak secondary CGC grade-specific guide estimate, not a verified sale price. Exact UnknownComics MetalB Universal/Modern Defendini grade9.8 page. Estimated Value115 not verified sale; actual transactions/certs behindmembership. Separate9.9row excluded. Last reported sale 2025-08-02; 4 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed.",
+            "reportedSales": 4,
+            "lastReportedSale": "2025-08-02",
+            "comparableCert": null
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4493150004",
+      "revision": "6a2e680dc39536706ddaad64554d0c4ca8632b219e6ce3140726cda0cad11740",
+      "observations": [
+        {
+          "id": "2026-11-15-deeper1-CGC-4493150004",
+          "copyId": "CGC:4493150004",
+          "basis": "guide",
+          "value": 70,
+          "currency": "USD",
+          "source": {
+            "name": "ComicBookRealm grade-specific guide*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/357633/tidalwave-comics-fame-michael-jordan-nn",
+            "asOf": "2026-05-09",
+            "retrievedAt": "2026-11-15T23:35:21.477Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Fame: Michael Jordan",
+              "issue": "nn",
+              "issueYear": "1900",
+              "publisher": "TidalWave Comics",
+              "variant": "Bueckert Variant Cover",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Weak secondary CGC grade-specific guide estimate, not a verified sale price. Exact Bueckert Variant Cover Universal/Modern9.8; ComicKingdomCreative andComicsElite exclusive. Guide70 not individual transaction.9.9guide75 excluded. Last reported sale 2026-05-09; 5 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/357633/tidalwave-comics-fame-michael-jordan-nn",
+            "reviewedAt": "2026-11-15T23:35:21.477Z",
+            "reviewedBy": "Owner-authorized certificate and variant guide review",
+            "notes": "Weak secondary CGC grade-specific guide estimate, not a verified sale price. Exact Bueckert Variant Cover Universal/Modern9.8; ComicKingdomCreative andComicsElite exclusive. Guide70 not individual transaction.9.9guide75 excluded. Last reported sale 2026-05-09; 5 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed.",
+            "reportedSales": 5,
+            "lastReportedSale": "2026-05-09",
+            "comparableCert": null
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4480290003",
+      "revision": "57aa25ce81d0d14e2024db40271b3477808a5cd633ee01df08cd9b80ba58a2c7",
+      "observations": [
+        {
+          "id": "2026-11-15-deeper1-CGC-4480290003",
+          "copyId": "CGC:4480290003",
+          "basis": "guide",
+          "value": 70,
+          "currency": "USD",
+          "source": {
+            "name": "ComicBookRealm grade-specific guide*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/357633/tidalwave-comics-fame-michael-jordan-nn",
+            "asOf": "2026-05-09",
+            "retrievedAt": "2026-11-15T23:36:20.834Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Fame: Michael Jordan",
+              "issue": "nn",
+              "issueYear": "1900",
+              "publisher": "TidalWave Comics",
+              "variant": "Bueckert Variant Cover",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Weak secondary CGC grade-specific guide estimate, not a verified sale price. Exact Bueckert Variant Cover Universal/Modern9.8; ComicKingdomCreative andComicsElite exclusive. Guide70 not individual transaction.9.9guide75 excluded. Last reported sale 2026-05-09; 5 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/357633/tidalwave-comics-fame-michael-jordan-nn",
+            "reviewedAt": "2026-11-15T23:36:20.834Z",
+            "reviewedBy": "Owner-authorized certificate and variant guide review",
+            "notes": "Weak secondary CGC grade-specific guide estimate, not a verified sale price. Exact Bueckert Variant Cover Universal/Modern9.8; ComicKingdomCreative andComicsElite exclusive. Guide70 not individual transaction.9.9guide75 excluded. Last reported sale 2026-05-09; 5 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed.",
+            "reportedSales": 5,
+            "lastReportedSale": "2026-05-09",
+            "comparableCert": null
+          }
+        }
+      ]
+    }
+  ]
+}

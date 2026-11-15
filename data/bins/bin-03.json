@@ -38,7 +38,68 @@
         "status": "no-sales",
         "fetchedAt": "2026-08-19T01:19:31.596Z"
       },
-      "imageSource": "owner"
+      "imageSource": "owner",
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-15-deeper1-CGC-4245413012",
+            "copyId": "CGC:4245413012",
+            "basis": "guide",
+            "value": 25,
+            "currency": "USD",
+            "source": {
+              "name": "ComicBookRealm stale CGC9.0 guide*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/284103/marvel-comics-amazing-fantasy-1000-1000",
+              "asOf": "2022-11-11",
+              "retrievedAt": "2026-11-15T23:34:24.333Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Amazing Fantasy",
+                "issue": "1000",
+                "issueYear": "2022",
+                "publisher": "Marvel Comics",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.0",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Weak stale secondary grade-specific guide. Live browser grade9.0 Universal/Modern row for standard John Romita Jr Amazing Fantasy1000 shows Estimated Value25 and one reported sale lastNov11,2022. The25 is a guide estimate, NOT a verified transaction price. Individual sale record/cert unavailable. Exact standard cover identity checked; no alternate variant used.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/284103/marvel-comics-amazing-fantasy-1000-1000",
+              "reviewedAt": "2026-11-15T23:34:24.333Z",
+              "reviewedBy": "Owner-authorized deeper cover and source review",
+              "listingId": null,
+              "comparableCert": null,
+              "soldAt": null,
+              "notes": "Weak stale secondary grade-specific guide. Live browser grade9.0 Universal/Modern row for standard John Romita Jr Amazing Fantasy1000 shows Estimated Value25 and one reported sale lastNov11,2022. The25 is a guide estimate, NOT a verified transaction price. Individual sale record/cert unavailable. Exact standard cover identity checked; no alternate variant used."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-15-deeper1-CGC-4245413012",
+          "locked": true,
+          "selectedAt": "2026-11-15T23:34:25.438Z"
+        }
+      }
     },
     {
       "cert": "4245413018",

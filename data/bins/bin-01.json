@@ -511,6 +511,67 @@
         "url": null,
         "status": "not-listed",
         "fetchedAt": "2026-08-17T04:19:33.434Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-15-deeper1-CGC-4418876003",
+            "copyId": "CGC:4418876003",
+            "basis": "guide",
+            "value": 115,
+            "currency": "USD",
+            "source": {
+              "name": "ComicBookRealm grade-specific guide*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/343536/tidalwave-comics-female-force-taylor-swift-nn",
+              "asOf": "2025-08-02",
+              "retrievedAt": "2026-11-15T23:35:21.477Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Female Force: Taylor Swift",
+                "issue": "nn",
+                "issueYear": "1900",
+                "publisher": "TidalWave Comics",
+                "variant": "Unknown Comics Metal Edition B",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Weak secondary CGC grade-specific guide estimate, not a verified sale price. Exact UnknownComics MetalB Universal/Modern Defendini grade9.8 page. Estimated Value115 not verified sale; actual transactions/certs behindmembership. Separate9.9row excluded. Last reported sale 2025-08-02; 4 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/343536/tidalwave-comics-female-force-taylor-swift-nn",
+              "reviewedAt": "2026-11-15T23:35:21.477Z",
+              "reviewedBy": "Owner-authorized certificate and variant guide review",
+              "notes": "Weak secondary CGC grade-specific guide estimate, not a verified sale price. Exact UnknownComics MetalB Universal/Modern Defendini grade9.8 page. Estimated Value115 not verified sale; actual transactions/certs behindmembership. Separate9.9row excluded. Last reported sale 2025-08-02; 4 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed.",
+              "reportedSales": 4,
+              "lastReportedSale": "2025-08-02",
+              "comparableCert": null
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-15-deeper1-CGC-4418876003",
+          "locked": true,
+          "selectedAt": "2026-11-15T23:35:22.205Z"
+        }
       }
     },
     {

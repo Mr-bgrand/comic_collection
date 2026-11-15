@@ -6443,7 +6443,69 @@
       "holder": "slab",
       "certUrl": "https://www.psacard.com/cert/169169671/psa",
       "fmv": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-15-deeper1-PSA-169169671",
+            "copyId": "PSA:169169671",
+            "basis": "sold-comps",
+            "value": 29.95,
+            "currency": "USD",
+            "saleCount": 1,
+            "source": {
+              "name": "SportsCardsPro individual reported sale*",
+              "url": "https://www.sportscardspro.com/game/baseball-cards-2025-topps-x-bob-ross/mookie-betts-10",
+              "asOf": "2026-07-15",
+              "retrievedAt": "2026-11-15T23:34:24.333Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2025",
+                "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+                "series": "",
+                "subject": "MOOKIE BETTS",
+                "cardNumber": "10",
+                "variety": "",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "One secondary reported sale, July15,2026, exact2025 base10 Mookie Betts PSA9. Original eBay browser redirects to base catalog, so original photo/cert unavailable. No aggregate guide or parallel mixed into estimate. Shipping/tax not added.",
+            "reviewEvidence": {
+              "url": "https://www.sportscardspro.com/game/baseball-cards-2025-topps-x-bob-ross/mookie-betts-10",
+              "reviewedAt": "2026-11-15T23:34:24.333Z",
+              "reviewedBy": "Owner-authorized deeper cover and source review",
+              "listingId": "137026505565",
+              "comparableCert": null,
+              "soldAt": "2026-07-15",
+              "notes": "One secondary reported sale, July15,2026, exact2025 base10 Mookie Betts PSA9. Original eBay browser redirects to base catalog, so original photo/cert unavailable. No aggregate guide or parallel mixed into estimate. Shipping/tax not added."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-15-deeper1-PSA-169169671",
+          "locked": true,
+          "selectedAt": "2026-11-15T23:34:25.182Z"
+        }
+      },
       "vault": {
         "status": "Vaulted",
         "afterService": "Sent to Vault",
@@ -6885,7 +6947,68 @@
       "holder": "slab",
       "certUrl": "https://www.psacard.com/cert/169169675/psa",
       "fmv": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-15-deeper1-PSA-169169675",
+            "copyId": "PSA:169169675",
+            "basis": "owner",
+            "value": 149.99,
+            "currency": "USD",
+            "source": {
+              "name": "eBay photo-matched asking estimate*",
+              "url": "https://www.ebay.com/itm/237019657493",
+              "asOf": null,
+              "retrievedAt": "2026-11-15T23:34:24.333Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2025",
+                "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+                "series": "",
+                "subject": "ICHIRO",
+                "cardNumber": "69",
+                "variety": "",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "PSA",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Estimated from asking prices; not confirmed sales. Exact 2025 Topps X Bob Ross base69 Ichiro PSA10. Actual label and white-border ocean artwork compared to owned scan; shipping4.99 and tax excluded. Alternate same-title ask150 not used.",
+            "reviewEvidence": {
+              "url": "https://www.ebay.com/itm/237019657493",
+              "reviewedAt": "2026-11-15T23:34:24.333Z",
+              "reviewedBy": "Owner-authorized deeper cover and source review",
+              "listingId": "237019657493",
+              "comparableCert": "159755671",
+              "soldAt": null,
+              "notes": "Estimated from asking prices; not confirmed sales. Exact 2025 Topps X Bob Ross base69 Ichiro PSA10. Actual label and white-border ocean artwork compared to owned scan; shipping4.99 and tax excluded. Alternate same-title ask150 not used."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-15-deeper1-PSA-169169675",
+          "locked": true,
+          "selectedAt": "2026-11-15T23:34:24.935Z"
+        }
+      },
       "vault": {
         "status": "Vaulted",
         "afterService": "Sent to Vault",

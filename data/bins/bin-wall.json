@@ -65,6 +65,67 @@
         "url": null,
         "status": "not-listed",
         "fetchedAt": "2026-08-27T05:53:23.083Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-15-deeper1-CGC-4480290003",
+            "copyId": "CGC:4480290003",
+            "basis": "guide",
+            "value": 70,
+            "currency": "USD",
+            "source": {
+              "name": "ComicBookRealm grade-specific guide*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/357633/tidalwave-comics-fame-michael-jordan-nn",
+              "asOf": "2026-05-09",
+              "retrievedAt": "2026-11-15T23:36:20.834Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Fame: Michael Jordan",
+                "issue": "nn",
+                "issueYear": "1900",
+                "publisher": "TidalWave Comics",
+                "variant": "Bueckert Variant Cover",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Weak secondary CGC grade-specific guide estimate, not a verified sale price. Exact Bueckert Variant Cover Universal/Modern9.8; ComicKingdomCreative andComicsElite exclusive. Guide70 not individual transaction.9.9guide75 excluded. Last reported sale 2026-05-09; 5 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/357633/tidalwave-comics-fame-michael-jordan-nn",
+              "reviewedAt": "2026-11-15T23:36:20.834Z",
+              "reviewedBy": "Owner-authorized certificate and variant guide review",
+              "notes": "Weak secondary CGC grade-specific guide estimate, not a verified sale price. Exact Bueckert Variant Cover Universal/Modern9.8; ComicKingdomCreative andComicsElite exclusive. Guide70 not individual transaction.9.9guide75 excluded. Last reported sale 2026-05-09; 5 reported grade-specific sale(s). Original transaction IDs and comparable certs not accessed.",
+              "reportedSales": 5,
+              "lastReportedSale": "2026-05-09",
+              "comparableCert": null
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-15-deeper1-CGC-4480290003",
+          "locked": true,
+          "selectedAt": "2026-11-15T23:36:21.644Z"
+        }
       }
     },
     {

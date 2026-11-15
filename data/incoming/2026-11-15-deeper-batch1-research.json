@@ -1,0 +1,1039 @@
+{
+  "updatedAt": "2026-11-15T23:36:21.823Z",
+  "scope": "Incremental deeper research. Pending entries not claimed newly checked. Previous complete review is cover-resume ledger.",
+  "groups": [
+    {
+      "group": "comics-a",
+      "observedAt": "2026-11-15",
+      "scope": "Incremental deeper pass; only entries below rechecked",
+      "items": [
+        {
+          "copyId": "CGC:4245413012",
+          "cert": "4245413012",
+          "title": "Amazing Fantasy",
+          "issue": "1000",
+          "grade": "9.0",
+          "labelCategory": "Universal",
+          "status": "supported-weak-secondary-estimate",
+          "proposedValue": 25,
+          "currency": "USD",
+          "asterisk": true,
+          "evidence": [
+            {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/284103/marvel-comics-amazing-fantasy-1000-1000",
+              "access": "Direct fetch timeout; live browser Nov15 verified",
+              "type": "secondary-grade-specific-estimate",
+              "amount": 25,
+              "lastReportedSale": "2022-11-11",
+              "reportedSales": 1,
+              "notes": "Explicit Universal/Modern JohnRomitaJr standard cover grade9.0 row. $25 is Estimated Value, NOT independently verified sale price. Individual sale/cert behind membership not accessed. Stale historical evidence retained as weak provisional under user policy."
+            }
+          ],
+          "integration": {
+            "status": "accepted-in-this-batch"
+          }
+        },
+        {
+          "copyId": "CGC:4381117003",
+          "cert": "4381117003",
+          "status": "unresolved-edition-resolved",
+          "proposedValue": null,
+          "validatedAliases": [
+            "Anna Marcano Comic Corner virgin full-color300"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.sadlemoncomics.com/products/w0rldtr33-5-anna-marcano-virgin-variant-limited-to-300-copies-with-numbered-coa",
+              "access": "Direct page and downloaded retailer artwork visually compared to owned front/back",
+              "localPhoto": "data/originals/deeper-marcano300.jpg",
+              "accepted": false,
+              "reason": "Identity reference only raw soldout GBP29.95. Exact fullcolor green digital background/fleshcolor artwork matches owned300."
+            },
+            {
+              "url": "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-nycc-marcano-virgin-5-2023",
+              "accepted": false,
+              "reason": "Individual9.8 $115 2026-02-11 and94.30 2026-01-18 explicitly NYCC ColorSplash150; owned matches300fullcolor; exclude."
+            },
+            {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/328280/image-comics-w0rldtr33-5",
+              "access": "Livebrowser certsearch4381117003 thenanalyze",
+              "accepted": false,
+              "reason": "ExactComicCorner Universal9.8 but zero recorded sales allgrades, no estimate."
+            }
+          ],
+          "nextAction": "Find CGC9.8 regular300 fullcolor sales; NYCC keyword alone unreliable"
+        },
+        {
+          "copyId": "CGC:4418876003",
+          "cert": "4418876003",
+          "title": "Female Force: Taylor Swift",
+          "variant": "Unknown Comics Metal Edition B",
+          "grade": "9.8",
+          "labelCategory": "Universal",
+          "status": "supported-weak-secondary-estimate",
+          "proposedValue": 115,
+          "asterisk": true,
+          "currency": "USD",
+          "evidence": [
+            {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/343536/tidalwave-comics-female-force-taylor-swift-nn",
+              "access": "Live browser cert search4418876003 then analyze; direct fetch unavailable",
+              "type": "secondary-grade-specific-estimate",
+              "amount": 115,
+              "lastReportedSale": "2025-08-02",
+              "reportedSales": 4,
+              "notes": "Exact UnknownComics MetalB Universal/Modern Defendini grade9.8 page. Estimated Value115 not verified sale; actual transactions/certs behindmembership. Separate9.9row excluded."
+            }
+          ],
+          "integration": {
+            "status": "accepted-in-this-batch"
+          }
+        },
+        {
+          "copyId": "CGC:4198680009",
+          "cert": "4198680009",
+          "status": "unresolved",
+          "proposedValue": null,
+          "evidence": [
+            {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/298303/marvel-comics-spider-man-4",
+              "access": "Livebrowser certsearch thenanalyze",
+              "accepted": false,
+              "reason": "Cassaday MarvelTeamUp1 homage exactedition but9.4row empty;9.6guide20 and9.8guide30 excluded."
+            }
+          ]
+        },
+        {
+          "copyId": "CGC:4493150004",
+          "cert": "4493150004",
+          "title": "Fame: Michael Jordan",
+          "variant": "Bueckert Variant Cover",
+          "grade": "9.8",
+          "labelCategory": "Universal",
+          "status": "supported-weak-secondary-estimate",
+          "proposedValue": 70,
+          "asterisk": true,
+          "currency": "USD",
+          "evidence": [
+            {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/357633/tidalwave-comics-fame-michael-jordan-nn",
+              "access": "Live browser certsearch4493150004 thenanalyze",
+              "type": "secondary-grade-specific-estimate",
+              "amount": 70,
+              "lastReportedSale": "2026-05-09",
+              "reportedSales": 5,
+              "notes": "Exact Bueckert Variant Cover Universal/Modern9.8; ComicKingdomCreative andComicsElite exclusive. Guide70 not individual transaction.9.9guide75 excluded."
+            }
+          ],
+          "integration": {
+            "status": "accepted-in-this-batch"
+          }
+        },
+        {
+          "copyId": "CGC:4480290003",
+          "cert": "4480290003",
+          "title": "Fame: Michael Jordan",
+          "variant": "Bueckert Variant Cover",
+          "grade": "9.8",
+          "labelCategory": "Universal",
+          "status": "supported-weak-secondary-estimate",
+          "proposedValue": 70,
+          "asterisk": true,
+          "currency": "USD",
+          "evidence": [
+            {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/357633/tidalwave-comics-fame-michael-jordan-nn",
+              "access": "Live browser certsearch4493150004 thenanalyze",
+              "type": "secondary-grade-specific-estimate",
+              "amount": 70,
+              "lastReportedSale": "2026-05-09",
+              "reportedSales": 5,
+              "notes": "Exact Bueckert Variant Cover Universal/Modern9.8; ComicKingdomCreative andComicsElite exclusive. Guide70 not individual transaction.9.9guide75 excluded."
+            }
+          ],
+          "notes": "Both ownedfronts visually inspected2026-11-15; identical Bueckert trade ETmoon art and Universal9.8labels.",
+          "integration": {
+            "status": "accepted-in-this-batch"
+          }
+        },
+        {
+          "copyId": "CGC:4480290001",
+          "cert": "4480290001",
+          "status": "unresolved",
+          "proposedValue": null,
+          "evidence": [
+            {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/359102/tidalwave-comics-fame-mike-tyson-nn",
+              "access": "Browser ownedcertsearch thenanalyze",
+              "accepted": false,
+              "reason": "Exact CrushCollectibles Universal9.8 but0recordedsales allgrades/noestimate."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group": "comics-b",
+      "checkedAt": "2026-11-15",
+      "scope": "Second deeper pass; prior evidence in resume-comics-b-results.json. Parent handles White Widow, TMNT/Usagi, Arcade Kings.",
+      "items": [
+        {
+          "copyId": "CGC:4350047006",
+          "cert": "4350047006",
+          "value": 300,
+          "status": "candidate-provisional-stale-retailer-preorder",
+          "checkedAt": "2026-11-15",
+          "url": "https://beachbumcomics.com/products/w0rldtr33-5-fullerton-1-100-retailer-incentive-variant-cgc-9-8",
+          "evidence": "Direct web + live Chrome AX + screenshot. Enabled PRE-ORDER button and $300. Image explicitly says CGC 9.8 BLUE LABEL PRE-SALE, matching Fullerton Cover E art (orange window squares/purple seated figure). Thus grade/Universal are explicit, not inferred from stock art.",
+          "limitations": "Stock illustration, not actual slab photograph; no certificate. Stale promised December 2023 delivery. Live preorder button does not verify physical availability. Only suitable weak provisional evidence with this uncertainty preserved; not sale.",
+          "nextAction": "Parent review provisional retail ask under expanded weak-evidence policy; seek actual blue slab transaction.",
+          "availabilityCheck": "Single visible $300 product with no variant selector; enabled PRE-ORDER. Public .js endpoint Cloudflare in shell and blocked in Chrome, so available:true not independently read.",
+          "integration": {
+            "status": "accepted-in-this-batch"
+          }
+        },
+        {
+          "cert": "4273634005",
+          "copyId": "CGC:4273634005",
+          "status": "excluded-photo-confirmed",
+          "value": null,
+          "url": "https://geekedoutcomics.com/products/darkwing-duck-1-casey-parsons-cgc-9-8-exclusive-cover-dynamite-2023",
+          "checkedAt": "2026-11-15",
+          "candidatePrice": 45,
+          "photo": "data/originals/deeper-b-darkwing.jpg",
+          "candidateCert": "4220372010",
+          "finding": "Actual photo label Parsons Virgin Edition Universal9.8; owned is trade Parsons Variant Cover. Generic product title concealed mismatch. Also sold out, no sold transaction confirmed."
+        },
+        {
+          "cert": "4245413023",
+          "copyId": "CGC:4245413023",
+          "status": "excluded-photo-confirmed",
+          "value": null,
+          "checkedAt": "2026-11-15",
+          "url": "https://www.ebay.com/itm/395312537240",
+          "candidatePrice": 69.99,
+          "photo": "data/originals/deeper-b-flash.webp",
+          "finding": "Live Chrome price69.99free shipping. Actual Universal9.6 photo is plain2022 facsimile with4.99 price box and frontbarcode; no ComicMint Convention label or foil. Wrong edition. Other53.99 lead267724123398 redirected to catalog/ended in both directfetch andbrowser."
+        },
+        {
+          "copyId": "CGC:4471692002",
+          "cert": "4471692002",
+          "status": "excluded-option-photo-confirmed",
+          "checkedAt": "2026-11-15",
+          "url": "https://hawkinscollectibles.com/products/mike-tyson-1-matthew-waite-punch-out-fanexpo-dallas-exclusive-options?variant=49047868178734",
+          "candidatePrice": 99.99,
+          "value": null,
+          "finding": "Chrome selected CGC MIKE TYSON PUNCH OUT9.8, live99.99USD and enabledcart. Selected product mockup Universal9.8 has1/200 on cover, plain WaiteVariant, not60foil. No CGCfoil option. All-zero mockup cert, not real slab."
+        },
+        {
+          "copyId": "CGC:4245413002",
+          "cert": "4245413002",
+          "status": "no-exact-grade-row",
+          "checkedAt": "2026-11-15",
+          "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/305058/marvel-comics-spider-gwen-shadow-clones-1b-variant-edition",
+          "value": null,
+          "finding": "Exact Stelfreeze Universal variant guide7recordedsales;9.0row has no history/value.9.8and9.6=20/9.4=10 excluded adjacentgrades."
+        },
+        {
+          "copyId": "CGC:4245549001",
+          "cert": "4245549001",
+          "status": "no-exact-grade-row",
+          "checkedAt": "2026-11-15",
+          "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/145590/idw-publishing-back-to-the-future-1e-artist-edition",
+          "value": null,
+          "finding": "Artist Edition Universal guide32recordedsales;9.2row empty.9.8=60/9.6and9.4=50 excluded adjacentgrades."
+        }
+      ]
+    },
+    {
+      "group": "cards",
+      "retrievedAt": "2026-11-15",
+      "status": "batch-complete",
+      "items": [
+        {
+          "copyId": "ArenaClub:8AC002362928",
+          "ownedIdentity": {
+            "cert": "8AC002362928",
+            "subject": "Professor Turo's Scenario",
+            "year": "2023",
+            "brand": "Paradox Rift",
+            "cardNumber": "257",
+            "variety": "Base · Secret Rare",
+            "grader": "Arena Club",
+            "grade": "9.5"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Professor Turo Arena Club 9.5 price"
+          ],
+          "evidence": [],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "copyId": "CGC:1401011131203",
+          "ownedIdentity": {
+            "cert": "1401011131203",
+            "subject": "Cacturne",
+            "year": "2003",
+            "brand": "Advanced",
+            "cardNumber": "21",
+            "variety": "Silver Foil",
+            "grader": "CGC",
+            "grade": "9"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Cacturne 21 Silver Foil auction CGC"
+          ],
+          "evidence": [],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "copyId": "CGC:6042459106",
+          "ownedIdentity": {
+            "cert": "6042459106",
+            "subject": "Dodrio",
+            "year": "1997",
+            "brand": "Promotional Cards",
+            "cardNumber": null,
+            "variety": "Foil",
+            "grader": "CGC",
+            "grade": "7.5"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Dodrio Meiji NRMT+"
+          ],
+          "evidence": [],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "copyId": "TAG:L3302729",
+          "ownedIdentity": {
+            "cert": "L3302729",
+            "subject": "MAMOSWINE EX",
+            "year": "2025",
+            "brand": "JOURNEY TOGETHER",
+            "cardNumber": "174/159",
+            "variety": "ULTRA RARE",
+            "grader": "TAG",
+            "grade": "8.5"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Mamoswine 174 8.5"
+          ],
+          "evidence": [
+            {
+              "url": "https://hoshino.com/card/sv9-174/2025-journey-together-mamoswine-ex-ultra-rare-174",
+              "observedAt": "2026-11-15",
+              "access": "search-index inspected",
+              "accepted": false,
+              "reason": "CGC8.5 transaction history not eligible TAG8.5 or PSA8.5; wrong grader."
+            }
+          ],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "copyId": "TAG:V3539115",
+          "ownedIdentity": {
+            "cert": "V3539115",
+            "subject": "BUBBA CHANDLER",
+            "year": "2021",
+            "brand": "BOWMAN DRAFT",
+            "cardNumber": "CDA-BC",
+            "variety": "CHROME DRAFT PICK AUTOGRAPHS · GOLD WAVE REFRACTOR",
+            "grader": "TAG",
+            "grade": "8"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Bubba Chandler CDA-BC 8"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-pick-chrome-autographs/bubba-chandler-gold-wave-refractor-cda-bc",
+              "observedAt": "2026-11-15",
+              "access": "direct exact archive inspected; browser fallback where specified",
+              "accepted": false,
+              "reason": "Direct web page read; newer crawl supersedes stale algorithm ladder. Four raw transactions, zero grade8 sales. No TAG8/PSA8 evidence."
+            }
+          ],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "copyId": "TAG:L4878840",
+          "ownedIdentity": {
+            "cert": "L4878840",
+            "subject": "HENRY DAVIS",
+            "year": "2021",
+            "brand": "BOWMAN DRAFT SAPPHIRE EDITION",
+            "cardNumber": "BDC-48",
+            "variety": "YELLOW REFRACTOR",
+            "grader": "TAG",
+            "grade": "10"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Henry Davis Sapphire Yellow 10 99"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.sportscardspro.com/search-products?q=henry+davis+21&type=prices",
+              "observedAt": "2026-11-15",
+              "access": "search-index inspected",
+              "accepted": false,
+              "reason": "Yellow Sapphire BDC48 has grade9 price149.99 but no PSA10 amount; exact detail fetch unavailable. Yellow Lava TAG10 sale is different /75 parallel."
+            },
+            {
+              "url": "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-sapphire/henry-davis-yellow-bdc-48",
+              "observedAt": "2026-11-15",
+              "access": "direct exact archive inspected; browser fallback where specified",
+              "accepted": false,
+              "reason": "Browser fallback verified exact Yellow/99 archive; zero PSA10 and TAG10 sales. One grade9 sale149.99 is ineligible."
+            }
+          ],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "copyId": "TAG:Y6882653",
+          "ownedIdentity": {
+            "cert": "Y6882653",
+            "subject": "SETH HENIGAN",
+            "year": "2024",
+            "brand": "BOWMAN UNIVERSITY CHROME SAPPHIRE EDITION",
+            "cardNumber": "162",
+            "variety": "RED REFRACTOR",
+            "grader": "TAG",
+            "grade": "10"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Seth Henigan 162 Red PSA TAG"
+          ],
+          "evidence": [],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "copyId": "TAG:R1562007",
+          "ownedIdentity": {
+            "cert": "R1562007",
+            "subject": "BRADY COOK",
+            "year": "2024",
+            "brand": "BOWMAN UNIVERSITY CHROME SAPPHIRE EDITION",
+            "cardNumber": "PA-BCO",
+            "variety": "PROSPECT AUTOGRAPHS · ORANGE REFRACTOR",
+            "grader": "TAG",
+            "grade": "10"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Brady Cook PA-BCO 10 orange"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.ebay.com/p/3074267098",
+              "observedAt": "2026-11-15",
+              "access": "search-index inspected",
+              "accepted": false,
+              "reason": "2024 PA-BCO orange Sapphire PSA9 offers93.35 and165.10; wrong numeric grade."
+            }
+          ],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "copyId": "TAG:G7325430",
+          "ownedIdentity": {
+            "cert": "G7325430",
+            "subject": "WILWOLF",
+            "year": "2025",
+            "brand": "TAG WORLD SCARIES: LA VS. TOR",
+            "cardNumber": "WS2-1",
+            "variety": "BLOOD RED HOLO",
+            "grader": "TAG",
+            "grade": "10"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Wilwolf blood sale"
+          ],
+          "evidence": [],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "copyId": "TAG:C5407435",
+          "ownedIdentity": {
+            "cert": "C5407435",
+            "subject": "BO BONES",
+            "year": "2025",
+            "brand": "TAG WORLD SCARIES: LA VS. TOR",
+            "cardNumber": "WS2-2",
+            "variety": "LUNAR GOLD HOLO",
+            "grader": "TAG",
+            "grade": "9"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Bo Bones gold 9"
+          ],
+          "evidence": [],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "copyId": "TAG:H5133767",
+          "ownedIdentity": {
+            "cert": "H5133767",
+            "subject": "JACKSON CHOURIO",
+            "year": "2024",
+            "brand": "DONRUSS",
+            "cardNumber": "193",
+            "variety": "OPTIC RATED PROSPECT · ORANGE",
+            "grader": "TAG",
+            "grade": "10"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Jackson Chourio 193 Orange PSA 10"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.ebay.com/p/26069579930",
+              "observedAt": "2026-11-15",
+              "access": "search-index inspected",
+              "accepted": false,
+              "reason": "PSA10 offers are Orange Velocity; owned solid orange/199, excluded."
+            }
+          ],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "copyId": "PSA:114218230",
+          "ownedIdentity": {
+            "cert": "114218230",
+            "subject": "MAASON SMITH",
+            "year": "2024",
+            "brand": "TOPPS CHROME SAPPHIRE ROOKIE AUTOGRAPHS",
+            "cardNumber": "RAMSM",
+            "variety": "ROOKIE AUTOGRAPH-RED",
+            "grader": "PSA",
+            "grade": "10"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Maason Smith RA-MSM red graded"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.sportscardinvestor.com/cards/maason-smith-football/2024-topps-chrome-sapphire-edition-rookie-autographs-red-ra-msm",
+              "observedAt": "2026-11-15",
+              "access": "search-index inspected",
+              "accepted": false,
+              "reason": "Exact checklist entry, no concrete sale or price."
+            }
+          ],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "copyId": "PSA:121629672",
+          "ownedIdentity": {
+            "cert": "121629672",
+            "subject": "MARVIN HARRISON JR.",
+            "year": "2024",
+            "brand": "PANINI PHOTOGENIC ROOKIE PIX",
+            "cardNumber": "6",
+            "variety": "ROOKIE PIX-RED",
+            "grader": "PSA",
+            "grade": "10"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Marvin Harrison Rookie Pix red PSA"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-photogenic-rookie-pix/marvin-harrison-jr-red-6",
+              "observedAt": "2026-11-15",
+              "access": "search-index inspected",
+              "accepted": false,
+              "reason": "New alias Stardust /49 found in raw transaction title; no PSA10 sales."
+            }
+          ],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "copyId": "PSA:114218231",
+          "ownedIdentity": {
+            "cert": "114218231",
+            "subject": "TREY BENSON",
+            "year": "2024",
+            "brand": "PANINI OBSIDIAN ROOKIE MATERIALS INK",
+            "cardNumber": "RMITBN",
+            "variety": null,
+            "grader": "PSA",
+            "grade": "9"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Trey Benson RMI PSA 9 -green"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-obsidian-rookie-materials-ink/trey-benson-rmi-tbn",
+              "observedAt": "2026-11-15",
+              "access": "direct exact archive inspected; browser fallback where specified",
+              "accepted": false,
+              "reason": "Browser fallback verified baseRMI-TBN archive:30 raw, zero grade9. Displayed22.64 explicitly algorithm-derived, excluded."
+            }
+          ],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "copyId": "TAG:U5165558",
+          "ownedIdentity": {
+            "cert": "U5165558",
+            "subject": "JARED JONES",
+            "year": "2024",
+            "brand": "TOPPS CHROME UPDATE",
+            "cardNumber": "USC43",
+            "variety": "PRISM REFRACTOR",
+            "grader": "TAG",
+            "grade": "8.5"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Jared Jones USC43 8.5"
+          ],
+          "evidence": [],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "copyId": "TAG:E4095241",
+          "ownedIdentity": {
+            "cert": "E4095241",
+            "subject": "BUBBA CHANDLER",
+            "year": "2021",
+            "brand": "BOWMAN DRAFT SAPPHIRE EDITION",
+            "cardNumber": "BDC-41",
+            "variety": null,
+            "grader": "TAG",
+            "grade": "7"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Bubba Chandler Sapphire PSA 7"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-sapphire/bubba-chandler-bdc-41",
+              "observedAt": "2026-11-15",
+              "access": "direct exact archive inspected; browser fallback where specified",
+              "accepted": false,
+              "reason": "Direct web page read: two raw transactions, zero grade7 sales. No TAG7/PSA7 evidence."
+            }
+          ],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "copyId": "PSA:121297947",
+          "ownedIdentity": {
+            "cert": "121297947",
+            "subject": "PIKACHU",
+            "year": "2023",
+            "brand": "POKEMON KOREAN SV2a-POKEMON CARD 151",
+            "cardNumber": "173",
+            "variety": "ART RARE",
+            "grader": "PSA",
+            "grade": "6"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Pikachu Korean 173 PSA 6"
+          ],
+          "evidence": [
+            {
+              "url": "https://tcgcharts.com/pokemon/pokemon-card-151-korean/pikachu-173",
+              "observedAt": "2026-11-15",
+              "access": "search-index inspected",
+              "accepted": false,
+              "reason": "PSA6 population but no sales; Japanese reference excluded."
+            }
+          ],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "copyId": "PSA:160521636",
+          "ownedIdentity": {
+            "cert": "160521636",
+            "subject": "SANDY KOUFAX",
+            "year": "2025",
+            "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+            "cardNumber": "71",
+            "variety": "SAP GREEN",
+            "grader": "PSA",
+            "grade": "9"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Sandy Koufax Sap Green graded"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.sportscardspro.com/game/baseball-cards-2025-topps-x-bob-ross/sandy-koufax-sap-green-71",
+              "observedAt": "2026-11-15",
+              "access": "search-index inspected",
+              "accepted": false,
+              "reason": "Zero grade9 transactions; PSA10 $199 wrong grade."
+            }
+          ],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "copyId": "PSA:160521637",
+          "ownedIdentity": {
+            "cert": "160521637",
+            "subject": "COBY MAYO",
+            "year": "2025",
+            "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+            "cardNumber": "91G",
+            "variety": "AUTOGRAPH-SAP GREEN",
+            "grader": "PSA",
+            "grade": "10"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Coby Mayo 91G 10"
+          ],
+          "evidence": [
+            {
+              "url": "https://theclector.com/sellers/chubbayboy",
+              "observedAt": "2026-11-15",
+              "access": "search-index inspected",
+              "accepted": false,
+              "reason": "CobyMayo91G SapGreen individual66.50 and55 sales lack PSA grade; raw excluded."
+            },
+            {
+              "url": "https://www.sportscardspro.com/game/baseball-cards-2025-topps-x-bob-ross-autograph/coby-mayo-sap-green-91",
+              "observedAt": "2026-11-15",
+              "access": "direct exact archive inspected; browser fallback where specified",
+              "accepted": false,
+              "reason": "Browser fallback verified autograph SapGreen archive:10 raw, zero PSA10. Displayed238.33 explicitly algorithm-derived, excluded."
+            }
+          ],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "copyId": "PSA:169169668",
+          "ownedIdentity": {
+            "cert": "169169668",
+            "subject": "REGGIE JACKSON",
+            "year": "2025",
+            "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+            "cardNumber": "61",
+            "variety": "PAINT SPLATTER",
+            "grader": "PSA",
+            "grade": "10"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Reggie Jackson Paint Splatter PSA 10"
+          ],
+          "evidence": [
+            {
+              "url": "https://theclector.com/cards/baseball/mlb/topps/2025/bob-ross/base-paint-splatter",
+              "observedAt": "2026-11-15",
+              "access": "Direct subset page inspected",
+              "accepted": false,
+              "reason": "Reggie Jackson61 individual29 raw sale; no PSA10."
+            },
+            {
+              "url": "https://www.sportscardspro.com/game/baseball-cards-2025-topps-x-bob-ross/reggie-jackson-paint-splatter-61",
+              "observedAt": "2026-11-15",
+              "access": "direct exact archive inspected; browser fallback where specified",
+              "accepted": false,
+              "reason": "Browser fallback verified exact61 PaintSplatter/99 archive:14 raw, zero PSA10. Displayed181.32 explicitly algorithm-derived, excluded."
+            }
+          ],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "copyId": "PSA:169169671",
+          "ownedIdentity": {
+            "cert": "169169671",
+            "subject": "MOOKIE BETTS",
+            "year": "2025",
+            "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+            "cardNumber": "10",
+            "variety": null,
+            "grader": "PSA",
+            "grade": "9"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Mookie Betts Bob Ross base 9 sale"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.sportscardspro.com/game/baseball-cards-2025-topps-x-bob-ross/mookie-betts-10",
+              "observedAt": "2026-11-15",
+              "access": "Direct individual transaction table inspected",
+              "amount": 29.95,
+              "currency": "USD",
+              "soldAt": "2026-07-15",
+              "listingId": "137026505565",
+              "cert": null,
+              "photoMatched": false,
+              "accepted": true
+            },
+            {
+              "url": "https://www.ebay.com/itm/137026505565",
+              "observedAt": "2026-11-15",
+              "access": "Browser fallback inspected; redirected to eBay base product28085923590",
+              "accepted": false,
+              "reason": "No original sale photo/cert recovered; secondary individual history is basis."
+            }
+          ],
+          "status": "recommended-provisional-secondary-sale",
+          "proposedValue": 29.95,
+          "reason": "Individually linked July15 2026 exact title2025 Topps X Bob Ross the Joy of Baseball Mookie Betts #10 PSA9 Dodgers. Primary eBay137026505565 browser redirects to base catalog; original cert/photo unavailable. Star required for secondary evidence.",
+          "integration": {
+            "status": "accepted-in-this-batch"
+          }
+        },
+        {
+          "copyId": "PSA:169169674",
+          "ownedIdentity": {
+            "cert": "169169674",
+            "subject": "BEN RICE",
+            "year": "2025",
+            "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+            "cardNumber": "84",
+            "variety": "INDIAN YELLOW",
+            "grader": "PSA",
+            "grade": "9"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Ben Rice Bob Ross yellow graded"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.ebay.com/b/2025-Topps-X-Bob-Ross-the-Joy-of-Baseball-Ben-Rice-84/212/bn_99693494295",
+              "observedAt": "2026-11-15",
+              "access": "search-index inspected",
+              "accepted": false,
+              "reason": "PSA9 Prussian Blue250 not IndianYellow. No matching yellow9 offer."
+            }
+          ],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "copyId": "PSA:169169675",
+          "ownedIdentity": {
+            "cert": "169169675",
+            "subject": "ICHIRO",
+            "year": "2025",
+            "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+            "cardNumber": "69",
+            "variety": null,
+            "grader": "PSA",
+            "grade": "10"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Ichiro Bob Ross 69 PSA 10",
+            "2025 Ichiro Base PSA GEM MT 10"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.ebay.com/itm/237019657493",
+              "observedAt": "2026-11-15",
+              "amount": 149.99,
+              "currency": "USD",
+              "type": "asking",
+              "shippingExcluded": 4.99,
+              "cert": "159755671",
+              "listingId": "237019657493",
+              "access": "Direct listing and original full-resolution front photo inspected",
+              "photoMatched": true,
+              "accepted": true,
+              "photoPath": "data/originals/ichiro-237019657493.webp",
+              "reason": "Exact2025 base69 ocean artwork white border and PSA10 slab label match owned scan; no SP or numbered parallel."
+            },
+            {
+              "url": "https://www.ebay.com/itm/178495142461",
+              "amount": 150,
+              "type": "asking",
+              "access": "Direct listing text inspected",
+              "accepted": false,
+              "reason": "Additional same-title PSA10 corroborating ask; lower149.99 photo-verified listing selected."
+            }
+          ],
+          "status": "recommended-provisional-asking",
+          "proposedValue": 149.99,
+          "integration": {
+            "status": "accepted-in-this-batch"
+          }
+        },
+        {
+          "copyId": "PSA:173415132",
+          "ownedIdentity": {
+            "cert": "173415132",
+            "subject": "JACOB MISIOROWSKI",
+            "year": "2026",
+            "brand": "TOPPS CHROME CHROMOGRAPHS",
+            "cardNumber": "CHR-JM",
+            "variety": null,
+            "grader": "PSA",
+            "grade": "8"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Jacob Misiorowski Chromographs 8 10"
+          ],
+          "evidence": [],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "copyId": "PSA:173415133",
+          "ownedIdentity": {
+            "cert": "173415133",
+            "subject": "BO NIX",
+            "year": "2025",
+            "brand": "TOPPS SIGNATURE CLASS SIGNATURE CLASSICS",
+            "cardNumber": "SC-BN",
+            "variety": "ORANGE REFRACTOR",
+            "grader": "PSA",
+            "grade": "10"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Bo Nix SC-BN PSA orange"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.sportscardspro.com/game/football-cards-2025-topps-signature-class-classics/bo-nix-orange-sc-bn",
+              "observedAt": "2026-11-15",
+              "access": "search-index inspected",
+              "accepted": false,
+              "reason": "Raw orange/50 sales only; algorithm PSA10 price lacks exact PSA10 AUTO8 transaction."
+            }
+          ],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "copyId": "PSA:173415134",
+          "ownedIdentity": {
+            "cert": "173415134",
+            "subject": "JAXSON DART",
+            "year": "2025",
+            "brand": "TOPPS SIGNATURE CLASS",
+            "cardNumber": "106",
+            "variety": "AUTOGRAPH",
+            "grader": "PSA",
+            "grade": "8"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Jaxson Dart Signature Class PSA8 auto10"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.ebay.com/shop/jackson-dart-auto?_nkw=jackson+dart+auto",
+              "observedAt": "2026-11-15",
+              "access": "search-index inspected",
+              "accepted": false,
+              "reason": "New PSA8 AUTO10 offers are Resurgence, not SignatureClass106."
+            }
+          ],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        }
+      ],
+      "copiesResearched": 26,
+      "recommendedCount": 2,
+      "limitations": "One new indexed query or more per remaining copy, with direct source/photo followups on promising candidates. Not exhaustive archives. Original owned scans reviewed in earlier pass. No inventory edited.",
+      "archiveFollowup": {
+        "status": "completed-focused-followup-not-exhaustive",
+        "newCandidates": 0,
+        "scope": "Six exact SportsCardsPro detail pages with four browser fallbacks; additional source-specific Fanatics, PSA auction and Clector searches found no matching record. BradyCook exact2024 SapphireOrange catalogue and SethHeniganRedSapphire catalogue have no matching prices."
+      }
+    }
+  ],
+  "parent": [
+    {
+      "copyId": "CGC:3760617001",
+      "status": "identity-gap",
+      "reason": "Owned scan and signer absent. Official CGC cert page text fetch failed and browser remained security verification. Heritage129 lot11956 includes three different variants; cannot divide or assume signer. MCS124.99/159.99 cert4681385010 Universal not owned SignatureSeries.",
+      "checked": [
+        "https://www.cgccomics.com/certlookup/3760617001/",
+        "https://comics.ha.com/itm/modern-age-1980-present-/superhero/white-widow-2-variant-covers-signature-series-group-of-3-absolute-comics-group-2019-cgc-nm-mt-98-total-3-c/a/122401-11956.s",
+        "https://www.mycomicshop.com/search?p=2&q=White+2"
+      ]
+    },
+    {
+      "copyId": "CGC:2765925001",
+      "status": "unresolved",
+      "reason": "Owned actual front confirms Sakai CoverA wraparound CGC SignatureSeries9.8 Eastman single autograph. New official Eastman45 product is raw B/W1:100 cover not owned. eBay9.8 Eastman1:100135.96 is wrong cover and unspecifiedsignature; #1signed and#3blue75 excluded.",
+      "checked": [
+        "https://fan.kevineastmanstudios.com/product/tmnt-usagi-yojimbo-wherewhen-02-eastman-cover-variant-signed/",
+        "https://www.ebay.com/b/Usagi-Yojimbo-Certified-Guaranty-Company-CGC-Comics-Graphic-Novels-TPBs/259104/bn_3053253"
+      ]
+    },
+    {
+      "copyId": "CGC:4401613003",
+      "status": "unresolved",
+      "reason": "Owned gamer seated with Nintendo controller/purple PC matches MarcanoBirdCityvirgin. PC exactMarcano page only4rawreported sales, zero9.8; genericGibson guides wrongart. BirdCity indexedstore/sitemap did not surface gradedMarcano offer.",
+      "checked": [
+        "https://www.pricecharting.com/game/comic-books-arcade-kings/arcade-kings-marcano-1-2023",
+        "https://birdcitycomics.com/pages/avada-sitemap-products"
+      ]
+    }
+  ]
+}

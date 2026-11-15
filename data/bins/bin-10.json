@@ -2548,7 +2548,68 @@
         "capturedAt": "2026-09-10T05:53:28.351Z",
         "importedAt": "2026-09-10T05:55:03.293Z"
       },
-      "scanStatus": "complete"
+      "scanStatus": "complete",
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-15-deeper1-CGC-4350047006",
+            "copyId": "CGC:4350047006",
+            "basis": "owner",
+            "value": 300,
+            "currency": "USD",
+            "source": {
+              "name": "BeachBum stale-preorder asking estimate*",
+              "url": "https://beachbumcomics.com/products/w0rldtr33-5-fullerton-1-100-retailer-incentive-variant-cgc-9-8",
+              "asOf": null,
+              "retrievedAt": "2026-11-15T23:34:24.333Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "w0rldtr33",
+                "issue": "5",
+                "issueYear": "2023",
+                "publisher": "Image Comics",
+                "variant": "Variant Cover E",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Estimated from asking prices; not confirmed sales. Live retailer page Nov15 offers300USD with enabled PRE-ORDER; single product exact Fullerton1:100 CoverE CGC9.8 BLUE LABEL PRE-SALE shown on artwork. Stock illustration matches owned cover; no actual slab/cert. Description still promises December2023 delivery: stale offer wording, physical stock and fulfillment unverified. Not claimed in stock. ProductJSON blocked; no available:true assertion. Shipping/tax excluded.",
+            "reviewEvidence": {
+              "url": "https://beachbumcomics.com/products/w0rldtr33-5-fullerton-1-100-retailer-incentive-variant-cgc-9-8",
+              "reviewedAt": "2026-11-15T23:34:24.333Z",
+              "reviewedBy": "Owner-authorized deeper cover and source review",
+              "listingId": null,
+              "comparableCert": null,
+              "soldAt": null,
+              "notes": "Estimated from asking prices; not confirmed sales. Live retailer page Nov15 offers300USD with enabled PRE-ORDER; single product exact Fullerton1:100 CoverE CGC9.8 BLUE LABEL PRE-SALE shown on artwork. Stock illustration matches owned cover; no actual slab/cert. Description still promises December2023 delivery: stale offer wording, physical stock and fulfillment unverified. Not claimed in stock. ProductJSON blocked; no available:true assertion. Shipping/tax excluded."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-15-deeper1-CGC-4350047006",
+          "locked": true,
+          "selectedAt": "2026-11-15T23:34:25.708Z"
+        }
+      }
     },
     {
       "cert": "4350047002",
