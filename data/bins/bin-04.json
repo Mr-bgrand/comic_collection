@@ -842,6 +842,80 @@
         "url": null,
         "status": "not-listed",
         "fetchedAt": "2026-08-20T23:28:41.155Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-15-cover-resume-CGC-4603826010",
+            "copyId": "CGC:4603826010",
+            "basis": "owner",
+            "value": 1000,
+            "currency": "USD",
+            "source": {
+              "name": "Visually matched listing estimate*",
+              "url": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE0NTU1NzU5OQ==",
+              "asOf": null,
+              "retrievedAt": "2026-11-15T22:34:42.465Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Fame: Michael J. Fox",
+                "issue": "nn",
+                "issueYear": "1900",
+                "publisher": "TidalWave Comics",
+                "variant": "Official Pix Foil Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Signature Series",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Estimated from asking prices; not confirmed sales. One visually matched exact edition, label and grade listing; shipping/tax excluded.",
+            "reviewEvidence": {
+              "url": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE0NTU1NzU5OQ==",
+              "listingId": "1145557599",
+              "amount": 1000,
+              "currency": "USD",
+              "type": "current-asking",
+              "observedAt": "2026-11-15",
+              "availability": "1 Available; Buy now",
+              "access": "Direct web parsed page plus downloaded listing photograph visually inspected",
+              "photo": "data/originals/resume-a-fox-whatnot.webp",
+              "comparableCert": "4604045001",
+              "grade": "9.8",
+              "label": "CGC Signature Series",
+              "edition": "Official Pix Foil Edition",
+              "signer": "Michael J. Fox",
+              "signedDate": "2025-05-31",
+              "accepted": true,
+              "shipping": "additional; excluded",
+              "reviewedAt": "2026-11-15T22:34:42.465Z",
+              "reviewedBy": "Owner-authorized cover and slab photograph review",
+              "notes": "{\"ownedVisual\":\"Back to Future Sports Almanac1950-2000 foil homage signed Fox\",\"edition\":\"Official Pix Foil Edition\",\"label\":\"Signature Series\",\"source\":{\"url\":\"https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE0NTU1NzU5OQ==\",\"listingId\":\"1145557599\",\"amount\":1000,\"currency\":\"USD\",\"type\":\"current-asking\",\"observedAt\":\"2026-11-15\",\"availability\":\"1 Available; Buy now\",\"access\":\"Direct web parsed page plus downloaded listing photograph visually inspected\",\"photo\":\"data/originals/resume-a-fox-whatnot.webp\",\"comparableCert\":\"4604045001\",\"grade\":\"9.8\",\"label\":\"CGC Signature Series\",\"edition\":\"Official Pix Foil Edition\",\"signer\":\"Michael J. Fox\",\"signedDate\":\"2025-05-31\",\"accepted\":true,\"shipping\":\"additional; excluded\"},\"exclusions\":[{\"url\":\"https://www.ebay.com/itm/257012632582\",\"listingId\":\"257012632582\",\"amount\":2000,\"access\":\"Direct page and photograph\",\"comparableCert\":\"4604047001\",\"accepted\":false,\"reason\":\"Label Official Pix SPOT Foil Edition manufactured7/30; owned standard Foil differs\",\"photo\":\"data/originals/resume-a-fox-ebay.webp\"}]}"
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-15-cover-resume-CGC-4603826010",
+          "locked": true,
+          "selectedAt": "2026-11-15T22:34:43.377Z"
+        }
       }
     },
     {

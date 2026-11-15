@@ -143,6 +143,76 @@
         "url": "https://gocollect.com/app/comic/spider-man-7-mexican-editionel-quinto-mundo-edition",
         "status": "no-sales",
         "fetchedAt": "2026-08-20T15:13:35.280Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-15-cover-resume-CGC-4471692006",
+            "copyId": "CGC:4471692006",
+            "basis": "owner",
+            "value": 94.99,
+            "currency": "USD",
+            "source": {
+              "name": "Visually matched listing estimate*",
+              "url": "https://www.ebay.com/itm/147260005308",
+              "asOf": null,
+              "retrievedAt": "2026-11-15T22:34:42.465Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spider-Man",
+                "issue": "7",
+                "issueYear": "2024",
+                "publisher": "Panini Mexico",
+                "variant": "Mexican Edition/El Quinto Mundo Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Estimated from asking prices; not confirmed sales. One visually matched exact edition, label and grade listing; shipping/tax excluded.",
+            "reviewEvidence": {
+              "url": "https://www.ebay.com/itm/147260005308",
+              "listingId": "147260005308",
+              "amount": 94.99,
+              "currency": "USD",
+              "type": "current-asking",
+              "observedAt": "2026-11-15",
+              "access": "Direct parsed page; live browser verified Nov15 94.99 BuyItNow free shipping; actual downloaded photo",
+              "accepted": true,
+              "comparableCert": "4516815003",
+              "photo": "data/originals/resume-a-spiderman.webp",
+              "grade": "9.8",
+              "label": "CGC Universal",
+              "shipping": "Excluded; Spider-Man free, Taylor10.02",
+              "reviewedAt": "2026-11-15T22:34:42.465Z",
+              "reviewedBy": "Owner-authorized cover and slab photograph review",
+              "notes": "{\"ownedVisual\":\"Ramos Spider-Boy first appearance rooftop; Mexican foil trade\",\"edition\":\"Mexican Edition/El Quinto Mundo Edition\",\"label\":\"Universal\",\"source\":{\"url\":\"https://www.ebay.com/itm/147260005308\",\"listingId\":\"147260005308\",\"amount\":94.99,\"currency\":\"USD\",\"type\":\"current-asking\",\"observedAt\":\"2026-11-15\",\"access\":\"Direct parsed page; live browser verified Nov15 94.99 BuyItNow free shipping; actual downloaded photo\",\"accepted\":true,\"comparableCert\":\"4516815003\",\"photo\":\"data/originals/resume-a-spiderman.webp\",\"grade\":\"9.8\",\"label\":\"CGC Universal\",\"shipping\":\"Excluded; Spider-Man free, Taylor10.02\"},\"exclusions\":[]}"
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-15-cover-resume-CGC-4471692006",
+          "locked": true,
+          "selectedAt": "2026-11-15T22:34:43.661Z"
+        }
       }
     },
     {

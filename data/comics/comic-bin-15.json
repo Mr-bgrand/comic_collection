@@ -19738,7 +19738,65 @@
             }
           }
         ],
-        "legacyInvalidatedAt": "2026-09-23T14:17:25.946Z"
+        "legacyInvalidatedAt": "2026-09-23T14:17:25.946Z",
+        "observations": [
+          {
+            "id": "2026-11-15-cover-resume-raw-15-082",
+            "copyId": "raw:15-082",
+            "basis": "raw-reference",
+            "value": 75,
+            "currency": "USD",
+            "source": {
+              "name": "eBay visually matched raw sale reference*",
+              "url": "https://www.ebay.com/itm/377442100223",
+              "asOf": "2026-09-01",
+              "retrievedAt": "2026-11-15T22:34:42.465Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Fame: Michael J. Fox",
+                "issue": "nn",
+                "issueYear": "",
+                "publisher": "TidalWave Comics",
+                "variant": "Official Pix Foil Edition - Matthew Waite Sports Almanac",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "provisional": true,
+            "provisionalReason": "One raw sale; owned condition unassessed and fullUPC/printing undocumented. Reference excluded from collection total.",
+            "reviewEvidence": {
+              "url": "https://www.ebay.com/itm/377442100223",
+              "listingId": "377442100223",
+              "soldAt": "2026-09-01",
+              "amount": 75,
+              "currency": "USD",
+              "photo": "data/originals/resume-raw-fox.webp",
+              "access": "Live browser original listing sold banner, seller description and actual photograph",
+              "notes": "Original listing explicitly sold Tue Sep1 at6:40PM; Aug26,2026 revision establishes year. USD75, shipping6.71 and tax excluded. Seller describes raw/ungraded unsigned Official Pix Sports Almanac foil Matthew Waite. Actual front compared to owned Raw_15-082_FRONT.jpg: same foil stars, red SPORTS and sports figures. No signature visible, no condition inferred. FullUPC and indicia/printing not available; artwork-edition reference only. Owned issue nn retained despite seller issue1.",
+              "reviewedAt": "2026-11-15T22:34:42.465Z",
+              "reviewedBy": "Owner-authorized cover and slab photograph review"
+            }
+          }
+        ],
+        "selection": null
       },
       "images": {
         "front": "Raw_15-082_FRONT.jpg"

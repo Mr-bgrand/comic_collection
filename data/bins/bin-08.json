@@ -860,7 +860,7 @@
       "issueDate": "2022",
       "issueYear": "2022",
       "publisher": "Counterpoint",
-      "variant": "Whatnot NYCC Foil Edition A",
+      "variant": "Whatnot NYCC Magma Edition A",
       "grade": "9.8",
       "pageQuality": "WHITE",
       "gradeDate": "2022-12-29",
@@ -884,7 +884,73 @@
         "status": "not-listed",
         "fetchedAt": "2026-08-22T07:24:57.116Z"
       },
-      "imageSource": "owner"
+      "imageSource": "owner",
+      "identification": {
+        "status": "confirmed",
+        "reviewedAt": "2026-11-15T22:36:33.250Z",
+        "sourceUrl": "https://mr-bgrand.github.io/comic_collection/images/4177706003_OBV.jpg"
+      },
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "Do You Pooh?",
+                "issue": "1",
+                "issueYear": "2022",
+                "publisher": "Counterpoint",
+                "variant": "Whatnot NYCC Foil Edition A",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Do You Pooh?",
+                "issue": "1",
+                "issueYear": "2022",
+                "publisher": "Counterpoint",
+                "variant": "Whatnot NYCC Magma Edition A",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://mr-bgrand.github.io/comic_collection/images/4177706003_OBV.jpg",
+              "reviewedAt": "2026-11-15T22:36:33.250Z",
+              "reviewedBy": "Owned slab label visual review",
+              "notes": "Full-resolution owned data/images/4177706003_OBV.jpg unambiguously reads Whatnot NYCC Magma Edition A, manufactured29/100; previous Foil Edition A was transcription error. Blue Universal9.8; Batman battle-damaged homage after Kirkham. No valuation or condition changed."
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-11-15T22:36:33.442Z"
+      }
     },
     {
       "cert": "4424144002",

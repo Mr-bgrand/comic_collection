@@ -744,7 +744,7 @@
       "brand": "Gym 2: Challenge from the Darkness",
       "category": "Pokémon",
       "language": "Japanese",
-      "cardNumber": null,
+      "cardNumber": "Unnumbered",
       "variety": "Non-Holo",
       "grade": "9",
       "gradeDescription": null,
@@ -758,7 +758,194 @@
         "source": "CGC Cards",
         "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/original-series/1014/gym-2-challenge-from-the-darkness/30931/?populationID=499493"
       },
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-15-cover-resume-blaine",
+            "copyId": "CGC:6001871064",
+            "basis": "sold-comps",
+            "value": 12,
+            "currency": "USD",
+            "saleCount": 1,
+            "source": {
+              "name": "CollectSherpa reported Fanatics sale*",
+              "url": "https://collectsherpa.com/cards/japanese/blaine-normal-575344/cgc/9",
+              "asOf": "2026-09-22",
+              "retrievedAt": "2026-11-15T22:38:07.912Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "1999",
+                "brand": "Gym 2: Challenge from the Darkness",
+                "series": "",
+                "subject": "Blaine",
+                "cardNumber": "",
+                "variety": "Non-Holo",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "rejected",
+            "provisional": true,
+            "provisionalReason": "Low-confidence secondary reported sale, not independently authenticated. Exact individual transaction title/set/language/CGC9 and Normal classification match; original photograph and comparable cert unavailable. Surrounding catalog contains mismatched recommendations; aggregate guide not used.",
+            "reviewEvidence": {
+              "url": "https://collectsherpa.com/cards/japanese/blaine-normal-575344/cgc/9",
+              "reviewedAt": "2026-11-15T22:38:07.912Z",
+              "reviewedBy": "Owner-authorized provisional secondary evidence review",
+              "listingId": "BOV2_c27ab551-c24b-4bcd-beda-aeb5ad15014e",
+              "soldAt": "2026-09-22",
+              "comparableCert": null,
+              "originalUrl": "https://sales-history.fanaticscollect.com/items/BOV2_c27ab551-c24b-4bcd-beda-aeb5ad15014e",
+              "notes": "Browser recovered individual sale row 1999 Japanese Gym2 Challenge From The Darkness Blaine CGC9, Sep22,2026 USD12. Normal page classification supports nonholo; owned scan is Japanese nonholo trainer CGC9. Original Fanatics transaction redirects to general marketplace; no original cert/photo verified. Other character recommendations on catalog excluded, no aggregate average used. Shipping/tax not added. Weak evidence explicitly starred under owner provisional policy."
+            }
+          },
+          {
+            "id": "2026-11-15-cover-resume-blaine-unnumbered",
+            "copyId": "CGC:6001871064",
+            "basis": "sold-comps",
+            "value": 12,
+            "currency": "USD",
+            "saleCount": 1,
+            "source": {
+              "name": "CollectSherpa reported Fanatics sale*",
+              "url": "https://collectsherpa.com/cards/japanese/blaine-normal-575344/cgc/9",
+              "asOf": "2026-09-22",
+              "retrievedAt": "2026-11-15T22:38:07.912Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "1999",
+                "brand": "Gym 2: Challenge from the Darkness",
+                "series": "",
+                "subject": "Blaine",
+                "cardNumber": "Unnumbered",
+                "variety": "Non-Holo",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Low-confidence secondary reported sale, not independently authenticated. Exact individual transaction title/set/language/CGC9 and Normal classification match; original photograph and comparable cert unavailable. Surrounding catalog contains mismatched recommendations; aggregate guide not used.",
+            "reviewEvidence": {
+              "url": "https://collectsherpa.com/cards/japanese/blaine-normal-575344/cgc/9",
+              "reviewedAt": "2026-11-15T22:38:07.912Z",
+              "reviewedBy": "Owner-authorized provisional secondary evidence review",
+              "listingId": "BOV2_c27ab551-c24b-4bcd-beda-aeb5ad15014e",
+              "soldAt": "2026-09-22",
+              "comparableCert": null,
+              "originalUrl": "https://sales-history.fanaticscollect.com/items/BOV2_c27ab551-c24b-4bcd-beda-aeb5ad15014e",
+              "notes": "Browser recovered individual sale row 1999 Japanese Gym2 Challenge From The Darkness Blaine CGC9, Sep22,2026 USD12. Normal page classification supports nonholo; owned scan is Japanese nonholo trainer CGC9. Original Fanatics transaction redirects to general marketplace; no original cert/photo verified. Other character recommendations on catalog excluded, no aggregate average used. Shipping/tax not added. Weak evidence explicitly starred under owner provisional policy."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-15-cover-resume-blaine-unnumbered",
+          "locked": true,
+          "selectedAt": "2026-11-15T22:39:04.085Z"
+        },
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "card",
+                "year": "1999",
+                "brand": "Gym 2: Challenge from the Darkness",
+                "series": "",
+                "subject": "Blaine",
+                "cardNumber": "",
+                "variety": "Non-Holo",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "card",
+                "year": "1999",
+                "brand": "Gym 2: Challenge from the Darkness",
+                "series": "",
+                "subject": "Blaine",
+                "cardNumber": "Unnumbered",
+                "variety": "Non-Holo",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://www.psacard.com/psasetregistry/tcg/company-sets/1999-pokemon-japanese-gym-2/composition/18081",
+              "reviewedAt": "2026-11-15T22:39:03.231Z",
+              "reviewedBy": "Owned card scan and checklist review",
+              "notes": "Owned CGC6001871064 front has no card number and is Japanese Blaine Trainer; label also lacks number. Japanese Gym2 trainer checklist leaves card-number column blank. Explicit Unnumbered distinguishes absence of a printed number from unidentified/null. Not English Blaine100 or17. No grade/condition change."
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-11-15T22:39:03.425Z",
+        "reviews": [
+          {
+            "observationId": "2026-11-15-cover-resume-blaine",
+            "status": "rejected",
+            "reason": "Superseded with explicit Unnumbered metadata; first pending import could not be selected because identity completeness required cardNumber.",
+            "reviewedAt": "2026-11-15T22:39:03.426Z"
+          }
+        ]
+      },
       "cgc": {
         "gradeText": "9",
         "lookupGrade": "9.0",
@@ -821,6 +1008,11 @@
           "originalFile": "data/originals/CGC_6001871064_BACK.jpg",
           "originalSha256": "9d36c483fd1e35494db3e72ab013d8dddc7f887db72641f4bc26640ec783e674"
         }
+      },
+      "identification": {
+        "status": "confirmed",
+        "reviewedAt": "2026-11-15T22:39:03.231Z",
+        "sourceUrl": "https://www.psacard.com/psasetregistry/tcg/company-sets/1999-pokemon-japanese-gym-2/composition/18081"
       }
     },
     {

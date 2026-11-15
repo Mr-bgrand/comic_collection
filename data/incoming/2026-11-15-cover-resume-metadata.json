@@ -1,0 +1,39 @@
+{
+  "edits": [
+    {
+      "copyId": "CGC:4177706003",
+      "revision": "93bc84597747bfdf443f0155b52dac7fed8a2aab16658e3603316608d6d6c1c9",
+      "observations": [],
+      "review": {
+        "identity": {
+          "variant": "Whatnot NYCC Magma Edition A"
+        },
+        "evidence": {
+          "url": "https://mr-bgrand.github.io/comic_collection/images/4177706003_OBV.jpg",
+          "reviewedAt": "2026-11-15T22:36:33.250Z",
+          "reviewedBy": "Owned slab label visual review",
+          "notes": "Full-resolution owned data/images/4177706003_OBV.jpg unambiguously reads Whatnot NYCC Magma Edition A, manufactured29/100; previous Foil Edition A was transcription error. Blue Universal9.8; Batman battle-damaged homage after Kirkham. No valuation or condition changed."
+        }
+      }
+    },
+    {
+      "copyId": "CGC:6001871064",
+      "revision": "6c72de3bd08c2712ad8466557d5b25e68a993b330658596d84abc31f7daa7f07",
+      "review": {
+        "identity": {
+          "cardNumber": "Unnumbered"
+        },
+        "evidence": {
+          "url": "https://www.psacard.com/psasetregistry/tcg/company-sets/1999-pokemon-japanese-gym-2/composition/18081",
+          "reviewedAt": "2026-11-15T22:39:03.231Z",
+          "reviewedBy": "Owned card scan and checklist review",
+          "notes": "Owned CGC6001871064 front has no card number and is Japanese Blaine Trainer; label also lacks number. Japanese Gym2 trainer checklist leaves card-number column blank. Explicit Unnumbered distinguishes absence of a printed number from unidentified/null. Not English Blaine100 or17. No grade/condition change."
+        }
+      },
+      "reject": {
+        "observationId": "2026-11-15-cover-resume-blaine",
+        "reason": "Superseded with explicit Unnumbered metadata; first pending import could not be selected because identity completeness required cardNumber."
+      }
+    }
+  ]
+}

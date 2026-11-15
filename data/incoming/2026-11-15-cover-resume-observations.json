@@ -1,0 +1,398 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "CGC:4418876002",
+      "revision": "22d0ba737484cfcddf677d19fe42658f95ec6e438ce2083efb64b5230b2c386a",
+      "observations": [
+        {
+          "id": "2026-11-15-cover-resume-CGC-4418876002",
+          "copyId": "CGC:4418876002",
+          "basis": "owner",
+          "value": 64.99,
+          "currency": "USD",
+          "source": {
+            "name": "Visually matched listing estimate*",
+            "url": "https://www.ebay.com/itm/377560683492",
+            "asOf": null,
+            "retrievedAt": "2026-11-15T22:34:42.465Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Female Force: Taylor Swift",
+              "issue": "nn",
+              "issueYear": "1900",
+              "publisher": "TidalWave Comics",
+              "variant": "Unknown Comics Foil Edition B",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Estimated from asking prices; not confirmed sales. One visually matched exact edition, label and grade listing; shipping/tax excluded.",
+          "reviewEvidence": {
+            "url": "https://www.ebay.com/itm/377560683492",
+            "listingId": "377560683492",
+            "amount": 64.99,
+            "currency": "USD",
+            "type": "current-asking",
+            "observedAt": "2026-11-15",
+            "access": "Direct parsed live page Nov15 current delivery; downloaded photo visually matched label and cover",
+            "accepted": true,
+            "comparableCert": "4431664001",
+            "photo": "data/originals/resume-a-taylor-foil.webp",
+            "grade": "9.8",
+            "label": "CGC Universal",
+            "shipping": "Excluded; Spider-Man free, Taylor10.02",
+            "reviewedAt": "2026-11-15T22:34:42.465Z",
+            "reviewedBy": "Owner-authorized cover and slab photograph review",
+            "notes": "{\"ownedVisual\":\"X-shaped Taylor montage rainbow foil virgin\",\"edition\":\"Unknown Comics Foil Edition B\",\"label\":\"Universal\",\"source\":{\"url\":\"https://www.ebay.com/itm/377560683492\",\"listingId\":\"377560683492\",\"amount\":64.99,\"currency\":\"USD\",\"type\":\"current-asking\",\"observedAt\":\"2026-11-15\",\"access\":\"Direct parsed live page Nov15 current delivery; downloaded photo visually matched label and cover\",\"accepted\":true,\"comparableCert\":\"4431664001\",\"photo\":\"data/originals/resume-a-taylor-foil.webp\",\"grade\":\"9.8\",\"label\":\"CGC Universal\",\"shipping\":\"Excluded; Spider-Man free, Taylor10.02\"},\"exclusions\":[{\"url\":\"https://www.ebay.com/itm/326461384557\",\"listingId\":\"326461384557\",\"amount\":100,\"access\":\"Search index sold; direct404; browser ENDED screenshot actual cover\",\"accepted\":false,\"reason\":\"Solo dancing Taylor/Dazzler cover not owned X-shaped montage; title Metal X misleading\"}]}"
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4603826010",
+      "revision": "853eba3691185e12f707b7ceaf49669898ad02b77a558cac8e2798f6350e17e2",
+      "observations": [
+        {
+          "id": "2026-11-15-cover-resume-CGC-4603826010",
+          "copyId": "CGC:4603826010",
+          "basis": "owner",
+          "value": 1000,
+          "currency": "USD",
+          "source": {
+            "name": "Visually matched listing estimate*",
+            "url": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE0NTU1NzU5OQ==",
+            "asOf": null,
+            "retrievedAt": "2026-11-15T22:34:42.465Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Fame: Michael J. Fox",
+              "issue": "nn",
+              "issueYear": "1900",
+              "publisher": "TidalWave Comics",
+              "variant": "Official Pix Foil Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Signature Series",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Estimated from asking prices; not confirmed sales. One visually matched exact edition, label and grade listing; shipping/tax excluded.",
+          "reviewEvidence": {
+            "url": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE0NTU1NzU5OQ==",
+            "listingId": "1145557599",
+            "amount": 1000,
+            "currency": "USD",
+            "type": "current-asking",
+            "observedAt": "2026-11-15",
+            "availability": "1 Available; Buy now",
+            "access": "Direct web parsed page plus downloaded listing photograph visually inspected",
+            "photo": "data/originals/resume-a-fox-whatnot.webp",
+            "comparableCert": "4604045001",
+            "grade": "9.8",
+            "label": "CGC Signature Series",
+            "edition": "Official Pix Foil Edition",
+            "signer": "Michael J. Fox",
+            "signedDate": "2025-05-31",
+            "accepted": true,
+            "shipping": "additional; excluded",
+            "reviewedAt": "2026-11-15T22:34:42.465Z",
+            "reviewedBy": "Owner-authorized cover and slab photograph review",
+            "notes": "{\"ownedVisual\":\"Back to Future Sports Almanac1950-2000 foil homage signed Fox\",\"edition\":\"Official Pix Foil Edition\",\"label\":\"Signature Series\",\"source\":{\"url\":\"https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE0NTU1NzU5OQ==\",\"listingId\":\"1145557599\",\"amount\":1000,\"currency\":\"USD\",\"type\":\"current-asking\",\"observedAt\":\"2026-11-15\",\"availability\":\"1 Available; Buy now\",\"access\":\"Direct web parsed page plus downloaded listing photograph visually inspected\",\"photo\":\"data/originals/resume-a-fox-whatnot.webp\",\"comparableCert\":\"4604045001\",\"grade\":\"9.8\",\"label\":\"CGC Signature Series\",\"edition\":\"Official Pix Foil Edition\",\"signer\":\"Michael J. Fox\",\"signedDate\":\"2025-05-31\",\"accepted\":true,\"shipping\":\"additional; excluded\"},\"exclusions\":[{\"url\":\"https://www.ebay.com/itm/257012632582\",\"listingId\":\"257012632582\",\"amount\":2000,\"access\":\"Direct page and photograph\",\"comparableCert\":\"4604047001\",\"accepted\":false,\"reason\":\"Label Official Pix SPOT Foil Edition manufactured7/30; owned standard Foil differs\",\"photo\":\"data/originals/resume-a-fox-ebay.webp\"}]}"
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4471692006",
+      "revision": "ef5c74a0dfba89fd55bfe20a03a6d21d77912ec51ceab4b92e367d1ea1253585",
+      "observations": [
+        {
+          "id": "2026-11-15-cover-resume-CGC-4471692006",
+          "copyId": "CGC:4471692006",
+          "basis": "owner",
+          "value": 94.99,
+          "currency": "USD",
+          "source": {
+            "name": "Visually matched listing estimate*",
+            "url": "https://www.ebay.com/itm/147260005308",
+            "asOf": null,
+            "retrievedAt": "2026-11-15T22:34:42.465Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Spider-Man",
+              "issue": "7",
+              "issueYear": "2024",
+              "publisher": "Panini Mexico",
+              "variant": "Mexican Edition/El Quinto Mundo Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Estimated from asking prices; not confirmed sales. One visually matched exact edition, label and grade listing; shipping/tax excluded.",
+          "reviewEvidence": {
+            "url": "https://www.ebay.com/itm/147260005308",
+            "listingId": "147260005308",
+            "amount": 94.99,
+            "currency": "USD",
+            "type": "current-asking",
+            "observedAt": "2026-11-15",
+            "access": "Direct parsed page; live browser verified Nov15 94.99 BuyItNow free shipping; actual downloaded photo",
+            "accepted": true,
+            "comparableCert": "4516815003",
+            "photo": "data/originals/resume-a-spiderman.webp",
+            "grade": "9.8",
+            "label": "CGC Universal",
+            "shipping": "Excluded; Spider-Man free, Taylor10.02",
+            "reviewedAt": "2026-11-15T22:34:42.465Z",
+            "reviewedBy": "Owner-authorized cover and slab photograph review",
+            "notes": "{\"ownedVisual\":\"Ramos Spider-Boy first appearance rooftop; Mexican foil trade\",\"edition\":\"Mexican Edition/El Quinto Mundo Edition\",\"label\":\"Universal\",\"source\":{\"url\":\"https://www.ebay.com/itm/147260005308\",\"listingId\":\"147260005308\",\"amount\":94.99,\"currency\":\"USD\",\"type\":\"current-asking\",\"observedAt\":\"2026-11-15\",\"access\":\"Direct parsed page; live browser verified Nov15 94.99 BuyItNow free shipping; actual downloaded photo\",\"accepted\":true,\"comparableCert\":\"4516815003\",\"photo\":\"data/originals/resume-a-spiderman.webp\",\"grade\":\"9.8\",\"label\":\"CGC Universal\",\"shipping\":\"Excluded; Spider-Man free, Taylor10.02\"},\"exclusions\":[]}"
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4350046021",
+      "revision": "80dc2d1c785f3635a81585c3db098bb38a8a1c6d01b41263841df5e74d23bd5f",
+      "observations": [
+        {
+          "id": "2026-11-15-cover-resume-CGC-4350046021",
+          "copyId": "CGC:4350046021",
+          "basis": "owner",
+          "value": 59,
+          "currency": "USD",
+          "source": {
+            "name": "Visually matched listing estimate*",
+            "url": "https://www.ebay.com/itm/860117555846",
+            "asOf": null,
+            "retrievedAt": "2026-11-15T22:34:42.465Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Supergirl and the Legion of Super-Heroes",
+              "issue": "23",
+              "issueYear": "2023",
+              "publisher": "DC Comics",
+              "variant": "Whatnot Special Foil Edition B",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.4",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Estimated from asking prices; not confirmed sales. One visually matched exact edition, label and grade listing; shipping/tax excluded.",
+          "reviewEvidence": {
+            "url": "https://www.ebay.com/itm/860117555846",
+            "access": "live browser AX and screenshot; actual listing photo downloaded and visually inspected",
+            "observedAt": "2026-11-15",
+            "amount": 59,
+            "currency": "USD",
+            "shipping": 18.99,
+            "kind": "active asking or Best Offer",
+            "listingId": "860117555846",
+            "comparableCert": "4513033004",
+            "photo": "data/originals/research-b-supergirl.webp",
+            "match": "CGC Universal9.4, Whatnot Special Foil Edition B label, Nakayama hands-on-hips orange stars virgin foil matches owned",
+            "availability": "Buy It Now; seller away until Nov16",
+            "reviewedAt": "2026-11-15T22:34:42.465Z",
+            "reviewedBy": "Owner-authorized cover and slab photograph review",
+            "notes": "{\"ownedVisual\":[\"David Nakayama virgin SDCC foil\",\"Mellow Fellow Trading / SMZ / Whatnot exclusive\"],\"edition\":\"Whatnot Special Foil Edition B\",\"label\":\"Universal\",\"source\":{\"url\":\"https://www.ebay.com/itm/860117555846\",\"access\":\"live browser AX and screenshot; actual listing photo downloaded and visually inspected\",\"observedAt\":\"2026-11-15\",\"amount\":59,\"currency\":\"USD\",\"shipping\":18.99,\"kind\":\"active asking or Best Offer\",\"listingId\":\"860117555846\",\"comparableCert\":\"4513033004\",\"photo\":\"data/originals/research-b-supergirl.webp\",\"match\":\"CGC Universal9.4, Whatnot Special Foil Edition B label, Nakayama hands-on-hips orange stars virgin foil matches owned\",\"availability\":\"Buy It Now; seller away until Nov16\"},\"exclusions\":[]}"
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-082",
+      "revision": "fb8c842e4e9cb67ce2806e436bbfede2e4feff299fbedf4c39ddac603839c39a",
+      "observations": [
+        {
+          "id": "2026-11-15-cover-resume-raw-15-082",
+          "copyId": "raw:15-082",
+          "basis": "raw-reference",
+          "value": 75,
+          "currency": "USD",
+          "source": {
+            "name": "eBay visually matched raw sale reference*",
+            "url": "https://www.ebay.com/itm/377442100223",
+            "asOf": "2026-09-01",
+            "retrievedAt": "2026-11-15T22:34:42.465Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Fame: Michael J. Fox",
+              "issue": "nn",
+              "issueYear": "",
+              "publisher": "TidalWave Comics",
+              "variant": "Official Pix Foil Edition - Matthew Waite Sports Almanac",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "One raw sale; owned condition unassessed and fullUPC/printing undocumented. Reference excluded from collection total.",
+          "reviewEvidence": {
+            "url": "https://www.ebay.com/itm/377442100223",
+            "listingId": "377442100223",
+            "soldAt": "2026-09-01",
+            "amount": 75,
+            "currency": "USD",
+            "photo": "data/originals/resume-raw-fox.webp",
+            "access": "Live browser original listing sold banner, seller description and actual photograph",
+            "notes": "Original listing explicitly sold Tue Sep1 at6:40PM; Aug26,2026 revision establishes year. USD75, shipping6.71 and tax excluded. Seller describes raw/ungraded unsigned Official Pix Sports Almanac foil Matthew Waite. Actual front compared to owned Raw_15-082_FRONT.jpg: same foil stars, red SPORTS and sports figures. No signature visible, no condition inferred. FullUPC and indicia/printing not available; artwork-edition reference only. Owned issue nn retained despite seller issue1.",
+            "reviewedAt": "2026-11-15T22:34:42.465Z",
+            "reviewedBy": "Owner-authorized cover and slab photograph review"
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:6001871064",
+      "revision": "87217c9ca820c4dbf5913fa4aa7c18fe902e2f0ec42603262cdabf06f6574f69",
+      "observations": [
+        {
+          "id": "2026-11-15-cover-resume-blaine-unnumbered",
+          "copyId": "CGC:6001871064",
+          "basis": "sold-comps",
+          "value": 12,
+          "currency": "USD",
+          "saleCount": 1,
+          "source": {
+            "name": "CollectSherpa reported Fanatics sale*",
+            "url": "https://collectsherpa.com/cards/japanese/blaine-normal-575344/cgc/9",
+            "asOf": "2026-09-22",
+            "retrievedAt": "2026-11-15T22:38:07.912Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "1999",
+              "brand": "Gym 2: Challenge from the Darkness",
+              "series": "",
+              "subject": "Blaine",
+              "cardNumber": "Unnumbered",
+              "variety": "Non-Holo",
+              "language": "Japanese",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Low-confidence secondary reported sale, not independently authenticated. Exact individual transaction title/set/language/CGC9 and Normal classification match; original photograph and comparable cert unavailable. Surrounding catalog contains mismatched recommendations; aggregate guide not used.",
+          "reviewEvidence": {
+            "url": "https://collectsherpa.com/cards/japanese/blaine-normal-575344/cgc/9",
+            "reviewedAt": "2026-11-15T22:38:07.912Z",
+            "reviewedBy": "Owner-authorized provisional secondary evidence review",
+            "listingId": "BOV2_c27ab551-c24b-4bcd-beda-aeb5ad15014e",
+            "soldAt": "2026-09-22",
+            "comparableCert": null,
+            "originalUrl": "https://sales-history.fanaticscollect.com/items/BOV2_c27ab551-c24b-4bcd-beda-aeb5ad15014e",
+            "notes": "Browser recovered individual sale row 1999 Japanese Gym2 Challenge From The Darkness Blaine CGC9, Sep22,2026 USD12. Normal page classification supports nonholo; owned scan is Japanese nonholo trainer CGC9. Original Fanatics transaction redirects to general marketplace; no original cert/photo verified. Other character recommendations on catalog excluded, no aggregate average used. Shipping/tax not added. Weak evidence explicitly starred under owner provisional policy."
+          }
+        }
+      ]
+    }
+  ]
+}
