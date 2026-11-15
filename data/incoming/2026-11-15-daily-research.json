@@ -1,0 +1,103 @@
+{
+  "retrievedAt": "2026-11-15T16:03:42.836Z",
+  "copiesResearched": 12,
+  "pricesAdded": 1,
+  "referencesAdded": 0,
+  "accepted": [
+    {
+      "copyId": "TAG:M9505930",
+      "value": 19.99,
+      "url": "https://www.ebay.com/sch/i.html?_nkw=magneton+promo+surging+sparks&_sop=12"
+    }
+  ],
+  "unresolved": [
+    {
+      "copyId": "TAG:C5407435",
+      "title": "BoBonesLunarGold9",
+      "reason": "Manufacturer random drop grade9or10 is not exact LunarGold9 offer.",
+      "url": "https://taggrading.com/collections/world-scaries-2025/products/bo-bones-art-card-drop-ltd-ed-serialized-copy",
+      "checked": "Targeted search/index only; original listing not inspected"
+    },
+    {
+      "copyId": "TAG:G7325430",
+      "title": "WilwolfBloodRed10",
+      "reason": "No exact offer in targeted search; prior GhostShade is wrongparallel.",
+      "url": null,
+      "checked": "Targeted search/index only; original listing not inspected"
+    },
+    {
+      "copyId": "TAG:L3302729",
+      "title": "Mamoswine174TAG8.5",
+      "reason": "TAG andPSA8.5 searches found grade population but no transaction/offer. PSA8/9 andCGC9.5excluded.",
+      "url": "https://www.pokevalues.com/card/mamoswine-ex-journey-together-174",
+      "checked": "Targeted search/index only; original listing not inspected"
+    },
+    {
+      "copyId": "CGC:4471692001",
+      "title": "TysonWaiteFoilB9.8",
+      "reason": "eBay277371219358 GBP160 isFoilF cert4474747004, notB.",
+      "url": "https://www.ebay.co.uk/itm/277371219358",
+      "checked": "Targeted search/index only; original listing not inspected"
+    },
+    {
+      "copyId": "CGC:4471692002",
+      "title": "TysonWaiteFoilC9.8",
+      "reason": "SameFoilF mismatch; variantC9.9also wrong grade/finish.",
+      "url": "https://www.ebay.co.uk/itm/277371219358",
+      "checked": "Targeted search/index only; original listing not inspected"
+    },
+    {
+      "copyId": "CGC:4480290003",
+      "title": "JordanBueckerttrade9.8",
+      "reason": "Raremarq100 finalbid cert4491747010 isvirgin/300; ownedtrade.",
+      "url": "https://www.raremarq.com/auctions/fame-michael-jordan-nn-1-of-39-cgc-9-8-bueckert-exclusive-virgin-ltd-300-copies-e-t-homage",
+      "checked": "Targeted search/index only; original listing not inspected"
+    },
+    {
+      "copyId": "CGC:4493150004",
+      "title": "JordanBueckerttrade9.8",
+      "reason": "Samevirgin mismatch; MCS1CK.Bvirgin/125also differs.",
+      "url": "https://www.mycomicshop.com/search?ItemID=64612863",
+      "checked": "Targeted search/index only; original listing not inspected"
+    },
+    {
+      "copyId": "CGC:4526002007",
+      "title": "TupacCacauVirgin9.8",
+      "reason": "Retail79 offer says allow5months grading; preorder not confirmed available graded copy. Whatnot trade unavailable.",
+      "url": "https://exchangecollectibles.com/products/tribute-topac-shakur-1-virgin-cgc-9-8",
+      "checked": "Targeted search/index only; original listing not inspected"
+    },
+    {
+      "copyId": "CGC:4526002008",
+      "title": "TupacCacauVirgin9.6",
+      "reason": "Retail9.8preorder wronggrade; no9.6offer.",
+      "url": "https://exchangecollectibles.com/products/tribute-topac-shakur-1-virgin-cgc-9-8",
+      "checked": "Targeted search/index only; original listing not inspected"
+    },
+    {
+      "copyId": "CGC:4526002009",
+      "title": "KobeComicKingdomVirgin9.6",
+      "reason": "No exact graded match in targeted search.",
+      "url": null,
+      "checked": "Targeted search/index only; original listing not inspected"
+    },
+    {
+      "copyId": "CGC:4350046021",
+      "title": "Supergirl23WhatnotFoilB9.4",
+      "reason": "PC59.95HughesFoil title lacksB designation; ownedNakayamaB. MCS65706482 cert4322049003 is9.8ongoing auction12/2bids, not finalprice.",
+      "url": "https://www.mycomicshop.com/search?auctionstatus=notended&q=Reprint",
+      "checked": "Targeted search/index only; original listing not inspected"
+    }
+  ],
+  "uncheckedLeads": [
+    "Recover Magneton original eBay listing ID/cert",
+    "After November17 check completed MCS65706482 for ownedCGC4471693001 WhatnotFoilB9.8; do not use current12 bid",
+    "ExactJordan trade9.8 listing"
+  ],
+  "remaining": {
+    "graded": 102,
+    "comics": 73,
+    "cards": 29,
+    "rawWithoutReference": 9
+  }
+}

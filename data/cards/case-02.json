@@ -13534,7 +13534,68 @@
       "certUrl": "https://my.taggrading.com/card/M9505930",
       "gradeDate": "2025-04-07",
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-15-daily-TAG-M9505930",
+            "copyId": "TAG:M9505930",
+            "basis": "owner",
+            "value": 19.99,
+            "currency": "USD",
+            "source": {
+              "name": "Indexed eBay asking estimate*",
+              "url": "https://www.ebay.com/sch/i.html?_nkw=magneton+promo+surging+sparks&_sop=12",
+              "asOf": null,
+              "retrievedAt": "2026-11-15T16:03:42.836Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "SURGING SPARKS ELITE TRAINER BOX",
+                "series": "POKÉMON SCARLET & VIOLET BLACK STAR PROMOS",
+                "subject": "MAGNETON",
+                "cardNumber": "159",
+                "variety": "",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "8.5",
+              "grader": "TAG",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Estimated from asking prices; not confirmed sales. Indexed eBay exact-title TAG8.5 offer; original item ID and comparable certificate unavailable. Direct category/shop fetch did not independently verify the indexed offer; current availability uncertain. Shipping/tax excluded.",
+            "reviewEvidence": {
+              "url": "https://www.ebay.com/sch/i.html?_nkw=magneton+promo+surging+sparks&_sop=12",
+              "reviewedAt": "2026-11-15T16:03:42.836Z",
+              "reviewedBy": "Owner-authorized provisional review",
+              "notes": "Indexed exact title: Pokemon Magneton159 Black Star Promo Holo Surging Sparks English2024 TAG8.5, USD19.99 or Best Offer. Repeated by eBay shop and Lightning8.5 category index; not counted as independent listings. Owned slab front inspected:2024 Surging Sparks ETB159, TAG8.5 M9505930, English and no Pokemon Center stamp. Excluded stamped TAG9, Fossil26/62, wrong graders, and untraceable aggregator16.50/14.97 histories. Direct category/shop opened cached pages but subsequent exact-text retrieval timed out; original item link not recovered.",
+              "listingId": null,
+              "comparableCert": null,
+              "soldAt": null
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-15-daily-TAG-M9505930",
+          "locked": true,
+          "selectedAt": "2026-11-15T16:03:43.398Z"
+        }
+      },
       "population": {
         "atGrade": 58,
         "total": 800,
