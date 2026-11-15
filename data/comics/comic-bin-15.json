@@ -5474,7 +5474,66 @@
             }
           }
         ],
-        "legacyInvalidatedAt": "2026-09-23T06:14:00.453Z"
+        "legacyInvalidatedAt": "2026-09-23T06:14:00.453Z",
+        "observations": [
+          {
+            "id": "2026-11-15-full-pass-raw-15-002",
+            "copyId": "raw:15-002",
+            "basis": "raw-reference",
+            "value": 35.73,
+            "currency": "USD",
+            "source": {
+              "name": "eBay raw sale reference / approximate USD*",
+              "url": "https://www.ebay.com/itm/227306554623",
+              "asOf": "2026-06-13",
+              "retrievedAt": "2026-11-15T21:57:48.895Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Orbit: Eminem",
+                "issue": "1",
+                "issueYear": "",
+                "publisher": "TidalWave Productions",
+                "variant": "Caio Cacau Punisher #1 Homage Trade Dress",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "provisional": true,
+            "provisionalReason": "Unassessed raw artwork-edition reference only; printing and UPC undocumented. Single cached sale with approximate USD conversion and unverified original photographs.",
+            "reviewEvidence": {
+              "url": "https://www.ebay.com/itm/227306554623",
+              "reviewedAt": "2026-11-15T21:57:48.895Z",
+              "reviewedBy": "Owner-authorized provisional review",
+              "notes": "Direct cached eBay listing explicitly sold June13,2026, CAD49.99, and displays approximate USD35.73. Preserve displayed conversion, not a verified settlement exchange rate. Exact title: Orbit Eminem1 Caio Cacau Comic Kingdom Punisher homage regular trade dress /600, unsigned single unit. Owned edition previously confirmed against retailer cover; original eBay photos not independently retrieved (image links404 and direct HTML fetch failed). FullUPC/printing absent and year inconsistent in retailer catalogs. Condition unassessed; reference only outside total. Shipping CAD19.07 and tax excluded. Rabbit sold-out20 offer retained only as historical context, not current ask or sale.",
+              "listingId": "227306554623",
+              "soldAt": "2026-06-13",
+              "originalCurrency": "CAD",
+              "originalAmount": 49.99,
+              "displayedApproximateUSD": 35.73,
+              "upc": null,
+              "printing": null
+            }
+          }
+        ],
+        "selection": null
       },
       "images": {
         "front": "Raw_15-002_FRONT.jpg"
@@ -15034,10 +15093,10 @@
       "provider": null,
       "providerId": null,
       "cert": null,
-      "title": null,
-      "issue": null,
-      "variant": null,
-      "publisher": null,
+      "title": "Female Force: Taylor Swift",
+      "issue": "1",
+      "variant": "Steven Defendini Unknown Comics Exclusive X Variant (Trade Dress)",
+      "publisher": "TidalWave Productions",
       "issueYear": null,
       "holder": "bag-and-board",
       "holderSource": "owner",
@@ -15052,7 +15111,7 @@
       "identification": {
         "proposedAt": "2026-09-08T02:42:34.588Z",
         "proposedBy": "claude-visual-pass",
-        "status": "proposed",
+        "status": "confirmed",
         "candidates": [
           {
             "title": "Female Force: Taylor Swift",
@@ -15062,10 +15121,128 @@
             "confidence": "high",
             "source": "visual"
           }
-        ]
+        ],
+        "reviewedAt": "2026-11-15T21:57:48.895Z",
+        "sourceUrl": "https://www.knightofcomics.com/products/female-force-taylor-swift-unknown-comics-steven-defendini-exclusive-x-var-03-27-2024"
       },
       "location": "Comic Bin #15",
-      "valuation": null,
+      "valuation": {
+        "metadataReviews": [
+          {
+            "before": {
+              "identity": {
+                "kind": "comic",
+                "title": "",
+                "issue": "",
+                "issueYear": "",
+                "publisher": "",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "after": {
+              "identity": {
+                "kind": "comic",
+                "title": "Female Force: Taylor Swift",
+                "issue": "1",
+                "issueYear": "",
+                "publisher": "TidalWave Productions",
+                "variant": "Steven Defendini Unknown Comics Exclusive X Variant (Trade Dress)",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "condition": null
+            },
+            "evidence": {
+              "url": "https://www.knightofcomics.com/products/female-force-taylor-swift-unknown-comics-steven-defendini-exclusive-x-var-03-27-2024",
+              "reviewedAt": "2026-11-15T21:57:48.895Z",
+              "reviewedBy": "Owner-authorized scan and catalog review",
+              "notes": "Individually compared owned full-resolution front to retailer taylorswiftx.jpg: giant X portrait montage, central blue costume, white-framed title, TidalWave lower left, Female Force lower right, printed DEFENDINI23 credit. Exact X trade artwork, not standard portrait or virgin. Issue1 follows retailer series convention; owned indicia not available. Publication year, printing and fullUPC remain unknown; SKU SIG003974UC is notUPC. No condition inferred or autograph asserted."
+            }
+          }
+        ],
+        "legacyInvalidatedAt": "2026-11-15T21:57:49.066Z",
+        "observations": [
+          {
+            "id": "2026-11-15-full-pass-raw-15-060",
+            "copyId": "raw:15-060",
+            "basis": "raw-reference",
+            "value": 10,
+            "currency": "USD",
+            "source": {
+              "name": "Knight of Comics raw asking reference*",
+              "url": "https://www.knightofcomics.com/products/female-force-taylor-swift-unknown-comics-steven-defendini-exclusive-x-var-03-27-2024",
+              "asOf": null,
+              "retrievedAt": "2026-11-15T21:57:48.895Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Female Force: Taylor Swift",
+                "issue": "1",
+                "issueYear": "",
+                "publisher": "TidalWave Productions",
+                "variant": "Steven Defendini Unknown Comics Exclusive X Variant (Trade Dress)",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": null,
+              "grader": null,
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "provisional": true,
+            "provisionalReason": "Unassessed raw artwork-edition reference only; printing and UPC undocumented. Current retailer asking price, not a confirmed sale.",
+            "reviewEvidence": {
+              "url": "https://www.knightofcomics.com/products/female-force-taylor-swift-unknown-comics-steven-defendini-exclusive-x-var-03-27-2024",
+              "reviewedAt": "2026-11-15T21:57:48.895Z",
+              "reviewedBy": "Owner-authorized provisional review",
+              "notes": "Direct Shopify product JSON retrieved November15: available true, price1000cents, variant53788479652132, SKUSIG003974UC, barcode null. Product photo visually matches owned cover. Checkout not tested. Estimated from asking prices; not confirmed sales. FullUPC/printing remain undocumented; artwork-edition reference only. Condition unassessed; outside recorded collection total.",
+              "productVariantId": "53788479652132",
+              "sku": "SIG003974UC",
+              "upc": null,
+              "printing": null
+            }
+          }
+        ],
+        "selection": null
+      },
       "images": {
         "front": "Raw_15-060_FRONT.jpg"
       },

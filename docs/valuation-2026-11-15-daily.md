@@ -4,7 +4,7 @@ Researched12 copies across comics/cards. Imported and explicitly accepted Magnet
 
 Sources: https://www.ebay.com/sch/i.html?_nkw=magneton+promo+surging+sparks&_sop=12 and https://www.ebay.com/shop/magneton-surging-sparks-promo?_nkw=magneton+surging+sparks+promo . Full evidence in data/incoming/2026-11-15-daily-observations.json.
 
-Eleven unresolved copies and exclusions saved in data/incoming/2026-11-15-daily-research.json. These include BoBones, Wilwolf, Mamoswine, two Tyson foils, two Jordan trade copies, two Tupac grades, Kobe9.6 and Supergirl9.4. Different variants, grades, retailer grading preorders and ongoing bids excluded. New follow-up: MCS65706482 exact Supergirl WhatnotFoilB9.8 auction ends November16; revisit afterNovember17 for the owned9.8 copy. Its current12 bid is not a completed sale.
+Eleven unresolved copies and exclusions saved in data/incoming/2026-11-15-daily-research.json. These include BoBones, Wilwolf, Mamoswine, two Tyson foils, two Jordan trade copies, two Tupac grades, Kobe9.6 and Supergirl9.4. Different variants, grades, retailer grading preorders and ongoing bids excluded. Correction from full-record audit: MCS65706482 Universal9.8 does not match owned CGCxJSA4471693001, even after the auction ends. Do not use it as a price comparison.
 
 Remaining:102 graded copies (73comics,29cards),9 raw copies without references.448 valued;420 raw references;979 total. Raw references outside recorded total. Locked accepted values preserved. Persistent queue and daily progress updated.
 

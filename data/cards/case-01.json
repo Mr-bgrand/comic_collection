@@ -10117,7 +10117,75 @@
         "source": "CGC Cards",
         "url": "https://www.cgccards.com/population-report/tcg/pok%C3%A9mon/2/diamond-and-pearl/1079/great-encounters/15589/?populationID=483910"
       },
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-15-full-pass-CGC-1401011392237",
+            "copyId": "CGC:1401011392237",
+            "basis": "sold-comps",
+            "value": 11,
+            "currency": "USD",
+            "saleCount": 1,
+            "source": {
+              "name": "Scrydex secondary sales*",
+              "url": "https://scrydex.com/pokemon/cards/mankey/dp4-79",
+              "asOf": "2025-03-24",
+              "retrievedAt": "2026-11-15T21:53:01.362Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2008",
+                "brand": "Great Encounters",
+                "series": "",
+                "subject": "Mankey",
+                "cardNumber": "79/106",
+                "variety": "Reverse Holo",
+                "language": "English",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9.5",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Single stale secondary-reported sale; original eBay listing and comparable certificate could not be independently verified. Exact CGC 9.5 Reverse Holo, not an adjacent-grade price. Shipping/tax excluded.",
+            "reviewEvidence": {
+              "url": "https://scrydex.com/pokemon/cards/mankey/dp4-79",
+              "reviewedAt": "2026-11-15T21:53:01.362Z",
+              "reviewedBy": "Owner-authorized provisional review",
+              "notes": "Scrydex individual Recent Sales History row identifies 2008 Great Encounters English Reverse Holo Mankey #79 CGC 9.5 at USD11, dated March24,2025. Direct page reviewed; outbound eBay link failed to fetch. Owned CGC record confirms English Reverse Holo79/106, MINT+9.5. Excluded normal, CGC9/10 and PSA records.",
+              "sales": [
+                {
+                  "listingId": "376068568063",
+                  "url": "https://www.ebay.com/itm/376068568063",
+                  "soldAt": "2025-03-24",
+                  "price": 11,
+                  "comparableCert": null
+                }
+              ]
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-15-full-pass-CGC-1401011392237",
+          "locked": true,
+          "selectedAt": "2026-11-15T21:53:01.943Z"
+        }
+      },
       "cgc": {
         "gradeText": "MINT+ 9.5",
         "lookupGrade": "9.5",

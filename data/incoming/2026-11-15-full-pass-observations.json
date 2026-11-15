@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "CGC:1401011392237",
+      "revision": "cd27ab2e17c146426115282969bef4db1a87feacba840c74196dbfac0ad20f8f",
+      "observations": [
+        {
+          "id": "2026-11-15-full-pass-CGC-1401011392237",
+          "copyId": "CGC:1401011392237",
+          "basis": "sold-comps",
+          "value": 11,
+          "currency": "USD",
+          "saleCount": 1,
+          "source": {
+            "name": "Scrydex secondary sales*",
+            "url": "https://scrydex.com/pokemon/cards/mankey/dp4-79",
+            "asOf": "2025-03-24",
+            "retrievedAt": "2026-11-15T21:53:01.362Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2008",
+              "brand": "Great Encounters",
+              "series": "",
+              "subject": "Mankey",
+              "cardNumber": "79/106",
+              "variety": "Reverse Holo",
+              "language": "English",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9.5",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Single stale secondary-reported sale; original eBay listing and comparable certificate could not be independently verified. Exact CGC 9.5 Reverse Holo, not an adjacent-grade price. Shipping/tax excluded.",
+          "reviewEvidence": {
+            "url": "https://scrydex.com/pokemon/cards/mankey/dp4-79",
+            "reviewedAt": "2026-11-15T21:53:01.362Z",
+            "reviewedBy": "Owner-authorized provisional review",
+            "notes": "Scrydex individual Recent Sales History row identifies 2008 Great Encounters English Reverse Holo Mankey #79 CGC 9.5 at USD11, dated March24,2025. Direct page reviewed; outbound eBay link failed to fetch. Owned CGC record confirms English Reverse Holo79/106, MINT+9.5. Excluded normal, CGC9/10 and PSA records.",
+            "sales": [
+              {
+                "listingId": "376068568063",
+                "url": "https://www.ebay.com/itm/376068568063",
+                "soldAt": "2025-03-24",
+                "price": 11,
+                "comparableCert": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:D6943986",
+      "revision": "51990f00a2a1701b145d95b4c9274180dff82441ab90692f14a5f4da83762432",
+      "observations": [
+        {
+          "id": "2026-11-15-full-pass-TAG-D6943986",
+          "copyId": "TAG:D6943986",
+          "basis": "psa-comparison",
+          "evidenceKind": "sold-comps",
+          "value": 20.23,
+          "currency": "USD",
+          "saleCount": 2,
+          "source": {
+            "name": "Scrydex secondary sales / PSA comparison*",
+            "url": "https://scrydex.com/pokemon/cards/origin-forme-palkia-vstar/swsh10-40?variant=holofoil",
+            "asOf": "2026-11-03",
+            "retrievedAt": "2026-11-15T21:53:01.362Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2022",
+              "brand": "ASTRAL RADIANCE",
+              "series": "POKÉMON SWORD & SHIELD",
+              "subject": "ORIGIN FORME PALKIA VSTAR",
+              "cardNumber": "040/189",
+              "variety": "ULTRA RARE",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "7",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized same-numeric-grade PSA7 fallback for TAG7; no reliable exact TAG7 evidence found. Two secondary-reported sales; originals and comparable certs inaccessible. Midpoint USD20.225 rounded to20.23. Shipping/tax excluded.",
+          "reviewEvidence": {
+            "url": "https://scrydex.com/pokemon/cards/origin-forme-palkia-vstar/swsh10-40?variant=holofoil",
+            "reviewedAt": "2026-11-15T21:53:01.362Z",
+            "reviewedBy": "Owner-authorized provisional review",
+            "notes": "Scrydex individual sale rows identify 2022 Pokemon Sword & Shield Astral Radiance #040 Origin Forme Palkia VSTAR PSA7 at19.95 and20.50 on November3,2026. Direct page reviewed and both outbound eBay links failed to fetch. Excluded older October25 row to avoid possible duplicate, PSA6/8/9/10, Play Pokemon stamp and World Championship variants. Owned slab front inspected: English standard040/189, TAG7 certD6943986, no stamp. No modeled market widget used.",
+            "sales": [
+              {
+                "listingId": "900042998755",
+                "url": "https://www.ebay.com/itm/900042998755",
+                "soldAt": "2026-11-03",
+                "price": 19.95,
+                "comparableCert": null
+              },
+              {
+                "listingId": "900042995826",
+                "url": "https://www.ebay.com/itm/900042995826",
+                "soldAt": "2026-11-03",
+                "price": 20.5,
+                "comparableCert": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4526002007",
+      "revision": "d636f95ec347d977250e93bc5501ac035441b40b60c832a334b6104277927297",
+      "observations": [
+        {
+          "id": "2026-11-15-full-pass-CGC-4526002007",
+          "copyId": "CGC:4526002007",
+          "basis": "owner",
+          "value": 199,
+          "currency": "USD",
+          "source": {
+            "name": "eBay exact slab asking estimate*",
+            "url": "https://www.ebay.com/itm/257655628917",
+            "asOf": null,
+            "retrievedAt": "2026-11-15T21:55:31.447Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Tribute: Tupac Shakur",
+              "issue": "nn",
+              "issueYear": "1900",
+              "publisher": "TidalWave Comics",
+              "variant": "Cacau \"Virgin\" Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Estimated from asking prices; not confirmed sales. One current USD199 or Best Offer listing; shipping/tax excluded. Photos and seller description match Cacau Virgin Universal9.8; contradictory signed David Sanchez item specifics are not corroborated by photos/label/description and remain an uncertainty.",
+          "reviewEvidence": {
+            "url": "https://www.ebay.com/itm/257655628917",
+            "reviewedAt": "2026-11-15T21:55:31.447Z",
+            "reviewedBy": "Owner-authorized provisional review",
+            "listingId": "257655628917",
+            "comparableCert": "4761759004",
+            "soldAt": null,
+            "notes": "Direct listing reviewed November15: USD199 or Best Offer, single unit, shipping12.70 excluded. Owned4526002007 front compared to listing front/back: same Caio Cacau Crow homage, Universal9.8, Cacau Virgin, Comic Kingdom Creative/Comics Elite exclusive. Back identifies300art-only copies; seller description confirms300. No additional handwritten signature visible; printed Caio Cacau signature also on owned cover. Item specifics incorrectly say David Sanchez/signed, whereas photo label and description identify Caio Cacau. Alternative Exchange Collectibles79 offer has up-to-five-month grading fulfillment and is not averaged with an existing slab.",
+            "alternative": {
+              "url": "https://exchangecollectibles.com/products/tribute-topac-shakur-1-virgin-cgc-9-8",
+              "askingPrice": 79,
+              "reason": "Deferred grading fulfillment up to5months; contextual alternative, not current certified slab."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-060",
+      "revision": "c19e2e6ecc0ab2ec906e7f160eee50524a9f6e39b9a14c1cb4eb746bdf74a86e",
+      "observations": [
+        {
+          "id": "2026-11-15-full-pass-raw-15-060",
+          "copyId": "raw:15-060",
+          "basis": "raw-reference",
+          "value": 10,
+          "currency": "USD",
+          "source": {
+            "name": "Knight of Comics raw asking reference*",
+            "url": "https://www.knightofcomics.com/products/female-force-taylor-swift-unknown-comics-steven-defendini-exclusive-x-var-03-27-2024",
+            "asOf": null,
+            "retrievedAt": "2026-11-15T21:57:48.895Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Female Force: Taylor Swift",
+              "issue": "1",
+              "issueYear": "",
+              "publisher": "TidalWave Productions",
+              "variant": "Steven Defendini Unknown Comics Exclusive X Variant (Trade Dress)",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Unassessed raw artwork-edition reference only; printing and UPC undocumented. Current retailer asking price, not a confirmed sale.",
+          "reviewEvidence": {
+            "url": "https://www.knightofcomics.com/products/female-force-taylor-swift-unknown-comics-steven-defendini-exclusive-x-var-03-27-2024",
+            "reviewedAt": "2026-11-15T21:57:48.895Z",
+            "reviewedBy": "Owner-authorized provisional review",
+            "notes": "Direct Shopify product JSON retrieved November15: available true, price1000cents, variant53788479652132, SKUSIG003974UC, barcode null. Product photo visually matches owned cover. Checkout not tested. Estimated from asking prices; not confirmed sales. FullUPC/printing remain undocumented; artwork-edition reference only. Condition unassessed; outside recorded collection total.",
+            "productVariantId": "53788479652132",
+            "sku": "SIG003974UC",
+            "upc": null,
+            "printing": null
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "raw:15-002",
+      "revision": "c19e2e6ecc0ab2ec906e7f160eee50524a9f6e39b9a14c1cb4eb746bdf74a86e",
+      "observations": [
+        {
+          "id": "2026-11-15-full-pass-raw-15-002",
+          "copyId": "raw:15-002",
+          "basis": "raw-reference",
+          "value": 35.73,
+          "currency": "USD",
+          "source": {
+            "name": "eBay raw sale reference / approximate USD*",
+            "url": "https://www.ebay.com/itm/227306554623",
+            "asOf": "2026-06-13",
+            "retrievedAt": "2026-11-15T21:57:48.895Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Orbit: Eminem",
+              "issue": "1",
+              "issueYear": "",
+              "publisher": "TidalWave Productions",
+              "variant": "Caio Cacau Punisher #1 Homage Trade Dress",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": null,
+            "grader": null,
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Unassessed raw artwork-edition reference only; printing and UPC undocumented. Single cached sale with approximate USD conversion and unverified original photographs.",
+          "reviewEvidence": {
+            "url": "https://www.ebay.com/itm/227306554623",
+            "reviewedAt": "2026-11-15T21:57:48.895Z",
+            "reviewedBy": "Owner-authorized provisional review",
+            "notes": "Direct cached eBay listing explicitly sold June13,2026, CAD49.99, and displays approximate USD35.73. Preserve displayed conversion, not a verified settlement exchange rate. Exact title: Orbit Eminem1 Caio Cacau Comic Kingdom Punisher homage regular trade dress /600, unsigned single unit. Owned edition previously confirmed against retailer cover; original eBay photos not independently retrieved (image links404 and direct HTML fetch failed). FullUPC/printing absent and year inconsistent in retailer catalogs. Condition unassessed; reference only outside total. Shipping CAD19.07 and tax excluded. Rabbit sold-out20 offer retained only as historical context, not current ask or sale.",
+            "listingId": "227306554623",
+            "soldAt": "2026-06-13",
+            "originalCurrency": "CAD",
+            "originalAmount": 49.99,
+            "displayedApproximateUSD": 35.73,
+            "upc": null,
+            "printing": null
+          }
+        }
+      ]
+    }
+  ]
+}

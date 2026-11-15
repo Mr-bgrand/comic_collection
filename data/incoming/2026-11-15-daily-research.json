@@ -91,7 +91,6 @@
   ],
   "uncheckedLeads": [
     "Recover Magneton original eBay listing ID/cert",
-    "After November17 check completed MCS65706482 for ownedCGC4471693001 WhatnotFoilB9.8; do not use current12 bid",
     "ExactJordan trade9.8 listing"
   ],
   "remaining": {
@@ -99,5 +98,6 @@
     "comics": 73,
     "cards": 29,
     "rawWithoutReference": 9
-  }
+  },
+  "correction": "Full-pass audit: owned4471693001 is CGCxJSA; UniversalMCS65706482 not matching evidence."
 }

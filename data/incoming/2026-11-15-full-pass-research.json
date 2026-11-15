@@ -1,0 +1,3804 @@
+{
+  "retrievedAt": "2026-11-15T21:58:42.264Z",
+  "scope": "All111 remaining copies audited and researched; source access varies and is identified per entry. No claim every auction archive was exhausted.",
+  "copiesResearched": 111,
+  "pricesAdded": 3,
+  "referencesAdded": 2,
+  "counts": {
+    "total": 979,
+    "valued": 451,
+    "gradedMissing": 99,
+    "comicsMissing": 72,
+    "cardsMissing": 27,
+    "rawReferences": 422,
+    "rawWithoutReference": 7
+  },
+  "items": [
+    {
+      "copyId": "CGC:6001871064",
+      "title": "Blaine CGC9 Japanese trainer nonholo",
+      "status": "evidence-gap",
+      "reason": "No exact priced offer verified. CollectSherpa exact CGC9 page surfaced but direct fetch inaccessible; English Blaine100 and Arcanine results wrong identity. Reddit2021 $35 JPN Blaine lacks verified nonholo image.",
+      "url": "https://collectsherpa.com/cards/japanese/blaine-normal-575344/cgc/9",
+      "access": "targeted search/index; no claim of original verification",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:6042459106",
+      "title": "Dodrio Meiji foil CGC7.5",
+      "status": "evidence-gap",
+      "reason": "No matching CGC7.5 offer. Torebun exact1997 Meiji reports no PSA sales; TCGBerg catalog/population not price. Carddass85 excluded.",
+      "url": "https://www.tcgberg.com/cards/dodrio-japanese-meiji-promos-1997-p-dodrio-foil-7329242",
+      "access": "targeted search/index; no claim of original verification",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "ArenaClub:8AC002362928",
+      "title": "Professor Turo257 Arena Club9.5",
+      "status": "evidence-gap",
+      "reason": "Two exact Arena Club searches returned no matching priced record.",
+      "url": null,
+      "access": "targeted search/index; no claim of original verification",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:1401011131203",
+      "title": "Cacturne21 Topps Advanced Silver CGC9",
+      "status": "evidence-gap",
+      "reason": "Search returned Sandstorm2/100 CGC9 $49.95, wrong set; Advanced base catalog is not silver foil; no exact offer.",
+      "url": "https://www.ebay.com/itm/298360261934",
+      "access": "targeted search/index; no claim of original verification",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:1401011392237",
+      "title": "Mankey79 Reverse CGC9.5",
+      "status": "provisional-candidate",
+      "reason": "Exact individually linked sale recovered; see candidate.",
+      "url": "https://scrydex.com/pokemon/cards/mankey/dp4-79",
+      "access": "direct page and search",
+      "amount": null,
+      "integration": {
+        "status": "accepted-provisional",
+        "value": 11
+      }
+    },
+    {
+      "copyId": "PSA:114218230",
+      "title": "Maason Smith RA-MSM red PSA10",
+      "status": "evidence-gap",
+      "reason": "Exact search and expanded red Sapphire search found base267 red and Gold Standard197, neither autograph RA-MSM PSA10.",
+      "url": "https://www.sportscardinvestor.com/cards/maason-smith-football/2024-topps-chrome-sapphire-edition-red-267",
+      "access": "targeted search/index; no claim of original verification",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "PSA:114218231",
+      "title": "Trey Benson RMITBN PSA9",
+      "status": "evidence-gap",
+      "reason": "Only matching grade result is Green /5 $189 asking, wrong parallel.",
+      "url": "https://www.ebay.com/itm/397501105832",
+      "access": "targeted search/index; no claim of original verification",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "PSA:121297947",
+      "title": "Korean Pikachu173 PSA6",
+      "status": "evidence-gap",
+      "reason": "TCGCharts exact Korean catalog explicitly no sales data; PSA6 population7 is not a price. Japanese173 excluded.",
+      "url": "https://tcgcharts.com/pokemon/pokemon-card-151-korean/pikachu-173",
+      "access": "targeted search/index; no claim of original verification",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "PSA:121629672",
+      "title": "Marvin Harrison Rookie Pix Red6 PSA10",
+      "status": "evidence-gap",
+      "reason": "Exact catalog shows no PSA10 sale; PSA9 /49 eBay358067918945 is wrong grade.",
+      "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-photogenic-rookie-pix/marvin-harrison-jr-red-6",
+      "access": "targeted search/index; no claim of original verification",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "PSA:160521636",
+      "title": "Koufax71 Sap Green PSA9",
+      "status": "evidence-gap",
+      "reason": "Exact catalog no grade9 transactions; $199 PSA10 wrong grade. eBay base PSA9 $39.99 is wrong parallel.",
+      "url": "https://www.sportscardspro.com/game/baseball-cards-2025-topps-x-bob-ross/sandy-koufax-sap-green-71",
+      "access": "targeted search/index; no claim of original verification",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "PSA:160521637",
+      "title": "Coby Mayo91G Sap Green autograph PSA10",
+      "status": "evidence-gap",
+      "reason": "Clector explicitly labels $55 Sep8 2026 RAW; not PSA10.",
+      "url": "https://theclector.com/cards/baseball/mlb/topps/2025/bob-ross/autographs-sap-green/coby-mayo-47352/5211472",
+      "access": "targeted search/index; no claim of original verification",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "PSA:169169668",
+      "title": "Reggie Jackson61 Paint Splatter PSA10",
+      "status": "evidence-gap",
+      "reason": "Clector $29 recent and $35 older lack PSA10 and are raw. Shoebox51 wrong set. No exact graded offer.",
+      "url": "https://theclector.com/cards/baseball/mlb/topps/2025/bob-ross/base-paint-splatter",
+      "access": "targeted search/index; no claim of original verification",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "PSA:169169671",
+      "title": "Mookie Betts10 base PSA9",
+      "status": "evidence-gap",
+      "reason": "Base query again yields Prussian Blue $145, Titanium White and Indian Yellow. Prior original317686887365 and900048731326 remain unresolved historical leads; no new exact base offer.",
+      "url": "https://www.ebay.com/b/2025-Topps-X-Bob-Ross-the-Joy-of-Baseball-Mookie-Betts-10/212/bn_138071310354",
+      "access": "targeted search/index; no claim of original verification",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "PSA:169169674",
+      "title": "Ben Rice84 Indian Yellow PSA9",
+      "status": "evidence-gap",
+      "reason": "Exact set catalog blank grade9; $650 IndianYellow autograph84 differs. No exact PSA9 offer.",
+      "url": "https://www.sportscardspro.com/de/console/baseball-cards-2025-topps-x-bob-ross?sort=name",
+      "access": "targeted search/index; no claim of original verification",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "PSA:169169675",
+      "title": "Ichiro69 base PSA10",
+      "status": "evidence-gap",
+      "reason": "Solflare exact base PSA10 $350 insured value is not sale or asking price. Prior eBay318797778388 direct inaccessible. PaintSplatter $299 and69-SP excluded.",
+      "url": "https://www.solflare.com/packs/baseball/topps-x-bob-ross-the-joy-of-baseball/ichiro-2025-069/",
+      "access": "direct page and search",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "PSA:173415132",
+      "title": "Misiorowski CHR-JM PSA8 auto10 /50",
+      "status": "evidence-gap",
+      "reason": "No exact dual-grade Chromographs record. RA-JM green PSA8 auto10 and91B2-JM differ.",
+      "url": "https://www.ebay.com/sch/i.html?_nkw=jacob+misiorowski+autograph&_sop=12",
+      "access": "targeted search/index; no claim of original verification",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "PSA:173415133",
+      "title": "Bo Nix SC-BN Orange PSA10 auto8 /50",
+      "status": "evidence-gap",
+      "reason": "SportsCardsPro $1206.24 widget not traceable same dual-grade sale. SCL-BN and auto10 not substitutes.",
+      "url": "https://www.sportscardspro.com/search-products?q=bo+nix+orange+47&type=prices",
+      "access": "targeted search/index; no claim of original verification",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "PSA:173415134",
+      "title": "Jaxson Dart106 autograph PSA8 auto10",
+      "status": "evidence-gap",
+      "reason": "Dealer cert167907608 page has no exact sale; header buy-now points to other Jaxson cards. Indexed $1900 was Helix10; direct header $415 corresponds Mosaic Cookies10. No auto10 match established.",
+      "url": "https://beta.5starcards.com/card/2025-topps-signature-class-jaxson-dart-106-nm-mt-8-167907608",
+      "access": "direct page and search",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "TAG:C5407435",
+      "title": "Bo Bones Lunar Gold TAG9",
+      "status": "evidence-gap",
+      "reason": "Manufacturer randomized drop does not guarantee LunarGold or9; no exact secondary listing.",
+      "url": "https://taggrading.com/collections/world-scaries-2025/products/bo-bones-art-card-drop-ltd-ed-serialized-copy",
+      "access": "targeted search/index; no claim of original verification",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "TAG:D6943986",
+      "title": "Palkia040 Astral TAG7",
+      "status": "provisional-candidate",
+      "reason": "Exact individually linked PSA7 sales recovered, authorized numeric fallback; see candidate.",
+      "url": "https://scrydex.com/pokemon/cards/origin-forme-palkia-vstar/swsh10-40?variant=holofoil",
+      "access": "direct page and search",
+      "amount": null,
+      "integration": {
+        "status": "accepted-provisional",
+        "value": 20.23
+      }
+    },
+    {
+      "copyId": "TAG:E4095241",
+      "title": "Bubba Chandler BDC41 Sapphire TAG7",
+      "status": "evidence-gap",
+      "reason": "TAG7 and PSA7 exact searches yield no match. eBay raw Sapphire24.99 and Chrome Refractor wrong condition/set.",
+      "url": "https://www.ebay.com/p/24055873933",
+      "access": "targeted search/index; no claim of original verification",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "TAG:G7325430",
+      "title": "Wilwolf Blood Red TAG10",
+      "status": "evidence-gap",
+      "reason": "Manufacturer random drop identifies BloodRed /5 but cannot price exact parallel/grade.",
+      "url": "https://taggrading.com/en-jp/products/wilwolf-art-card-drop-ltd-ed-serialized",
+      "access": "targeted search/index; no claim of original verification",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "TAG:H5133767",
+      "title": "Chourio193 Optic Orange /199 TAG10",
+      "status": "evidence-gap",
+      "reason": "Only OrangeVelocity PSA10 $48/$65.99 or24 bid, wrong parallel.",
+      "url": "https://www.ebay.com/p/26069579930",
+      "access": "targeted search/index; no claim of original verification",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "TAG:L3302729",
+      "title": "Mamoswine174 TAG8.5",
+      "status": "evidence-gap",
+      "reason": "Multiple sources show no TAG8.5/PSA8.5 sales; CGC8.5 and TAG9/10 excluded.",
+      "url": "https://collectsherpa.com/cards/english/mamoswine-ex-174-159-holofoil-623601/raw/near-mint",
+      "access": "targeted search/index; no claim of original verification",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "TAG:L4878840",
+      "title": "Henry Davis BDC48 Sapphire Yellow TAG10",
+      "status": "evidence-gap",
+      "reason": "Exact yellow Fanatics PSA9 listing found, wrong grade; no TAG10 or PSA10.",
+      "url": "https://www.fanaticscollect.com/buy-now/e715d1c4-27bc-43f6-90da-2c58d2a4146e",
+      "access": "targeted search/index; no claim of original verification",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "TAG:R1562007",
+      "title": "Brady Cook PA-BCO Sapphire Orange TAG10",
+      "status": "evidence-gap",
+      "reason": "Exact subset catalog but no10 transaction. SS-BC249.99 cert110980543 wrong subset.",
+      "url": "https://www.ebay.com/itm/146603104773",
+      "access": "targeted search/index; no claim of original verification",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "TAG:U5165558",
+      "title": "Jared Jones USC43 Prism TAG8.5",
+      "status": "evidence-gap",
+      "reason": "Exact TAG query none; broad8.5 returns population for USC143 debut, wrong number. No PSA8.5 comparable.",
+      "url": "https://www.gemrate.com/card/15eb1cf647e8724fe77455de31a78e43c2c36e74/2024-jared-jones-topps-chrome-update-prism-refractor-usc143",
+      "access": "targeted search/index; no claim of original verification",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "TAG:V3539115",
+      "title": "Bubba Chandler CDA-BC Gold Wave TAG8",
+      "status": "evidence-gap",
+      "reason": "Exact PSA8 query finds PSA9 GoldWave349.99 and unrelated2026 card model; no exact TAG8/PSA8.",
+      "url": "https://www.ebay.com/b/2021-Bowman-Draft-Bubba-Chandler-CDA-BC/212/bn_7123885207",
+      "access": "targeted search/index; no claim of original verification",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "TAG:Y6882653",
+      "title": "Seth Henigan162 Sapphire Red TAG10",
+      "status": "evidence-gap",
+      "reason": "Exact RedSapphire catalog has no grade10 price. RegularChromeRed grade9 $15.50 and2025 RA-SH differ.",
+      "url": "https://www.sportscardspro.com/search-products?q=seth+henigan+red+wave+26&type=prices",
+      "access": "targeted search/index; no claim of original verification",
+      "amount": null,
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CBCS:21-2EC8B4A-002",
+      "title": "Canto II: The Hollow Men #1 : Gotham Central/El Rey Virgin",
+      "grader": "CBCS",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2020",
+        "variant": "Gotham Central/El Rey Virgin",
+        "labelCategory": "Authentic",
+        "artComments": null,
+        "keyComments": null,
+        "signatures": [
+          {
+            "name": "Peach Momoko",
+            "witnessed": true,
+            "date": "2021-06-01"
+          }
+        ],
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-09",
+        "reason": "Targeted exact-grader search no usable match.",
+        "ledger": "data/originals/2026-11-09-daily-research.json",
+        "nextLead": "Rotate to other candidates; exact edition/grader evidence still needed"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Canto Momoko CBCS 9.8 queries found error edition unsigned and Booher-signed offers, not owned witnessed Peach Momoko Gotham/El Rey virgin.",
+      "evidence": [
+        {
+          "url": "https://gocollect.com/comic/canto-ii-the-hollow-men-1-momoko-variant-cover",
+          "observedAt": "2026-11-15",
+          "access": "Search index; not direct page verification except MCS Do You Pooh catalog",
+          "accepted": false
+        }
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CBCS:21-45DB4BC-045",
+      "title": "Reflections #14",
+      "grader": "CBCS",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2009",
+        "variant": null,
+        "labelCategory": "Certified",
+        "artComments": null,
+        "keyComments": "Only graded copy in the CBCS census.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": "https://www.cbcscomics.com/grading-notes/21-45DB4BC-045"
+      },
+      "priorResearch": {
+        "date": "2026-11-09",
+        "reason": "Targeted exact-grader search no usable match.",
+        "ledger": "data/originals/2026-11-09-daily-research.json",
+        "nextLead": "Rotate to other candidates; exact edition/grader evidence still needed"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Targeted exact-grader search no usable match.",
+      "evidence": [],
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:2691440008",
+      "title": "Revolution #1 : Sharper Collectibles Edition",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2016",
+        "variant": "Sharper Collectibles Edition",
+        "labelCategory": "Signature Series",
+        "artComments": "Cullen Bunn & John Barber story\nFico Ossio art\nMychaels, Nunez, Ramodelli & Shah cover",
+        "keyComments": null,
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-12",
+        "reason": "Registry points are not dollars; no exact asking/sale evidence.",
+        "ledger": "data/originals/2026-11-12-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Registry points are not dollars; no exact asking/sale evidence.",
+      "evidence": [],
+      "identityGap": "Structured signer absent; verify label photo or full signature text before comparable acceptance.",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:2765925001",
+      "title": "TMNT/Usagi Yojimbo: Wherewhen #2",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2023",
+        "variant": null,
+        "labelCategory": "Signature Series",
+        "artComments": "Stan Sakai story, cover & art",
+        "keyComments": "Wraparound cover.",
+        "signatures": [
+          {
+            "name": "Kevin Eastman",
+            "date": "2023-07-19"
+          }
+        ],
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": "https://www.cgccomics.com/certlookup/2765925001/"
+      },
+      "priorResearch": null,
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Search results issue2 Eastman 1:100 unsigned and issue1 dual-signed differ from owned Sakai wraparound signed Kevin Eastman.",
+      "evidence": [
+        {
+          "url": "https://www.ebay.com/b/Usagi-Yojimbo-Certified-Guaranty-Company-CGC-Comics-Graphic-Novels-TPBs/259104/bn_3053253",
+          "observedAt": "2026-11-15",
+          "access": "Search index; not direct page verification except MCS Do You Pooh catalog",
+          "accepted": false
+        }
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:3760617001",
+      "title": "White Widow #2 : Rebel Killer Edition",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2019",
+        "variant": "Rebel Killer Edition",
+        "labelCategory": "Signature Series",
+        "artComments": "Brian Powell story\nIwan Nazif art\nJamie Tyndall cover",
+        "keyComments": "Indicia reads White Widow #1",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-13",
+        "reason": "Heritage129 Jan2,2024 lot11956 contains3different books; cannot allocate. MCS189.99 cert4681385010 lacks matching signer. Owned signer still unknown.",
+        "ledger": "data/incoming/2026-11-13-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Heritage129 Jan2,2024 lot11956 contains3different books; cannot allocate. MCS189.99 cert4681385010 lacks matching signer. Owned signer still unknown.",
+      "evidence": [],
+      "identityGap": "Structured signer absent; verify label photo or full signature text before comparable acceptance.",
+      "freshSearchQuery": "White Widow #2 : Rebel Killer Edition CGC 9.8 ",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://www.pricecharting.com/game/comic-books-star-wars-obi-wan/star-wars-obi-wan-momoko-1-2022",
+        "https://gocollect.com/comic/star-wars-obi-wan-kenobi-1",
+        "https://comics.ha.com/itm/modern-age-1980-present-/superhero/white-widow-2-variant-covers-signature-series-group-of-3-absolute-comics-group-2019-cgc-nm-mt-98-total-3-c/a/122401-11956.s",
+        "https://www.pricecharting.com/game/comic-books-back-to-the-future/back-to-the-future-1-1991",
+        "https://gocollect.com/comic/spider-gwen-shadow-clones-1",
+        "https://gocollect.com/comic/star-wars-episode-i-obi-wan-kenobi-1-ewan-mcgregor-photo-variant",
+        "https://www.mycomicshop.com/comicbooks/item?ivitems=58019344",
+        "https://www.mycomicshop.com/search?p=2&q=White+2",
+        "https://www.ebay.com/shop/star-wars-obi-wan-comic?_nkw=star+wars+obi+wan+comic",
+        "https://gocollect.com/comic/star-wars-obi-wan-kenobi-1-6",
+        "https://gocollect.com/comic/star-wars-obi-wan-kenobi-1-2",
+        "https://www.mycomicshop.com/search?ItemID=62825250",
+        "https://prhcomics.com/wp-content/uploads/2022/02/PREVIEWS2021006_MAY_2022_FINAL.pdf",
+        "https://fenixflamecomics.com/wp-content/uploads/2016/04/Order-Form-CGC-Collectors-and-Dealers.pdf",
+        "https://www.fpnyc.com/store/go/catalogue/",
+        "https://prhcomics.com/wp-content/uploads/2023/06/PREVIEWS2021022_FINAL_SEPT_2023.pdf",
+        "https://prhcomics.com/wp-content/uploads/2022/12/PREVIEWS2021016_MARCH_2023_FINAL.pdf",
+        "https://borg.com/wp-content/uploads/2015/10/backtothefuture_01-pr.pdf",
+        "https://en.wikipedia.org/wiki/Spider-Gwen",
+        "https://www.reddit.com/r/CGCComics/comments/1u0hqkl/do_i_send_to_grade_star_wars_1st_editions/",
+        "https://www.reddit.com/r/StarWarsEU/comments/1tyk7p7/having_trouble_finding_this_artwork_in_high_res/",
+        "https://en.wikipedia.org/wiki/List_of_Marvel_Comics_publications_%28S%29",
+        "https://www.reddit.com/r/CGCComics/comments/1ms1iqe",
+        "https://www.space.com/entertainment/space-books/darth-vader-wields-the-infinity-gauntlet-in-the-first-ever-official-star-wars-and-marvel-crossover",
+        "https://apnews.com/article/eadabeaadbb12e114623756ef0757244",
+        "https://www.huffingtonpost.es/sociedad/unos-hermanos-topan-comic-superman-atico-acaba-vendiendose-78-millones-euros.html",
+        "https://apnews.com/article/0bd4b08494eeb271e32557362815f5ff"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4137946001",
+      "title": "All-New Ghost Rider: Engines of Vengeance #1 : Second Printing",
+      "grader": "CGC",
+      "grade": "9.4",
+      "identity": {
+        "issueYear": "2016",
+        "variant": "Second Printing",
+        "labelCategory": "Universal",
+        "artComments": "Tradd Moore cover",
+        "keyComments": "Collects All-New Ghost Rider #1-5",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-11",
+        "reason": "Owned record is 2016 collected edition #1-5; 2014 single-issue second-print comparisons excluded.",
+        "ledger": "data/incoming/2026-11-11-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Owned record is 2016 collected edition #1-5; 2014 single-issue second-print comparisons excluded.",
+      "evidence": [],
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4177706002",
+      "title": "Do You Pooh? #1 : Desjardins Green Crystal Edition",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2022",
+        "variant": "Desjardins Green Crystal Edition",
+        "labelCategory": "Universal",
+        "artComments": "Terry Sala & Marat Mychaels story\nDietrich Smith & Marat Mychaels art\nJohnny Desjardins cover",
+        "keyComments": "New York Comic Con exclusive.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": null,
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Exact Green Crystal query found no priced matching slab. Spawn Green Prism sold150 is not proven Desjardins Green Crystal. MCS catalog direct find Crystal returns unrelated editions.",
+      "evidence": [
+        {
+          "url": "https://www.mycomicshop.com/search?minyrmo=201303&tid=39350765",
+          "observedAt": "2026-11-15",
+          "access": "Search index; not direct page verification except MCS Do You Pooh catalog",
+          "accepted": false
+        }
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4177706003",
+      "title": "Do You Pooh? #1 : Whatnot NYCC Foil Edition A",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2022",
+        "variant": "Whatnot NYCC Foil Edition A",
+        "labelCategory": "Universal",
+        "artComments": "Terry Sala & Marat Mychaels story\nDietrich Smith & Marat Mychaels art\nMarat Mychaels cover",
+        "keyComments": "Multiple foil variants exist.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": null,
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Whatnot NYCC foilA9.8 search found different year, signed editions and Captain PoohmericaB. No exact label/foil match.",
+      "evidence": [
+        {
+          "url": "https://www.mycomicshop.com/search?minyrmo=201303&tid=39350765",
+          "observedAt": "2026-11-15",
+          "access": "Search index; not direct page verification except MCS Do You Pooh catalog",
+          "accepted": false
+        }
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4198680001",
+      "title": "Back to the Future #1 : Local Comic Shop Day Edition",
+      "grader": "CGC",
+      "grade": "7.5",
+      "identity": {
+        "issueYear": "2015",
+        "variant": "Local Comic Shop Day Edition",
+        "labelCategory": "Universal",
+        "artComments": "Bob Gale, John Barber &\nErik Burnham stories\nBrent Schoonover & Dan Schoening art",
+        "keyComments": "Dan Schoening cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-12",
+        "reason": "No exact priced result; other editions/grades excluded.",
+        "ledger": "data/originals/2026-11-12-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "No exact priced result; other editions/grades excluded.",
+      "evidence": [],
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4198680004",
+      "title": "Star Wars: Darth Vader #29 : East Side Comics Edition",
+      "grader": "CGC",
+      "grade": "9.6",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "East Side Comics Edition",
+        "labelCategory": "Universal",
+        "artComments": "Greg Pak story\nLuke Ross art\nRahzzah cover",
+        "keyComments": "\"Virgin\" cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-13",
+        "reason": "Registry not sale; no exact9.6 result.",
+        "ledger": "data/incoming/2026-11-13-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Registry not sale; no exact9.6 result.",
+      "evidence": [],
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4198680009",
+      "title": "Spider-Man #4 : Variant Edition",
+      "grader": "CGC",
+      "grade": "9.4",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Variant Edition",
+        "labelCategory": "Universal",
+        "artComments": "Dan Slott story\nMark Bagley, Andrew Hennessy &\nJohn Dell art, John Cassaday cover",
+        "keyComments": "Spider-Man #160\nMarvel Team-Up #1 cover homage.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-13",
+        "reason": "No exact priced result.",
+        "ledger": "data/incoming/2026-11-13-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "No exact priced result.",
+      "evidence": [],
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4203411005",
+      "title": "Whatnot Publishing Sampler #1 : Kickstradomis Red Lava Edition",
+      "grader": "CGC",
+      "grade": "10",
+      "identity": {
+        "issueYear": "2022",
+        "variant": "Kickstradomis Red Lava Edition",
+        "labelCategory": "Universal",
+        "artComments": "Kickstradomis cover",
+        "keyComments": "Previews Alpha Betas, Ninja Funk,\nQuested & The Exiled.\nLava foil cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-10",
+        "reason": "No exact CGC10 price surfaced.",
+        "ledger": "data/originals/2026-11-10-daily-research.json",
+        "nextLead": "Rotate candidates; retain exact edition/grade/finish requirements."
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "No exact CGC10 price surfaced.",
+      "evidence": [],
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4214394001",
+      "title": "Do You Pooh? #1 : SMZ Comics Convention Metal Edition B",
+      "grader": "CGC",
+      "grade": "9.9",
+      "identity": {
+        "issueYear": "2021",
+        "variant": "SMZ Comics Convention Metal Edition B",
+        "labelCategory": "Universal",
+        "artComments": "Terry Sala & Marat Mychaels story\nDietrich Smith & Marat Mychaels art\nMarat Mychaels cover",
+        "keyComments": "\"Virgin\" cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": null,
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "SMZ metal9.9 search found unrelated signed/remarked CBCS and different editions. No same Universal metalB9.9.",
+      "evidence": [
+        {
+          "url": "https://clanmcdonaldcomics.com/collections/pooh",
+          "observedAt": "2026-11-15",
+          "access": "Search index; not direct page verification except MCS Do You Pooh catalog",
+          "accepted": false
+        }
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4214394003",
+      "title": "The Exiled #1 : SMZ Comics Foil Edition",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "SMZ Comics Foil Edition",
+        "labelCategory": "Qualified",
+        "artComments": "Wesley Snipes, Adam Lawson &\nKeith Arem story\nGabriel \"Eskivo\" Santos art",
+        "keyComments": "Alex Riegel cover\n\"Akira\" cover homage.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-13",
+        "reason": "Mercari virgin comparison does not establish foil and Qualified match.",
+        "ledger": "data/incoming/2026-11-13-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Mercari virgin comparison does not establish foil and Qualified match.",
+      "evidence": [],
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4245413002",
+      "title": "Spider-Gwen: Shadow Clones #1 : Variant Edition",
+      "grader": "CGC",
+      "grade": "9.0",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Variant Edition",
+        "labelCategory": "Universal",
+        "artComments": "Emily Kim story\nKei Zama art\nBrian Stelfreeze cover",
+        "keyComments": null,
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": null,
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Exact available same-grade edition and label evidence required.",
+      "evidence": [],
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4245413012",
+      "title": "Amazing Fantasy #1000",
+      "grader": "CGC",
+      "grade": "9.0",
+      "identity": {
+        "issueYear": "2022",
+        "variant": null,
+        "labelCategory": "Universal",
+        "artComments": "Falcone, Cho, Slott, Iannucci, Rowell,\nAnderson, Busiek, Hickman & Gaiman\nstories, John Romita Jr. cover",
+        "keyComments": "Cho, Cheung, Stegman, Mayer, Coipel,\nCamuncoli, Janson, T. Dodson, R. Dodson,\nChecchetto & McNiven art",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-14",
+        "reason": "McNiven9.8 reported29.99 is wrong cover and grade.",
+        "ledger": "data/originals/2026-11-14-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "McNiven9.8 reported29.99 is wrong cover and grade.",
+      "evidence": [],
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4245413015",
+      "title": "Amazing Spider-Man #20 : Nakayama Variant Cover",
+      "grader": "CGC",
+      "grade": "9.6",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Nakayama Variant Cover",
+        "labelCategory": "Universal",
+        "artComments": "Joe Kelly story\nTerry Dodson & Rachel Dodson art\nDavid Nakayama cover",
+        "keyComments": "Amazing Spider-Man #914",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-13",
+        "reason": "PriceCharting no9.6 value; Mercari9.6SS signed virgin differs.",
+        "ledger": "data/incoming/2026-11-13-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "PriceCharting no9.6 value; Mercari9.6SS signed virgin differs.",
+      "evidence": [],
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4245413023",
+      "title": "Flash: Facsimile Edition #123 : Comic Mint Convention Edition",
+      "grader": "CGC",
+      "grade": "9.6",
+      "identity": {
+        "issueYear": "2022",
+        "variant": "Comic Mint Convention Edition",
+        "labelCategory": "Universal",
+        "artComments": "Carmine Infantino &\nMurphy Anderson cover",
+        "keyComments": "Reprints Flash #123 (9/61)\nFoil cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-09",
+        "reason": "Opened exact analyzer: no9.6 history; ads53.99/69.99 generic facsimile do not establish ComicMint foil edition.9.8 estimates excluded.",
+        "ledger": "data/originals/2026-11-09-daily-research.json",
+        "nextLead": "Rotate to other candidates; exact edition/grader evidence still needed"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Opened exact analyzer: no9.6 history; ads53.99/69.99 generic facsimile do not establish ComicMint foil edition.9.8 estimates excluded.",
+      "evidence": [],
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4245549001",
+      "title": "Back to the Future #1 : Artist Edition",
+      "grader": "CGC",
+      "grade": "9.2",
+      "identity": {
+        "issueYear": "2015",
+        "variant": "Artist Edition",
+        "labelCategory": "Universal",
+        "artComments": "Bob Gale, John Barber & Erik Burnham\nstories, Brent Schoonover art\nDan Schoening cover & art",
+        "keyComments": "\"Original art\" sketch cover.\nRetailer incentive.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-12",
+        "reason": "PriceCharting89 is9.8, Heritage search signature-series not exact owned comparison.",
+        "ledger": "data/originals/2026-11-12-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "PriceCharting89 is9.8, Heritage search signature-series not exact owned comparison.",
+      "evidence": [],
+      "freshSearchQuery": "Back to the Future #1 : Artist Edition CGC 9.2 ",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://www.pricecharting.com/game/comic-books-star-wars-obi-wan/star-wars-obi-wan-momoko-1-2022",
+        "https://gocollect.com/comic/star-wars-obi-wan-kenobi-1",
+        "https://comics.ha.com/itm/modern-age-1980-present-/superhero/white-widow-2-variant-covers-signature-series-group-of-3-absolute-comics-group-2019-cgc-nm-mt-98-total-3-c/a/122401-11956.s",
+        "https://www.pricecharting.com/game/comic-books-back-to-the-future/back-to-the-future-1-1991",
+        "https://gocollect.com/comic/spider-gwen-shadow-clones-1",
+        "https://gocollect.com/comic/star-wars-episode-i-obi-wan-kenobi-1-ewan-mcgregor-photo-variant",
+        "https://www.mycomicshop.com/comicbooks/item?ivitems=58019344",
+        "https://www.mycomicshop.com/search?p=2&q=White+2",
+        "https://www.ebay.com/shop/star-wars-obi-wan-comic?_nkw=star+wars+obi+wan+comic",
+        "https://gocollect.com/comic/star-wars-obi-wan-kenobi-1-6",
+        "https://gocollect.com/comic/star-wars-obi-wan-kenobi-1-2",
+        "https://www.mycomicshop.com/search?ItemID=62825250",
+        "https://prhcomics.com/wp-content/uploads/2022/02/PREVIEWS2021006_MAY_2022_FINAL.pdf",
+        "https://fenixflamecomics.com/wp-content/uploads/2016/04/Order-Form-CGC-Collectors-and-Dealers.pdf",
+        "https://www.fpnyc.com/store/go/catalogue/",
+        "https://prhcomics.com/wp-content/uploads/2023/06/PREVIEWS2021022_FINAL_SEPT_2023.pdf",
+        "https://prhcomics.com/wp-content/uploads/2022/12/PREVIEWS2021016_MARCH_2023_FINAL.pdf",
+        "https://borg.com/wp-content/uploads/2015/10/backtothefuture_01-pr.pdf",
+        "https://en.wikipedia.org/wiki/Spider-Gwen",
+        "https://www.reddit.com/r/CGCComics/comments/1u0hqkl/do_i_send_to_grade_star_wars_1st_editions/",
+        "https://www.reddit.com/r/StarWarsEU/comments/1tyk7p7/having_trouble_finding_this_artwork_in_high_res/",
+        "https://en.wikipedia.org/wiki/List_of_Marvel_Comics_publications_%28S%29",
+        "https://www.reddit.com/r/CGCComics/comments/1ms1iqe",
+        "https://www.space.com/entertainment/space-books/darth-vader-wields-the-infinity-gauntlet-in-the-first-ever-official-star-wars-and-marvel-crossover",
+        "https://apnews.com/article/eadabeaadbb12e114623756ef0757244",
+        "https://www.huffingtonpost.es/sociedad/unos-hermanos-topan-comic-superman-atico-acaba-vendiendose-78-millones-euros.html",
+        "https://apnews.com/article/0bd4b08494eeb271e32557362815f5ff"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4273634004",
+      "title": "Star Wars: Obi-Wan Kenobi #1 : Momoko Variant Cover",
+      "grader": "CGC",
+      "grade": "8.0",
+      "identity": {
+        "issueYear": "2022",
+        "variant": "Momoko Variant Cover",
+        "labelCategory": "Universal",
+        "artComments": "Christopher Cantwell story\nArio Anindito art\nPeach Momoko cover",
+        "keyComments": null,
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-14",
+        "reason": "Targeted query found no exact priced match.",
+        "ledger": "data/originals/2026-11-14-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Targeted query found no exact priced match.",
+      "evidence": [],
+      "freshSearchQuery": "Star Wars: Obi-Wan Kenobi #1 : Momoko Variant Cover CGC 8.0 ",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://www.pricecharting.com/game/comic-books-star-wars-obi-wan/star-wars-obi-wan-momoko-1-2022",
+        "https://gocollect.com/comic/star-wars-obi-wan-kenobi-1",
+        "https://comics.ha.com/itm/modern-age-1980-present-/superhero/white-widow-2-variant-covers-signature-series-group-of-3-absolute-comics-group-2019-cgc-nm-mt-98-total-3-c/a/122401-11956.s",
+        "https://www.pricecharting.com/game/comic-books-back-to-the-future/back-to-the-future-1-1991",
+        "https://gocollect.com/comic/spider-gwen-shadow-clones-1",
+        "https://gocollect.com/comic/star-wars-episode-i-obi-wan-kenobi-1-ewan-mcgregor-photo-variant",
+        "https://www.mycomicshop.com/comicbooks/item?ivitems=58019344",
+        "https://www.mycomicshop.com/search?p=2&q=White+2",
+        "https://www.ebay.com/shop/star-wars-obi-wan-comic?_nkw=star+wars+obi+wan+comic",
+        "https://gocollect.com/comic/star-wars-obi-wan-kenobi-1-6",
+        "https://gocollect.com/comic/star-wars-obi-wan-kenobi-1-2",
+        "https://www.mycomicshop.com/search?ItemID=62825250",
+        "https://prhcomics.com/wp-content/uploads/2022/02/PREVIEWS2021006_MAY_2022_FINAL.pdf",
+        "https://fenixflamecomics.com/wp-content/uploads/2016/04/Order-Form-CGC-Collectors-and-Dealers.pdf",
+        "https://www.fpnyc.com/store/go/catalogue/",
+        "https://prhcomics.com/wp-content/uploads/2023/06/PREVIEWS2021022_FINAL_SEPT_2023.pdf",
+        "https://prhcomics.com/wp-content/uploads/2022/12/PREVIEWS2021016_MARCH_2023_FINAL.pdf",
+        "https://borg.com/wp-content/uploads/2015/10/backtothefuture_01-pr.pdf",
+        "https://en.wikipedia.org/wiki/Spider-Gwen",
+        "https://www.reddit.com/r/CGCComics/comments/1u0hqkl/do_i_send_to_grade_star_wars_1st_editions/",
+        "https://www.reddit.com/r/StarWarsEU/comments/1tyk7p7/having_trouble_finding_this_artwork_in_high_res/",
+        "https://en.wikipedia.org/wiki/List_of_Marvel_Comics_publications_%28S%29",
+        "https://www.reddit.com/r/CGCComics/comments/1ms1iqe",
+        "https://www.space.com/entertainment/space-books/darth-vader-wields-the-infinity-gauntlet-in-the-first-ever-official-star-wars-and-marvel-crossover",
+        "https://apnews.com/article/eadabeaadbb12e114623756ef0757244",
+        "https://www.huffingtonpost.es/sociedad/unos-hermanos-topan-comic-superman-atico-acaba-vendiendose-78-millones-euros.html",
+        "https://apnews.com/article/0bd4b08494eeb271e32557362815f5ff"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4273634005",
+      "title": "Darkwing Duck #1 : Parsons Variant Cover",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Parsons Variant Cover",
+        "labelCategory": "Universal",
+        "artComments": "Amanda Deibert story\nCarlo Lauro art\nCasey Parsons cover",
+        "keyComments": null,
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-09",
+        "reason": "Known retailer45 still explicitly sold out. Analyzer ad94.99 is virgin, not trade.",
+        "ledger": "data/originals/2026-11-09-daily-research.json",
+        "nextLead": "Rotate to other candidates; exact edition/grader evidence still needed"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Fresh Parsons9.8 search finds known sold-out GeekedOut lead and virgin catalog, no new in-stock trade comparison.",
+      "evidence": [
+        {
+          "url": "https://geekedoutcomics.com/products/darkwing-duck-1-casey-parsons-cgc-9-8-exclusive-cover-dynamite-2023",
+          "observedAt": "2026-11-15",
+          "access": "Search index; not direct page verification except MCS Do You Pooh catalog",
+          "accepted": false
+        }
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4273634009",
+      "title": "Spider-Gwen: Shadow Clones #1 : Spectral Comics Edition",
+      "grader": "CGC",
+      "grade": "8.5",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Spectral Comics Edition",
+        "labelCategory": "Universal",
+        "artComments": "Emily Kim story\nKei Zama art\nIvan Tao cover",
+        "keyComments": null,
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-11",
+        "reason": "No exact match in targeted search.",
+        "ledger": "data/incoming/2026-11-11-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "No exact match in targeted search.",
+      "evidence": [],
+      "freshSearchQuery": "Spider-Gwen: Shadow Clones #1 : Spectral Comics Edition CGC 8.5 ",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://www.pricecharting.com/game/comic-books-star-wars-obi-wan/star-wars-obi-wan-momoko-1-2022",
+        "https://gocollect.com/comic/star-wars-obi-wan-kenobi-1",
+        "https://comics.ha.com/itm/modern-age-1980-present-/superhero/white-widow-2-variant-covers-signature-series-group-of-3-absolute-comics-group-2019-cgc-nm-mt-98-total-3-c/a/122401-11956.s",
+        "https://www.pricecharting.com/game/comic-books-back-to-the-future/back-to-the-future-1-1991",
+        "https://gocollect.com/comic/spider-gwen-shadow-clones-1",
+        "https://gocollect.com/comic/star-wars-episode-i-obi-wan-kenobi-1-ewan-mcgregor-photo-variant",
+        "https://www.mycomicshop.com/comicbooks/item?ivitems=58019344",
+        "https://www.mycomicshop.com/search?p=2&q=White+2",
+        "https://www.ebay.com/shop/star-wars-obi-wan-comic?_nkw=star+wars+obi+wan+comic",
+        "https://gocollect.com/comic/star-wars-obi-wan-kenobi-1-6",
+        "https://gocollect.com/comic/star-wars-obi-wan-kenobi-1-2",
+        "https://www.mycomicshop.com/search?ItemID=62825250",
+        "https://prhcomics.com/wp-content/uploads/2022/02/PREVIEWS2021006_MAY_2022_FINAL.pdf",
+        "https://fenixflamecomics.com/wp-content/uploads/2016/04/Order-Form-CGC-Collectors-and-Dealers.pdf",
+        "https://www.fpnyc.com/store/go/catalogue/",
+        "https://prhcomics.com/wp-content/uploads/2023/06/PREVIEWS2021022_FINAL_SEPT_2023.pdf",
+        "https://prhcomics.com/wp-content/uploads/2022/12/PREVIEWS2021016_MARCH_2023_FINAL.pdf",
+        "https://borg.com/wp-content/uploads/2015/10/backtothefuture_01-pr.pdf",
+        "https://en.wikipedia.org/wiki/Spider-Gwen",
+        "https://www.reddit.com/r/CGCComics/comments/1u0hqkl/do_i_send_to_grade_star_wars_1st_editions/",
+        "https://www.reddit.com/r/StarWarsEU/comments/1tyk7p7/having_trouble_finding_this_artwork_in_high_res/",
+        "https://en.wikipedia.org/wiki/List_of_Marvel_Comics_publications_%28S%29",
+        "https://www.reddit.com/r/CGCComics/comments/1ms1iqe",
+        "https://www.space.com/entertainment/space-books/darth-vader-wields-the-infinity-gauntlet-in-the-first-ever-official-star-wars-and-marvel-crossover",
+        "https://apnews.com/article/eadabeaadbb12e114623756ef0757244",
+        "https://www.huffingtonpost.es/sociedad/unos-hermanos-topan-comic-superman-atico-acaba-vendiendose-78-millones-euros.html",
+        "https://apnews.com/article/0bd4b08494eeb271e32557362815f5ff"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4273634010",
+      "title": "Transformers/Back to the Future #4 : Variant Cover",
+      "grader": "CGC",
+      "grade": "8.5",
+      "identity": {
+        "issueYear": "2021",
+        "variant": "Variant Cover",
+        "labelCategory": "Universal",
+        "artComments": "Cavan Scott story\nJuan Samu art\nChris Panda cover",
+        "keyComments": null,
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-11",
+        "reason": "MCS $32 VF+8.5 is raw issue3RI, not CGC issue4.",
+        "ledger": "data/incoming/2026-11-11-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "MCS $32 VF+8.5 is raw issue3RI, not CGC issue4.",
+      "evidence": [],
+      "freshSearchQuery": "Transformers/Back to the Future #4 : Variant Cover CGC 8.5 ",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://www.pricecharting.com/game/comic-books-grim/grim-11-2023",
+        "https://comics.ha.com/itm/modern-age-1980-present-/horror/something-is-killing-the-children-pen-and-ink-1-boom-studios-gilded-foil-edition-boom-studios-2023-cgc-nm-mt-98-white-pages/a/122621-17934.s?ic4=ListView-ShortDescription-071515",
+        "https://gocollect.com/comic/invincible-9-convention-foil-sketch-edition",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/318337/boom-studios-something-is-killing-the-children-1boom-boom-studios-foil-edition-a",
+        "https://www.pricecharting.com/game/comic-books-something-is-killing-the-children-pen-%26-ink/something-is-killing-the-children-pen-%26-ink-1-2023",
+        "https://notes.www.collectors-society.com/WCM/ComicView.aspx?PeopleSetComicID=1420252",
+        "https://www.keycollectorcomics.com/issue/something-is-killing-the-children-pen-ink-1%2C795269/",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/232967/boom-studios-something-is-killing-the-children-11c-frison-sketch-cover",
+        "https://www.pricecharting.com/fr/game/comic-books-grim/grim-11-2023",
+        "https://www.pricecharting.com/console/comic-books-something-is-killing-the-children-pen-%26-ink",
+        "https://www.mycomicshop.com/search?ItemID=59384067",
+        "https://www.hipcomic.com/listing/something-is-killing-the-children-1-lcsd-foil-edition-cgc-96-2020/20709401",
+        "https://www.the-saleroom.com/de-de/auction-catalogues/ewbanks/catalogue-id-srew10640/pdfexport",
+        "https://www.blowoutcards.net/images/ss/25ksinvincibleseas1NS.pdf",
+        "https://comichunter.com/wp-content/uploads/comic-hunter-Inventaire-Alternative.pdf",
+        "https://www.reddit.com/r/CGCComics/comments/1euste2",
+        "https://www.comicexpress.de/kataloge/Panels-Katalog_September%20f%C3%BCr%20den%20November%202025.pdf",
+        "https://www.the-saleroom.com/en-gb/auction-catalogues/ewbanks/catalogue-id-srew10561/pdfexport",
+        "https://www.fpnyc.com/store/go/catalogue/?srsltid=AfmBOoq5EeySvNpROhJlg4gd4N3h6qU9sCNVh3Jwrp9dE7z8kReS_Mn4",
+        "https://www.gamesradar.com/entertainment/horror-movies/blumhouse-bag-big-deal-to-adapt-something-is-killing-the-children-comic-series/",
+        "https://www.gamesradar.com/comics/image-comics/three-classic-80s-cartoon-franchises-will-crossover-this-spring-as-transformers-gi-joe-and-mask-collide-in-the-energon-universe/",
+        "https://www.space.com/entertainment/space-movies-shows/the-original-and-best-transformers-movie-is-rolling-back-out-into-theaters-for-its-40th-anniversary",
+        "https://www.gamesradar.com/comics/image-comics/the-walking-dead-creator-robert-kirkman-is-taking-over-transformers-with-plans-to-methodically-expand-the-energon-universe-but-dont-worry-about-buying-567-monthly-titles-to-keep-up-were-not-looking-to-blow-up-anyones-budget/",
+        "https://www.creativebloq.com/art/animation/toy-story-meets-fantastic-four-as-marvel-celebrates-40-years-of-pixar"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4350046002",
+      "title": "w0rldtr33 #3 : CBNS Edition",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "CBNS Edition",
+        "labelCategory": "Universal",
+        "artComments": "James Tynion IV story\nFernando Blanco art\nMichael Gaydos cover",
+        "keyComments": "\"Virgin\" cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": "https://www.cgccomics.com/certlookup/4350046002/"
+      },
+      "priorResearch": {
+        "date": "2026-11-09",
+        "reason": "Registry cert4604995015 is not a sale; issue2 eBay227536447217 wrong issue. Gaydos3 raw21.99 cannot price9.8.",
+        "ledger": "data/originals/2026-11-09-daily-research.json",
+        "nextLead": "Rotate to other candidates; exact edition/grader evidence still needed"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Gaydos3 catalog has zero9.8 sold transactions; raw23.99 excluded.",
+      "evidence": [
+        {
+          "url": "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-gaydos-3-2023",
+          "observedAt": "2026-11-15",
+          "access": "Search index; not direct page verification except MCS Do You Pooh catalog",
+          "accepted": false
+        }
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4350046004",
+      "title": "Usagi Yojimbo: Ice and Snow SDCC Preview #1 : Gold Foil Edition",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Gold Foil Edition",
+        "labelCategory": "Universal",
+        "artComments": "Stan Sakai story, cover & art",
+        "keyComments": "Gold foil logo.\nSketch cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": "https://www.cgccomics.com/certlookup/4350046004/"
+      },
+      "priorResearch": {
+        "date": "2026-11-09",
+        "reason": "400 signed Sakai/Saladeen excluded. Chalk Girl NYCC68 reported sale is different edition; Greenfoil69.99 also wrong.",
+        "ledger": "data/originals/2026-11-09-daily-research.json",
+        "nextLead": "Rotate to other candidates; exact edition/grader evidence still needed"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Ice and Snow gold unsigned9.8 query found no matching priced evidence. Prior dual-signed400 wrong label.",
+      "evidence": [],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4350046005",
+      "title": "Invincible #9 : Convention Foil Edition",
+      "grader": "CGC",
+      "grade": "9.4",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Convention Foil Edition",
+        "labelCategory": "Universal",
+        "artComments": "Ryan Ottley cover",
+        "keyComments": "Reprints Invincible #9 (2/04)",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": "https://www.cgccomics.com/certlookup/4350046005/"
+      },
+      "priorResearch": {
+        "date": "2026-11-13",
+        "reason": "Issue1 foil2026 raw9.4 results wrong issue/year/holder.",
+        "ledger": "data/incoming/2026-11-13-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Issue1 foil2026 raw9.4 results wrong issue/year/holder.",
+      "evidence": [],
+      "freshSearchQuery": "Invincible #9 : Convention Foil Edition CGC 9.4 ",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://www.pricecharting.com/game/comic-books-grim/grim-11-2023",
+        "https://comics.ha.com/itm/modern-age-1980-present-/horror/something-is-killing-the-children-pen-and-ink-1-boom-studios-gilded-foil-edition-boom-studios-2023-cgc-nm-mt-98-white-pages/a/122621-17934.s?ic4=ListView-ShortDescription-071515",
+        "https://gocollect.com/comic/invincible-9-convention-foil-sketch-edition",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/318337/boom-studios-something-is-killing-the-children-1boom-boom-studios-foil-edition-a",
+        "https://www.pricecharting.com/game/comic-books-something-is-killing-the-children-pen-%26-ink/something-is-killing-the-children-pen-%26-ink-1-2023",
+        "https://notes.www.collectors-society.com/WCM/ComicView.aspx?PeopleSetComicID=1420252",
+        "https://www.keycollectorcomics.com/issue/something-is-killing-the-children-pen-ink-1%2C795269/",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/232967/boom-studios-something-is-killing-the-children-11c-frison-sketch-cover",
+        "https://www.pricecharting.com/fr/game/comic-books-grim/grim-11-2023",
+        "https://www.pricecharting.com/console/comic-books-something-is-killing-the-children-pen-%26-ink",
+        "https://www.mycomicshop.com/search?ItemID=59384067",
+        "https://www.hipcomic.com/listing/something-is-killing-the-children-1-lcsd-foil-edition-cgc-96-2020/20709401",
+        "https://www.the-saleroom.com/de-de/auction-catalogues/ewbanks/catalogue-id-srew10640/pdfexport",
+        "https://www.blowoutcards.net/images/ss/25ksinvincibleseas1NS.pdf",
+        "https://comichunter.com/wp-content/uploads/comic-hunter-Inventaire-Alternative.pdf",
+        "https://www.reddit.com/r/CGCComics/comments/1euste2",
+        "https://www.comicexpress.de/kataloge/Panels-Katalog_September%20f%C3%BCr%20den%20November%202025.pdf",
+        "https://www.the-saleroom.com/en-gb/auction-catalogues/ewbanks/catalogue-id-srew10561/pdfexport",
+        "https://www.fpnyc.com/store/go/catalogue/?srsltid=AfmBOoq5EeySvNpROhJlg4gd4N3h6qU9sCNVh3Jwrp9dE7z8kReS_Mn4",
+        "https://www.gamesradar.com/entertainment/horror-movies/blumhouse-bag-big-deal-to-adapt-something-is-killing-the-children-comic-series/",
+        "https://www.gamesradar.com/comics/image-comics/three-classic-80s-cartoon-franchises-will-crossover-this-spring-as-transformers-gi-joe-and-mask-collide-in-the-energon-universe/",
+        "https://www.space.com/entertainment/space-movies-shows/the-original-and-best-transformers-movie-is-rolling-back-out-into-theaters-for-its-40th-anniversary",
+        "https://www.gamesradar.com/comics/image-comics/the-walking-dead-creator-robert-kirkman-is-taking-over-transformers-with-plans-to-methodically-expand-the-energon-universe-but-dont-worry-about-buying-567-monthly-titles-to-keep-up-were-not-looking-to-blow-up-anyones-budget/",
+        "https://www.creativebloq.com/art/animation/toy-story-meets-fantastic-four-as-marvel-celebrates-40-years-of-pixar"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4350046008",
+      "title": "Something is Killing the Children: Pen & Ink #1 : Boom! Studios Foil Edition A",
+      "grader": "CGC",
+      "grade": "9.6",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Boom! Studios Foil Edition A",
+        "labelCategory": "Universal",
+        "artComments": "James Tynion IV story\nWerther Dell'Edera art\nAndrew K. Currey cover",
+        "keyComments": "Sketch cover.\nRed foil logo.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": "https://www.cgccomics.com/certlookup/4350046008/"
+      },
+      "priorResearch": {
+        "date": "2026-11-13",
+        "reason": "House of Slaughter Currey signed gilded9.6 is wrong title and label.",
+        "ledger": "data/incoming/2026-11-13-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "House of Slaughter Currey signed gilded9.6 is wrong title and label.",
+      "evidence": [],
+      "freshSearchQuery": "Something is Killing the Children: Pen & Ink #1 : Boom! Studios Foil Edition A CGC 9.6 ",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://www.pricecharting.com/game/comic-books-grim/grim-11-2023",
+        "https://comics.ha.com/itm/modern-age-1980-present-/horror/something-is-killing-the-children-pen-and-ink-1-boom-studios-gilded-foil-edition-boom-studios-2023-cgc-nm-mt-98-white-pages/a/122621-17934.s?ic4=ListView-ShortDescription-071515",
+        "https://gocollect.com/comic/invincible-9-convention-foil-sketch-edition",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/318337/boom-studios-something-is-killing-the-children-1boom-boom-studios-foil-edition-a",
+        "https://www.pricecharting.com/game/comic-books-something-is-killing-the-children-pen-%26-ink/something-is-killing-the-children-pen-%26-ink-1-2023",
+        "https://notes.www.collectors-society.com/WCM/ComicView.aspx?PeopleSetComicID=1420252",
+        "https://www.keycollectorcomics.com/issue/something-is-killing-the-children-pen-ink-1%2C795269/",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/232967/boom-studios-something-is-killing-the-children-11c-frison-sketch-cover",
+        "https://www.pricecharting.com/fr/game/comic-books-grim/grim-11-2023",
+        "https://www.pricecharting.com/console/comic-books-something-is-killing-the-children-pen-%26-ink",
+        "https://www.mycomicshop.com/search?ItemID=59384067",
+        "https://www.hipcomic.com/listing/something-is-killing-the-children-1-lcsd-foil-edition-cgc-96-2020/20709401",
+        "https://www.the-saleroom.com/de-de/auction-catalogues/ewbanks/catalogue-id-srew10640/pdfexport",
+        "https://www.blowoutcards.net/images/ss/25ksinvincibleseas1NS.pdf",
+        "https://comichunter.com/wp-content/uploads/comic-hunter-Inventaire-Alternative.pdf",
+        "https://www.reddit.com/r/CGCComics/comments/1euste2",
+        "https://www.comicexpress.de/kataloge/Panels-Katalog_September%20f%C3%BCr%20den%20November%202025.pdf",
+        "https://www.the-saleroom.com/en-gb/auction-catalogues/ewbanks/catalogue-id-srew10561/pdfexport",
+        "https://www.fpnyc.com/store/go/catalogue/?srsltid=AfmBOoq5EeySvNpROhJlg4gd4N3h6qU9sCNVh3Jwrp9dE7z8kReS_Mn4",
+        "https://www.gamesradar.com/entertainment/horror-movies/blumhouse-bag-big-deal-to-adapt-something-is-killing-the-children-comic-series/",
+        "https://www.gamesradar.com/comics/image-comics/three-classic-80s-cartoon-franchises-will-crossover-this-spring-as-transformers-gi-joe-and-mask-collide-in-the-energon-universe/",
+        "https://www.space.com/entertainment/space-movies-shows/the-original-and-best-transformers-movie-is-rolling-back-out-into-theaters-for-its-40th-anniversary",
+        "https://www.gamesradar.com/comics/image-comics/the-walking-dead-creator-robert-kirkman-is-taking-over-transformers-with-plans-to-methodically-expand-the-energon-universe-but-dont-worry-about-buying-567-monthly-titles-to-keep-up-were-not-looking-to-blow-up-anyones-budget/",
+        "https://www.creativebloq.com/art/animation/toy-story-meets-fantastic-four-as-marvel-celebrates-40-years-of-pixar"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4350046013",
+      "title": "Grim #11 : Frison Sketch Cover",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Frison Sketch Cover",
+        "labelCategory": "Qualified",
+        "artComments": "Stephanie Phillips story\nFlaviano art\nJenny Frison cover",
+        "keyComments": "\"Virgin\" cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-12",
+        "reason": "MCS63.17 cert4363700009 does not establish Qualified designation; SS offers also excluded. Prior ledger confirms Universal comparison cannot replace owned Qualified.",
+        "ledger": "data/originals/2026-11-12-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "MCS63.17 cert4363700009 does not establish Qualified designation; SS offers also excluded. Prior ledger confirms Universal comparison cannot replace owned Qualified.",
+      "evidence": [],
+      "freshSearchQuery": "Grim #11 : Frison Sketch Cover CGC 9.8 Qualified",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://www.pricecharting.com/game/comic-books-grim/grim-11-2023",
+        "https://comics.ha.com/itm/modern-age-1980-present-/horror/something-is-killing-the-children-pen-and-ink-1-boom-studios-gilded-foil-edition-boom-studios-2023-cgc-nm-mt-98-white-pages/a/122621-17934.s?ic4=ListView-ShortDescription-071515",
+        "https://gocollect.com/comic/invincible-9-convention-foil-sketch-edition",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/318337/boom-studios-something-is-killing-the-children-1boom-boom-studios-foil-edition-a",
+        "https://www.pricecharting.com/game/comic-books-something-is-killing-the-children-pen-%26-ink/something-is-killing-the-children-pen-%26-ink-1-2023",
+        "https://notes.www.collectors-society.com/WCM/ComicView.aspx?PeopleSetComicID=1420252",
+        "https://www.keycollectorcomics.com/issue/something-is-killing-the-children-pen-ink-1%2C795269/",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/232967/boom-studios-something-is-killing-the-children-11c-frison-sketch-cover",
+        "https://www.pricecharting.com/fr/game/comic-books-grim/grim-11-2023",
+        "https://www.pricecharting.com/console/comic-books-something-is-killing-the-children-pen-%26-ink",
+        "https://www.mycomicshop.com/search?ItemID=59384067",
+        "https://www.hipcomic.com/listing/something-is-killing-the-children-1-lcsd-foil-edition-cgc-96-2020/20709401",
+        "https://www.the-saleroom.com/de-de/auction-catalogues/ewbanks/catalogue-id-srew10640/pdfexport",
+        "https://www.blowoutcards.net/images/ss/25ksinvincibleseas1NS.pdf",
+        "https://comichunter.com/wp-content/uploads/comic-hunter-Inventaire-Alternative.pdf",
+        "https://www.reddit.com/r/CGCComics/comments/1euste2",
+        "https://www.comicexpress.de/kataloge/Panels-Katalog_September%20f%C3%BCr%20den%20November%202025.pdf",
+        "https://www.the-saleroom.com/en-gb/auction-catalogues/ewbanks/catalogue-id-srew10561/pdfexport",
+        "https://www.fpnyc.com/store/go/catalogue/?srsltid=AfmBOoq5EeySvNpROhJlg4gd4N3h6qU9sCNVh3Jwrp9dE7z8kReS_Mn4",
+        "https://www.gamesradar.com/entertainment/horror-movies/blumhouse-bag-big-deal-to-adapt-something-is-killing-the-children-comic-series/",
+        "https://www.gamesradar.com/comics/image-comics/three-classic-80s-cartoon-franchises-will-crossover-this-spring-as-transformers-gi-joe-and-mask-collide-in-the-energon-universe/",
+        "https://www.space.com/entertainment/space-movies-shows/the-original-and-best-transformers-movie-is-rolling-back-out-into-theaters-for-its-40th-anniversary",
+        "https://www.gamesradar.com/comics/image-comics/the-walking-dead-creator-robert-kirkman-is-taking-over-transformers-with-plans-to-methodically-expand-the-energon-universe-but-dont-worry-about-buying-567-monthly-titles-to-keep-up-were-not-looking-to-blow-up-anyones-budget/",
+        "https://www.creativebloq.com/art/animation/toy-story-meets-fantastic-four-as-marvel-celebrates-40-years-of-pixar"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4350046015",
+      "title": "Gone Ashcan #1",
+      "grader": "CGC",
+      "grade": "9.2",
+      "identity": {
+        "issueYear": "2023",
+        "variant": null,
+        "labelCategory": "Universal",
+        "artComments": "Jock story, cover & art",
+        "keyComments": null,
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": "https://www.cgccomics.com/certlookup/4350046015/"
+      },
+      "priorResearch": {
+        "date": "2026-11-12",
+        "reason": "No exact priced result in targeted search.",
+        "ledger": "data/originals/2026-11-12-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "No exact priced result in targeted search.",
+      "evidence": [],
+      "freshSearchQuery": "Gone Ashcan #1 CGC 9.2 ",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://www.thecomicmonster.com/product-category/w0rldtr33/",
+        "https://www.pricecharting.com/fr/game/comic-books-supergirl-and-the-legion-of-super-heroes/supergirl-and-the-legion-of-super-heroes-whatnot-hughes-foil-23-2023",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/311051/image-comics-w0rldtr33-1",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/333164/dynamite-entertainment-the-boys-1comictom-g-desjardins-foil-edition",
+        "https://www.mycomicshop.com/search?auctionstatus=notended&p=3&q=Hero",
+        "https://coins.www.collectors-society.com/registry/comics/SlotScoreDetail.aspx?SlotID=383756",
+        "https://gocollect.com/comic/w0rldtr33-1-4th-ptg-mr",
+        "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-dinh-1-2023",
+        "https://www.ebay.com/shop/supergirl-and-the-legion-of-superheroes-23?_nkw=supergirl+and+the+legion+of+super-heroes+23",
+        "https://gocollect.com/comic/the-boys-1-special-editioncomictom101-virgin-edition",
+        "https://www.mycomicshop.com/cgc?br=W&cgc=y&mingr=0",
+        "https://coins.www.collectors-society.com/registry/comics/PeopleSetDetail.aspx?PeopleSetID=168189",
+        "https://acecomics.co.uk/order-form/ACE_Order_Form_451.pdf",
+        "https://media.lunardistribution.com/files/dc_connect_71.pdf",
+        "https://alternateworlds.com.au/wp-content/uploads/2026/02/0326-Image_compressed.pdf",
+        "https://freakelitex.com/wp-content/uploads/2024/02/Novedades-ECC-Ediciones-abril-2024-pdf.pdf",
+        "https://www.splitter-verlag.de/images/Kataloge/Kunden_Katalog_2024_Splitter_Web.pdf",
+        "https://content.eccediciones.com/mkt/comunicados/2024/Mayo2024/ECC_NovedadesMayo2024_Unificado_1402.pdf",
+        "https://www.reddit.com/r/comicbookcollecting/comments/14k9ryy",
+        "https://www.reddit.com/r/comicbookcollecting/comments/ix904i",
+        "https://www.reddit.com/r/comicswap/comments/1c10od8",
+        "https://www.reddit.com/r/CGCComics/comments/164f6br",
+        "https://los40.com/2024/08/16/pelos-de-punta-y-ropa-manchada-de-sangre-con-worldtr33/",
+        "https://apnews.com/article/0bd4b08494eeb271e32557362815f5ff"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4350046016",
+      "title": "Do You Pooh? #1 : Fadeaway \"Virgin\" Edition B",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Fadeaway \"Virgin\" Edition B",
+        "labelCategory": "Universal",
+        "artComments": "Terry Sala & Marat Mychaels story\nDietrich Smith & Marat Mychaels art\nMarat Michael cover",
+        "keyComments": "SMZ Comics exclusive.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": null,
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Fadeaway9.8 search returns raw purple/yellow jersey offers and seller feedback, no matched graded listing. MCS catalog direct find Fadeaway empty.",
+      "evidence": [
+        {
+          "url": "https://www.mycomicshop.com/search?minyrmo=201303&tid=39350765",
+          "observedAt": "2026-11-15",
+          "access": "Search index; not direct page verification except MCS Do You Pooh catalog",
+          "accepted": false
+        }
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4350046017",
+      "title": "w0rldtr33 #1 : Comic Mint Edition",
+      "grader": "CGC",
+      "grade": "9.9",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Comic Mint Edition",
+        "labelCategory": "Universal",
+        "artComments": "James Tynion IV story\nFernando Blanco art\nMatt Wilson cover",
+        "keyComments": "\"Virgin\" cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-14",
+        "reason": "Registry points are not prices; no exact transaction/ask established.",
+        "ledger": "data/originals/2026-11-14-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Registry points are not prices; no exact transaction/ask established.",
+      "evidence": [],
+      "freshSearchQuery": "w0rldtr33 #1 : Comic Mint Edition CGC 9.9 ",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://www.thecomicmonster.com/product-category/w0rldtr33/",
+        "https://www.pricecharting.com/fr/game/comic-books-supergirl-and-the-legion-of-super-heroes/supergirl-and-the-legion-of-super-heroes-whatnot-hughes-foil-23-2023",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/311051/image-comics-w0rldtr33-1",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/333164/dynamite-entertainment-the-boys-1comictom-g-desjardins-foil-edition",
+        "https://www.mycomicshop.com/search?auctionstatus=notended&p=3&q=Hero",
+        "https://coins.www.collectors-society.com/registry/comics/SlotScoreDetail.aspx?SlotID=383756",
+        "https://gocollect.com/comic/w0rldtr33-1-4th-ptg-mr",
+        "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-dinh-1-2023",
+        "https://www.ebay.com/shop/supergirl-and-the-legion-of-superheroes-23?_nkw=supergirl+and+the+legion+of+super-heroes+23",
+        "https://gocollect.com/comic/the-boys-1-special-editioncomictom101-virgin-edition",
+        "https://www.mycomicshop.com/cgc?br=W&cgc=y&mingr=0",
+        "https://coins.www.collectors-society.com/registry/comics/PeopleSetDetail.aspx?PeopleSetID=168189",
+        "https://acecomics.co.uk/order-form/ACE_Order_Form_451.pdf",
+        "https://media.lunardistribution.com/files/dc_connect_71.pdf",
+        "https://alternateworlds.com.au/wp-content/uploads/2026/02/0326-Image_compressed.pdf",
+        "https://freakelitex.com/wp-content/uploads/2024/02/Novedades-ECC-Ediciones-abril-2024-pdf.pdf",
+        "https://www.splitter-verlag.de/images/Kataloge/Kunden_Katalog_2024_Splitter_Web.pdf",
+        "https://content.eccediciones.com/mkt/comunicados/2024/Mayo2024/ECC_NovedadesMayo2024_Unificado_1402.pdf",
+        "https://www.reddit.com/r/comicbookcollecting/comments/14k9ryy",
+        "https://www.reddit.com/r/comicbookcollecting/comments/ix904i",
+        "https://www.reddit.com/r/comicswap/comments/1c10od8",
+        "https://www.reddit.com/r/CGCComics/comments/164f6br",
+        "https://los40.com/2024/08/16/pelos-de-punta-y-ropa-manchada-de-sangre-con-worldtr33/",
+        "https://apnews.com/article/0bd4b08494eeb271e32557362815f5ff"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4350046019",
+      "title": "The Boys Special Edition #1 : ComicTom101 Foil Edition",
+      "grader": "CGC",
+      "grade": "9.9",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "ComicTom101 Foil Edition",
+        "labelCategory": "Universal",
+        "artComments": "Garth Ennis story\nDarick Robertson art\nZoe Lacchei cover",
+        "keyComments": "San Diego Comic-Con 2023 exclusive.\n\"Virgin\" cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": "https://www.cgccomics.com/certlookup/4350046019/"
+      },
+      "priorResearch": {
+        "date": "2026-11-11",
+        "reason": "John Royle trade CGC9.9 cert4682013015 $250 is not owned Zoe Lacchei virgin SDCC2023.",
+        "ledger": "data/incoming/2026-11-11-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "John Royle trade CGC9.9 cert4682013015 $250 is not owned Zoe Lacchei virgin SDCC2023.",
+      "evidence": [],
+      "freshSearchQuery": "The Boys Special Edition #1 : ComicTom101 Foil Edition CGC 9.9 ",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://www.thecomicmonster.com/product-category/w0rldtr33/",
+        "https://www.pricecharting.com/fr/game/comic-books-supergirl-and-the-legion-of-super-heroes/supergirl-and-the-legion-of-super-heroes-whatnot-hughes-foil-23-2023",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/311051/image-comics-w0rldtr33-1",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/333164/dynamite-entertainment-the-boys-1comictom-g-desjardins-foil-edition",
+        "https://www.mycomicshop.com/search?auctionstatus=notended&p=3&q=Hero",
+        "https://coins.www.collectors-society.com/registry/comics/SlotScoreDetail.aspx?SlotID=383756",
+        "https://gocollect.com/comic/w0rldtr33-1-4th-ptg-mr",
+        "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-dinh-1-2023",
+        "https://www.ebay.com/shop/supergirl-and-the-legion-of-superheroes-23?_nkw=supergirl+and+the+legion+of+super-heroes+23",
+        "https://gocollect.com/comic/the-boys-1-special-editioncomictom101-virgin-edition",
+        "https://www.mycomicshop.com/cgc?br=W&cgc=y&mingr=0",
+        "https://coins.www.collectors-society.com/registry/comics/PeopleSetDetail.aspx?PeopleSetID=168189",
+        "https://acecomics.co.uk/order-form/ACE_Order_Form_451.pdf",
+        "https://media.lunardistribution.com/files/dc_connect_71.pdf",
+        "https://alternateworlds.com.au/wp-content/uploads/2026/02/0326-Image_compressed.pdf",
+        "https://freakelitex.com/wp-content/uploads/2024/02/Novedades-ECC-Ediciones-abril-2024-pdf.pdf",
+        "https://www.splitter-verlag.de/images/Kataloge/Kunden_Katalog_2024_Splitter_Web.pdf",
+        "https://content.eccediciones.com/mkt/comunicados/2024/Mayo2024/ECC_NovedadesMayo2024_Unificado_1402.pdf",
+        "https://www.reddit.com/r/comicbookcollecting/comments/14k9ryy",
+        "https://www.reddit.com/r/comicbookcollecting/comments/ix904i",
+        "https://www.reddit.com/r/comicswap/comments/1c10od8",
+        "https://www.reddit.com/r/CGCComics/comments/164f6br",
+        "https://los40.com/2024/08/16/pelos-de-punta-y-ropa-manchada-de-sangre-con-worldtr33/",
+        "https://apnews.com/article/0bd4b08494eeb271e32557362815f5ff"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4350046020",
+      "title": "Do You Pooh? #1 : Magic Pooh vs Air Pooh Foil Edition B",
+      "grader": "CGC",
+      "grade": "9.9",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Magic Pooh vs Air Pooh Foil Edition B",
+        "labelCategory": "Universal",
+        "artComments": "Terry Sala & Marat Mychaels story\nDietrich Smith & Marat Mychaels art\nMarat Mychaels cover",
+        "keyComments": "Multiple foil variants exist.\n\"Virgin\" cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": null,
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Magic Pooh vs Air Pooh9.9 search found from39.99 signed raw selectable offer; not exact Universal foilB9.9.",
+      "evidence": [
+        {
+          "url": "https://clanmcdonaldcomics.com/collections/pooh",
+          "observedAt": "2026-11-15",
+          "access": "Search index; not direct page verification except MCS Do You Pooh catalog",
+          "accepted": false
+        }
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4350046021",
+      "title": "Supergirl and the Legion of Super-Heroes #23 : Whatnot Special Foil Edition B",
+      "grader": "CGC",
+      "grade": "9.4",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Whatnot Special Foil Edition B",
+        "labelCategory": "Universal",
+        "artComments": "David Nakayama cover",
+        "keyComments": "Reprints Supergirl and the\nLegion of Super-Heroes #23 (12/06)\n\"Virgin\" cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-15",
+        "reason": "PC59.95HughesFoil title lacksB designation; ownedNakayamaB. MCS65706482 cert4322049003 is9.8ongoing auction12/2bids, not finalprice.",
+        "ledger": "data/incoming/2026-11-15-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "PC59.95HughesFoil title lacksB designation; ownedNakayamaB. MCS65706482 cert4322049003 is9.8ongoing auction12/2bids, not finalprice.",
+      "evidence": [],
+      "freshSearchQuery": "Supergirl and the Legion of Super-Heroes #23 : Whatnot Special Foil Edition B CGC 9.4 ",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://www.thecomicmonster.com/product-category/w0rldtr33/",
+        "https://www.pricecharting.com/fr/game/comic-books-supergirl-and-the-legion-of-super-heroes/supergirl-and-the-legion-of-super-heroes-whatnot-hughes-foil-23-2023",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/311051/image-comics-w0rldtr33-1",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/333164/dynamite-entertainment-the-boys-1comictom-g-desjardins-foil-edition",
+        "https://www.mycomicshop.com/search?auctionstatus=notended&p=3&q=Hero",
+        "https://coins.www.collectors-society.com/registry/comics/SlotScoreDetail.aspx?SlotID=383756",
+        "https://gocollect.com/comic/w0rldtr33-1-4th-ptg-mr",
+        "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-dinh-1-2023",
+        "https://www.ebay.com/shop/supergirl-and-the-legion-of-superheroes-23?_nkw=supergirl+and+the+legion+of+super-heroes+23",
+        "https://gocollect.com/comic/the-boys-1-special-editioncomictom101-virgin-edition",
+        "https://www.mycomicshop.com/cgc?br=W&cgc=y&mingr=0",
+        "https://coins.www.collectors-society.com/registry/comics/PeopleSetDetail.aspx?PeopleSetID=168189",
+        "https://acecomics.co.uk/order-form/ACE_Order_Form_451.pdf",
+        "https://media.lunardistribution.com/files/dc_connect_71.pdf",
+        "https://alternateworlds.com.au/wp-content/uploads/2026/02/0326-Image_compressed.pdf",
+        "https://freakelitex.com/wp-content/uploads/2024/02/Novedades-ECC-Ediciones-abril-2024-pdf.pdf",
+        "https://www.splitter-verlag.de/images/Kataloge/Kunden_Katalog_2024_Splitter_Web.pdf",
+        "https://content.eccediciones.com/mkt/comunicados/2024/Mayo2024/ECC_NovedadesMayo2024_Unificado_1402.pdf",
+        "https://www.reddit.com/r/comicbookcollecting/comments/14k9ryy",
+        "https://www.reddit.com/r/comicbookcollecting/comments/ix904i",
+        "https://www.reddit.com/r/comicswap/comments/1c10od8",
+        "https://www.reddit.com/r/CGCComics/comments/164f6br",
+        "https://los40.com/2024/08/16/pelos-de-punta-y-ropa-manchada-de-sangre-con-worldtr33/",
+        "https://apnews.com/article/0bd4b08494eeb271e32557362815f5ff"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4350046025",
+      "title": "Do You Pooh? #1 : Donkey Pooh Edition",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Donkey Pooh Edition",
+        "labelCategory": "Universal",
+        "artComments": "Terry Sala & Marat Mychaels story\nDietrich Smith & Marat Mychaels art\nMarat Mychaels cover",
+        "keyComments": "SMZ Comics exclusive.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-11",
+        "reason": "Targeted search found no exact evidence.",
+        "ledger": "data/incoming/2026-11-11-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Targeted search found no exact evidence.",
+      "evidence": [],
+      "freshSearchQuery": "\"Do You Pooh\" \"Donkey\" \"CGC\" \"9.8\"",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/327348/marvel-comics-x-men-27trinity-nycc-b-trinity-comics-sketch-edition",
+        "https://coins.www.collectors-society.com/registry/Comics/PeopleSetDetail.aspx?PeopleSetID=153583&SelectedTab=SetListing",
+        "https://coins.www.collectors-society.com/registry/comics/SlotScoreDetail.aspx?SlotID=364914",
+        "https://coins.www.collectors-society.com/registry/comics/SlotScoreDetailPrint.aspx?SlotID=323794",
+        "https://www.ebay.co.uk/usr/t_n_t_collectibles",
+        "https://www.ebay.com/itm/364668035436",
+        "https://www.pricecharting.com/game/comic-books-something-is-killing-the-children/something-is-killing-the-children-33-2023",
+        "https://comics.www.collectors-society.com/registry/comics/PeopleSetDetail.aspx?PeopleSetID=154034",
+        "https://coins.www.collectors-society.com/registry/comics/PeopleSetDetail.aspx?PeopleSetID=163737",
+        "https://gocollect.com/comic/something-is-killing-the-children-30",
+        "https://notes.www.collectors-society.com/registry/comics/PeopleSetDetail.aspx?PeopleSetID=161435",
+        "https://coins.www.collectors-society.com/registry/comics/SetScoreDetail.aspx?SetTypeID=5827"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4350047001",
+      "title": "Final Boss #3 : SMZ Comics Foil Edition",
+      "grader": "CGC",
+      "grade": "9.2",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "SMZ Comics Foil Edition",
+        "labelCategory": "Universal",
+        "artComments": "Tyler Kirkham story & art\nMarat Mychaels cover",
+        "keyComments": "\"Virgin\" cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": "https://www.cgccomics.com/certlookup/4350047001/"
+      },
+      "priorResearch": {
+        "date": "2026-11-11",
+        "reason": "No exact match in targeted search.",
+        "ledger": "data/incoming/2026-11-11-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "No exact match in targeted search.",
+      "evidence": [],
+      "freshSearchQuery": "\"Final Boss\" \"3\" \"SMZ\" \"9.2\"",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/327348/marvel-comics-x-men-27trinity-nycc-b-trinity-comics-sketch-edition",
+        "https://coins.www.collectors-society.com/registry/Comics/PeopleSetDetail.aspx?PeopleSetID=153583&SelectedTab=SetListing",
+        "https://coins.www.collectors-society.com/registry/comics/SlotScoreDetail.aspx?SlotID=364914",
+        "https://coins.www.collectors-society.com/registry/comics/SlotScoreDetailPrint.aspx?SlotID=323794",
+        "https://www.ebay.co.uk/usr/t_n_t_collectibles",
+        "https://www.ebay.com/itm/364668035436",
+        "https://www.pricecharting.com/game/comic-books-something-is-killing-the-children/something-is-killing-the-children-33-2023",
+        "https://comics.www.collectors-society.com/registry/comics/PeopleSetDetail.aspx?PeopleSetID=154034",
+        "https://coins.www.collectors-society.com/registry/comics/PeopleSetDetail.aspx?PeopleSetID=163737",
+        "https://gocollect.com/comic/something-is-killing-the-children-30",
+        "https://notes.www.collectors-society.com/registry/comics/PeopleSetDetail.aspx?PeopleSetID=161435",
+        "https://coins.www.collectors-society.com/registry/comics/SetScoreDetail.aspx?SetTypeID=5827"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4350047002",
+      "title": "Grim #12 : Trinity Comics Edition",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Trinity Comics Edition",
+        "labelCategory": "Universal",
+        "artComments": "Stephanie Phillips story\nFlaviano art\nZoe Lacchei cover",
+        "keyComments": "Something is Killing the Children #15\nTrinity Comics Edition cover homage.\n\"Virgin\" cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": "https://www.cgccomics.com/certlookup/4350047002/"
+      },
+      "priorResearch": {
+        "date": "2026-11-09",
+        "reason": "Targeted exact-title search produced no usable match.",
+        "ledger": "data/originals/2026-11-09-daily-research.json",
+        "nextLead": "Rotate to other candidates; exact edition/grader evidence still needed"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "CBR exact Trinity entry has no9.8 price. Fresh eBay SS listing197092493799 is signed Lacchei, unlike owned Universal.",
+      "evidence": [
+        {
+          "url": "https://www.ebay.com/itm/197092493799",
+          "observedAt": "2026-11-15",
+          "access": "Search index; not direct page verification except MCS Do You Pooh catalog",
+          "accepted": false
+        }
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4350047006",
+      "title": "w0rldtr33 #5 : Variant Cover E",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Variant Cover E",
+        "labelCategory": "Universal",
+        "artComments": "James Tynion IV story\nFernando Blanco art\nGavin Fullerton cover",
+        "keyComments": "The Closet #1 cover homage.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": "https://www.cgccomics.com/certlookup/4350047006/"
+      },
+      "priorResearch": {
+        "date": "2026-11-09",
+        "reason": "GoCollect mentions one tracked sale but no accessible exact-grade amount; registry wrong issue/variant excluded.",
+        "ledger": "data/originals/2026-11-09-daily-research.json",
+        "nextLead": "Rotate to other candidates; exact edition/grader evidence still needed"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Fullerton9.8 search found rawNM-93.75 CAD and BTC Signature Series from360, wrong holder/label.",
+      "evidence": [
+        {
+          "url": "https://bigtimecollectibles.com/collections/btc-signature-series",
+          "observedAt": "2026-11-15",
+          "access": "Search index; not direct page verification except MCS Do You Pooh catalog",
+          "accepted": false
+        }
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4357017002",
+      "title": "X-Men #27 : Trinity Comics Sketch Edition",
+      "grader": "CGC",
+      "grade": "9.6",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Trinity Comics Sketch Edition",
+        "labelCategory": "Universal",
+        "artComments": "Gerry Duggan story\nPhil Noto art\nPeach Momoko cover",
+        "keyComments": null,
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-14",
+        "reason": "CBR9.8 estimate150 has2reported sales but9.6empty. Registry virgin9.6 not sketch and not price.",
+        "ledger": "data/originals/2026-11-14-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "CBR9.8 estimate150 has2reported sales but9.6empty. Registry virgin9.6 not sketch and not price.",
+      "evidence": [],
+      "freshSearchQuery": "\"X-Men\" \"27\" \"Trinity\" \"9.6\" \"sketch\"",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/327348/marvel-comics-x-men-27trinity-nycc-b-trinity-comics-sketch-edition",
+        "https://coins.www.collectors-society.com/registry/Comics/PeopleSetDetail.aspx?PeopleSetID=153583&SelectedTab=SetListing",
+        "https://coins.www.collectors-society.com/registry/comics/SlotScoreDetail.aspx?SlotID=364914",
+        "https://coins.www.collectors-society.com/registry/comics/SlotScoreDetailPrint.aspx?SlotID=323794",
+        "https://www.ebay.co.uk/usr/t_n_t_collectibles",
+        "https://www.ebay.com/itm/364668035436",
+        "https://www.pricecharting.com/game/comic-books-something-is-killing-the-children/something-is-killing-the-children-33-2023",
+        "https://comics.www.collectors-society.com/registry/comics/PeopleSetDetail.aspx?PeopleSetID=154034",
+        "https://coins.www.collectors-society.com/registry/comics/PeopleSetDetail.aspx?PeopleSetID=163737",
+        "https://gocollect.com/comic/something-is-killing-the-children-30",
+        "https://notes.www.collectors-society.com/registry/comics/PeopleSetDetail.aspx?PeopleSetID=161435",
+        "https://coins.www.collectors-society.com/registry/comics/SetScoreDetail.aspx?SetTypeID=5827"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4357017004",
+      "title": "Something is Killing the Children #33 : Trinity Comics Convention Edition",
+      "grader": "CGC",
+      "grade": "9.6",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Trinity Comics Convention Edition",
+        "labelCategory": "Universal",
+        "artComments": "James Tynion IV story\nWerther Dell'Edera art\nZoe Lacchei cover",
+        "keyComments": "New York Comic Con 2023 exclusive.\n\"Virgin\" foil cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-14",
+        "reason": "Registry9.8 cert4377312019 not9.6 price.",
+        "ledger": "data/originals/2026-11-14-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Registry9.8 cert4377312019 not9.6 price.",
+      "evidence": [],
+      "freshSearchQuery": "\"Something is Killing the Children\" \"33\" \"Trinity\" \"9.6\"",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/327348/marvel-comics-x-men-27trinity-nycc-b-trinity-comics-sketch-edition",
+        "https://coins.www.collectors-society.com/registry/Comics/PeopleSetDetail.aspx?PeopleSetID=153583&SelectedTab=SetListing",
+        "https://coins.www.collectors-society.com/registry/comics/SlotScoreDetail.aspx?SlotID=364914",
+        "https://coins.www.collectors-society.com/registry/comics/SlotScoreDetailPrint.aspx?SlotID=323794",
+        "https://www.ebay.co.uk/usr/t_n_t_collectibles",
+        "https://www.ebay.com/itm/364668035436",
+        "https://www.pricecharting.com/game/comic-books-something-is-killing-the-children/something-is-killing-the-children-33-2023",
+        "https://comics.www.collectors-society.com/registry/comics/PeopleSetDetail.aspx?PeopleSetID=154034",
+        "https://coins.www.collectors-society.com/registry/comics/PeopleSetDetail.aspx?PeopleSetID=163737",
+        "https://gocollect.com/comic/something-is-killing-the-children-30",
+        "https://notes.www.collectors-society.com/registry/comics/PeopleSetDetail.aspx?PeopleSetID=161435",
+        "https://coins.www.collectors-society.com/registry/comics/SetScoreDetail.aspx?SetTypeID=5827"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4381117003",
+      "title": "w0rldtr33 #5 : The Comic Corner Edition",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "The Comic Corner Edition",
+        "labelCategory": "Universal",
+        "artComments": "James Tynion IV story\nFernando Blanco art\nAnna Marcano cover",
+        "keyComments": "\"Virgin\" cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-10",
+        "reason": "Opened exact MarcanoVirgin catalog: zero9.8 sales. NYCCColorSplash /150115 and94.30 are different convention edition; owned standard /300.",
+        "ledger": "data/originals/2026-11-10-daily-research.json",
+        "nextLead": "Rotate candidates; retain exact edition/grade/finish requirements."
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Opened exact MarcanoVirgin catalog: zero9.8 sales. NYCCColorSplash /150115 and94.30 are different convention edition; owned standard /300.",
+      "evidence": [],
+      "freshSearchQuery": "\"w0rldtr33\" \"5\" \"Marcano\" \"9.8\"",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://comicspriceguide.com/titles/w0rldtr33/5B/pisrcpv",
+        "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-5-2023",
+        "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-farr-nycc-virgin-5-2023",
+        "https://coins.www.collectors-society.com/registry/comics/SetScoreDetail.aspx?SetTypeID=5774",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/324803/image-comics-w0rldtr33-5oshred-no-masss-comics-edition",
+        "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-marcano-4-2023",
+        "https://www.mycomicshop.com/comicbooks/item?TID=58267103",
+        "https://rabbitcomics.com/collections/new-collection?page=231&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjI5NTMsImQiOiJmIiwidWlkIjozMjQwMjEyNzg4MDIzOCwibCI6MTIsIm8iOjAsInIiOiJDRFAifQ.zCqIE2w806P1dg7-eMVyY_0Njm4sQovZFccOZtH7i9c",
+        "https://www.pricecharting.com/nl/game/comic-books-w0rldtr33/w0rldtr33-5-2023",
+        "https://www.pricecharting.com/es/game/comic-books-w0rldtr33/w0rldtr33-blanco-5-2023",
+        "https://coins.www.collectors-society.com/registry/Comics/PeopleSetDetail.aspx?PeopleSetID=172022",
+        "https://www.sadlemoncomics.com/collections/image-boom-awa-variants-and-other-publishers/image-comics"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4381117004",
+      "title": "w0rldtr33 #1 : Third Printing/No Masss Comics Edition",
+      "grader": "CGC",
+      "grade": "9.6",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Third Printing/No Masss Comics Edition",
+        "labelCategory": "Universal",
+        "artComments": "James Tynion IV story\nFernando Blanco art\nS. Red Amparo cover",
+        "keyComments": null,
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-14",
+        "reason": "Registry standard thirdprinting or secondprintMomoko differs; no exact ask/sale.",
+        "ledger": "data/originals/2026-11-14-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Registry standard thirdprinting or secondprintMomoko differs; no exact ask/sale.",
+      "evidence": [],
+      "freshSearchQuery": "\"w0rldtr33\" \"No Masss\" \"9.6\"",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://comicspriceguide.com/titles/w0rldtr33/5B/pisrcpv",
+        "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-5-2023",
+        "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-farr-nycc-virgin-5-2023",
+        "https://coins.www.collectors-society.com/registry/comics/SetScoreDetail.aspx?SetTypeID=5774",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/324803/image-comics-w0rldtr33-5oshred-no-masss-comics-edition",
+        "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-marcano-4-2023",
+        "https://www.mycomicshop.com/comicbooks/item?TID=58267103",
+        "https://rabbitcomics.com/collections/new-collection?page=231&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjI5NTMsImQiOiJmIiwidWlkIjozMjQwMjEyNzg4MDIzOCwibCI6MTIsIm8iOjAsInIiOiJDRFAifQ.zCqIE2w806P1dg7-eMVyY_0Njm4sQovZFccOZtH7i9c",
+        "https://www.pricecharting.com/nl/game/comic-books-w0rldtr33/w0rldtr33-5-2023",
+        "https://www.pricecharting.com/es/game/comic-books-w0rldtr33/w0rldtr33-blanco-5-2023",
+        "https://coins.www.collectors-society.com/registry/Comics/PeopleSetDetail.aspx?PeopleSetID=172022",
+        "https://www.sadlemoncomics.com/collections/image-boom-awa-variants-and-other-publishers/image-comics"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4381117005",
+      "title": "w0rldtr33 #1 : Third Printing/No Masss Comics Edition",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Third Printing/No Masss Comics Edition",
+        "labelCategory": "Universal",
+        "artComments": "James Tynion IV story\nFernando Blanco art\nS. Red Amparo cover",
+        "keyComments": null,
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-14",
+        "reason": "Oshred issue2 reported42 and eBay405062277788 issue3 are wrong issues; fourthprintingwrong.",
+        "ledger": "data/originals/2026-11-14-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "No Masss1 CGC9.8 query returns registry only; no new priced match.",
+      "evidence": [
+        {
+          "url": "https://coins.www.collectors-society.com/registry/comics/SetScoreDetail.aspx?SetTypeID=5774",
+          "observedAt": "2026-11-15",
+          "access": "Search index; not direct page verification except MCS Do You Pooh catalog",
+          "accepted": false
+        }
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4381117006",
+      "title": "w0rldtr33 #4 : No Masss Comics Edition",
+      "grader": "CGC",
+      "grade": "9.9",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "No Masss Comics Edition",
+        "labelCategory": "Universal",
+        "artComments": "James Tynion IV story\nFernando Blanco art\nOshred cover",
+        "keyComments": "\"The Silence of the Lambs\"\nmovie poster cover homage.\n\"Virgin\" cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-10",
+        "reason": "Registry and wrong issue5 analyzer only; no exact priced9.9 offer.",
+        "ledger": "data/originals/2026-11-10-daily-research.json",
+        "nextLead": "Rotate candidates; retain exact edition/grade/finish requirements."
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Registry and wrong issue5 analyzer only; no exact priced9.9 offer.",
+      "evidence": [],
+      "freshSearchQuery": "\"w0rldtr33\" \"4\" \"Oshred\" \"9.9\"",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://comicspriceguide.com/titles/w0rldtr33/5B/pisrcpv",
+        "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-5-2023",
+        "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-farr-nycc-virgin-5-2023",
+        "https://coins.www.collectors-society.com/registry/comics/SetScoreDetail.aspx?SetTypeID=5774",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/324803/image-comics-w0rldtr33-5oshred-no-masss-comics-edition",
+        "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-marcano-4-2023",
+        "https://www.mycomicshop.com/comicbooks/item?TID=58267103",
+        "https://rabbitcomics.com/collections/new-collection?page=231&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjI5NTMsImQiOiJmIiwidWlkIjozMjQwMjEyNzg4MDIzOCwibCI6MTIsIm8iOjAsInIiOiJDRFAifQ.zCqIE2w806P1dg7-eMVyY_0Njm4sQovZFccOZtH7i9c",
+        "https://www.pricecharting.com/nl/game/comic-books-w0rldtr33/w0rldtr33-5-2023",
+        "https://www.pricecharting.com/es/game/comic-books-w0rldtr33/w0rldtr33-blanco-5-2023",
+        "https://coins.www.collectors-society.com/registry/Comics/PeopleSetDetail.aspx?PeopleSetID=172022",
+        "https://www.sadlemoncomics.com/collections/image-boom-awa-variants-and-other-publishers/image-comics"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4381117011",
+      "title": "w0rldtr33 #5 : Near Mint Comics Edition",
+      "grader": "CGC",
+      "grade": "9.4",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Near Mint Comics Edition",
+        "labelCategory": "Universal",
+        "artComments": "James Tynion IV story\nFernando Blanco art\nTehani Farr cover",
+        "keyComments": "\"Virgin\" cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": null,
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Exact available same-grade edition and label evidence required.",
+      "evidence": [],
+      "freshSearchQuery": "\"w0rldtr33\" \"5\" \"Farr\" \"9.4\"",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://comicspriceguide.com/titles/w0rldtr33/5B/pisrcpv",
+        "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-5-2023",
+        "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-farr-nycc-virgin-5-2023",
+        "https://coins.www.collectors-society.com/registry/comics/SetScoreDetail.aspx?SetTypeID=5774",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/324803/image-comics-w0rldtr33-5oshred-no-masss-comics-edition",
+        "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-marcano-4-2023",
+        "https://www.mycomicshop.com/comicbooks/item?TID=58267103",
+        "https://rabbitcomics.com/collections/new-collection?page=231&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjI5NTMsImQiOiJmIiwidWlkIjozMjQwMjEyNzg4MDIzOCwibCI6MTIsIm8iOjAsInIiOiJDRFAifQ.zCqIE2w806P1dg7-eMVyY_0Njm4sQovZFccOZtH7i9c",
+        "https://www.pricecharting.com/nl/game/comic-books-w0rldtr33/w0rldtr33-5-2023",
+        "https://www.pricecharting.com/es/game/comic-books-w0rldtr33/w0rldtr33-blanco-5-2023",
+        "https://coins.www.collectors-society.com/registry/Comics/PeopleSetDetail.aspx?PeopleSetID=172022",
+        "https://www.sadlemoncomics.com/collections/image-boom-awa-variants-and-other-publishers/image-comics"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4381117012",
+      "title": "w0rldtr33 #5 : Near Mint Comics Edition",
+      "grader": "CGC",
+      "grade": "8.0",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Near Mint Comics Edition",
+        "labelCategory": "Universal",
+        "artComments": "James Tynion IV story\nFernando Blanco art\nTehani Farr cover",
+        "keyComments": "\"Virgin\" cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": null,
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Exact available same-grade edition and label evidence required.",
+      "evidence": [],
+      "freshSearchQuery": "\"w0rldtr33\" \"5\" \"Farr\" \"8.0\"",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://gocollect.com/comic/batman-655-4",
+        "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-farr-nycc-virgin-5-2023",
+        "https://notes.www.collectors-society.com/registry/comics/SlotScoreDetail.aspx?SlotID=339525",
+        "https://www.mycomicshop.com/search?auctionstatus=notended&br=Y&cgc=y&minyr=0988",
+        "https://www.pricecharting.com/nl/console/comic-books-w0rldtr33",
+        "https://www.mycomicshop.com/groups/batman-comic-books?IVGroupID=22761395&p=2",
+        "https://www.pricecharting.com/console/comic-books-w0rldtr33?view=table",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/328104/marvel-comics-x-men-27trinity-nycc-trinity-comics-edition",
+        "https://coins.www.collectors-society.com/registry/Comics/PeopleSetDetail.aspx?PeopleSetID=153583&SelectedTab=SetListing",
+        "https://www.raremarq.com/graded/series/x-men?page=3",
+        "https://www.ebay.ie/b/bn_7115615095",
+        "https://www.ebay.com/shop/xmen-27?_nkw=xmen+27"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4386585003",
+      "title": "Batman: Facsimile Edition #655 : Whatnot Special Edition C",
+      "grader": "CGC",
+      "grade": "9.9",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Whatnot Special Edition C",
+        "labelCategory": "Universal",
+        "artComments": "Tyler Kirkham cover",
+        "keyComments": "Reprints Batman #655 (9/06)\nMellow Fellow Trading & SMZ Comics\nexclusive. \"Virgin\" foil cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-11",
+        "reason": "Index reports one Universal9.9 but no9.9 sale. WhatnotA9.8 excluded.",
+        "ledger": "data/incoming/2026-11-11-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Index reports one Universal9.9 but no9.9 sale. WhatnotA9.8 excluded.",
+      "evidence": [],
+      "freshSearchQuery": "\"Batman\" \"655\" \"Whatnot\" \"9.9\"",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://gocollect.com/comic/batman-655-4",
+        "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-farr-nycc-virgin-5-2023",
+        "https://notes.www.collectors-society.com/registry/comics/SlotScoreDetail.aspx?SlotID=339525",
+        "https://www.mycomicshop.com/search?auctionstatus=notended&br=Y&cgc=y&minyr=0988",
+        "https://www.pricecharting.com/nl/console/comic-books-w0rldtr33",
+        "https://www.mycomicshop.com/groups/batman-comic-books?IVGroupID=22761395&p=2",
+        "https://www.pricecharting.com/console/comic-books-w0rldtr33?view=table",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/328104/marvel-comics-x-men-27trinity-nycc-trinity-comics-edition",
+        "https://coins.www.collectors-society.com/registry/Comics/PeopleSetDetail.aspx?PeopleSetID=153583&SelectedTab=SetListing",
+        "https://www.raremarq.com/graded/series/x-men?page=3",
+        "https://www.ebay.ie/b/bn_7115615095",
+        "https://www.ebay.com/shop/xmen-27?_nkw=xmen+27"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4386585004",
+      "title": "The Addiction #1 : NYCC Mack \"Virgin\" Edition",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "NYCC Mack \"Virgin\" Edition",
+        "labelCategory": "Universal",
+        "artComments": "David Quinn & Vincent Zurzolo story\nClaudia Balboni art\nDavid Mack cover",
+        "keyComments": "Origin & 1st appearance of\nThe Addiction (Niki Tino).\n1st appearance of Enzo & Pelotas.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-12",
+        "reason": "Embossed150 and signature-series selectable offers not proven same virgin edition.",
+        "ledger": "data/originals/2026-11-12-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Fresh exact NYCC Mack9.8 search still returns embossed150 listing257182162605 and Signature Series selectable products; not proven owned virgin.",
+      "evidence": [
+        {
+          "url": "https://www.ebay.com/itm/257182162605",
+          "observedAt": "2026-11-15",
+          "access": "Search index; not direct page verification except MCS Do You Pooh catalog",
+          "accepted": false
+        }
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4395549003",
+      "title": "Killer Kare Bears #nn : 420 Foil Edition B",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "420 Foil Edition B",
+        "labelCategory": "Universal",
+        "artComments": "Terry Sala & Robert Wood story\nSean Forney art\nMarat Mychaels cover",
+        "keyComments": "Care Bears #1 (11/85) cover homage.\nMultiple foil variants exist.\n\"Virgin\" cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-11",
+        "reason": "Targeted search found no exact evidence.",
+        "ledger": "data/incoming/2026-11-11-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Targeted search found no exact evidence.",
+      "evidence": [],
+      "freshSearchQuery": "\"Killer Kare Bears\" \"420\" \"9.8\"",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://gocollect.com/comic/batman-655-4",
+        "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-farr-nycc-virgin-5-2023",
+        "https://notes.www.collectors-society.com/registry/comics/SlotScoreDetail.aspx?SlotID=339525",
+        "https://www.mycomicshop.com/search?auctionstatus=notended&br=Y&cgc=y&minyr=0988",
+        "https://www.pricecharting.com/nl/console/comic-books-w0rldtr33",
+        "https://www.mycomicshop.com/groups/batman-comic-books?IVGroupID=22761395&p=2",
+        "https://www.pricecharting.com/console/comic-books-w0rldtr33?view=table",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/328104/marvel-comics-x-men-27trinity-nycc-trinity-comics-edition",
+        "https://coins.www.collectors-society.com/registry/Comics/PeopleSetDetail.aspx?PeopleSetID=153583&SelectedTab=SetListing",
+        "https://www.raremarq.com/graded/series/x-men?page=3",
+        "https://www.ebay.ie/b/bn_7115615095",
+        "https://www.ebay.com/shop/xmen-27?_nkw=xmen+27"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4401613001",
+      "title": "Do You Pooh? #1 : Dunk Edition B",
+      "grader": "CGC",
+      "grade": "9.6",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Dunk Edition B",
+        "labelCategory": "Universal",
+        "artComments": "Terry Sala & Marat Mychaels story\nDietrich Smith & Marat Mychaels art\nMarat Mychaels cover",
+        "keyComments": "SMZ Comics exclusive.\n\"Virgin\" cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": null,
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Dunk Edition9.6 search found no exact priced comparison.",
+      "evidence": [],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4401613003",
+      "title": "Arcade Kings #1 : Bird City Comics Edition",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Bird City Comics Edition",
+        "labelCategory": "Universal",
+        "artComments": "Dylan Burnett story & art\nAnna Marcano cover",
+        "keyComments": "\"Virgin\" cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-09",
+        "reason": "Targeted exact-title search produced no usable match.",
+        "ledger": "data/originals/2026-11-09-daily-research.json",
+        "nextLead": "Rotate to other candidates; exact edition/grader evidence still needed"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Marcano9.8 search found catalog with zero graded transactions and raw sales only. Heritage-targeted search no matching auction.",
+      "evidence": [
+        {
+          "url": "https://www.pricecharting.com/game/comic-books-arcade-kings/arcade-kings-marcano-1-2023",
+          "observedAt": "2026-11-15",
+          "access": "Search index; not direct page verification except MCS Do You Pooh catalog",
+          "accepted": false
+        }
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4418876002",
+      "title": "Female Force: Taylor Swift #nn : Unknown Comics Foil Edition B",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "1900",
+        "variant": "Unknown Comics Foil Edition B",
+        "labelCategory": "Universal",
+        "artComments": "Eric M. Esquivel story\nRamon Salas art\nSteven Defendini cover",
+        "keyComments": "\"Virgin\" cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": null,
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Search found Unknown standardB65 and assorted Garza/Tyndall foils; none confirms owned Defendini foilB9.8.",
+      "evidence": [
+        {
+          "url": "https://www.ebay.com/str/ringoscomics",
+          "observedAt": "2026-11-15",
+          "access": "Search index; not direct page verification except MCS Do You Pooh catalog",
+          "accepted": false
+        }
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4418876003",
+      "title": "Female Force: Taylor Swift #nn : Unknown Comics Metal Edition B",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "1900",
+        "variant": "Unknown Comics Metal Edition B",
+        "labelCategory": "Universal",
+        "artComments": "Eric M. Esquivel story\nRamon Salas art\nSteven Defendini cover",
+        "keyComments": "\"Virgin\" cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": null,
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Exact metalB query found metalA9.8 asking125; A is wrong designation and excluded.",
+      "evidence": [
+        {
+          "url": "https://www.ebay.com/str/ringoscomics",
+          "observedAt": "2026-11-15",
+          "access": "Search index; not direct page verification except MCS Do You Pooh catalog",
+          "accepted": false
+        }
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4418876005",
+      "title": "X-Men #27 : Trinity Comics Edition",
+      "grader": "CGC",
+      "grade": "9.4",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Trinity Comics Edition",
+        "labelCategory": "Universal",
+        "artComments": "Gerry Duggan story\nPhil Noto art\nPeach Momoko cover",
+        "keyComments": null,
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-11",
+        "reason": "Sketch9.8 $150, registry9.8 and Classic27 excluded.",
+        "ledger": "data/incoming/2026-11-11-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Sketch9.8 $150, registry9.8 and Classic27 excluded.",
+      "evidence": [],
+      "freshSearchQuery": "\"X-Men\" \"27\" \"Trinity\" \"9.4\"",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://gocollect.com/comic/batman-655-4",
+        "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-farr-nycc-virgin-5-2023",
+        "https://notes.www.collectors-society.com/registry/comics/SlotScoreDetail.aspx?SlotID=339525",
+        "https://www.mycomicshop.com/search?auctionstatus=notended&br=Y&cgc=y&minyr=0988",
+        "https://www.pricecharting.com/nl/console/comic-books-w0rldtr33",
+        "https://www.mycomicshop.com/groups/batman-comic-books?IVGroupID=22761395&p=2",
+        "https://www.pricecharting.com/console/comic-books-w0rldtr33?view=table",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/328104/marvel-comics-x-men-27trinity-nycc-trinity-comics-edition",
+        "https://coins.www.collectors-society.com/registry/Comics/PeopleSetDetail.aspx?PeopleSetID=153583&SelectedTab=SetListing",
+        "https://www.raremarq.com/graded/series/x-men?page=3",
+        "https://www.ebay.ie/b/bn_7115615095",
+        "https://www.ebay.com/shop/xmen-27?_nkw=xmen+27"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4418876010",
+      "title": "Marvel Previews #26",
+      "grader": "CGC",
+      "grade": "8.0",
+      "identity": {
+        "issueYear": "2023",
+        "variant": null,
+        "labelCategory": "Universal",
+        "artComments": "Marco Checchetto cover",
+        "keyComments": null,
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": null,
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Marvel Previews26 CGC8 query returns issue95 CGC8, wrong issue and year.",
+      "evidence": [
+        {
+          "url": "https://www.grahamcrackers.com/products/marvel-previews-95-cgc-80.htm",
+          "observedAt": "2026-11-15",
+          "access": "Search index; not direct page verification except MCS Do You Pooh catalog",
+          "accepted": false
+        }
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4424144002",
+      "title": "Tales of the Titans #1 : East Side Comics \"Virgin\" Edition",
+      "grader": "CGC",
+      "grade": "9.6",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "East Side Comics \"Virgin\" Edition",
+        "labelCategory": "Universal",
+        "artComments": "Shannon Hale & Dean Hale story\nJavier Rodríguez art\nWill Jack cover",
+        "keyComments": null,
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-10",
+        "reason": "Registry/population only, not price evidence.",
+        "ledger": "data/originals/2026-11-10-daily-research.json",
+        "nextLead": "Rotate candidates; retain exact edition/grade/finish requirements."
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Registry/population only, not price evidence.",
+      "evidence": [],
+      "freshSearchQuery": "\"Tales of the Titans\" \"1\" \"Will Jack\" \"CGC 9.6\"",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://thecomicmint.com/collections/tcm-greatest-hits/products/tales-of-the-titans-1-will-jack-variants",
+        "https://coins.www.collectors-society.com/registry/comics/SetScoreDetail.aspx?SetTypeID=7109",
+        "https://coins.www.collectors-society.com/registry/Comics/PeopleSetDetail.aspx?PeopleSetID=178166&SelectedTab=SetListing",
+        "https://www.pricecharting.com/game/comic-books-spider-gwen-annual/spider-gwen-annual-lee-1-2023",
+        "https://www.mycomicshop.com/search?mingr=0&p=2&q=spider-gwen+1",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/150855/marvel-comics-spider-gwen-1pcc-paris-comic-con-edition",
+        "https://www.mycomicshop.com/graphicnovels/item?IVGroupID=58205308&br=P&mingr=0",
+        "https://thisispugandco.myshopify.com/collections/graded-comics",
+        "https://comicbookrealm.com/cgc-analyzer/series/32856/oni-press-helheim",
+        "https://clinkexchange.com/cgcsection.asp?id=1384&pg=104",
+        "https://www.ebay.com/b/Spider-Gwen/259104/bn_55192878",
+        "https://www.ebay.com/sch/i.html?_fosrp=1&_mPrRngCbx=1&_nkw=cgc+Starfire+10&_sop=1&campid=5337312549&customid=CGCRegistry&mkcid=1&mkevt=1&mkrid=711-53200-19255-0&siteid=0&toolid=10001"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4424144008",
+      "title": "Marvel's Voices: Spider-Verse #1 : Su \"Virgin\" Sketch Edition",
+      "grader": "CGC",
+      "grade": "9.4",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Su \"Virgin\" Sketch Edition",
+        "labelCategory": "Universal",
+        "artComments": "Vita Ayala, Jeremy Holt, Saint Bodhi,\nJ. Holtham, Steve Foxe, Jason Loo,\nCheryl Lynn Eaton & Cody Ziglar stories",
+        "keyComments": "Alburquerque, Vecchio, Lindsay, Lashley,\nKoda, Loo, Shaw & ChrisCross art\nBenjamin Su cover",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": null,
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Voices Spider-Verse Su9.4 query found no exact priced evidence.",
+      "evidence": [],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4471692001",
+      "title": "Fame: Mike Tyson #nn : Waite Foil Edition B",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "1900",
+        "variant": "Waite Foil Edition B",
+        "labelCategory": "Universal",
+        "artComments": "Eric M. Esquivel story\nMartin Gimenez art\nMatthew Waite cover",
+        "keyComments": "Big Time Collectibles &\nHawkins Collectibles exclusive.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-15",
+        "reason": "eBay277371219358 GBP160 isFoilF cert4474747004, notB.",
+        "ledger": "data/incoming/2026-11-15-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "eBay277371219358 GBP160 isFoilF cert4474747004, notB.",
+      "evidence": [],
+      "freshSearchQuery": "\"Mike Tyson\" \"Waite Foil Edition B\"",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://thecomicmint.com/collections/tcm-greatest-hits/products/tales-of-the-titans-1-will-jack-variants",
+        "https://coins.www.collectors-society.com/registry/comics/SetScoreDetail.aspx?SetTypeID=7109",
+        "https://coins.www.collectors-society.com/registry/Comics/PeopleSetDetail.aspx?PeopleSetID=178166&SelectedTab=SetListing",
+        "https://www.pricecharting.com/game/comic-books-spider-gwen-annual/spider-gwen-annual-lee-1-2023",
+        "https://www.mycomicshop.com/search?mingr=0&p=2&q=spider-gwen+1",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/150855/marvel-comics-spider-gwen-1pcc-paris-comic-con-edition",
+        "https://www.mycomicshop.com/graphicnovels/item?IVGroupID=58205308&br=P&mingr=0",
+        "https://thisispugandco.myshopify.com/collections/graded-comics",
+        "https://comicbookrealm.com/cgc-analyzer/series/32856/oni-press-helheim",
+        "https://clinkexchange.com/cgcsection.asp?id=1384&pg=104",
+        "https://www.ebay.com/b/Spider-Gwen/259104/bn_55192878",
+        "https://www.ebay.com/sch/i.html?_fosrp=1&_mPrRngCbx=1&_nkw=cgc+Starfire+10&_sop=1&campid=5337312549&customid=CGCRegistry&mkcid=1&mkevt=1&mkrid=711-53200-19255-0&siteid=0&toolid=10001"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4471692002",
+      "title": "Fame: Mike Tyson #nn : Waite Foil Edition C",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "1900",
+        "variant": "Waite Foil Edition C",
+        "labelCategory": "Universal",
+        "artComments": "Eric M. Esquivel story\nMartin Gimenez art\nMatthew Waite cover",
+        "keyComments": "Big Time Collectibles &\nHawkins Collectibles exclusive.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-15",
+        "reason": "SameFoilF mismatch; variantC9.9also wrong grade/finish.",
+        "ledger": "data/incoming/2026-11-15-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "SameFoilF mismatch; variantC9.9also wrong grade/finish.",
+      "evidence": [],
+      "freshSearchQuery": "\"Mike Tyson\" \"Waite Foil Edition C\"",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://thecomicmint.com/collections/tcm-greatest-hits/products/tales-of-the-titans-1-will-jack-variants",
+        "https://coins.www.collectors-society.com/registry/comics/SetScoreDetail.aspx?SetTypeID=7109",
+        "https://coins.www.collectors-society.com/registry/Comics/PeopleSetDetail.aspx?PeopleSetID=178166&SelectedTab=SetListing",
+        "https://www.pricecharting.com/game/comic-books-spider-gwen-annual/spider-gwen-annual-lee-1-2023",
+        "https://www.mycomicshop.com/search?mingr=0&p=2&q=spider-gwen+1",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/150855/marvel-comics-spider-gwen-1pcc-paris-comic-con-edition",
+        "https://www.mycomicshop.com/graphicnovels/item?IVGroupID=58205308&br=P&mingr=0",
+        "https://thisispugandco.myshopify.com/collections/graded-comics",
+        "https://comicbookrealm.com/cgc-analyzer/series/32856/oni-press-helheim",
+        "https://clinkexchange.com/cgcsection.asp?id=1384&pg=104",
+        "https://www.ebay.com/b/Spider-Gwen/259104/bn_55192878",
+        "https://www.ebay.com/sch/i.html?_fosrp=1&_mPrRngCbx=1&_nkw=cgc+Starfire+10&_sop=1&campid=5337312549&customid=CGCRegistry&mkcid=1&mkevt=1&mkrid=711-53200-19255-0&siteid=0&toolid=10001"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4471692006",
+      "title": "Spider-Man #7 : Mexican Edition/El Quinto Mundo Edition",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2024",
+        "variant": "Mexican Edition/El Quinto Mundo Edition",
+        "labelCategory": "Universal",
+        "artComments": "Dan Slott story\nMark Bagley, Andrew Hennessy &\nJohn Dell art, Humberto Ramos cover",
+        "keyComments": "Spider-Man #163\n1st appearance of Spider-Boy.\nFoil cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-10",
+        "reason": "US1990issue7 registry is wrong edition.",
+        "ledger": "data/originals/2026-11-10-daily-research.json",
+        "nextLead": "Rotate candidates; retain exact edition/grade/finish requirements."
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Fresh Ramos Mexican7 query found150 CGCxJSA signed Ramos; owned Universal. Mexican1 and ASM300 unrelated.",
+      "evidence": [
+        {
+          "url": "https://www.ebay.com/shop/ramos-spiderman?_nkw=ramos+spiderman",
+          "observedAt": "2026-11-15",
+          "access": "Search index; not direct page verification except MCS Do You Pooh catalog",
+          "accepted": false
+        }
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4471692012",
+      "title": "Spider-Gwen Annual #1 : Variant Edition",
+      "grader": "CGC",
+      "grade": "9.0",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Variant Edition",
+        "labelCategory": "Universal",
+        "artComments": "Karla Pacheco & Stephanie Phillips story\nRosi Kämpe, Marika Cresta &\nAlberto Foche art, Jeehyung Lee cover",
+        "keyComments": null,
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-12",
+        "reason": "PC54.80 is9.8; CBR115 is2015Paris issue1 not Annual; ComicLink75 Brys9.8 wrong.",
+        "ledger": "data/originals/2026-11-12-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "PC54.80 is9.8; CBR115 is2015Paris issue1 not Annual; ComicLink75 Brys9.8 wrong.",
+      "evidence": [],
+      "freshSearchQuery": "\"Spider-Gwen Annual\" \"1\" \"CGC 9.0\"",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://thecomicmint.com/collections/tcm-greatest-hits/products/tales-of-the-titans-1-will-jack-variants",
+        "https://coins.www.collectors-society.com/registry/comics/SetScoreDetail.aspx?SetTypeID=7109",
+        "https://coins.www.collectors-society.com/registry/Comics/PeopleSetDetail.aspx?PeopleSetID=178166&SelectedTab=SetListing",
+        "https://www.pricecharting.com/game/comic-books-spider-gwen-annual/spider-gwen-annual-lee-1-2023",
+        "https://www.mycomicshop.com/search?mingr=0&p=2&q=spider-gwen+1",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/150855/marvel-comics-spider-gwen-1pcc-paris-comic-con-edition",
+        "https://www.mycomicshop.com/graphicnovels/item?IVGroupID=58205308&br=P&mingr=0",
+        "https://thisispugandco.myshopify.com/collections/graded-comics",
+        "https://comicbookrealm.com/cgc-analyzer/series/32856/oni-press-helheim",
+        "https://clinkexchange.com/cgcsection.asp?id=1384&pg=104",
+        "https://www.ebay.com/b/Spider-Gwen/259104/bn_55192878",
+        "https://www.ebay.com/sch/i.html?_fosrp=1&_mPrRngCbx=1&_nkw=cgc+Starfire+10&_sop=1&campid=5337312549&customid=CGCRegistry&mkcid=1&mkevt=1&mkrid=711-53200-19255-0&siteid=0&toolid=10001"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4471693001",
+      "title": "Supergirl and the Legion of Super-Heroes #23 : Whatnot Special Foil Edition B",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Whatnot Special Foil Edition B",
+        "labelCategory": "CGCxJSA",
+        "artComments": "David Nakayama cover",
+        "keyComments": "Reprints Supergirl and the\nLegion of Super-Heroes #23 (12/06)\n\"Virgin\" cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": null,
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Owned full record is CGCxJSA, not Universal. MCS65706482 Universal9.8 current12 auction endingNov16 cannot apply even after closing unless independent matching autograph evidence. Fresh JSA query no exact.",
+      "evidence": [
+        {
+          "url": "https://www.mycomicshop.com/search?ItemID=65706482",
+          "observedAt": "2026-11-15",
+          "access": "Search index; not direct page verification except MCS Do You Pooh catalog",
+          "accepted": false
+        }
+      ],
+      "identityGap": "Structured signer absent; verify label photo or full signature text before comparable acceptance.",
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4471693002",
+      "title": "Kyle Willis Sketch Cover Collection #1 : Circle of Madness Foil Edition",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Circle of Madness Foil Edition",
+        "labelCategory": "CGCxJSA",
+        "artComments": "Kyle Willis cover",
+        "keyComments": "San Diego Comic-Con exclusive.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-10",
+        "reason": "No matching authenticated KyleWillis autograph offer surfaced; preserve CGCxJSA requirement.",
+        "ledger": "data/originals/2026-11-10-daily-research.json",
+        "nextLead": "Rotate candidates; retain exact edition/grade/finish requirements."
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "No matching authenticated KyleWillis autograph offer surfaced; preserve CGCxJSA requirement.",
+      "evidence": [],
+      "identityGap": "Structured signer absent; verify label photo or full signature text before comparable acceptance.",
+      "freshSearchQuery": "\"Kyle Willis\" \"Circle of Madness\" \"9.8\"",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://www.raremarq.com/auctions/fame-michael-jordan-nn-1-of-39-cgc-9-8-bueckert-exclusive-virgin-ltd-300-copies-e-t-homage",
+        "https://www.raremarq.com/auctions/fame-michael-jordan-1-of-only-5-cgc-9-8-fanexpo-chicago-exclusive-ltd-250-copies-dkr-homage",
+        "https://exchangecollectibles.com/products/fame-michael-jordan-1-virgin-cgc-9-8",
+        "https://www.ebay.com/itm/297793760391",
+        "https://www.raremarq.com/u/flyindutchmaster/pieces/1-of-21-cgc-9-8-fame-michael-jordan-nn-fanexpo-chicago-exclusive-ltd-150-copies",
+        "https://www.mycomicshop.com/comicbooks/item?cgc=y&tid=61253659",
+        "https://www.mycomicshop.com/search?ItemID=63069795",
+        "https://www.mycomicshop.com/search?ItemID=64612863",
+        "https://www.raremarq.com/auctions/fame-michael-jordan-nn-1-of-11-cgc-9-8-fanexpo-chicago-exclusive-spot-foil-virgin-ltd-50-copies",
+        "https://www.ebay.com/itm/358248440412",
+        "https://www.raremarq.com/sold-prices/categories/graded-comics/grade/9.8?page=1",
+        "https://www.raremarq.com/sold-prices?seller=flyindutchmaster"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4480290001",
+      "title": "Fame: Mike Tyson #nn : Crush Collectibles Edition",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "1900",
+        "variant": "Crush Collectibles Edition",
+        "labelCategory": "Universal",
+        "artComments": "Eric M. Esquivel story\nMartin Gimenez art",
+        "keyComments": null,
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": null,
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Crush9.8 search returns CGC registry score table, not money. No exact offer.",
+      "evidence": [
+        {
+          "url": "https://coins.www.collectors-society.com/registry/comics/SetScoreDetail.aspx?SetTypeID=7109",
+          "observedAt": "2026-11-15",
+          "access": "Search index; not direct page verification except MCS Do You Pooh catalog",
+          "accepted": false
+        }
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4480290002",
+      "title": "The Disputed #1 : ComicTom101 Edition",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2024",
+        "variant": "ComicTom101 Edition",
+        "labelCategory": "Universal",
+        "artComments": "Michael Hinson story\nLip Wei Chang art\nIvan Tao cover",
+        "keyComments": null,
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-09",
+        "reason": "ComicTom results are issue3, not1.",
+        "ledger": "data/originals/2026-11-09-daily-research.json",
+        "nextLead": "Rotate to other candidates; exact edition/grader evidence still needed"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "ComicTom results are issue3, not1.",
+      "evidence": [],
+      "freshSearchQuery": "\"The Disputed\" \"1\" \"ComicTom101\" \"9.8\"",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://www.raremarq.com/auctions/fame-michael-jordan-nn-1-of-39-cgc-9-8-bueckert-exclusive-virgin-ltd-300-copies-e-t-homage",
+        "https://www.raremarq.com/auctions/fame-michael-jordan-1-of-only-5-cgc-9-8-fanexpo-chicago-exclusive-ltd-250-copies-dkr-homage",
+        "https://exchangecollectibles.com/products/fame-michael-jordan-1-virgin-cgc-9-8",
+        "https://www.ebay.com/itm/297793760391",
+        "https://www.raremarq.com/u/flyindutchmaster/pieces/1-of-21-cgc-9-8-fame-michael-jordan-nn-fanexpo-chicago-exclusive-ltd-150-copies",
+        "https://www.mycomicshop.com/comicbooks/item?cgc=y&tid=61253659",
+        "https://www.mycomicshop.com/search?ItemID=63069795",
+        "https://www.mycomicshop.com/search?ItemID=64612863",
+        "https://www.raremarq.com/auctions/fame-michael-jordan-nn-1-of-11-cgc-9-8-fanexpo-chicago-exclusive-spot-foil-virgin-ltd-50-copies",
+        "https://www.ebay.com/itm/358248440412",
+        "https://www.raremarq.com/sold-prices/categories/graded-comics/grade/9.8?page=1",
+        "https://www.raremarq.com/sold-prices?seller=flyindutchmaster"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4480290003",
+      "title": "Fame: Michael Jordan #nn : Bueckert Variant Cover",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "1900",
+        "variant": "Bueckert Variant Cover",
+        "labelCategory": "Universal",
+        "artComments": "Michael Frizell story\nIgor Cicarini art\nSheldon Bueckert cover",
+        "keyComments": "Comic Kingdom Creative &\nComics Elite exclusive.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-15",
+        "reason": "Raremarq100 finalbid cert4491747010 isvirgin/300; ownedtrade.",
+        "ledger": "data/incoming/2026-11-15-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Raremarq100 finalbid cert4491747010 isvirgin/300; ownedtrade.",
+      "evidence": [
+        {
+          "url": "https://www.ebay.com/itm/358248440412",
+          "listingId": "358248440412",
+          "amount": 90,
+          "currency": "USD",
+          "access": "Direct page",
+          "accepted": false,
+          "observedAt": "2026-11-15",
+          "reason": "Out of stock; not confirmed sold transaction or current available ask. Photo identity not yet inspected."
+        }
+      ],
+      "freshSearchQuery": "\"Fame Michael Jordan\" \"Bueckert\" \"9.8\"",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://www.raremarq.com/auctions/fame-michael-jordan-nn-1-of-39-cgc-9-8-bueckert-exclusive-virgin-ltd-300-copies-e-t-homage",
+        "https://www.raremarq.com/auctions/fame-michael-jordan-1-of-only-5-cgc-9-8-fanexpo-chicago-exclusive-ltd-250-copies-dkr-homage",
+        "https://exchangecollectibles.com/products/fame-michael-jordan-1-virgin-cgc-9-8",
+        "https://www.ebay.com/itm/297793760391",
+        "https://www.raremarq.com/u/flyindutchmaster/pieces/1-of-21-cgc-9-8-fame-michael-jordan-nn-fanexpo-chicago-exclusive-ltd-150-copies",
+        "https://www.mycomicshop.com/comicbooks/item?cgc=y&tid=61253659",
+        "https://www.mycomicshop.com/search?ItemID=63069795",
+        "https://www.mycomicshop.com/search?ItemID=64612863",
+        "https://www.raremarq.com/auctions/fame-michael-jordan-nn-1-of-11-cgc-9-8-fanexpo-chicago-exclusive-spot-foil-virgin-ltd-50-copies",
+        "https://www.ebay.com/itm/358248440412",
+        "https://www.raremarq.com/sold-prices/categories/graded-comics/grade/9.8?page=1",
+        "https://www.raremarq.com/sold-prices?seller=flyindutchmaster"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4480291001",
+      "title": "Wonder Woman #1 : Besch Variant Cover",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2023",
+        "variant": "Besch Variant Cover",
+        "labelCategory": "CGCxJSA",
+        "artComments": "Tom King story\nDaniel Sampere art\nRose Besch cover",
+        "keyComments": "Wonder Woman #801\n\"Artist Spotlight\" variant cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": null,
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Besch9.8JSA query returns witnessed SS Wonder Woman1 and JSA different titles. No exact JSA comparison. Owned JSA requires signer identification.",
+      "evidence": [
+        {
+          "url": "https://www.befr.ebay.be/sch/i.html?_nkw=rose+besch+cgc+9.8+signed&_sop=12",
+          "observedAt": "2026-11-15",
+          "access": "Search index; not direct page verification except MCS Do You Pooh catalog",
+          "accepted": false
+        }
+      ],
+      "identityGap": "Structured signer absent; verify label photo or full signature text before comparable acceptance.",
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4493150004",
+      "title": "Fame: Michael Jordan #nn : Bueckert Variant Cover",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "1900",
+        "variant": "Bueckert Variant Cover",
+        "labelCategory": "Universal",
+        "artComments": "Michael Frizell story\nIgor Cicarini art\nSheldon Bueckert cover",
+        "keyComments": "Comic Kingdom Creative &\nComics Elite exclusive.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-15",
+        "reason": "Samevirgin mismatch; MCS1CK.Bvirgin/125also differs.",
+        "ledger": "data/incoming/2026-11-15-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Samevirgin mismatch; MCS1CK.Bvirgin/125also differs.",
+      "evidence": [
+        {
+          "url": "https://www.ebay.com/itm/358248440412",
+          "listingId": "358248440412",
+          "amount": 90,
+          "currency": "USD",
+          "access": "Direct page",
+          "accepted": false,
+          "observedAt": "2026-11-15",
+          "reason": "Out of stock; not confirmed sold transaction or current available ask. Photo identity not yet inspected."
+        }
+      ],
+      "freshSearchQuery": "\"Fame Michael Jordan\" \"Bueckert\" \"trade\" CGC",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://www.raremarq.com/auctions/fame-michael-jordan-nn-1-of-39-cgc-9-8-bueckert-exclusive-virgin-ltd-300-copies-e-t-homage",
+        "https://www.raremarq.com/auctions/fame-michael-jordan-1-of-only-5-cgc-9-8-fanexpo-chicago-exclusive-ltd-250-copies-dkr-homage",
+        "https://exchangecollectibles.com/products/fame-michael-jordan-1-virgin-cgc-9-8",
+        "https://www.ebay.com/itm/297793760391",
+        "https://www.raremarq.com/u/flyindutchmaster/pieces/1-of-21-cgc-9-8-fame-michael-jordan-nn-fanexpo-chicago-exclusive-ltd-150-copies",
+        "https://www.mycomicshop.com/comicbooks/item?cgc=y&tid=61253659",
+        "https://www.mycomicshop.com/search?ItemID=63069795",
+        "https://www.mycomicshop.com/search?ItemID=64612863",
+        "https://www.raremarq.com/auctions/fame-michael-jordan-nn-1-of-11-cgc-9-8-fanexpo-chicago-exclusive-spot-foil-virgin-ltd-50-copies",
+        "https://www.ebay.com/itm/358248440412",
+        "https://www.raremarq.com/sold-prices/categories/graded-comics/grade/9.8?page=1",
+        "https://www.raremarq.com/sold-prices?seller=flyindutchmaster"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4526002006",
+      "title": "Do You Pooh? #1 : Brock Poohdy Edition B",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "2024",
+        "variant": "Brock Poohdy Edition B",
+        "labelCategory": "Universal",
+        "artComments": "Terry Sala & Marat Mychaels story\nDietrich Smith & Marat Mychaels art\nMarat Mychaels cover",
+        "keyComments": "Rabbit Comics exclusive.\n\"Virgin\" cover.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": null,
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Brock Poohdy9.8 search found85 signed metal10/10, not Universal virginB slab.",
+      "evidence": [
+        {
+          "url": "https://www.ebay.com/usr/a_n_d_comics_n_more",
+          "observedAt": "2026-11-15",
+          "access": "Search index; not direct page verification except MCS Do You Pooh catalog",
+          "accepted": false
+        }
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4526002007",
+      "title": "Tribute: Tupac Shakur #nn : Cacau \"Virgin\" Edition",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "1900",
+        "variant": "Cacau \"Virgin\" Edition",
+        "labelCategory": "Universal",
+        "artComments": "Eric M. Esquivel story\nMartin Gimenez art\nCaio Cacau cover",
+        "keyComments": "Comic Kingdom Creative &\nComics Elite exclusive.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-15",
+        "reason": "Retail79 offer says allow5months grading; preorder not confirmed available graded copy. Whatnot trade unavailable.",
+        "ledger": "data/incoming/2026-11-15-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "provisional-asking",
+      "proposedValue": 199,
+      "reason": "Direct listing and full front/back photographs match Cacau Virgin Edition CGC Universal9.8. Item-specific Signed/Sanchez fields conflict with title, photos and label; retain explicit uncertainty.",
+      "evidence": [
+        {
+          "url": "https://www.ebay.co.uk/itm/257655628917",
+          "listingId": "257655628917",
+          "cert": "4761759004",
+          "amount": 199,
+          "currency": "USD",
+          "shipping": 12.7,
+          "type": "asking",
+          "observedAt": "2026-11-15",
+          "lastUpdated": "2026-08-02 02:33:21 BST",
+          "availability": "Buy It Now; delivery Nov18–20 to85032",
+          "access": "Direct page and full front/back image inspection",
+          "accepted": true,
+          "photoFiles": [
+            "data/originals/tupac-listing-257655628917-front.webp",
+            "data/originals/tupac-listing-257655628917-full.webp"
+          ],
+          "uncertainty": "Specifics claim Signed DavidSanchez; visible blue Universal label, Cacau art and matching printed cover signature contradict those fields."
+        },
+        {
+          "url": "https://exchangecollectibles.com/products/tribute-topac-shakur-1-virgin-cgc-9-8",
+          "amount": 79,
+          "currency": "USD",
+          "type": "retailer grade-to-order asking",
+          "observedAt": "2026-11-15",
+          "availability": "Add to cart; allow up to5months grading",
+          "access": "Direct page",
+          "accepted": false,
+          "reason": "Context alternative only; different fulfillment terms from available certified slab; not averaged."
+        }
+      ],
+      "freshSearchQuery": "\"Tupac\" \"Cacau\" \"CGC 9.8\"",
+      "freshSearchOutcome": "Follow-up found exact asking evidence; see accepted observation.",
+      "searchBatchSources": [
+        "https://exchangecollectibles.com/products/tribute-topac-shakur-1-virgin-cgc-9-8",
+        "https://www.keycollectorcomics.com/issue/tribute-kobe-bryant-1-20%2C923941/",
+        "https://www.whatnot.com/en-GB/listing/TGlzdGluZ05vZGU6MTc0OTEyNTY3Nw%3D%3D",
+        "https://www.ebay.com/itm/257012632582",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/262952/eclipse-comics-the-new-wave-5",
+        "https://www.ebay.com/shop/michael-j-fox-signed-book?_nkw=michael+j+fox+signed+book",
+        "https://www.ebay.com/shop/wu-tang-comic-book?_nkw=wu+tang+comic+book",
+        "https://www.ebay.co.uk/itm/336718570114",
+        "https://sports.ha.com/c/catalog-print.zx?ic5=CatalogHome-AucType-PrintableCatalog-071515&saleNo=70005",
+        "https://bigtimecollectibles.com/en-ca/collections/cgc-9-8?page=17",
+        "https://bigtimecollectibles.com/collections/recently-added?page=2",
+        "https://www.ebay.com/b/Kobe-Bryant-Los-Angeles-Lakers-Basketball-Vintage-Sports-Publications/64487/bn_17242226"
+      ],
+      "currency": "USD",
+      "basis": "Exact available slab asking price; not completed sale",
+      "integration": {
+        "status": "accepted-provisional",
+        "value": 199
+      }
+    },
+    {
+      "copyId": "CGC:4526002008",
+      "title": "Tribute: Tupac Shakur #nn : Cacau \"Virgin\" Edition",
+      "grader": "CGC",
+      "grade": "9.6",
+      "identity": {
+        "issueYear": "1900",
+        "variant": "Cacau \"Virgin\" Edition",
+        "labelCategory": "Universal",
+        "artComments": "Eric M. Esquivel story\nMartin Gimenez art\nCaio Cacau cover",
+        "keyComments": "Comic Kingdom Creative &\nComics Elite exclusive.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-15",
+        "reason": "Retail9.8preorder wronggrade; no9.6offer.",
+        "ledger": "data/incoming/2026-11-15-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Retail9.8preorder wronggrade; no9.6offer.",
+      "evidence": [],
+      "freshSearchQuery": "\"Tupac\" \"Cacau\" \"CGC 9.6\"",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://exchangecollectibles.com/products/tribute-topac-shakur-1-virgin-cgc-9-8",
+        "https://www.keycollectorcomics.com/issue/tribute-kobe-bryant-1-20%2C923941/",
+        "https://www.whatnot.com/en-GB/listing/TGlzdGluZ05vZGU6MTc0OTEyNTY3Nw%3D%3D",
+        "https://www.ebay.com/itm/257012632582",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/262952/eclipse-comics-the-new-wave-5",
+        "https://www.ebay.com/shop/michael-j-fox-signed-book?_nkw=michael+j+fox+signed+book",
+        "https://www.ebay.com/shop/wu-tang-comic-book?_nkw=wu+tang+comic+book",
+        "https://www.ebay.co.uk/itm/336718570114",
+        "https://sports.ha.com/c/catalog-print.zx?ic5=CatalogHome-AucType-PrintableCatalog-071515&saleNo=70005",
+        "https://bigtimecollectibles.com/en-ca/collections/cgc-9-8?page=17",
+        "https://bigtimecollectibles.com/collections/recently-added?page=2",
+        "https://www.ebay.com/b/Kobe-Bryant-Los-Angeles-Lakers-Basketball-Vintage-Sports-Publications/64487/bn_17242226"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4526002009",
+      "title": "Tribute: Kobe Bryant #1 : Comic Kingdom \"Virgin\" Edition",
+      "grader": "CGC",
+      "grade": "9.6",
+      "identity": {
+        "issueYear": "1900",
+        "variant": "Comic Kingdom \"Virgin\" Edition",
+        "labelCategory": "Universal",
+        "artComments": "Michael Frizell story\nPablo Martinena cover & art",
+        "keyComments": "The Black Mamba Returns.",
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-15",
+        "reason": "No exact graded match in targeted search.",
+        "ledger": "data/incoming/2026-11-15-daily-research.json"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "No exact graded match in targeted search.",
+      "evidence": [],
+      "freshSearchQuery": "\"Tribute Kobe Bryant\" \"CGC 9.6\"",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://exchangecollectibles.com/products/tribute-topac-shakur-1-virgin-cgc-9-8",
+        "https://www.keycollectorcomics.com/issue/tribute-kobe-bryant-1-20%2C923941/",
+        "https://www.whatnot.com/en-GB/listing/TGlzdGluZ05vZGU6MTc0OTEyNTY3Nw%3D%3D",
+        "https://www.ebay.com/itm/257012632582",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/262952/eclipse-comics-the-new-wave-5",
+        "https://www.ebay.com/shop/michael-j-fox-signed-book?_nkw=michael+j+fox+signed+book",
+        "https://www.ebay.com/shop/wu-tang-comic-book?_nkw=wu+tang+comic+book",
+        "https://www.ebay.co.uk/itm/336718570114",
+        "https://sports.ha.com/c/catalog-print.zx?ic5=CatalogHome-AucType-PrintableCatalog-071515&saleNo=70005",
+        "https://bigtimecollectibles.com/en-ca/collections/cgc-9-8?page=17",
+        "https://bigtimecollectibles.com/collections/recently-added?page=2",
+        "https://www.ebay.com/b/Kobe-Bryant-Los-Angeles-Lakers-Basketball-Vintage-Sports-Publications/64487/bn_17242226"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "CGC:4603826010",
+      "title": "Fame: Michael J. Fox #nn : Official Pix Foil Edition",
+      "grader": "CGC",
+      "grade": "9.8",
+      "identity": {
+        "issueYear": "1900",
+        "variant": "Official Pix Foil Edition",
+        "labelCategory": "Signature Series",
+        "artComments": "Michael Frizell story\nIgor Cicarini art\nMatthew Waite cover",
+        "keyComments": null,
+        "signatures": null,
+        "signatureDetails": null,
+        "labelNotes": null,
+        "certUrl": null
+      },
+      "priorResearch": {
+        "date": "2026-11-09",
+        "reason": "Targeted OfficialPix foil search no usable priced match.",
+        "ledger": "data/originals/2026-11-09-daily-research.json",
+        "nextLead": "Rotate to other candidates; exact edition/grader evidence still needed"
+      },
+      "reviewScope": "Fresh targeted web search plus full owned record and prior exclusions",
+      "status": "unresolved",
+      "proposedValue": null,
+      "reason": "Fresh exact OfficialPix signedFox9.8 lead found; $1700 direct page vs$2000 index. Numbered7/30 potential special edition distinction unresolved; listing image tool failed and shell source error. Owned signer MichaelJFox confirmed by parent image inspection. Needs comparison of limited edition and cert.",
+      "evidence": [
+        {
+          "url": "https://www.ebay.com/itm/257012632582",
+          "listingId": "257012632582",
+          "amount": 1700,
+          "indexAmount": 2000,
+          "currency": "USD",
+          "access": "Direct parsed page; photos failed to retrieve",
+          "accepted": false,
+          "observedAt": "2026-11-15",
+          "reason": "Numbered7/30 edition not verified against owned. Cached direct price differing index."
+        },
+        {
+          "url": "https://www.ebay.co.uk/itm/336718570114",
+          "access": "Direct parsed page but price/edition not established",
+          "accepted": false
+        }
+      ],
+      "identityGap": "Structured signer absent; verify label photo or full signature text before comparable acceptance.",
+      "freshSearchQuery": "\"Michael J Fox\" \"Official Pix\" \"CGC 9.8\"",
+      "freshSearchOutcome": "No exact priced match established; prior exclusion retained.",
+      "searchBatchSources": [
+        "https://exchangecollectibles.com/products/tribute-topac-shakur-1-virgin-cgc-9-8",
+        "https://www.keycollectorcomics.com/issue/tribute-kobe-bryant-1-20%2C923941/",
+        "https://www.whatnot.com/en-GB/listing/TGlzdGluZ05vZGU6MTc0OTEyNTY3Nw%3D%3D",
+        "https://www.ebay.com/itm/257012632582",
+        "https://comicbookrealm.com/cgc-analyzer/comic/id/262952/eclipse-comics-the-new-wave-5",
+        "https://www.ebay.com/shop/michael-j-fox-signed-book?_nkw=michael+j+fox+signed+book",
+        "https://www.ebay.com/shop/wu-tang-comic-book?_nkw=wu+tang+comic+book",
+        "https://www.ebay.co.uk/itm/336718570114",
+        "https://sports.ha.com/c/catalog-print.zx?ic5=CatalogHome-AucType-PrintableCatalog-071515&saleNo=70005",
+        "https://bigtimecollectibles.com/en-ca/collections/cgc-9-8?page=17",
+        "https://bigtimecollectibles.com/collections/recently-added?page=2",
+        "https://www.ebay.com/b/Kobe-Bryant-Los-Angeles-Lakers-Basketball-Vintage-Sports-Publications/64487/bn_17242226"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "raw:15-002",
+      "title": "Orbit: Eminem",
+      "issue": "1",
+      "coverArtist": "Caio Cacau",
+      "edition": "Punisher #1 homage regular trade dress (white shirt, yellow-blue title; not Rapboy)",
+      "upc": null,
+      "printing": null,
+      "status": "provisional-reference-supported-for-current-confirmed-edition",
+      "reference": {
+        "basis": "raw-reference",
+        "value": 20,
+        "currency": "USD",
+        "sourceName": "Rabbit Comics sold-out asking reference",
+        "url": "https://rabbitcomics.com/products/orbit-eminem-1-caio-cacau-excluisve-variant-preorder",
+        "retrievedAt": "2026-11-15",
+        "soldAt": null,
+        "availability": "sold out",
+        "variant": "Trade Dress",
+        "notes": "Direct product page and Shopify .js variant both show $20. Exact artwork compared to owned scan. Existing metadata already confirms regular trade dress. Retailer also sells foil/metal versions, so reference is strictly the regular trade dress; does not independently authenticate physical stock or printing. Catalog is a stale preorder/sold-out offer, not current executable market price."
+      },
+      "evidence": [
+        {
+          "url": "https://rabbitcomics.com/products/orbit-eminem-1-caio-cacau-excluisve-variant-preorder.js",
+          "retrievedAt": "2026-11-15",
+          "notes": "Trade Dress price 2000 cents, available false, barcode null. Distinct Rapboy, foil and metal options."
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0030/5614/0334/files/449784621_10169569493840323_7036052819646530056_n.jpg?v=1720353617",
+          "retrievedAt": "2026-11-15",
+          "notes": "Visually inspected source image matches full-resolution owned front."
+        },
+        {
+          "url": "https://www.ebay.com/itm/227306554623",
+          "retrievedAt": "2026-11-15",
+          "notes": "Reported sold 2026-06-13, CAD49.99 approximately USD35.73. Exact title regular Caio Cacau trade dress /600. Not used: image not independently downloaded/reviewed and currency conversion is page-dependent."
+        }
+      ],
+      "gaps": [
+        "No reverse or indicia; full UPC and printing unknown",
+        "Release-year discrepancy persists: retailers catalog 2024 but CK preorder says February 2025"
+      ],
+      "integration": {
+        "status": "raw-reference-outside-total",
+        "value": 35.73,
+        "notes": "Supersedes research-stage20 sold-out suggestion with direct cached eBay sale reference CAD49.99 / displayed approximate USD35.73; photographs not independently retrieved."
+      }
+    },
+    {
+      "copyId": "raw:15-012",
+      "title": "Tribute: Kobe Bryant",
+      "issue": "1",
+      "coverArtist": "Sajad Shah",
+      "edition": "Wu-Tang Clan homage virgin artwork; finish unverified",
+      "status": "blocked-finish",
+      "reference": null,
+      "upc": null,
+      "printing": null,
+      "evidence": [
+        {
+          "url": "https://comickingdomcreative.com/products/tribute-kobe-bryant-ck-shared-exclusive-wu-tang-clan-homage-sajad-shah",
+          "retrievedAt": "2026-11-15",
+          "notes": "Catalog confirms artist/artwork; default $13 sale amount is not safe to apply to owned virgin because selected option and finish are not resolved."
+        }
+      ],
+      "gaps": [
+        "Front confirms cobra/basketball and five Kobe figures without trade title, but does not establish regular, foil, metal or retailer-appreciation finish",
+        "Need reverse/indicia or physical finish/edition evidence; no condition inferred"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "raw:15-013",
+      "title": "Tribute: Kobe Bryant",
+      "issue": "1",
+      "coverArtist": "Sajad Shah",
+      "edition": "Wu-Tang Clan homage virgin artwork; finish unverified",
+      "status": "blocked-finish",
+      "reference": null,
+      "upc": null,
+      "printing": null,
+      "evidence": [
+        {
+          "url": "https://comickingdomcreative.com/products/tribute-kobe-bryant-ck-shared-exclusive-wu-tang-clan-homage-sajad-shah",
+          "retrievedAt": "2026-11-15",
+          "notes": "Individually inspected owned full-resolution front; same virgin artwork, finish remains unresolved."
+        }
+      ],
+      "gaps": [
+        "Full UPC, printing and physical finish require reverse/indicia or edition evidence"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "raw:15-014",
+      "title": "Tribute: Tupac Shakur",
+      "issue": "1",
+      "coverArtist": "Caio Cacau",
+      "edition": "Crow homage trade dress; finish unverified",
+      "status": "blocked-finish",
+      "reference": null,
+      "upc": null,
+      "printing": null,
+      "evidence": [
+        {
+          "url": "https://exchangecollectibles.com/products/tribute-topac-shakur-1-trade-dress",
+          "retrievedAt": "2026-11-15",
+          "notes": "$15 regular trade dress asking listing, Crow homage by Caio Cacau. Candidate only until owned finish established."
+        },
+        {
+          "url": "https://bigtimecollectibles.com/products/tribute-tupac-shakur-1-caio-cacau-crow-homage-options",
+          "retrievedAt": "2026-11-15",
+          "notes": "Explicit separate editions: trade $24.99, trade foil $49.99, trade metal $99.99. Confirms why matching trade dress artwork alone cannot select value."
+        }
+      ],
+      "gaps": [
+        "Full-resolution owned front confirms issue 1, white light column and All Eyes On Me trade dress, not stock material",
+        "Need physical finish and reverse/indicia"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "raw:15-015",
+      "title": "Tribute: Kobe Bryant",
+      "issue": "1",
+      "coverArtist": "Sajad Shah",
+      "edition": "Wu-Tang Clan homage virgin artwork; finish unverified",
+      "status": "blocked-finish",
+      "reference": null,
+      "upc": null,
+      "printing": null,
+      "evidence": [
+        {
+          "url": "https://comickingdomcreative.com/products/tribute-kobe-bryant-ck-shared-exclusive-wu-tang-clan-homage-sajad-shah",
+          "retrievedAt": "2026-11-15",
+          "notes": "Individually inspected owned full-resolution front; same virgin artwork, finish remains unresolved."
+        }
+      ],
+      "gaps": [
+        "Full UPC, printing and physical finish require reverse/indicia or edition evidence"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "raw:15-017",
+      "title": "Fame: Michael Jordan",
+      "issue": "1",
+      "coverArtist": "Caio Cacau",
+      "edition": "Goodfellas homage red-uniform virgin; finish unverified",
+      "status": "blocked-finish",
+      "reference": null,
+      "upc": null,
+      "printing": null,
+      "evidence": [
+        {
+          "url": "https://comickingdomcreative.com/products/fame-michael-jordan-fan-expo-chicago-ck-exclusive-goodfellas-homage-caio-cacau",
+          "retrievedAt": "2026-11-15",
+          "notes": "Primary catalog confirms artist. Default $13 sale is not assigned; physical finish and selected variant not established. Full owned scan clearly confirms RED uniforms and six trophies, not black-uniform edition."
+        }
+      ],
+      "gaps": [
+        "Need physical finish, reverse or indicia; cannot select foil/metal/regular based on artwork"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "raw:15-059",
+      "title": null,
+      "issue": null,
+      "status": "blocked-exact-identity-and-edition",
+      "reference": null,
+      "upc": null,
+      "printing": null,
+      "candidateIdentity": {
+        "title": "Mosaic Scrapbook",
+        "issue": "1",
+        "coverArtist": "Kyle Willis",
+        "variant": "Spider-Boy Golden Gate Bridge mosaic foil, San Diego Comic-Con logo",
+        "confidence": "strong artwork-family lead, exact published item still unconfirmed"
+      },
+      "ownedScanNotes": "Full resolution shows clearly printed San Diego Comic-Con International logo lower left, foil reflection, collage Spider-Boy over Golden Gate Bridge, black Kyle Willis-like signature mark lower right. No Marvel title or issue number visible. Signature identity/authentication not asserted.",
+      "evidence": [
+        {
+          "url": "https://www.ebay.com/itm/196047212717",
+          "retrievedAt": "2026-11-15",
+          "notes": "$69.99 asking: Kyle Willis Sketchbook Fan Expo Exclusive #16/100 foil mosaic Spider-Boy homage. Artwork-family lead; Fan Expo edition differs owned SDCC logo, no price assigned."
+        },
+        {
+          "url": "https://www.ebay.com/itm/128028063287",
+          "retrievedAt": "2026-11-15",
+          "notes": "Sold 2026-08-22 for $28.50, Boston Expo foil 8/100 with COA. Different convention and authentication; excluded. Seller UPC 'Does not apply' pertains only to comparable, not established for owned copy."
+        },
+        {
+          "url": "https://coins.www.collectors-society.com/wcm/ComicCustomSetView.aspx?s=34800",
+          "retrievedAt": "2026-11-15",
+          "notes": "Collector registry explicitly calls Spider Boy Mosaic Scrapbook 1; corroborates art-book identification lead, not exact owned edition."
+        },
+        {
+          "url": "https://www.pricecharting.com/game/comic-books-mosaic-scrapbook/mosaic-scrapbook-willis-virgin-1-2023",
+          "retrievedAt": "2026-11-15",
+          "notes": "Aggregated series mixes Wolverine SDCC and Spider-Boy variants and slabs; no usable raw exact-edition reference."
+        }
+      ],
+      "gaps": [
+        "Need back cover or indicia to identify actual publication and edition",
+        "Need COA/provenance for handwritten mark; no autograph premium",
+        "Do not confirm as Marvel Spider-Boy #1 from character artwork"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    },
+    {
+      "copyId": "raw:15-060",
+      "status": "identity-resolved-provisional-reference-supported",
+      "metadataProposal": {
+        "kind": "comic",
+        "title": "Female Force: Taylor Swift",
+        "issue": "1",
+        "publisher": "TidalWave Productions",
+        "variant": "Steven Defendini Unknown Comics Exclusive X Variant (Trade Dress)",
+        "coverArtist": "Steven Defendini",
+        "issueYear": null,
+        "printing": null,
+        "upc": null
+      },
+      "metadataCaveat": "Retailer release date is 2024-03-27, while series catalog uses 2023 and CGC-style listings use nn. Issue 1 is retailer series convention, not read from owned indicia. Keep year unknown until resolved. SKU is not UPC. Printed DEFENDINI 23 credit is not an autograph.",
+      "ownedScanNotes": "Full-resolution data/images front shows DEFENDINI 23 artist credit, giant X with colored Taylor portraits, central blue stage costume, white framed TAYLOR SWIFT title below waist, TidalWave bottom left, Female Force bottom right. Exact retailer image individually viewed and matched. Not standard Defendini portrait cover; not X virgin or chrome variant.",
+      "reference": {
+        "basis": "raw-reference",
+        "value": 10,
+        "currency": "USD",
+        "sourceName": "Knight of Comics asking reference",
+        "url": "https://www.knightofcomics.com/products/female-force-taylor-swift-unknown-comics-steven-defendini-exclusive-x-var-03-27-2024",
+        "retrievedAt": "2026-11-15",
+        "soldAt": null,
+        "availability": "Shopify product JSON available true; no checkout verification",
+        "sku": "SIG003974UC",
+        "notes": "Price 1000 cents in direct product JSON. Exact X trade dress image matched. Owned condition unassessed; asking price only. UPC/printing remain undocumented; limited to matching catalog artwork edition."
+      },
+      "evidence": [
+        {
+          "url": "https://www.knightofcomics.com/products/female-force-taylor-swift-unknown-comics-steven-defendini-exclusive-x-var-03-27-2024.js",
+          "retrievedAt": "2026-11-15",
+          "notes": "Direct HTTP retrieval: title X VAR, SKU SIG003974UC, variant 53788479652132, price 1000, available true, barcode null. Web open failed but direct HTTP API succeeded."
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0831/7262/2628/files/taylorswiftx.jpg?v=1778113573",
+          "retrievedAt": "2026-11-15",
+          "notes": "Downloaded and visually matched exact cover; saved raw-research-taylor-x.jpg."
+        },
+        {
+          "url": "https://www.ebay.com/itm/236076474243",
+          "retrievedAt": "2026-11-15",
+          "notes": "Unknown Comics seller offers exact X VAR at USD11, artist Steven Defendini, TidalWave. Indexed page says updated 2026-07-10; corroborating asking reference, not sold transaction."
+        },
+        {
+          "url": "https://www.mycomicshop.com/search?q=Female+Force%3A+Taylor+Swift+1",
+          "retrievedAt": "2026-11-15",
+          "notes": "Series-level issue convention 1; Unknown Comics Defendini artist corroboration. Generic UNKNOWN.A may refer to other Defendini artwork, so do not copy cover code."
+        }
+      ],
+      "gaps": [
+        "Reverse/indicia needed for exact printing, full UPC if any, and publication year",
+        "Raw condition remains unassessed"
+      ],
+      "integration": {
+        "status": "raw-reference-outside-total",
+        "value": 10,
+        "notes": "Catalog artwork identity confirmed; fullUPC/printing remain unknown."
+      }
+    },
+    {
+      "copyId": "raw:15-082",
+      "title": "Fame: Michael J. Fox",
+      "issue": "nn",
+      "coverArtist": "Matthew Waite",
+      "edition": "Official Pix Foil Edition Sports Almanac",
+      "status": "blocked-no-matching-raw-price",
+      "reference": null,
+      "upc": null,
+      "printing": null,
+      "evidence": [
+        {
+          "url": "https://officialpix.myshopify.com/products/sports-almanac-michael-j-fox",
+          "retrievedAt": "2026-11-15",
+          "notes": "$599.99 signed Michael J Fox CGC9.8. Excluded: signed graded versus unsigned/unverified raw owned copy. Retains existing metadata identification from prior label/image review."
+        },
+        {
+          "url": "https://www.ebay.com/itm/306890416955",
+          "retrievedAt": "2026-11-15",
+          "notes": "$554.97 asking, unsigned CGC9.8, Matthew Waite cover. Excluded because slabbed grade. Seller's 2025/issue1 does not override existing nn/no-date label-based identity."
+        }
+      ],
+      "gaps": [
+        "No exact unsigned raw asking or completed sale found",
+        "Full UPC/printing not visible on owned front; foil itself clearly visible",
+        "Do not derive raw value as percentage of graded price"
+      ],
+      "integration": {
+        "status": "unresolved"
+      }
+    }
+  ]
+}
