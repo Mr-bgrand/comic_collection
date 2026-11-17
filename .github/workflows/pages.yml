@@ -39,12 +39,25 @@ jobs:
         with:
           path: dist
 
-  deploy:
+    deploy:
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+      actions: write # to delete the Pages artifact below
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Delete the Pages artifact
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts" \
+            --jq '.artifacts[].id' |
+            xargs -r -I{} gh api -X DELETE "repos/${{ github.repository }}/actions/artifacts/{}"
