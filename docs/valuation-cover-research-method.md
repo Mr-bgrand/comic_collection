@@ -27,3 +27,7 @@ The [generic PriceCharting third-print page](https://www.pricecharting.com/game/
 An additional image/text search for the same Oshred/SDCC250 edition at9.6 returned standard CoverA9.6, other issues/artists and registry results. Those are excluded. The9.6 copy remains a focused follow-up, with valid artist aliases now saved.
 
 Validation:432 tests passed. Master PDF page3 visually checked with115* for4381117005 and no value assigned to4381117004. The protected labels PDF remains unchanged.
+
+## November 22: owner-authorized comparative appraisals
+
+When exact evidence is absent, a documented low-confidence appraisal may use nearby grades, other graders, raw anchors or related labels/editions. Describe every mismatch, preserve original source facts, and separate judgment adjustments from measured price differences. Use an owner-basis observation for the appraised copy, explicitly accept it, mark it with an asterisk and include it in the total. Target identity matching does not assert that underlying comparables match. Save a working range, confidence, scarcity evidence and explanation. Do not invent print runs, use population as production count, or assume scarce means valuable. Prefer conservative anchors without unsupported premiums. Locked values stay locked; unassessed raw references stay outside the total. See [first appraisals](valuation-2026-11-22-provisional-appraisals.md).

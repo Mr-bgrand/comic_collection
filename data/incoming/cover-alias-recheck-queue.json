@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T23:46:26.282Z",
+  "updatedAt": "2026-11-22T22:56:39.146Z",
   "method": "docs/valuation-cover-research-method.md",
   "items": [
     {
@@ -163,30 +163,6 @@
       ]
     },
     {
-      "copyId": "CGC:4381117004",
-      "title": "w0rldtr33",
-      "grade": "9.6",
-      "front": "4381117004_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4381117004",
-          "cert": "4381117004",
-          "status": "unresolved",
-          "proposedValue": null,
-          "evidence": [
-            {
-              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/321615/image-comics-w0rldtr33-1",
-              "access": "Livebrowser certsearch thenanalyze; Farr8.0 sameeditiontable from9.4cert",
-              "accepted": false,
-              "reason": "ExactThirdPrintNoMasss9.6empty;9.8guide90Nov27,2023excluded"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "copyId": "CGC:4386585004",
       "title": "The Addiction",
       "grade": "9.8",
@@ -253,30 +229,6 @@
               "access": "Livebrowser certsearch thenanalyze; Farr8.0 sameeditiontable from9.4cert",
               "accepted": false,
               "reason": "ExactWhatnotC9.9empty;9.8guide1006sales and9.0guide25excluded"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "copyId": "CGC:4198680009",
-      "title": "Spider-Man",
-      "grade": "9.4",
-      "front": "4198680009_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4198680009",
-          "cert": "4198680009",
-          "status": "unresolved",
-          "proposedValue": null,
-          "evidence": [
-            {
-              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/298303/marvel-comics-spider-man-4",
-              "access": "Livebrowser certsearch thenanalyze",
-              "accepted": false,
-              "reason": "Cassaday MarvelTeamUp1 homage exactedition but9.4row empty;9.6guide20 and9.8guide30 excluded."
             }
           ]
         }
@@ -583,54 +535,6 @@
               "access": "Livebrowser certsearch thenanalyze; explicit category compared",
               "accepted": false,
               "reason": "OwnedCGCxJSA9.8; analyze UniversalModern9.8guide951saleSep24,2023 wronglabel excluded"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "copyId": "CGC:4480291001",
-      "title": "Wonder Woman",
-      "grade": "9.8",
-      "front": "4480291001_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4480291001",
-          "cert": "4480291001",
-          "status": "unresolved-label-mismatch",
-          "proposedValue": null,
-          "evidence": [
-            {
-              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/324878/dc-comics-wonder-woman-1",
-              "access": "Livebrowser certsearch thenanalyze; explicit category compared",
-              "accepted": false,
-              "reason": "OwnedCGCxJSA9.8; analyze UniversalModern9.8guide45 25sales lastNov5,2026 wronglabel excluded"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "copyId": "CGC:4471693001",
-      "title": "Supergirl and the Legion of Super-Heroes",
-      "grade": "9.8",
-      "front": "4471693001_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4471693001",
-          "cert": "4471693001",
-          "status": "unresolved-label-mismatch",
-          "proposedValue": null,
-          "evidence": [
-            {
-              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/319717/dc-comics-supergirl-and-the-legion-of-super-heroes-23",
-              "access": "Livebrowser certsearch thenanalyze; explicit category compared",
-              "accepted": false,
-              "reason": "OwnedCGCxJSA9.8; analyze UniversalModern9.8guide50 3saleslastFeb22,2025 wronglabel excluded"
             }
           ]
         }
@@ -1631,69 +1535,6 @@
       ]
     },
     {
-      "copyId": "TAG:R1562007",
-      "title": "BRADY COOK",
-      "grade": "10",
-      "front": "TAG_R1562007_SLAB_FRONT.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "TAG:R1562007",
-          "ownedIdentity": {
-            "cert": "R1562007",
-            "subject": "BRADY COOK",
-            "year": "2024",
-            "brand": "BOWMAN UNIVERSITY CHROME SAPPHIRE EDITION",
-            "cardNumber": "PA-BCO",
-            "variety": "PROSPECT AUTOGRAPHS · ORANGE REFRACTOR",
-            "grader": "TAG",
-            "grade": "10"
-          },
-          "priorResearchFile": "data/originals/resume-cards-results.json",
-          "queries": [
-            "Brady Cook PA-BCO 10 orange"
-          ],
-          "evidence": [
-            {
-              "url": "https://www.ebay.com/p/3074267098",
-              "observedAt": "2026-11-15",
-              "access": "search-index inspected",
-              "accepted": false,
-              "reason": "2024 PA-BCO orange Sapphire PSA9 offers93.35 and165.10; wrong numeric grade."
-            }
-          ],
-          "status": "unresolved-after-new-search",
-          "proposedValue": null,
-          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution.",
-          "finalVisualAliasPass": {
-            "checkedAt": "2026-11-15",
-            "status": "no-supported-addition",
-            "ownedPhotoReinspected": true,
-            "listingPhotosMatched": false,
-            "limitations": "No new exact grade/parallel priced candidate emerged to photo-verify. Focused search, not exhaustive.",
-            "photo": "data/images/TAG_R1562007_SLAB_FRONT.jpg",
-            "visual": "Orange crystalline Sapphire, Missouri black uniform, PA-BCO 2024, autograph,14/25, TAG10.",
-            "queries": [
-              "Brady Cook PA-BCO orange graded",
-              "site:fanaticscollect.com Brady Cook 2024 Orange",
-              "Brady Cook Sapphire Orange site:vaultedmarket.com"
-            ],
-            "checked": [
-              {
-                "url": "https://www.sportscardinvestor.com/cards/brady-cook-football/2024-bowman-chrome-university-prospect-auto-orange-refractor-pa-bco",
-                "result": "Orange Chrome shares year/cardnumber /25 but is not Sapphire; raw64.99 June14 2025 excluded."
-              },
-              {
-                "url": "https://www.cardcenteringtool.com/players/football/brady-cook",
-                "result": "Price checklist entries are standard Chrome base/refractor or SS-BC Selections; no exact Sapphire Orange PA-BCO10 priced listing."
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
       "copyId": "TAG:G7325430",
       "title": "WILWOLF",
       "grade": "10",
@@ -2084,98 +1925,6 @@
       ]
     },
     {
-      "copyId": "PSA:160521637",
-      "title": "COBY MAYO",
-      "grade": "10",
-      "front": "PSA_160521637_FRONT.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "PSA:160521637",
-          "ownedIdentity": {
-            "cert": "160521637",
-            "subject": "COBY MAYO",
-            "year": "2025",
-            "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
-            "cardNumber": "91G",
-            "variety": "AUTOGRAPH-SAP GREEN",
-            "grader": "PSA",
-            "grade": "10"
-          },
-          "priorResearchFile": "data/originals/resume-cards-results.json",
-          "queries": [
-            "Coby Mayo 91G 10"
-          ],
-          "evidence": [
-            {
-              "url": "https://theclector.com/sellers/chubbayboy",
-              "observedAt": "2026-11-15",
-              "access": "search-index inspected",
-              "accepted": false,
-              "reason": "CobyMayo91G SapGreen individual66.50 and55 sales lack PSA grade; raw excluded."
-            },
-            {
-              "url": "https://www.sportscardspro.com/game/baseball-cards-2025-topps-x-bob-ross-autograph/coby-mayo-sap-green-91",
-              "observedAt": "2026-11-15",
-              "access": "direct exact archive inspected; browser fallback where specified",
-              "accepted": false,
-              "reason": "Browser fallback verified autograph SapGreen archive:10 raw, zero PSA10. Displayed238.33 explicitly algorithm-derived, excluded."
-            }
-          ],
-          "status": "unresolved-after-new-search",
-          "proposedValue": null,
-          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
-        }
-      ]
-    },
-    {
-      "copyId": "PSA:169169668",
-      "title": "REGGIE JACKSON",
-      "grade": "10",
-      "front": "PSA_169169668_FRONT.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "PSA:169169668",
-          "ownedIdentity": {
-            "cert": "169169668",
-            "subject": "REGGIE JACKSON",
-            "year": "2025",
-            "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
-            "cardNumber": "61",
-            "variety": "PAINT SPLATTER",
-            "grader": "PSA",
-            "grade": "10"
-          },
-          "priorResearchFile": "data/originals/resume-cards-results.json",
-          "queries": [
-            "Reggie Jackson Paint Splatter PSA 10"
-          ],
-          "evidence": [
-            {
-              "url": "https://theclector.com/cards/baseball/mlb/topps/2025/bob-ross/base-paint-splatter",
-              "observedAt": "2026-11-15",
-              "access": "Direct subset page inspected",
-              "accepted": false,
-              "reason": "Reggie Jackson61 individual29 raw sale; no PSA10."
-            },
-            {
-              "url": "https://www.sportscardspro.com/game/baseball-cards-2025-topps-x-bob-ross/reggie-jackson-paint-splatter-61",
-              "observedAt": "2026-11-15",
-              "access": "direct exact archive inspected; browser fallback where specified",
-              "accepted": false,
-              "reason": "Browser fallback verified exact61 PaintSplatter/99 archive:14 raw, zero PSA10. Displayed181.32 explicitly algorithm-derived, excluded."
-            }
-          ],
-          "status": "unresolved-after-new-search",
-          "proposedValue": null,
-          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
-        }
-      ]
-    },
-    {
       "copyId": "PSA:169169674",
       "title": "BEN RICE",
       "grade": "9",
@@ -2323,5 +2072,6 @@
         }
       ]
     }
-  ]
+  ],
+  "appraisalPolicy": "Owner-approved broader comparisons November22; see docs/valuation-2026-11-22-provisional-appraisals.md"
 }

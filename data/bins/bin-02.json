@@ -692,6 +692,72 @@
         "url": null,
         "status": "not-listed",
         "fetchedAt": "2026-08-17T05:39:23.252Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-CGC-4381117004",
+            "copyId": "CGC:4381117004",
+            "basis": "owner",
+            "value": 70,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://www.ebay.com/itm/186072192854",
+              "asOf": null,
+              "retrievedAt": "2026-11-22T22:55:21.815Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "w0rldtr33",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Image Comics",
+                "variant": "Third Printing/No Masss Comics Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.6",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional appraisal*, not an exact comparable or confirmed sale. Working range $50-$100 (judgment, not statistical interval). Same edition CGC 9.8 fixed ask $115 verified November 15, comparable cert 4317236006; stale reported same-edition 9.8 sale $88.88 from 2023-11-27. Working $70 at 9.6 is a judgment below both anchors, not an observed grade discount. Current availability not reverified. Oshred / S. Red Amparo SDCC third-print virgin; LE250 seller/COA claim, not audited production count.",
+            "reviewEvidence": {
+              "url": "https://www.ebay.com/itm/186072192854",
+              "reviewedAt": "2026-11-22T22:55:21.815Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional appraisal*, not an exact comparable or confirmed sale. Working range $50-$100 (judgment, not statistical interval). Same edition CGC 9.8 fixed ask $115 verified November 15, comparable cert 4317236006; stale reported same-edition 9.8 sale $88.88 from 2023-11-27. Working $70 at 9.6 is a judgment below both anchors, not an observed grade discount. Current availability not reverified. Oshred / S. Red Amparo SDCC third-print virgin; LE250 seller/COA claim, not audited production count.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 50,
+                "high": 100,
+                "currency": "USD"
+              },
+              "scarcity": "Oshred / S. Red Amparo SDCC third-print virgin; LE250 seller/COA claim, not audited production count."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-CGC-4381117004",
+          "locked": true,
+          "selectedAt": "2026-11-22T22:55:26.040Z"
+        }
       }
     },
     {

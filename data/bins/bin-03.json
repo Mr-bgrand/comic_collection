@@ -175,7 +175,73 @@
         "status": "no-sales",
         "fetchedAt": "2026-08-19T01:19:46.212Z"
       },
-      "imageSource": "owner"
+      "imageSource": "owner",
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-CGC-4198680009",
+            "copyId": "CGC:4198680009",
+            "basis": "owner",
+            "value": 15,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/298303/marvel-comics-spider-man-4",
+              "asOf": null,
+              "retrievedAt": "2026-11-22T22:55:21.815Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spider-Man",
+                "issue": "4",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Variant Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.4",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional appraisal*, not an exact comparable or confirmed sale. Working range $10-$25 (judgment, not statistical interval). Saved November 15 browser review: same Cassaday edition guide $20 at 9.6 and $30 at 9.8. Working $15 at 9.4 is a conservative judgment below the closer grade, not a measured conversion. November 22 refresh unavailable. Print run unknown; no rarity premium.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/298303/marvel-comics-spider-man-4",
+              "reviewedAt": "2026-11-22T22:55:21.815Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional appraisal*, not an exact comparable or confirmed sale. Working range $10-$25 (judgment, not statistical interval). Saved November 15 browser review: same Cassaday edition guide $20 at 9.6 and $30 at 9.8. Working $15 at 9.4 is a conservative judgment below the closer grade, not a measured conversion. November 22 refresh unavailable. Print run unknown; no rarity premium.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 10,
+                "high": 25,
+                "currency": "USD"
+              },
+              "scarcity": "Print run unknown; no rarity premium."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-CGC-4198680009",
+          "locked": true,
+          "selectedAt": "2026-11-22T22:55:25.440Z"
+        }
+      }
     },
     {
       "cert": "4245413004",

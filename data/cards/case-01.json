@@ -10470,7 +10470,69 @@
         "source": "CGC Cards",
         "url": "https://www.cgccards.com/population-report/non-sports/pok%C3%A9mon-meiji/65/all/165/promotional-cards-1997-type.hp.hand-symbol/110/?populationID=1523783"
       },
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-CGC-6042459106",
+            "copyId": "CGC:6042459106",
+            "basis": "owner",
+            "value": 12,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://www.ebay.com/itm/158377883804",
+              "asOf": null,
+              "retrievedAt": "2026-11-22T22:55:10.226Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "1997",
+                "brand": "Promotional Cards",
+                "series": "",
+                "subject": "Dodrio",
+                "cardNumber": "",
+                "variety": "Foil",
+                "language": "Japanese",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "7.5",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "pending",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional appraisal*, not an exact comparable or confirmed sale. Working range $10-$20 (judgment, not statistical interval). Same Meiji foil CGC 7 sold for $12 on 2026-10-08, listing 158377883804. Retain $12 without an unmeasured half-grade premium. Carddass evidence excluded. Print run unknown; no scarcity premium.",
+            "reviewEvidence": {
+              "url": "https://www.ebay.com/itm/158377883804",
+              "reviewedAt": "2026-11-22T22:55:10.226Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional appraisal*, not an exact comparable or confirmed sale. Working range $10-$20 (judgment, not statistical interval). Same Meiji foil CGC 7 sold for $12 on 2026-10-08, listing 158377883804. Retain $12 without an unmeasured half-grade premium. Carddass evidence excluded. Print run unknown; no scarcity premium.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 10,
+                "high": 20,
+                "currency": "USD"
+              },
+              "scarcity": "Print run unknown; no scarcity premium."
+            }
+          }
+        ],
+        "selection": null
+      },
       "cgc": {
         "gradeText": "7.5",
         "lookupGrade": "7.5",

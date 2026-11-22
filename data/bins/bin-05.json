@@ -847,6 +847,72 @@
         "url": "https://gocollect.com/app/comic/wonder-woman-1-cvr-d-rose-besch-creator-card-stock-var",
         "status": "no-sales",
         "fetchedAt": "2026-08-20T15:15:48.996Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-CGC-4480291001",
+            "copyId": "CGC:4480291001",
+            "basis": "owner",
+            "value": 45,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/324878/dc-comics-wonder-woman-1",
+              "asOf": null,
+              "retrievedAt": "2026-11-22T22:55:21.815Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Wonder Woman",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DC Comics",
+                "variant": "Besch Variant Cover",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "CGCxJSA",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional appraisal*, not an exact comparable or confirmed sale. Working range $35-$80 (judgment, not statistical interval). Same edition Universal 9.8 guide $45; retrieved November 22 shows 24 reported grade-specific sales, last 2025-12-30. Owned Tom King authenticated signature is a different label. Retain unsigned guide with no speculative signature premium. Guide is not a sale price. Print run unknown; census not treated as print run.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/324878/dc-comics-wonder-woman-1",
+              "reviewedAt": "2026-11-22T22:55:21.815Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional appraisal*, not an exact comparable or confirmed sale. Working range $35-$80 (judgment, not statistical interval). Same edition Universal 9.8 guide $45; retrieved November 22 shows 24 reported grade-specific sales, last 2025-12-30. Owned Tom King authenticated signature is a different label. Retain unsigned guide with no speculative signature premium. Guide is not a sale price. Print run unknown; census not treated as print run.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 35,
+                "high": 80,
+                "currency": "USD"
+              },
+              "scarcity": "Print run unknown; census not treated as print run."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-CGC-4480291001",
+          "locked": true,
+          "selectedAt": "2026-11-22T22:55:24.250Z"
+        }
       }
     },
     {
@@ -957,6 +1023,72 @@
         "url": "https://gocollect.com/app/comic/supergirl-and-the-legion-of-super-heroes-23-whatnot-special-foil-edition-b",
         "status": "no-sales",
         "fetchedAt": "2026-08-20T15:16:19.242Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-CGC-4471693001",
+            "copyId": "CGC:4471693001",
+            "basis": "owner",
+            "value": 50,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/319717/dc-comics-supergirl-and-the-legion-of-super-heroes-23",
+              "asOf": null,
+              "retrievedAt": "2026-11-22T22:55:21.815Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Supergirl and the Legion of Super-Heroes",
+                "issue": "23",
+                "issueYear": "2023",
+                "publisher": "DC Comics",
+                "variant": "Whatnot Special Foil Edition B",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "CGCxJSA",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional appraisal*, not an exact comparable or confirmed sale. Working range $35-$90 (judgment, not statistical interval). Saved November 15 browser review: same Whatnot Foil B Universal 9.8 guide $50, three reported sales, last 2025-02-22. Owned Nakayama authenticated autograph differs in label. No signature premium. November 22 refresh unavailable; historical guide retained. Exclusive foil edition; numeric print run unverified.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/319717/dc-comics-supergirl-and-the-legion-of-super-heroes-23",
+              "reviewedAt": "2026-11-22T22:55:21.815Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional appraisal*, not an exact comparable or confirmed sale. Working range $35-$90 (judgment, not statistical interval). Saved November 15 browser review: same Whatnot Foil B Universal 9.8 guide $50, three reported sales, last 2025-02-22. Owned Nakayama authenticated autograph differs in label. No signature premium. November 22 refresh unavailable; historical guide retained. Exclusive foil edition; numeric print run unverified.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 35,
+                "high": 90,
+                "currency": "USD"
+              },
+              "scarcity": "Exclusive foil edition; numeric print run unverified."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-CGC-4471693001",
+          "locked": true,
+          "selectedAt": "2026-11-22T22:55:24.837Z"
+        }
       }
     },
     {

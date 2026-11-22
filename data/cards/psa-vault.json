@@ -2453,6 +2453,73 @@
           "originalHeight": 2400,
           "sha256": "f83739366d9a6ddf5c660c1d31ad4de19567f8124068c422fd2b160a2a574011"
         }
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-PSA-160521637",
+            "copyId": "PSA:160521637",
+            "basis": "owner",
+            "value": 55,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://theclector.com/cards/baseball/mlb/topps/2025/bob-ross/autographs-sap-green/coby-mayo-47352/5211472",
+              "asOf": null,
+              "retrievedAt": "2026-11-22T22:55:21.815Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2025",
+                "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+                "series": "",
+                "subject": "COBY MAYO",
+                "cardNumber": "91G",
+                "variety": "AUTOGRAPH-SAP GREEN",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "PSA",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional appraisal*, not an exact comparable or confirmed sale. Working range $40-$90 (judgment, not statistical interval). Same 91G Sap Green autograph raw sale reported at $55 on 2026-09-08, seller chubbayboy; transaction ID unavailable. Retain raw anchor without assuming a PSA 10 premium. Secondary report, not independently verified. Parallel /75 per checklist; limited run, demand uncertain.",
+            "reviewEvidence": {
+              "url": "https://theclector.com/cards/baseball/mlb/topps/2025/bob-ross/autographs-sap-green/coby-mayo-47352/5211472",
+              "reviewedAt": "2026-11-22T22:55:21.815Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional appraisal*, not an exact comparable or confirmed sale. Working range $40-$90 (judgment, not statistical interval). Same 91G Sap Green autograph raw sale reported at $55 on 2026-09-08, seller chubbayboy; transaction ID unavailable. Retain raw anchor without assuming a PSA 10 premium. Secondary report, not independently verified. Parallel /75 per checklist; limited run, demand uncertain.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 40,
+                "high": 90,
+                "currency": "USD"
+              },
+              "scarcity": "Parallel /75 per checklist; limited run, demand uncertain."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-PSA-160521637",
+          "locked": true,
+          "selectedAt": "2026-11-22T22:55:23.022Z"
+        }
       }
     },
     {
@@ -6076,7 +6143,73 @@
       "holder": "slab",
       "certUrl": "https://www.psacard.com/cert/169169668/psa",
       "fmv": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-PSA-169169668",
+            "copyId": "PSA:169169668",
+            "basis": "owner",
+            "value": 30,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://theclector.com/cards/baseball/mlb/topps/2025/bob-ross/base-paint-splatter",
+              "asOf": null,
+              "retrievedAt": "2026-11-22T22:55:21.815Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2025",
+                "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+                "series": "",
+                "subject": "REGGIE JACKSON",
+                "cardNumber": "61",
+                "variety": "PAINT SPLATTER",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "PSA",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional appraisal*, not an exact comparable or confirmed sale. Working range $25-$60 (judgment, not statistical interval). Subset page reports recent raw $29 sale; exact card page indexed older $35-$35.95 reports. Use rounded $30 raw anchor without a PSA 10 premium. No exact graded sale; dates/transaction IDs not exposed for recent report. Owned front stamp 76/99 visually verified; no additional scarcity premium.",
+            "reviewEvidence": {
+              "url": "https://theclector.com/cards/baseball/mlb/topps/2025/bob-ross/base-paint-splatter",
+              "reviewedAt": "2026-11-22T22:55:21.815Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional appraisal*, not an exact comparable or confirmed sale. Working range $25-$60 (judgment, not statistical interval). Subset page reports recent raw $29 sale; exact card page indexed older $35-$35.95 reports. Use rounded $30 raw anchor without a PSA 10 premium. No exact graded sale; dates/transaction IDs not exposed for recent report. Owned front stamp 76/99 visually verified; no additional scarcity premium.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 25,
+                "high": 60,
+                "currency": "USD"
+              },
+              "scarcity": "Owned front stamp 76/99 visually verified; no additional scarcity premium."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-PSA-169169668",
+          "locked": true,
+          "selectedAt": "2026-11-22T22:55:23.648Z"
+        }
+      },
       "vault": {
         "status": "Vaulted",
         "afterService": "Sent to Vault",

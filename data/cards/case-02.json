@@ -7403,7 +7403,73 @@
       "certUrl": "https://my.taggrading.com/card/R1562007",
       "gradeDate": "2025-03-18",
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-TAG-R1562007",
+            "copyId": "TAG:R1562007",
+            "basis": "owner",
+            "value": 90,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://www.ebay.com/p/3074267098",
+              "asOf": null,
+              "retrievedAt": "2026-11-22T22:55:21.815Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "BOWMAN UNIVERSITY CHROME SAPPHIRE EDITION",
+                "series": "BOWMAN UNIVERSITY CHROME SAPPHIRE EDITION",
+                "subject": "BRADY COOK",
+                "cardNumber": "PA-BCO",
+                "variety": "PROSPECT AUTOGRAPHS · ORANGE REFRACTOR",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "TAG",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional appraisal*, not an exact comparable or confirmed sale. Working range $70-$165 (judgment, not statistical interval). Same 2024 PA-BCO Orange /25 PSA 9 asks $93.35 and $165.10, indexed evidence retrieved November 22; current availability unverified. Round lower ask down to $90 with no TAG 10 premium. Cross-grader and adjacent-grade appraisal, not an exact PSA comparison. Numbered parallel /25 per checklist and source; short print, not proof of demand.",
+            "reviewEvidence": {
+              "url": "https://www.ebay.com/p/3074267098",
+              "reviewedAt": "2026-11-22T22:55:21.815Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional appraisal*, not an exact comparable or confirmed sale. Working range $70-$165 (judgment, not statistical interval). Same 2024 PA-BCO Orange /25 PSA 9 asks $93.35 and $165.10, indexed evidence retrieved November 22; current availability unverified. Round lower ask down to $90 with no TAG 10 premium. Cross-grader and adjacent-grade appraisal, not an exact PSA comparison. Numbered parallel /25 per checklist and source; short print, not proof of demand.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 70,
+                "high": 165,
+                "currency": "USD"
+              },
+              "scarcity": "Numbered parallel /25 per checklist and source; short print, not proof of demand."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-TAG-R1562007",
+          "locked": true,
+          "selectedAt": "2026-11-22T22:55:22.409Z"
+        }
+      },
       "population": {
         "atGrade": 1,
         "total": 1,
