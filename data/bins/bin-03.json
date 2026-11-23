@@ -751,7 +751,91 @@
         "status": "no-sales",
         "fetchedAt": "2026-08-19T01:21:08.515Z"
       },
-      "imageSource": "owner"
+      "imageSource": "owner",
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-loop-1-CGC-4245413015",
+            "copyId": "CGC:4245413015",
+            "basis": "owner",
+            "value": 35,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/307124/marvel-comics-amazing-spider-man-20",
+              "asOf": null,
+              "retrievedAt": "2026-11-15T00:00:00.000Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Amazing Spider-Man",
+                "issue": "20",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Nakayama Variant Cover",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.6",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $25-$50, not a statistical interval. Saved same Nakayama trade cover 9.8 guide $55 with ten reported sales. Appraise owned 9.6 at $35 by judgment; no measured grade conversion available. Print run unknown; no scarcity premium. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/307124/marvel-comics-amazing-spider-man-20",
+              "reviewedAt": "2026-11-23T06:22:14.228Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $25-$50, not a statistical interval. Saved same Nakayama trade cover 9.8 guide $55 with ten reported sales. Appraise owned 9.6 at $35 by judgment; no measured grade conversion available. Print run unknown; no scarcity premium. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 25,
+                "high": 50,
+                "currency": "USD"
+              },
+              "scarcity": "Print run unknown; no scarcity premium.",
+              "comparables": [],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:4245413015",
+                  "cert": "4245413015",
+                  "status": "unresolved",
+                  "proposedValue": null,
+                  "evidence": [
+                    {
+                      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/307124/marvel-comics-amazing-spider-man-20",
+                      "access": "Livebrowser certsearch thenanalyze; Farr8.0 sameeditiontable from9.4cert",
+                      "accepted": false,
+                      "reason": "ExactNakayamaTrade9.6empty;9.8guide5510salesexcluded"
+                    }
+                  ]
+                }
+              ],
+              "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-loop-1-CGC-4245413015",
+          "locked": true,
+          "selectedAt": "2026-11-23T06:22:19.227Z"
+        }
+      }
     },
     {
       "cert": "4012473007",

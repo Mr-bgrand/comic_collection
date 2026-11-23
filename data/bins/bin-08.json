@@ -76,7 +76,86 @@
         "status": "no-sales",
         "fetchedAt": "2026-08-22T07:23:09.519Z"
       },
-      "imageSource": "owner"
+      "imageSource": "owner",
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-loop-1-CGC-4245413002",
+            "copyId": "CGC:4245413002",
+            "basis": "owner",
+            "value": 8,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/305058/marvel-comics-spider-gwen-shadow-clones-1b-variant-edition",
+              "asOf": null,
+              "retrievedAt": "2026-11-15T00:00:00.000Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spider-Gwen: Shadow Clones",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Variant Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.0",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $5-$15, not a statistical interval. Saved Stelfreeze variant guide $10 at 9.4, $20 at 9.6/9.8. Owned 9.0 appraised at $8 below closer grade; slab cost is not a price floor. Retailer-incentive cover; incentive ratio is not a verified production count. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/305058/marvel-comics-spider-gwen-shadow-clones-1b-variant-edition",
+              "reviewedAt": "2026-11-23T06:22:14.228Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $5-$15, not a statistical interval. Saved Stelfreeze variant guide $10 at 9.4, $20 at 9.6/9.8. Owned 9.0 appraised at $8 below closer grade; slab cost is not a price floor. Retailer-incentive cover; incentive ratio is not a verified production count. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 5,
+                "high": 15,
+                "currency": "USD"
+              },
+              "scarcity": "Retailer-incentive cover; incentive ratio is not a verified production count.",
+              "comparables": [],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:4245413002",
+                  "cert": "4245413002",
+                  "status": "no-exact-grade-row",
+                  "checkedAt": "2026-11-15",
+                  "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/305058/marvel-comics-spider-gwen-shadow-clones-1b-variant-edition",
+                  "value": null,
+                  "finding": "Exact Stelfreeze Universal variant guide7recordedsales;9.0row has no history/value.9.8and9.6=20/9.4=10 excluded adjacentgrades."
+                }
+              ],
+              "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-loop-1-CGC-4245413002",
+          "locked": true,
+          "selectedAt": "2026-11-23T06:22:22.370Z"
+        }
+      }
     },
     {
       "cert": "4245413020",

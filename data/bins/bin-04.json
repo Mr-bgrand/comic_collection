@@ -287,6 +287,90 @@
         "url": "https://gocollect.com/app/comic/marvels-voices-spider-verse-1-su-virgin-sketch-edition",
         "status": "no-sales",
         "fetchedAt": "2026-08-20T00:58:13.477Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-loop-1-CGC-4424144008",
+            "copyId": "CGC:4424144008",
+            "basis": "owner",
+            "value": 45,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/329083/marvel-comics-marvels-voices-spider-verse-1",
+              "asOf": null,
+              "retrievedAt": "2026-11-15T00:00:00.000Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Marvel's Voices: Spider-Verse",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Su \"Virgin\" Sketch Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.4",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $30-$65, not a statistical interval. Saved same Su virgin sketch edition 9.8 guide $80 with three reported sales. Owned 9.4 working estimate $45 is a judgment discount, not a 9.4 sale. Virgin sketch edition; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/329083/marvel-comics-marvels-voices-spider-verse-1",
+              "reviewedAt": "2026-11-23T06:22:14.228Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $30-$65, not a statistical interval. Saved same Su virgin sketch edition 9.8 guide $80 with three reported sales. Owned 9.4 working estimate $45 is a judgment discount, not a 9.4 sale. Virgin sketch edition; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 30,
+                "high": 65,
+                "currency": "USD"
+              },
+              "scarcity": "Virgin sketch edition; numeric print run unverified.",
+              "comparables": [],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:4424144008",
+                  "cert": "4424144008",
+                  "status": "unresolved",
+                  "proposedValue": null,
+                  "evidence": [
+                    {
+                      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/329083/marvel-comics-marvels-voices-spider-verse-1",
+                      "access": "Livebrowser certsearch thenanalyze",
+                      "accepted": false,
+                      "reason": "Exact SuVirginSketch9.4 empty;3sales9.8guide80 wronggrade"
+                    }
+                  ]
+                }
+              ],
+              "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-loop-1-CGC-4424144008",
+          "locked": true,
+          "selectedAt": "2026-11-23T06:22:19.764Z"
+        }
       }
     },
     {
@@ -358,6 +442,90 @@
         "url": "https://gocollect.com/app/comic/x-men-27-trinity-comics-edition",
         "status": "no-sales",
         "fetchedAt": "2026-08-20T00:58:28.438Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-loop-1-CGC-4418876005",
+            "copyId": "CGC:4418876005",
+            "basis": "owner",
+            "value": 35,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/328104/marvel-comics-x-men-27",
+              "asOf": null,
+              "retrievedAt": "2026-11-15T00:00:00.000Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "X-Men",
+                "issue": "27",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Trinity Comics Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.4",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $25-$50, not a statistical interval. Saved same Trinity color edition guides $45 at 9.6 and $70 at 9.8. Owned 9.4 appraised at $35, below the closer-grade guide; adjustment is judgment. Peach Momoko Trinity color exclusive; print run unknown. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/328104/marvel-comics-x-men-27",
+              "reviewedAt": "2026-11-23T06:22:14.228Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $25-$50, not a statistical interval. Saved same Trinity color edition guides $45 at 9.6 and $70 at 9.8. Owned 9.4 appraised at $35, below the closer-grade guide; adjustment is judgment. Peach Momoko Trinity color exclusive; print run unknown. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 25,
+                "high": 50,
+                "currency": "USD"
+              },
+              "scarcity": "Peach Momoko Trinity color exclusive; print run unknown.",
+              "comparables": [],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:4418876005",
+                  "cert": "4418876005",
+                  "status": "unresolved",
+                  "proposedValue": null,
+                  "evidence": [
+                    {
+                      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/328104/marvel-comics-x-men-27",
+                      "access": "Livebrowser certsearch thenanalyze; Farr8.0 sameeditiontable from9.4cert",
+                      "accepted": false,
+                      "reason": "ExactTrinityColor9.4empty;9.6guide45 and9.8guide70excluded"
+                    }
+                  ]
+                }
+              ],
+              "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-loop-1-CGC-4418876005",
+          "locked": true,
+          "selectedAt": "2026-11-23T06:22:20.268Z"
+        }
       }
     },
     {
@@ -811,6 +979,90 @@
         "url": null,
         "status": "not-listed",
         "fetchedAt": "2026-08-20T23:28:33.910Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-loop-1-CGC-4350046020",
+            "copyId": "CGC:4350046020",
+            "basis": "owner",
+            "value": 35,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/310678/counterpoint-do-you-pooh-1",
+              "asOf": null,
+              "retrievedAt": "2026-11-15T00:00:00.000Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Do You Pooh?",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Counterpoint",
+                "variant": "Magic Pooh vs Air Pooh Foil Edition B",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.9",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $20-$65, not a statistical interval. Saved Magic Pooh vs Air Pooh Foil B 9.8 guide $35 based on one reported March 6, 2025 sale. Retain $35 for owned 9.9 with no premium. Multiple foil finishes exist; guide may pool finishes, a further limitation. Foil edition B; finish-specific production count not verified. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/310678/counterpoint-do-you-pooh-1",
+              "reviewedAt": "2026-11-23T06:22:14.228Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $20-$65, not a statistical interval. Saved Magic Pooh vs Air Pooh Foil B 9.8 guide $35 based on one reported March 6, 2025 sale. Retain $35 for owned 9.9 with no premium. Multiple foil finishes exist; guide may pool finishes, a further limitation. Foil edition B; finish-specific production count not verified. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 20,
+                "high": 65,
+                "currency": "USD"
+              },
+              "scarcity": "Foil edition B; finish-specific production count not verified.",
+              "comparables": [],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:4350046020",
+                  "cert": "4350046020",
+                  "status": "unresolved",
+                  "proposedValue": null,
+                  "evidence": [
+                    {
+                      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/310678/counterpoint-do-you-pooh-1",
+                      "access": "Livebrowser certsearch thenanalyze",
+                      "accepted": false,
+                      "reason": "MagicvsAirFoilB9.9empty;9.8guide351saleMar6,2025excluded"
+                    }
+                  ]
+                }
+              ],
+              "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-loop-1-CGC-4350046020",
+          "locked": true,
+          "selectedAt": "2026-11-23T06:22:20.805Z"
+        }
       }
     },
     {

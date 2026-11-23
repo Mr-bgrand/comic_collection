@@ -228,6 +228,90 @@
         "url": null,
         "status": "not-listed",
         "fetchedAt": "2026-08-17T05:38:19.912Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-loop-1-CGC-4381117006",
+            "copyId": "CGC:4381117006",
+            "basis": "owner",
+            "value": 125,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/324795/image-comics-w0rldtr33-4",
+              "asOf": null,
+              "retrievedAt": "2026-11-15T00:00:00.000Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "w0rldtr33",
+                "issue": "4",
+                "issueYear": "2023",
+                "publisher": "Image Comics",
+                "variant": "No Masss Comics Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.9",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $90-$180, not a statistical interval. Saved exact No Masss/Oshred edition Universal 9.8 guide $125 based on one reported sale June 19, 2024. Owned 9.9 appraised at the same $125; no unsupported 9.9 premium. Stale thin guide. Print run unknown. Population one at 9.9 is not the edition print run. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/324795/image-comics-w0rldtr33-4",
+              "reviewedAt": "2026-11-23T06:21:44.440Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $90-$180, not a statistical interval. Saved exact No Masss/Oshred edition Universal 9.8 guide $125 based on one reported sale June 19, 2024. Owned 9.9 appraised at the same $125; no unsupported 9.9 premium. Stale thin guide. Print run unknown. Population one at 9.9 is not the edition print run. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 90,
+                "high": 180,
+                "currency": "USD"
+              },
+              "scarcity": "Print run unknown. Population one at 9.9 is not the edition print run.",
+              "comparables": [],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:4381117006",
+                  "cert": "4381117006",
+                  "status": "unresolved",
+                  "proposedValue": null,
+                  "evidence": [
+                    {
+                      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/324795/image-comics-w0rldtr33-4",
+                      "access": "Livebrowser certsearch thenanalyze; Farr8.0 sameeditiontable from9.4cert",
+                      "accepted": false,
+                      "reason": "ExactNoMasss Oshred SilenceLambs9.9 empty;9.8guide1251saleJune19,2024excluded"
+                    }
+                  ]
+                }
+              ],
+              "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-loop-1-CGC-4381117006",
+          "locked": true,
+          "selectedAt": "2026-11-23T06:21:47.734Z"
+        }
       }
     },
     {
@@ -464,6 +548,90 @@
         "url": null,
         "status": "not-listed",
         "fetchedAt": "2026-08-17T05:38:48.295Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-loop-1-CGC-4381117012",
+            "copyId": "CGC:4381117012",
+            "basis": "owner",
+            "value": 25,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/326447/image-comics-w0rldtr33-5",
+              "asOf": null,
+              "retrievedAt": "2026-11-15T00:00:00.000Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "w0rldtr33",
+                "issue": "5",
+                "issueYear": "2023",
+                "publisher": "Image Comics",
+                "variant": "Near Mint Comics Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "8.0",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $15-$45, not a statistical interval. Saved same Near Mint/Tehani Farr edition 9.8 guide $75, one 2024 sale; owned 8.0 lacks history. $25 is a conservative judgment discount for the substantial grade gap, not a measured grade ratio. Virgin store exclusive; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/326447/image-comics-w0rldtr33-5",
+              "reviewedAt": "2026-11-23T06:22:14.228Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $15-$45, not a statistical interval. Saved same Near Mint/Tehani Farr edition 9.8 guide $75, one 2024 sale; owned 8.0 lacks history. $25 is a conservative judgment discount for the substantial grade gap, not a measured grade ratio. Virgin store exclusive; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 15,
+                "high": 45,
+                "currency": "USD"
+              },
+              "scarcity": "Virgin store exclusive; numeric print run unverified.",
+              "comparables": [],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:4381117012",
+                  "cert": "4381117012",
+                  "status": "unresolved",
+                  "proposedValue": null,
+                  "evidence": [
+                    {
+                      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/326447/image-comics-w0rldtr33-5",
+                      "access": "Livebrowser certsearch thenanalyze; Farr8.0 sameeditiontable from9.4cert",
+                      "accepted": false,
+                      "reason": "SameNearMintFarr edition owned8.0 rowempty;9.8guide75excluded"
+                    }
+                  ]
+                }
+              ],
+              "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-loop-1-CGC-4381117012",
+          "locked": true,
+          "selectedAt": "2026-11-23T06:22:17.658Z"
+        }
       }
     },
     {
@@ -533,6 +701,90 @@
         "url": null,
         "status": "not-listed",
         "fetchedAt": "2026-08-17T05:39:02.728Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-loop-1-CGC-4381117011",
+            "copyId": "CGC:4381117011",
+            "basis": "owner",
+            "value": 45,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/326447/image-comics-w0rldtr33-5",
+              "asOf": null,
+              "retrievedAt": "2026-11-15T00:00:00.000Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "w0rldtr33",
+                "issue": "5",
+                "issueYear": "2023",
+                "publisher": "Image Comics",
+                "variant": "Near Mint Comics Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.4",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $30-$65, not a statistical interval. Saved same Near Mint/Tehani Farr edition 9.8 guide $75, one 2024 sale; owned 9.4 lacks history. $45 is a conservative appraisal below that anchor, not an observed 9.4 transaction. Virgin store exclusive; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/326447/image-comics-w0rldtr33-5",
+              "reviewedAt": "2026-11-23T06:22:14.228Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $30-$65, not a statistical interval. Saved same Near Mint/Tehani Farr edition 9.8 guide $75, one 2024 sale; owned 9.4 lacks history. $45 is a conservative appraisal below that anchor, not an observed 9.4 transaction. Virgin store exclusive; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 30,
+                "high": 65,
+                "currency": "USD"
+              },
+              "scarcity": "Virgin store exclusive; numeric print run unverified.",
+              "comparables": [],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:4381117011",
+                  "cert": "4381117011",
+                  "status": "unresolved",
+                  "proposedValue": null,
+                  "evidence": [
+                    {
+                      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/326447/image-comics-w0rldtr33-5",
+                      "access": "Livebrowser certsearch thenanalyze; Farr8.0 sameeditiontable from9.4cert",
+                      "accepted": false,
+                      "reason": "NearMintFarr9.4 empty;9.8guide75 one2024sale excluded"
+                    }
+                  ]
+                }
+              ],
+              "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-loop-1-CGC-4381117011",
+          "locked": true,
+          "selectedAt": "2026-11-23T06:22:18.168Z"
+        }
       }
     },
     {
@@ -1490,6 +1742,90 @@
         "url": "https://gocollect.com/app/comic/batman-655-4",
         "status": "no-sales",
         "fetchedAt": "2026-08-17T05:40:48.954Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-loop-1-CGC-4386585003",
+            "copyId": "CGC:4386585003",
+            "basis": "owner",
+            "value": 100,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/321593/dc-comics-batman-facsimile-edition-655",
+              "asOf": null,
+              "retrievedAt": "2026-11-15T00:00:00.000Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Batman: Facsimile Edition",
+                "issue": "655",
+                "issueYear": "2023",
+                "publisher": "DC Comics",
+                "variant": "Whatnot Special Edition C",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.9",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $75-$175, not a statistical interval. Saved same Whatnot Special C virgin foil 9.8 guide $100 with six reported sales. Retain $100 for owned 9.9 without a speculative top-grade premium. This is the 2023 facsimile, not the 2006 original. Mellow Fellow/SMZ exclusive; numeric print run unverified; top population is not production count. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/321593/dc-comics-batman-facsimile-edition-655",
+              "reviewedAt": "2026-11-23T06:22:14.228Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $75-$175, not a statistical interval. Saved same Whatnot Special C virgin foil 9.8 guide $100 with six reported sales. Retain $100 for owned 9.9 without a speculative top-grade premium. This is the 2023 facsimile, not the 2006 original. Mellow Fellow/SMZ exclusive; numeric print run unverified; top population is not production count. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 75,
+                "high": 175,
+                "currency": "USD"
+              },
+              "scarcity": "Mellow Fellow/SMZ exclusive; numeric print run unverified; top population is not production count.",
+              "comparables": [],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:4386585003",
+                  "cert": "4386585003",
+                  "status": "unresolved",
+                  "proposedValue": null,
+                  "evidence": [
+                    {
+                      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/321593/dc-comics-batman-facsimile-edition-655",
+                      "access": "Livebrowser certsearch thenanalyze; Farr8.0 sameeditiontable from9.4cert",
+                      "accepted": false,
+                      "reason": "ExactWhatnotC9.9empty;9.8guide1006sales and9.0guide25excluded"
+                    }
+                  ]
+                }
+              ],
+              "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-loop-1-CGC-4386585003",
+          "locked": true,
+          "selectedAt": "2026-11-23T06:22:18.698Z"
+        }
       }
     },
     {

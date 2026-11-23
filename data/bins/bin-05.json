@@ -810,6 +810,90 @@
         "url": null,
         "status": "not-listed",
         "fetchedAt": "2026-08-20T15:15:38.841Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-loop-1-CGC-4471693002",
+            "copyId": "CGC:4471693002",
+            "basis": "owner",
+            "value": 95,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/321052/cow-abunga-comics-kyle-willis-sketch-cover-collection-1",
+              "asOf": null,
+              "retrievedAt": "2026-11-15T00:00:00.000Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Kyle Willis Sketch Cover Collection",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Cow-Abunga Comics",
+                "variant": "Circle of Madness Foil Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "CGCxJSA",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $60-$130, not a statistical interval. Saved Circle of Madness foil Universal 9.8 guide $95 from one reported September 24, 2023 sale. Owned CGCxJSA label differs. Retain unsigned anchor without signature premium; stale single-sale guide. SDCC exclusive; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/321052/cow-abunga-comics-kyle-willis-sketch-cover-collection-1",
+              "reviewedAt": "2026-11-23T06:22:14.228Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $60-$130, not a statistical interval. Saved Circle of Madness foil Universal 9.8 guide $95 from one reported September 24, 2023 sale. Owned CGCxJSA label differs. Retain unsigned anchor without signature premium; stale single-sale guide. SDCC exclusive; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 60,
+                "high": 130,
+                "currency": "USD"
+              },
+              "scarcity": "SDCC exclusive; numeric print run unverified.",
+              "comparables": [],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:4471693002",
+                  "cert": "4471693002",
+                  "status": "unresolved-label-mismatch",
+                  "proposedValue": null,
+                  "evidence": [
+                    {
+                      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/321052/cow-abunga-comics-kyle-willis-sketch-cover-collection-1",
+                      "access": "Livebrowser certsearch thenanalyze; explicit category compared",
+                      "accepted": false,
+                      "reason": "OwnedCGCxJSA9.8; analyze UniversalModern9.8guide951saleSep24,2023 wronglabel excluded"
+                    }
+                  ]
+                }
+              ],
+              "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-loop-1-CGC-4471693002",
+          "locked": true,
+          "selectedAt": "2026-11-23T06:22:21.349Z"
+        }
       }
     },
     {

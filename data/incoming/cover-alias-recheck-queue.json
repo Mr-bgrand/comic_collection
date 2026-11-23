@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T22:56:39.146Z",
+  "updatedAt": "2026-11-23T06:22:14.228Z",
   "method": "docs/valuation-cover-research-method.md",
   "items": [
     {
@@ -51,30 +51,6 @@
       ]
     },
     {
-      "copyId": "CGC:4381117006",
-      "title": "w0rldtr33",
-      "grade": "9.9",
-      "front": "4381117006_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4381117006",
-          "cert": "4381117006",
-          "status": "unresolved",
-          "proposedValue": null,
-          "evidence": [
-            {
-              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/324795/image-comics-w0rldtr33-4",
-              "access": "Livebrowser certsearch thenanalyze; Farr8.0 sameeditiontable from9.4cert",
-              "accepted": false,
-              "reason": "ExactNoMasss Oshred SilenceLambs9.9 empty;9.8guide1251saleJune19,2024excluded"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "copyId": "CGC:4381117003",
       "title": "w0rldtr33",
       "grade": "9.8",
@@ -111,54 +87,6 @@
             }
           ],
           "nextAction": "Find CGC9.8 regular300 fullcolor sales; NYCC keyword alone unreliable"
-        }
-      ]
-    },
-    {
-      "copyId": "CGC:4381117012",
-      "title": "w0rldtr33",
-      "grade": "8.0",
-      "front": "4381117012_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4381117012",
-          "cert": "4381117012",
-          "status": "unresolved",
-          "proposedValue": null,
-          "evidence": [
-            {
-              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/326447/image-comics-w0rldtr33-5",
-              "access": "Livebrowser certsearch thenanalyze; Farr8.0 sameeditiontable from9.4cert",
-              "accepted": false,
-              "reason": "SameNearMintFarr edition owned8.0 rowempty;9.8guide75excluded"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "copyId": "CGC:4381117011",
-      "title": "w0rldtr33",
-      "grade": "9.4",
-      "front": "4381117011_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4381117011",
-          "cert": "4381117011",
-          "status": "unresolved",
-          "proposedValue": null,
-          "evidence": [
-            {
-              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/326447/image-comics-w0rldtr33-5",
-              "access": "Livebrowser certsearch thenanalyze; Farr8.0 sameeditiontable from9.4cert",
-              "accepted": false,
-              "reason": "NearMintFarr9.4 empty;9.8guide75 one2024sale excluded"
-            }
-          ]
         }
       ]
     },
@@ -205,102 +133,6 @@
               "access": "Livebrowserpubliccertform",
               "accepted": false,
               "reason": "CBR returns blankcertdetails generic problem warning; not independently substantiated CGCissue. Noestimateavailable."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "copyId": "CGC:4386585003",
-      "title": "Batman: Facsimile Edition",
-      "grade": "9.9",
-      "front": "4386585003_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4386585003",
-          "cert": "4386585003",
-          "status": "unresolved",
-          "proposedValue": null,
-          "evidence": [
-            {
-              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/321593/dc-comics-batman-facsimile-edition-655",
-              "access": "Livebrowser certsearch thenanalyze; Farr8.0 sameeditiontable from9.4cert",
-              "accepted": false,
-              "reason": "ExactWhatnotC9.9empty;9.8guide1006sales and9.0guide25excluded"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "copyId": "CGC:4245413015",
-      "title": "Amazing Spider-Man",
-      "grade": "9.6",
-      "front": "4245413015_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4245413015",
-          "cert": "4245413015",
-          "status": "unresolved",
-          "proposedValue": null,
-          "evidence": [
-            {
-              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/307124/marvel-comics-amazing-spider-man-20",
-              "access": "Livebrowser certsearch thenanalyze; Farr8.0 sameeditiontable from9.4cert",
-              "accepted": false,
-              "reason": "ExactNakayamaTrade9.6empty;9.8guide5510salesexcluded"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "copyId": "CGC:4424144008",
-      "title": "Marvel's Voices: Spider-Verse",
-      "grade": "9.4",
-      "front": "4424144008_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4424144008",
-          "cert": "4424144008",
-          "status": "unresolved",
-          "proposedValue": null,
-          "evidence": [
-            {
-              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/329083/marvel-comics-marvels-voices-spider-verse-1",
-              "access": "Livebrowser certsearch thenanalyze",
-              "accepted": false,
-              "reason": "Exact SuVirginSketch9.4 empty;3sales9.8guide80 wronggrade"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "copyId": "CGC:4418876005",
-      "title": "X-Men",
-      "grade": "9.4",
-      "front": "4418876005_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4418876005",
-          "cert": "4418876005",
-          "status": "unresolved",
-          "proposedValue": null,
-          "evidence": [
-            {
-              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/328104/marvel-comics-x-men-27",
-              "access": "Livebrowser certsearch thenanalyze; Farr8.0 sameeditiontable from9.4cert",
-              "accepted": false,
-              "reason": "ExactTrinityColor9.4empty;9.6guide45 and9.8guide70excluded"
             }
           ]
         }
@@ -367,30 +199,6 @@
               "access": "Livebrowser certsearch thenanalyze; Farr8.0 sameeditiontable from9.4cert",
               "accepted": false,
               "reason": "ExactWaiteFoilB9.8 zeroallsales;BigTime/Hawkins retaileralias verified"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "copyId": "CGC:4350046020",
-      "title": "Do You Pooh?",
-      "grade": "9.9",
-      "front": "4350046020_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4350046020",
-          "cert": "4350046020",
-          "status": "unresolved",
-          "proposedValue": null,
-          "evidence": [
-            {
-              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/310678/counterpoint-do-you-pooh-1",
-              "access": "Livebrowser certsearch thenanalyze",
-              "accepted": false,
-              "reason": "MagicvsAirFoilB9.9empty;9.8guide351saleMar6,2025excluded"
             }
           ]
         }
@@ -517,54 +325,6 @@
       ]
     },
     {
-      "copyId": "CGC:4471693002",
-      "title": "Kyle Willis Sketch Cover Collection",
-      "grade": "9.8",
-      "front": "4471693002_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4471693002",
-          "cert": "4471693002",
-          "status": "unresolved-label-mismatch",
-          "proposedValue": null,
-          "evidence": [
-            {
-              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/321052/cow-abunga-comics-kyle-willis-sketch-cover-collection-1",
-              "access": "Livebrowser certsearch thenanalyze; explicit category compared",
-              "accepted": false,
-              "reason": "OwnedCGCxJSA9.8; analyze UniversalModern9.8guide951saleSep24,2023 wronglabel excluded"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "copyId": "CGC:4357017002",
-      "title": "X-Men",
-      "grade": "9.6",
-      "front": "4357017002_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4357017002",
-          "cert": "4357017002",
-          "status": "unresolved",
-          "proposedValue": null,
-          "evidence": [
-            {
-              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/327348/marvel-comics-x-men-27",
-              "access": "Livebrowser certsearch thenanalyze; Farr8.0 sameeditiontable from9.4cert",
-              "accepted": false,
-              "reason": "ExactTrinitySketch9.6empty;9.8guide1752salesSep1,2026excluded"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "copyId": "CGC:4357017004",
       "title": "Something is Killing the Children",
       "grade": "9.6",
@@ -662,25 +422,6 @@
           "value": null,
           "finding": "Live browser certificate search -> analyze verified Spectral Tao Universal 8.5. Owned grade row has zero reported sales and no estimate. Adjacent grades excluded.",
           "nextAction": "Seek exact grade actual slab transaction or active listing; no raw or adjacent grade substitution."
-        }
-      ]
-    },
-    {
-      "copyId": "CGC:4245413002",
-      "title": "Spider-Gwen: Shadow Clones",
-      "grade": "9.0",
-      "front": "4245413002_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4245413002",
-          "cert": "4245413002",
-          "status": "no-exact-grade-row",
-          "checkedAt": "2026-11-15",
-          "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/305058/marvel-comics-spider-gwen-shadow-clones-1b-variant-edition",
-          "value": null,
-          "finding": "Exact Stelfreeze Universal variant guide7recordedsales;9.0row has no history/value.9.8and9.6=20/9.4=10 excluded adjacentgrades."
         }
       ]
     },
@@ -952,46 +693,6 @@
       ]
     },
     {
-      "copyId": "CGC:2765925001",
-      "title": "TMNT/Usagi Yojimbo: Wherewhen",
-      "grade": "9.8",
-      "front": "2765925001_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "certificate": "2765925001",
-          "owned": "TMNT/Usagi Yojimbo: Wherewhen #2 Sakai Cover A, CGC Signature Series 9.8, Kevin Eastman per inventory",
-          "certificateUrl": "https://comicbookrealm.com/cgc-analyzer/certificate/id/2765925001",
-          "analyzerUrl": "https://comicbookrealm.com/cgc-analyzer/comic/id/316044/idw-publishing-tmnt-usagi-yojimbo-wherewhen-2",
-          "certificateEvidence": {
-            "grade": 9.8,
-            "category": "Signature",
-            "pages": "White",
-            "cover": "Stan Sakai",
-            "notes": "Wraparound cover",
-            "signedBy": "blank in CBR",
-            "recordedSales": 0
-          },
-          "analyzerEvidence": {
-            "category": "Universal/Modern",
-            "grade": 9.8,
-            "recordedSales": 1,
-            "lastSale": "2025-07-18",
-            "estimatedValue": 45
-          },
-          "status": "unresolved",
-          "excluded": [
-            {
-              "amount": 45,
-              "reason": "Universal/Modern guide cannot value owned Signature Series despite same grade and issue."
-            }
-          ],
-          "copyId": "CGC:2765925001"
-        }
-      ]
-    },
-    {
       "copyId": "CGC:4350047002",
       "title": "Grim",
       "grade": "9.8",
@@ -1007,67 +708,6 @@
           "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/322594/boom-studios-grim-12",
           "value": null,
           "finding": "Browser certificate search -> analyze verified Trinity Universal 9.8; zero all grades. Exact grade has zero reported sales and no estimate. Adjacent grades excluded."
-        }
-      ]
-    },
-    {
-      "copyId": "CGC:3760617001",
-      "title": "White Widow",
-      "grade": "9.8",
-      "front": null,
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "certificate": "3760617001",
-          "owned": "White Widow #2 Rebel Killer, CGC Signature Series 9.8; signer unresolved",
-          "certificateUrl": "https://comicbookrealm.com/cgc-analyzer/certificate/id/3760617001",
-          "analyzerUrl": "https://comicbookrealm.com/cgc-analyzer/comic/id/225752/absolute-comics-group-white-widow-2",
-          "certificateEvidence": {
-            "grade": 9.8,
-            "category": "Signature",
-            "pages": "White",
-            "submission": "CGC7282768404",
-            "cover": "Jamie Tyndall",
-            "story": "Brian Powell",
-            "art": "Iwan Nazif",
-            "notes": "Indicia reads White Widow #1",
-            "signedBy": "blank in CBR",
-            "recordedSales": 0
-          },
-          "analyzerEvidence": {
-            "variant": "Rebel Killer Edition",
-            "category": "Universal/Modern",
-            "grade": 9.8,
-            "recordedSales": 3,
-            "lastSale": "2025-07-21",
-            "estimatedValue": 85
-          },
-          "status": "unresolved",
-          "excluded": [
-            {
-              "amount": 85,
-              "reason": "Universal/Modern guide cannot value owned Signature Series."
-            },
-            {
-              "url": "https://www.ebay.com/itm/325903205219",
-              "amount": 150,
-              "type": "current ask",
-              "sourceChecked": "Live eBay page and seller specifics",
-              "title": "white widow 2 cgc 9.8 signature series",
-              "reason": "Seller identifies Sam De La Rosa cover / Venom Lethal Protector 2 Homage, not Rebel Killer Jamie Tyndall."
-            }
-          ],
-          "leadsOnly": [
-            {
-              "url": "https://www.ebay.com/itm/336710206473",
-              "amount": 149,
-              "title": "White Widow #2 CGC 9.8 2X Signed Tyndall/Powell Skull Virgin Exclusive",
-              "sourceChecked": "CBR widget and eBay related-items text only",
-              "limitations": "Exact variant and owned signer not established; not recommended."
-            }
-          ],
-          "copyId": "CGC:3760617001"
         }
       ]
     },
@@ -1162,25 +802,6 @@
           "value": null,
           "finding": "Certificate explicitly Qualified9.8, analyze table Universal/Modern9.8 estimated55 two reported sales lastSep22,2024. Category mismatch; not eligible.",
           "nextAction": "Find exact label/foil subedition evidence."
-        }
-      ]
-    },
-    {
-      "copyId": "CGC:4245549001",
-      "title": "Back to the Future",
-      "grade": "9.2",
-      "front": "4245549001_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4245549001",
-          "cert": "4245549001",
-          "status": "no-exact-grade-row",
-          "checkedAt": "2026-11-15",
-          "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/145590/idw-publishing-back-to-the-future-1e-artist-edition",
-          "value": null,
-          "finding": "Artist Edition Universal guide32recordedsales;9.2row empty.9.8=60/9.6and9.4=50 excluded adjacentgrades."
         }
       ]
     },
@@ -1886,45 +1507,6 @@
       ]
     },
     {
-      "copyId": "PSA:160521636",
-      "title": "SANDY KOUFAX",
-      "grade": "9",
-      "front": "PSA_160521636_FRONT.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "PSA:160521636",
-          "ownedIdentity": {
-            "cert": "160521636",
-            "subject": "SANDY KOUFAX",
-            "year": "2025",
-            "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
-            "cardNumber": "71",
-            "variety": "SAP GREEN",
-            "grader": "PSA",
-            "grade": "9"
-          },
-          "priorResearchFile": "data/originals/resume-cards-results.json",
-          "queries": [
-            "Sandy Koufax Sap Green graded"
-          ],
-          "evidence": [
-            {
-              "url": "https://www.sportscardspro.com/game/baseball-cards-2025-topps-x-bob-ross/sandy-koufax-sap-green-71",
-              "observedAt": "2026-11-15",
-              "access": "search-index inspected",
-              "accepted": false,
-              "reason": "Zero grade9 transactions; PSA10 $199 wrong grade."
-            }
-          ],
-          "status": "unresolved-after-new-search",
-          "proposedValue": null,
-          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
-        }
-      ]
-    },
-    {
       "copyId": "PSA:169169674",
       "title": "BEN RICE",
       "grade": "9",
@@ -1988,45 +1570,6 @@
             "Jacob Misiorowski Chromographs 8 10"
           ],
           "evidence": [],
-          "status": "unresolved-after-new-search",
-          "proposedValue": null,
-          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
-        }
-      ]
-    },
-    {
-      "copyId": "PSA:173415133",
-      "title": "BO NIX",
-      "grade": "10",
-      "front": "PSA_173415133_FRONT.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "PSA:173415133",
-          "ownedIdentity": {
-            "cert": "173415133",
-            "subject": "BO NIX",
-            "year": "2025",
-            "brand": "TOPPS SIGNATURE CLASS SIGNATURE CLASSICS",
-            "cardNumber": "SC-BN",
-            "variety": "ORANGE REFRACTOR",
-            "grader": "PSA",
-            "grade": "10"
-          },
-          "priorResearchFile": "data/originals/resume-cards-results.json",
-          "queries": [
-            "Bo Nix SC-BN PSA orange"
-          ],
-          "evidence": [
-            {
-              "url": "https://www.sportscardspro.com/game/football-cards-2025-topps-signature-class-classics/bo-nix-orange-sc-bn",
-              "observedAt": "2026-11-15",
-              "access": "search-index inspected",
-              "accepted": false,
-              "reason": "Raw orange/50 sales only; algorithm PSA10 price lacks exact PSA10 AUTO8 transaction."
-            }
-          ],
           "status": "unresolved-after-new-search",
           "proposedValue": null,
           "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."

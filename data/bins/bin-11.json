@@ -35,6 +35,127 @@
         "url": "https://gocollect.com/app/comic/white-widow-2-rebel-killer-variant",
         "status": "no-sales",
         "fetchedAt": "2026-08-27T05:50:14.715Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-loop-1-CGC-3760617001",
+            "copyId": "CGC:3760617001",
+            "basis": "owner",
+            "value": 85,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/225752/absolute-comics-group-white-widow-2",
+              "asOf": null,
+              "retrievedAt": "2026-11-15T00:00:00.000Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "White Widow",
+                "issue": "2",
+                "issueYear": "2019",
+                "publisher": "Absolute Comics Group",
+                "variant": "Rebel Killer Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Signature Series",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $55-$120, not a statistical interval. Saved Rebel Killer Universal 9.8 guide $85, three reported sales latest July 21, 2025. Owned Signature Series signer unresolved and scan absent. Catalog/certificate identity supports same edition; no signature premium, low confidence. $150 Sam De La Rosa homage excluded. Rebel Killer variant; print run unknown; signer remains unresolved. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/225752/absolute-comics-group-white-widow-2",
+              "reviewedAt": "2026-11-23T06:22:14.228Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $55-$120, not a statistical interval. Saved Rebel Killer Universal 9.8 guide $85, three reported sales latest July 21, 2025. Owned Signature Series signer unresolved and scan absent. Catalog/certificate identity supports same edition; no signature premium, low confidence. $150 Sam De La Rosa homage excluded. Rebel Killer variant; print run unknown; signer remains unresolved. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 55,
+                "high": 120,
+                "currency": "USD"
+              },
+              "scarcity": "Rebel Killer variant; print run unknown; signer remains unresolved.",
+              "comparables": [],
+              "priorResearch": [
+                {
+                  "certificate": "3760617001",
+                  "owned": "White Widow #2 Rebel Killer, CGC Signature Series 9.8; signer unresolved",
+                  "certificateUrl": "https://comicbookrealm.com/cgc-analyzer/certificate/id/3760617001",
+                  "analyzerUrl": "https://comicbookrealm.com/cgc-analyzer/comic/id/225752/absolute-comics-group-white-widow-2",
+                  "certificateEvidence": {
+                    "grade": 9.8,
+                    "category": "Signature",
+                    "pages": "White",
+                    "submission": "CGC7282768404",
+                    "cover": "Jamie Tyndall",
+                    "story": "Brian Powell",
+                    "art": "Iwan Nazif",
+                    "notes": "Indicia reads White Widow #1",
+                    "signedBy": "blank in CBR",
+                    "recordedSales": 0
+                  },
+                  "analyzerEvidence": {
+                    "variant": "Rebel Killer Edition",
+                    "category": "Universal/Modern",
+                    "grade": 9.8,
+                    "recordedSales": 3,
+                    "lastSale": "2025-07-21",
+                    "estimatedValue": 85
+                  },
+                  "status": "unresolved",
+                  "excluded": [
+                    {
+                      "amount": 85,
+                      "reason": "Universal/Modern guide cannot value owned Signature Series."
+                    },
+                    {
+                      "url": "https://www.ebay.com/itm/325903205219",
+                      "amount": 150,
+                      "type": "current ask",
+                      "sourceChecked": "Live eBay page and seller specifics",
+                      "title": "white widow 2 cgc 9.8 signature series",
+                      "reason": "Seller identifies Sam De La Rosa cover / Venom Lethal Protector 2 Homage, not Rebel Killer Jamie Tyndall."
+                    }
+                  ],
+                  "leadsOnly": [
+                    {
+                      "url": "https://www.ebay.com/itm/336710206473",
+                      "amount": 149,
+                      "title": "White Widow #2 CGC 9.8 2X Signed Tyndall/Powell Skull Virgin Exclusive",
+                      "sourceChecked": "CBR widget and eBay related-items text only",
+                      "limitations": "Exact variant and owned signer not established; not recommended."
+                    }
+                  ],
+                  "copyId": "CGC:3760617001"
+                }
+              ],
+              "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-loop-1-CGC-3760617001",
+          "locked": true,
+          "selectedAt": "2026-11-23T06:22:23.453Z"
+        }
       }
     },
     {
@@ -1148,7 +1269,86 @@
         "status": "no-sales",
         "fetchedAt": "2026-08-27T05:52:33.609Z"
       },
-      "imageSource": "owner"
+      "imageSource": "owner",
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-loop-1-CGC-4245549001",
+            "copyId": "CGC:4245549001",
+            "basis": "owner",
+            "value": 40,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/145590/idw-publishing-back-to-the-future-1e-artist-edition",
+              "asOf": null,
+              "retrievedAt": "2026-11-15T00:00:00.000Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Back to the Future",
+                "issue": "1",
+                "issueYear": "2015",
+                "publisher": "IDW Publishing",
+                "variant": "Artist Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.2",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $25-$50, not a statistical interval. Saved same Artist Edition guides $50 at 9.4/9.6 and $60 at 9.8. Owned 9.2 appraised at $40 by judgment below closest guide. Printed original-art-style cover, not a unique commissioned original. Retailer incentive; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/145590/idw-publishing-back-to-the-future-1e-artist-edition",
+              "reviewedAt": "2026-11-23T06:22:14.228Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $25-$50, not a statistical interval. Saved same Artist Edition guides $50 at 9.4/9.6 and $60 at 9.8. Owned 9.2 appraised at $40 by judgment below closest guide. Printed original-art-style cover, not a unique commissioned original. Retailer incentive; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 25,
+                "high": 50,
+                "currency": "USD"
+              },
+              "scarcity": "Retailer incentive; numeric print run unverified.",
+              "comparables": [],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:4245549001",
+                  "cert": "4245549001",
+                  "status": "no-exact-grade-row",
+                  "checkedAt": "2026-11-15",
+                  "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/145590/idw-publishing-back-to-the-future-1e-artist-edition",
+                  "value": null,
+                  "finding": "Artist Edition Universal guide32recordedsales;9.2row empty.9.8=60/9.6and9.4=50 excluded adjacentgrades."
+                }
+              ],
+              "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-loop-1-CGC-4245549001",
+          "locked": true,
+          "selectedAt": "2026-11-23T06:22:23.962Z"
+        }
+      }
     },
     {
       "cert": "4273634010",

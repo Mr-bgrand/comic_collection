@@ -1188,7 +1188,112 @@
         "capturedAt": "2026-09-10T05:53:28.351Z",
         "importedAt": "2026-09-10T05:54:57.033Z"
       },
-      "scanStatus": "complete"
+      "scanStatus": "complete",
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-loop-1-CGC-2765925001",
+            "copyId": "CGC:2765925001",
+            "basis": "owner",
+            "value": 45,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/316044/idw-publishing-tmnt-usagi-yojimbo-wherewhen-2",
+              "asOf": null,
+              "retrievedAt": "2026-11-15T00:00:00.000Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "TMNT/Usagi Yojimbo: Wherewhen",
+                "issue": "2",
+                "issueYear": "2023",
+                "publisher": "IDW Publishing",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Signature Series",
+                "labelType": "",
+                "signatures": [
+                  {
+                    "date": "2023-07-19",
+                    "name": "Kevin Eastman"
+                  }
+                ],
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $30-$85, not a statistical interval. Saved same Sakai wraparound Universal 9.8 guide $45, one reported sale July 18, 2025. Owned Signature Series 9.8 signed Kevin Eastman July 19, 2023. Retain unsigned guide with no signature premium. Regular cover; no numeric scarcity claim. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/316044/idw-publishing-tmnt-usagi-yojimbo-wherewhen-2",
+              "reviewedAt": "2026-11-23T06:22:14.228Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $30-$85, not a statistical interval. Saved same Sakai wraparound Universal 9.8 guide $45, one reported sale July 18, 2025. Owned Signature Series 9.8 signed Kevin Eastman July 19, 2023. Retain unsigned guide with no signature premium. Regular cover; no numeric scarcity claim. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 30,
+                "high": 85,
+                "currency": "USD"
+              },
+              "scarcity": "Regular cover; no numeric scarcity claim.",
+              "comparables": [],
+              "priorResearch": [
+                {
+                  "certificate": "2765925001",
+                  "owned": "TMNT/Usagi Yojimbo: Wherewhen #2 Sakai Cover A, CGC Signature Series 9.8, Kevin Eastman per inventory",
+                  "certificateUrl": "https://comicbookrealm.com/cgc-analyzer/certificate/id/2765925001",
+                  "analyzerUrl": "https://comicbookrealm.com/cgc-analyzer/comic/id/316044/idw-publishing-tmnt-usagi-yojimbo-wherewhen-2",
+                  "certificateEvidence": {
+                    "grade": 9.8,
+                    "category": "Signature",
+                    "pages": "White",
+                    "cover": "Stan Sakai",
+                    "notes": "Wraparound cover",
+                    "signedBy": "blank in CBR",
+                    "recordedSales": 0
+                  },
+                  "analyzerEvidence": {
+                    "category": "Universal/Modern",
+                    "grade": 9.8,
+                    "recordedSales": 1,
+                    "lastSale": "2025-07-18",
+                    "estimatedValue": 45
+                  },
+                  "status": "unresolved",
+                  "excluded": [
+                    {
+                      "amount": 45,
+                      "reason": "Universal/Modern guide cannot value owned Signature Series despite same grade and issue."
+                    }
+                  ],
+                  "copyId": "CGC:2765925001"
+                }
+              ],
+              "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-loop-1-CGC-2765925001",
+          "locked": true,
+          "selectedAt": "2026-11-23T06:22:22.912Z"
+        }
+      }
     },
     {
       "cert": "4350047005",

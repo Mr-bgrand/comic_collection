@@ -691,6 +691,90 @@
         "url": "https://gocollect.com/app/comic/x-men-27-trinity-comics-sketch-edition",
         "status": "no-sales",
         "fetchedAt": "2026-08-21T05:08:40.592Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-loop-1-CGC-4357017002",
+            "copyId": "CGC:4357017002",
+            "basis": "owner",
+            "value": 110,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/327348/marvel-comics-x-men-27",
+              "asOf": null,
+              "retrievedAt": "2026-11-15T00:00:00.000Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "X-Men",
+                "issue": "27",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Trinity Comics Sketch Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.6",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $75-$150, not a statistical interval. Saved same Trinity sketch edition 9.8 guide $175 with two reported sales, latest September 1, 2026. Owned 9.6 working estimate $110 is a judgment discount; no measured conversion. Peach Momoko Trinity sketch exclusive; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/327348/marvel-comics-x-men-27",
+              "reviewedAt": "2026-11-23T06:22:14.228Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $75-$150, not a statistical interval. Saved same Trinity sketch edition 9.8 guide $175 with two reported sales, latest September 1, 2026. Owned 9.6 working estimate $110 is a judgment discount; no measured conversion. Peach Momoko Trinity sketch exclusive; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 75,
+                "high": 150,
+                "currency": "USD"
+              },
+              "scarcity": "Peach Momoko Trinity sketch exclusive; numeric print run unverified.",
+              "comparables": [],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:4357017002",
+                  "cert": "4357017002",
+                  "status": "unresolved",
+                  "proposedValue": null,
+                  "evidence": [
+                    {
+                      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/327348/marvel-comics-x-men-27",
+                      "access": "Livebrowser certsearch thenanalyze; Farr8.0 sameeditiontable from9.4cert",
+                      "accepted": false,
+                      "reason": "ExactTrinitySketch9.6empty;9.8guide1752salesSep1,2026excluded"
+                    }
+                  ]
+                }
+              ],
+              "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-loop-1-CGC-4357017002",
+          "locked": true,
+          "selectedAt": "2026-11-23T06:22:21.857Z"
+        }
       }
     },
     {

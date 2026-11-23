@@ -1,0 +1,1405 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "CGC:4381117006",
+      "revision": "7e808206f7c249ad3f3ee800b3344b44a0009f83418d5f46a7d6dc972162269b",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-1-CGC-4381117006",
+          "copyId": "CGC:4381117006",
+          "basis": "owner",
+          "value": 125,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/324795/image-comics-w0rldtr33-4",
+            "asOf": null,
+            "retrievedAt": "2026-11-15T00:00:00.000Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "w0rldtr33",
+              "issue": "4",
+              "issueYear": "2023",
+              "publisher": "Image Comics",
+              "variant": "No Masss Comics Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.9",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "accepted",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $90-$180, not a statistical interval. Saved exact No Masss/Oshred edition Universal 9.8 guide $125 based on one reported sale June 19, 2024. Owned 9.9 appraised at the same $125; no unsupported 9.9 premium. Stale thin guide. Print run unknown. Population one at 9.9 is not the edition print run. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/324795/image-comics-w0rldtr33-4",
+            "reviewedAt": "2026-11-23T06:21:44.440Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $90-$180, not a statistical interval. Saved exact No Masss/Oshred edition Universal 9.8 guide $125 based on one reported sale June 19, 2024. Owned 9.9 appraised at the same $125; no unsupported 9.9 premium. Stale thin guide. Print run unknown. Population one at 9.9 is not the edition print run. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 90,
+              "high": 180,
+              "currency": "USD"
+            },
+            "scarcity": "Print run unknown. Population one at 9.9 is not the edition print run.",
+            "comparables": [],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4381117006",
+                "cert": "4381117006",
+                "status": "unresolved",
+                "proposedValue": null,
+                "evidence": [
+                  {
+                    "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/324795/image-comics-w0rldtr33-4",
+                    "access": "Livebrowser certsearch thenanalyze; Farr8.0 sameeditiontable from9.4cert",
+                    "accepted": false,
+                    "reason": "ExactNoMasss Oshred SilenceLambs9.9 empty;9.8guide1251saleJune19,2024excluded"
+                  }
+                ]
+              }
+            ],
+            "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4381117012",
+      "revision": "7e808206f7c249ad3f3ee800b3344b44a0009f83418d5f46a7d6dc972162269b",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-1-CGC-4381117012",
+          "copyId": "CGC:4381117012",
+          "basis": "owner",
+          "value": 25,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/326447/image-comics-w0rldtr33-5",
+            "asOf": null,
+            "retrievedAt": "2026-11-15T00:00:00.000Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "w0rldtr33",
+              "issue": "5",
+              "issueYear": "2023",
+              "publisher": "Image Comics",
+              "variant": "Near Mint Comics Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "8.0",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $15-$45, not a statistical interval. Saved same Near Mint/Tehani Farr edition 9.8 guide $75, one 2024 sale; owned 8.0 lacks history. $25 is a conservative judgment discount for the substantial grade gap, not a measured grade ratio. Virgin store exclusive; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/326447/image-comics-w0rldtr33-5",
+            "reviewedAt": "2026-11-23T06:22:14.228Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $15-$45, not a statistical interval. Saved same Near Mint/Tehani Farr edition 9.8 guide $75, one 2024 sale; owned 8.0 lacks history. $25 is a conservative judgment discount for the substantial grade gap, not a measured grade ratio. Virgin store exclusive; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 15,
+              "high": 45,
+              "currency": "USD"
+            },
+            "scarcity": "Virgin store exclusive; numeric print run unverified.",
+            "comparables": [],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4381117012",
+                "cert": "4381117012",
+                "status": "unresolved",
+                "proposedValue": null,
+                "evidence": [
+                  {
+                    "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/326447/image-comics-w0rldtr33-5",
+                    "access": "Livebrowser certsearch thenanalyze; Farr8.0 sameeditiontable from9.4cert",
+                    "accepted": false,
+                    "reason": "SameNearMintFarr edition owned8.0 rowempty;9.8guide75excluded"
+                  }
+                ]
+              }
+            ],
+            "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4381117011",
+      "revision": "6f3e1142d67348f002d20354eed3966409f516aa80def38688a4d8e21560ac59",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-1-CGC-4381117011",
+          "copyId": "CGC:4381117011",
+          "basis": "owner",
+          "value": 45,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/326447/image-comics-w0rldtr33-5",
+            "asOf": null,
+            "retrievedAt": "2026-11-15T00:00:00.000Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "w0rldtr33",
+              "issue": "5",
+              "issueYear": "2023",
+              "publisher": "Image Comics",
+              "variant": "Near Mint Comics Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.4",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $30-$65, not a statistical interval. Saved same Near Mint/Tehani Farr edition 9.8 guide $75, one 2024 sale; owned 9.4 lacks history. $45 is a conservative appraisal below that anchor, not an observed 9.4 transaction. Virgin store exclusive; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/326447/image-comics-w0rldtr33-5",
+            "reviewedAt": "2026-11-23T06:22:14.228Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $30-$65, not a statistical interval. Saved same Near Mint/Tehani Farr edition 9.8 guide $75, one 2024 sale; owned 9.4 lacks history. $45 is a conservative appraisal below that anchor, not an observed 9.4 transaction. Virgin store exclusive; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 30,
+              "high": 65,
+              "currency": "USD"
+            },
+            "scarcity": "Virgin store exclusive; numeric print run unverified.",
+            "comparables": [],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4381117011",
+                "cert": "4381117011",
+                "status": "unresolved",
+                "proposedValue": null,
+                "evidence": [
+                  {
+                    "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/326447/image-comics-w0rldtr33-5",
+                    "access": "Livebrowser certsearch thenanalyze; Farr8.0 sameeditiontable from9.4cert",
+                    "accepted": false,
+                    "reason": "NearMintFarr9.4 empty;9.8guide75 one2024sale excluded"
+                  }
+                ]
+              }
+            ],
+            "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4386585003",
+      "revision": "d36a73140294d9a0f5f8e560496dcd9a55486517d30eafc627242623a67b6d9c",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-1-CGC-4386585003",
+          "copyId": "CGC:4386585003",
+          "basis": "owner",
+          "value": 100,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/321593/dc-comics-batman-facsimile-edition-655",
+            "asOf": null,
+            "retrievedAt": "2026-11-15T00:00:00.000Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Batman: Facsimile Edition",
+              "issue": "655",
+              "issueYear": "2023",
+              "publisher": "DC Comics",
+              "variant": "Whatnot Special Edition C",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.9",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $75-$175, not a statistical interval. Saved same Whatnot Special C virgin foil 9.8 guide $100 with six reported sales. Retain $100 for owned 9.9 without a speculative top-grade premium. This is the 2023 facsimile, not the 2006 original. Mellow Fellow/SMZ exclusive; numeric print run unverified; top population is not production count. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/321593/dc-comics-batman-facsimile-edition-655",
+            "reviewedAt": "2026-11-23T06:22:14.228Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $75-$175, not a statistical interval. Saved same Whatnot Special C virgin foil 9.8 guide $100 with six reported sales. Retain $100 for owned 9.9 without a speculative top-grade premium. This is the 2023 facsimile, not the 2006 original. Mellow Fellow/SMZ exclusive; numeric print run unverified; top population is not production count. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 75,
+              "high": 175,
+              "currency": "USD"
+            },
+            "scarcity": "Mellow Fellow/SMZ exclusive; numeric print run unverified; top population is not production count.",
+            "comparables": [],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4386585003",
+                "cert": "4386585003",
+                "status": "unresolved",
+                "proposedValue": null,
+                "evidence": [
+                  {
+                    "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/321593/dc-comics-batman-facsimile-edition-655",
+                    "access": "Livebrowser certsearch thenanalyze; Farr8.0 sameeditiontable from9.4cert",
+                    "accepted": false,
+                    "reason": "ExactWhatnotC9.9empty;9.8guide1006sales and9.0guide25excluded"
+                  }
+                ]
+              }
+            ],
+            "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4245413015",
+      "revision": "a0b4623b8d3da4f6aee5185f976573c0e2f0ecbb62884666a6e585a2c9c6ba33",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-1-CGC-4245413015",
+          "copyId": "CGC:4245413015",
+          "basis": "owner",
+          "value": 35,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/307124/marvel-comics-amazing-spider-man-20",
+            "asOf": null,
+            "retrievedAt": "2026-11-15T00:00:00.000Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Amazing Spider-Man",
+              "issue": "20",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "Nakayama Variant Cover",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.6",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $25-$50, not a statistical interval. Saved same Nakayama trade cover 9.8 guide $55 with ten reported sales. Appraise owned 9.6 at $35 by judgment; no measured grade conversion available. Print run unknown; no scarcity premium. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/307124/marvel-comics-amazing-spider-man-20",
+            "reviewedAt": "2026-11-23T06:22:14.228Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $25-$50, not a statistical interval. Saved same Nakayama trade cover 9.8 guide $55 with ten reported sales. Appraise owned 9.6 at $35 by judgment; no measured grade conversion available. Print run unknown; no scarcity premium. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 25,
+              "high": 50,
+              "currency": "USD"
+            },
+            "scarcity": "Print run unknown; no scarcity premium.",
+            "comparables": [],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4245413015",
+                "cert": "4245413015",
+                "status": "unresolved",
+                "proposedValue": null,
+                "evidence": [
+                  {
+                    "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/307124/marvel-comics-amazing-spider-man-20",
+                    "access": "Livebrowser certsearch thenanalyze; Farr8.0 sameeditiontable from9.4cert",
+                    "accepted": false,
+                    "reason": "ExactNakayamaTrade9.6empty;9.8guide5510salesexcluded"
+                  }
+                ]
+              }
+            ],
+            "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4424144008",
+      "revision": "a9a3bd9edc9e1a74f2ec8c07a2466b60c2f48b7c6aecb046c7dbffa9b8d2d802",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-1-CGC-4424144008",
+          "copyId": "CGC:4424144008",
+          "basis": "owner",
+          "value": 45,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/329083/marvel-comics-marvels-voices-spider-verse-1",
+            "asOf": null,
+            "retrievedAt": "2026-11-15T00:00:00.000Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Marvel's Voices: Spider-Verse",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "Su \"Virgin\" Sketch Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.4",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $30-$65, not a statistical interval. Saved same Su virgin sketch edition 9.8 guide $80 with three reported sales. Owned 9.4 working estimate $45 is a judgment discount, not a 9.4 sale. Virgin sketch edition; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/329083/marvel-comics-marvels-voices-spider-verse-1",
+            "reviewedAt": "2026-11-23T06:22:14.228Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $30-$65, not a statistical interval. Saved same Su virgin sketch edition 9.8 guide $80 with three reported sales. Owned 9.4 working estimate $45 is a judgment discount, not a 9.4 sale. Virgin sketch edition; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 30,
+              "high": 65,
+              "currency": "USD"
+            },
+            "scarcity": "Virgin sketch edition; numeric print run unverified.",
+            "comparables": [],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4424144008",
+                "cert": "4424144008",
+                "status": "unresolved",
+                "proposedValue": null,
+                "evidence": [
+                  {
+                    "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/329083/marvel-comics-marvels-voices-spider-verse-1",
+                    "access": "Livebrowser certsearch thenanalyze",
+                    "accepted": false,
+                    "reason": "Exact SuVirginSketch9.4 empty;3sales9.8guide80 wronggrade"
+                  }
+                ]
+              }
+            ],
+            "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4418876005",
+      "revision": "ca7f7fabcf7c76ac51b00d1901e8b338365b179d0eadf8d43c47250c51831bd5",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-1-CGC-4418876005",
+          "copyId": "CGC:4418876005",
+          "basis": "owner",
+          "value": 35,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/328104/marvel-comics-x-men-27",
+            "asOf": null,
+            "retrievedAt": "2026-11-15T00:00:00.000Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "X-Men",
+              "issue": "27",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "Trinity Comics Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.4",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $25-$50, not a statistical interval. Saved same Trinity color edition guides $45 at 9.6 and $70 at 9.8. Owned 9.4 appraised at $35, below the closer-grade guide; adjustment is judgment. Peach Momoko Trinity color exclusive; print run unknown. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/328104/marvel-comics-x-men-27",
+            "reviewedAt": "2026-11-23T06:22:14.228Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $25-$50, not a statistical interval. Saved same Trinity color edition guides $45 at 9.6 and $70 at 9.8. Owned 9.4 appraised at $35, below the closer-grade guide; adjustment is judgment. Peach Momoko Trinity color exclusive; print run unknown. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 25,
+              "high": 50,
+              "currency": "USD"
+            },
+            "scarcity": "Peach Momoko Trinity color exclusive; print run unknown.",
+            "comparables": [],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4418876005",
+                "cert": "4418876005",
+                "status": "unresolved",
+                "proposedValue": null,
+                "evidence": [
+                  {
+                    "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/328104/marvel-comics-x-men-27",
+                    "access": "Livebrowser certsearch thenanalyze; Farr8.0 sameeditiontable from9.4cert",
+                    "accepted": false,
+                    "reason": "ExactTrinityColor9.4empty;9.6guide45 and9.8guide70excluded"
+                  }
+                ]
+              }
+            ],
+            "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4350046020",
+      "revision": "15e800cc35ec83897c14f44aede300b5cd82765eeae481203f60487307bc7f4a",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-1-CGC-4350046020",
+          "copyId": "CGC:4350046020",
+          "basis": "owner",
+          "value": 35,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/310678/counterpoint-do-you-pooh-1",
+            "asOf": null,
+            "retrievedAt": "2026-11-15T00:00:00.000Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Do You Pooh?",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Counterpoint",
+              "variant": "Magic Pooh vs Air Pooh Foil Edition B",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.9",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $20-$65, not a statistical interval. Saved Magic Pooh vs Air Pooh Foil B 9.8 guide $35 based on one reported March 6, 2025 sale. Retain $35 for owned 9.9 with no premium. Multiple foil finishes exist; guide may pool finishes, a further limitation. Foil edition B; finish-specific production count not verified. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/310678/counterpoint-do-you-pooh-1",
+            "reviewedAt": "2026-11-23T06:22:14.228Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $20-$65, not a statistical interval. Saved Magic Pooh vs Air Pooh Foil B 9.8 guide $35 based on one reported March 6, 2025 sale. Retain $35 for owned 9.9 with no premium. Multiple foil finishes exist; guide may pool finishes, a further limitation. Foil edition B; finish-specific production count not verified. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 20,
+              "high": 65,
+              "currency": "USD"
+            },
+            "scarcity": "Foil edition B; finish-specific production count not verified.",
+            "comparables": [],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4350046020",
+                "cert": "4350046020",
+                "status": "unresolved",
+                "proposedValue": null,
+                "evidence": [
+                  {
+                    "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/310678/counterpoint-do-you-pooh-1",
+                    "access": "Livebrowser certsearch thenanalyze",
+                    "accepted": false,
+                    "reason": "MagicvsAirFoilB9.9empty;9.8guide351saleMar6,2025excluded"
+                  }
+                ]
+              }
+            ],
+            "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4471693002",
+      "revision": "8ae169ade12db03a581d4597e93db607e8dd991b9a9e844a442ee0818d4f0d58",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-1-CGC-4471693002",
+          "copyId": "CGC:4471693002",
+          "basis": "owner",
+          "value": 95,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/321052/cow-abunga-comics-kyle-willis-sketch-cover-collection-1",
+            "asOf": null,
+            "retrievedAt": "2026-11-15T00:00:00.000Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Kyle Willis Sketch Cover Collection",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Cow-Abunga Comics",
+              "variant": "Circle of Madness Foil Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "CGCxJSA",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $60-$130, not a statistical interval. Saved Circle of Madness foil Universal 9.8 guide $95 from one reported September 24, 2023 sale. Owned CGCxJSA label differs. Retain unsigned anchor without signature premium; stale single-sale guide. SDCC exclusive; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/321052/cow-abunga-comics-kyle-willis-sketch-cover-collection-1",
+            "reviewedAt": "2026-11-23T06:22:14.228Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $60-$130, not a statistical interval. Saved Circle of Madness foil Universal 9.8 guide $95 from one reported September 24, 2023 sale. Owned CGCxJSA label differs. Retain unsigned anchor without signature premium; stale single-sale guide. SDCC exclusive; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 60,
+              "high": 130,
+              "currency": "USD"
+            },
+            "scarcity": "SDCC exclusive; numeric print run unverified.",
+            "comparables": [],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4471693002",
+                "cert": "4471693002",
+                "status": "unresolved-label-mismatch",
+                "proposedValue": null,
+                "evidence": [
+                  {
+                    "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/321052/cow-abunga-comics-kyle-willis-sketch-cover-collection-1",
+                    "access": "Livebrowser certsearch thenanalyze; explicit category compared",
+                    "accepted": false,
+                    "reason": "OwnedCGCxJSA9.8; analyze UniversalModern9.8guide951saleSep24,2023 wronglabel excluded"
+                  }
+                ]
+              }
+            ],
+            "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4357017002",
+      "revision": "2ad6e60400f93d1eed7a5d3cb772babdd7bb8af2617f62cd260d63901138e802",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-1-CGC-4357017002",
+          "copyId": "CGC:4357017002",
+          "basis": "owner",
+          "value": 110,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/327348/marvel-comics-x-men-27",
+            "asOf": null,
+            "retrievedAt": "2026-11-15T00:00:00.000Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "X-Men",
+              "issue": "27",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "Trinity Comics Sketch Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.6",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $75-$150, not a statistical interval. Saved same Trinity sketch edition 9.8 guide $175 with two reported sales, latest September 1, 2026. Owned 9.6 working estimate $110 is a judgment discount; no measured conversion. Peach Momoko Trinity sketch exclusive; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/327348/marvel-comics-x-men-27",
+            "reviewedAt": "2026-11-23T06:22:14.228Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $75-$150, not a statistical interval. Saved same Trinity sketch edition 9.8 guide $175 with two reported sales, latest September 1, 2026. Owned 9.6 working estimate $110 is a judgment discount; no measured conversion. Peach Momoko Trinity sketch exclusive; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 75,
+              "high": 150,
+              "currency": "USD"
+            },
+            "scarcity": "Peach Momoko Trinity sketch exclusive; numeric print run unverified.",
+            "comparables": [],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4357017002",
+                "cert": "4357017002",
+                "status": "unresolved",
+                "proposedValue": null,
+                "evidence": [
+                  {
+                    "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/327348/marvel-comics-x-men-27",
+                    "access": "Livebrowser certsearch thenanalyze; Farr8.0 sameeditiontable from9.4cert",
+                    "accepted": false,
+                    "reason": "ExactTrinitySketch9.6empty;9.8guide1752salesSep1,2026excluded"
+                  }
+                ]
+              }
+            ],
+            "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4245413002",
+      "revision": "eb0df12da484c497a48e660c041a1d02b1f0561cfc9b160ebb4993b8f51dd379",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-1-CGC-4245413002",
+          "copyId": "CGC:4245413002",
+          "basis": "owner",
+          "value": 8,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/305058/marvel-comics-spider-gwen-shadow-clones-1b-variant-edition",
+            "asOf": null,
+            "retrievedAt": "2026-11-15T00:00:00.000Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Spider-Gwen: Shadow Clones",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "Variant Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.0",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $5-$15, not a statistical interval. Saved Stelfreeze variant guide $10 at 9.4, $20 at 9.6/9.8. Owned 9.0 appraised at $8 below closer grade; slab cost is not a price floor. Retailer-incentive cover; incentive ratio is not a verified production count. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/305058/marvel-comics-spider-gwen-shadow-clones-1b-variant-edition",
+            "reviewedAt": "2026-11-23T06:22:14.228Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $5-$15, not a statistical interval. Saved Stelfreeze variant guide $10 at 9.4, $20 at 9.6/9.8. Owned 9.0 appraised at $8 below closer grade; slab cost is not a price floor. Retailer-incentive cover; incentive ratio is not a verified production count. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 5,
+              "high": 15,
+              "currency": "USD"
+            },
+            "scarcity": "Retailer-incentive cover; incentive ratio is not a verified production count.",
+            "comparables": [],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4245413002",
+                "cert": "4245413002",
+                "status": "no-exact-grade-row",
+                "checkedAt": "2026-11-15",
+                "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/305058/marvel-comics-spider-gwen-shadow-clones-1b-variant-edition",
+                "value": null,
+                "finding": "Exact Stelfreeze Universal variant guide7recordedsales;9.0row has no history/value.9.8and9.6=20/9.4=10 excluded adjacentgrades."
+              }
+            ],
+            "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:2765925001",
+      "revision": "e4538bd258ef798905251da6fc4ef4c14f93fccded1421032f12d20b15304ceb",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-1-CGC-2765925001",
+          "copyId": "CGC:2765925001",
+          "basis": "owner",
+          "value": 45,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/316044/idw-publishing-tmnt-usagi-yojimbo-wherewhen-2",
+            "asOf": null,
+            "retrievedAt": "2026-11-15T00:00:00.000Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "TMNT/Usagi Yojimbo: Wherewhen",
+              "issue": "2",
+              "issueYear": "2023",
+              "publisher": "IDW Publishing",
+              "variant": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Signature Series",
+              "labelType": "",
+              "signatures": [
+                {
+                  "date": "2023-07-19",
+                  "name": "Kevin Eastman"
+                }
+              ],
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $30-$85, not a statistical interval. Saved same Sakai wraparound Universal 9.8 guide $45, one reported sale July 18, 2025. Owned Signature Series 9.8 signed Kevin Eastman July 19, 2023. Retain unsigned guide with no signature premium. Regular cover; no numeric scarcity claim. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/316044/idw-publishing-tmnt-usagi-yojimbo-wherewhen-2",
+            "reviewedAt": "2026-11-23T06:22:14.228Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $30-$85, not a statistical interval. Saved same Sakai wraparound Universal 9.8 guide $45, one reported sale July 18, 2025. Owned Signature Series 9.8 signed Kevin Eastman July 19, 2023. Retain unsigned guide with no signature premium. Regular cover; no numeric scarcity claim. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 30,
+              "high": 85,
+              "currency": "USD"
+            },
+            "scarcity": "Regular cover; no numeric scarcity claim.",
+            "comparables": [],
+            "priorResearch": [
+              {
+                "certificate": "2765925001",
+                "owned": "TMNT/Usagi Yojimbo: Wherewhen #2 Sakai Cover A, CGC Signature Series 9.8, Kevin Eastman per inventory",
+                "certificateUrl": "https://comicbookrealm.com/cgc-analyzer/certificate/id/2765925001",
+                "analyzerUrl": "https://comicbookrealm.com/cgc-analyzer/comic/id/316044/idw-publishing-tmnt-usagi-yojimbo-wherewhen-2",
+                "certificateEvidence": {
+                  "grade": 9.8,
+                  "category": "Signature",
+                  "pages": "White",
+                  "cover": "Stan Sakai",
+                  "notes": "Wraparound cover",
+                  "signedBy": "blank in CBR",
+                  "recordedSales": 0
+                },
+                "analyzerEvidence": {
+                  "category": "Universal/Modern",
+                  "grade": 9.8,
+                  "recordedSales": 1,
+                  "lastSale": "2025-07-18",
+                  "estimatedValue": 45
+                },
+                "status": "unresolved",
+                "excluded": [
+                  {
+                    "amount": 45,
+                    "reason": "Universal/Modern guide cannot value owned Signature Series despite same grade and issue."
+                  }
+                ],
+                "copyId": "CGC:2765925001"
+              }
+            ],
+            "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:3760617001",
+      "revision": "1db0ba5297077eab6cc02b19583112ed10f1ef7ce810cb51c196bdf728d5e11a",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-1-CGC-3760617001",
+          "copyId": "CGC:3760617001",
+          "basis": "owner",
+          "value": 85,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/225752/absolute-comics-group-white-widow-2",
+            "asOf": null,
+            "retrievedAt": "2026-11-15T00:00:00.000Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "White Widow",
+              "issue": "2",
+              "issueYear": "2019",
+              "publisher": "Absolute Comics Group",
+              "variant": "Rebel Killer Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Signature Series",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $55-$120, not a statistical interval. Saved Rebel Killer Universal 9.8 guide $85, three reported sales latest July 21, 2025. Owned Signature Series signer unresolved and scan absent. Catalog/certificate identity supports same edition; no signature premium, low confidence. $150 Sam De La Rosa homage excluded. Rebel Killer variant; print run unknown; signer remains unresolved. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/225752/absolute-comics-group-white-widow-2",
+            "reviewedAt": "2026-11-23T06:22:14.228Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $55-$120, not a statistical interval. Saved Rebel Killer Universal 9.8 guide $85, three reported sales latest July 21, 2025. Owned Signature Series signer unresolved and scan absent. Catalog/certificate identity supports same edition; no signature premium, low confidence. $150 Sam De La Rosa homage excluded. Rebel Killer variant; print run unknown; signer remains unresolved. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 55,
+              "high": 120,
+              "currency": "USD"
+            },
+            "scarcity": "Rebel Killer variant; print run unknown; signer remains unresolved.",
+            "comparables": [],
+            "priorResearch": [
+              {
+                "certificate": "3760617001",
+                "owned": "White Widow #2 Rebel Killer, CGC Signature Series 9.8; signer unresolved",
+                "certificateUrl": "https://comicbookrealm.com/cgc-analyzer/certificate/id/3760617001",
+                "analyzerUrl": "https://comicbookrealm.com/cgc-analyzer/comic/id/225752/absolute-comics-group-white-widow-2",
+                "certificateEvidence": {
+                  "grade": 9.8,
+                  "category": "Signature",
+                  "pages": "White",
+                  "submission": "CGC7282768404",
+                  "cover": "Jamie Tyndall",
+                  "story": "Brian Powell",
+                  "art": "Iwan Nazif",
+                  "notes": "Indicia reads White Widow #1",
+                  "signedBy": "blank in CBR",
+                  "recordedSales": 0
+                },
+                "analyzerEvidence": {
+                  "variant": "Rebel Killer Edition",
+                  "category": "Universal/Modern",
+                  "grade": 9.8,
+                  "recordedSales": 3,
+                  "lastSale": "2025-07-21",
+                  "estimatedValue": 85
+                },
+                "status": "unresolved",
+                "excluded": [
+                  {
+                    "amount": 85,
+                    "reason": "Universal/Modern guide cannot value owned Signature Series."
+                  },
+                  {
+                    "url": "https://www.ebay.com/itm/325903205219",
+                    "amount": 150,
+                    "type": "current ask",
+                    "sourceChecked": "Live eBay page and seller specifics",
+                    "title": "white widow 2 cgc 9.8 signature series",
+                    "reason": "Seller identifies Sam De La Rosa cover / Venom Lethal Protector 2 Homage, not Rebel Killer Jamie Tyndall."
+                  }
+                ],
+                "leadsOnly": [
+                  {
+                    "url": "https://www.ebay.com/itm/336710206473",
+                    "amount": 149,
+                    "title": "White Widow #2 CGC 9.8 2X Signed Tyndall/Powell Skull Virgin Exclusive",
+                    "sourceChecked": "CBR widget and eBay related-items text only",
+                    "limitations": "Exact variant and owned signer not established; not recommended."
+                  }
+                ],
+                "copyId": "CGC:3760617001"
+              }
+            ],
+            "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4245549001",
+      "revision": "174b2a916adfc8a10e2cbc9f9bef0b444c9914def94e19147d5b2a2322f951c1",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-1-CGC-4245549001",
+          "copyId": "CGC:4245549001",
+          "basis": "owner",
+          "value": 40,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/145590/idw-publishing-back-to-the-future-1e-artist-edition",
+            "asOf": null,
+            "retrievedAt": "2026-11-15T00:00:00.000Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Back to the Future",
+              "issue": "1",
+              "issueYear": "2015",
+              "publisher": "IDW Publishing",
+              "variant": "Artist Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.2",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $25-$50, not a statistical interval. Saved same Artist Edition guides $50 at 9.4/9.6 and $60 at 9.8. Owned 9.2 appraised at $40 by judgment below closest guide. Printed original-art-style cover, not a unique commissioned original. Retailer incentive; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/145590/idw-publishing-back-to-the-future-1e-artist-edition",
+            "reviewedAt": "2026-11-23T06:22:14.228Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $25-$50, not a statistical interval. Saved same Artist Edition guides $50 at 9.4/9.6 and $60 at 9.8. Owned 9.2 appraised at $40 by judgment below closest guide. Printed original-art-style cover, not a unique commissioned original. Retailer incentive; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 25,
+              "high": 50,
+              "currency": "USD"
+            },
+            "scarcity": "Retailer incentive; numeric print run unverified.",
+            "comparables": [],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4245549001",
+                "cert": "4245549001",
+                "status": "no-exact-grade-row",
+                "checkedAt": "2026-11-15",
+                "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/145590/idw-publishing-back-to-the-future-1e-artist-edition",
+                "value": null,
+                "finding": "Artist Edition Universal guide32recordedsales;9.2row empty.9.8=60/9.6and9.4=50 excluded adjacentgrades."
+              }
+            ],
+            "refresh": "Original saved browser review November 15 (time not recorded). Four representative source refreshes failed in web reader November 22; browser retry failed GetCursorPos Access denied. No refreshed guide claimed."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "PSA:160521636",
+      "revision": "f6709f0ec38f28239e61ad18a34db62c400fe4b31d309d8e272d7cfb50de100e",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-1-PSA-160521636",
+          "copyId": "PSA:160521636",
+          "basis": "owner",
+          "value": 35,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://www.sportscardspro.com/game/baseball-cards-2025-topps-x-bob-ross/sandy-koufax-sap-green-71",
+            "asOf": null,
+            "retrievedAt": "2026-11-23T06:22:14.228Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2025",
+              "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+              "series": "",
+              "subject": "SANDY KOUFAX",
+              "cardNumber": "71",
+              "variety": "SAP GREEN",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $25-$65, not a statistical interval. Secondary raw reports $25 March 7, $33.68 February 18 and $35 February 1, 2026; retain rounded $35 raw anchor for owned PSA 9 without slab premium. PSA 10 June 7 $199 excluded from working value. No PSA 9 transaction. Owned inventory serial 14/75; source confirms /75. No scarcity uplift. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://www.sportscardspro.com/game/baseball-cards-2025-topps-x-bob-ross/sandy-koufax-sap-green-71",
+            "reviewedAt": "2026-11-23T06:22:14.228Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $25-$65, not a statistical interval. Secondary raw reports $25 March 7, $33.68 February 18 and $35 February 1, 2026; retain rounded $35 raw anchor for owned PSA 9 without slab premium. PSA 10 June 7 $199 excluded from working value. No PSA 9 transaction. Owned inventory serial 14/75; source confirms /75. No scarcity uplift. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 25,
+              "high": 65,
+              "currency": "USD"
+            },
+            "scarcity": "Owned inventory serial 14/75; source confirms /75. No scarcity uplift.",
+            "comparables": [
+              {
+                "date": "2026-02-18",
+                "price": 33.68,
+                "url": "https://www.ebay.com/itm/177855258366",
+                "status": "secondary reported sale; direct page unavailable"
+              }
+            ],
+            "priorResearch": [
+              {
+                "copyId": "PSA:160521636",
+                "ownedIdentity": {
+                  "cert": "160521636",
+                  "subject": "SANDY KOUFAX",
+                  "year": "2025",
+                  "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+                  "cardNumber": "71",
+                  "variety": "SAP GREEN",
+                  "grader": "PSA",
+                  "grade": "9"
+                },
+                "priorResearchFile": "data/originals/resume-cards-results.json",
+                "queries": [
+                  "Sandy Koufax Sap Green graded"
+                ],
+                "evidence": [
+                  {
+                    "url": "https://www.sportscardspro.com/game/baseball-cards-2025-topps-x-bob-ross/sandy-koufax-sap-green-71",
+                    "observedAt": "2026-11-15",
+                    "access": "search-index inspected",
+                    "accepted": false,
+                    "reason": "Zero grade9 transactions; PSA10 $199 wrong grade."
+                  }
+                ],
+                "status": "unresolved-after-new-search",
+                "proposedValue": null,
+                "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+              }
+            ],
+            "refresh": "SportsCardsPro page retrieved November 22; eBay link failed; browser access denied."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "PSA:173415133",
+      "revision": "71714c1a7b0c2cc8a5ce0993eacc5ef51a4d0013762f1ca772c6a05ce2ad2401",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-1-PSA-173415133",
+          "copyId": "PSA:173415133",
+          "basis": "owner",
+          "value": 225,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://www.sportscardspro.com/game/football-cards-2025-topps-signature-class-classics/bo-nix-orange-sc-bn",
+            "asOf": null,
+            "retrievedAt": "2026-11-23T06:22:14.228Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2025",
+              "brand": "TOPPS SIGNATURE CLASS SIGNATURE CLASSICS",
+              "series": "",
+              "subject": "BO NIX",
+              "cardNumber": "SC-BN",
+              "variety": "ORANGE REFRACTOR",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": [
+                {
+                  "name": "BO NIX · PSA/DNA Auto 8"
+                }
+              ],
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $175-$330, not a statistical interval. Same Orange SC-BN raw reports $262 July 20, $250 July 17, $330 June 29 and $326.02 June 27, 2026. Owned PSA 10 / autograph 8 appraised $225, below lowest raw report to allow autograph-quality uncertainty, with no PSA 10 premium. Judgment discount not measured; algorithm-only PSA 10 $1226 excluded. Owned inventory serial 42/50; source confirms /50. No additional scarcity uplift. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://www.sportscardspro.com/game/football-cards-2025-topps-signature-class-classics/bo-nix-orange-sc-bn",
+            "reviewedAt": "2026-11-23T06:22:14.228Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $175-$330, not a statistical interval. Same Orange SC-BN raw reports $262 July 20, $250 July 17, $330 June 29 and $326.02 June 27, 2026. Owned PSA 10 / autograph 8 appraised $225, below lowest raw report to allow autograph-quality uncertainty, with no PSA 10 premium. Judgment discount not measured; algorithm-only PSA 10 $1226 excluded. Owned inventory serial 42/50; source confirms /50. No additional scarcity uplift. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 175,
+              "high": 330,
+              "currency": "USD"
+            },
+            "scarcity": "Owned inventory serial 42/50; source confirms /50. No additional scarcity uplift.",
+            "comparables": [
+              {
+                "date": "2026-07-20",
+                "price": 262,
+                "url": "https://www.ebay.com/itm/158077752969",
+                "status": "secondary reported raw sale"
+              },
+              {
+                "date": "2026-07-17",
+                "price": 250,
+                "url": "https://www.ebay.com/itm/318565100440",
+                "status": "secondary reported raw sale"
+              }
+            ],
+            "priorResearch": [
+              {
+                "copyId": "PSA:173415133",
+                "ownedIdentity": {
+                  "cert": "173415133",
+                  "subject": "BO NIX",
+                  "year": "2025",
+                  "brand": "TOPPS SIGNATURE CLASS SIGNATURE CLASSICS",
+                  "cardNumber": "SC-BN",
+                  "variety": "ORANGE REFRACTOR",
+                  "grader": "PSA",
+                  "grade": "10"
+                },
+                "priorResearchFile": "data/originals/resume-cards-results.json",
+                "queries": [
+                  "Bo Nix SC-BN PSA orange"
+                ],
+                "evidence": [
+                  {
+                    "url": "https://www.sportscardspro.com/game/football-cards-2025-topps-signature-class-classics/bo-nix-orange-sc-bn",
+                    "observedAt": "2026-11-15",
+                    "access": "search-index inspected",
+                    "accepted": false,
+                    "reason": "Raw orange/50 sales only; algorithm PSA10 price lacks exact PSA10 AUTO8 transaction."
+                  }
+                ],
+                "status": "unresolved-after-new-search",
+                "proposedValue": null,
+                "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+              }
+            ],
+            "refresh": "SportsCardsPro retrieved November 22; direct eBay links unavailable and browser access denied."
+          }
+        }
+      ]
+    }
+  ]
+}
