@@ -442,6 +442,97 @@
         "url": "https://gocollect.com/app/comic/the-flash-123-facsimile-edition-comic-mint-convention-edition",
         "status": "no-sales",
         "fetchedAt": "2026-08-22T19:52:47.472Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-23-appraisal-loop-1-CGC-4245413023",
+            "copyId": "CGC:4245413023",
+            "basis": "owner",
+            "value": 40,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://www.ebay.com/itm/395312537240",
+              "asOf": null,
+              "retrievedAt": "2026-11-15"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Flash: Facsimile Edition",
+                "issue": "123",
+                "issueYear": "2022",
+                "publisher": "DC Comics",
+                "variant": "Comic Mint Convention Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.6",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $25-$70, not a statistical interval. Saved November15 browser review verified related plain2022 Flash123facsimile Universal9.6 fixed ask69.99 free shipping. Owned ComicMintConventionFoil9.6 differs in edition/finish. Working40 is cautious judgment below related ask, not a measured edition ratio; no foil premium. Estimated from asking prices; not confirmed sales. Current availability not reverified; candidate267724123398 ended and excluded. ComicMintConventionFoil numeric print run unknown; absence of sales does not establish rarity. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://www.ebay.com/itm/395312537240",
+              "reviewedAt": "2026-11-23T16:00:58.668Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $25-$70, not a statistical interval. Saved November15 browser review verified related plain2022 Flash123facsimile Universal9.6 fixed ask69.99 free shipping. Owned ComicMintConventionFoil9.6 differs in edition/finish. Working40 is cautious judgment below related ask, not a measured edition ratio; no foil premium. Estimated from asking prices; not confirmed sales. Current availability not reverified; candidate267724123398 ended and excluded. ComicMintConventionFoil numeric print run unknown; absence of sales does not establish rarity. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 25,
+                "high": 70,
+                "currency": "USD"
+              },
+              "scarcity": "ComicMintConventionFoil numeric print run unknown; absence of sales does not establish rarity.",
+              "comparables": [],
+              "priorResearch": [
+                {
+                  "cert": "4245413023",
+                  "copyId": "CGC:4245413023",
+                  "status": "excluded-photo-confirmed",
+                  "value": null,
+                  "checkedAt": "2026-11-15",
+                  "url": "https://www.ebay.com/itm/395312537240",
+                  "candidatePrice": 69.99,
+                  "photo": "data/originals/deeper-b-flash.webp",
+                  "finding": "Live Chrome price69.99free shipping. Actual Universal9.6 photo is plain2022 facsimile with4.99 price box and frontbarcode; no ComicMint Convention label or foil. Wrong edition. Other53.99 lead267724123398 redirected to catalog/ended in both directfetch andbrowser."
+                },
+                {
+                  "copyId": "CGC:4245413023",
+                  "cert": "4245413023",
+                  "status": "no-exact-grade-row",
+                  "checkedAt": "2026-11-15",
+                  "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/302609/dc-comics-flash-facsimile-edition-123",
+                  "value": null,
+                  "finding": "Live browser certificate search -> analyze verified Comic Mint Convention Foil Universal 9.6. Owned grade row has zero reported sales and no estimate. Adjacent grades excluded.",
+                  "nextAction": "Seek exact grade actual slab transaction or active listing; no raw or adjacent grade substitution."
+                }
+              ],
+              "refresh": "Saved browser-verified ask and candidate photo; owned label identity confirmed in prior CBR cert review, owned front unavailable. Edition mismatch retained explicitly."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-23-appraisal-loop-1-CGC-4245413023",
+          "locked": true,
+          "selectedAt": "2026-11-23T16:01:01.693Z"
+        }
       }
     },
     {

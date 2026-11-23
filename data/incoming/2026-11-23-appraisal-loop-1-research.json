@@ -1,0 +1,215 @@
+{
+  "reviewedAt": "2026-11-23T16:00:58.668Z",
+  "policy": "Owner-authorized comparative appraisal; no underlying exact-match assertion. No rarity premium without evidence.",
+  "items": [
+    {
+      "copyId": "ArenaClub:8AC002362928",
+      "value": 6,
+      "range": [
+        4,
+        15
+      ],
+      "url": "https://www.pricecharting.com/game/pokemon-paradox-rift/professor-turo%27s-scenario-257",
+      "reason": "Same English257 raw secondary reports: TCGPlayer5.25 November20 and17,2026; eBay1281547395826.64 November19. Working6 rounded raw anchor, no ArenaClub9.5 premium. Raw versus slab mismatch, not a same-grader sale. Graded aggregate20 excluded as unverified grader mix.",
+      "scarcity": "Secret illustration rarity is not verified numeric print run; no scarcity premium.",
+      "refresh": "Archive refreshed November23. Direct eBay fetch restricted; browser fallback failed GetCursorPos access denied. Secondary report only.",
+      "comparables": [
+        {
+          "date": "2026-11-19",
+          "price": 6.64,
+          "url": "https://www.ebay.com/itm/128154739582",
+          "status": "secondary reported raw sale; not directly verified"
+        }
+      ],
+      "title": "Professor Turo's Scenario Base · Secret Rare Arena Club 9.5",
+      "priorResearch": [
+        {
+          "copyId": "ArenaClub:8AC002362928",
+          "ownedIdentity": {
+            "cert": "8AC002362928",
+            "subject": "Professor Turo's Scenario",
+            "year": "2023",
+            "brand": "Paradox Rift",
+            "cardNumber": "257",
+            "variety": "Base · Secret Rare",
+            "grader": "Arena Club",
+            "grade": "9.5"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Professor Turo Arena Club 9.5 price"
+          ],
+          "evidence": [],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:L3302729",
+      "value": 2,
+      "range": [
+        1,
+        8
+      ],
+      "url": "https://www.pricecharting.com/game/pokemon-journey-together/mamoswine-ex-174",
+      "reason": "Same English174/159 raw UltraRare secondary reports1.80 November16,2.45 November15,2.64 November14 and1.89 November13,2026. Working2 rounded raw anchor without TAG8.5 premium. Raw condition differs from owned grade. Mislabeled DoubleRare/SIR rows excluded; no algorithmic grade multiplier.",
+      "scarcity": "Ultra Rare does not establish a limited print quantity.",
+      "refresh": "Archive refreshed November23; eBay366741831430 direct fetch restricted, browser fallback failed access denied. Secondary evidence only.",
+      "comparables": [
+        {
+          "date": "2026-11-16",
+          "price": 1.8,
+          "url": "https://www.ebay.com/itm/366741831430",
+          "status": "secondary reported raw sale"
+        }
+      ],
+      "title": "MAMOSWINE EX ULTRA RARE TAG 8.5",
+      "priorResearch": [
+        {
+          "copyId": "TAG:L3302729",
+          "ownedIdentity": {
+            "cert": "L3302729",
+            "subject": "MAMOSWINE EX",
+            "year": "2025",
+            "brand": "JOURNEY TOGETHER",
+            "cardNumber": "174/159",
+            "variety": "ULTRA RARE",
+            "grader": "TAG",
+            "grade": "8.5"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Mamoswine 174 8.5"
+          ],
+          "evidence": [
+            {
+              "url": "https://hoshino.com/card/sv9-174/2025-journey-together-mamoswine-ex-ultra-rare-174",
+              "observedAt": "2026-11-15",
+              "access": "search-index inspected",
+              "accepted": false,
+              "reason": "CGC8.5 transaction history not eligible TAG8.5 or PSA8.5; wrong grader."
+            }
+          ],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:L4878840",
+      "value": 100,
+      "range": [
+        70,
+        150
+      ],
+      "url": "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-sapphire/henry-davis-yellow-bdc-48",
+      "reason": "Saved November15 exact Yellow/99 archive browser review recorded one grade9 reported sale149.99; no TAG10/PSA10. Other saved Fanatics PSA9 unavailable guide76 is guide-only, not a transaction. Working100 conservative judgment below149.99, with no grade10 premium; different grader/grade and undated thin secondary anchor. YellowLava/75 and autographed PSA AUTH excluded.",
+      "scarcity": "Owned Yellow Sapphire serial92/99 visually verified in saved review; no added scarcity multiplier.",
+      "evidenceRetrievedAt": "2026-11-15",
+      "refresh": "Saved browser evidence retained; November22 web refresh failed, not represented as current live price.",
+      "title": "HENRY DAVIS YELLOW REFRACTOR TAG 10",
+      "priorResearch": [
+        {
+          "copyId": "TAG:L4878840",
+          "ownedIdentity": {
+            "cert": "L4878840",
+            "subject": "HENRY DAVIS",
+            "year": "2021",
+            "brand": "BOWMAN DRAFT SAPPHIRE EDITION",
+            "cardNumber": "BDC-48",
+            "variety": "YELLOW REFRACTOR",
+            "grader": "TAG",
+            "grade": "10"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Henry Davis Sapphire Yellow 10 99"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.sportscardspro.com/search-products?q=henry+davis+21&type=prices",
+              "observedAt": "2026-11-15",
+              "access": "search-index inspected",
+              "accepted": false,
+              "reason": "Yellow Sapphire BDC48 has grade9 price149.99 but no PSA10 amount; exact detail fetch unavailable. Yellow Lava TAG10 sale is different /75 parallel."
+            },
+            {
+              "url": "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-sapphire/henry-davis-yellow-bdc-48",
+              "observedAt": "2026-11-15",
+              "access": "direct exact archive inspected; browser fallback where specified",
+              "accepted": false,
+              "reason": "Browser fallback verified exact Yellow/99 archive; zero PSA10 and TAG10 sales. One grade9 sale149.99 is ineligible."
+            }
+          ],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution.",
+          "finalVisualAliasPass": {
+            "checkedAt": "2026-11-15",
+            "status": "no-supported-addition",
+            "ownedPhotoReinspected": true,
+            "listingPhotosMatched": false,
+            "limitations": "No new exact grade/parallel priced candidate emerged to photo-verify. Focused search, not exhaustive.",
+            "photo": "data/images/TAG_L4878840_SLAB_FRONT.jpg",
+            "visual": "Yellow crystalline Sapphire, 2021 BDC-48, serial 92/99, TAG 10.",
+            "queries": [
+              "Henry Davis BDC48 99 graded",
+              "site:ebay.com/itm Davis 2021 Sapphire 99 10",
+              "Henry Davis 2021 yellow site:psacard.com/auctionprices"
+            ],
+            "checked": [
+              {
+                "url": "https://www.fanaticscollect.com/weekly/b09293cc-3261-11ef-a03d-069e7662726d/2021-bowman-chrome-draft-henry-davis-sp-rookie-auto-dna-10-99-bdc-48-psa-auth",
+                "result": "26.40 sold July29 2024 cert78426959 is autograph variation PSA AUTH/DNA10, not Yellow Sapphire card grade10."
+              },
+              {
+                "url": "https://www.fanaticscollect.com/buy-now/e715d1c4-27bc-43f6-90da-2c58d2a4146e",
+                "result": "Exact Yellow Sapphire /99 but PSA9; unavailable guide76 excluded."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4245413023",
+      "value": 40,
+      "range": [
+        25,
+        70
+      ],
+      "url": "https://www.ebay.com/itm/395312537240",
+      "reason": "Saved November15 browser review verified related plain2022 Flash123facsimile Universal9.6 fixed ask69.99 free shipping. Owned ComicMintConventionFoil9.6 differs in edition/finish. Working40 is cautious judgment below related ask, not a measured edition ratio; no foil premium. Estimated from asking prices; not confirmed sales. Current availability not reverified; candidate267724123398 ended and excluded.",
+      "scarcity": "ComicMintConventionFoil numeric print run unknown; absence of sales does not establish rarity.",
+      "evidenceRetrievedAt": "2026-11-15",
+      "refresh": "Saved browser-verified ask and candidate photo; owned label identity confirmed in prior CBR cert review, owned front unavailable. Edition mismatch retained explicitly.",
+      "title": "Flash: Facsimile Edition #123 Comic Mint Convention Edition CGC 9.6",
+      "priorResearch": [
+        {
+          "cert": "4245413023",
+          "copyId": "CGC:4245413023",
+          "status": "excluded-photo-confirmed",
+          "value": null,
+          "checkedAt": "2026-11-15",
+          "url": "https://www.ebay.com/itm/395312537240",
+          "candidatePrice": 69.99,
+          "photo": "data/originals/deeper-b-flash.webp",
+          "finding": "Live Chrome price69.99free shipping. Actual Universal9.6 photo is plain2022 facsimile with4.99 price box and frontbarcode; no ComicMint Convention label or foil. Wrong edition. Other53.99 lead267724123398 redirected to catalog/ended in both directfetch andbrowser."
+        },
+        {
+          "copyId": "CGC:4245413023",
+          "cert": "4245413023",
+          "status": "no-exact-grade-row",
+          "checkedAt": "2026-11-15",
+          "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/302609/dc-comics-flash-facsimile-edition-123",
+          "value": null,
+          "finding": "Live browser certificate search -> analyze verified Comic Mint Convention Foil Universal 9.6. Owned grade row has zero reported sales and no estimate. Adjacent grades excluded.",
+          "nextAction": "Seek exact grade actual slab transaction or active listing; no raw or adjacent grade substitution."
+        }
+      ]
+    }
+  ]
+}

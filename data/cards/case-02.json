@@ -2319,7 +2319,113 @@
       "certUrl": "https://my.taggrading.com/card/L3302729",
       "gradeDate": "2025-06-24",
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-23-appraisal-loop-1-TAG-L3302729",
+            "copyId": "TAG:L3302729",
+            "basis": "owner",
+            "value": 2,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://www.pricecharting.com/game/pokemon-journey-together/mamoswine-ex-174",
+              "asOf": null,
+              "retrievedAt": "2026-11-23T16:00:58.668Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2025",
+                "brand": "JOURNEY TOGETHER",
+                "series": "POKÉMON SCARLET & VIOLET",
+                "subject": "MAMOSWINE EX",
+                "cardNumber": "174/159",
+                "variety": "ULTRA RARE",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "8.5",
+              "grader": "TAG",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $1-$8, not a statistical interval. Same English174/159 raw UltraRare secondary reports1.80 November16,2.45 November15,2.64 November14 and1.89 November13,2026. Working2 rounded raw anchor without TAG8.5 premium. Raw condition differs from owned grade. Mislabeled DoubleRare/SIR rows excluded; no algorithmic grade multiplier. Ultra Rare does not establish a limited print quantity. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/pokemon-journey-together/mamoswine-ex-174",
+              "reviewedAt": "2026-11-23T16:00:58.668Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $1-$8, not a statistical interval. Same English174/159 raw UltraRare secondary reports1.80 November16,2.45 November15,2.64 November14 and1.89 November13,2026. Working2 rounded raw anchor without TAG8.5 premium. Raw condition differs from owned grade. Mislabeled DoubleRare/SIR rows excluded; no algorithmic grade multiplier. Ultra Rare does not establish a limited print quantity. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 1,
+                "high": 8,
+                "currency": "USD"
+              },
+              "scarcity": "Ultra Rare does not establish a limited print quantity.",
+              "comparables": [
+                {
+                  "date": "2026-11-16",
+                  "price": 1.8,
+                  "url": "https://www.ebay.com/itm/366741831430",
+                  "status": "secondary reported raw sale"
+                }
+              ],
+              "priorResearch": [
+                {
+                  "copyId": "TAG:L3302729",
+                  "ownedIdentity": {
+                    "cert": "L3302729",
+                    "subject": "MAMOSWINE EX",
+                    "year": "2025",
+                    "brand": "JOURNEY TOGETHER",
+                    "cardNumber": "174/159",
+                    "variety": "ULTRA RARE",
+                    "grader": "TAG",
+                    "grade": "8.5"
+                  },
+                  "priorResearchFile": "data/originals/resume-cards-results.json",
+                  "queries": [
+                    "Mamoswine 174 8.5"
+                  ],
+                  "evidence": [
+                    {
+                      "url": "https://hoshino.com/card/sv9-174/2025-journey-together-mamoswine-ex-ultra-rare-174",
+                      "observedAt": "2026-11-15",
+                      "access": "search-index inspected",
+                      "accepted": false,
+                      "reason": "CGC8.5 transaction history not eligible TAG8.5 or PSA8.5; wrong grader."
+                    }
+                  ],
+                  "status": "unresolved-after-new-search",
+                  "proposedValue": null,
+                  "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+                }
+              ],
+              "refresh": "Archive refreshed November23; eBay366741831430 direct fetch restricted, browser fallback failed access denied. Secondary evidence only."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-23-appraisal-loop-1-TAG-L3302729",
+          "locked": true,
+          "selectedAt": "2026-11-23T16:01:00.525Z"
+        }
+      },
       "population": {
         "atGrade": 2,
         "total": 25,
@@ -5178,7 +5284,137 @@
       "certUrl": "https://my.taggrading.com/card/L4878840",
       "gradeDate": "2025-04-11",
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-23-appraisal-loop-1-TAG-L4878840",
+            "copyId": "TAG:L4878840",
+            "basis": "owner",
+            "value": 100,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-sapphire/henry-davis-yellow-bdc-48",
+              "asOf": null,
+              "retrievedAt": "2026-11-15"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2021",
+                "brand": "BOWMAN DRAFT SAPPHIRE EDITION",
+                "series": "BOWMAN DRAFT SAPPHIRE EDITION",
+                "subject": "HENRY DAVIS",
+                "cardNumber": "BDC-48",
+                "variety": "YELLOW REFRACTOR",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "TAG",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $70-$150, not a statistical interval. Saved November15 exact Yellow/99 archive browser review recorded one grade9 reported sale149.99; no TAG10/PSA10. Other saved Fanatics PSA9 unavailable guide76 is guide-only, not a transaction. Working100 conservative judgment below149.99, with no grade10 premium; different grader/grade and undated thin secondary anchor. YellowLava/75 and autographed PSA AUTH excluded. Owned Yellow Sapphire serial92/99 visually verified in saved review; no added scarcity multiplier. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-sapphire/henry-davis-yellow-bdc-48",
+              "reviewedAt": "2026-11-23T16:00:58.668Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $70-$150, not a statistical interval. Saved November15 exact Yellow/99 archive browser review recorded one grade9 reported sale149.99; no TAG10/PSA10. Other saved Fanatics PSA9 unavailable guide76 is guide-only, not a transaction. Working100 conservative judgment below149.99, with no grade10 premium; different grader/grade and undated thin secondary anchor. YellowLava/75 and autographed PSA AUTH excluded. Owned Yellow Sapphire serial92/99 visually verified in saved review; no added scarcity multiplier. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 70,
+                "high": 150,
+                "currency": "USD"
+              },
+              "scarcity": "Owned Yellow Sapphire serial92/99 visually verified in saved review; no added scarcity multiplier.",
+              "comparables": [],
+              "priorResearch": [
+                {
+                  "copyId": "TAG:L4878840",
+                  "ownedIdentity": {
+                    "cert": "L4878840",
+                    "subject": "HENRY DAVIS",
+                    "year": "2021",
+                    "brand": "BOWMAN DRAFT SAPPHIRE EDITION",
+                    "cardNumber": "BDC-48",
+                    "variety": "YELLOW REFRACTOR",
+                    "grader": "TAG",
+                    "grade": "10"
+                  },
+                  "priorResearchFile": "data/originals/resume-cards-results.json",
+                  "queries": [
+                    "Henry Davis Sapphire Yellow 10 99"
+                  ],
+                  "evidence": [
+                    {
+                      "url": "https://www.sportscardspro.com/search-products?q=henry+davis+21&type=prices",
+                      "observedAt": "2026-11-15",
+                      "access": "search-index inspected",
+                      "accepted": false,
+                      "reason": "Yellow Sapphire BDC48 has grade9 price149.99 but no PSA10 amount; exact detail fetch unavailable. Yellow Lava TAG10 sale is different /75 parallel."
+                    },
+                    {
+                      "url": "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-sapphire/henry-davis-yellow-bdc-48",
+                      "observedAt": "2026-11-15",
+                      "access": "direct exact archive inspected; browser fallback where specified",
+                      "accepted": false,
+                      "reason": "Browser fallback verified exact Yellow/99 archive; zero PSA10 and TAG10 sales. One grade9 sale149.99 is ineligible."
+                    }
+                  ],
+                  "status": "unresolved-after-new-search",
+                  "proposedValue": null,
+                  "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution.",
+                  "finalVisualAliasPass": {
+                    "checkedAt": "2026-11-15",
+                    "status": "no-supported-addition",
+                    "ownedPhotoReinspected": true,
+                    "listingPhotosMatched": false,
+                    "limitations": "No new exact grade/parallel priced candidate emerged to photo-verify. Focused search, not exhaustive.",
+                    "photo": "data/images/TAG_L4878840_SLAB_FRONT.jpg",
+                    "visual": "Yellow crystalline Sapphire, 2021 BDC-48, serial 92/99, TAG 10.",
+                    "queries": [
+                      "Henry Davis BDC48 99 graded",
+                      "site:ebay.com/itm Davis 2021 Sapphire 99 10",
+                      "Henry Davis 2021 yellow site:psacard.com/auctionprices"
+                    ],
+                    "checked": [
+                      {
+                        "url": "https://www.fanaticscollect.com/weekly/b09293cc-3261-11ef-a03d-069e7662726d/2021-bowman-chrome-draft-henry-davis-sp-rookie-auto-dna-10-99-bdc-48-psa-auth",
+                        "result": "26.40 sold July29 2024 cert78426959 is autograph variation PSA AUTH/DNA10, not Yellow Sapphire card grade10."
+                      },
+                      {
+                        "url": "https://www.fanaticscollect.com/buy-now/e715d1c4-27bc-43f6-90da-2c58d2a4146e",
+                        "result": "Exact Yellow Sapphire /99 but PSA9; unavailable guide76 excluded."
+                      }
+                    ]
+                  }
+                }
+              ],
+              "refresh": "Saved browser evidence retained; November22 web refresh failed, not represented as current live price."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-23-appraisal-loop-1-TAG-L4878840",
+          "locked": true,
+          "selectedAt": "2026-11-23T16:01:01.119Z"
+        }
+      },
       "population": {
         "atGrade": 1,
         "total": 1,
