@@ -3616,7 +3616,119 @@
       "certUrl": "https://my.taggrading.com/card/V3539115",
       "gradeDate": "2025-05-07",
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-23-appraisal-loop-3-TAG-V3539115",
+            "copyId": "TAG:V3539115",
+            "basis": "owner",
+            "value": 500,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-pick-chrome-autographs/bubba-chandler-gold-wave-refractor-cda-bc",
+              "asOf": null,
+              "retrievedAt": "2026-11-23T16:07:42.179Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2021",
+                "brand": "BOWMAN DRAFT",
+                "series": "BOWMAN DRAFT",
+                "subject": "BUBBA CHANDLER",
+                "cardNumber": "CDA-BC",
+                "variety": "CHROME DRAFT PICK AUTOGRAPHS · GOLD WAVE REFRACTOR",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "8",
+              "grader": "TAG",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $350-$650, not a statistical interval. Owned front inspected: TAG8 GoldWave CDA-BC autograph26/50. Exact raw parallel secondary reports625 May4,2025 and655 April23,2025. Working500 is judgment below lower raw anchors for known grade8 and stale evidence; not measured grade ratio. June13/28 reports715 and1125 both describe49/50, potentially repeated same copy; excluded from central anchor. No TAG8 sale, no grade/autograph premium. HCI828.94 algorithm and undatedSCI660 not used. Owned26/50 serial verified; finite parallel does not itself establish demand or a premium. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-pick-chrome-autographs/bubba-chandler-gold-wave-refractor-cda-bc",
+              "reviewedAt": "2026-11-23T16:07:42.179Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $350-$650, not a statistical interval. Owned front inspected: TAG8 GoldWave CDA-BC autograph26/50. Exact raw parallel secondary reports625 May4,2025 and655 April23,2025. Working500 is judgment below lower raw anchors for known grade8 and stale evidence; not measured grade ratio. June13/28 reports715 and1125 both describe49/50, potentially repeated same copy; excluded from central anchor. No TAG8 sale, no grade/autograph premium. HCI828.94 algorithm and undatedSCI660 not used. Owned26/50 serial verified; finite parallel does not itself establish demand or a premium. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 350,
+                "high": 650,
+                "currency": "USD"
+              },
+              "scarcity": "Owned26/50 serial verified; finite parallel does not itself establish demand or a premium.",
+              "comparables": [
+                {
+                  "date": "2025-05-04",
+                  "price": 625,
+                  "url": "https://www.ebay.com/itm/306276416583",
+                  "status": "secondary reported raw sale"
+                },
+                {
+                  "date": "2025-04-23",
+                  "price": 655,
+                  "url": "https://www.ebay.com/itm/167463266340",
+                  "status": "secondary reported raw sale"
+                }
+              ],
+              "priorResearch": [
+                {
+                  "copyId": "TAG:V3539115",
+                  "ownedIdentity": {
+                    "cert": "V3539115",
+                    "subject": "BUBBA CHANDLER",
+                    "year": "2021",
+                    "brand": "BOWMAN DRAFT",
+                    "cardNumber": "CDA-BC",
+                    "variety": "CHROME DRAFT PICK AUTOGRAPHS · GOLD WAVE REFRACTOR",
+                    "grader": "TAG",
+                    "grade": "8"
+                  },
+                  "priorResearchFile": "data/originals/resume-cards-results.json",
+                  "queries": [
+                    "Bubba Chandler CDA-BC 8"
+                  ],
+                  "evidence": [
+                    {
+                      "url": "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-pick-chrome-autographs/bubba-chandler-gold-wave-refractor-cda-bc",
+                      "observedAt": "2026-11-15",
+                      "access": "direct exact archive inspected; browser fallback where specified",
+                      "accepted": false,
+                      "reason": "Direct web page read; newer crawl supersedes stale algorithm ladder. Four raw transactions, zero grade8 sales. No TAG8/PSA8 evidence."
+                    }
+                  ],
+                  "status": "unresolved-after-new-search",
+                  "proposedValue": null,
+                  "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+                }
+              ],
+              "refresh": "November23 archive and owned scan inspected. Direct eBay blocked; browser access unavailable. Secondary sale reports, not independently verified transactions."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-23-appraisal-loop-3-TAG-V3539115",
+          "locked": true,
+          "selectedAt": "2026-11-23T16:07:43.064Z"
+        }
+      },
       "population": {
         "atGrade": 1,
         "total": 1,

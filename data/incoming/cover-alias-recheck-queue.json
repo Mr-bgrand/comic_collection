@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T16:04:04.515Z",
+  "updatedAt": "2026-11-23T16:08:36.655Z",
   "method": "docs/valuation-cover-research-method.md",
   "items": [
     {
@@ -502,25 +502,6 @@
       ]
     },
     {
-      "copyId": "CGC:4273634004",
-      "title": "Star Wars: Obi-Wan Kenobi",
-      "grade": "8.0",
-      "front": "4273634004_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4273634004",
-          "cert": "4273634004",
-          "status": "no-exact-grade-row",
-          "checkedAt": "2026-11-15",
-          "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/269706/marvel-comics-star-wars-obi-wan-kenobi-1",
-          "value": null,
-          "finding": "Browser certificate search -> analyze verified Momoko Universal 8.0. Exact grade has zero reported sales and no estimate. Adjacent grades excluded."
-        }
-      ]
-    },
-    {
       "copyId": "CGC:4273634010",
       "title": "Transformers/Back to the Future",
       "grade": "8.5",
@@ -606,6 +587,12 @@
           "status": "unresolved-after-new-search",
           "proposedValue": null,
           "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "checkedAt": "2026-11-23T16:08:36.655Z",
+          "url": "https://www.bigorbitcards.co.uk/pokemon-topps-trading-cards/pokemon-advanced-trading-cards/cacturne-silver-holo.html",
+          "finding": "Exact21 SilverHolo identified but0stock andGBP0placeholder, not usable price. No supported new value.",
+          "status": "comparative-followup-needed"
         }
       ]
     },
@@ -641,45 +628,6 @@
       ]
     },
     {
-      "copyId": "TAG:V3539115",
-      "title": "BUBBA CHANDLER",
-      "grade": "8",
-      "front": "TAG_V3539115_SLAB_FRONT.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "TAG:V3539115",
-          "ownedIdentity": {
-            "cert": "V3539115",
-            "subject": "BUBBA CHANDLER",
-            "year": "2021",
-            "brand": "BOWMAN DRAFT",
-            "cardNumber": "CDA-BC",
-            "variety": "CHROME DRAFT PICK AUTOGRAPHS · GOLD WAVE REFRACTOR",
-            "grader": "TAG",
-            "grade": "8"
-          },
-          "priorResearchFile": "data/originals/resume-cards-results.json",
-          "queries": [
-            "Bubba Chandler CDA-BC 8"
-          ],
-          "evidence": [
-            {
-              "url": "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-pick-chrome-autographs/bubba-chandler-gold-wave-refractor-cda-bc",
-              "observedAt": "2026-11-15",
-              "access": "direct exact archive inspected; browser fallback where specified",
-              "accepted": false,
-              "reason": "Direct web page read; newer crawl supersedes stale algorithm ladder. Four raw transactions, zero grade8 sales. No TAG8/PSA8 evidence."
-            }
-          ],
-          "status": "unresolved-after-new-search",
-          "proposedValue": null,
-          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
-        }
-      ]
-    },
-    {
       "copyId": "TAG:Y6882653",
       "title": "SETH HENIGAN",
       "grade": "10",
@@ -707,6 +655,12 @@
           "status": "unresolved-after-new-search",
           "proposedValue": null,
           "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "checkedAt": "2026-11-23T16:08:36.654Z",
+          "url": "https://www.sportscardspro.com/game/football-cards-2024-bowman-chrome-university/seth-henigan-shimmer-red-refractor-162",
+          "finding": "Shimmer Red162 guide115 has ZERO raw or graded rows; different finish, no transaction support. Do not use as sale. New actionable lead: regular RedRefractor162 indexed grade9 amount15.50 (search-products?q=seth+henigan+black+26); inspect actual row before appraisal. 2025RA-SH autograph73.50 is different year/set/autograph, excluded.",
+          "status": "comparative-followup-needed"
         }
       ]
     },
@@ -738,6 +692,12 @@
           "status": "unresolved-after-new-search",
           "proposedValue": null,
           "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "checkedAt": "2026-11-23T16:08:36.655Z",
+          "url": null,
+          "finding": "Search Worlds of Scaries Wilwolf price and Wilwolf BloodRed price did not surface a priced match in returned results. Not exhaustive; spelling/store aliases still to pursue.",
+          "status": "comparative-followup-needed"
         }
       ]
     },
@@ -769,6 +729,12 @@
           "status": "unresolved-after-new-search",
           "proposedValue": null,
           "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "checkedAt": "2026-11-23T16:08:36.655Z",
+          "url": "https://taggrading.com/collections/world-scaries-2025/products/bo-bones-art-card-drop-ltd-ed-serialized-copy",
+          "finding": "Official search result verifies LunarGold/25, BloodRed/5 and random edition allocation. Product-tier/random-pull price is not a known LunarGold comparable. Further actual exact or related secondary-market evidence needed.",
+          "status": "comparative-followup-needed"
         }
       ]
     },

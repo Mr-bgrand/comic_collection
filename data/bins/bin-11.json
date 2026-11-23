@@ -883,6 +883,85 @@
         "url": "https://gocollect.com/app/comic/star-wars-obi-wan-kenobi-1-2",
         "status": "no-sales",
         "fetchedAt": "2026-08-27T05:51:50.009Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-23-appraisal-loop-3-CGC-4273634004",
+            "copyId": "CGC:4273634004",
+            "basis": "owner",
+            "value": 15,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://gocollect.com/app/comic/star-wars-obi-wan-kenobi-1-2",
+              "asOf": null,
+              "retrievedAt": "2026-08-27"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Star Wars: Obi-Wan Kenobi",
+                "issue": "1",
+                "issueYear": "2022",
+                "publisher": "Marvel Comics",
+                "variant": "Momoko Variant Cover",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "8.0",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $8-$25, not a statistical interval. Existing owned same-edition Universal9.8 copy4089841005 preserves GoCollect guide42, annual average38 with2 reports, retrievedAugust27,2026. Owned target8.0 has no guide. Working15 judgment below9.8 guide for lower grade, not measured ratio or new transaction. Prior saved guide provenance retained; locked9.8 copy unchanged. Numeric print run unknown. Census1 at8.0 is not production rarity. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://gocollect.com/app/comic/star-wars-obi-wan-kenobi-1-2",
+              "reviewedAt": "2026-11-23T16:07:42.179Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $8-$25, not a statistical interval. Existing owned same-edition Universal9.8 copy4089841005 preserves GoCollect guide42, annual average38 with2 reports, retrievedAugust27,2026. Owned target8.0 has no guide. Working15 judgment below9.8 guide for lower grade, not measured ratio or new transaction. Prior saved guide provenance retained; locked9.8 copy unchanged. Numeric print run unknown. Census1 at8.0 is not production rarity. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 8,
+                "high": 25,
+                "currency": "USD"
+              },
+              "scarcity": "Numeric print run unknown. Census1 at8.0 is not production rarity.",
+              "comparables": [],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:4273634004",
+                  "cert": "4273634004",
+                  "status": "no-exact-grade-row",
+                  "checkedAt": "2026-11-15",
+                  "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/269706/marvel-comics-star-wars-obi-wan-kenobi-1",
+                  "value": null,
+                  "finding": "Browser certificate search -> analyze verified Momoko Universal 8.0. Exact grade has zero reported sales and no estimate. Adjacent grades excluded."
+                }
+              ],
+              "refresh": "November23 inventory evidence reviewed and target front/label inspected. No claim of live GoCollect refresh."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-23-appraisal-loop-3-CGC-4273634004",
+          "locked": true,
+          "selectedAt": "2026-11-23T16:07:43.657Z"
+        }
       }
     },
     {

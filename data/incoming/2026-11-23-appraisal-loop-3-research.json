@@ -1,0 +1,89 @@
+{
+  "reviewedAt": "2026-11-23T16:07:42.179Z",
+  "policy": "Owner-authorized comparative appraisal; no underlying exact-match assertion. No rarity premium without evidence.",
+  "items": [
+    {
+      "copyId": "TAG:V3539115",
+      "value": 500,
+      "range": [
+        350,
+        650
+      ],
+      "url": "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-pick-chrome-autographs/bubba-chandler-gold-wave-refractor-cda-bc",
+      "reason": "Owned front inspected: TAG8 GoldWave CDA-BC autograph26/50. Exact raw parallel secondary reports625 May4,2025 and655 April23,2025. Working500 is judgment below lower raw anchors for known grade8 and stale evidence; not measured grade ratio. June13/28 reports715 and1125 both describe49/50, potentially repeated same copy; excluded from central anchor. No TAG8 sale, no grade/autograph premium. HCI828.94 algorithm and undatedSCI660 not used.",
+      "scarcity": "Owned26/50 serial verified; finite parallel does not itself establish demand or a premium.",
+      "refresh": "November23 archive and owned scan inspected. Direct eBay blocked; browser access unavailable. Secondary sale reports, not independently verified transactions.",
+      "comparables": [
+        {
+          "date": "2025-05-04",
+          "price": 625,
+          "url": "https://www.ebay.com/itm/306276416583",
+          "status": "secondary reported raw sale"
+        },
+        {
+          "date": "2025-04-23",
+          "price": 655,
+          "url": "https://www.ebay.com/itm/167463266340",
+          "status": "secondary reported raw sale"
+        }
+      ],
+      "title": "BUBBA CHANDLER CHROME DRAFT PICK AUTOGRAPHS · GOLD WAVE REFRACTOR TAG 8",
+      "priorResearch": [
+        {
+          "copyId": "TAG:V3539115",
+          "ownedIdentity": {
+            "cert": "V3539115",
+            "subject": "BUBBA CHANDLER",
+            "year": "2021",
+            "brand": "BOWMAN DRAFT",
+            "cardNumber": "CDA-BC",
+            "variety": "CHROME DRAFT PICK AUTOGRAPHS · GOLD WAVE REFRACTOR",
+            "grader": "TAG",
+            "grade": "8"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Bubba Chandler CDA-BC 8"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-pick-chrome-autographs/bubba-chandler-gold-wave-refractor-cda-bc",
+              "observedAt": "2026-11-15",
+              "access": "direct exact archive inspected; browser fallback where specified",
+              "accepted": false,
+              "reason": "Direct web page read; newer crawl supersedes stale algorithm ladder. Four raw transactions, zero grade8 sales. No TAG8/PSA8 evidence."
+            }
+          ],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4273634004",
+      "value": 15,
+      "range": [
+        8,
+        25
+      ],
+      "url": "https://gocollect.com/app/comic/star-wars-obi-wan-kenobi-1-2",
+      "reason": "Existing owned same-edition Universal9.8 copy4089841005 preserves GoCollect guide42, annual average38 with2 reports, retrievedAugust27,2026. Owned target8.0 has no guide. Working15 judgment below9.8 guide for lower grade, not measured ratio or new transaction. Prior saved guide provenance retained; locked9.8 copy unchanged.",
+      "scarcity": "Numeric print run unknown. Census1 at8.0 is not production rarity.",
+      "evidenceRetrievedAt": "2026-08-27",
+      "refresh": "November23 inventory evidence reviewed and target front/label inspected. No claim of live GoCollect refresh.",
+      "title": "Star Wars: Obi-Wan Kenobi #1 Momoko Variant Cover CGC 8.0",
+      "priorResearch": [
+        {
+          "copyId": "CGC:4273634004",
+          "cert": "4273634004",
+          "status": "no-exact-grade-row",
+          "checkedAt": "2026-11-15",
+          "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/269706/marvel-comics-star-wars-obi-wan-kenobi-1",
+          "value": null,
+          "finding": "Browser certificate search -> analyze verified Momoko Universal 8.0. Exact grade has zero reported sales and no estimate. Adjacent grades excluded."
+        }
+      ]
+    }
+  ]
+}
