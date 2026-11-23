@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T16:00:58.668Z",
+  "updatedAt": "2026-11-23T16:04:04.515Z",
   "method": "docs/valuation-cover-research-method.md",
   "items": [
     {
@@ -345,26 +345,6 @@
       ]
     },
     {
-      "copyId": "CGC:4273634009",
-      "title": "Spider-Gwen: Shadow Clones",
-      "grade": "8.5",
-      "front": "4273634009_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4273634009",
-          "cert": "4273634009",
-          "status": "no-exact-grade-row",
-          "checkedAt": "2026-11-15",
-          "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/306179/marvel-comics-spider-gwen-shadow-clones-1",
-          "value": null,
-          "finding": "Live browser certificate search -> analyze verified Spectral Tao Universal 8.5. Owned grade row has zero reported sales and no estimate. Adjacent grades excluded.",
-          "nextAction": "Seek exact grade actual slab transaction or active listing; no raw or adjacent grade substitution."
-        }
-      ]
-    },
-    {
       "copyId": "CGC:4177706002",
       "title": "Do You Pooh?",
       "grade": "9.8",
@@ -381,25 +361,6 @@
           "value": null,
           "finding": "Live browser certificate search -> analyze verified Desjardins Green Crystal Universal 9.8. Owned grade row has zero reported sales and no estimate. Adjacent grades excluded.",
           "nextAction": "Seek exact grade actual slab transaction or active listing; no raw or adjacent grade substitution."
-        }
-      ]
-    },
-    {
-      "copyId": "CGC:4424144002",
-      "title": "Tales of the Titans",
-      "grade": "9.6",
-      "front": "4424144002_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4424144002",
-          "cert": "4424144002",
-          "status": "no-exact-grade-row",
-          "checkedAt": "2026-11-15",
-          "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/321672/dc-comics-tales-of-the-titans-1",
-          "value": null,
-          "finding": "Browser certificate search -> analyze verified East Side Virgin Universal 9.6. Exact grade has zero reported sales and no estimate. Adjacent grades excluded."
         }
       ]
     },
@@ -482,26 +443,6 @@
       ]
     },
     {
-      "copyId": "CGC:4350046015",
-      "title": "Gone Ashcan",
-      "grade": "9.2",
-      "front": "4350046015_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4350046015",
-          "cert": "4350046015",
-          "status": "no-exact-grade-row",
-          "checkedAt": "2026-11-15",
-          "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/323075/dstlry-gone-ashcan-1",
-          "value": null,
-          "finding": "Live browser certificate search -> analyze verified Gone Ashcan Universal 9.2. Owned grade row has zero reported sales and no estimate. Adjacent grades excluded.",
-          "nextAction": "Seek exact grade actual slab transaction or active listing; no raw or adjacent grade substitution."
-        }
-      ]
-    },
-    {
       "copyId": "CGC:4350046019",
       "title": "The Boys Special Edition",
       "grade": "9.9",
@@ -561,44 +502,6 @@
       ]
     },
     {
-      "copyId": "CGC:4350047002",
-      "title": "Grim",
-      "grade": "9.8",
-      "front": "4350047002_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4350047002",
-          "cert": "4350047002",
-          "status": "no-exact-grade-row",
-          "checkedAt": "2026-11-15",
-          "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/322594/boom-studios-grim-12",
-          "value": null,
-          "finding": "Browser certificate search -> analyze verified Trinity Universal 9.8; zero all grades. Exact grade has zero reported sales and no estimate. Adjacent grades excluded."
-        }
-      ]
-    },
-    {
-      "copyId": "CGC:4198680004",
-      "title": "Star Wars: Darth Vader",
-      "grade": "9.6",
-      "front": "4198680004_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4198680004",
-          "cert": "4198680004",
-          "status": "no-exact-grade-row",
-          "checkedAt": "2026-11-15",
-          "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/297194/marvel-comics-star-wars-darth-vader-29",
-          "value": null,
-          "finding": "Browser certificate search -> analyze verified East Side Virgin Universal 9.6. Exact grade has zero reported sales and no estimate. Adjacent grades excluded."
-        }
-      ]
-    },
-    {
       "copyId": "CGC:4273634004",
       "title": "Star Wars: Obi-Wan Kenobi",
       "grade": "8.0",
@@ -633,26 +536,6 @@
           "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/247135/idw-publishing-transformers-back-to-the-future-4",
           "value": null,
           "finding": "Live browser certificate search -> analyze verified Chris Panda Variant Cover Universal 8.5. Owned grade row has zero reported sales and no estimate. Adjacent grades excluded.",
-          "nextAction": "Seek exact grade actual slab transaction or active listing; no raw or adjacent grade substitution."
-        }
-      ]
-    },
-    {
-      "copyId": "CGC:4198680001",
-      "title": "Back to the Future",
-      "grade": "7.5",
-      "front": "4198680001_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4198680001",
-          "cert": "4198680001",
-          "status": "no-exact-grade-row",
-          "checkedAt": "2026-11-15",
-          "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/150973/idw-publishing-back-to-the-future-1",
-          "value": null,
-          "finding": "Live browser certificate search -> analyze verified Local Comic Shop Day Universal 7.5. Owned grade row has zero reported sales and no estimate. Adjacent grades excluded.",
           "nextAction": "Seek exact grade actual slab transaction or active listing; no raw or adjacent grade substitution."
         }
       ]

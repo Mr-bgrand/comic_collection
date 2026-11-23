@@ -768,7 +768,86 @@
         "status": "no-sales",
         "fetchedAt": "2026-08-27T05:51:42.804Z"
       },
-      "imageSource": "owner"
+      "imageSource": "owner",
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-23-appraisal-loop-2-CGC-4198680004",
+            "copyId": "CGC:4198680004",
+            "basis": "owner",
+            "value": 90,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://eastsidecomics.com/products/star-wars-darth-vader-29-cgc-9-8-rahzzah-excl-virgin-variant-limited-to-800",
+              "asOf": null,
+              "retrievedAt": "2026-11-23T16:04:04.515Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Star Wars: Darth Vader",
+                "issue": "29",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "East Side Comics Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.6",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $60-$130, not a statistical interval. Retailer page displays139.99 and AddToCart for same Rahzzah EastSideVirgin Universal9.8. Candidate photo cert4179975001 visually matches owned cover composition and label edition; owned9.6 differs. Working90 judgment below higher-grade ask, not measured grade ratio. Estimated from asking prices; not confirmed sales. Cached page availability not checkout-verified. Originating retailer states800copies across partner sites with numberedCOA. Retailer-reported run, not audited actual production; no extra rarity premium. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://eastsidecomics.com/products/star-wars-darth-vader-29-cgc-9-8-rahzzah-excl-virgin-variant-limited-to-800",
+              "reviewedAt": "2026-11-23T16:04:04.515Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $60-$130, not a statistical interval. Retailer page displays139.99 and AddToCart for same Rahzzah EastSideVirgin Universal9.8. Candidate photo cert4179975001 visually matches owned cover composition and label edition; owned9.6 differs. Working90 judgment below higher-grade ask, not measured grade ratio. Estimated from asking prices; not confirmed sales. Cached page availability not checkout-verified. Originating retailer states800copies across partner sites with numberedCOA. Retailer-reported run, not audited actual production; no extra rarity premium. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 60,
+                "high": 130,
+                "currency": "USD"
+              },
+              "scarcity": "Originating retailer states800copies across partner sites with numberedCOA. Retailer-reported run, not audited actual production; no extra rarity premium.",
+              "comparables": [],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:4198680004",
+                  "cert": "4198680004",
+                  "status": "no-exact-grade-row",
+                  "checkedAt": "2026-11-15",
+                  "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/297194/marvel-comics-star-wars-darth-vader-29",
+                  "value": null,
+                  "finding": "Browser certificate search -> analyze verified East Side Virgin Universal 9.6. Exact grade has zero reported sales and no estimate. Adjacent grades excluded."
+                }
+              ],
+              "refresh": "November23 web page and candidate image inspected beside owned4198680004_OBV.jpg. Candidate image saved data/originals/vader-comp.jpg."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-23-appraisal-loop-2-CGC-4198680004",
+          "locked": true,
+          "selectedAt": "2026-11-23T16:04:06.140Z"
+        }
+      }
     },
     {
       "cert": "4273634004",
@@ -1874,7 +1953,94 @@
         "status": "no-sales",
         "fetchedAt": "2026-08-27T05:53:04.892Z"
       },
-      "imageSource": "owner"
+      "imageSource": "owner",
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-23-appraisal-loop-2-CGC-4198680001",
+            "copyId": "CGC:4198680001",
+            "basis": "owner",
+            "value": 8,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://www.pricecharting.com/game/comic-books-back-to-the-future/back-to-the-future-local-1-2015",
+              "asOf": null,
+              "retrievedAt": "2026-11-23T16:04:04.515Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Back to the Future",
+                "issue": "1",
+                "issueYear": "2015",
+                "publisher": "IDW Publishing",
+                "variant": "Local Comic Shop Day Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "7.5",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $3-$15, not a statistical interval. Owned2015LocalComicShopDayCGC7.5 front/label inspected. Exact raw edition reported15 September28,2024 eBay305791112510; another rawVF/NM1.99 row illustrates weak spread. Working8 judgment below15 for owned7.5, no slab premium; stale thin secondary evidence. OutofstockNZD3.99 retail and mixed lots excluded. LocalComicShopDay promotional edition; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-back-to-the-future/back-to-the-future-local-1-2015",
+              "reviewedAt": "2026-11-23T16:04:04.515Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $3-$15, not a statistical interval. Owned2015LocalComicShopDayCGC7.5 front/label inspected. Exact raw edition reported15 September28,2024 eBay305791112510; another rawVF/NM1.99 row illustrates weak spread. Working8 judgment below15 for owned7.5, no slab premium; stale thin secondary evidence. OutofstockNZD3.99 retail and mixed lots excluded. LocalComicShopDay promotional edition; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 3,
+                "high": 15,
+                "currency": "USD"
+              },
+              "scarcity": "LocalComicShopDay promotional edition; numeric print run unverified.",
+              "comparables": [
+                {
+                  "date": "2024-09-28",
+                  "price": 15,
+                  "url": "https://www.ebay.com/itm/305791112510",
+                  "status": "secondary reported raw sale"
+                }
+              ],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:4198680001",
+                  "cert": "4198680001",
+                  "status": "no-exact-grade-row",
+                  "checkedAt": "2026-11-15",
+                  "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/150973/idw-publishing-back-to-the-future-1",
+                  "value": null,
+                  "finding": "Live browser certificate search -> analyze verified Local Comic Shop Day Universal 7.5. Owned grade row has zero reported sales and no estimate. Adjacent grades excluded.",
+                  "nextAction": "Seek exact grade actual slab transaction or active listing; no raw or adjacent grade substitution."
+                }
+              ],
+              "refresh": "November23 archive inspected. Direct eBay restricted and browser unavailable. Not exact-grade sale."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-23-appraisal-loop-2-CGC-4198680001",
+          "locked": true,
+          "selectedAt": "2026-11-23T16:04:08.855Z"
+        }
+      }
     },
     {
       "cert": "4090689001",

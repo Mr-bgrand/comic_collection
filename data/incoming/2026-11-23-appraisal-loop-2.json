@@ -1,0 +1,478 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "CGC:4198680004",
+      "revision": "ffaeb64e43703edbf4bb7fce4fd41a10d2d5753bf04a54c41c4b0ab41baa601c",
+      "observations": [
+        {
+          "id": "2026-11-23-appraisal-loop-2-CGC-4198680004",
+          "copyId": "CGC:4198680004",
+          "basis": "owner",
+          "value": 90,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://eastsidecomics.com/products/star-wars-darth-vader-29-cgc-9-8-rahzzah-excl-virgin-variant-limited-to-800",
+            "asOf": null,
+            "retrievedAt": "2026-11-23T16:04:04.515Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Star Wars: Darth Vader",
+              "issue": "29",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "East Side Comics Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.6",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $60-$130, not a statistical interval. Retailer page displays139.99 and AddToCart for same Rahzzah EastSideVirgin Universal9.8. Candidate photo cert4179975001 visually matches owned cover composition and label edition; owned9.6 differs. Working90 judgment below higher-grade ask, not measured grade ratio. Estimated from asking prices; not confirmed sales. Cached page availability not checkout-verified. Originating retailer states800copies across partner sites with numberedCOA. Retailer-reported run, not audited actual production; no extra rarity premium. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://eastsidecomics.com/products/star-wars-darth-vader-29-cgc-9-8-rahzzah-excl-virgin-variant-limited-to-800",
+            "reviewedAt": "2026-11-23T16:04:04.515Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $60-$130, not a statistical interval. Retailer page displays139.99 and AddToCart for same Rahzzah EastSideVirgin Universal9.8. Candidate photo cert4179975001 visually matches owned cover composition and label edition; owned9.6 differs. Working90 judgment below higher-grade ask, not measured grade ratio. Estimated from asking prices; not confirmed sales. Cached page availability not checkout-verified. Originating retailer states800copies across partner sites with numberedCOA. Retailer-reported run, not audited actual production; no extra rarity premium. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 60,
+              "high": 130,
+              "currency": "USD"
+            },
+            "scarcity": "Originating retailer states800copies across partner sites with numberedCOA. Retailer-reported run, not audited actual production; no extra rarity premium.",
+            "comparables": [],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4198680004",
+                "cert": "4198680004",
+                "status": "no-exact-grade-row",
+                "checkedAt": "2026-11-15",
+                "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/297194/marvel-comics-star-wars-darth-vader-29",
+                "value": null,
+                "finding": "Browser certificate search -> analyze verified East Side Virgin Universal 9.6. Exact grade has zero reported sales and no estimate. Adjacent grades excluded."
+              }
+            ],
+            "refresh": "November23 web page and candidate image inspected beside owned4198680004_OBV.jpg. Candidate image saved data/originals/vader-comp.jpg."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4350047002",
+      "revision": "582db90d1ea28dac536756dce7c934cc7f852807e7c6f937cb840144e48a974c",
+      "observations": [
+        {
+          "id": "2026-11-23-appraisal-loop-2-CGC-4350047002",
+          "copyId": "CGC:4350047002",
+          "basis": "owner",
+          "value": 25,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://www.ebay.com/itm/196978557400",
+            "asOf": null,
+            "retrievedAt": "2026-11-23T16:04:04.515Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Grim",
+              "issue": "12",
+              "issueYear": "2023",
+              "publisher": "Boom! Studios",
+              "variant": "Trinity Comics Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $15-$50, not a statistical interval. Cached eBay watchworkz listing196978557400 displays raw25 fixed ask for Grim12 ZoeLacchei TrinityVirgin. Owned slab label confirms Lacchei, Trinity, virgin, SIKTC15homage; front inspected redscythe/skeletonchain. Retain25 raw-anchor appraisal with no9.8premium. Listing photo could not be retrieved, so title-based candidate identity rather than completed photo match. Estimated from asking prices; not confirmed sales. Cached months-old page; current availability unverified. Numeric print run unknown; exclusive does not prove rarity. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://www.ebay.com/itm/196978557400",
+            "reviewedAt": "2026-11-23T16:04:04.515Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $15-$50, not a statistical interval. Cached eBay watchworkz listing196978557400 displays raw25 fixed ask for Grim12 ZoeLacchei TrinityVirgin. Owned slab label confirms Lacchei, Trinity, virgin, SIKTC15homage; front inspected redscythe/skeletonchain. Retain25 raw-anchor appraisal with no9.8premium. Listing photo could not be retrieved, so title-based candidate identity rather than completed photo match. Estimated from asking prices; not confirmed sales. Cached months-old page; current availability unverified. Numeric print run unknown; exclusive does not prove rarity. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 15,
+              "high": 50,
+              "currency": "USD"
+            },
+            "scarcity": "Numeric print run unknown; exclusive does not prove rarity.",
+            "comparables": [],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4350047002",
+                "cert": "4350047002",
+                "status": "no-exact-grade-row",
+                "checkedAt": "2026-11-15",
+                "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/322594/boom-studios-grim-12",
+                "value": null,
+                "finding": "Browser certificate search -> analyze verified Trinity Universal 9.8; zero all grades. Exact grade has zero reported sales and no estimate. Adjacent grades excluded."
+              }
+            ],
+            "refresh": "November23 cached eBay page inspected; directHTTP failed and browser access failed. Shipping8.13 excluded."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4350046015",
+      "revision": "4e32dba46d28e0eb0005ccee96c334310a5a5d1c3e55131bb59ca60f61861e50",
+      "observations": [
+        {
+          "id": "2026-11-23-appraisal-loop-2-CGC-4350046015",
+          "copyId": "CGC:4350046015",
+          "basis": "owner",
+          "value": 25,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://stores.comichub.com/wonderlandcomics/products/gone-ashcan-exclusive",
+            "asOf": null,
+            "retrievedAt": "2026-11-23T16:04:04.515Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Gone Ashcan",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "DSTLRY",
+              "variant": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.2",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $15-$40, not a statistical interval. Retailer lists GoneAshcanExclusive raw40 with AddToCart, explicitly stock image. Owned9.2 label says name written on cover in marker, not authenticated signature. Stock art has same ship/planet composition but color and no visible AshcanExclusive banner; owned monochrome. Treat as related printing/stock-image uncertainty, not exact edition confirmation. Working25 judgment below40 for marked owned copy and edition uncertainty; no signature/slab premium. Estimated from asking prices; not confirmed sales. Gone/Somna flipbook excluded. No verified numeric run. Do not equate limited distribution or absent sales with demand. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://stores.comichub.com/wonderlandcomics/products/gone-ashcan-exclusive",
+            "reviewedAt": "2026-11-23T16:04:04.515Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $15-$40, not a statistical interval. Retailer lists GoneAshcanExclusive raw40 with AddToCart, explicitly stock image. Owned9.2 label says name written on cover in marker, not authenticated signature. Stock art has same ship/planet composition but color and no visible AshcanExclusive banner; owned monochrome. Treat as related printing/stock-image uncertainty, not exact edition confirmation. Working25 judgment below40 for marked owned copy and edition uncertainty; no signature/slab premium. Estimated from asking prices; not confirmed sales. Gone/Somna flipbook excluded. No verified numeric run. Do not equate limited distribution or absent sales with demand. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 15,
+              "high": 40,
+              "currency": "USD"
+            },
+            "scarcity": "No verified numeric run. Do not equate limited distribution or absent sales with demand.",
+            "comparables": [],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4350046015",
+                "cert": "4350046015",
+                "status": "no-exact-grade-row",
+                "checkedAt": "2026-11-15",
+                "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/323075/dstlry-gone-ashcan-1",
+                "value": null,
+                "finding": "Live browser certificate search -> analyze verified Gone Ashcan Universal 9.2. Owned grade row has zero reported sales and no estimate. Adjacent grades excluded.",
+                "nextAction": "Seek exact grade actual slab transaction or active listing; no raw or adjacent grade substitution."
+              }
+            ],
+            "refresh": "November23 retailer page, stock image and owned4350046015_OBV.jpg inspected. Candidate image saved data/originals/gone-comp.jpg. Stock not checkout-verified."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4273634009",
+      "revision": "a44b166b9191b5af0822775d3252aaa99326a87e8a17ec2f995291e3dc33da2c",
+      "observations": [
+        {
+          "id": "2026-11-23-appraisal-loop-2-CGC-4273634009",
+          "copyId": "CGC:4273634009",
+          "basis": "owner",
+          "value": 12,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-shadow-clones/spider-gwen-shadow-clones-tao-1-2023",
+            "asOf": null,
+            "retrievedAt": "2026-11-23T16:04:04.515Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Spider-Gwen: Shadow Clones",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "Spectral Comics Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "8.5",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $8-$25, not a statistical interval. Owned Spectral IvanTao8.5 trade front/label inspected. Same trade raw NM secondary reports18 July23,2025 and15.95 April30,2025; working12 below rawNM anchors for lower owned grade. Judgment discount, not observed grade conversion. Exclude666-edition, issue2, virgin and algorithm grades. Trade1000 is seller/COA claim from reported listings; no owned COA count verified. No rarity premium. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-shadow-clones/spider-gwen-shadow-clones-tao-1-2023",
+            "reviewedAt": "2026-11-23T16:04:04.515Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $8-$25, not a statistical interval. Owned Spectral IvanTao8.5 trade front/label inspected. Same trade raw NM secondary reports18 July23,2025 and15.95 April30,2025; working12 below rawNM anchors for lower owned grade. Judgment discount, not observed grade conversion. Exclude666-edition, issue2, virgin and algorithm grades. Trade1000 is seller/COA claim from reported listings; no owned COA count verified. No rarity premium. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 8,
+              "high": 25,
+              "currency": "USD"
+            },
+            "scarcity": "Trade1000 is seller/COA claim from reported listings; no owned COA count verified. No rarity premium.",
+            "comparables": [],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4273634009",
+                "cert": "4273634009",
+                "status": "no-exact-grade-row",
+                "checkedAt": "2026-11-15",
+                "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/306179/marvel-comics-spider-gwen-shadow-clones-1",
+                "value": null,
+                "finding": "Live browser certificate search -> analyze verified Spectral Tao Universal 8.5. Owned grade row has zero reported sales and no estimate. Adjacent grades excluded.",
+                "nextAction": "Seek exact grade actual slab transaction or active listing; no raw or adjacent grade substitution."
+              }
+            ],
+            "refresh": "November23 archive inspected; cache differs from search index. Use explicit dated rows only; not exact-grade sales."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4424144002",
+      "revision": "cfaf49aafdbea5727eb015f6e95cc5f79413854fffe819c612bcd1c2fd2613f6",
+      "observations": [
+        {
+          "id": "2026-11-23-appraisal-loop-2-CGC-4424144002",
+          "copyId": "CGC:4424144002",
+          "basis": "owner",
+          "value": 45,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://www.pricecharting.com/game/comic-books-tales-of-the-titans/tales-of-the-titans-1-2023",
+            "asOf": null,
+            "retrievedAt": "2026-11-23T16:04:04.515Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Tales of the Titans",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "DC Comics",
+              "variant": "East Side Comics \"Virgin\" Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.6",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $30-$65, not a statistical interval. Owned WillJack EastSideVirgin9.6 label/front inspected. Exact edition9.8 reported65 May2,2026 eBay188219845657; working45 judgment below9.8 anchor, not measured ratio. Mixed archive includes trade/foil/otherartists which are excluded. Secondary reported sale, direct listing restricted. Originating EastSide retailer states fullbodyvirgin1000 versus trade3000. Retailer-reported production limit; no scarcity premium. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-tales-of-the-titans/tales-of-the-titans-1-2023",
+            "reviewedAt": "2026-11-23T16:04:04.515Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $30-$65, not a statistical interval. Owned WillJack EastSideVirgin9.6 label/front inspected. Exact edition9.8 reported65 May2,2026 eBay188219845657; working45 judgment below9.8 anchor, not measured ratio. Mixed archive includes trade/foil/otherartists which are excluded. Secondary reported sale, direct listing restricted. Originating EastSide retailer states fullbodyvirgin1000 versus trade3000. Retailer-reported production limit; no scarcity premium. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 30,
+              "high": 65,
+              "currency": "USD"
+            },
+            "scarcity": "Originating EastSide retailer states fullbodyvirgin1000 versus trade3000. Retailer-reported production limit; no scarcity premium.",
+            "comparables": [
+              {
+                "date": "2026-05-02",
+                "price": 65,
+                "url": "https://www.ebay.com/itm/188219845657",
+                "status": "secondary reported CGC9.8 sale; owned9.6"
+              }
+            ],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4424144002",
+                "cert": "4424144002",
+                "status": "no-exact-grade-row",
+                "checkedAt": "2026-11-15",
+                "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/321672/dc-comics-tales-of-the-titans-1",
+                "value": null,
+                "finding": "Browser certificate search -> analyze verified East Side Virgin Universal 9.6. Exact grade has zero reported sales and no estimate. Adjacent grades excluded."
+              }
+            ],
+            "refresh": "November23 archive and retailer checked; browser unavailable. No claim of direct transaction verification."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4198680001",
+      "revision": "9671ec0043e9fba10441157c8c798969b09b5707f1c6645b97150ff5ba6e57ff",
+      "observations": [
+        {
+          "id": "2026-11-23-appraisal-loop-2-CGC-4198680001",
+          "copyId": "CGC:4198680001",
+          "basis": "owner",
+          "value": 8,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://www.pricecharting.com/game/comic-books-back-to-the-future/back-to-the-future-local-1-2015",
+            "asOf": null,
+            "retrievedAt": "2026-11-23T16:04:04.515Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Back to the Future",
+              "issue": "1",
+              "issueYear": "2015",
+              "publisher": "IDW Publishing",
+              "variant": "Local Comic Shop Day Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "7.5",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $3-$15, not a statistical interval. Owned2015LocalComicShopDayCGC7.5 front/label inspected. Exact raw edition reported15 September28,2024 eBay305791112510; another rawVF/NM1.99 row illustrates weak spread. Working8 judgment below15 for owned7.5, no slab premium; stale thin secondary evidence. OutofstockNZD3.99 retail and mixed lots excluded. LocalComicShopDay promotional edition; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-back-to-the-future/back-to-the-future-local-1-2015",
+            "reviewedAt": "2026-11-23T16:04:04.515Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $3-$15, not a statistical interval. Owned2015LocalComicShopDayCGC7.5 front/label inspected. Exact raw edition reported15 September28,2024 eBay305791112510; another rawVF/NM1.99 row illustrates weak spread. Working8 judgment below15 for owned7.5, no slab premium; stale thin secondary evidence. OutofstockNZD3.99 retail and mixed lots excluded. LocalComicShopDay promotional edition; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 3,
+              "high": 15,
+              "currency": "USD"
+            },
+            "scarcity": "LocalComicShopDay promotional edition; numeric print run unverified.",
+            "comparables": [
+              {
+                "date": "2024-09-28",
+                "price": 15,
+                "url": "https://www.ebay.com/itm/305791112510",
+                "status": "secondary reported raw sale"
+              }
+            ],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4198680001",
+                "cert": "4198680001",
+                "status": "no-exact-grade-row",
+                "checkedAt": "2026-11-15",
+                "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/150973/idw-publishing-back-to-the-future-1",
+                "value": null,
+                "finding": "Live browser certificate search -> analyze verified Local Comic Shop Day Universal 7.5. Owned grade row has zero reported sales and no estimate. Adjacent grades excluded.",
+                "nextAction": "Seek exact grade actual slab transaction or active listing; no raw or adjacent grade substitution."
+              }
+            ],
+            "refresh": "November23 archive inspected. Direct eBay restricted and browser unavailable. Not exact-grade sale."
+          }
+        }
+      ]
+    }
+  ]
+}

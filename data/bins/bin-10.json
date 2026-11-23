@@ -800,7 +800,87 @@
         "capturedAt": "2026-09-10T05:53:28.351Z",
         "importedAt": "2026-09-10T05:54:53.215Z"
       },
-      "scanStatus": "complete"
+      "scanStatus": "complete",
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-23-appraisal-loop-2-CGC-4350046015",
+            "copyId": "CGC:4350046015",
+            "basis": "owner",
+            "value": 25,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://stores.comichub.com/wonderlandcomics/products/gone-ashcan-exclusive",
+              "asOf": null,
+              "retrievedAt": "2026-11-23T16:04:04.515Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Gone Ashcan",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "DSTLRY",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.2",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $15-$40, not a statistical interval. Retailer lists GoneAshcanExclusive raw40 with AddToCart, explicitly stock image. Owned9.2 label says name written on cover in marker, not authenticated signature. Stock art has same ship/planet composition but color and no visible AshcanExclusive banner; owned monochrome. Treat as related printing/stock-image uncertainty, not exact edition confirmation. Working25 judgment below40 for marked owned copy and edition uncertainty; no signature/slab premium. Estimated from asking prices; not confirmed sales. Gone/Somna flipbook excluded. No verified numeric run. Do not equate limited distribution or absent sales with demand. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://stores.comichub.com/wonderlandcomics/products/gone-ashcan-exclusive",
+              "reviewedAt": "2026-11-23T16:04:04.515Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $15-$40, not a statistical interval. Retailer lists GoneAshcanExclusive raw40 with AddToCart, explicitly stock image. Owned9.2 label says name written on cover in marker, not authenticated signature. Stock art has same ship/planet composition but color and no visible AshcanExclusive banner; owned monochrome. Treat as related printing/stock-image uncertainty, not exact edition confirmation. Working25 judgment below40 for marked owned copy and edition uncertainty; no signature/slab premium. Estimated from asking prices; not confirmed sales. Gone/Somna flipbook excluded. No verified numeric run. Do not equate limited distribution or absent sales with demand. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 15,
+                "high": 40,
+                "currency": "USD"
+              },
+              "scarcity": "No verified numeric run. Do not equate limited distribution or absent sales with demand.",
+              "comparables": [],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:4350046015",
+                  "cert": "4350046015",
+                  "status": "no-exact-grade-row",
+                  "checkedAt": "2026-11-15",
+                  "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/323075/dstlry-gone-ashcan-1",
+                  "value": null,
+                  "finding": "Live browser certificate search -> analyze verified Gone Ashcan Universal 9.2. Owned grade row has zero reported sales and no estimate. Adjacent grades excluded.",
+                  "nextAction": "Seek exact grade actual slab transaction or active listing; no raw or adjacent grade substitution."
+                }
+              ],
+              "refresh": "November23 retailer page, stock image and owned4350046015_OBV.jpg inspected. Candidate image saved data/originals/gone-comp.jpg. Stock not checkout-verified."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-23-appraisal-loop-2-CGC-4350046015",
+          "locked": true,
+          "selectedAt": "2026-11-23T16:04:07.227Z"
+        }
+      }
     },
     {
       "cert": "4350046019",
@@ -2871,7 +2951,86 @@
         "capturedAt": "2026-09-10T05:53:28.351Z",
         "importedAt": "2026-09-10T05:55:04.086Z"
       },
-      "scanStatus": "complete"
+      "scanStatus": "complete",
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-23-appraisal-loop-2-CGC-4350047002",
+            "copyId": "CGC:4350047002",
+            "basis": "owner",
+            "value": 25,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://www.ebay.com/itm/196978557400",
+              "asOf": null,
+              "retrievedAt": "2026-11-23T16:04:04.515Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Grim",
+                "issue": "12",
+                "issueYear": "2023",
+                "publisher": "Boom! Studios",
+                "variant": "Trinity Comics Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $15-$50, not a statistical interval. Cached eBay watchworkz listing196978557400 displays raw25 fixed ask for Grim12 ZoeLacchei TrinityVirgin. Owned slab label confirms Lacchei, Trinity, virgin, SIKTC15homage; front inspected redscythe/skeletonchain. Retain25 raw-anchor appraisal with no9.8premium. Listing photo could not be retrieved, so title-based candidate identity rather than completed photo match. Estimated from asking prices; not confirmed sales. Cached months-old page; current availability unverified. Numeric print run unknown; exclusive does not prove rarity. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://www.ebay.com/itm/196978557400",
+              "reviewedAt": "2026-11-23T16:04:04.515Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $15-$50, not a statistical interval. Cached eBay watchworkz listing196978557400 displays raw25 fixed ask for Grim12 ZoeLacchei TrinityVirgin. Owned slab label confirms Lacchei, Trinity, virgin, SIKTC15homage; front inspected redscythe/skeletonchain. Retain25 raw-anchor appraisal with no9.8premium. Listing photo could not be retrieved, so title-based candidate identity rather than completed photo match. Estimated from asking prices; not confirmed sales. Cached months-old page; current availability unverified. Numeric print run unknown; exclusive does not prove rarity. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 15,
+                "high": 50,
+                "currency": "USD"
+              },
+              "scarcity": "Numeric print run unknown; exclusive does not prove rarity.",
+              "comparables": [],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:4350047002",
+                  "cert": "4350047002",
+                  "status": "no-exact-grade-row",
+                  "checkedAt": "2026-11-15",
+                  "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/322594/boom-studios-grim-12",
+                  "value": null,
+                  "finding": "Browser certificate search -> analyze verified Trinity Universal 9.8; zero all grades. Exact grade has zero reported sales and no estimate. Adjacent grades excluded."
+                }
+              ],
+              "refresh": "November23 cached eBay page inspected; directHTTP failed and browser access failed. Shipping8.13 excluded."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-23-appraisal-loop-2-CGC-4350047002",
+          "locked": true,
+          "selectedAt": "2026-11-23T16:04:06.672Z"
+        }
+      }
     },
     {
       "cert": "4350047007",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T22:40:34.861Z",
+  "updatedAt": "2026-11-23T16:05:35.589Z",
   "entries": [
     {
       "copyIds": [
@@ -317,10 +317,14 @@
       ],
       "catalogVariant": "Trinity Comics Edition",
       "searchAliases": [
-        "Zoe Lacchei Grim12 SIKTC15 homage Trinity / Mutant Beaver virgin"
+        "Grim12 ZoeLacchei Trinity virgin",
+        "Grim12 SIKTC15 homage"
       ],
-      "visualFeatures": null,
-      "verification": "Owned scan reviewed; search aliases are discovery terms, not proof that every returned listing matches"
+      "visualFeatures": "Red scythe and paper skeleton chain on white; black-haired character",
+      "verification": "Owned scan reviewed; search aliases are discovery terms, not proof that every returned listing matches",
+      "artistLabel": "Zoe Lacchei",
+      "sourceUrl": "https://www.ebay.com/itm/196978557400",
+      "verifiedBy": "Owned slab label and cover inspected November23; listing title matches, listing photo NOT verified"
     },
     {
       "copyIds": [
@@ -349,12 +353,19 @@
       "copyIds": [
         "CGC:4198680004"
       ],
-      "catalogVariant": "East Side Comics Edition",
+      "catalogVariant": "East Side Comics Virgin Edition",
       "searchAliases": [
-        "Darth Vader29 Rahzzah Eastside virgin LE800 first Jul Tambor"
+        "Darth Vader29 Rahzzah virgin800",
+        "EastSide Vader29 blue label"
       ],
-      "visualFeatures": null,
-      "verification": "Owned scan reviewed; search aliases are discovery terms, not proof that every returned listing matches"
+      "visualFeatures": "Vader helmet silhouette with red interior scene, woman with rifle upper left",
+      "verification": "Owned scan reviewed; search aliases are discovery terms, not proof that every returned listing matches",
+      "artistLabel": "Rahzzah",
+      "sellerStatedPrintRun": 800,
+      "sourceUrl": "https://eastsidecomics.com/products/star-wars-darth-vader-29-cgc-9-8-rahzzah-excl-virgin-variant-limited-to-800",
+      "comparableCert": "4179975001",
+      "verifiedBy": "November23 owned scan and retailer slab photo",
+      "gradeCaution": "Retailer9.8; owned9.6; appraisal explicitly adjusts."
     },
     {
       "copyIds": [

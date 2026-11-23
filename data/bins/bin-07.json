@@ -763,6 +763,86 @@
         "url": "https://gocollect.com/app/comic/spider-gwen-shadow-clones-1-spectral-comics-edition",
         "status": "no-sales",
         "fetchedAt": "2026-08-22T00:24:38.606Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-23-appraisal-loop-2-CGC-4273634009",
+            "copyId": "CGC:4273634009",
+            "basis": "owner",
+            "value": 12,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-shadow-clones/spider-gwen-shadow-clones-tao-1-2023",
+              "asOf": null,
+              "retrievedAt": "2026-11-23T16:04:04.515Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Spider-Gwen: Shadow Clones",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "Spectral Comics Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "8.5",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $8-$25, not a statistical interval. Owned Spectral IvanTao8.5 trade front/label inspected. Same trade raw NM secondary reports18 July23,2025 and15.95 April30,2025; working12 below rawNM anchors for lower owned grade. Judgment discount, not observed grade conversion. Exclude666-edition, issue2, virgin and algorithm grades. Trade1000 is seller/COA claim from reported listings; no owned COA count verified. No rarity premium. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-spider-gwen-shadow-clones/spider-gwen-shadow-clones-tao-1-2023",
+              "reviewedAt": "2026-11-23T16:04:04.515Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $8-$25, not a statistical interval. Owned Spectral IvanTao8.5 trade front/label inspected. Same trade raw NM secondary reports18 July23,2025 and15.95 April30,2025; working12 below rawNM anchors for lower owned grade. Judgment discount, not observed grade conversion. Exclude666-edition, issue2, virgin and algorithm grades. Trade1000 is seller/COA claim from reported listings; no owned COA count verified. No rarity premium. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 8,
+                "high": 25,
+                "currency": "USD"
+              },
+              "scarcity": "Trade1000 is seller/COA claim from reported listings; no owned COA count verified. No rarity premium.",
+              "comparables": [],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:4273634009",
+                  "cert": "4273634009",
+                  "status": "no-exact-grade-row",
+                  "checkedAt": "2026-11-15",
+                  "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/306179/marvel-comics-spider-gwen-shadow-clones-1",
+                  "value": null,
+                  "finding": "Live browser certificate search -> analyze verified Spectral Tao Universal 8.5. Owned grade row has zero reported sales and no estimate. Adjacent grades excluded.",
+                  "nextAction": "Seek exact grade actual slab transaction or active listing; no raw or adjacent grade substitution."
+                }
+              ],
+              "refresh": "November23 archive inspected; cache differs from search index. Use explicit dated rows only; not exact-grade sales."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-23-appraisal-loop-2-CGC-4273634009",
+          "locked": true,
+          "selectedAt": "2026-11-23T16:04:07.775Z"
+        }
       }
     },
     {
