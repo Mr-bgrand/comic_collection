@@ -473,7 +473,93 @@
         "capturedAt": "2026-09-10T05:53:28.351Z",
         "importedAt": "2026-09-10T05:54:51.631Z"
       },
-      "scanStatus": "complete"
+      "scanStatus": "complete",
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-loop-2-CGC-4350046004",
+            "copyId": "CGC:4350046004",
+            "basis": "owner",
+            "value": 65,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://www.pricecharting.com/game/comic-books-usagi-yojimbo-ice-and-snow/usagi-yojimbo-ice-and-snow-preview-sdcc-gold-foil-1-2023",
+              "asOf": null,
+              "retrievedAt": "2026-11-23T06:28:15.862Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Usagi Yojimbo: Ice and Snow SDCC Preview",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Dark Horse Comics",
+                "variant": "Gold Foil Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $40-$100, not a statistical interval. Owned front/slab Gold Foil SDCC Preview 9.8 inspected. Archive raw gold foil report $85 July 31, 2023 eBay404400183994 says LE250; owned cover explicitly says limited500. Treat as potentially related subedition, not an exact scarcity match. $65 judgment below stale $85 anchor, no slab premium. Signed/remarqued and Chalk Girl NYCC editions excluded. Owned cover states limited500; seller title LE250 may refer to foil subset but unverified. Preserve conflict; no250 claim. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-usagi-yojimbo-ice-and-snow/usagi-yojimbo-ice-and-snow-preview-sdcc-gold-foil-1-2023",
+              "reviewedAt": "2026-11-23T06:28:15.862Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $40-$100, not a statistical interval. Owned front/slab Gold Foil SDCC Preview 9.8 inspected. Archive raw gold foil report $85 July 31, 2023 eBay404400183994 says LE250; owned cover explicitly says limited500. Treat as potentially related subedition, not an exact scarcity match. $65 judgment below stale $85 anchor, no slab premium. Signed/remarqued and Chalk Girl NYCC editions excluded. Owned cover states limited500; seller title LE250 may refer to foil subset but unverified. Preserve conflict; no250 claim. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 40,
+                "high": 100,
+                "currency": "USD"
+              },
+              "scarcity": "Owned cover states limited500; seller title LE250 may refer to foil subset but unverified. Preserve conflict; no250 claim.",
+              "comparables": [
+                {
+                  "date": "2023-07-31",
+                  "price": 85,
+                  "url": "https://www.ebay.com/itm/404400183994",
+                  "status": "stale secondary raw gold foil; print-run conflict"
+                }
+              ],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:4350046004",
+                  "cert": "4350046004",
+                  "status": "no-exact-grade-row",
+                  "checkedAt": "2026-11-15",
+                  "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/319858/dark-horse-comics-usagi-yojimbo-ice-and-snow-sdcc-preview-1",
+                  "value": null,
+                  "finding": "Browser certificate search -> analyze verified Gold Foil Universal 9.8; zero all grades. Exact grade has zero reported sales and no estimate. Adjacent grades excluded."
+                }
+              ],
+              "refresh": "Web evidence retrieved November22 Phoenix local date; direct eBay photos unavailable. Browser retry this run failed GetCursorPos access denied."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-loop-2-CGC-4350046004",
+          "locked": true,
+          "selectedAt": "2026-11-23T06:28:23.085Z"
+        }
+      }
     },
     {
       "cert": "4350046003",

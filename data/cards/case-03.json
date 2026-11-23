@@ -4873,7 +4873,113 @@
       "gradeDescription": "GEM MT",
       "holder": "slab",
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-loop-2-PSA-121629672",
+            "copyId": "PSA:121629672",
+            "basis": "owner",
+            "value": 23,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-photogenic-rookie-pix/marvin-harrison-jr-red-6",
+              "asOf": null,
+              "retrievedAt": "2026-11-23T06:28:15.862Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PANINI PHOTOGENIC ROOKIE PIX",
+                "series": "",
+                "subject": "MARVIN HARRISON JR.",
+                "cardNumber": "6",
+                "variety": "ROOKIE PIX-RED",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "10",
+              "grader": "PSA",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $15-$45, not a statistical interval. Owned PSA label verifies Rookie Pix-Red #6 PSA 10; same designation PSA 9 report $23 May 21, 2026, eBay358067918945. Retain $23 without a PSA 10 premium. Low-resolution owned serial stamp ambiguous; source/checklist says Red /49. No exact PSA 10 sale; no claim that owned serial digits were verified. Red /49 per checklist; owned serial digits need higher-resolution confirmation. No scarcity premium. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-photogenic-rookie-pix/marvin-harrison-jr-red-6",
+              "reviewedAt": "2026-11-23T06:28:15.862Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $15-$45, not a statistical interval. Owned PSA label verifies Rookie Pix-Red #6 PSA 10; same designation PSA 9 report $23 May 21, 2026, eBay358067918945. Retain $23 without a PSA 10 premium. Low-resolution owned serial stamp ambiguous; source/checklist says Red /49. No exact PSA 10 sale; no claim that owned serial digits were verified. Red /49 per checklist; owned serial digits need higher-resolution confirmation. No scarcity premium. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 15,
+                "high": 45,
+                "currency": "USD"
+              },
+              "scarcity": "Red /49 per checklist; owned serial digits need higher-resolution confirmation. No scarcity premium.",
+              "comparables": [
+                {
+                  "date": "2026-05-21",
+                  "price": 23,
+                  "url": "https://www.ebay.com/itm/358067918945",
+                  "status": "secondary PSA 9 report"
+                }
+              ],
+              "priorResearch": [
+                {
+                  "copyId": "PSA:121629672",
+                  "ownedIdentity": {
+                    "cert": "121629672",
+                    "subject": "MARVIN HARRISON JR.",
+                    "year": "2024",
+                    "brand": "PANINI PHOTOGENIC ROOKIE PIX",
+                    "cardNumber": "6",
+                    "variety": "ROOKIE PIX-RED",
+                    "grader": "PSA",
+                    "grade": "10"
+                  },
+                  "priorResearchFile": "data/originals/resume-cards-results.json",
+                  "queries": [
+                    "Marvin Harrison Rookie Pix red PSA"
+                  ],
+                  "evidence": [
+                    {
+                      "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-photogenic-rookie-pix/marvin-harrison-jr-red-6",
+                      "observedAt": "2026-11-15",
+                      "access": "search-index inspected",
+                      "accepted": false,
+                      "reason": "New alias Stardust /49 found in raw transaction title; no PSA10 sales."
+                    }
+                  ],
+                  "status": "unresolved-after-new-search",
+                  "proposedValue": null,
+                  "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+                }
+              ],
+              "refresh": "Web evidence retrieved November22 Phoenix local date; direct eBay photos unavailable. Browser retry this run failed GetCursorPos access denied."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-loop-2-PSA-121629672",
+          "locked": true,
+          "selectedAt": "2026-11-23T06:28:21.478Z"
+        }
+      },
       "fmv": null,
       "population": {
         "atGrade": 2,
@@ -6095,7 +6201,113 @@
       "gradeDescription": "MINT",
       "holder": "slab",
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-loop-2-PSA-114218231",
+            "copyId": "PSA:114218231",
+            "basis": "owner",
+            "value": 10,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-obsidian-rookie-materials-ink/trey-benson-silver-rmi-tbn",
+              "asOf": null,
+              "retrievedAt": "2026-11-23T06:28:15.862Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "PANINI OBSIDIAN ROOKIE MATERIALS INK",
+                "series": "",
+                "subject": "TREY BENSON",
+                "cardNumber": "RMITBN",
+                "variety": "",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "PSA",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $5-$25, not a statistical interval. Owned base Rookie Materials Ink PSA 9; related Silver /99 raw reports $19.99 January 27, 2026 and $20 October 1, 2025. Working $10 deliberately below those related-parallel anchors, no grading premium. Different parallel and raw condition; judgment adjustment, not same-card sale. /75 rows and algorithm graded values excluded. Owned base /299 designation from saved checklist review; not Silver /99; no rarity premium. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-obsidian-rookie-materials-ink/trey-benson-silver-rmi-tbn",
+              "reviewedAt": "2026-11-23T06:28:15.862Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $5-$25, not a statistical interval. Owned base Rookie Materials Ink PSA 9; related Silver /99 raw reports $19.99 January 27, 2026 and $20 October 1, 2025. Working $10 deliberately below those related-parallel anchors, no grading premium. Different parallel and raw condition; judgment adjustment, not same-card sale. /75 rows and algorithm graded values excluded. Owned base /299 designation from saved checklist review; not Silver /99; no rarity premium. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 5,
+                "high": 25,
+                "currency": "USD"
+              },
+              "scarcity": "Owned base /299 designation from saved checklist review; not Silver /99; no rarity premium.",
+              "comparables": [
+                {
+                  "date": "2026-01-27",
+                  "price": 19.99,
+                  "url": "https://www.ebay.com/itm/326791060518",
+                  "status": "secondary raw Silver /99 comparison, different parallel"
+                }
+              ],
+              "priorResearch": [
+                {
+                  "copyId": "PSA:114218231",
+                  "ownedIdentity": {
+                    "cert": "114218231",
+                    "subject": "TREY BENSON",
+                    "year": "2024",
+                    "brand": "PANINI OBSIDIAN ROOKIE MATERIALS INK",
+                    "cardNumber": "RMITBN",
+                    "variety": null,
+                    "grader": "PSA",
+                    "grade": "9"
+                  },
+                  "priorResearchFile": "data/originals/resume-cards-results.json",
+                  "queries": [
+                    "Trey Benson RMI PSA 9 -green"
+                  ],
+                  "evidence": [
+                    {
+                      "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-obsidian-rookie-materials-ink/trey-benson-rmi-tbn",
+                      "observedAt": "2026-11-15",
+                      "access": "direct exact archive inspected; browser fallback where specified",
+                      "accepted": false,
+                      "reason": "Browser fallback verified baseRMI-TBN archive:30 raw, zero grade9. Displayed22.64 explicitly algorithm-derived, excluded."
+                    }
+                  ],
+                  "status": "unresolved-after-new-search",
+                  "proposedValue": null,
+                  "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+                }
+              ],
+              "refresh": "Web evidence retrieved November22 Phoenix local date; direct eBay photos unavailable. Browser retry this run failed GetCursorPos access denied."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-loop-2-PSA-114218231",
+          "locked": true,
+          "selectedAt": "2026-11-23T06:28:20.946Z"
+        }
+      },
       "fmv": null,
       "population": {
         "atGrade": 1,

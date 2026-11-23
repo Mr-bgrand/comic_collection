@@ -2097,7 +2097,105 @@
       "certUrl": "https://my.taggrading.com/card/U5165558",
       "gradeDate": "2025-04-22",
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-loop-2-TAG-U5165558",
+            "copyId": "TAG:U5165558",
+            "basis": "owner",
+            "value": 2,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://www.sportscardspro.com/game/baseball-cards-2024-topps-chrome-update/jared-jones-prism-refractor-usc43",
+              "asOf": null,
+              "retrievedAt": "2026-11-23T06:28:15.862Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2024",
+                "brand": "TOPPS CHROME UPDATE",
+                "series": "TOPPS CHROME UPDATE",
+                "subject": "JARED JONES",
+                "cardNumber": "USC43",
+                "variety": "PRISM REFRACTOR",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "8.5",
+              "grader": "TAG",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $1-$5, not a statistical interval. Same-card raw reports $1 July 18, $1.19 May 29, $1.99 May 23, 2026; indexed November 15 report $2. Use $2 for owned TAG 8.5 without slab premium. Exclude $17.99 high outlier and multi-card lot; no exact 8.5 evidence. Prism Refractor is unnumbered; production count unknown. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://www.sportscardspro.com/game/baseball-cards-2024-topps-chrome-update/jared-jones-prism-refractor-usc43",
+              "reviewedAt": "2026-11-23T06:28:15.862Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $1-$5, not a statistical interval. Same-card raw reports $1 July 18, $1.19 May 29, $1.99 May 23, 2026; indexed November 15 report $2. Use $2 for owned TAG 8.5 without slab premium. Exclude $17.99 high outlier and multi-card lot; no exact 8.5 evidence. Prism Refractor is unnumbered; production count unknown. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 1,
+                "high": 5,
+                "currency": "USD"
+              },
+              "scarcity": "Prism Refractor is unnumbered; production count unknown.",
+              "comparables": [
+                {
+                  "date": "2026-05-29",
+                  "price": 1.19,
+                  "url": "https://www.ebay.com/itm/376316452839",
+                  "status": "secondary raw report"
+                }
+              ],
+              "priorResearch": [
+                {
+                  "copyId": "TAG:U5165558",
+                  "ownedIdentity": {
+                    "cert": "U5165558",
+                    "subject": "JARED JONES",
+                    "year": "2024",
+                    "brand": "TOPPS CHROME UPDATE",
+                    "cardNumber": "USC43",
+                    "variety": "PRISM REFRACTOR",
+                    "grader": "TAG",
+                    "grade": "8.5"
+                  },
+                  "priorResearchFile": "data/originals/resume-cards-results.json",
+                  "queries": [
+                    "Jared Jones USC43 8.5"
+                  ],
+                  "evidence": [],
+                  "status": "unresolved-after-new-search",
+                  "proposedValue": null,
+                  "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+                }
+              ],
+              "refresh": "Web evidence retrieved November22 Phoenix local date; direct eBay photos unavailable. Browser retry this run failed GetCursorPos access denied."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-loop-2-TAG-U5165558",
+          "locked": true,
+          "selectedAt": "2026-11-23T06:28:19.112Z"
+        }
+      },
       "population": {
         "atGrade": 1,
         "total": 1,
@@ -2592,7 +2690,113 @@
       "certUrl": "https://my.taggrading.com/card/E4095241",
       "gradeDate": "2025-04-11",
       "location": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-loop-2-TAG-E4095241",
+            "copyId": "TAG:E4095241",
+            "basis": "owner",
+            "value": 8,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-sapphire/bubba-chandler-bdc-41",
+              "asOf": null,
+              "retrievedAt": "2026-11-23T06:28:15.862Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2021",
+                "brand": "BOWMAN DRAFT SAPPHIRE EDITION",
+                "series": "BOWMAN DRAFT SAPPHIRE EDITION",
+                "subject": "BUBBA CHANDLER",
+                "cardNumber": "BDC-41",
+                "variety": "",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "7",
+              "grader": "TAG",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $4-$15, not a statistical interval. Raw same-card reports $11.99 July 1, 2022 and $12.99 October 29, 2022 are stale; latter title says Qty and is excluded from working anchor. Owned TAG 7 appraised $8 below single raw $11.99 anchor by judgment, not a measured grade conversion. Unnumbered Sapphire base; production count unknown. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-sapphire/bubba-chandler-bdc-41",
+              "reviewedAt": "2026-11-23T06:28:15.862Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $4-$15, not a statistical interval. Raw same-card reports $11.99 July 1, 2022 and $12.99 October 29, 2022 are stale; latter title says Qty and is excluded from working anchor. Owned TAG 7 appraised $8 below single raw $11.99 anchor by judgment, not a measured grade conversion. Unnumbered Sapphire base; production count unknown. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 4,
+                "high": 15,
+                "currency": "USD"
+              },
+              "scarcity": "Unnumbered Sapphire base; production count unknown.",
+              "comparables": [
+                {
+                  "date": "2022-07-01",
+                  "price": 11.99,
+                  "url": "https://www.ebay.com/itm/363785839681",
+                  "status": "stale secondary raw report"
+                }
+              ],
+              "priorResearch": [
+                {
+                  "copyId": "TAG:E4095241",
+                  "ownedIdentity": {
+                    "cert": "E4095241",
+                    "subject": "BUBBA CHANDLER",
+                    "year": "2021",
+                    "brand": "BOWMAN DRAFT SAPPHIRE EDITION",
+                    "cardNumber": "BDC-41",
+                    "variety": null,
+                    "grader": "TAG",
+                    "grade": "7"
+                  },
+                  "priorResearchFile": "data/originals/resume-cards-results.json",
+                  "queries": [
+                    "Bubba Chandler Sapphire PSA 7"
+                  ],
+                  "evidence": [
+                    {
+                      "url": "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-sapphire/bubba-chandler-bdc-41",
+                      "observedAt": "2026-11-15",
+                      "access": "direct exact archive inspected; browser fallback where specified",
+                      "accepted": false,
+                      "reason": "Direct web page read: two raw transactions, zero grade7 sales. No TAG7/PSA7 evidence."
+                    }
+                  ],
+                  "status": "unresolved-after-new-search",
+                  "proposedValue": null,
+                  "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+                }
+              ],
+              "refresh": "Web evidence retrieved November22 Phoenix local date; direct eBay photos unavailable. Browser retry this run failed GetCursorPos access denied."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-loop-2-TAG-E4095241",
+          "locked": true,
+          "selectedAt": "2026-11-23T06:28:18.547Z"
+        }
+      },
       "population": {
         "atGrade": 1,
         "total": 1,

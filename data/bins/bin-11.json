@@ -188,6 +188,108 @@
         "url": null,
         "status": "not-listed",
         "fetchedAt": "2026-08-27T05:50:21.179Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-loop-2-CGC-4401613003",
+            "copyId": "CGC:4401613003",
+            "basis": "owner",
+            "value": 19,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://www.pricecharting.com/game/comic-books-arcade-kings/arcade-kings-marcano-1-2023",
+              "asOf": null,
+              "retrievedAt": "2026-11-23T06:28:15.862Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Arcade Kings",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Image/Skybound",
+                "variant": "Bird City Comics Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $10-$40, not a statistical interval. Owned Bird City/Marcano virgin front visually matches catalog artwork (green helmet, gaming chair and purple PC). Same raw edition reported $18.98 September 6, 2023 eBay305007258582. Round to $19 for owned 9.8 without slab premium. Stale single anchor; preorders and $1 outlier not used. Bird City virgin exclusive; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-arcade-kings/arcade-kings-marcano-1-2023",
+              "reviewedAt": "2026-11-23T06:28:15.862Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $10-$40, not a statistical interval. Owned Bird City/Marcano virgin front visually matches catalog artwork (green helmet, gaming chair and purple PC). Same raw edition reported $18.98 September 6, 2023 eBay305007258582. Round to $19 for owned 9.8 without slab premium. Stale single anchor; preorders and $1 outlier not used. Bird City virgin exclusive; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 10,
+                "high": 40,
+                "currency": "USD"
+              },
+              "scarcity": "Bird City virgin exclusive; numeric print run unverified.",
+              "comparables": [
+                {
+                  "date": "2023-09-06",
+                  "price": 18.98,
+                  "url": "https://www.ebay.com/itm/305007258582",
+                  "status": "secondary raw report; catalog art visually matched"
+                }
+              ],
+              "priorResearch": [
+                {
+                  "certificate": "4401613003",
+                  "owned": "Arcade Kings #1 Bird City Comics / Anna Marcano, CGC Universal 9.8",
+                  "certificateUrl": "https://comicbookrealm.com/cgc-analyzer/certificate/id/4401613003",
+                  "analyzerUrl": "https://comicbookrealm.com/cgc-analyzer/comic/id/341811/image-skybound-arcade-kings-1",
+                  "certificateEvidence": {
+                    "grade": 9.8,
+                    "category": "Modern",
+                    "pages": "White",
+                    "submission": "CGC1139299205",
+                    "cover": "Anna Marcano",
+                    "notes": "Virgin cover",
+                    "recordedSales": 0
+                  },
+                  "analyzerEvidence": {
+                    "variant": "Bird City Comics Edition",
+                    "category": "Universal/Modern",
+                    "recordedSales": 0,
+                    "gradeRow": "9.8 | 0 | - | - | *",
+                    "estimatedValue": null
+                  },
+                  "status": "unresolved",
+                  "reason": "Exact grade/category/variant has no recorded history or guide amount.",
+                  "copyId": "CGC:4401613003"
+                }
+              ],
+              "refresh": "Web evidence retrieved November22 Phoenix local date; direct eBay photos unavailable. Browser retry this run failed GetCursorPos access denied."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-loop-2-CGC-4401613003",
+          "locked": true,
+          "selectedAt": "2026-11-23T06:28:22.025Z"
+        }
       }
     },
     {
@@ -804,6 +906,87 @@
         "url": null,
         "status": "not-listed",
         "fetchedAt": "2026-08-27T05:52:11.828Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-loop-2-CGC-4214394003",
+            "copyId": "CGC:4214394003",
+            "basis": "owner",
+            "value": 35,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/304746/whatnot-publishing-the-exiled-1",
+              "asOf": null,
+              "retrievedAt": "2026-11-15"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "The Exiled",
+                "issue": "1",
+                "issueYear": "2023",
+                "publisher": "Whatnot Publishing",
+                "variant": "SMZ Comics Foil Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Qualified",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $20-$55, not a statistical interval. Saved November15 Universal9.8 guide $55, two reported sales last September22,2024. Owned Qualified9.8 differs. $35 judgment discount for label uncertainty, not measured ratio. Stale thin guide. Numeric print run unknown; no rarity premium. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/304746/whatnot-publishing-the-exiled-1",
+              "reviewedAt": "2026-11-23T06:28:15.862Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $20-$55, not a statistical interval. Saved November15 Universal9.8 guide $55, two reported sales last September22,2024. Owned Qualified9.8 differs. $35 judgment discount for label uncertainty, not measured ratio. Stale thin guide. Numeric print run unknown; no rarity premium. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 20,
+                "high": 55,
+                "currency": "USD"
+              },
+              "scarcity": "Numeric print run unknown; no rarity premium.",
+              "comparables": [],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:4214394003",
+                  "cert": "4214394003",
+                  "status": "excluded-secondary-guide-mismatch",
+                  "checkedAt": "2026-11-15",
+                  "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/304746/whatnot-publishing-the-exiled-1",
+                  "candidatePrice": 55,
+                  "value": null,
+                  "finding": "Certificate explicitly Qualified9.8, analyze table Universal/Modern9.8 estimated55 two reported sales lastSep22,2024. Category mismatch; not eligible.",
+                  "nextAction": "Find exact label/foil subedition evidence."
+                }
+              ],
+              "refresh": "Saved browser evidence November15; not refreshed."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-loop-2-CGC-4214394003",
+          "locked": true,
+          "selectedAt": "2026-11-23T06:28:24.171Z"
+        }
       }
     },
     {

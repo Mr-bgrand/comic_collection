@@ -1,0 +1,1144 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "TAG:E4095241",
+      "revision": "40ac735cd8869fa0c437cb9137d245464d1a3f2143e3e21edf546afbec91b6c2",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-2-TAG-E4095241",
+          "copyId": "TAG:E4095241",
+          "basis": "owner",
+          "value": 8,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-sapphire/bubba-chandler-bdc-41",
+            "asOf": null,
+            "retrievedAt": "2026-11-23T06:28:15.862Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2021",
+              "brand": "BOWMAN DRAFT SAPPHIRE EDITION",
+              "series": "BOWMAN DRAFT SAPPHIRE EDITION",
+              "subject": "BUBBA CHANDLER",
+              "cardNumber": "BDC-41",
+              "variety": "",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "7",
+            "grader": "TAG",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $4-$15, not a statistical interval. Raw same-card reports $11.99 July 1, 2022 and $12.99 October 29, 2022 are stale; latter title says Qty and is excluded from working anchor. Owned TAG 7 appraised $8 below single raw $11.99 anchor by judgment, not a measured grade conversion. Unnumbered Sapphire base; production count unknown. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-sapphire/bubba-chandler-bdc-41",
+            "reviewedAt": "2026-11-23T06:28:15.862Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $4-$15, not a statistical interval. Raw same-card reports $11.99 July 1, 2022 and $12.99 October 29, 2022 are stale; latter title says Qty and is excluded from working anchor. Owned TAG 7 appraised $8 below single raw $11.99 anchor by judgment, not a measured grade conversion. Unnumbered Sapphire base; production count unknown. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 4,
+              "high": 15,
+              "currency": "USD"
+            },
+            "scarcity": "Unnumbered Sapphire base; production count unknown.",
+            "comparables": [
+              {
+                "date": "2022-07-01",
+                "price": 11.99,
+                "url": "https://www.ebay.com/itm/363785839681",
+                "status": "stale secondary raw report"
+              }
+            ],
+            "priorResearch": [
+              {
+                "copyId": "TAG:E4095241",
+                "ownedIdentity": {
+                  "cert": "E4095241",
+                  "subject": "BUBBA CHANDLER",
+                  "year": "2021",
+                  "brand": "BOWMAN DRAFT SAPPHIRE EDITION",
+                  "cardNumber": "BDC-41",
+                  "variety": null,
+                  "grader": "TAG",
+                  "grade": "7"
+                },
+                "priorResearchFile": "data/originals/resume-cards-results.json",
+                "queries": [
+                  "Bubba Chandler Sapphire PSA 7"
+                ],
+                "evidence": [
+                  {
+                    "url": "https://www.sportscardspro.com/game/baseball-cards-2021-bowman-draft-sapphire/bubba-chandler-bdc-41",
+                    "observedAt": "2026-11-15",
+                    "access": "direct exact archive inspected; browser fallback where specified",
+                    "accepted": false,
+                    "reason": "Direct web page read: two raw transactions, zero grade7 sales. No TAG7/PSA7 evidence."
+                  }
+                ],
+                "status": "unresolved-after-new-search",
+                "proposedValue": null,
+                "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+              }
+            ],
+            "refresh": "Web evidence retrieved November22 Phoenix local date; direct eBay photos unavailable. Browser retry this run failed GetCursorPos access denied."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "TAG:U5165558",
+      "revision": "4e324a28314cd9bb0115da702a5fc7212d4c3e90d327c9deeaeac6fbc8c366b8",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-2-TAG-U5165558",
+          "copyId": "TAG:U5165558",
+          "basis": "owner",
+          "value": 2,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://www.sportscardspro.com/game/baseball-cards-2024-topps-chrome-update/jared-jones-prism-refractor-usc43",
+            "asOf": null,
+            "retrievedAt": "2026-11-23T06:28:15.862Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "TOPPS CHROME UPDATE",
+              "series": "TOPPS CHROME UPDATE",
+              "subject": "JARED JONES",
+              "cardNumber": "USC43",
+              "variety": "PRISM REFRACTOR",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "8.5",
+            "grader": "TAG",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $1-$5, not a statistical interval. Same-card raw reports $1 July 18, $1.19 May 29, $1.99 May 23, 2026; indexed November 15 report $2. Use $2 for owned TAG 8.5 without slab premium. Exclude $17.99 high outlier and multi-card lot; no exact 8.5 evidence. Prism Refractor is unnumbered; production count unknown. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://www.sportscardspro.com/game/baseball-cards-2024-topps-chrome-update/jared-jones-prism-refractor-usc43",
+            "reviewedAt": "2026-11-23T06:28:15.862Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $1-$5, not a statistical interval. Same-card raw reports $1 July 18, $1.19 May 29, $1.99 May 23, 2026; indexed November 15 report $2. Use $2 for owned TAG 8.5 without slab premium. Exclude $17.99 high outlier and multi-card lot; no exact 8.5 evidence. Prism Refractor is unnumbered; production count unknown. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 1,
+              "high": 5,
+              "currency": "USD"
+            },
+            "scarcity": "Prism Refractor is unnumbered; production count unknown.",
+            "comparables": [
+              {
+                "date": "2026-05-29",
+                "price": 1.19,
+                "url": "https://www.ebay.com/itm/376316452839",
+                "status": "secondary raw report"
+              }
+            ],
+            "priorResearch": [
+              {
+                "copyId": "TAG:U5165558",
+                "ownedIdentity": {
+                  "cert": "U5165558",
+                  "subject": "JARED JONES",
+                  "year": "2024",
+                  "brand": "TOPPS CHROME UPDATE",
+                  "cardNumber": "USC43",
+                  "variety": "PRISM REFRACTOR",
+                  "grader": "TAG",
+                  "grade": "8.5"
+                },
+                "priorResearchFile": "data/originals/resume-cards-results.json",
+                "queries": [
+                  "Jared Jones USC43 8.5"
+                ],
+                "evidence": [],
+                "status": "unresolved-after-new-search",
+                "proposedValue": null,
+                "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+              }
+            ],
+            "refresh": "Web evidence retrieved November22 Phoenix local date; direct eBay photos unavailable. Browser retry this run failed GetCursorPos access denied."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "PSA:121297947",
+      "revision": "42e5a1a5d5fae59c1db7e35dff4fd735a91820da6cc43a383e4ed55a8bcfcb46",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-2-PSA-121297947",
+          "copyId": "PSA:121297947",
+          "basis": "owner",
+          "value": 12,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://www.pricecharting.com/game/pokemon-korean-scarlet-%26-violet-151/pikachu-173",
+            "asOf": null,
+            "retrievedAt": "2026-11-23T06:28:15.862Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2023",
+              "brand": "POKEMON KOREAN SV2a-POKEMON CARD 151",
+              "series": "",
+              "subject": "PIKACHU",
+              "cardNumber": "173",
+              "variety": "ART RARE",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "6",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $8-$20, not a statistical interval. Korean 173 raw NM reports $20 October 4, $22 October 5, $32.99 October 16, 2026. Owned PSA 6 appraised $12 below these NM anchors for condition; judgment discount, not measured. English/Japanese and algorithm-only grade values excluded. Art rare designation is not a numeric print run; no scarcity premium. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-korean-scarlet-%26-violet-151/pikachu-173",
+            "reviewedAt": "2026-11-23T06:28:15.862Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $8-$20, not a statistical interval. Korean 173 raw NM reports $20 October 4, $22 October 5, $32.99 October 16, 2026. Owned PSA 6 appraised $12 below these NM anchors for condition; judgment discount, not measured. English/Japanese and algorithm-only grade values excluded. Art rare designation is not a numeric print run; no scarcity premium. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 8,
+              "high": 20,
+              "currency": "USD"
+            },
+            "scarcity": "Art rare designation is not a numeric print run; no scarcity premium.",
+            "comparables": [
+              {
+                "date": "2026-10-04",
+                "price": 20,
+                "url": "https://www.ebay.com/itm/158359970525",
+                "status": "secondary raw Korean report"
+              }
+            ],
+            "priorResearch": [
+              {
+                "copyId": "PSA:121297947",
+                "ownedIdentity": {
+                  "cert": "121297947",
+                  "subject": "PIKACHU",
+                  "year": "2023",
+                  "brand": "POKEMON KOREAN SV2a-POKEMON CARD 151",
+                  "cardNumber": "173",
+                  "variety": "ART RARE",
+                  "grader": "PSA",
+                  "grade": "6"
+                },
+                "priorResearchFile": "data/originals/resume-cards-results.json",
+                "queries": [
+                  "Pikachu Korean 173 PSA 6"
+                ],
+                "evidence": [
+                  {
+                    "url": "https://tcgcharts.com/pokemon/pokemon-card-151-korean/pikachu-173",
+                    "observedAt": "2026-11-15",
+                    "access": "search-index inspected",
+                    "accepted": false,
+                    "reason": "PSA6 population but no sales; Japanese reference excluded."
+                  }
+                ],
+                "status": "unresolved-after-new-search",
+                "proposedValue": null,
+                "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+              }
+            ],
+            "refresh": "Web evidence retrieved November22 Phoenix local date; direct eBay photos unavailable. Browser retry this run failed GetCursorPos access denied."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "PSA:169169674",
+      "revision": "e4e709a208361ab3bf6dacba0d4ef63936fabc253591ef6c2d0887375d154941",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-2-PSA-169169674",
+          "copyId": "PSA:169169674",
+          "basis": "owner",
+          "value": 60,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://www.sportscardspro.com/search-products?q=ben+rice+indian+yellow+84a&type=prices",
+            "asOf": null,
+            "retrievedAt": "2026-11-23T06:28:15.862Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2025",
+              "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+              "series": "",
+              "subject": "BEN RICE",
+              "cardNumber": "84",
+              "variety": "INDIAN YELLOW",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $35-$90, not a statistical interval. SportsCardsPro indexed search table identifies NON-autograph Bob Ross Indian Yellow #84 /25 raw guide $60.05. Round to $60 for PSA 9 without graded premium. Guide-only, undocumented transactions; direct exact page unavailable. Clector exact non-auto page has no tracked sales. $650 autograph results excluded. Owned front visually confirms 10/25 and no autograph; actual numbered short print, no additional rarity multiplier. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://www.sportscardspro.com/search-products?q=ben+rice+indian+yellow+84a&type=prices",
+            "reviewedAt": "2026-11-23T06:28:15.862Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $35-$90, not a statistical interval. SportsCardsPro indexed search table identifies NON-autograph Bob Ross Indian Yellow #84 /25 raw guide $60.05. Round to $60 for PSA 9 without graded premium. Guide-only, undocumented transactions; direct exact page unavailable. Clector exact non-auto page has no tracked sales. $650 autograph results excluded. Owned front visually confirms 10/25 and no autograph; actual numbered short print, no additional rarity multiplier. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 35,
+              "high": 90,
+              "currency": "USD"
+            },
+            "scarcity": "Owned front visually confirms 10/25 and no autograph; actual numbered short print, no additional rarity multiplier.",
+            "comparables": [
+              {
+                "url": "https://theclector.com/cards/baseball/mlb/topps/2025/bob-ross/base-indian-yellow/ben-rice-50368/5212399",
+                "status": "checked; no exact sales"
+              }
+            ],
+            "priorResearch": [
+              {
+                "copyId": "PSA:169169674",
+                "ownedIdentity": {
+                  "cert": "169169674",
+                  "subject": "BEN RICE",
+                  "year": "2025",
+                  "brand": "TOPPS X BOB ROSS THE JOY OF BASEBALL",
+                  "cardNumber": "84",
+                  "variety": "INDIAN YELLOW",
+                  "grader": "PSA",
+                  "grade": "9"
+                },
+                "priorResearchFile": "data/originals/resume-cards-results.json",
+                "queries": [
+                  "Ben Rice Bob Ross yellow graded"
+                ],
+                "evidence": [
+                  {
+                    "url": "https://www.ebay.com/b/2025-Topps-X-Bob-Ross-the-Joy-of-Baseball-Ben-Rice-84/212/bn_99693494295",
+                    "observedAt": "2026-11-15",
+                    "access": "search-index inspected",
+                    "accepted": false,
+                    "reason": "PSA9 Prussian Blue250 not IndianYellow. No matching yellow9 offer."
+                  }
+                ],
+                "status": "unresolved-after-new-search",
+                "proposedValue": null,
+                "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+              }
+            ],
+            "refresh": "Web evidence retrieved November22 Phoenix local date; direct eBay photos unavailable. Browser retry this run failed GetCursorPos access denied."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "PSA:114218231",
+      "revision": "d4f8dab9cd36bf295e6ff6a98410f41cd166bc1997e66d31e8b6fd237b0336ba",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-2-PSA-114218231",
+          "copyId": "PSA:114218231",
+          "basis": "owner",
+          "value": 10,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-obsidian-rookie-materials-ink/trey-benson-silver-rmi-tbn",
+            "asOf": null,
+            "retrievedAt": "2026-11-23T06:28:15.862Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "PANINI OBSIDIAN ROOKIE MATERIALS INK",
+              "series": "",
+              "subject": "TREY BENSON",
+              "cardNumber": "RMITBN",
+              "variety": "",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $5-$25, not a statistical interval. Owned base Rookie Materials Ink PSA 9; related Silver /99 raw reports $19.99 January 27, 2026 and $20 October 1, 2025. Working $10 deliberately below those related-parallel anchors, no grading premium. Different parallel and raw condition; judgment adjustment, not same-card sale. /75 rows and algorithm graded values excluded. Owned base /299 designation from saved checklist review; not Silver /99; no rarity premium. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-obsidian-rookie-materials-ink/trey-benson-silver-rmi-tbn",
+            "reviewedAt": "2026-11-23T06:28:15.862Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $5-$25, not a statistical interval. Owned base Rookie Materials Ink PSA 9; related Silver /99 raw reports $19.99 January 27, 2026 and $20 October 1, 2025. Working $10 deliberately below those related-parallel anchors, no grading premium. Different parallel and raw condition; judgment adjustment, not same-card sale. /75 rows and algorithm graded values excluded. Owned base /299 designation from saved checklist review; not Silver /99; no rarity premium. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 5,
+              "high": 25,
+              "currency": "USD"
+            },
+            "scarcity": "Owned base /299 designation from saved checklist review; not Silver /99; no rarity premium.",
+            "comparables": [
+              {
+                "date": "2026-01-27",
+                "price": 19.99,
+                "url": "https://www.ebay.com/itm/326791060518",
+                "status": "secondary raw Silver /99 comparison, different parallel"
+              }
+            ],
+            "priorResearch": [
+              {
+                "copyId": "PSA:114218231",
+                "ownedIdentity": {
+                  "cert": "114218231",
+                  "subject": "TREY BENSON",
+                  "year": "2024",
+                  "brand": "PANINI OBSIDIAN ROOKIE MATERIALS INK",
+                  "cardNumber": "RMITBN",
+                  "variety": null,
+                  "grader": "PSA",
+                  "grade": "9"
+                },
+                "priorResearchFile": "data/originals/resume-cards-results.json",
+                "queries": [
+                  "Trey Benson RMI PSA 9 -green"
+                ],
+                "evidence": [
+                  {
+                    "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-obsidian-rookie-materials-ink/trey-benson-rmi-tbn",
+                    "observedAt": "2026-11-15",
+                    "access": "direct exact archive inspected; browser fallback where specified",
+                    "accepted": false,
+                    "reason": "Browser fallback verified baseRMI-TBN archive:30 raw, zero grade9. Displayed22.64 explicitly algorithm-derived, excluded."
+                  }
+                ],
+                "status": "unresolved-after-new-search",
+                "proposedValue": null,
+                "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+              }
+            ],
+            "refresh": "Web evidence retrieved November22 Phoenix local date; direct eBay photos unavailable. Browser retry this run failed GetCursorPos access denied."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "PSA:121629672",
+      "revision": "7b920b205af754f566820e8ff61bcd674e460e2aa3f5281fda5c93876af395ae",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-2-PSA-121629672",
+          "copyId": "PSA:121629672",
+          "basis": "owner",
+          "value": 23,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-photogenic-rookie-pix/marvin-harrison-jr-red-6",
+            "asOf": null,
+            "retrievedAt": "2026-11-23T06:28:15.862Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "PANINI PHOTOGENIC ROOKIE PIX",
+              "series": "",
+              "subject": "MARVIN HARRISON JR.",
+              "cardNumber": "6",
+              "variety": "ROOKIE PIX-RED",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $15-$45, not a statistical interval. Owned PSA label verifies Rookie Pix-Red #6 PSA 10; same designation PSA 9 report $23 May 21, 2026, eBay358067918945. Retain $23 without a PSA 10 premium. Low-resolution owned serial stamp ambiguous; source/checklist says Red /49. No exact PSA 10 sale; no claim that owned serial digits were verified. Red /49 per checklist; owned serial digits need higher-resolution confirmation. No scarcity premium. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-photogenic-rookie-pix/marvin-harrison-jr-red-6",
+            "reviewedAt": "2026-11-23T06:28:15.862Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $15-$45, not a statistical interval. Owned PSA label verifies Rookie Pix-Red #6 PSA 10; same designation PSA 9 report $23 May 21, 2026, eBay358067918945. Retain $23 without a PSA 10 premium. Low-resolution owned serial stamp ambiguous; source/checklist says Red /49. No exact PSA 10 sale; no claim that owned serial digits were verified. Red /49 per checklist; owned serial digits need higher-resolution confirmation. No scarcity premium. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 15,
+              "high": 45,
+              "currency": "USD"
+            },
+            "scarcity": "Red /49 per checklist; owned serial digits need higher-resolution confirmation. No scarcity premium.",
+            "comparables": [
+              {
+                "date": "2026-05-21",
+                "price": 23,
+                "url": "https://www.ebay.com/itm/358067918945",
+                "status": "secondary PSA 9 report"
+              }
+            ],
+            "priorResearch": [
+              {
+                "copyId": "PSA:121629672",
+                "ownedIdentity": {
+                  "cert": "121629672",
+                  "subject": "MARVIN HARRISON JR.",
+                  "year": "2024",
+                  "brand": "PANINI PHOTOGENIC ROOKIE PIX",
+                  "cardNumber": "6",
+                  "variety": "ROOKIE PIX-RED",
+                  "grader": "PSA",
+                  "grade": "10"
+                },
+                "priorResearchFile": "data/originals/resume-cards-results.json",
+                "queries": [
+                  "Marvin Harrison Rookie Pix red PSA"
+                ],
+                "evidence": [
+                  {
+                    "url": "https://www.sportscardspro.com/game/football-cards-2024-panini-photogenic-rookie-pix/marvin-harrison-jr-red-6",
+                    "observedAt": "2026-11-15",
+                    "access": "search-index inspected",
+                    "accepted": false,
+                    "reason": "New alias Stardust /49 found in raw transaction title; no PSA10 sales."
+                  }
+                ],
+                "status": "unresolved-after-new-search",
+                "proposedValue": null,
+                "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+              }
+            ],
+            "refresh": "Web evidence retrieved November22 Phoenix local date; direct eBay photos unavailable. Browser retry this run failed GetCursorPos access denied."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4401613003",
+      "revision": "1a3f717f482804a15e1be3010a89377d5a89340fd19b06e8a3a338fe3b5596af",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-2-CGC-4401613003",
+          "copyId": "CGC:4401613003",
+          "basis": "owner",
+          "value": 19,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://www.pricecharting.com/game/comic-books-arcade-kings/arcade-kings-marcano-1-2023",
+            "asOf": null,
+            "retrievedAt": "2026-11-23T06:28:15.862Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Arcade Kings",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Image/Skybound",
+              "variant": "Bird City Comics Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $10-$40, not a statistical interval. Owned Bird City/Marcano virgin front visually matches catalog artwork (green helmet, gaming chair and purple PC). Same raw edition reported $18.98 September 6, 2023 eBay305007258582. Round to $19 for owned 9.8 without slab premium. Stale single anchor; preorders and $1 outlier not used. Bird City virgin exclusive; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-arcade-kings/arcade-kings-marcano-1-2023",
+            "reviewedAt": "2026-11-23T06:28:15.862Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $10-$40, not a statistical interval. Owned Bird City/Marcano virgin front visually matches catalog artwork (green helmet, gaming chair and purple PC). Same raw edition reported $18.98 September 6, 2023 eBay305007258582. Round to $19 for owned 9.8 without slab premium. Stale single anchor; preorders and $1 outlier not used. Bird City virgin exclusive; numeric print run unverified. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 10,
+              "high": 40,
+              "currency": "USD"
+            },
+            "scarcity": "Bird City virgin exclusive; numeric print run unverified.",
+            "comparables": [
+              {
+                "date": "2023-09-06",
+                "price": 18.98,
+                "url": "https://www.ebay.com/itm/305007258582",
+                "status": "secondary raw report; catalog art visually matched"
+              }
+            ],
+            "priorResearch": [
+              {
+                "certificate": "4401613003",
+                "owned": "Arcade Kings #1 Bird City Comics / Anna Marcano, CGC Universal 9.8",
+                "certificateUrl": "https://comicbookrealm.com/cgc-analyzer/certificate/id/4401613003",
+                "analyzerUrl": "https://comicbookrealm.com/cgc-analyzer/comic/id/341811/image-skybound-arcade-kings-1",
+                "certificateEvidence": {
+                  "grade": 9.8,
+                  "category": "Modern",
+                  "pages": "White",
+                  "submission": "CGC1139299205",
+                  "cover": "Anna Marcano",
+                  "notes": "Virgin cover",
+                  "recordedSales": 0
+                },
+                "analyzerEvidence": {
+                  "variant": "Bird City Comics Edition",
+                  "category": "Universal/Modern",
+                  "recordedSales": 0,
+                  "gradeRow": "9.8 | 0 | - | - | *",
+                  "estimatedValue": null
+                },
+                "status": "unresolved",
+                "reason": "Exact grade/category/variant has no recorded history or guide amount.",
+                "copyId": "CGC:4401613003"
+              }
+            ],
+            "refresh": "Web evidence retrieved November22 Phoenix local date; direct eBay photos unavailable. Browser retry this run failed GetCursorPos access denied."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4381117003",
+      "revision": "6f708771795dc6b72588a83a1ed0705d7e27dc710612697bc74086ede0b02af5",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-2-CGC-4381117003",
+          "copyId": "CGC:4381117003",
+          "basis": "owner",
+          "value": 20,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-marcano-virgin-5-2023",
+            "asOf": null,
+            "retrievedAt": "2026-11-23T06:28:15.862Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "w0rldtr33",
+              "issue": "5",
+              "issueYear": "2023",
+              "publisher": "Image Comics",
+              "variant": "The Comic Corner Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $10-$50, not a statistical interval. Owned full-color Marcano Comic Corner /300 identity previously visually verified. Explicit LTD300 raw report $10 May 2, 2024 eBay355447849644 and Comic Corner raw $21 November 29, 2023 support a conservative $20 appraisal with no grading premium. Stale/secondary. NYCC150 rows, mixed aggregate $49.96, ambiguous descriptions and preorder $59.99 excluded. 300 copies retailer/COA claim for full-color edition; not NYCC color-splash150. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-marcano-virgin-5-2023",
+            "reviewedAt": "2026-11-23T06:28:15.862Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $10-$50, not a statistical interval. Owned full-color Marcano Comic Corner /300 identity previously visually verified. Explicit LTD300 raw report $10 May 2, 2024 eBay355447849644 and Comic Corner raw $21 November 29, 2023 support a conservative $20 appraisal with no grading premium. Stale/secondary. NYCC150 rows, mixed aggregate $49.96, ambiguous descriptions and preorder $59.99 excluded. 300 copies retailer/COA claim for full-color edition; not NYCC color-splash150. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 10,
+              "high": 50,
+              "currency": "USD"
+            },
+            "scarcity": "300 copies retailer/COA claim for full-color edition; not NYCC color-splash150.",
+            "comparables": [
+              {
+                "date": "2024-05-02",
+                "price": 10,
+                "url": "https://www.ebay.com/itm/355447849644",
+                "status": "secondary explicit LTD300 raw sale"
+              },
+              {
+                "date": "2023-11-29",
+                "price": 21,
+                "status": "secondary Comic Corner raw sale; transaction ID not captured"
+              }
+            ],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4381117003",
+                "cert": "4381117003",
+                "status": "unresolved-edition-resolved",
+                "proposedValue": null,
+                "validatedAliases": [
+                  "Anna Marcano Comic Corner virgin full-color300"
+                ],
+                "evidence": [
+                  {
+                    "url": "https://www.sadlemoncomics.com/products/w0rldtr33-5-anna-marcano-virgin-variant-limited-to-300-copies-with-numbered-coa",
+                    "access": "Direct page and downloaded retailer artwork visually compared to owned front/back",
+                    "localPhoto": "data/originals/deeper-marcano300.jpg",
+                    "accepted": false,
+                    "reason": "Identity reference only raw soldout GBP29.95. Exact fullcolor green digital background/fleshcolor artwork matches owned300."
+                  },
+                  {
+                    "url": "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-nycc-marcano-virgin-5-2023",
+                    "accepted": false,
+                    "reason": "Individual9.8 $115 2026-02-11 and94.30 2026-01-18 explicitly NYCC ColorSplash150; owned matches300fullcolor; exclude."
+                  },
+                  {
+                    "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/328280/image-comics-w0rldtr33-5",
+                    "access": "Livebrowser certsearch4381117003 thenanalyze",
+                    "accepted": false,
+                    "reason": "ExactComicCorner Universal9.8 but zero recorded sales allgrades, no estimate."
+                  }
+                ],
+                "nextAction": "Find CGC9.8 regular300 fullcolor sales; NYCC keyword alone unreliable"
+              }
+            ],
+            "refresh": "Web evidence retrieved November22 Phoenix local date; direct eBay photos unavailable. Browser retry this run failed GetCursorPos access denied."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4350046004",
+      "revision": "84ec91b893a1158c3caf2e2bf334a8d8ae33ecae8b2203df77dfb9f3fc70fb08",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-2-CGC-4350046004",
+          "copyId": "CGC:4350046004",
+          "basis": "owner",
+          "value": 65,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://www.pricecharting.com/game/comic-books-usagi-yojimbo-ice-and-snow/usagi-yojimbo-ice-and-snow-preview-sdcc-gold-foil-1-2023",
+            "asOf": null,
+            "retrievedAt": "2026-11-23T06:28:15.862Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Usagi Yojimbo: Ice and Snow SDCC Preview",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Dark Horse Comics",
+              "variant": "Gold Foil Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $40-$100, not a statistical interval. Owned front/slab Gold Foil SDCC Preview 9.8 inspected. Archive raw gold foil report $85 July 31, 2023 eBay404400183994 says LE250; owned cover explicitly says limited500. Treat as potentially related subedition, not an exact scarcity match. $65 judgment below stale $85 anchor, no slab premium. Signed/remarqued and Chalk Girl NYCC editions excluded. Owned cover states limited500; seller title LE250 may refer to foil subset but unverified. Preserve conflict; no250 claim. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-usagi-yojimbo-ice-and-snow/usagi-yojimbo-ice-and-snow-preview-sdcc-gold-foil-1-2023",
+            "reviewedAt": "2026-11-23T06:28:15.862Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $40-$100, not a statistical interval. Owned front/slab Gold Foil SDCC Preview 9.8 inspected. Archive raw gold foil report $85 July 31, 2023 eBay404400183994 says LE250; owned cover explicitly says limited500. Treat as potentially related subedition, not an exact scarcity match. $65 judgment below stale $85 anchor, no slab premium. Signed/remarqued and Chalk Girl NYCC editions excluded. Owned cover states limited500; seller title LE250 may refer to foil subset but unverified. Preserve conflict; no250 claim. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 40,
+              "high": 100,
+              "currency": "USD"
+            },
+            "scarcity": "Owned cover states limited500; seller title LE250 may refer to foil subset but unverified. Preserve conflict; no250 claim.",
+            "comparables": [
+              {
+                "date": "2023-07-31",
+                "price": 85,
+                "url": "https://www.ebay.com/itm/404400183994",
+                "status": "stale secondary raw gold foil; print-run conflict"
+              }
+            ],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4350046004",
+                "cert": "4350046004",
+                "status": "no-exact-grade-row",
+                "checkedAt": "2026-11-15",
+                "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/319858/dark-horse-comics-usagi-yojimbo-ice-and-snow-sdcc-preview-1",
+                "value": null,
+                "finding": "Browser certificate search -> analyze verified Gold Foil Universal 9.8; zero all grades. Exact grade has zero reported sales and no estimate. Adjacent grades excluded."
+              }
+            ],
+            "refresh": "Web evidence retrieved November22 Phoenix local date; direct eBay photos unavailable. Browser retry this run failed GetCursorPos access denied."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4350046013",
+      "revision": "9979c1b513c5f98cba7ddde1105579e40be0a8ba221226b98b55abc435123d92",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-2-CGC-4350046013",
+          "copyId": "CGC:4350046013",
+          "basis": "owner",
+          "value": 40,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/319960/boom-studios-grim-11",
+            "asOf": null,
+            "retrievedAt": "2026-11-15"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Grim",
+              "issue": "11",
+              "issueYear": "2023",
+              "publisher": "Boom! Studios",
+              "variant": "Frison Sketch Cover",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Qualified",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $25-$60, not a statistical interval. Saved November15 Universal9.8 guide $60, one reported April2,2026 sale. Owned Qualified9.8 label differs. $40 is judgment discount for qualification uncertainty, not observed label ratio; no signature uplift or claim of exact sale. Edition production count unknown. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/319960/boom-studios-grim-11",
+            "reviewedAt": "2026-11-23T06:28:15.862Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $25-$60, not a statistical interval. Saved November15 Universal9.8 guide $60, one reported April2,2026 sale. Owned Qualified9.8 label differs. $40 is judgment discount for qualification uncertainty, not observed label ratio; no signature uplift or claim of exact sale. Edition production count unknown. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 25,
+              "high": 60,
+              "currency": "USD"
+            },
+            "scarcity": "Edition production count unknown.",
+            "comparables": [],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4350046013",
+                "cert": "4350046013",
+                "status": "excluded-secondary-guide-mismatch",
+                "checkedAt": "2026-11-15",
+                "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/319960/boom-studios-grim-11",
+                "candidatePrice": 60,
+                "value": null,
+                "finding": "Certificate explicitly Qualified9.8, analyze table Universal/Modern9.8 estimated60 one reported sale Apr2,2026. Category mismatch; not eligible.",
+                "nextAction": "Find exact label/foil subedition evidence."
+              }
+            ],
+            "refresh": "Saved browser evidence November15; not refreshed."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4214394003",
+      "revision": "32cc0ba9e298dab8abe0f32f0fecfa1d5e1eb47f2f5e4fd2476a0710dd95b7c8",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-2-CGC-4214394003",
+          "copyId": "CGC:4214394003",
+          "basis": "owner",
+          "value": 35,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/304746/whatnot-publishing-the-exiled-1",
+            "asOf": null,
+            "retrievedAt": "2026-11-15"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "The Exiled",
+              "issue": "1",
+              "issueYear": "2023",
+              "publisher": "Whatnot Publishing",
+              "variant": "SMZ Comics Foil Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Qualified",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $20-$55, not a statistical interval. Saved November15 Universal9.8 guide $55, two reported sales last September22,2024. Owned Qualified9.8 differs. $35 judgment discount for label uncertainty, not measured ratio. Stale thin guide. Numeric print run unknown; no rarity premium. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/304746/whatnot-publishing-the-exiled-1",
+            "reviewedAt": "2026-11-23T06:28:15.862Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $20-$55, not a statistical interval. Saved November15 Universal9.8 guide $55, two reported sales last September22,2024. Owned Qualified9.8 differs. $35 judgment discount for label uncertainty, not measured ratio. Stale thin guide. Numeric print run unknown; no rarity premium. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 20,
+              "high": 55,
+              "currency": "USD"
+            },
+            "scarcity": "Numeric print run unknown; no rarity premium.",
+            "comparables": [],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4214394003",
+                "cert": "4214394003",
+                "status": "excluded-secondary-guide-mismatch",
+                "checkedAt": "2026-11-15",
+                "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/304746/whatnot-publishing-the-exiled-1",
+                "candidatePrice": 55,
+                "value": null,
+                "finding": "Certificate explicitly Qualified9.8, analyze table Universal/Modern9.8 estimated55 two reported sales lastSep22,2024. Category mismatch; not eligible.",
+                "nextAction": "Find exact label/foil subedition evidence."
+              }
+            ],
+            "refresh": "Saved browser evidence November15; not refreshed."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4177706003",
+      "revision": "b44ed31a5812fe2dc3cb9519f80aab937a847d20e3414a357e7cc73e64b534ea",
+      "observations": [
+        {
+          "id": "2026-11-22-appraisal-loop-2-CGC-4177706003",
+          "copyId": "CGC:4177706003",
+          "basis": "owner",
+          "value": 50,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/297320/counterpoint-do-you-pooh-1",
+            "asOf": null,
+            "retrievedAt": "2026-11-15"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Do You Pooh?",
+              "issue": "1",
+              "issueYear": "2022",
+              "publisher": "Counterpoint",
+              "variant": "Whatnot NYCC Magma Edition A",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $30-$75, not a statistical interval. Saved November15 Whatnot NYCC Foil A Universal9.8 guide $65, two reported sales latest July6,2026. Guide pools foil finishes; owned Magma A29/100 not separately priced. $50 judgment below pooled guide; not an exact finish comparable. Owned Magma A29/100 recorded in prior visual review; pooled guide cannot establish Magma premium. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/297320/counterpoint-do-you-pooh-1",
+            "reviewedAt": "2026-11-23T06:28:15.862Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $30-$75, not a statistical interval. Saved November15 Whatnot NYCC Foil A Universal9.8 guide $65, two reported sales latest July6,2026. Guide pools foil finishes; owned Magma A29/100 not separately priced. $50 judgment below pooled guide; not an exact finish comparable. Owned Magma A29/100 recorded in prior visual review; pooled guide cannot establish Magma premium. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 30,
+              "high": 75,
+              "currency": "USD"
+            },
+            "scarcity": "Owned Magma A29/100 recorded in prior visual review; pooled guide cannot establish Magma premium.",
+            "comparables": [],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4177706003",
+                "cert": "4177706003",
+                "status": "excluded-secondary-guide-mismatch",
+                "checkedAt": "2026-11-15",
+                "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/297320/counterpoint-do-you-pooh-1",
+                "candidatePrice": 65,
+                "value": null,
+                "finding": "Certificate maps Whatnot NYCC Foil Edition A Universal9.8 estimated65 two reported sales lastJul6,2026. Page explicitly Multiple foil variants exist; no Magma A29/100 differentiation. Mixedfoil estimate not eligible.",
+                "nextAction": "Find exact label/foil subedition evidence."
+              }
+            ],
+            "refresh": "Saved browser evidence November15; not refreshed."
+          }
+        }
+      ]
+    }
+  ]
+}

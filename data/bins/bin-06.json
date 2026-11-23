@@ -1131,6 +1131,87 @@
         "url": "https://gocollect.com/app/comic/grim-11-frison-sdcc-2023-variant",
         "status": "no-sales",
         "fetchedAt": "2026-08-21T05:09:39.436Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-loop-2-CGC-4350046013",
+            "copyId": "CGC:4350046013",
+            "basis": "owner",
+            "value": 40,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/319960/boom-studios-grim-11",
+              "asOf": null,
+              "retrievedAt": "2026-11-15"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Grim",
+                "issue": "11",
+                "issueYear": "2023",
+                "publisher": "Boom! Studios",
+                "variant": "Frison Sketch Cover",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Qualified",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $25-$60, not a statistical interval. Saved November15 Universal9.8 guide $60, one reported April2,2026 sale. Owned Qualified9.8 label differs. $40 is judgment discount for qualification uncertainty, not observed label ratio; no signature uplift or claim of exact sale. Edition production count unknown. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/319960/boom-studios-grim-11",
+              "reviewedAt": "2026-11-23T06:28:15.862Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $25-$60, not a statistical interval. Saved November15 Universal9.8 guide $60, one reported April2,2026 sale. Owned Qualified9.8 label differs. $40 is judgment discount for qualification uncertainty, not observed label ratio; no signature uplift or claim of exact sale. Edition production count unknown. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 25,
+                "high": 60,
+                "currency": "USD"
+              },
+              "scarcity": "Edition production count unknown.",
+              "comparables": [],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:4350046013",
+                  "cert": "4350046013",
+                  "status": "excluded-secondary-guide-mismatch",
+                  "checkedAt": "2026-11-15",
+                  "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/319960/boom-studios-grim-11",
+                  "candidatePrice": 60,
+                  "value": null,
+                  "finding": "Certificate explicitly Qualified9.8, analyze table Universal/Modern9.8 estimated60 one reported sale Apr2,2026. Category mismatch; not eligible.",
+                  "nextAction": "Find exact label/foil subedition evidence."
+                }
+              ],
+              "refresh": "Saved browser evidence November15; not refreshed."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-loop-2-CGC-4350046013",
+          "locked": true,
+          "selectedAt": "2026-11-23T06:28:23.636Z"
+        }
       }
     },
     {

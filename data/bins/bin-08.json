@@ -1028,7 +1028,86 @@
             }
           }
         ],
-        "legacyInvalidatedAt": "2026-11-15T22:36:33.442Z"
+        "legacyInvalidatedAt": "2026-11-15T22:36:33.442Z",
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-loop-2-CGC-4177706003",
+            "copyId": "CGC:4177706003",
+            "basis": "owner",
+            "value": 50,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/297320/counterpoint-do-you-pooh-1",
+              "asOf": null,
+              "retrievedAt": "2026-11-15"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Do You Pooh?",
+                "issue": "1",
+                "issueYear": "2022",
+                "publisher": "Counterpoint",
+                "variant": "Whatnot NYCC Magma Edition A",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $30-$75, not a statistical interval. Saved November15 Whatnot NYCC Foil A Universal9.8 guide $65, two reported sales latest July6,2026. Guide pools foil finishes; owned Magma A29/100 not separately priced. $50 judgment below pooled guide; not an exact finish comparable. Owned Magma A29/100 recorded in prior visual review; pooled guide cannot establish Magma premium. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/297320/counterpoint-do-you-pooh-1",
+              "reviewedAt": "2026-11-23T06:28:15.862Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $30-$75, not a statistical interval. Saved November15 Whatnot NYCC Foil A Universal9.8 guide $65, two reported sales latest July6,2026. Guide pools foil finishes; owned Magma A29/100 not separately priced. $50 judgment below pooled guide; not an exact finish comparable. Owned Magma A29/100 recorded in prior visual review; pooled guide cannot establish Magma premium. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 30,
+                "high": 75,
+                "currency": "USD"
+              },
+              "scarcity": "Owned Magma A29/100 recorded in prior visual review; pooled guide cannot establish Magma premium.",
+              "comparables": [],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:4177706003",
+                  "cert": "4177706003",
+                  "status": "excluded-secondary-guide-mismatch",
+                  "checkedAt": "2026-11-15",
+                  "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/297320/counterpoint-do-you-pooh-1",
+                  "candidatePrice": 65,
+                  "value": null,
+                  "finding": "Certificate maps Whatnot NYCC Foil Edition A Universal9.8 estimated65 two reported sales lastJul6,2026. Page explicitly Multiple foil variants exist; no Magma A29/100 differentiation. Mixedfoil estimate not eligible.",
+                  "nextAction": "Find exact label/foil subedition evidence."
+                }
+              ],
+              "refresh": "Saved browser evidence November15; not refreshed."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-loop-2-CGC-4177706003",
+          "locked": true,
+          "selectedAt": "2026-11-23T06:28:24.716Z"
+        }
       }
     },
     {

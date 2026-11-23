@@ -516,6 +516,118 @@
         "url": null,
         "status": "not-listed",
         "fetchedAt": "2026-08-17T05:38:41.214Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-22-appraisal-loop-2-CGC-4381117003",
+            "copyId": "CGC:4381117003",
+            "basis": "owner",
+            "value": 20,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-marcano-virgin-5-2023",
+              "asOf": null,
+              "retrievedAt": "2026-11-23T06:28:15.862Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "w0rldtr33",
+                "issue": "5",
+                "issueYear": "2023",
+                "publisher": "Image Comics",
+                "variant": "The Comic Corner Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $10-$50, not a statistical interval. Owned full-color Marcano Comic Corner /300 identity previously visually verified. Explicit LTD300 raw report $10 May 2, 2024 eBay355447849644 and Comic Corner raw $21 November 29, 2023 support a conservative $20 appraisal with no grading premium. Stale/secondary. NYCC150 rows, mixed aggregate $49.96, ambiguous descriptions and preorder $59.99 excluded. 300 copies retailer/COA claim for full-color edition; not NYCC color-splash150. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-marcano-virgin-5-2023",
+              "reviewedAt": "2026-11-23T06:28:15.862Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $10-$50, not a statistical interval. Owned full-color Marcano Comic Corner /300 identity previously visually verified. Explicit LTD300 raw report $10 May 2, 2024 eBay355447849644 and Comic Corner raw $21 November 29, 2023 support a conservative $20 appraisal with no grading premium. Stale/secondary. NYCC150 rows, mixed aggregate $49.96, ambiguous descriptions and preorder $59.99 excluded. 300 copies retailer/COA claim for full-color edition; not NYCC color-splash150. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 10,
+                "high": 50,
+                "currency": "USD"
+              },
+              "scarcity": "300 copies retailer/COA claim for full-color edition; not NYCC color-splash150.",
+              "comparables": [
+                {
+                  "date": "2024-05-02",
+                  "price": 10,
+                  "url": "https://www.ebay.com/itm/355447849644",
+                  "status": "secondary explicit LTD300 raw sale"
+                },
+                {
+                  "date": "2023-11-29",
+                  "price": 21,
+                  "status": "secondary Comic Corner raw sale; transaction ID not captured"
+                }
+              ],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:4381117003",
+                  "cert": "4381117003",
+                  "status": "unresolved-edition-resolved",
+                  "proposedValue": null,
+                  "validatedAliases": [
+                    "Anna Marcano Comic Corner virgin full-color300"
+                  ],
+                  "evidence": [
+                    {
+                      "url": "https://www.sadlemoncomics.com/products/w0rldtr33-5-anna-marcano-virgin-variant-limited-to-300-copies-with-numbered-coa",
+                      "access": "Direct page and downloaded retailer artwork visually compared to owned front/back",
+                      "localPhoto": "data/originals/deeper-marcano300.jpg",
+                      "accepted": false,
+                      "reason": "Identity reference only raw soldout GBP29.95. Exact fullcolor green digital background/fleshcolor artwork matches owned300."
+                    },
+                    {
+                      "url": "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-nycc-marcano-virgin-5-2023",
+                      "accepted": false,
+                      "reason": "Individual9.8 $115 2026-02-11 and94.30 2026-01-18 explicitly NYCC ColorSplash150; owned matches300fullcolor; exclude."
+                    },
+                    {
+                      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/328280/image-comics-w0rldtr33-5",
+                      "access": "Livebrowser certsearch4381117003 thenanalyze",
+                      "accepted": false,
+                      "reason": "ExactComicCorner Universal9.8 but zero recorded sales allgrades, no estimate."
+                    }
+                  ],
+                  "nextAction": "Find CGC9.8 regular300 fullcolor sales; NYCC keyword alone unreliable"
+                }
+              ],
+              "refresh": "Web evidence retrieved November22 Phoenix local date; direct eBay photos unavailable. Browser retry this run failed GetCursorPos access denied."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-22-appraisal-loop-2-CGC-4381117003",
+          "locked": true,
+          "selectedAt": "2026-11-23T06:28:22.565Z"
+        }
       }
     },
     {
