@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "TAG:H5133767",
+      "revision": "0e6b00a995861d39e03005a59a6fdc93d8eb02a73eb70e1e7586a4ca29a49f53",
+      "observations": [
+        {
+          "id": "2026-11-24-appraisal-loop-1-TAG-H5133767",
+          "copyId": "TAG:H5133767",
+          "basis": "owner",
+          "value": 15,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://www.ebay.com/p/5069577644?iid=167003523697",
+            "asOf": null,
+            "retrievedAt": "2026-11-24T16:02:52.332Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2024",
+              "brand": "DONRUSS",
+              "series": "DONRUSS",
+              "subject": "JACKSON CHOURIO",
+              "cardNumber": "193",
+              "variety": "OPTIC RATED PROSPECT · ORANGE",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "10",
+            "grader": "TAG",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $6-$30, not a statistical interval. Estimated from asking prices; not confirmed sales. Same 2024 Donruss Optic Rated Prospect #193 Orange /199 raw copy 134/199 offered for $15 by LaisyW Cards, item167003523697, fetched November24. Owned slab front independently confirms TAG10, Orange and #193. Raw versus graded mismatch: retain $15 raw ask without inventing a TAG10 premium. Other indexed raw asks span $6-$25.99; $8.99 item960009884907 has ended and its replacement page is excluded as a current ask. Current browser confirmation unavailable; source is fetched eBay product/listing page, not completed-sale evidence. Parallel /199 per item specifics and checklist; no rarity premium. Owned serial numerator not established in this check. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://www.ebay.com/p/5069577644?iid=167003523697",
+            "reviewedAt": "2026-11-24T16:02:52.332Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $6-$30, not a statistical interval. Estimated from asking prices; not confirmed sales. Same 2024 Donruss Optic Rated Prospect #193 Orange /199 raw copy 134/199 offered for $15 by LaisyW Cards, item167003523697, fetched November24. Owned slab front independently confirms TAG10, Orange and #193. Raw versus graded mismatch: retain $15 raw ask without inventing a TAG10 premium. Other indexed raw asks span $6-$25.99; $8.99 item960009884907 has ended and its replacement page is excluded as a current ask. Current browser confirmation unavailable; source is fetched eBay product/listing page, not completed-sale evidence. Parallel /199 per item specifics and checklist; no rarity premium. Owned serial numerator not established in this check. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 6,
+              "high": 30,
+              "currency": "USD"
+            },
+            "scarcity": "Parallel /199 per item specifics and checklist; no rarity premium. Owned serial numerator not established in this check.",
+            "comparables": [
+              {
+                "price": 15,
+                "url": "https://www.ebay.com/itm/167003523697",
+                "status": "raw asking price; seller LaisyW Cards; comparable serial134/199; date of sale not applicable; no cert"
+              }
+            ],
+            "priorResearch": [
+              {
+                "copyId": "TAG:H5133767",
+                "ownedIdentity": {
+                  "cert": "H5133767",
+                  "subject": "JACKSON CHOURIO",
+                  "year": "2024",
+                  "brand": "DONRUSS",
+                  "cardNumber": "193",
+                  "variety": "OPTIC RATED PROSPECT · ORANGE",
+                  "grader": "TAG",
+                  "grade": "10"
+                },
+                "priorResearchFile": "data/originals/resume-cards-results.json",
+                "queries": [
+                  "Jackson Chourio 193 Orange PSA 10"
+                ],
+                "evidence": [
+                  {
+                    "url": "https://www.ebay.com/p/26069579930",
+                    "observedAt": "2026-11-15",
+                    "access": "search-index inspected",
+                    "accepted": false,
+                    "reason": "PSA10 offers are Orange Velocity; owned solid orange/199, excluded."
+                  }
+                ],
+                "status": "unresolved-after-new-search",
+                "proposedValue": null,
+                "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution.",
+                "finalVisualAliasPass": {
+                  "checkedAt": "2026-11-15",
+                  "status": "no-supported-addition",
+                  "ownedPhotoReinspected": true,
+                  "listingPhotosMatched": false,
+                  "limitations": "No new exact grade/parallel priced candidate emerged to photo-verify. Focused search, not exhaustive.",
+                  "photo": "data/images/TAG_H5133767_SLAB_FRONT.jpg",
+                  "visual": "Solid orange border and smooth rainbow interior; 2024 Donruss Optic193 TAG10; not Velocity.",
+                  "queries": [
+                    "Jackson Chourio orange prizm gem",
+                    "site:ebay.com/itm Chourio 193 Orange -Velocity",
+                    "Jackson Chourio Orange 193 site:fanaticscollect.com"
+                  ],
+                  "checked": [
+                    {
+                      "url": "https://serialscout.com/search?q=Jackson+Chourio",
+                      "result": "Serial-photo-index search inspected; /199 PSA10 results belong to Topps Chrome Sapphire autograph, not Donruss193."
+                    },
+                    {
+                      "url": "https://www.ebay.com/itm/158289444280",
+                      "result": "Direct indexed listing is raw Orange Velocity193, wrong parallel and ungraded."
+                    }
+                  ]
+                }
+              }
+            ],
+            "refresh": "Owned front inspected; eBay product and individual listing-linked page checked November24. Native browser failed GetCursorPos Access Denied. Broad sampler and Final Boss alias searches gave no new exact priced matches."
+          }
+        }
+      ]
+    }
+  ]
+}

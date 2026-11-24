@@ -1,0 +1,113 @@
+{
+  "reviewedAt": "2026-11-24T16:02:52.332Z",
+  "policy": "Owner-authorized comparative appraisal; no underlying exact-match assertion. No rarity premium without evidence.",
+  "items": [
+    {
+      "copyId": "TAG:H5133767",
+      "value": 15,
+      "range": [
+        6,
+        30
+      ],
+      "url": "https://www.ebay.com/p/5069577644?iid=167003523697",
+      "reason": "Estimated from asking prices; not confirmed sales. Same 2024 Donruss Optic Rated Prospect #193 Orange /199 raw copy 134/199 offered for $15 by LaisyW Cards, item167003523697, fetched November24. Owned slab front independently confirms TAG10, Orange and #193. Raw versus graded mismatch: retain $15 raw ask without inventing a TAG10 premium. Other indexed raw asks span $6-$25.99; $8.99 item960009884907 has ended and its replacement page is excluded as a current ask. Current browser confirmation unavailable; source is fetched eBay product/listing page, not completed-sale evidence.",
+      "scarcity": "Parallel /199 per item specifics and checklist; no rarity premium. Owned serial numerator not established in this check.",
+      "refresh": "Owned front inspected; eBay product and individual listing-linked page checked November24. Native browser failed GetCursorPos Access Denied. Broad sampler and Final Boss alias searches gave no new exact priced matches.",
+      "comparables": [
+        {
+          "price": 15,
+          "url": "https://www.ebay.com/itm/167003523697",
+          "status": "raw asking price; seller LaisyW Cards; comparable serial134/199; date of sale not applicable; no cert"
+        }
+      ],
+      "title": "JACKSON CHOURIO OPTIC RATED PROSPECT · ORANGE TAG 10",
+      "priorResearch": [
+        {
+          "copyId": "TAG:H5133767",
+          "ownedIdentity": {
+            "cert": "H5133767",
+            "subject": "JACKSON CHOURIO",
+            "year": "2024",
+            "brand": "DONRUSS",
+            "cardNumber": "193",
+            "variety": "OPTIC RATED PROSPECT · ORANGE",
+            "grader": "TAG",
+            "grade": "10"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Jackson Chourio 193 Orange PSA 10"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.ebay.com/p/26069579930",
+              "observedAt": "2026-11-15",
+              "access": "search-index inspected",
+              "accepted": false,
+              "reason": "PSA10 offers are Orange Velocity; owned solid orange/199, excluded."
+            }
+          ],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution.",
+          "finalVisualAliasPass": {
+            "checkedAt": "2026-11-15",
+            "status": "no-supported-addition",
+            "ownedPhotoReinspected": true,
+            "listingPhotosMatched": false,
+            "limitations": "No new exact grade/parallel priced candidate emerged to photo-verify. Focused search, not exhaustive.",
+            "photo": "data/images/TAG_H5133767_SLAB_FRONT.jpg",
+            "visual": "Solid orange border and smooth rainbow interior; 2024 Donruss Optic193 TAG10; not Velocity.",
+            "queries": [
+              "Jackson Chourio orange prizm gem",
+              "site:ebay.com/itm Chourio 193 Orange -Velocity",
+              "Jackson Chourio Orange 193 site:fanaticscollect.com"
+            ],
+            "checked": [
+              {
+                "url": "https://serialscout.com/search?q=Jackson+Chourio",
+                "result": "Serial-photo-index search inspected; /199 PSA10 results belong to Topps Chrome Sapphire autograph, not Donruss193."
+              },
+              {
+                "url": "https://www.ebay.com/itm/158289444280",
+                "result": "Direct indexed listing is raw Orange Velocity193, wrong parallel and ungraded."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "additionalChecks": [
+    {
+      "copyId": "CGC:1401011131203",
+      "url": "https://www.pricecharting.com/game/pokemon-2003-topps-advanced/cacturne-foil-21",
+      "finding": "Raw12.49 report June13,2025, eBay297406639302 explicitly Heavily Played. No grade9 rows. Inexact low-condition anchor for later appraisal; not accepted this batch. Direct eBay fetch restricted; browser Access Denied."
+    },
+    {
+      "copyId": "CGC:4526002009",
+      "finding": "Owned scan confirms purple lightning Jumpman Dark Knight homage, Comic Kingdom Virgin CGC9.6. MyComicShop catalog reports250 regular virgin vs125 spotfoil. Foil9.8 ask90 cert4495839020 is different finish and grade, not exact. eBay index raw virgin25 cutthroat_comics requires listing-photo check; WuTangSajadShah26 default option excluded.",
+      "urls": [
+        "https://www.mycomicshop.com/search?TID=62313652",
+        "https://www.mycomicshop.com/search?cgc=y&tid=62313652",
+        "https://www.ebay.com/shop/kobe-bryant-comic-book?_nkw=kobe+bryant+comic+book"
+      ]
+    },
+    {
+      "copyId": "CGC:4350046019",
+      "finding": "Sold raw168445351462 now404. Cached127056138291 shows35 versus earlier30; photos resolve invalid itm/0. No current-photo verification; retain as pending related raw lead."
+    },
+    {
+      "copyId": "CGC:4203411005",
+      "finding": "Kickstradomis alias search only mixed edition GoCollect results; no new exact price."
+    },
+    {
+      "copyId": "CGC:4350047001",
+      "finding": "SMZ Marat Jumpman query no new priced match."
+    },
+    {
+      "copyId": "CGC:4395549003",
+      "finding": "420 foil query no new priced match."
+    }
+  ]
+}
