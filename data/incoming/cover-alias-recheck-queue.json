@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T03:01:10.678Z",
+  "updatedAt": "2026-11-24T03:05:10.641Z",
   "method": "docs/valuation-cover-research-method.md",
   "items": [
     {
@@ -71,6 +71,23 @@
               "reason": "CBR returns blankcertdetails generic problem warning; not independently substantiated CGCissue. Noestimateavailable."
             }
           ]
+        },
+        {
+          "checkedAt": "2026-11-24T03:05:10.641Z",
+          "status": "Cover reviewed; actionable aliases saved",
+          "details": {
+            "copyIds": [
+              "CGC:4203411005"
+            ],
+            "catalogVariant": "Kickstradomis Red Lava Edition",
+            "artistLabel": "Kickstradomis",
+            "searchAliases": [
+              "Whatnot Publishing Sampler Kickstradomis red lava foil Jumpman 2022"
+            ],
+            "visualFeatures": "Red lava foil, black character leaping basketball pose over skyline; Whatnot Publishing logo",
+            "verifiedBy": "Owned front scan and slab label inspected November 23",
+            "gradeCaution": "Owned CGC 10. Ordinary ashcan, Mack foil and retailer thank-you prices are not exact matches."
+          }
         }
       ]
     },
@@ -435,6 +452,25 @@
           "value": null,
           "finding": "Live browser certificate search -> analyze verified ComicTom101 Foil Universal 9.9. Owned grade row has zero reported sales and no estimate. Adjacent grades excluded.",
           "nextAction": "Seek exact grade actual slab transaction or active listing; no raw or adjacent grade substitution."
+        },
+        {
+          "checkedAt": "2026-11-24T03:05:10.641Z",
+          "status": "Cover reviewed; actionable aliases saved",
+          "details": {
+            "copyIds": [
+              "CGC:4350046019"
+            ],
+            "catalogVariant": "ComicTom101 Foil Edition",
+            "artistLabel": "Zoe Lacchei",
+            "searchAliases": [
+              "The Boys Starlight Zoe Lacchei SDCC 2023 color splash virgin 350"
+            ],
+            "visualFeatures": "Blonde Starlight holding The Seven book against American flag; foil",
+            "sourceUrl": "https://www.ebay.com/itm/168445351462",
+            "verifiedBy": "Owned front scan and slab label inspected November 23; candidate image comparison still pending",
+            "sellerStatedPrintRun": 350,
+            "gradeCaution": "Owned 9.9; raw candidate sold listing $19.99 is not a graded comparable. Johnny Desjardins 2024 foil excluded."
+          }
         }
       ]
     },
@@ -455,6 +491,23 @@
           "value": null,
           "finding": "Live browser certificate search -> analyze verified SMZ Foil Universal 9.2. Owned grade row has zero reported sales and no estimate. Adjacent grades excluded.",
           "nextAction": "Seek exact grade actual slab transaction or active listing; no raw or adjacent grade substitution."
+        },
+        {
+          "checkedAt": "2026-11-24T03:05:10.641Z",
+          "status": "Cover reviewed; actionable aliases saved",
+          "details": {
+            "copyIds": [
+              "CGC:4350047001"
+            ],
+            "catalogVariant": "SMZ Comics Foil Edition",
+            "artistLabel": "Marat Mychaels",
+            "searchAliases": [
+              "Final Boss 3 Marat Mychaels SMZ Jumpman Jordan homage foil virgin"
+            ],
+            "visualFeatures": "Jumpman pose with flaming raised fist over Chicago skyline; Marat and Ifan printed signatures",
+            "verifiedBy": "Owned front scan and slab label inspected November 23",
+            "gradeCaution": "Owned Universal 9.2, 2023. Will Toliver listing 187026285636 is another artist; 2026 Image issue and signed issue 5 excluded."
+          }
         }
       ]
     },

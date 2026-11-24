@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T16:05:35.589Z",
+  "updatedAt": "2026-11-24T03:05:10.638Z",
   "entries": [
     {
       "copyIds": [
@@ -260,10 +260,15 @@
       ],
       "catalogVariant": "ComicTom101 Foil Edition",
       "searchAliases": [
-        "The Boys Special Edition1 Zoe Lacchei Starlight ComicTom101 SDCC2023 virgin foil"
+        "The Boys Starlight Zoe Lacchei SDCC 2023 color splash virgin 350"
       ],
-      "visualFeatures": null,
-      "verification": "Owned scan reviewed; search aliases are discovery terms, not proof that every returned listing matches"
+      "visualFeatures": "Blonde Starlight holding The Seven book against American flag; foil",
+      "verification": "Owned scan reviewed; search aliases are discovery terms, not proof that every returned listing matches",
+      "artistLabel": "Zoe Lacchei",
+      "sourceUrl": "https://www.ebay.com/itm/168445351462",
+      "verifiedBy": "Owned front scan and slab label inspected November 23; candidate image comparison still pending",
+      "sellerStatedPrintRun": 350,
+      "gradeCaution": "Owned 9.9; raw candidate sold listing $19.99 is not a graded comparable. Johnny Desjardins 2024 foil excluded."
     },
     {
       "copyIds": [
@@ -283,10 +288,13 @@
       ],
       "catalogVariant": "SMZ Comics Foil Edition",
       "searchAliases": [
-        "Final Boss3 Marat Mychaels Air Jordan homage SMZ virgin foil"
+        "Final Boss 3 Marat Mychaels SMZ Jumpman Jordan homage foil virgin"
       ],
-      "visualFeatures": null,
-      "verification": "Owned scan reviewed; search aliases are discovery terms, not proof that every returned listing matches"
+      "visualFeatures": "Jumpman pose with flaming raised fist over Chicago skyline; Marat and Ifan printed signatures",
+      "verification": "Owned scan reviewed; search aliases are discovery terms, not proof that every returned listing matches",
+      "artistLabel": "Marat Mychaels",
+      "verifiedBy": "Owned front scan and slab label inspected November 23",
+      "gradeCaution": "Owned Universal 9.2, 2023. Will Toliver listing 187026285636 is another artist; 2026 Image issue and signed issue 5 excluded."
     },
     {
       "copyIds": [
@@ -466,6 +474,19 @@
       ],
       "visualFeatures": null,
       "verification": "Owned scan reviewed; search aliases are discovery terms, not proof that every returned listing matches"
+    },
+    {
+      "copyIds": [
+        "CGC:4203411005"
+      ],
+      "catalogVariant": "Kickstradomis Red Lava Edition",
+      "artistLabel": "Kickstradomis",
+      "searchAliases": [
+        "Whatnot Publishing Sampler Kickstradomis red lava foil Jumpman 2022"
+      ],
+      "visualFeatures": "Red lava foil, black character leaping basketball pose over skyline; Whatnot Publishing logo",
+      "verifiedBy": "Owned front scan and slab label inspected November 23",
+      "gradeCaution": "Owned CGC 10. Ordinary ashcan, Mack foil and retailer thank-you prices are not exact matches."
     }
   ]
 }
