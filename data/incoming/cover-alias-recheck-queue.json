@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T16:08:36.655Z",
+  "updatedAt": "2026-11-24T03:01:10.678Z",
   "method": "docs/valuation-cover-research-method.md",
   "items": [
     {
@@ -21,30 +21,6 @@
               "access": "Livebrowser certsearch thenanalyze; Farr8.0 sameeditiontable from9.4cert",
               "accepted": false,
               "reason": "Exact420FoilB9.8 zeroallsales"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "copyId": "CGC:4418876010",
-      "title": "Marvel Previews",
-      "grade": "8.0",
-      "front": "4418876010_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4418876010",
-          "cert": "4418876010",
-          "status": "unresolved",
-          "proposedValue": null,
-          "evidence": [
-            {
-              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/337090/marvel-comics-marvel-previews-26",
-              "access": "Livebrowser certsearch thenanalyze",
-              "accepted": false,
-              "reason": "ExactChecchetto26 Universal8.0 allgradesempty0sales"
             }
           ]
         }
@@ -463,25 +439,6 @@
       ]
     },
     {
-      "copyId": "CGC:4350046002",
-      "title": "w0rldtr33",
-      "grade": "9.8",
-      "front": "4350046002_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4350046002",
-          "cert": "4350046002",
-          "status": "no-exact-grade-row",
-          "checkedAt": "2026-11-15",
-          "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/320174/image-comics-w0rldtr33-3",
-          "value": null,
-          "finding": "Browser certificate search -> analyze verified CBNS Gaydos Universal 9.8; zero all grades. Exact grade has zero reported sales and no estimate. Adjacent grades excluded."
-        }
-      ]
-    },
-    {
       "copyId": "CGC:4350047001",
       "title": "Final Boss",
       "grade": "9.2",
@@ -537,25 +494,6 @@
           "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/363330/tidalwave-comics-tribute-kobe-bryant-1",
           "value": null,
           "finding": "Browser certificate search -> analyze verified Comic Kingdom Virgin Universal 9.6. Exact grade has zero reported sales and no estimate. Adjacent grades excluded."
-        }
-      ]
-    },
-    {
-      "copyId": "CGC:4526002008",
-      "title": "Tribute: Tupac Shakur",
-      "grade": "9.6",
-      "front": "4526002008_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4526002008",
-          "cert": "4526002008",
-          "status": "no-exact-grade-row",
-          "checkedAt": "2026-11-15",
-          "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/363162/tidalwave-comics-tribute-tupac-shakur-nn",
-          "value": null,
-          "finding": "Browser certificate search -> analyze verified Cacau Virgin Universal 9.6. Exact grade has zero reported sales and no estimate. Adjacent grades excluded."
         }
       ]
     },
@@ -865,45 +803,6 @@
             "Jacob Misiorowski Chromographs 8 10"
           ],
           "evidence": [],
-          "status": "unresolved-after-new-search",
-          "proposedValue": null,
-          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
-        }
-      ]
-    },
-    {
-      "copyId": "PSA:173415134",
-      "title": "JAXSON DART",
-      "grade": "8",
-      "front": "PSA_173415134_FRONT.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "PSA:173415134",
-          "ownedIdentity": {
-            "cert": "173415134",
-            "subject": "JAXSON DART",
-            "year": "2025",
-            "brand": "TOPPS SIGNATURE CLASS",
-            "cardNumber": "106",
-            "variety": "AUTOGRAPH",
-            "grader": "PSA",
-            "grade": "8"
-          },
-          "priorResearchFile": "data/originals/resume-cards-results.json",
-          "queries": [
-            "Jaxson Dart Signature Class PSA8 auto10"
-          ],
-          "evidence": [
-            {
-              "url": "https://www.ebay.com/shop/jackson-dart-auto?_nkw=jackson+dart+auto",
-              "observedAt": "2026-11-15",
-              "access": "search-index inspected",
-              "accepted": false,
-              "reason": "New PSA8 AUTO10 offers are Resurgence, not SignatureClass106."
-            }
-          ],
           "status": "unresolved-after-new-search",
           "proposedValue": null,
           "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."

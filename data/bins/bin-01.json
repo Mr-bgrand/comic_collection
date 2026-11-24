@@ -230,6 +230,103 @@
         "url": null,
         "status": "not-listed",
         "fetchedAt": "2026-08-17T04:18:50.994Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-23-appraisal-loop-4-CGC-4418876010",
+            "copyId": "CGC:4418876010",
+            "basis": "owner",
+            "value": 4,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://www.pricecharting.com/game/comic-books-marvel-previews/marvel-previews-26-2023",
+              "asOf": null,
+              "retrievedAt": "2026-11-24T03:01:10.678Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Marvel Previews",
+                "issue": "26",
+                "issueYear": "2023",
+                "publisher": "Marvel Comics",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "8.0",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $2-$10, not a statistical interval. Owned8.0 Checchetto UltimateSpiderMan solicitation cover inspected; volume/year matched. Raw seller9.4 report4.99 January3,2026 eBay204680240501 and rawFN2.99 November8,2025 eBay276931106588. Working4 conservative raw-anchor appraisal, no slab premium. Archive shows wider0.99-11.50 recent spread; generic-title rows less specific. 2019/2012 issue26 and old hype peak31 excluded. Free solicitation catalog; no verified numeric print run. Census scarcity not production scarcity. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-marvel-previews/marvel-previews-26-2023",
+              "reviewedAt": "2026-11-24T03:01:10.678Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $2-$10, not a statistical interval. Owned8.0 Checchetto UltimateSpiderMan solicitation cover inspected; volume/year matched. Raw seller9.4 report4.99 January3,2026 eBay204680240501 and rawFN2.99 November8,2025 eBay276931106588. Working4 conservative raw-anchor appraisal, no slab premium. Archive shows wider0.99-11.50 recent spread; generic-title rows less specific. 2019/2012 issue26 and old hype peak31 excluded. Free solicitation catalog; no verified numeric print run. Census scarcity not production scarcity. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 2,
+                "high": 10,
+                "currency": "USD"
+              },
+              "scarcity": "Free solicitation catalog; no verified numeric print run. Census scarcity not production scarcity.",
+              "comparables": [
+                {
+                  "date": "2026-01-03",
+                  "price": 4.99,
+                  "url": "https://www.ebay.com/itm/204680240501",
+                  "status": "secondary raw seller9.4 sale report"
+                },
+                {
+                  "date": "2025-11-08",
+                  "price": 2.99,
+                  "url": "https://www.ebay.com/itm/276931106588",
+                  "status": "secondary rawFN sale report"
+                }
+              ],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:4418876010",
+                  "cert": "4418876010",
+                  "status": "unresolved",
+                  "proposedValue": null,
+                  "evidence": [
+                    {
+                      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/337090/marvel-comics-marvel-previews-26",
+                      "access": "Livebrowser certsearch thenanalyze",
+                      "accepted": false,
+                      "reason": "ExactChecchetto26 Universal8.0 allgradesempty0sales"
+                    }
+                  ]
+                }
+              ],
+              "refresh": "November23 archive inspected. Direct eBay blocked and browser fallback access denied; secondary reported sales only."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-23-appraisal-loop-4-CGC-4418876010",
+          "locked": true,
+          "selectedAt": "2026-11-24T03:01:13.849Z"
+        }
       }
     },
     {

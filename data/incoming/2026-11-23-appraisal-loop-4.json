@@ -1,0 +1,352 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "CGC:4526002008",
+      "revision": "155b3fb7d19d303d129f90afe464b9c1cdec522957e022ff747c58d4dc21c0c9",
+      "observations": [
+        {
+          "id": "2026-11-23-appraisal-loop-4-CGC-4526002008",
+          "copyId": "CGC:4526002008",
+          "basis": "owner",
+          "value": 120,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://www.ebay.com/itm/257655628917",
+            "asOf": null,
+            "retrievedAt": "2026-11-24T03:01:10.678Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Tribute: Tupac Shakur",
+              "issue": "nn",
+              "issueYear": "1900",
+              "publisher": "TidalWave Comics",
+              "variant": "Cacau \"Virgin\" Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.6",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $70-$175, not a statistical interval. Same Cacau Virgin Crow homage Universal9.8 fixed ask199, comparable4761759004, cached November23 page. Owned9.6 front matches saved November15 candidate-photo comparison for sibling4526002007. Working120 is judgment below9.8 asking anchor, not observed grade ratio. Estimated from asking prices; not confirmed sales. Contradictory DavidSanchez/signed item specifics remain noted; photo/label/seller description in saved review showed Cacau Universal. Deferred-grading79 preorder excluded. Locked sibling unchanged. Saved candidate back and retailer describe300 art-only copies; seller/COA-supported run, no automatic rarity premium. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://www.ebay.com/itm/257655628917",
+            "reviewedAt": "2026-11-24T03:01:10.678Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $70-$175, not a statistical interval. Same Cacau Virgin Crow homage Universal9.8 fixed ask199, comparable4761759004, cached November23 page. Owned9.6 front matches saved November15 candidate-photo comparison for sibling4526002007. Working120 is judgment below9.8 asking anchor, not observed grade ratio. Estimated from asking prices; not confirmed sales. Contradictory DavidSanchez/signed item specifics remain noted; photo/label/seller description in saved review showed Cacau Universal. Deferred-grading79 preorder excluded. Locked sibling unchanged. Saved candidate back and retailer describe300 art-only copies; seller/COA-supported run, no automatic rarity premium. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 70,
+              "high": 175,
+              "currency": "USD"
+            },
+            "scarcity": "Saved candidate back and retailer describe300 art-only copies; seller/COA-supported run, no automatic rarity premium.",
+            "comparables": [],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4526002008",
+                "cert": "4526002008",
+                "status": "no-exact-grade-row",
+                "checkedAt": "2026-11-15",
+                "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/363162/tidalwave-comics-tribute-tupac-shakur-nn",
+                "value": null,
+                "finding": "Browser certificate search -> analyze verified Cacau Virgin Universal 9.6. Exact grade has zero reported sales and no estimate. Adjacent grades excluded."
+              }
+            ],
+            "refresh": "November23 cached listing price and owned target front inspected; listing photos rely on saved November15 review. Current checkout availability unverified. Shipping12.70 excluded."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "PSA:173415134",
+      "revision": "b69ad69217207223845efef63e9c55395930bcf2041cf9b71f6e25fcb8c21314",
+      "observations": [
+        {
+          "id": "2026-11-23-appraisal-loop-4-PSA-173415134",
+          "copyId": "PSA:173415134",
+          "basis": "owner",
+          "value": 110,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://theclector.com/cards/football/nfl/topps/2025/signature-class/autographs/jaxson-dart-14513/4813635",
+            "asOf": null,
+            "retrievedAt": "2026-11-24T03:01:10.678Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2025",
+              "brand": "TOPPS SIGNATURE CLASS",
+              "series": "",
+              "subject": "JAXSON DART",
+              "cardNumber": "106",
+              "variety": "AUTOGRAPH",
+              "language": "",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": [
+                {
+                  "name": "JAXSON DART · PSA/DNA Auto 10"
+                }
+              ],
+              "restoration": ""
+            },
+            "grade": "8",
+            "grader": "PSA",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $85-$155, not a statistical interval. Owned PSA8 Auto10 base SignatureClass106 front/label inspected. Exact raw autograph secondary auction reports October13,2026:122.50 dcsports87,125.50 bonbini01,143.50 thecaddycloset; October11:131.50 dcsports87. Working110 judgment below recent raw cluster for grade8; no Auto10 premium. Raw condition/autograph grade unspecified; not dual-grade match. Chrome/Refractor/numbered150 candidates excluded. Older SportsCardsPro200-285.50 reports not used over newer cluster. No numbered short-print designation verified for base autograph; no scarcity premium. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://theclector.com/cards/football/nfl/topps/2025/signature-class/autographs/jaxson-dart-14513/4813635",
+            "reviewedAt": "2026-11-24T03:01:10.678Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $85-$155, not a statistical interval. Owned PSA8 Auto10 base SignatureClass106 front/label inspected. Exact raw autograph secondary auction reports October13,2026:122.50 dcsports87,125.50 bonbini01,143.50 thecaddycloset; October11:131.50 dcsports87. Working110 judgment below recent raw cluster for grade8; no Auto10 premium. Raw condition/autograph grade unspecified; not dual-grade match. Chrome/Refractor/numbered150 candidates excluded. Older SportsCardsPro200-285.50 reports not used over newer cluster. No numbered short-print designation verified for base autograph; no scarcity premium. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 85,
+              "high": 155,
+              "currency": "USD"
+            },
+            "scarcity": "No numbered short-print designation verified for base autograph; no scarcity premium.",
+            "comparables": [],
+            "priorResearch": [
+              {
+                "copyId": "PSA:173415134",
+                "ownedIdentity": {
+                  "cert": "173415134",
+                  "subject": "JAXSON DART",
+                  "year": "2025",
+                  "brand": "TOPPS SIGNATURE CLASS",
+                  "cardNumber": "106",
+                  "variety": "AUTOGRAPH",
+                  "grader": "PSA",
+                  "grade": "8"
+                },
+                "priorResearchFile": "data/originals/resume-cards-results.json",
+                "queries": [
+                  "Jaxson Dart Signature Class PSA8 auto10"
+                ],
+                "evidence": [
+                  {
+                    "url": "https://www.ebay.com/shop/jackson-dart-auto?_nkw=jackson+dart+auto",
+                    "observedAt": "2026-11-15",
+                    "access": "search-index inspected",
+                    "accepted": false,
+                    "reason": "New PSA8 AUTO10 offers are Resurgence, not SignatureClass106."
+                  }
+                ],
+                "status": "unresolved-after-new-search",
+                "proposedValue": null,
+                "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+              }
+            ],
+            "refresh": "Clector and SportsCardsPro inspected November23. Secondary reports; transaction IDs not exposed by Clector. Not independently verified sales."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4418876010",
+      "revision": "73ff4275add4214ee2361af394b31a12c16c37581a9e039491523c357a49f37e",
+      "observations": [
+        {
+          "id": "2026-11-23-appraisal-loop-4-CGC-4418876010",
+          "copyId": "CGC:4418876010",
+          "basis": "owner",
+          "value": 4,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://www.pricecharting.com/game/comic-books-marvel-previews/marvel-previews-26-2023",
+            "asOf": null,
+            "retrievedAt": "2026-11-24T03:01:10.678Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Marvel Previews",
+              "issue": "26",
+              "issueYear": "2023",
+              "publisher": "Marvel Comics",
+              "variant": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "8.0",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $2-$10, not a statistical interval. Owned8.0 Checchetto UltimateSpiderMan solicitation cover inspected; volume/year matched. Raw seller9.4 report4.99 January3,2026 eBay204680240501 and rawFN2.99 November8,2025 eBay276931106588. Working4 conservative raw-anchor appraisal, no slab premium. Archive shows wider0.99-11.50 recent spread; generic-title rows less specific. 2019/2012 issue26 and old hype peak31 excluded. Free solicitation catalog; no verified numeric print run. Census scarcity not production scarcity. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-marvel-previews/marvel-previews-26-2023",
+            "reviewedAt": "2026-11-24T03:01:10.678Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $2-$10, not a statistical interval. Owned8.0 Checchetto UltimateSpiderMan solicitation cover inspected; volume/year matched. Raw seller9.4 report4.99 January3,2026 eBay204680240501 and rawFN2.99 November8,2025 eBay276931106588. Working4 conservative raw-anchor appraisal, no slab premium. Archive shows wider0.99-11.50 recent spread; generic-title rows less specific. 2019/2012 issue26 and old hype peak31 excluded. Free solicitation catalog; no verified numeric print run. Census scarcity not production scarcity. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 2,
+              "high": 10,
+              "currency": "USD"
+            },
+            "scarcity": "Free solicitation catalog; no verified numeric print run. Census scarcity not production scarcity.",
+            "comparables": [
+              {
+                "date": "2026-01-03",
+                "price": 4.99,
+                "url": "https://www.ebay.com/itm/204680240501",
+                "status": "secondary raw seller9.4 sale report"
+              },
+              {
+                "date": "2025-11-08",
+                "price": 2.99,
+                "url": "https://www.ebay.com/itm/276931106588",
+                "status": "secondary rawFN sale report"
+              }
+            ],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4418876010",
+                "cert": "4418876010",
+                "status": "unresolved",
+                "proposedValue": null,
+                "evidence": [
+                  {
+                    "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/337090/marvel-comics-marvel-previews-26",
+                    "access": "Livebrowser certsearch thenanalyze",
+                    "accepted": false,
+                    "reason": "ExactChecchetto26 Universal8.0 allgradesempty0sales"
+                  }
+                ]
+              }
+            ],
+            "refresh": "November23 archive inspected. Direct eBay blocked and browser fallback access denied; secondary reported sales only."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:4350046002",
+      "revision": "cf76a8b003fec3100a3475cf5a8d2699ba266df15c6e844daa96906660bf0edd",
+      "observations": [
+        {
+          "id": "2026-11-23-appraisal-loop-4-CGC-4350046002",
+          "copyId": "CGC:4350046002",
+          "basis": "owner",
+          "value": 24,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-gaydos-3-2023",
+            "asOf": null,
+            "retrievedAt": "2026-11-24T03:01:10.678Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "w0rldtr33",
+              "issue": "3",
+              "issueYear": "2023",
+              "publisher": "Image Comics",
+              "variant": "CBNS Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $15-$45, not a statistical interval. Owned CBNS MichaelGaydos virgin9.8 front/label inspected, tattooed figure facing red branch. Exact raw Gaydos333 reports23.99 February18,2026 and24 January11,2025; explicitCBNS333 raw21.99 October29,2023 supports alias. Working24 raw anchor with no slab premium. Raw versus9.8 mismatch; secondary reports. Multi-variant set50, issue2 and issue13 incentive excluded. Retailer SadLemon and BlackSaber call this333copies; retailer-reported limit, no numeric-run premium. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-gaydos-3-2023",
+            "reviewedAt": "2026-11-24T03:01:10.678Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $15-$45, not a statistical interval. Owned CBNS MichaelGaydos virgin9.8 front/label inspected, tattooed figure facing red branch. Exact raw Gaydos333 reports23.99 February18,2026 and24 January11,2025; explicitCBNS333 raw21.99 October29,2023 supports alias. Working24 raw anchor with no slab premium. Raw versus9.8 mismatch; secondary reports. Multi-variant set50, issue2 and issue13 incentive excluded. Retailer SadLemon and BlackSaber call this333copies; retailer-reported limit, no numeric-run premium. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 15,
+              "high": 45,
+              "currency": "USD"
+            },
+            "scarcity": "Retailer SadLemon and BlackSaber call this333copies; retailer-reported limit, no numeric-run premium.",
+            "comparables": [],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4350046002",
+                "cert": "4350046002",
+                "status": "no-exact-grade-row",
+                "checkedAt": "2026-11-15",
+                "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/320174/image-comics-w0rldtr33-3",
+                "value": null,
+                "finding": "Browser certificate search -> analyze verified CBNS Gaydos Universal 9.8; zero all grades. Exact grade has zero reported sales and no estimate. Adjacent grades excluded."
+              }
+            ],
+            "refresh": "November23 archive and retailer index inspected. No direct completed transaction photo verified; current retail stock not assumed."
+          }
+        }
+      ]
+    }
+  ]
+}

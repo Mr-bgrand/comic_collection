@@ -1022,7 +1022,86 @@
         "capturedAt": "2026-09-10T05:53:28.351Z",
         "importedAt": "2026-09-10T05:54:54.710Z"
       },
-      "scanStatus": "complete"
+      "scanStatus": "complete",
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-23-appraisal-loop-4-CGC-4350046002",
+            "copyId": "CGC:4350046002",
+            "basis": "owner",
+            "value": 24,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-gaydos-3-2023",
+              "asOf": null,
+              "retrievedAt": "2026-11-24T03:01:10.678Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "w0rldtr33",
+                "issue": "3",
+                "issueYear": "2023",
+                "publisher": "Image Comics",
+                "variant": "CBNS Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $15-$45, not a statistical interval. Owned CBNS MichaelGaydos virgin9.8 front/label inspected, tattooed figure facing red branch. Exact raw Gaydos333 reports23.99 February18,2026 and24 January11,2025; explicitCBNS333 raw21.99 October29,2023 supports alias. Working24 raw anchor with no slab premium. Raw versus9.8 mismatch; secondary reports. Multi-variant set50, issue2 and issue13 incentive excluded. Retailer SadLemon and BlackSaber call this333copies; retailer-reported limit, no numeric-run premium. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/comic-books-w0rldtr33/w0rldtr33-gaydos-3-2023",
+              "reviewedAt": "2026-11-24T03:01:10.678Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $15-$45, not a statistical interval. Owned CBNS MichaelGaydos virgin9.8 front/label inspected, tattooed figure facing red branch. Exact raw Gaydos333 reports23.99 February18,2026 and24 January11,2025; explicitCBNS333 raw21.99 October29,2023 supports alias. Working24 raw anchor with no slab premium. Raw versus9.8 mismatch; secondary reports. Multi-variant set50, issue2 and issue13 incentive excluded. Retailer SadLemon and BlackSaber call this333copies; retailer-reported limit, no numeric-run premium. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 15,
+                "high": 45,
+                "currency": "USD"
+              },
+              "scarcity": "Retailer SadLemon and BlackSaber call this333copies; retailer-reported limit, no numeric-run premium.",
+              "comparables": [],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:4350046002",
+                  "cert": "4350046002",
+                  "status": "no-exact-grade-row",
+                  "checkedAt": "2026-11-15",
+                  "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/320174/image-comics-w0rldtr33-3",
+                  "value": null,
+                  "finding": "Browser certificate search -> analyze verified CBNS Gaydos Universal 9.8; zero all grades. Exact grade has zero reported sales and no estimate. Adjacent grades excluded."
+                }
+              ],
+              "refresh": "November23 archive and retailer index inspected. No direct completed transaction photo verified; current retail stock not assumed."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-23-appraisal-loop-4-CGC-4350046002",
+          "locked": true,
+          "selectedAt": "2026-11-24T03:01:14.503Z"
+        }
+      }
     },
     {
       "cert": "4350047001",

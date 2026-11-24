@@ -7925,7 +7925,110 @@
       "holder": "slab",
       "certUrl": "https://www.psacard.com/cert/173415134/psa",
       "fmv": null,
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-23-appraisal-loop-4-PSA-173415134",
+            "copyId": "PSA:173415134",
+            "basis": "owner",
+            "value": 110,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://theclector.com/cards/football/nfl/topps/2025/signature-class/autographs/jaxson-dart-14513/4813635",
+              "asOf": null,
+              "retrievedAt": "2026-11-24T03:01:10.678Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2025",
+                "brand": "TOPPS SIGNATURE CLASS",
+                "series": "",
+                "subject": "JAXSON DART",
+                "cardNumber": "106",
+                "variety": "AUTOGRAPH",
+                "language": "",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": [
+                  {
+                    "name": "JAXSON DART · PSA/DNA Auto 10"
+                  }
+                ],
+                "restoration": ""
+              },
+              "grade": "8",
+              "grader": "PSA",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $85-$155, not a statistical interval. Owned PSA8 Auto10 base SignatureClass106 front/label inspected. Exact raw autograph secondary auction reports October13,2026:122.50 dcsports87,125.50 bonbini01,143.50 thecaddycloset; October11:131.50 dcsports87. Working110 judgment below recent raw cluster for grade8; no Auto10 premium. Raw condition/autograph grade unspecified; not dual-grade match. Chrome/Refractor/numbered150 candidates excluded. Older SportsCardsPro200-285.50 reports not used over newer cluster. No numbered short-print designation verified for base autograph; no scarcity premium. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://theclector.com/cards/football/nfl/topps/2025/signature-class/autographs/jaxson-dart-14513/4813635",
+              "reviewedAt": "2026-11-24T03:01:10.678Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $85-$155, not a statistical interval. Owned PSA8 Auto10 base SignatureClass106 front/label inspected. Exact raw autograph secondary auction reports October13,2026:122.50 dcsports87,125.50 bonbini01,143.50 thecaddycloset; October11:131.50 dcsports87. Working110 judgment below recent raw cluster for grade8; no Auto10 premium. Raw condition/autograph grade unspecified; not dual-grade match. Chrome/Refractor/numbered150 candidates excluded. Older SportsCardsPro200-285.50 reports not used over newer cluster. No numbered short-print designation verified for base autograph; no scarcity premium. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 85,
+                "high": 155,
+                "currency": "USD"
+              },
+              "scarcity": "No numbered short-print designation verified for base autograph; no scarcity premium.",
+              "comparables": [],
+              "priorResearch": [
+                {
+                  "copyId": "PSA:173415134",
+                  "ownedIdentity": {
+                    "cert": "173415134",
+                    "subject": "JAXSON DART",
+                    "year": "2025",
+                    "brand": "TOPPS SIGNATURE CLASS",
+                    "cardNumber": "106",
+                    "variety": "AUTOGRAPH",
+                    "grader": "PSA",
+                    "grade": "8"
+                  },
+                  "priorResearchFile": "data/originals/resume-cards-results.json",
+                  "queries": [
+                    "Jaxson Dart Signature Class PSA8 auto10"
+                  ],
+                  "evidence": [
+                    {
+                      "url": "https://www.ebay.com/shop/jackson-dart-auto?_nkw=jackson+dart+auto",
+                      "observedAt": "2026-11-15",
+                      "access": "search-index inspected",
+                      "accepted": false,
+                      "reason": "New PSA8 AUTO10 offers are Resurgence, not SignatureClass106."
+                    }
+                  ],
+                  "status": "unresolved-after-new-search",
+                  "proposedValue": null,
+                  "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+                }
+              ],
+              "refresh": "Clector and SportsCardsPro inspected November23. Secondary reports; transaction IDs not exposed by Clector. Not independently verified sales."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-23-appraisal-loop-4-PSA-173415134",
+          "locked": true,
+          "selectedAt": "2026-11-24T03:01:13.203Z"
+        }
+      },
       "signatures": [
         {
           "name": "JAXSON DART · PSA/DNA Auto 10"
