@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T16:03:45.888Z",
+  "updatedAt": "2026-11-25T04:27:09.496Z",
   "method": "docs/valuation-cover-research-method.md",
   "items": [
     {
@@ -186,30 +186,6 @@
               "access": "Livebrowser certsearch thenanalyze",
               "accepted": false,
               "reason": "SMZConventionMetalB9.9zeroallsales"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "copyId": "CGC:4480290001",
-      "title": "Fame: Mike Tyson",
-      "grade": "9.8",
-      "front": "4480290001_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4480290001",
-          "cert": "4480290001",
-          "status": "unresolved",
-          "proposedValue": null,
-          "evidence": [
-            {
-              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/359102/tidalwave-comics-fame-mike-tyson-nn",
-              "access": "Browser ownedcertsearch thenanalyze",
-              "accepted": false,
-              "reason": "Exact CrushCollectibles Universal9.8 but0recordedsales allgrades/noestimate."
             }
           ]
         }
@@ -548,78 +524,6 @@
           "value": null,
           "finding": "Live browser certificate search -> analyze verified Chris Panda Variant Cover Universal 8.5. Owned grade row has zero reported sales and no estimate. Adjacent grades excluded.",
           "nextAction": "Seek exact grade actual slab transaction or active listing; no raw or adjacent grade substitution."
-        }
-      ]
-    },
-    {
-      "copyId": "CGC:4526002009",
-      "title": "Tribute: Kobe Bryant",
-      "grade": "9.6",
-      "front": "4526002009_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4526002009",
-          "cert": "4526002009",
-          "status": "no-exact-grade-row",
-          "checkedAt": "2026-11-15",
-          "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/363330/tidalwave-comics-tribute-kobe-bryant-1",
-          "value": null,
-          "finding": "Browser certificate search -> analyze verified Comic Kingdom Virgin Universal 9.6. Exact grade has zero reported sales and no estimate. Adjacent grades excluded."
-        },
-        {
-          "copyId": "CGC:4526002009",
-          "finding": "Owned scan confirms purple lightning Jumpman Dark Knight homage, Comic Kingdom Virgin CGC9.6. MyComicShop catalog reports250 regular virgin vs125 spotfoil. Foil9.8 ask90 cert4495839020 is different finish and grade, not exact. eBay index raw virgin25 cutthroat_comics requires listing-photo check; WuTangSajadShah26 default option excluded.",
-          "urls": [
-            "https://www.mycomicshop.com/search?TID=62313652",
-            "https://www.mycomicshop.com/search?cgc=y&tid=62313652",
-            "https://www.ebay.com/shop/kobe-bryant-comic-book?_nkw=kobe+bryant+comic+book"
-          ],
-          "checkedAt": "2026-11-24T16:03:45.888Z"
-        }
-      ]
-    },
-    {
-      "copyId": "CGC:1401011131203",
-      "title": "Cacturne",
-      "grade": "9",
-      "front": "CGC_1401011131203_FRONT.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:1401011131203",
-          "ownedIdentity": {
-            "cert": "1401011131203",
-            "subject": "Cacturne",
-            "year": "2003",
-            "brand": "Advanced",
-            "cardNumber": "21",
-            "variety": "Silver Foil",
-            "grader": "CGC",
-            "grade": "9"
-          },
-          "priorResearchFile": "data/originals/resume-cards-results.json",
-          "queries": [
-            "Cacturne 21 Silver Foil auction CGC"
-          ],
-          "evidence": [],
-          "status": "unresolved-after-new-search",
-          "proposedValue": null,
-          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
-        },
-        {
-          "checkedAt": "2026-11-23T16:08:36.655Z",
-          "url": "https://www.bigorbitcards.co.uk/pokemon-topps-trading-cards/pokemon-advanced-trading-cards/cacturne-silver-holo.html",
-          "finding": "Exact21 SilverHolo identified but0stock andGBP0placeholder, not usable price. No supported new value.",
-          "status": "comparative-followup-needed"
-        },
-        {
-          "copyId": "CGC:1401011131203",
-          "url": "https://www.pricecharting.com/game/pokemon-2003-topps-advanced/cacturne-foil-21",
-          "finding": "Raw12.49 report June13,2025, eBay297406639302 explicitly Heavily Played. No grade9 rows. Inexact low-condition anchor for later appraisal; not accepted this batch. Direct eBay fetch restricted; browser Access Denied.",
-          "checkedAt": "2026-11-24T16:03:45.887Z"
         }
       ]
     },

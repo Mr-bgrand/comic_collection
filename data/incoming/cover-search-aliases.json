@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T03:05:10.638Z",
+  "updatedAt": "2026-11-25T04:27:44.825Z",
   "entries": [
     {
       "copyIds": [
@@ -435,12 +435,16 @@
       "copyIds": [
         "CGC:4526002009"
       ],
-      "catalogVariant": "Comic Kingdom \"Virgin\" Edition",
+      "catalogVariant": "Comic Kingdom Virgin Edition",
       "searchAliases": [
-        "Kobe Bryant Black Mamba Returns Dark Knight Returns homage Pablo Martinena virgin"
+        "Kobe Black Mamba Returns Dark Knight Sheldon Bueckert virgin"
       ],
-      "visualFeatures": null,
-      "verification": "Owned scan reviewed; search aliases are discovery terms, not proof that every returned listing matches"
+      "visualFeatures": "Purple lightning, airborne yellow24 jersey, no trade dress",
+      "verification": "Owned scan reviewed; search aliases are discovery terms, not proof that every returned listing matches",
+      "sourceUrl": "https://www.ebay.com/itm/800006065985",
+      "verifiedBy": "Owned slab and downloaded listing photo visually matched November24",
+      "sellerStatedPrintRun": 250,
+      "gradeCaution": "MyComicShop catalog limit250 regular virgin;125 spotfoil is separate. Raw VeryGood ask versusCGC9.6."
     },
     {
       "copyIds": [
@@ -487,6 +491,20 @@
       "visualFeatures": "Red lava foil, black character leaping basketball pose over skyline; Whatnot Publishing logo",
       "verifiedBy": "Owned front scan and slab label inspected November 23",
       "gradeCaution": "Owned CGC 10. Ordinary ashcan, Mack foil and retailer thank-you prices are not exact matches."
+    },
+    {
+      "copyIds": [
+        "CGC:4480290001"
+      ],
+      "catalogVariant": "Crush Collectibles Edition",
+      "searchAliases": [
+        "Mike Tyson Fame Punch Out vs Jake Paul NES variant 120"
+      ],
+      "visualFeatures": "Tyson and Jake Paul boxing, referee below, large MIKE TYSON title, FAME logo",
+      "sourceUrl": "https://www.ebay.com/itm/205090432405",
+      "verifiedBy": "Owned slab and downloaded listing photo visually matched November24",
+      "sellerStatedPrintRun": 120,
+      "gradeCaution": "Raw seller9.4 versus ownedCGC9.8. Printed signature is facsimile. No slab premium assumed."
     }
   ]
 }

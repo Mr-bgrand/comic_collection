@@ -1,0 +1,42 @@
+{
+  "reviewedAt": "2026-11-25T04:27:09.496Z",
+  "policy": "Owner-authorized comparative appraisal; no underlying exact-match assertion. No rarity premium without evidence.",
+  "items": [
+    {
+      "copyId": "CGC:4480290001",
+      "value": 50,
+      "range": [
+        35,
+        85
+      ],
+      "url": "https://www.ebay.com/itm/205090432405",
+      "reason": "Estimated from asking prices; not confirmed sales. Raw unsigned Crush/Punch Out vs Jake Paul NES cover asks51.51, seller weranoutofideas, item205090432405. Downloaded listing photo visually matches owned CGC9.8 front, including boxing poses, referee, title layout and printed MikeTyson facsimile. Seller calls raw9.4; not certified. Round down to50 without automatic grading premium. Cached listing shows2available and3sold; sold counter is NOT evidence of realized51.51 sales. Current availability not browser-verified.",
+      "scarcity": "Seller title reports120 copies, not audited production count. No scarcity premium. Foil edition excluded.",
+      "refresh": "November24 individual page and source photo checked against owned slab front; source cached about2months. Shipping free per page, tax excluded.",
+      "comparables": [
+        {
+          "price": 51.51,
+          "url": "https://www.ebay.com/itm/205090432405",
+          "status": "raw seller9.4 ask; no sale date/cert; printed facsimile is not an authenticated autograph"
+        }
+      ],
+      "title": "Fame: Mike Tyson #nn Crush Collectibles Edition CGC 9.8",
+      "priorResearch": [
+        {
+          "copyId": "CGC:4480290001",
+          "cert": "4480290001",
+          "status": "unresolved",
+          "proposedValue": null,
+          "evidence": [
+            {
+              "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/359102/tidalwave-comics-fame-mike-tyson-nn",
+              "access": "Browser ownedcertsearch thenanalyze",
+              "accepted": false,
+              "reason": "Exact CrushCollectibles Universal9.8 but0recordedsales allgrades/noestimate."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

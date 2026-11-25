@@ -1,0 +1,103 @@
+{
+  "reviewedAt": "2026-11-25T04:26:14.081Z",
+  "policy": "Owner-authorized comparative appraisal; no underlying exact-match assertion. No rarity premium without evidence.",
+  "items": [
+    {
+      "copyId": "CGC:4526002009",
+      "value": 25,
+      "range": [
+        20,
+        60
+      ],
+      "url": "https://www.ebay.com/itm/800006065985",
+      "reason": "Estimated from asking prices; not confirmed sales. Raw Black Mamba Returns virgin listing800006065985 by cutthroat_comics asks25. Owned CGC9.6 front and listing photo visually match purple lightning, yellow24 jersey, airborne silhouette and no trade dress. Seller raw condition is Very Good (generic book condition), not CGC9.6. Retain raw asking anchor without assumed slab premium; broad judgment range reflects condition/grade and availability uncertainty. Seller item specifics incorrectly name Marvel/Homage; visual art, title and 2024 attribution support the related copy. Spotfoil9.8 MyComicShop90 and WuTang edition excluded from direct comparison.",
+      "scarcity": "MyComicShop catalog https://www.mycomicshop.com/search?TID=62313652 reports250 regular virgin versus125 spotfoil. Retailer-reported limits, not audited production counts; no rarity premium.",
+      "refresh": "November24 fetched individual eBay page and downloaded/viewed listing photograph; compared owned slab front. Shipping6 excluded.",
+      "comparables": [
+        {
+          "price": 25,
+          "url": "https://www.ebay.com/itm/800006065985",
+          "status": "Raw fixed ask; seller cutthroat_comics; no sale date or cert; condition Very Good"
+        }
+      ],
+      "title": "Tribute: Kobe Bryant #1 Comic Kingdom \"Virgin\" Edition CGC 9.6",
+      "priorResearch": [
+        {
+          "copyId": "CGC:4526002009",
+          "cert": "4526002009",
+          "status": "no-exact-grade-row",
+          "checkedAt": "2026-11-15",
+          "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/363330/tidalwave-comics-tribute-kobe-bryant-1",
+          "value": null,
+          "finding": "Browser certificate search -> analyze verified Comic Kingdom Virgin Universal 9.6. Exact grade has zero reported sales and no estimate. Adjacent grades excluded."
+        },
+        {
+          "copyId": "CGC:4526002009",
+          "finding": "Owned scan confirms purple lightning Jumpman Dark Knight homage, Comic Kingdom Virgin CGC9.6. MyComicShop catalog reports250 regular virgin vs125 spotfoil. Foil9.8 ask90 cert4495839020 is different finish and grade, not exact. eBay index raw virgin25 cutthroat_comics requires listing-photo check; WuTangSajadShah26 default option excluded.",
+          "urls": [
+            "https://www.mycomicshop.com/search?TID=62313652",
+            "https://www.mycomicshop.com/search?cgc=y&tid=62313652",
+            "https://www.ebay.com/shop/kobe-bryant-comic-book?_nkw=kobe+bryant+comic+book"
+          ],
+          "checkedAt": "2026-11-24T16:03:45.888Z"
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:1401011131203",
+      "value": 12,
+      "range": [
+        10,
+        35
+      ],
+      "url": "https://www.pricecharting.com/game/pokemon-2003-topps-advanced/cacturne-foil-21",
+      "reason": "Very-low-confidence conservative appraisal retaining a low-condition raw anchor, not a CGC9 market quote. PriceCharting reports one same2003ToppsAdvanced21 foil raw sale12.49 dated2025-06-13, eBay297406639302 explicitly Heavily Played. Owned front confirms Silver Foil CGC9; the condition difference is substantial and no reliable grade uplift is measured. Round12.49 down to12 as a deliberately conservative working value with judgment range10-35; may materially understate mint-slab value. Secondary stale transaction report, not independently verified; no grade9 transactions displayed. Nonfoil PSA10 and TeamAqua Cacturne are excluded.",
+      "scarcity": "Silverfoil parallel confirmed by owned slab; numeric print run unknown. Sparse sales are not proof of short printing; no rarity premium.",
+      "refresh": "Owned front visually inspected November24. PriceCharting sale details inspected earlier today; broader exact Topps foil searches returned same single report. Direct eBay fetch previously restricted, native browser Access Denied.",
+      "comparables": [
+        {
+          "date": "2025-06-13",
+          "price": 12.49,
+          "url": "https://www.ebay.com/itm/297406639302",
+          "status": "PriceCharting-reported raw Heavily Played sale; inexact condition; no comparable cert"
+        }
+      ],
+      "title": "Cacturne Silver Foil CGC 9",
+      "priorResearch": [
+        {
+          "copyId": "CGC:1401011131203",
+          "ownedIdentity": {
+            "cert": "1401011131203",
+            "subject": "Cacturne",
+            "year": "2003",
+            "brand": "Advanced",
+            "cardNumber": "21",
+            "variety": "Silver Foil",
+            "grader": "CGC",
+            "grade": "9"
+          },
+          "priorResearchFile": "data/originals/resume-cards-results.json",
+          "queries": [
+            "Cacturne 21 Silver Foil auction CGC"
+          ],
+          "evidence": [],
+          "status": "unresolved-after-new-search",
+          "proposedValue": null,
+          "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+        },
+        {
+          "checkedAt": "2026-11-23T16:08:36.655Z",
+          "url": "https://www.bigorbitcards.co.uk/pokemon-topps-trading-cards/pokemon-advanced-trading-cards/cacturne-silver-holo.html",
+          "finding": "Exact21 SilverHolo identified but0stock andGBP0placeholder, not usable price. No supported new value.",
+          "status": "comparative-followup-needed"
+        },
+        {
+          "copyId": "CGC:1401011131203",
+          "url": "https://www.pricecharting.com/game/pokemon-2003-topps-advanced/cacturne-foil-21",
+          "finding": "Raw12.49 report June13,2025, eBay297406639302 explicitly Heavily Played. No grade9 rows. Inexact low-condition anchor for later appraisal; not accepted this batch. Direct eBay fetch restricted; browser Access Denied.",
+          "checkedAt": "2026-11-24T16:03:45.887Z"
+        }
+      ]
+    }
+  ]
+}

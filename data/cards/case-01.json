@@ -10314,7 +10314,117 @@
         "source": "CGC Cards",
         "url": "https://www.cgccards.com/population-report/non-sports/pok%C3%A9mon-topps/61/advanced-series/7/advanced/77/?populationID=806464"
       },
-      "valuation": null,
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-24-appraisal-loop-2-CGC-1401011131203",
+            "copyId": "CGC:1401011131203",
+            "basis": "owner",
+            "value": 12,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://www.pricecharting.com/game/pokemon-2003-topps-advanced/cacturne-foil-21",
+              "asOf": null,
+              "retrievedAt": "2026-11-25T04:26:14.081Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "card",
+                "year": "2003",
+                "brand": "Advanced",
+                "series": "",
+                "subject": "Cacturne",
+                "cardNumber": "21",
+                "variety": "Silver Foil",
+                "language": "English",
+                "qualifiers": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "labelCategory": "",
+                "labelType": "",
+                "signatures": "",
+                "restoration": ""
+              },
+              "grade": "9",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $10-$35, not a statistical interval. Very-low-confidence conservative appraisal retaining a low-condition raw anchor, not a CGC9 market quote. PriceCharting reports one same2003ToppsAdvanced21 foil raw sale12.49 dated2025-06-13, eBay297406639302 explicitly Heavily Played. Owned front confirms Silver Foil CGC9; the condition difference is substantial and no reliable grade uplift is measured. Round12.49 down to12 as a deliberately conservative working value with judgment range10-35; may materially understate mint-slab value. Secondary stale transaction report, not independently verified; no grade9 transactions displayed. Nonfoil PSA10 and TeamAqua Cacturne are excluded. Silverfoil parallel confirmed by owned slab; numeric print run unknown. Sparse sales are not proof of short printing; no rarity premium. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://www.pricecharting.com/game/pokemon-2003-topps-advanced/cacturne-foil-21",
+              "reviewedAt": "2026-11-25T04:26:14.081Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $10-$35, not a statistical interval. Very-low-confidence conservative appraisal retaining a low-condition raw anchor, not a CGC9 market quote. PriceCharting reports one same2003ToppsAdvanced21 foil raw sale12.49 dated2025-06-13, eBay297406639302 explicitly Heavily Played. Owned front confirms Silver Foil CGC9; the condition difference is substantial and no reliable grade uplift is measured. Round12.49 down to12 as a deliberately conservative working value with judgment range10-35; may materially understate mint-slab value. Secondary stale transaction report, not independently verified; no grade9 transactions displayed. Nonfoil PSA10 and TeamAqua Cacturne are excluded. Silverfoil parallel confirmed by owned slab; numeric print run unknown. Sparse sales are not proof of short printing; no rarity premium. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 10,
+                "high": 35,
+                "currency": "USD"
+              },
+              "scarcity": "Silverfoil parallel confirmed by owned slab; numeric print run unknown. Sparse sales are not proof of short printing; no rarity premium.",
+              "comparables": [
+                {
+                  "date": "2025-06-13",
+                  "price": 12.49,
+                  "url": "https://www.ebay.com/itm/297406639302",
+                  "status": "PriceCharting-reported raw Heavily Played sale; inexact condition; no comparable cert"
+                }
+              ],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:1401011131203",
+                  "ownedIdentity": {
+                    "cert": "1401011131203",
+                    "subject": "Cacturne",
+                    "year": "2003",
+                    "brand": "Advanced",
+                    "cardNumber": "21",
+                    "variety": "Silver Foil",
+                    "grader": "CGC",
+                    "grade": "9"
+                  },
+                  "priorResearchFile": "data/originals/resume-cards-results.json",
+                  "queries": [
+                    "Cacturne 21 Silver Foil auction CGC"
+                  ],
+                  "evidence": [],
+                  "status": "unresolved-after-new-search",
+                  "proposedValue": null,
+                  "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+                },
+                {
+                  "checkedAt": "2026-11-23T16:08:36.655Z",
+                  "url": "https://www.bigorbitcards.co.uk/pokemon-topps-trading-cards/pokemon-advanced-trading-cards/cacturne-silver-holo.html",
+                  "finding": "Exact21 SilverHolo identified but0stock andGBP0placeholder, not usable price. No supported new value.",
+                  "status": "comparative-followup-needed"
+                },
+                {
+                  "copyId": "CGC:1401011131203",
+                  "url": "https://www.pricecharting.com/game/pokemon-2003-topps-advanced/cacturne-foil-21",
+                  "finding": "Raw12.49 report June13,2025, eBay297406639302 explicitly Heavily Played. No grade9 rows. Inexact low-condition anchor for later appraisal; not accepted this batch. Direct eBay fetch restricted; browser Access Denied.",
+                  "checkedAt": "2026-11-24T16:03:45.887Z"
+                }
+              ],
+              "refresh": "Owned front visually inspected November24. PriceCharting sale details inspected earlier today; broader exact Topps foil searches returned same single report. Direct eBay fetch previously restricted, native browser Access Denied."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-24-appraisal-loop-2-CGC-1401011131203",
+          "locked": true,
+          "selectedAt": "2026-11-25T04:26:15.822Z"
+        }
+      },
       "cgc": {
         "gradeText": "9",
         "lookupGrade": "9.0",

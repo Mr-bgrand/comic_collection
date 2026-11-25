@@ -1232,6 +1232,96 @@
         "url": null,
         "status": "not-listed",
         "fetchedAt": "2026-08-20T23:28:54.723Z"
+      },
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-24-appraisal-loop-3-CGC-4480290001",
+            "copyId": "CGC:4480290001",
+            "basis": "owner",
+            "value": 50,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://www.ebay.com/itm/205090432405",
+              "asOf": null,
+              "retrievedAt": "2026-11-25T04:27:09.496Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Fame: Mike Tyson",
+                "issue": "nn",
+                "issueYear": "1900",
+                "publisher": "TidalWave Comics",
+                "variant": "Crush Collectibles Edition",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Universal",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CGC",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $35-$85, not a statistical interval. Estimated from asking prices; not confirmed sales. Raw unsigned Crush/Punch Out vs Jake Paul NES cover asks51.51, seller weranoutofideas, item205090432405. Downloaded listing photo visually matches owned CGC9.8 front, including boxing poses, referee, title layout and printed MikeTyson facsimile. Seller calls raw9.4; not certified. Round down to50 without automatic grading premium. Cached listing shows2available and3sold; sold counter is NOT evidence of realized51.51 sales. Current availability not browser-verified. Seller title reports120 copies, not audited production count. No scarcity premium. Foil edition excluded. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://www.ebay.com/itm/205090432405",
+              "reviewedAt": "2026-11-25T04:27:09.496Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $35-$85, not a statistical interval. Estimated from asking prices; not confirmed sales. Raw unsigned Crush/Punch Out vs Jake Paul NES cover asks51.51, seller weranoutofideas, item205090432405. Downloaded listing photo visually matches owned CGC9.8 front, including boxing poses, referee, title layout and printed MikeTyson facsimile. Seller calls raw9.4; not certified. Round down to50 without automatic grading premium. Cached listing shows2available and3sold; sold counter is NOT evidence of realized51.51 sales. Current availability not browser-verified. Seller title reports120 copies, not audited production count. No scarcity premium. Foil edition excluded. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 35,
+                "high": 85,
+                "currency": "USD"
+              },
+              "scarcity": "Seller title reports120 copies, not audited production count. No scarcity premium. Foil edition excluded.",
+              "comparables": [
+                {
+                  "price": 51.51,
+                  "url": "https://www.ebay.com/itm/205090432405",
+                  "status": "raw seller9.4 ask; no sale date/cert; printed facsimile is not an authenticated autograph"
+                }
+              ],
+              "priorResearch": [
+                {
+                  "copyId": "CGC:4480290001",
+                  "cert": "4480290001",
+                  "status": "unresolved",
+                  "proposedValue": null,
+                  "evidence": [
+                    {
+                      "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/359102/tidalwave-comics-fame-mike-tyson-nn",
+                      "access": "Browser ownedcertsearch thenanalyze",
+                      "accepted": false,
+                      "reason": "Exact CrushCollectibles Universal9.8 but0recordedsales allgrades/noestimate."
+                    }
+                  ]
+                }
+              ],
+              "refresh": "November24 individual page and source photo checked against owned slab front; source cached about2months. Shipping free per page, tax excluded."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-24-appraisal-loop-3-CGC-4480290001",
+          "locked": true,
+          "selectedAt": "2026-11-25T04:27:10.324Z"
+        }
       }
     },
     {

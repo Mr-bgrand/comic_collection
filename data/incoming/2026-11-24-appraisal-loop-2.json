@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "CGC:4526002009",
+      "revision": "e0a8bc9b420ac4e4198f9b880b97e01bd21a67e5178a4e1d04f8dd91729b4630",
+      "observations": [
+        {
+          "id": "2026-11-24-appraisal-loop-2-CGC-4526002009",
+          "copyId": "CGC:4526002009",
+          "basis": "owner",
+          "value": 25,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://www.ebay.com/itm/800006065985",
+            "asOf": null,
+            "retrievedAt": "2026-11-25T04:26:14.081Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Tribute: Kobe Bryant",
+              "issue": "1",
+              "issueYear": "1900",
+              "publisher": "TidalWave Comics",
+              "variant": "Comic Kingdom \"Virgin\" Edition",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Universal",
+              "labelType": "",
+              "signatures": "",
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.6",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $20-$60, not a statistical interval. Estimated from asking prices; not confirmed sales. Raw Black Mamba Returns virgin listing800006065985 by cutthroat_comics asks25. Owned CGC9.6 front and listing photo visually match purple lightning, yellow24 jersey, airborne silhouette and no trade dress. Seller raw condition is Very Good (generic book condition), not CGC9.6. Retain raw asking anchor without assumed slab premium; broad judgment range reflects condition/grade and availability uncertainty. Seller item specifics incorrectly name Marvel/Homage; visual art, title and 2024 attribution support the related copy. Spotfoil9.8 MyComicShop90 and WuTang edition excluded from direct comparison. MyComicShop catalog https://www.mycomicshop.com/search?TID=62313652 reports250 regular virgin versus125 spotfoil. Retailer-reported limits, not audited p Full rationale and mismatches in reviewEvidence.",
+          "reviewEvidence": {
+            "url": "https://www.ebay.com/itm/800006065985",
+            "reviewedAt": "2026-11-25T04:26:14.081Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $20-$60, not a statistical interval. Estimated from asking prices; not confirmed sales. Raw Black Mamba Returns virgin listing800006065985 by cutthroat_comics asks25. Owned CGC9.6 front and listing photo visually match purple lightning, yellow24 jersey, airborne silhouette and no trade dress. Seller raw condition is Very Good (generic book condition), not CGC9.6. Retain raw asking anchor without assumed slab premium; broad judgment range reflects condition/grade and availability uncertainty. Seller item specifics incorrectly name Marvel/Homage; visual art, title and 2024 attribution support the related copy. Spotfoil9.8 MyComicShop90 and WuTang edition excluded from direct comparison. MyComicShop catalog https://www.mycomicshop.com/search?TID=62313652 reports250 regular virgin versus125 spotfoil. Retailer-reported limits, not audited production counts; no rarity premium. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 20,
+              "high": 60,
+              "currency": "USD"
+            },
+            "scarcity": "MyComicShop catalog https://www.mycomicshop.com/search?TID=62313652 reports250 regular virgin versus125 spotfoil. Retailer-reported limits, not audited production counts; no rarity premium.",
+            "comparables": [
+              {
+                "price": 25,
+                "url": "https://www.ebay.com/itm/800006065985",
+                "status": "Raw fixed ask; seller cutthroat_comics; no sale date or cert; condition Very Good"
+              }
+            ],
+            "priorResearch": [
+              {
+                "copyId": "CGC:4526002009",
+                "cert": "4526002009",
+                "status": "no-exact-grade-row",
+                "checkedAt": "2026-11-15",
+                "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/363330/tidalwave-comics-tribute-kobe-bryant-1",
+                "value": null,
+                "finding": "Browser certificate search -> analyze verified Comic Kingdom Virgin Universal 9.6. Exact grade has zero reported sales and no estimate. Adjacent grades excluded."
+              },
+              {
+                "copyId": "CGC:4526002009",
+                "finding": "Owned scan confirms purple lightning Jumpman Dark Knight homage, Comic Kingdom Virgin CGC9.6. MyComicShop catalog reports250 regular virgin vs125 spotfoil. Foil9.8 ask90 cert4495839020 is different finish and grade, not exact. eBay index raw virgin25 cutthroat_comics requires listing-photo check; WuTangSajadShah26 default option excluded.",
+                "urls": [
+                  "https://www.mycomicshop.com/search?TID=62313652",
+                  "https://www.mycomicshop.com/search?cgc=y&tid=62313652",
+                  "https://www.ebay.com/shop/kobe-bryant-comic-book?_nkw=kobe+bryant+comic+book"
+                ],
+                "checkedAt": "2026-11-24T16:03:45.888Z"
+              }
+            ],
+            "refresh": "November24 fetched individual eBay page and downloaded/viewed listing photograph; compared owned slab front. Shipping6 excluded."
+          }
+        }
+      ]
+    },
+    {
+      "copyId": "CGC:1401011131203",
+      "revision": "f552623d77b409959f630b1e6594bc27748130bd1dc324641d1b7e7d2beaf5be",
+      "observations": [
+        {
+          "id": "2026-11-24-appraisal-loop-2-CGC-1401011131203",
+          "copyId": "CGC:1401011131203",
+          "basis": "owner",
+          "value": 12,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://www.pricecharting.com/game/pokemon-2003-topps-advanced/cacturne-foil-21",
+            "asOf": null,
+            "retrievedAt": "2026-11-25T04:26:14.081Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "card",
+              "year": "2003",
+              "brand": "Advanced",
+              "series": "",
+              "subject": "Cacturne",
+              "cardNumber": "21",
+              "variety": "Silver Foil",
+              "language": "English",
+              "qualifiers": "",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "labelCategory": "",
+              "labelType": "",
+              "signatures": "",
+              "restoration": ""
+            },
+            "grade": "9",
+            "grader": "CGC",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $10-$35, not a statistical interval. Very-low-confidence conservative appraisal retaining a low-condition raw anchor, not a CGC9 market quote. PriceCharting reports one same2003ToppsAdvanced21 foil raw sale12.49 dated2025-06-13, eBay297406639302 explicitly Heavily Played. Owned front confirms Silver Foil CGC9; the condition difference is substantial and no reliable grade uplift is measured. Round12.49 down to12 as a deliberately conservative working value with judgment range10-35; may materially understate mint-slab value. Secondary stale transaction report, not independently verified; no grade9 transactions displayed. Nonfoil PSA10 and TeamAqua Cacturne are excluded. Silverfoil parallel confirmed by owned slab; numeric print run unknown. Sparse sales are not proof of short printing; no rarity premium. Shipping/tax excluded. Target match describes owned copy only.",
+          "reviewEvidence": {
+            "url": "https://www.pricecharting.com/game/pokemon-2003-topps-advanced/cacturne-foil-21",
+            "reviewedAt": "2026-11-25T04:26:14.081Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $10-$35, not a statistical interval. Very-low-confidence conservative appraisal retaining a low-condition raw anchor, not a CGC9 market quote. PriceCharting reports one same2003ToppsAdvanced21 foil raw sale12.49 dated2025-06-13, eBay297406639302 explicitly Heavily Played. Owned front confirms Silver Foil CGC9; the condition difference is substantial and no reliable grade uplift is measured. Round12.49 down to12 as a deliberately conservative working value with judgment range10-35; may materially understate mint-slab value. Secondary stale transaction report, not independently verified; no grade9 transactions displayed. Nonfoil PSA10 and TeamAqua Cacturne are excluded. Silverfoil parallel confirmed by owned slab; numeric print run unknown. Sparse sales are not proof of short printing; no rarity premium. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 10,
+              "high": 35,
+              "currency": "USD"
+            },
+            "scarcity": "Silverfoil parallel confirmed by owned slab; numeric print run unknown. Sparse sales are not proof of short printing; no rarity premium.",
+            "comparables": [
+              {
+                "date": "2025-06-13",
+                "price": 12.49,
+                "url": "https://www.ebay.com/itm/297406639302",
+                "status": "PriceCharting-reported raw Heavily Played sale; inexact condition; no comparable cert"
+              }
+            ],
+            "priorResearch": [
+              {
+                "copyId": "CGC:1401011131203",
+                "ownedIdentity": {
+                  "cert": "1401011131203",
+                  "subject": "Cacturne",
+                  "year": "2003",
+                  "brand": "Advanced",
+                  "cardNumber": "21",
+                  "variety": "Silver Foil",
+                  "grader": "CGC",
+                  "grade": "9"
+                },
+                "priorResearchFile": "data/originals/resume-cards-results.json",
+                "queries": [
+                  "Cacturne 21 Silver Foil auction CGC"
+                ],
+                "evidence": [],
+                "status": "unresolved-after-new-search",
+                "proposedValue": null,
+                "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
+              },
+              {
+                "checkedAt": "2026-11-23T16:08:36.655Z",
+                "url": "https://www.bigorbitcards.co.uk/pokemon-topps-trading-cards/pokemon-advanced-trading-cards/cacturne-silver-holo.html",
+                "finding": "Exact21 SilverHolo identified but0stock andGBP0placeholder, not usable price. No supported new value.",
+                "status": "comparative-followup-needed"
+              },
+              {
+                "copyId": "CGC:1401011131203",
+                "url": "https://www.pricecharting.com/game/pokemon-2003-topps-advanced/cacturne-foil-21",
+                "finding": "Raw12.49 report June13,2025, eBay297406639302 explicitly Heavily Played. No grade9 rows. Inexact low-condition anchor for later appraisal; not accepted this batch. Direct eBay fetch restricted; browser Access Denied.",
+                "checkedAt": "2026-11-24T16:03:45.887Z"
+              }
+            ],
+            "refresh": "Owned front visually inspected November24. PriceCharting sale details inspected earlier today; broader exact Topps foil searches returned same single report. Direct eBay fetch previously restricted, native browser Access Denied."
+          }
+        }
+      ]
+    }
+  ]
+}
