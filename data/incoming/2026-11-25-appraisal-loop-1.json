@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "edits": [
+    {
+      "copyId": "CBCS:21-2EC8B4A-002",
+      "revision": "17a4d7a91350e2d91813d211a40feb706d06b0da0d9c31bf2476558478ac5641",
+      "observations": [
+        {
+          "id": "2026-11-25-appraisal-loop-1-CBCS-21-2EC8B4A-002",
+          "copyId": "CBCS:21-2EC8B4A-002",
+          "basis": "owner",
+          "value": 100,
+          "currency": "USD",
+          "source": {
+            "name": "Owner-authorized comparative appraisal*",
+            "url": "https://www.ebay.com/itm/256079603472",
+            "asOf": null,
+            "retrievedAt": "2026-11-25T15:57:59.238Z"
+          },
+          "match": {
+            "identity": {
+              "kind": "comic",
+              "title": "Canto II: The Hollow Men",
+              "issue": "1",
+              "issueYear": "2020",
+              "publisher": "IDW Publishing",
+              "variant": "Gotham Central/El Rey Virgin",
+              "upc": "",
+              "barcode": "",
+              "supplement": "",
+              "coverCode": "",
+              "volume": "",
+              "printing": "",
+              "edition": "",
+              "language": "",
+              "labelCategory": "Authentic",
+              "labelType": "",
+              "signatures": [
+                {
+                  "date": "2021-06-01",
+                  "name": "Peach Momoko",
+                  "witnessed": true
+                }
+              ],
+              "restoration": "",
+              "qualifiers": ""
+            },
+            "grade": "9.8",
+            "grader": "CBCS",
+            "condition": null,
+            "status": "exact"
+          },
+          "reviewStatus": "pending",
+          "provisional": true,
+          "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $60-$150, not a statistical interval. Estimated from asking prices; not confirmed sales. Related Momoko cover with verified Peach Momoko signature offered140 by kurokuro-go, eBay256079603472. Photo overrides contradictory title: comparable is CBCS9.4 Momoko ERROR trade dress, not virgin; listing fields claimingCGC9.6/cert4191020012 are unreliable. Owned record is CBCS9.8 witnessed Momoko GothamCentral/ElRey virgin, no title banner. Same art and signer but different edition, authentication category and grade. Conservative100 below140 ask allows for uncertain error-edition demand and stale availability; no assumed9.8 or signature premium. Low-confidence judgment range60-150, not measured grade/edition conversion. Print run unknown. Error edition rarity and slab population are not evidence of owned virgin print run; no rarity premium. Shi Full rationale and mismatches in reviewEvidence.",
+          "reviewEvidence": {
+            "url": "https://www.ebay.com/itm/256079603472",
+            "reviewedAt": "2026-11-25T15:57:59.238Z",
+            "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+            "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $60-$150, not a statistical interval. Estimated from asking prices; not confirmed sales. Related Momoko cover with verified Peach Momoko signature offered140 by kurokuro-go, eBay256079603472. Photo overrides contradictory title: comparable is CBCS9.4 Momoko ERROR trade dress, not virgin; listing fields claimingCGC9.6/cert4191020012 are unreliable. Owned record is CBCS9.8 witnessed Momoko GothamCentral/ElRey virgin, no title banner. Same art and signer but different edition, authentication category and grade. Conservative100 below140 ask allows for uncertain error-edition demand and stale availability; no assumed9.8 or signature premium. Low-confidence judgment range60-150, not measured grade/edition conversion. Print run unknown. Error edition rarity and slab population are not evidence of owned virgin print run; no rarity premium. Shipping/tax excluded. Target match describes owned copy only.",
+            "targetMatchOnly": true,
+            "comparableMatch": "inexact; see notes",
+            "range": {
+              "low": 60,
+              "high": 150,
+              "currency": "USD"
+            },
+            "scarcity": "Print run unknown. Error edition rarity and slab population are not evidence of owned virgin print run; no rarity premium.",
+            "comparables": [
+              {
+                "price": 140,
+                "url": "https://www.ebay.com/itm/256079603472",
+                "status": "Cached ask; CBCS9.4 verified Momoko signature ERROR trade; exact cert unreadable in photo, inconsistent metadata excluded; no sale date"
+              }
+            ],
+            "priorResearch": [
+              {
+                "copyId": "CBCS:21-2EC8B4A-002",
+                "cert": "21-2EC8B4A-002",
+                "status": "unresolved-grader",
+                "proposedValue": null,
+                "evidence": [],
+                "notes": "CBR CGC certificate pipeline inapplicable to CBCS witnessedMomoko9.8. PriorCBCSunsignedERROR100 andBooher199.99 wronglabel/signer excluded. NoCGCguide substitution."
+              }
+            ],
+            "refresh": "November25 owned front and downloaded listing photo compared. Native browser Access Denied; cached eBay fetch approximatelyone month old. Prior wrong-signerBooher199.99 excluded. Shipping15 excluded."
+          }
+        }
+      ]
+    }
+  ]
+}

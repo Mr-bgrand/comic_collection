@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T04:27:09.496Z",
+  "updatedAt": "2026-11-25T15:57:59.238Z",
   "method": "docs/valuation-cover-research-method.md",
   "items": [
     {
@@ -122,24 +122,6 @@
               "reason": "ExactFadeawayVirginB9.8 zeroallsales;SMZretaileralias confirmed"
             }
           ]
-        }
-      ]
-    },
-    {
-      "copyId": "CBCS:21-2EC8B4A-002",
-      "title": "Canto II: The Hollow Men",
-      "grade": "9.8",
-      "front": "21-2EC8B4A-002_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CBCS:21-2EC8B4A-002",
-          "cert": "21-2EC8B4A-002",
-          "status": "unresolved-grader",
-          "proposedValue": null,
-          "evidence": [],
-          "notes": "CBR CGC certificate pipeline inapplicable to CBCS witnessedMomoko9.8. PriorCBCSunsignedERROR100 andBooher199.99 wronglabel/signer excluded. NoCGCguide substitution."
         }
       ]
     },
