@@ -1,0 +1,10 @@
+# Comparative appraisal continuation 1 — November 26, 2026
+
+2 missing graded estimates imported and explicitly accepted under the owner's broader appraisal policy. All marked *, included in total, low confidence. Locked values unchanged. Ranges are judgment ranges, not statistical intervals. No automatic rarity, signature or high-grade premium. Source guides and secondary reports are not direct confirmed sales. Saved evidence retains its original retrieval date.
+
+| Copy / item | Estimate | Range | Reason / scarcity / source |
+|---|---:|---:|---|
+| CGC:4137946001 All-New Ghost Rider: Engines of Vengeance #1 Second Printing CGC 9.4 | $27* | $20–$50 | Owned slab and cover identify the 2016 second-print collected Engines of Vengeance volume, not the 2014 single issue. Two raw collected-volume rows report $30 and $26.95; use rounded lower anchor, with no slab premium. Secondary sale reports over a year old; transaction photos and condition unavailable. Reject guide aggregate and single-issue rows. The second row has an ambiguous catalog year. Print run unverified; missing graded sales do not establish rarity. [Source](https://www.pricecharting.com/game/comic-books-all-new-ghost-rider/all-new-ghost-rider-2nd-print-1-2014) |
+| CBCS:21-45DB4BC-045 Reflections #14 CBCS 9.8 | $11* | $8–$35 | Estimated from asking prices; not confirmed sales. Same Kabuki Reflections #14 David Mack cover and UPC 75960605781801411 visually matched. Current fetched listing asks $10.98 for unsigned raw seller-rated VF/NM 9.0; owned copy is CBCS 9.8. Rounded raw anchor used without unsupported grading premium; may understate slab value. Comparable has no cert. Shipping $4.99 excluded. No documented limited print run. No rarity premium inferred. [Source](https://www.ebay.com/itm/800705236559) |
+
+Remaining: 24 graded estimates; 6 raw identity/finish gaps. Unassessed raw references remain outside the total. Detailed source records, exclusions and original research preserved in [research](../data/incoming/2026-11-26-appraisal-loop-1-research.json).

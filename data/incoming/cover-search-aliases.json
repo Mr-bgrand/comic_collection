@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T04:27:44.825Z",
+  "updatedAt": "2026-11-26T16:00:28.875Z",
   "entries": [
     {
       "copyIds": [
@@ -505,6 +505,47 @@
       "verifiedBy": "Owned slab and downloaded listing photo visually matched November24",
       "sellerStatedPrintRun": 120,
       "gradeCaution": "Raw seller9.4 versus ownedCGC9.8. Printed signature is facsimile. No slab premium assumed."
+    },
+    {
+      "copyIds": [
+        "CBCS:21-45DB4BC-045"
+      ],
+      "catalogVariant": "Reflections #14",
+      "searchAliases": [
+        "Kabuki Reflections 14 David Mack Icon 2009",
+        "75960605781801411"
+      ],
+      "visualFeatures": "Blue purple wash, woman with black face marks, Kabuki reflections masthead",
+      "sourceUrl": "https://www.ebay.com/itm/800705236559",
+      "verifiedBy": "Owned scan and downloaded listing photo visually compared November 26, 2026; matching barcode",
+      "gradeCaution": "Raw seller VF/NM 9.0 versus owned CBCS9.8; appraisal uses raw anchor only"
+    },
+    {
+      "copyIds": [
+        "CGC:4137946001"
+      ],
+      "catalogVariant": "All-New Ghost Rider: Engines of Vengeance #1 Second Printing",
+      "searchAliases": [
+        "All New Ghost Rider volume 1 TPB second print 2016 Tradd Moore",
+        "Engines of Vengeance collected second printing"
+      ],
+      "visualFeatures": "Orange cover, skull upper right, Robbie foreground, black Engines of Vengeance footer",
+      "sourceUrl": "https://www.ebay.com/itm/127448798148",
+      "verifiedBy": "Owned slab and cover identify collected volume; comparable title only, photo not verified",
+      "gradeCaution": "Exclude 2014 single issue and guide aggregate; two secondary raw TPB rows only"
+    },
+    {
+      "copyIds": [
+        "PSA:114218230"
+      ],
+      "catalogVariant": "2024 Topps Sapphire Rookie Autograph-Red",
+      "searchAliases": [
+        "Maason Smith Sapphire RA-MSM red auto /5",
+        "Maason Smith RAMSM Sapphire rookie autograph red"
+      ],
+      "visualFeatures": "Red shattered-glass Sapphire field, white Jacksonville jersey, blue autograph, serial 4/5",
+      "verifiedBy": "Owned PSA_114218230_FRONT.jpg label and card inspected November 26, 2026",
+      "gradeCaution": "PSA10; distinguish non-Sapphire red/geometric and non-autograph #267"
     }
   ]
 }

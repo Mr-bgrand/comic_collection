@@ -1328,7 +1328,82 @@
       "source": "manual",
       "fetchedAt": "2026-08-30T19:52:44.246Z",
       "certUrl": "https://www.cbcscomics.com/grading-notes/21-45DB4BC-045",
-      "imageSource": "owner"
+      "imageSource": "owner",
+      "valuation": {
+        "observations": [
+          {
+            "id": "2026-11-26-appraisal-loop-1-CBCS-21-45DB4BC-045",
+            "copyId": "CBCS:21-45DB4BC-045",
+            "basis": "owner",
+            "value": 11,
+            "currency": "USD",
+            "source": {
+              "name": "Owner-authorized comparative appraisal*",
+              "url": "https://www.ebay.com/itm/800705236559",
+              "asOf": null,
+              "retrievedAt": "2026-11-26T15:59:43.806Z"
+            },
+            "match": {
+              "identity": {
+                "kind": "comic",
+                "title": "Reflections",
+                "issue": "14",
+                "issueYear": "2009",
+                "publisher": "Marvel/Icon",
+                "variant": "",
+                "upc": "",
+                "barcode": "",
+                "supplement": "",
+                "coverCode": "",
+                "volume": "",
+                "printing": "",
+                "edition": "",
+                "language": "",
+                "labelCategory": "Certified",
+                "labelType": "",
+                "signatures": "",
+                "restoration": "",
+                "qualifiers": ""
+              },
+              "grade": "9.8",
+              "grader": "CBCS",
+              "condition": null,
+              "status": "exact"
+            },
+            "reviewStatus": "accepted",
+            "provisional": true,
+            "provisionalReason": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $8-$35, not a statistical interval. Estimated from asking prices; not confirmed sales. Same Kabuki Reflections #14 David Mack cover and UPC 75960605781801411 visually matched. Current fetched listing asks $10.98 for unsigned raw seller-rated VF/NM 9.0; owned copy is CBCS 9.8. Rounded raw anchor used without unsupported grading premium; may understate slab value. Comparable has no cert. Shipping $4.99 excluded. No documented limited print run. No rarity premium inferred. Shipping/tax excluded. Target match describes owned copy only.",
+            "reviewEvidence": {
+              "url": "https://www.ebay.com/itm/800705236559",
+              "reviewedAt": "2026-11-26T15:59:43.806Z",
+              "reviewedBy": "Owner-authorized broader appraisal policy November 22",
+              "notes": "Owner-authorized provisional comparative appraisal*, not an exact-grade confirmed sale. Judgment range $8-$35, not a statistical interval. Estimated from asking prices; not confirmed sales. Same Kabuki Reflections #14 David Mack cover and UPC 75960605781801411 visually matched. Current fetched listing asks $10.98 for unsigned raw seller-rated VF/NM 9.0; owned copy is CBCS 9.8. Rounded raw anchor used without unsupported grading premium; may understate slab value. Comparable has no cert. Shipping $4.99 excluded. No documented limited print run. No rarity premium inferred. Shipping/tax excluded. Target match describes owned copy only.",
+              "targetMatchOnly": true,
+              "comparableMatch": "inexact; see notes",
+              "range": {
+                "low": 8,
+                "high": 35,
+                "currency": "USD"
+              },
+              "scarcity": "No documented limited print run. No rarity premium inferred.",
+              "comparables": [
+                {
+                  "price": 10.98,
+                  "url": "https://www.ebay.com/itm/800705236559",
+                  "status": "Fetched fixed-price ask, unsigned raw VF/NM 9.0, Icon 2009; photo matches owned cover/barcode. No sale date."
+                }
+              ],
+              "priorResearch": [],
+              "refresh": "Fetched eBay listing and downloaded listing photo November 26, 2026; Buy It Now displayed. MyComicShop has no own stock; its eBay referral led to this listing. Native browser not verified."
+            }
+          }
+        ],
+        "selection": {
+          "observationId": "2026-11-26-appraisal-loop-1-CBCS-21-45DB4BC-045",
+          "locked": true,
+          "selectedAt": "2026-11-26T15:59:45.264Z"
+        }
+      }
     }
   ],
   "updated": "2026-08-30"

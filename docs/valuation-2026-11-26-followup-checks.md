@@ -1,0 +1,11 @@
+# November 26 follow-up evidence
+
+Two estimates accepted in appraisal-loop-1: Ghost Rider collected second printing $27* and Kabuki Reflections 14 $11*. Both use raw anchors without an invented slab premium. Remaining: 24 graded estimates (18 comics, 6 cards), plus six raw identity/finish gaps.
+
+Reflections: owned and listing photos match artwork and UPC 75960605781801411. Listing 800705236559 displayed Buy It Now $10.98, unsigned VF/NM 9.0; not a completed sale. MyComicShop itself has no stock. Signed listing 294099393735 is excluded. Saved photo: data/originals/reflections-nov26.jpg.
+
+Ghost Rider: the PriceCharting guide mixes the 2014 issue with collected volumes. Only the two explicitly collected-volume rows are retained; the guide aggregate is excluded. Underlying eBay fetches failed and earlier native browser fallback returned Access Denied, so these remain secondary reports with unavailable transaction photos.
+
+Card checks, not accepted: [Sports Card Investor](https://www.sportscardinvestor.com/cards/maason-smith-football/2024-topps-chrome-sapphire-edition-rookie-autographs-red-ra-msm) exposes no usable numeric prices for the Sapphire red autograph. Owned photo PSA_114218230_FRONT.jpg confirms TOPPS SAPPHIRE ROOKIE AUTOGRAPH-RED, PSA10, serial 4/5; this is the relevant Sapphire family, but the guide supplies no price. [eBay product 18076714527](https://www.ebay.com/p/18076714527) describes Red Geometric /5 but is sold out without a price; geometric is distinct from plain Red. [Breakninja checklist](https://www.breakninja.com/football/2024-Topps-Chrome-Football-Checklist-Jacksonville-Jaguars.php) separately lists Red Refractor and Red Geometric /5. Search results for Blue /150 and base RA-MSM prices are not accepted as exact red comparables. Wilwolf Blood Red query yielded no usable priced match in the returned results; no claim that all marketplaces are exhausted.
+
+Next actionable work: search confirmed Sapphire Red autograph aliases RA-MSM and RAMSM, then pursue seller photos and related Sapphire autograph parallels with explicit differences. No rarity multiplier inferred from /5 alone. Continue the saved cover-alias queue for all 24 remaining graded items.

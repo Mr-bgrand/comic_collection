@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T15:57:59.238Z",
+  "updatedAt": "2026-11-26T15:59:43.806Z",
   "method": "docs/valuation-cover-research-method.md",
   "items": [
     {
@@ -286,26 +286,6 @@
       ]
     },
     {
-      "copyId": "CGC:4137946001",
-      "title": "All-New Ghost Rider: Engines of Vengeance",
-      "grade": "9.4",
-      "front": "4137946001_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json",
-      "latestChecks": [
-        {
-          "copyId": "CGC:4137946001",
-          "cert": "4137946001",
-          "status": "no-exact-grade-row",
-          "checkedAt": "2026-11-15",
-          "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/287965/marvel-comics-all-new-ghost-rider-engines-of-vengeance-1",
-          "value": null,
-          "finding": "Live browser certificate search -> analyze verified Engines of Vengeance collected Second Printing Universal 9.4. Owned grade row has zero reported sales and no estimate. Adjacent grades excluded.",
-          "nextAction": "Seek exact grade actual slab transaction or active listing; no raw or adjacent grade substitution."
-        }
-      ]
-    },
-    {
       "copyId": "CGC:4177706002",
       "title": "Do You Pooh?",
       "grade": "9.8",
@@ -356,14 +336,6 @@
           "nextAction": "Seek exact grade actual slab transaction or active listing; no raw or adjacent grade substitution."
         }
       ]
-    },
-    {
-      "copyId": "CBCS:21-45DB4BC-045",
-      "title": "Reflections",
-      "grade": "9.8",
-      "front": "21-45DB4BC-045_OBV.jpg",
-      "status": "Further exact-match evidence needed",
-      "researchLedger": "data/incoming/2026-11-15-deeper-batch2-research.json"
     },
     {
       "copyId": "CGC:4350046008",

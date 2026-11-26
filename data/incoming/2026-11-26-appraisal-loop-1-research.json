@@ -1,0 +1,66 @@
+{
+  "reviewedAt": "2026-11-26T15:59:43.806Z",
+  "policy": "Owner-authorized comparative appraisal; no underlying exact-match assertion. No rarity premium without evidence.",
+  "items": [
+    {
+      "copyId": "CGC:4137946001",
+      "value": 27,
+      "range": [
+        20,
+        50
+      ],
+      "url": "https://www.pricecharting.com/game/comic-books-all-new-ghost-rider/all-new-ghost-rider-2nd-print-1-2014",
+      "reason": "Owned slab and cover identify the 2016 second-print collected Engines of Vengeance volume, not the 2014 single issue. Two raw collected-volume rows report $30 and $26.95; use rounded lower anchor, with no slab premium. Secondary sale reports over a year old; transaction photos and condition unavailable. Reject guide aggregate and single-issue rows. The second row has an ambiguous catalog year.",
+      "scarcity": "Print run unverified; missing graded sales do not establish rarity.",
+      "refresh": "PriceCharting rows checked November 26, 2026. eBay fetch failed; earlier native-browser fallback failed Access Denied. No direct sale verification.",
+      "comparables": [
+        {
+          "date": "2025-11-15",
+          "price": 30,
+          "url": "https://www.ebay.com/itm/127448798148",
+          "status": "Secondary reported raw TPB second-print sale; title specifies Marvel 2016. Not the alternate $39.99 displayed amount."
+        },
+        {
+          "date": "2025-06-23",
+          "price": 26.95,
+          "url": "https://www.ebay.com/itm/156903055279",
+          "status": "Secondary reported raw Engines of Vengeance volume 1 second-print sale; catalog year ambiguous."
+        }
+      ],
+      "title": "All-New Ghost Rider: Engines of Vengeance #1 Second Printing CGC 9.4",
+      "priorResearch": [
+        {
+          "copyId": "CGC:4137946001",
+          "cert": "4137946001",
+          "status": "no-exact-grade-row",
+          "checkedAt": "2026-11-15",
+          "url": "https://comicbookrealm.com/cgc-analyzer/comic/id/287965/marvel-comics-all-new-ghost-rider-engines-of-vengeance-1",
+          "value": null,
+          "finding": "Live browser certificate search -> analyze verified Engines of Vengeance collected Second Printing Universal 9.4. Owned grade row has zero reported sales and no estimate. Adjacent grades excluded.",
+          "nextAction": "Seek exact grade actual slab transaction or active listing; no raw or adjacent grade substitution."
+        }
+      ]
+    },
+    {
+      "copyId": "CBCS:21-45DB4BC-045",
+      "value": 11,
+      "range": [
+        8,
+        35
+      ],
+      "url": "https://www.ebay.com/itm/800705236559",
+      "reason": "Estimated from asking prices; not confirmed sales. Same Kabuki Reflections #14 David Mack cover and UPC 75960605781801411 visually matched. Current fetched listing asks $10.98 for unsigned raw seller-rated VF/NM 9.0; owned copy is CBCS 9.8. Rounded raw anchor used without unsupported grading premium; may understate slab value. Comparable has no cert. Shipping $4.99 excluded.",
+      "scarcity": "No documented limited print run. No rarity premium inferred.",
+      "refresh": "Fetched eBay listing and downloaded listing photo November 26, 2026; Buy It Now displayed. MyComicShop has no own stock; its eBay referral led to this listing. Native browser not verified.",
+      "comparables": [
+        {
+          "price": 10.98,
+          "url": "https://www.ebay.com/itm/800705236559",
+          "status": "Fetched fixed-price ask, unsigned raw VF/NM 9.0, Icon 2009; photo matches owned cover/barcode. No sale date."
+        }
+      ],
+      "title": "Reflections #14 CBCS 9.8",
+      "priorResearch": []
+    }
+  ]
+}
