@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T15:59:43.806Z",
+  "updatedAt": "2026-11-27T16:01:54.273Z",
   "method": "docs/valuation-cover-research-method.md",
   "items": [
     {
@@ -335,7 +335,9 @@
           "finding": "Live browser certificate search -> analyze verified Parsons trade Universal 9.8. Owned grade row has zero reported sales and no estimate. Adjacent grades excluded.",
           "nextAction": "Seek exact grade actual slab transaction or active listing; no raw or adjacent grade substitution."
         }
-      ]
+      ],
+      "latestCheckAt": "2026-11-27T16:01:54.273Z",
+      "latestCheckReport": "docs/valuation-2026-11-27-source-rechecks.md"
     },
     {
       "copyId": "CGC:4350046008",
@@ -547,7 +549,9 @@
           "finding": "Shimmer Red162 guide115 has ZERO raw or graded rows; different finish, no transaction support. Do not use as sale. New actionable lead: regular RedRefractor162 indexed grade9 amount15.50 (search-products?q=seth+henigan+black+26); inspect actual row before appraisal. 2025RA-SH autograph73.50 is different year/set/autograph, excluded.",
           "status": "comparative-followup-needed"
         }
-      ]
+      ],
+      "latestCheckAt": "2026-11-27T16:01:54.273Z",
+      "latestCheckReport": "docs/valuation-2026-11-27-source-rechecks.md"
     },
     {
       "copyId": "TAG:G7325430",
@@ -660,7 +664,9 @@
           "proposedValue": null,
           "reason": "New indexed search found no exact identity/grader/numeric-grade priced transaction or offer. Prior owned photo review and exclusions remain applicable; no raw or other-grade substitution."
         }
-      ]
+      ],
+      "latestCheckAt": "2026-11-27T16:01:54.273Z",
+      "latestCheckReport": "docs/valuation-2026-11-27-source-rechecks.md"
     },
     {
       "copyId": "PSA:173415132",
