@@ -154,6 +154,7 @@ function search() {
   for(const {c,i} of matches) {
     const button=document.createElement('button');button.className='result';const identity=document.createElement('span');identity.textContent=c.title;
     const meta=document.createElement('small');meta.textContent=c.grade+' · '+c.container+' · '+(c.cert||c.id);identity.append(meta);
+    if(c.notes){const note=document.createElement('small');note.textContent=c.notes;identity.append(note);}
     const price=document.createElement('span');price.textContent=displayValue(c)+' ↗';button.append(identity,price);
     button.onclick=()=>{$('search-dialog').close();choose(i);if(rendererFailed)openRecord();};$('results').append(button);
   }
